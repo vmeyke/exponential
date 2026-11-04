@@ -985,6 +985,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>הדא פאתא בלחוד מתבציא: %from עדמא %to מן %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>כל גנסא דידעתא דעקרא ודתוספתא, ואיכנא זניא ומליותא משמשין ביה.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>גנסא דידעתא</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2317,6 +2325,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>אף פאתא דסיסטמא מצין דהוין גו נישנא: פתוחון פאתא (טויבא, עקבא דבוקיא, רשימתא דמפלחנא ...) וגבון „נישנא להדא פאתא” לעל מנה. איך הלין נישנא אית להון צורתא דגיגלא.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>לית לוכון תוב אפסנותא לפתחא דהדא פאתא הרכא. שקולון נישנא, או בעון מעלנא מן מדברנא.</translation>
     </message>
 </context>
 <context>
@@ -5166,6 +5178,210 @@
         <source>Go to the first page</source>
         <translation>אזלתא לפאתא קדמיתא</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>אחרנא</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 יומתא אחריא</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>תחומא דצביונא</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>כולהון מלא</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>כל מלתא</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>פתגמא חתיכא</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>שייכותא</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>שמא א–ת</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>שמא ת–א</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>משוחלפא, חדתא קדמיא</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>משוחלפא, עתיקא קדמיא</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>מפרסמא, חדתא קדמיא</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>מפרסמא, עתיקא קדמיא</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>משוחלפא</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>מצללנא</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>חזי מצללנא</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>טשי מצללנא</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>אפסיא</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>מפלחא</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>מלא</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>זנא דמליותא</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>חזי יתיר (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>גבי זנא חד דמליותא למבעא בחד מן סימנוהי.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>פלגותא</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>מן</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>עד</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>יומא דשורייא לא תריצא.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>יומא דסופא לא תריצא.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>מרא</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID דמפלחנא, שמא דמעלנא או כתובת אימייל.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>לא אשתכח מפלחנא ל“%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>לשנא</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>כל לישנא</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>דוכתא</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count דוכתא</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>פתורא לכל דפא</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>פתורא ל“%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>פתורא (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>סדרא איך</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>סדרא</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>מצללנא פעילא</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>שקלא דהנא מצללנא</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>או גבי מצללנא ושוי יתהון למחזי מליותא דמסתכמא בהון.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>מצללנא מזערין בעותא בתר דכתבת מלא.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>לא אשתכח פתורא ל“%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>לא אשתכח פתורא.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>שקול מצללנא חד מלעיל.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>תורגמא</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>סוערנא</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>תוקנא %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>תוקנא</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7515,6 +7731,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>טויבא &gt; עבדא ד cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>לא חד פלגא ד cron רהט עדכיל: סדרא דעבדא, מעלא, מודענותא ומחוינא דבציא מסכין. רהטון php bin/php/installcrontab.php --add --apply, או אוספון סרטא ד --show ל crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8059,8 +8279,8 @@
         <translation>מודענותא דזדקא דנסחא דסיומא שרשיא ודסופטויר דגבא תליתיא דעליל עם Exponential נטירן בפנקיתא דמבועא ובפנקיתא LICENSE, איך מא דרשיותא בעיא.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>הדא הי רשימתא דמעדרנא ד Exponential דיהבו רשיותא לעבדא דילהון לפולחנא ביד 7x תחית תנאי קימא דרשיותא דמעדרנא ד eZ Systems. איך מא דהנא קימא מפס, 7x מפלג כל עודרנא תחית הי רשיותא דפנקיתא דבה עליל עודרנא. רשימתא משמהא כל מעדרנא, ידעתא דאחינותא לא אלציתא ופנקיתא דעדרו בהין.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>מעדרנא דמתידעין על עבדא דילהון ב Exponential ובתוכנתא דמנה רבת, עם קבציא דעדרו להון. הדא תודיתא היא ולא מודעותא ד copyright: עודרניא ל Exponential משתלמין ל Exponential Foundation ו 7x תחית Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13882,32 +14102,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;בוחרנא ד Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;הוו הדמא דכנושתא ד Exponential, חלוף ושותפו&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; זדקא דנוסחא &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ואחרנא.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>מתזיע ב &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. לידעתא יתירתא חזון &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; זדקא דנוסחא &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ואחרנא.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> לידעתא יתירתא חזון &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; זדקא דנוסחא &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; ואחרנא.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;בוחרנא ד Exponential (מן 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;הוו הדמא דכנושתא ד Exponential, קבלו עודרנא ושותפו&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; זדקא דנוסחא &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; ואחרנא.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13916,6 +14124,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>מרכזא דעודרנא</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>מליותא</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>דפי כתבא</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>מפלחנא</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>זניא דמליותא</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>דוברא</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>דפא %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>חזי כל פתורא</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count פתורא</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>פתורא חד</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count עצתא</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>לית עצתא</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>עצתא לא אתטענו.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>עצתא</translation>
     </message>
 </context>
 <context>
@@ -14384,6 +14647,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>הדא מקימנותא חויא גליא הי: כל אנש מצא ידע למלתא דעברא דמדברנא דילה, ומלא דעברא דמדברנא לא מצין דמשתחלפן או מתחדתן. לא עלון הרכא מדם דיחידיא.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>מאנא דילוכון</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>עבדנותא דשלמותא</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14673,6 +14944,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>מדרשנא, בציא ואיכנא למודעא על פודא.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>מליותא חדתתא</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>מליותא חדתתא, מדם דכליא לבוחנא, וסוערנא על גביתא.</translation>
     </message>
 </context>
 <context>
@@ -15131,6 +15410,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>שוויא</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>API ד GraphQL: נוקזא דסופא דילה, סכמא ודוכתא לנסיונא דשואלא.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>שניאתא</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>שנויי תקנתא דנטירין כפנקיתא: מקמהון, ריהטיא, ארהט ואהדר לבסתר.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>מליותא חדתתא</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>מליותא חדתתא, מדם דכליא לבוחנא, וסוערנא על גביתא.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>פרסא פתגמא קביעא דאתרא ב־GitHub Pages או בכל מתחמא דגיט.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>פרסומא קביעא</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>גנסא דידעתא</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>כל גנסא דידעתא דעקרא ודתוספתא, ואיכנא זניא ומליותא משמשין ביה.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15295,6 +15614,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>חושבנא דאנש לא מפלח להון או דסניקין לחזיא; מבטלא, פתחא דקפלא או מפקא דילהון.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>עקבא דבוקיא דמפלחנא</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>מנו שחלף, על או אתכלי, לכל חושבנא; צללא ומפקא.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>מודענותא דעללא</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>מנו עלילא, עללא ועללא דלא אצלחו לכל יומא; פלטא דמפלחנא מן כל דוכא.</translation>
     </message>
 </context>
 <context>
@@ -22111,6 +22446,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>מן %n שעא</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>פוניא דשואלי נטירי ד API ד GraphQL, וזניא דמליותא דסכמא דילה.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>פרסא פתגמא קביעא ב־GitHub Pages או בכל מתחמא דגיט</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>פרסומא קביעא</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>סימתא מתנטרתא משמשא דפיא מן הדין משמשנא. למפרס פתגמא קביעא דאתרא בדוכתא אחריתא, ב־GitHub Pages או בכל מתחמא דגיט, אשתמש בפרסומא קביעא.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25652,6 +26003,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>סורקא אחריא</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>כתבתא לא מצלו לשקלא קפלא דמצבא (אחרייא %date): כל חדא עבדא כל פורענא דמטמרא עתיקא. %file לאזם הוי כתיבא לכל משמשנא דאתרא כאזל בשמה; ב NFS כאסניק NFSv4 יאן lockd.</translation>
     </message>
 </context>
 <context>
@@ -33600,6 +33955,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>מותבא דגמרו זבנהון דמעבדנא ד PHP מתשקלין ב PHP בנפשה (session.gc_maxlifetime), ולא בפאתא הדא ולא בפלגא דעבדא ד session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>מותבא עלילא דכל מפלחנא מתחוין, ומתפלטין, במודענותא דעללא, דפלחא עם כל מעבדנא דמותבא.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>פתחא דמודענותא דעללא</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37924,6 +38287,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>לעלם לא אית</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>עבדנותא דשלמותא</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>עללא אחריא דילוכון, נסיונא דלא אצלחו ושוחלפא במלתא דעברא, במונעא דברידא ובעללא בתרתין דרגא.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>עללא אחריא, נסיונא דלא אצלחו ושוחלפא דשלמותא דהנא חושבנא.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>בוחנא דעבדנותא</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count עללא דלא אצלחו</translation>
     </message>
 </context>
 <context>
@@ -44090,6 +44473,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>בתר עללא, מפלחנא חיב למגבא מלתא דעברא חדתא קדם דנעבד מדם אחרין. אמלו בה כד יהבין לאנש מלתא דעברא זמניתא.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>בחור צורתא דאיתא</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>פילא דצורתא דצבותא דבחרת מתכתבא לגו חקלא הדא. צבותא אחריתא לא משתניא.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>צורתא ד"%name" אתכתבא לגו חקלא הדא.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>חירא בתר צורתא</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>בציא צורתא בשמא</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>בציא</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>שקול צורתא ד"%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>שקול צורתא הדא</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ליתא צורתא דדמיא לבציאתוך.</translation>
     </message>
 </context>
 <context>
@@ -51014,6 +51433,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab לא אתכתב (%reason). וספו שרבתא הלין ל crontab דמפלחנא דאתרא מתרהט בה, או סדרא ומעליא ומודענותא ומחוינא דבציא לא מתרהטין לעלם:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>אקמתא מן דריש מתעבדא עם kickstarter (%file, הידין php bin/php/kickstarter.php run --apply) או עם אקמתא חדתא.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54893,6 +55316,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>סימתא דצרר גליא ד ezjscore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>מטמון ד GraphQL (פוניא וזניא דסכמא)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54979,6 +55406,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>נוסחא ד %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>גנסא דידעתא</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>גנסא דידעתא %string</translation>
     </message>
 </context>
 <context>
@@ -55805,6 +56240,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>צורתא ד SVG לא אשתמלי למתקריו, או לית בה מדם דמציא למתחזיו בטיבותא.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>צורתא לא מצאיא אתכתבא. מטו מנוך, מן ריש נסי, או מלל עם מדברנא דסייט.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>צבותא דבחירא ליתא, או לית לוך רשותא למקריא.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>צבותא דבחירא לית לה צורתא.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>פילא דצורתא דצבותא דבחירא לא מצאיא אתקריא.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>צורתא דצבותא דבחירא רבא מן מא דחקלא הדא שבקא: %1 בייטים.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56335,6 +56790,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>שמא דנישנא אשתחלף ל „%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>הדא פאתא בטילתא ילה גו הנא מעלנא דאתרא (%siteaccess). פתוחון נישנא גו מעלנא דאתרא דאית לה הדא פאתא.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>מודול דהדא פאתא לא ילה מתקנא או מפעלא הרכא.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>הדא פאתא לא איתיה תוב: למודול דילה לית חזיא הדכא.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>לא חד מן דורא דילוכון יהב לוכון אפסנותא לפתחא דהדא פאתא.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>לית לוכון אפסנותא לפלחנא דהנא מעלנא דאתרא.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>לית לוכון אפסנותא לקרינא דמליותא דהדא פאתא מחויא.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>הנא זנא דפאתא לא מציא דמתרשמא בנישנא: פלחא לחוד על טופסא, או פאתא דחד רפפא ילה.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>מונעא דהדא פאתא חסירא ילה.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>הדא פאתא לא מציא דמתפתחא השא.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56806,6 +57297,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>מדברנא דברידא סלא %count שליחותא במרהטא אחריא. בחון משמשנא דברידא וטויבא ד site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count גדשא מסכין ולא חד רהטא דעבדא ד cron דמודענותא אתרשם. אוספון פלגא ד cron „frequent” ל crontab, או רהטון exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63070,6 +63565,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>גבון אתרא או פלגותא אחרתא בגבינא דקטרא</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>בלחוד מדברנא דמרכבתא מצא לשוחלפא דמרא: רהטון ./console exp:content-check --fix-permissions --apply איך root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64603,6 +65102,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>סריקא</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>קלידא דחתמא עתיק יתיר מן שנתא: שחלפון לה עם exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68433,6 +68936,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>פלגא מן זבנא דפאתא</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>רמיא משמליא אתבעי</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>פאתא לא הות בסימתא דפאתא (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>סימתא דפאתא לא ענת</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>מתרהט</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>אתרהט ביד עקרא: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>משתמשנא מן סימתא דפאתא ב %ms ms. פאתא אתנטרת ב %stored ביד רמיא ד %render ms, קדם %age תנינתא.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>רמיא השא</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>דערא לחזוא מן סימתא</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>מן רמיא ב %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>הדא בעותא: משתמשנא מן סימתא דפאתא ב %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>מפלחנא</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>משודענא דמפלחנא</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>פרופיל דסימתא</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>הנא חזוא</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>סימתא דחזיא</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>לכל מפלחנא (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>פרופיל דסימתא דמפלחנא: מפלחנא דאית להון פרופיל חד משתותפין בקבצא דסימתא דחזוא</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>אין</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>שמא דמפלחנא</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>עליל</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>מותבא</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>מנואתא דקלידא דסימתא דחזוא דתוכנא דתליין במפלחנא, איך דקלידא שקיל להון, תחות ViewCacheTweaks דהנא דפא. מפלחנא דאית להון פרופיל חד משתותפין בקבצא דסימתא דחזואא, אלא אן מנואתא דחזוא גופה שחלפין (צביאתא, קלידא דצותנא): להון פרופיל דילהון, להנא דפא בלחוד.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>פרופיל</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>הנא חזוא (קטרא %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: כל מפלחנא דעליל אית לה קבצא דסימתא דילה.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks פעילא: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>מנתא</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>טימא</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>לית מנתא דתליא במפלחנא (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>הנא חזוא</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>נסחא איך כתבא</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>דורא</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>לא אתקריו מנתותא דדורא.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID דדורא</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>דורא</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>תחומא</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>מתמנא לות</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>מפלחנא</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>כנשא %name (מדעם %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>אתנסח</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>לא מצי לנסחא.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>שביק מן צותנא</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>עברא לא ידיעא</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>איך דילך</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>שחלפא</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>פרופיל דמקבלין סיורא לא ידיעא תחות ViewCacheTweaks חדא, עם צביאתא דעידיא, דלא מנואתא דחזוא: צותנא דקרא לסשן לא מצי מתשאל עליהון.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>צביאתא</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>לית אורחא דחזוא דתליא בצביאתא דמפלחנא (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>צביאתא דחזואא דהלין אורחתא דחזוא תליין בהון (CachedViewPreferences), עם ערכא דמפלחנא או דעידיא. אינון בפרופיל איך userpreferences, דכל אורחתא דחזוא אכחדא.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>אורחא דחזוא</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>צביא</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>עידיא</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>פוקדנא</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>מחויא פוקדנא דדורא (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>פוקדנא מתטענין מן שרתא כד הנא פלגא מתפתח, דפא חד בזבנא, ומצי מתצללין לפי מודול ופולחנא.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>פולחנא</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>כל מודולא</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>כל פולחנא</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>תחומא</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>מחויא יתיר</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>להלין דורא לית פוקדנא.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>לית פוקדנא דמסכם עם מצללנא.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown מן %matching פוקדנא (%total בכלה)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>נטען בעת הפתיחה.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, תפקיד, הגבלה</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>חיפוש במדיניות</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>טען עוד</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>מודול/פולחנא</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>כל התפקידים (%count כללי מדיניות)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>אין כלל מדיניות תואם.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown מתוך %matched כללי מדיניות</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>אין תשובה</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>מטשיא</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>חוי פושקין</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>טשי פושקין</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>פתחא</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>פתחא דכל</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>סכרא דכל</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>קלידא או טימא</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>בציא במותבא</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>גנסא</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count יתיר</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>עמיק יתיר למחזיא</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>פסיק, %count אתוון בכולה</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>שרי</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>שמא דקוקי</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID דמותבא</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>מעבדנא</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>שבילא דנטרתא</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>קביעא דPHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>זמן חיין (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>קוקי</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>זמן חיין %s ש</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>מותבא דPHP דילך, היכמא דהוה כד אתפתח פלגא, לעלם לא אחרנא. טימי דקלידין דדמיין לרזא (טוקנין, האשין, מלי רזא) מטשיין (debugbar.ini SessionMask[]); כל שאר מתחזי היכמא דנטיר, אף ידיעתא דנשא.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count קלידין, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>רבא</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>מותבא ריקנא.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>לא אתשרי מותבא לבעותא הדא.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>תוספתא %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>עקרא ואחרנין</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>לא כל ערכין מתחזין: אית במותבא יתיר ממה דאפשר למכתב הכא.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count קלידין לא כתיבין.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>מסגרתא</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>טימי דדמיין לטוקן (JSON Web Token, ידיעת כניסה דרישא Authorization, קלידא פרטיא, כתבא אריכא hex או דאקראי) אף הינון מטשיין, מה דיהוי שמא דקלידהון (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>קלידא דמי לרזא (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>טימא דמי לטוקן.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>תחות קלידא מטשיא.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>מותבא ככתבא, מטשיא היכמא לוחא.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>מותבא רבא מן %size (debugbar.ini SessionWarnBytes): כל בעותא דמפלחנא הדין קרי כל מותבא, וכתב לה כד אשתני.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP נטר מותבא הדא בקבצין ואחיד קבצא כל זמן בעותא: בעותי דמפלחנא חד (כמה לשונין, קריאי AJAX) מסכין חד לחד.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>שבוק פתיח</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>רבא מן %size (debugbar.ini SessionWarnBytes): כל בעותא דמפלחנא הדין קרי כל מותבא.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits מן %count אתקריו מן סימתא</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>לא אתעביד טופסא (חזוא דאתקרי מן סימתא דחזוא לא עביד חד).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>פוקדא דדורא</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>דורא ופוקדנא</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>שונה מן אורחים בלא שם</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>כמו אורחים בלא שם</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70313,6 +71296,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>לא אשתדר</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>עבדא ד cron דמודענותא רשם הרכא כל רהטא דילה. אוספון פלגא frequent ל crontab, או רהטון exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>פלחון בכונסול: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76031,6 +77022,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>הנא סוגא לא פריסא הו; קרויא לא חזין לה.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>שניאתא</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>שנויי תקנתא דנטירין כפנקיתא: מקמהון, ריהטיא, ארהט ואהדר לבסתר.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>פרסא פתגמא קביעא דאתרא ב־GitHub Pages או בכל מתחמא דגיט.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>פרסומא קביעא</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>בבוחרנא</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>קרויא חזין להאדא דפא.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>מטשיא מן קרויא עד דאנש פרס לה.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>דפא השא בבוחרנא איתוהי. מטשיא מן קרויא עד דמתפרסא.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>דפא אתפרסת: קרויא חזין לה השא.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>דפא תוב סורטא איתוהי. מטשיא מן קרויא עד דמתבחרא ומתפרסא.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>פורסא השא</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>בלחוד משמשנא דאית לה דורא %role ולא כתב להאדא מפקתא מצא פרס לה.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>סוגא דעודרנא דמסכין לפורסא</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>מטשא לה מן קרויא עד דמתפרסא תוב.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>בחורא בחר לה בתר הכן. קרויא לא חזין לה עדכיל.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>קרויא חזין לה מן שעתה.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>מפק לה מן בוחרנא לעבדא יתירא. קרויא לא חזין לה.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>למטשא להאדא דפא מן קרויא?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>לבסתר להאדא דפא לסורטא?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>קרויא לא חזין תוב ל%title עד דאנש פרס לה תוב.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title הפך לסורטא לעבדא יתירא. קרויא עדכיל לא חזין לה, וסניק לבוחרנא חדתא קדם דמתפרסא.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>בוטלא</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>האלין סוגא בבוחרנא אינון. קרויא חזין להון מא דאנש דלא כתב מפקתא דהשא פרס להון.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76486,6 +77569,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>לא חד.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>עם אפליקאציא דשוררא</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>עם רמזא בברידא</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>עם רמזא דדוערא</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>עם קלידא דעללא</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>עם חושבנא בריא</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>עבדנותא דשלמותא</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>מתחויא איך מצדתא דילה; מונעא מתנטר איך דאמרין טויבא דנטורותא דידעתא דאתרא.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>לא אתרשם</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>דוכתא</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>בקורבא</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76729,6 +77852,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>דוברא דמאנא</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>עם אפליקאציא דשוררא</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>עם רמזא בברידא</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>עם רמזא דדוערא</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>עם קלידא דעללא</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>עם חושבנא בריא</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>עבדנותא דשלמותא</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>לא אתרשם</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>דוכתא</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>בקורבא</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76808,6 +77967,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>חזיא דמותבא דהנא מפלחנא</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>חושבנא דילוכון %login על %site השא אתפלח לעללא מן דוכתא דמנה לא על בזבנא אחריא:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>דוכתא בקורבא</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76846,6 +78013,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser על %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>מודענותא דעללא</translation>
     </message>
 </context>
 <context>
@@ -77054,6 +78225,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>לא אשתכח למבחר קלידא דעללא. בבעותא נסו תוב.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>חושבנא דעאלין בקלידא דעללא בלחוד לא מצין דנתפלחון במלתא דעברא הרכא: גבו „עללא בקלידא דעללא”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>קלידא דעללא ד %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>קלידא דעללא דבהון הנא חושבנא עאל. בטלו לקלידא דאית על מאנא דאבד או דאתגנב: לא מצא דנעול תוב. מרא דחושבנא מוסף חדתא בנפשה.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>חושבנא דיוכון סניק לקלידא דעללא</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>אוסיפו קלידא דעללא לחושבנא דיוכון</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>אוסיפו קלידא דעללא דתמשכון. מן בתר הדא עאלין אנתון בה חלף מלתא דעברא בלחוד.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>עללא בקלידא דעללא רהיב ושלים יתיר מן מלתא דעברא. אוסיפו חד השא, או משכו דלא הו.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>לא השא</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>בטלא דקלידא דעללא „%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>לא מצא דנעול תוב להנא חושבנא. אן הו הוא אחריא, מרא דחושבנא עאל במלתא דעברא, או אנתון סימין חדתא.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>בטלא דקלידא דעללא</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>בטלא</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>להנא חושבנא לית קלידא דעללא.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>משררנא</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>לא ידיעא</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>קלידא דעללא אחריא דיוכון: אוסיפו אחרנא קדם דשקלין אנתון לה.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>הנא חושבנא עאל בקלידא דעללא בלחוד (פוקדנא דקלידא דעללא): כד לא פיש חד, תוב עאל במלתא דעברא דילה.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>הנא הו קלידא דעללא אחריא דיוכון וחושבנא דיוכון לא מצא דנעול דלא הו. אוסיפו קדמיא קלידא דעללא אחרנא.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>קלידא דעללא „%name” אתבטל. לא מצא דנעול תוב להנא חושבנא.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77153,6 +78400,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>רמזא מן תוטפא דמשררנא דיוכון</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>קריבין אנתון למשפא ידעתא לעלם או למסרקו מכתבנותא.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>מלתא דעברא דיוכון וקלידא דעללא</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>מלתא דעברא דיוכון ורמזא מן תוטפא דמשררנא דיוכון</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>או:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>הנא חירנא לא מצא דנתפלח בקלידא דעללא. פלחו באורחא אחרתא, או בחירנא אחרנא.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>כד ממשכין אנתון, חירנא דיוכון שאל לחד מן קלידא דעללא דיוכון.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>משכו בקלידא דעללא</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77243,6 +78518,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>טויבא</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>שוחלפא דמלתא דעברא דנפשה, דמוניא דאלקטרוניא, דקלידא דעללא, דעללא בתרתין דרגא, דרמזא דפורקנא או דקלידא ד API, ומפקנא דמאנא אחרנא דנפשה.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>בריתא ותקנא דמפלחנא, מלי דעברא ומאנא דילהון, סדרא דחושבנא, שוררא או סורבא דחושבנא חדתא דמפלחנא, יהבא דדורא ותקנא דפוקדנא.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>שיפא דידעתא</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>סורקא דמזבלתא, שקלא דמאנא מנה ושקלא דמאנא סגיאא בזבנא חד.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>שקלא, פורסא ונטרא דמליותא</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>שקלא דמליותא (אף למזבלתא), פורסא ונטרא דכתבא קדמיא; משתאל כד משתדר פורמא. מבטל מן ריש.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>קדם עבדא רגישא, מפלחנא דעאל תוב משרר מנו הו: במלתא דעברא דילה ובקלידא דעללא, או דלא קלידא דעללא במלתא דעברא דילה וברמזא דתוטפא דמשררנא דילה. פאתא דאתרותא בלחוד שאלן: מנגנא REST, SOAP, WebDAV, עללא ד expservices וסורגא דפוקדנא לעלם לא שאלין.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>איכא דסדרא מתפלחין</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>סדרא ל</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>כל מעלנא דאתרא</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>מעלנא דאתרא %name בלחוד</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>פתחא</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>מנו משתאל: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>רשומו כנשא דמפלחנא דתשאלון לבני כנשא בלחוד (מתקננא, למתלא). לא רשים: כל מפלחנא.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>נטיר ב settings/override/site.ini.append.php, לכל מעלנא דאתרא. נטרא שאל מנכון דתשררון דאנתון הויתון.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>נטיר ב settings/siteaccess/%name/site.ini.append.php. סימא ב settings/override זכא עלוהי. נטרא שאל מנכון דתשררון דאנתון הויתון.</translation>
     </message>
 </context>
 <context>
@@ -77345,6 +78684,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>פתחא דפאתא</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from עד %to מן %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>שמא דמפלחנא או ID דמפלחנא: חושבנא דעלוהי הוא גדשא או מפלחנא דעבד סוערנא.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>חושבנא</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>סוערנא</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>בתר</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>כל פלטא</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>קדם</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>עבודא</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>סרקא</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>גמירא</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>גדשא מתנטרין %days יומתא.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>גדשא מתנטרין עדמא דמשתקלין באידא.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>גדשא</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>כל סוערנא</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>כלהון גדשא דהנא חושבנא</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>מפקא דרשימתא איך CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>לא אצלח</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>מן</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>צללא דרשימתא</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>לית גדשא דשוא.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>בכל פאתא</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>רשמא בטילא גו audit.ini ([UserAuditSettings] UserAudit); רשימתא מחויא מדם דאתרשם מן קדם.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>אתכלי</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>פלטא</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>מחויא</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>לוחא דעקבא דבוקיא דמפלחנא ליתוהי. ברון לה עם php update/common/scripts/6.0/createuseraudittable.php; עדמא להי עדנא פנקיתא דבוקיא נטרן כל גדשא.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>הדא פאתא סניקא לבית ידעתא ד SQL; לא מתמציא על MongoDB. פנקיתא דבוקיא נטרן כל גדשא.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>עד</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>עקבא דבוקיא דמפלחנא</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>מפלחנא</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>אמתי</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>איכא</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>מנו שחלף, ברא, אפעל, אבטל, שנא או שקל אינא חושבנא, מנו על או אתכלי, ואילין דורא אתיהבו: סטרא חד לכל גדשא, עם חקלא קדם ובתר. מלא דעברא וארזא ממתום לא מתרשמין.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>כנשא</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>מטכסתא</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>לא ידיעא</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>חמיא דחושבנא דילוכון</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>רמזא דדוערא אתפלח לעללא לחושבנא דילוכון %login על %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>רמזא דדוערא אתפלח</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>חושבנא</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>מונעא בקורבא</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>בעו מלתא דעברא חדתא דתעלון תוב, או אתחברו עם מדברנא דאתרא.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>בעתא דמלתא דעברא חדתא</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>כל רמזא דדוערא פלח חד זבנא. אן אובדתון תליפון דילוכון, טיבו תוב אפליקאציא דשוררא ונטורו רמזא חדתא דדוערא בדוכתא שלימתא.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>נסיונא דעללא דלא אצלחו לחושבנא דילוכון</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>מן השא ולהל, עללא בעא רמזא לבר מן מלתא דעברא דילוכון. אן אחתון עבדתון הדא, לא סניקיתון למעבד מדם.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>אן אחתון הויתון וטעיתון מלתא דעברא דילוכון, בעו חדא חדתא. אן לא, גבון מלתא דעברא חילתניתא יתיר ופעלו עללא בתרתין דרגא.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>אן לא אחתון הויתון, אנש מצא דידע מלתא דעברא דילוכון: שחלפוה השא ובצו איכא חושבנא דילוכון עלילא.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>רמזא דדוערא דפשו</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>בוחנא דמאנא דילוכון</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>זוהרא דשלמותא</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>אנש נסא למעל לחושבנא דילוכון %login על %site עם מלתא דעברא לא תריצתא %count זבנא חד בתר חד.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>הוא גדשא דשלמותא בחושבנא דילוכון %login על %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>הנא זוהרא דשלמותא על חושבנא דילוכון. משתדר על כל שוחלפא איך הנא ולא מצא דמתבטל.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>זבנא</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>עללא בתרתין דרגא אתבטל לחושבנא דילוכון %login על %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>עללא בתרתין דרגא אתבטל</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>עללא בתרתין דרגא אתפעל לחושבנא דילוכון %login על %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>עללא בתרתין דרגא אתפעל</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>חושבנא דילוכון %login על %site אתקפל בתר סגיאא עללא דלא אצלחו.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>חושבנא דילוכון השא נטיר בלחוד במלתא דעברא דילוכון. אן לא אחתון עבדתון הדא, פעלו תוב עללא בתרתין דרגא בתר דשחלפתון מלתא דעברא דילוכון.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>חושבנא דילוכון אתקפל</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>קלידא דעללא אתוסף לחושבנא דילוכון %login על %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>כל מן דאחיד הנא קלידא דעללא מצא דנעול לחושבנא דיוכון דלא מלתא דעברא דיוכון. אן לא אנתון אוסיפתון לה, שקולו לה תחית קלידא דעללא ושחלפו מלתא דעברא דיוכון.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>קלידא דעללא אשתקל מן חושבנא דילוכון %login על %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>לא מצא דנעול תוב לחושבנא דיוכון. אן לא אנתון שקלתון לה, בצו קלידא דעללא ומאנא דיוכון.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>קלידא דעללא אתוסף לחושבנא דיוכון</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>קלידא דעללא אשתקל מן חושבנא דיוכון</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>עבדנותא דשלמותא</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>עבדנותא דשלמותא ד %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>עלילא</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>נסיונא דעללא דלא אצלח</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>פליטא</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>מותבא אתפלטו</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>עללא מן מאנא חדתא</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>עללא מן דוכתא חדתא</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>איתיותא אשתררת („שררו דאנתון הויתון”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>בוחנא דאיתיותא לא אצלח</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>עלילא עם קלידא דעללא</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>עללא עם קלידא דעללא לא אצלח</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>עללא אתכלי: רמזא דעללא בתרתין דרגא חסירא או לא תריצא</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>רמזא דעללא בתרתין דרגא לא תריצא</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>חושבנא אתקפל בתר עללא דלא אצלחו</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>חושבנא אתפתח</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>מלתא דעברא אשתחלפת</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>שוחלפא דמלתא דעברא לא אצלח</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>מלתא דעברא אתטיבת מן דריש</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>מלתא דעברא חדתא אתבעית</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>מונעא דברידא אשתחלף</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>שמא דמפלחנא אשתחלף</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>עללא בתרתין דרגא אתפעל</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>עללא בתרתין דרגא אתבטל</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>רמזא דדוערא אתפלח</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>רמזא חדתא דדוערא</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>מלתא דעברא דאפליקאציא אתברית</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>מלתא דעברא דאפליקאציא אתבטלת</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>קלידא דעללא אתוסף</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>קלידא דעללא אשתקל</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>חושבנא אתפעל</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>חושבנא אתבטל</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>כל</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>עללא ומותבא</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>שוחלפא דחושבנא</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>סניק לחפיטותא</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>מן לותכון</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>מן מפלחנא</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>מן %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>אורחא</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>חירנא</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>מרכבתא דפולחנא</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>מאנא</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>אתרא גוניא</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>מדינתא</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>מותבא</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>אינין</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>אורחא דשודרא</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>נסיונא דלא אצלחו</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>רמזא דפשו</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>מעבדנא דעללא</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>עבדנותא דשלמותא</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>עבדנותא דשלמותא ד %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>עללא ושוחלפא בשלמותא דחושבנא דילוכון. אן חזיתון מדם דלא עבדתון, שחלפו מלתא דעברא דילוכון ופלטו מאנא דלא ידעיתון.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>עללא ושוחלפא בשלמותא דהנא חושבנא.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>מאנא דילוכון</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>שוחלפא דמלתא דעברא</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>לבסתר לחושבנא</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>עבדנותא דשלמותא לא מתרשמא</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>מתקריא מן רושמא דבוקיא דמפלחנא, דפתורא דילה expuser_audit חסירא או לא מסתמכא בהנא בית ידעתא. רהטון php update/common/scripts/6.0/createuseraudittable.php, או חודתא דבית ידעתא ד 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days יומתא אחריא</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>עללא ב %days יומתא אחריא</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>עבדנותא אחריתא דשלמותא</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>מחויא</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>לא אצלח</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>אתכלי</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>עדכיל לא אתרשמת עבדנותא דשלמותא.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>גדשא דשלמותא מתנטרין %days יומתא.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>גדשא דשלמותא מתנטרין עדמא דמדברנא שקל להון.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>מחתא דידעתא דעללא דילי</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>מותבא וגדשא דשלמותא דילוכון איך פנקיתא ד JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>מותבא לא מתכתבין באתרא הדין, ועל הדין לא אפשר לאפקא מאנא אחרנא. שחלפו מלתא דעברא דילוכון השתא.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count מותבא אחרנין אתפקו. השתא שחלפו מלתא דעברא דילוכון.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>לא הוה מאנא אחרנא עאל. השתא שחלפו מלתא דעברא דילוכון.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>תודה. עובדא אתרשים דילוכון.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>עובדא הדין לא צריך תיובתא.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>פאתא עבר זבנה. מדם לא אשתחלף; בבעותא נסו תוב.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>חמיא דחושבנא דילוכון</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>אן מדם הכא לא הוה אנתון, אפקו כל מאנא אחרנא, ובתר כן בחרו מלתא דעברא חדתא. מאנא דקיימין עאלין בדכרוני אף אנון מתפקין.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>כל מאנא בר מן הדין מתפק בבעותא דבתרה. ובתר כן אנתון בחרין מלתא דעברא חדתא.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>אין, אפקו מאנא אחרנא</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>אנתון הויתון?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>אין, אנא הוית</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>לא, חמו חושבנא דילי</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>עלילא</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>נסיונא דעללא דלא אצלח</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>פליטא</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>מותבא אתפלטו</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>עללא מן מאנא חדתא</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>עללא מן דוכתא חדתא</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>איתיותא אשתררת („שררו דאנתון הויתון”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>בוחנא דאיתיותא לא אצלח</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>עלילא עם קלידא דעללא</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>עללא עם קלידא דעללא לא אצלח</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>עללא אתכלי: רמזא דעללא בתרתין דרגא חסירא או לא תריצא</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>רמזא דעללא בתרתין דרגא לא תריצא</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>חושבנא אתקפל בתר עללא דלא אצלחו</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>חושבנא אתפתח</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>מלתא דעברא אשתחלפת</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>שוחלפא דמלתא דעברא לא אצלח</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>מלתא דעברא אתטיבת מן דריש</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>מלתא דעברא חדתא אתבעית</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>מונעא דברידא אשתחלף</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>שמא דמפלחנא אשתחלף</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>עללא בתרתין דרגא אתפעל</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>עללא בתרתין דרגא אתבטל</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>רמזא דדוערא אתפלח</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>רמזא חדתא דדוערא</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>מלתא דעברא דאפליקאציא אתברית</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>מלתא דעברא דאפליקאציא אתבטלת</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>קלידא דעללא אתוסף</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>קלידא דעללא אשתקל</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>חושבנא אתפעל</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>חושבנא אתבטל</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>כל</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>עללא ומותבא</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>שוחלפא דחושבנא</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>סניק לחפיטותא</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>עבדנותא דשלמותא</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>עבדנותא דשלמותא ד %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>עללא ושוחלפא בשלמותא דחושבנא דילוכון. אן חזיתון מדם דלא עבדתון, שחלפו מלתא דעברא דילוכון ופלטו מאנא דלא ידעיתון.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>מאנא דילוכון</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>שוחלפא דמלתא דעברא</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>עבדנותא דשלמותא עדכיל לא מתרשמא בהנא אתרא.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>עללא ב %days יומתא אחריא</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>נסיונא דלא אצלחו</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>עדכיל לא אתרשמת עבדנותא דשלמותא.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>מחתא דידעתא דעללא דילי</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>מותבא וגדשא דשלמותא דילוכון איך פנקיתא ד JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>מותבא לא מתכתבין באתרא הדין, ועל הדין לא אפשר לאפקא מאנא אחרנא. שחלפו מלתא דעברא דילוכון השתא.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count מותבא אחרנין אתפקו. השתא שחלפו מלתא דעברא דילוכון.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>לא הוה מאנא אחרנא עאל. השתא שחלפו מלתא דעברא דילוכון.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>תודה. עובדא אתרשים דילוכון.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>עובדא הדין לא צריך תיובתא.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>פאתא עבר זבנה. מדם לא אשתחלף; בבעותא נסו תוב.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>חמיא דחושבנא דילוכון</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>אן מדם הכא לא הוה אנתון, אפקו כל מאנא אחרנא, ובתר כן בחרו מלתא דעברא חדתא. מאנא דקיימין עאלין בדכרוני אף אנון מתפקין.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>כל מאנא בר מן הדין מתפק בבעותא דבתרה. ובתר כן אנתון בחרין מלתא דעברא חדתא.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>אין, אפקו מאנא אחרנא</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>אנתון הויתון?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>אין, אנא הוית</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>לא, חמו חושבנא דילי</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>מלתא דעברא</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>מלתא דעברא ורמזא דעללא בתרתין דרגא</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>מצעיותא ד REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>מצעיותא ד SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>עללא חד זבנא</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>עלילא קדם דמותבא נתרשמון</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>מודענותא דעללא</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>מנו עלילא באתרא, כמא זבנא חושבנא עאלין ולא מצלחין, ופלטא דמפלחנא מן כל דוכא. פלח עם כל מעבדנא דמותבא.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>מותבא אתפלט. מאנא סניק למעל תוב.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login אתפלט מן %count מותבא.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>ל %login לא הוא מותבא רהטא.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>לא חד חושבנא אית לה הנא ID, שמא דמפלחנא או מונעא דברידא.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>הנו מותבא דאחתון מפלחיתון. לשולמה, פלטו.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>הו מותבא כבר שלם הוא.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>פאתא עבר זבנה. מדם לא אשתחלף; בבעותא נסו תוב.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>מותבא לא מתרשמין בהנא אתרא (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>פתורא expuser_session חסירא</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>מותבא מתרשמין מא דאתברי: php update/common/scripts/6.0/createusersessiontable.php, או חודתא דבית ידעתא ד 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>השא ואדיום</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>מותבא רהטא</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>מפלחנא עלילא</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>עללא אדיום</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>נסיונא דלא אצלחו אדיום</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>פלטא דמפלחנא מן כל דוכא</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>כל מותבא דחושבנא שלם בבעותא דבתרה, אף אילין דמתנטרין ב „דכרוני”. פלחו בה אמתי דחושבנא מצא דנהוא באידיא לא תריצתא; והידין טיבו מן דריש מלתא דעברא דילה.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID דמפלחנא, שמא דמפלחנא או מונעא דברידא</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>פלטא מן כל דוכא</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>עלילא השא</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>%limit אילין דאתפלחו אחריאית מתחוין.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>מפלחנא</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>מאנא</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>מונעא</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>עלילא</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>פעילא אחריאית</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>סוערנא</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>הנא מאנא</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>לא אתרשם</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>פלטא</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>לא חד מותבא עלילא.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days יומתא אחריא</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>עללא ונסיונא דלא אצלחו מתמנין מן רושמא דבוקיא דמפלחנא, דליתוהי; מותבא חדתא מתמנין.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>יומא</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>עללא</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>נסיונא דלא אצלחו</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>מותבא חדתא</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>מעבדנא דמותבא: %handler. מותבא מתקרין מן פתורא expuser_session, מטל הנא מודענותא פלחא עם כל מעבדנא.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>עבדנותא חשידתא ב-%hours שעין דעברו</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>רשתא חדא לא אצלחת למיעל ל-%accounts חושבנין (%count נסיונין)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>חושבנא אתאחד בתר מיעלא דלא אצלחו</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count מיעלא דלא אצלחו בחושבנא חד</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>עאל מן %count מדינן בזבנא חד</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>עבדנותא דשלמותא</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>מותבא</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>מיעלא דלא אצלחו מתקרין מן ספר בדיקתא דמשתמשין, דלא איתוהי הכא.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>לית מדם חשיד: לית חושבנא עם מיעלא דלא אצלחו תוב ותוב, לית רשתא דמנסיא חושבנין סגיאין, לית חושבנא דעאל מן מדינן סגיאן.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>זוהרא דשלמותא לחושבנא דילוכון</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>הוא גדשא דשלמותא בחושבנא דילוכון %login: %event. אן לא אחתון הויתון, חמו חושבנא דילוכון ב %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>טויבא</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>שאל למליותא דהנא אתרא חקלא הנון בלחוד דסניקא להון פאתא, בחדא בעותא. סכמא אזל בתר זניא דמליותא; כל שואלא רהט בשולטנא דמפלחנא דמשדר לה.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>API ד GraphQL בטילא בהנא מעלנא דאתרא. פעל לה ב graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>בית כתבא ד GraphQL (webonyx/graphql-php 15) לא מתקים.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>נוקזא דסופא</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>בית כתבא</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>סכמא</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count זניא דמליותא, סכמא %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>שואלא</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>משחלפנא (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>מרהטא</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>פוניא</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>רהט…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>פוניא לא אשתכח למתקריו.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>שואלא רהט בשולטניך, עלילא בהנא מותבא.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count ב %seconds ש׳</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>בלא תחומא</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>עומקא</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>מסבכותא</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>פריטי לכל רשימא</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (קבוע %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>בעותא לכל משתמשא או קלידא</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>בעותא לכל כתובתא דלא ידיעא</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>שואלי נטירי בלחוד</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>שואלא רבא</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes בייטין</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>מסקא רבא</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>לית מעלנא דאתרא %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>מוטציי אתפעלו ב %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>מוטציי בטילו ב %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>API ד GraphQL אתפעל ב %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>API ד GraphQL בטיל ב %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>לא אפשר למכתב טויבא: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>סימתא דתיובתא אתדכיאת: %count תיובתא אשתקלו.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>סמן תיבותא דסמיך לשואלא למשקליה.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>לא אפשר למשקל שואלא: שואלא דאתא בתיקיתא ד PersistedQueryDirectoryList[] אשתקל עם פנקיתיה.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>שואלא נטירא אשתקל.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>מוטציי</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>פעיל</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>בטיל</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>מעלני דאתרא</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>איכא דה API ומוטציי דיליה עונין. כפתורי כתבין graphql.ini, כמה ד ./console exp:graphql:enable ו exp:graphql:disable עבדין.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>מעלנא דאתרא</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API ד GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>שוחלפא</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>בטל</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>מוטציי בטילין</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>מוטציי פעילין</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>פעל</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>תחומא</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] דהנא מעלנא דאתרא.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>סימתא דתיובתא</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>תיובתא דשואלי נטירי, נטירין לפום רשותא דמשתמשא ופגין כל אימת דמליותא מתפרסמא.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>אסכמא</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>תיובתא נטירין</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count תיובתא, %bytes בייטין</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>נטירין לכל היותר</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ש׳</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>פגא אחריא</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>דכי סימתא דתיובתא</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>שואלי נטירי</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>נטירין ב ./console exp:graphql:persist, או על ידי לקוחי (automatic persisted queries); מתקרין בשמא או ב SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>שמהא</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>רבותא</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>איכא</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>שקלא</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>משתלחא</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>נטירא</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>אין, שקול הנא שואלא</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>לית עדיין שואלא נטירא.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>קלידי ד API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>קלידי API דילך עם היקפא graphql:read (שואלי) או graphql:write (מוטציי). עביד ובטל יתהון בדפא מעלנא ד API, או ב ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>מעלנא ד API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>כל קלידי</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>קלידא</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>שמא</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>מרא</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>היקפי</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>שמושא אחריא</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>פעילא</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>זבנה גמר</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>בטילא</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>מתום לא</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>לית עדיין קלידא ד API עם היקפא ד GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>API ד GraphQL בטיל במעלנא דאתרא %siteaccess דמחוי להאי דפא; טבלא דלתתא מחויא היכא דעני.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>למעלנא דאתרא %siteaccess דמחוי להאי דפא.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>וובהוקי</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>כל מאורע דנוקזא דסופא בעי (publish, update, trash, delete, move, hide, reveal, mutation) משתדר ליה, חתימא, מן חולקא ד cronjob graphqlwebhooks. ./console exp:graphql:webhooks עביד הדא מלתא כהנא פלגא.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>מאורעי</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>כלהון</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>כל מעלנא דאתרא</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>תבירא</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>לית רזא</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>מסכי</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count שבוקי</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>משדרא אחריא</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>שדר בדיקא</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>אין, שקול הנא וובהוק</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>לית עדיין וובהוק.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>אוסף וובהוק</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>אוסף</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>משדרי אחריי</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>זבנא</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>פירא</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>מנויי</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>חדתותא חייתא לקליינטי: נגדא דמאורעי ב /api/graphql/subscribe, ו WebSocket (graphql-transport-ws) על Velocity. כל מאורע אזיל בלחוד למנויי דשליטין למקרא מליותיה.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>פתיחי השתא</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>יתיר פתיחי</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total בכלא, %user לכל משמשנא, %address לכל כתובתא</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>מנויי בלא שמא</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>אריכותא דנגדא</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>לא אפשר לאוספא וובהוק: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>וובהוק %name אשתני; רזא דחתימותיה קאים.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>לא אפשר למנטר רזא דחתימותא (טויבא &gt; רזי).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>וובהוק %name אתוסף. רזא דחתימותיה, מתחזי הדא זמנא בלחוד: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>לית וובהוק %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>וובהוק %name לא ענא: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>וובהוק %name ענא %status ב %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>סמן תיבותא דסמיך לוובהוק למשקליה.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>וובהוק %name אשתקיל.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>API ד GraphQL בטילא בהנא מעלנא דאתרא.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>בית כתבא ד GraphQL לא מתקים.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>פלח ב GET או ב POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>גושמא דבעותא לא הוא מדעם JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables לא הוא מדעם JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions לא הוא מדעם JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>שדר לשואלא ב POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>לית שואלא בבעותא.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>שואלא אריך מן %max בייטין.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>טעותא גואיתא דשרתא</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node סניק לחד בלחוד מן id, remoteId, path ו urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content סניק לחד בלחוד מן id ו remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>סמנא ד after לא יהבה הנא API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>לית שמא אחרנא דצורתא %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>הרכא שואלי נטירי בלחוד מתקבלין: שדר id דשואלא נטירא.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>hash דשואלא נטירא לא הוא SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>hash דשואלא נטירא לא שוא לשואלא.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>בעותא סגיאתא: לכל היותר %limit ב %window שניי. נסי תוב בתר %reset שניי.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>שואלא עמיק %depth דרגי; לכל היותר %max שריין.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>לשואלא אית עקימותא %complexity; לכל היותר %max שרי.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>בעותא הדא לא שריא למקרא סכמא (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search סניק לכתבא או למסננא (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument לא הוא תאריכא (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag סניק לחד בלחוד מן id, remoteId ו path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout סניק לחד בלחוד מן id, identifier ו urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>חקלא operations דבעותא multipart לאו בעותא חדא JSON הוא.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>חקלא map דבעותא multipart לאו מדעם JSON הוא.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>לית בבעותא multipart פנקיתא %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>שבילא דמפת חקלי צריך למשרי ב variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>פנקיתא %name לא אתת שלמא (טעותא דמסקא %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>פנקיתא %name רבא מן %max בייטין.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>לא אפשר למבדק פנקיתא %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>מוטציי בטילין בהנא מעלנא דאתרא (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>שדר מוטציא ב POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>עול למשחלפא מליותא.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>לקלידא ד API לית היקפא %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>מוטציא עם מותבא סניקא לסימנא דטופסא דמותבא (כותרתא X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl בטילא: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] לא מדכר שום מארחא.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>כתובתא צריכא למהוי כתובתא https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>מארחא %host ליתוהי ב graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>לא אפשר לאיתאה פנקיתא.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload זנא דמיעלנא בלחוד הוא.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>משתניא דזנא Upload נסיב פנקיתא מן בעותא multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>id רחיקא %remoteId כבר נסיב.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>למליותא כבר אית תורגמא ב %language: אשתמש ב updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>הב לפחות חקלא חד.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>לא אפשר למעבד מפקתא חדתא (למליותא אית סורטי סגיאי).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>מפקתא %version לאו סורטא היא.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent סניק לחד בלחוד מן id ו nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>דוכתא לא מצי לאשתנאה תחות נפשה.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>למליותא כבר אית דוכתא תחות %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>טימא דחקלא %field לא אפשר לנטרא.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>לית לשנא דמליותא %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>לית זנא דמליותא %class בסכמא.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>מליותא ליתה, או לא שרי לך למקריה.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>לא שרי לך למעבד הדא להנא מליותא.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>לזנא %class לית חקלא %field דשרי למכתב.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>חקלא %field יהיב תרתין זמנין.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>חקלא %field נסיב פנקיתא: שדריה כמסקא (בעותא multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>חקלא %field לא נסיב פנקיתא.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>חקלא %field סניק לטימא.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>פורמאט %format לחקלי כתבא עתירא בלחוד; %field נסיב טימיה כמה דאיתוהי (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>חקלא %field מחויב.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>לא אפשר למקרא HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content נסיב version עם id בלחוד.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>סימנא דחזותא קדמיתא לא תקין או זבנה גמר.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>לאו מקורא (https://host או https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>לאו היקפא ד API ד GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>שדר מנויי ל /api/graphql/subscribe (נגדא דמאורעי או WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>בעותא לא קריא שום עבידתא דכתבא.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>מנוי בעי חד שדה בלחוד.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>יתיר מדי מנויי פתיחי; נסי תוב בתר כן.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>אית לך %max מנויי פתיחי, יתירא דשרי.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>לכתובתך אית %max מנויי פתיחי, יתירא דשרי.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>מנויי בטילי בהנא מעלנא דאתרא.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>עול למהוי מנוי (סימנא או קלידא ד API דילך).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>שדר מוטציי ל /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>שניאתא</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>מקמא לא אתקרי: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>לוחי שניאתא עד כען ליתנון: ./console exp:upgrade --apply עביד להון.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count שניאתא לא אצלחו</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ריהטא אזיל, שרי מן %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>תקנתא קפילא: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>מסכיא</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>לא אצלח</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>יתמי</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ריהטא בתראה</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>עד כען ליכא</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>כל שניאתא</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>ריהטא מדמיא</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ריהטא דנסיונא</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>שניאתא מסכיא רהטו בגו עסקא דאתהדר לבסתר בתר כן: מדעם לא אתנטר. לתחת כתיב מה דכל חדא שניאת בבית ידעתא.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>מה דריהטא הוה עביד כען. מדעם לא משתני: כל שניתא מסכיא מחויא שנויין דהות עבדא, וריהטא מה דהוה עביד קדם ובתר.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>דמי</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>מרהטא</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>ריהטא דנסיונא לא אצלח: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>דמיונא צריך PostgreSQL או SQLite, דשנויי צורת לוחיהון מתהדרין לבסתר; בהדין בית ידעתא תרעא דלתחת מחויא מה דריהטא הוה עביד.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>שניאתא</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>שניתא</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>מקמא</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>מה דהות עבדא</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>דמיונא: %result ב־%ms מ״ש</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>עד כען ליכא שניתא.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>קדם ריהטא ובתריה</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>צורתא דקדם</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>מתנסבא, ומתהדרא כד שניתא לא מצלחא</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>מבטלא</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>צורתא דבתר</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>מתנסבא כד ריהטא אצלח</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total שניאתא: %pending מסכיא, %done גמירא, %failed לא אצלחו.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>תשעיתא דשניאתא</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>כל ריהטא עם מפלחניה, סביבותיה, צוריתיה ומה דאתחתם, אתסמן ואשתדר. ריהטא דלא אצלח או דאתפסק מתוסף; ריהטא דאתנסבת צורתא קדמוהי מתהדר לבסתר.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>ריהטיא לא אתקריו: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>לוחי שניאתא עד כען ליתנון: ./console exp:upgrade --apply עביד להון.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>מחויא</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>כל</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>ריהטיא</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>שרי</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>מן</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>צוריתא</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>גזא</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>סוערנא</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>קדם</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>בתר</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>שדרא: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>אוסיף</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>אהדר לבסתר</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>ליכא ריהטא בהדין מקמא.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>שרו הכא</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>ריהטיא, תוספתא ואהדרתא דשרו בהלין דפיא, עם מודעא דכל חד.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>מה</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>פלטא</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>אהדרתא</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>אהדרתא דְ%target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>ריהטא %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>מה דריהטא עבד, כתביה ורושמיה. ריהטא דשרי הכא אזיל בחשאי כד הדין דפא מתאחד; פתח דפא תוב למרדף בתריה.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>אוסיף הדין ריהטא</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>אהדר הדין ריהטא לבסתר</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>כתבא לא אתקרי: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>מקדמנותא</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>שרי מן %user ב־%time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>בדקין קודא ונסבין צורתא קדם ריהטא</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>רהט %id (%index מן %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done מן %total גמירין</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>שניאתא רהטו; מהדרין צורתא אן חדא לא אצלחת</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>נסבין צורתא בתר ריהטא, חתמין, סמנין ושדרין</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>מהדרין צורתא</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>ריהטא שלים. טענין מודעיה.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>מקדמנותא לא אתרדפת. טעון דפא תוב למחזי היכדין ריהטא אזיל.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>הדין דפא רדיף בתר ריהטא כד אזיל.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>טעון תוב</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>מודעא</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>זבנא</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms מ״ש</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>מה דריהטא כתב כפודי</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>כתבא</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>סביבותא</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ליכא</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>שלים</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>חתמא</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>סימנא</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>שדרא</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>שליחותא</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>שניאתא דהדין ריהטא</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>מבועא</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>רושמא דריהטא</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>סוף רושמא בלחוד מתחזי.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>רהט</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>שלים בלא מודעא</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>אצלח</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>לא אצלח</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>אתסרב</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>בית ידעתא לא הוה מטי</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>פודא גואה</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ריהטא אזיל</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind שרי מן %user ב־%time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>רדוף בתריה</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>תקנתא קפילא</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>ריהטא אחרינא אחיד קפילא (סלקא או ריהטא בקונסולא): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>גמירא</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>מסכיא</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>לא צריכא</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>לא ידיעא</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>אתהדרת לבסתר</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>אתעבדת</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>הות מתעבדא</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>אתנסבת לבסתר</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>הות מתנסבא לבסתר</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>לא רהטת</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>מסכיא לאחריתא</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>שנויא אתקביל</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>שנויא הוה מתקביל</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>מדמיא</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>שניאתא</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>מקמא</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>תשעיתא</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>אהדר %target לבסתר</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ריהטא מתהדר לצורתא דאתנסבת קדמוהי, שניתא חדא בְdown() דילה. אהדרת צורתא קדמיתא לחכימי היא. כל חדא רהטא בחשאי בשמך, בתר צורתא דמקמא דכען.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>מה דמתהדר לבסתר לא אתקרי: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ריהטא</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>שניתא חדא</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>צורתא קדמיתא</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>תחויתא</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>אין</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>צורתא</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>אתא</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>אתנסבת</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>זנא</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>פלגין לאהדרא</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>בית ידעתא</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>פנקיתא דגניזא (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>טויבא (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>אהדרת בית ידעתא מהדרא ליה לזבנא דצורתא, עם מותבייא: בתר כן אפשר דתתבעי למיעל תוב. כל מה דאשתני מן כדין אבד; קדמאה מתנסבא צורתא דמקמא דכען.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>ידענא מה דהדין מהדר</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>כתוב סימנא דצורתא תוב</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>אין, אהדר לבסתר</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>בוטלא</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ריהטיא דאתנסבת צורתא קדמיהון.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>בחר</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>עד כען ליכא ריהטא עם צורתא.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>שניאתא דאתעבדו דיכלן לאהדרא גרמהון (אית להון down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>ליכא שניתא דאתעבדת דאית לה down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>צוריתא קדמיתא (חכימי)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>עד כען ליכא צורתא.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>ארהט שניאתא</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>ריהטא אזיל בחשאי בשם %user, ודפיה מחויא ליה כד אזיל. קדם שניתא קדמיתא מתנסבא צורתא דתקנתא; כד שניתא לא מצלחא ריהטא קאים וצורתא מתהדרא.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>ריהטא דנסיונא קדמאה</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>מקמא לא אתקרי: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>שניאתא מסכיא</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>רהטן בהדין סדרא. סליק סימנא מן חדא למשבק לה, ולאלין דצריכן לה, לריהטא דבתר כן.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>ארהט</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>מדליק אורח נטירותא כד רהט.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>אשתניו בתר דאתעבדו</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>הלין פנקיתא לאו אינון דאתעבדו. ריהטא מסרב להון אלא אן שנויא מתקביל עם טעמא; לא רהטן תוב, מנינא חדתא מתכתב וטעמא מתנטר ברושמא דבדיקתא.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>קביל שנוייא</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>למה</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>בירירתא אינון שלמתא. כל תיבותא שבקא פסיעתא חדא.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>בלא צורתא</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>בלא צורתא קדם ריהטא ובתריה: תקלתא לא מתהדרא מגרמה.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>בלא אהדרתא</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>בתר תקלתא, שבוק תקנתא כמה דתקלתא שבקתה.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>נטור שנויין דלא אתחתמו</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>ארהט אף על גב דבטויבא, בתוספתא או בציורייא אית שנויין דלא אתחתמו; אינון עאלין לצורתא.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>בלא חתמא</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>לא תחתום פנקסא דמקמא ורושמא דריהטא (אף לא סימנא ולא שדרא).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>בלא שדרא</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>חתום וסמן, ברם לא תשדר.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>בלא סימנא</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>חתום ושדר, ברם לא תסמן ריהטא.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>אין, ארהט הלין שניאתא כען</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ליכא שניתא מסכיא.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>לבסתר למקמא</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>שנויי הדא תקנתא דמתכתבין זמנא חדא כפנקיתא (תוכנא, זניא, תפקידיא, טויבא, צורת לוחיא) ומתעבדין בכל תקנתא דאתרא באותו סדרא. ריהטא נסיב צורתא קדמאה, מהדר לה כד שניתא לא מצלחא, וכתיב, חתים ושדר מה דעבד.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>ארהט %count מסכיא</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>חזיא כלניא</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>מסכיא</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>גמירא</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>לא אצלח</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>לא צריכא</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>בית ידעתא</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>עסקי: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>שניאתא דאתרא בְmigrations/, ודתוספתא בְextension/&lt;name&gt;/migrations/. רהטן בסדר שמהתהון ובמה דצריכן.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ריהטא בתראה</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>פנקסא אשתני בתר דאתעבד.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>עד כען ליכא שניתא. ./console exp:migration:generate --skeleton &lt;name&gt; --apply כתיב קדמיתא.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>ריהטיא בתראי</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>כל ריהטיא</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>עד כען ליכא ריהטא.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>דמיון ריהטא צריך נמוסא migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ריהטא אזיל: דמי כד ישלים.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>טויבא</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target לאו ריהטא, לאו שניתא ולאו צורתא דהדא תקנתא.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>סמן קדמאה &quot;אין, אהדר לבסתר&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>אהדרת צורתא קדמיתא לחכימי היא: סמן &quot;ידענא מה דהדין מהדר&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>כתוב סימנא דצורתא תוב: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>בחר לפחות פלגא חד לאהדרא.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>להדין ריהטא ליכא צורתא דאתנסבת קדמוהי: אהדר שניאתיה חדא חדא, או אהדר צורתא קדמיתא.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>הדא שניתא לא יכלא לאהדרא גרמה: לא אתעבדת, או לית לה down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>טופסא לא אתקרי.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>בחר ריהטא לאוספא.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>סמן קדמאה &quot;אין, ארהט הלין שניאתא כען&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>בחר לפחות שניתא חדא.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>שניתא אשתניאת בתר דאתעבדת: קביל שנויא עם טעמא, או אהדר פנקסא.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>הב טעמא למה שניאתא דאשתניו מתקבלן.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>טעמא לכל היותר 500 אתוון.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>ריהטא דשרי הכא עדיין אזיל (%detail). סכי עד דישלים.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>ריהטא אחרינא אחיד קפילא דתקנתא: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>ריהטא צריך מפלחנא דעאל ואיתוהי.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>לא אשתכח תכנא דשורת פקודא דphp. שוי migration.ini [AdminSettings] PhpCliPath לאורחיה שלמא.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open מבטלא, ולכן ריהטא לא שרי הכא. ארהט ./console exp:migration:migrate --apply על שמשא.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>בית פנקיתא דריהטיא לא מתכתב: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>ריהטא שרי ברם לא אודע סימנא דעבידתיה. בדוק %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>אמר מה לאהדרא לבסתר.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>ריהטא לא יכל למשרי.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Ktava d-šuxlape</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Ma d-ktava kula, ay-d at šaxlit go idara aw go d-sedra d-ṣela d-ʾatra kmaṭre ʾax pasʿe d-mubarta: hawala, sinfe, šuġle u-qanune, pilge, mupalxane u-kenše, šimme xrene d-URL, tartibe. Mutwa-la ma d-xlislux, xzi ʾay mindi doqla, u-ʿwid minna mubarta.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Le-mṣelan qrela ktave: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Ṭablawe d-ktave lētun hel ʾatta: qamta dwuq tazawta (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Ktava ṭpiya-la go migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Šuxlapi</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Kkatwa bas ay-d at šaxlit, kul ʾeka d-šaxlit, hal d-mutwit-la.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Ktava</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>mən %time, hal ʾatta %count šuxlape.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Nišana (ʾixtiyari)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Mux ʾay mindi doqla</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Mutu ktava</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Šure ktava d-šuxlapi</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Paṭora ta kulle ʾatra</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Kkatwa kul šuxlapa d-kul mupalxana u-d-konsol hal d-sakri-le. Ma d-ptixlux, kšayli minnux d-msahdit d-at-iwit.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ptixa</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Skur paṭora</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Ptux paṭora ta kulle ʾatra</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Ktave</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Ḥsaba d-mupalxana (šəmma d-ʿwara, e-mail, xabra d-xila) u-dukane d-ḥsabe d-mupalxane čuʾ ga le-kkatwi.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Šuxlape</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Kulle ʾatra</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Šuxlape d-%name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Mutya</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Lēt ktava hel ʾatta.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Ktava %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Kulle ktave</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Mubarta d-paya minna</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Šuxlape kniše go xa pasʿa ta kul mindi d-šxilpa: ʾay-d mubarta d-ʿwida mən d-ay ktava gbe ʿawda.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Mṣe-la paya mubarta minna ma d-ay tanṣib hawe-le gnise d-pasʿe d-YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Šwiqa b-ʾirada: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Čuʾ mindi le-ktiwa.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>ʾAy mindi doqla</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count šuxlape, b-tartib d-ʿwide.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Šuxlapa</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Pasʿa</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Ta</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Xrene %count: ./console exp:migration:record:show kmaxwe kulle.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Šdi</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Kmašqla ktava u-ʾay mindi doqla. ʾAy-d šxilpa kpayəš šxilpa.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Hē, šdi ay ktava</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Kkatwa…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Šuxlapux kkatwi ta mubarta.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Kul šuxlapa go ay ʾatra kkatwa ta mubarta (paṭora ta kulle ʾatra).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Ktava d-kulle ʾatra šrela: kul šuxlapa d-kul mupalxana kkatwa hal d-mutwit-la.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Ktava šrela: šuxlapux kkatwi hal d-mutwit-la.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Ktava mutyala. ʾAy mindi doqla kpayəš hal d-šadit-la.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Ktava u-hawadise šqilun.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Lēt ktava %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Qamta nšun "Hē, šdi ay ktava".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Bas mupalxana d-ktula mṣe mutwa ktava d-majlis.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Gbi ktava d-mutya.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Ktava mən ay gnisa qamta kula.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Le-mṣelan šaxlexla ktava: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Ebid migratsia</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Shimma d-migratsia (bkhayra)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migratsia %file ktiwla. Shuḥlape d-la pasʿa mṣe ʿawid, mshumma b-reshit d-fayil, ʿwada b-ida.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>La migratsia ktiwla: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>ܪܘܢ ܐܪܝܟ ܒܦܘܠܓܐ</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ܚܩܠܐ ܣܪܝܩܐ ܢܛܪܝܢ ܣܝܡܬܐ ܕmigration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>ܐܬܪܘܬܐ ܠܐ ܝܬܝܪܐ ܡܢ ܗܠܝܢ</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>ܐܬܪܘܬܐ ܐܚܪܬܐ ܠܝܬ ܒܬܪ (ܪܦܦܐ)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>ܢܝܚܐ ܒܝܢܬ ܐܬܪܘܬܐ (ܪܦܦܐ)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>ܩܕܡܘܬܐ ܬܚܬܝܬܐ (1 ܥܕܡܐ 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>ܚܩܠܐ ܕܪܘܢ ܐܪܝܟ ܡܢܝܢܐ ܡܠܝܐ ܗܘ ܡܢ 1 (ܢܝܚܐ: ܪܦܦܐ ܡܢ 0 ܥܕܡܐ 60، ܩܕܡܘܬܐ: 1 ܥܕܡܐ 19)، ܐܘ ܣܪܝܩܐ.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>ܣܟܪ ܒܢܦܫܗ ܒ%time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>ܣܟܪ ܒܢܦܫܗ ܒܬܪ (ܩܛܝܢܬܐ، ܨܒܘܬܢܝܬܐ)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>ܩܛܝܢܬܐ ܡܢܝܢܐ ܡܠܝܐ ܗܘ ܡܢ 1 ܥܕܡܐ 44640 (31 ܝܘܡܬܐ)، ܐܘ ܣܪܝܩܐ.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>שניתא %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>שניתא חדתא</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>שניתא YAML: כתוב יתה ככתיבתא או בני דרגא דילה בטופסא, בחר יתה, ובתר כדין נטר יתה בתיקא דשניאתא.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>הדא שניתא כבר רהטת, ולהכי לא מתנטרא תוב: פנקיתא משניתא הות מתסרבא מן נטורא דסכום בוחרנא. עביד שנויא בשניתא חדתא.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>שרתא דרשתא לא יכיל למכתב פנקיתא.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>שורי פירושא דבריש אנון רישא (description, author, requires, environments, engines). כד דרגא מתוספא או משתניא בטופסא, שניתא מתכתבא תוב: פירושי דבין דרגא לא מתנטרין.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>שמא דשניתא</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>לאן אזלא</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>אתרא</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>כתיבתא YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>בוחרנא</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>נטרא</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>דרגא</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>קלידא</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>תוקנא</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>שניא לעל</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>שניא לתחת</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>שקלא</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>עד כען ליכא דרגא: אוסיף חדא בטופסא, או כתוב יתהון בכתיבתא.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>שני דרגא %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>אוסיף דרגא חדא</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>טופסא דדרגא מתעבד מן גנסא דילה: קלידא דילה, מה דכל חד מקביל, ואורחתא דהיא שייכא להון.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>גנסא דדרגא</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>מחויא טופסא דילה</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>לדרגא אית קלידא דגנסא דילה לא ידע; אנון משתבקין כד דרגא משתניא: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>אורחא</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>גו</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>בלחוד ב %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>קביעא: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>תנאיא, רמזיא ופירושא</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>זוגי שמא=טימא מפרשין בפסיקי. טימי דהדא דרגא: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>מתלא</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>שני דרגא</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>אוסיף דרגא</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>מה דאמר exp:migration:check: רישא, כתבא וכל דרגא בחירא מן גנסא דילה.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>שניתא עברא בוחרנא.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>חזיא קדמיא</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML היכמא דיתנטר.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>מחויא YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>שניאתא YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>רהטת</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>עד כען ליכא שניאתא YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>מתקננא</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>ליכא שניתא YAML %id בתיקי דשניאתא.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>בחר גנסא דדרגא.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>דרגא אתוספת. בחר שניתא קדם דתנטר יתה.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>דרגא אשתנית. בחר שניתא קדם דתנטר יתה.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>בחר דרגא.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>להדא דרגא ליכא טופסא (חוזרא, או גנסא דדרגא דליתה בהדא תקנתא): שני יתה בכתיבתא.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>בחר לאן אזלא שניתא: אתרא או תוספתא פעילתא.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file אתנטר. רהט ריהטא דנסיונא קדם דשניתא תרהט.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>לא אתנטר: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>רחיקי</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>תקנתא אחרניתא דהדא משדרא להון שניאתא דילה: שדרתא משדרא שניאתא לרחיקי דגביא ומרהטא להון תמן, כלהון כחדא ובשויותא. רחיקא לעלם לא נטר רזא: סהדותא דמעלנא דילה קריא שמא דחד בטויבא &gt; ארזא.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>רחיקא חדתא</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>עודרנא</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>בוחרנא דחוברא ד־%id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>כל רחיקי</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>עד %parallel רחיקי מתעבדין בזמנא חדא; פסעא חדא יכלא למסב %timeout שניי בכל חד.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>רחיקא</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>מונעא</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>סהדותא דמעלנא</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>כנשא</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>טויבא לתקנא</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>פנקיתא בלחוד (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>קלידא SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>מלתא דעברא</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>לא חד (סוכנא SSH וקלידא דמתחמא)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>בוחרנא דחוברא</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>שדרתא לכנשא אזלא לכל רחיקא דילה.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>שדר לרחיקי</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>עד כען ליכא רחיקא מתקן.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>רחיקא %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>מדעם לא משתדר ולא מתרהט הכא: נטרא כתב טויבא ב־settings/override/migration.ini.append.php. סהדותא דמעלנא היא שמא; טעמה פיישא בטויבא &gt; ארזא או בסביבותא.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>בדוק הלין טויבא</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>טויבא היכדין דאתכתבו, עד כען לא נטירין.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>בוחרנא חריא</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>טויבי כשרין. הלין שורתא יתכתבון:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>שודעא</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>שמא בלחוד; טימא קאים בטויבא &gt; ארזא</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>שורתא דיתכתבון</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>חוברא</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>קלידא דמתחמא</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. רחיקא</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>מה שמא דרחיקא ואידא סביבותא היא.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>סימנא</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>אתוותא, מניני, - ו־_, למשל production1. הוא שמא דרחיקא במודעי ובקונסולא (--remotes=production1) ולא משתני בתר כן.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... שדרתא בדרגי עברא בסביבתא בהדין סדרא.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>לא מחייבא, מפרשא בפסיקי, למשל production. שדרתא לכנשא אזלא לכל רחיקא דילה.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. חוברא</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>היכדין פנקיתא מטין לתמן, והיכא תקנתא איתה.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>על SSH, בלחוד מה דאשתני, עברתא דאתברת מתוספא. בחירתא טבתא היכא ד־rsync מתקן.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH עם scp לפנקיתא.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH עם sftp לפנקיתא.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>פנקיתא בלחוד: שניאתא משתדרין ומתקרין תוב, אבל לא מתרהטין תמן.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP על TLS; פנקיתא בלחוד.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>תקנתא אחריתא בהדין סרבר, בגו תיקא.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>מתחמא</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>שמא דמתחמא או מונעא, למשל node1.example.com. לא ל־local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>פורט</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>ריקנא: 22 ל־SSH, 21 ל־FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>מפלחנא</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>שבילא</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>עקרא דתקנתא תמן, למשל /var/www/site (ל־FTP: שבילא דחשבון FTP חזי).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>שורתא דפקודי PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI דתמן: php, או שבילא שלמא כמו /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>כתבי קונסולא מתרהטין תמן כ־root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>בלחוד כד מפלחנא דרחיקא הוא root (הנון מתרהטין הידין עם --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. סהדותא דמעלנא</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>היכדין הדא תקנתא עאלא תמן. שמא בלחוד מתנטר.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>לא חד</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>סוכנא SSH וקלידא דמפלחנא דהדא תקנתא רהטא בשמה (ותדירא ל־local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>קלידא פרטיא דנטיר כרזא.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>מלתא דעברא דנטירא כרזא (FTP עאל בה).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>שמא דרזא</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>רזא מן טויבא &gt; ארזא, למשל deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>טויבא &gt; ארזא</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>או משתנא דסביבותא</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>משתנא דפרוסס דסרבר דנטר לה, למשל DEPLOY_KEY (נטיר כ־env:DEPLOY_KEY). הוא נסב אתרא דשמא דרזא.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. קלידא דמתחמא</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>לא מחייבא, ל־SSH, sftp ו־rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>טביעותא דקלידא דמתחמא</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... היכדין ssh-keygen -l כתב לה. עמה, מתחמא חייב לאחזאה הדין קלידא; בלאה, קלידא מתילף בחוברא קדמאה.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. בוחרנא חריא</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>בדוק חוברא עם טויבא דלעיל, ובתר כן בדוק שורתא דמתכתבן.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>סלק הדין רחיקא</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>טויבא דילה מתנסבין מן settings/override/migration.ini.append.php. מדעם לא משתני ברחיקא, ושדרתי דילה פיישין בתשעיתא.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>אין, סלק הדין רחיקא</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>שדרתי</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>שדרתא משדרא שניאתא דהדא תקנתא לרחיקי דגביא ומרהטא להון תמן כמו %user, כלהון כחדא ובשויותא: כל רחיקא מתבדק קדמאה, וכד חד לא אצלח, כל רחיקא דעבד אתהדר לבסתר. היא אזלא בגו כסיא, ודפא דילה מחזיא כל רחיקא כד היא אזלא.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. רחיקי</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>סמן רחיקי, כנשא, או תרויהון.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>שדר לתמן</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. היכדין</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>שדר</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>שדר וארהט</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>שניאתא משתדרין, מתבדקין ומתרהטין בכל רחיקא עם סימנא חד משותפא דריהטא.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>עברתא בלחוד</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>פנקיתא משתדרין ומתבדקין, מדעם לא מתרהט (אורחא יחידאה לרחיקא FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>בדרגי</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>דרגא בתר דרגא בסדרא דסביבתא (dev, stage, beta, production ...): דרגא קדמיתא משתדרא, ובתר כן תרעא מסכי עד דאנש משרר דרגא דבתר. כלא או לא מדעם בגו כל דרגא.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>הלין שניאתא בלחוד</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>לא מחייבא: סימני שניאתא, מפרשין בפסיקי. ריקנא: כל שניתא דאתרא ודתוספתא דילה.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>בוחרנא קדמיא בלחוד</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>אין, שדר כען</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>שדרתי דשדרו או ארהטו מדעם, חדתא קדמאה (בוחרנא קדמיא לא נטר מודעא).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>עברתא בלחוד</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>בדרגי, %stages דרגי</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>לא בשויותא</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>עד כען ליכא שדרתא.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>שדרתא %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>כל רחיקא דשדרתא עם מקמא דילה. שדרתא דשריא הכא אזלא בגו כסיא כד הדין דפא מתאחד; פתח דפא תוב למרדף בתרה.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>כל שדרתי</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>בוחרנא קדמיא</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>דרגא דבתר</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>בדקין טויבא וסהדותא דמעלנא</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>בוחרנא קדמיא: קרין מקמא דכל רחיקא</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>משדרין פנקיתא דשניאתא</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>בדקין מה דמטא</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>מרהטין שניאתא בכל רחיקא</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>מהדרין רחיקי לבסתר</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>שדרתא שלמת. טעינין מודעא דילה.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>לא אפשר למרדף בתר מהלכא. טעון תוב דפא למחזי היכדין שדרתא אזלא.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>פסעא</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>הדין דפא רדף בתר שדרתא כד היא אזלא.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>בשויותא</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>דרגי</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>דרגא %stage מסכיא בתרעא דילה</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>תרעא %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>משררא מן %user ב־%time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>דרגא</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>פנקיתא דאשתדרו</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>נוסחא דקרנל</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>עבידא: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>לעבדא: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>פסעי</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>תרעא: דרגא %stage מן %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>דרגי דקדמה משתדרן. בדוק יתהון, ובתר כן שרר דרגא דבתר: רחיקי דילה מתבדקין תוב ומשתדרין, כלא או לא מדעם.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>דבתר</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>אין, שדר דרגא דבתר כען</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>משררא</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>אהדר הדא שדרתא לבסתר</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>כל רחיקא דעבד יתה (%list) תאיב לצורתא דאתנסבת קדם ריהטא דילה, כלהון כחדא.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>אין, אהדר הדא שדרתא לבסתר כען</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>מתחשבא</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>עברת</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>משתדרא</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>מסכיא בתרעא</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>גביא</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>מתקנא</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>תקין</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>מסכיא לדרגא דילה</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>פנקיתא אשתדרו</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>מתבדקא</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>לא אצלח, אהדר נפשה</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>לא אשתני</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>לא משתדרא</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>לא מטיא</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>רחיקא ענא.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>לא אפשר לאשתמשא ברחיקא כען.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done גמירא, %pending מסכיא, %failed לא אצלח</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>קפלא</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ריהטא אחיד קפלא תמן</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>פריק</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage מן %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>בחר רחיקא לבוחרנא.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>סמן “אין, סלק הדין רחיקא” קדמאה.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>לא אפשר לסלקא רחיקא: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>לא אפשר לנטרא רחיקא: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>פנקיתא דטויבי לא מתקריא: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>בחר לפחות רחיקא חד או כנשא.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>רחיקא דגבית ליתוהי תוב בטויבא. טעון תוב דפא.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>סמן “אין, שדר כען” קדמאה.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>רחיקא FTP לא יכיל לארהטא שניאתא: בחר “עברתא בלחוד”, או שבוק יתה.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>שניאתא לשדרא הנון סימני שניאתא, מפרשין בפסיקי.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>שדרתא עד כען אזלא. סכי עד דתשלם.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>הדא שדרתא לא מסכיא בתרעא.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>לא חד רחיקא עבד הדא שדרתא: ליכא מדעם לאהדרא לבסתר.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>סמן “אין, שדר דרגא דבתר כען” קדמאה.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>סמן “אין, אהדר הדא שדרתא לבסתר כען” קדמאה.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>רחיקא עם סימנא %id איתוהי כבר.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>פורט הוא מנינא מן 1 עד 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>סביבותא היא מלתא מן אתוותא, מניני, - ו־_ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>כנשא היא מלתא מן אתוותא, מניני, - ו־_ (לא all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>סהדותא דמעלנא לא מתקריא כען: %problem. נטר יתה בטויבא &gt; ארזא (או קבע משתנא) קדם שדרתא קדמיתא.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>רחיקא FTP מקבל פנקיתא בלחוד: שדרתא לה היא “עברתא בלחוד”, ושניאתא דילה מתרהטין תמן בידא.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>רחיקא %id ליתוהי ב־settings/override/migration.ini.append.php; סלק יתה היכא דמתקבע.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>עאל על FTP וקרא index.php. מקמא דשניאתא דרחיקא FTP לא מתקרי.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>משוחלפא</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>בריא</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>שמא</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>זנא</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>פלגותא</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>עבודא</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>מליותא חדתתא</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>מליותא דאתבריו ואשתחלפו לחרתא בכלה אתרא, חדתא קדמיתא: מדם דשדרו מסתכלנא, מדם דכליא לבוחנא, סורטא דמסכין לפורסהון. גבו מנותא למשרא, למכלא, למטשיו, למחויו, למשקלו או למשניו לפלגותא או לאסכמא אחרתא.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>לא אשתכחת למקריה לרשימתא: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>כליתא לבוחנא לא אתתקנת עדכיל, מטל הנא מדם לא כליא וסוערנא דכליתא לא מתקרבין. דרגא דחודתא 6.0.15-review-hold מתקן לה: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>צללו לרשימתא</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>מן</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>עד</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>תאריכא</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>בריא (פורסא קדמיא)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>כל</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>מקמא</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>פריסא</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>סורטא, מן מתום לא פריס</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>מסכיא (מסכא לשוררא או לתאריכא)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>במזבלתא</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>כליא לבוחנא</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>כליא</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>לא כליא</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>טשיא</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>מתחזינא</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>אשתדר ביום</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>כל מעלנא דאתרא</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>בלחוד מדם דכתב בוקיא.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>השא: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>שמא דמפלחנא או מנינא דמפלחנא.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>מצללנא</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>דכיו למצללנא</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>מנותא</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from עד %to מן %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>לית מנתא</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(אתקרי ב%ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>סוערנא על מנותא גביתא</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>גביא דכל בהדא פאתא</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count גביין</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>סוערנא</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>גבו סוערנא</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>שריא דכליתא</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>כליא לבוחנא</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>מטשיא</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>מחויא</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>שניא למזבלתא</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>שיפא</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>משחא דפלגותא</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>משחא דאסכמא</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>עלתא</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>סניקא למכליתא; מתנטרא עם כליתא ובבוקיא.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>גבו פלגותא</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>אסכמא</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>גבו אסכמא</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>מפלחא על גביתא</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>כל מנתא מתבחנא לות שולטניכון. שניא למזבלתא ושיפא שאלין לשוררא. יתיר מן %count מנותא מתעבדן בטשיותא.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>גביא</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>פורסא</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>אשתדר מן</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>גביא %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>לא עדכיל</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(דלא שמא)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>מנינא %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>סורטא</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>מסכיא</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>טשיא מן אבוהי</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>כליא: משדרנותא חדתא</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>מפקתא %version מסכיא</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>מפקתא %version בעבדא</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>סורטא, מפקתא %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>מפקתא %version פריסא</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>מטכסא ל%date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>דלא מונעא</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>לא כתיבא</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>מדם לא שוא להלין מצללנא.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>מחויא דכל</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>לית מליותא עדכיל.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>בכל פאתא</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>חוו %count מנותא בכל פאתא.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>מונעא וחירנא דמשדרנותא אתין מן מחויתא דבוקיא, דלא איתיה הרכא: עמודא אמר „לא כתיבא”.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>מונעא וחירנא אנון הלין דכתב בוקיא למנתא (כליתא דמן נפשה כתבא להון אמיניות; פורסא ובריתא בלחוד איכא דאתעירו), איך דנטרין להון טכסא דנכיותה.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count מנותא</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>שיפא שקל למנותא לעלם, עם כלהין מפקתהין ותורגמיהין. לא משכח דנתהפך.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>מנותא אזלן למזבלתא, מן תמן משכחן דנתדערן.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>כל מנתא מתבחנא לות שולטניכון; מנתא דאית לה מנותא תחתיתא משתבקא איך דאיתיה (שקלוה בבנינא דמליותא). תשתאלון דתשררון דאנתון אנתון.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>הנא מתעבד בטשיותא: פאתא דמקדמנותה מתפתחא, ופלטא דכל מנתא מתחזא כד נשתמלא.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>מנותא גביתא</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ו%count אחרניתא</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>בוטלא</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>מדם לא אתעבד</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>עלתא: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>סוערנא עדכיל מתעבד בטשיותא.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>מקדמנותה</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>סוערנא דבטשיותא לא אצלח: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>גמירא</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>סליא</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>לא אצלח</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>לכל מנתא</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>מנתא</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>פלטא</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>למנא</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>לבסתר לרשימתא</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>טויבא</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>מדם לא אתעבד הרכא</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>שררא</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>גבו סוערנא.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>גבו לכל הלפחות מנתא חדא.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>גבו לכל היותר 1000 מנותא בזבנא חד.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>אמרו למנא כליין מנותא.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>גבו פלגותא.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>גבו אסכמא.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>לא אשתכח למקריה לפנקיתא.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>פתורא</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>מליותא חדתתא</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>לא אשתכחו למקריו למניניא: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>כליא לבוחנא</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>חדתא יומנא</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>כליתא לבוחנא לא אתתקנת עדכיל (דרגא דחודתא 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>כלה מליותא חדתתא</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>לא מציתון דתעבדון סוערנא דבוחנא (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>סוערנא דבוחנא לא גמיר: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>בוחנא: %action על %count צבותא</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done מן %total צבותא: %ok גמירן, %refused סליין, %failed לא אצלחו</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok גמירן, %refused סליין, %failed לא אצלחו</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>לא איתוהי תוב.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>לית לה דוכתא (לא פריסא).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>לא מציתון דתטשונה (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>לא מציתון דתחוונה (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>טשיא הי מן קדם.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>לא טשיא.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>אתטשית.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>אתחזית.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>במזבלתא איתיה: סרקוה או דערוה מן תמן.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>סורטא דמן מתום לא אתפרס לא משכח דנאזל למזבלתא: שופוהי.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>לא מציתון דתשופונה (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>אתשיף.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>לא מציתון דתשקלונה (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>אית לה מנותא תחתיתא: שקלוה בבנינא דמליותא, איכא דמתחזין.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>לא אשתקל (רדיא דעבדא משכח דנכלא לשקלא).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>אשתני למזבלתא.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>פלגותא לא איתיה.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>בהדא פלגותא איתיה מן קדם.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>לא מציתון דתמשחון הדא פלגותא (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>פלגותא לא אתמשחת.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>פלגותא אתמשחת.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>אסכמא לא איתוהי.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>בהנא אסכמא איתיה מן קדם.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>לא מציתון דתמשחון הנא אסכמא (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>אסכמא לא אתמשח (רדיא דעבדא משכח דנכלא לשוחלפא).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>אסכמא אתמשח.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>לית סוערנא הכנא.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>כליתא לבוחנא לא אתתקנת (דרגא דחודתא 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>אמרו למנא כליא.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>כליא הי מן קדם.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>לא מציתון דתכלונה (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>כליתא לא אתסימת (רדיא דעבדא משכח דנכלא לשוחלפא).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>אתכליית.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>לא כליא.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>לא מציתון דתשרונה (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>כליתא לא אשתרית (רדיא דעבדא משכח דנכלא לשוחלפא).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>אשתרית; עדכיל טשיא: לא מציתון דתחוונה (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>אשתרית.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>כל נישי</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>פרסומא בתראה</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>פרסא פתגמא קביעא דאתרך במגן ב־GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>דפיא עתיקיא</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>פרסומא קביעא</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>פרסומא קביעא מבטל.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>נישא</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>נישי לא אתקריו: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>עבידתא אזלא</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>בניינא לבדיקא</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>טשי דא</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>עביד נישא</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>לעלם לא</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>קרי אולפנא</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added אתוספו, %changed אשתניו, %removed אשתקלו</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes מן %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>עוד %count לא כתיבין.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages דפיא אתכתבו</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path רבותיה %size, יתיר ממה דמתחמא שביק לפנקיתא חדא.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % מן תחומא</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ש׳</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag הוא פרסומא דאית לאתרא כען.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: עבידתא %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/גזא/ לאתרא דפרויקט GitHub; ריקן לתחומא דילך או לאתרא דמפלחנא.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. אתרא</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. מתחמא</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. מעלנא לגזא</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. גזא</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. אסוריא ושבילא דעיקרא</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. תחומא דילך</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. מה דבניינא אחיד</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. אימתי מתפרס</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. בחון ונטר</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>אתרא דפרויקט GitHub שרי לתחות /&lt;repository&gt;/; אסוריא דסמיכין עבדין תמן ובכל דוכתא אחריתא.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>בניינא מייתי כל דפא דְ%site היכדין דחזי ליה מבקרא דלא עאל, כתב תוב אסוריא, מעתיק פנקייתא וכתב פלטא לתיקא דנישא. מדעם לא מתפרס עד דבדקת בניינא ודחקת פרסא.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>מלתא דcron, למשל 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>קלידא דשדרא מתנטר כארזא %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>קלידא דשדרא שביק להדא תקנתא למשדר לגזא חד ב־SSH ולא לדוכתא אחריתא. פלגיה כסיא קאים בטויבא &gt; ארזא; פלגא גליא בלחוד מתחזי.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>קלידא דשדרא דאתעביד להדין נישא</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>קלידא דשדרא עאל ב־SSH: שני מונעא דגיט למונעא דSSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>עבידתא אזלא, שריא מן %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>עבידתא דהדין נישא עד כען אזלא (%detail). סכי עד דתשלם.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>עבידתא דהדין נישא עד כען אזלא. סכי עד דתשלם.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>אסורא מן דפא /news/ לדפא /about-us/team יתכתב היכדין</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>קלידא דשדרא חדתא אתעביד. אוסיף פלגיה גליא לגזא כען.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>דפא דבתר דכיותא עד כען טעין מפקנא דבדיקא, טוקנא דטופסא או סימנא דמושבא לעלם לא מתפרס.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>אהדרתא לחכימי היא: סמן “ידע אנא מה דהדא משניא” וכתוב שמא דסימנא תוב.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>אתרא יכיל למהוי עד %site, פנקיתא חדא עד %file, עם כמו 100 GB דמהלכא לירחא. בתוכניתא דמגן גזא צריך למהוי גליא. GitHub Pages לא לחנותא ולא לתגרותא אחריתא עבידא.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>נישא הוא אתרא חד דמתפרס לגזא חד דגיט. הכא מדעם לא מתבני ולא מתפרס: נטרא כתב טויבא ל־settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>נישא הוא אתרא חד דמתפרס לדוכתא חדא, למשל אתרך גליא ב־GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>טוקנא מן טויבא &gt; ארזא</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>זרזא דגזא מפרס ליה.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>אוסיף הדין קלידא גליא לגזא עם רשותא דכתבא. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, סמן Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>אתוסף</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>מתחמא אחרינא דגיט</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>עבדא אחרינא פלח על הדין נישא: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>לבסתר</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>שבילא דעיקרא</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>קדם</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>לתחות שבילא דעיקרא</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>סוכא</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>אסוריא תבירין</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>אסוריא תבירין בבניינא</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>בניינא</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>בניינא %id מן %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>בני %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>בני כען</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>בניינא לבדיקא</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>מן</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>בידא, הכא</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>בוטלא</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>שני</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>אשתני</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>שנויין</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>בדוק ליה קדמאה</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>בדוק הלין טויבא</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>בדוק מה דבניינא משני, חזי ליה, ובתר כן פרס ליה או שדי ליה.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>בחר פרסומא דלמיהדר ליה.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>אתי בפרסומא דבתר כן.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>חתמא</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>חתמי</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>חתים בניינא, סמן ליה ושדר ליה ל־%remote. שדרא לעלם לא באניסא; תיכול למיהדר לכל פרסומא בתר כן.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>לקבל תיקא דקדם: %added אתוספו, %changed אשתניו, %removed אשתקלו, %unchanged לא אשתניו.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>לקבל פרסומא בתראה.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>סהדותא דמעלנא</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>תחומא דילך</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>מפקנא דבדיקא, טוקני דטופסי, סימני דמושבי ו־nonce לעלם משתקלין.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>קלידא דשדרא</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>קלידא דשדרא דְ%name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>שדיא</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>שדי בניינא</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>תחומא</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>ריקן: מונעא דאתרא. אחרנית מונעא גואה דהדין אתרא.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>שלים</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>כל אסורא שרי בשבילא דעיקרא.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>כל פרסומא הוא חתמא עם סימנא static/%id/&lt;n&gt;. הדרא עביד חתמא חדתא בפנקייתא דפרסומא קדמאה: תשעיתא קיימא, סימנא לא זיע ומדעם לא באניסא.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>יתירתא</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>אייתי דפיא מן</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>פנקיתא</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>פנקייתא</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>פנקייתא חסירין</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>פנקייתא דְ</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>פנקייתא דלא אתכנשו</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>טבעתא דצבעתא</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>תיקא</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>למונעא דSSH. קלידא מתעביד בתר נטרא; את מוסיף פלגיה גליא לגזא.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>למונעא דhttps://. GitHub: טוקנא fine-grained עם Contents למקרי ולמכתב על גזא.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>לחכימי. אתרא גליא משתני כד שדרא שלים.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>טופסי</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>מתחמא במגן מן גזא דGitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>מן סוכא</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>מונעא דגיט</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages שביק אתרא עד %site ופנקיתא עד %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>תחומי דGitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages מפרס פנקייתא היכדין דאינון (צריך לפנקייתא דשריין ב־_).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub משמש סוכא היכדין דאשתדר. עידיא.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, משמשנא דילך: כל גזא דגיט.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>הדר לפרסומא קדמאה</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>עודרנא</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>עודרנא לאשוליא</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>טשי להון</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>תשעיתא</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>תשעיתא דְ%name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>מתחמא</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>היכדין GitHub Pages מקבל בניינא</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>בדקית שנויין</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>ידע אנא מה דהדא משניא</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>סימנא</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>מבטל הוא: מדעם לא מתבני עד דפעיל.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>רהט בחשאי כְ%user; תיכול למיחד הדין דפא.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>עבידתא %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>מתנטר כארזא %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>גנסא</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>פרסומא בתראה</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>שבוק הלין דפיא</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>שבוק הלין פלגותא</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>אסוריא</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>אסוריא דאתכתבו תוב</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>אתרא חיא</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>חזי בניינא</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>אתוון זעירין, מניני, _ ו־-, למשל github-public. שמא דתיקא ודסימני (static/&lt;id&gt;/&lt;n&gt;) הוא, ולא משתני בתר כן.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>עביד קלידא חדתא</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>עביד נישא</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>עביד קלידא</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>עביד גזא במתחמא קדמאה; ריקן נמי טב.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>רשימת פנקייתא</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>שליחותא</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>רוב דפיא</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>שמא</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>שמא דטוקנא בטויבא &gt; ארזא</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>נישא חדתא</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>דבתר</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>עד כען ליכא חתמא.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>קלידא לא אתעביד: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>לא אשתכח תכניתא דphp לשורת פקודא. קבע migration.ini [AdminSettings] PhpCliPath לשבילה שלים.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>עד כען ליכא סימנא.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>עד כען ליכא נישא.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ליכא</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>לא בבניינא.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>עד כען מדעם לא אתפרס.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>עד כען מדעם לא אתפרס: כל פנקיתא חדתא היא.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>הודע</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>בסדרא דזבנא</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>בקונסולא</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>במשמשנא: ./console exp:static:serve %id משמש ליה היכדין.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>שבילא חד לכל שורתא, * מתאים לכל פלגא: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>שמא בלחוד מתנטר עם נישא; טוקנא או קלידא גופיה קאים בטויבא &gt; ארזא ולעלם לא מתחזי ברושמא.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>מה דדפיא מדכרין בלחוד</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>בטוקנא בלחוד. env:NAME קרי חלף דא משתנא דסביבותא דמשמשנא.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>פתח חזיא קדמיא</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>פתח בניינא היכדין דמתחמא ישמש ליה, מן תיקא דנישא. אסורא עביד לך שעתא חדא.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>לא מחייב. ריקן: מה דאתפרס.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>לא מחייב. עם תחומא אתרא משתמש בעיקריה.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>פורענא</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>פאתא</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>דפיא דנישא</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>דפיא דאתסרבו</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>תקונא דבתר</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>חזיא קדמיא</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>חזיא קדמיא ופרסומא</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>חזיא קדמיא ופרסומא דְ%name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>חזי בניינא קדמאה</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>מקדמנותא</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>מונעא גליא</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>קלידא גליא</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>פרסא</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>פרסא פתגמא קביעא דאתרא ב־GitHub Pages או בכל מתחמא דגיט: בני ליה, בדוק שנויין, פרס, והדר לפרסומא קדמאה כד צריך.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>פרסומא דלמיהדר ליה</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>פרסומי</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>שדרא</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>קרי אולפנא</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>כתבא</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>אתסרב</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>סמיך</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>טעון תוב</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>אשתקל</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>חלף קלידא: עתיקא לא עביד תוב</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>מודעא</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>מודעא דבניינא</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>גזא</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>בוחרנא חריא</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>בוחרנא חריא בדיק כל טויבא ומחויא שורתא דיתכתבון. עד כען מדעם לא אתנטר.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>אהדר לבסתר</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>אהדרתא</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>נטרא</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>סדרא דזבנא</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>דפא דבציא</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>סימני דפלגותא, מפרשין בפסיקי.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>שדר להון לאתרא חיא</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>טויבא</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>טויבי</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>טויבי דְ%name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>טויבא</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>טויבא &gt; ארזא</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>מתחזי ברשימתא, למשל “אתרא גליא ב־GitHub Pages”.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>מעלנא ב־GitHub App אתי עם חבורא דGitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>אתרא</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>אתרא למפרס</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>רבותא</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>רבותא ותחומי</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>רבותא דבניינא</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>דפיא עתיקיא</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>שרי</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>שרי מן %user ב־%time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>מקמא</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>פרסומא קביעא</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>פרסומא קביעא מבטל</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>פרסומא קביעא מבטל.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>פרסומא קביעא מבטל. אפעל ליה קדמאה בטויבא &gt; פרסומא קביעא.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>פרסומא קביעא פעיל.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>דרגא %step מן %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>דרגי</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>דכיותא</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>בטל</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>אפעל</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>אפעל פרסומא קביעא</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>סימנא</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>סימני</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>נישא</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>נישי מתעבדין ומשתנין, ברם מדעם לא מתבני ולא מתפרס עד דפעיל.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>אמר לבציי מה למקרי.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>בניינא לא אשתדי: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>בניינא כפרסומא בתראה הוא: ליכא מדעם למפרס.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>בניינא אשתדי: תיקא אחיד תוב פרסומא בתראה.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>עידיא יאין לרוב אתריא.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>תיקא אחיד בניינא דעד כען לא אתפרס; בניינא חדתא מחלף ליה.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>תיקא דעבידתא לא מתכתב: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>עבידתא לא אתתקנת: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>עבידתא לא שריאת.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>עבידתא שלמת. טענין מודעה.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>עבידתא צריכא מפלחנא דעאל.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>עבידתא שריאת ברם לא אודעת סימנא דעבדה. בדוק %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>קלידא</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>פנקיתא רבתא: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>שורתא דיתכתבון</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>רשימתא דדפיא לבציי; צריכא מונעא גליא.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>דפיא מתיין היכדין דחזי להון מבקרא דלא עאל. siteaccess דשולטנא ודתוקנא לעלם לא מתקרבין.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>מקדמנותא לא אתרדפת. טעון דפא תוב למחזי היכדין עבידתא אזלא.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>פלגא גליא דקלידא:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>עיקרא דסוכא</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>בית ארזא עד כען לא אתתקן (./console exp:upgrade --apply עביד לוחיה), ובכן ליכא קלידא דמתנטר.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>משמשנא עאל בגרמיה (בקלידא דSSH דיליה או בעודרנא דסהדותא), או גזא בהדין משמשנא הוא.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>טויבא לא אתכתב: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>טויבי כשרין. הלין שורתא יתכתבון:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>פנקיתא דטויבי לא מתקריא: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>אתרא הדר לפנקייתא דההוא פרסומא; בניינא דעד כען לא אתפרס צריך קדמאה למתפרס או למשתדי.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>דפא דאתרא גופיה למונעי דליתנון.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>נישא לא אתנטר: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>נישא עד כען לא עאל בהדין קלידא: בחר “קלידא דשדרא דאתעביד להדין נישא” בטויבוהי.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>נישי לא אתקריו: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>עד כען ליכא בניינא לבדיקא.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>להדא תקנתא ליכא siteaccess קדמאה. siteaccess דשולטנא ודתוקנא לעלם לא מתפרסין.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>הדין דפא רדיף בתר עבידתא כד אזלא; כד דפא מתאחד היא אזלא בחשאי.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>להדין נישא עד כען ליכא קלידא דשדרא.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>הדין נישא עד כען לא אתבני הכא.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>להדין נישא אית חד.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>שדי הדין בניינא: תיקא אחיד תוב פרסומא בתראה. אתרא חיא לא משתני.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>סמן “בדקית שנויין” קדמאה.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>זבנא</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>מעירני</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>כתוב שמא דסימנא תוב</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>לא אשתני</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>מה</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>מה משתני</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>מה הוא כל פנקיתא; לעלם מתכתב.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>מה דעבידתא עבדת וכתבה. עבידתא דשריאת הכא אזלא בחשאי כד הדין דפא מתאחד.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>מה דעבידתא כתבת כפודי</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>מה דדפיא מדכרין, וכל צורתא דמליותא דאתפרסת</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>אימתי</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>כד פרסומא לא מצלח</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>כד פרסומא מצלח</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>כד מליותא מתפרסא</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>לאן אזלין אסוריא למה דפתגמא לא אחיד (בציא, מעלנא).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>מן אן פתגמא קביעא משתמש.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>אידין אתרא מתפרס, ומה שמא דנישא.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>עביד לתחות כל שבילא. עידיא.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>מתכתב כל אימת דתחומא דילך קביע.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>אין</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>תיכול לעלם למבני ולמפרס בידא הכא ובקונסולא.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>שמא בלחוד; טימא קאים בטויבא &gt; ארזא</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>לתחות %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>שלים בלא מודעא</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>יתירא</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>לא אצלח</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>פנקיתא</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, או main עם תיקא docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>מתחמא דגיט</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (עם טוקנא) או git@github.com:owner/repo.git (עם קלידא דשדרא); לעלם לא מלתא דעברא או טוקנא בגוה.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, למפתא דאתרא ולאסוריא קנוניא.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>צורתא</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>לעלם לא</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ליכא גזא רחיקא</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ליכא: חתמי קיימין בתיקא</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ליכא: מדעם לא אשתני</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>לא אשתדר</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>מדעם לא אשתני</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>דפא</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>אצלח</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open מבטל, ובכן עבידתא לא שריא הכא. אשתמש ב־./console exp:static:build במשמשנא.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>פרסומא</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>פריסא</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>שדרא מסכיא</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>אשתדר</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>אתסרב</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>סמיך</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>אהדרתא</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>אתהדרת לבסתר</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>רהט</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>תיקא בלחוד</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: מתכתב לפנקיתא CNAME. כוון DNS דתחומא למתחמא היכדין דהוא מפרש; HTTPS יכיל לאשתהיא קליל עד דשרי.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>אין, עד כען לא אתפרס</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>חד GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>עבדא דגזא מפרס לה. בניינא כתיב פנקיתא דעבדא; שבוק תיקא ריקנא.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>בתר דנטרת נישא עם גזא דGitHub וטוקנא או GitHub App, דרגא הדא יכיל לבנויי גזא ולמשרא GitHub Pages. ואי לא, בני קמאית גזא בGitHub; ריקנא טבא.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>סוכא או GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>בדוק DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>בני גזא אי ליתיה</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>בני גזא בGitHub ושרי GitHub Pages בטויבא דידה (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>בני גזא %repo כד חסיר (כד מתבעא), שרי GitHub Pages מן סוכא או מן GitHub Actions היכדין דנטיר, ומתקן תחומא דילך וHTTPS. משמש בטויבא נטירא: נטור שוחלפא קמאית.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>פרישותא בGitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>כתוב תחומא דילך קמאית.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>כל שדרא מתבדק קמאית לקבל תחומין הלין.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>למונעא דhttps:// בGitHub. App דמתקנא לתקנתא הדא עייל; סניק למנינא דתקנתא.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages משמש גזא כסיא בלחוד בתכנית באגרא.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: תחומא זעורא (www.example.com) סניק לרשמא CNAME ל&lt;owner&gt;.github.io; תחומא רישיא (example.com) לרשמי A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>מנינא דתקנתא דGitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>בניינא בתראה דPages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>תחומין ותנאין</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>סניק לGitHub Pages בתכנית במגן.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>בGitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>בלחוד עם GitHub App: מנינא בסוף מונעא דתקנתא דApp בGitHub. App גופיה מתקן בstaticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>כסיא</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>גליא</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>נטור קמאית נישא עם גזא דGitHub וטוקנא או GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>תקן רשמין הלין לות מספקנא דתחומא:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>תקן בGitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS ד%domain עד השא לא מכוון לGitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS ד%domain מכוון לGitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>חבורא דGitHub ליתיה הכא: %problem. פרסא לסוכא עביד היכדין דהוא; שרי GitHub Pages בטויבא דגזא.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>דרגי GitHub ליתיהון לנישא הדא: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>מצבא דGitHub Pages מתחזיא עם טוקנא או GitHub App כסהדותא דמעלנא.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>שמש בתחומא דילך</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>מא למגבא: טוקנא, קלידא דשדרא או GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>עם גזא דGitHub וטוקנא או GitHub App, אשוליא יכיל לבנויי גזא, למשרא GitHub Pages ולמתקן תחומא עבורך (דרגא 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>מתבני</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>בניא</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>מן GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>מן סוכא %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ליכא עד השא</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>לא אשתכח</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>שביתא</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>כסיא</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>גליא</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>בסדרא</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>לא ידיעא</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count ב־%pages דפי:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>קובץ .gz (ו־.br) לצד כל קובץ טקסט, לשרתים דמפלחי להון.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>דפא זעורא לכל כתובת ושם כינוי עתיק דדפא, דקישורי עתיקי ימשכון עבדי.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>כתיבא תדירא כד GitHub Actions מסרא לאתרא.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>מזהה SPDX כמא CC-BY-4.0, או טקסטא גופיה.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>סלא</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>קראי לשרתא</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>הערי</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>טופסי דמכנשי מידע</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>פחות רווחי וללא הערי בדפי.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>רשיונא דתוכנא</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>כניסה</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>כיווץ</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>טופסי אחריני</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>דחיסא מקדמא</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>דפי הפניה</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>דפי הפניה: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>בצייא</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>אינדקס בצייא: %pages דפי ב־%languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>גליונות סגנון וסקריפטי דמיקרי על שם חתימת תוכנא דילהון, דדפדפני יוכלון לנטרא להון.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>דפי דשתנו, דקי דקות בתר שינויא בתראא (חלקא cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>רשיונא דתוכנא, משדה דלתחת.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>אתרא כולא, בזמני דלוח זמנים (חלקא cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>חלקי אלין דדפי צריכי שרתא; כל חד קבל חלופא. בדוק להון קדם דתפרסם.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>מה דלא עבד סטטית</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>מנו מאגרא, למאן דפתח לה בשרתא.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>שביק</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>טקסטא חלופא</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>נקודת סוף דטופסא דאתרא חיא</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>אתרא חיא</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>דפא דבציא דעותקא</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>טופסא לא אשתדר.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>תודה: טופסא אשתדר.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>טופסא לא אתקבל: בדוק מה דהקלדת ושדר תוב.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>ܫܩܘܠ ܐܣܘܪܐ ܠܦܐܬܐ ܕܠܝܬ ܓܘ ܢܘܣܚܐ</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>ܫܩܘܠ ܐܣܘܪܐ ܠܡܕܒܪܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>ܟܬܒܬܐ ܕܝܗܘܢ ܦܝܫܐ. ܨܘܪܐ، ܛܘܦܣܐ ܘܐܣܘܪܐ ܠܕܘܟܐ ܐܚܪܢܐ ܠܐ ܦܝܫܝ ܫܩܝܠܐ ܡܢ ܡܬܘܡ.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>מפקתא</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>מעלנא דאתרא למפרסם</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>מעלנא דאתרא</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>בעקרא</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>לית מעלנא דאתרא בעקרא: כל חד בתיקה דילה, ועקרא מאסר להון</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>מעלנא דאתרא</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>רשום חד מעלנא דאתרא, או סגיאא דמשתותפין במארח חד באפתחא דURI דילהון. הו דבעקרא מתתיהב תמן, ואחרנא בתיקה דאפתחא דילהון (/ger/); אסורא דביניהון מקוין בנוסחתא. מעלנא דמדברנותא לא מתקרבין מן מתום.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ ܕ%target ܠܐ ܐܨܠܚ ܒ%site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ ܕ%target ܐܨܠܚ ܒ%site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>ܐܓܪܬܐ ܕܐ ܫܕܪ %site ܩܐ ܕܢܝܫܐ ܕܦܪܣܐ ܩܒܝܥܐ %target ܒܥܐ ܠܗ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>שדורא %deploy לא אצלח גו %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>שדורא %deploy מסכי לתרעא גו %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>שדורא %deploy אצלח גו %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>הא כתבא שדרה %site, משום דבעי ליה migration.ini [RemoteSettings] Notify[].</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>גנסא דידעתא (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>אתמני %time, תוב בתר %minutes דקיקי</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>גנסא דידעתא נטר ומתקן חד זנא דטימא דדיליותא דזנא: שורתא דכתיבתא, צורתא, קשורא. עקרא מייתי רובהון, תוספתא מוספן אחרנייתא. הא כולהון, מן יהיב להון וכמה מן מליותא משמש בהון. גנסא דידעתא דבית ידעתא משמש ביה ולית מן דרשים ליה תוב, מחבל למליותא דאית לה.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>כנשא דזניא</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>מני תוב השתא חלף מנינא דדקיקי אחריי.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>מני תוב</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>חזיא כלניא</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>אתכתב</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>מתפלחא</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>לא אשתמש</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>תוספתא דיהבן גנסא דידעתא</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>דיליותא דזנא</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>דיליותא דצבותא</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>לא רשים</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>כתיב, פנקיתא חסירא</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count גנסא דידעתא מתמשמשין ולא רשימין</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>ל-%class_attributes דיליותא דזנא ול-%object_attributes דיליותא דצבותא אית גנסא דידעתא דלית תוספתא ולא טויבא דרשים ליה. צבותא דילהון לא מתחזיא, לא מתתקנא ולא מתפרסמא. אפעל לתוספתא דיהבא לגנסא דידעתא, או שחלף לזנא.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>חזי הלין בלחוד</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>בציא גנסא דידעתא</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>משודענא, שמא, זנא דPHP או תוספתא.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>מחויא</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>כל</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>יהיב מן</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>כלנש</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>עקרא</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>לית גנסא דידעתא דשוי להדא נפותא.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>מחויא דכל</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>תוספתא</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown מן %count גנסא דידעתא, %used מתמשמשין</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>בבית ידעתא אית דיליותא דזנא או דצבותא מן הלין גנסא דידעתא, ברם content.ini לא כתב חד מנהון, או פנקיתא דידהון חסירא.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>גנסא דידעתא ד%provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>גנסא דידעתא</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>זנא דPHP ופנקיתא</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>זניא</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>צבותא</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>אתותא דסומנא</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>לא חד</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>לית גנסא דידעתא דשוי לבציא. סרוק לבציא.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown מן %count גנסא דידעתא מתחזין</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>גנסא דידעתא דמתחזין: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>סדרא לפות %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>אתמני %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>כל גנסא דידעתא</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>דפא דעודרנא</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>הנא גנסא דידעתא מתמשמש ולא רשים</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>צבותא דזניא דלתחת לא מתחזיא, לא מתתקנא ולא מתפרסמא עד דלית תוספתא דרשמא לגנסא דידעתא. אפעל לתוספתא דיהבא ליה ואוסיף ליה ל-content.ini [DataTypeSettings] AvailableDataTypes[], או שחלף לזניא.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini כתב להנא גנסא דידעתא, ברם לית ספרנא דגנסא דידעתא דאית ביה פנקיתא דידיה. לית מדעם דמשמש ביה; סרוק ליה מן AvailableDataTypes[] או אפעל לתוספתא דידיה.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>על הנא גנסא דידעתא</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>משודענא</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>שמא</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>תוספתא %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>לית אנש</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>זנא ד PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>פנקיתא</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>ב-AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>אין</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>עמודא דטימא דידיה</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>עמודא דטויבא דדיליותא דזנא דידיה</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>פנקיתא</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>עמודא ולוחא משתכחין בקריתא דקודא דגנסא דידעתא: מדברנא, לא מומתא.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>טופסא</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>מעלנא דאתרא</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>טופסא</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>משתכח ב</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>הדא מדברנותא</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>אתרא דשגרתא</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>בלא חלופי: טופסא דחלופא דשוי לזנא או לדיליותא זכי עליהון.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>זניא דמשמשין ביה (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>לית זנא דאית ליה דיליותא מן הנא גנסא דידעתא.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>זנא</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>דיליותא</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>דיליותא דזנא (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>דיליותא</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>טויבא</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>אלציא</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>מתבצינא</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>מתתרגמנא</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>כנש ידעתא</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>מליותא מדעם דמשמשא ביה</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>שוחלפא אחריא קדמאה</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>משוחלפא</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>קטרא %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>לכל פשרא אית טימא דידה.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>בציא רשים לטימי דידיה.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>יכיל למכנש ידעתא מן אכסניא (טופסי).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>רשימתא מסתדרן ביה: קלידא דסדרא %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>מתסדרנא</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>טימי דידיה מחוין לצבותא אחרנייתא.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>אחינותא</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>מתמלי מן כתיבתא פשיטתא (אעלתא, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>מן כתיבתא</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>מתמלי מן פנקיתא.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>מן פנקיתא</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>טויבא דדיליותא דזנא דידיה עאלין לצררא.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>צררא</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>מליותא (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from עדמא %to מן %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>צללו לרשימתא</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>כל זניא</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>פלגותא</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>לשנא</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>מרא</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>פריסא</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>הפכא דטכסא</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>לית מנתא</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>בכל פאתא</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>חויא ד %count מנותא בפאתא.</translation>
     </message>
 </context>
 </TS>

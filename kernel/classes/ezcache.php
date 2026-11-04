@@ -2,7 +2,7 @@
 /**
  * File containing the {@link eZCache} class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -70,6 +70,17 @@ class eZCache
                                        'path' => false,
                                        'function' => array( 'eZCache', 'clearQueryCache' ),
                                        'purge-function' => array( 'eZCache', 'clearQueryCache' ) ),
+                                // The GraphQL API (settings/graphql.ini): the answers of persisted queries
+                                // (var/cache/graphql/responses) and the class catalogues of the schema. Tagged
+                                // ini too: a changed setting (switched off, other classes) must not be answered
+                                // from before it.
+                                array( 'name' => ezpI18n::tr( 'kernel/cache', 'GraphQL cache (answers and schema classes)' ),
+                                       'id' => 'graphql',
+                                       'tag' => array( 'content', 'ini' ),
+                                       'enabled' => true,
+                                       'path' => false,
+                                       'function' => array( 'expGraphQLResponseCache', 'clearCacheItem' ),
+                                       'purge-function' => array( 'expGraphQLResponseCache', 'clearCacheItem' ) ),
                                 array( 'name' => ezpI18n::tr( 'kernel/cache', 'Global INI cache' ),
                                        'id' => 'global_ini',
                                        'tag' => array( 'ini' ),

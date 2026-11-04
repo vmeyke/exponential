@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Pytajo se jano na toś tom boku: %from do %to z %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kuždy datowy typ jědra a rozšyrjenjow a kak klase a wopśimjeśe jen wužywaju.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datowe typy</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Teke systemowe boki daju se ako cytańske znamjenja składowaś: wócyńśo bok (Zarědowanje, auditowy slěd, lisćina wužywarjow ...) a wubjeŕśo nad nim „Bok ako cytańske znamje składowaś“. Take cytańske znamjenja maju symbol zubatego kólaska.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Toś ten bok njesmějośo how wěcej wócyniś. Wótpórajśo cytańske znamje abo pšosćo administratora wó pśistup.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>K prědnemu bokoju</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Druge</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Slědne 7 dnjow</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Swójski cas</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Wšykne słowa</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Někake słowo</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Eksaktna fraza</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relewanca</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Mě A–Ž</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Mě Ž–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Změnjone, nejnowše ako prědne</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Změnjone, nejstarše ako prědne</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Wózjawjone, nejnowše ako prědne</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Wózjawjone, nejstarše ako prědne</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Změnjone</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtry</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Filtry pokazaś</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Filtry schowaś</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Slědk stajiś</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Nałožyś</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Słowa</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Typ wopśimjeśa</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Wěcej pokazaś (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Wubjeŕśo jaden typ wopśimjeśa, aby w jadnom z jogo atributow pytali.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Wótrězk</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Wót</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Do</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Zachopny datum njejo płaśiwy datum.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Kóńcny datum njejo płaśiwy datum.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Wobsejźaŕ</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Wužywarski ID, wužywarske mě abo e-mailowa adresa.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Za „%input“ njejo se žeden wužywaŕ namakał.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Rěc</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Někaka rěc</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Městno</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count městnow</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Wuslědki na bok</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Wuslědki za „%text“ (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Wuslědki (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Sortěrowaś pó</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Sortěrowanje</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktiwne filtry</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Toś ten filter wótpóraś</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Abo wubjeŕśo filtry a nałožćo je, aby se pśigódne wopśimjeśe nalicyło.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Filtry pytanje wobgranicuju, gaž sćo słowa zapódali.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Za „%text“ njejsu se žedne wuslědki namakali.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Žedne wuslědki njejsu se namakali.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Wótwónoźćo górjejce jaden filter.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Pśełožki</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Akcije</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name wobźěłaś</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Wobźěłaś</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Pokazki k awtorskemu pšawu spócetnych awtorkow a awtorow a softwary tśeśich póbitowarjow, kótaraž se z Exponential rozdźěla, wóstanu w žrědłowych datajach a w dataji LICENSE, ako to licenca pomina.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Slědujuca lisćina mjenujo sobuźěłaśerjow systema Exponential, kótarež su swójo źěło firmje 7x pód wuměnjenjami eZ Systems Contributor Licensing Agreement licencowali. Ako to toś to dojadnanje dowólujo, rozdźěla 7x kuždy pśinosk pód tejsameju licencu ako dataja, w kótarejž jo pśinosk wopśimjony. Lisćina mjenujo kuždego sobuźěłaśerja, opcionalne kontaktowe informacije a dataje, ku kótarymž jo pśinosował.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Sobuźěłarje, kótarymž se źěkujomy za jich źěło na Exponential a na softwarje, z kótaregož jo nastał, z datajami, ku kótarymž su pśinosowali. To jo pśipóznaśe, nic pokazka na awtorske pšawo: pśinoski k Exponential pśepódawaju se pó Contributor Licensing Agreement na Exponential Foundation a 7x.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Pokazka: pakety se njewótinstalěruju.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition wopytaś&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Cłonk zgromaźeństwa Exponential Community byś, wuměnjowaś a pśinosowaś&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; a druge.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Wuźěłane z &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Dalšne informacije namakajośo pód &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; a druge.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Dalšne informacije pód &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; a druge.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential wopytaś (wót 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Buźćo cłonk zgromaźeństwa Exponential Community, dostańśo pódpěru a pśinosujśo&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; a druge.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Pokazka: pakety se njewótinstalěruju.</translation>
     <message>
         <source>Help center</source>
         <translation>Centrum pomocy</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Wopśimjeśe</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Boki dokumentow</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Wužywarje</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Klase wopśimjeśa</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administracija</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Bok %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Wšykne wuslědki pokazaś</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Wuslědki: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Jaden wuslědk</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count naraźenjow</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Žedne naraźenja</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Naraźenja njejsu se dali zacytaś.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Naraźenja</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Pokazka: pakety se njewótinstalěruju.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Toś ta instalacija jo zjawna demonstracija: kuždy móžo jeje administratorowe gronidło znaś, a administratorowe gronidła njedaju se změniś abo slědk stajiś. Njezapódajśo how nic priwatnego.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Waše rědy</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wěstotna aktiwita</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Pokazka: pakety se njewótinstalěruju.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Nawody, pytanje a kak zmólku k wěsći daśo.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nowe wopśimjeśe</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Nejnowše wopśimjeśe, což jo za pśespytowanje zaźaržane, a akcije za wuběrk.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Pokazka: pakety se njewótinstalěruju.</translation>
         <source>Synchronisations</source>
         <translation>Synchronizacije</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: jogo kóńcny dypk, šema a grajkanišćo za wopytowanje napšašowanjow.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Změny na instalaciji ako dataje: jich staw, běgi, wuwjasć a slědk wześ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nowe wopśimjeśe</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Nejnowše wopśimjeśe, což jo za pśespytowanje zaźaržane, a akcije za wuběrk.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Statisku kopiju sedła na GitHub Pages abo na kuždy git-hosting wózjawiś.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiske wózjawjanje</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datowe typy</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kuždy datowy typ jědra a rozšyrjenjow a kak klase a wopśimjeśe jen wužywaju.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Pokazka: pakety se njewótinstalěruju.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Konta, kótarež nichten njewužywa abo kótarež trjebaju pśeglědanje; znjemóžniś, wótwóriś abo eksportěrowaś.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Auditowy protokol wužywarjow</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Chto jo změnił, se pśizjawił abo jo był wótpokazany, pó kontach; filtrowaś a eksportěrowaś.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rozpšawa wó pśizjawjenjach</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Chto jo pśizjawjony, pśizjawjenja a zmólki na źeń; wužywarja wšuźi wótzjawiś.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Pokazka: pakety se njewótinstalěruju.</translation>
         <source>%n hours ago</source>
         <translation>pśed %n h</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Wótegrona skłaźonych napšašowanjow GraphQL API a klase wopśimjeśa jogo šemy.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Statisku kopiju na GitHub Pages abo na kuždy git-hosting wózjawiś</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiske wózjawjanje</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Statiski pufrowak dodawa boki z toś togo serwera. Aby statisku kopiju sedła wózjawił na drugem městnje, na GitHub Pages abo na kuždem git-hostingu, wužywajśo statiske wózjawjanje.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Pokazka: pakety se njewótinstalěruju.</translation>
     <message>
         <source>last purge</source>
         <translation>slědne wuprozněnje</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Pisanja njejsu mógli zastojnosćowu zawěru dostaś (slědny raz %date): kužde jo wšykne wuslědki w pufrowaku zestarjone cyniło. %file musy za kuždego wužywarja pisajobny byś, pód kótarymž sedło běžy; na NFS trjeba NFSv4 abo lockd.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Pokazka: pakety se njewótinstalěruju.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Pśepadnjone pósejźenja PHP-wobźěłowaka wótpórajo PHP sam (session.gc_maxlifetime), nic toś ten bok abo źěl nadawkow cron session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Pśizjawjone pósejźenja wšych wužywarjow se w rozpšawje wó pśizjawjenjach nalicuju a tam wótzjawjaju; rozpšawa źěła z kuždym wobźěłowakom pósejźenjow.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Rozpšawu wó pśizjawjenjach wócyniś</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ Wašo konto aktiwěrowali.</translation>
     <message>
         <source>None yet</source>
         <translation>Hyšći žedne</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wěstotna aktiwita</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Waše nejnowše pśizjawjenja, njewuspěšne wopyty a změny Wašogo gronidła, Wašeje e-mailoweje adrese a dwustopjeńskego pśizjawjenja.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Nejnowše pśizjawjenja, njewuspěšne wopyty a wěstotne změny toś togo konta.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Aktiwitu pśeglědowaś</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Njewuspěšne pśizjawjenja: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Jolic cośo wósobje, kótaraž pśizwólijo, komentary pósłaś abo status wi�
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Pó pśizjawjenju musy wužywaŕ nowe gronidło wubraś, nježli až cyni něco drugego. Wužywajśo to, gaž dajośo někomu nachylne gronidło.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Eksistěrujucy wobraz wubraś</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Wobrazowa dataja objekta, kótaryž wuběraśo, se do toś togo póla kopěrujo. Drugi objekt se njezměnijo.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Wobraz „%name“ jo se do toś togo póla kopěrował.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Wobraz pśepytaś</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Wobraze pó mjenju pytaś</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Pytaś</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Wobraz „%name“ wužywaś</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Toś ten wobraz wužywaś</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Žeden wobraz njewótpowědujo wašomu pytanjeju.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ Dalšne informacije namakajośo na boku z pominanjami.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab njejo se pisał (%reason). Pśidajśo toś te smužki do crontab wužywarja, pód kótarymž sedło běžy, howac cakański rěd, importy, powěźeńki a pytański indeks nigda njeběže:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Znowego instalěrujo se z kickstarterom (%file, pótom php bin/php/kickstarter.php run --apply) abo z nowej instalaciju.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ Wašo konto aktiwěrowali.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Pufrowak zjawnego pakowaka eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Pufrowak GraphQL (wótegrona a klase šemy)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ Wašo konto aktiwěrowali.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopija klase %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datowe typy</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Datowy typ %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ Wašo konto aktiwěrowali.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Wobraz SVG njedajo se cytaś abo nic w nim njedajo se wěsće pokazaś.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Wobraz njejo se dał kopěrowaś. Pšosym wopytajśo hyšći raz abo stajśo se z administratorom sedła do zwiska.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Wubrany objekt njeeksistěrujo abo njesmějośo jen cytaś.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Wubrany objekt njama žeden wobraz.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Wobrazowa dataja wubranego objekta njejo se dała cytaś.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Wobraz wubranego objekta jo wětšy, ako toś to pólo dowólujo: %1 bajtow.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ Wašo konto aktiwěrowali.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Cytańske znamje jo se pśemjeniło na „%name“.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Toś ten bok jo w toś tom pśistupje k sedłu (%siteaccess) wótšaltowany. Wócyńśo cytańske znamje w pśistupje k sedłu, kótaryž ten bok ma.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Modul toś togo boka njejo how instalěrowany abo zmóžnjony.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Toś ten bok wěcej njeeksistěrujo: jogo modul taki naglěd njama.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Žedna z Wašych rolow Wam njedowólujo, toś ten bok wócyniś.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Toś ten pśistup k sedłu njesmějośo wužywaś.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Wopśimjeśe, kótarež toś ten bok pokazujo, njesmějośo cytaś.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Toś ten drug boka njedajo se ako cytańske znamje składowaś: wón jano wobźěłujo formular abo jo bok jadnogo wokognuśa.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Adresa toś togo boka feluje.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Toś ten bok njedajo se něnto wócyniś.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Transport e-mailow jo pśi slědnem běgu powěsći wótpokazał (licba: %count). Pśeglědajśo e-mailowy serwer a site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Cakajuce tšojenja: %count, a žeden běh cron-nadawka za powěźeńki njejo zapisany. Pśidajśo źěl cron-nadawkow &quot;frequent&quot; do crontab abo wuwjeźćo exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Druge sedło abo drugi wótrězk z wuběrkom sukow wubraś</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Jano systemowy administrator móžo wobsejźarja změniś: wuwjeźćo ./console exp:content-check --fix-permissions --apply ako root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
     <message>
         <source>empty</source>
         <translation>prozny</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Signěrowański kluc jo staršy ako jadno lěto: wuměńśo jen z exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
         <source>Share of page time</source>
         <translation>Źěl casa boka</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>wó dopołne wuźěłanje jo se pšosyło</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>pufrowak bokow njejo bok měł (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>pufrowak bokow njejo wótegronił</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Wuźěłany</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Wót jědra wuźěłany: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Za %ms ms z pufrowaka bokow dodany. Bok jo se wó %stored pó wuźěłanju z %render ms składował, pśed %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Něnto wuźěłaś</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Slědk k naglědoju z pufrowaka</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Z wuźěłanja wó %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Toś to napšašowanje: za %ms ms z pufrowaka bokow dodane.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Wužywaŕ</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID wužywarja</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profil cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Toś ten naglěd</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Pufrowak naglědow</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>na wužywarja (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profil cache wužywarja: wužywarje z tym samym profilom źěle se z datajami cache naglědow</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ně</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Pśizjawjeńske mě</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Pśizjawjony</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Pósejźenje</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Źěle kluca cache naglědow wopśimjeśa, kótarež wótwisuju wót wužywarja, rowno tak, ako je kluc bjerjo, pód ViewCacheTweaks toś togo boka. Wužywarje z tym samym profilom źěle se z datajami cache naglědow, jolic se źěle samego naglěda njerozeznawaju (nastajenja, kluce słuchaŕow): te maju swójski profil, jano za toś ten bok.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Toś ten naglěd (suk %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: kuždy pśizjawjony wužywaŕ ma swójske dataje cache.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Aktiwne ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Źěl</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Gódnota</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Žeden źěl njewótwisujo wót wužywarja (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>toś ten naglěd</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Ako tekst kopěrowaś</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Role</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Pśipokazanja rolow njejsu se dali cytaś.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID roli</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rola</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Wobgranicowanje</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Pśipokazany</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>wužywaŕ</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>kupka %name (objekt %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kopěrowane</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Kopěrowanje njejo se raźiło.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>wuwóstajony wót słuchaŕa</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonymne woglědowarje</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ako waš</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>hynakšy</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profil, kótaryž anonymne woglědowarje dostanu pód tymi samymi ViewCacheTweaks, ze standardnymi nastajenjami, bźez źělow naglěda: słuchaŕa, kótaryž cyta sesiju, njamóžo se za nimi pšašaś.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Nastajenja</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Žeden naglědowy modus njewótwisujo wót wužywarskich nastajenjow (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Nastajenja, wót kótarychž naglědy toś tych naglědowych modusow wótwisuju (CachedViewPreferences), z gódnotu wužywarja abo ze standardom. W profilu stoje ako userpreferences, te wšych naglědowych modusow gromaźe.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Modus naglěda</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Nastajenje</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Standardny</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Zasady</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Pšawidła rolow pokazaś (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Pšawidła se zacytaju ze serwera, gaž se toś ten wótrězk wótcynijo, bok pó boku, a daju se filtrowaś pó modulu a funkciji.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funkcija</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Wšykne module</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Wšykne funkcije</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Wobgranicowanja</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Wěcej pokazaś</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Toś te role njamaju žedne pšawidła.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Žedno pšawidło njewótpowědujo filtroju.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown z %matching pšawidłow (dogromady %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Zacytujo se pśi wócynjenju.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rola, wobgranicowanje</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Pšawidła pytaś</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Wěcej zacytaś</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/funkcija</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Wšykne role (%count pšawidłow)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Žedne pšawidło njewotpowědujo.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown z %matched pšawidłow</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Žedna wótegrono</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>maskěrowany</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Wujasnjenja pokazaś</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Wujasnjenja schowaś</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Wócyniś</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Wšykne wócyniś</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Wšykne zacyniś</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kluc abo gódnota</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>W pósejźenju pytaś</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count dalšnych</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>pśegluboko zakašćikowany za pokazanje</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>skrotšony, dogromady %count znamuškow</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startowane</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Mě cookieja</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID pósejźenja</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Wobźěłowak</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Składowańska sćažka</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Standard PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Žywjeńska doba (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>žywjeńska doba %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Wašo swójske PHP-pósejźenje, kaž jo było, gaž jo se wótrězk wócynił, nigdy druge. Gódnoty klucow, kótarež wuglěduju ako pótajmnosći (tokeny, hašy, gronidła), su maskěrowane (debugbar.ini SessionMask[]); wšykno druge se pokazujo, kaž jo skłaźone, teke wósobinske daty.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count klucow, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>wjelike</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Pósejźenje jo prozne.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Za toś to napšašowanje njejo se žedne pósejźenje startowało.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Rozšyrjenje %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Jědro a druge</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Njepokazuju se wšykne zapiski: pósejźenje ma wěcej, ako dajo se how nalicyś.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count klucow se njenalicyjo.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Wobłuk</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Gódnoty, kótarež wuglěduju ako token (JSON Web Token, pśizjawjeńske daty głowy Authorization, priwatny kluc, dłujki heksadecimalny abo pśipadny tekst), se teke maskěruju, wšojadno kak jich kluc groni (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Kluc wuglěda ako pótajmnosć (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Gódnota wuglěda ako token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Pód maskěrowanym klucom.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Pósejźenje ako tekst, maskěrowane kaž tabela.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Pósejźenje jo wětše ako %size (debugbar.ini SessionWarnBytes): kužde napšašowanje toś togo wužywarja cyta ceło pósejźenje a pišo jo, gaž jo se změniło.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP składujo toś to pósejźenje w datajach a zastajijo dataju za ceło napšašowanje: napšašowanja samskego wužywarja (někotare rejtariki, wołanja AJAX) cakaju na se.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Wócynjone wóstajiś</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Wětše ako %size (debugbar.ini SessionWarnBytes): kužde napšašowanje toś togo wužywarja cyta ceło pósejźenje.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits z %count z pufrowaka cytane</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Žedna pśedłoga njejo se pśedstajiła (naglěd, cytany z pufrowaka naglědow, žednu njepśedstajijo).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Pśirědowanja rolow</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Role a zasady</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>hynac ako pśi anonymnych woglědowarjach</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>ako pśi anonymnych woglědowarjach</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
     <message>
         <source>not sent</source>
         <translation>njepósłany</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Cron-nadawk za powěźeńki how kuždy swój běh zapisujo. Pśidajśo źěl frequent do crontab abo wuwjeźćo exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Wužywajśo konzolu: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Toś ta tema njejo wudana; cytarje ju njewiźe.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Změny na instalaciji ako dataje: jich staw, běgi, wuwjasć a slědk wześ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Statisku kopiju sedła na GitHub Pages abo na kuždy git-hosting wózjawiś.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiske wózjawjanje</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>W pśeglědowanju</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Cytarje wiźe toś ten bok.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Schowany pśed cytarjami, až jen něchten wuda.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Bok jo něnto w pśeglědowanju. Jo schowany pśed cytarjami, až se wuda.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Bok jo wudany: cytarje jen něnto wiźe.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Bok jo zasej nacerjenje. Jo schowany pśed cytarjami, až se pśeglědujo a wuda.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Něnto wudaś</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Jano wužywaŕ z rolu %role, kótaryž njejo toś tu wersiju napisał, móžo jen wudaś.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Temy pomocy, kótarež cakaju na wudaśe</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Schowa jen pśed cytarjami, až se zasej wuda.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Pótom jen pśeglědowaŕ pśekontrolěrujo. Cytarje jen hyšći njewiźe.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Cytarje jen ned wiźe.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Wótpórajo jen z pśeglědowanja za dalšne źěło. Cytarje jen njewiźe.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Toś ten bok pśed cytarjami schowaś?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Toś ten bok slědk k nacerjenjeju pósłaś?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Cytarje %title wěcej njewiźe, až jen něchten zasej wuda.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title źo slědk k nacerjenjeju za dalšne źěło. Cytarje jen hyšći njewiźe, a trjeba nowe pśeglědowanje, nježli až se wuda.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Pśetergnuś</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Toś te temy su w pśeglědowanju. Cytarje je wiźe, gaž je něchten wuda, kótaryž njejo aktualnu wersiju napisał.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Zarědowanje &gt; Nadawki cron</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Hyšći žeden źěl cron-nadawkow njejo běžał: rěd nadawkow, importy, powěźeńki a pytański indeks cakaju. Wuwjeźćo php bin/php/installcrontab.php --add --apply abo pśidajśo smužki z --show do crontab.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
         <source>None.</source>
         <translation>Žedne.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>z awtentifikaciskim nałoženim</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>z kodom pśez e-mail</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>z wótnowjeńskim kodom</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>z pśistupnym klucom</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>z eksternym kontom</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wěstotna aktiwita</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Pokazane ako seś; adresa se tak składujo, ako to nastajenja šćita datow sedła pódawaju.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Njezapisane</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Městno</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>pśibližnje</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
         <source>Manage devices</source>
         <translation>Rědy zastojaś</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>z awtentifikaciskim nałoženim</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>z kodom pśez e-mail</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>z wótnowjeńskim kodom</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>z pśistupnym klucom</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>z eksternym kontom</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wěstotna aktiwita</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Njezapisane</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Městno</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>pśibližnje</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
         <source>View the sessions of this user</source>
         <translation>Pósejźenja togo wužywarja pokazaś</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Wašo konto %login na %site jo se rowno wužyło, aby se z městna pśizjawiło, z kótaregož njejo se we slědnem casu pśizjawiło:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Pśibližne městno</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser na %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rozpšawa wó pśizjawjenjach</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Pśistupny kluc njejo se dał pśeglědaś. Pšosym wopytajśo hyšći raz.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Konta, kótarež se jano z pśistupnymi klucami pśizjawiju, njamógu how gronidło wužywaś: wubjeŕśo „Z pśistupnym klucom pśizjawiś“.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Pśistupne kluce wužywarja %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Pśistupne kluce, z kótarymiž se toś to konto pśizjawijo. Wótwołajśo ten, kótaryž jo na zgubjonem abo pokšadnjonem rěźe: pótom njamóžo se wěcej pśizjawiś. Wobsejźaŕ pśidajo nowe sam.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Wašo konto trjeba pśistupny kluc</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Pśidajśo swójomu kontoju pśistupny kluc</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Pśidajśo pśistupny kluc, aby dalej šło. Pótom se z nim pśizjawijośo město jano z gronidłom.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Pśizjawjenje z pśistupnym klucom jo malsnjejše a wěsćejše ako gronidło. Pśidajśo něnto jaden abo pókšacujśo bźez njogo.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Nic něnto</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Pśistupny kluc „%name“ wótwołaś?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Pótom njamóžo se wěcej pla toś togo konta pśizjawiś. Jolic jo był slědny, se wobsejźaŕ z gronidłom pśizjawijo abo Wy nastajijośo nowe.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Pśistupny kluc wótwołaś</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Wótwołaś</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Toś to konto njama žeden pśistupny kluc.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Awtentifikator</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Njeznaty</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Waš slědny pśistupny kluc: pśidajśo dalšny, nježli až jen wótpórajośo.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Toś to konto se jano z pśistupnymi klucami pśizjawijo (zasada pśistupnych klucow): gaž žeden wěcej njewóstanjo, se zasej ze swójim gronidłom pśizjawijo.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>To jo Waš slědny pśistupny kluc a Wašo konto njamóžo se bźez njogo pśizjawiś. Pśidajśo nejpjerwjej dalšny pśistupny kluc.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Pśistupny kluc „%name“ jo wótwołany. Njamóžo se wěcej pla toś togo konta pśizjawiś.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kod z Wašogo awtentifikaciskego nałoženja</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Sćo pśi tom, daty na pśecej wulašowaś abo protokol wuprozniś.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Wašo gronidło a pśistupny kluc</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Wašo gronidło a kod z Wašogo awtentifikaciskego nałoženja</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Abo:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Toś ten wobglědowak njamóžo pśistupne kluce wužywaś. Wužywajśo drugi pśinog abo drugi wobglědowak.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Gaž pókšacujośo, Waš wobglědowak se za jadnym z Wašych pśistupnych klucow pšašajo.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Z pśistupnym klucom pókšacowaś</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
     <message>
         <source>Setup</source>
         <translation>Zarědowanje</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Swójske gronidło, e-mailowu adresu, pśistupne kluce, dwustopjeńske pśizjawjenje, wótnowjeńske kody abo API-kluce změniś a se na swójich drugich rědach wótzjawiś.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Wužywarjow, jich gronidła a rědy napóraś a wobźěłaś, nastajenja kontow, nowe wužywarske konta pśizwóliś abo wótpokazaś, role pśirědowaś a zasady wobźěłaś.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Daty wulašowaś</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Papjernik wuprozniś, zapiski z njogo wótpóraś a wjele zapiskow naraz wótpóraś.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Wopśimjeśe wótpóraś, wózjawiś a składowaś</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Wopśimjeśe wótpóraś (teke do papjernika), wózjawiś a nacerjenje składowaś; pšašanje pśi wótpósłanju formulara. Standardnje wótšaltowane.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Pśed sensibelneju akciju pśizjawjony wužywaŕ znowego wobkšuśijo, chto jo: ze swójim gronidłom a pśistupnym klucom abo, bźez pśistupnego kluca, ze swójim gronidłom a kodom swójogo awtentifikaciskego nałoženja. Jano webboki se pšašaju: REST-interfejs, SOAP, WebDAV, pśizjawjenje expservices a pśikazowa smužka se nigda njepšašaju.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Źo nastajenja płaśe</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Nastajenja za</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Kuždy pśistup k sedłu</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Pśistup k sedłu %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Wócyniś</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Chto se pšašajo: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Markěrujśo wužywaŕske kupki, aby se jano jich cłonki pšašali (na pśikład redaktory). Nic markěrowane: kuždy wužywaŕ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Do settings/override/site.ini.append.php składowane, za kuždy pśistup k sedłu. Pśi składowanju dejśo wobkšuśiś, až sćo to Wy.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Do settings/siteaccess/%name/site.ini.append.php składowane. Gódnota w settings/override ma pśednosć. Pśi składowanju dejśo wobkšuśiś, až sćo to Wy.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ Musyśo klasu suka z funkciju wuměnjenja změniś.</translation>
     <message>
         <source>Open the page</source>
         <translation>Bok wócyniś</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from až %to z %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Pśizjawjeńske mě abo ID wužywarja: konto, wó kótarež se w tšojenju jadnašo, abo wužywaŕ, kótaryž jo jadnał.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Akcija</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Pó tom</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Kuždy wuslědk</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Pjerwjej</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Wót</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Wuprozniś</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Wuspěšny</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Tšojenja se %days dnjow wobchowaju.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Tšojenja se wobchowaju, daniž se z ruku njewótwónoźeju.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Tšojenja</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Kužda akcija</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Wšykne tšojenja togo konta</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Lisćinu ako CSV eksportěrowaś (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Njewuspěšny</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Wót</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Lisćinu wobgranicowaś</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Žedne tšojenje njepasujo.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Na bok</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Zapisowanje jo w audit.ini wótšaltowane ([UserAuditSettings] UserAudit); lisćina pokazujo, což jo se pjerwjej zapisało.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Wótpokazany</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Wuslědk</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Pokazaś</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tabela auditowego protokola wužywarjow felujo. Napórajśo ju z php update/common/scripts/6.0/createuseraudittable.php; až do togo wobchowaju auditowe dataje kužde tšojenje.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Toś ten bok trjeba SQL-datowu banku; z MongoDB njejo k dispoziciji. Auditowe dataje wobchowaju kužde tšojenje.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Do</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Auditowy protokol wužywarjow</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Wužywaŕ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Cas</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Źo</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Chto jo kótare konto změnił, napórał, zmóžnił, znjemóžnił, pśesunuł abo wótpórał, chto jo se pśizjawił abo jo był wótpokazany a kótare role su se pśipokazali: jadna smužka na tšojenje, z pólami pjerwjej a pó tom. Gronidła a pótajmstwa se nigda njezapisuju.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>kupka</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>pśez system</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>njeznaty</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Konto zawěsćiś</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Wótnowjeński kod jo se wužył, aby se pla Wašogo konta %login na %site pśizjawiło.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Wótnowjeński kod jo se wužył</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Pśibližna adresa</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Pominajśo nowe gronidło, aby se zasej pśizjawił, abo wobrośćo se na administratorow sedła.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Nowe gronidło pominaś</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Kuždy wótnowjeński kod funkcioněrujo jano jaden raz. Jolic sćo swój telefon zgubił, nastajśo swójo awtentifikaciske nałoženje znowego a wobchowajśo nowe wótnowjeńske kody na wěstem městnje.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Njewuspěšne wopyty pśizjawjenja pla Wašogo konta</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Wót něnto pśizjawjenje pśidatnje k Wašomu gronidłoju za kodom pšaša. Jolic sćo to Wy cynił, njamusyśo nic cyniś.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Jolic sćo to Wy był a sćo swójo gronidło zabył, pominajśo nowe. Jolic nic, wubjeŕśo mócnjejše gronidło a zmóžniśo dwustopjeńske pśizjawjenje.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Jolic to njejsćo Wy był, něchten snaź Wašo gronidło znajo: změńśo jo ned a pśeglědajśo, źož jo Wašo konto pśizjawjone.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Wótwóstajone wótnowjeńske kody</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Waše rědy pśeglědowaś</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Wěstotne warnowanje</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Něchten jo wopytał, se pla Wašogo konta %login na %site ze wopacnym gronidłom pśizjawiś. Licba wopytow jaden za drugim: %count.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Pla Wašogo konta %login na %site jo wěstotne tšojenje było.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>To jo wěstotne warnowanje wó Wašom konśe. Pósćelo se pśi kuždej take změnje a njedajo se znjemóžniś.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Cas</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Dwustopjeńske pśizjawjenje jo se za Wašo konto %login na %site znjemóžniło.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Dwustopjeńske pśizjawjenje jo se znjemóžniło</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Dwustopjeńske pśizjawjenje jo se za Wašo konto %login na %site zmóžniło.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Dwustopjeńske pśizjawjenje jo se zmóžniło</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Wašo konto %login na %site jo se pó pśewjele njewuspěšnych pśizjawjenjach zastajiło.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Wašo konto jo něnto jano pśez Wašo gronidło šćitane. Jolic to njejsćo Wy cynił, změńśo swójo gronidło a zmóžniśo pótom dwustopjeńske pśizjawjenje zasej.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Wašo konto jo se zastajiło</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Wašomu kontoju %login na %site jo se pśistupny kluc pśidał.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Chtož ma toś ten pśistupny kluc, móžo se bźez Wašogo gronidła pla Wašogo konta pśizjawiś. Jolic jen njejsćo sami pśidali, wótpórajśo jen pód Pśistupne kluce a změńśo swójo gronidło.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Z Wašogo konta %login na %site jo se pśistupny kluc wótpórał.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Njamóžo se wěcej pla Wašogo konta pśizjawiś. Jolic jen njejsćo sami wótpórali, kontrolěrujśo swóje pśistupne kluce a rědy.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Wašomu kontoju jo se pśistupny kluc pśidał</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Z Wašogo konta jo se pśistupny kluc wótpórał</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Wěstotna aktiwita</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Wěstotna aktiwita: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Pśizjawjony</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Njewuspěšny wopyt pśizjawjenja</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Wótzjawjony</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Pósejźenja wótzjawjone</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Pśizjawjenje z nowego rěda</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Pśizjawjenje z nowego městna</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identita wobkšuśona („Wobkšuśćo, až sćo to Wy“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Pśeglědanje identity njejo se raźiło</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Z pśistupnym klucom pśizjawjony</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Pśizjawjenje z pśistupnym klucom njejo se raźiło</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Pśizjawjenje wótpokazane: kod dwustopjeńskego pśizjawjenja felujo abo jo wopacny</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Wopacny kod dwustopjeńskego pśizjawjenja</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto pó njewuspěšnych pśizjawjenjach zastajone</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto wótwórjone</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Gronidło změnjone</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Změnjenje gronidła njejo se raźiło</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Gronidło slědk stajone</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nowe gronidło pominane</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-mailowa adresa změnjona</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Wužywaŕske mě změnjone</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dwustopjeńske pśizjawjenje zmóžnjone</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dwustopjeńske pśizjawjenje znjemóžnjone</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Wótnowjeński kod wužyty</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nowe wótnowjeńske kody</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Gronidło nałoženja napórane</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Gronidło nałoženja wótwołane</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Pśistupny kluc pśidany</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Pśistupny kluc wótpórany</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto zmóžnjone</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konto znjemóžnjone</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Wšykne</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Pśizjawjenja a pósejźenja</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Změny konta</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Trjeba kedźbnosć</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>wót Was</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>wót wužywarja</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>wót %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metoda</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Wobglědowak</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Źěłowy system</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Rěd</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Městno</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Kraj</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Pósejźenja</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Kótare</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanal</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Njewuspěšne wopyty</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Wótwóstajone kody</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Wobźěłowak pśizjawjenja</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wěstotna aktiwita</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Wěstotna aktiwita: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Pśizjawjenja a změny wěstoty Wašogo konta. Jolic něco wiźiśo, což njejsćo cynił, změńśo swójo gronidło a wótzjawśo rědy, kótarež njespóznawaśo.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Pśizjawjenja a změny wěstoty toś togo konta.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Waše rědy</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Gronidło změniś</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Slědk ku kontu</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Wěstotna aktiwita se njezapisujo</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Cyta se z auditowego protokola wužywarjow, kótaregož tabela expuser_audit felujo abo se w toś tej datowej bance njepódpěrujo. Wuwjeźćo php update/common/scripts/6.0/createuseraudittable.php abo aktualizaciju datoweje banki 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Slědne dny: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Pśizjawjenja w slědnych dnjach: %days</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Nejnowša wěstotna aktiwita</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Pokazaś</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>njewuspěšny</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>wótpokazany</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Hyšći žedna wěstotna aktiwita zapisana.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Wěstotne tšojenja se wobchowuju, licba dnjow: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Wěstotne tšojenja se wobchowuju, až administrator je njewótpórajo.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Moje pśizjawjeńske daty ześěgnuś</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Waše pósejźenja a wěstotne tšojenja ako JSON-dataja.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Pósejźenja se na toś tom sedle njezapisuju, togodla njejo było móžno žeden drugi rěd wótzjawiś. Změńśo něnto swójo gronidło.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count drugich pósejźenjow jo se wótzjawiło. Změńśo něnto swójo gronidło.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Žeden drugi rěd njejo był pśizjawjony. Změńśo něnto swójo gronidło.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Źěkujomy se. Tšojenje jo se ako wašo markěrowało.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Na to tšojenje njetrjeba se wótegroniś.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Bok jo był pśepadnjony. Nic njejo se změniło; pšosym wopytajśo hyšći raz.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Konto zawěsćiś</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Jolic něco how njejsćo wy byli, wótzjawśo wšykne druge rědy a wubjeŕśo pótom nowe gronidło. Rědy, kótarež su z „Spomnjeś se na mnjo“ pśizjawjone wóstali, se teke wótzjawiju.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Kuždy rěd mimo toś togo se pśi swójom pśiducem napšašowanju wótzjawijo. Pótom wubjerjośo nowe gronidło.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Jo, druge rědy wótzjawiś</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Sćo to wy byli?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Jo, to som ja był</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ně, moje konto zawěsćiś</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Pśizjawjony</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Njewuspěšny wopyt pśizjawjenja</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Wótzjawjony</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Pósejźenja wótzjawjone</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Pśizjawjenje z nowego rěda</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Pśizjawjenje z nowego městna</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identita wobkšuśona („Wobkšuśćo, až sćo to Wy“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Pśeglědanje identity njejo se raźiło</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Z pśistupnym klucom pśizjawjony</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Pśizjawjenje z pśistupnym klucom njejo se raźiło</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Pśizjawjenje wótpokazane: kod dwustopjeńskego pśizjawjenja felujo abo jo wopacny</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Wopacny kod dwustopjeńskego pśizjawjenja</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto pó njewuspěšnych pśizjawjenjach zastajone</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto wótwórjone</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Gronidło změnjone</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Změnjenje gronidła njejo se raźiło</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Gronidło slědk stajone</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nowe gronidło pominane</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-mailowa adresa změnjona</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Wužywaŕske mě změnjone</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dwustopjeńske pśizjawjenje zmóžnjone</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dwustopjeńske pśizjawjenje znjemóžnjone</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Wótnowjeński kod wužyty</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nowe wótnowjeńske kody</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Gronidło nałoženja napórane</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Gronidło nałoženja wótwołane</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Pśistupny kluc pśidany</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Pśistupny kluc wótpórany</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto zmóžnjone</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konto znjemóžnjone</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Wšykne</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Pśizjawjenja a pósejźenja</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Změny konta</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Trjeba kedźbnosć</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wěstotna aktiwita</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Wěstotna aktiwita: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Pśizjawjenja a změny wěstoty Wašogo konta. Jolic něco wiźiśo, což njejsćo cynił, změńśo swójo gronidło a wótzjawśo rědy, kótarež njespóznawaśo.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Waše rědy</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Gronidło změniś</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Wěstotna aktiwita se na toś tom sedle hyšći njezapisujo.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Pśizjawjenja w slědnych dnjach: %days</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Njewuspěšne wopyty</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Hyšći žedna wěstotna aktiwita zapisana.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Moje pśizjawjeńske daty ześěgnuś</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Waše pósejźenja a wěstotne tšojenja ako JSON-dataja.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Pósejźenja se na toś tom sedle njezapisuju, togodla njejo było móžno žeden drugi rěd wótzjawiś. Změńśo něnto swójo gronidło.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count drugich pósejźenjow jo se wótzjawiło. Změńśo něnto swójo gronidło.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Žeden drugi rěd njejo był pśizjawjony. Změńśo něnto swójo gronidło.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Źěkujomy se. Tšojenje jo se ako wašo markěrowało.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Na to tšojenje njetrjeba se wótegroniś.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Bok jo był pśepadnjony. Nic njejo se změniło; pšosym wopytajśo hyšći raz.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Konto zawěsćiś</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Jolic něco how njejsćo wy byli, wótzjawśo wšykne druge rědy a wubjeŕśo pótom nowe gronidło. Rědy, kótarež su z „Spomnjeś se na mnjo“ pśizjawjone wóstali, se teke wótzjawiju.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Kuždy rěd mimo toś togo se pśi swójom pśiducem napšašowanju wótzjawijo. Pótom wubjerjośo nowe gronidło.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Jo, druge rědy wótzjawiś</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Sćo to wy byli?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Jo, to som ja był</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ně, moje konto zawěsćiś</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Gronidło</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Gronidło a kod dwustopjeńskego pśizjawjenja</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-interfejs</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-interfejs</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Jadnotne pśizjawjenje (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Pśizjawjony, nježli až su se pósejźenja zapisowali</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rozpšawa wó pśizjawjenjach</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Chto jo na sedle pśizjawjony, kak cesto se konta pśizjawjaju a kak cesto se jim to njeraźi, a wužywarja wšuźi wótzjawiś. Źěła z kuždym wobźěłowakom pósejźenjow.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Pósejźenje jo se wótzjawiło. Rěd musy se znowego pśizjawiś.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login jo se z pósejźenjow wótzjawił. Licba pósejźenjow: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login njejo měł žedno běžece pósejźenje.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Žedno konto njama toś ten ID, toś to wužywaŕske mě abo toś tu e-mailowu adresu.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>To jo pósejźenje, kótarež wužywaśo. Aby jo skóńcył, wótzjawśo se.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Toś to pósejźenje jo južo skóńcone było.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Bok jo był spadnjony. Nic njejo se změniło; pšosym wopytajśo hyšći raz.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Pósejźenja se na toś tom sedle njezapisuju (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabela expuser_session felujo</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Pósejźenja se zapisuju, gaž jo tabela napórana: php update/common/scripts/6.0/createusersessiontable.php abo aktualizacija datoweje banki 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Něnto a źinsa</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Běžece pósejźenja</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Pśizjawjone wužywarje</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Pśizjawjenja źinsa</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Njewuspěšne wopyty źinsa</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Wužywarja wšuźi wótzjawiś</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Kužde pósejźenje konta se pśi swójom pśiducem napšašowanju skóńcyjo, teke te, kótarež „Spomnjeś se na mnjo“ źaržy. Wužywajśo to, gaž mógło konto we wopacnych rukach byś; stajśo pótom jogo gronidło slědk.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID wužywarja, wužywaŕske mě abo e-mailowa adresa</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Wšuźi wótzjawiś</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Něnto pśizjawjone</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Pokazuju se slědnje wužyte (maksimalnje %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Wužywaŕ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Rěd</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Pśizjawjony</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Slědnje aktiwny</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Akcije</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Toś ten rěd</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Njezapisane</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Wótzjawiś</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Žedno pósejźenje njejo pśizjawjone.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Slědne dny: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Pśizjawjenja a njewuspěšne wopyty se z auditowego protokola wužywarjow licuju, kótaryž felujo; nowe pósejźenja se licuju.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Źeń</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Pśizjawjenja</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Njewuspěšne wopyty</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Nowe pósejźenja</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Wobźěłowak pósejźenjow: %handler. Pósejźenja se z tabele expuser_session cytaju, togodla rozpšawa z kuždym wobźěłowakom źěła.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Pódglědne aktiwity w slědnych %hours góźinach</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Jadna seś njejo se mógła pla %accounts kontow pśizjawiś (%count wopytow)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto zastajone pó njewuspěšnych pśizjawjenjach</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count njewuspěšnych pśizjawjenjow na jadnom konśe</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Rownocasnje z %count krajow pśizjawjony</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wěstotna aktiwita</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Pósejźenja</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Njewuspěšne pśizjawjenja se z rewizijnego protokola wužywarjow cytaju, kótaryž how k dispoziciji njejo.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nic pódglědnego: žedno konto z wóspjetowanymi njewuspěšnymi pśizjawjenjami, žedna seś, kótaraž wopytujo wjele kontow, žedno konto, kótarež jo z wjele krajow pśizjawjone.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Wěstotne warnowanje za Wašo konto</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Pla Wašogo konta %login jo wěstotne tšojenje było: %event. Jolic to njejsćo Wy był, zawěsććo swójo konto na %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Zarědowanje</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Pšašajśo se wopśimjeśa toś togo sedła z jadnym napšašowanim rowno za tymi pólami, kótarež bok trjeba. Šema slědujo klasam wopśimjeśa; kužde napšašowanje se wuwjeźo z pšawami wužywarja, kótaryž jo sćelo.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API jo w toś tom pśistupje k sedłu wótšaltowane. Zašaltujśo jo w graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Biblioteka GraphQL (webonyx/graphql-php 15) njejo instalěrowana.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Kóńcny dypk</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Biblioteka</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Šema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Klase wopśimjeśa: %count, šema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Napšašowanje</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Wariable (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Wuwjasć</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Wótegrono</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Wuwjeźo se…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Wótegrono njedajo se cytaś.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Napšašowanje se z wašymi pšawami wuwjeźo, pśizjawjone w toś tej sesiji.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count w %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>žedna granica</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Głubokosć</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Kompleksnosć</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Zapiski na lisćinu</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (standard %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Póžedanja na wužywarja abo kluc</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Póžedanja na anonymnu adresu</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspekcija</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Jano skłaźone napšašowanja</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Nejwětše napšašowanje</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bajtow</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Nejwětše nagraśe</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Njejo pśistup k sedłu %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutacije su w %siteaccess zašaltowane.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutacije su w %siteaccess wótšaltowane.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API jo w %siteaccess zašaltowane.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API jo w %siteaccess wótšaltowane.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Nastajenja njedaju se pisaś: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Cache wótegronow jo se wuprozniła: %count wótegronow wótpórane.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Markěrujśo kašćik pódla napšašowanja, aby jo wótpórał.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Napšašowanje njedajo se wótpóraś: napšašowanje dodane w zapisu z PersistedQueryDirectoryList[] wótpórajo se ze swójeju dataju.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Skłaźone napšašowanje jo se wótpórało.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutacije</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>zašaltowane</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>wótšaltowane</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Pśistupy k sedłu</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Źož API a jogo mutacije wótegranjaju. Tłocaški pišu graphql.ini, kaž ./console exp:graphql:enable a exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Pśistup k sedłu</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Změniś</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Wótšaltowaś</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutacije wótšaltowaś</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutacije zašaltowaś</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Zašaltowaś</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Granice</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] toś togo pśistupa k sedłu.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Cache wótegronow</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Wótegrona skłaźonych napšašowanjow, wobchowane pó pšawach wužywarja a spadnjone, ga se wopśimjeśe wózjawijo.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Wobchowane wótegrona</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count wótegronow, %bytes bajtow</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Wobchowane maksimalnje</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Slědne spadnjenje</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Cache wótegronow wuprozniś</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Skłaźone napšašowanja</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Składowane z ./console exp:graphql:persist abo wót klientow (awtomatiske skłaźone napšašowanja); wołane pó mjenju abo SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Mjenja</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Wjelikosć</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Źož</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Wótpóraś</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>dodane</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>składowane</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Jo, toś to napšašowanje wótpóraś</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Hyšći žedno skłaźone napšašowanje.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-kluce</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Wósobinske API-kluce z wobceŕkom graphql:read (napšašowanja) abo graphql:write (mutacije). Napórajśo a wótwołajśo je na boku API-pśistup abo z ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API-pśistup</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Wšykne kluce</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Kluc</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Mě</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Wobsejaŕ</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Wobceŕki</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Slědny raz wužyty</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktiwny</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>spadnjony</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>wótwołany</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nigda</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Hyšći žeden API-kluc z GraphQL-wobceŕkom.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API jo w pśistupje k sedłu %siteaccess, kótaryž pokazujo toś ten bok, wótšaltowane; tabela dołojce pokazujo, źož wótegranja.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Za pśistup k sedłu %siteaccess, kótaryž pokazujo toś ten bok.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooki</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Kuždy tšojeńk, kótaryž kóńcny dypk žada (publish, update, trash, delete, move, hide, reveal, mutation), se jomu signěrowany pósćelo pśez źěl cronjoba graphqlwebhooks. ./console exp:graphql:webhooks cyni to samske ako toś ten wótrězk.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Tšojeńki</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>wšykne</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Kuždy pśistup k sedłu</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>wobškóźony</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>žedno pótajmstwo</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Caka</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count wzdatych</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Slědne dodaśe</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Test pósłaś</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Jo, toś ten webhook wótpóraś</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Hyšći žeden webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Webhook pśidaś</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Pśidaś</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Nejnowše dodaśa</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Cas</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Wuslědk</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abonementy</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Aktualizacije živje za klientow: tšojeńkowy tok na /api/graphql/subscribe a WebSocket (graphql-transport-ws) na Velocity. Kuždy tšojeńk dojźo jano k abonentam, kótarež směju jogo wopśimjeśe cytaś.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Něnto wócynjone</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Nejwušej wócynjone</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total dogromady, %user na wužywarja, %address na adresu</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Anonymne abonementy</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Dłujkosć toka</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook njedajo se pśidaś: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name jo se změnił; jogo signěrowańske pótajmstwo wóstanjo.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Signěrowańske pótajmstwo njedajo se składowaś (Zarědowanje &gt; Pótajmstwa).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name jo se pśidał. Jogo signěrowańske pótajmstwo, pokazane jano toś ten raz: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhook %name njeeksistěrujo.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name njejo wótegronił: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name jo wótegronił %status za %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Markěrujśo kašćik pódla webhooka, aby jen wótpórał.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name jo se wótpórał.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API jo w toś tom pśistupje k sedłu wótšaltowane.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Biblioteka GraphQL njejo instalěrowana.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Wužywajśo GET abo POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Śěło njejo JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables njejo JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions njejo JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Pósćelśo napšašowanje z POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Póžedanje njewopśimujo žedne napšašowanje.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Napšašowanje jo dlejše ako %max bajtow.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Nutśikowna zmólka serwera</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node trjeba rowno jadno z id, remoteId, path a urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content trjeba rowno jadno z id a remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Kursor wót after njejo wót toś togo API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Njejo wobrazowy alias %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>How se jano na serwerje skłaźone napšašowanja akceptěruju: pósćelśo id skłaźonego napšašowanja.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash skłaźonego napšašowanja njejo SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash skłaźonego napšašowanja njewótpowědujo napšašowanjeju.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Pśewjele póžedanjow: maksimalnje %limit w %window sekundach. Wopytajśo hyšći raz za %reset sekundow.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Napšašowanje jo %depth rowninow głuboke; dowólone jo maksimalnje %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Napšašowanje ma kompleksnosć %complexity; dowólone jo maksimalnje %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Toś to póžedanje njesmějo šemu cytaś (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search trjeba tekst abo filter (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument njejo datum (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag trjeba rowno jadno z id, remoteId a path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout trjeba rowno jadno z id, identifier a urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Pólo operations multipart-póžedanja njejo jadno JSON-póžedanje.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Pólo map multipart-póžedanja njejo JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Multipart-póžedanje njewopśimujo dataju %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Sćažka póla map musy se z variables. zachopiś: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Dataja %name njejo dopołnje dojšła (zmólka nagraśa %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Dataja %name jo wětša ako %max bajtow.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Dataja %name njedajo se pśeglědowaś.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutacije su w toś tom pśistupje k sedłu wótšaltowane (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Pósćelśo mutaciju z POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Pśizjawśo se, aby wopśimjeśe změnił.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API-kluc njama wobceŕk %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutacija ze sesiju trjeba formularowy token sesije (głowa X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl jo wótšaltowane: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] njemjenijo žeden host.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adresa musy https-adresa byś.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Host %host njejo w graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Dataja njedajo se wobstaraś.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload jo jano typ zapódaśa.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Wariabla typa Upload pśiwzejo dataju multipart-póžedanja.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Zdalny id %remoteId jo južo wužyty.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Wopśimjeśe ma južo pśełožk do %language: wužywajśo updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Pódajśo nanejmjenjej jadno pólo.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Nowa wersija njedajo se napóraś (wopśimjeśe ma pśewjele naćiskow).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Wersija %version njejo naćisk.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent trjeba rowno jadno z id a nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Městno njedajo se pód samo se pśesunuś.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Wopśimjeśe ma južo městno pód %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Gódnota póla %field njedajo se składowaś.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Njejo rěc wopśimjeśa %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>W šemje njejo klasa wopśimjeśa %class.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Wopśimjeśe njeeksistěrujo abo njesmějośo jo cytaś.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>To njesmějośo z toś tym wopśimjeśim cyniś.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Klasa %class njama pisajobne pólo %field.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Pólo %field jo dwójcy pódane.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Pólo %field pśiwzejo dataju: pósćelśo ju ako nagraśe (multipart-póžedanje).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Pólo %field njepśiwzejo žednu dataju.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Pólo %field trjeba gódnotu.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Format %format jo jano za póla z formatěrowanym tekstom; %field pśiwzejo swóju gódnotu tak, kaž jo (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Pólo %field jo trěbne.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML njedajo se cytaś.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content pśiwzejo version jano z id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Token pśeglěda njejo płaśiwy abo jo spadnuł.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Žeden origin (https://host abo https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Žeden wobceŕk GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Pósćelśo abonementy na /api/graphql/subscribe (tšojeńkowy tok abo WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Póžedanje njemjenujo žednu operaciju dokumenta.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Abonement žada akuratnje jadno pólo.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Pśewjele abonementow jo wócynjonych; wopytajśo pózdźej hyšći raz.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Maśo %max wócynjonych abonementow, maksimum, kótarež jo dowólone.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Waša adresa ma %max wócynjonych abonementow, maksimum, kótarež jo dowólone.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Abonementy su w toś tom pśistupje k sedłu wótšaltowane.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Pśizjawśo se, aby abonował (token abo wósobinski API-kluc).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Pósćelśo mutacije na /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Staw njejo se dał cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabele migracijow hyšći njeeksistěruju: ./console exp:upgrade --apply je napórajo.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migracijow njejo se raźiło</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Běg jo w běgu, startowany wót %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Instalacija jo zastajona: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Cakajuce</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Njewuspěšne</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Wósyrośone</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Slědny běg</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>hyšći žeden</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Wšykne migracije</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simulěrowany běg</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Testowy běg</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Cakajuce migracije su běžali w transakciji, kótaraž jo se pótom slědk wzeła: nic njejo se wobchowało. Dołojce stoj, což jo kužda w datowej bance změniła.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Což by běg něnto cynił. Nic se njezmějnja: kužda cakajuca migracija naliconujo změny, kótarež by cyniła, a běg, což by pjerwjej a pótom cynił.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simulěrowaś</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Wuwjasć</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Testowy běg njejo se raźił: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulacija trjeba PostgreSQL abo SQLite, kótarychž změny šemy daju se slědk wześ; na toś tej datowej bance pokazujo plan dołojce, což by běg cynił.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migracija</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staw</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Což by cyniła</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulacija: %result w %ms milisekundach</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Hyšći žedna migracija.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Pjerwjej a pó běgu</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Snimk pjerwjej</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>se zgótujo a wótnowijo, gaž se migracija njeraźijo</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>wušaltowane</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Snimk pótom</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>se zgótujo, gaž jo se běg raźił</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migracijow: %pending cakajucych, %done gótowych, %failed njewuspěšnych.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Historija migracijow</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Kuždy běg ze swójim wužywarjom, wobswětom, snimkami a tym, což jo se commitowało, tagowało a pushowało. Njewuspěšny abo pśetergnjony běg dajo se pókšacowaś; běg ze snimkom pjerwjej dajo se slědk wześ.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Běgi njejsu se dali cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabele migracijow hyšći njeeksistěruju: ./console exp:upgrade --apply je napórajo.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Pokazaś</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Wšykne</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Běgi</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startowane</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Wót</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Snimki</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repozitorium</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Akcije</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>pjerwjej</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>pótom</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>pushowanje: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Pókšacowaś</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Slědk wześ</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Žeden běg w toś tom stawje.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>How startowane</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Na toś tych bokach startowane běgi, pókšacowanja a slědkwześa z rozpšawu kuždego.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Co</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Wuslědk</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Slědkwześe</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Slědkwześe wót %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Běg %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Což jo běg cynił, jogo zapisk a jogo protokol. How startowany běg dalej w slězynje běžy, gaž se toś ten bok zacynijo; wócyńśo bok znowego, aby jen slědował.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Toś ten běg pókšacowaś</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Toś ten běg slědk wześ</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Zapisk njejo se dał cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Póstup</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Startowane wót %user %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kod se pśeglědujo a pśed běgom se snimk zgótujo</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id běžy (%index z %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done z %total gótowe</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migracije su běžali; snimk se wótnowijo, jolic jadna njejo se raźiła</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Snimk pó běgu, commitowanje, tagowanje a pushowanje</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Snimk se wótnowijo</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Běg jo skóńcony. Jogo rozpšawa se zacytujo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Póstup njejo se dał slědowaś. Zacytajśo bok znowego, aby wiźeł, kak daloko jo běg.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Toś ten bok slědujo běgoju, mjaztym až běžy.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Znowego zacytaś</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rozpšawa</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Traśe</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisekundow</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Což jo běg ako zmólki wudał</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Zapisk</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Wobswět</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>žeden</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Skóńcone</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commitowanje</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tagowanje</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Pushowanje</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Powěsć</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migracije toś togo běga</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Žrědło</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Protokol běga</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Jano kóńc protokola se pokazujo.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>běžy</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>skóńcony bźez rozpšawy</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>raźony</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>njewuspěšny</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>wótpokazany</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>datowa banka njejo była pśistupna</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>nutśikowna zmólka</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Běg jo w běgu</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind startowane wót %user %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Slědowaś</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Instalacija jo zastajona</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Drugi běg źaržy zastajenje (aktualizacija abo běg na konsoli): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>gótowe</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>cakajuce</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>njetrjebne</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>njeznate</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>slědk wzete</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>nałožone</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>by se nałožyło</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>anulěrowane</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>by se anulěrowało</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>njejo běžało</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>caka na drugu</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>změna akceptěrowana</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>změna by se akceptěrowała</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulěrowane</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Staw</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historija</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target anulěrowaś</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Běg se na snimk pjerwjej slědk staji, jadnotliwa migracija ze swójim down(). Wótnowjenje pjerwjejšnego snimka jo za ekspertow. Kužde anulěrowanje běžy w slězynje ako wy, pó snimku aktualnego stawa.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Což dajo se anulěrowaś, njejo se dało cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Běg</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Jadna migracija</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Pjerwjejšny snimk</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Wopisanje</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ně</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Snimk</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Pópisanje</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Zgótowany</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Družyna</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Źěle za wótnowjenje</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Datowa banka</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Składowane dataje (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Nastajenja (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Wótnowjenje staji datowu banku na cas snimka slědk, posejźenja zapśimjone: pótom musyśo se snaź znowego pśizjawiś. Wšo, což jo se wót togo casa změniło, se zgubijo; nejpjerwjej se snimk aktualnego stawa zgótujo.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Wěm, což to wótnowijo</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Zapódajśo ID snimka hyšći raz</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Jo, anulěrowaś</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Pśetergnuś</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Běgi ze snimkom pjerwjej.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Wubraś</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Hyšći žeden běg ze snimkom.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Nałožone migracije, kótarež mógu se same anulěrowaś (maju down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Žedna nałožona migracija njama down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Pjerwjejšne snimki (eksperty)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Hyšći žeden snimk.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Migracije wuwjasć</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Běg běžy w slězynje ako %user a jogo bok jen pśi tom pokazujo. Pśed prědneju migraciju se snimk instalacije zgótujo; gaž se migracija njeraźijo, se běg zastajijo a snimk se wótnowijo.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Nejpjerwjej testowy běg</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Staw njejo se dał cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Cakajuce migracije</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Běže w toś tom pórěźe. Wótwónoźćo kokulku pśi jadnej, aby ju a te, kótarež ju trjebaju, za pózdźejšy běg wóstajił.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Wuwjasć</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Zašaltujo wótwardowański modus, mjaztym až běžy.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Pó nałožowanju změnjone</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Toś te dataje njejsu te, kótarež su se nałožyli. Běg je wótpokazujo, snaźkuli se změna z pśicynu akceptěrujo; wóni znowego njeběže, nowa kontrolna suma se zapišo a pśicyna se w protokolu kontrole wobchowa.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Změny akceptěrowaś</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Cogodla</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Standardne gódnoty su te wěste. Kužde kontrolne pólo wuwóstajijo kšac.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Žeden snimk</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Žeden snimk pjerwjej a pó běgu: njewuspěch njedajo se awtomatiski wótnowiś.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Žedno wótnowjenje</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Pó njewuspěchu instalaciju tak wóstajiś, ako jo ju njewuspěch wóstajił.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Njecommitowane změny wobchowaś</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Teke běžaś, gaž nastajenja, rozšyrjenja abo designy maju njecommitowane změny; wóne pśidu do snimka.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Žedno commitowanje</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Statusowu dataju a protokol běga njecommitowaś (teke žedno tagowanje a žedno pushowanje).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Žedno pushowanje</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Commitowaś a tagowaś, ale njepushowaś.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Žedno tagowanje</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Commitowaś a pushowaś, ale běg njetagowaś.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Jo, toś te migracije něnto wuwjasć</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Žedna migracija njecaka.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Slědk k stawoju</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Změny na toś tej instalaciji, jaden raz ako dataje napisane (wopśimjeśe, klase, role, nastajenja, šema) a na kuždu instalaciju sedła w tom samem pórěźe nałožone. Běg nejpjerwjej snimk zgótujo, wótnowijo jen, gaž se migracija njeraźijo, a zapišo, commitujo a pushujo, což jo cynił.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count cakajucych wuwjasć</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Pśeglěd</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Cakajuce</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gótowe</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Njewuspěšne</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Njetrjebne</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Datowa banka</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transakcije: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Migracije sedła su w migrations/, te rozšyrjenja w extension/&lt;name&gt;/migrations/. Běže w pórěźe swójich mjenjow a swójich wótwisnosćow.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Slědny běg</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Dataja jo se pó nałožowanju změniła.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Hyšći žedna migracija. ./console exp:migration:generate --skeleton &lt;name&gt; --apply pišo prědnu.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Slědne běgi</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Wšykne běgi</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Hyšći žeden běg.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Simulěrowanje běga trjeba pšawidło migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Běg jo w běgu: simulěrujśo, gaž jo skóńcony.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Zarědowanje</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target njejo ani běg, ani migracija, ani snimk toś teje instalacije.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Markěrujśo nejpjerwjej „Jo, anulěrowaś“.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Wótnowjenje pjerwjejšnego snimka jo za ekspertow: markěrujśo „Wěm, což to wótnowijo“.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Zapódajśo ID snimka hyšći raz: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Wubjeŕśo nanejmjenjej jaden źěl za wótnowjenje.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Toś ten běg njama snimk pjerwjej: anulěrujśo jogo migracije jadnu pó drugej abo wótnowśo pjerwjejšny snimk.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Toś ta migracija njedajo se sama anulěrowaś: njejo nałožona abo njama down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formular njejo se dał cytaś.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Wubjeŕśo běg, kótaryž ma se pókšacowaś.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Markěrujśo nejpjerwjej „Jo, toś te migracije něnto wuwjasć“.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Wubjeŕśo nanejmjenjej jadnu migraciju.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migracija jo se pó nałožowanju změniła: akceptěrujśo změnu z pśicynu abo wótnowśo dataju.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Pódajśo pśicynu, cogodla se změnjone migracije akceptěruju.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Pśicyna ma nejwušej 500 znamuškow.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>How startowany běg hyšći běžy (%detail). Cakajśo, až jo skóńcony.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Drugi běg źaržy zastajenje instalacije: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Běg trjeba pśizjawjonego wužywarja, kótaryž eksistěrujo.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Žeden php-program za pśikazowu smužku njejo se namakał. Stajśo migration.ini [AdminSettings] PhpCliPath na jogo dopołnu sćažku.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open jo znjemóžnjony, togodla njedajo se how běg startowaś. Wuwjeźćo ./console exp:migration:migrate --apply na serwerje.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Do zarědnika běgow njedajo se pisaś: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Běg jo se startował, ale njejo swój ID procesa wózjawił. Pśeglědajśo %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Pódajśo, což ma se anulěrowaś.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Běg njejo se dał startowaś.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Změny nagrawaś</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Mjaztym až nagrawanje běžy, se to, což w administraciji abo w bocnej lejsće sedła změnjaśo, ako kšace migracije zachowajo: wopśimjeśe, klase, role a pšawidła, wótrězki, wužywarje a kupki, URL-aliase, nastajenja. Zastajśo jo, gaž sćo gótowe, glědajśo, což jo zapópadnuło, a napórajśo z njogo migraciju.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Nagrawki njejsu se dali cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tabele nagrawkow hyšći njeeksistěruju: wuwjeźćo nejpjerwjej aktualizaciju (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Nagrawanje jo w migration.ini wótšaltowane ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Móje změny</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Nagrawa jano to, což wy změnjaśo, źožkuli to změnjaśo, daniž jo njezastajiśo.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Nagrawanje</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>wót %time, dotychměst změnow: %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etiket (opcionalny)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Pokazaś, což jo zapópadnuło</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Nagrawanje zastajiś</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Nagrawanje mójich změnow zachopiś</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Wokno za ceło sedło</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Nagrawa kuždu změnu kuždego wužywarja a konsole, daniž se njezacynijo. Pśi wótcynjanju musyśo wobkšuśiś, až sćo to wy.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Wótcynjone</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Wokno zacyniś</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Wokno za ceło sedło wótcyniś</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Nagrawki</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Konto wužywarja (pśizjawjeńske mě, e-mail, gronidło) a póla wužywarskich kontow se nigda njenagrawaju.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Změny</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Ceło sedło</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Změny wužywarja %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Zastajone</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Hyšći žedna nagrawka.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Nagrawka %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Wše nagrawki</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migracija, kótaraž by z njeje nastała</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Změny zjadnośone do jadnogo kšaca na kuždu změnjonu wěc: což by migracija napórana z toś teje nagrawki cyniła.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Migracija dajo se z njeje napóraś, ako skóro ako toś ta instalacija YAML-družyny kšacow %types ma.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Wědobnje wuwóstajone: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Nic njejo se nagrało.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Což jo zapópadnuło</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Změnow: %count, w pórěźe, w kótaremž su se pśewjadli.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Změna</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Kšac</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Pótrjefijo</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Hyšći %count: ./console exp:migration:record:show wše nalicyjo.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Zachyśiś</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Wótpórajo nagrawku a to, což jo zapópadnuła. Což jo se změniło, wóstanjo změnjone.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Jo, toś tu nagrawku zachyśiś</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Nagrawa se…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Wašne změny se za migraciju nagrawaju.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Kužda změna na toś tom sedle se za migraciju nagrawa (wokno za ceło sedło).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Nagrawanje cełego sedła jo se zachopiło: kužda změna kuždego wužywarja se nagrawa, daniž jo njezastajiśo.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Nagrawanje jo se zachopiło: wašne změny se nagrawaju, daniž jo njezastajiśo.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Nagrawanje zastajone. Což jo zapópadnuło, wóstanjo, daniž jo njezachyśiśo.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Nagrawka a jeje tšojenja su wótpórane.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Nagrawka %id njeeksistěrujo.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Markěrujśo nejpjerwjej „Jo, toś tu nagrawku zachyśiś“.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Jano wužywaŕ, kótaryž jo nagrawał, smějo nagrawanje pósejźenja zastajiś.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Wubjeŕśo nagrawanje, kótarež ma se zastajiś.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Nagrawanje toś teje družyny južo běžy.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Nagrawka njedajo se změniś: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Migraciju napóraś</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Mě migracije (opcionalne)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migracija %file jo se napisała. Změny, kótarež žeden kšac njamóžo cyniś, su na zachopjeńku dataje mjenjone, aby se z ruku cynili.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Žedna migracija njejo se napisała: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Dłujke běgnjenje we źělach</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Prozne pola wobchowaju nastajenja z migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Maksimalnje tak wjele migracijow</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Žedne dalšne migracije pó (sekundach)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Pawza mjazy migracijami (sekundy)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Niskša priorita (1 až 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Pole dłujkego běgnjenja jo cełe licba wót 1 (pawza: sekundy wót 0 do 60, priorita: 1 až 19) abo prozne.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Zacynja se samo ku %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Samo zacyniś pó (minutach, opcionalnje)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minuty su cełe licba wót 1 do 44640 (31 dnjow) abo prozne.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migracija %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nowa migracija</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML-migracija: napišćo ju ako tekst abo zestajśo jeje kšace we formularje, pśeglědajśo ju a pótom składujśo ju do zarědnika migracijow.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Toś ta migracija jo južo běžała, togodla se znowego njeskładujo: změnjonu dataju by kontrola kontrolneje sumy wótpokazała. Pśewjeźćo změnu w nowej migraciji.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Webserwer njamóžo dataju pisaś.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Komentarowe smužki górjejce su głowa (description, author, requires, environments, engines). Gaž se kšac we formularje pśidajo abo změnijo, se migracija znowego pišo: komentary mjazy kšacami se njewobchowaju.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Mě migracije</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Źo słuša</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Sedło</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-tekst</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Pśeglědaś</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Składowaś</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Kšace</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Kluce</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Wobźěłaś</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Górjej pśesunuś</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Dołoj pśesunuś</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Wótpóraś</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Hyšći žedne kšace: pśidajśo jaden z formularom abo napišćo je do teksta.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Kšac %number změniś</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Jaden kšac pśidaś</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Formular kšaca nastawa z jogo typa kšaca: jogo kluce, což kuždy pśiwzejo a ku kótarym modusam słuša.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Typ kšaca</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Jogo formular pokazaś</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Kšac ma kluce, kótarež jogo typ njeznajo; wóni wupadnu, gaž se kšac změnijo: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>W</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>jano w %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Standardna gódnota: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Wuměnjenja, referency a komentar</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Póry mě=gódnota, źělone pśez komy. Gódnoty toś togo kšaca: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Pśikład</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Kšac změniś</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Kšac pśidaś</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Což groni exp:migration:check: głowa, dokument a kuždy kšac, pśeglědany pśez swój typ kšaca.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migracija wobstoj pśeglědanje.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Pśeglěd</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML, kaž se składujo.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML pokazaś</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-migracije</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>jo běžała</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Hyšći žedne YAML-migracije njejsu.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Redakciski pśistup</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>W zarědnikach migracijow njejo žedna YAML-migracija %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Wubjeŕśo typ kšaca.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Kšac jo pśidany. Pśeglědajśo migraciju, nježli až ju składujośo.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Kšac jo změnjony. Pśeglědajśo migraciju, nježli až ju składujośo.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Wubjeŕśo kšac.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Toś ten kšac njama žeden formular (šlejfa abo typ kšaca, kótaryž toś ta instalacija njama): změńśo jen w teksće.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Wubjeŕśo, źo migracija słuša: sedło abo aktiwne rozšyrjenje.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file jo składowana. Wuwjeźćo testowy běg, nježli až migracija běžy.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Njeskładowane: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Zdalne instalacije</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Druge instalacije, na kótarež toś ta dodawa swóje migracije: dodaśe pósćelo migracije na wubrane zdalne instalacije a wuwjeźo je tam, wšykne naraz a synchronje. Zdalna instalacija nigda njewopśimujo pótajmstwo: jeje pśizjawjeńske daty pomjenjuju jadno w Zarědowanje &gt; Pótajmstwa.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Nowa zdalna instalacija</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Pomoc</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Test zwiska za %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Zdalne instalacije</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Až do %parallel zdalnych instalacijow se rownocasnje wobźěłujo; jadna faza smějo na kuždej %timeout sekundow traś.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Zdalna instalacija</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Pśizjawjeńske daty</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Kupki</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>nastajenja za korigěrowanje</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>jano dataje (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-kluc</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Gronidło</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>žeden (SSH-agent a kluce hosta)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Zwisk testowaś</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Dodaśe na kupku źo na kuždu jeje zdalnu instalaciju.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Na zdalne instalacije dodaś</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Hyšći žedna zdalna instalacija njejo zarědowana.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Zdalna instalacija %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>How se nic njepósćelo ani njewuwjedujo: Składowaś pišo nastajenja do settings/override/migration.ini.append.php. Pśizjawjeńske daty su mě; jich gódnota wóstanjo w Zarědowanje &gt; Pótajmstwa abo we wobswěśe.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontrolěrujśo toś te nastajenja</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Nastajenja, ako su zapódane, hyšći njeskłaźone.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Pśeglědaś</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Nastajenja su płaśiwe. Toś te smužki se napišu:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>jano mě; gódnota wóstanjo w Zarědowanje &gt; Pótajmstwa</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Smužki, kótarež se napišu</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Zwisk</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Kluc hosta</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Zdalna instalacija</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Kak se zdalna instalacija mjenujo a kótary wobswět wóna jo.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Pismiki, cyfry, - a _, na pśikład production1. Pomjenjujo zdalnu instalaciju w rozpšawach a na konsoli (--remotes=production1) a njedajo se pózdźej změniś.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Dodaśe pó stopnjach źo pśez wobswěty w toś tom pórěźe.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Opcionalnje, źělone z komami, na pśikład production. Dodaśe na kupku źo na kuždu jeje zdalnu instalaciju.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Zwisk</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Kak dataje tam dojdu a źo instalacija jo.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Pśez SSH, jano to, což jo se změniło, pśetergnjone pśenosowanje se pókšacujo. Nejlěpša wóliba, źož jo rsync instalěrowany.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH ze scp za dataje.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH ze sftp za dataje.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Jano dataje: migracije se pósćelu a slědk cytaju, ale njamógu se tam wuwjasć.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP pśez TLS; jano dataje.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Druga instalacija na toś tom serwerje, w zarědniku.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Mě hosta abo adresa, na pśikład node1.example.com. Nic za local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Prozne: 22 za SSH, 21 za FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Wužywaŕ</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Sćažka</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Kórjenjowy zarědnik instalacije tam, na pśikład /var/www/site (pśi FTP: sćažka, kótaruž FTP-konto wiźi).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-kómandowa smužka</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI tam: php abo dopołna sćažka ako /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Konsolowe skripty tam běže ako root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Jano, gaž wužywaŕ zdalneje instalacije jo root (migracije se pótom z --allow-root-user wuwjedu).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Pśizjawjeńske daty</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Kak se toś ta instalacija tam pśizjawja. Skłaźujo se jano mě.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Žedna</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>SSH-agent a kluce wužywarja, ako kótaryž toś ta instalacija běžy (a pśecej za local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Priwatny kluc, skłaźony ako pótajmstwo.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Gronidło, skłaźone ako pótajmstwo (FTP se z nim pśizjawja).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Mě pótajmstwa</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Pótajmstwo ze Zarědowanje &gt; Pótajmstwa, na pśikład deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Zarědowanje &gt; Pótajmstwa</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Abo wobswětowa wariabla</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Wariabla serwerowego procesa, kótaraž jo wopśimujo, na pśikład DEPLOY_KEY (skłaźona ako env:DEPLOY_KEY). Wóna zastupujo mě pótajmstwa.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Kluc hosta</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Opcionalnje, za SSH, sftp a rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Palcowy wótśišć kluca hosta</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... tak, ako jen ssh-keygen -l wudawa. Z nim musy host toś ten kluc pokazaś; bźez njogo se kluc pśi prědnem kontakśe nawuknjo.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Pśeglědaś</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Testujśo zwisk z nastajenjami górjejce, pótom pśeglědajśo smužki, kótarež se napišu.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Toś tu zdalnu instalaciju wótpóraś</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Jeje nastajenja se z settings/override/migration.ini.append.php wótpóraju. Na zdalnej instalaciji se nic njezměnijo, a jeje dodaśa wóstanu w historiji.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Jo, toś tu zdalnu instalaciju wótpóraś</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Dodaśa</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Dodaśe pósćelo migracije toś teje instalacije na wubrane zdalne instalacije a wuwjeźo je tam ako %user, wšykne naraz a synchronje: kužda zdalna instalacija se nejpjerwjej pśeglědujo, a gaž se jadna njeraźi, se kužda, kótaraž jo je nałožyła, anulěrujo. Dodaśe běžy w slězynje, a jogo bok pokazujo kuždu zdalnu instalaciju, mjaztym až běžy.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Zdalne instalacije</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Markěrujśo zdalne instalacije, kupku abo wobej.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Tam dodaś</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Kak</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Dodaś</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Pósłaś a wuwjasć</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migracije se na kuždu zdalnu instalaciju pósćelu, pśeglěduju a z jadnym zgromadnym ID běga wuwjedu.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Jano pśenosowaś</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Dataje se pósćelu a pśeglěduju, nic se njewuwjedujo (jadnučki puś za FTP-zdalnu instalaciju).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Pó stopnjach</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Stopjeń pó stopnju w pórěźe wobswětow (dev, stage, beta, production ...): prědny stopjeń se doda, pótom wrota cakaju, až něchten pśizwólijo pśiducy. Wšykno abo nic w kuždem stopnju.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Jano toś te migracije</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Opcionalnje: ID migracijow, źělone z komami. Prozne: kužda migracija sedła a jogo rozšyrjenjow.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Jano pśedkontrola</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Jo, něnto dodaś</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Dodaśa, kótarež su něco pósłali abo wuwjadli, nejnowše nejpjerwjej (pśedkontrola njewobchowajo žednu rozpšawu).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>jano pśenosowaś</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>pó stopnjach, %stages stopnjow</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>njesynchronje</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Hyšći žedno dodaśe.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Dodaśe %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Kužda zdalna instalacija dodaśa z jeje stawom. How startowane dodaśe dalej w slězynje běžy, gaž se toś ten bok zacynijo; wócyńśo bok znowego, aby jo dalej wobglědowali.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Wšykne dodaśa</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Pśedkontrola</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Pśiducy stopjeń</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Nastajenja a pśizjawjeńske daty se pśeglěduju</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Pśedkontrola: staw kuždeje zdalneje instalacije se cyta</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Dataje migracijow se pósćelu</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Pśeglědujo se, což jo dojšło</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Migracije běže na kuždej zdalnej instalaciji</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Zdalne instalacije se slědk bjeru</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Dodaśe jo skóńcone. Jogo rozpšawa se zacytujo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Póstupoju njejo se dało slědowaś. Zacytajśo bok znowego, aby wiźeli, kak dodaśe stoj.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Faza</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Toś ten bok slědujo dodaśu, mjaztym až běžy.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Synchronje</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Stopnje</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>stopjeń %stage caka na swójich wrotach</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Wrota %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>pśizwólone wót %user w %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Stopjeń</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Pósłane dataje</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Wersija kernela</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>nałožone: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>za nałožowanje: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fazy</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Wrota: stopjeń %stage z %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Stopnje pśed nim su dodane. Pśeglědajśo je, pótom pśizwólśo pśiducy stopjeń: jogo zdalne instalacije se znowego pśeglěduju a dodaju, wšykno abo nic.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Dalej</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Jo, pśiducy stopjeń něnto dodaś</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Pśizwóliś</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Toś to dodaśe slědk wześ</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Kužda zdalna instalacija, kótaraž jo jo nałožyła (%list), se wrośijo k snimkoju, zgótowanemu pśed jeje běgom, wšykne naraz.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Jo, toś to dodaśe něnto slědk wześ</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>planowane</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>pśenesone</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>dodane</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>caka na wrotach</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>wubrane</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>pśigótowane</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>gótowy</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>caka na swój stopjeń</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>dataje pósłane</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>pśeglědane</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>njewuspěšne, jo se samo wótnowiło</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>njezměnjone</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>njedodane</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>njedojśpijobne</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Zdalna instalacija jo wótegroniła.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Zdalna instalacija njedajo se něnto wužywaś.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done gótowe, %pending cakajuce, %failed njewuspěšne</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Zastajenje</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>běg tam źaržy zastajenje</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>lichy</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage z %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Wubjeŕśo zdalnu instalaciju, kótaraž ma se testowaś.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Markěrujśo nejpjerwjej „Jo, toś tu zdalnu instalaciju wótpóraś“.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Zdalna instalacija njejo se dała wótpóraś: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Zdalna instalacija njejo se dała składowaś: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Dataja nastajenjow njedajo se cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Wubjeŕśo nanejmjenjej jadnu zdalnu instalaciju abo kupku.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Wubrana zdalna instalacija wěcej w nastajenjach njejo. Zacytajśo bok znowego.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Markěrujśo nejpjerwjej „Jo, něnto dodaś“.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP-zdalna instalacija njamóžo migracije wuwjasć: wubjeŕśo „Jano pśenosowaś“ abo wóstajśo ju wen.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Migracije za dodaśe su ID migracijow, źělone z komami.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Dodaśe hyšći běžy. Cakajśo, až se skóńcy.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Toś to dodaśe na wrotach njecaka.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Žedna zdalna instalacija njejo toś to dodaśe nałožyła: njejo nic, což by se slědk wzeło.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Markěrujśo nejpjerwjej „Jo, pśiducy stopjeń něnto dodaś“.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Markěrujśo nejpjerwjej „Jo, toś to dodaśe něnto slědk wześ“.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Zdalna instalacija z ID %id južo eksistěrujo.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Port jo licba wót 1 do 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Wobswět jo słowo z pismikow, cyfrow, - a _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Kupka jo słowo z pismikow, cyfrow, - a _ (nic all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Pśizjawjeńske daty njedaju se něnto cytaś: %problem. Składujśo je pśed prědnym dodaśim w Zarědowanje &gt; Pótajmstwa (abo nastajśo wariablu).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP-zdalna instalacija dóstawa jano dataje: dodaśe na nju jo „Jano pśenosowaś“, a jeje migracije se tam z ruku wuwjedu.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Zdalna instalacija %id njejo w settings/override/migration.ini.append.php; wótpórajśo ju tam, źož jo nastajona.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Pśez FTP pśizjawjony a index.php pśecytany. Staw migracijow FTP-zdalneje instalacije njedajo se cytaś.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Změnjone</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Napórane</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Mě</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasa</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Wótrězk</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Awtor</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nowe wopśimjeśe</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Nejnowše napórane a změnjone wopśimjeśe cełego sedła, nejnowše ako prědne: což su woglědowarje zapódali, což jo za pśespytowanje zaźaržane, nacerjenja, kótarež na wózjawjenje cakaju. Wubjeŕśo zapiski, aby je wuswobodnili, zaźaržali, schowali, pokazali, wótpórali abo do drugego wótrězka abo stawa pśesunuli.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Lisćina njedajo se cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Zaźaržanje za pśespytowanje hyšći nastajone njejo, togodla nic njejo zaźaržane a akcije zaźaržanja se njepórucuju. Aktualizěrowański kšac 6.0.15-review-hold to nastajijo: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Lisćinu filtrowaś</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Wót</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Do</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Napórane (prědne wózjawjenje)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Wšykne</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Staw wózjawjenja</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Wózjawjony</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Nacerjenje, nigda njewózjawjone</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Cakajucy (caka na pśizwólenje abo datum)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>W papjerniku</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Za pśespytowanje zaźaržane</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Zaźaržane</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Njezaźaržane</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Schowane</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Widobne</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Zapódane dnja</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Kuždy siteaccess</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Jano to, což jo audit zapisał.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Něnto: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Pśizjawjenje abo ID wužywarja.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtrowaś</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Filtry wótpóraś</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Zapiski</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from do %to z %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Žeden zapisk</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(cytane w %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Akcije za wubrane zapiski</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Wšykne na toś tom boku wubraś</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count wubranych</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Akcija</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Wubjeŕśo akciju</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Zaźaržanje wótpóraś</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Za pśespytowanje zaźaržaś</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Schowaś</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Pokazaś</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Do papjernika pśesunuś</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Wulašowaś</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Wótrězk pśirědowaś</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Staw pśirědowaś</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Pśicyna</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Trěbna za zaźaržanje; se ze zaźaržanim a w auditje składujo.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Wubjeŕśo wótrězk</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staw</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Wubjeŕśo staw</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Na wubrane nałožyś</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Kuždy zapisk se pó wašych pšawach pśeglědujo. Pśesunjenje do papjernika a wulašowanje musyśo wobkšuśiś. Wěcej ako %count zapiskow běžy w slězynje.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Wubraś</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Wózjawjenje</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Zapódane z</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name wubraś</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>hyšći nic</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(bźez mjenja)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Nacerjenje</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Cakajucy</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Schowane pśez nadrědowany zapisk</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Zaźaržane: nowe zapódaśe</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Wersija %version caka</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Wersija %version se wobźěłujo</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Nacerjenje, wersija %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Wersija %version wózjawjona</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Planowane na %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>žedna adresa</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>njezapisane</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Nic toś tym filtram njewótpowědujo.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Wšykne pokazaś</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Hyšći žedno wopśimjeśe njejo.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Na bok</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>%count zapiskow na bok pokazaś.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Adresa a wobglědowak zapódaśa póchadatej z indeksa audita, kótaryž how k dispoziciji njejo: słup groni „njezapisane“.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adresa a wobglědowak stej te, kótarejž jo audit za zapisk zapisał (awtomatiske zaźaržanje je pśecej zapisujo; wózjawjenje a napóranje jano tam, źož jo to zašaltowane), ako jogo nastajenja priwatnosći je składuju.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count zapiskow</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Wulašowanje zapiski na pśecej wótpórajo, ze wšymi jich wersijami a pśełožkami. Njedajo se slědk cyniś.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Zapiski du do papjernika, z kótaregož daju se wótnowiś.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Kuždy zapisk se pó wašych pšawach pśeglědujo; zapisk z pódzapiskami wóstanjo, ako jo (wótpóraśo jen w strukturje wopśimjeśa). Musyśo wobkšuśiś, až sćo to wy.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>To běžy w slězynje: jogo bok póstupa se wótcynijo, a wuslědk za kuždy zapisk se pokažo, gaž jo gótowe.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Wubrane zapiski</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>a %count dalšnych</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Pśetergnuś</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Nic njejo se cyniło</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Pśicyna: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Akcija hyšći w slězynje běžy.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Jeje póstup</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Akcija w slězynje jo se njeraźiła: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gótowe</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Wótpokazane</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Njeraźone</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Pó zapisku</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Zapisk</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Wuslědk</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Cogodla</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Slědk k lisćinje</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Zarědowanje</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Nic cynjone</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Wobkšuśiś</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Wubjeŕśo akciju.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Wubjeŕśo nanejmjenjej jaden zapisk.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Wubjeŕśo nejwěcej 1000 zapiskow naraz.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Groniśo, cogodla su zapiski zaźaržane.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Wubjeŕśo wótrězk.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Wubjeŕśo staw.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formular njedajo se cytaś.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Pśeglědowa tafla</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Nowe wopśimjeśe</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Licby njedachu se cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Za pśespytowanje zaźaržane</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Nowe źinsa</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Zaźaržanje za pśespytowanje hyšći nastajone njejo (aktualizěrowański kšac 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Wšykno nowe wopśimjeśe</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Njesmějośo akcije moderacije wuwjasć (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Akcija moderacije dopołna njejo: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderacija: %action na %count objektach</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done z %total objektow: %ok gótowe, %refused wótpokazane, %failed njeraźone</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok gótowe, %refused wótpokazane, %failed njeraźone</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Wěcej njeeksistěrujo.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Njama žedno městno (njewózjawjone).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Njesmějośo jo schowaś (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Njesmějośo jo pokazaś (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Jo južo schowane.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Njejo schowane.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Schowane.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Pokazane.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Jo w papjerniku: wuprozniśo abo wótnowśo jo tam.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Nacerjenje, kótarež njejo nigda wózjawjone było, njamóžo do papjernika: wulašujśo jo.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Njesmějośo jo wulašowaś (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Wulašowane.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Njesmějośo jo wótpóraś (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Ma pódzapiski: wótpóraśo jo w strukturje wopśimjeśa, źož su nalicone.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Njejo se wótpórało (źěłowy tok móžo wótpóranje zaźaržaś).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Do papjernika pśesunjone.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Wótrězk njeeksistěrujo.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Jo južo w toś tom wótrězku.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Njesmějośo toś ten wótrězk pśirědowaś (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Wótrězk njejo se pśirědował.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Wótrězk pśirědowany.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Staw njeeksistěrujo.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Jo južo w toś tom stawje.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Njesmějośo toś ten staw pśirědowaś (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Staw njejo se pśirědował (źěłowy tok móžo změnu zaźaržaś).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Staw pśirědowany.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Taka akcija njeeksistěrujo.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Zaźaržanje za pśespytowanje nastajone njejo (aktualizěrowański kšac 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Groniśo, cogodla jo zaźaržane.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Jo južo zaźaržane.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Njesmějośo jo zaźaržaś (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Zaźaržanje njejo se nastajiło (źěłowy tok móžo změnu zaźaržaś).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Zaźaržane.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Njejo zaźaržane.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Njesmějośo jo wuswobodniś (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Zaźaržanje njejo se wótpórało (źěłowy tok móžo změnu zaźaržaś).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Wuswobodnjone; hyšći schowane: njesmějośo jo pokazaś (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Wuswobodnjone.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Wšykne cile</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Slědne wózjawjenje</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Wózjawśo dermotnu statisku kopiju swójogo sedła na GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Zestarjone boki</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiske wózjawjanje</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statiske wózjawjanje jo wušaltowane.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Cil</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Cile njejsu se dali cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>nadawk běžy</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>twarjenje za kontrolu</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>to schowaś</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>cil napóraś</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nigdy</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>nawod cytaś</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added pśidane, %changed změnjone, %removed wótwónoźone</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes z %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Dalšne %count njejsu nalicone.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Napisane boki: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ma %size, wěcej ako hosting za jadnu dataju dowólujo.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % limita</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag jo wózjawjenje, kótarež sedło něnto ma.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: nadawk %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repozitorium/ za projektowe sedło GitHub; prozne za swójsku domenu abo wužywarske sedło.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Sedło</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Hosting</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Pśizjawjenje w repozitoriumje</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Repozitorium</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Wótkaze a zakładna sćažka</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Waša swójska domena</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Co twarjenje wopśimujo</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Gdy se wózjawijo</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Pśeglědowaś a składowaś</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Projektowe sedło GitHub lažy pód /&lt;repository&gt;/; relatiwne wótkaze tam a wšuźi howac funkcioněruju.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Twarjenje wótwołujo kuždy bok sedła %site, ako jen wóglědowaŕ bźez pśizjawjenja wiźi, pśepišo wótkaze, kopěrujo dataje a pišo wuslědk do zarědnika cila. Nic se njewózjawijo, až njejsćo twarjenje skontrolěrował a na Wózjawiś tłocył.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Wuraz cron, na pśikład 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Deploy-kluc se składujo ako pótajmstwo %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Deploy-kluc dowólujo toś tej instalaciji pushowaś pśez SSH do jadnogo repozitoriuma a nikaž howac. Jogo priwatna połojca wóstanjo w Zarědowanje &gt; Pótajmstwa; jano zjawna połojca se pokazujo.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Deploy-kluc napórany za toś ten cil</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Deploy-kluc se pśizjawja pśez SSH: změńśo git-adresu na adresu SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Nadawk běžy, startowany wót %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Nadawk toś togo cila hyšći běžy (%detail). Cakajśo, až se skóńcy.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Nadawk toś togo cila hyšći běžy. Cakajśo, až se skóńcy.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Wótkaz z boka /news/ na bok /about-us/team se napišo ako</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Nowy deploy-kluc jo se napórał. Pśidajśo něnto jogo zjawnu połojcu repozitoriumoju.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Bok, kótaryž pó wótstronjenju hyšći wudaśe za pytanje zmólkow, formularny token abo ID pósedźenja wopśimujo, se nigdy njewózjawijo.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Slědkwześe jo za ekspertow: markěrujśo „Wěm, co to změnijo“ a zapódajśo mě taga hyšći raz.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Sedło smějo měś až do %site, jadna dataja až do %file, z něźi 100 GB wobchada na mjasec. Pśi dermotnem tarifje musy repozitorium zjawne byś. GitHub Pages njejo myslony za wobchody abo druge wikowne transakcije.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Cil jo jadno sedło wózjawjone do jadnogo git-repozitoriuma. How se nic njetwari a njewózjawijo: Składowaś pišo nastajenja do settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Cil jo jadno sedło wózjawjone na jadnom městnje, na pśikład wašo zjawne sedło na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token ze Zarědowanje &gt; Pótajmstwa</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Źěłowy wótběg (workflow) repozitoriuma to wózjawijo.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Pśidajśo toś ten zjawny kluc repozitoriumoju z pšawom pisanja. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, markěrujśo Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Pśidane</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Drugi git-hosting</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Drugi proces źěła na toś tom cilu: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Slědk</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Zakładna sćažka</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Pjerwjej</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Pód zakładneju sćažku</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Gałuz</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Wobškóźone wótkaze</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Wobškóźone wótkaze w twarjenju</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Twarjenje</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Twarjenje %id wót %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name twariś</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Něnto twariś</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Twarjenje za kontrolu</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Wót</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Manuelnje, how</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Pśetergnuś</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Změniś</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Změnjone</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Změny</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Nejpjerwjej skontrolěrowaś</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontrolěrujśo toś te nastajenja</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Kontrolěrujśo, co twarjenje změnijo, woglědajśo se jo, a pótom jo wózjawśo abo zachyśćo.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Wubjeŕśo wózjawjenje, ku kótaremuž cośo se wrośiś.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Pśiźo z pózdźejšeju wersiju.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commitowanje</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Commity</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Commitujo twarjenje, tagujo jo a pushujo jo do %remote. Pushowanje se nigdy njewunuźijo; pózdźej móžośo se ku kuždemu wózjawjenjeju wrośiś.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>W pśirownanju z pjerwjejšnym zarědnikom: %added pśidane, %changed změnjone, %removed wótwónoźone, %unchanged njezměnjone.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>W pśirownanju ze slědnym wózjawjenim.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Pśizjawjeńske daty</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Swójska domena</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Wudaśe za pytanje zmólkow, formularne tokeny, ID pósedźenjow a nonce se pśecej wótstronijo.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Deploy-kluc</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Deploy-kluc za %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Zachyśiś</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Twarjenje zachyśiś</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domena</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Prozne: adresa sedła. Howac interna adresa togo samogo sedła.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Skóńcone</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Kuždy wótkaz zachopijo ze zakładneju sćažku.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Kužde wózjawjenje jo commit z tagom static/%id/&lt;n&gt;. Slědkwrośenje napórajo nowy commit z datajami pjerwjejšnego wózjawjenja: historija wóstanjo, žeden tag se njepśesunjo a nic se njewunuźijo.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Pśidatki</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Boki wótwołaś z</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Dataja</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Dataje</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Felujuce dataje</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Dataje sedła</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Dataje, kótarež njejsu se dali zběraś</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Palcowy wótśišć</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Zarědnik</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Za adresu SSH. Kluc se napórajo pó składowanju; jogo zjawnu połojcu pśidajośo repozitoriumoju.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Za adresu https://. GitHub: drobnje wótstopnjowany token (fine-grained) z pšawom Contents za cytanje a pisanje w repozitoriumje.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Za ekspertow. Zjawne sedło se změnijo, ako skjeržej ako jo pushowanje dokóńcone.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulary</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Dermotny hosting z repozitoriuma GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Z gałuzy</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-adresa</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages dowólujo sedło wót %site a dataju wót %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Limity GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages wózjawijo dataje tak, ako su (trěbne za dataje, kótarež zachopiju z _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub dodawa gałuz tak, ako jo se pushowała. Standard.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, waš swójski serwer: kužde git-repozitorium.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>K pjerwjejšnemu wózjawjenjeju se wrośiś</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Pomoc</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Pomoc z asistentom</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Je schowaś</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historija</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Historija %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hosting</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Kak GitHub Pages twarjenje dostawa</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Změny su skontrolěrowane</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Wěm, co to změnijo</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Jo wušaltowane: nic njedajo se twariś, až njejo zašaltowane.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Běžy w slězynje ako %user; móžośo toś ten bok zacyniś.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Nadawk %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Składowane ako pótajmstwo %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Družyna</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Slědne wózjawjenje</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Toś te boki wuwześ</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Toś te wótrězki wuwześ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Wótkaze</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Pśepisane wótkaze</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Žywe sedło</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Twarjenje se woglědaś</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Małe pismiki, cyfry, _ a -, na pśikład github-public. Pomjenijo zarědnik a tagi (static/&lt;id&gt;/&lt;n&gt;) a njedajo se pózdźej změniś.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Nowy kluc napóraś</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Cil napóraś</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Kluc napóraś</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Napórajśo nejpjerwjej repozitorium pla hostinga; prozne jo w pórěźe.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest datajow</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Powěsć</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Nejwěcej bokow</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Mě</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Mě tokena w Zarědowanje &gt; Pótajmstwa</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Nowy cil</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Dalej</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ně</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Hyšći žeden commit.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Žeden kluc njejo se napórał: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Žedna binarna dataja php za pśikazowu smužku njejo se namakała. Stajśo migration.ini [AdminSettings] PhpCliPath na jeje dopołnu sćažku.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Hyšći žeden tag.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Hyšći žeden cil.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Žedne</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Njejo w twarjenju.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Hyšći nic njejo se wózjawiło.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Hyšći nic njejo se wózjawiło: kužda dataja jo nowa.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Powěźeś</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Pó casowem planje</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Na konsoli</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Na serwerje: ./console exp:static:serve %id jo dodawa na samsny part.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Jadna sćažka na smužku, * wótpowědujo kuždemu źěloju: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Z cilom se jano mě składujo; samy token abo kluc wóstanjo w Zarědowanje &gt; Pótajmstwa a se nigdy w protokolu njepokažo.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Jano to, což boki pomjenjuju</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Jano z tokenom. env:NAME město togo cyta wariablu wobswěta serwera.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Pśeglěd wócyniś</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Wócynijo twarjenje tak, ako jo hosting buźo dodawaś, ze zarědnika cila. Wótkaz funkcioněrujo za was jadnu góźinu.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Opcionalne. Prozne: to, což jo se wózjawiło.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Opcionalne. Z domenu se sedło w jeje kórjenju dodawa.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Wudaśe</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Boki</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Boki cila</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Wótpokazane boki</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Dodatne wobźěłowanje</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Pśeglěd</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Pśeglěd a wózjawjenje</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Pśeglěd a wózjawjenje %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Pśeglěd twarjenja</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Póstup</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Zjawna adresa</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Zjawny kluc</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Wózjawiś</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Wózjawśo statisku kopiju sedła na GitHub Pages abo na kuždy git-hosting: twarśo ju, kontrolěrujśo změny, wózjawśo a wrośćo se, gaž trjebaśo, k pjerwjejšnemu wózjawjenjeju.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Wózjawjenje za slědkwrośenje</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Wózjawjenja</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Pushowanje</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Nawod cytaś</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Zapisk</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Wótpokazane</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relatiwny</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Znowego zacytaś</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Wótwónoźone</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Kluc wuměniś: stary pśestanjo funkcioněrowaś</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rozpšawa</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Rozpšawa wó twarjenju</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repozitorium</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Pśeglědowanje</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Pśeglědowanje kontrolěrujo kužde nastajenje a pokazujo smužki, kótarež se napišu. Hyšći nic njejo składowane.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Slědk wześ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Slědkwześe</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Składowaś</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Casowy plan</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Pytański bok</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ID wótrězkow, wótźělone pśez komy.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Je k žywemu sedłu pósłaś</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Nastajenje</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Nastajenja</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Nastajenja %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Zarědowanje</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Zarědowanje &gt; Pótajmstwa</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Pokazujo se w lisćinach, na pśikład „Zjawne sedło na GitHub Pages“.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Pśizjawjenje z GitHub App pśiźo z integraciju GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Sedło</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Sedło za wózjawjenje</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Wjelikosć</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Wjelikosć a limity</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Wjelikosć twarjenja</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Zestarjone boki</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startowane</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Startowane wót %user %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staw</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiske wózjawjanje</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Statiske wózjawjanje jo wušaltowane</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statiske wózjawjanje jo wušaltowane.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Statiske wózjawjanje jo wušaltowane. Zašaltujśo jo nejpjerwjej w Zarědowanje &gt; Statiske wózjawjanje.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Statiske wózjawjanje jo zašaltowane.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Kšac %step z %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Kšace</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Wótstronjenje</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Wušaltowaś</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Zašaltowaś</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Statiske wózjawjanje zašaltowaś</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Git-tag</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Git-tagi</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Cil</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Cile daju se napóraś a změniś, ale nic se njetwari a njewózjawijo, až njejo zašaltowane.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Groni pytnicam, co maju cytaś.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Twarjenje njejo se dało zachyśiś: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Twarjenje jo take same ako slědne wózjawjenje: njejo nic k wózjawjenju.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Twarjenje jo se zachyśiło: zarědnik zasej wopśimujo slědne wózjawjenje.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Standardne gódnoty se hóźe za nejwěcej sedłow.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Zarědnik wopśimujo twarjenje, kótarež hyšći njejo wózjawjone; nowe twarjenje jo wuměnijo.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Do zarědnika nadawkow njedajo se pisaś: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Nadawk njejo se dał pśigótowaś: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Nadawk njejo se dał startowaś.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Nadawk jo skóńcony. Jogo rozpšawa se zacytujo.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Nadawk trjeba pśizjawjonego wužywarja.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Nadawk jo se startował, ale njejo ID swójogo procesa wózjawił. Kontrolěrujśo %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Kluc</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Nejwětša dataja: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Smužki, kótarež se napišu</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Lisćina bokow za pytnice; trjeba zjawnu adresu.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Boki se wótwołuju tak, ako je wóglědowaŕ bźez pśizjawjenja wiźi. Pśistupy k sedłu za administraciju a wobźěłowanje se nigdy njepórucuju.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Póstup njejo se dał slědowaś. Zacytajśo bok znowego, aby wiźeł, kak daloko jo nadawk.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Zjawna połojca kluca:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Kórjeń gałuzy</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Składowarnja pótajmstwow hyšći njejo zarědowana (./console exp:upgrade --apply napórajo jeje tabelu), togodla njedajo se žeden kluc składowaś.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Serwer se sam pśizjawja (ze swójim SSH-klucom abo pomocnikom za pśizjawjeńske daty), abo repozitorium jo na toś tom serwerje.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Nastajenje njejo se dało pisaś: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Nastajenja su płaśiwe. Toś te smužki se napišu:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Dataja nastajenjow njedajo se cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Sedło se k datajam togo wózjawjenja wrośijo; hyšći njewózjawjone twarjenje musy se nejpjerwjej wózjawiś abo zachyśiś.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Swójski bok sedła za adrese, kótarež njeeksistěruju.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Cil njejo se dał składowaś: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Cil se hyšći z toś tym klucom njepśizjawja: wubjeŕśo w jogo nastajenjach „Deploy-kluc napórany za toś ten cil“.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Cile njejsu se dali cytaś: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Hyšći njejo žedno twarjenje za kontrolu.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Toś ta instalacija njama žeden zjawny pśistup k sedłu. Pśistupy k sedłu za administraciju a wobźěłowanje se nigdy njewózjawiju.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Toś ten bok slědujo nadawk, mjaztym až běžy; gaž se bok zacynijo, běžy dalej w slězynje.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Toś ten cil hyšći njama deploy-kluc.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Toś ten cil hyšći njejo se how twarił.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Toś ten cil jaden ma.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Zachyśijo toś to twarjenje: zarědnik zasej wopśimujo slědne wózjawjenje. Žywe sedło se njezměnijo.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Markěrujśo nejpjerwjej „Změny su skontrolěrowane“.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Cas</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Zapušćaki</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Zapódajśo mě taga hyšći raz</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Njezměnjone</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Co</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Co se změnijo</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Co kužda dataja jo; se pśecej pišo.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Co jo nadawk cynił a jogo zapisk. How startowany nadawk dalej w slězynje běžy, gaž se toś ten bok zacynijo.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Což jo nadawk ako zmólki wudał</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>To, což boki pomjenjuju, a kuždy wobraz wózjawjonego wopśimjeśa</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Gdy</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Gaž se wózjawjenje njeraźijo</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Gaž se wózjawjenje raźijo</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Gaž se wopśimjeśe wózjawijo</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Źož wjedu wótkaze na to, což kopija njewopśimujo (pytanje, pśizjawjenje).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Wótkulž se statiska kopija dodawa.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Kótare sedło se wózjawijo a kak cil gromje.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Funkcioněrujo pód kuždeju sćažku. Standard.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Pišo se, gaž jo swójska domena nastajona.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Jo</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Móžośo pśecej manuelnje how a na konsoli twariś a wózjawiś.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>jano mě; gódnota wóstanjo w Zarědowanje &gt; Pótajmstwa</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>pód %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>skóńcone bźez rozpšawy</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>pśidatk</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>njeraźone</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>dataja</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, abo main ze zarědnikom docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-hosting</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (z tokenom) abo git@github.com:owner/repo.git (z deploy-klucom); nigdy gronidło abo token w njej.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, za mapu sedła a kanoniske wótkaze.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>wobraz</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nigdy</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ně</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>žedno zdalone repozitorium</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>žedne: commity wóstanu w zarědniku</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>žedne: nic njejo se změniło</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>njepushowane</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>nic njejo se změniło</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>bok</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>wuspěšne</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open jo znjemóžnjone, togodla njedajo se how nadawk startowaś. Wužywajśo ./console exp:static:build na serwerje.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>wózjawjenje</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>wózjawjone</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>pushowanje caka</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>pushowane</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>wótpokazane</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relatiwny</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>slědkwześe</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>slědk wzete</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>běžy</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>jano zarědnik</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: pišo se do dataje CNAME. Pokažćo DNS domeny na hosting, ako wón wujasnja; HTTPS móžo chylu trajaś, než startujo.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>jo, hyšći njewózjawjone</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Aplikacija GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Workflow repozitoriuma jen wózjawijo. Twarjenje pišo dataju workflow; wóstajśo zarědnik prozny.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Pó składowanju cila z repozitoriumom GitHub a tokenom abo GitHub App móžo toś ten kšac repozitorium napóraś a GitHub Pages zašaltowaś. Howac napórajśo nejpjerwjej repozitorium na GitHub; teke prozny jo w pórěźe.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Gałuz abo GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS kontrolěrowaś</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Repozitorium napóraś, jolic njeeksistěrujo</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Napórajśo repozitorium na GitHub a zašaltujśo GitHub Pages w jogo nastajenjach (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Napórajo repozitorium %repo, jolic felujo (jolic jo se pominało), zašaltujo GitHub Pages z gałuze abo z GitHub Actions ako składowane a nastajijo swójsku domenu a HTTPS. Wužywa składowane nastajenja: składujśo nejpjerwjej změny.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Drobnostki na GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Zapódajśo nejpjerwjej swójsku domenu.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Kuždy push se nejpjerwjej pśeśiwo toś tym limitam kontrolěrujo.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Za adresu https:// na GitHub. App, nastajone za toś tu instalaciju, se pśizjawijo; trjeba ID instalacije.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages słužy priwatny repozitorium jano z płaśonym planom.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: pódomena (www.example.com) trjeba zapisk CNAME na &lt;owner&gt;.github.io; kórjenjowa domena (example.com) zapiski A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>ID instalacije GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Slědne twarjenje Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Limity a wuměnjenja</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Trěbne za GitHub Pages z dermotnym planom.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Na GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Jano z GitHub App: licba na kóńcu adrese instalacije App na GitHub. Samo App se w staticcache.ini nastajijo (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Priwatny</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Zjawny</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Składujśo nejpjerwjej cil z repozitoriumom GitHub a tokenom abo GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Nastajśo toś te zapiski pla póbitowarja domeny:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Na GitHub nastajiś</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS domeny %domain hyšći njepokazujo na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS domeny %domain pokazujo na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Integracija GitHub how njejo k dispoziciji: %problem. Wózjawjanje do gałuze weto funkcioněrujo; zašaltujśo GitHub Pages w nastajenjach repozitoriuma.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Kšace GitHub za toś ten cil njejsu k dispoziciji: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Status GitHub Pages se pokazujo z tokenom abo GitHub App ako pśizjawjeńskimi datami.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Swójsku domenu wužywaś</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Co wubraś: token, deploy-kluc abo GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Z repozitoriumom GitHub a tokenom abo GitHub App móžo asistent za was repozitorium napóraś, GitHub Pages zašaltowaś a domenu nastajiś (kšac 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>twari se</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>natwarjone</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>z GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>z gałuze %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>hyšći žedne</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>njenamakane</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>wušaltowane</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>priwatny</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>zjawny</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>w cakańskem rěźe</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>njeznaty</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count na %pages boku/bokach:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Dataja .gz (a .br) pśi kuždej tekstowej dataji, za serwery, kótarež je słuže.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Mały bok za kuždu staru adresu a alias boka, aby se stare wótkazy dalej fungěrowali.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Pišo se pśecej, gaž GitHub Actions sedło dodawa.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX-ID kaž CC-BY-4.0 abo tekst sam.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Kórb</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Wołanja serwera</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentary</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formulary, kótarež informacije zbiraju</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Źěłowy běg GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Mjenjej prozneje městna a žedne komentary w bokach.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Licenca wopśimjeśa</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Pśizjawiś</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Zmjeńšyś</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Druge formulary</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Wnaprědk kompriměrowaś</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Pśesměrowańske boki</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Pśesměrowańske boki: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Pytaś</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Pytański indeks: %pages bokow w %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Stylowe lisćiny a skripty pomjenjone pó haši jich wopśimjeśa, aby brawzery mógli je wobchowaś.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Změnjone boki, někotare minuty pó slědnej změnje (dźěl cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Licenca wopśimjeśa z pola dołojce.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Cełe sedło w casach plana (dźěl cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Toś te dźěle bokow serwer trjebaju; kuždy jo dostał nadomestk. Pśeglědajśo je pśed wózjawjenim.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Což statiski njefunkcioněrujo</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Což repozitorium jo, za tego, kenž jo na serwerje wócynja.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>wuwostajone</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>nadomestny tekst</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>kóńcny punkt formularow žywego sedła</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>žywe sedło</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>pytański bok kopije</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formular njejo se wótpósłaś mógał.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Źěkujomy se: formular jo se wótpósłał.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Formular njejo se pśiwzeł: pśeglědajśo, což sćo zapisał, a pósćelśo jen znowego.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Wótkazy na boki wótwónoźeś, kótarež kopija njewopśimujo</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Wótkazy do administracije wótwónoźeś</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Jich tekst wóstanjo. Wobraze, formulary a wótkazy na druge sedła se nigda njewótwónoźuju.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Wersija</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Pśistupy k sedłu za wózjawjenje</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Pśistup k sedłu</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>W kórjenju</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Žeden pśistup w kórjenju: kuždy jo w swójom zarědniku, a kórjeń wótkazujo na nje</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Pśistupy k sedłu</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Wóznamjeńśo jaden pśistup k sedłu abo někotare, kótarež źěle jaden host pśez swój URI-prefiks. Ten w kórjenju se tam słužy, druge w zarědniku jich prefiksa (/ger/); wótkaze mjazy nimi wóstanu w kopiji. Administraciske pśistupy se nigda njepórucuju.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Statiske wózjawjenje %target na %site njejo se raźiło</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Statiske wózjawjenje %target na %site jo se raźiło</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Toś tu e-mailku jo %site pósłał, dokulaž zaměr statiskego wózjawjenja %target wó nju pšosy.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Dodaśe %deploy na %site njejo se raźiło</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Dodaśe %deploy na %site caka pśi wrotach</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Dodaśe %deploy na %site jo se raźiło</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Toś tu e-mailku jo %site pósłał, dokulaž migration.ini [RemoteSettings] Notify[] to žada.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Datowe typy (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Licone %time, znowego za %minutes minutow</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Datowy typ składujo a wobźěłujo jaden typ gódnoty atributa klase: tekstowu smužku, wobraz, relaciju. Jědro dawa wětšynu z nich, rozšyrjenja pśidawaju dalšne. How su wšykne, chto je dawa a kak wjele wopśimjeśa je wužywa. Datowy typ, kótaryž datowa banka wužywa, ale kótaryž nicht wěcej njeregistrěrujo, kazy wopśimjeśe, kótarež jen ma.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Kupki klasow</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Něnto znowego licyś město togo, aby se wužywali licby slědnych minutow.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Znowego licyś</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Pśeglěd</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Registrěrowany</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>We wužywanju</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Njewužyty</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Rozšyrjenja, kótarež dawaju datowe typy</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Atributy klase</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Atributy objekta</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Njeregistrěrowany</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Nalicony, dataja felujo</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count datowych typow se wužywa, ale njejsu registrěrowane</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes atributow klase a %object_attributes atributow objekta ma datowy typ, kótaryž žedno rozšyrjenje abo nastajenje njeregistrěrujo. Jich objekty njedaju se pokazaś, wobźěłaś abo wózjawiś. Aktiwěrujśo rozšyrjenje, kótarež datowy typ dawa, abo změńśo klasu.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Jano toś te pokazaś</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Datowy typ pytaś</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifikator, mě, PHP-klasa abo rozšyrjenje.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Pokazaś</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Wšykne</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Dawa</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Wšykne</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Jědro</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Žeden datowy typ njewótpowědujo toś tomu filtroju.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Wšykno pokazaś</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Rozšyrjenje</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown z %count datowych typow, %used se wužywa</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Datowa banka ma atributy klase abo objekta z toś tymi datowymi typami, ale content.ini žeden z nich njenaliconujo, abo jich dataja felujo.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Datowe typy wót %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Datowy typ</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-klasa a dataja</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klase</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objekty</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Markěrowanja</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>žedne</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Žeden datowy typ njewótpowědujo pytanjeju. Wuprozniśo pytanje.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown z %count datowych typow pokazane</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Pokazane datowe typy: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Pó %column sortěrowaś</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Licone %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Wšykne datowe typy</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Bok pomocy</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Toś ten datowy typ se wužywa, ale njejo registrěrowany</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Objekty slědujucych klasow njedaju se pokazaś, wobźěłaś abo wózjawiś, dokulaž žedno rozšyrjenje datowy typ njeregistrěrujo. Aktiwěrujśo rozšyrjenje, kótarež jen dawa, a pśidajśo jen do content.ini [DataTypeSettings] AvailableDataTypes[], abo změńśo klase.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini naliconujo toś ten datowy typ, ale žeden zapis datowych typow njama jogo dataju. Nicht jen njewužywa; wótpórajśo jen z AvailableDataTypes[] abo aktiwěrujśo jogo rozšyrjenje.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Wó toś tom datowem typje</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifikator</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Mě</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Rozšyrjenje %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>nichten</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-klasa</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Dataja</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>W AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ně</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Słupy jogo gódnoty</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Słupy nastajenjow jogo atributa klase</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabele</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Słupy a tabele su se namakali pśez cytanje koda datowego typa: orientacija, žedno slubjenje.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Pśedłogi</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Pśistup k sedłu</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Pśedłoga</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Namakany w</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>toś ta administracija</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>standardne sedło</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Bźez pśepisanjow: pśepisujuca pśedłoga, kótaraž wótpowědujo klasy abo atributoju, ma pśednosć pśed toś tymi.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klase, kótarež jen wužywaju (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Žedna klasa njama atribut toś togo datowego typa.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasa</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atributy</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Atributy klase (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Nastajenja</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Trěbny</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Pytajobny</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Pśełožujobny</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Zběra informacije</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Něco wopśimjeśa, kótarež jen wužywa</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Slědnje změnjone ako prědne</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Změnjone</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Suk %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Kuždy pśełožk ma swóju gódnotu.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Pytanje indeksěrujo jogo gódnoty.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Móžo informacije wót woglědowarjow zběraś (formulary).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Lisćiny daju se pó nim sortěrowaś: sortěrowański kluc %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Sortěrujobny</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Jogo gódnoty pokazuju na druge objekty.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Relacije</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Dajo se z jadnorego teksta wupołniś (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Z teksta</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Dajo se z dataje wupołniś.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Z dataje</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Nastajenja jogo atributa klase pśidu do paketow.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pakety</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Wopśimjeśe (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from do %to z %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Lisćinu filtrowaś</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Wšykne klase</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Wótrězk</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Rěcy</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Wobsejźaŕ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Wózjawjony</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Pórěd wobrośiś</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Žeden zapisk</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Na bok</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Zapiski na bok: %count.</translation>
     </message>
 </context>
 </TS>

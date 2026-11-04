@@ -2,7 +2,7 @@
 /**
  * File containing the expUserApproval class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -486,7 +486,114 @@ class expUserApproval
     }
 
     /**
+     * The process an approval item of the plain approval event (ezapprove) belongs to when the item holds a user
+     * account or user group: the section based setup (expUserApprovalSection, a Staff section on the approval
+     * event), or any approval event whose sections cover accounts. Null otherwise.
+     *
+     * @param int $collaborationID
+     * @return eZWorkflowProcess|null
+     */
+    public static function sectionProcessOfItem( $collaborationID )
+    {
+        $db = eZDB::instance();
+        $rows = $db->arrayQuery( 'SELECT workflow_process_id FROM ezapprove_items WHERE collaboration_id = ' . (int)$collaborationID );
+        foreach ( $rows as $row )
+        {
+            $process = eZWorkflowProcess::fetch( (int)$row['workflow_process_id'] );
+            if ( !$process instanceof eZWorkflowProcess )
+                continue;
+            $event = eZWorkflowEvent::fetch( (int)$process->attribute( 'event_id' ) );
+            if ( !$event instanceof eZWorkflowEvent || $event->attribute( 'workflow_type_string' ) !== 'event_ezapprove' )
+                continue;
+            $parameters = $process->attribute( 'parameter_list' );
+            $objectID = isset( $parameters['object_id'] ) ? (int)$parameters['object_id'] : 0;
+            if ( $objectID && self::isAccountOrGroup( eZContentObject::fetch( $objectID ) ) )
+                return $process;
+        }
+        return null;
+    }
+
+    /**
+     * Which approval of accounts an item belongs to: group (the event "Approve user accounts"), section (the plain
+     * approval event holding a user account or group), or null (any other item).
+     *
+     * @param int $collaborationID
+     * @return string|null
+     */
+    public static function modeOfItem( $collaborationID )
+    {
+        if ( self::processOfItem( $collaborationID ) !== null )
+            return 'group';
+        if ( self::sectionProcessOfItem( $collaborationID ) !== null )
+            return 'section';
+        return null;
+    }
+
+    /**
+     * After the plain approval event (ezapprove) created an item for a user account or user group (the section based
+     * setup): the mail with the link to the item in the administration to every approver, whether or not they
+     * subscribed to collaboration notifications, and the audit record, as for the event "Approve user accounts".
+     *
+     * @param eZWorkflowProcess $process
+     * @param eZWorkflowEvent $event the approval event
+     * @param eZContentObject $object the account or group
+     * @param int $versionID
+     * @param eZUser $requester who published
+     * @param int[] $approverIDs the users the event asks
+     * @param callable|null $sender sendMail()'s sender (tests)
+     * @return int the number of mails sent
+     */
+    public static function sectionRequested( $process, $event, $object, $versionID, $requester, array $approverIDs, $sender = null )
+    {
+        $db = eZDB::instance();
+        $rows = $db->arrayQuery( 'SELECT collaboration_id FROM ezapprove_items WHERE workflow_process_id = ' . (int)$process->attribute( 'id' ) );
+        $collaborationID = $rows ? (int)$rows[0]['collaboration_id'] : 0;
+        // the groups the version places the account in
+        $placements = array();
+        $version = $object->version( (int)$versionID );
+        if ( $version instanceof eZContentObjectVersion )
+        {
+            foreach ( (array)$version->attribute( 'node_assignments' ) as $assignment )
+            {
+                $parent = eZContentObjectTreeNode::fetch( (int)$assignment->attribute( 'parent_node' ) );
+                if ( $parent instanceof eZContentObjectTreeNode )
+                    $placements[] = $parent;
+            }
+        }
+        $approverIDs = array_values( array_unique( array_map( 'intval', $approverIDs ) ) );
+        $sent = 0;
+        if ( $collaborationID )
+        {
+            try
+            {
+                $sent = self::sendMail( $object, $requester, $placements, $approverIDs, $collaborationID, $sender, (int)$versionID );
+            }
+            catch ( Throwable $e )
+            {
+                eZDebug::writeError( 'The approval mail could not be sent: ' . $e->getMessage(), __METHOD__ );
+            }
+        }
+        if ( class_exists( 'expAuditHook' ) )
+        {
+            $objectID = (int)$object->attribute( 'id' );
+            $groups = array();
+            foreach ( $placements as $parent )
+                $groups[] = array( 'node' => (int)$parent->attribute( 'node_id' ), 'name' => (string)$parent->attribute( 'name' ) );
+            $workflowID = (int)$event->attribute( 'workflow_id' );
+            expAuditHook::emit( 'access.user.approval.request', function () use ( $objectID, $versionID, $groups, $approverIDs, $collaborationID, $sent, $workflowID, $process ) {
+                return array( 'object' => expAuditHook::userOrGroup( $objectID ),
+                              'target' => array( 'type' => 'collaboration', 'id' => (int)$collaborationID ),
+                              'after' => array( 'version' => (int)$versionID, 'groups' => $groups, 'approvers' => count( $approverIDs ),
+                                                'mails' => $sent, 'workflow' => $workflowID,
+                                                'process' => (int)$process->attribute( 'id' ), 'mode' => 'section' ) );
+            } );
+        }
+        return $sent;
+    }
+
+    /**
      * After an approver accepted or denied an item (eZApproveCollaborationHandler): when the item is one of this event,
+     * or one of the plain approval event that holds a user account or group (modeOfItem()),
      * the audit record, then the workflow continues at once (accepted: the account is published and can sign in;
      * denied: the version is a draft of its author again), as the workflow cronjob would at its next run.
      *
@@ -497,19 +604,20 @@ class expUserApproval
     public static function decided( $item, $accepted )
     {
         $collaborationID = (int)$item->attribute( 'id' );
-        $process = self::processOfItem( $collaborationID );
-        if ( $process === null )
+        $mode = self::modeOfItem( $collaborationID );
+        if ( $mode === null )
             return null;
+        $process = $mode === 'group' ? self::processOfItem( $collaborationID ) : self::sectionProcessOfItem( $collaborationID );
         $objectID = (int)$item->attribute( 'data_int1' );
         $versionID = (int)$item->attribute( 'data_int2' );
         if ( class_exists( 'expAuditHook' ) )
         {
             $name = $accepted ? 'access.user.approval.approve' : 'access.user.approval.deny';
-            expAuditHook::emit( $name, function () use ( $objectID, $versionID, $collaborationID, $process ) {
+            expAuditHook::emit( $name, function () use ( $objectID, $versionID, $collaborationID, $process, $mode ) {
                 return array( 'object' => expAuditHook::userOrGroup( $objectID ),
                               'target' => array( 'type' => 'collaboration', 'id' => $collaborationID ),
                               'after' => array( 'version' => $versionID, 'process' => (int)$process->attribute( 'id' ),
-                                                'requested_by' => (int)$process->attribute( 'user_id' ) ) );
+                                                'requested_by' => (int)$process->attribute( 'user_id' ), 'mode' => $mode ) );
             } );
         }
         return self::resume( (int)$process->attribute( 'id' ) );
@@ -532,46 +640,56 @@ class expUserApproval
         try
         {
             $db->begin();
-            $workflow = eZWorkflow::fetch( $process->attribute( 'workflow_id' ) );
-            $workflowEvent = $process->attribute( 'event_id' ) != 0 ? eZWorkflowEvent::fetch( $process->attribute( 'event_id' ) ) : null;
-            $eventLog = array();
-            $process->run( $workflow, $workflowEvent, $eventLog );
-            $status = (int)$process->attribute( 'status' );
-            if ( $status !== eZWorkflow::STATUS_DONE )
+            try
             {
-                if ( in_array( $status, array( eZWorkflow::STATUS_RESET, eZWorkflow::STATUS_FAILED, eZWorkflow::STATUS_NONE,
-                                               eZWorkflow::STATUS_CANCELLED, eZWorkflow::STATUS_BUSY ), true ) )
+                $workflow = eZWorkflow::fetch( $process->attribute( 'workflow_id' ) );
+                $workflowEvent = $process->attribute( 'event_id' ) != 0 ? eZWorkflowEvent::fetch( $process->attribute( 'event_id' ) ) : null;
+                $eventLog = array();
+                $process->run( $workflow, $workflowEvent, $eventLog );
+                $status = (int)$process->attribute( 'status' );
+                if ( $status !== eZWorkflow::STATUS_DONE )
                 {
-                    if ( $bodyMemento = eZOperationMemento::fetchMain( $process->attribute( 'memento_key' ) ) )
-                        $bodyMemento->remove();
-                    foreach ( (array)eZOperationMemento::fetchList( $process->attribute( 'memento_key' ) ) as $memento )
-                        $memento->remove();
-                }
-                if ( $status === eZWorkflow::STATUS_CANCELLED )
-                {
-                    $process->removeThis();
+                    if ( in_array( $status, array( eZWorkflow::STATUS_RESET, eZWorkflow::STATUS_FAILED, eZWorkflow::STATUS_NONE,
+                                                   eZWorkflow::STATUS_CANCELLED, eZWorkflow::STATUS_BUSY ), true ) )
+                    {
+                        if ( $bodyMemento = eZOperationMemento::fetchMain( $process->attribute( 'memento_key' ) ) )
+                            $bodyMemento->remove();
+                        foreach ( (array)eZOperationMemento::fetchList( $process->attribute( 'memento_key' ) ) as $memento )
+                            $memento->remove();
+                    }
+                    if ( $status === eZWorkflow::STATUS_CANCELLED )
+                    {
+                        $process->removeThis();
+                        $db->commit();
+                        return 'cancelled';
+                    }
+                    $process->store();
                     $db->commit();
-                    return 'cancelled';
+                    return 'waiting';
                 }
-                $process->store();
-                $db->commit();
-                return 'waiting';
+                $bodyMemento = eZOperationMemento::fetchChild( $process->attribute( 'memento_key' ) );
+                $mainMemento = $bodyMemento ? $bodyMemento->attribute( 'main_memento' ) : null;
+                if ( !$bodyMemento || !$mainMemento )
+                {
+                    $db->commit();
+                    return 'failed';
+                }
+                $mementoData = $bodyMemento->data();
+                $mementoData['main_memento'] = $mainMemento;
+                $mementoData['skip_trigger'] = true;
+                $mementoData['memento_key'] = $process->attribute( 'memento_key' );
+                $bodyMemento->remove();
+                $operationParameters = isset( $mementoData['parameters'] ) ? $mementoData['parameters'] : array();
+                eZOperationHandler::execute( $mementoData['module_name'], $mementoData['operation_name'], $operationParameters, $mementoData );
+                $process->removeThis();
             }
-            $bodyMemento = eZOperationMemento::fetchChild( $process->attribute( 'memento_key' ) );
-            $mainMemento = $bodyMemento ? $bodyMemento->attribute( 'main_memento' ) : null;
-            if ( !$bodyMemento || !$mainMemento )
+            catch ( Throwable $e )
             {
-                $db->commit();
-                return 'failed';
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
             }
-            $mementoData = $bodyMemento->data();
-            $mementoData['main_memento'] = $mainMemento;
-            $mementoData['skip_trigger'] = true;
-            $mementoData['memento_key'] = $process->attribute( 'memento_key' );
-            $bodyMemento->remove();
-            $operationParameters = isset( $mementoData['parameters'] ) ? $mementoData['parameters'] : array();
-            eZOperationHandler::execute( $mementoData['module_name'], $mementoData['operation_name'], $operationParameters, $mementoData );
-            $process->removeThis();
             $db->commit();
             if ( class_exists( 'eZStaticCache' ) )
                 eZStaticCache::executeActions();
@@ -726,81 +844,91 @@ class expUserApproval
         $changes = self::changes( $plan );
         $db = eZDB::instance();
         $db->begin();
-        $target = $changes['target_workflow'];
-        if ( $changes['workflow'] === 'create' || ( !$target instanceof eZWorkflow && $changes['trigger'] === 'create' ) )
+        try
         {
-            $groupID = 0;
-            $groupName = self::WORKFLOW_GROUP_NAME;
-            foreach ( (array)eZWorkflowGroup::fetchList() as $group )
+            $target = $changes['target_workflow'];
+            if ( $changes['workflow'] === 'create' || ( !$target instanceof eZWorkflow && $changes['trigger'] === 'create' ) )
             {
-                if ( $group->attribute( 'name' ) === self::WORKFLOW_GROUP_NAME )
+                $groupID = 0;
+                $groupName = self::WORKFLOW_GROUP_NAME;
+                foreach ( (array)eZWorkflowGroup::fetchList() as $group )
+                {
+                    if ( $group->attribute( 'name' ) === self::WORKFLOW_GROUP_NAME )
+                        $groupID = (int)$group->attribute( 'id' );
+                }
+                if ( !$groupID )
+                {
+                    $group = eZWorkflowGroup::create( $adminID );
+                    $group->setAttribute( 'name', $groupName );
+                    $group->store();
                     $groupID = (int)$group->attribute( 'id' );
+                }
+                $workflow = eZWorkflow::create( $adminID );
+                $workflow->setAttribute( 'name', self::WORKFLOW_NAME );
+                $workflow->setAttribute( 'version', 0 );
+                $workflow->store();
+                eZWorkflowGroupLink::create( (int)$workflow->attribute( 'id' ), 0, $groupID, $groupName )->store();
+                $target = $workflow;
             }
-            if ( !$groupID )
+            else if ( $changes['workflow'] === 'has' && !$target instanceof eZWorkflow )
             {
-                $group = eZWorkflowGroup::create( $adminID );
-                $group->setAttribute( 'name', $groupName );
-                $group->store();
-                $groupID = (int)$group->attribute( 'id' );
+                $target = self::findWorkflow();
             }
-            $workflow = eZWorkflow::create( $adminID );
-            $workflow->setAttribute( 'name', self::WORKFLOW_NAME );
-            $workflow->setAttribute( 'version', 0 );
-            $workflow->store();
-            eZWorkflowGroupLink::create( (int)$workflow->attribute( 'id' ), 0, $groupID, $groupName )->store();
-            $target = $workflow;
-        }
-        else if ( $changes['workflow'] === 'has' && !$target instanceof eZWorkflow )
-        {
-            $target = self::findWorkflow();
-        }
-        if ( $changes['trigger'] === 'create' )
-            eZTrigger::createNew( 'content', 'publish', 'b', (int)$target->attribute( 'id' ) );
+            if ( $changes['trigger'] === 'create' )
+                eZTrigger::createNew( 'content', 'publish', 'b', (int)$target->attribute( 'id' ) );
 
-        $requiredIDs = array_column( $plan['required_groups'], 'object_id' );
-        $approverIDs = array_column( $plan['approver_groups'], 'object_id' );
-        if ( $changes['event'] === 'create' )
-        {
-            $workflowID = (int)$target->attribute( 'id' );
-            // first in the workflow: an account that waits for approval does not start the workflow's other events
-            foreach ( (array)eZWorkflowEvent::fetchFilteredList( array( 'workflow_id' => $workflowID, 'version' => 0 ) ) as $other )
+            $requiredIDs = array_column( $plan['required_groups'], 'object_id' );
+            $approverIDs = array_column( $plan['approver_groups'], 'object_id' );
+            if ( $changes['event'] === 'create' )
             {
-                $other->setAttribute( 'placement', (int)$other->attribute( 'placement' ) + 1 );
-                $other->store();
+                $workflowID = (int)$target->attribute( 'id' );
+                // first in the workflow: an account that waits for approval does not start the workflow's other events
+                foreach ( (array)eZWorkflowEvent::fetchFilteredList( array( 'workflow_id' => $workflowID, 'version' => 0 ) ) as $other )
+                {
+                    $other->setAttribute( 'placement', (int)$other->attribute( 'placement' ) + 1 );
+                    $other->store();
+                }
+                $event = eZWorkflowEvent::create( $workflowID, self::TYPE_STRING );
+                $event->setAttribute( 'version', 0 );
+                $event->setAttribute( 'placement', 1 );
+                $event->setAttribute( 'description', 'Approve new accounts in ' . implode( ', ', array_column( $plan['required_groups'], 'name' ) ) );
+                $event->setAttribute( 'data_text1', implode( ',', $requiredIDs ) );
+                // the approvers need no approval themselves; the excluded groups start empty
+                $event->setAttribute( 'data_text2', '' );
+                $event->setAttribute( 'data_text3', '' );
+                $event->setAttribute( 'data_text4', implode( ',', $approverIDs ) );
+                $event->setAttribute( 'data_int1', 0 );
+                $event->store();
             }
-            $event = eZWorkflowEvent::create( $workflowID, self::TYPE_STRING );
-            $event->setAttribute( 'version', 0 );
-            $event->setAttribute( 'placement', 1 );
-            $event->setAttribute( 'description', 'Approve new accounts in ' . implode( ', ', array_column( $plan['required_groups'], 'name' ) ) );
-            $event->setAttribute( 'data_text1', implode( ',', $requiredIDs ) );
-            // the approvers need no approval themselves; the excluded groups start empty
-            $event->setAttribute( 'data_text2', '' );
-            $event->setAttribute( 'data_text3', '' );
-            $event->setAttribute( 'data_text4', implode( ',', $approverIDs ) );
-            $event->setAttribute( 'data_int1', 0 );
-            $event->store();
-        }
-        else if ( $changes['event'] === 'update' )
-        {
-            $event = $changes['event_object'];
-            $config = self::config( $event );
-            $event->setAttribute( 'data_text1', implode( ',', array_values( array_unique( array_merge( $config['required_groups'], $requiredIDs ) ) ) ) );
-            $event->setAttribute( 'data_text4', implode( ',', array_values( array_unique( array_merge( $config['approve_groups'], $approverIDs ) ) ) ) );
-            $event->store();
-        }
+            else if ( $changes['event'] === 'update' )
+            {
+                $event = $changes['event_object'];
+                $config = self::config( $event );
+                $event->setAttribute( 'data_text1', implode( ',', array_values( array_unique( array_merge( $config['required_groups'], $requiredIDs ) ) ) ) );
+                $event->setAttribute( 'data_text4', implode( ',', array_values( array_unique( array_merge( $config['approve_groups'], $approverIDs ) ) ) ) );
+                $event->store();
+            }
 
-        if ( $plan['role'] )
-        {
-            $role = $changes['role_object'];
-            if ( !$role instanceof eZRole )
+            if ( $plan['role'] )
             {
-                $role = eZRole::create( self::ROLE_NAME );
-                $role->store();
+                $role = $changes['role_object'];
+                if ( !$role instanceof eZRole )
+                {
+                    $role = eZRole::create( self::ROLE_NAME );
+                    $role->store();
+                }
+                foreach ( $changes['add'] as $policy )
+                    $role->appendPolicy( $policy['module'], $policy['function'], $policy['limitations'] );
+                foreach ( $changes['assign'] as $group )
+                    $role->assignToUser( $group['object_id'] );
             }
-            foreach ( $changes['add'] as $policy )
-                $role->appendPolicy( $policy['module'], $policy['function'], $policy['limitations'] );
-            foreach ( $changes['assign'] as $group )
-                $role->assignToUser( $group['object_id'] );
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
         $db->commit();
         if ( $changes['add'] || $changes['assign'] || $changes['role'] === 'create' )

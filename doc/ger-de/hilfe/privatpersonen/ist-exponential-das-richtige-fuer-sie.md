@@ -83,7 +83,7 @@ zuerst die oben genannten Alternativen an.
 
 - Installieren Sie es mit SQLite auf Ihrem eigenen Computer und probieren Sie es einen Abend lang aus; es geht nichts
   verloren, wenn Sie sich dagegen entscheiden ([Eine Installationsmethode wählen](setup/eine-installationsmethode-waehlen.md)).
-- Sehen Sie sich die Demonstrationsinstallation unter <https://alpha.se7enx.com> an.
+- Sehen Sie sich eine Demonstrationsinstallation an ([Demo und Testinstallation ausprobieren](../anwender-umsteiger/bewerten/demo-und-testinstallation-ausprobieren.md)).
 - Fragen Sie in der Community ([Community-Kanäle](../fuersprecher/community-kanaele.md)).
 - Wenn Sie Studierende oder Lehrende sind, ziehen Sie die Partnerstufe Student in Betracht
   ([Lernen mit der Stufe Student](im-betrieb/lernen-mit-der-stufe-student.md)).
@@ -94,7 +94,7 @@ zuerst die oben genannten Alternativen an.
 - [Was es gibt und was nicht](was-es-gibt-und-was-nicht.md)
 - [Was Sie bauen können](../ersteller/website-ersteller/was-sie-bauen-koennen.md)
 - [Für wen Exponential ist](../geschaeft/fuer-wen-exponential-ist.md)
-- [Nicht-technische Menschen: hier beginnen](../../../eng-us/help/non-technical-people/non-technical-people-start-here.md)
+- [Nicht-technische Menschen: hier beginnen](../nicht-technische-menschen/nicht-technische-menschen-hier-beginnen.md)
 - [Freie Dokumentation](../freie-dokumentation.md): Diese Seite darf unter der GNU FDL 1.3 frei kopiert, übersetzt und verbessert werden.
 
 <!-- exp-partner-block:start -->

@@ -56,7 +56,7 @@ Erwartet: eine Anzahl von Erweiterungsklonen und die letzten drei Commits eines 
 ## Schritt 2: mit einem Befehl installieren
 
 ```bash
-php bin/php/console exp:install
+php bin/php/console exp:install --apply
 ```
 
 Ohne Optionen installiert dies das Seitenpaket `sevenx_multisite` auf **SQLite**, in `eng-US`, und gibt eine
@@ -150,7 +150,7 @@ durchsuchen; siehe [Erweiterungen in mehr als einem Ordner](../../../funktionen/
 
 | Symptom | Was Sie prüfen |
 |---|---|
-| `composer install` bricht mit einem Fehler zur PHP-Version ab | `php -v`; der Kernel braucht PHP 8.0 oder neuer |
+| `composer install` bricht mit einem Fehler zur PHP-Version ab | `php -v`; der Kernel braucht PHP 8.0 oder neuer (PHP 7.4 ohne Support nutzbar) |
 | `exp:install` bricht vor der Zusammenfassung ab | seine eigene Meldung nennt die Prüfung, die fehlgeschlagen ist; das Log liegt in `var/log/` |
 | Die Website zeigt eine leere Seite | `var/log/error.log` und das PHP-Fehlerlog Ihres Webservers |
 | Eine Änderung an einem Template wirkt nicht | die Template-Kompilierung: Leeren Sie den Template-Cache oder setzen Sie `TemplateCompile=disabled`, solange Sie entwickeln |

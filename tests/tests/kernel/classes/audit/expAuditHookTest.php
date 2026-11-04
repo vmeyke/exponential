@@ -17,7 +17,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/kernel/classes/audit/expAuditHookTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group audit
@@ -25,6 +25,7 @@
 
 require_once __DIR__ . '/fixtures/expaudittestfixtures.php';
 
+#[\PHPUnit\Framework\Attributes\Group('audit')]
 class expAuditHookTest extends PHPUnit\Framework\TestCase
 {
     /** @var string|null why the kernel could not be started */
@@ -54,8 +55,7 @@ class expAuditHookTest extends PHPUnit\Framework\TestCase
                 $script->initialize();
                 eZExecution::setCleanExit();
             }
-            if ( !eZDB::instance()->isConnected() )
-                throw new RuntimeException( 'no database connection' );
+            ezpLiveInstallation::installedSiteDatabase();
             self::$booted = true;
         }
         catch ( Throwable $e )

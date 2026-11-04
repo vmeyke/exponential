@@ -27,7 +27,7 @@
  * the run (ezpThrowawayDatabase: kernel schema and clean data), and when none can be made, they are skipped
  * with the siteaccess, the database and the reason. The database of a site is never written to.
  *
- * @copyright Copyright (C) 7x / Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file.
  * @package tests
  */
@@ -126,6 +126,31 @@ class ezpLiveInstallation
                 . ", database '$database'): " . trim( strtok( $e->getMessage(), "\n" ) );
         }
         return self::$reason;
+    }
+
+    /**
+     * The database of a test class that starts the kernel itself (eZScript with its siteaccess) and works on the
+     * content of an installed site there: that database when it can be reached; otherwise an exception that says so,
+     * which the class turns into its skip. A throwaway database is no substitute for these classes: they need the
+     * site's classes, objects and extension tables (measured on the MySQL database job of CI, 2026-11-03: on a
+     * throwaway database they fail instead of skipping), so a checkout without an installed site skips them.
+     *
+     * @return eZDBInterface
+     */
+    public static function installedSiteDatabase()
+    {
+        try
+        {
+            $db = eZDB::instance();
+            if ( $db->isConnected() )
+                return $db;
+            $why = 'no database connection';
+        }
+        catch ( Throwable $e )
+        {
+            $why = trim( (string)strtok( $e->getMessage(), "\n" ) );
+        }
+        throw new RuntimeException( 'needs the database of an installed site (the test works on its content), and there is none: ' . $why );
     }
 
     /**

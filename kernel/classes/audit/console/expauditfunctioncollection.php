@@ -14,7 +14,7 @@
  * the user may not read: a template cannot show audit records to a user without the policy. A use is recorded
  * as system.audit.read once per request and fetch name.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -80,7 +80,8 @@ class expAuditFunctionCollection
         $f = self::filters( $params );
         if ( isset( $f['channel'] ) && !expAuditConsole::channelAllowed( $f['channel'], $channels ) )
             return array( 'result' => array() );
-        $page = expAuditConsole::page( $f, $channels, max( 0, (int)$offset ), min( 100, max( 1, (int)$limit ) ) );
+        // the events only: the total of every matching row is not shown and was the slow part (seconds on a large index)
+        $page = expAuditConsole::page( $f, $channels, max( 0, (int)$offset ), min( 100, max( 1, (int)$limit ) ), false );
         $out = array();
         foreach ( $page['rows'] as $row )
             $out[] = expAuditConsole::view( $row );

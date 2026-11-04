@@ -2,7 +2,7 @@
 /**
  * File containing the Exponential\Runnable\Command class.
  *
- * @copyright Copyright (C) 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package kernel
  */
@@ -177,6 +177,23 @@ abstract class Command extends Runnable
         if ( $logName === null )
             $logName = ( $this->scriptFile !== '' ? basename( $this->scriptFile, '.php' ) : 'command' ) . '.log';
         \eZLog::write( $message, $logName );
+    }
+
+    /**
+     * Whether a command that only shows what it would change unless --apply is given should write: true for
+     * --apply, false for no flag or --dry-run (accepted as a synonym of the default), null when both are given,
+     * which the command refuses as a usage error (exit 2).
+     *
+     * @param array $options the options of startup(), with the keys 'apply' and 'dry-run'
+     * @return bool|null
+     */
+    public static function applyRequested( array $options )
+    {
+        $apply = !empty( $options['apply'] );
+        $dryRun = !empty( $options['dry-run'] );
+        if ( $apply && $dryRun )
+            return null;
+        return $apply;
     }
 
     /**

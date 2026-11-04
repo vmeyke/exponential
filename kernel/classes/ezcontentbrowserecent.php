@@ -2,7 +2,7 @@
 /**
  * File containing the eZContentBrowseRecent class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -149,27 +149,37 @@ class eZContentBrowseRecent extends eZPersistentObject
 
         $db = eZDB::instance();
         $db->begin();
-        if ( $recentCount > $maximumCount )
+        try
         {
-            $recentCountList = eZPersistentObject::fetchObjectList( eZContentBrowseRecent::definition(),
-                                                                    null,
-                                                                    array( 'user_id' => $userID ),
-                                                                    array( 'created' => 'asc' ),
-                                                                    array( 'length' => ( $recentCount - $maximumCount ), 'offset' => 0 ),
-                                                                    true );
-            foreach($recentCountList as $countList)
+            if ( $recentCount > $maximumCount )
             {
-                 $eldest = $countList;
-                 $eldest->remove();
+                $recentCountList = eZPersistentObject::fetchObjectList( eZContentBrowseRecent::definition(),
+                                                                        null,
+                                                                        array( 'user_id' => $userID ),
+                                                                        array( 'created' => 'asc' ),
+                                                                        array( 'length' => ( $recentCount - $maximumCount ), 'offset' => 0 ),
+                                                                        true );
+                foreach($recentCountList as $countList)
+                {
+                     $eldest = $countList;
+                     $eldest->remove();
+                }
+
             }
 
+            $recent = new eZContentBrowseRecent( array( 'user_id' => $userID,
+                                                        'node_id' => $nodeID,
+                                                        'name' => $nodeName,
+                                                        'created' => time() ) );
+            $recent->store();
         }
-
-        $recent = new eZContentBrowseRecent( array( 'user_id' => $userID,
-                                                    'node_id' => $nodeID,
-                                                    'name' => $nodeName,
-                                                    'created' => time() ) );
-        $recent->store();
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
         return $recent;
     }

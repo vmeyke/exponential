@@ -2,16 +2,14 @@
 title: site.ini [TemplateSettings]
 audience: developer, admin
 category: examples
-summary: "Die Einstellungen von [TemplateSettings] in site.ini: AutoloadPathList, ExtensionAutoloadPath, Debug, ShowXHTMLCode, ShowMethodDebug, ShowUsedTemplates, ShowTemplatePathComments, NodeTreeCaching ..."
-keywords: Einstellung, site.ini, TemplateSettings, INI, setting, AutoloadPathList, ExtensionAutoloadPath, Debug, ShowXHTMLCode, ShowMethodDebug, ShowUsedTemplates, ShowTemplatePathComments, NodeTreeCaching, TemplateCompile, ShareCompiledTemplates, SharedCompiledTemplatesDir, TemplateOptimization, UseFormatting, TemplateCache, DelayedCacheBlockCleanup, TemplateCompression, DevelopmentMode, CompileComments, CompileAccumulators, CompileTimingPoints, CompileResourceFallback, CompileNodePlacements, CompileExecution, CompileAlwaysGenerate, CompileIncludeNodeTree
+summary: "Die Einstellungen von [TemplateSettings] in site.ini: AutoloadPathList, ExtensionAutoloadPath, Debug, ShowXHTMLCode, ShowMethodDebug, ShowUsedTemplates, ShowTemplatePathComments, TemplatesWithoutDebugComments ..."
+keywords: Einstellung, site.ini, TemplateSettings, INI, setting, AutoloadPathList, ExtensionAutoloadPath, Debug, ShowXHTMLCode, ShowMethodDebug, ShowUsedTemplates, ShowTemplatePathComments, TemplatesWithoutDebugComments, NodeTreeCaching, TemplateCompile, ShareCompiledTemplates, SharedCompiledTemplatesDir, TemplateOptimization, UseFormatting, TemplateCache, DelayedCacheBlockCleanup, TemplateCompression, DevelopmentMode, CompileComments, CompileAccumulators, CompileTimingPoints, CompileResourceFallback, CompileNodePlacements, CompileExecution, CompileAlwaysGenerate, CompileIncludeNodeTree
 type: generated
 generated: exp:help:examples
 ---
 # site.ini [TemplateSettings]
 
-Der Block `[TemplateSettings]` von `settings/site.ini`, mit 25 Einstellung(en).
-
-> AllowedDeletionDirs\[\]=/var/share/somedir  
+Der Block `[TemplateSettings]` von `settings/site.ini`, mit 26 Einstellung(en).
 
 Bearbeiten Sie `settings/site.ini` nie selbst: Ein Update ersetzt die Datei. Schreiben Sie die Einstellungen, die Sie ändern, in ein Override, das Vorrang vor der ausgelieferten Datei hat:
 
@@ -25,7 +23,7 @@ Bearbeiten Sie `settings/site.ini` nie selbst: Ein Update ersetzt die Datei. Sch
 > Diese Dateien werden verwendet, um Template-Funktionen und -Operatoren automatisch zu laden  
 > Sie können neue hinzufügen, wenn Sie eigenen Template-Code erstellen.  
 
-Standard: eine Liste mit 4: `lib/eztemplate/classes/`, `kernel/common/`, `lib/ezpdf/classes/`, `kernel/private/eztemplate/`.
+Standard: eine Liste mit 6: `lib/eztemplate/classes/`, `kernel/common/`, `lib/ezpdf/classes/`, `lib/smarty/classes/`, `lib/twig/classes/`, `kernel/private/eztemplate/`.
 
 ```ini
 <?php /* #?ini charset="utf-8"?
@@ -36,6 +34,8 @@ AutoloadPathList[]
 AutoloadPathList[]=lib/eztemplate/classes/
 AutoloadPathList[]=kernel/common/
 AutoloadPathList[]=lib/ezpdf/classes/
+AutoloadPathList[]=lib/smarty/classes/
+AutoloadPathList[]=lib/twig/classes/
 AutoloadPathList[]=kernel/private/eztemplate/
 */ ?>
 ```
@@ -137,6 +137,29 @@ Standard: `disabled`.
 # settings/override/site.ini.append.php
 [TemplateSettings]
 ShowTemplatePathComments=disabled
+*/ ?>
+```
+
+## TemplatesWithoutDebugComments
+
+> Templates that Debug and ShowTemplatePathComments never wrap in comments, by their path below templates/  
+> (a file of that path in any design or extension), like  
+> <h1 class="title"{include uri='design:parts/exp\_content\_direction.tpl' ...}>, which prints into a start tag.  
+> Most templates need no entry: the comments are taken out of every rendered output where they would break it  
+> (inside a tag or an attribute value, inside <script>, <style>, <title> and <textarea>, and everywhere in output  
+> that is not HTML: XML, JSON, plain text), and a set-block that captures a value rather than HTML (a name, a URL,  
+> attributes, nothing) gets no comments. List a template whose output reaches the page some other way, e.g. through  
+> an operator that changes it before it is printed.  
+
+Standard: eine Liste mit 1: `parts/exp_content_direction.tpl`.
+
+```ini
+<?php /* #?ini charset="utf-8"?
+# settings/override/site.ini.append.php
+[TemplateSettings]
+# ein leeres "TemplatesWithoutDebugComments[]" zuerst ersetzt die ausgelieferte Liste; ohne es werden die Einträge hinzugefügt
+TemplatesWithoutDebugComments[]
+TemplatesWithoutDebugComments[]=parts/exp_content_direction.tpl
 */ ?>
 ```
 

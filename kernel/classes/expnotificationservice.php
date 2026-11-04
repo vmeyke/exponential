@@ -2,7 +2,7 @@
 /**
  * File containing the expNotificationService class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -475,7 +475,7 @@ class expNotificationService
         switch ( $p[1] )
         {
             case 'notification_never_ran':
-                return ezpI18n::tr( $d, '%count events wait and no run of the notification cronjob is recorded. Add the cronjob part "frequent" to the crontab, or run exp:notification:run.', null, array( '%count' => $p[2] ) );
+                return ezpI18n::tr( $d, '%count events wait and no run of the notification cronjob is recorded. Add the cronjob part "frequent" to the crontab, or run exp:notification:run --apply.', null, array( '%count' => $p[2] ) );
             case 'notification_not_run_recently':
                 return ezpI18n::tr( $d, '%count events wait and the last run was more than an hour ago (%time). Is the notification cronjob running?', null, array( '%count' => $p[2], '%time' => date( 'Y-m-d H:i', $p[3] ) ) );
             case 'notification_no_run_recorded':

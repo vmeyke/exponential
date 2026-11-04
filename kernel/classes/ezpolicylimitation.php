@@ -2,7 +2,7 @@
 /**
  * File containing the eZPolicyLimitation class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -188,19 +188,29 @@ class eZPolicyLimitation extends eZPersistentObject
 
         $idString = $db->escapeString( $id );
         $db->begin();
+        try
+        {
 
-        if ( $db->databaseName() === 'mongo' )
-        {
-            $db->deleteWhere( 'ezpolicy_limitation_value', [ 'limitation_id' => (int)$id ] );
-            $db->deleteWhere( 'ezpolicy_limitation', [ 'id' => (int)$id ] );
-        }
-        else
-        {
-            $db->query( "DELETE FROM ezpolicy_limitation_value
+            if ( $db->databaseName() === 'mongo' )
+            {
+                $db->deleteWhere( 'ezpolicy_limitation_value', [ 'limitation_id' => (int)$id ] );
+                $db->deleteWhere( 'ezpolicy_limitation', [ 'id' => (int)$id ] );
+            }
+            else
+            {
+                $db->query( "DELETE FROM ezpolicy_limitation_value
                          WHERE ezpolicy_limitation_value.limitation_id = '$idString'" );
 
-            $db->query( "DELETE FROM ezpolicy_limitation
+                $db->query( "DELETE FROM ezpolicy_limitation
                          WHERE ezpolicy_limitation.id = '$idString' " );
+            }
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
         $db->commit();
     }

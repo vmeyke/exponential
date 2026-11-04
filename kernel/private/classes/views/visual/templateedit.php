@@ -7,7 +7,7 @@
  * The original header of kernel/visual/templateedit.php:
  *
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -41,7 +41,9 @@ class Templateedit extends \Exponential\Runnable\ModuleView
         $tpl = \eZTemplate::factory();
 
         $Result = array();
-        $Result['path'] = array( array( 'url' => false,
+        $Result['path'] = array( array( 'url' => '/visual/templatelist/',
+                                        'text' => \ezpI18n::tr( 'kernel/design', 'Template list' ) ),
+                                 array( 'url' => false,
                                         'text' => \ezpI18n::tr( 'kernel/design', 'Template edit' ) ) );
 
         $template = "";

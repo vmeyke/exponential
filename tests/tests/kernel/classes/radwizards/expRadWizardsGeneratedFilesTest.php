@@ -9,7 +9,7 @@
  * No database: an empty one stands in (no content class or class group exists). Nothing is written to disk
  * (files() only returns the contents).
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
@@ -17,6 +17,7 @@
 
 require_once __DIR__ . '/expRadWizardTestHelper.php';
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class expRadWizardsGeneratedFilesTest extends PHPUnit\Framework\TestCase
 {
     const ATTACK = "Nice k1e_injected */ k1e_injected(); /* *// k1e_injected(); ?> <?php k1e_injected();";

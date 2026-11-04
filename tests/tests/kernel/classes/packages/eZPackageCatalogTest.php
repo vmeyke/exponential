@@ -8,7 +8,7 @@
  * (refused values, installer sources, required packages, the confirmation check) and the list's addresses and
  * pager. Read without the database (install state "not installed"); everything is removed in tearDown().
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
@@ -16,6 +16,7 @@
 
 require_once __DIR__ . '/eZPackageTestFixtures.php';
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class eZPackageCatalogTest extends PHPUnit\Framework\TestCase
 {
     private $dir;

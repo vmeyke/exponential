@@ -13,7 +13,7 @@
  * The original header of kernel/content/draft.php:
  *
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -147,16 +147,26 @@ class Draft extends \Exponential\Runnable\ModuleView
                 continue;
             }
             $db->begin();
-            $version = \eZContentObjectVersion::fetch( (int)$id );
-            if ( !$version instanceof \eZContentObjectVersion ||
-                 !\expContentDraftList::removable( array( 'creator_id' => $version->attribute( 'creator_id' ), 'status' => $version->attribute( 'status' ) ),
-                                                   $this->userID, $anonymousID ) )
+            try
             {
-                $db->commit();
-                $refused++;
-                continue;
+                $version = \eZContentObjectVersion::fetch( (int)$id );
+                if ( !$version instanceof \eZContentObjectVersion ||
+                     !\expContentDraftList::removable( array( 'creator_id' => $version->attribute( 'creator_id' ), 'status' => $version->attribute( 'status' ) ),
+                                                       $this->userID, $anonymousID ) )
+                {
+                    $db->commit();
+                    $refused++;
+                    continue;
+                }
+                $version->removeThis();
             }
-            $version->removeThis();
+            catch ( \Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
             $db->commit();
             $removed++;
         }

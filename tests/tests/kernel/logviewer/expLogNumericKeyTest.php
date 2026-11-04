@@ -17,7 +17,7 @@
  * kernel/classes/logviewer/explogpermalink.php, kernel/classes/logviewer/explogdigest.php and
  * kernel/private/classes/views/setup/logshealth.php.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group logviewer
@@ -30,6 +30,7 @@ foreach ( array( 'expLogManagerInterface' => 'explogmanagerinterface', 'expLogMa
     if ( !class_exists( $class ) && !interface_exists( $class ) )
         require_once dirname( __DIR__, 4 ) . '/kernel/classes/logviewer/' . $file . '.php';
 
+#[\PHPUnit\Framework\Attributes\Group('logviewer')]
 class expLogNumericKeyTest extends PHPUnit\Framework\TestCase
 {
     /** @var string */

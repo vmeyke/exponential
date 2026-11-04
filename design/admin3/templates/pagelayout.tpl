@@ -14,7 +14,7 @@
      $admin_left_size      = ezpreference( 'admin_left_menu_size' )
      $admin_theme          = ezpreference( 'admin_theme' )
      $left_size_hash       = 0
-     $search_hash          = array( cond( ezhttp_hasvariable( 'SectionID', 'get' ), ezhttp( 'SectionID', 'get' ) ) )
+     $search_hash          = array( first_set( $search_section_id, -1 )|int )
      $user_hash = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ), ',', $current_user.is_logged_in|choose( 'anonymous', 'user' ) )
      $uri_cache_key        = $module_result.uri
 }
@@ -82,6 +82,8 @@
                             <div id="maincontent-design" class="float-break">
                                 <div id="fix">
 
+                                    {* "Bookmark this page" on the pages of module views (not cached: it names the user's bookmark of the page) *}
+                                    {include uri='design:content/bookmark_view_action.tpl' mode='toolbar' ui_context=$ui_context}
                                     <div id="path">
                                         <div id="path-design">
                                             {include uri='design:page_toppath.tpl'}
@@ -133,6 +135,7 @@
     <img src={'2/loader.gif'|ezimage()} id="ajaxuploader-loader"
         alt="{'Loading...'|i18n( 'design/admin/pagelayout' )}" />
 
+{include uri='design:pagelayout/hooks/body_end.tpl'}
 </body>
 
 </html>

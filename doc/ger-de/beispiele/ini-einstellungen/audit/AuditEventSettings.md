@@ -19,12 +19,18 @@ Bearbeiten Sie `settings/audit.ini` nie selbst: Ein Update ersetzt die Datei. Sc
 
 ## Enabled
 
-> Welche Ereignisse festgehalten werden, nach Taxonomie-Muster: eine ganze Domäne (content.\*), ein Gegenstand  
-> (content.node.\*), eine Aktion mit ihren Details (content.node.remove.\*) oder ein Name.  
-> Das spezifischste Muster gewinnt; bei Gleichstand gewinnt die spätere Zeile. Im Katalog als "always" markierte Ereignisse  
-> (system.audit.\*, access.view.sensitive) ignorieren Disabled\[\].  
+> Welche Ereignisse aufgezeichnet werden, nach Taxonomie-Muster: eine ganze Domäne (content.\*), ein Gegenstand  
+> (content.node.\*), eine Aktion mit ihren Details (content.node.remove.\*) oder ein einzelner Name.  
+> Das genaueste Muster gewinnt; bei Gleichstand gewinnt die spätere Zeile. Ereignisse, die im Katalog als "always"  
+> markiert sind (system.audit.\*, access.view.sensitive), ignorieren Disabled\[\].  
+> Migrationen (migration.ini): ein Lauf, eine angewendete Migration (auch eine mit --force --reason angenommene  
+> geänderte Datei), eine gescheiterte oder zurückgenommene, ein angelegter Sicherungspunkt, ein Push des  
+> Migrations-Repositorys, und die Anfragen, Mails und Konsolenbefehle ihrer Schritte http, mail und command.  
+> Eine Site, die system.\* abschaltet, behält sie mit diesen Zeilen.  
+> Statisches Veröffentlichen: eine Veröffentlichung (auch ein erneut versuchter Push), ein Zurücknehmen, ein erzeugter  
+> Deploy-Key, ein gespeichertes Ziel, ein Build, ein Post an den Formular-Endpunkt.  
 
-Standard: eine Liste mit 33: `access.*`, `system.*`, `content.node.move`, `content.node.remove.*`, `content.node.hide`, `content.node.reveal`, `content.node.swap`, `content.node.section`, `content.object.remove`, `content.object.purge`, `content.object.restore`, `content.object.state` ....
+Standard: eine Liste mit 52: `access.*`, `system.*`, `system.migration.run`, `system.migration.apply`, `system.migration.fail`, `system.migration.rollback`, `system.migration.caption`, `system.migration.push`, `system.migration.http`, `system.migration.mail`, `system.migration.command`, `system.migration.record` ....
 
 ```ini
 <?php /* #?ini charset="utf-8"?
@@ -34,25 +40,25 @@ Standard: eine Liste mit 33: `access.*`, `system.*`, `content.node.move`, `conte
 Enabled[]
 Enabled[]=access.*
 Enabled[]=system.*
-Enabled[]=content.node.move
-Enabled[]=content.node.remove.*
-Enabled[]=content.node.hide
-Enabled[]=content.node.reveal
-Enabled[]=content.node.swap
-Enabled[]=content.node.section
-Enabled[]=content.object.remove
-Enabled[]=content.object.purge
-Enabled[]=content.object.restore
-Enabled[]=content.object.state
-Enabled[]=content.object.translation.remove
-Enabled[]=content.version.remove
-Enabled[]=content.trash.empty
-Enabled[]=content.class.create
-Enabled[]=content.class.change
-Enabled[]=content.class.remove
-Enabled[]=content.section.*
-Enabled[]=content.state.*
-# ... 13 weitere in der ausgelieferten Datei
+Enabled[]=system.migration.run
+Enabled[]=system.migration.apply
+Enabled[]=system.migration.fail
+Enabled[]=system.migration.rollback
+Enabled[]=system.migration.caption
+Enabled[]=system.migration.push
+Enabled[]=system.migration.http
+Enabled[]=system.migration.mail
+Enabled[]=system.migration.command
+Enabled[]=system.migration.record
+Enabled[]=system.migration.deploy
+Enabled[]=system.migration.deploy.rollback
+Enabled[]=system.migration.remote
+Enabled[]=system.staticpublish.publish
+Enabled[]=system.staticpublish.rollback
+Enabled[]=system.staticpublish.credential
+Enabled[]=system.staticpublish.target
+Enabled[]=system.staticpublish.build
+# ... 32 weitere in der ausgelieferten Datei
 */ ?>
 ```
 

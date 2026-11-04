@@ -15,6 +15,21 @@ beruht, die Seite oder Datei, die sie belegt, und dort, wo die Quellen „Nein�
 Antwort. Ein Käufer, der Ihre Antwort prüft und sie zutreffend findet, vertraut auch der nächsten. Ein Käufer, der eine
 Übertreibung entdeckt, zweifelt an allem; deshalb zieht diese Seite „Die Quellen sagen dazu nichts“ einer Vermutung vor.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hosting/control-panels/plesk.md), [cPanel](../hosting/control-panels/cpanel.md), [DirectAdmin](../hosting/control-panels/directadmin.md), [ISPConfig](../hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Inhalt
 
 1. [Eine Methode für jeden Einwand](#eine-methode-für-jeden-einwand)
@@ -50,7 +65,7 @@ Antwort. Ein Käufer, der Ihre Antwort prüft und sie zutreffend findet, vertrau
 | Einwand | Kurze Antwort aus den Quellen | Nachweis |
 |---|---|---|
 | „Open Source ist weniger sicher.“ | Vertrauliche Meldung von Sicherheitslücken mit einer ersten Antwort innerhalb eines Werktags; Korrekturen im nächsten 6.0.x-Release; eine CSP, ein Audit-Protokoll, Anmeldung in zwei Schritten und ein Leitfaden zur Sicherheitshärtung | `SECURITY.md`, [Sicherheitshärtung](../sicherheitshaertung.md) |
-| „Wird es noch gepflegt?“ | Fünfzehn 6.0.x-Releases vom 1. Januar 2024 bis zum 7. Juni 2026, 6.0.15 in Entwicklung; CI bei jedem Push | [Wer ist 7x?, Die 6.0.x-Releases](../wer-ist-7x.md#die-releases-60x), [CI](../../bc/6.0/ci.md) |
+| „Wird es noch gepflegt?“ | Fünfzehn 6.0.x-Releases vom 1. Januar 2024 bis zum 7. Juni 2026, 6.0.15 als aktuelle Linie; CI bei jedem Push | [Wer ist 7x?, Die 6.0.x-Releases](../wer-ist-7x.md#die-releases-60x), [CI](../../bc/6.0/ci.md) |
 | „Wird es Bestand haben?“ | Eine seit 1999 gepflegte Codebasis, ein Unternehmen und eine gemeinnützige Organisation dahinter und eine GPL-Lizenz, die den Code für alle verfügbar hält | `COPYRIGHT.md`, [Wer ist die Exponential Foundation?](../wer-ist-die-exponential-foundation.md) |
 | „Wer unterstützt uns?“ | Dokumentierte Zusagen zu PHP, Sicherheitskorrekturen, Releases und Dokumentation; Serviceverträge von 7x oder jedem anderen Anbieter; Orte der Community | [Die Support-Zusage](../wer-ist-die-exponential-foundation.md#die-zusage-zur-unterstützung) |
 | „Welche PHP-Versionen?“ | PHP 8.0 bis 8.5, einschließlich Velocity (ab seinem Release 0.0.4.54) | [PHP-Versionen](../wer-ist-die-exponential-foundation.md#php-versionen) |
@@ -82,7 +97,7 @@ Sagen Sie, wie der Prozess aussieht und wie der Kunde ihn nachprüfen kann.
 
 **Antwort.** Ja, und der Käufer kann das in wenigen Minuten prüfen:
 
-- Releases: 6.0.0 am 1. Januar 2024 bis 6.0.14 am 7. Juni 2026, mit 6.0.15 in Entwicklung
+- Releases: 6.0.0 am 1. Januar 2024 bis 6.0.14 am 7. Juni 2026, mit 6.0.15 als aktueller Linie
   ([Wer ist 7x?, Die 6.0.x-Releases](../wer-ist-7x.md#die-releases-60x)).
 - Änderungen: „6556 Änderungen im Verzeichnis in 53 Repositories seit Dezember 2023. 1037 davon stammen vom
   se7enxweb-Team“ ([Das Ökosystem der Exponential-Plattform](../../geschichte/oekosystem.md)); jeder Monat wird in
@@ -111,7 +126,7 @@ Struktur:
 
 | Fakt | Quelle |
 |---|---|
-| Die Codebasis trägt Urheberrechtsjahre ab 1999 (eZ Systems AS) und von 1998 bis 2026 (7x und die Exponential Foundation) | `COPYRIGHT.md` |
+| Die Codebasis trägt Urheberrechtsjahre ab 1999 (eZ Systems AS) und von 1998 bis 2026 (die Exponential Foundation und 7x) | `COPYRIGHT.md` |
 | „Exponential hat sein Lebensende im Jahr 2021 hinter sich gelassen und überlebt“ | `README.md`, „Exponential Project Status“ |
 | 7x hat 2023 die Führung des Projekts übernommen; das Unternehmen arbeitet seit den ersten Versionen mit dieser Software | [Wer ist 7x?](../wer-ist-7x.md#von-brookins-consulting-zu-7x-in-drei-stufen) |
 | Die Exponential Foundation, eine am 19. März 2026 gegründete gemeinnützige Organisation, betreibt das Projekt; zu ihrem Auftrag gehören „Finanzierung, Verbreitung, Support, Ausrichtung, Bildung, Entwicklung, Förderung und Dokumentation“ | [Wer ist die Exponential Foundation?](../wer-ist-die-exponential-foundation.md#was-die-foundation-ist) |
@@ -149,9 +164,9 @@ mit einem Anbieter.
 
 | Einwand | Antwort | Quelle |
 |---|---|---|
-| „Es braucht ein altes PHP.“ | PHP 8.0 ist die älteste unterstützte Version; 8.1 bis 8.5 werden unterstützt; `composer.json` erlaubt bis 8.8. | [PHP-Versionen](../wer-ist-die-exponential-foundation.md#php-versionen) |
+| „Es braucht ein altes PHP.“ | PHP 8.0 bis 8.5 werden unterstützt; 7.4 ist ab 6.0.15 ohne Support nutzbar; `composer.json` erlaubt bis 8.8. | [PHP-Versionen](../wer-ist-die-exponential-foundation.md#php-versionen) |
 | „Wir betreiben Red Hat Enterprise Linux 9 mit seinem mitgelieferten PHP.“ | PHP 8.0, das mitgelieferte PHP von RHEL 9 und seinen Nachbauten, betreibt es unter Apache, PHP-FPM oder Velocity (ab Velocity 0.0.4.54). | `README.md`, [Unterstützung für PHP 8.0](../../bc/6.0/php-8.0-unterstuetzung.md) |
-| „Wir sind noch auf PHP 7.4.“ | 6.0.7 ist das letzte Release für PHP 7.4; 7x „empfiehlt dringend ein Upgrade“. | `README.md` |
+| „Wir sind noch auf PHP 7.4.“ | 6.0.15 ist unter PHP 7.4 wieder nutzbar, ohne Support, als Brücke; 7x empfiehlt weiterhin den Wechsel auf PHP 8. | `README.md` |
 | „Die Oberfläche wirkt veraltet.“ | admin4 mit hellem und dunklem Modus; jQuery 4 und TinyMCE 8 in der 6.0.15-Linie; AdminUI als alternatives Erscheinungsbild. | [Das Design admin4](../../funktionen/6.0/admin4-design.md), [Oktober 2026](../../geschichte/2026/2026-10.md), [AdminUI](../../funktionen/6.0/exp-adminui.md) |
 | „Wir brauchen eine Headless-Auslieferung.“ | Eine REST-API in den Versionen 1 und 2. Für ein Symfony-Projekt mit GraphQL bietet die Familie Exponential Platform DXP. | [REST-API v1 und v2](../../anleitungen/rest-api-v1-und-v2.md), [Welches Produkt zu Ihnen passt](../wer-ist-die-exponential-foundation.md#welches-produkt-zu-ihnen-passt) |
 
@@ -216,7 +231,7 @@ Fakten zum Audit; leisten Sie keine Rechtsberatung.
 
 | Einwand | Antwort | Quelle |
 |---|---|---|
-| „Unsere Sprache wird nicht unterstützt.“ | Es gibt 268 Locale-Dateien; prüfen Sie die Sprache des Kunden in der Liste. Die Administration ist in zehn Übersetzungen vollständig; die übrigen sind teilweise vorhanden oder gelten nur für Inhalte. | [Sprachen in Exponential](../../sprachen.md) |
+| „Unsere Sprache wird nicht unterstützt.“ | Es gibt 368 Locale-Dateien; prüfen Sie die Sprache des Kunden in der Liste. Jede Übersetzung der Administration ist vollständig (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen); eine Sprache ohne eigene zeigt Englisch. | [Sprachen in Exponential](../../sprachen.md) |
 | „Wir brauchen Arabisch oder Hebräisch.“ | Schreibrichtung von rechts nach links in Inhalten und in der Administration; die hebräische und die arabische Übersetzung der Administration sind vollständig. | [Von rechts nach links](../../funktionen/6.0/rechts-nach-links.md), [Unterstützungsstufen](../../sprachen.md#2-unterstützungsstufen) |
 | „Ist die Administration barrierefrei?“ | Sprunglink, Landmarks, Tastaturmuster, beschriftete Felder, Tests für Kontrast und Zielgröße in admin4. | [Das Design admin4](../../funktionen/6.0/admin4-design.md#landmarks-und-namen) |
 | „PHP ist langsam.“ | `README.md` dokumentiert 0,36 ms je gecachter Seite und 8.941 Anfragen pro Sekunde auf einer Maschine mit 12 Kernen mit Velocity und hält fest, dass der größte Teil der Geschwindigkeit aus Korrekturen stammt, die auch unter Apache oder Nginx wirken. Bieten Sie eine Messung auf der Hardware des Kunden an. | `README.md`, [Benchmarks](../../anleitungen/benchmarking.md) |
@@ -232,7 +247,7 @@ Manche Einwände treffen zu. Sagen Sie das, und bieten Sie die Alternative an, d
 | Ein veröffentlichtes SLA des Projekts | Es gibt keines | Ein Servicevertrag mit einem Anbieter |
 | Mehr als 62 Inhaltssprachen in einer Installation | Nicht möglich | Auf mehrere Installationen aufteilen oder den tatsächlichen Bedarf prüfen ([Die Grenze von 62](../../sprachen.md#11-die-grenze-von-62-inhaltssprachen)) |
 | Velocity auf Shared Hosting | Meist nicht möglich | Apache oder LiteSpeed mit `.htaccess` (`README.md`) |
-| PHP 7.4 mit neuen Funktionen | Nein; für PHP 7.4 endet es bei 6.0.7 | PHP aktualisieren ([PHP-Versionen](../wer-ist-die-exponential-foundation.md#php-versionen)) |
+| PHP 7.4 mit neuen Funktionen | Ja, ab 6.0.15, ohne Support und ohne die Funktionen, die PHP 8 brauchen | PHP aktualisieren ([PHP-Versionen](../wer-ist-die-exponential-foundation.md#php-versionen)) |
 
 ## Neue Einwände festhalten
 

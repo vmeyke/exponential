@@ -2,7 +2,7 @@
 /**
  * File containing the expPreloadJob class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and others. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -151,7 +151,7 @@ class expPreloadJob
     public static function commandLine( $siteaccess, array $options )
     {
         $options = self::options( $options );
-        $parts = array( 'php bin/php/preload.php' );
+        $parts = array( 'php bin/php/preload.php', '--apply' );
         if ( preg_match( '#^[A-Za-z0-9_-]+$#', (string)$siteaccess ) )
             $parts[] = '--siteaccess=' . $siteaccess;
         // the limits always: the command's default page limit (1000) is not the page's

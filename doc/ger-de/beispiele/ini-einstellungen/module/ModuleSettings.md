@@ -59,9 +59,14 @@ ExtensionRepositories[]
 > This is currently used to avoid URL aliases overriding  
 > existing module names  
 > The data tables and the named database connections (doc/eng-us/features/6.0/data-tables.md)  
+> The GraphQL API with the session of the web interface (doc/eng-us/features/6.0/graphql.md)  
+> Migrations: Setup > Migrations, their state, runs and rollback (doc/eng-us/guides/migrations.md)  
+> Moderation: Dashboard > Recent content, the newest content with its hold and actions on a selection  
+> (doc/eng-us/features/6.0/moderation.md)  
 > The kernel's secret store (doc/eng-us/features/6.0/secret-store.md)  
+> Static publishing: Setup > Static publishing, targets, builds, preview, publish, history (doc/eng-us/help/static-publishing/README.md)  
 
-Standard: eine Liste mit 36: `apikey`, `audit`, `class`, `collaboration`, `contentcheck`, `csp`, `contentfinder`, `content`, `datatable`, `error`, `exphelp`, `ezinfo` ....
+Standard: eine Liste mit 40: `apikey`, `audit`, `class`, `collaboration`, `contentcheck`, `csp`, `contentfinder`, `content`, `datatable`, `error`, `exphelp`, `graphql` ....
 
 ```ini
 <?php /* #?ini charset="utf-8"?
@@ -80,16 +85,16 @@ ModuleList[]=content
 ModuleList[]=datatable
 ModuleList[]=error
 ModuleList[]=exphelp
+ModuleList[]=graphql
 ModuleList[]=ezinfo
 ModuleList[]=infocollector
 ModuleList[]=layout
 ModuleList[]=mailpreferences
+ModuleList[]=migration
+ModuleList[]=moderation
 ModuleList[]=notification
 ModuleList[]=oauth
-ModuleList[]=oauthadmin
-ModuleList[]=package
-ModuleList[]=pdf
-# ... 16 weitere in der ausgelieferten Datei
+# ... 20 weitere in der ausgelieferten Datei
 */ ?>
 ```
 

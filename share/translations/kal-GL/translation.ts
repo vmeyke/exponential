@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Qupperneq manna kisiat ujarlerfigineqarpoq: %from – %to, katillugit %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Qitiusup ilassutillu paasissutissat suussusii tamarmik, klassillu imarisallu qanoq atortarneraat.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Paasissutissat suussusii</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Systemip quppernerai aamma nalunaaqutanut ilanngunneqarsinnaapput: qupperneq ammaruk (Aaqqissuussineq, misissuinermut malunnaatit, atuisut allattorsimaffiat ...) qulaanilu »Nalunaaqutanut ilaguk« toqqaruk. Nalunaaqutat taamaattut aaqqissuussinermut ikoneqartarput.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Quppernermik uuminnga maani ammaanissamut akuersissuteqarunnaarputit. Nalunaaqutaq piiaruk, imaluunniit aqutsisumut iserfigisinnaanissamik qinnuigit.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Qupperneq siulleq ammaruk</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Allat</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Ullut 7 kingulliit</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Piffissaq namminersorlugu toqqakkat</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Oqaatsit tamarmik</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Oqaaseq sunaluunniit</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Oqaaseqatigiit eqqortut</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Attuumassuteqarneq</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Ateq A–Å</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Ateq Å–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Allanngortinneqarfia, nutaaneq siulleq</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Allanngortinneqarfia, pisoqaaneq siulleq</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Saqqummersinneqarfia, nutaaneq siulleq</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Saqqummersinneqarfia, pisoqaaneq siulleq</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Allanngortinneqarfia</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filterit</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Filterit takutikkit</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Filterit tarrisikkit</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Aallaqqaataanut utertiguk</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Atuutsiguk</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Oqaatsit</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Imarisat suussusaat</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Amerlanerusut takutikkit (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Imarisat suussusaat ataaseq toqqaruk, pissusaasa ilaanni ujarlerniaruit.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Immikkoortoq</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Pissarfia</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Unga</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Ulloq aallarnerfik ulluliussatut atuuttuunngilaq.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Ulloq naggataa ulluliussatut atuuttuunngilaq.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Piginnittoq</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Atuisup ID-ia, iserfissaq imaluunniit e-mailip najugaa.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>»%input« pillugu atuisoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Oqaatsit</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Oqaatsit sunaluunniit</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Inissisimaffik</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Inissisimaffiit %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Quppernermut inernerit</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>»%text« pillugu inernerit (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Inernerit (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Tulleriiaakkit uuma malillugu</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Tulleriiaarneq</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Filterit atuuttut</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Filteri una piiaruk</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Imaluunniit filterit toqqarlugit atuutsikkit imarisat naapertuuttut takuniarlugit.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Oqaatsit allanneqareerpata filterit ujarlerneq killilersortarpaat.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>»%text« pillugu inernertaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Inernertaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Qulaani filterit ilaat peeruk.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Nutserinerit</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Iliuusissat</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name aaqqissoruk</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Aaqqissoruk</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Aallaqqaammut suliaqartut pilersuisunillu allanit programmit Exponential-imut ilaasut copyright pillugu nalunaarutaat atuinissamut akuersissutip piumasaqaataa malillugu fiilini aallaaviusuni fiilimilu LICENSE-mi toqqorneqartuarput.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Kinguliani Exponential-imut peqataasut allattorsimaffiat takutinneqarpoq, suliatik eZ Systems Contributor Licensing Agreement-ip piumasaqaataa malillugit 7x-imut atugassanngortissimasaat. Isumaqatigiissut taanna malillugu 7x peqataanerit tamaasa fiilip peqataaffigineqartup atuinissamut akuersissutaa assigalugu siammartittarpai. Allattorsimaffimmi peqataasut tamarmik, attavigineqarnissamut paasissutissat piumassuseq malillugu fiilillu peqataaffigisimasaat taaneqarput.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Ikiuuttut Exponential-imi aamma programmimi tassannga pinngortumi suliaminnut nalunaarneqartut, filinik ikiuuffigisaminnik ilallugit. Una nalunaarneruvoq, copyright-imut nalunaarutaanngilaq: Exponential-imut ikiuutit Contributor Licensing Agreement malillugu Exponential Foundation-imut 7x-imullu tunniunneqartarput.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Malugiuk: Poortukkat ikkussinerat piiarneqassanngilaq.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition misiliuk&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential Community-mi ilaasortanngorit, paasissutissanik paarlaasseqatigiigit peqataallutillu&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; allallu.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt; atorlugu ingerlanneqarpoq. Paasisaqarnerorusukkuit takuuk &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; allallu.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Paasisaqarnerorusukkuit takuuk &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; allallu.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential misiliuk (7x-imit)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential Community-mi ilaasortanngorit, ikiorneqarit peqataagillu&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; allallu.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Malugiuk: Poortukkat ikkussinerat piiarneqassanngilaq.</translation>
     <message>
         <source>Help center</source>
         <translation>Ikiorfik</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Imarisat</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Allakkiap quppernerii</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Atuisut</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Imarisat klassii</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Aqutsineq</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Qupperneq %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Inernerit tamaasa takukkit</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Inernerit: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Inerneq ataaseq</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Siunnersuutit %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Siunnersuuteqanngilaq</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Siunnersuutit aallerneqarsinnaanngillat.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Siunnersuutit</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Malugiuk: Poortukkat ikkussinerat piiarneqassanngilaq.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Installationi una tamanut demo-uvoq: kinaluunniit aqutsisup isissutissaa ilisimasinnaavaa, aqutsisullu isissutissai allanngortinneqarsinnaanngillat aallaqqaataanulluunniit utertinneqarsinnaanngillat. Maani namminiussamik sumilluunniit allassanngilatit.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Atortutit</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Isumannaallisaanermi iliuusit</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Malugiuk: Poortukkat ikkussinerat piiarneqassanngilaq.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ilitsersuutit, ujarlerneq kukkunerlu qanoq nalunaarutigineqarsinnaanersoq.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Imarisaat nutaat</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Imarisaat nutaanerpaat, misissorneqarnissaannut unitsitat, toqqakkanullu iliuusissat.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Malugiuk: Poortukkat ikkussinerat piiarneqassanngilaq.</translation>
         <source>Synchronisations</source>
         <translation>Naapertuutsitsinerit</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: naggatip sumiiffia, skema aamma apeqqutinik misiliiffik.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Nuussinerit</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ikkussinermi allannguutit fiilitut toqqorsimasut: killiffiat, ingerlatsinerit, ingerlatsineq utertitsinerlu.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Imarisaat nutaat</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Imarisaat nutaanerpaat, misissorneqarnissaannut unitsitat, toqqakkanullu iliuusissat.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Nittartakkap assilinera aalaakkaasoq GitHub Pages-imut imaluunniit git-ip angerlarsimaffianut sumulluunniit saqqummiuguk.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Saqqummiussineq aalaakkaasoq</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Paasissutissat suussusii</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Qitiusup ilassutillu paasissutissat suussusii tamarmik, klassillu imarisallu qanoq atortarneraat.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Malugiuk: Poortukkat ikkussinerat piiarneqassanngilaq.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Kontot kimilluunniit atorneqanngitsut imaluunniit misissorneqartariaqartut; atorunnaarsikkit, parnaarunnaarsikkit imaluunniit anitsikkit.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Atuisut misissuinermut nalunaarsuiffiat</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Kina allanngortitsisimanersoq, iserfigisimanersoq imaluunniit itigartinneqarsimanersoq, kontomut ataatsimut; filterigit aamma anitsiguk.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Iseriarnernut nalunaarusiaq</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Kikkut isersimanersut, ulluinnarni iseriarnerit kukkunerillu; atuisoq sumiluunniit anitsiguk.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Malugiuk: Poortukkat ikkussinerat piiarneqassanngilaq.</translation>
         <source>%n hours ago</source>
         <translation>%n t matuma siornagut</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API-p apeqqutaasa toqqorsimasut akissutaat, aamma skema-p imarisanut immikkoortui.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Assilineq aalaakkaasoq GitHub Pages-imut imaluunniit git-ip angerlarsimaffianut sumulluunniit saqqummiuguk</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Saqqummiussineq aalaakkaasoq</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Cache aalaakkaasoq quppernernik qarasaasiamit matumannga tunniussisarpoq. Nittartakkap assilinera aalaakkaasoq allami, GitHub Pages-imi imaluunniit git-ip angerlarsimaffiani sumiluunniit, saqqummiuniarukku saqqummiussineq aalaakkaasoq atoruk.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Malugiuk: Poortukkat ikkussinerat piiarneqassanngilaq.</translation>
     <message>
         <source>last purge</source>
         <translation>kingullermik salinneqarfia</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Allannerit killiffiup parnaarunnera tigusinnaasimanngilaat (kingullermik %date): tamarmik inernerit toqqortat tamaasa pisoqalisippai. %file atuisumit tamanit, nittartagaq atuuffigisaanit, allaffigineqarsinnaassaaq; NFS-imi NFSv4 imaluunniit lockd pisariaqarpoq.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Malugiuk: Poortukkat ikkussinerat piiarneqassanngilaq.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP-p suliarinnittuata isersimanerai piffissaa qaangiunneqarsimasut PHP-mit nammineq peerneqartarput (session.gc_maxlifetime), quppernermit matumannga cron-illu suliassaata ilaanit session_gc-mit pinnatik.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Atuisut tamarmik isersimanerisa iseriarnernut nalunaarusiami allattorneqarput anitsinneqarsinnaallutillu; isersimanermik suliarinnittut tamaasa atorlugit atuuppoq.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Iseriarnernut nalunaarusiaq ammaruk</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ ilitsersuutit malikkit.</translation>
     <message>
         <source>None yet</source>
         <translation>Suli peqanngilaq</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Isumannaallisaanermi iliuusit</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Kingullermik iseriarnerit, iserniarnerit kukkusut aamma isissutissap, e-mail-imut najukkap marlunnillu alloriarluni isernerup allanngortinneqarneri.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Konto manna kingullermik iseriarfia, iserniarnerit kukkusut isumannaallisaanermilu allannguutit.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Iliuusit misissukkit</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Iseriarnerit kukkusut: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Akuersisumut oqaaseqaatinik nassiussiniaruit imaluunniit killiffia takuniarukku 
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Iserluni kingorna atuisoq allanik suliaqalinnginnermini isissutissamik nutaamik toqqaasariaqarpoq. Una atoruk, kimulluunniit isissutissamik piffissap ilaannaani atugassamik tunniussiguit.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Assi pioreersoq toqqaruk</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Objektip toqqakkavit assiata fiilia immersugassamut matumunnga assilineqassaaq. Objekti alla allanngorneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>"%name"-p assia immersugassamut matumunnga assilineqarpoq.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Assimik qinerit</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Assit aqqisigut ujarlerit</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Ujarlerit</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>"%name"-p assia atoruk</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Assi una atoruk</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ujarlernerpinnut assi naapertuuttoqanngilaq.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ Paasissutissat amerlanerusut piumasaqaatinut quppernermi takukkit.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab allanneqanngilaq (%reason). Titarnerit uku atuisup nittartakkamit atorneqartup crontab-ianut ilakkit, taamaanngippat utaqqiffik, isertitsinerit, nalunaarutit ujarlernermullu indeksi ingerlanngisaannassapput:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Ikkuteqqinneq kickstarter atorlugu pisarpoq (%file, tassanngaanniit php bin/php/kickstarter.php run --apply) imaluunniit ikkussinikkut nutaamik.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ ilitsersuutit malikkit.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore-mi Public Packer-ip cache-ia</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL-ip cache-ia (akissutit aamma skema-p immikkoortui)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ ilitsersuutit malikkit.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Assilinera: %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Paasissutissat suussusii</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Paasissutissap suussusaa %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ ilitsersuutit malikkit.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG-assi atuarneqarsinnaanngilaq, imaluunniit imaanit sunaluunniit isumannaatsumik takutinneqarsinnaanngilaq.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Assi assilineqarsinnaanngilaq. Misileqqiguk imaluunniit nittartakkap aqutsisua attavigiuk.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Objekti toqqagaq pilersimanngilaq imaluunniit atuarsinnaanngilat.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Objekti toqqagaq assiqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Objektip toqqagaasup assiata fiilia atuarneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Objektip toqqagaasup assia immersugassap matuma akuerisaanit anginerujussuuvoq: %1 bytes.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ ilitsersuutit malikkit.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Nalunaaqutap aqqa nutaaq: »%name«.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Qupperneq una nittartakkamut isaariami matumani (%siteaccess) atorunnaarsitaavoq. Nalunaaqutaq nittartakkamut isaariami quppernermik uuminnga pigisalimmi ammaruk.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Quppernerup matuma modulia maani ikkunneqarsimanngilaq imaluunniit atuutilersinneqarsimanngilaq.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Qupperneq una atorunnaarpoq: modulia takutitsinermik taamaattumik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Atuuffitit arlaannaattaluunniit qupperneq una ammarnissaanut akuersissutiginngilaatit.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Nittartakkamut isaariaq una atorsinnaanngilat.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Imarisat qupperneq una takutitaa atuarsinnaanngilatit.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Qupperneq taamaattoq nalunaaqutaliiffigineqarsinnaanngilaq: immersugassiamut kisimi sunniuteqarpoq, imaluunniit qupperneruvoq sivikitsuinnarmut atuuttoq.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Quppernerup matuma najugaa amigaatigineqarpoq.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Qupperneq una maannakkut ammarneqarsinnaanngilaq.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Ingerlatsinermi kingullermi e-mail-inik nassiussiffiup e-mail-it %count itigartippai. E-mail-inut serveri aamma site.ini MailSettings misissukkit.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Pisut utaqqisut: %count, nalunaarutinullu cron-ip suliassaata ingerlanneqarnera nalunaarsorneqanngilaq. Cron-ip suliassaata ilaa »frequent« crontab-imut ilaguk, imaluunniit exp:notification:run --apply aallartiguk.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
         <source>Choose another site or section with the node picker</source>
         <translation>Nittartagaq imaluunniit immikkoortoq alla inissisimaffinnik toqqaaffik atorlugu toqqaruk</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Systemimik aqutsisoq kisimi piginnittumik allanngortitsisinnaavoq: ./console exp:content-check --fix-permissions --apply root-itut aallartiguk.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
     <message>
         <source>empty</source>
         <translation>imaqanngitsoq</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Atsiornermut matuersaat ukioq ataaseq sinnerlugu pisoqaassuseqarpoq: exp:audit key rotate --apply atorlugu taarseruk.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
         <source>Share of page time</source>
         <translation>Quppernerup piffissaanit ilaa</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>tamakkiisumik pilersitsineq qinnutigineqarpoq</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>quppernerit cache-iata qupperneq peqanngilaa (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>quppernerit cache-iata akinngilaq</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Pilersinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Qitiusumit pilersinneqarpoq: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Quppernerit cache-iannit %ms ms-imi tunniunneqarpoq. Qupperneq %stored-imi pilersitsinermit %render ms-imik sivisussusilimmit toqqorneqarpoq, %age s siornatigut.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Maanna pilersiguk</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Cache-imit takutitsinermut uterit</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored-imi pilersitsinermit (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Qinnut una: quppernerit cache-iannit %ms ms-imi tunniunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Atuisoq</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Atuisup ID-ia</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Cache-imi profili</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Isikkivik una</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Takutitsinermut cache</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>atuisumut ataatsimut (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Atuisup cache-imi profilia: atuisut profilimik assigiimmik atuisut isikkiviup cache-imi fiilii avitseqatigiissutigaat</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>aap</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>naamik</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Atuisup aqqa</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Iserfigisimavoq</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Isersimaneq</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Imarisap isikkiviata cache-imi nalunaarutaata ilai atuisumut attuumassuteqartut, nalunaarutip tigusarisaattut, quppernerup matuma ViewCacheTweaks aalajangersagai naapertorlugit. Atuisut profilimik assigiimmik atuisut isikkivinnut cache-imi fiilinik avitseqatigiipput, isikkiviup nammineq ilai assigiinngikkunik (piumasat, tusarnaartut nalunaarutaat): taakku nammineq profiliqarput, quppernermut matumannaaq.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profili</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Isikkivik una (knude %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: atuisut iserfigisimasut tamarmik nammineq cache-imi fiiliqarput.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks atuuttut: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Ilaa</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Naleq</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ilaannaalluunniit atuisumut attuumassuteqanngilaq (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>isikkivik una</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Allagaatut assiliuk</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Atuuffiit</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Atorfinnut inissiinerit atuarneqarsinnaanngillat.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Atorfiup ID-ia</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Atuuffik</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Killilersuut</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Inissinneqarfia</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>atuisoq</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>gruppi %name (objekti %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Assilineqarpoq</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Assilineqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>tusarnaartumit peerneqarpoq</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Tikeraat ilisimaneqanngitsut</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>illittut assigaa</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>assigiinngitsoq</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profili tikeraat ateqanngitsut ViewCacheTweaks assigiit naapertorlugit pisartagaat, piumasat aalajangersimasut atorlugit, isikkiviup ilai ilanngunnagit: tusarnaartoq sessionimik atuartoq taakkuninnga apeqqutigineqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Piumasat</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Isikkivimmi ilusissaq atuisup piumasaanut attuumassuteqanngilaq (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Piumasat isikkivimmi ilusissat makku isikkiviisa attuumassuteqarfigisaat (CachedViewPreferences), atuisup naleqartitaa imaluunniit aalajangersimasoq atorlugu. Profilimiipput userpreferences taaguutigalugu, isikkivimmi ilusissat tamarmik peqatigiillutik.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Takutitsinerup suussusaa</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Piumasaq</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Aallaavittut</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Maleruagassat</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Atorfiit politikkii takutikkit (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Politikkit immikkoortoq una ammarneqartillugu serverimit aallerneqartarput, quppernerit ataasiakkaarlugit, aamma modulit funktionillu naapertorlugit sillisiivigineqarsinnaapput.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Atortussaq</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Modulit tamarmik</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Funktionit tamarmik</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Killilersuutit</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Amerlanerusut takutikkit</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Atorfiit makku politikkeqanngillat.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Politikki sillisiivimmut naapertuuttoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching politikkit (katillugit %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Arlaleqqammat atuutilerpoq.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, pisuussutaa, killiliineq</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Politikkit ujarlerneqarlutik</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Amerlanerusut atuutsiguk</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Moduli/atortussaq</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Pisuussutit tamarmik (politikkit %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Politikki ataatsimilluunniit naapertuinngilaq.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown politikkinit %matched-init</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Akissut ajorpoq</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>isertorneqartoq</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Nassuiaatit takutikkit</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Nassuiaatit isertukkit</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ammaruk</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Tamaasa ammakkit</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Tamaasa matukkit</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Ilisarnaat imaluunniit naleq</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Isersimanermi ujarlerit</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Suussuseq</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count suli</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>takutinneqarsinnaanngitsumik itisoorujussuarmik ilanngussaq</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>naqqaneqartoq, naqinnerit katillugit %count</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Aallartinneqarfia</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Cookie-p aqqa</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Isersimanerup ID-ia</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Suliarinnittoq</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Toqqorfiup aqqutaa</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP-p nalinginnaasumik atugaa</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Atuuffiata sivisussusaa (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>atuuffia %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Isersimaneq PHP-mi illit nammineq, immikkoortoq ammarneqarmat qanoq ittuusoq, allap isersimanera naamik. Ilisarnaatit isertuussatut isikkullit (token-it, hash-it, isissutit) nalingi isertorneqarput (debugbar.ini SessionMask[]); allat tamarmik toqqorneqarnertut takutinneqarput, paasissutissat inummut tunngasut aamma.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>ilisarnaatit %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>angisooq</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Isersimaneq imaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Qinnummut matumunnga isersimaneq aallartinneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Ilassut %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel allallu</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Allattugaatit tamarmik takutinneqanngillat: isersimaneq maani allattorneqarsinnaasunit amerlanerusunik imaqarpoq.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Ilisarnaatit %count allattorneqanngillat.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Sinaakkut</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Nalingit token-itut isikkullit (JSON Web Token, Authorization-ip qulequtaata uppernarsaatai, ilisarnaat namminermut, hex takisooq imaluunniit allagaq tamaattaannaq) aamma isertorneqartarput, ilisarnaataat qanoq taaguuteqaraluarpataluunniit (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Ilisarnaat isertuussatut isikkoqarpoq (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Naleq token-itut isikkoqarpoq.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Ilisarnaatip isertorneqartup ataani.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Isersimaneq allagaasoq, tabelitut isertorneqartoq.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Isersimaneq %size-imit anneruvoq (debugbar.ini SessionWarnBytes): atuisup matuma qinnutai tamarmik isersimaneq tamaat atuartarpaat, allanngorsimappallu allattarlugu.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP-p isersimaneq una fiilini toqqortarpaa fiililu qinnuteqarneq tamaat parnaarsimatillugu: atuisup ataatsip qinnutai (tabit arlallit, AJAX-imut sianerneqarnerit) imminnut utaqqiattarput.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Ammatiinnaruk</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size-imit anneruvoq (debugbar.ini SessionWarnBytes): atuisup matuma qinnutai tamarmik isersimaneq tamaat atuartarpaat.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count-iniit %hits cache-imit atuarneqarput</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Skabeloni sumilluunniit takutinneqanngilaq (takussutissaq takussutissat cache-iannit atuarneqartoq skabelonimik takutitsineq ajorpoq).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Atuuffimmik tunniussinerit</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Atuuffiit maleruagassallu</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>takusartut aqqeqanngitsunit allaanerusoq</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>takusartut aqqeqanngitsut assigalugit</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
     <message>
         <source>not sent</source>
         <translation>nassiunneqanngitsoq</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Nalunaarutinut cron-ip suliassaa ingerlanerminik tamaginnik maani nalunaarsuisarpoq. Ilaa frequent crontab-imut ilaguk, imaluunniit exp:notification:run --apply aallartiguk.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Konsoli atoruk: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Sammisaq una Saqqummersinneqanngilaq; atuartut takusinnaanngilaat.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Nuussinerit</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ikkussinermi allannguutit fiilitut toqqorsimasut: killiffiat, ingerlatsinerit, ingerlatsineq utertitsinerlu.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Nittartakkap assilinera aalaakkaasoq GitHub Pages-imut imaluunniit git-ip angerlarsimaffianut sumulluunniit saqqummiuguk.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Saqqummiussineq aalaakkaasoq</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Misissorneqarpoq</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Atuartut quppernera una takusinnaavaat.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Atuartunit isertorneqarpoq allap saqqummiunnissaata tungaanut.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Quppernera maannakkut misissuinermiippoq. Saqqummiunneqarnissami tungaanut atuartunit isertorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Quppernera saqqummersinneqarpoq: atuartut maannakkut takusinnaavaat.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Quppernera missingiutinngoqqippoq. Misissorneqarlunilu saqqummiunneqarnissami tungaanut atuartunit isertorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Maannakkut saqqummiuguk</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Atuisoq %role-mik atuuffilik versionimik una allanngitsoq kisimi saqqummiussisinnaavoq.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Ikiuutini sammisat saqqummiunneqarnissamik utaqqisut</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Saqqummiunneqaqqinnissami tungaanut atuartunit isertorpaa.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Tulliani misissuisup misissussavaa. Atuartut suli takusinnaanngilaat.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Atuartut erniinnaq takusinnaavaat.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Suliarineqarnerunissaanut misissuinermit peerpaa. Atuartut takusinnaanngilaat.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Quppernera una atuartunit isertussaviuk?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Quppernera una missingiummut uterteqqissaviuk?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Atuartut %title takusinnaajunnaarpaat allap saqqummiuteqqinnissaata tungaanut.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title suliarineqarnerunissaanut missingiummut uterpoq. Atuartut suli takusinnaanngilaat, saqqummiunneqannginnermilu misissorneqaqqittariaqarpoq.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Taamaatiguk</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Sammisat uku misissuinermiipput. Atuartut takusinnaalissavaat versionimik maannakkut atuuttumik allanngitsup saqqummiukkaangagit.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Aaqqissuussineq &gt; Cron-ip suliassai</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Cron-ip suliassaata ilaa suli ingerlanneqanngilaq: suliassat utaqqiffiat, eqqussinerit, nalunaarutit ujarlernermullu indeksi utaqqipput. php bin/php/installcrontab.php --add --apply aallartiguk, imaluunniit titarnerit --show atorlugu takutinneqartut crontab-imut ilakkit.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
         <source>None.</source>
         <translation>Peqanngilaq.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>authenticator-ip app-ia atorlugu</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>kodi e-mail-ikkut atorlugu</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>uteqqiinermut kodi atorlugu</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>passkey atorlugu</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>konto avataaneersoq atorlugu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Isumannaallisaanermi iliuusit</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Attaveqaasersuutaa takutinneqarpoq; najugaq nittartakkap paasissutissanik illersuinermut aaqqissuussinerisut toqqorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nalunaarsorneqanngilaq</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Inissisimaffik</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>missiliorneqartoq</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
         <source>Manage devices</source>
         <translation>Atortut aqukkit</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>authenticator-ip app-ia atorlugu</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>kodi e-mail-ikkut atorlugu</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>uteqqiinermut kodi atorlugu</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>passkey atorlugu</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>konto avataaneersoq atorlugu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Isumannaallisaanermi iliuusit</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nalunaarsorneqanngilaq</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Inissisimaffik</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>missiliorneqartoq</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
         <source>View the sessions of this user</source>
         <translation>Atuisup matuma isersimanerai takukkit</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Kontut %login nittartakkami %site sumiiffimmiit kingullermi iserfigisimanngisaaniit massakkut iserfigineqarpoq:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Inissisimaffik missiliorneqartoq</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser (%os)</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Iseriarnernut nalunaarusiaq</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Passkey misissorneqarsinnaanngilaq. Misileqqiguk.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Kontut passkey-nik kisimik iserartartut maani isissummik atuisinnaanngillat: »Passkey atorlugu iserit« toqqaruk.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login-ip passkey-ii</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Passkey-it kontup matuma iserfigisartagai. Passkey atortorissami tammartumi tillinneqartumiluunniit ittoq atorunnaarsiguk: iserfigineqarsinnaajunnaassaaq. Kontup pigisaata nutaat nammineq ilasarpai.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Kontut passkey-mik pisariaqartitsivoq</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Kontunnut passkey ilaguk</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Ingerlaqqinniarlutit passkey ilaguk. Taava isissut kisiat pinnagu passkey atorlugu iserartassaatit.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Passkey atorlugu iserneq isissummit sukkaneruvoq isumannaannerullunilu. Maanna ataaseq ilaguk, imaluunniit passkey-qanngitsutit ingerlaqqigit.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Maannakkut naamik</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Passkey »%name« atorunnaarsissaviuk?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Kontu una iserfigisinnaajunnaarpaa. Kingulleq ippat, kontup pigisaa isissut atorlugu iserassaaq, imaluunniit isissummik nutaamik aalajangiissaatit.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Passkey atorunnaarsiguk</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Atorunnaarsiguk</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Kontu una passkey-qanngilaq.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Uppernarsaasiut</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Ilisimaneqanngitsoq</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Passkey-it kingulleq: piiaatinnagu alla ilaguk.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Kontu una passkey-nik kisimik iserartarpoq (passkey-mut maleruagassaq): sinneqartoqanngippat isissutini atorlugu iseqqittassaaq.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Una passkey-it kingulliuvoq, kontullu passkey-qanngitsoq iserfigineqarsinnaanngilaq. Siullermik passkey alla ilaguk.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Passkey »%name« atorunnaarsinneqarpoq. Kontu una iserfigisinnaajunnaarpaa.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
         <source>Code from your authenticator app</source>
         <translation>Authenticator-ip app-ianit kodi</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Paasissutissat tamaviaarlugit peerniarpatit log-iluunniit salinniarlugu.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Isissutitit passkey-lu</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Isissutitit authenticator-illu app-ianit kodi</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Imaluunniit:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Browser una passkey-nik atuisinnaanngilaq. Allatut iliorit, imaluunniit browser alla atoruk.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Ingerlaqqikkuit browser-it passkey-itit ilaannik piumassaaq.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Passkey atorlugu ingerlaqqigit</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
     <message>
         <source>Setup</source>
         <translation>Aaqqissuussineq</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Nammineq isissutip, e-mailip najugaata, passkey-it, marlunnik alloriarluni isernerup, kodit utertitsissutit imaluunniit API-mut kodit allanngortinneqarnerat, atortorissallu allat nammineq pigisat anisinneqarnerat.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Atuisunik pilersitsineq aaqqissuinerlu, isissutaat atortorissaallu, kontup aaqqissugaanera, atuisut kontuinik nutaanik akuerineq itigartitsinerluunniit, atuuffinnik tunniussineq maleruagassanillu aaqqissuineq.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Paasissutissanik peersineq</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Eqqaavimmik saliineq, eqqaavimmit piiaaneq ataatsikkullu arlalinnik piiaaneq.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Imarisanik piiaaneq, saqqummiussineq toqqorsinerlu</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Imarisanik piiaaneq (aamma eqqaavimmut), saqqummiussineq missingiummillu toqqorsineq; immersugassaq nassiunneqarpat apeqqutigineqartarpoq. Aallaavittut atorunnaarsimavoq.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Suliassap mianernartup siorna atuisoq iseriikkaq kinaassusiminik uppernarsaaqqittarpoq: isissutini passkey-lu atorlugit, imaluunniit passkey-qanngikkuni isissutini authenticator-illu app-iata kodia atorlugit. Nittartakkat quppernerisa kisimik apeqquteqartarput: REST-ip attaveqaasiutaa, SOAP, WebDAV, expservices-imut iserneq naqqiussiviillu apeqquteqarneq ajorput.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Aaqqissuussat sumi atuuttut</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Aaqqissuussat uunga</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Nittartakkamut isaariaq tamarmi</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Nittartakkamut isaariaq %name kisiat</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ammaruk</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Apeqqutigineqartut: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Atuisut eqimattaat ilaasortaasa kisimik apeqqutigineqarnissaannut nalunaaqutsikkit (assersuutigalugu aaqqissuisut). Nalunaaqutsersuisoqanngippat: atuisut tamarmik.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php-imi toqqorneqarpoq, nittartakkamut isaariaq tamaat atuuttussatut. Toqqorsinermi illuunerit uppernarsassavat.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php-imi toqqorneqarpoq. settings/override-imi naleq tamatuminnga salliutinneqarpoq. Toqqorsinermi illuunerit uppernarsassavat.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ Inissisimaffiup klassia taarseraanermik atortussaq atorlugu allanngortittariaqas
     <message>
         <source>Open the page</source>
         <translation>Qupperneq ammaruk</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, katillugit %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Iserfissaq imaluunniit atuisup ID-ia: konto pisup pineqartup imaluunniit atuisoq iliuuseqartoq.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Iliuuseq</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Kingornagut</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Inernerit tamarmik</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Siornagut</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Iliuuseqartoq</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Saliguk</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Naammassineqarpoq</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Pisut ulluni %days toqqorneqartarput.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Pisut toqqorneqartarput assammik peerneqarnissamik tungaanut.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Pisut</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Iliuutsit tamarmik</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Kontop matuma pisui tamarmik</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Allattorsimaffik CSV-mik anitsiguk (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Iluatsinngitsoq</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Pissarfia</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Allattorsimaffik killiliiguk</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Pisoqanngilaq naapertuuttumik.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Quppernermut ataatsimut</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Nalunaarsuineq audit.ini-mi matoqqavoq ([UserAuditSettings] UserAudit); allattorsimaffiup siusinnerusukkut nalunaarsorneqarsimasut takutippai.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Itigartitaq</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Inernera</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Takutiguk</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Atuisut misissuinermut nalunaarsuiffiata tabelia amigaatigineqarpoq. Pilersiguk php update/common/scripts/6.0/createuseraudittable.php atorlugu; tamatuma tungaanut misissuinermut fiilit pisut tamaasa toqqortarpaat.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Quppernerup matuma SQL-imik paasissutissaateqarfik pisariaqartippaa; MongoDB atorlugu atorneqarsinnaanngilaq. Misissuinermut fiilit pisut tamaasa toqqortarpaat.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Unga</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Atuisut misissuinermut nalunaarsuiffiat</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Atuisoq</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Qaqugu</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Sumi</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Kina konto sorleq allanngortissimaneraa, pilersissimaneraa, atortuulersissimaneraa, atortuujunnaarsissimaneraa, nuussimaneraa imaluunniit peersissimaneraa, kina iserfigisimanersoq imaluunniit itigartinneqarsimanersoq, aamma inissisimaffiit suut tunniunneqarsimanersut: pisoq ataaseq titarnermik ataatsimik, immersugassat siornagut kingornagullu. Isissutit isertuussallu nalunaarsorneqanngisaannartarput.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>eqimattaq</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>systemi</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ilisimaneqanngitsoq</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kontut isumannaallisaruk</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Kontunnut %login nittartakkami %site iserniarluni uteqqiinermut kodi atorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Uteqqiinermut kodi atorneqarpoq</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Najugaq missiliorneqartoq</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Iseqqinniarlutit isissutissamik nutaamik qinnutigisaqarit, imaluunniit nittartakkap aqutsisuinut attaveqarit.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Isissutissaq nutaaq qinnutigiuk</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Uteqqiinermut kodi ataatsimut atorneqarsinnaavoq. Oqarasuaatit tammarsimappat authenticator-ip app-ia aaqqissoqqiguk uteqqiinermullu kodit nutaat isumannaatsumi toqqorlugit.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Kontunnut iserniarnerit kukkusut</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Maanngaanniit iserniarnermi isissutissat saniatigut kodi piumasaqaataassaaq. Illit taamaaliorsimaguit, iliuuseqartariaqanngilatit.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Illit iserniarsimaguit isissutissallu puigorsimagukku, nutaamik qinnutigisaqarit. Taamaanngippat isissutissaq nakussanerusoq toqqaruk marlunnillu alloriarluni iserneq atuutilerlugu.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Illit taamaaliorsimanngikkuit, allap isissutissat ilisimasinnaavaa: massakkut allanngortiguk kontullu sumi isersimanera misissoruk.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Uteqqiinermut kodit sinneruttut</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Atortutit misissukkit</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Isumannaallisaanermut kalerrisaarut</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Kontunnut %login nittartakkami %site isissutissaq kukkusoq atorlugu arlaleriarluni tulleriiaarlugu iserniartoqarpoq (iserniarnerit: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Kontunni %login nittartakkami %site isumannaallisaanermut tunngasumik pisoqarpoq.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Una kontunnut tunngasumik isumannaallisaanermut kalerrisaarutaavoq. Allannguuteqaraangat tamatigut nassiunneqartarpoq, atorunnaarsinneqarsinnaananilu.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Piffissaq</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Kontunni %login nittartakkami %site marlunnik alloriarluni iserneq atorunnaarsinneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Marlunnik alloriarluni iserneq atorunnaarsinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Kontunni %login nittartakkami %site marlunnik alloriarluni iserneq atuutilersinneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Marlunnik alloriarluni iserneq atuutilersinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Kontut %login nittartakkami %site iserniarnerit kukkusut amerlavallaarmata parnaarneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Kontut massakkut isissutissannik kisimi illersorneqarpoq. Illit taamaaliorsimanngikkuit, isissutissat allanngortereerukku marlunnik alloriarluni iserneq atuutilersiteqqiguk.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Kontut parnaarneqarpoq</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Kontunnut %login nittartakkami %site passkey ilanngunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Kinaluunniit passkey una pigigaa kontunnut isissutinnik atuinani iserfigisinnaavaa. Illit ilannguppinnagu, Passkey-it ataani piiaruk isissutillu allanngortiguk.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Kontunnit %login nittartakkami %site passkey piiarneqarpoq.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Kontut iserfigisinnaajunnaarpaa. Illit piiarsimanngikkukku passkey-itit atortorissatillu misissorkit.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Kontunnut passkey ilanngunneqarpoq</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Kontunnit passkey piiarneqarpoq</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Isumannaallisaanermi iliuusit</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Isumannaallisaanermi iliuusit: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Iserfia</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Iserniarneq kukkusoq</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Anitinneqarsimasoq</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Isersimanerit anitinneqarput</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Atortumit nutaamit iserneq</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Inissisimaffimmit nutaamit iserneq</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Kinaassuseq uppernarsarneqarpoq (»Kinaassutsit uppernarsaruk«)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Kinaassutsip misissorneqarnera iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Passkey atorlugu iserpoq</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Passkey atorlugu iserniarneq iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Iserneq itigartitaavoq: marlunnik alloriarluni kodi amigaatigineqarpoq imaluunniit kukkuvoq</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Marlunnik alloriarluni kodi kukkusoq</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto iserniarnerit kukkusut kingorna parnaarneqarpoq</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto parnaarunnaarsinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Isissutissaq allanngortinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Isissutissap allanngortinnissaa iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Isissutissaq nutarterneqarpoq</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Isissutissaq nutaaq qinnutigineqarpoq</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-mail-imut najugaq allanngortinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Atuisup aqqa allanngortinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Marlunnik alloriarluni iserneq atuutilersinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Marlunnik alloriarluni iserneq atorunnaarsinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Uteqqiinermut kodi atorneqarpoq</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Uteqqiinermut kodit nutaat</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>App-imut isissutissaq pilersinneqarpoq</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>App-imut isissutissaq atorunnaarsinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Passkey ilanngunneqarpoq</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Passkey piiarneqarpoq</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto atuuttoq</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kontoa atuutinngilaq</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tamarmik</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Iseriarnerit isersimanerillu</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kontomi allannguutit</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Misissortariaqarpoq</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>illit</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>atuisumit</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>atuisumit %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Periaaseq</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Internetimut isaariaq</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Ingerlatsinermut systemi</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Atortoq</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Sumiiffik</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Nuna</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Isersimanerit</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Suut</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanaali</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Iserniarnerit kukkusut</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kodit sinneruttut</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Isernermik suliarinnittoq</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Isumannaallisaanermi iliuusit</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Isumannaallisaanermi iliuusit: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Kontuup isumannaallisaanerani iseriarnerit allannguutillu. Iliuuseqarsimanngitsutit takugukku isissutissat allanngortiguk atortullu ilisarisinngisatit anitsikkit.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Konto manna isumannaallisaanerani iseriarnerit allannguutillu.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Atortutit</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Isissutissaq allanngortiguk</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Kontomut uterit</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Isumannaallisaanermi iliuusit nalunaarsorneqanngillat</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Atuisut misissuinermut nalunaarsuiffiannit atuarneqartarput, tabeli expuser_audit amigaatigineqarpoq imaluunniit paasissutissaateqarfimmi matumani tapersersorneqanngilaq. php update/common/scripts/6.0/createuseraudittable.php aallartiguk, imaluunniit 6.0.15-ip paasissutissaateqarfiata nutarterneqarnera.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ullut kingulliit: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Ullut kingullerni iseriarnerit (ullut: %days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Kingullermik isumannaallisaanermi iliuusit</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Takutiguk</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>iluatsinngitsoq</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>itigartitaasoq</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Isumannaallisaanermi iliuusit suli nalunaarsorneqanngillat.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Isumannaallisaanermut tunngasut pisut toqqorneqartarput (ullut: %days).</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Isumannaallisaanermut tunngasut pisut aqutsisup piiarnissaata tungaanut toqqorneqartarput.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Iseriarnerma paasissutissai aaguk</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Isersimanitit isumannaallisaanermullu tunngasut pisut JSON-fiilitut.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Nittartagaq manna isersimanernik nalunaarsuisanngilaq, taamaattumik atortut allat anitsinneqarsinnaanngillat. Isissutissat massakkut allanngortiguk.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Isersimanerit allat %count anitsinneqarput. Massakkut isissutissat allanngortiguk.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Atortut allat iserfiusimanngillat. Massakkut isissutissat allanngortiguk.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Qujanaq. Pisoq illit pigisatit nalunaaqutserneqarpoq.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Pisoq taanna akissuteqarfigineqartariaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Quppernerup piffissaa qaangiuppoq. Allanngortitsisoqanngilaq; misileqqiguk.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kontut isumannaallisaruk</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Maani suna illiuunngippat, atortut allat tamaasa anitsikkit, taava isissutissamik nutaamik toqqaagit. Atortut Eqqaamallanga atorlugu isersimatinneqartut aamma anitsinneqartarput.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Atortut tamarmik una pinnagu tullianik qinnuteqarnerminni anitsinneqartarput. Taava isissutissamik nutaamik toqqaassaatit.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Aap, atortut allat anitsikkit</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Illiuvit?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Aap, uangaavunga</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Naamik, kontora isumannaallisaruk</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Iserfia</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Iserniarneq kukkusoq</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Anitinneqarsimasoq</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Isersimanerit anitinneqarput</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Atortumit nutaamit iserneq</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Inissisimaffimmit nutaamit iserneq</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Kinaassuseq uppernarsarneqarpoq (»Kinaassutsit uppernarsaruk«)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Kinaassutsip misissorneqarnera iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Passkey atorlugu iserpoq</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Passkey atorlugu iserniarneq iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Iserneq itigartitaavoq: marlunnik alloriarluni kodi amigaatigineqarpoq imaluunniit kukkuvoq</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Marlunnik alloriarluni kodi kukkusoq</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto iserniarnerit kukkusut kingorna parnaarneqarpoq</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto parnaarunnaarsinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Isissutissaq allanngortinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Isissutissap allanngortinnissaa iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Isissutissaq nutarterneqarpoq</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Isissutissaq nutaaq qinnutigineqarpoq</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-mail-imut najugaq allanngortinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Atuisup aqqa allanngortinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Marlunnik alloriarluni iserneq atuutilersinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Marlunnik alloriarluni iserneq atorunnaarsinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Uteqqiinermut kodi atorneqarpoq</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Uteqqiinermut kodit nutaat</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>App-imut isissutissaq pilersinneqarpoq</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>App-imut isissutissaq atorunnaarsinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Passkey ilanngunneqarpoq</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Passkey piiarneqarpoq</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto atuuttoq</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kontoa atuutinngilaq</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tamarmik</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Iseriarnerit isersimanerillu</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kontomi allannguutit</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Misissortariaqarpoq</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Isumannaallisaanermi iliuusit</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Isumannaallisaanermi iliuusit: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Kontuup isumannaallisaanerani iseriarnerit allannguutillu. Iliuuseqarsimanngitsutit takugukku isissutissat allanngortiguk atortullu ilisarisinngisatit anitsikkit.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Atortutit</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Isissutissaq allanngortiguk</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Nittartakkami matumani isumannaallisaanermi iliuusit suli nalunaarsorneqanngillat.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Ullut kingullerni iseriarnerit (ullut: %days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Iserniarnerit kukkusut</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Isumannaallisaanermi iliuusit suli nalunaarsorneqanngillat.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Iseriarnerma paasissutissai aaguk</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Isersimanitit isumannaallisaanermullu tunngasut pisut JSON-fiilitut.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Nittartagaq manna isersimanernik nalunaarsuisanngilaq, taamaattumik atortut allat anitsinneqarsinnaanngillat. Isissutissat massakkut allanngortiguk.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Isersimanerit allat %count anitsinneqarput. Massakkut isissutissat allanngortiguk.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Atortut allat iserfiusimanngillat. Massakkut isissutissat allanngortiguk.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Qujanaq. Pisoq illit pigisatit nalunaaqutserneqarpoq.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Pisoq taanna akissuteqarfigineqartariaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Quppernerup piffissaa qaangiuppoq. Allanngortitsisoqanngilaq; misileqqiguk.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kontut isumannaallisaruk</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Maani suna illiuunngippat, atortut allat tamaasa anitsikkit, taava isissutissamik nutaamik toqqaagit. Atortut Eqqaamallanga atorlugu isersimatinneqartut aamma anitsinneqartarput.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Atortut tamarmik una pinnagu tullianik qinnuteqarnerminni anitsinneqartarput. Taava isissutissamik nutaamik toqqaassaatit.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Aap, atortut allat anitsikkit</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Illiuvit?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Aap, uangaavunga</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Naamik, kontora isumannaallisaruk</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Isissutissaq</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Isissutissaq marlunnillu alloriarluni kodi</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-imut atassut</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-imut atassut</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Ataasiarluni iserneq</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Isersimanerit nalunaarsorneqartalernginnerini iserpoq</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Iseriarnernut nalunaarusiaq</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Kikkut nittartakkamut isersimanersut, kontut qanoq akulikitsigisumik iseriartarnersut iluatsinngitsoortarnersullu, atuisorlu sumiluunniit anitsinneqarsinnaavoq. Isersimanermik suliarinnittut tamaasa atorlugit atuuppoq.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Isersimaneq anitinneqarpoq. Atortoq iseqqittariaqarpoq.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Atuisoq %login isersimanernit anitinneqarpoq (amerlassusaat: %count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Atuisoq %login isersimanngilaq.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Kontoqanngilaq ID-mik, atuisup aqqanik imaluunniit e-mail-imut najugamik taassuminnga.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Isersimaneq una massakkut atukkat. Naammassiniarukku anigit.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Isersimaneq taanna naammassereersimavoq.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Quppernerup piffissaa qaangiuppoq. Allanngortitsisoqanngilaq; misileqqiguk.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Nittartakkami matumani isersimanerit nalunaarsorneqartanngillat (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabeli expuser_session amigaatigineqarpoq</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Pilersinneqareerpat isersimanerit nalunaarsorneqartalissapput: php update/common/scripts/6.0/createusersessiontable.php, imaluunniit 6.0.15-ip paasissutissaateqarfiata nutarterneqarnera.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Massakkut ullumilu</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Isersimanerit ingerlasut</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Atuisut isersimasut</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Ullumi iseriarnerit</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Ullumi iserniarnerit kukkusut</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Atuisoq sumiluunniit anitsiguk</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Kontup isersimanerisa tamarmik qinnuteqarfissatik tulliat naammassisarpaat, aamma »Eqqaamallanga« atorlugu isersimanerit. Konto allamit tigusimaneqarsinnaappat una atoruk; tamatuma kingorna isissutissaa nutarteruk.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Atuisup ID-ia, atuisup aqqa imaluunniit e-mail-imut najugaq</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Sumiluunniit anitsiguk</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Massakkut isersimasoq</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Kingullermik atorneqartut takutinneqarput (annerpaamik: %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Atuisoq</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Atortoq</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Najugaq</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Iserfia</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Iliuuseq kingulleq</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Iliuusissat</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Atortoq una</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nalunaarsorneqanngilaq</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Anigit</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Isersimasoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ullut kingulliit: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Iseriarnerit iserniarnerillu kukkusut atuisut misissuinermut nalunaarsuiffiannit kisinneqartarput, tamanna amigaatigineqarpoq; isersimanerit nutaat kisinneqartarput.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Ulloq</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Iseriarnerit</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Iserniarnerit kukkusut</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Isersimanerit nutaat</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Isersimanermik suliarinnittoq: %handler. Isersimanerit tabelimit expuser_session atuarneqartarput, taamaattumik nalunaarusiaq suliarinnittut tamaasa atorlugit atuuppoq.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Iliuusit pasinartut nalunaaquttap akunnerini %hours kingulliit</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Attaveqaat ataaseq kontunut %accounts isersinnaasimanngilaq (%count misileerneq)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto iserniarnerit kukkusut kingorna parnaarsarneqarpoq</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Konto ataatsimut iserniarnerit kukkusut %count</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Nunanit %count ataatsikkut iserfiusoq</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Isumannaallisaanermi iliuusit</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Isersimanerit</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Iserniarnerit kukkusut atuisut misissuinermi nalunaarsuutaannit atuarneqartarput, maani pissarsiarineqarsinnaanngitsumit.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Pasinartoqanngilaq: kontoqanngilaq iserniarnernik kukkusunik uteqattaartunik, attaveqaateqanngilaq kontunik arlalinnik misileraasumik, kontoqanngilaq nunanit arlalinnit iserfiusumik.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Kontunnut tunngasumik isumannaallisaanermut kalerrisaarut</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Kontunni %login isumannaallisaanermut tunngasumik pisoqarpoq: %event. Illit taamaaliorsimanngikkuit, kontut %url-imi isumannaallisaruk.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Aaqqissuussineq</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Nittartakkami matumani imarisanik qupperummit pisariaqartinneqartunik taamaallaat qinnuteqaammi ataatsimi apeqquteqarit. Skema imarisat immikkoortuinik malinnippoq; apeqqut tamarmi atuisup nassiussisup pisinnaatitaaffii atorlugit ingerlanneqartarpoq.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API nittartakkamut isaariami matumani matoqqavoq. graphql.ini-mi ammassuk: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL-ip atuagaateqarfia (webonyx/graphql-php 15) ikkussorneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Naggatip sumiiffia</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Atuagaateqarfik</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Imarisat immikkoortui %count, skema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Apeqqut</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Allanngorartut (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Aallartiguk</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Akissut</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Ingerlanneqarpoq…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Akissut atuarneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Apeqqut pisinnaatitaaffitit atorlugit ingerlanneqarpoq, session-imi matumani iserputit.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count %seconds sek-imi</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>killeqanngitsoq</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Itissusaa</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Ilungersunartussusaa</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Allattorsimaffimmi immikkoortut</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (aallaqqaasiutitut %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Atuisumut imaluunniit ilisarnaammut qinnuteqaatit</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Najukkamut atiqanngitsumut qinnuteqaatit</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Apeqqutit toqqorsimasut kisimik</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Apeqqut anginerpaaq</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes byte</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Nassiussaq anginerpaaq</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nittartakkamut isaariaq %siteaccess peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutationit %siteaccess-imi ammarneqarput.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutationit %siteaccess-imi matuneqarput.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API %siteaccess-imi ammarneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API %siteaccess-imi matuneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Aaqqissuussinerit allanneqarsinnaanngillat: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Akissutit cache-iat salinneqarpoq: akissutit %count peerneqarput.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Apeqqut peerniarukku sanianiittoq ammaarfik nalunaaruk.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Apeqqut peerneqarsinnaanngilaq: apeqqut PersistedQueryDirectoryList[]-imi toqqorsimaffimmi ilanngunneqartoq fiiliminik peqateqarluni peerneqartarpoq.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Apeqqut toqqorsimasoq peerneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutationit</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ammasoq</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>matusoq</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Nittartakkamut isaariaatit</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API aamma mutationii sumi akisartut. Toortagassat graphql.ini allattarpaat, ./console exp:graphql:enable aamma exp:graphql:disable assigalugit.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nittartakkamut isaariaq</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Allannguut</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Matuguk</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutationit matoqqapput</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutationit ammapput</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Ammaruk</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Killiliussat</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Nittartakkamut isaariaatip matuma graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Akissutit cache-iat</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Apeqqutit toqqorsimasut akissutaat, atuisup pisinnaatitaaffii naapertorlugit toqqorneqartartut, imarisallu saqqummiunneqartillugit tamatigut atorunnaartartut.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Qanoq innera</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Akissutit toqqorsimasut</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>Akissutit %count, %bytes byte</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Sivisunerpaamik toqqorneqartarpoq</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds sek</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Kingullermik atorunnaarpoq</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Akissutit cache-iat saliuk</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Apeqqutit toqqorsimasut</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist atorlugu imaluunniit client-init toqqorneqartartut (automatic persisted queries); aqqisigut imaluunniit SHA-256 atorlugu taaneqartartut.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Aqqit</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Angissusaa</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Sumi</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Piiaruk</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>ilanngunneqartoq</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>toqqorsimasoq</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Aap, apeqqut una piiaruk</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Apeqqummik toqqorsimasumik suli peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-mi ilisarnaatit</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Namminersortut API-mi ilisarnaatit atuuffeqartut graphql:read (apeqqutit) imaluunniit graphql:write (mutationit). Quppernermi API-mut isersinnaaneq imaluunniit ./console exp:graphql:keys atorlugu pilersikkit atorunnaarsillugillu.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API-mut isersinnaaneq</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Ilisarnaatit tamarmik</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Ilisarnaat</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ateq</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Piginnittoq</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Atuuffiit</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Kingullermik atorneqarpoq</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>atuuttoq</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>atorunnaarsimasoq</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>atorunnaarsitaq</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>taamaattoqarsimanngilaq</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>API-mi ilisarnaammik GraphQL-imi atuuffilimmik suli peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API nittartakkamut isaariami %siteaccess-imi, quppernermik matuminnga takutitsisumi, matuneqarpoq; tabeli ataaniittoq sumi akisartoq takutippaa.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Nittartakkamut isaariaq %siteaccess, quppernermik matuminnga takutitsisoq, pillugu.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhookit</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Pisoq tamarmi naggatip sumiiffiata piumasaa (publish, update, trash, delete, move, hide, reveal, mutation) cronjob-ip ilaanit graphqlwebhooks-mit atsiorlugu nassiunneqartarpoq. ./console exp:graphql:webhooks immikkoortortap matuma assinganik suliaqarpoq.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Pisut</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>tamarmik</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Nittartakkamut isaariaatit tamarmik</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>aserorsimasoq</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>isertugaqanngitsoq</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Utaqqisut</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count qimakkat</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Kingullermik nassiussineq</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Misiliut nassiuguk</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Aap, webhook una piiaruk</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Webhook suli peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Webhook ilaguk</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Ilaguk</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Nassiussinerit kingulliit</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Piffissaq</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Angusaq</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abonnementit</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Atuisunut nutarterinerit toqqaannartut: pisunik ingerlaartitsineq /api/graphql/subscribe-mi aamma WebSocket (graphql-transport-ws) Velocity-mi. Pisoq tamarmi abonnementeqartunut imaanik atuarsinnaasunut kisimi nassiunneqartarpoq.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Massakkut ammasut</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Ammasut amerlanerpaat</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total katillugit, %user atuisumut ataatsimut, %address najugaqarfimmut ataatsimut</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Abonnementit kinaassuseqanngitsut</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Ingerlaartitsinerup sivisussusaa</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook ilanngunneqarsinnaanngilaq: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name allanngortinneqarpoq; atsiornermut isertugaa allanngortinneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Atsiornermut isertugaq toqqorneqarsinnaanngilaq (Aaqqissuussineq &gt; Isertugat).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name ilanngunneqarpoq. Atsiornermut isertugaa, maanna ataasiarluni takutinneqartoq: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhook %name peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name akissuteqanngilaq: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name %status-mik akivoq %ms ms-ni.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Webhook peerniarukku sanianiittoq ammaarfik nalunaaruk.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name peerneqarpoq.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API nittartakkamut isaariami matumani matoqqavoq.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL-ip atuagaateqarfia ikkussorneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET imaluunniit POST atoruk.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Qinnuteqaatip timaa JSON-objektiunngilaq.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables JSON-objektiunngilaq.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions JSON-objektiunngilaq.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Apeqqut POST atorlugu nassiukkit.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Qinnuteqaammi apeqquteqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Apeqqut %max byte-nit takinerujuvoq.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Serverip iluani kukkuneq</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node id, remoteId, path aamma urlAlias akornanni ataasiinnarmik pisariaqartitsivoq.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content id aamma remoteId akornanni ataasiinnarmik pisariaqartitsivoq.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after-ip cursor-ia API-mit matumannga pinngilaq.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Assip taaguutaa allaanerusoq %alias peqanngilaq (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Maani apeqqutit toqqorsimasut kisimik akuerineqarput: apeqqutip toqqorsimasup id-ia nassiuguk.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Apeqqutip toqqorsimasup hash-ia SHA-256-iunngilaq.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Apeqqutip toqqorsimasup hash-ia apeqqummut naapertuutinngilaq.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Qinnuteqaatit amerlavallaarput: %window sekundini annerpaamik %limit. %reset sekundit qaangiuppata misileqqiguk.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Apeqqut %depth qaffasissutsinik itissuseqarpoq; annerpaamik %max akuerineqarput.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Apeqqut %complexity-mik katitigaanermigut ajornassuseqarpoq; annerpaamik %max akuerineqarpoq.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Qinnuteqaat una skema atuarsinnaanngilaa (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search allagamik imaluunniit sillimmatimik pisariaqartitsivoq (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ulloq naqqiunngilaq (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag id, remoteId aamma path akornanni ataasiinnarmik pisariaqartitsivoq.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout id, identifier aamma urlAlias akornanni ataasiinnarmik pisariaqartitsivoq.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Qinnuteqaatip multipart-ip immersugassaa operations JSON-qinnuteqaatitut ataasiusunngilaq.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Qinnuteqaatip multipart-ip immersugassaa map JSON-objektiunngilaq.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Qinnuteqaat multipart fiilimik %field-imik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Immersugassat nalunaarsuiffiata aqqutaa variables.-imik aallarnertariaqarpoq: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Fiili %name tamakkiisumik tikinngilaq (nassiussinermi kukkuneq %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Fiili %name %max byte-nit anneruvoq.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Fiili %name misissorneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutationit nittartakkamut isaariami matumani matoqqapput (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Mutation POST atorlugu nassiuguk.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Imarisat allanngortinniarukkit iserit.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API-mi ilisarnaat atuuffimmik %scope-mik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutation session-imik atuisoq session-ip immersugassiaata token-ianik pisariaqartitsivoq (header X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl matoqqavoq: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] host-imik taaguuteqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Najugaq https-najugaasariaqarpoq.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Host %host graphql.ini [GraphQLSettings] UploadFromUrlHostList[]-imiinngilaq.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Fiili aaneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload input-ip suussusiinnaavoq.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Variabeli Upload-itut suussusilik qinnuteqaatip multipart-ip fiilianik tigusisarpoq.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Remote id %remoteId atorneqareerpoq.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Imarisat %language-mut nutserneqareerput: updateContent atoruk.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Minnerpaamik immersugassaq ataaseq tunniuguk.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Versioni nutaaq pilersinneqarsinnaanngilaq (imarisat missingiuteqarpallaarput).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Versioni %version missingiutaanngilaq.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent id aamma nodeId akornanni ataasiinnarmik pisariaqartitsivoq.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Inissisimaffik nammineq ataanut nuunneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Imarisat %parentId ataani inissisimaffeqareerput.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Immersugassap %field naleqa toqqorneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Imarisanut oqaatsit %language peqanngillat.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Skemami imarisat klassiat %class peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Imarisat peqanngillat, imaluunniit atuarsinnaanngilatit.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Imarisani uku taamaaliorfigisinnaanngilatit.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Klassi %class immersugassamik %field-imik allaffigineqarsinnaasumik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Immersugassaq %field marloriarluni tunniunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Immersugassaq %field fiilimik tigusisarpoq: nassiussatut nassiuguk (qinnuteqaat multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Immersugassaq %field fiilimik tigusisanngilaq.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Immersugassaq %field naleqartariaqarpoq.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Ilusaa %format allagaqarfinnut ilusilersukkanut kisimi atuuppoq; %field naleqa ilusaatut tigusarpaa (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Immersugassaq %field pisariaqarpoq.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML atuarneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content version id-imik peqateqartoq kisiat tigusarpaa.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Takuneqaqqaarnissaanut token atuunngilaq imaluunniit atorunnaarsimavoq.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Aallaavik (origin) pinngilaq (https://host imaluunniit https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API-p atuuffia pinngilaq: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Abonnementit /api/graphql/subscribe-mut nassiukkit (pisunik ingerlaartitsineq imaluunniit WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Piumasaqaat dokumentip suliaanik taaguuteqanngilaq.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Abonnement immersugassamik ataatsimik kisimi piumasaqarpoq.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Abonnementit ammasut amerlavallaarput; kingusinnerusukkut misiligit.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Abonnementit %max ammatippatit, amerlanerpaat akuerisat.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Najugaqarfiit %max abonnementinik ammasoqarpoq, amerlanerpaat akuerisat.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Abonnementit nittartakkamut isaariami matumani matoqqapput.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Abonnementeqarniaruit iserit (token imaluunniit API-mi ilisarnaat namminermut).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Mutationit /api/graphql-mut nassiukkit.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Nuussinerit</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Killiffik atuarneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Nuussinerit tabelii suli pigineqanngillat: ./console exp:upgrade --apply-ip pilersissavai.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Nuussinerit %count iluatsinngillat</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ingerlatsineq ingerlavoq, %user-mit aallartinneqarpoq</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Ikkussineq parnaarsimavoq: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Utaqqisoq</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Iluatsinngitsoq</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Ataqatigiinngitsut</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ingerlatsineq kingulleq</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>suli peqanngilaq</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Nuussinerit tamarmik</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Ingerlatsineq assersuutaasoq</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Misiliineq</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Nuussinerit utaqqisut transaktionimi ingerlapput, kingornalu utertinneqarluni: qanoq iliuuseq toqqorneqanngilaq. Ataani takuneqarsinnaavoq nuussineq ataasiakkaarlugu paasissutissaateqarfimmi suna allanngortissimaneraa.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ingerlatsineq massakkut suna iliuuserisinnaaneraa. Allanngortitsisoqanngilaq: nuussineq utaqqisoq tamarmi allannguutissani allattorpai, ingerlatsinerlu siornagut kingornagullu suna iliuuserisinnaaneraa.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Assersuutigiuk</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Aallartiguk</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Misiliineq iluatsinngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Assersuusiorneq PostgreSQL imaluunniit SQLite-mik pisariaqartitsivoq, taakkunani skemami allannguutit utertinneqarsinnaammata; paasissutissaateqarfimmi matumani pilersaarut ataaniittoq ingerlatsinerup iliuuserisinnaasaraa.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Nuussinerit</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Nuussineq</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Qanoq ittuunera</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Suna iliuuserisinnaagaa</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Assersuusiorneq: %result, %ms millisek.</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Suli nuussinermik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ingerlatsinerup siornagut kingornagullu</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Assilineq siulleq</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>tigusaq, nuussineq iluatsinngippat uterteqqinneqartartoq</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>matusimavoq</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Assilineq kingulleq</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ingerlatsineq iluatsippat tigusaq</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Nuussinerit %total: %pending utaqqisut, %done naammassisut, %failed iluatsinngitsut.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Nuussinerit oqaluttuarisaanerat</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Ingerlatsineq tamarmi atuisuminik, avatangiisiminik, assilinerminik, toqqorneqarsimasunillu, nalunaaqutsersorneqarsimasunik nassiunneqarsimasunillu. Ingerlatsineq iluatsinngitsoq imaluunniit unitsinneqarsimasoq ingerlaqqissinnaavoq; ingerlatsineq siornagut assilerneqarsimasoq utertinneqarsinnaavoq.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Ingerlatsinerit atuarneqarsinnaanngillat: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Nuussinerit tabelii suli pigineqanngillat: ./console exp:upgrade --apply-ip pilersissavai.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Takutiguk</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tamarmik</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ingerlatsinerit</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Aallartinneqarfia</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kimit</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Assilinerit</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Toqqorsivik</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Iliuusissat</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>siornagut</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>kingornagut</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>nassiussineq: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Ingerlaqqittiguk</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Utertiguk</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Killiffimmi matumani ingerlatsinermik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Maani aallartinneqartut</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Quppernerni uku aallartinneqartut ingerlatsinerit, ingerlaqqinnerit utertitsinerillu, ataasiakkaat nalunaarusiaat ilanngullugit.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Suna</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Inernera</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Utertitsineq</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target-ip utertinnera</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ingerlatsineq %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ingerlatsinerup suna iliuuserisimagaa, nalunaarsorneqarnera nalunaarsuiffialu. Ingerlatsineq maani aallartinneqartoq quppernerup matuneqarnerani tunuani ingerlaannassaaq; malinnaaffigiumallugu quppernerup ammaqqiguk.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Ingerlatsineq una ingerlaqqittiguk</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Ingerlatsineq una utertiguk</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Nalunaarsuineq atuarneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ingerlaarnera</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user-mit %time aallartinneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kode misissorneqarpoq ingerlatsinerullu siornagut assilineqarluni</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id ingerlanneqarpoq (%total-init %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total-init %done naammassipput</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Nuussinerit ingerlanneqarput; ataaseq iluatsinngippat assilineq uterteqqinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Ingerlatsinerup kingornagut assilineqarpoq, toqqorneqarpoq, nalunaaqutsersorneqarpoq nassiunneqarlunilu</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Assilineq uterteqqinneqarpoq</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ingerlatsineq naammassivoq. Nalunaarusiaa aaneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Ingerlaarnera malinnaaffigineqarsinnaanngilaq. Ingerlatsineq qanoq ingerlanersoq takuniarlugu quppernerup aaqqiguk.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Quppernerup uuma ingerlatsineq ingerlanerani malinnaaffigaa.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Aaqqiguk</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Nalunaarusiaq</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Nalunaaqutaq</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisek.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ingerlatsinerup kukkunertut saqqummiussai</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Nalunaarsorneqarnera</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Avatangiisit</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>peqanngilaq</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Naammassivoq</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Toqqorneq</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Nalunaaqutaq ilisarnaat</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Nassiussineq</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Allagaq</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Ingerlatsinermi matumani nuussinerit</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Aallaavik</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Ingerlatsinerup nalunaarsuiffia</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Nalunaarsuiffiup naggataa kisiat takutinneqarpoq.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ingerlavoq</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>nalunaarusiaqanngitsumik naammassivoq</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>iluatsippoq</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>itigartinneqarpoq</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>paasissutissaateqarfik attavigineqarsinnaanngilaq</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>iluani kukkuneq</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ingerlatsineq ingerlavoq</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind %user-mit %time aallartinneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Malinnaaffigiuk</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Ikkussineq parnaarsimavoq</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Ingerlatsinerup allap parnaarut tigumivaa (nutarterineq imaluunniit konsolimi ingerlatsineq): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>naammassivoq</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>utaqqisoq</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>pisariaqanngilaq</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ilisimaneqanngitsoq</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>utertinneqarsimavoq</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>atuutilersinneqarsimavoq</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>atuutilersinneqassagaluarpoq</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>utertinneqarpoq</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>utertinneqassagaluarpoq</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ingerlanneqanngilaq</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>allamik utaqqivoq</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>allannguut akuerineqarpoq</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>allannguut akuerineqassagaluarpoq</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>assersuusiorneqarpoq</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Nuussinerit</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Killiffik</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Oqaluttuarisaanera</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target utertiguk</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Ingerlatsineq siornagut assilinermut utertinneqartarpoq, nuussineq ataaseq down()-ni atorlugu. Assilinerup siusinnerusup uterteqqinnera immikkut ilisimasalinnut tunngavoq. Tamarmik tunuani illittut ingerlanneqartarput, massakkut killiffiup assilinerata kingornagut.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Suut utertinneqarsinnaanersut atuarneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Ingerlatsineq</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Nuussineq ataaseq</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Assilineq siusinnerusoq</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Nassuiaat</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>aap</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>naamik</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Assilineq</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Allagartaq</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Tigusaq</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Suussuseq</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Ilaat uterteqqinneqartussat</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Paasissutissaateqarfik</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Toqqorsivimmi fiilit (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Aaqqissuussinerit (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Paasissutissaateqarfiup uterteqqinnera assilinerup nalaanut uternissaanik kinguneqarpoq, sessionit ilanngullugit: kingornagut iserteqqinnissat piumasaqaatigineqarsinnaavoq. Taamanimiit allanngortinneqarsimasut tamarmik annaaneqassapput; siullermik massakkut killiffiup assilinera tigusaassaaq.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Una suna uterteqqissaneraa ilisimavara</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Assilinerup ID-a allaqqiguk</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Aap, utertiguk</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Taamaatiguk</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Ingerlatsinerit siornagut assilerneqarsimasut.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Toqqaruk</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Suli ingerlatsinermik assilinilimmik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Nuussinerit atuutilersinneqarsimasut nammineq utersinnaasut (down()-qarput).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Nuussinerit atuutilersinneqarsimasut down()-qanngillat.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Assilinerit siusinnerusut (immikkut ilisimasallit)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Suli assilinermik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Nuussinerit aallartikkit</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ingerlatsineq tunuani %user-itut ingerlavoq, quppernerisaalu ingerlanerani takutittarpaa. Nuussinerup siulliup siornagut ikkussinerup assilinera tigusaasarpoq; nuussineq iluatsinngippat ingerlatsineq unittarpoq assilinerlu uterteqqinneqartarluni.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Siullermik misiliiguk</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Killiffik atuarneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Nuussinerit utaqqisut</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Tulleriiaarneq una malillugu ingerlanneqassapput. Ataaseq nalunaaqutaa peeruk, taannalu taassumalu pisariaqartitsisui ingerlatsinissamut kingusinnerusumut qimallugit.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Aallartiguk</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Ingerlanerani aserfallatsaaliuinermut atugassaq ikittarpaa.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Atuutilersinneqareerlutik allanngortinneqarsimasut</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Fiilit uku atuutilersinneqarsimasut assigiinngillat. Ingerlatsinerup itigartittarpai allannguut pissutsimik akuerineqanngippat; ingerlaqqinneqanngillat, checksum nutaaq nalunaarsorneqartarpoq pissutaalu misissuinerup nalunaarsuiffiani toqqorneqartarluni.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Allannguutit akuerikkit</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Sooq</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Aalajangersimasut isumannaannerpaapput. Ammaasaq tamarmi alloriarneq ataaseq qimattarpaa.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Assilinertaqanngitsoq</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Ingerlatsinerup siornagut kingornagullu assilisoqanngilaq: iluatsinngitsoqarpat nammineerluni uterteqqinneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Uterteqqitsinngitsoq</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Iluatsinngitsoqarneratigut ikkussineq iluatsinngitsoqarnerup qimannera malillugu qimaguk.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Allannguutit toqqorneqanngitsut pigiinnarkit</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Aaqqissuussinerni, ilassutini imaluunniit ilusilersuinerni allannguutit toqqorneqanngitsut atorlugit aallartiguk; assilinermut ilanngunneqassapput.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Toqqorneqanngitsoq</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Killiffiup fiilia ingerlatsinerullu nalunaarsuiffia toqqurnagit (nalunaaqutsersuinngitsoq nassiussinngitsorlu).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Nassiussinngitsoq</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Toqqoruk nalunaaqutsersorlugulu, nassiunnagulli.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Nalunaaqutsersuinngitsoq</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Toqqoruk nassiullugulu, ingerlatsinerli nalunaaqutsersornagu.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Aap, nuussinerit uku massakkut aallartikkit</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nuussinermik utaqqisumik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Killiffimmut uterit</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Ikkussinermi matumani allannguutit (imarisat, klassit, inuttut inissisimanerit, aaqqissuussinerit, skema) ataasiarlutik fiilitut allanneqartut nittartakkallu ikkussinerini tamani tulleriiaarneq assigalugu atuutilersinneqartartut. Ingerlatsinerup siullermik assilissavaa, nuussineq iluatsinngippat uterteqqissavaa, iliuuserisimasanilu nalunaarsorlugit, toqqorlugit nassiullugillu.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Utaqqisut %count aallartikkit</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Takussutissiaq</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Utaqqisoq</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Naammassivoq</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Iluatsinngitsoq</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Pisariaqanngilaq</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Paasissutissaateqarfik</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transaktionit: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Nittartakkap nuussinerai migrations/-imiipput, ilassutillu nuussinerai extension/&lt;name&gt;/migrations/-imiillutik. Aqqisa tulleriiaarnerat pisariaqartitaallu malillugit ingerlanneqartarput.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ingerlatsineq kingulleq</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Fiili atuutilersinneqareerluni allanngortinneqarsimavoq.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Suli nuussinermik peqanngilaq. ./console exp:migration:generate --skeleton &lt;name&gt; --apply-ip siulleq allassavaa.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Ingerlatsinerit kingulliit</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Ingerlatsinerit tamarmik</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Suli ingerlatsisoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Ingerlatsinerup assersuusiornissaa politikkimik migration/run-imik pisariaqartitsivoq.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ingerlatsineq ingerlavoq: naammassippat assersuusiorit.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Aaqqissuussineq</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ikkussinermi matumani ingerlatsinerunngilaq, nuussinerunngilaq assilinerunngilarlu.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Siullermik »Aap, utertiguk« nalunaaqutsiiguk.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Assilinerup siusinnerusup uterteqqinnera immikkut ilisimasalinnut tunngavoq: »Una suna uterteqqissaneraa ilisimavara« nalunaaqutsiiguk.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Assilinerup ID-a allaqqiguk: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Minnerpaamik ilaa ataaseq uterteqqitassaq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ingerlatsineq una siornagut assilerneqarsimanngilaq: nuussinerai ataasiakkaarlugit utertikkit, imaluunniit assilineq siusinnerusoq uterteqqiguk.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Nuussineq una nammineq utertinneqarsinnaanngilaq: atuutilersinneqarsimanngilaq, imaluunniit down()-qanngilaq.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Immersugassaq atuarneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Ingerlatsineq ingerlaqqittussaq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Siullermik »Aap, nuussinerit uku massakkut aallartikkit« nalunaaqutsiiguk.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Minnerpaamik nuussineq ataaseq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Nuussineq atuutilersinneqareerluni allanngortinneqarsimavoq: allannguut pissutsimik akueriuk, imaluunniit fiili uterteruk.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Nuussinerit allanngortinneqarsimasut sooq akuerineqarnersut pissutaa allaguk.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Pissutaa annerpaamik naqinnerit 500-iusinnaavoq.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Ingerlatsineq maani aallartinneqartoq suli ingerlavoq (%detail). Naammassinissaa utaqqiuk.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Ingerlatsinerup allap ikkussinerup parnaarutaa tigumivaa: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Ingerlatsineq atuisumik pigineqartumik iserlusimasumik pisariaqartitsivoq.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php-ip naqqani programmia nassaarineqanngilaq. migration.ini [AdminSettings] PhpCliPath aqqutaanut tamakkiisumut aaqqissuuguk.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open atorunnaarsinneqarsimavoq, taamaattumik ingerlatsineq maani aallartinneqarsinnaanngilaq. Serverimi ./console exp:migration:migrate --apply aallartiguk.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Ingerlatsinerit toqqorsiviannut allanneqarsinnaanngilaq: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Ingerlatsineq aallartinneqarpoq, processilli ID-a nalunaarutigineqanngilaq. %detail misissoruk.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Suna utertinneqassanersoq taaguk.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Ingerlatsineq aallartinneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Allannguutinik immiussineq</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Immiussineq ingerlatillugu, aqutsiviup iluani imaluunniit nittartakkap saniani allannguutitit nuutsinermi alloriarnertut toqqorneqartarput: imarisai, klassit, inissisimaffiit malittarisassallu, immikkoortut, atuisut gruppillu, URL-ip taaguutaasa allat, aaqqissuussinerit. Naammassiguit unitsiguk, isiginiaruk suut tigusimaneraat, nuutsinerlu tamatumannga pilersillugu.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Immiussat atuarneqarsinnaanngillat: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Immiussat nalunaarsuiffii suli pinngillat: siullermik nutarterineq aallartiguk (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Immiussineq migration.ini-mi qamitaavoq ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Allannguutikka</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Illit allanngortitatit kisimik immiussarpai, sumi allanngortikkaluarukkit, unitsinnissavit tungaanut.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Immiussineq</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time aallarnerfigalugu, maannamut %count allannguut.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Taaguut (piumasarineqanngitsoq)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Takutiguk suut tigusimaneraat</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Immiussineq unitsiguk</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Allannguutikka immiussinissaat aallartiguk</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Nittartagaq tamakkerlugu igalaaq</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Atuisut tamarmik konsolillu allannguutaat tamaasa immiussarpai matuneqarnissaata tungaanut. Ammarniarukku illit ilumut illiunerit uppernarsassavat.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ammasoq</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Igalaaq matuguk</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Nittartagaq tamakkerlugu igalaaq ammaruk</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Immiussat</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Atuisup kontoa (iserfissaq, e-mail, isissutissaq) atuisullu kontoisa immersugassai immiussorneqarneq ajorput.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Allannguutit</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Nittartagaq tamaat</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name-p allannguutai</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Unitsitaq</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Suli immiussamik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Immiussaq %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Immiussat tamarmik</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Nuutsineq tamatumannga pilersussaq</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Allannguutit allanngortinneqartut ataasiakkaat alloriarnermut ataatsimut katersorneqarsimasut: immiussamit uannga pilersinneqartoq nuutsinerup suliassai.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Ikkussinerup matuma YAML-ip alloriarnerisa assigiinngisitaarnerinik %types pigisaqalerneratigut nuutsineq tamatumannga pilersinneqarsinnaavoq.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Sianiginnilluni peerneqarsimasut: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Immiussorneqarsimasoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Suut tigusimaneraat</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count allannguut, suliarineqarnerisut tullerriiaarlugit.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Allannguut</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Alloriarneq</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Pineqartoq</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Suli %count: ./console exp:migration:record:show tamaasa allattorpai.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Igiguk</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Immiussaq tigusimasaalu peerpai. Allanngortinneqarsimasut allanngortinneqarsimasutut qimanneqassapput.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Aap, immiussaq una igiguk</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Immiussivoq…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Allannguutitit nuutsinissamut immiussorneqarput.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Nittartakkami matumani allannguut tamarmi nuutsinissamut immiussorneqarpoq (nittartagaq tamakkerlugu igalaaq).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Nittartagaq tamakkerlugu immiussineq aallartippoq: atuisut tamarmik allannguutaat tamarmik immiussorneqassapput unitsinnissavit tungaanut.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Immiussineq aallartippoq: allannguutitit immiussorneqassapput unitsinnissavit tungaanut.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Immiussineq unitsinneqarpoq. Tigusimasai igitsinnissavit tungaanut qimanneqassapput.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Immiussaq pisimasuilu peerneqarput.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Immiussaq %id peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Siullermik "Aap, immiussaq una igiguk" nalunaaqutsiguk.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Atuisoq immiussisoq kisimi naapiffimmi immiussineq unitsissinnaavaa.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Immiussineq unitsitassaq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Immiussineq taamaattoq ingerlareerpoq.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Immiussaq allanngortinneqarsinnaanngilaq: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Nuussineq pilersiruk</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Nuussinerup taaguutaa (toqqarsinnaavoq)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Nuussineq %file allanneqarpoq. Allanngortitsinerit alloriarnermit sumilluunniit pineqarsinnaanngitsut fiilip qulaani taaneqarput, assammik iliuuserineqassapput.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Nuussineq allanneqanngilaq: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Ingerlatsineq sivisooq ilaanut avitaq</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Immaqaaqanngitsut migration.ini [RunSettings]-ip aaqqissuussinera ilanngullugu.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Migration amerlanerpaamik taama amerlatigisut</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Migration allatut naammassinngilaq kingorna (sekundit)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Migration-it akornanni unitsitsineq (sekundit)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Sukaterut annikinnerusoq (1-imiit 19-imut)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Ingerlatsineq sivisoq marloq 1-imiit ilangu ataasiinnaq (unitsitsineq: sekundit 0-imiit 60-imut, sukaterut: 1-imiit 19-imut), imaluunniit immaqaaqanngitsoq.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>%time-mi nammineq matuneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Kingorna nammineq matuneqarpoq (minutsit, kissaatigineqarpat)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minutsit 1-imiit 44640-imut (ullut 31), imaluunniit immaqaaqanngitsoq.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Nuussineq %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nuussineq nutaaq</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Nuussineq YAML: allagaatut allassiuk imaluunniit alloriarnerini immersugassami katersiguk, misissoruk, taava nuussinernut mappimut toqqoruk.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Nuussineq una ingerlareersimavoq, taamaattumik toqqorneqaqqissanngilaq: fiili allanngortinneqarsimasoq checksum-imik illersuutip itigartissavaa. Allannguut nuussinermi nutaami ingerlateruk.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Fiili nittartakkanut kiffartuussivimmit allanneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Oqaaseqaatit qulliit qulequtaapput (description, author, requires, environments, engines). Alloriarneq immersugassami ilanngunneqarpat allanngortinneqarpalluunniit, nuussineq allanneqaqqittarpoq: oqaaseqaatit alloriarnerit akornanniittut toqqorneqartanngillat.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Nuussinerup ateqa</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Sumut ingerlanersoq</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Nittartagaq</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-allagaq</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Misissoruk</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Toqqoruk</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Alloriarnerit</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Kodit</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Aaqqissoruk</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Qummut nuuguk</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Ammut nuuguk</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Piiaruk</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Suli alloriarneqanngilaq: immersugassakkut ataatsimik ilanngussigit, imaluunniit allakkami allakkit.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Alloriarneq %number allanngortiguk</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Alloriarnermik ilanngussigit</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Alloriarnerup immersugassaa alloriarnerup suussusianit pilersinneqartarpoq: kodii, kodit ataasiakkaat sunik tigusisarnersut periaatsillu ilagisai.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Alloriarnerup suussusia</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Immersugassaa takutiguk</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Alloriarneq kodeqarpoq suussusiata ilisarisimanngisaanik; alloriarneq allanngortinneqarpat peerneqassapput: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Periaaseq</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Uani</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes-imi kisimi</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Aalajangersimasoq: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Piumasaqaatit, innersuussutit oqaaseqaatillu</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Ateq=naleq marluullutik, kommanik avissaarsimasut. Alloriarnerup uuma nalingi: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Assersuut</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Alloriarneq allanngortiguk</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Alloriarneq ilanngutiguk</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Suna exp:migration:check-ip oqaatigigaa: qulequtaq, allakkiaq alloriarnerillu tamarmik alloriarnerup suussusianit misissorneqarsimasut.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Nuussineq misissuinermi akuerineqarpoq.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Siumut takuneq</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML-allagaq toqqorneqartussatut.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML takutiguk</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Nuussinerit YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ingerlareersimavoq</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Suli nuussinermik YAML peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Aaqqissuisarfik</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Nuussinernut mappini nuussineq YAML %id peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Alloriarnerup suussusia toqqaruk.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Alloriarneq ilanngunneqarpoq. Nuussineq toqqortinnagu misissoruk.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Alloriarneq allanngortinneqarpoq. Nuussineq toqqortinnagu misissoruk.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Alloriarneq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Alloriarneq una immersugassaqanngilaq (kaaviaartitsineq, imaluunniit alloriarnerup suussusia ikkussinermi matumani peqanngitsoq): allakkami allanngortiguk.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Nuussineq sumut ingerlassanersoq toqqaruk: nittartagaq imaluunniit ilasissut atuuttoq.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file toqqorneqarpoq. Nuussineq ingerlanneqartinnagu misiliineq ingerlateruk.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Toqqorneqanngilaq: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Ungasissut</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Ikkussinerit allat, ikkussineq una nuussinerminik siammarterfigisai: siammarterineq nuussinernik ungasissunut toqqakkanut nassiussivoq tassanilu ingerlatsilluni, tamarmik ataatsikkut. Ungasissoq isertugaqarneq ajorpoq: iserfissaa Aaqqissuussineq &gt; Isertugat-imi isertugamik taaguinnarpoq.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Ungasissoq nutaaq</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ikiuutit</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id-ip attaveqarnerata misilinnera</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Ungasissut</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Ungasissut %parallel-it tikillugit ataatsikkut suliarineqartarput; piffissaq ataaseq ataasiakkaani %timeout sekundit sivisussuseqarsinnaavoq.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Ungasissoq</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Najugaq</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Iserfissaq</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Eqimattat</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>aaqqissuussinerit aaqqiivigisassat</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>fiilinnaat (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-ip kodia</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Isissutissaq</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>peqanngilaq (host-ip SSH-ip agentia kodiilu)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Attavik misiliguk</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Eqimattamut siammarterineq ungasissuinut tamanut ingerlavoq.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Ungasissunut siammarteruk</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Suli ungasissumik aaqqissuussisoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Ungasissoq %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Maani nassiussisoqanngilaq ingerlatsisoqanngilarlu: Toqqoruk aaqqissuussinerit settings/override/migration.ini.append.php-imut allattarpai. Iserfissaq tassaavoq ateq; naleqarnera Aaqqissuussineq &gt; Isertugat-imi imaluunniit avatangiisini qimaqqavoq.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Aaqqissuussinerit uku misissukkit</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Aaqqissuussinerit allanneqarsimasutut, suli toqqorneqanngitsut.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Misissoruk</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Aaqqissuussinerit atuupput. Titarnerit uku allanneqassapput:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Nassiussinerup aqqutaa</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ateq kisiat; naleq Aaqqissuussineq &gt; Isertugat-imiittuarpoq</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Titarnerit allanneqartussat</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Attaveqarneq</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Host-ip kodia</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Ungasissoq</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Ungasissoq qanoq ateqarnersoq avatangiisillu suunersut.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Kinaassutsit</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Naqinnerit, kisitsisit, - aamma _, assersuutigalugu production1. Ungasissoq nalunaarusiani konsolimilu (--remotes=production1) taaguutigaa, kingusinnerusukkullu allanngortinneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Siammarterineq immikkoortukkaartoq avatangiisinik tulleriiaarneq manna malillugu ingerlavoq.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Piumasarineqanngitsoq, kommamik avissaartillugit, assersuutigalugu production. Eqimattamut siammarterineq ungasissuinut tamanut ingerlavoq.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Attaveqarneq</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Fiilit qanoq tikissanersut, ikkussinerlu sumiinnersoq.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH aqqutigalugu, allanngortut kisiisa, nassiussineq unitsinneqarsimasoq ingerlaqqittarpoq. Toqqagassaq pitsaanerpaaq, rsync ikkussimappat.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH scp-ilu fiilinut.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH sftp-ilu fiilinut.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Fiilinnaat: nuussinerit nassiunneqartarput atuarneqaqqittarlutillu, tassanili ingerlanneqarsinnaanatik.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP TLS aqqutigalugu; fiilinnaat.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Ikkussineq alla qarasaasiami matumani, mappimi.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Host-ip ateqa imaluunniit najugaa, assersuutigalugu node1.example.com. Local-imut atorneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Imaqanngitsoq: SSH-imut 22, FTP-imut 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Atuisoq</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Aqqut</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Ikkussinerup tassani tunngavia, assersuutigalugu /var/www/site (FTP-imi: aqqut FTP-ip kontuata takusaa).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-ip peqqussutinut titarnera</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI tassaniittoq: php, imaluunniit aqqut tamakkiisoq soorlu /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Konsolip programmiisa tassani root-itut ingerlanneqartarput</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Ungasissup atuisua root-iuppat kisimi (taava --allow-root-user atorlugu ingerlanneqartarput).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Iserfissaq</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Ikkussineq una tassani qanoq iserniartarnersoq. Ateq kisimi toqqorneqartarpoq.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Peqanngilaq</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>SSH-ip agentia atuisullu ikkussinerup matuma atortagaata kodii (local-imullu tamatigut).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Kodi namminerisaq isertugatut toqqorsimasoq.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Isissutissaq isertugatut toqqorsimasoq (FTP taassuminnga iserpoq).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Isertugap ateqa</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Isertugaq Aaqqissuussineq &gt; Isertugat-imeersoq, assersuutigalugu deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Aaqqissuussineq &gt; Isertugat</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Imaluunniit avatangiisini allanngorartoq</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Qarasaasiap suliaata allanngorartua tamanna imalik, assersuutigalugu DEPLOY_KEY (env:DEPLOY_KEY-itut toqqorneqartoq). Isertugap ateqa taarserpaa.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Host-ip kodia</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Piumasarineqanngitsoq, SSH, sftp aamma rsync-imut.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Host-ip kodiata kinaassutsersuutaa</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l-ip takutittarpaatut. Ilanngunneqarpat host-ip kodi una takutissavaa; ilanngunneqanngippat kodi attaveqaqqaarnermi ilikkarneqassaaq.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Misissuineq</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Attaveqarneq aaqqissuussinerit qulaaniittut atorlugit misiliguk, taava titarnerit allanneqartussat misissukkit.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Ungasissoq una piiaruk</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Aaqqissuussinerai settings/override/migration.ini.append.php-imit peerneqarput. Ungasissumi allanngortoqanngilaq, siammarterinerilu oqaluttuarisaanermi suli takuneqarsinnaapput.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Aap, ungasissoq una piiaruk</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Siammarterinerit</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Siammarterinermi ikkussinerup matuma nuussinerai ungasissunut toqqakkanut nassiunneqartarput tassanilu %user-itut ingerlanneqartarlutik, tamarmik ataatsikkut: ungasissut tamarmik siullermik misissorneqartarput, ataaseq iluatsinngippat ungasissut atuutilersitsisimasut tamarmik utertinneqartarput. Tunuani ingerlasarpoq, qupperneralu ungasissut tamaasa ingerlanerani takutittarpai.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Ungasissut</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Ungasissut, eqimattaq imaluunniit marluullutik nalunaaqutsikkit.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Tassunga siammarteruk</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Qanoq</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Siammarteruk</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Nassiuguk aallartillugulu</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Nuussinerit ungasissunut tamanut nassiunneqartarput, misissorneqartarlutik ingerlatsinerullu kinaassutsianik ataatsimik avitseqatigiiffimmik ingerlanneqartarlutik.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Nassiussinerinnaq</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Fiilit nassiunneqartarput misissorneqartarlutillu, ingerlatsisoqartanngilaq (ungasissumut FTP-imut periaaseq kisiartaq).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Immikkoortukkaarlugu</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Immikkoortukkaarlugu avatangiisit tulleriiaarnerisigut (dev, stage, beta, production ...): immikkoortoq siulleq siammarterneqartarpoq, taava matu utaqqisarpoq immikkoortoq tullia kialuunniit akueritsinnagu. Immikkoortumi tamani tamarmik imaluunniit sunngilluunniit.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Nuussinerit uku kisiisa</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Piumasarineqanngitsoq: nuussinerit kinaassutsii, kommamik avissaartillugit. Imaqanngitsoq: nittartakkap ilassutaasalu nuussinerisa tamarmik.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Siumoortumik misissuinerinnaq</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Aap, massakkut siammarteruk</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Siammarterinerit sumik nassiussisimasut imaluunniit ingerlatsisimasut, nutaanerpaaq siulliulluni (siumoortumik misissuineq nalunaarusiamik toqqorsisanngilaq).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>nassiussinerinnaq</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>immikkoortukkaarlugu, %stages immikkoortut</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ataatsikkuunngilaq</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Suli siammarterinermik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Siammarterineq %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Siammarterinermi ungasissut tamarmik qanoq ittuunerat. Siammarterineq maani aallartinneqartoq qupperneq matuneqaraluarpat tunuani ingerlaannassaaq; malinnaaffiginiarukku qupperneq ammaqqiguk.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Siammarterinerit tamarmik</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Siumoortumik misissuineq</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Immikkoortoq tullia</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Aaqqissuussinerit iserfissallu misissorneqarput</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Siumoortumik misissuineq: ungasissut tamarmik qanoq ittuunerat atuarneqarpoq</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Nuussinerit fiiliisa nassiunneqarneri</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Tikisut misissorneqarput</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Nuussinerit ungasissuni tamani ingerlanneqarput</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Ungasissut utertinneqarput</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Siammarterineq naammassivoq. Nalunaarusiaa aallerneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Ingerlaarnera malinnaaffigineqarsinnaanngilaq. Siammarterineq qanoq ingerlanersoq takuniarukku qupperneq nutarteruk.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Piffissaq</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Qupperneq una siammarterinermut ingerlanerani malinnaavoq.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Ataatsikkut</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Immikkoortut</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>immikkoortoq %stage matumini utaqqivoq</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Matu %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user-imit %time-imi akuerineqarpoq</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Immikkoortoq</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Fiilit nassiussat</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kernel-ip versionia</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>atuutilersinneqarsimavoq: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>atuutilersitassat: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Piffissat</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Matu: immikkoortoq %stage, katillugit %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Immikkoortut siuliani siammarterneqareerput. Misissukkit, taava immikkoortoq tullia akueriuk: ungasissui misissorneqaqqissapput siammarterneqarlutillu, tamarmik imaluunniit sunngilluunniit.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Tullia</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Aap, immikkoortoq tullia massakkut siammarteruk</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Akueriuk</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Siammarterineq una utertiguk</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Ungasissut atuutilersitsisimasut tamarmik (%list) assilinermut ingerlatsinerup siornagut tigusamut uterput, tamarmik ataatsikkut.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Aap, siammarterineq una massakkut utertiguk</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>pilersaarutaavoq</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>nassiunneqarpoq</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>siammarterneqarpoq</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>matumi utaqqivoq</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>toqqagaq</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>piareersarneqarpoq</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>piareersimasoq</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>immikkoortuminik utaqqivoq</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>fiilit nassiunneqarput</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>misissorneqarpoq</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>iluatsinngilaq, nammineq uterteqqippoq</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>allanngortinneqanngilaq</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>siammarterneqanngilaq</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>anguneqarsinnaanngilaq</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Ungasissoq akivoq.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Ungasissoq massakkut atorneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done naammassivoq, %pending utaqqisoq, %failed iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Parnaarneq</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ingerlatsinerup tassani parnaarneq tiguaa</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>inissaqartoq</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage, katillugit %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Ungasissoq misiligassaq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Siullermik »Aap, ungasissoq una piiaruk« nalunaaqutsiguk.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Ungasissoq piiarneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Ungasissoq toqqorneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Aaqqissuussinerit fiiliat atuarneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Minnerpaamik ungasissoq ataaseq imaluunniit eqimattaq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Ungasissoq toqqagaq aaqqissuussinerni peqanngilaq. Qupperneq nutarteruk.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Siullermik »Aap, massakkut siammarteruk« nalunaaqutsiguk.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Ungasissoq FTP nuussinernik ingerlatsisinnaanngilaq: »Nassiussinerinnaq« toqqaruk, imaluunniit peeruk.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Nuussinerit siammarteqqussat tassaapput nuussinerit kinaassutsii, kommamik avissaartillugit.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Siammarterineq suli ingerlavoq. Naammassinissaa utaqqiuk.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Siammarterineq una matumi utaqqinngilaq.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ungasissut ataasiinnaalluunniit siammarterineq una atuutilersinngilaa: utertitassaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Siullermik »Aap, immikkoortoq tullia massakkut siammarteruk« nalunaaqutsiguk.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Siullermik »Aap, siammarterineq una massakkut utertiguk« nalunaaqutsiguk.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Ungasissoq kinaassutsilik %id pereerpoq.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Port tassaavoq kisitsit 1-imiit 65535-imut.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Avatangiisit tassaapput oqaaseq naqinnernik, kisitsisinik, - aamma _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Eqimattaq tassaavoq oqaaseq naqinnernik, kisitsisinik, - aamma _ (all-iunngitsoq): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Iserfissaq massakkut atuarneqarsinnaanngilaq: %problem. Siammarterineq siulleq sioqqullugu Aaqqissuussineq &gt; Isertugat-imi toqqoruk (imaluunniit allanngorartoq aalajangeruk).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Ungasissoq FTP fiilinik tigusaqartarpoq kisimi: siammarterineq tassunga tassaavoq »Nassiussinerinnaq«, nuussinerilu tassani assammik ingerlanneqartarput.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Ungasissoq %id settings/override/migration.ini.append.php-imi peqanngilaq; aaqqissuunneqarfianit piiaruk.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP aqqutigalugu iserpoq index.php-ilu atuarlugu. Ungasissup FTP nuussinerisa qanoq ittuunerat atuarneqarsinnaanngilaq.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Allanngortinneqarfia</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Pilersinneqarfia</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ateq</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klassi</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Immikkoortoq</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Pilersitsisoq</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Imarisaat nutaat</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Nittartakkami tamarmi imarisaat kingullermik pilersinneqartut allanngortinneqartullu, nutaanerpaat siulliullugit: takornarissat nassiussaat, misissorneqarnissaminnut unitsitat, missingiutillu saqqummiunneqarnissaminnik utaqqisut. Immikkoortut toqqakkit taakku iperarniarlugit, unitsinniarlugit, isertorniarlugit, takutinniarlugit, peerniarlugit imaluunniit immikkoortumut allamut qanoq innermulluunniit nuunniarlugit.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Allattorsimaffik atuarneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Misissuinissamut unitsitsineq suli aaqqissuunneqanngilaq, taamaattumik sunik unitsitsisoqanngilaq unitsitsinermullu iliuusissat neqeroorutigineqanngillat. Nutarterinermi alloriarneq 6.0.15-review-hold taanna aaqqissuussaaq: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Allattorsimaffik filterikkuk</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Aallarnerfik</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Naggatissaq</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Ulloq</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Pilersinneqarfia (siullermik saqqummiunneqarfia)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tamarmik</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Killiffik</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Saqqummiunneqarsimasoq</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Missingiut, saqqummiunneqarsimanngisaannartoq</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Utaqqisoq (akuerineqarnissaq ulluluunniit utaqqillugu)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Eqqaavimmiittoq</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Misissorneqarnissaanut unitsitaq</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Unitsitaq</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Unitsitaanngitsoq</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Isertorneqarsimasoq</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Takuneqarsinnaasoq</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Nittartakkamut isaariaq nassiussiffik</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Nittartakkamut isaariaq sunaluunniit</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Nakkutilliinermi nalunaarsorneqartut kisimik.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Massakkut: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Atuisup aqqa imaluunniit atuisup normua.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filterikkuk</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Filterit peerkit</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Immikkoortut</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from-miit %to-mut %count-iniit</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Immikkoortoqanngilaq</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms-ini atuarneqarpoq)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Immikkoortunut toqqakkanut iliuusissat</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Quppernermi uani tamaasa toqqakkit</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count toqqagaapput</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Iliuuseq</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Iliuuseq toqqaruk</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Unitsitsineq atorunnaarsiguk</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Misissorneqarnissaanut unitsiguk</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Isertoruk</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Takutiguk</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Eqqaavimmut nuukkuk</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Peeruk</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Immikkoortoq tunniukkuk</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Qanoq innera tunniukkuk</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Pissutaa</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Unitsitsinermut pisariaqarpoq; unitsitsinermut nakkutilliinermilu toqqortarineqassaaq.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Immikkoortoq toqqaruk</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Qanoq innera</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Qanoq innera toqqaruk</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Toqqakkanut atortiguk</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Immikkoortut tamarmik illit pisinnaatitaaffiit naapertorlugit misissorneqartarput. Eqqaavimmut nuussineq peersinerlu uppernarsarneqartariaqarput. Immikkoortut %count sinnerlugit tunuliaqutaani suliarineqartarput.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Toqqaruk</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Saqqummiussineq</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Nassiussiffik</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name toqqaruk</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>suli naamik</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ateqanngitsoq)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Normu %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Missingiut</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Utaqqisoq</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Angajoqqaavata pissutigalugu isertorneqarsimasoq</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Unitsitaq: nassiussaq nutaaq</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Ilusaa %version utaqqisoq</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Ilusaa %version suliarineqartoq</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Missingiut, ilusaa %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Ilusaa %version saqqummiunneqarsimasoq</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date-mut pilersaarutigineqarpoq</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>najugaqanngilaq</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>nalunaarsorneqanngilaq</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Filterinut uku naapertuuttoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tamaasa takutikkit</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Suli imarisaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Quppernermut ataatsimut</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Quppernermut ataatsimut immikkoortut %count takutikkit.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Nassiussap najugaa internetsimullu isaariaa nakkutilliinermi allattorsimaffimmeersuupput, maani pissarsiarineqarsinnaanngitsumi: tukimut allassimavoq &quot;nalunaarsorneqanngilaq&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Najugaq internetsimullu isaariaq nakkutilliinermi immikkoortumut nalunaarsorneqartut tassaapput (unitsitsineq nammineerluni ingerlasoq taakku nalunaarsortuartarpai; saqqummiussineq pilersitsinerlu ingerlatinneqarfianni kisimi), namminermut tunngasut pillugit aaqqissuussinerisut toqqortarineqartut.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: immikkoortut %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Peersinikkut immikkoortut naammaginartumik peerneqartarput, ilusaat nutsernerilu tamaasa ilanngullugit. Utertinneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Immikkoortut eqqaavimmut nuunneqartarput, tassanngaanniit uterteqqinneqarsinnaapput.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Immikkoortut tamarmik illit pisinnaatitaaffiit naapertorlugit misissorneqartarput; immikkoortoq ataani immikkoortulik qimanneqartarpoq (imarisanut aaqqissuussinermi peeruk). Illit tassaanerit uppernarsassavat.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Una tunuliaqutaani ingerlavoq: ingerlaneranut quppernera ammassaaq, inerpallu immikkoortumut ataatsimut inernera takutinneqassaaq.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Immikkoortut toqqakkat</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>aamma %count allat</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Taamaatiguk</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Suliaqartoqanngilaq</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Pissutaa: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Iliuuseq suli tunuliaqutaani ingerlavoq.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ingerlanera</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Tunuliaqutaani iliuuseq iluatsinngilaq: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Naammassineqarpoq</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Itigartitaq</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Immikkoortumut ataatsimut</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Immikkoortoq</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Inernera</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Sooq</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Allattorsimaffimmut uterit</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Aaqqissuussineq</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Suliaqartoqanngilaq</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Uppernarsaruk</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Iliuuseq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Minnerpaamik immikkoortoq ataaseq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Ataatsikkut immikkoortut 1000 sinnerlugit toqqarnagit.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Immikkoortut sooq unitsinneqarnersut oqaatigiuk.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Immikkoortoq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Qanoq innera toqqaruk.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Immersugassaq atuarneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Aqutsivik</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Imarisaat nutaat</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Amerlassusii atuarneqarsinnaanngillat: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Misissorneqarnissaanut unitsitat</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Ullumi nutaat</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Misissuinissamut unitsitsineq suli aaqqissuunneqanngilaq (nutarterinermi alloriarneq 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Imarisaat nutaat tamarmik</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Nakkutilliinermi iliuusissanik ingerlatsisinnaanngilatit (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Nakkutilliinermi iliuuseq naammassinngilaq: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Nakkutilliineq: %action objektini %count-ini</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>Objektit %total-init %done: %ok naammassineqarput, %refused itigartitaapput, %failed iluatsinngillat</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok naammassineqarput, %refused itigartitaapput, %failed iluatsinngillat</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Atanngeqqippoq.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Inissaqanngilaq (saqqummiunneqanngilaq).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Isertorsinnaanngilat (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Takutissinnaanngilat (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Isertorneqareerpoq.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Isertorneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Isertorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Takutinneqarpoq.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Eqqaavimmiippoq: tassani imaarsiguk imaluunniit uterteqqiguk.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Missingiut saqqummiunneqarsimanngisaannartoq eqqaavimmut nuunneqarsinnaanngilaq: peeruk.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Peersinnaanngilat (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Peerneqarpoq.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Peersinnaanngilat (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Ataani immikkoortoqarpoq: imarisanut aaqqissuussinermi peeruk, tassani allattorsimapput.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Peerneqanngilaq (suliassat ingerlarnerat peersinermik unitsitsisinnaavoq).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Eqqaavimmut nuunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Immikkoortoq atanngilaq.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Immikkoortumiippoq una.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Immikkoortoq una tunniussinnaanngilat (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Immikkoortoq tunniunneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Immikkoortoq tunniunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Qanoq innera atanngilaq.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Qanoq innermi uaniippoq.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Qanoq innera una tunniussinnaanngilat (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Qanoq innera tunniunneqanngilaq (suliassat ingerlarnerat allanngortitsinermik unitsitsisinnaavoq).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Qanoq innera tunniunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Iliuuseq taamaattoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Misissuinissamut unitsitsineq aaqqissuunneqanngilaq (nutarterinermi alloriarneq 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Sooq unitsinneqarnersoq oqaatigiuk.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Unitsinneqareerpoq.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Unitsissinnaanngilat (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Unitsitsineq ingerlanneqanngilaq (suliassat ingerlarnerat allanngortitsinermik unitsitsisinnaavoq).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Unitsinneqarpoq.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Unitsinneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Iperarsinnaanngilat (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Unitsitsineq atorunnaarsinneqanngilaq (suliassat ingerlarnerat allanngortitsinermik unitsitsisinnaavoq).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Iperagaavoq; suli isertorneqarsimavoq: takutissinnaanngilat (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Iperagaavoq.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Saqqummiuffiit tamarmik</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Saqqummiussineq kingulleq</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Nittartakkavit assilinera aalaakkaasoq akeqanngitsumik GitHub Pages-imi saqqummiuguk:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Quppernerit pisoqaalisut</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Saqqummiussineq aalaakkaasoq</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Saqqummiussineq aalaakkaasoq matuvoq.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Saqqummiuffik</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Saqqummiuffiit atuarneqarsinnaanngillat: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>suliassaq ingerlavoq</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>sanaaq misissugassaq</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>una isertoruk</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>saqqummiuffik pilersiguk</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>suli naamik</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ilitsersuut atuaruk</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>Ilanngunneqartut %added, allanngortinneqartut %changed, peerneqartut %removed</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes / %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Allat %count allattorneqanngillat.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Quppernerit %pages allanneqarput</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path angissusaa %size, fiilimut ataatsimut angerlarsimaffiup akuerisaanit annerulluni.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % killiliussamit</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds sek.</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag tassaavoq saqqummiussineq nittartakkap massakkut atugaa.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: suliassaq %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/toqqorsivik/ GitHub-imi suliniummut nittartakkamut; imaqanngitsoq namminersortumut domænimut imaluunniit atuisup nittartagaanut.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Nittartagaq</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Angerlarsimaffik</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Toqqorsivimmut iserneq</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Toqqorsivik</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Innersuussutit tunngaviusumillu aqqut</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Domænet nammineq pigisat</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Sanaami suut ilaanersut</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Qaqugu saqqummiunneqassanersoq</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Misissoruk toqqorlugulu</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub-imi suliniummut nittartagaq /&lt;repository&gt;/ ataaniittarpoq; innersuussutit ataqatigiissut tassani allanilu sumiluunniit atuupput.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Sanaaq %site-ip quppernerinik tamanik pulartup iserfigisimanngitsup takusartagaattut aallersisarpoq, innersuussutinik allanngortitsilluni, fiilinik assiliilluni inernerlu saqqummiuffiup mappianut allattarlugu. Sanaaq misissorlugu Saqqummiuguk tooreqqaanngikkukku saqqummiussisoqassanngilaq.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron-imik oqaaseqatigiit, assersuutigalugu 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Ikkussinermut matuersaat isertugatut %secret-itut toqqorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Ikkussinermut matuersaat ikkussineq una SSH aqqutigalugu toqqorsivimmut ataatsimut kisiat nassiussisinnaalersippaa. Affaa isertorneqartoq Aaqqissuussineq &gt; Isertugat-ip iluaniittuarpoq; affaa tamanut ammasoq kisiat takutinneqarpoq.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Ikkussinermut matuersaat saqqummiuffimmut matumunnga pilersitaq</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Ikkussinermut matuersaat SSH aqqutigalugu iserpoq: git-ip najugaa SSH-ip najugaanut allanngortiguk (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Suliassaq ingerlavoq, %user-ip aallartippaa</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Saqqummiuffiup matuma suliassaa suli ingerlavoq (%detail). Naammassinissaa utaqqiuk.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Saqqummiuffiup matuma suliassaa suli ingerlavoq. Naammassinissaa utaqqiuk.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Quppernermit /news/ quppernermut /about-us/team innersuussut ima allanneqassaaq</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Ikkussinermut matuersaat nutaaq pilersinneqarpoq. Affaa tamanut ammasoq massakkut toqqorsivimmut ilannguguk.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Quppernerup suli piiaanerup kingorna debug-imik anitsinermik, formularip token-ianik imaluunniit session-ip kinaassutsimik imaqartup saqqummiunneqartanngilaq.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Utertitsineq ilisimasalinnut kisiannut: »Ilisimavara una suna allanngortinneraa« nalunaaqutsiguk taaguullu aqqa ilaqqiguk.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Nittartagaq %site-mik angissusilik, fiili %file-imik angissusilik, qaammammullu 100 GB missaa ingerlaarfigineqartarsinnaavoq. Akeqanngitsumik atuinermi toqqorsivik tamanut ammasuussaaq. GitHub Pages pisiniarfinnut niuernernulluunniit allanut sananeqarsimanngilaq.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Saqqummiuffik tassaavoq nittartagaq ataaseq git-ip toqqorsivianut ataatsimut saqqummiunneqartoq. Maani sanasoqanngilaq saqqummiussisoqanngilarlu: Toqqoruk aaqqissuussinerit settings/override/staticcache.ini.append.php-imut allappai.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Saqqummiuffik tassaavoq nittartagaq ataaseq sumut ataatsimut saqqummiunneqartoq, assersuutigalugu nittartakkat tamanut ammasoq GitHub Pages-imi.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token Aaqqissuussineq &gt; Isertugat-imeersoq</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Toqqorsivimmi workflow-ip saqqummiussavaa.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Matuersaat una tamanut ammasoq toqqorsivimmut allannissamut akuersissummik ilannguguk. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access nalunaaqutsiguk.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Ilanngunneqartoq</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Git-ip angerlarsimaffia alla</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Suliaq alla saqqummiuffimmi matumani suliaqarpoq: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Uterit</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Tunngaviusumik aqqut</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Siornatigut</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Tunngaviusumik aqqutip ataani</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Avalequt</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Innersuussutit aserorsimasut</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Sanaami innersuussutit aserorsimasut</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Sanaaq</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Sanaaq %id, %user-imit</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name sanaaruk</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Massakkut sanaaruk</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Sanaaq misissugassaq</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kimit</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Assammik, maani</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Taamaatiguk</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Allanngortiguk</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Allanngortinneqartoq</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Allannguutit</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Siullermik misissoruk</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Aaqqissuussinerit uku misissukkit</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Sanaap suut allanngortissanerai misissoruk, takuuk, taava saqqummiuguk igiguluunniit.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Saqqummiussineq utertiffissaq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Saqqummiussinermi kingusinnerusumi pilerssaaq.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commit</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Commit-it</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Sanaaq commit-itut toqqorpaa, taaguusersorlugu %remote-imullu nassiullugu. Nassiussineq pinngitsaaliisoqarneq ajorpoq; kingusinnerusukkut saqqummiussinermut sumulluunniit uterfigisinnaavat.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Mappimut siornatigutsamut naleqqiullugu: ilanngunneqartut %added, allanngortinneqartut %changed, peerneqartut %removed, allanngorsimanngitsut %unchanged.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Saqqummiussinermut kingullermut naleqqiullugu.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Iserfissaq</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domænet nammineq pigisat</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Debug-imik anitsineq, formularip token-ii, session-ip kinaassutsii nonce-illu peerneqartuartarput.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Ikkussinermut matuersaat</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name-ip ikkussinermut matuersaataa</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Igiguk</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Sanaaq igiguk</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domæne</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Imaqanngitsoq: nittartakkap najugaa. Taava nittartakkap taassuma najugaa iluarsiunneqartoq.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Naammassivoq</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Innersuussut tamarmi tunngaviusumik aqqummik aallartittarpoq.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Saqqummiussineq tamarmi commit-iuvoq taaguummik static/%id/&lt;n&gt; peqarluni. Uterneq commit-imik nutaamik pilersitsivoq saqqummiussinerup siusinnerusup fiiliinik: oqaluttuassartaa pigiinnarneqarpoq, taaguut nuunneqarneq ajorpoq pinngitsaaliisoqarnanilu.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Fiilit ilassutit</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Quppernerit makkunannga aallerneqassapput</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fiili</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fiilit</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Fiilit amigaatigineqartut</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Fiiliat:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Fiilit katersorneqarsinnaanngitsut</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Kinaassutsimut nalunaaqutaq</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Mappi</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH-ip najugaanut. Matuersaat toqqorneqareerneratigut pilersinneqassaaq; affaa tamanut ammasoq toqqorsivimmut ilanngutissavat.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https://-ip najugaanut. GitHub: token fine-grained Contents-imik atuarsinnaatitsisoq allassinnaatitsisorlu toqqorsivimmi.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Ilisimasalinnut. Nittartagaq tamanut ammasoq nassiussinerup naammassineratigut allanngussaaq.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularit</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub-ip toqqorsivianit akeqanngitsumik angerlarsimaffik.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Avalequtimit</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-ip najugaa</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages nittartakkamik %site-mik fiilimillu %file-imik akuersivoq.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages-ip killilersuutai</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages fiilinik ittuunerisut saqqummiussivoq (fiilinut _-imik aallartittunut pisariaqarpoq).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub avalequt nassiunneqarneratut tunniuttarpaa. Nalinginnaasoq.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, qarasaasiaq nammineq pigisat: git-ip toqqorsivia sunaluunniit.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Saqqummiussinermut siusinnerusumut uterit</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ikiuutit</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Ilitsersuummut ikiuutit</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Isertukkit</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Oqaluttuassartaa</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name-ip oqaluttuassartaa</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Angerlarsimaffik</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages-ip sanaaq qanoq tigusarneraa</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Allannguutit misissorpakka</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ilisimavara una suna allanngortinneraa</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Kinaassutsit</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Matuvoq: atuutilersinneqanngikkaangat sanasoqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Tunuani %user-itut ingerlavoq; quppernera una matusinnaavat.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Suliassaq %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Isertugatut %secret-itut toqqorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Suussusaa</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Saqqummiussineq kingulleq</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Quppernerit uku ilanngunnagit</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Immikkoortut uku ilanngunnagit</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Innersuussutit</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Innersuussutit allanngortinneqartut</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Nittartagaq atuuttoq</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Sanaaq takuuk</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Naqinnerit mikisut, kisitsisit, _ aamma -, assersuutigalugu github-public. Mappip taaguutillu (static/&lt;id&gt;/&lt;n&gt;) aqqissaraat kingusinnerusukkullu allanngortinneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Matuersaat nutaaq pilersiguk</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Saqqummiuffik pilersiguk</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Matuersaat pilersiguk</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Toqqorsivik angerlarsimaffimmi siullermik pilersiguk; imaqanngitsoq naammaginartuuvoq.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Fiilit allattorsimaffiat</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nalunaarut</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Quppernerit amerlanersaat</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ateq</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Token-ip aqqa Aaqqissuussineq &gt; Isertugat-imi</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Saqqummiuffik nutaaq</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Tullia</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Naamik</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Suli commit-eqanngilaq.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Matuersaat pilersinneqanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php-ip command line-imi programmia nassaarineqanngilaq. migration.ini [AdminSettings] PhpCliPath aqqutaanut tamakkiisumut aaqqissoruk.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Suli taaguuteqanngilaq.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Suli saqqummiuffeqanngilaq.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Soqanngilaq</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Sanaami ilaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Suli saqqummiussisoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Suli saqqummiussisoqanngilaq: fiili tamarmi nutaajuvoq.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Nalunaarfigit</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Pilersaarummi</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Console-imi</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Qarasaasiami: ./console exp:static:serve %id aamma taamatut tunniussivoq.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Titarnermut ataatsimut aqqut ataaseq, * ilaanut sumulluunniit naapertuuppoq: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Saqqummiuffimmi ateq kisiat toqqorneqarpoq; token imaluunniit matuersaat nammineq Aaqqissuussineq &gt; Isertugat-imiittuarpoq log-imilu takuneqarneq ajorluni.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Quppernerit taagugaat kisiisa</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Token-imik kisiat. env:NAME qarasaasiap avatangiisiminik allanngorartumik taarsiullugu atuarpoq.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Siumut takuneq ammaruk</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Sanaaq angerlarsimaffiup tunniussinissaatut saqqummiuffiup mappianit ammarpaa. Innersuussut nalunaaquttap akunnera ataaseq illit atorsinnaavat.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Pisariaqanngilaq. Imaqanngitsoq: saqqummiunneqartoq.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Pisariaqanngilaq. Domæneqarluni nittartagaq aallaaviani tunniunneqassaaq.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Anitsineq</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Quppernerit</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Saqqummiuffiup quppernerai</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Quppernerit itigartitat</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Kingorna suliarineq</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Siumut takuneq</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Siumut takuneq saqqummiussinerlu</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name siumut takuneq saqqummiussinerlu</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Sanaaq siumut takuuk</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ingerlaneq</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Najugaq tamanut ammasoq</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Matuersaat tamanut ammasoq</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Saqqummiuguk</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Nittartakkap assilinera aalaakkaasoq GitHub Pages-imut imaluunniit git-ip angerlarsimaffianut sumulluunniit saqqummiuguk: sanaaruk, allannguutit misissukkit, saqqummiuguk, pisariaqartikkaangatlu saqqummiussinermut siusinnerusumut uterit.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Saqqummiussineq utertiffissaq</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Saqqummiussinerit</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Ilitsersuut atuaruk</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Nalunaarsuineq</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Itigartitaq</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Ataqatigiissoq</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Nutarteruk</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Peerneqartoq</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Matuersaat taarseruk: pisoqaaq atorunnaassaaq</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Nalunaarusiaq</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Sanaap nalunaarusiaa</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Toqqorsivik</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Misissuineq</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Misissuinermi aaqqissuussineq tamarmi misissorneqassaaq titarnerillu allanneqartussat takutinneqassallutik. Suli toqqorsisoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Utertiguk</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Utertitsineq</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Toqqoruk</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Pilersaarut</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Ujarlerfik</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Immikkoortut kinaassutsii, kommaminik avinneqartut.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Nittartakkamut atuuttumut nassiukkit</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Aaqqissuussineq</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Aaqqissuussinerit</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name-ip aaqqissuussinerai</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Aaqqissuussineq</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Aaqqissuussineq &gt; Isertugat</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Allattorsimaffinni takutinneqartarpoq, assersuutigalugu »Nittartagaq tamanut ammasoq GitHub Pages-imi«.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App atorlugu iserneq GitHub-imik attaveqarnermut ilanngullugu pilerssaaq.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Nittartagaq</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Nittartagaq saqqummiugassaq</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Angissusaa</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Angissusaa killilersuutillu</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Sanaap angissusaa</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Quppernerit pisoqaalisut</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Aallartippoq</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user-ip %time-imi aallartippaa.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Qanoq ittuunera</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Saqqummiussineq aalaakkaasoq</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Saqqummiussineq aalaakkaasoq matuvoq</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Saqqummiussineq aalaakkaasoq matuvoq.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Saqqummiussineq aalaakkaasoq matuvoq. Aaqqissuussineq &gt; Saqqummiussineq aalaakkaasoq-imi siullermik atuutilersiguk.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Saqqummiussineq aalaakkaasoq atuutilerpoq.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Alloriarneq %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Alloriarnerit</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Piiaaneq</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Atorunnaarsiguk</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Atuutilersiguk</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Saqqummiussineq aalaakkaasoq atuutilersiguk</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Taaguut</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Taaguutit</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Saqqummiuffik</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Saqqummiuffiit pilersinneqarsinnaapput allanngortinneqarsinnaallutillu, kisiannili atuutilersinneqanngikkaangat sanasoqanngilaq saqqummiussisoqanngilarlu.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Ujarlerfinnut suut atuassanerai nalunaarutigaa.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Sanaaq igineqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Sanaaq saqqummiussinermut kingullermut assigiippoq: saqqummiugassaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Sanaaq igineqarpoq: mappimi saqqummiussineq kingulleq aterpoq.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Nalinginnaasut nittartakkanut amerlanerpaanut naleqquttuupput.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Mappimi sanaaq suli saqqummiunneqanngitsoq ilivoq; sanaap nutaap taarsissavaa.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Suliassat mappiannut allattoqarsinnaanngilaq: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Suliassaq piareersarneqarsinnaanngilaq: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Suliassaq aallartinneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Suliassaq naammassivoq. Nalunaarusiaa aallerneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Suliassami atuisoq isersimasoq pisariaqarpoq.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Suliassaq aallartinneqarpoq kisiannili suliap kinaassutsini nalunaarutiginngilaa. %detail misissoruk.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Matuersaat</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Fiili annerpaaq: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Titarnerit allanneqartussat</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Ujarlerfinnut quppernerit allattorsimaffiat; najugaq tamanut ammasoq pisariaqarpoq.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Quppernerit pulartup iserfigisimanngitsup takusartagaattut aallerneqartarput. Aqutsinermut aaqqissuinermullu isaariat neqeroorutigineqarneq ajorput.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Ingerlaneq malinnaaffigineqarsinnaanngilaq. Suliassap qanoq ingerlanera takuniarukku quppernera nutarteruk.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Matuersaatip affaa tamanut ammasoq:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Avalequtip aallaavia</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Isertugat toqqorsiviat suli aaqqissuunneqanngilaq (./console exp:upgrade --apply-p tabeli pilersissavaa), taamaattumik matuersaat toqqorneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Qarasaasiaq nammineq iserpoq (SSH-imi matuersaammi namminermini imaluunniit iserfissanut ikiuutimi), imaluunniit toqqorsivik qarasaasiami matumaniippoq.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Aaqqissuussineq allanneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Aaqqissuussinerit atuupput. Titarnerit uku allanneqassapput:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Aaqqissuussinerit fiiliat atuarneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Nittartagaq saqqummiussinerup taassuma fiiliinut uterpoq; sanaaq suli saqqummiunneqanngitsoq siullermik saqqummiunneqassaaq igineqassalluunniit.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Nittartakkap quppernera nammineq najukkanut atuanngitsunut.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Saqqummiuffik toqqorneqarsinnaanngilaq: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Saqqummiuffik suli matuersaammik matuminnga iserneq ajorpoq: aaqqissuussinerini »Ikkussinermut matuersaat saqqummiuffimmut matumunnga pilersitaq« toqqaruk.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Saqqummiuffiit atuarneqarsinnaanngillat: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Suli sanaamik misissugassamik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Ikkussineq una nittartakkamut isaariamik saqqummiussinermut peqanngilaq. Aqutsinermut aaqqissuinermullu isaariat saqqummiunneqarneq ajorput.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Quppernerup matuma suliassaq ingerlanerani malinnaaffigaa; quppernera matuguniuk tunuani ingerlaqqissaaq.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Saqqummiuffik una suli ikkussinermut matuersaateqanngilaq.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Saqqummiuffik una suli maani sanaarineqanngilaq.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Saqqummiuffik una ataatsimik peqarpoq.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Sanaaq una igissavaa: mappimi saqqummiussineq kingulleq aterpoq. Nittartagaq atuuttoq allanngunngilaq.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Siullermik »Allannguutit misissorpakka« nalunaaqutsiguk.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Piffissaq</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Aallartitsissutit</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Taaguutip aqqa ilaqqiguk</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Allanngorsimanngitsoq</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Suna</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Suut allanngornersut</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Fiili kinaanersoq; allanneqartuartarpoq.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Suliassap suut suliarineraa nalunaarsuinera. Suliassaq maani aallartinneqartoq quppernera matuguniuk tunuani ingerlaqqissaaq.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Suliassap kukkunertut naqitai</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Quppernerit taagugaat, saqqummiunneqarsimasullu assiliaat tamarmik</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Qaqugu</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Saqqummiussineq iluatsinngikkaangat</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Saqqummiussineq iluatsikkaangat</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Imarisat saqqummiunneqaraangata</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Assilinermi ilaanngitsunut innersuussutit sumut ingerlanersut (ujarlerneq, iserneq).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Assilineq aalaakkaasoq sumit tunniunneqarnersoq.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Nittartagaq suna saqqummiunneqarnersoq, saqqummiuffillu qanoq taaguuteqarnersoq.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Aqqutip sumiluunniit ataani atuuppoq. Nalinginnaasoq.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Domænet nammineq pigisat aalajangersarneqaraangata allanneqartarpoq.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Aap</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Maani console-imilu assammik sanasinnaavutit saqqummiussisinnaavutillu.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ateq kisiat; naleq Aaqqissuussineq &gt; Isertugat-imiittuarpoq</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path-ip ataani</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>nalunaarusiaqanngitsumik naammassivoq</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ilassut</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fiili</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, imaluunniit main mappimik docs-imik.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-ip angerlarsimaffia</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (token-imik) imaluunniit git@github.com:owner/repo.git (ikkussinermut matuersaammik); isissutissaq token-iluunniit ilanngunneq ajoruk.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, nittartakkap nunap assinganut innersuussutinullu pingaarnernut.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>assiliaq</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>suli naamik</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>naamik</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>remote-eqanngilaq</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>soqanngilaq: commit-it mappimiittuarput</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>soqanngilaq: allanngortoqanngilaq</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>nassiunneqanngilaq</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>allanngortoqanngilaq</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>quppernera</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>iluatsippoq</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open atorunnaarsimavoq, taamaattumik suliassaq maani aallartinneqarsinnaanngilaq. Qarasaasiami ./console exp:static:build atoruk.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>saqqummiussineq</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>saqqummiunneqarpoq</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>nassiunneqarnissaa utaqqivoq</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>nassiunneqarpoq</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>itigartinneqarpoq</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>ataqatigiissoq</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>utertitsineq</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>utertinneqarpoq</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ingerlavoq</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>mappi kisiat</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: fiilimut CNAME-mut allanneqassaaq. Domænip DNS-ia angerlarsimaffiup nassuiaataatut angerlarsimaffimmut tikkuussiguk; HTTPS aallartinnissaanut sivisuujusinnaavoq.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>aap, suli saqqummiunneqanngilaq</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App atuagassiaq</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Toqqorsivimmi workflow-ip saqqummiussivaa. Sanaaq workflow-ip fililiaanik allappoq; mappi imaqanngitsoq qimallugu.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Saqqummiuffik GitHub-imi toqqorsivimmik aamma token-imik imaluunniit GitHub App-imik toqqorneqareerpat, alloriarneq una toqqorsivimmik pilersitsisinnaavoq GitHub Pages-illu ikitsisinnaallugu. Taamaanngippat siullermik toqqorsivik GitHub-imi pilersiguk; imaqanngitsoq naammappoq.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Avalequt imaluunniit GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS misissoruk</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Toqqorsivik pilersiguk peqanngippat</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Toqqorsivik GitHub-imi pilersiguk GitHub Pages-ilu aaqqissuussinerani ikillugu (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Toqqorsivik %repo pilersittarpaa amigaataappat (piumasaqarfigineqarpat), GitHub Pages ikittarpaa avalequtimit imaluunniit GitHub Actions-imit toqqorneqarnera malillugu, domænet nammineq pigisat HTTPS-ilu aalajangersarlugit. Aaqqissuussinerit toqqorneqarsimasut atorpai: siullermik allannguutit toqqorkit.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Paasissutissat GitHub-imi</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Siullermik domænet nammineq pigisat allaguk.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Push tamarmi siullermik killilersuutinut uku misissorneqartarpoq.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>https:// najugaqarfimmut GitHub-imi. App ikkussinermut uunga aaqqissugaq iserpoq; ikkussinerup id-ia pisariaqartippaa.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages-ip toqqorsivik namminermut atugassaq akiliuteqartumi aatsaat sullissinnaavaa.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdomæne (www.example.com) CNAME-imik &lt;owner&gt;.github.io-mut pisariaqartitsivoq; apex-domæne (example.com) A-records-inik %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App-ip ikkussinerata id-ia</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Pages-imi sanaaq kingulleq</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Killilersuutit piumasaqaatillu</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>GitHub Pages-imut akeqanngitsumi atugassaq pisariaqarpoq.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub-imi</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App-imik kisimi: kisitsit GitHub-imi App-ip ikkussinerata najugaata naanerani. App nammineq staticcache.ini-imi aalajangersarneqartarpoq (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Namminermut</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Tamanut ammasoq</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Siullermik saqqummiuffik GitHub-imi toqqorsivimmik aamma token-imik imaluunniit GitHub App-imik toqqoruk.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Uku records domænip pilersuisuaniittut aalajangersakkit:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub-imi aaqqissuuguk</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain-ip DNS-ia suli GitHub Pages-imut tikkuussinngilaq.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain-ip DNS-ia GitHub Pages-imut tikkuussivoq.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub-imut atassuteqarneq maani atorneqarsinnaanngilaq: %problem. Avalequtimut saqqummiineq taamaattoq sulisinnaavoq; GitHub Pages toqqorsivimmi aaqqissuussinermi ikiguk.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub-imi alloriarnerit saqqummiuffimmut uunga atorneqarsinnaanngillat: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages-ip qanoq innera takutinneqartarpoq token imaluunniit GitHub App iserfissatut atorneqarpat.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Domænet nammineq pigisat atoruk</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Suna qinissavit: token, ikkussinermut matuersaat imaluunniit GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub-imi toqqorsivimmik aamma token-imik imaluunniit GitHub App-imik, ilitsersuut toqqorsivimmik pilersitsisinnaavoq, GitHub Pages ikillugu domænilu aalajangersarlugu illit sinnerlutit (alloriarneq 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>sanaartorneqarpoq</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>sanaajuvoq</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions-imit</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>avalequtimit %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>suli peqanngilaq</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>nassaarineqanngilaq</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ikitsinngilaq</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>namminermut</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>tamanut ammasoq</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>utaqqivoq</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ilisimaneqanngilaq</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count %pages-ni:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (aamma .br) allaaserisat tamarmik eqqaanni, hostinut tamakkua nassiuttartunut.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Quppernerup adressii aliasiilu tamaasa ukioq pillugit quppernerit mikisut, attaveqaatit ukiuni siusinnerni atuutsilluarnissaat siunertaralugu.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Allanneqartarpoq tamatigut GitHub Actions nittartagaq tunniuttarpagu.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id CC-BY-4.0 assigalugu, imaluunniit allaaserisaq nammineq.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Kurvi</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Serverimut qaaqqusinerit</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Oqaaseqaatit</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Paasissutissanik katersuutit formularit</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Quppernerni inissat qanoq itsigalugit amerlanngitsut oqaaseqaatillu naanngitsut.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Imarisaq atorneqarsinnaanera</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Iserneq</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Mikillisiguk</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Formularit allat</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Siusinnerusukkut ikkorsaaneq</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Allamut nassiussinerit quppernerit</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Allamut nassiussinerit quppernerit: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Ujarlerneq</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Ujarlerneq: %pages quppernerit %languages-ni.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Quppernerit stiilit skriptillu imarisaasa hash-iata aqqusaarlugit atsiorneqartut, browserit toqqorsinnaaqqullugit.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Quppernerit allanngortinneqartut, allannguinerup kingullermi minutsit assigiinngitsut kingorna (cronjob-ip immikkoortortaa staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Imarisaq atorneqarsinnaaneranik allagaq, uuma atuarfiup nunaani.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Nittartagaq tamarmi, pilersaarummi piffissani (cronjob-ip immikkoortortaa staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Quppernerit immikkoortui una serveri pisariaqartippaat; tamarmik toqqaannartumik taarsiivimmik pissarsipput. Naammassinnittarnerani misissoruk.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Static-itut atuutsinngitsoq</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Repositoryp suuneranik, hostimi qaleriisumut.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ilanngunneqarsimasoq</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>taarsiivik allaaserisaq</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>nittartakkap uuttortaa formularimi</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>nittartagaq atuuttoq</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>assilisap ujarlernermut quppernera</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formularip nassiunneqarsinnaannginnera.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Qujanaq: formularip nassiunneqarnera.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Formularimik akuerinninneq ajorpoq: allannerit misissoruk nassiullugulu.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Quppernernut assilinermiinngitsunut innersuussutit peerlugit</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Aqutsisoqarfimmut innersuussutit peerlugit</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Allagaat qimaannarneqassapput. Assit, immersugassat nittartakkanullu allanut innersuussutit peerneqarneq ajorput.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versioni</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Nittartakkamut isaariaatit saqqummersitassat</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nittartakkamut isaariaq</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Aallaqqaasiani</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Aallaqqaasiani isaariaqanngilaq: tamarmik toqqaavimminiipput, aallaqqaasialu taakkununnga innersuussivoq</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Nittartakkamut isaariaatit</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Nittartakkamut isaariaq ataaseq, imaluunniit URI-mi siuliisa aqqutigalugu host ataaseq atussagaat arlallit nalunaaqutsikkit. Aallaqqaasianiittoq tassani pissarsiarineqartarpoq, allat siuliisa toqqaaviani (/ger/); akornanni innersuussutit assilinermi inissisimaannartarput. Aqutsinermut isaariaatit neqeroorutigineqartanngillat.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%target-ip statiskimik saqqummersinneqarnera %site-mi iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%target-ip statiskimik saqqummersinneqarnera %site-mi iluatsippoq</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>E-mail una %site-mit nassiunneqarpoq, statiskimik saqqummersitsinermi anguniagaq %target piumammat.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Siammarterineq %deploy %site-mi iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Siammarterineq %deploy %site-mi matumi utaqqivoq</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Siammarterineq %deploy %site-mi iluatsilluarpoq</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>E-mail una %site-mit nassiunneqarpoq migration.ini [RemoteSettings] Notify[] piumasaqarmat.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Paasissutissat suussusii (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time kisitsineqarpoq, minutsit %minutes qaangiuppata kisitsiqqinneqassaaq</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Paasissutissap suussusaa klassip attributiata naleqarnerata ataatsip toqqortarpaa aaqqissuuttarlugulu: allagaq ataaseq, assiliaq, attaveqaat. Qitiusoq amerlanerit pilersittarpai, ilassutit allanik ilassuteqartarput. Maani tamarmik takuneqarsinnaapput, kikkut pilersitsisuunersut imarisallu qanoq amerlatigisut atortarneraat. Paasissutissap suussusaa paasissutissaateqarfimmit atorneqartoq, kisianni maannakkut sumilluunniit nalunaarsorneqanngitsoq, imarisanik atuisunik aserorterisarpoq.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Klassit eqimattaat</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Minutsini kingullerni kisitsinerit atornagit maanna kisitsiqqigit.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Kisitsiqqigit</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Takussutissiaq</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Nalunaarsorneqarfia</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Atorneqartoq</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Atorneqanngitsoq</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Ilassutit paasissutissat suussusiinik pilersitsisut</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Klassip attributii</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objektip attributii</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Nalunaarsorneqanngilaq</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Allattorsimavoq, fili amigaatigineqarpoq</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Paasissutissat suussusii %count atorneqarput nalunaarsorneqanngitsut</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Klassip attributii %class_attributes objektillu attributii %object_attributes paasissutissap suussusaanik ilassummit aaqqissuussinermilluunniit nalunaarsorneqanngitsumik peqarput. Objektii takutinneqarsinnaanngillat, aaqqissuunneqarsinnaanngillat saqqummiunneqarsinnaanatillu. Ilassut paasissutissap suussusaanik pilersitsisoq aallartiguk, imaluunniit klassi allanngortiguk.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Taakku kisiisa takutikkit</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Paasissutissap suussusaa ujaruk</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Kinaassusersiut, ateq, PHP-klassi imaluunniit ilassut.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Takutiguk</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tamarmik</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Pilersitsisoq</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Tamarmik</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Qitiusoq</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Paasissutissap suussusaa filterimut tulluartoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tamaasa takutikkit</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Ilassut</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>Paasissutissat suussusii %count-iusut ilaat %shown, %used atorneqarput</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Paasissutissaateqarfiup paasissutissat suussusiinik taakkuninnga klassip objektilluunniit attributiinik peqarpoq, kisianni content.ini-p ataasiilluunniit allattorsimanngilaa, imaluunniit fiilia amigaatigineqarpoq.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider-ip paasissutissat suussusii</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Paasissutissap suussusaa</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-klassi fililu</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klassit</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objektit</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Nalunaaqutsiinerit</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>soqanngilaq</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Paasissutissap suussusaa ujarlernermut tulluartoqanngilaq. Ujarlerneq peeruk.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Paasissutissat suussusii %count-iusut ilaat %shown takutinneqarput</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Paasissutissat suussusii takutinneqartut: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column malillugu tulleriiaakkit</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time kisitsineqarpoq</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Paasissutissat suussusii tamarmik</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Ikiuutit quppernerat</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Paasissutissap suussusaa una atorneqarpoq nalunaarsorneqanngitsoq</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Klassit ataaniittut objektii takutinneqarsinnaanngillat, aaqqissuunneqarsinnaanngillat saqqummiunneqarsinnaanatillu ilassummit paasissutissap suussusaa nalunaarsorneqanngippat. Ilassut pilersitsisoq aallartiguk content.ini [DataTypeSettings] AvailableDataTypes[]-milu ilanngullugu, imaluunniit klassit allanngortikkit.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini-p paasissutissap suussusaa una allattorsimavaa, kisianni paasissutissat suussusiisa filitaasa ataasiannilluunniit fiilia peqanngilaq. Sumilluunniit atorneqanngilaq; AvailableDataTypes[]-mit peeruk imaluunniit ilassutaa aallartiguk.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Paasissutissap suussusaa una pillugu</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Ilisarnaat</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ateq</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Ilassut %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>kinaluunniit</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-klassi</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fiili</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[]-mi</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>aap</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>naamik</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Naleqarnerata kolonnii</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Klassip attributiata aaqqissuussineri kolonnii</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabelit</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Kolonnit tabelillu paasissutissap suussusaata koodia atuarlugu nassaarineqarput: ilitsersuutaapput, qularnaveeqqusiinngillat.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Skabelonit</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nittartakkamut isaariaq</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Skabeloni</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Nassaarfia</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>aqutsineq una</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>nittartagaq tunngaviusoq</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Taarsiissutaanngitsut: skabeloni taarsiissut klassimut attributimulluunniit tulluartoq taakkunannga salliuvoq.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klassit atuisut (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Klassimi ataatsimiluunniit paasissutissap suussusaanik taassuminnga attributeqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klassi</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Attributit</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Klassip attributii (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attributi</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Aaqqissuussinerit</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Pisariaqartoq</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Ujarlerfigineqarsinnaasoq</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Nutserneqarsinnaasoq</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Paasissutissanik katersisoq</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Imarisat ilaat atuisut</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Kingulliullugu allanngortinneqartoq siulliullugu</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Allanngortinneqarfia</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Inissisimaffik %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Nutserinerit tamarmik naleqarnertik nammineq peqarfigaat.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Ujarlerfik naleqarnerinik indeksiliisarpoq.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Takornarianit paasissutissanik katersisinnaavoq (immersugassat).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Allattorsimaffiit taassumunnga naapertuuttumik aaqqissuunneqarsinnaapput: aaqqissuussinermi kode %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Tulleriiaarneqarsinnaasoq</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Naleqarnerisa objektit allat innersuussutigaat.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Attaveqaatit</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Allagaq nalinginnaasoq atorlugu immerneqarsinnaavoq (eqqussineq, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Allagaq atorlugu</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Fili atorlugu immerneqarsinnaavoq.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Fili atorlugu</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Klassip attributiata aaqqissuussineri poortukkanut ilanngunneqartarput.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Poortukkat</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Imarisat (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from – %to, katillugit %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Allattorsimaffik filterikkuk</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Klassit tamarmik</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Immikkoortoq</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Oqaatsit</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Piginnittoq</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Saqqummiunneqarsimasoq</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Tulleriiaarneq kaaviiguk</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Immikkoortoqanngilaq</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Quppernermut ataatsimut</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Quppernermut ataatsimut allattugaatit %count takutikkit.</translation>
     </message>
 </context>
 </TS>

@@ -6,7 +6,7 @@
  * setup run's id (EXP_SETUP_RUN) and looks no user up. No database: the "console" is a stand-in under var/tmp that
  * records what it was given.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -46,7 +46,7 @@ class SetupRunCommandAuditTest extends PHPUnit\Framework\TestCase
             $this->markTestSkipped( 'exec() is disabled' );
         $this->run->setValue( null, array( 'id' => '20261012-120000-abcdef', 'finished' => false, 'current' => null ) );
         expMaintenance::clearResponseCaches( $this->root );
-        $this->assertSame( "'20261012-120000-abcdef' exp:velocity cache clear --allow-root-user", file_get_contents( $this->root . '/given.txt' ) );
+        $this->assertSame( "'20261012-120000-abcdef' exp:velocity cache clear --apply --allow-root-user", file_get_contents( $this->root . '/given.txt' ) );
     }
 
     public function testTheCacheClearOutsideASetupRunCarriesNoId()
@@ -56,7 +56,7 @@ class SetupRunCommandAuditTest extends PHPUnit\Framework\TestCase
         putenv( 'EXP_SETUP_RUN' );
         $this->run->setValue( null, null );
         expMaintenance::clearResponseCaches( $this->root );
-        $this->assertSame( 'false exp:velocity cache clear --allow-root-user', file_get_contents( $this->root . '/given.txt' ) );
+        $this->assertSame( 'false exp:velocity cache clear --apply --allow-root-user', file_get_contents( $this->root . '/given.txt' ) );
     }
 
     public function testACommandStartedByASetupRunLooksNoUserUp()

@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -64,6 +64,20 @@ $OperationList['publish'] = array( 'name' => 'publish',
                                                            'name' => 'begin-transaction',
                                                            'frequency' => 'once',
                                                            'method' => 'beginTransaction' ),
+                                                    // A held object (expReviewHold, the review hold): published only by
+                                                    // a user whose content/publish allows the held state; checked before
+                                                    // anything changes and again after the pre_publish workflows, which
+                                                    // may resume this publication much later (scheduled, approved)
+                                                    array( 'type' => 'method',
+                                                           'name' => 'check-review-hold',
+                                                           'frequency' => 'once',
+                                                           'method' => 'checkReviewHold',
+                                                           'parameters' => array( array( 'name' => 'object_id',
+                                                                                         'type' => 'integer',
+                                                                                         'required' => true ),
+                                                                                  array( 'name' => 'version',
+                                                                                         'type' => 'integer',
+                                                                                         'required' => true ) ) ),
                                                     array( 'type' => 'method',
                                                            'name' => 'set-version-pending',
                                                            'frequency' => 'once',
@@ -103,6 +117,16 @@ $OperationList['publish'] = array( 'name' => 'publish',
                                                            'keys' => array( 'object_id',
                                                                             'version' ),
                                                     ),
+                                                    array( 'type' => 'method',
+                                                           'name' => 'check-review-hold-after-workflow',
+                                                           'frequency' => 'once',
+                                                           'method' => 'checkReviewHold',
+                                                           'parameters' => array( array( 'name' => 'object_id',
+                                                                                         'type' => 'integer',
+                                                                                         'required' => true ),
+                                                                                  array( 'name' => 'version',
+                                                                                         'type' => 'integer',
+                                                                                         'required' => true ) ) ),
                                                     array( 'type' => 'method',
                                                            'name' => 'copy-translations',
                                                            'frequency' => 'once',
@@ -165,6 +189,20 @@ $OperationList['publish'] = array( 'name' => 'publish',
                                                                                          'type' => 'integer',
                                                                                          'required' => true )
                                                                                   ) ),
+                                                    // The auto-hold (expReviewHoldAuto, content.ini [ReviewHoldSettings]):
+                                                    // the first publication of a listed class by a user who is not exempt
+                                                    // is held and hidden, before the edit handlers, the view cache and
+                                                    // the search index
+                                                    array( 'type' => 'method',
+                                                           'name' => 'auto-review-hold',
+                                                           'frequency' => 'once',
+                                                           'method' => 'autoReviewHold',
+                                                           'parameters' => array( array( 'name' => 'object_id',
+                                                                                         'type' => 'integer',
+                                                                                         'required' => true ),
+                                                                                  array( 'name' => 'version',
+                                                                                         'type' => 'integer',
+                                                                                         'required' => true ) ) ),
                                                     array( 'type' => 'method',
                                                            'name' => 'publish-object-extension-handler',
                                                            'frequency' => 'once',

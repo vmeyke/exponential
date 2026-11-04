@@ -8,7 +8,7 @@
  * content/remove (a remove job) or content/create (a copy job).
  * Guide: doc/eng-us/bc/6.0/content-jobs.md
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -505,8 +505,9 @@ class Job extends \Exponential\Runnable\ModuleView
             return true;
         if ( self::canSeeAll( $user ) )
             return true;
-        // an audit export is about audit records, not content: its owner and content/jobs only
-        if ( $job->type() === 'auditexport' )
+        // an audit export is about audit records, not content, and a moderation action reports on objects of the
+        // whole installation: their owner and content/jobs only
+        if ( in_array( $job->type(), array( 'auditexport', 'moderation' ), true ) )
             return false;
         $access = $user->hasAccessTo( 'content', $job->type() === 'copy' ? 'create' : 'remove' );
         return $access['accessWord'] === 'yes';

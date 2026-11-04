@@ -14,6 +14,11 @@ umziehen und ein solches Projekt so planen, dass keine Inhalte, keine Adressen u
 lehrt Methoden und Planung; die Fakten, auf die er sich stützt, stehen in den Migrationskapiteln des
 Installationshandbuchs und im Migrations-Hub, auf die jede Lektion verlinkt, statt sie zu kopieren.
 
+> **Sie unterrichten stattdessen Migrationen einer Site?** Schema- und Inhaltsänderungen, als Dateien geschrieben und
+> mit `./console exp:migration:migrate` angewendet, sind ein anderes Thema:
+> [Migrationen oder Umzug einer Site](../../migrationen/migrationen-oder-umzug-einer-site.md) und die Lektion
+> [Lektion 9.5: Migrationen](../entwickler/modul-09-die-konsole-und-persistente-objekte/migrationen.md).
+
 Exponential 6 ist die Fortführung des eZ Publish Legacy-Kernels, eines Produkts, das sein Hersteller nach fast 18
 Jahren eingestellt hat. Der alte Name erscheint in diesem Kurs nur, um die Versionen zu bezeichnen, von denen die
 Teilnehmenden migrieren.
@@ -41,7 +46,7 @@ Plattform oder einem anderen System planen und einen vollständigen Migrationspl
 
 ## Übungsumgebung
 
-- Eine Schulungsinstallation pro Person, installiert mit `php bin/php/console exp:install`
+- Eine Schulungsinstallation pro Person, installiert mit `php bin/php/console exp:install --apply`
   ([Installation über die Kommandozeile](../../../installation/07-installation-ueber-die-konsole.md)). Die Standardinstallation verwendet
   SQLite in `var/storage/sqlite3/exponential.db`, das die Teilnehmenden mit `sqlite3 -readonly` nur lesend öffnen.
 - Die Erweiterungen, die die `composer.json` im Wurzelverzeichnis verlangt, insbesondere xrowextract, aktiv auf der

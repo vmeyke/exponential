@@ -2,7 +2,7 @@
 /**
  * File containing the eZFileDownloadTest class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -45,6 +45,8 @@ class eZFileRenameTest extends ezpTestCase
      * @group ezfile
      * @group ezfilerename
      */
+    #[\PHPUnit\Framework\Attributes\Group('ezfile')]
+    #[\PHPUnit\Framework\Attributes\Group('ezfilerename')]
     public function testRename()
     {
         self::assertTrue( eZFile::rename( $this->file, $this->destFile ) );
@@ -56,6 +58,8 @@ class eZFileRenameTest extends ezpTestCase
      * @group ezfile
      * @group ezfilerename
      */
+    #[\PHPUnit\Framework\Attributes\Group('ezfile')]
+    #[\PHPUnit\Framework\Attributes\Group('ezfilerename')]
     public function testRenameWithDirectory()
     {
         $this->destFile = "$this->fileDir/somedir/file.txt";
@@ -68,6 +72,8 @@ class eZFileRenameTest extends ezpTestCase
      * @group ezfile
      * @group ezfilerename
      */
+    #[\PHPUnit\Framework\Attributes\Group('ezfile')]
+    #[\PHPUnit\Framework\Attributes\Group('ezfilerename')]
     public function testRenameFails()
     {
         self::assertFalse( @eZFile::rename( $this->file, "/non/existing/dir/file.txt" ) );
@@ -77,6 +83,8 @@ class eZFileRenameTest extends ezpTestCase
      * @group ezfile
      * @group ezfilerename
      */
+    #[\PHPUnit\Framework\Attributes\Group('ezfile')]
+    #[\PHPUnit\Framework\Attributes\Group('ezfilerename')]
     public function testRenameFailsWithFlags()
     {
         self::assertFalse(

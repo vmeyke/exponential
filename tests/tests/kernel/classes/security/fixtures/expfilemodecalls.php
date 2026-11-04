@@ -4,7 +4,7 @@
  * installation and tells those that bypass the limits EZP_FILE_MODE_MAX / EZP_DIR_MODE_MAX: a call whose mode does
  * not go through eZFile::fileMode(), eZDir::dirMode() or eZFile::creationUmask(). Used by expFileModeLimitsTest.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  */
@@ -14,7 +14,8 @@ class expFileModeCalls
     /** What is scanned, relative to the installation root: the kernel, the libraries, the scripts, the extensions of the repository */
     const PATHS = array( 'kernel', 'lib', 'bin', 'cronjobs', 'update', 'extension/ezjscore', 'extension/ezoe',
                          'extension/ezformtoken', 'extension/expservices', 'autoload.php', 'index.php', 'index_cluster.php',
-                         'index_rest.php', 'index_treemenu.php', 'runcronjobs.php', 'soap.php', 'webdav.php', 'ezpm.php' );
+                         'index_rest.php', 'index_treemenu.php', 'runcronjobs.php', 'index_soap.php', 'soap.php',
+                         'index_webdav.php', 'webdav.php', 'ezpm.php' );
 
     /** Helpers whose result is a mode within the limits */
     const HELPERS = array( 'fileMode', 'dirMode', 'executableMode', 'creationUmask' );

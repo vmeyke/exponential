@@ -2,7 +2,7 @@
 /**
  * File containing the expDebugBarRegistry class: the settings, groups and presets of the Exp Debug bar.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -437,6 +437,43 @@ class expDebugBarRegistry
                 return $on;
         }
         return null;
+    }
+
+    /**
+     * Who may read what the bar shows (debugbar.ini [DebugBarSettings] ReadAccess): 'debug', the default, whoever
+     * gets the debug output reads everything, the settings, the log, the cache list, the policies, the versions and
+     * the User and the Rendering tab; 'privileged' keeps that as before: to users with setup/setup or setup/managecache,
+     * the User and the Rendering tab to setup/setup and to an anonymous visitor with debug output.
+     * Changing settings and clearing caches always needs the policy.
+     *
+     * @param eZINI|null $ini debugbar.ini (null: eZINI::instance( 'debugbar.ini' ))
+     * @return string 'debug' or 'privileged'
+     */
+    public static function readAccess( ?eZINI $ini = null )
+    {
+        try
+        {
+            if ( $ini === null )
+                $ini = eZINI::instance( 'debugbar.ini' );
+            $value = $ini->hasVariable( 'DebugBarSettings', 'ReadAccess' ) ? strtolower( trim( (string)$ini->variable( 'DebugBarSettings', 'ReadAccess' ) ) ) : 'debug';
+        }
+        catch ( Throwable $e )
+        {
+            $value = 'debug';
+        }
+        return $value === 'privileged' ? 'privileged' : 'debug';
+    }
+
+    /**
+     * Whether a request that gets the debug output reads everything the bar shows (readAccess() 'debug').
+     *
+     * @param bool $debugOutput the request gets the debug output
+     * @param eZINI|null $ini debugbar.ini
+     * @return bool
+     */
+    public static function readsAll( $debugOutput, ?eZINI $ini = null )
+    {
+        return (bool)$debugOutput && self::readAccess( $ini ) === 'debug';
     }
 
     /**

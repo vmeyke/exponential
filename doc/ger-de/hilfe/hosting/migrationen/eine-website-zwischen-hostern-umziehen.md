@@ -76,7 +76,7 @@ Quelle der Liste: [10.9 Backups und Wiederherstellung](../../../installation/10-
    ```
 
 7. **Starten Sie die Engine** (oder laden Sie PHP-FPM neu), leeren Sie den Antwort-Cache von Velocity, wenn er die Website
-   ausliefert (`php bin/php/console exp:velocity cache clear --allow-root-user`).
+   ausliefert (`php bin/php/console exp:velocity cache clear --apply --allow-root-user`).
 8. **Testen Sie** über einen Eintrag in der hosts-Datei, und schalten Sie dann das DNS um.
 9. **Lassen Sie die alte Maschine im Wartungsmodus**, bis die DNS-Änderung alle erreicht hat. Der Wartungsmodus liegt in
    `var/maintenance.json` auf der alten Maschine, die das Datei-Backup oben nicht enthält; das Ziel ist also nicht im
@@ -115,6 +115,7 @@ Quelle der Liste: [10.9 Backups und Wiederherstellung](../../../installation/10-
 - [Aus einem Backup wiederherstellen (Runbook)](../runbooks/aus-einem-backup-wiederherstellen.md)
 - [Was gesichert werden muss](../betrieb/backups-was-gesichert-werden-muss.md)
 - [Checkliste für den Start einer Kunden-Website](../checklisten/checkliste-fuer-den-start-einer-kunden-website.md)
+- [Migrationen oder Umzug einer Site](../../migrationen/migrationen-oder-umzug-einer-site.md)
 - [Freie Dokumentation](../../freie-dokumentation.md): Diese Seite darf unter der GNU FDL 1.3 frei kopiert, übersetzt und verbessert werden.
 
 <!-- exp-partner-block:start -->

@@ -2,7 +2,7 @@
 /**
  * File containing the eZStepCreateSites class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -359,6 +359,12 @@ class eZStepCreateSites extends eZStepInstaller
         $ini->setVariable( 'SiteSettings', 'SiteList', $accessMap['sites'] );
         $ini->setVariable( 'SiteAccessSettings', 'AvailableSiteAccessList', $accessMap['accesses'] );
         $ini->setVariable( "SiteAccessSettings", "CheckValidity", "false" );
+        // Clean urls (no /index.php in any generated link) whenever the web
+        // server rewrites them, which Velocity and the shipped .htaccess both do.
+        // It has to be in settings/override: eZSys decides before a siteaccess
+        // is matched. A site package may still write its own value afterwards.
+        if ( $this->serverRewritesUrls() )
+            $ini->setVariable( 'SiteAccessSettings', 'ForceVirtualHost', 'true' );
         // With this following line commented out, php default session management is used
         // $ini->setVariable( 'Session', 'SessionNameHandler', 'custom' );
         $ini->setVariable( 'MailSettings', 'AdminEmail', $this->PersistenceList['admin']['email'] );
@@ -2146,7 +2152,9 @@ language_locale='eng-GB'";
         // (doc/eng-us/bc/6.0/editor-role-policies.md).
         if ( class_exists( 'expEditorPolicies' ) )
         {
-            eZDebug::writeNotice( expEditorPolicies::ensure( eZExtension::baseDirectory() ), __METHOD__ );
+            // an extension's policy only for an extension the new installation activates (ezie is installed everywhere,
+            // activated only by the site packages that keep it)
+            eZDebug::writeNotice( expEditorPolicies::ensure( eZExtension::baseDirectory(), $installActiveExtensions ), __METHOD__ );
         }
 
         // Member management (membermanagement.ini): by default the Editors group manages the accounts below Members
@@ -2157,8 +2165,15 @@ language_locale='eng-GB'";
             eZDebug::writeNotice( expMemberManagement::ensure(), __METHOD__ );
         }
         // Approval of new editor accounts: an editor who creates an account in Editors waits for the Administrator
-        // users (doc/eng-us/bc/6.0/user-account-approval.md)
-        if ( class_exists( 'expUserApproval' ) )
+        // users (doc/eng-us/bc/6.0/user-account-approval.md). site.ini [UserSettings] AccountApprovalMode chooses how:
+        // group (the default, the event "Approve user accounts"), section (opt-in: the section Staff and the plain
+        // approval event, expUserApprovalSection) or none. Never both: an account would be asked for twice.
+        $approvalMode = class_exists( 'expUserApprovalSection' ) ? expUserApprovalSection::mode() : 'group';
+        if ( $approvalMode === 'section' )
+        {
+            eZDebug::writeNotice( expUserApprovalSection::ensure(), __METHOD__ );
+        }
+        else if ( $approvalMode === 'group' && class_exists( 'expUserApproval' ) )
         {
             eZDebug::writeNotice( expUserApproval::ensure(), __METHOD__ );
         }
@@ -2400,6 +2415,29 @@ language_locale='eng-GB'";
         eZCache::clearByID( 'user_info_cache' );
 
         return true;
+    }
+
+    /*!
+     Whether the web server sends an address without index.php to the front
+     controller. A command line install (the kickstarter, under Velocity or
+     behind the shipped .htaccess) and a wizard reached without index.php in
+     its address both say yes; otherwise the site's login page is asked for
+     without index.php, and only an answer other than not found says yes.
+    */
+    private function serverRewritesUrls()
+    {
+        if ( PHP_SAPI === 'cli' )
+            return true;
+
+        $requestUri = isset( $_SERVER['REQUEST_URI'] ) ? (string)$_SERVER['REQUEST_URI'] : '';
+        if ( $requestUri !== '' && strpos( $requestUri, 'index.php' ) === false )
+            return true;
+
+        $hostname = eZSys::hostname();
+        if ( !$hostname )
+            return false;
+
+        return (bool)eZHTTPTool::getDataByURL( eZSys::serverProtocol() . '://' . $hostname . eZSys::wwwDir() . '/user/login', true );
     }
 
 }

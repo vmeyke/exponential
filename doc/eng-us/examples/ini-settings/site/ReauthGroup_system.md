@@ -33,7 +33,15 @@ Enabled=true
 
 ## Rules
 
-Default: a list of 18: `setup/*`, `!setup/info`, `!setup/logs`, `!setup/logshealth`, `!setup/logsdigest`, `!setup/logsfeed`, `!setup/templatelist`, `!setup/templateview`, `!setup/menu`, `!setup/preloadstream`, `!setup/cronjobsstream`, `!setup/staticcachestream` ....
+> Migrations: a run, a resume or a simulation, a rollback, and (later) the editor and the generators; seeing them  
+> (status, history, log, the dry run) is never asked  
+> Remotes and deploys: saving or removing a remote, a deploy (not its preflight), approving the next stage of a  
+> staged deploy, rolling a deploy back; the lists and Test connection are never asked  
+> a site-wide recording window (every user's changes); a user's own recording is not asked  
+> Static publishing: a publish, a rollback, saving a target, the deploy key and the switch; seeing, building and the  
+> preview are never asked  
+
+Default: a list of 34: `setup/*`, `!setup/info`, `!setup/logs`, `!setup/logshealth`, `!setup/logsdigest`, `!setup/logsfeed`, `!setup/templatelist`, `!setup/templateview`, `!setup/menu`, `!setup/preloadstream`, `!setup/cronjobsstream`, `!setup/staticcachestream` ....
 
 ```ini
 <?php /* #?ini charset="utf-8"?
@@ -57,8 +65,11 @@ Rules[]=settings/edit
 Rules[]=package/*
 Rules[]=package/upload *
 Rules[]=secrets/*
-Rules[]=update/*
-Rules[]=git_manager/*
+Rules[]=migration/run
+Rules[]=migration/rollback
+Rules[]=migration/edit
+Rules[]=migration/dryrun SimulateButton
+# ... 14 more in the shipped file
 */ ?>
 ```
 

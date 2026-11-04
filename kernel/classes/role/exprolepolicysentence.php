@@ -2,7 +2,7 @@
 /**
  * File containing the expRolePolicySentence class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -293,6 +293,8 @@ class expRolePolicySentence
             'user/hygiene'               => 'check user accounts, and disable, enable and unlock them',
             'user/deactivate'            => 'deactivate user accounts and move them to the group of deactivated users, and move them back',
             'user/sessions'              => 'see where other users are signed in, and sign them out',
+            'user/audit'                 => 'read and export the user audit log of every account',
+            'user/sessions_manage'       => 'see the sign-in report of the site and sign any user out everywhere',
             'setup/administrate'         => 'use the setup pages',
             'setup/managecache'          => 'clear caches',
             'setup/system_info'          => 'view the system information',

@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>検索対象はこのページのみです: %count 件中 %from - %to 件。</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>カーネルと拡張機能のすべてのデータ型と、クラスやコンテンツでの使われ方。</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>データ型</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>システムページもブックマークできます。ページ（システム設定、監査証跡、ユーザーの一覧 ...）を開き、その上にある「このページをブックマーク」を選択してください。このようなブックマークには歯車アイコンが表示されます。</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>ここでこのページを開く権限がなくなりました。ブックマークを削除するか、管理者にアクセス権を依頼してください。</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>最初のページへ移動</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>その他</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>過去 7 日間</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>期間を指定</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>すべての語句</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>いずれかの語句</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>完全一致</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>関連度</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>名前 (昇順)</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>名前 (降順)</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>更新日時 (新しい順)</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>更新日時 (古い順)</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>公開日時 (新しい順)</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>公開日時 (古い順)</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>更新日時</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>フィルター</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>フィルターを表示</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>フィルターを非表示</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>リセット</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>適用</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>語句</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>コンテンツタイプ</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>さらに表示 (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>コンテンツタイプを 1 つ選択すると、その属性の 1 つを対象に検索できます。</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>開始日時</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>まで</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>開始日が有効な日付ではありません。</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>終了日が有効な日付ではありません。</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>所有者</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ユーザー ID、ログイン名またはメールアドレス。</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>「%input」に該当するユーザーが見つかりませんでした。</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>言語</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>すべての言語</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>配置先</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count 件の配置先</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>1 ページあたりの件数</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>「%text」の検索結果 (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>検索結果 (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>並べ替え</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>並べ替え</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>適用中のフィルター</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>このフィルターの削除</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>またはフィルターを選択して適用すると、一致するコンテンツが一覧表示されます。</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>語句を入力すると、フィルターで検索結果を絞り込めます。</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>「%text」に一致する結果は見つかりませんでした。</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>結果が見つかりませんでした。</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>上のフィルターを 1 つ解除してください。</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>翻訳</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name を編集</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>原作者および Exponential に含まれるサードパーティ製ソフトウェアの著作権表示は、ライセンスの要求に従い、ソースファイルと LICENSEファイルに保持されています。</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>以下は、eZ Systems Contributor Licensing Agreement の条件に基づき、7x による使用のために自身の成果物をライセンスした Exponential の貢献者の一覧です。この契約で認められているとおり、7x は各貢献を、その貢献が含まれるファイルと同じライセンスで再配布しています。一覧には、各貢献者、任意の連絡先情報、およびその貢献者が作成または貢献したファイルが記載されています。</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential およびその元となったソフトウェアへの貢献が認められた貢献者と、その貢献したファイルの一覧です。これは謝辞であり、著作権表示ではありません。Exponential への貢献は Contributor Licensing Agreement に基づき Exponential Foundation と 7x に譲渡されます。</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition を評価&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential コミュニティのメンバーになって、交流し、貢献しましょう&lt;/a&gt;。&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ほか。</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt; で稼働しています。詳しくは &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; を参照してください。</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ほか。</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> 詳しくは &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; を参照してください。</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; ほか。</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential を評価 (7x 提供)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential コミュニティのメンバーになって、サポートを受け、貢献しましょう&lt;/a&gt;。</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; ほか。</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>ヘルプセンター</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>コンテンツ</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>ドキュメントのページ</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>ユーザー</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>コンテンツクラス</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>管理</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>%number ページ</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>すべての結果を表示</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count 件の結果</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>1 件の結果</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count 件の候補</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>候補はありません</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>候補を読み込めませんでした。</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>候補</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>このインストールは公開デモです。管理者パスワードは誰でも知り得る状態にあり、管理者パスワードの変更やリセットはできません。ここには個人的な情報を入力しないでください。</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>お使いのデバイス</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>セキュリティアクティビティ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>ガイド、検索、エラーの報告方法。</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>最新のコンテンツ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>最新のコンテンツ、レビューのため保留中のもの、選択した項目への操作。</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>同期</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: エンドポイント、スキーマ、クエリを試すためのプレイグラウンド。</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>マイグレーション</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ファイルとして保管されたインストールへの変更: その状態、実行履歴、実行とロールバック。</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>最新のコンテンツ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>最新のコンテンツ、レビューのため保留中のもの、選択した項目への操作。</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>サイトの静的コピーを GitHub Pages または任意の git ホストに公開します。</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>静的公開</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>データ型</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>カーネルと拡張機能のすべてのデータ型と、クラスやコンテンツでの使われ方。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>誰も使用していないアカウントや確認が必要なアカウント。無効化、ロック解除、エクスポートができます。</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ユーザー監査ログ</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>アカウントごとに、変更した人、ログインした人、拒否された人を確認できます。フィルターとエクスポートも可能です。</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ログインレポート</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ログイン中のユーザー、日ごとのログイン数と失敗数、ユーザーのすべての場所からのログアウト。</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n 時間前</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API の保存済みクエリの応答と、そのスキーマのコンテンツクラス。</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>静的コピーを GitHub Pages または任意の git ホストに公開</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>静的公開</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>静的キャッシュはこのサーバーからページを配信します。サイトの静的コピーを別の場所 (GitHub Pages や任意の git ホスト) に公開するには、静的公開を使用してください。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>前回の削除</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>書き込みで状態ロックを取得できませんでした（最終 %date）：そのたびにキャッシュされた結果がすべて無効になりました。%file はサイトを実行するすべてのユーザーが書き込める必要があります。NFS では NFSv4 または lockd が必要です。</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHPハンドラーのタイムアウトしたセッションは、このページや session_gc の cron ジョブのパートではなく、PHP 自身によって削除されます (session.gc_maxlifetime)。</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>すべてのユーザーのログイン中のセッションは、ログインレポートで一覧表示され、ログアウトさせることもできます。このレポートはどのセッションハンドラーでも動作します。</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>ログインレポートを開く</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>まだありません</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>セキュリティアクティビティ</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>最近のログイン、失敗した試行、およびパスワード、メールアドレス、2 段階認証の変更。</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>このアカウントの最近のログイン、失敗した試行、セキュリティの変更。</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>アクティビティの確認</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>ログイン失敗 %count 回</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>ログイン後、ユーザーは他の操作を行う前に新しいパスワードを設定する必要があります。仮のパスワードを渡すときに使用します。</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>既存の画像を選択</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>選択したオブジェクトの画像ファイルがこのフィールドにコピーされます。元のオブジェクトは変更されません。</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>「%name」の画像をこのフィールドにコピーしました。</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>画像を参照</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>名前で画像を検索</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>「%name」の画像を使用</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>この画像を使用</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>検索に一致する画像はありません。</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab は書き込まれませんでした (%reason)。サイトを実行しているユーザーの crontab に次の行を追加してください。追加しないと、キュー、インポート、通知、検索インデックスが実行されません:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>再インストールは Kickstarter (%file の後、php bin/php/kickstarter.php run --apply) または新規インストールで行います。</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore パブリックパッカーキャッシュ</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL キャッシュ (応答とスキーマのクラス)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name のコピー</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>データ型</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>データ型 %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG画像を読み取れなかったか、その中に安全に表示できるものがありません。</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>画像をコピーできませんでした。もう一度お試しいただくか、サイト管理者にお問い合わせください。</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>選択したオブジェクトが存在しないか、読み取る権限がありません。</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>選択したオブジェクトには画像がありません。</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>選択したオブジェクトの画像ファイルを読み取れませんでした。</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>選択したオブジェクトの画像は、このフィールドで許可されているサイズを超えています: %1 バイト。</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>ブックマークの名前が「%name」に変更されました。</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>このページはこのサイトアクセス（%siteaccess）では無効になっています。このページがあるサイトアクセスでブックマークを開いてください。</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>このページのモジュールは、ここではインストールされていないか、有効になっていません。</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>このページはもう存在しません。このページのモジュールにはそのようなビューがありません。</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>このページを開くことを許可するロールがありません。</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>このサイトアクセスを使用する権限がありません。</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>このページに表示されるコンテンツを読む権限がありません。</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>この種類のページはブックマークできません。フォームに対して動作するだけのページか、一時的なページです。</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>このページのアドレスがありません。</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>このページは現在開けません。</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>前回の実行で、メール転送が %count 件のメッセージを拒否しました。メールサーバーと site.ini MailSettings を確認してください。</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count 件のイベントが待機中ですが、通知の cron ジョブの実行は記録されていません。cron ジョブのパート「frequent」を crontab に追加するか、exp:notification:run --apply を実行してください。</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>ノードピッカーで別のサイトまたはセクションを選択</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>所有者を変更できるのはシステム管理者だけです。root として ./console exp:content-check --fix-permissions --apply を実行してください。</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>空</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>署名キーは 1 年以上前のものです。exp:audit key rotate --apply でローテーションしてください。</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>ページの時間に占める割合</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>完全なレンダリングが要求されました</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>ページキャッシュにこのページがありませんでした（%reason）</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ページキャッシュが応答しませんでした</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>レンダリング済み</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>カーネルによるレンダリング: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>ページキャッシュから %ms ms で配信されました。このページは %stored に %render ms のレンダリングによって保存されました（%age 秒前）。</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>今すぐレンダリング</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>キャッシュされた表示に戻る</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored のレンダリングから（%render ms）</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>このリクエスト: ページキャッシュから %ms ms で配信されました。</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ユーザー</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ユーザー ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>キャッシュプロファイル</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>このビュー</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>ビューキャッシュ</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ユーザーごと (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>ユーザーのキャッシュプロファイル：同じプロファイルのユーザーはビューキャッシュのファイルを共有します</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>はい</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ユーザー名</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>ログイン中</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>セッション</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>コンテンツビューキャッシュのキーのうちユーザーに依存する部分を、このページの ViewCacheTweaks のもとでキーが取るとおりに示します。同じプロファイルのユーザーはビューのキャッシュファイルを共有しますが、ビュー自体の部分（プリファレンス、リスナーのキー）が異なる場合は、このページに限り独自のプロファイルを持ちます。</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>プロファイル</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>このビュー（ノード %node）</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user：ログインしているユーザーはそれぞれ独自のキャッシュファイルを持ちます。</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>有効な ViewCacheTweaks：%tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>パート</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>値</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ユーザーに依存する部分はありません（ViewCacheTweaks）。</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>このビュー</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>テキストとしてコピー</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ロール</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>ロールの割り当てを読み込めませんでした。</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ロール ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ロール</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>制限</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>割り当て先</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ユーザー</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>グループ %name（オブジェクト %id）</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>コピーしました</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>コピーできませんでした。</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>リスナーにより除外</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>匿名の訪問者</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>あなたと同じ</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>異なる</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>同じ ViewCacheTweaks のもとで匿名の訪問者が得るプロファイル（デフォルトのプリファレンス、ビューの部分なし）：セッションを読むリスナーにはそれらを問い合わせられません。</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>プリファレンス</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ユーザープリファレンスに依存するビューモードはありません（site.ini [ContentSettings] CachedViewPreferences）。</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>これらのビューモードのビューが依存するプリファレンス（CachedViewPreferences）と、ユーザーの値またはデフォルト値。プロファイルには userpreferences として、すべてのビューモードの分がまとめて含まれます。</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>表示モード</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>プリファレンス項目</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>既定</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>ポリシー</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>ロールのポリシーを表示（%count）</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>ポリシーはこのセクションを開いたときにサーバーから 1 ページずつ読み込まれ、モジュールとファンクションで絞り込めます。</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>機能</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>すべてのモジュール</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>すべてのファンクション</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>制限</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>さらに表示</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>これらのロールにはポリシーがありません。</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>フィルターに一致するポリシーはありません。</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching 件のポリシー（全 %total 件）</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>開くと読み込まれます。</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>モジュール/ファンクション、ロール、制限</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>ポリシーを検索</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>さらに読み込む</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>モジュール/ファンクション</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>すべてのロール（%count 件のポリシー）</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>一致するポリシーはありません。</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched 件中 %shown 件のポリシー</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>応答がありません</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>マスク済み</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>説明を表示</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>説明を非表示</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>すべて開く</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>すべて閉じる</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>キーまたは値</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>セッションを検索</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>ほか %count 件</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>入れ子が深すぎて表示できません</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>切り詰め済み、全 %count 文字</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>開始日時</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>クッキー名</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>セッション ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>ハンドラー</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>保存パス</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP の既定値</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>有効期間 (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>クッキー</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>有効期間 %s 秒</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>あなた自身の PHP セッションです。このセクションを開いた時点の状態で、他のセッションが表示されることはありません。秘密に見えるキー (トークン、ハッシュ、パスワード) の値はマスクされます (debugbar.ini SessionMask[])。それ以外はすべて、個人データも含めて保存されているとおりに表示されます。</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count 個のキー、%size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>大きい</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>セッションは空です。</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>このリクエストではセッションが開始されませんでした。</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>拡張機能 %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>カーネルとその他</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>すべてのエントリが表示されているわけではありません: セッションにはここに一覧表示できる以上の内容があります。</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count 個のキーは一覧に含まれていません。</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>フレーム</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>トークンに見える値 (JSON Web Token、Authorization ヘッダーの資格情報、秘密鍵、長い 16 進数またはランダムなテキスト) も、キーの名前にかかわらずマスクされます (debugbar.ini SessionValueMask[])。</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>キーが秘密のように見えます (debugbar.ini SessionMask[])。</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>値がトークンのように見えます。</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>マスクされたキーの下にあります。</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>テーブルと同様にマスクされた、テキスト形式のセッションです。</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>セッションが %size を超えています (debugbar.ini SessionWarnBytes): このユーザーのすべてのリクエストがセッション全体を読み取り、変更されたときには書き込みます。</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP はこのセッションをファイルに保存し、リクエスト全体の間ファイルをロックします: 同じユーザーのリクエスト (複数のタブ、AJAX 呼び出し) は互いを待ちます。</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>開いたままにする</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size を超えています (debugbar.ini SessionWarnBytes): このユーザーのすべてのリクエストがセッション全体を読み取ります。</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count 個中 %hits 個をキャッシュから読み取り</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>テンプレートはレンダリングされませんでした (ビューキャッシュから読み取られたビューは何もレンダリングしません)。</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>ロールの割り当て</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ロールとポリシー</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>匿名の訪問者とは異なる</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>匿名の訪問者と同じ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>未送信</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>通知の cron ジョブは、実行のたびにここに記録します。パート frequent を crontab に追加するか、exp:notification:run --apply を実行してください。</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>コンソールを使用してください: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>このトピックはリリースされていないため、読者には表示されません。</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>マイグレーション</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ファイルとして保管されたインストールへの変更: その状態、実行履歴、実行とロールバック。</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>サイトの静的コピーを GitHub Pages または任意の git ホストに公開します。</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>静的公開</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>レビュー中</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>このページは読者に表示されています。</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>誰かがリリースするまで読者には表示されません。</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>ページはレビュー中です。リリースされるまで読者には表示されません。</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>ページはリリースされました。読者に表示されています。</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>ページは再び下書きになりました。レビューされてリリースされるまで読者には表示されません。</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>今すぐリリース</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>このバージョンを作成していない、ロール %role を持つユーザーのみがリリースできます。</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>リリース待ちのヘルプトピック</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>再びリリースされるまで読者に表示されなくなります。</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>次にレビュー担当者が確認します。読者にはまだ表示されません。</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>すぐに読者に表示されます。</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>作業を続けるためにレビューから外します。読者には表示されません。</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>このページを読者に非表示にしますか？</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>このページを下書きに戻しますか？</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>誰かが再びリリースするまで、%title は読者に表示されなくなります。</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title は作業を続けるために下書きに戻ります。引き続き読者には表示されず、リリースする前に新たなレビューが必要です。</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>これらのトピックはレビュー中です。現在のバージョンを作成していない人がリリースすると、読者に表示されます。</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>システム設定 &gt; cron ジョブ</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>cron ジョブのパートはまだ一度も実行されていません。ジョブキュー、インポート、通知、検索インデックスが待機しています。php bin/php/installcrontab.php --add --apply を実行するか、--show の出力行を crontab に追加してください。</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>なし。</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>認証アプリで確認</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>メールのコードで確認</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>回復コードで確認</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>パスキーで確認</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>外部アカウントで確認</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>セキュリティアクティビティ</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>ネットワーク単位で表示されます。アドレスはサイトのデータ保護設定に従って保存されます。</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>記録なし</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>場所</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>おおよそ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>デバイスの管理</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>認証アプリで確認</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>メールのコードで確認</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>回復コードで確認</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>パスキーで確認</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>外部アカウントで確認</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>セキュリティアクティビティ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>記録なし</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>場所</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>おおよそ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>このユーザーのセッションの表示</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site のアカウント %login で、最近ログインしたことのない場所からログインがありました:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>おおよその場所</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os 上の %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ログインレポート</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>パスキーを確認できませんでした。もう一度お試しください。</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>パスキーのみでログインするアカウントは、ここでパスワードを使用できません。「パスキーでログイン」を選択してください。</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login のパスキー</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>このアカウントがログインに使用するパスキーです。紛失または盗難にあったデバイス上のパスキーは取り消してください。取り消したパスキーではログインできなくなります。新しいパスキーはアカウントの所有者が自分で追加します。</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>アカウントにパスキーが必要です</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>アカウントにパスキーを追加</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>続行するにはパスキーを追加してください。以後はパスワードだけでなく、パスキーでログインします。</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>パスキーでのログインは、パスワードより速く安全です。今すぐ追加するか、追加せずに続行してください。</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>後で</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>パスキー「%name」を取り消してもよろしいですか？</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>このパスキーでは、このアカウントにログインできなくなります。最後のパスキーだった場合、所有者はパスワードでログインするか、あなたが新しいパスワードを設定します。</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>パスキーの取り消し</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>取り消し</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>このアカウントにはパスキーがありません。</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>認証器</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>最後のパスキーです。削除する前に別のパスキーを追加してください。</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>このアカウントはパスキーのみでログインします (パスキーポリシー)。パスキーが残っていない場合は、再びパスワードでログインします。</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>これは最後のパスキーで、パスキーがないとアカウントにログインできません。先に別のパスキーを追加してください。</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>パスキー「%name」を取り消しました。このパスキーでは、このアカウントにログインできなくなりました。</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>認証アプリのコード</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>データを完全に削除するか、ログを消去しようとしています。</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>パスワードとパスキー</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>パスワードと認証アプリのコード</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>または：</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>このブラウザーではパスキーを使用できません。別の方法か、別のブラウザーを使用してください。</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>続行すると、ブラウザーがパスキーのいずれかを求めます。</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>パスキーで続行</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>システム設定</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>自分のパスワード、メールアドレス、パスキー、2 段階認証、リカバリーコード、API キーの変更、および自分の他のデバイスからのログアウト。</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ユーザーの作成と編集、ユーザーのパスワードとデバイス、アカウント設定、新規ユーザーアカウントの承認または拒否、ロールの割り当て、ポリシーの編集。</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>データの削除</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ごみ箱を空にすること、ごみ箱から項目を削除すること、複数の項目を一度に削除すること。</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>コンテンツの削除、公開、保存</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>コンテンツの削除 (ごみ箱への移動を含む)、公開、下書きの保存。フォームの送信時に確認します。既定ではオフです。</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>重要な操作の前に、ログイン中のユーザーは本人であることを再確認します。パスワードとパスキーで、またはパスキーがない場合はパスワードと認証アプリのコードで確認します。確認を求めるのは Web ページだけです。REST インターフェイス、SOAP、WebDAV、expservices のログイン、コマンドラインでは求めません。</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>設定の適用範囲</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>設定の対象</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>すべてのサイトアクセス</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>サイトアクセス %name のみ</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>確認を求める対象：%group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>メンバーにのみ確認を求めるユーザーグループにチェックを付けます (例：編集者)。チェックなし：すべてのユーザー。</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>すべてのサイトアクセスを対象に settings/override/site.ini.append.php に保存されます。保存時に本人確認を求められます。</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php に保存されます。settings/override の値はこれより優先されます。保存時に本人確認を求められます。</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>ページを開く</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count 件中 %from–%to 件</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>ユーザー名またはユーザー ID：イベントの対象となったアカウント、または操作を行ったユーザー。</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>アカウント</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>変更後</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>すべての結果</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>変更前</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>実行者</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>クリア</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>完了</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>イベントは %days 日間保存されます。</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>イベントは手動で削除されるまで保存されます。</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>イベント</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>すべての操作</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>このアカウントのすべてのイベント</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>一覧を CSV でエクスポート（%count）</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>開始日時</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>一覧の絞り込み</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>一致するイベントはありません。</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>1 ページの表示件数</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini で記録が無効になっています（[UserAuditSettings] UserAudit）。一覧には以前に記録された内容が表示されます。</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>拒否</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>ユーザー監査ログのテーブルがありません。php update/common/scripts/6.0/createuseraudittable.php で作成してください。それまでは、監査ファイルにすべてのイベントが保存されます。</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>このページには SQL データベースが必要です。MongoDB では利用できません。監査ファイルにはすべてのイベントが保存されます。</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>終了日時</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ユーザー監査ログ</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ユーザー</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>日時</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>場所</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>誰がどのアカウントを変更、作成、有効化、無効化、移動、または削除したか、誰がログインしたか拒否されたか、どのロールが割り当てられたか：イベントごとに 1 行、変更前と変更後のフィールド付きで記録されます。パスワードとシークレットが記録されることはありません。</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>グループ</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>システム</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>不明</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>アカウントの保護</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site のアカウント %login に、回復コードを使用してログインがありました。</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>回復コードが使用されました</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>アカウント</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>おおよそのアドレス</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>再度ログインするには新しいパスワードを申請するか、サイトの管理者にお問い合わせください。</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>新しいパスワードの申請</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>各回復コードは 1 回だけ使用できます。携帯電話を紛失した場合は、認証アプリを設定し直し、新しい回復コードを安全な場所に保管してください。</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>アカウントへのログイン試行の失敗</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>今後は、ログイン時にパスワードに加えてコードの入力が求められます。ご自身で行った操作であれば、何もする必要はありません。</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>ご自身による試行でパスワードを忘れた場合は、新しいパスワードを申請してください。そうでない場合は、より強力なパスワードを選択し、2 段階認証をオンにしてください。</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>心当たりがない場合は、第三者がパスワードを知っている可能性があります。今すぐパスワードを変更し、アカウントがどこでログインしているかを確認してください。</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>残りの回復コード</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>お使いのデバイスの確認</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>セキュリティ警告</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>%site のアカウント %login に、誤ったパスワードで %count 回連続してログインしようとする試行がありました。</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site のアカウント %login でセキュリティイベントが発生しました。</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>これはアカウントに関するセキュリティ警告です。この種の変更があるたびに送信され、オフにすることはできません。</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>日時</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site のアカウント %login の 2 段階認証がオフになりました。</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>2 段階認証がオフになりました</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site のアカウント %login の 2 段階認証がオンになりました。</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>2 段階認証がオンになりました</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site のアカウント %login は、ログインの失敗が多すぎたためロックされました。</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>アカウントは現在、パスワードだけで保護されています。心当たりがない場合は、パスワードを変更した後で 2 段階認証を再度オンにしてください。</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>アカウントがロックされました</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site のアカウント %login にパスキーが追加されました。</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>このパスキーを持つ人は、パスワードなしであなたのアカウントにログインできます。追加した覚えがない場合は、「パスキー」でパスキーを削除し、パスワードを変更してください。</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site のアカウント %login からパスキーが削除されました。</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>このパスキーでは、あなたのアカウントにログインできなくなりました。削除した覚えがない場合は、パスキーとデバイスを確認してください。</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>アカウントにパスキーが追加されました</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>アカウントからパスキーが削除されました</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>セキュリティアクティビティ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name のセキュリティアクティビティ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ログイン</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ログイン試行の失敗</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ログアウト</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>セッションのログアウト</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>新しいデバイスからのログイン</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>新しい場所からのログイン</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>本人確認済み (「本人確認」)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>本人確認の失敗</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>パスキーでログイン</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>パスキーによるログインの失敗</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ログイン拒否: 2 段階認証のコードがないか、正しくありません</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>2 段階認証のコードが正しくありません</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ログインの失敗によるアカウントのロック</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>アカウントのロック解除</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>パスワードの変更</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>パスワードの変更の失敗</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>パスワードのリセット</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>新しいパスワードの申請</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>メールアドレスの変更</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ユーザー名の変更</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>2 段階認証をオン</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>2 段階認証をオフ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>回復コードの使用</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>新しい回復コード</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>アプリパスワードを作成</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>アプリパスワードを取り消し</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>パスキーを追加</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>パスキーを削除</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>アカウントを有効化</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>アカウントを無効化</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ログインとセッション</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>アカウントの変更</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>要確認</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>自分</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ユーザー本人</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>実行者: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>方法</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>ブラウザー</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>OS</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>デバイス</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>場所</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>国</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>セッション</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>対象</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>送信方法</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>失敗した試行</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>残りのコード</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>ログインハンドラー</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>セキュリティアクティビティ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name のセキュリティアクティビティ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>アカウントのログインとセキュリティの変更です。心当たりのない操作がある場合は、パスワードを変更し、見覚えのないデバイスをログアウトさせてください。</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>このアカウントのログインとセキュリティの変更です。</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>お使いのデバイス</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>パスワードの変更</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>アカウントに戻る</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>セキュリティアクティビティは記録されていません</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>セキュリティアクティビティはユーザー監査ログから読み取られますが、そのテーブル expuser_audit が存在しないか、このデータベースではサポートされていません。php update/common/scripts/6.0/createuseraudittable.php または 6.0.15 のデータベース更新を実行してください。</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>過去 %days 日間</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>過去 %days 日間のログイン</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>最近のセキュリティアクティビティ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>拒否</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>セキュリティアクティビティはまだ記録されていません。</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>セキュリティイベントは %days 日間保持されます。</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>セキュリティイベントは、管理者が削除するまで保持されます。</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ログインデータのダウンロード</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>セッションとセキュリティイベントを JSON ファイルとして取得します。</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>このサイトではセッションが記録されないため、他のデバイスをログアウトできませんでした。今すぐパスワードを変更してください。</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>他の %count 件のセッションをログアウトしました。次にパスワードを変更してください。</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>他にログインしているデバイスはありませんでした。次にパスワードを変更してください。</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ありがとうございます。このイベントはご本人によるものとして記録されました。</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>このイベントに回答は不要です。</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ページの有効期限が切れていました。何も変更されていません。もう一度お試しください。</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>アカウントの保護</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ここにご自身によるものではない操作がある場合は、他のすべてのデバイスをログアウトしてから、新しいパスワードを設定してください。ログイン状態を保持するでログインしたままのデバイスもログアウトされます。</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>このデバイス以外のすべてのデバイスは、次のリクエスト時にログアウトされます。その後、新しいパスワードを設定します。</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>はい、他のデバイスをログアウトします</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>これはご本人ですか？</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>はい、私です</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>いいえ、アカウントを保護します</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ログイン</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ログイン試行の失敗</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ログアウト</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>セッションのログアウト</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>新しいデバイスからのログイン</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>新しい場所からのログイン</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>本人確認済み (「本人確認」)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>本人確認の失敗</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>パスキーでログイン</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>パスキーによるログインの失敗</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ログイン拒否: 2 段階認証のコードがないか、正しくありません</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>2 段階認証のコードが正しくありません</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ログインの失敗によるアカウントのロック</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>アカウントのロック解除</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>パスワードの変更</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>パスワードの変更の失敗</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>パスワードのリセット</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>新しいパスワードの申請</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>メールアドレスの変更</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ユーザー名の変更</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>2 段階認証をオン</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>2 段階認証をオフ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>回復コードの使用</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>新しい回復コード</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>アプリパスワードを作成</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>アプリパスワードを取り消し</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>パスキーを追加</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>パスキーを削除</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>アカウントを有効化</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>アカウントを無効化</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ログインとセッション</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>アカウントの変更</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>要確認</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>セキュリティアクティビティ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name のセキュリティアクティビティ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>アカウントのログインとセキュリティの変更です。心当たりのない操作がある場合は、パスワードを変更し、見覚えのないデバイスをログアウトさせてください。</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>お使いのデバイス</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>パスワードの変更</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>このサイトでは、セキュリティアクティビティはまだ記録されていません。</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>過去 %days 日間のログイン</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>失敗した試行</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>セキュリティアクティビティはまだ記録されていません。</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ログインデータのダウンロード</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>セッションとセキュリティイベントを JSON ファイルとして取得します。</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>このサイトではセッションが記録されないため、他のデバイスをログアウトできませんでした。今すぐパスワードを変更してください。</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>他の %count 件のセッションをログアウトしました。次にパスワードを変更してください。</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>他にログインしているデバイスはありませんでした。次にパスワードを変更してください。</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ありがとうございます。このイベントはご本人によるものとして記録されました。</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>このイベントに回答は不要です。</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ページの有効期限が切れていました。何も変更されていません。もう一度お試しください。</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>アカウントの保護</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ここにご自身によるものではない操作がある場合は、他のすべてのデバイスをログアウトしてから、新しいパスワードを設定してください。ログイン状態を保持するでログインしたままのデバイスもログアウトされます。</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>このデバイス以外のすべてのデバイスは、次のリクエスト時にログアウトされます。その後、新しいパスワードを設定します。</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>はい、他のデバイスをログアウトします</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>これはご本人ですか？</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>はい、私です</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>いいえ、アカウントを保護します</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>パスワード</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>パスワードと 2 段階認証のコード</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST インターフェイス</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP インターフェイス</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>シングルサインオン</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>セッションの記録開始前にログイン</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ログインレポート</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>サイトにログインしているユーザー、アカウントのログインとその失敗の頻度、およびユーザーのすべての場所からのログアウト。どのセッションハンドラーでも動作します。</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>セッションはログアウトされました。そのデバイスでは再度ログインする必要があります。</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login を %count 件のセッションからログアウトさせました。</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login には実行中のセッションがありませんでした。</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>その ID、ユーザー名、メールアドレスを持つアカウントはありません。</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>これは現在使用中のセッションです。終了するには、ログアウトしてください。</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>そのセッションは既に終了していました。</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ページの有効期限が切れていました。何も変更されていません。もう一度お試しください。</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>このサイトではセッションは記録されません (site.ini [UserSessionSettings] Tracking=disabled)。</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>テーブル expuser_session がありません</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>テーブルを作成すると、セッションが記録されるようになります: php update/common/scripts/6.0/createusersessiontable.php または 6.0.15 のデータベース更新。</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>現在と今日</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>実行中のセッション</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>ログイン中のユーザー</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>今日のログイン数</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>今日の失敗した試行</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ユーザーをすべての場所からログアウト</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>アカウントのすべてのセッションは、次のリクエストの時点で終了します。「ログイン状態を保持する」で維持されているセッションも同様です。アカウントが第三者の手に渡ったおそれがある場合に使用し、その後パスワードをリセットしてください。</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ユーザー ID、ユーザー名、またはメールアドレス</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>すべての場所からログアウト</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>現在ログイン中</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>最近使用された %limit 件を表示しています。</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ユーザー</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>デバイス</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ログイン</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>最終アクティビティ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>このデバイス</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>記録なし</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>ログアウト</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ログイン中のセッションはありません。</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>過去 %days 日間</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>ログイン数と失敗した試行はユーザー監査ログから集計されますが、そのログが存在しません。新しいセッションは集計されます。</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>ログイン回数</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>失敗した試行</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>新しいセッション</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>セッションハンドラー: %handler。セッションはテーブル expuser_session から読み取られるため、このレポートはどのハンドラーでも動作します。</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>過去 %hours 時間の不審なアクティビティ</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>1 つのネットワークが %accounts 件のアカウントへのログインに失敗しました（%count 回の試行）</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ログイン失敗によりアカウントがロックされました</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>1 つのアカウントで %count 回のログイン失敗</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>%count か国から同時にログイン</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>セキュリティアクティビティ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>セッション</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ログインの失敗はユーザー監査ログから読み取られますが、ここでは利用できません。</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>不審な点はありません。ログイン失敗を繰り返すアカウント、複数のアカウントを試すネットワーク、複数の国からログインしているアカウントはありません。</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>アカウントのセキュリティ警告</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>アカウント %login でセキュリティイベントが発生しました: %event。心当たりがない場合は、%url でアカウントを保護してください。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>システム設定</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>このサイトのコンテンツから、ページに必要なフィールドだけを1回のリクエストで取得します。スキーマはコンテンツクラスに従い、各クエリは送信したユーザーの権限で実行されます。</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>このサイトアクセスでは GraphQL API が無効になっています。graphql.ini で有効にしてください: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL ライブラリ (webonyx/graphql-php 15) がインストールされていません。</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>エンドポイント</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>ライブラリ</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>スキーマ</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count 個のコンテンツクラス、スキーマ %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>クエリ</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>変数 (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>実行</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>応答</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>実行中…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>応答を読み取れませんでした。</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>クエリは、このセッションでサインインしているあなたの権限で実行されます。</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds 秒間に %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>制限なし</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>深さ</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>複雑さ</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>リストあたりの項目数</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (既定値 %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>ユーザーまたはキーごとのリクエスト数</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>匿名アドレスごとのリクエスト数</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>イントロスペクション</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>保存済みクエリのみ</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>最大クエリサイズ</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes バイト</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>最大アップロードサイズ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>サイトアクセス %siteaccess は存在しません。</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess でミューテーションが有効になりました。</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess でミューテーションが無効になりました。</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess で GraphQL API が有効になりました。</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess で GraphQL API が無効になりました。</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>設定を書き込めませんでした: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>レスポンスキャッシュを消去しました: %count 件の応答を削除しました。</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>削除するには、クエリの横のチェックボックスをオンにしてください。</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>クエリを削除できませんでした: PersistedQueryDirectoryList[] のディレクトリで提供されるクエリは、そのファイルとともに削除されます。</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>保存済みクエリを削除しました。</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>ミューテーション</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>有効</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>サイトアクセス</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API とそのミューテーションが応答する場所です。ボタンは ./console exp:graphql:enable と exp:graphql:disable と同じように graphql.ini を書き込みます。</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>サイトアクセス</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>変更</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>無効にする</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>ミューテーション無効</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>ミューテーション有効</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>有効にする</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>制限</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>このサイトアクセスの graphql.ini [GraphQLSettings]。</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>レスポンスキャッシュ</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>保存済みクエリの応答。ユーザー権限ごとに保持され、コンテンツが公開されるたびに失効します。</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>保持中の応答</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count 件の応答、%bytes バイト</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>最大保持期間</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds 秒</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>最終失効</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>レスポンスキャッシュを消去</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>保存済みクエリ</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist で、またはクライアントによって保存されます (automatic persisted queries)。名前または SHA-256 で呼び出します。</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>場所</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>同梱</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>はい、このクエリを削除します</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>保存済みクエリはまだありません。</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API キー</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>スコープ graphql:read (クエリ) または graphql:write (ミューテーション) を持つ個人用 API キー。API アクセスのページ、または ./console exp:graphql:keys で作成・失効できます。</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API アクセス</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>すべてのキー</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>キー</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>所有者</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>スコープ</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>最終使用</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>有効</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>期限切れ</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>失効</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL スコープを持つ API キーはまだありません。</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>このページを表示しているサイトアクセス %siteaccess では GraphQL API が無効になっています。どこで応答するかは下の表に示します。</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>このページを表示しているサイトアクセス %siteaccess のものです。</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>エンドポイントが求める各イベント (publish, update, trash, delete, move, hide, reveal, mutation) は、cronjob パート graphqlwebhooks によって署名付きで送信されます。./console exp:graphql:webhooks はこのセクションと同じ処理を行います。</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>イベント</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>すべてのサイトアクセス</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>故障</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>シークレットなし</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>待機中</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count 件断念</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>最終配信</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>テスト送信</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>はい、この Webhook を削除します</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Webhook はまだありません。</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Webhook を追加</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>追加</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>最近の配信</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>日時</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>購読</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>クライアント向けのライブ更新: /api/graphql/subscribe のイベントストリームと、Velocity 上の WebSocket (graphql-transport-ws)。各イベントは、その内容を読める購読者にのみ送られます。</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>現在開いている数</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>最大同時数</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>全体で %total、ユーザーごとに %user、アドレスごとに %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>匿名の購読</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>ストリームの長さ</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook を追加できませんでした: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name を変更しました。署名シークレットはそのままです。</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>署名シークレットを保存できませんでした (システム設定 &gt; シークレット)。</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name を追加しました。署名シークレット (今回のみ表示): %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhook %name はありません。</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name は応答しませんでした: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name は %ms ms で %status を返しました。</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>削除するには、Webhook の横のチェックボックスをオンにしてください。</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name を削除しました。</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>このサイトアクセスでは GraphQL API が無効になっています。</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL ライブラリがインストールされていません。</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET または POST を使用してください。</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>本文が JSON オブジェクトではありません。</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables が JSON オブジェクトではありません。</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions が JSON オブジェクトではありません。</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>クエリは POST で送信してください。</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>リクエストにクエリがありません。</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>クエリが %max バイトを超えています。</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>内部サーバーエラー</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node には id、remoteId、path、urlAlias のいずれか1つだけが必要です。</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content には id と remoteId のいずれか1つだけが必要です。</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after のカーソルはこの API が返したものではありません。</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>画像エイリアス %alias は存在しません (image.ini [AliasSettings] AliasList[])。</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>ここでは保存済みクエリのみ受け付けます: 保存済みクエリの id を送信してください。</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>保存済みクエリのハッシュが SHA-256 ではありません。</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>保存済みクエリのハッシュがクエリと一致しません。</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>リクエストが多すぎます: %window 秒間に最大 %limit 件までです。%reset 秒後に再試行してください。</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>クエリの深さは %depth レベルです。許可されるのは最大 %max までです。</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>クエリの複雑度は %complexity です。許可されるのは最大 %max までです。</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>このリクエストはスキーマを読み取れません (イントロスペクション)。</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search にはテキストまたはフィルター (classes, subtree, sections, publishedAfter, publishedBefore) が必要です。</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument は日付ではありません (ISO 8601, 2026-10-30)。</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag には id、remoteId、path のいずれか1つだけが必要です。</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout には id、identifier、urlAlias のいずれか1つだけが必要です。</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart リクエストの operations フィールドが 1 つの JSON リクエストではありません。</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart リクエストの map フィールドが JSON オブジェクトではありません。</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart リクエストにファイル %field がありません。</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>フィールドマップのパスは variables. で始まる必要があります: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>ファイル %name が完全に届きませんでした (アップロードエラー %error)。</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>ファイル %name が %max バイトを超えています。</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>ファイル %name を検査できませんでした。</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>このサイトアクセスではミューテーションが無効になっています (graphql.ini [GraphQLSettings] MutationsEnabled)。</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>ミューテーションは POST で送信してください。</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>コンテンツを変更するにはサインインしてください。</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API キーにスコープ %scope がありません。</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>セッションを使うミューテーションには、そのセッションのフォームトークン (ヘッダー X-CSRF-Token) が必要です。</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl は無効です: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] にホストが指定されていません。</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>アドレスは https のアドレスである必要があります。</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>ホスト %host は graphql.ini [GraphQLSettings] UploadFromUrlHostList[] にありません。</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ファイルを取得できませんでした。</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload は入力型専用です。</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload 型の変数は multipart リクエストのファイルを受け取ります。</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>リモート ID %remoteId は既に使われています。</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>このコンテンツには既に %language の翻訳があります: updateContent を使ってください。</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>少なくとも 1 つのフィールドを指定してください。</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>新しいバージョンを作成できませんでした (コンテンツの下書きが多すぎます)。</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>バージョン %version は下書きではありません。</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent には id と nodeId のいずれか 1 つだけが必要です。</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ロケーションを自分自身の下に移動することはできません。</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>このコンテンツには既に %parentId の下にロケーションがあります。</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>フィールド %field の値を保存できませんでした。</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>コンテンツ言語 %language は存在しません。</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>スキーマにコンテンツクラス %class はありません。</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>コンテンツが存在しないか、読み取る権限がありません。</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>このコンテンツに対してこの操作を行う権限がありません。</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>クラス %class には書き込み可能なフィールド %field がありません。</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>フィールド %field が 2 回指定されています。</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>フィールド %field はファイルを受け取ります: アップロードとして送信してください (multipart リクエスト)。</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>フィールド %field はファイルを受け取りません。</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>フィールド %field には値が必要です。</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>フォーマット %format はリッチテキストフィールド専用です。%field は値をそのまま受け取ります (RAW)。</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>フィールド %field は必須です。</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML を読み取れませんでした。</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content は id とともにのみ version を受け取ります。</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>プレビュートークンが無効か、期限切れです。</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>オリジンではありません (https://host または https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API のスコープではありません: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>購読は /api/graphql/subscribe に送ってください (イベントストリームまたは WebSocket)。</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>リクエストがドキュメントの操作を指定していません。</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>購読ではフィールドを 1 つだけ指定してください。</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>開いている購読が多すぎます。後でもう一度お試しください。</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>%max 件の購読を開いており、これが上限です。</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>お使いのアドレスで %max 件の購読が開いており、これが上限です。</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>このサイトアクセスでは購読が無効になっています。</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>購読するにはサインインしてください (トークンまたは個人用 API キー)。</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>ミューテーションは /api/graphql に送ってください。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>マイグレーション</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ステータスを読み取れませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>マイグレーションのテーブルがまだ存在しません: ./console exp:upgrade --apply で作成されます。</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count 件のマイグレーションが失敗しました</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>%user が開始した実行が進行中です</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>インストールはロックされています: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>保留中</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>孤立</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>最終実行</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>まだありません</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>すべてのマイグレーション</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>シミュレーション実行</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ドライラン</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>保留中のマイグレーションはトランザクション内で実行され、その後ロールバックされました: 何も保存されていません。以下は各マイグレーションがデータベースで変更した内容です。</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>今実行した場合に行われる内容です。何も変更されません: 保留中の各マイグレーションが行う変更と、実行の前後に行われる処理を示します。</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>シミュレート</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>実行</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>ドライランが失敗しました: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>シミュレーションにはスキーマ変更をロールバックできる PostgreSQL または SQLite が必要です。このデータベースでは、以下の計画が実行時に行われる内容です。</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>マイグレーション一覧</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>マイグレーション</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>行われる内容</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>シミュレーション: %result (%ms ミリ秒)</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>マイグレーションはまだありません。</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>実行の前後</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>実行前のキャプション</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>取得済み。マイグレーションが失敗した場合に復元されます</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>オフ</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>実行後のキャプション</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>実行が成功したときに取得</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>マイグレーション %total 件: 保留中 %pending 件、完了 %done 件、失敗 %failed 件。</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>マイグレーション履歴</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>すべての実行と、そのユーザー、環境、キャプション、コミット・タグ付け・プッシュされた内容。失敗または中断した実行は再開できます。実行前にキャプションが取得された実行は取り消せます。</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>実行を読み取れませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>マイグレーションのテーブルがまだ存在しません: ./console exp:upgrade --apply で作成されます。</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>実行</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>実行者</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>キャプション</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>リポジトリ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>前</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>後</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>プッシュ: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>再開</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ロールバック</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>この状態の実行はありません。</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>ここで開始</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>これらのページで開始された実行、再開、ロールバックと、それぞれのレポート。</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>内容</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ロールバック</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target のロールバック</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>実行 %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>実行の内容、その記録とログ。ここで開始された実行は、このページを閉じてもバックグラウンドで続行します。経過を確認するにはページを再度開いてください。</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>この実行を再開</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>この実行をロールバック</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>記録を読み取れませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>進捗</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user が %time に開始しました。</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>コードを確認し、実行前のキャプションを取得しています</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id を実行中 (%total 件中 %index 件目)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total 件中 %done 件完了</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>マイグレーションが実行されました。失敗した場合はキャプションを復元しています</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>実行後のキャプションを取得し、コミット、タグ付け、プッシュしています</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>キャプションを復元しています</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>実行が終了しました。レポートを読み込んでいます。</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>進捗を追跡できませんでした。実行の状況を確認するにはページを再読み込みしてください。</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>このページは実行の進行に合わせて更新されます。</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>レポート</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>時間</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ミリ秒</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>実行がエラーとして出力した内容</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>記録</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>環境</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>終了</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>コミット</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>タグ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>プッシュ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>この実行のマイグレーション</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ソース</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>実行ログ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>ログの末尾のみ表示しています。</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>実行中</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>レポートなしで終了</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>拒否</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>データベースに接続できませんでした</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>内部エラー</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>実行が進行中です</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind を %user が %time に開始しました。</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>経過を見る</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>インストールはロックされています</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>別の実行がロックを保持しています (アップグレードまたはコンソールでの実行): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>完了</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>保留中</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>不要</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ロールバック済み</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>適用済み</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>適用予定</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>取り消し済み</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>取り消し予定</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>未実行</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>他を待機中</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>変更を承認済み</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>変更を承認予定</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>シミュレーション済み</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>マイグレーション</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ステータス</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>履歴</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target を取り消す</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>実行は、その前に取得されたキャプションまで取り消されます。単一のマイグレーションはその down() で取り消されます。以前のキャプションの復元は上級者向けです。いずれも現在の状態のキャプションを取得した後、あなたとしてバックグラウンドで実行されます。</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>取り消せる対象を読み取れませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>実行</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>単一のマイグレーション</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>以前のキャプション</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>説明</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>はい</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>キャプション</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>取得日時</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>復元する部分</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>データベース</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>ストレージファイル (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>設定 (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>データベースを復元すると、セッションを含めキャプション取得時点に戻ります: その後、再度サインインを求められる場合があります。それ以降の変更はすべて失われます。最初に現在の状態のキャプションが取得されます。</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>何が復元されるか理解しています</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>キャプションの ID をもう一度入力してください</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>はい、取り消します</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>実行前にキャプションが取得された実行。</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>選択</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>キャプション付きの実行はまだありません。</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>自身を取り消せる適用済みマイグレーション (down() を持つもの)。</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>down() を持つ適用済みマイグレーションはありません。</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>以前のキャプション (上級者向け)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>キャプションはまだありません。</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>マイグレーションを実行</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>実行は %user としてバックグラウンドで進み、そのページで経過が表示されます。最初のマイグレーションの前にインストールのキャプションが取得されます。マイグレーションが失敗すると実行は停止し、キャプションが復元されます。</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>まずドライラン</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ステータスを読み取れませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>保留中のマイグレーション</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>この順序で実行されます。チェックを外すと、そのマイグレーションとそれを必要とするものは後の実行に回されます。</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>実行する</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>実行中はメンテナンスモードをオンにします。</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>適用後に変更されたもの</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>これらのファイルは適用されたものと異なります。理由を付けて変更を承認しない限り、実行はこれらを拒否します。再実行はされず、新しいチェックサムが記録され、理由は監査ログに保存されます。</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>変更を承認</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>理由</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>既定値が安全な設定です。各チェックボックスで手順を一つ省略します。</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>キャプションなし</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>実行の前後にキャプションを取得しません: 失敗時に自動で復元できません。</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>復元なし</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>失敗後、インストールを失敗時の状態のままにします。</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>コミットされていない変更を保持</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>設定、エクステンション、デザインにコミットされていない変更があっても実行します。それらはキャプションに含まれます。</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>コミットなし</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>ステータスファイルと実行ログをコミットしません (タグ付けとプッシュも行いません)。</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>プッシュなし</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>コミットとタグ付けを行いますが、プッシュしません。</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>タグなし</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>コミットとプッシュを行いますが、実行にタグを付けません。</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>はい、これらのマイグレーションを今すぐ実行します</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>保留中のマイグレーションはありません。</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>ステータスに戻る</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>このインストールへの変更 (コンテンツ、クラス、ロール、設定、スキーマ) を一度ファイルとして記述し、サイトのすべてのインストールに同じ順序で適用します。実行は最初にキャプションを取得し、マイグレーションが失敗すると復元し、行った内容を記録、コミット、プッシュします。</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>保留中の %count 件を実行</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>概要</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>保留中</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>完了</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>不要</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>データベース</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>トランザクション: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>サイトのマイグレーションは migrations/ に、エクステンションのものは extension/&lt;name&gt;/migrations/ にあります。名前の順序と依存関係に従って実行されます。</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>最終実行</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>このファイルは適用後に変更されました。</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>マイグレーションはまだありません。./console exp:migration:generate --skeleton &lt;name&gt; --apply で最初のものが作成されます。</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>最近の実行</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>すべての実行</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>実行はまだありません。</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>実行のシミュレーションにはポリシー migration/run が必要です。</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>実行が進行中です: 終了後にシミュレートしてください。</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>システム設定</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target はこのインストールの実行、マイグレーション、キャプションのいずれでもありません。</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>まず「はい、取り消します」にチェックを入れてください。</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>以前のキャプションの復元は上級者向けです: 「何が復元されるか理解しています」にチェックを入れてください。</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>キャプションの ID をもう一度入力してください: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>復元する部分を少なくとも一つ選択してください。</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>この実行には実行前のキャプションがありません: マイグレーションを一つずつ取り消すか、以前のキャプションを復元してください。</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>このマイグレーションは単独では取り消せません: 適用されていないか、down() がありません。</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>フォームを読み取れませんでした。</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>再開する実行を選択してください。</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>まず「はい、これらのマイグレーションを今すぐ実行します」にチェックを入れてください。</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>マイグレーションを少なくとも一つ選択してください。</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>適用後に変更されたマイグレーションがあります: 理由を付けて変更を承認するか、ファイルを元に戻してください。</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>変更されたマイグレーションを承認する理由を入力してください。</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>理由は最大 500 文字です。</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>ここで開始された実行がまだ進行中です (%detail)。終了するまでお待ちください。</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>別の実行がインストールのロックを保持しています: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>実行には存在するサインイン済みユーザーが必要です。</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php のコマンドラインバイナリが見つかりませんでした。migration.ini [AdminSettings] PhpCliPath にそのフルパスを設定してください。</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open が無効なため、ここでは実行を開始できません。サーバー上で ./console exp:migration:migrate --apply を実行してください。</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>実行のフォルダーに書き込めません: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>実行は開始されましたが、プロセス ID が報告されませんでした。%detail を確認してください。</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>取り消す対象を指定してください。</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>実行を開始できませんでした。</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>変更の記録</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>記録中は、管理画面やサイトのサイドバーで変更した内容がマイグレーションのステップとして保存されます: コンテンツ、クラス、ロールとポリシー、セクション、ユーザーとグループ、URL エイリアス、設定。終わったら停止し、記録された内容を確認して、そこからマイグレーションを生成してください。</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>記録を読み込めませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>記録のテーブルがまだありません: 先にアップグレードを実行してください (exp:upgrade --apply)。</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini で記録が無効になっています ([RecordingSettings] Recording=disabled)。</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>自分の変更</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>停止するまで、あなたが変更した内容だけを、どこで変更しても記録します。</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>記録</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time から、これまでに %count 件の変更。</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ラベル (任意)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>記録された内容を表示</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>記録を停止</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>自分の変更の記録を開始</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>サイト全体のウィンドウ</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>閉じるまで、すべてのユーザーとコンソールのすべての変更を記録します。開くときには本人確認を求められます。</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開いています</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>ウィンドウを閉じる</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>サイト全体のウィンドウを開く</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>記録一覧</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>ユーザーのアカウント (ログイン名、メールアドレス、パスワード) とユーザーアカウントのフィールドは決して記録されません。</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>変更数</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>サイト全体</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name の変更</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>停止済み</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>まだ記録はありません。</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>記録 %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>すべての記録</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>生成されるマイグレーション</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>変更されたもの 1 つにつき 1 ステップにまとめた変更: この記録から生成したマイグレーションが行うこと。</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>このインストールに YAML ステップ型 %types が揃えば、ここからマイグレーションを生成できます。</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>意図的に除外: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>何も記録されていません。</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>記録された内容</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count 件の変更、行われた順。</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>変更</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ステップ</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>対象</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>ほかに %count 件: ./console exp:migration:record:show ですべて表示できます。</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>破棄</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>記録とその内容を削除します。変更されたものは変更されたままです。</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>はい、この記録を破棄します</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>記録中…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>あなたの変更はマイグレーションのために記録されています。</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>このサイトのすべての変更がマイグレーションのために記録されています (サイト全体のウィンドウ)。</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>サイト全体の記録を開始しました: 停止するまで、すべてのユーザーのすべての変更が記録されます。</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>記録を開始しました: 停止するまで、あなたの変更が記録されます。</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>記録を停止しました。記録された内容は破棄するまで残ります。</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>記録とそのイベントを削除しました。</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>記録 %id はありません。</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>先に「はい、この記録を破棄します」にチェックを入れてください。</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>セッションの記録を停止できるのは、記録したユーザーだけです。</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>停止する記録を選んでください。</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>この種類の記録はすでに実行中です。</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>記録を変更できませんでした: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>マイグレーションを生成</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>マイグレーションの名前(任意)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>マイグレーション %file を書き込みました。どのステップでも行えない変更はファイルの先頭に記載されています。手作業で行ってください。</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>マイグレーションは書き込まれませんでした: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>分割して行う長い実行</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>空のフィールドは migration.ini [RunSettings] の設定を維持します。</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>最大このマイグレーション数</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>この秒数を過ぎたらマイグレーションを開始しない（秒）</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>マイグレーション間の待機（秒）</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>低い優先度（1〜19）</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>長時間実行のフィールドは 1 以上の整数です（待機：0〜60 秒、優先度：1〜19）。空欄も可。</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>%time に自動的に閉じます。</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>この時間後に自動的に閉じる（分、任意）</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>分数は 1〜44640（31 日）の整数です。空欄も可。</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>マイグレーション %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>新しいマイグレーション</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML マイグレーション：テキストとして記述するか、フォームでステップを組み立て、チェックしてからマイグレーションフォルダーに保存します。</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>このマイグレーションはすでに実行されているため、再度保存されません：変更されたファイルはチェックサムによる保護で拒否されます。変更は新しいマイグレーションで行ってください。</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Web サーバーはこのファイルに書き込めません。</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>先頭のコメント行はヘッダーです（description, author, requires, environments, engines）。フォームでステップを追加または変更すると、マイグレーションは書き直されます：ステップ間のコメントは保持されません。</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>マイグレーションの名前</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>保存先</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>サイト</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML テキスト</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>チェック</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>手順</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>キー</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>上へ移動</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>下へ移動</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>ステップはまだありません：フォームで追加するか、テキストに記述してください。</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>ステップ %number を変更</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>ステップを追加</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>ステップのフォームはそのステップの種類から作られます：キー、各キーが受け付ける値、そして所属するモード。</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>ステップの種類</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>フォームを表示</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>このステップには種類が認識しないキーがあります。ステップを変更すると除外されます：%keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>対象</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes のみ</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>デフォルト：%value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>条件、参照、コメント</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>カンマ区切りの 名前=値 のペア。このステップの値：%values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>例</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ステップを変更</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>ステップの追加</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check の結果：ヘッダー、ドキュメント、そしてステップの種類ごとにチェックされた各ステップ。</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>マイグレーションはチェックに合格しました。</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>プレビュー</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>保存される YAML。</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML を表示</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML マイグレーション</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>実行済み</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>YAML マイグレーションはまだありません。</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>編集用</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>マイグレーションフォルダーに YAML マイグレーション %id はありません。</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>ステップの種類を選択してください。</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>ステップを追加しました。保存する前にマイグレーションをチェックしてください。</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>ステップを変更しました。保存する前にマイグレーションをチェックしてください。</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>ステップを選択してください。</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>このステップにはフォームがありません（ループ、またはこのインストールにないステップの種類）：テキストで変更してください。</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>マイグレーションの保存先を選択してください：サイトまたは有効な拡張機能。</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file を保存しました。マイグレーションを実行する前にドライランを行ってください。</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>保存されていません：%reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>リモート一覧</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>このインストールがマイグレーションをデプロイする先の他のインストールです。デプロイは、マイグレーションを選択したリモートに送信し、そこで一斉に同期して実行します。リモートがシークレットを保持することはありません。その認証情報は システム設定 &gt; シークレット 内のシークレットを名前で指定します。</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>新しいリモート</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ヘルプ</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id の接続のテスト</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>リモート一覧</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>最大 %parallel 個のリモートが同時に処理されます。1 つのフェーズには各リモートで %timeout 秒までかかることがあります。</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>リモート</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>認証情報</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>グループ</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>要修正の設定</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ファイルのみ (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH 鍵</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>パスワード</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>なし (ホストの SSH エージェントと鍵)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>接続のテスト</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>グループへのデプロイは、そのグループのすべてのリモートに送られます。</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>リモートへデプロイ</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>リモートはまだ設定されていません。</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>リモート %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>ここでは何も送信・実行されません。「保存」で設定が settings/override/migration.ini.append.php に書き込まれます。認証情報は名前であり、その値は システム設定 &gt; シークレット または環境に残ります。</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>これらの設定を確認してください</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>入力されたままの設定 (まだ保存されていません)。</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>確認</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>設定は有効です。次の行が書き込まれます:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>トランスポート</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>名前のみ。値は システム設定 &gt; シークレット に残ります</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>書き込まれる行</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>接続</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>ホスト鍵</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. リモート</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>リモートの名前と、その環境。</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>英字、数字、- と _。例: production1。レポートやコンソール (--remotes=production1) でリモートを示す名前となり、後から変更できません。</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha、dev、stage、beta、production ... 段階的なデプロイは、この順序で環境を進みます。</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>任意。カンマ区切り。例: production。グループへのデプロイは、そのグループのすべてのリモートに送られます。</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. 接続</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ファイルの転送方法と、インストールの場所。</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH 経由で変更分のみを転送し、中断した転送は再開します。rsync がインストールされている場合に最適です。</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>ファイルは scp を使う SSH。</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>ファイルは sftp を使う SSH。</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>ファイルのみ: マイグレーションは送信されて読み戻されますが、そこでは実行できません。</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS 経由の FTP。ファイルのみ。</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>このサーバー上のフォルダーにある別のインストール。</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ホスト</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ホスト名またはアドレス。例: node1.example.com。local では使用しません。</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>ポート</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>空欄: SSH は 22、FTP は 21。</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ユーザー</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>パス</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>そこでのインストールのルート。例: /var/www/site (FTP の場合は FTP アカウントから見えるパス)。</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP コマンドライン</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>そこでの PHP CLI: php、または /opt/plesk/php/8.4/bin/php のようなフルパス。</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>そこではコンソールスクリプトが root として実行されます</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>リモートのユーザーが root の場合のみ (その場合は --allow-root-user 付きで実行されます)。</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. 認証情報</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>このインストールがそこにサインインする方法。保存されるのは名前だけです。</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>このインストールを実行しているユーザーの SSH エージェントと鍵 (local では常にこれ)。</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>シークレットとして保管された秘密鍵。</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>シークレットとして保管されたパスワード (FTP はこれでサインインします)。</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>シークレット名</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>システム設定 &gt; シークレット のシークレット。例: deploy_production1。</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>システム設定 &gt; シークレット</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>または環境変数</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>それを保持するサーバープロセスの変数。例: DEPLOY_KEY (env:DEPLOY_KEY として保存)。シークレット名の代わりになります。</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. ホスト鍵</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>任意。SSH、sftp、rsync 用。</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>ホスト鍵のフィンガープリント</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>ssh-keygen -l が出力する形式の SHA256:...。指定した場合、ホストはこの鍵を提示する必要があります。指定しない場合、鍵は初回接続時に記憶されます。</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. 確認</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>上の設定で接続をテストしてから、書き込まれる行を確認してください。</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>このリモートを削除</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>その設定は settings/override/migration.ini.append.php から削除されます。リモート側では何も変更されず、そのデプロイは履歴に残ります。</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>はい、このリモートを削除します</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>デプロイ一覧</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>デプロイは、このインストールのマイグレーションを選択したリモートに送信し、そこで %user として一斉に同期して実行します。まずすべてのリモートがチェックされ、いずれかが失敗すると、適用したすべてのリモートが取り消されます。デプロイはバックグラウンドで進行し、そのページには進行に合わせて各リモートが表示されます。</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. リモート一覧</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>リモート、グループ、またはその両方にチェックを入れてください。</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>ここへデプロイ</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. 方法</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>デプロイ</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>送信して実行</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>マイグレーションは各リモートに送信・検証され、共通の実行 ID で実行されます。</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>転送のみ</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ファイルは送信されて検証されますが、何も実行されません (FTP リモートで可能な唯一の方法)。</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>段階的</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>環境の順序 (dev、stage、beta、production ...) に従ってステージごとに進みます。最初のステージがデプロイされた後、誰かが次のステージを承認するまでゲートで待機します。各ステージ内ではすべてか無かです。</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>これらのマイグレーションのみ</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>任意: カンマ区切りのマイグレーション ID。空欄: サイトとその拡張機能のすべてのマイグレーション。</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>事前チェックのみ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>はい、今すぐデプロイします</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>何かを送信または実行したデプロイ (新しい順。事前チェックはレポートを残しません)。</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>転送のみ</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>段階的、%stages ステージ</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>非同期</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>デプロイはまだありません。</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>デプロイ %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>デプロイの各リモートとその状態。ここで開始したデプロイは、このページを閉じてもバックグラウンドで続行します。経過を見るには、ページをもう一度開いてください。</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>すべてのデプロイ</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>事前チェック</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>次のステージ</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>設定と認証情報をチェックしています</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>事前チェック: 各リモートの状態を読み取っています</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>マイグレーションファイルを送信しています</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>到着した内容を検証しています</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>各リモートでマイグレーションを実行しています</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>リモートを取り消しています</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>デプロイが終了しました。レポートを読み込んでいます。</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>進捗を追跡できませんでした。デプロイの状況を確認するには、ページを再読み込みしてください。</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>フェーズ</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>このページはデプロイの進行を追跡します。</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>同期済み</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>ステージ一覧</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ステージ %stage がゲートで待機中</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>ゲート %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user が %time に承認</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>ステージ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>送信されたファイル</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>カーネルのバージョン</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>適用済み: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>適用予定: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>フェーズ一覧</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>ゲート: ステージ %stage / %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>それより前のステージはデプロイ済みです。それらをチェックしてから次のステージを承認してください。そのリモートは再度チェックされ、すべてか無かでデプロイされます。</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>次へ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>はい、次のステージを今すぐデプロイします</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>承認</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>このデプロイをロールバック</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>これを適用した各リモート (%list) は、実行前に取得したキャプションへ一斉に戻ります。</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>はい、このデプロイを今すぐロールバックします</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>予定</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>転送済み</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>デプロイ済み</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ゲートで待機中</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>個を選択済み</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>準備済み</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>準備完了</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ステージを待機中</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ファイル送信済み</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>検証済み</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>失敗、自動的に復元済み</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>変更なし</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>未デプロイ</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>到達不能</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>リモートが応答しました。</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>このリモートは現在使用できません。</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>完了 %done、保留中 %pending、失敗 %failed</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>ロック</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>実行がそこでロックを保持しています</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>空き</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage / %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>テストするリモートを選択してください。</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>まず「はい、このリモートを削除します」にチェックを入れてください。</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>リモートを削除できませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>リモートを保存できませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>設定ファイルを読み込めません: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>リモートまたはグループを少なくとも 1 つ選択してください。</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>選択したリモートは設定に存在しなくなりました。ページを再読み込みしてください。</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>まず「はい、今すぐデプロイします」にチェックを入れてください。</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP リモートではマイグレーションを実行できません。「転送のみ」を選択するか、このリモートを除外してください。</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>デプロイするマイグレーションは、カンマ区切りのマイグレーション ID で指定します。</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>デプロイはまだ進行中です。終了するまでお待ちください。</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>このデプロイはゲートで待機していません。</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>このデプロイを適用したリモートはありません。ロールバックするものはありません。</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>まず「はい、次のステージを今すぐデプロイします」にチェックを入れてください。</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>まず「はい、このデプロイを今すぐロールバックします」にチェックを入れてください。</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>ID %id のリモートはすでに存在します。</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>ポートは 1 から 65535 までの数値です。</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>環境は英字、数字、- と _ からなる語です (alpha、dev、stage、beta、production ...)。</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>グループは英字、数字、- と _ からなる語です (all は不可): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>現在、認証情報を読み取れません: %problem。最初のデプロイの前に システム設定 &gt; シークレット に保存してください (または変数を設定してください)。</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP リモートはファイルを受け取るだけです。そこへのデプロイは「転送のみ」となり、マイグレーションは現地で手動で実行します。</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>リモート %id は settings/override/migration.ini.append.php にありません。設定されている場所で削除してください。</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP でサインインし、index.php を読み取りました。FTP リモートのマイグレーションの状態は読み取れません。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>更新日時</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>作成日時</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>クラス</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>作成者</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>最新のコンテンツ</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>サイト全体で最近作成・更新されたコンテンツを新しい順に表示します：訪問者が投稿したもの、レビューのため保留中のもの、公開を待つ下書き。項目を選択して、保留の解除、保留、非表示、表示、削除、または別のセクションや状態への移動を行います。</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>一覧を読み込めませんでした：%problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>レビュー保留はまだ設定されていないため、何も保留されておらず、保留の操作も提供されません。アップグレード手順 6.0.15-review-hold で設定されます：./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>一覧を絞り込む</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>終了</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>作成日時（初回公開）</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ステータス</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>公開済み</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>下書き（未公開）</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>保留中（承認または日付待ち）</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ごみ箱内</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>レビューのため保留中</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>保留中</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>保留なし</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>非表示</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>投稿元サイトアクセス</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>すべてのサイトアクセス</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>監査が記録したもののみ。</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>現在：%name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>ログイン名またはユーザー ID。</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>絞り込む</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>絞り込みを解除</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>項目</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count 件中 %from～%to 件</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>項目がありません</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>（読み込み %ms ミリ秒）</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>選択した項目への操作</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>このページをすべて選択</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count 件選択中</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>操作を選択</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>保留を解除</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>レビューのため保留</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>非表示にする</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>表示する</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ごみ箱に移動</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>セクションを割り当て</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>状態を割り当て</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>理由</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>保留に必須です。保留とともに、また監査に記録されます。</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>セクションを選択</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>状態を選択</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>選択した項目に適用</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>各項目はあなた自身の権限に照らして確認されます。ごみ箱への移動と削除には確認が必要です。%count 件を超える項目はバックグラウンドで実行されます。</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>選択</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>公開</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>投稿元</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name を選択</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>まだ</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>（名前なし）</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>下書き</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>保留中</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>親により非表示</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>保留中：新しい投稿</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>バージョン %version 保留中</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>バージョン %version 編集中</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>下書き、バージョン %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>バージョン %version 公開済み</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date に予定</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>アドレスなし</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>記録なし</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>この絞り込み条件に一致するものはありません。</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>すべて表示</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>コンテンツはまだありません。</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ページあたり</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>1 ページに %count 件表示します。</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>投稿のアドレスとブラウザーは監査インデックスから取得されますが、ここでは利用できません：列には「記録なし」と表示されます。</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>アドレスとブラウザーは、監査がその項目について記録したものです（自動保留は常に記録します。公開と作成は有効にした場合のみ）。プライバシー設定に従って保持されます。</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action：%count 件</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>削除すると、項目はすべてのバージョンと翻訳とともに完全に削除されます。元に戻すことはできません。</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>項目はごみ箱に移動され、そこから復元できます。</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>各項目はあなた自身の権限に照らして確認されます。サブ項目を持つ項目はそのまま残ります（コンテンツ構造で削除してください）。本人確認を求められます。</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>これはバックグラウンドで実行されます：進行状況ページが開き、完了すると項目ごとの結果が表示されます。</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>選択した項目</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ほか %count 件</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>何も実行されませんでした</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action（%extra）</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>理由：%reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>操作はまだバックグラウンドで実行中です。</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>進行状況</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>バックグラウンド操作が失敗しました：%error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>完了</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>拒否</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>項目ごと</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>項目</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>理由</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>一覧に戻る</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>システム設定</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>実行なし</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>確認</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>操作を選択してください。</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>少なくとも 1 つの項目を選択してください。</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>一度に選択できるのは 1000 件までです。</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>項目を保留する理由を入力してください。</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>セクションを選択してください。</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>状態を選択してください。</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>フォームを読み込めませんでした。</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ダッシュボード</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>最新のコンテンツ</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>件数を読み込めませんでした：%problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>レビューのため保留中</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>今日の新着</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>レビュー保留はまだ設定されていません（アップグレード手順 6.0.15-review-hold）。</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>最新のコンテンツをすべて表示</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>モデレーション操作を実行する権限がありません（moderation/act）。</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>モデレーション操作が完了していません：%errors。</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>モデレーション：%count 件のオブジェクトに %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total 件中 %done 件のオブジェクト：完了 %ok 件、拒否 %refused 件、失敗 %failed 件</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>完了 %ok 件、拒否 %refused 件、失敗 %failed 件</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>もう存在しません。</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>配置場所がありません（未公開）。</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>非表示にする権限がありません（content/hide）。</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>表示する権限がありません（content/hide）。</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>すでに非表示です。</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>非表示ではありません。</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>非表示にしました。</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>表示しました。</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>ごみ箱内にあります：そこで空にするか復元してください。</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>一度も公開されていない下書きはごみ箱に移動できません：削除してください。</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>削除する権限がありません（content/remove）。</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>削除しました。</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>取り除く権限がありません（content/remove）。</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>サブ項目があります：それらが一覧表示されるコンテンツ構造で削除してください。</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>削除されませんでした（ワークフローが削除を保留している可能性があります）。</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ごみ箱に移動しました。</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>セクションが存在しません。</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>すでにこのセクションにあります。</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>このセクションを割り当てる権限がありません（section/assign）。</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>セクションは割り当てられませんでした。</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>セクションを割り当てました。</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>状態が存在しません。</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>すでにこの状態です。</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>この状態を割り当てる権限がありません（state/assign）。</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>状態は割り当てられませんでした（ワークフローが変更を保留している可能性があります）。</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>状態を割り当てました。</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>そのような操作はありません。</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>レビュー保留が設定されていません（アップグレード手順 6.0.15-review-hold）。</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>保留する理由を入力してください。</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>すでに保留中です。</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>保留する権限がありません（state/assign）。</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>保留されませんでした（ワークフローが変更を保留している可能性があります）。</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>保留しました。</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>保留されていません。</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>保留を解除する権限がありません（state/assign）。</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>保留は解除されませんでした（ワークフローが変更を保留している可能性があります）。</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>保留を解除しました。まだ非表示です：表示する権限がありません（content/hide）。</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>保留を解除しました。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>すべての公開先</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>最後の公開</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>GitHub Pages でサイトの静的コピーを無料で公開する:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>古くなったページ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>静的公開</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>静的公開はオフになっています。</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>公開先</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>公開先を読み込めませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ジョブを実行中</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>確認待ちのビルド</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>これを非表示</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>公開先を作成</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>チュートリアルを読む</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>追加 %added 件、変更 %changed 件、削除 %removed 件</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes / %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>ほかに %count 件は表示されていません。</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages ページを書き込みました</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path は %size で、ホストが 1 ファイルに許可するサイズを超えています。</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>上限の %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds 秒</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag が現在サイトに公開されている版です。</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: ジョブ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub のプロジェクトサイトでは /repository/、独自ドメインまたはユーザーサイトでは空欄。</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. サイト</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. ホスト</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. リポジトリへのサインイン</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. リポジトリ</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. リンクとベースパス</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. 独自ドメイン</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. ビルドの内容</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. 公開のタイミング</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. 確認と保存</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub のプロジェクトサイトは /&lt;repository&gt;/ の下に置かれます。相対リンクはそこでも他の場所でも機能します。</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>ビルドは、サインインしていない訪問者に見えるとおりに %site のすべてのページを取得し、リンクを書き換え、ファイルをコピーして、結果を公開先のフォルダーに書き込みます。ビルドを確認して「公開」を押すまで、何も公開されません。</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>cron 式。例: 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>デプロイキーはシークレット %secret として保管されています。</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>デプロイキーを使うと、このインストールは SSH 経由で 1 つのリポジトリにだけプッシュでき、それ以外にはプッシュできません。秘密鍵の部分は システム設定 &gt; シークレット に残り、公開部分だけが表示されます。</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>この公開先用に作成したデプロイキー</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>デプロイキーは SSH でサインインします: git アドレスを SSH のアドレス (git@github.com:owner/repo.git) に変更してください。</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>%user が開始したジョブを実行中です</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>この公開先のジョブがまだ実行中です (%detail)。終了するまでお待ちください。</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>この公開先のジョブがまだ実行中です。終了するまでお待ちください。</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>ページ /news/ からページ /about-us/team へのリンクは次のように書き込まれます</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>新しいデプロイキーを作成しました。今すぐその公開部分をリポジトリに追加してください。</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>除去処理の後もデバッグ出力、フォームトークン、セッション ID を含むページは、決して公開されません。</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>ロールバックは上級者向けです: 「この操作で何が変わるか理解しています」にチェックを入れ、タグ名をもう一度入力してください。</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>サイトは最大 %site、1 ファイルは最大 %file、トラフィックは月に約 100 GB までです。無料プランではリポジトリを公開にする必要があります。GitHub Pages はショップやその他の商取引向けではありません。</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>公開先とは、1 つの git リポジトリに公開される 1 つのサイトです。ここでは何もビルドも公開もされません: 「保存」で設定が settings/override/staticcache.ini.append.php に書き込まれます。</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>公開先とは、1 つの場所に公開される 1 つのサイトです。例: GitHub Pages 上の公開サイト。</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>システム設定 &gt; シークレット のトークン</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>リポジトリのワークフローが公開します。</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>この公開鍵を書き込み権限付きでリポジトリに追加してください。GitHub: Settings &gt; Deploy keys &gt; Add deploy key で Allow write access にチェックを入れます。</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>追加</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>他の git ホスト</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>別のプロセスがこの公開先を処理中です: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>戻る</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>ベースパス</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>変更前</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>ベースパスの下</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ブランチ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>壊れたリンク</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>ビルド内の壊れたリンク</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>ビルド</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>ビルド %id (%user)</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name をビルド</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>今すぐビルド</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>確認待ちのビルド</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>実行者</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>ここで手動で</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>変更</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>変更</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>変更点</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>先に確認する</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>これらの設定を確認してください</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>ビルドによる変更を確認し、内容を見てから、公開するか破棄してください。</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>戻る先の公開を選択してください。</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>今後のリリースで対応予定です。</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>コミット</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>コミット</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>ビルドをコミットし、タグを付けて %remote にプッシュします。強制プッシュは行いません。後からいつでも以前の公開に戻せます。</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>以前のフォルダーとの比較: 追加 %added 件、変更 %changed 件、削除 %removed 件、変更なし %unchanged 件。</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>最後の公開との比較です。</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>認証情報</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>独自ドメイン</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>デバッグ出力、フォームトークン、セッション ID、nonce は常に取り除かれます。</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>デプロイキー</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name のデプロイキー</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>破棄</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>ビルドを破棄</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ドメイン</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>空欄: サイトのアドレス。それ以外の場合は同じサイトの内部アドレス。</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>終了</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>すべてのリンクがベースパスで始まります。</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>各公開はタグ static/%id/&lt;n&gt; 付きのコミットです。戻すと、以前の公開のファイルで新しいコミットが作成されます: 履歴は残り、タグは移動せず、何も強制されません。</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>追加ファイル</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>ページの取得元</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>不足しているファイル</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>対象サイトのファイル:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>収集できなかったファイル</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>フィンガープリント</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>フォルダー</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH アドレス用。キーは保存後に作成されます。その公開部分をリポジトリに追加してください。</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// アドレス用。GitHub: リポジトリに対して Contents の読み取りと書き込み権限を持つ fine-grained トークン。</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>上級者向け。プッシュが完了するとすぐに公開サイトが変わります。</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub リポジトリからの無料ホスティング。</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ブランチから</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git アドレス</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages ではサイトは %site、ファイルは %file まで許可されています。</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages の制限</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages はファイルをそのまま公開します (_ で始まるファイルに必要)。</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub はプッシュされたとおりにブランチを配信します。既定値。</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab、Gitea、自前のサーバー: 任意の git リポジトリ。</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>以前の公開に戻す</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ヘルプ</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>ウィザードのヘルプ</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>非表示にする</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>履歴</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name の履歴</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ホスト</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages がビルドを受け取る方法</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>変更点を確認しました</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>この操作で何が変わるか理解しています</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>オフになっています: オンにするまで何もビルドできません。</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>%user としてバックグラウンドで実行されます。このページは閉じてもかまいません。</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ジョブ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>シークレット %secret として保管されています。</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>最後の公開</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>これらのページを除外</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>これらのセクションを除外</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>リンク</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>書き換えたリンク</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>公開中のサイト</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>ビルドを見る</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>小文字、数字、_ と - が使えます。例: github-public。フォルダーとタグ (static/&lt;id&gt;/&lt;n&gt;) の名前になり、後から変更できません。</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>新しいキーを作成</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>公開先を作成</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>キーを作成</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>先にホスト上でリポジトリを作成してください。空のリポジトリでもかまいません。</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>マニフェスト</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>ほとんどのページ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>システム設定 &gt; シークレット 内のトークン名</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>新しい公開先</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>次へ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>まだコミットはありません。</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>キーを作成できませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php のコマンドラインバイナリが見つかりません。migration.ini [AdminSettings] PhpCliPath にそのフルパスを設定してください。</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>まだタグはありません。</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>まだ公開先はありません。</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>ビルドに含まれていません。</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>まだ何も公開されていません。</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>まだ何も公開されていません: すべてのファイルが新規です。</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>スケジュールで</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>コンソールで</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>サーバー上では ./console exp:static:serve %id でも同じように配信されます。</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>1 行に 1 パス。* は任意の部分に一致します: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>公開先には名前だけが保存されます。トークンやキー自体は システム設定 &gt; シークレット に残り、ログに表示されることはありません。</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>ページが参照するものだけ</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>トークンの場合のみ。env:NAME とするとサーバーの環境変数を読み取ります。</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>プレビューを開く</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>ホストが配信するとおりに、公開先のフォルダーからビルドを開きます。このリンクは 1 時間有効です。</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>任意。空欄: 公開された内容。</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>任意。ドメインを指定するとサイトはそのルートで配信されます。</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>出力</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>ページ</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>公開先のページ</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>拒否されたページ</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>後処理</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>プレビュー</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>プレビューと公開</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name のプレビューと公開</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>ビルドをプレビュー</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>進行状況</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>公開アドレス</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>公開鍵</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>公開</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>サイトの静的コピーを GitHub Pages または任意の git ホストに公開します: ビルドし、変更点を確認して公開し、必要なときは以前の公開に戻せます。</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>戻る先の公開</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>公開一覧</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>プッシュ</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>チュートリアルを読む</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>記録</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>拒否</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>相対</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>キーを置き換える: 古いキーは使えなくなります</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>レポート</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>ビルドのレポート</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>リポジトリ</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>確認</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>確認ではすべての設定をチェックし、書き込まれる行を表示します。まだ何も保存されていません。</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ロールバック</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ロールバック</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>スケジュール</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>検索ページ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>セクション ID (カンマ区切り)。</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>公開中のサイトに送る</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name の設定</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>システム設定</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>システム設定 &gt; シークレット</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>一覧に表示されます。例: 「GitHub Pages 上の公開サイト」。</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App でのサインインは GitHub 連携で対応予定です。</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>サイト</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>公開するサイト</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>サイズと制限</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>ビルドのサイズ</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>古くなったページ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user が %time に開始しました。</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>静的公開</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>静的公開はオフになっています</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>静的公開はオフになっています。</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>静的公開はオフになっています。先に システム設定 &gt; 静的公開 でオンにしてください。</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>静的公開はオンになっています。</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>ステップ %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ステップ</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>除去</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>オフにする</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>オンにする</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>静的公開をオンにする</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>タグ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>タグ</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>公開先</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>公開先は作成・変更できますが、オンにするまで何もビルドも公開もされません。</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>検索エンジンに読み取る対象を伝えます。</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>ビルドを破棄できませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>ビルドは最後の公開と同じです: 公開するものはありません。</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>ビルドを破棄しました: フォルダーは再び最後の公開を保持しています。</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ほとんどのサイトには既定値で十分です。</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>フォルダーにはまだ公開されていないビルドがあります。新しいビルドで置き換えられます。</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>ジョブのフォルダーに書き込めません: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ジョブを準備できませんでした: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ジョブを開始できませんでした。</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ジョブが終了しました。レポートを読み込んでいます。</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ジョブにはサインインしたユーザーが必要です。</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ジョブは開始されましたが、プロセス ID が報告されませんでした。%detail を確認してください。</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>キー</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>最大のファイル: %path、%size。</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>書き込まれる行</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>検索エンジン向けのページ一覧。公開アドレスが必要です。</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>ページはサインインしていない訪問者に見えるとおりに取得されます。管理用と編集用のサイトアクセスは選択肢に表示されません。</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>進行状況を追跡できませんでした。ページを再読み込みしてジョブの状況を確認してください。</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>キーの公開部分:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ブランチのルート</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>シークレットストアがまだセットアップされていないため (./console exp:upgrade --apply でテーブルが作成されます)、キーを保管できません。</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>サーバーが自分でサインインする (独自の SSH キーまたは認証情報ヘルパー) か、リポジトリがこのサーバー上にあります。</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>設定を書き込めませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>設定は有効です。次の行が書き込まれます:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>設定ファイルを読み込めません: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>サイトはその公開のファイルに戻ります。まだ公開されていないビルドは、先に公開するか破棄する必要があります。</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>存在しないアドレス用のサイト独自のページ。</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>公開先を保存できませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>公開先はまだこのキーでサインインしていません: 設定で「この公開先用に作成したデプロイキー」を選択してください。</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>公開先を読み込めませんでした: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>確認するビルドはまだありません。</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>このインストールにはフロントのサイトアクセスがありません。管理用と編集用のサイトアクセスは公開されません。</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>このページはジョブの進行を追跡します。ページを閉じてもジョブはバックグラウンドで続行します。</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>この公開先にはまだデプロイキーがありません。</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>この公開先はまだここでビルドされていません。</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>この公開先にはデプロイキーがあります。</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>このビルドを破棄します: フォルダーは再び最後の公開を保持します。公開中のサイトは変わりません。</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>先に「変更点を確認しました」にチェックを入れてください。</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>時刻</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>トリガー</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>タグ名をもう一度入力してください</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>変更なし</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>対象</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>変更内容</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>各ファイルの内容。常に書き込まれます。</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>ジョブの実行内容とその記録。ここで開始したジョブは、このページを閉じてもバックグラウンドで続行します。</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>ジョブがエラーとして出力した内容</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>ページが参照するものと、公開コンテンツのすべての画像</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>日時</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>公開に失敗したとき</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>公開に成功したとき</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>コンテンツが公開されたとき</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>コピーに含まれないもの (検索、ログイン) へのリンクの送り先。</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>静的コピーの配信元。</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>公開するサイトと公開先の名前。</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>任意のパスの下で機能します。既定値。</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>独自ドメインが設定されている場合は常に書き込まれます。</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>はい</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>ここやコンソールでいつでも手動でビルドして公開できます。</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>名前のみ。値は システム設定 &gt; シークレット に残ります</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path の下</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>レポートなしで終了</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>その他</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages、またはフォルダー docs を使った main。</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git ホスト</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (トークン使用) または git@github.com:owner/repo.git (デプロイキー使用)。パスワードやトークンを含めないでください。</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/ — サイトマップと正規リンクに使用します。</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>画像</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>リモートなし</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>なし: コミットはフォルダー内に残ります</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>なし: 変更なし</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>未プッシュ</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>変更なし</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ページ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open が無効なため、ここではジョブを開始できません。サーバー上で ./console exp:static:build を使用してください。</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>公開</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>公開済み</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>プッシュ待ち</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>プッシュ済み</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>拒否</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>相対</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ロールバック</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ロールバック済み</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>実行中</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>フォルダーのみ</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: ファイル CNAME に書き込まれます。ホストの説明に従ってドメインの DNS をホストに向けてください。HTTPS が有効になるまで時間がかかる場合があります。</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>はい、まだ未公開</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>リポジトリのワークフローが公開します。ワークフローファイルはビルドが書き込みます。フォルダーは空のままにしてください。</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub リポジトリとトークンまたは GitHub App を指定して公開先を保存すると、このステップでリポジトリを作成し、GitHub Pages をオンにできます。それ以外の場合は、先に GitHub でリポジトリを作成してください。空のリポジトリでもかまいません。</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ブランチと GitHub Actions のどちら？</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS を確認</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>リポジトリがなければ作成する</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub でリポジトリを作成し、その設定で GitHub Pages をオンにしてください (Settings &gt; Pages)。</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>リポジトリ %repo がない場合は (指定があれば) 作成し、保存した設定どおりブランチまたは GitHub Actions から GitHub Pages をオンにして、独自ドメインと HTTPS を設定します。保存済みの設定を使うため、先に変更を保存してください。</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub で詳細を見る</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>先に独自ドメインを入力してください。</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>すべての push は、まずこれらの制限に照らして確認されます。</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub 上の https:// アドレス用。このインストール用に設定された App がサインインします。インストール ID が必要です。</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages がプライベートリポジトリを公開するのは有料プランの場合のみです。</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: サブドメイン (www.example.com) には &lt;owner&gt;.github.io への CNAME レコード、apex ドメイン (example.com) には A レコード %ips が必要です。</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App のインストール ID</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>最新の Pages ビルド</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>制限と規約</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>無料プランで GitHub Pages を使うには必須です。</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub 上</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App の場合のみ: GitHub 上の App のインストールのアドレス末尾にある番号。App 自体は staticcache.ini で設定します (GitHubAppId, GitHubAppKey)。</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>非公開</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>公開</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>先に GitHub リポジトリとトークンまたは GitHub App を指定して公開先を保存してください。</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ドメインのプロバイダーで次のレコードを設定してください:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub で設定</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain の DNS はまだ GitHub Pages を指していません。</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain の DNS は GitHub Pages を指しています。</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>ここでは GitHub 連携を利用できません: %problem。ブランチへの公開はそのまま使えます。リポジトリの設定で GitHub Pages をオンにしてください。</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>この公開先では GitHub のステップを利用できません: %problem。</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages の状態は、認証情報がトークンまたは GitHub App の場合に表示されます。</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>独自ドメインを使う</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>どれを選ぶか: トークン、デプロイキー、GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub リポジトリとトークンまたは GitHub App があれば、ウィザードがリポジトリの作成、GitHub Pages のオン、ドメインの設定を代わりに行えます (ステップ 4)。</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ビルド中</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ビルド済み</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions から</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ブランチ %branch から</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>まだなし</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>見つかりません</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>オフ</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>非公開</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>公開</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>待機中</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages ページ中 %count 件:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>各テキストファイルの隣に .gz (と .br) を置きます。これらを配信するホスト向けです。</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>ページの古いアドレスやエイリアスごとに小さなページを用意し、古いリンクが引き続き機能するようにします。</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions がサイトを配信するときは常に書き出されます。</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 などの SPDX ID、またはテキストそのもの。</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>バスケット</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>サーバーへの呼び出し</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>コメント</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>情報を収集するフォーム</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions ワークフロー</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>ページの余白を減らし、コメントを除去します。</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>コンテンツのライセンス</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ログイン</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>最小化</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>その他のフォーム</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>事前圧縮</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>リダイレクトページ</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>リダイレクトページ: %count 件。</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>検索インデックス: %languages の %pages ページ。</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>内容のハッシュ値で名前を付けたスタイルシートとスクリプト。ブラウザーが保持できます。</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>変更されたページ。最後の変更の数分後 (cronjob の staticpublish 部分)。</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>コンテンツのライセンス。下のフィールドから取得します。</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>サイト全体。スケジュールの時刻に (cronjob の staticpublish 部分)。</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>ページのこれらの部分にはサーバーが必要です。それぞれに代替を用意しました。公開前に確認してください。</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>静的には動作しないもの</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>リポジトリとは何か。ホストで開く人向けの説明。</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>除外</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>代替テキスト</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>公開中のサイトのフォームエンドポイント</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>公開中のサイト</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>コピーの検索ページ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>フォームを送信できませんでした。</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>ありがとうございます。フォームを送信しました。</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>フォームが受け付けられませんでした。入力内容を確認して、もう一度送信してください。</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>コピーに含まれないページへのリンクを削除</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>管理画面へのリンクを削除</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>リンクのテキストは残ります。画像、フォーム、他のサイトへのリンクは削除されません。</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>バージョン</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>公開するサイトアクセス</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>サイトアクセス</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>ルートに</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>ルートにサイトアクセスなし: それぞれ自分のフォルダーにあり、ルートからそれぞれにリンクします</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>サイトアクセス</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>サイトアクセスを1つ、または URI プレフィックスで1つのホストを共有する複数を選びます。ルートのものはルートで配信され、ほかはそのプレフィックスのフォルダー (/ger/) に置かれます。相互のリンクはコピー内にとどまります。管理用のサイトアクセスは表示されません。</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site で %target の静的公開に失敗しました</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site で %target の静的公開に成功しました</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>このメールは、静的公開の公開先 %target が求めているため、%site から送信されました。</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>デプロイ %deploy は %site で失敗しました</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>デプロイ %deploy は %site でゲートを待っています</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>デプロイ %deploy は %site で成功しました</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>このメールは migration.ini [RemoteSettings] Notify[] の設定により %site から送信されました。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>データ型 (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time に集計、%minutes 分後に再集計</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>データ型は、クラス属性の値の種類(テキスト行、画像、関連など)を1つ保存・編集します。ほとんどはカーネルが提供し、拡張機能がさらに追加します。ここではすべてのデータ型と、その提供元、コンテンツでの使用量を表示します。データベースで使われているのにどこにも登録されていないデータ型があると、それを持つコンテンツは壊れます。</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>クラスグループ</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>直近数分の集計を使わずに、今すぐ再集計します。</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>再集計</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>概要</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>登録日時</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>使用中</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>未使用</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>データ型を提供する拡張機能</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>クラス属性</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>オブジェクトの属性</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>未登録</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>登録済み、ファイルなし</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count 個のデータ型が使用されていますが、登録されていません</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes 個のクラス属性と %object_attributes 個のオブジェクト属性が、どの拡張機能や設定にも登録されていないデータ型を持っています。そのオブジェクトは表示・編集・公開できません。データ型を提供する拡張機能を有効にするか、クラスを変更してください。</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>これらのみ表示</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>データ型を検索</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>識別子、名前、PHP クラス、または拡張機能。</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>提供元</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>すべてのユーザー</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>カーネル</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>このフィルターに一致するデータ型はありません。</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>すべて表示</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>拡張機能</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count 個中 %shown 個のデータ型、%used 個が使用中</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>データベースにはこれらのデータ型のクラス属性またはオブジェクト属性がありますが、content.ini にはどれも記載されていないか、そのファイルがありません。</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider のデータ型</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>データ型</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP クラスとファイル</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>クラス</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>オブジェクト数</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>フラグ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>検索に一致するデータ型はありません。検索をクリアしてください。</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count 個中 %shown 個のデータ型を表示</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>表示中のデータ型: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column で並べ替え</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time に集計</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>すべてのデータ型</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>ヘルプページ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>このデータ型は使用されていますが、登録されていません</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>どの拡張機能もこのデータ型を登録していない間は、以下のクラスのオブジェクトを表示・編集・公開できません。提供する拡張機能を有効にして content.ini [DataTypeSettings] AvailableDataTypes[] に追加するか、クラスを変更してください。</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini にはこのデータ型が記載されていますが、どのデータ型ディレクトリにもそのファイルがありません。使用されていないので、AvailableDataTypes[] から削除するか、その拡張機能を有効にしてください。</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>このデータ型について</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>識別子</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>拡張機能 %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHPクラス</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] に記載</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>はい</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>値の列</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>クラス属性設定の列</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>テーブル</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>列とテーブルはデータ型のコードを読み取って求めたもので、目安であり保証ではありません。</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>テンプレート</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>サイトアクセス</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>テンプレート</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>検出場所</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>この管理画面</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>デフォルトサイト</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>オーバーライドなし: クラスまたは属性で一致するオーバーライドテンプレートがこれらより優先されます。</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>使用しているクラス (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>このデータ型の属性を持つクラスはありません。</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>クラス</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>属性</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>クラス属性 (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>属性</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>必須</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>検索対象</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>翻訳可能</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>情報を収集する</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>使用しているコンテンツの一部</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>最終更新順</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>更新日時</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>ノード %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>翻訳ごとに個別の値を持ちます。</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>検索で値がインデックスされます。</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>訪問者から情報を収集できます(フォーム)。</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>リストをこれで並べ替えられます: ソートキー %type。</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>並べ替え可能</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>値は他のオブジェクトを参照します。</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>関連</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>プレーンな文字列から値を設定できます(インポート、REST)。</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>テキストから</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>ファイルから値を設定できます。</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ファイルから</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>クラス属性の設定はパッケージに含まれます。</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>パッケージ</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>コンテンツ (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count 件中 %from - %to 件</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>一覧を絞り込む</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>すべてのクラス</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>言語</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>所有者</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>公開日時</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>順序を逆にする</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>項目がありません</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>1 ページの表示件数</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>1 ページに %count 件のアイテムを表示します。</translation>
     </message>
 </context>
 </TS>

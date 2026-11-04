@@ -10,7 +10,7 @@ generated: exp:help:examples
 ---
 # cronjob.ini
 
-The shipped settings of `settings/cronjob.ini`: 23 blocks, 48 settings.
+The shipped settings of `settings/cronjob.ini`: 27 blocks, 52 settings.
 
 > Exponential configuration file for cronjobs.  
 >
@@ -36,11 +36,15 @@ The shipped settings of `settings/cronjob.ini`: 23 blocks, 48 settings.
 | [CronjobPart-contentjobs](CronjobPart-contentjobs.md) | 1 |
 | [CronjobPart-datatable](CronjobPart-datatable.md) | 1 |
 | [CronjobPart-audit](CronjobPart-audit.md) | 1 |
+| [CronjobPart-graphqlwebhooks](CronjobPart-graphqlwebhooks.md) | 1 |
 | [CronjobPart-logs](CronjobPart-logs.md) | 1 |
 | [CronjobPart-notification](CronjobPart-notification.md) | 1 |
 | [CronjobPart-mailpreferences](CronjobPart-mailpreferences.md) | 1 |
+| [CronjobPart-migrationpush](CronjobPart-migrationpush.md) | 1 |
+| [CronjobPart-staticpublish](CronjobPart-staticpublish.md) | 1 |
 | [CronjobPart-mailbounces](CronjobPart-mailbounces.md) | 1 |
 | [CronjobPart-usersessions](CronjobPart-usersessions.md) | 1 |
+| [CronjobPart-useraudit](CronjobPart-useraudit.md) | 1 |
 | [CronjobPart-exphelp](CronjobPart-exphelp.md) | 1 |
 | [linkCheckSettings](linkCheckSettings.md) | 9 |
 | [CronjobPart-unlock](CronjobPart-unlock.md) | 1 |

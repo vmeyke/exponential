@@ -21,8 +21,8 @@ was ein Unternehmen bekommt und was es tun muss, und verweist dann auf die techn
 Arbeit machen: einen Entwickler, einen Hoster oder einen Partner.
 
 > **Hinweis**
-> Jede Tatsache in diesem Bereich stammt aus dem Exponential-Repository, aus der Live-Demonstrationsinstallation unter
-> <https://alpha.se7enx.com> oder von <https://exponential.earth>, und die Seite, aus der sie stammt, ist verlinkt.
+> Jede Tatsache in diesem Bereich stammt aus dem Exponential-Repository, aus einer Live-Demonstrationsinstallation
+> oder von <https://exponential.earth>, und die Seite, aus der sie stammt, ist verlinkt.
 > Der Bereich nennt keine Kunden und zitiert keine Marktstatistiken. Wo eine Seite Kosten berechnet, ist jede Eingabe
 > als Beispielannahme gekennzeichnet, die Sie durch Ihre eigenen Zahlen ersetzen.
 
@@ -70,7 +70,7 @@ Die Kurzfassung, erklärt in [Warum Unternehmen sich auf Exponential verlassen](
 - **Veröffentlichte Versionen ändern sich nie.** Eine Korrektur kommt als nächstes Release, nie als stillschweigend
   berichtigte Kopie (`SECURITY.md`, zitiert in
   [Die Support-Zusage](../wer-ist-die-exponential-foundation.md#die-zusage-zur-unterstützung)).
-- **Wenige bewegliche Teile.** SQLite braucht keinen Datenbankserver, PHP 8.0 oder neuer auf fast jedem
+- **Wenige bewegliche Teile.** SQLite braucht keinen Datenbankserver, PHP 8.0 oder neuer (PHP 7.4 ohne Support nutzbar) auf fast jedem
   Betriebssystem genügt, und jeder gängige Webserver funktioniert
   ([Anforderungen](../hosting/grundlagen/anforderungen-auf-einen-blick.md)).
 - **Schnell unter Last.** Die Cache-Korrekturen der Linie 6.0.15 machen die Anwendung auch unter Apache oder Nginx

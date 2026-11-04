@@ -677,6 +677,14 @@ class eZSQLite3DB extends eZDBInterface
      (#199): 192 publishes from 64 processes at once all completed whole,
      where the generic start lost 6; 48 transactions of 300 ms at once were
      done in 14.7 s, the 14.4 s they take one after another.
+
+     A waiting writer says so with a shared lock on <database>.writer-queue,
+     and a writer that finds the gate free while others wait leaves it to
+     them for HANDOFF_MS first. A loop that commits and begins at once took
+     the gate back within 0.2 ms of every commit and kept it for minutes: on
+     the demo (2026-11-02) the indexcontent cronjob part held it that way for
+     over seven minutes while a help manuals content job queued objects for
+     it, and a user's save failed after its 25 s with "database is busy".
     */
     function beginQuery()
     {
@@ -685,23 +693,49 @@ class eZSQLite3DB extends eZDBInterface
         $gate = $this->writerGate();
         if ( $gate )
         {
-            while ( !flock( $gate, LOCK_EX | LOCK_NB ) )
+            // Writers already waiting go first: a loop that commits and begins again at once (indexcontent,
+            // a content job's batches) took the lock back within 0.2 ms of its commit, long before a waiter's
+            // next try, and held it for minutes in one-object transactions while a page's save failed after
+            // its 25 s. A writer that finds others waiting gives them HANDOFF_MS before its first try.
+            $queue = $this->writerQueue();
+            $handoffUntil = 0;
+            if ( flock( $gate, LOCK_EX | LOCK_NB ) )
             {
-                $waited = microtime( true ) - $start;
-                if ( microtime( true ) >= $deadline )
+                // Free: take it, unless other writers have been waiting for it (held: wait like them, below)
+                if ( $queue && $this->writersWaiting( $queue ) )
                 {
-                    $this->ErrorNumber = 5;
-                    $this->ErrorMessage = 'database is locked';
-                    $this->BeginFailed = true;
-                    return false;
+                    flock( $gate, LOCK_UN );
+                    $handoffUntil = microtime( true ) + self::HANDOFF_MS / 1000;
                 }
-                // Every wake-up costs CPU (about 50 us here, whatever is done awake), so the tries thin out
-                // as the wait grows, and a writer waiting longer than a second tries more often again than
-                // those that came after it, which keeps the queue about in arrival order.
-                usleep( $waited < 0.02 ? mt_rand( 1000, 2000 ) : ( $waited < 0.2 ? mt_rand( 3000, 6000 )
-                        : ( $waited < 1 ? mt_rand( 8000, 15000 ) : mt_rand( 5000, 10000 ) ) ) );
+                else
+                    $this->HoldsWriterGate = true;
             }
-            $this->HoldsWriterGate = true;
+            if ( !$this->HoldsWriterGate )
+            {
+                if ( $queue )
+                    flock( $queue, LOCK_SH );   // "a writer is waiting", for the writer that commits next
+                while ( microtime( true ) < $handoffUntil || !flock( $gate, LOCK_EX | LOCK_NB ) )
+                {
+                    $waited = microtime( true ) - $start;
+                    if ( microtime( true ) >= $deadline )
+                    {
+                        if ( $queue )
+                            flock( $queue, LOCK_UN );
+                        $this->ErrorNumber = 5;
+                        $this->ErrorMessage = 'database is locked';
+                        $this->BeginFailed = true;
+                        return false;
+                    }
+                    // Every wake-up costs CPU (about 50 us here, whatever is done awake), so the tries thin out
+                    // as the wait grows, and a writer waiting longer than a second tries more often again than
+                    // those that came after it, which keeps the queue about in arrival order.
+                    usleep( $waited < 0.02 ? mt_rand( 1000, 2000 ) : ( $waited < 0.2 ? mt_rand( 3000, 6000 )
+                            : ( $waited < 1 ? mt_rand( 8000, 15000 ) : mt_rand( 3000, 6000 ) ) ) );
+                }
+                if ( $queue )
+                    flock( $queue, LOCK_UN );
+                $this->HoldsWriterGate = true;
+            }
         }
         $left = (int)max( 1, ( $deadline - microtime( true ) ) * 1000 );
         $this->DBConnection->busyTimeout( $left );
@@ -743,6 +777,41 @@ class eZSQLite3DB extends eZDBInterface
         if ( $fh )
             $this->WriterGate = $fh;
         return $this->WriterGate;
+    }
+
+    /**
+     * The open file that tells a writer whether others are waiting for the
+     * write lock (<database>.writer-queue), or false: every writer that waits
+     * holds a shared lock on it, so an exclusive try that fails means someone
+     * is waiting. Opened once per connection and process, as writerGate().
+     */
+    protected function writerQueue()
+    {
+        if ( $this->WriterQueue !== null && $this->WriterQueuePid === getmypid() )
+            return $this->WriterQueue;
+        $this->WriterQueue = false;
+        $this->WriterQueuePid = getmypid();
+        $path = self::filePath( $this->DB );
+        if ( $path === ':memory:' || $path === '' )
+            return false;
+        $file = $path . '.writer-queue';
+        $fh = @fopen( $file, 'c' );
+        if ( !$fh )
+            $fh = @fopen( $file, 'r' );
+        if ( $fh )
+            $this->WriterQueue = $fh;
+        return $this->WriterQueue;
+    }
+
+    /// Whether another writer is waiting for the write lock (holds its shared lock on the queue file)
+    protected function writersWaiting( $queue )
+    {
+        if ( flock( $queue, LOCK_EX | LOCK_NB ) )
+        {
+            flock( $queue, LOCK_UN );
+            return false;
+        }
+        return true;
     }
 
     /// Gives the queue's lock back (after COMMIT or ROLLBACK, or a failed start)
@@ -941,6 +1010,12 @@ class eZSQLite3DB extends eZDBInterface
      * every edit in the legacy admin lost the published content. Where this is false the kernel
      * inserts without REPLACE, so a collision fails with an error instead of deleting a row.
      *
+     * A key that the shipped schema (share/db_schema.dba) gives the table itself, such as the
+     * unique remote_id of ezcontentobject or the primary key (id, version) of
+     * ezcontentobject_attribute, also makes REPLACE unsafe, but there is nothing to rebuild:
+     * the kernel just inserts without REPLACE, quietly. Only a key the shipped schema does not
+     * have is reported, once per table and connection.
+     *
      * @param string $table
      * @param string[] $keys
      * @return bool
@@ -954,15 +1029,106 @@ class eZSQLite3DB extends eZDBInterface
                 if ( !isset( $this->UnsafeReplaceReported[$table] ) )
                 {
                     $this->UnsafeReplaceReported[$table] = true;
-                    eZDebug::writeWarning( "Table $table has the unique key (" . implode( ', ', $columns )
-                        . ") without all of (" . implode( ', ', $keys ) . "), the key its rows are stored by:"
-                        . " inserting without REPLACE. Rebuild the table with the key of the legacy schema.",
-                        __METHOD__ );
+                    if ( !in_array( $columns, self::shippedUniqueKeys( $table ) ) )
+                        eZDebug::writeWarning( "Table $table has the unique key (" . implode( ', ', $columns )
+                            . ") without all of (" . implode( ', ', $keys ) . "), the key its rows are stored by,"
+                            . " and the shipped schema (share/db_schema.dba) does not have that key: inserting without"
+                            . " REPLACE. Rebuild the table with the keys of the shipped schema.",
+                            __METHOD__ );
                 }
                 return false;
             }
         }
         return true;
+    }
+
+    /**
+     * The primary and unique keys the shipped schema gives a table: the kernel's share/db_schema.dba,
+     * then the share/db_schema.dba of each active extension for the tables an extension creates.
+     *
+     * @param string $table
+     * @return array[] one list of column names per key; empty when the table or the schema file is not there
+     */
+    static function shippedUniqueKeys( $table )
+    {
+        static $schema = null;
+        if ( $schema === null )
+            $schema = self::shippedSchema( self::shippedSchemaFiles() );
+        return self::schemaUniqueKeys( $schema, $table );
+    }
+
+    /**
+     * The schema files shippedUniqueKeys() reads, the kernel's first.
+     *
+     * @return string[]
+     */
+    static function shippedSchemaFiles()
+    {
+        $root = rtrim( (string)( class_exists( 'eZSys', false ) ? eZSys::rootDir() : getcwd() ), '/' );
+        $files = array( $root . '/share/db_schema.dba' );
+        if ( class_exists( 'eZExtension' ) && class_exists( 'eZINI' ) )
+        {
+            try
+            {
+                foreach ( (array)eZExtension::activeExtensions() as $extension )
+                    $files[] = $root . '/extension/' . $extension . '/share/db_schema.dba';
+            }
+            catch ( Throwable $e )
+            {
+                // without settings only the kernel's schema is known
+            }
+        }
+        return $files;
+    }
+
+    /**
+     * Reads schema files into one schema; a table keeps the definition of the first file that has it.
+     *
+     * @param string[] $files
+     * @return array
+     */
+    static function shippedSchema( array $files )
+    {
+        $schema = array();
+        foreach ( $files as $file )
+        {
+            if ( !is_file( $file ) )
+                continue;
+            $loaded = ( static function ( $file ) {
+                $schema = null;
+                include $file;
+                return $schema;
+            } )( $file );
+            if ( is_array( $loaded ) )
+                $schema += $loaded;
+        }
+        return $schema;
+    }
+
+    /**
+     * The primary and unique keys a schema gives a table.
+     *
+     * @param array $schema
+     * @param string $table
+     * @return array[] one list of column names per key
+     */
+    static function schemaUniqueKeys( array $schema, $table )
+    {
+        $keys = array();
+        if ( isset( $schema[$table]['indexes'] ) && is_array( $schema[$table]['indexes'] ) )
+        {
+            foreach ( $schema[$table]['indexes'] as $index )
+            {
+                if ( isset( $index['type'], $index['fields'] ) && in_array( $index['type'], array( 'primary', 'unique' ), true ) )
+                {
+                    $fields = array();
+                    foreach ( (array)$index['fields'] as $field )
+                        $fields[] = is_array( $field ) ? (string)( $field['name'] ?? '' ) : (string)$field;
+                    $keys[] = $fields;
+                }
+            }
+        }
+        return $keys;
     }
 
     /*!
@@ -1041,6 +1207,9 @@ class eZSQLite3DB extends eZDBInterface
         if ( $this->WriterGate )
             fclose( $this->WriterGate );
         $this->WriterGate = null;
+        if ( $this->WriterQueue )
+            fclose( $this->WriterQueue );
+        $this->WriterQueue = null;
     }
 
     function __destruct()
@@ -1288,6 +1457,16 @@ class eZSQLite3DB extends eZDBInterface
     protected $WriterGate = null;
     protected $HoldsWriterGate = false;
     protected $WriterGatePid = 0;
+    /// The open <database>.writer-queue file (null: not opened yet, false: none), see writerQueue()
+    protected $WriterQueue = null;
+    protected $WriterQueuePid = 0;
+
+    /**
+     * How long a writer that finds the write lock free, but others waiting for
+     * it, leaves it to them before its own first try, in ms: above the longest
+     * pause between a waiter's tries (15 ms), so one of them is in first.
+     */
+    const HANDOFF_MS = 30;
 }
 
 ?>

@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {* SectionID is cast to a number: every distinct raw value would write its own cache file *}
+    {* The search's section (search_section_id) is cast to a number: every distinct raw value would write its own cache file *}
     {* Do some uncacheable left + right menu stuff before cache-block's *}
     {* $hide_left_menu and $hide_right_menu as the admin design defines them: on content edit pages (edit, history,
        version view ...) the page's own template brings the left column (Object information) and the content tree
@@ -24,7 +24,7 @@
      $admin_left_size      = ezpreference( 'admin_left_menu_size' )
      $admin_theme          = ezpreference( 'admin_theme' )
      $left_size_hash       = 0
-     $search_hash          = array( cond( ezhttp_hasvariable( 'SectionID', 'get' ), ezhttp( 'SectionID', 'get' )|int ) )
+     $search_hash          = array( first_set( $search_section_id, -1 )|int )
      $user_hash = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ), ',', $current_user.is_logged_in|choose( 'anonymous', 'user' ) )
      $uri_cache_key        = $module_result.uri
      $main_wrapped         = false()
@@ -117,8 +117,9 @@
                 {* siteaccess_url(): the header links to the site with the scheme, host and port
                    of the request, and Apache and Velocity share this cache. The user's object id: the header's
                    user menu and logout button name the signed-in user (parts/a4_header_user.tpl). siteaccess_menu_key(): the
-       site menu lists the siteaccesses of the settings at the addresses of the request (parts/a4_header_site.tpl). *}
-                {cache-block keys=array( $ui_context, $ui_component, $user_hash, $current_user.contentobject_id, $access_type, first_set( $module_result.navigation_part, $navigation_part.identifier ), siteaccess_url(), siteaccess_menu_key(), $admin_layout_id, $env_badge.key, $a4_help_key ) ignore_content_expiry}
+       site menu lists the siteaccesses of the settings at the addresses of the request (parts/a4_header_site.tpl).
+       $search_hash: the search popup preselects the section of the search (page_search.tpl). *}
+                {cache-block keys=array( $ui_context, $ui_component, $user_hash, $current_user.contentobject_id, $access_type, first_set( $module_result.navigation_part, $navigation_part.identifier ), siteaccess_url(), siteaccess_menu_key(), $admin_layout_id, $env_badge.key, $a4_help_key, $search_hash ) ignore_content_expiry}
 
                 {* HEADER ( SEARCH, LOGO AND USERMENU ): the navbar. The header zone fills it with the logo, the menu
                    button, search, theme switch and sidebar controls, the topmenu zone with the tab menu. Either zone
@@ -255,6 +256,7 @@
     <img src={'2/loader.gif'|ezimage()} id="ajaxuploader-loader"
         alt="{'Loading...'|i18n( 'design/admin/pagelayout' )}" />{/if}
 
+{include uri='design:pagelayout/hooks/body_end.tpl'}
 </body>
 
 </html>

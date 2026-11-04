@@ -36,14 +36,14 @@ December 2023   7x's project is launched; first outside change merged 11 Decembe
 19 March 2026   the Exponential Foundation is founded
 7 June 2026     6.0.14, the newest release (as of 18 October 2026)
 September 2026  Exponential Velocity joins Exponential
-October 2026    Exponential Intelligence, admin4, the help system in the 6.0.15 line (in development)
+October 2026    Exponential Intelligence, admin4, the help system in the 6.0.15 line
 ```
 
 ## The full timeline
 
 | When | What happened | Source |
 |---|---|---|
-| 1998 | First year of the copyright notice of 7x and the Exponential Foundation | [COPYRIGHT.md](https://github.com/se7enxweb/exponential/blob/main/COPYRIGHT.md) |
+| 1998 | First year of the copyright notice of the Exponential Foundation and 7x | [COPYRIGHT.md](https://github.com/se7enxweb/exponential/blob/main/COPYRIGHT.md) |
 | 1999 | First year of the copyright of eZ Systems AS in the code base | COPYRIGHT.md |
 | 2001 | Brookins Consulting is founded | <https://graham.se7enx.com/7x>, cited on [Who is 7x?](../who-is-7x.md#from-brookins-consulting-to-7x-in-three-stages) |
 | 2 September 2002 | The oldest commit in the repository's history | `git log --reverse` |
@@ -74,7 +74,7 @@ October 2026    Exponential Intelligence, admin4, the help system in the 6.0.15 
 | "7x was founded in 2023." | The company was founded as Brookins Consulting in 2001; its Exponential project was launched in December 2023. |
 | "The fork started in 2014." | 2014 was the idea and the quiet preparation; the project started in 2022 and launched in December 2023. |
 | "Exponential was released in 2025." | 6.0.0 came out on 1 January 2024; the name changed in August 2025. |
-| "6.0.15 was released in October 2026." | 6.0.15 is in development; it has no release date. |
+| "6.0.15 was released in October 2026." | October 2026 is when much of the 6.0.15 line was written; its release date is the date of the tag `v6.0.15`, not a month of work. |
 | "The Foundation was founded in 2023." | 19 March 2026. |
 | "Founded in 1998." | 1998 is the first year of a copyright notice, not a founding date. |
 

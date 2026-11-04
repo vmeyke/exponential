@@ -18,16 +18,16 @@ Kontexthilfe in anderen Clients.
 
 | Teil | Wo |
 |---|---|
-| Die acht Klassen `help_manual`, `help_section` (Kapitel), `help_concept`, `help_task`, `help_reference`, `help_troubleshooting`, `help_screenshot`, `help_glossary_entry` in der Klassengruppe "Help" | `./console exp:help:content classes` |
-| Die Sektionen `help_public` und `help_internal`, die Objektstatusgruppe `help_status` (Entwurf, Prüfung, Veröffentlicht), der Ordnerbaum (`help-root`, `help-pool` ..., über die remote_id gefunden) | `./console exp:help:content tree` |
-| Die Rollen "Help editor" und "Help release" sowie die eine zusätzliche Richtlinie von Anonymous | `./console exp:help:content roles` |
+| Die acht Klassen `help_manual`, `help_section` (Kapitel), `help_concept`, `help_task`, `help_reference`, `help_troubleshooting`, `help_screenshot`, `help_glossary_entry` in der Klassengruppe "Help" | `./console exp:help:content classes --apply` |
+| Die Sektionen `help_public` und `help_internal`, die Objektstatusgruppe `help_status` (Entwurf, Prüfung, Veröffentlicht), der Ordnerbaum (`help-root`, `help-pool` ..., über die remote_id gefunden) | `./console exp:help:content tree --apply` |
+| Die Rollen "Help editor" und "Help release" sowie die eine zusätzliche Richtlinie von Anonymous | `./console exp:help:content roles --apply` |
 | Der Validator des Styleguides; `--fix` setzt die Sektionen anhand der Zielgruppe | `./console exp:help:content check` |
-| Das anfängliche Glossar und die ersten Themen (die Vorlagen des Styleguides, ein Handbuch) | `./console exp:help:content seed-glossary`, `seed-topics` |
-| Die Handbücher aus der Markdown-Hilfe: eines je Ordner von `doc/eng-us/help/` und je Referenzbereich, bei jedem Release neu erstellt, mit der deutschen Übersetzung | `./console exp:help:content build-manuals` ([unten](#handbücher-aus-der-markdown-hilfe)) |
+| Das anfängliche Glossar und die ersten Themen (die Vorlagen des Styleguides, ein Handbuch) | `./console exp:help:content seed-glossary --apply`, `seed-topics` |
+| Die Handbücher aus der Markdown-Hilfe: eines je Ordner von `doc/eng-us/help/` und je Referenzbereich, bei jedem Release neu erstellt, mit der deutschen Übersetzung | `./console exp:help:content build-manuals --apply` ([unten](#handbücher-aus-der-markdown-hilfe)) |
 | Was installiert ist, Deinstallation | `./console exp:help:content report`, `uninstall` |
 | Ein E-Book (EPUB, PDF) eines Handbuchs | `./console exp:help:content export`, **EPUB/PDF herunterladen** auf der Seite des Handbuchs |
 | Der DITA-1.3-Export (Bookmaps, DITAVAL, Themen, Glossar), nach dem Schreiben geprüft | `./console exp:help:content dita`, **DITA herunterladen** auf der Seite des Handbuchs und in der Liste der Handbücher |
-| Die E-Books, gespeichert als Dateiobjekte unter E-books, versioniert, bei der Veröffentlichung neu erstellt | `./console exp:help:content ebooks` und jede Veröffentlichung eines Themas |
+| Die E-Books, gespeichert als Dateiobjekte unter E-books, versioniert, bei der Veröffentlichung neu erstellt | `./console exp:help:content ebooks --apply` und jede Veröffentlichung eines Themas |
 | Die Themen mit überfälliger Prüfung (Prüfdatum überschritten, zu lange in Prüfung) | das Dashboard der Hilfe, `./console exp:help:content review` |
 | Die acht Klassen als Inhaltsklassen-Paket `exp_help_classes` (.ezpkg) und seine Prüfung | `./console exp:help:content package`, `verify-package` ([das Paket](../../spezifikationen/6.0/hilfeklassen-als-paket.md)) |
 | Ein Thema in der Hilfe: `exphelp/topic/<help_id>`; ein Handbuch: `exphelp/manual/<remote_id>`; die Liste der Handbücher: `exphelp/manual` | Admin, Richtlinie `exphelp/read` |
@@ -36,7 +36,7 @@ Kontexthilfe in anderen Clients.
 | Kontexthilfe als JSON: `exphelp/context/<help_id>`, `exphelp/context/manual/<remote_id>` | Richtlinie `exphelp/context` |
 | Kontexthilfe für Clients mit Token (OAuth oder ein persönlicher API-Schlüssel): `/api/help/v1/topic/<help_id>`, `/api/help/v1/manual/<remote_id>` ([unten](#kontexthilfe-für-clients-mit-token)) | REST, Scope `help` |
 | Die Hilfe auf den eigenen Seiten der Site: die Voll- und Zeilenansichten der Hilfeklassen ([unten](#hilfe-auf-den-seiten-der-site)) | Extension `exphelpsite` |
-| Die Tabellen `exphelp_help_id` (veröffentlichte help_ids) und `exphelp_feedback` in einer Installation, die älter ist als sie | `./console exp:help:content tables` (ein Schritt von `install`) |
+| Die Tabellen `exphelp_help_id` (veröffentlichte help_ids) und `exphelp_feedback` in einer Installation, die älter ist als sie | `./console exp:help:content tables --apply` (ein Schritt von `install`) |
 
 Der Plan nennt die Skripte `create_classes.php`, `create_tree.php`, `create_roles.php`, `check_help.php`,
 `seed_glossary.php` und `seed_topics.php`. Sie sind die Aktionen `classes`, `tree`, `roles`, `check`, `seed-glossary`
@@ -50,11 +50,11 @@ sich so, wie der Plan es beschreibt:
 
 ```
 ./console exp:help:content install -s admin --dry-run      # the plan
-./console exp:help:content install -s admin                # classes, tree, roles
-./console exp:help:content install -s admin                # No change.
-./console exp:help:content seed-glossary -s admin
-./console exp:help:content seed-topics -s admin --release  # the style guide's templates, Released
-./console exp:help:content check -s admin --fix
+./console exp:help:content install --apply -s admin                # classes, tree, roles
+./console exp:help:content install --apply -s admin                # No change.
+./console exp:help:content seed-glossary --apply -s admin
+./console exp:help:content seed-topics --apply -s admin --release  # the style guide's templates, Released
+./console exp:help:content check --apply -s admin --fix
 ./console exp:help:content report -s admin
 ```
 
@@ -64,15 +64,15 @@ vorhandene Objekte so, wie die Redakteure sie hinterlassen haben, sofern nicht `
 
 ### Bei einer neuen Installation
 
-Der Kickstarter und `./console exp:install` stellen am Ende einer Installation den Aufbau der Handbücher in die
-Warteschlange (`./console exp:help:content build-manuals -s admin --queue`, aus `expKickstarter::installHelpManuals()`)
+Der Kickstarter und `./console exp:install --apply` stellen am Ende einer Installation den Aufbau der Handbücher in die
+Warteschlange (`./console exp:help:content build-manuals --apply -s admin --queue`, aus `expKickstarter::installHelpManuals()`)
 und warten nicht darauf: Die Installation dauert nur wenige Sekunden länger. Der Inhaltsjob `helpmanuals` installiert
 die Hilfe als Inhalt (Klassen, Baum, Rollen) und baut dann die Handbücher in den folgenden 20 bis 30 Minuten im
 Hintergrund auf, während die Site schon genutzt wird ([der Hintergrundjob](#der-hintergrundjob)). `exphelp.ini
 [ManualSettings] BuildOnInstall=disabled` lässt das weg. Scheitert das Einreihen, wird es gemeldet, und die
 Installation bleibt bestehen: Die Site funktioniert ohne die Handbücher, und der Befehl kann jederzeit ausgeführt
 werden. Der Setup-Assistent im Browser reiht ihn nicht ein: Führen Sie nach einer Installation mit dem Assistenten
-einmal `./console exp:help:content build-manuals -s admin --queue` aus. `seed-glossary` und `seed-topics` führen Sie
+einmal `./console exp:help:content build-manuals --apply -s admin --queue` aus. `seed-glossary` und `seed-topics` führen Sie
 von Hand aus, wenn Sie die Startinhalte möchten.
 
 Dieselben Befehle, die eine bestehende Site erweitern, legen auf einer neuen alles an und finden Vorhandenes über
@@ -95,14 +95,14 @@ Styleguides, das Glossar und alles, was Redakteure geschrieben haben, bleiben, w
 
 ```
 ./console exp:help:content build-manuals -s admin --dry-run    # was sich ändern würde
-./console exp:help:content build-manuals -s admin --release    # anlegen, aktualisieren, entfernen; Veröffentlicht setzen
-./console exp:help:content build-manuals -s admin --release    # No change.
-./console exp:help:content build-manuals -s admin --manual=press --release   # ein Handbuch
-./console exp:help:content build-manuals -s admin --language=none            # ohne die Übersetzungen
-./console exp:help:content build-manuals -s admin --queue                    # dasselbe im Hintergrund (Inhaltsjob)
+./console exp:help:content build-manuals --apply -s admin --release    # anlegen, aktualisieren, entfernen; Veröffentlicht setzen
+./console exp:help:content build-manuals --apply -s admin --release    # No change.
+./console exp:help:content build-manuals --apply -s admin --manual=press --release   # ein Handbuch
+./console exp:help:content build-manuals --apply -s admin --language=none            # ohne die Übersetzungen
+./console exp:help:content build-manuals --apply -s admin --queue                    # dasselbe im Hintergrund (Inhaltsjob)
 ./console exp:help:content report -s admin                     # "Handbücher werden erstellt (n von 52)", solange er läuft
-./console exp:help:content ebooks -s admin                     # die E-Books jedes veröffentlichten Handbuchs
-./console exp:help:content ebooks -s admin --language=ger-DE   # und ihre deutsche Ausgabe
+./console exp:help:content ebooks --apply -s admin                     # die E-Books jedes veröffentlichten Handbuchs
+./console exp:help:content ebooks --apply -s admin --language=ger-DE   # und ihre deutsche Ausgabe
 ```
 
 ### Was woraus wird
@@ -169,7 +169,7 @@ Lauf ohne `--manual` ihr Handbuch samt Kapiteln und Themen.
 
 ### Wie lange es dauert
 
-Der erste Aufbau legt jedes Objekt an: Auf der Kopie der SQLite-Datenbank von alpha dauerten 52 Handbücher, 342
+Der erste Aufbau legt jedes Objekt an: Auf der Kopie der SQLite-Datenbank einer Entwicklungsinstallation dauerten 52 Handbücher, 342
 Kapitel und 5.315 Themen (4.614 davon mit deutscher Übersetzung) auf einem stark ausgelasteten gemeinsamen Server
 (Last um 23, der Befehl mit der niedrigsten Priorität) 28 Minuten; ein zweiter Lauf, der nur vergleicht, 34 Sekunden,
 das meiste davon für das Lesen der Seiten. Den größten Teil eines ersten Aufbaus kostet das Veröffentlichen jedes
@@ -214,10 +214,10 @@ Das Markdown ändert sich mit jedem Release, also werden die Handbücher mit ihm
 Releases:
 
 ```
-./console exp:help:content install -s admin                    # neue Zielgruppenoptionen, Rollen (meist No change.)
-./console exp:help:content build-manuals -s admin --release
-./console exp:help:content ebooks -s admin
-./console exp:help:content ebooks -s admin --language=ger-DE
+./console exp:help:content install --apply -s admin                    # neue Zielgruppenoptionen, Rollen (meist No change.)
+./console exp:help:content build-manuals --apply -s admin --release
+./console exp:help:content ebooks --apply -s admin
+./console exp:help:content ebooks --apply -s admin --language=ger-DE
 ```
 
 `--release` veröffentlicht, was der Aufbau erstellt oder geändert hat: Die Seiten wurden vor dem Release im Repository
@@ -308,7 +308,7 @@ Anonymous ebenso `exphelp/feedback`, damit die Leser einer öffentlichen Hilfe "
 
 ## Der Validator
 
-`./console exp:help:content check -s <siteaccess> [--fix] [--json]` prüft jedes Thema, jede Abbildung, jedes Kapitel,
+`./console exp:help:content check --apply -s <siteaccess> [--fix] [--json]` prüft jedes Thema, jede Abbildung, jedes Kapitel,
 jedes Handbuch und jeden Glossareintrag unterhalb von `help-root` (`expHelpContentValidator`, keine Datenbank in den
 Regeln selbst):
 
@@ -392,6 +392,60 @@ oder ein neues Thema anlegen und beim alten `version_to` und einen Verweis setze
   `[ContentSettings] ContextHelpIds[<module>/<view>]=<help_id>`, aufgeführt in `[ContextHelp] Providers[]`). Sie werden
   mit der zweiten Welle des Hilfesystems in Suche, Dashboard und Einstellungen der Hilfe eingebunden.
 
+### Wie die Hilfe bei Tausenden von Themen schnell bleibt
+
+Die Hilfeobjekte werden einmal aus der Datenbank gelesen und als einfache Zeilen im Cache gehalten, nicht bei jeder
+Anfrage:
+
+- **Die Zeilen** (`var/<site>/cache/exphelp/content/repository-<key>.cache`, eine Datei je Hilfewurzel, Sprachliste
+  und Datenbank). Jede Anfrage fragt die Datenbank zuerst nach einem Stempel des Hilfe-Teilbaums: ein paar Summen über
+  die Orte, die Objekte (Änderungs- und Veröffentlichungszeiten, Versionen, Sektionen, Besitzer, Klassen, Status,
+  Sprachmasken, Eltern, Hauptknoten) und ihre Zustände, dazu die Hilfeklassen und die Sektionen. Solange der Stempel
+  gleich bleibt, kommen die Zeilen aus der Datei. Ändert er sich (ein Veröffentlichen, eine hinzugefügte oder entfernte
+  Übersetzung, ein Verschieben, ein neuer oder entfernter Ort, ein Entfernen, eine Änderung von Zustand oder Sektion),
+  werden nur die Objekte neu gelesen, deren eigene Signatur sich geändert hat; die anderen werden aus der Datei
+  übernommen. Eine Änderung einer Hilfeklasse oder einer Sektion liest jedes Objekt neu. Ein Prozess liest, während
+  die anderen auf seine Datei warten (eine Sperre daneben).
+- **Wer was sieht**, wird aus den Zeilen entschieden (`expHelpContentAccess`): Klasse, Sektion, Besitzer, Zustände und
+  Orte des Objekts gegen die Richtlinien `content/read` und `content/edit` des Benutzers, so wie
+  `eZContentObject::checkAccess()` sie vergleicht (Class, ParentClass, ParentDepth, Section, User_Section, Language,
+  Owner, ParentOwner, State, StateGroup_*, Node, Subtree, User_Subtree). Wo nur das Objekt es sagen kann (eine
+  Group-Einschränkung, eine Einschränkung einer Extension, der anonyme Besitzer "eigene Sitzung", der Schutz der
+  Mitgliederverwaltung), wird das Objekt geladen und gefragt, wie bisher. Die Antwort ist für jeden Benutzer dieselbe
+  wie bisher.
+- **Die Texte** der Themen sind ein zweiter Teil derselben Datei: Dashboard, Listen und Zählungen lesen die Zeilen ohne
+  sie; die Themenansicht und die Suche lesen sie mit.
+- **Die Suchwörter** jedes Themas (jedes Wort und sein Stamm, je Feld) stehen in `search-<key>.cache` daneben und
+  werden nur für die Themen neu berechnet, deren Texte sich geändert haben.
+
+Das Dashboard liest die Zeilen, entscheidet daraus die Sichtbarkeit und wählt die sechs neuesten Themen: etwa eine
+Sekunde auf einer Site mit 5.700 Hilfeobjekten, wo es früher jedes Objekt lud (10 bis 30 Sekunden, mehr als die
+Grenze von 30 Sekunden von Velocity). Jedes Objekt neu zu lesen (ein leerer Cache) dauert ein paar Sekunden, die
+Suchwörter aller Themen länger; füllen Sie den Cache darum nach einem Deployment oder nach dem Leeren, einmal je
+Siteaccess, der die Hilfe zeigt (der Cache gilt je Sprachliste):
+
+```
+./console exp:help:content cache -s admin
+```
+
+Nach einer Änderung muss der Cache nicht geleert werden. `php bin/php/ezcache.php --clear-id=exphelpcontent` (Tag
+`exphelp`, `site.ini [Cache_exphelpcontent]`, und `--clear-all`) entfernt ihn.
+
+**Eine Web-Anfrage liest nie jedes Hilfeobjekt.** Fehlt der Cache oder lässt er sich nicht dadurch aktualisieren, dass
+nur das Geänderte gelesen wird (ein geleerter Cache, eine geänderte Hilfeklasse oder Sektion, mehr als 300 geänderte
+Objekte), startet die Anfrage `php bin/php/exphelpcontent.php cache -s <ihr Siteaccess>` im Hintergrund (mit `setsid`
+abgekoppelt, einmal: eine Markierungsdatei `<Cache-Datei>.building` verhindert 15 Minuten lang einen zweiten Start)
+und läuft ohne Hilfeinhalte weiter: Das Dashboard lässt seinen Teil mit Hilfeinhalten weg, die Suche findet keine
+Hilfethemen, ein Thema oder Handbuch wird nicht gefunden, und die Kontexthilfe behält ihre letzte Liste. Sobald der
+Befehl die Datei geschrieben hat, hat die nächste Anfrage wieder alles. Das Kommandozeilen-PHP, das er benutzt, wird
+neben dem laufenden PHP gefunden (`exphelp.ini [ContentSettings] CachePhpBinary` legt es fest). Eine Suche, die die
+Suchwörter aller Themen berechnen müsste, tut dasselbe.
+
+`exp:velocity deploy` füllt den Cache, nachdem es die Caches geleert hat, mit einem Schritt je Siteaccess, der die
+Hilfe zeigt: die aus `exphelp.ini [ContentSettings] CacheSiteAccessList[]` und die, die den Cache benutzt haben
+(festgehalten in `var/<site>/cache/exphelp/content/siteaccesses.json`). Wo keine Hilfeinhalte installiert sind, ist
+der Schritt ein SKIP.
+
 ## Kontexthilfe per help_id (JSON)
 
 ```
@@ -442,26 +496,49 @@ Administrationsoberfläche kann ihn wie jeden Status setzen; die Seite des Thema
 ihn dort, wo das Thema gelesen wird, in der Karte **Prüfung und Freigabe**, allen, die das Thema bearbeiten oder seinen
 Status zuweisen dürfen:
 
+- ein Statuskasten: der Status als Abzeichen (**Entwurf**, **In Prüfung**, **Veröffentlicht**) und was er für Leser
+  bedeutet: "Leser sehen diese Seite." oder "Für Leser verborgen, bis jemand sie freigibt.";
 - die drei Status als Schritte, der aktuelle markiert;
-- die Schritte, die die `state/assign`-Richtlinien des Benutzers erlauben, als Schaltflächen: **Zur Prüfung geben**
-  (Entwurf), **Freigeben** und **Zurück zum Entwurf** (Prüfung), **Zurück in Prüfung** (Veröffentlicht). Ein
+- die Schritte, die die `state/assign`-Richtlinien des Benutzers erlauben, als Schaltflächen, jede mit ihrer Wirkung
+  daneben: **Zur Prüfung geben** (Entwurf; als Nächstes prüft jemand, Leser sehen sie noch nicht), **Freigeben**
+  (Prüfung; Leser sehen sie sofort) und **Zurück zum Entwurf** (Prüfung; aus der Prüfung zur weiteren Arbeit),
+  **Zurück in Prüfung** (Veröffentlicht; verbirgt sie vor Lesern, bis sie wieder freigegeben ist). Ein
   Hilfe-Redakteur erhält nur Zur Prüfung geben; wer zusätzlich die Rolle Help release hat, auch den Rest. Eine
   Schaltfläche ist ein POST an `exphelp/state/<help_id>` mit dem Formular-Token des Kernels und läuft über die
   Statusoperation des Kernels, sodass daran gehängte Workflows wie beim Reiter Objektstatus laufen;
-- wenn der Benutzer die aktuelle Version des Themas geschrieben hat, keine Schaltfläche Freigeben, sondern der Grund:
-  "Sie haben die aktuelle Version geschrieben, deshalb gibt sie jemand anderes mit der Freigaberolle frei"
-  ([wer schreibt, gibt nicht frei](#rollen));
-- nach einem Schritt sein Ergebnis (das Thema ist jetzt in Prüfung, veröffentlicht, wieder ein Entwurf, oder warum sich
-  nichts geändert hat);
+- ein Schritt zurück (**Zurück in Prüfung**, **Zurück zum Entwurf**) geschieht nicht sofort: `exphelp/state` zeigt
+  zuerst eine Bestätigungsseite ("Diese Seite vor Lesern verbergen?" oder "Diese Seite zurück zum Entwurf geben?"),
+  deren Formular denselben Schritt mit der Bestätigung erneut sendet, oder **Abbrechen**, um ohne Änderung
+  zurückzugehen. Sie ist eine eigene Seite ohne Skript, sodass ein versehentlicher Klick nie eine veröffentlichte
+  Seite verbirgt;
+- wenn der Benutzer nicht freigeben darf, wer es darf: "Nur ein Benutzer mit der Rolle Help release, der diese Version
+  nicht geschrieben hat, kann sie freigeben", mit einem Link auf [Wartet auf Freigabe](#wartet-auf-freigabe) auf der
+  Startseite der Hilfe, wenn die Rollen des Benutzers das Freigeben erlauben. Hat der Benutzer die aktuelle Version
+  des Themas geschrieben, steht zuerst der Grund: "Sie haben die aktuelle Version geschrieben, deshalb gibt sie
+  jemand anderes mit der Freigaberolle frei" ([wer schreibt, gibt nicht frei](#rollen));
+- nach einem Schritt sein Ergebnis mit dem neuen Status und dem nächsten Schritt: "Die Seite ist jetzt in Prüfung.
+  Sie ist für Leser verborgen, bis sie freigegeben ist." mit der Schaltfläche **Jetzt freigeben**, wenn der Benutzer
+  sie freigeben darf, sonst wer es darf; oder veröffentlicht, wieder ein Entwurf, oder warum sich nichts geändert hat;
 - **Prüfung nach dem Styleguide**: die Befunde des Validators zu diesem Thema (Stufe, Regel, Feld, Befund), geprüft mit
   dem, was seine Regeln brauchen (die verwandten Themen, die Themen mit seiner help_id, seine Abbildungen, das Glossar,
   die veröffentlichten help_ids), nicht mit der ganzen Hilfe, sodass die Redakteurin sieht, was `check` melden würde,
   bevor sie das Thema zur Prüfung gibt;
 - die Antworten auf "War das hilfreich?" zu dem Thema: Ja, Nein und die Gründe für Nein.
 
-Die Karte nutzt die gemeinsamen Komponenten der Admin-Designs (`a4-card`, `a4-steps`, `a4-notice`, `a4-table`, `a4-tag`,
-`a4-btn`), hat kein eigenes CSS außer ihrem Platz in der Spalte (`stylesheets/modules/help.css`) und folgt dem hellen und
-dunklen Modus. Dieselbe Vorlage liegt in design/admin und design/admin4.
+Die Karte nutzt die gemeinsamen Komponenten der Admin-Designs (`a4-card`, `a4-steps`, `a4-notice`, `a4-badge`,
+`a4-table`, `a4-tag`, `a4-btn`), hat kein eigenes CSS außer ihrem Platz in der Spalte und der Anordnung von
+Statuskasten und beschriebenen Schritten (`stylesheets/modules/help.css`) und folgt dem hellen und dunklen Modus.
+Dieselbe Vorlage liegt in design/admin und design/admin4. Die Seite eines Handbuchs (`exphelp/manual/<remote_id>`)
+zeigt dieselbe Karte ohne die Prüfung nach dem Styleguide; ihre Schritte gehen an `exphelp/state/manual/<remote_id>`.
+
+### Wartet auf Freigabe
+
+Die Startseite der Hilfe listet **Hilfethemen, die auf Freigabe warten**: die Themen in Prüfung, das am längsten
+wartende zuerst, für alle, die sie freigeben dürfen (die Rolle Help release). Jede Zeile verlinkt das Thema, zeigt die
+letzte Änderung und hat eine Schaltfläche **Freigeben**; ein Thema, das der Benutzer geschrieben hat, steht auch dort,
+markiert: Jemand anderes gibt es frei. Die Liste wird mit dem View-Parameter `(offset)` geblättert
+(`exphelp/dashboard/(offset)/10`), zehn Themen je Seite (`ReviewListLimit`). Die Karte eines Themas verlinkt hierher
+(`exphelp/dashboard#help-dash-waiting`), wenn der Benutzer es nicht freigeben darf.
 
 ## War das hilfreich?
 
@@ -477,7 +554,7 @@ Site:
 - **Eine Antwort je Thema und Sitzung** wird gezählt; die Sitzung merkt sich, welche Themen sie beantwortet hat
   (höchstens 50), die Tabelle nicht. Für eine zweite Antwort wird gedankt, gespeichert wird sie nicht.
 - **Wie lange**: `FeedbackKeepDays` (730 Tage). Der Cronjob-Teil `exphelp` (Teil von `infrequent`, oder allein:
-  `php runcronjobs.php exphelp`) entfernt ältere Antworten; `./console exp:help:content feedback --prune` tut es von Hand.
+  `php runcronjobs.php exphelp`) entfernt ältere Antworten; `./console exp:help:content feedback --apply --prune` tut es von Hand.
 - **Wer antworten darf**: wer ein veröffentlichtes Thema sehen darf und `exphelp/read` hat (die Leser der Hilfe in der
   Administrationsoberfläche) oder die neue Richtlinienfunktion `exphelp/feedback` (die Leser der öffentlichen Hilfe
   einer Site). Anonymous erhält `exphelp/feedback` nur mit `AnonymousFeedback=enabled` und dem Rollenschritt. Eine

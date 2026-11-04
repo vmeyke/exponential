@@ -9,7 +9,7 @@
  *
  * File containing the ezwebininstall.php script.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -339,9 +339,11 @@ class Ezwebininstall extends \Exponential\Runnable\Command
                                                                           'attributes_data' => $templateLookData ) );
 
 
-                    $siteInstaller->swapNodes( array( 'src_node' => array( 'name' => "Exponential" ),
+                    // the content root, by its remote id: its name changed from release to release
+                    $contentRoot = array( 'name' => 'Websites', 'remote_id' => \eZSiteInstaller::CONTENT_ROOT_REMOTE_ID );
+                    $siteInstaller->swapNodes( array( 'src_node' => $contentRoot,
                                                       'dst_node' => array( 'name' => "Home" ) ) );
-                    $siteInstaller->removeContentObject( array( 'name' => 'Exponential' ) );
+                    $siteInstaller->removeContentObject( $contentRoot );
 
                     $webinInstaller->postInstall();
                 }

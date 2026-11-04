@@ -13,6 +13,21 @@ Diese Seite ist für Privatpersonen, die entscheiden, wo ihre Website liegen wir
 jeder funktioniert, und jeder lässt Ihnen unterschiedliche Arbeit. Der Bereich für Hosting enthält die Einzelheiten
 für Hoster ([Ein Hosting-Modell wählen](../../hosting/modelle/ein-hosting-modell-waehlen.md)).
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../../beispiele/webserver/nginx.md), [LiteSpeed](../../../beispiele/webserver/litespeed.md), [Caddy](../../../beispiele/webserver/caddy.md), [IIS](../../../beispiele/webserver/iis.md),
+> [Velocity](../../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../hosting/control-panels/plesk.md), [cPanel](../../hosting/control-panels/cpanel.md), [DirectAdmin](../../hosting/control-panels/directadmin.md), [ISPConfig](../../hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Inhalt
 
 1. [Die drei Orte](#die-drei-orte)
@@ -77,7 +92,7 @@ nutzen, ist der vernünftigste Fall; bewahren Sie Sicherungen trotzdem getrennt 
 
 | Frage | Warum |
 |---|---|
-| Welche PHP-Versionen, und kann ich 8.x pro Website wählen? | PHP 8.0 oder neuer ist erforderlich |
+| Welche PHP-Versionen, und kann ich 8.x pro Website wählen? | PHP 8.0 oder neuer (PHP 7.4 ohne Support nutzbar) ist erforderlich |
 | Sind `intl`, `mbstring`, `xsl`, `gd` oder ImageMagick, `sqlite3` verfügbar? | Erforderliche oder benötigte Erweiterungen ([PHP-Versionen und Erweiterungen](../../hosting/grundlagen/php-versionen-und-erweiterungen.md)) |
 | Kann ich Cron alle paar Minuten ausführen? | Newsletter, zeitgesteuertes Veröffentlichen |
 | Kann die Website E-Mails versenden, und zwar von meiner Domain? | Registrierung, Zurücksetzen des Passworts, Formulare, Newsletter |

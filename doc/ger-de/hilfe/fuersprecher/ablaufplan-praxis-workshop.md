@@ -24,7 +24,7 @@ damit die Teilnehmenden allein weitermachen können.
 
 ## Vor dem Workshop
 
-**Die Teilnehmenden bringen** einen Laptop mit PHP 8.1 oder später, Composer und Git mit sowie ein GitHub-Konto für die
+**Die Teilnehmenden bringen** einen Laptop mit PHP 8.0 oder später (PHP 7.4 ohne Support nutzbar), Composer und Git mit sowie ein GitHub-Konto für die
 letzte Übung. Prüfen Sie die PHP-Anforderung unter [Betriebssystemunterstützung](../betriebssystemunterstuetzung.md#was-das-betriebssystem-bereitstellen-muss).
 
 **Sie bereiten vor**:
@@ -85,7 +85,7 @@ Korrektur (ein Tippfehler, ein klarerer Satz) ist ein besserer erster Beitrag.
 ```text
 EXPONENTIAL WORKSHOP                                               <date>, <place>
 
-Install            ./console exp:install --dry-run   then   ./console exp:install
+Install            ./console exp:install             then   ./console exp:install --apply
 First sign-in      change the generated password; delete var/log/initial-admin-password
 Help               the "?" in the header of every page; Help center: /exphelp/dashboard
 Exercises          (list with the help page of each)

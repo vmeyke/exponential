@@ -8,13 +8,15 @@
  * The script runs as soon as it is included, so the test takes processRelationListRow() out of its source and
  * defines it under a name of its own; the function returns before it touches the database for empty data.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
  * @group php8
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
+#[\PHPUnit\Framework\Attributes\Group('php8')]
 class eZUpdateScriptCleanupFieldValueRelationsTest extends PHPUnit\Framework\TestCase
 {
     private static function defineFunction()

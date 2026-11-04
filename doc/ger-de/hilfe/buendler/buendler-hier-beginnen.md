@@ -42,7 +42,7 @@ dem aktuellen Stand halten.
   (Legacy, Nexus) ([Die Basis wählen](die-basis-waehlen.md)).
 - **Legen Sie Versionen fest.** Ein Release-Tag ändert sich nie; bauen Sie aus Tags und behalten Sie Ihre Lock-Datei
   ([Versionen, Tags und Pinning](versionen-tags-und-pinning.md)).
-- **Installieren Sie unbeaufsichtigt.** `php bin/php/console exp:install` oder der Kickstarter (`kickstart.ini`)
+- **Installieren Sie unbeaufsichtigt.** `php bin/php/console exp:install --apply` oder der Kickstarter (`kickstart.ini`)
   erledigen die gesamte Installation ohne Browser ([Die drei Installer](die-drei-installer.md)).
 - **Liefern Sie nie ein bekanntes Passwort aus.** Die Installer erzeugen ein zufälliges Administratorpasswort, wenn
   keines angegeben ist, und schreiben es nach `var/log/initial-admin-password`; öffentliche Demos sind die einzige
@@ -114,7 +114,7 @@ Die vollständige Reihenfolge, Seite für Seite, ist der [Lesepfad für Bündler
 - [Partner: hier beginnen](../partner/partner-hier-beginnen.md)
 - [Hosting-Firmen: hier beginnen](../hosting/hosting-anbieter-hier-beginnen.md)
 - [Seitenpakete: hier beginnen](../seitenpakete/README.md)
-- [Wiederverkäufer: hier beginnen](../../../eng-us/help/resellers/resellers-start-here.md)
+- [Wiederverkäufer: hier beginnen](../wiederverkaeufer/wiederverkaeufer-hier-beginnen.md)
 - [Integratoren: hier beginnen](../integratoren/integratoren-hier-beginnen.md)
 - [Freie Dokumentation](../freie-dokumentation.md): Diese Seite darf unter der GNU FDL 1.3 frei kopiert, übersetzt und verbessert werden.
 

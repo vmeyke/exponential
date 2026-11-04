@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>החיפוש מתבצע בעמוד זה בלבד: %from עד %to מתוך %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>כל סוגי הנתונים של הליבה וההרחבות, וכיצד המחלקות והתוכן משתמשים בהם.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>סוגי נתונים</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>ניתן להוסיף לסימניות גם עמודי מערכת: יש לפתוח את העמוד (הגדרות, יומן הביקורת, רשימת משתמשים ...) ולבחור מעליו "הוספת העמוד לסימניות". לסימניות כאלה יש סמל של גלגל שיניים.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>אין עוד הרשאה לפתוח כאן עמוד זה. יש להסיר את הסימנייה או לבקש גישה ממנהל מערכת.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>מעבר לעמוד הראשון</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>אחר</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 הימים האחרונים</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>טווח מותאם אישית</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>כל המילים</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>מילה כלשהי</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ביטוי מדויק</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>רלוונטיות</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>שם א–ת</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>שם ת–א</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>שונה, החדש ביותר תחילה</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>שונה, הישן ביותר תחילה</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>פורסם, החדש ביותר תחילה</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>פורסם, הישן ביותר תחילה</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>שונה</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>מסננים</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>הצגת מסננים</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>הסתרת מסננים</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>איפוס</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>החלה</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>מילים</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>סוג תוכן</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>הצגת עוד (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>יש לבחור סוג תוכן אחד כדי לחפש באחת מהתכונות שלו.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>מדור</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>מקור</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>עד</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>תאריך ההתחלה אינו תאריך תקין.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>תאריך הסיום אינו תאריך תקין.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>בעלים</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>מזהה משתמש, שם כניסה או כתובת דוא״ל.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>לא נמצא משתמש עבור “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>שפה</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>כל שפה</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>מיקום</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count מיקומים</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>תוצאות בעמוד</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>תוצאות עבור “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>תוצאות (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>מיון לפי</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>מיון</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>מסננים פעילים</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>הסרת מסנן זה</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>לחלופין, יש לבחור מסננים ולהחיל אותם כדי להציג את התוכן התואם להם.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>המסננים מצמצמים את החיפוש לאחר הקלדת מילים.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>לא נמצאו תוצאות עבור “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>לא נמצאו תוצאות.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>יש להסיר אחד מהמסננים שלמעלה.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>תרגומים</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>פעולות</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>עריכת %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>עריכה</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8003,8 +8219,8 @@
         <translation>הודעות זכויות היוצרים של המחברים המקוריים ושל תוכנות הצד השלישי הכלולות ב־Exponential נשמרות בקובצי המקור ובקובץ LICENSE, כפי שהרישיון דורש.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>להלן רשימת התורמים ל־Exponential שהעניקו רישיון לשימוש ביצירתם ל־7x בהתאם לתנאי eZ Systems Contributor Licensing Agreement. כפי שהסכם זה מתיר, 7x מפיצה כל תרומה באותו רישיון של הקובץ שבו התרומה כלולה. הרשימה מציינת כל תורם, פרטי קשר אופציונליים ואת הקבצים שתרם או שתרם להם.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>תורמים שזוכים להכרה על עבודתם ב-Exponential ובתוכנה שממנה צמח, עם הקבצים שתרמו להם. זוהי הכרה, לא הודעת זכויות יוצרים: התרומות ל-Exponential מועברות ל-Exponential Foundation ול-7x לפי Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13826,32 +14042,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;התנסות ב־Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;הצטרפות לקהילת Exponential, החלפת ידע ותרומה לפרויקט&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; זכויות יוצרים &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ואחרים.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>מופעל על ידי &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. למידע נוסף יש לעיין ב־&lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; זכויות יוצרים &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ואחרים.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> למידע נוסף יש לעיין ב־&lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; זכויות יוצרים &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; ואחרים.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;התנסות ב־Exponential (מבית 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;הצטרפות לקהילת Exponential, קבלת תמיכה ותרומה לפרויקט&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; זכויות יוצרים &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; ואחרים.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13860,6 +14064,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>מרכז העזרה</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>תוכן</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>עמודי מסמכים</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>משתמשים</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>מחלקות תוכן</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>ניהול</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>עמוד %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>הצגת כל התוצאות</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count תוצאות</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>תוצאה אחת</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count הצעות</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>אין הצעות</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>לא ניתן היה לטעון את ההצעות.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>הצעות</translation>
     </message>
 </context>
 <context>
@@ -14328,6 +14587,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Nothing new</source>
         <translation>אין חדש</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>המכשירים שלך</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>פעילות אבטחה</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14617,6 +14884,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>מדריכים, חיפוש ואיך מדווחים על שגיאה.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>תוכן אחרון</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>התוכן החדש ביותר, מה שמוחזק לבדיקה, ופעולות על בחירה.</translation>
     </message>
 </context>
 <context>
@@ -15075,6 +15350,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>סנכרונים</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>ממשק ה־API של GraphQL: נקודת הקצה שלו, הסכמה וסביבת ניסוי להרצת שאילתות.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>הגירות</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>שינויים בהתקנה שנשמרים כקבצים: מצבם, הריצות, הרצה והחזרה לאחור.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>תוכן אחרון</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>התוכן החדש ביותר, מה שמוחזק לבדיקה, ופעולות על בחירה.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>פרסום עותק סטטי של אתר ב-GitHub Pages או בכל מארח git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>פרסום סטטי</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>סוגי נתונים</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>כל סוגי הנתונים של הליבה וההרחבות, וכיצד המחלקות והתוכן משתמשים בהם.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15239,6 +15554,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>חשבונות שאיש אינו משתמש בהם או שדורשים בדיקה; השבתה, שחרור חסימה או ייצוא שלהם.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>יומן ביקורת משתמשים</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>מי שינה, נכנס או נדחה, לפי חשבון; סינון וייצוא.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>דוח כניסות</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>מי מחובר, כניסות וכישלונות לפי יום; ניתוק משתמש מכל המכשירים.</translation>
     </message>
 </context>
 <context>
@@ -22055,6 +22386,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>לפני %n שעות</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>תשובות השאילתות השמורות של ה־API של GraphQL, ומחלקות התוכן של הסכמה שלו.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>פרסום עותק סטטי ב-GitHub Pages או בכל מארח git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>פרסום סטטי</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>המטמון הסטטי מגיש דפים מהשרת הזה. כדי לפרסם עותק סטטי של אתר במקום אחר, ב-GitHub Pages או בכל מארח git, יש להשתמש בפרסום הסטטי.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25596,6 +25943,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>טיהור אחרון</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>כתיבות לא הצליחו לקבל את נעילת המצב (לאחרונה %date): כל אחת מהן הפכה את כל התוצאות שבמטמון ללא עדכניות. %file חייב להיות ניתן לכתיבה לכל משתמש שתחתיו האתר רץ; ב-NFS הוא צריך NFSv4 או lockd.</translation>
     </message>
 </context>
 <context>
@@ -33544,6 +33895,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>הפעלות שפג תוקפן של מטפל ה־PHP מוסרות על ידי PHP עצמו (session.gc_maxlifetime), ולא על ידי עמוד זה או על ידי חלק המשימה המתוזמנת session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>ההפעלות המחוברות של כל המשתמשים מוצגות, וניתן לנתק אותן, בדוח הכניסות, שפועל עם כל מטפל הפעלות.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>פתיחת דוח הכניסות</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37868,6 +38227,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>עדיין אין</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>פעילות אבטחה</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>הכניסות האחרונות, הניסיונות שנכשלו והשינויים בסיסמה, בכתובת הדוא&quot;ל ובאימות הדו־שלבי.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>הכניסות האחרונות, הניסיונות שנכשלו ושינויי האבטחה של חשבון זה.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>סקירת הפעילות</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count כניסות שנכשלו</translation>
     </message>
 </context>
 <context>
@@ -44034,6 +44413,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>לאחר הכניסה, המשתמש חייב לבחור סיסמה חדשה לפני כל פעולה אחרת. אפשרות זו מתאימה למסירת סיסמה זמנית.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>בחירת תמונה קיימת</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>קובץ התמונה של האובייקט שנבחר מועתק לשדה זה. האובייקט האחר אינו משתנה.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>התמונה של "%name" הועתקה לשדה זה.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>דפדוף לבחירת תמונה</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>חיפוש תמונות לפי שם</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>חיפוש</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>שימוש בתמונה של "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>שימוש בתמונה זו</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>אין תמונה התואמת לחיפוש.</translation>
     </message>
 </context>
 <context>
@@ -50958,6 +51373,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>ה־crontab לא נכתב (%reason). יש להוסיף שורות אלה ל־crontab של המשתמש שתחתיו האתר רץ, אחרת התור, הייבוא, ההתראות ואינדקס החיפוש לעולם לא ירוצו:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>התקנה מחדש מתבצעת באמצעות ה־kickstarter (%file, ואז php bin/php/kickstarter.php run --apply) או בהתקנה חדשה.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54837,6 +55256,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>מטמון האורז הציבורי של eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>מטמון GraphQL (תשובות ומחלקות הסכמה)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54923,6 +55346,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>עותק של %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>סוגי נתונים</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>סוג נתונים %string</translation>
     </message>
 </context>
 <context>
@@ -55749,6 +56180,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>לא ניתן היה לקרוא את תמונת ה־SVG, או שאין בה דבר שניתן להציג בבטחה.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>לא ניתן היה להעתיק את התמונה. נא לנסות שוב או לפנות למנהל האתר.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>האובייקט שנבחר אינו קיים או שאין לך הרשאה לקרוא אותו.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>לאובייקט שנבחר אין תמונה.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>לא ניתן היה לקרוא את קובץ התמונה של האובייקט שנבחר.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>התמונה של האובייקט שנבחר גדולה מהמותר בשדה זה: %1 בתים.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56279,6 +56730,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>שם הסימנייה שונה ל־"%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>עמוד זה מושבת בגישת אתר זו (%siteaccess). יש לפתוח את הסימנייה בגישת אתר שבה העמוד זמין.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>המודול של עמוד זה אינו מותקן או אינו מופעל כאן.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>עמוד זה כבר אינו קיים: למודול שלו אין תצוגה כזו.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>אף אחד מהתפקידים שלך אינו מתיר לפתוח עמוד זה.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>אין לך הרשאה להשתמש בגישת אתר זו.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>אין לך הרשאה לקרוא את התוכן שעמוד זה מציג.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>לא ניתן להוסיף עמוד מסוג זה לסימניות: הוא פועל רק על טופס, או שהוא עמוד של רגע אחד.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>כתובת העמוד חסרה.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>לא ניתן לפתוח עמוד זה כעת.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56750,6 +57237,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>מנגנון שליחת הדואר דחה %count הודעות בהרצה האחרונה. יש לבדוק את שרת הדואר ואת site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count אירועים ממתינים ולא נרשמה אף הרצה של המשימה המתוזמנת של ההתראות. יש להוסיף את חלק המשימות &quot;frequent&quot; לקובץ ה־crontab, או להריץ exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63006,6 +63497,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>בחירת אתר או מדור אחר באמצעות בורר הצמתים</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>רק מנהל המערכת יכול לשנות את הבעלים: יש להריץ ./console exp:content-check --fix-permissions --apply כ־root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64539,6 +65034,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>ריק</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>מפתח החתימה ישן מיותר משנה: יש להחליף אותו באמצעות exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -66919,6 +67418,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>חלק מזמן העמוד</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>התבקש עיבוד מלא</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>העמוד לא היה במטמון העמודים (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>מטמון העמודים לא ענה</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>מעובד</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>עובד על ידי הליבה: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>הוגש ממטמון העמודים תוך %ms ms. העמוד נשמר בשעה %stored על ידי עיבוד של %render ms, לפני %age שנ'.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>עיבוד עכשיו</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>חזרה לתצוגה מהמטמון</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>מהעיבוד בשעה %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>בקשה זו: הוגשה ממטמון העמודים תוך %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>משתמש</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>מזהה משתמש</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>פרופיל מטמון</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>תצוגה זו</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>מטמון תצוגה</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>לכל משתמש (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>פרופיל המטמון של המשתמש: משתמשים עם אותו פרופיל חולקים את קובצי מטמון התצוגה</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>כן</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>שם התחברות</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>מחובר</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>הפעלה</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>חלקי מפתח המטמון של תצוגת התוכן התלויים במשתמש, בדיוק כפי שהמפתח לוקח אותם, לפי ViewCacheTweaks של דף זה. משתמשים עם אותו פרופיל חולקים את קובצי המטמון של התצוגות, אלא אם חלקי התצוגה עצמה שונים (העדפות, מפתחות של מאזינים): לאלה יש פרופיל משלהם, לדף זה בלבד.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>פרופיל</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>תצוגה זו (צומת %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: לכל משתמש מחובר יש קובצי מטמון משלו.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks בתוקף: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>חלק</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ערך</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>אף חלק אינו תלוי במשתמש (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>תצוגה זו</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>העתק כטקסט</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>תפקידים</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>לא ניתן היה לקרוא שיוכי תפקידים.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>מזהה תפקיד</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>תפקיד</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>הגבלה</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>משויך אל</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>המשתמש</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>קבוצה %name (אובייקט %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>הועתק</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>ההעתקה נכשלה.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>הושמט על ידי מאזין</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>מבקרים אנונימיים</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>זהה לשלך</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>שונה</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>הפרופיל שמקבלים מבקרים אנונימיים תחת אותם ViewCacheTweaks, עם העדפות ברירת המחדל, ללא חלקי התצוגה: לא ניתן לבקש אותם ממאזין שקורא את הסשן.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>העדפות</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>אף מצב תצוגה אינו תלוי בהעדפות המשתמש (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ההעדפות שבהן תלויות התצוגות של מצבי תצוגה אלה (CachedViewPreferences), עם ערך המשתמש או ברירת המחדל. הן מופיעות בפרופיל בתור userpreferences, של כל מצבי התצוגה יחד.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>מצב תצוגה</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>העדפה</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>ברירת מחדל</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>מדיניות</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>הצג את המדיניויות של התפקידים (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>המדיניויות נטענות מהשרת כאשר מקטע זה נפתח, עמוד אחר עמוד, וניתן לסנן אותן לפי מודול ופונקציה.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>פונקציה</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>כל המודולים</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>כל הפונקציות</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>הגבלות</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>הצג עוד</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>לתפקידים אלה אין מדיניויות.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>אף מדיניות אינה תואמת את המסנן.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown מתוך %matching מדיניויות (%total בסך הכול)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>נטען בעת הפתיחה.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, תפקיד, הגבלה</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>חיפוש במדיניות</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>טען עוד</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>מודול/פונקציה</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>כל התפקידים (%count כללי מדיניות)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>אין כלל מדיניות תואם.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown מתוך %matched כללי מדיניות</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>אין תשובה</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>מוסתר</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>הצגת הסברים</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>הסתרת הסברים</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>פתיחה</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>פתיחת הכול</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>סגירת הכול</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>מפתח או ערך</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>חיפוש בהפעלה</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>סוג</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>עוד %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>מקונן עמוק מדי להצגה</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>נחתך, %count תווים בסך הכול</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>התחיל</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>שם העוגייה</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>מזהה הפעלה</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>מטפל</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>נתיב שמירה</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>ברירת המחדל של PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>משך חיים (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>עוגייה</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>משך חיים %s שנ׳</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>ההפעלה של PHP שלך עצמך, כפי שהייתה כשהמקטע נפתח, ולעולם לא של מישהו אחר. ערכים של מפתחות שנראים כמו סודות (אסימונים, גיבובים, סיסמאות) מוסתרים (debugbar.ini SessionMask[]); כל השאר מוצג כפי שנשמר, כולל מידע אישי.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count מפתחות, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>גדולה</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>ההפעלה ריקה.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>לא הותחלה הפעלה עבור בקשה זו.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>הרחבה %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>ליבה ואחרים</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>לא כל הרשומות מוצגות: בהפעלה יש יותר ממה שניתן לפרט כאן.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count מפתחות אינם מפורטים.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>מסגרת</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ערכים שנראים כמו אסימון (JSON Web Token, פרטי הגישה של כותרת Authorization, מפתח פרטי, טקסט הקסדצימלי או אקראי ארוך) מוסתרים גם הם, יהיה שם המפתח שלהם אשר יהיה (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>המפתח נראה כמו סוד (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>הערך נראה כמו אסימון.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>מתחת למפתח מוסתר.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>ההפעלה כטקסט, מוסתרת כמו הטבלה.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>ההפעלה גדולה מ-%size (debugbar.ini SessionWarnBytes): כל בקשה של משתמש זה קוראת את כל ההפעלה, וכותבת אותה כשהיא השתנתה.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP שומר את ההפעלה הזו בקבצים ונועל את הקובץ לכל אורך הבקשה: בקשות של אותו משתמש (כמה כרטיסיות, קריאות AJAX) ממתינות זו לזו.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>השארה פתוחה</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>גדולה מ-%size (debugbar.ini SessionWarnBytes): כל בקשה של משתמש זה קוראת את כל ההפעלה.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits מתוך %count נקראו מהמטמון</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>לא עובדה אף תבנית (תצוגה שנקראה ממטמון התצוגות אינה מעבדת אף תבנית).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>הקצאות תפקידים</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>תפקידים ומדיניות</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>שונה מזה של מבקרים אנונימיים</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>זהה לזה של מבקרים אנונימיים</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -68799,6 +69778,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>לא נשלח</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>המשימה המתוזמנת של ההתראות רושמת כאן כל הרצה שלה. יש להוסיף את החלק frequent לקובץ ה־crontab, או להריץ exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>יש להשתמש במסוף: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -74298,6 +75285,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>נושא זה לא שוחרר; הקוראים אינם רואים אותו.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>הגירות</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>שינויים בהתקנה שנשמרים כקבצים: מצבם, הריצות, הרצה והחזרה לאחור.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>פרסום עותק סטטי של אתר ב-GitHub Pages או בכל מארח git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>פרסום סטטי</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>בסקירה</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>הקוראים רואים את הדף הזה.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>מוסתר מהקוראים עד שמישהו ישחרר אותו.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>הדף נמצא כעת בסקירה. הוא מוסתר מהקוראים עד שישוחרר.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>הדף שוחרר: הקוראים רואים אותו כעת.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>הדף חזר להיות טיוטה. הוא מוסתר מהקוראים עד שייסקר וישוחרר.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>שחרור עכשיו</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>רק משתמש עם התפקיד %role שלא כתב את הגרסה הזו יכול לשחרר אותה.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>נושאי עזרה הממתינים לשחרור</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>מסתיר אותו מהקוראים עד שישוחרר שוב.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>סוקר יבדוק אותו בשלב הבא. הקוראים עדיין לא רואים אותו.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>הקוראים רואים אותו מיד.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>מוציא אותו מהסקירה לעבודה נוספת. הקוראים לא רואים אותו.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>להסתיר את הדף הזה מהקוראים?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>להחזיר את הדף הזה לטיוטה?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>הקוראים כבר לא רואים את %title עד שמישהו ישחרר אותו שוב.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title חוזר לטיוטה לעבודה נוספת. הקוראים עדיין לא רואים אותו, ונדרשת סקירה חדשה לפני שישוחרר.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ביטול</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>הנושאים האלה נמצאים בסקירה. הקוראים יראו אותם ברגע שמישהו שלא כתב את הגרסה הנוכחית ישחרר אותם.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/languages</name>
@@ -76139,6 +77218,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Setup &gt; Cronjobs</source>
         <translation>הגדרות &gt; משימות מתוזמנות</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>אף חלק של המשימות המתוזמנות עדיין לא רץ: תור המשימות, הייבואים, ההתראות ואינדקס החיפוש ממתינים. יש להריץ php bin/php/installcrontab.php --add --apply, או להוסיף את השורות של --show לקובץ ה־crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/workflow/eventtype/expuserapprove</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>אין.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>באמצעות אפליקציית אימות</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>באמצעות קוד בדוא&quot;ל</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>באמצעות קוד שחזור</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>באמצעות מפתח גישה</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>באמצעות חשבון חיצוני</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>פעילות אבטחה</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>מוצג כרשת שלו; הכתובת נשמרת כפי שקובעות הגדרות הגנת הנתונים של האתר.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>לא נרשם</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>מיקום</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>משוער</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>ניהול מכשירים</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>באמצעות אפליקציית אימות</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>באמצעות קוד בדוא&quot;ל</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>באמצעות קוד שחזור</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>באמצעות מפתח גישה</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>באמצעות חשבון חיצוני</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>פעילות אבטחה</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>לא נרשם</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>מיקום</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>משוער</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>הצגת ההפעלות של משתמש זה</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>החשבון שלך %login ב־%site שימש זה עתה לכניסה ממקום שלא נכנסו ממנו לאחרונה:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>מיקום משוער</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ב-%os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>דוח כניסות</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>לא ניתן היה לבדוק את מפתח הגישה. יש לנסות שוב.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>חשבונות שנכנסים באמצעות מפתחות גישה בלבד אינם יכולים להשתמש כאן בסיסמה: יש לבחור &quot;כניסה באמצעות מפתח גישה&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>מפתחות הגישה של %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>מפתחות הגישה שבאמצעותם חשבון זה נכנס. יש לשלול מפתח שנמצא במכשיר שאבד או נגנב: לא תתאפשר עוד כניסה באמצעותו. בעל החשבון מוסיף מפתחות חדשים בעצמו.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>החשבון שלך זקוק למפתח גישה</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>הוספת מפתח גישה לחשבון שלך</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>יש להוסיף מפתח גישה כדי להמשיך. לאחר מכן הכניסה תהיה באמצעותו במקום בסיסמה בלבד.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>כניסה באמצעות מפתח גישה מהירה ובטוחה יותר מסיסמה. אפשר להוסיף מפתח עכשיו או להמשיך בלעדיו.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>לא עכשיו</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>האם לשלול את מפתח הגישה &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>לא תתאפשר עוד כניסה לחשבון זה באמצעותו. אם זה היה המפתח האחרון, בעל החשבון ייכנס באמצעות הסיסמה, או שתוגדר סיסמה חדשה.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>שלילת מפתח הגישה</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>שלילה</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>לחשבון זה אין מפתח גישה.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>מאמת</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>לא ידוע</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>מפתח הגישה האחרון שלך: יש להוסיף מפתח נוסף לפני הסרתו.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>חשבון זה נכנס באמצעות מפתחות גישה בלבד (מדיניות מפתחות גישה): כאשר לא נותר אף מפתח, הוא נכנס שוב באמצעות הסיסמה שלו.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>זהו מפתח הגישה האחרון שלך, והחשבון שלך אינו יכול להיכנס בלעדיו. יש להוסיף קודם מפתח גישה נוסף.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>מפתח הגישה &quot;%name&quot; נשלל. לא תתאפשר עוד כניסה לחשבון זה באמצעותו.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>קוד מאפליקציית האימות</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>פעולה זו מוחקת נתונים לצמיתות או מרוקנת יומן.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>הסיסמה ומפתח גישה</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>הסיסמה וקוד מאפליקציית האימות</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>או:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>דפדפן זה אינו יכול להשתמש במפתחות גישה. יש להשתמש בדרך אחרת או בדפדפן אחר.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>בהמשך, הדפדפן יבקש את אחד ממפתחות הגישה שלך.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>המשך באמצעות מפתח גישה</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>הגדרות</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>שינוי הסיסמה, כתובת הדוא&quot;ל, מפתחות הגישה, הכניסה הדו־שלבית, קודי השחזור או מפתחות ה־API של המשתמש עצמו, והוצאת המכשירים האחרים שלו מהחשבון.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>יצירה ועריכה של משתמשים, הסיסמאות והמכשירים שלהם, הגדרות חשבון, אישור או דחייה של חשבונות משתמש חדשים, הקצאת תפקידים ועריכת מדיניות.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>מחיקת נתונים</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ריקון סל המחזור, הסרת פריטים ממנו והסרת כמה פריטים בבת אחת.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>הסרה, פרסום ושמירה של תוכן</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>הסרת תוכן (גם לסל המחזור), פרסום ושמירת טיוטה; נשאל בעת שליחת הטופס. כבוי כברירת מחדל.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>לפני פעולה רגישה, משתמש מחובר מאשר שוב את זהותו: באמצעות הסיסמה שלו ומפתח גישה, או ללא מפתח גישה באמצעות הסיסמה שלו והקוד מאפליקציית האימות שלו. רק דפי האינטרנט שואלים: ממשק REST, SOAP, WebDAV, הכניסה ל־expservices ושורת הפקודה לעולם אינם שואלים.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>היכן ההגדרות חלות</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>הגדרות עבור</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>כל גישות האתר</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>גישת האתר %name בלבד</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>פתיחה</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>מי נשאל: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>יש לסמן קבוצות משתמשים כדי לשאול רק את חבריהן (למשל עורכים). אף קבוצה לא מסומנת: כל משתמש.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>נשמר ב־settings/override/site.ini.append.php, עבור כל גישות האתר. בעת השמירה תתבקש לאשר את זהותך.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>נשמר ב־settings/siteaccess/%name/site.ini.append.php. ערך ב־settings/override גובר עליו. בעת השמירה תתבקש לאשר את זהותך.</translation>
     </message>
 </context>
 <context>
@@ -77368,6 +78707,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>פתיחת הדף</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from עד %to מתוך %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>שם התחברות או מזהה משתמש: החשבון שבו עסק האירוע או המשתמש שביצע את הפעולה.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>חשבון</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>פעולה</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>אחרי</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>כל התוצאות</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>לפני</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>מבצע</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>ניקוי</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>בוצע</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>האירועים נשמרים למשך %days ימים.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>האירועים נשמרים עד שמסירים אותם ידנית.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>אירועים</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>כל הפעולות</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>כל האירועים של חשבון זה</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>ייצוא הרשימה כ־CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>נכשל</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>מתאריך</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>צמצום הרשימה</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>אין אירועים תואמים.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>בעמוד</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>הרישום כבוי ב־audit.ini ([UserAuditSettings] UserAudit); הרשימה מציגה את מה שנרשם קודם לכן.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>נדחה</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>תוצאה</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>הצגה</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>הטבלה של יומן ביקורת המשתמשים חסרה. יש ליצור אותה באמצעות php update/common/scripts/6.0/createuseraudittable.php; עד אז קובצי הביקורת שומרים כל אירוע.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>דף זה דורש מסד נתונים SQL; הוא אינו זמין ב־MongoDB. קובצי הביקורת שומרים כל אירוע.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>עד תאריך</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>יומן ביקורת משתמשים</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>משתמש</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>מתי</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>היכן</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>מי שינה, יצר, הפעיל, השבית, העביר או הסיר איזה חשבון, מי נכנס או נדחה, ואילו תפקידים הוקצו: שורה אחת לכל אירוע, עם השדות לפני השינוי ואחריו. סיסמאות וסודות לעולם אינם נרשמים.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>קבוצה</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>מערכת</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>לא ידוע</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>אבטחת החשבון</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>נעשה שימוש בקוד שחזור לכניסה לחשבון שלך %login ב־%site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>נעשה שימוש בקוד שחזור</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>חשבון</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>כתובת משוערת</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>ניתן לבקש סיסמה חדשה כדי להיכנס שוב, או לפנות למנהלי האתר.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>בקשת סיסמה חדשה</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>כל קוד שחזור פועל פעם אחת. במקרה של אובדן הטלפון, יש להגדיר מחדש את אפליקציית האימות ולשמור את קודי השחזור החדשים במקום בטוח.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>ניסיונות כניסה שנכשלו לחשבון שלך</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>מעתה, הכניסה מבקשת קוד בנוסף לסיסמה. אם הפעולה בוצעה על ידך, אין צורך לעשות דבר.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>אם זה היה מצדך והסיסמה נשכחה, ניתן לבקש סיסמה חדשה. אם לא, יש לבחור סיסמה חזקה יותר ולהפעיל אימות דו־שלבי.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>אם הפעולה לא בוצעה על ידך, ייתכן שמישהו יודע את הסיסמה: יש לשנות אותה עכשיו ולבדוק היכן החשבון מחובר.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>קודי שחזור שנותרו</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>סקירת המכשירים שלך</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>התראת אבטחה</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>מישהו ניסה להיכנס לחשבון שלך %login ב־%site עם סיסמה שגויה %count פעמים ברציפות.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>אירע אירוע אבטחה בחשבון שלך %login ב־%site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>זוהי התראת אבטחה לגבי החשבון שלך. היא נשלחת בכל שינוי כזה ולא ניתן לכבות אותה.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>שעה</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>האימות הדו־שלבי כובה עבור החשבון שלך %login ב־%site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>האימות הדו־שלבי כובה</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>האימות הדו־שלבי הופעל עבור החשבון שלך %login ב־%site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>האימות הדו־שלבי הופעל</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>החשבון שלך %login ב־%site ננעל לאחר יותר מדי כניסות שנכשלו.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>החשבון שלך מוגן כעת בסיסמה בלבד. אם הפעולה לא בוצעה על ידך, יש להפעיל שוב את האימות הדו־שלבי לאחר שינוי הסיסמה.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>החשבון שלך ננעל</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>מפתח גישה נוסף לחשבון שלך %login ב־%site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>כל מי שמחזיק במפתח גישה זה יכול להיכנס לחשבון שלך ללא הסיסמה שלך. אם לא הוספת אותו, יש להסיר אותו תחת מפתחות גישה ולשנות את הסיסמה.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>מפתח גישה הוסר מהחשבון שלך %login ב־%site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>לא תתאפשר עוד כניסה לחשבון שלך באמצעותו. אם לא הסרת אותו, יש לבדוק את מפתחות הגישה והמכשירים שלך.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>מפתח גישה נוסף לחשבון שלך</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>מפתח גישה הוסר מהחשבון שלך</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>פעילות אבטחה</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>פעילות האבטחה של %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>התחברות</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ניסיון כניסה שנכשל</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>התנתקות</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>הפעלות נותקו</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>כניסה ממכשיר חדש</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>כניסה ממיקום חדש</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>הזהות אומתה (&quot;אימות זהות&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>בדיקת הזהות נכשלה</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>כניסה באמצעות מפתח גישה</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>הכניסה באמצעות מפתח גישה נכשלה</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>הכניסה נדחתה: קוד האימות הדו־שלבי חסר או שגוי</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>קוד אימות דו־שלבי שגוי</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>החשבון ננעל לאחר כניסות שנכשלו</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>נעילת החשבון בוטלה</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>הסיסמה שונתה</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>שינוי הסיסמה נכשל</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>הסיסמה אופסה</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>התבקשה סיסמה חדשה</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>כתובת הדוא&quot;ל שונתה</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>שם המשתמש שונה</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>האימות הדו־שלבי הופעל</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>האימות הדו־שלבי כובה</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>נעשה שימוש בקוד שחזור</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>קודי שחזור חדשים</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>נוצרה סיסמת אפליקציה</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>סיסמת אפליקציה בוטלה</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>נוסף מפתח גישה</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>הוסר מפתח גישה</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>החשבון הופעל</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>החשבון הושבת</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>הכול</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>כניסות והפעלות</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>שינויים בחשבון</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>דורש תשומת לב</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>על ידך</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>על ידי המשתמש</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>על ידי %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>שיטה</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>דפדפן</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>מערכת הפעלה</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>מכשיר</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>מקום</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>מדינה</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>הפעלות</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>אילו</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>ערוץ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ניסיונות שנכשלו</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>קודים שנותרו</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>מטפל הכניסה</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>פעילות אבטחה</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>פעילות האבטחה של %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>כניסות ושינויים באבטחת החשבון שלך. אם מופיע כאן משהו שלא נעשה על ידך, יש לשנות את הסיסמה ולנתק את המכשירים הלא מוכרים.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>כניסות ושינויים באבטחת חשבון זה.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>המכשירים שלך</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>שינוי סיסמה</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>חזרה לחשבון</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>פעילות האבטחה אינה נרשמת</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>היא נקראת מיומן הביקורת של המשתמשים, שהטבלה שלו expuser_audit חסרה או אינה נתמכת במסד נתונים זה. יש להריץ php update/common/scripts/6.0/createuseraudittable.php, או את עדכון מסד הנתונים של 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days הימים האחרונים</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>כניסות ב־%days הימים האחרונים</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>פעילות אבטחה אחרונה</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>הצגה</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>נכשל</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>נדחה</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>עדיין לא נרשמה פעילות אבטחה.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>אירועי אבטחה נשמרים %days ימים.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>אירועי אבטחה נשמרים עד שמנהל מערכת מסיר אותם.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>הורדת נתוני הכניסה שלי</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ההפעלות ואירועי האבטחה שלך כקובץ JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>באתר זה לא נרשמות הפעלות, ולכן לא ניתן היה לנתק אף מכשיר אחר. שנו את הסיסמה שלכם עכשיו.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count הפעלות אחרות נותקו. עכשיו שנו את הסיסמה שלכם.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>אף מכשיר אחר לא היה מחובר. עכשיו שנו את הסיסמה שלכם.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>תודה. האירוע סומן כשלכם.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>אירוע זה אינו דורש תשובה.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>תוקף הדף פג. דבר לא שונה; נא לנסות שוב.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>אבטחת החשבון</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>אם משהו כאן לא היה אתם, נתקו כל מכשיר אחר ולאחר מכן בחרו סיסמה חדשה. גם מכשירים שנשארו מחוברים באמצעות זכור אותי מנותקים.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>כל מכשיר מלבד זה מנותק בבקשה הבאה שלו. לאחר מכן תבחרו סיסמה חדשה.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>כן, לנתק את המכשירים האחרים</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>האם זה הייתם אתם?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>כן, זה הייתי אני</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>לא, לאבטח את החשבון שלי</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>התחברות</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ניסיון כניסה שנכשל</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>התנתקות</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>הפעלות נותקו</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>כניסה ממכשיר חדש</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>כניסה ממיקום חדש</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>הזהות אומתה (&quot;אימות זהות&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>בדיקת הזהות נכשלה</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>כניסה באמצעות מפתח גישה</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>הכניסה באמצעות מפתח גישה נכשלה</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>הכניסה נדחתה: קוד האימות הדו־שלבי חסר או שגוי</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>קוד אימות דו־שלבי שגוי</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>החשבון ננעל לאחר כניסות שנכשלו</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>נעילת החשבון בוטלה</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>הסיסמה שונתה</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>שינוי הסיסמה נכשל</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>הסיסמה אופסה</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>התבקשה סיסמה חדשה</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>כתובת הדוא&quot;ל שונתה</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>שם המשתמש שונה</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>האימות הדו־שלבי הופעל</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>האימות הדו־שלבי כובה</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>נעשה שימוש בקוד שחזור</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>קודי שחזור חדשים</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>נוצרה סיסמת אפליקציה</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>סיסמת אפליקציה בוטלה</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>נוסף מפתח גישה</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>הוסר מפתח גישה</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>החשבון הופעל</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>החשבון הושבת</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>הכול</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>כניסות והפעלות</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>שינויים בחשבון</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>דורש תשומת לב</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>פעילות אבטחה</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>פעילות האבטחה של %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>כניסות ושינויים באבטחת החשבון שלך. אם מופיע כאן משהו שלא נעשה על ידך, יש לשנות את הסיסמה ולנתק את המכשירים הלא מוכרים.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>המכשירים שלך</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>שינוי סיסמה</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>פעילות האבטחה עדיין אינה נרשמת באתר זה.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>כניסות ב־%days הימים האחרונים</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ניסיונות שנכשלו</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>עדיין לא נרשמה פעילות אבטחה.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>הורדת נתוני הכניסה שלי</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ההפעלות ואירועי האבטחה שלך כקובץ JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>באתר זה לא נרשמות הפעלות, ולכן לא ניתן היה לנתק אף מכשיר אחר. שנו את הסיסמה שלכם עכשיו.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count הפעלות אחרות נותקו. עכשיו שנו את הסיסמה שלכם.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>אף מכשיר אחר לא היה מחובר. עכשיו שנו את הסיסמה שלכם.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>תודה. האירוע סומן כשלכם.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>אירוע זה אינו דורש תשובה.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>תוקף הדף פג. דבר לא שונה; נא לנסות שוב.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>אבטחת החשבון</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>אם משהו כאן לא היה אתם, נתקו כל מכשיר אחר ולאחר מכן בחרו סיסמה חדשה. גם מכשירים שנשארו מחוברים באמצעות זכור אותי מנותקים.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>כל מכשיר מלבד זה מנותק בבקשה הבאה שלו. לאחר מכן תבחרו סיסמה חדשה.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>כן, לנתק את המכשירים האחרים</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>האם זה הייתם אתם?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>כן, זה הייתי אני</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>לא, לאבטח את החשבון שלי</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>סיסמה</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>סיסמה וקוד אימות דו־שלבי</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>ממשק REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>ממשק SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>כניסה יחידה</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>התחברות לפני שהחל רישום ההפעלות</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>דוח כניסות</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>מי מחובר לאתר, באיזו תדירות חשבונות נכנסים ונכשלים בכך, וניתוק משתמש מכל המכשירים. פועל עם כל מטפל הפעלות.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>ההפעלה נותקה. המכשיר יצטרך להתחבר מחדש.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login נותק מ־%count הפעלות.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>ל־%login לא הייתה הפעלה פעילה.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>אין חשבון עם מזהה, שם משתמש או כתובת דוא&quot;ל אלה.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>זוהי ההפעלה שבשימושך. כדי לסיים אותה, יש להתנתק.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>הפעלה זו כבר הסתיימה.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>תוקף הדף פג. דבר לא שונה; נא לנסות שוב.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>הפעלות אינן נרשמות באתר זה (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>הטבלה expuser_session חסרה</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>הפעלות נרשמות ברגע שהיא נוצרת: php update/common/scripts/6.0/createusersessiontable.php, או עדכון מסד הנתונים של 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>עכשיו והיום</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>הפעלות פעילות</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>משתמשים מחוברים</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>כניסות היום</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>ניסיונות שנכשלו היום</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ניתוק משתמש מכל המכשירים</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>כל הפעלה של החשבון מסתיימת בבקשה הבאה שלה, גם אלה שנשמרו באמצעות &quot;זכור אותי&quot;. יש להשתמש בכך כשחשבון עלול להיות בידיים הלא נכונות; לאחר מכן יש לאפס את הסיסמה שלו.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>מזהה משתמש, שם משתמש או כתובת דוא&quot;ל</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>התנתקות מכל המכשירים</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>מחוברים כעת</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>מוצגות %limit ההפעלות שהיו בשימוש לאחרונה.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>משתמש</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>מכשיר</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>כתובת</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>התחברות</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>פעילות אחרונה</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>פעולות</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>מכשיר זה</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>לא נרשם</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>התנתקות</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>אין הפעלה מחוברת.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days הימים האחרונים</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>הכניסות והניסיונות שנכשלו נספרים מיומן הביקורת של המשתמשים, שאינו קיים; ההפעלות החדשות כן נספרות.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>יום</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>כניסות</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ניסיונות שנכשלו</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>הפעלות חדשות</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>מטפל הפעלות: %handler. ההפעלות נקראות מהטבלה expuser_session, ולכן הדוח פועל עם כל מטפל.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>פעילות חשודה ב-%hours השעות האחרונות</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>רשת אחת לא הצליחה להתחבר ל-%accounts חשבונות (%count ניסיונות)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>החשבון ננעל לאחר כניסות שנכשלו</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count כניסות שנכשלו בחשבון אחד</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>מחובר מ-%count מדינות בו-זמנית</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>פעילות אבטחה</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>הפעלות</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>כניסות שנכשלו נקראות מיומן הביקורת של המשתמשים, שאינו זמין כאן.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>אין שום דבר חשוד: אין חשבון עם כניסות חוזרות שנכשלו, אין רשת שמנסה כמה חשבונות, אין חשבון שמחובר מכמה מדינות.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>התראת אבטחה לגבי החשבון שלך</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>אירע אירוע אבטחה בחשבון שלך %login: %event. אם הפעולה לא בוצעה על ידך, יש לאבטח את החשבון בכתובת %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>הגדרות</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>בקשו מתוכן האתר בדיוק את השדות שהדף צריך, בבקשה אחת. הסכמה עוקבת אחר מחלקות התוכן; כל שאילתה רצה עם ההרשאות של המשתמש ששולח אותה.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>ממשק ה־API של GraphQL כבוי בגישת אתר זו. הפעילו אותו ב־graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>ספריית GraphQL (webonyx/graphql-php 15) אינה מותקנת.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>נקודת קצה</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>ספרייה</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>סכמה</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count מחלקות תוכן, סכמה %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>שאילתה</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>משתנים (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>הרצה</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>תשובה</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>מריץ…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>לא ניתן היה לקרוא את התשובה.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>השאילתה רצה עם ההרשאות שלך, כשאתה מחובר בהפעלה זו.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count בתוך %seconds ש׳</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ללא הגבלה</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>עומק</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>מורכבות</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>פריטים לרשימה</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ברירת מחדל %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>בקשות למשתמש או למפתח</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>בקשות לכתובת אנונימית</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>שאילתות שמורות בלבד</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>השאילתה הגדולה ביותר</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes בתים</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>ההעלאה הגדולה ביותר</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>אין גישת אתר %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>המוטציות מופעלות ב־%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>המוטציות כבויות ב־%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>ממשק ה־API של GraphQL מופעל ב־%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>ממשק ה־API של GraphQL כבוי ב־%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>לא ניתן היה לכתוב את ההגדרות: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>מטמון התשובות נוקה: %count תשובות הוסרו.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>סמנו את התיבה שליד השאילתה כדי להסיר אותה.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>לא ניתן היה להסיר את השאילתה: שאילתה שסופקה בתיקייה של PersistedQueryDirectoryList[] מוסרת יחד עם הקובץ שלה.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>השאילתה השמורה הוסרה.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>מוטציות</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>פועל</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>כבוי</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>גישות אתר</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>היכן ה־API והמוטציות שלו עונים. הכפתורים כותבים את graphql.ini, כפי ש־./console exp:graphql:enable ו־exp:graphql:disable עושים.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>גישת אתר</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API של GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>שינוי</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>כיבוי</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>מוטציות כבויות</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>מוטציות פועלות</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>הפעלה</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>מגבלות</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] של גישת אתר זו.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>מטמון תשובות</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>התשובות של השאילתות השמורות, נשמרות לפי הרשאות המשתמש ופגות בכל פעם שתוכן מתפרסם.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>מצב</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>תשובות שמורות</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count תשובות, %bytes בתים</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>נשמרות לכל היותר</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ש׳</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>תפוגה אחרונה</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ניקוי מטמון התשובות</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>שאילתות שמורות</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>נשמרו עם ./console exp:graphql:persist, או על ידי לקוחות (שאילתות שמורות אוטומטיות); נקראות לפי שם או SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>שמות</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>גודל</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>מיקום</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>הסרה</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>סופקה</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>נשמרה</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>כן, להסיר את השאילתה הזו</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>אין עדיין שאילתה שמורה.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>מפתחות API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>מפתחות API אישיים עם התחום graphql:read (שאילתות) או graphql:write (מוטציות). צרו ובטלו אותם בעמוד גישת API, או עם ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>גישת API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>כל המפתחות</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>מפתח</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>שם</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>בעלים</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>תחומים</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>שימוש אחרון</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>פעיל</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>פג תוקף</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>בוטל</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>אף פעם</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>אין עדיין מפתח API עם תחום GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>ממשק ה־API של GraphQL כבוי בגישת האתר %siteaccess, שמציגה את הדף הזה; הטבלה שלהלן מראה היכן הוא עונה.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>עבור גישת האתר %siteaccess, שמציגה את הדף הזה.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>וובהוקים</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>כל אירוע שנקודת קצה מבקשת (publish, update, trash, delete, move, hide, reveal, mutation) נשלח אליה, חתום, על ידי חלק ה־cronjob בשם graphqlwebhooks. הפקודה ./console exp:graphql:webhooks עושה את אותו הדבר כמו מקטע זה.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>אירועים</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>הכול</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>כל גישת אתר</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>תקול</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ללא סוד</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>ממתינים</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count ננטשו</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>מסירה אחרונה</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>שליחת בדיקה</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>כן, להסיר את הוובהוק הזה</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>אין עדיין וובהוק.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>הוספת וובהוק</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>הוספה</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>מסירות אחרונות</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>זמן</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>תוצאה</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>מינויים</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>עדכונים חיים ללקוחות: זרם אירועים ב־/api/graphql/subscribe, ו־WebSocket (graphql-transport-ws) ב־Velocity. כל אירוע נשלח רק למנויים שמורשים לקרוא את תוכנו.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>פתוחים כעת</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>מקסימום פתוחים</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total בסך הכול, %user לכל משתמש, %address לכל כתובת</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>מינויים אנונימיים</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>משך הזרם</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>לא ניתן היה להוסיף את הוובהוק: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>הוובהוק %name שונה; סוד החתימה שלו נשמר.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>לא ניתן היה לשמור את סוד החתימה (הגדרות &gt; סודות).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>הוובהוק %name נוסף. סוד החתימה שלו, מוצג פעם אחת זו בלבד: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>אין וובהוק %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>הוובהוק %name לא ענה: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>הוובהוק %name ענה %status תוך %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>סמנו את התיבה שליד הוובהוק כדי להסיר אותו.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>הוובהוק %name הוסר.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>ממשק ה־API של GraphQL כבוי בגישת אתר זו.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>ספריית GraphQL אינה מותקנת.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>השתמשו ב־GET או ב־POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>גוף הבקשה אינו אובייקט JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables אינו אובייקט JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions אינו אובייקט JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>שלחו את השאילתה עם POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>אין שאילתה בבקשה.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>השאילתה ארוכה מ־%max בתים.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>שגיאה פנימית בשרת</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node דורש בדיוק אחד מבין id, remoteId, path ו־urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content דורש בדיוק אחד מבין id ו־remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>הסמן של after לא ניתן על ידי ה־API הזה.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>אין כינוי תמונה %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>כאן מתקבלות רק שאילתות שמורות: שלחו את ה־id של שאילתה שמורה.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>הגיבוב של השאילתה השמורה אינו SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>הגיבוב של השאילתה השמורה אינו תואם לשאילתה.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>יותר מדי בקשות: לכל היותר %limit בתוך %window שניות. נסו שוב בעוד %reset שניות.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>עומק השאילתה הוא %depth רמות; מותרות לכל היותר %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>מורכבות השאילתה היא %complexity; מותר לכל היותר %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>בקשה זו אינה רשאית לקרוא את הסכמה (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search דורש טקסט או מסנן (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument אינו תאריך (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag דורש בדיוק אחד מבין id, remoteId ו־path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout דורש בדיוק אחד מבין id, identifier ו־urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>השדה operations של בקשת multipart אינו בקשת JSON אחת.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>השדה map של בקשת multipart אינו אובייקט JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>בבקשת ה־multipart אין קובץ %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>נתיב במיפוי השדות חייב להתחיל ב־variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>הקובץ %name לא הגיע בשלמותו (שגיאת העלאה %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>הקובץ %name גדול מ־%max בתים.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>לא ניתן היה לבדוק את הקובץ %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>המוטציות כבויות בגישת אתר זו (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>שלחו מוטציה עם POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>היכנסו כדי לשנות תוכן.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>למפתח ה־API אין את התחום %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>מוטציה עם סשן צריכה את אסימון הטופס של הסשן (כותרת X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl כבוי: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] אינו מציין אף מארח.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>הכתובת חייבת להיות כתובת https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>המארח %host אינו נמצא ב־graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>לא ניתן היה להביא את הקובץ.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload הוא סוג קלט בלבד.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>משתנה מסוג Upload מקבל קובץ של בקשת multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>המזהה המרוחק %remoteId כבר תפוס.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>לתוכן כבר יש תרגום ל־%language: השתמשו ב־updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>ציינו לפחות שדה אחד.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>לא ניתן היה ליצור גרסה חדשה (לתוכן יש יותר מדי טיוטות).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>גרסה %version אינה טיוטה.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent צריך בדיוק אחד מבין id ו־nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>אי אפשר להעביר מיקום אל מתחת לעצמו.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>לתוכן כבר יש מיקום מתחת ל־%parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>לא ניתן היה לשמור את הערך של השדה %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>אין שפת תוכן %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>אין מחלקת תוכן %class בסכמה.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>התוכן אינו קיים, או שאינכם רשאים לקרוא אותו.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>אינכם רשאים לעשות זאת לתוכן הזה.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>למחלקה %class אין שדה %field שניתן לכתוב בו.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>השדה %field ניתן פעמיים.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>השדה %field מקבל קובץ: שלחו אותו כהעלאה (בקשת multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>השדה %field אינו מקבל קובץ.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>השדה %field צריך ערך.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>הפורמט %format מיועד רק לשדות טקסט עשיר; %field מקבל את ערכו כמות שהוא (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>השדה %field הוא שדה חובה.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>לא ניתן היה לקרוא את ה־HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content מקבל version רק יחד עם id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>אסימון התצוגה המקדימה אינו תקף או שפג תוקפו.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>אינו מקור (https://host או https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>אינו תחום של ה־API של GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>שלחו מינויים אל /api/graphql/subscribe (זרם אירועים או WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>הבקשה אינה נוקבת בשם של אף פעולה במסמך.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>מינוי מבקש שדה אחד בדיוק.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>יותר מדי מינויים פתוחים; נסו שוב מאוחר יותר.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>יש לכם %max מינויים פתוחים, המרבי המותר.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>לכתובת שלכם יש %max מינויים פתוחים, המרבי המותר.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>מינויים כבויים בגישת אתר זו.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>היכנסו כדי להירשם כמנויים (אסימון או מפתח API אישי).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>שלחו מוטציות אל /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>הגירות</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>לא ניתן היה לקרוא את המצב: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>טבלאות ההגירות עדיין לא קיימות: ./console exp:upgrade --apply יוצר אותן.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count הגירות נכשלו</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ריצה מתבצעת כעת, הופעלה על ידי %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ההתקנה נעולה: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ממתין</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>נכשל</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>יתומות</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ריצה אחרונה</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>עדיין אין</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>כל ההגירות</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>ריצה מדומה</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ריצת ניסיון</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>ההגירות הממתינות רצו בתוך טרנזקציה שבוטלה לאחר מכן: דבר לא נשמר. למטה מופיע מה שכל אחת מהן שינתה במסד הנתונים.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>מה ריצה הייתה עושה עכשיו. דבר אינו משתנה: כל הגירה ממתינה מפרטת את השינויים שהייתה מבצעת, והריצה את מה שהייתה עושה לפני ואחרי.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>הדמיה</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>הרצה</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>ריצת הניסיון נכשלה: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>הדמיה דורשת PostgreSQL או SQLite, שבהם ניתן לבטל שינויי סכמה; במסד נתונים זה התוכנית שלמטה מראה מה ריצה הייתה עושה.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>ההגירות</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>הגירה</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>מצב</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>מה היא הייתה עושה</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>הדמיה: %result תוך %ms אלפיות שנייה</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>עדיין אין הגירה.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>לפני הריצה ואחריה</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>תמונת מצב לפני</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>נלקחת, ומשוחזרת כאשר הגירה נכשלת</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>כבוי</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>תמונת מצב אחרי</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>נלקחת כאשר הריצה הצליחה</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total הגירות: %pending ממתינות, %done הושלמו, %failed נכשלו.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>היסטוריית ההגירות</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>כל ריצה עם המשתמש, הסביבה, תמונות המצב ומה שבוצע לו קומיט, תויג ונדחף. ניתן להמשיך ריצה שנכשלה או נקטעה; ניתן להחזיר לאחור ריצה שנלקחה לפניה תמונת מצב.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>לא ניתן היה לקרוא את הריצות: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>טבלאות ההגירות עדיין לא קיימות: ./console exp:upgrade --apply יוצר אותן.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>הצג</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>הכול</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>ריצות</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>התחילה</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>על ידי</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>תמונות מצב</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>מאגר</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>פעולות</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>לפני</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>אחרי</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>דחיפה: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>המשך</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>החזר לאחור</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>אין ריצה במצב זה.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>הופעלו כאן</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>ריצות, המשכים והחזרות לאחור שהופעלו בדפים אלה, עם הדוח של כל אחת.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>מה</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>תוצאה</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>החזרה לאחור</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>החזרה לאחור של %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>ריצה %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>מה הריצה עשתה, הרשומה שלה והיומן שלה. ריצה שהופעלה כאן ממשיכה ברקע כאשר דף זה נסגר; פתחו את הדף שוב כדי לעקוב אחריה.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>המשך ריצה זו</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>החזר ריצה זו לאחור</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>לא ניתן היה לקרוא את הרשומה: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>התקדמות</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>הופעלה על ידי %user ב־%time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>בודק את הקוד ולוקח תמונת מצב לפני הריצה</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>מריץ את %id (%index מתוך %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done מתוך %total הושלמו</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>ההגירות רצו; משחזר את תמונת המצב אם אחת נכשלה</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>לוקח תמונת מצב אחרי הריצה, מבצע קומיט, מתייג ודוחף</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>משחזר את תמונת המצב</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>הריצה הסתיימה. טוען את הדוח שלה.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>לא ניתן היה לעקוב אחר ההתקדמות. טענו את הדף מחדש כדי לראות את מצב הריצה.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>דף זה עוקב אחר הריצה בזמן שהיא מתבצעת.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>טען מחדש</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>דוח</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>משך</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms אלפיות שנייה</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>מה שהריצה הדפיסה כשגיאות</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>רשומה</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>סביבה</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>אין</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>הסתיימה</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>קומיט</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>תג</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>דחיפה</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>הודעה</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>ההגירות של ריצה זו</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>מקור</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>יומן הריצה</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>מוצג רק סוף היומן.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>רצה</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>הסתיימה ללא דוח</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>הצליחה</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>נכשלה</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>נדחתה</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>מסד הנתונים לא היה זמין</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>שגיאה פנימית</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ריצה מתבצעת כעת</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind הופעלה על ידי %user ב־%time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>מעקב</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ההתקנה נעולה</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>ריצה אחרת מחזיקה בנעילה (שדרוג או ריצה במסוף): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>הושלמה</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ממתינה</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>לא נדרשת</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>לא ידוע</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>בוטלה</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>הוחלה</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>הייתה מוחלת</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>הוחזרה לאחור</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>הייתה מוחזרת לאחור</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>לא רצה</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ממתינה לאחרת</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>השינוי התקבל</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>השינוי היה מתקבל</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>מדומה</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>הגירות</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>מצב</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>היסטוריה</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>החזרה לאחור של %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ריצה מוחזרת לאחור לתמונת המצב שנלקחה לפניה, הגירה בודדת באמצעות ה־down() שלה. שחזור תמונת מצב קודמת מיועד למומחים. כל אחת רצה ברקע בשמכם, לאחר תמונת מצב של המצב הנוכחי.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>לא ניתן היה לקרוא מה ניתן להחזיר לאחור: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ריצה</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>הגירה אחת</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>תמונת מצב קודמת</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>תיאור</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>כן</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>תמונת מצב</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>תווית</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>נלקחה</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>סוג</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>חלקים לשחזור</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>מסד הנתונים</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>קובצי האחסון (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>ההגדרות (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>שחזור מסד הנתונים מחזיר אותו לזמן תמונת המצב, כולל ההפעלות: ייתכן שתתבקשו להתחבר שוב לאחר מכן. כל מה ששונה מאז יאבד; תחילה נלקחת תמונת מצב של המצב הנוכחי.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>אני יודע מה זה משחזר</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>הקלידו שוב את מזהה תמונת המצב</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>כן, להחזיר לאחור</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ביטול</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>הריצות שנלקחה לפניהן תמונת מצב.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>בחירה</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>עדיין אין ריצה עם תמונת מצב.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>ההגירות שהוחלו ויכולות להחזיר את עצמן לאחור (יש להן down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>לאף הגירה שהוחלה אין down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>תמונות מצב קודמות (מומחים)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>עדיין אין תמונת מצב.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>הרצת ההגירות</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>הריצה מתבצעת ברקע בשם %user, והדף שלה מציג אותה תוך כדי. לפני ההגירה הראשונה נלקחת תמונת מצב של ההתקנה; כאשר הגירה נכשלת הריצה נעצרת ותמונת המצב משוחזרת.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>קודם ריצת ניסיון</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>לא ניתן היה לקרוא את המצב: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>הגירות ממתינות</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>הן רצות בסדר זה. הסירו את הסימון מאחת כדי להשאיר אותה, ואת אלה שתלויות בה, לריצה מאוחרת יותר.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>הרצה</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>מפעיל מצב תחזוקה בזמן הריצה.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>שונו לאחר שהוחלו</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>קבצים אלה אינם אלה שהוחלו. ריצה דוחה אותם אלא אם השינוי מתקבל עם נימוק; הם אינם רצים שוב, סכום הביקורת החדש נרשם והנימוק נשמר ביומן הביקורת.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>קבלת השינויים</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>למה</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ברירות המחדל הן הבטוחות. כל תיבה משמיטה שלב.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>ללא תמונת מצב</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>ללא תמונת מצב לפני הריצה ואחריה: לא ניתן לשחזר כישלון באופן אוטומטי.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>ללא שחזור</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>לאחר כישלון, להשאיר את ההתקנה כפי שהכישלון השאיר אותה.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>לשמור שינויים שלא בוצע להם קומיט</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>להריץ גם אם בהגדרות, בהרחבות או בעיצובים יש שינויים שלא בוצע להם קומיט; הם נכנסים לתמונת המצב.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>ללא קומיט</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>לא לבצע קומיט לקובץ המצב וליומן הריצה (וגם לא תג ולא דחיפה).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>ללא דחיפה</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>לבצע קומיט ולתייג, אך לא לדחוף.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ללא תג</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>לבצע קומיט ולדחוף, אך לא לתייג את הריצה.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>כן, להריץ את ההגירות האלה עכשיו</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>אין הגירה ממתינה.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>חזרה למצב</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>שינויים בהתקנה זו שנכתבים פעם אחת כקבצים (תוכן, מחלקות, תפקידים, הגדרות, סכמה) ומוחלים על כל התקנה של האתר באותו סדר. ריצה לוקחת תחילה תמונת מצב, משחזרת אותה כאשר הגירה נכשלת, ורושמת, מבצעת קומיט ודוחפת את מה שעשתה.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>הרצת %count ממתינות</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>סקירה</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ממתינות</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>הושלמו</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>נכשלו</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>לא נדרשות</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>מסד נתונים</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>טרנזקציות: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>הגירות האתר נמצאות ב־migrations/, אלה של הרחבה ב־extension/&lt;name&gt;/migrations/. הן רצות לפי סדר שמותיהן ולפי מה שהן דורשות.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ריצה אחרונה</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>הקובץ שונה לאחר שהוחל.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>עדיין אין הגירה. ./console exp:migration:generate --skeleton &lt;name&gt; --apply כותב את הראשונה.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>הריצות האחרונות</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>כל הריצות</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>עדיין אין ריצה.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>הדמיית ריצה דורשת את המדיניות migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ריצה מתבצעת כעת: בצעו הדמיה לאחר שתסתיים.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>הגדרות</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target אינו ריצה, אינו הגירה ואינו תמונת מצב של התקנה זו.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>סמנו תחילה את „כן, להחזיר לאחור”.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>שחזור תמונת מצב קודמת מיועד למומחים: סמנו את „אני יודע מה זה משחזר”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>הקלידו שוב את מזהה תמונת המצב: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>בחרו לפחות חלק אחד לשחזור.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>לריצה זו אין תמונת מצב שנלקחה לפניה: החזירו את ההגירות שלה לאחור אחת אחת, או שחזרו תמונת מצב קודמת.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>לא ניתן להחזיר הגירה זו לאחור בעצמה: היא לא הוחלה, או שאין לה down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>לא ניתן היה לקרוא את הטופס.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>בחרו את הריצה שיש להמשיך.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>סמנו תחילה את „כן, להריץ את ההגירות האלה עכשיו”.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>בחרו לפחות הגירה אחת.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>הגירה שונתה לאחר שהוחלה: קבלו את השינוי עם נימוק, או החזירו את הקובץ.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>ציינו מדוע ההגירות ששונו מתקבלות.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>הנימוק מוגבל ל־500 תווים לכל היותר.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>ריצה שהופעלה כאן עדיין מתבצעת (%detail). המתינו לסיומה.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>ריצה אחרת מחזיקה בנעילת ההתקנה: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>הריצה דורשת משתמש מחובר וקיים.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>לא נמצאה תוכנת שורת פקודה של php. הגדירו את migration.ini [AdminSettings] PhpCliPath לנתיב המלא שלה.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open מושבת, ולכן לא ניתן להפעיל כאן ריצה. הריצו ./console exp:migration:migrate --apply על השרת.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>לא ניתן לכתוב לתיקיית הריצות: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>הריצה הופעלה אך לא דיווחה על מזהה התהליך שלה. בדקו את %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ציינו מה להחזיר לאחור.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>לא ניתן היה להפעיל את הריצה.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>הקלטת שינויים</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>בזמן שהקלטה פועלת, מה שאתם משנים בממשק הניהול או בסרגל הצד של האתר נשמר כצעדים של הגירה: תוכן, מחלקות, תפקידים ומדיניות, מקטעים, משתמשים וקבוצות, כינויי URL, הגדרות. עצרו אותה כשסיימתם, בדקו מה היא לכדה וצרו ממנה הגירה.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>לא ניתן לקרוא את ההקלטות: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>טבלאות ההקלטות עדיין לא קיימות: הריצו קודם את השדרוג (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>ההקלטה כבויה ב־migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>השינויים שלי</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>מקליטה רק את מה שאתם משנים, בכל מקום שבו תשנו, עד שתעצרו אותה.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>הקלטה</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>מאז %time, עד כה %count שינויים.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>תווית (רשות)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>הצגת מה שהיא לכדה</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>עצירת ההקלטה</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>התחלת הקלטת השינויים שלי</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>חלון לכל האתר</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>מקליט כל שינוי של כל משתמש ושל המסוף עד שהוא נסגר. בפתיחתו תתבקשו לאמת שזה אתם.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>פתוח</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>סגירת החלון</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>פתיחת החלון לכל האתר</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>הקלטות</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>חשבון של משתמש (שם כניסה, דוא״ל, סיסמה) והשדות של חשבונות משתמשים אינם מוקלטים לעולם.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>שינויים</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>כל האתר</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>השינויים של %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>נעצרה</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>עדיין אין הקלטות.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>הקלטה %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>כל ההקלטות</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>ההגירה שתיווצר ממנה</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>השינויים מקובצים לצעד אחד לכל דבר ששונה: מה שהגירה שנוצרה מהקלטה זו הייתה עושה.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>ניתן יהיה ליצור ממנה הגירה כשלהתקנה הזו יהיו סוגי הצעדים של YAML ‏%types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>הושמט בכוונה: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>לא הוקלט דבר.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>מה שהיא לכדה</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count שינויים, לפי הסדר שבו נעשו.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>שינוי</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>צעד</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>נוגע ל</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>עוד %count: ‏./console exp:migration:record:show מציג את כולם.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>השלכה</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>מסירה את ההקלטה ואת מה שהיא לכדה. מה ששונה נשאר משונה.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>כן, להשליך את ההקלטה הזו</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>מקליט…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>השינויים שלכם מוקלטים עבור הגירה.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>כל שינוי באתר זה מוקלט עבור הגירה (חלון לכל האתר).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>ההקלטה לכל האתר החלה: כל שינוי של כל משתמש מוקלט עד שתעצרו אותה.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ההקלטה החלה: השינויים שלכם מוקלטים עד שתעצרו אותה.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ההקלטה נעצרה. מה שהיא לכדה נשאר עד שתשליכו אותה.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ההקלטה והאירועים שלה הוסרו.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>אין הקלטה %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>סמנו קודם את „כן, להשליך את ההקלטה הזו”.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>רק המשתמש שהקליט רשאי לעצור הקלטת הפעלה.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>בחרו את ההקלטה לעצירה.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>הקלטה מסוג זה כבר פועלת.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>לא ניתן לשנות את ההקלטה: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>יצירת הגירה</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>שם ההגירה (רשות)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>ההגירה %file נכתבה. שינויים שאף שלב אינו יכול לבצע מפורטים בראש הקובץ, לביצוע ידני.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>לא נכתבה הגירה: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>הרצה ארוכה בחלקים</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>שדות ריקים שומרים על ההגדרות של migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>לכל היותר כמות זו של הגירות</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>אין הגירה נוספת אחרי (שניות)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>השהיה בין הגירות (שניות)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>עדיפות נמוכה יותר (1 עד 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>שדה של הרצה ארוכה הוא מספר שלם מ-1 (ההשהיה: שניות מ-0 עד 60, העדיפות: 1 עד 19), או ריק.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>הוא נסגר מעצמו ב-%time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>לסגור מעצמו אחרי (דקות, אופציונלי)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>הדקות הן מספר שלם מ-1 עד 44640 (31 ימים), או ריק.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>הגירה %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>הגירה חדשה</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>הגירת YAML: כתבו אותה כטקסט או בנו את צעדיה בטופס, בדקו אותה ולאחר מכן שמרו אותה בתיקיית הגירות.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>הגירה זו כבר רצה ולכן אינה נשמרת שוב: מנגנון ההגנה של סכום הביקורת היה דוחה קובץ ששונה. בצעו את השינוי בהגירה חדשה.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>שרת האינטרנט אינו יכול לכתוב את הקובץ.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>שורות ההערה בראש הן הכותרת (description, author, requires, environments, engines). כאשר צעד נוסף או משתנה בטופס, ההגירה נכתבת מחדש: הערות בין הצעדים אינן נשמרות.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>שם ההגירה</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>לאן היא הולכת</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>האתר</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>טקסט YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>בדיקה</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>שמירה</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>שלבים</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>מפתחות</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>עריכה</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>העברה למעלה</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>העברה למטה</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>הסרה</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>עדיין אין צעדים: הוסיפו אחד בעזרת הטופס או כתבו אותם בטקסט.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>שינוי צעד %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>הוסיפו צעד</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>הטופס של צעד נבנה מסוג הצעד שלו: המפתחות שלו, מה כל אחד מקבל ומצבי הפעולה שאליהם הוא שייך.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>סוג צעד</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>הצגת הטופס שלו</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>לצעד יש מפתחות שהסוג שלו אינו מכיר; הם יושמטו כאשר הצעד ישתנה: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>מצב פעולה</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>בתוך</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>רק ב-%modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ברירת מחדל: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>תנאים, הפניות והערה</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>זוגות שם=ערך מופרדים בפסיקים. הערכים של צעד זה: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>דוגמה</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>שינוי צעד</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>הוספת צעד</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>מה exp:migration:check אומר: הכותרת, המסמך וכל צעד כפי שנבדק על ידי סוג הצעד שלו.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>ההגירה עוברת את הבדיקה.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>תצוגה מקדימה</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>ה-YAML כפי שיישמר.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>הצגת ה-YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>הגירות YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>רצה</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>עדיין אין הגירות YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>עורך</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>אין הגירת YAML %id בתיקיות ההגירות.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>בחרו סוג צעד.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>הצעד נוסף. בדקו את ההגירה לפני שתשמרו אותה.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>הצעד שונה. בדקו את ההגירה לפני שתשמרו אותה.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>בחרו צעד.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>לצעד זה אין טופס (לולאה, או סוג צעד שאינו קיים בהתקנה זו): שנו אותו בטקסט.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>בחרו לאן ההגירה תגיע: האתר או הרחבה פעילה.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file נשמר. בצעו ריצת ניסיון לפני שההגירה רצה.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>לא נשמר: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>יעדים מרוחקים</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ההתקנות האחרות שאליהן התקנה זו פורסת את ההגירות שלה: פריסה שולחת את ההגירות ליעדים המרוחקים שנבחרו ומריצה אותן שם, כולם בבת אחת ובסנכרון. יעד מרוחק לעולם אינו מחזיק סוד: אישור הגישה שלו מציין סוד בהגדרות &gt; סודות.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>יעד מרוחק חדש</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>עזרה</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>בדיקת החיבור של %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>היעדים המרוחקים</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>עד %parallel יעדים מרוחקים מטופלים בו-זמנית; פאזה אחת עשויה להימשך %timeout שניות בכל אחד.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>יעד מרוחק</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>כתובת</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>אישור גישה</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>קבוצות</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>הגדרות לתיקון</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>קבצים בלבד (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>מפתח SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>סיסמה</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ללא (סוכן ה-SSH והמפתחות של המארח)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>בדיקת החיבור</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>פריסה לקבוצה מגיעה לכל היעדים המרוחקים שבה.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>פריסה ליעדים מרוחקים</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>עדיין לא הוגדר יעד מרוחק.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>יעד מרוחק %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>דבר אינו נשלח או מורץ כאן: שמירה כותבת את ההגדרות אל settings/override/migration.ini.append.php. אישור הגישה הוא שם; ערכו נשאר בהגדרות &gt; סודות או בסביבה.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>יש לבדוק את ההגדרות האלה</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ההגדרות כפי שהוזנו, עדיין לא נשמרו.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>סקירה</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ההגדרות תקינות. השורות האלה ייכתבו:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>שיטת שליחה</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>שם בלבד; הערך נשאר בהגדרות &gt; סודות</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>השורות שייכתבו</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>חיבור</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>מפתח מארח</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. היעד המרוחק</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>איך נקרא היעד המרוחק ואיזו סביבה הוא.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>מזהה</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>אותיות, ספרות, - ו-_, לדוגמה production1. הוא נותן שם ליעד המרוחק בדוחות ובמסוף (--remotes=production1) ואי אפשר לשנותו מאוחר יותר.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... פריסה בשלבים עוברת בין הסביבות בסדר הזה.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>אופציונלי, מופרד בפסיקים, לדוגמה production. פריסה לקבוצה מגיעה לכל היעדים המרוחקים שבה.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. החיבור</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>כיצד הקבצים מגיעים לשם, והיכן נמצאת ההתקנה.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>דרך SSH, רק מה שהשתנה, העברה שנקטעה ממשיכה. הבחירה הטובה ביותר היכן ש-rsync מותקן.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH עם scp עבור הקבצים.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH עם sftp עבור הקבצים.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>קבצים בלבד: ההגירות נשלחות ונקראות בחזרה, אך אי אפשר להריץ אותן שם.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP מעל TLS; קבצים בלבד.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>התקנה אחרת בשרת זה, בתיקייה.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>שם המארח</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>שם מארח או כתובת, לדוגמה node1.example.com. לא עבור local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>פורט</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>ריק: 22 עבור SSH, 21 עבור FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>משתמש</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>נתיב</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>תיקיית השורש של ההתקנה שם, לדוגמה /var/www/site (עבור FTP: הנתיב שחשבון ה-FTP רואה).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>שורת הפקודה של PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>ה-PHP CLI שם: php, או נתיב מלא כגון /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>סקריפטי המסוף רצים שם בתור root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>רק כאשר המשתמש של היעד המרוחק הוא root (הן מורצות אז עם --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. אישור הגישה</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>כיצד התקנה זו מתחברת שם. נשמר רק שם.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ללא</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>סוכן ה-SSH והמפתחות של המשתמש שתחתיו התקנה זו רצה (ותמיד עבור local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>מפתח פרטי השמור כסוד.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>סיסמה השמורה כסוד (FTP מתחבר באמצעותה).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>שם הסוד</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>סוד מתוך הגדרות &gt; סודות, לדוגמה deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>הגדרות &gt; סודות</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>או משתנה סביבה</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>המשתנה של תהליך השרת שמחזיק אותו, לדוגמה DEPLOY_KEY (נשמר בתור env:DEPLOY_KEY). הוא בא במקום שם הסוד.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. מפתח המארח</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>אופציונלי, עבור SSH, sftp ו-rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>טביעת האצבע של מפתח המארח</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... כפי ש-ssh-keygen -l מדפיס אותו. איתו, המארח חייב להציג מפתח זה; בלעדיו, המפתח נלמד במגע הראשון.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. סקירה</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>בדקו את החיבור עם ההגדרות שלמעלה, ולאחר מכן סקרו את השורות שייכתבו.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>הסרת יעד מרוחק זה</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>ההגדרות שלו מוסרות מתוך settings/override/migration.ini.append.php. דבר אינו משתנה ביעד המרוחק, והפריסות שלו נשארות בהיסטוריה.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>כן, להסיר יעד מרוחק זה</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>פריסות</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>פריסה שולחת את ההגירות של התקנה זו ליעדים המרוחקים שנבחרו ומריצה אותן שם בתור %user, כולם בבת אחת ובסנכרון: כל יעד מרוחק נבדק קודם, וכאשר אחד נכשל, כל יעד מרוחק שהחיל אותן מוחזר לאחור. היא ממשיכה ברקע, והדף שלה מציג כל יעד מרוחק תוך כדי.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. היעדים המרוחקים</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>סמנו יעדים מרוחקים, קבוצה, או את שניהם.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>פריסה אליו</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. איך</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>פריסה</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>שליחה והרצה</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>ההגירות נשלחות, מאומתות ומורצות בכל יעד מרוחק עם מזהה ריצה משותף אחד.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>העברה בלבד</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>הקבצים נשלחים ומאומתים, דבר אינו מורץ (הדרך היחידה עבור יעד מרוחק מסוג FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>בשלבים</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>שלב אחר שלב לפי סדר הסביבות (dev, stage, beta, production ...): השלב הראשון נפרס, ואז שער ממתין עד שמישהו מאשר את הבא. הכול או כלום בתוך כל שלב.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>רק ההגירות האלה</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>אופציונלי: מזהי הגירות, מופרדים בפסיקים. ריק: כל הגירה של האתר ושל ההרחבות שלו.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>בדיקה מקדימה בלבד</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>כן, לפרוס עכשיו</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>הפריסות ששלחו או הריצו משהו, החדשה ביותר ראשונה (בדיקה מקדימה אינה שומרת דוח).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>העברה בלבד</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>בשלבים, %stages שלבים</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>לא בסנכרון</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>עדיין אין פריסה.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>פריסה %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>כל יעד מרוחק של הפריסה עם מצבו. פריסה שהתחילה כאן ממשיכה ברקע כאשר הדף נסגר; פתחו את הדף שוב כדי לעקוב אחריה.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>כל הפריסות</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>בדיקה מקדימה</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>השלב הבא</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>בודק את ההגדרות ואת אישורי הגישה</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>בדיקה מקדימה: קורא את המצב של כל יעד מרוחק</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>שולח את קובצי ההגירה</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>מאמת את מה שהגיע</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>מריץ את ההגירות בכל יעד מרוחק</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>מחזיר את היעדים המרוחקים לאחור</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>הפריסה הסתיימה. טוען את הדוח שלה.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>לא ניתן היה לעקוב אחר ההתקדמות. טענו מחדש את הדף כדי לראות את מצב הפריסה.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>פאזה</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>דף זה עוקב אחר הפריסה תוך כדי התקדמותה.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>בסנכרון</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>שלבים</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>שלב %stage ממתין בשער שלו</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>שער %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>אושר על ידי %user בשעה %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>שלב</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>קבצים שנשלחו</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>גרסת הליבה</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>הוחלו: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>להחלה: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>פאזות</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>שער: שלב %stage מתוך %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>השלבים שלפניו נפרסו. בדקו אותם, ולאחר מכן אשרו את השלב הבא: היעדים המרוחקים שלו נבדקים שוב ונפרסים, הכול או כלום.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>הבא</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>כן, לפרוס את השלב הבא עכשיו</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>אישור</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>החזרת פריסה זו לאחור</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>כל יעד מרוחק שהחיל אותה (%list) חוזר לתמונת המצב שנלקחה לפני הריצה שלו, כולם בבת אחת.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>כן, להחזיר פריסה זו לאחור עכשיו</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>מתוכנן</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>הועבר</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>נפרס</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ממתין בשער</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>נבחרו</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>מוכן מראש</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>מוכן</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ממתין לשלב שלו</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>קבצים נשלחו</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>אומת</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>נכשל, שחזר את עצמו</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ללא שינוי</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>לא נפרס</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>לא ניתן להשגה</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>היעד המרוחק ענה.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>לא ניתן להשתמש ביעד המרוחק כעת.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done הושלמו, %pending ממתינים, %failed נכשלו</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>נעילה</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ריצה מחזיקה שם את הנעילה</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>פנוי</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage מתוך %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>בחרו את היעד המרוחק לבדיקה.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>סמנו קודם את “כן, להסיר יעד מרוחק זה”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>לא ניתן היה להסיר את היעד המרוחק: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>לא ניתן היה לשמור את היעד המרוחק: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>לא ניתן לקרוא את קובץ ההגדרות: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>בחרו לפחות יעד מרוחק אחד או קבוצה.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>יעד מרוחק שנבחר כבר אינו נמצא בהגדרות. טענו מחדש את הדף.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>סמנו קודם את “כן, לפרוס עכשיו”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>יעד מרוחק מסוג FTP אינו יכול להריץ הגירות: בחרו “העברה בלבד”, או השמיטו אותו.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ההגירות לפריסה הן מזהי הגירות, מופרדים בפסיקים.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>הפריסה עדיין מתבצעת. המתינו עד שתסתיים.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>פריסה זו אינה ממתינה בשער.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>אף יעד מרוחק לא החיל פריסה זו: אין מה להחזיר לאחור.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>סמנו קודם את “כן, לפרוס את השלב הבא עכשיו”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>סמנו קודם את “כן, להחזיר פריסה זו לאחור עכשיו”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>יעד מרוחק עם המזהה %id כבר קיים.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>הפורט הוא מספר בין 1 ל-65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>הסביבה היא מילה של אותיות, ספרות, - ו-_ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>קבוצה היא מילה של אותיות, ספרות, - ו-_ (לא all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>לא ניתן לקרוא כעת את אישור הגישה: %problem. שמרו אותו בהגדרות &gt; סודות (או הגדירו את המשתנה) לפני הפריסה הראשונה.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>יעד מרוחק מסוג FTP מקבל קבצים בלבד: פריסה אליו היא “העברה בלבד”, וההגירות שלו מורצות שם ידנית.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>היעד המרוחק %id אינו נמצא ב-settings/override/migration.ini.append.php; הסירו אותו במקום שבו הוא מוגדר.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>התחבר דרך FTP וקרא את index.php. לא ניתן לקרוא את מצב ההגירות של יעד מרוחק מסוג FTP.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>שונה</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>נוצר</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>שם</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>מחלקה</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>מדור</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>יוצר</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>תוכן אחרון</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>התוכן שנוצר ושונה לאחרונה בכל האתר, מהחדש לישן: מה שגולשים שלחו, מה שמוחזק לבדיקה, טיוטות הממתינות לפרסום. בחרו פריטים כדי לשחרר, להחזיק, להסתיר, להציג, להסיר אותם או להעביר אותם למדור או למצב אחר.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>לא ניתן היה לקרוא את הרשימה: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>ההחזקה לבדיקה עדיין לא הוגדרה, ולכן שום דבר אינו מוחזק ופעולות ההחזקה אינן מוצעות. שלב השדרוג 6.0.15-review-hold מגדיר אותה: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>סינון הרשימה</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>מ-</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>עד</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>תאריך</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>נוצר (פרסום ראשון)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>הכול</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>מצב</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>פורסם</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>טיוטה, מעולם לא פורסמה</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>ממתין (לאישור או לתאריך)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>בסל המחזור</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>מוחזק לבדיקה</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>מוחזק</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>לא מוחזק</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>מוסתר</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>גלוי</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>נשלח בתאריך</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>כל גישת אתר</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>רק מה שנרשם ביומן הביקורת.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>כעת: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>שם כניסה או מזהה משתמש.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>סינון</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ניקוי מסננים</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>פריטים</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from עד %to מתוך %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>אין פריטים</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(נקרא תוך %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>פעולות על הפריטים שנבחרו</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>בחירת הכול בעמוד זה</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count נבחרו</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>פעולה</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>בחרו פעולה</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>שחרור ההחזקה</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>החזקה לבדיקה</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>הסתרה</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>הצגה</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>העברה לסל המחזור</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>מחיקה</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>הקצאת מדור</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>הקצאת מצב</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>סיבה</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>נדרשת להחזקה; נשמרת יחד עם ההחזקה וביומן הביקורת.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>בחרו מדור</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>מצב</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>בחרו מצב</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>החלה על הנבחרים</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>כל פריט נבדק מול ההרשאות שלכם. העברה לסל המחזור ומחיקה דורשות אישור. יותר מ-%count פריטים מבוצעים ברקע.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>בחירה</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>פרסום</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>נשלח מ</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>בחירת %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>עדיין לא</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ללא שם)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>מזהה %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>טיוטה</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ממתין</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>מוסתר על ידי ההורה שלו</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>מוחזק: הגשה חדשה</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>גרסה %version ממתינה</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>גרסה %version בעבודה</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>טיוטה, גרסה %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>גרסה %version פורסמה</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>מתוזמן ל-%date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>אין כתובת</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>לא נרשם</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>אין פריטים התואמים למסננים אלה.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>הצגת הכול</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>עדיין אין תוכן.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>לכל עמוד</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>הצגת %count פריטים בכל עמוד.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>הכתובת והדפדפן של הגשה מגיעים מאינדקס יומן הביקורת, שאינו זמין כאן: בעמודה כתוב „לא נרשם”.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>הכתובת והדפדפן הם אלה שיומן הביקורת רשם עבור הפריט (ההחזקה האוטומטית רושמת אותם תמיד; פרסום ויצירה רק היכן שהדבר הופעל), כפי שהגדרות הפרטיות שלו שומרות אותם.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count פריטים</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>מחיקה מסירה את הפריטים לצמיתות, עם כל הגרסאות והתרגומים שלהם. לא ניתן לבטל זאת.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>הפריטים עוברים לסל המחזור, שממנו ניתן לשחזר אותם.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>כל פריט נבדק מול ההרשאות שלכם; פריט עם פריטי משנה נשאר כפי שהוא (הסירו אותו במבנה התוכן). תתבקשו לאמת שזה אתם.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>הפעולה מתבצעת ברקע: עמוד ההתקדמות שלה נפתח, והתוצאה לכל פריט מוצגת בסיומה.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>הפריטים שנבחרו</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ועוד %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ביטול</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>לא בוצע דבר</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>סיבה: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>הפעולה עדיין מתבצעת ברקע.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>ההתקדמות שלה</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>הפעולה ברקע נכשלה: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>בוצע</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>נדחה</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>נכשל</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>לכל פריט</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>פריט</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>תוצאה</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>מדוע</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>חזרה לרשימה</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>הגדרות</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>דבר לא בוצע</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>אישור</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>בחרו פעולה.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>בחרו לפחות פריט אחד.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>בחרו לכל היותר 1000 פריטים בכל פעם.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ציינו מדוע הפריטים מוחזקים.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>בחרו את המדור.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>בחרו את המצב.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>לא ניתן היה לקרוא את הטופס.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>לוח בקרה</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>תוכן אחרון</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>לא ניתן היה לקרוא את הספירות: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>מוחזק לבדיקה</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>חדש היום</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ההחזקה לבדיקה עדיין לא הוגדרה (שלב השדרוג 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>כל התוכן האחרון</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>אין לך הרשאה לבצע פעולות פיקוח (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>פעולת הפיקוח לא הושלמה: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>פיקוח: %action על %count אובייקטים</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done מתוך %total אובייקטים: %ok בוצעו, %refused נדחו, %failed נכשלו</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok בוצעו, %refused נדחו, %failed נכשלו</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>הוא כבר אינו קיים.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>אין לו מיקום (לא פורסם).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>אין לך הרשאה להסתיר אותו (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>אין לך הרשאה להציג אותו (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>הוא כבר מוסתר.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>הוא אינו מוסתר.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>הוסתר.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>הוצג.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>הוא נמצא בסל המחזור: רוקנו אותו או שחזרו אותו משם.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>טיוטה שמעולם לא פורסמה אינה יכולה לעבור לסל המחזור: מחקו אותה.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>אין לך הרשאה למחוק אותו (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>נמחק.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>אין לך הרשאה להסיר אותו (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>יש לו פריטי משנה: הסירו אותו במבנה התוכן, שם הם מופיעים.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>הוא לא הוסר (ייתכן שתהליך עבודה מעכב את ההסרה).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>הועבר לסל המחזור.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>המדור אינו קיים.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>הוא כבר נמצא במדור זה.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>אין לך הרשאה להקצות מדור זה (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>המדור לא הוקצה.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>המדור הוקצה.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>המצב אינו קיים.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>הוא כבר נמצא במצב זה.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>אין לך הרשאה להקצות מצב זה (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>המצב לא הוקצה (ייתכן שתהליך עבודה מעכב את השינוי).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>המצב הוקצה.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>אין פעולה כזו.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ההחזקה לבדיקה לא הוגדרה (שלב השדרוג 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ציינו מדוע הוא מוחזק.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>הוא כבר מוחזק.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>אין לך הרשאה להחזיק אותו (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ההחזקה לא הוטלה (ייתכן שתהליך עבודה מעכב את השינוי).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>הוחזק.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>הוא אינו מוחזק.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>אין לך הרשאה לשחרר אותו (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ההחזקה לא שוחררה (ייתכן שתהליך עבודה מעכב את השינוי).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>שוחרר; עדיין מוסתר: אין לך הרשאה להציג אותו (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>שוחרר.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>כל היעדים</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>פרסום אחרון</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>פרסום עותק סטטי חינמי של האתר שלך ב-GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>דפים מיושנים</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>פרסום סטטי</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>הפרסום הסטטי כבוי.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>יעד</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>לא ניתן היה לקרוא את היעדים: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>משימה מתבצעת</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>בנייה לבדיקה</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>הסתר</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>יצירת יעד</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>אף פעם</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>קריאת המדריך</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added נוספו, %changed השתנו, %removed הוסרו</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes מתוך %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>עוד %count אינם מופיעים ברשימה.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages דפים נכתבו</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path בגודל %size, יותר ממה שהמארח מתיר לקובץ.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % מהמגבלה</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds שנ׳</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag הוא הפרסום שיש לאתר כעת.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: משימה %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repository/ לאתר פרויקט של GitHub; ריק לדומיין מותאם אישית או לאתר משתמש.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. האתר</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. המארח</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. התחברות למאגר</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. המאגר</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. קישורים ונתיב בסיס</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. הדומיין שלך</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. מה הבנייה מכילה</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. מתי מתבצע הפרסום</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. סקירה ושמירה</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>אתר פרויקט של GitHub נמצא תחת /&lt;repository&gt;/; קישורים יחסיים עובדים שם ובכל מקום אחר.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>בנייה מאחזרת כל דף של %site כפי שמבקר שאינו מחובר רואה אותו, משכתבת את הקישורים, מעתיקה את הקבצים וכותבת את התוצאה לתיקיית היעד. דבר אינו מתפרסם עד שבודקים את הבנייה ולוחצים על פרסום.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>ביטוי cron, לדוגמה 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>מפתח פריסה נשמר כסוד %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>מפתח פריסה מאפשר להתקנה הזו לדחוף למאגר אחד בלבד דרך SSH ולשום מקום אחר. החצי הפרטי שלו נשאר בהגדרות &gt; סודות; רק החצי הציבורי מוצג.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>מפתח פריסה שנוצר עבור יעד זה</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>מפתח פריסה מתחבר דרך SSH: יש לשנות את כתובת ה-git לכתובת ה-SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>משימה מתבצעת, הופעלה על ידי %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>משימה של יעד זה עדיין מתבצעת (%detail). יש להמתין לסיומה.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>משימה של יעד זה עדיין מתבצעת. יש להמתין לסיומה.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>קישור מהדף /news/ לדף /about-us/team ייכתב כך</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>נוצר מפתח פריסה חדש. יש להוסיף כעת את החצי הציבורי שלו למאגר.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>דף שעדיין מכיל פלט ניפוי באגים, טוקן טופס או מזהה סשן לאחר הניקוי לעולם אינו מתפרסם.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>החזרה לאחור מיועדת למומחים: יש לסמן &quot;אני יודע מה זה משנה&quot; ולהקליד שוב את שם התג.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>אתר יכול להגיע עד %site, קובץ אחד עד %file, עם כ-100 GB תעבורה בחודש. בתוכנית חינמית המאגר חייב להיות ציבורי. GitHub Pages אינו מיועד לחנויות או לעסקאות מסחריות אחרות.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>יעד הוא אתר אחד המתפרסם במאגר git אחד. כאן לא נבנה ולא מתפרסם דבר: שמירה כותבת את ההגדרות אל settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>יעד הוא אתר אחד המתפרסם במקום אחד, לדוגמה האתר הציבורי שלך ב-GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>טוקן מתוך הגדרות &gt; סודות</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>תהליך עבודה של המאגר מפרסם אותו.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>יש להוסיף מפתח ציבורי זה למאגר עם הרשאת כתיבה. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, ולסמן Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>נוסף</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>מארח git אחר</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>תהליך אחר עובד על יעד זה: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>חזרה</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>נתיב בסיס</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>לפני</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>תחת נתיב בסיס</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ענף</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>קישורים שבורים</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>קישורים שבורים בבנייה</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>בנייה</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>בנייה %id על ידי %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>בניית %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>בנייה עכשיו</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>בנייה לבדיקה</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>על ידי</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>ידנית, כאן</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ביטול</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>שינוי</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>השתנה</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>שינויים</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>בדיקה תחילה</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>יש לבדוק את ההגדרות האלה</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>יש לבדוק מה הבנייה משנה, לעיין בה, ואז לפרסם אותה או להשליך אותה.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>יש לבחור את הפרסום שאליו חוזרים.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>יגיע בגרסה מאוחרת יותר.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>קומיט</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>קומיטים</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>יוצר קומיט מהבנייה, מתייג אותה ודוחף אותה אל %remote. דחיפה לעולם אינה כפויה; ניתן לחזור לכל פרסום מאוחר יותר.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>בהשוואה לתיקייה הקודמת: %added נוספו, %changed השתנו, %removed הוסרו, %unchanged ללא שינוי.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>בהשוואה לפרסום האחרון.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>אישור גישה</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>דומיין מותאם אישית</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>פלט ניפוי באגים, טוקני טפסים, מזהי סשן ו-nonces מוסרים תמיד.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>מפתח פריסה</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>מפתח הפריסה של %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>השלכה</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>השלכת הבנייה</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>דומיין</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>ריק: כתובת האתר. אחרת, כתובת פנימית של אותו אתר.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>הסתיים</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>כל קישור מתחיל בנתיב הבסיס.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>כל פרסום הוא קומיט עם תג static/%id/&lt;n&gt;. חזרה לאחור יוצרת קומיט חדש עם הקבצים של פרסום קודם: ההיסטוריה נשמרת, אף תג אינו זז ודבר אינו נכפה.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>קבצים נוספים</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>אחזור הדפים מ</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>קובץ</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>קבצים</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>קבצים חסרים</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>הקבצים של</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>קבצים שלא ניתן היה לאסוף</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>טביעת אצבע</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>תיקייה</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>לכתובת SSH. המפתח נוצר לאחר השמירה; את החצי הציבורי שלו מוסיפים למאגר.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>לכתובת https://. GitHub: טוקן מפורט (fine-grained) עם הרשאת Contents לקריאה ולכתיבה במאגר.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>למומחים. האתר הציבורי משתנה ברגע שהדחיפה מסתיימת.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>טפסים</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>אירוח חינמי ממאגר GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>מהענף</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>כתובת git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages מתיר אתר של %site וקובץ של %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>המגבלות של GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages מפרסם את הקבצים כפי שהם (נדרש לקבצים שמתחילים ב-_).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub מגיש את הענף כפי שהוא נדחף. ברירת המחדל.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, השרת שלך: כל מאגר git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>חזרה לפרסום קודם</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>עזרה</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>עזרה באשף</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>הסתרתם</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>היסטוריה</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>ההיסטוריה של %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>מארח</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>איך GitHub Pages מקבל את הבנייה</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>בדקתי את השינויים</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>אני יודע מה זה משנה</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>מזהה</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>הוא כבוי: לא ניתן לבנות דבר עד שיופעל.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>פועל ברקע בתור %user; אפשר לסגור דף זה.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>משימה %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>נשמר כסוד %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>סוג</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>פרסום אחרון</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>השמטת הדפים האלה</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>השמטת המקטעים האלה</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>קישורים</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>קישורים שנכתבו מחדש</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>האתר החי</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>עיון בבנייה</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>אותיות קטנות, ספרות, _ ו- -, לדוגמה github-public. הוא נותן שם לתיקייה ולתגים (static/&lt;id&gt;/&lt;n&gt;) ולא ניתן לשנותו מאוחר יותר.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>יצירת מפתח חדש</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>יצירת יעד</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>יצירת המפתח</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>יש ליצור תחילה את המאגר אצל המארח; מאגר ריק מתאים.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>מניפסט</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>הודעה</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>רוב הדפים</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>שם</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>שם הטוקן בהגדרות &gt; סודות</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>יעד חדש</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>הבא</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>עדיין אין קומיט.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>לא נוצר מפתח: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>לא נמצא קובץ הפעלה של php לשורת הפקודה. יש להגדיר את migration.ini [AdminSettings] PhpCliPath לנתיב המלא שלו.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>עדיין אין תג.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>עדיין אין יעד.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ללא</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>לא בבנייה.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>עדיין לא פורסם דבר.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>עדיין לא פורסם דבר: כל קובץ חדש.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>התראות</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>לפי לוח זמנים</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>במסוף</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>בשרת: ./console exp:static:serve %id מגיש אותו באותו אופן.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>נתיב אחד בכל שורה, * מתאים לכל חלק: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>רק שם נשמר עם היעד; הטוקן או המפתח עצמו נשאר בהגדרות &gt; סודות ולעולם אינו מופיע ביומן.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>רק מה שהדפים מזכירים</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>רק עם טוקן. env:NAME קורא במקום זאת משתנה סביבה של השרת.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>פתיחת התצוגה המקדימה</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>פותח את הבנייה כפי שהמארח יגיש אותה, מתיקיית היעד. הקישור עובד עבורך במשך שעה.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>אופציונלי. ריק: מה שפורסם.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>אופציונלי. עם דומיין, האתר מוגש מהשורש שלו.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>פלט</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>דפים</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>הדפים של היעד</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>דפים שנדחו</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>עיבוד לאחר מכן</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>תצוגה מקדימה</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>תצוגה מקדימה ופרסום</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>תצוגה מקדימה ופרסום של %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>תצוגה מקדימה של הבנייה</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>התקדמות</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>כתובת ציבורית</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>מפתח ציבורי</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>פרסום</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>פרסום עותק סטטי של אתר ב-GitHub Pages או בכל מארח git: בונים אותו, בודקים את השינויים, מפרסמים, וחוזרים לפרסום קודם כשצריך.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>פרסום שאליו חוזרים</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>פרסומים</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>דחיפה</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>קריאת המדריך</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>יומן</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>נדחה</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>יחסי</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>טעינה מחדש</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>הוסר</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>החלפת המפתח: הישן מפסיק לעבוד</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>דוח</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>דוח הבנייה</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>מאגר</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>סקירה</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>הסקירה בודקת כל הגדרה ומציגה את השורות שייכתבו. עדיין לא נשמר דבר.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>החזר לאחור</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>החזרה לאחור</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>שמירה</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>לוח זמנים</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>דף חיפוש</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>מזהי מקטעים, מופרדים בפסיקים.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>שליחתם לאתר החי</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>הגדרה</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>הגדרות</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>ההגדרות של %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>הגדרות</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>הגדרות &gt; סודות</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>מוצג ברשימות, לדוגמה &quot;האתר הציבורי ב-GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>התחברות עם GitHub App תגיע עם השילוב של GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>אתר</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>אתר לפרסום</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>גודל</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>גודל ומגבלות</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>גודל הבנייה</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>דפים מיושנים</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>התחיל</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>הופעל על ידי %user בשעה %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>מצב</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>פרסום סטטי</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>הפרסום הסטטי כבוי</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>הפרסום הסטטי כבוי.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>הפרסום הסטטי כבוי. יש להפעיל אותו תחילה בהגדרות &gt; פרסום סטטי.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>הפרסום הסטטי מופעל.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>שלב %step מתוך %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>שלבים</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>ניקוי</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>כיבוי</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>הפעלה</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>הפעלת הפרסום הסטטי</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>תג</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>תגים</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>יעד</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ניתן ליצור ולשנות יעדים, אך דבר אינו נבנה או מתפרסם עד שהוא מופעל.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>מורה למנועי חיפוש מה לקרוא.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>לא ניתן היה להשליך את הבנייה: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>הבנייה זהה לפרסום האחרון: אין מה לפרסם.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>הבנייה הושלכה: התיקייה מכילה שוב את הפרסום האחרון.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ברירות המחדל מתאימות לרוב האתרים.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>התיקייה מכילה בנייה שעדיין לא פורסמה; בנייה חדשה מחליפה אותה.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>לא ניתן לכתוב לתיקיית המשימות: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>לא ניתן היה להכין את המשימה: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>לא ניתן היה להפעיל את המשימה.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>המשימה הסתיימה. הדוח שלה נטען.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>המשימה דורשת משתמש מחובר.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>המשימה הופעלה אך לא דיווחה על מזהה התהליך שלה. יש לבדוק את %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>המפתח</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>הקובץ הגדול ביותר: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>השורות שייכתבו</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>רשימת הדפים עבור מנועי חיפוש; דורשת את הכתובת הציבורית.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>הדפים מאוחזרים כפי שמבקר שאינו מחובר רואה אותם. siteaccess של ניהול ועריכה לעולם אינם מוצעים.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>לא ניתן היה לעקוב אחר ההתקדמות. יש לטעון מחדש את הדף כדי לראות את מצב המשימה.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>החצי הציבורי של המפתח:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>שורש הענף</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>מאגר הסודות עדיין לא הוגדר (./console exp:upgrade --apply יוצר את הטבלה שלו), ולכן לא ניתן לשמור מפתח.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>השרת מתחבר בעצמו (מפתח SSH משלו או מסייע אישורי גישה), או שהמאגר נמצא בשרת הזה.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>לא ניתן היה לכתוב את ההגדרה: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ההגדרות תקינות. השורות האלה ייכתבו:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>לא ניתן לקרוא את קובץ ההגדרות: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>האתר חוזר לקבצים של אותו פרסום; בנייה שעדיין לא פורסמה חייבת להתפרסם או להיות מושלכת קודם.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>הדף של האתר עצמו עבור כתובות שאינן קיימות.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>לא ניתן היה לשמור את היעד: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>היעד עדיין אינו מתחבר עם מפתח זה: יש לבחור &quot;מפתח פריסה שנוצר עבור יעד זה&quot; בהגדרות שלו.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>לא ניתן היה לקרוא את היעדים: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>עדיין אין בנייה לבדיקה.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>להתקנה זו אין siteaccess ציבורי. siteaccess של ניהול ועריכה לעולם אינם מתפרסמים.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>דף זה עוקב אחר המשימה תוך כדי התקדמותה; היא ממשיכה ברקע כשהדף נסגר.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>ליעד זה עדיין אין מפתח פריסה.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>יעד זה עדיין לא נבנה כאן.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>ליעד זה יש אחד.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>משליך את הבנייה הזו: התיקייה מכילה שוב את הפרסום האחרון. האתר החי אינו משתנה.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>יש לסמן תחילה &quot;בדקתי את השינויים&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>שעה</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>מפעילים</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>יש להקליד שוב את שם התג</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>ללא שינוי</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>מה</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>מה משתנה</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>מה כל קובץ; נכתב תמיד.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>מה המשימה עשתה והיומן שלה. משימה שהופעלה כאן ממשיכה ברקע כשדף זה נסגר.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>מה שהמשימה הדפיסה כשגיאות</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>מה שהדפים מזכירים, וכל תמונה של תוכן שפורסם</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>מתי</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>כשפרסום נכשל</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>כשפרסום מצליח</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>כשתוכן מתפרסם</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>לאן הולכים קישורים למה שהעותק אינו מכיל (החיפוש, ההתחברות).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>מאיפה העותק הסטטי מוגש.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>איזה אתר מתפרסם, ומה שם היעד.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>עובד תחת כל נתיב. ברירת המחדל.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>נכתב בכל פעם שמוגדר דומיין מותאם אישית.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>כן</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>תמיד ניתן לבנות ולפרסם ידנית כאן ובמסוף.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>שם בלבד; הערך נשאר בהגדרות &gt; סודות</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>תחת %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>הסתיים ללא דוח</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>תוספת</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>נכשל</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>קובץ</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, או main עם התיקייה docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>מארח git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (עם טוקן) או git@github.com:owner/repo.git (עם מפתח פריסה); לעולם לא סיסמה או טוקן בתוכה.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, עבור מפת האתר והקישורים הקנוניים.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>תמונה</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>אף פעם</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>אין remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ללא: הקומיטים נשארים בתיקייה</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ללא: דבר לא השתנה</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>לא נדחף</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>דבר לא השתנה</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>דף</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>עבר</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open מושבת, ולכן לא ניתן להפעיל כאן משימה. יש להשתמש ב-./console exp:static:build בשרת.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>פרסום</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>פורסם</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>דחיפה ממתינה</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>נדחף</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>נדחה</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>יחסי</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>החזרה לאחור</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>הוחזר לאחור</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>פועל</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>התיקייה בלבד</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: נכתב לקובץ CNAME. יש להפנות את ה-DNS של הדומיין אל המארח כפי שהוא מסביר; הפעלת HTTPS עשויה להימשך זמן מה.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>כן, עדיין לא פורסם</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>תהליך עבודה של המאגר מפרסם אותו. הבנייה כותבת את קובץ תהליך העבודה; השאירו את התיקייה ריקה.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>לאחר שמירת יעד עם מאגר GitHub וטוקן או GitHub App, שלב זה יכול ליצור את המאגר ולהפעיל את GitHub Pages. אחרת, צרו קודם את המאגר ב-GitHub; מאגר ריק מספיק.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ענף או GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>בדיקת ה-DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>יצירת המאגר אם הוא לא קיים</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>צרו את המאגר ב-GitHub והפעילו את GitHub Pages בהגדרות שלו (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>יוצר את המאגר %repo כשהוא חסר (כשמתבקש), מפעיל את GitHub Pages מהענף או מ-GitHub Actions כפי שנשמר, ומגדיר את הדומיין המותאם אישית ואת HTTPS. משתמש בהגדרות השמורות: שמרו קודם את השינויים.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>פרטים ב-GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>הזינו קודם את הדומיין המותאם אישית.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>כל דחיפה נבדקת קודם מול המגבלות האלה.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>לכתובת https:// ב-GitHub. ה-App שהוגדר להתקנה זו מתחבר; הוא צריך את מזהה ההתקנה.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages מגיש מאגר פרטי רק בתוכנית בתשלום.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: תת-דומיין (www.example.com) צריך רשומת CNAME אל &lt;owner&gt;.github.io; דומיין ראשי (example.com) את רשומות A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>מזהה ההתקנה של ה-GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>בניית Pages אחרונה</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>מגבלות ותנאים</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>נדרש עבור GitHub Pages בתוכנית חינמית.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>ב-GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>רק עם GitHub App: המספר בסוף הכתובת של ההתקנה של ה-App ב-GitHub. ה-App עצמו מוגדר ב-staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>פרטי</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>ציבורי</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>שמרו קודם את היעד עם מאגר GitHub וטוקן או GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>הגדירו את הרשומות האלה אצל ספק הדומיין:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>הגדרה ב-GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>ה-DNS של %domain עדיין לא מצביע אל GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>ה-DNS של %domain מצביע אל GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>השילוב של GitHub לא זמין כאן: %problem. פרסום לענף עובד בכל זאת; הפעילו את GitHub Pages בהגדרות המאגר.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>שלבי GitHub לא זמינים ליעד זה: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>המצב של GitHub Pages מוצג כשאישור הגישה הוא טוקן או GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>שימוש בדומיין משלכם</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>מה לבחור: טוקן, מפתח פריסה או GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>עם מאגר GitHub וטוקן או GitHub App, האשף יכול ליצור את המאגר, להפעיל את GitHub Pages ולהגדיר את הדומיין בשבילכם (שלב 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>בבנייה</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>נבנה</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>מ-GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>מהענף %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>עדיין אין</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>לא נמצא</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>כבוי</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>פרטי</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ציבורי</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>בתור</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>לא ידוע</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count מתוך %pages עמודים:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>קובץ .gz (ו־.br) לצד כל קובץ טקסט, למארחים שמגישים אותם.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>עמוד קטן לכל כתובת וכינוי ישנים של עמוד, כדי שקישורים ישנים ימשיכו לעבוד.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>נכתב תמיד כאשר GitHub Actions מספק את האתר.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>מזהה SPDX כמו CC-BY-4.0, או הטקסט עצמו.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>סל</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>קריאות לשרת</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>הערות</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>טפסים שאוספים מידע</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>תהליך GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>פחות רווחים וללא הערות בעמודים.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>רישיון התוכן</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>התחברות</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>מזעור</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>טפסים אחרים</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>דחיסה מראש</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>עמודי הפניה</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>עמודי הפניה: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>חיפוש</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>אינדקס חיפוש: %pages עמודים ב־%languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>גיליונות סגנון וסקריפטים הנקראים על שם גיבוב התוכן שלהם, כך שדפדפנים רשאים לשמור אותם.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>העמודים ששונו, כמה דקות אחרי השינוי האחרון (חלק ה־cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>רישיון התוכן, מהשדה שלמטה.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>האתר כולו, בזמני לוח הזמנים (חלק ה־cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>חלקים אלה של העמודים דורשים שרת; לכל אחד נוסף חלופה. בדקו אותם לפני הפרסום.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>מה שלא עובד באופן סטטי</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>מהו המאגר, למי שפותח אותו במארח.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>הושמט</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>טקסט החלופה</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>נקודת הקצה של הטופס באתר החי</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>האתר החי</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>עמוד החיפוש של העותק</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>לא ניתן היה לשלוח את הטופס.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>תודה: הטופס נשלח.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>הטופס לא התקבל: בדקו את מה שהזנתם ושלחו שוב.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>הסרת קישורים לדפים שהעותק אינו מכיל</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>הסרת קישורים לממשק הניהול</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>הטקסט שלהם נשאר. תמונות, טפסים וקישורים לאתרים אחרים לעולם אינם מוסרים.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>גרסה</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>גישות אתר לפרסום</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>גישת אתר</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>בשורש</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>אין גישת אתר בשורש: כל אחת בתיקייה שלה, והשורש מקשר אליהן</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>גישות אתר</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>סמנו גישת אתר אחת, או כמה שחולקות מארח אחד לפי קידומת ה-URI שלהן. זו שבשורש מוגשת שם, האחרות בתיקיית הקידומת שלהן (/ger/); הקישורים ביניהן נשארים בעותק. גישות ניהול לעולם אינן מוצעות.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>הפרסום הסטטי של %target נכשל ב-%site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>הפרסום הסטטי של %target הצליח ב-%site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>הודעה זו נשלחה על ידי %site כי יעד הפרסום הסטטי %target מבקש אותה.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>הפריסה %deploy נכשלה באתר %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>הפריסה %deploy ממתינה בשער באתר %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>הפריסה %deploy הצליחה באתר %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>הודעה זו נשלחה על ידי %site כי migration.ini [RemoteSettings] Notify[] מבקש זאת.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>סוגי נתונים (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>נספר ב-%time, שוב בעוד %minutes דקות</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>סוג נתונים שומר ועורך סוג אחד של ערך של מאפיין מחלקה: שורת טקסט, תמונה, קשר. הליבה מספקת את רובם, והרחבות מוסיפות עוד. כאן מופיעים כולם, מי מספק אותם וכמה מהתוכן משתמש בהם. סוג נתונים שמסד הנתונים משתמש בו אך דבר אינו רושם אותו עוד שובר את התוכן שמכיל אותו.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>קבוצות מחלקות</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>לספור שוב עכשיו במקום להשתמש בספירות של הדקות האחרונות.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>לספור שוב</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>סקירה</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>נרשם</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>בשימוש</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>לא בשימוש</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>הרחבות שמספקות סוגי נתונים</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>מאפייני מחלקה</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>מאפייני אובייקט</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>לא רשום</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>רשום, הקובץ חסר</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count סוגי נתונים נמצאים בשימוש אך אינם רשומים</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>ל-%class_attributes מאפייני מחלקה ול-%object_attributes מאפייני אובייקט יש סוג נתונים שאף הרחבה או הגדרה אינה רושמת. לא ניתן להציג, לערוך או לפרסם את האובייקטים שלהם. יש להפעיל את ההרחבה שמספקת את סוג הנתונים, או לשנות את המחלקה.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>להציג רק את אלה</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>חיפוש סוג נתונים</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>מזהה, שם, מחלקת PHP או הרחבה.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>הצגה</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>הכול</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>מסופק על ידי</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>כולם</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>ליבה</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>אין סוג נתונים שמתאים למסנן זה.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>הצגת הכול</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>הרחבה</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown מתוך %count סוגי נתונים, %used בשימוש</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>במסד הנתונים יש מאפייני מחלקה או אובייקט מסוגי נתונים אלה, אך content.ini אינו מפרט אף אחד מהם, או שהקובץ שלהם חסר.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>סוגי הנתונים של %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>סוג נתונים</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>מחלקת PHP וקובץ</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>מחלקות</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>אובייקטים</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>דגלים</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ללא</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>אין סוג נתונים שמתאים לחיפוש. נקו את החיפוש.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>מוצגים %shown מתוך %count סוגי נתונים</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>סוגי נתונים מוצגים: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>מיון לפי %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>נספר ב-%time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>כל סוגי הנתונים</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>דף עזרה</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>סוג נתונים זה נמצא בשימוש אך אינו רשום</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>לא ניתן להציג, לערוך או לפרסם את האובייקטים של המחלקות שלהלן כל עוד אף הרחבה אינה רושמת את סוג הנתונים. יש להפעיל את ההרחבה שמספקת אותו ולהוסיף אותו ל-content.ini [DataTypeSettings] AvailableDataTypes[], או לשנות את המחלקות.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini מפרט את סוג הנתונים הזה, אך באף תיקיית סוגי נתונים אין את הקובץ שלו. דבר אינו משתמש בו; יש להסיר אותו מ-AvailableDataTypes[] או להפעיל את ההרחבה שלו.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>אודות סוג נתונים זה</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>מזהה</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>שם</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>הרחבה %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>אף אחד</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>מחלקת PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>קובץ</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>ב-AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>כן</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>עמודות הערך שלו</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>עמודות הגדרות מאפיין המחלקה שלו</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>טבלאות</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>העמודות והטבלאות נמצאות על ידי קריאת הקוד של סוג הנתונים: הנחיה, לא הבטחה.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>תבניות</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>גישת אתר</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>תבנית</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>נמצא ב</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ממשק ניהול זה</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>אתר ברירת מחדל</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ללא דריסות: תבנית דריסה שמתאימה לפי מחלקה או מאפיין גוברת על אלה.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>מחלקות שמשתמשות בו (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>לאף מחלקה אין מאפיין מסוג נתונים זה.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>מחלקה</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>מאפיינים</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>מאפייני מחלקה (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>מאפיין</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>הגדרות</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>מזהה %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>חובה</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>ניתן לחיפוש</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>ניתן לתרגום</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>אוסף מידע</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>חלק מהתוכן שמשתמש בו</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>שונה לאחרונה ראשון</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>שונה</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>צומת %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>לכל תרגום יש ערך משלו.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>החיפוש מאנדקס את ערכיו.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>הוא יכול לאסוף מידע ממבקרים (טפסים).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>ניתן למיין רשימות לפיו: מפתח מיון %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>ניתן למיון</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>ערכיו מצביעים על אובייקטים אחרים.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>קשרים</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>ניתן למלא אותו ממחרוזת פשוטה (ייבוא, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>מטקסט</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>ניתן למלא אותו מקובץ.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>מקובץ</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>הגדרות מאפיין המחלקה שלו נכללות בחבילות.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>חבילות</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>תוכן (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from עד %to מתוך %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>סינון הרשימה</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>כל המחלקות</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>מדור</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>שפות</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>בעלים</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>פורסם</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>היפוך הסדר</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>אין פריטים</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>בעמוד</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>הצגת %count פריטים בעמוד.</translation>
     </message>
 </context>
 </TS>

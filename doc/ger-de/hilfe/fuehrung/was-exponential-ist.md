@@ -41,10 +41,30 @@ installiert, und seine aktuelle Linie ist **Exponential 6.0.x**. Ein Content-Man
 Anwendungs-Framework (CMF) und ein eingebauter Shop kommen in einem Paket
 ([Wer ist 7x?](../wer-ist-7x.md#cms-cmf-und-shop-in-einem)).
 
+### Für Entscheider: ein Stack, und der Server gehört dazu
+
+Seit 6.0.15 ist der Velocity Internet / Web Application Server Teil von Exponential: Die `composer.json` im
+Wurzelverzeichnis verlangt `se7enxweb/exponential-velocity ~0.0.4.57`, also hat ihn jede Installation, auf PHP 8.0 und
+höher. Das Projekt nennt das einen Wendepunkt, einen Grundstein und einen Schlussstein: eine neue Stufe der Integration
+von Anwendungssystemen, die im Kernprodukt standardmäßig noch mehr Funktionen ab Werk bietet. Was das für Ihre
+Entscheidung bedeutet:
+
+- **Ein Produkt, kein Framework plus Teile.** Exponential ist eine ganze, funktionierende Einheit: ein Stack für die
+  schnelle Anwendungsentwicklung (RAD) von Internetanwendungen, der CMS, Digital-Experience-Plattform und
+  E-Commerce-System zugleich ist, mit eigenem Server, aus einer Quelle, mit einem Installationsprogramm und einer
+  Dokumentation.
+- **Weniger Integrationsrisiko.** Vor der ersten Seite muss kein Server ausgewählt und eingebunden werden, und es gibt
+  keine PHP-Version, auf der ein Teil des Stacks fehlt. Das räumt ein übliches Hindernis aus dem Weg, Exponential
+  irgendwo auf der Welt einzusetzen.
+- **Die Freiheit bleibt.** Velocity ist die empfohlene Engine für jede Stufe und FrankenPHP eine produktionsreife
+  Alternative, aber Apache und nginx mit PHP-FPM funktionieren weiter wie bisher; die Wahl des Hostings bleibt offen.
+
+Die ganze Geschichte: [Velocity ist Teil von Exponential 6.0.15](../velocity-ist-teil-von-exponential-6-0-15.md).
+
 ## Woher es kommt
 
-- **Fast dreißig Jahre einer einzigen Codebasis.** Der Urheberrechtsvermerk lautet „Copyright (C) 1998 - 2026 7x &
-  Exponential Foundation“ neben „Copyright (C) 1999 - 2014 eZ Systems AS“ (`COPYRIGHT.md`). Der älteste Commit im
+- **Fast dreißig Jahre einer einzigen Codebasis.** Der Urheberrechtsvermerk lautet
+  „Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.“ neben „Copyright (C) 1999 - 2014 eZ Systems AS“ (`COPYRIGHT.md`). Der älteste Commit im
   Repository stammt vom 2. September 2002 ([Wer ist 7x?](../wer-ist-7x.md#7x-in-zahlen)).
 - **Eine Fortführung, kein Fork um seiner selbst willen.** Exponential führt die Codebasis von eZ Publish fort, einem
   Produkt, das sein Hersteller nach fast 18 Jahren eingestellt hat. 7x übernahm 2023 die Führung des Projekts,
@@ -85,7 +105,7 @@ Was das für ein Projekt bedeutet, mit der Seite, die jeden Teil erklärt:
 | Seitenaufbau | Exponential Layouts: Layouts, Zonen, Blöcke und Regeln | [Der Layout-Editor](../layout-editor.md) |
 | Schreibunterstützung | Exponential Intelligence: nur Entwürfe, veröffentlicht nie von sich aus | [Exponential Intelligence](../../funktionen/6.0/erweiterungen/expai.md) |
 | Multisite | Mehrere Sites aus einer Installation, jede ein Siteaccess | [Multisite- und mehrsprachige Projekte planen](multisite-und-mehrsprachigkeit-planen.md) |
-| Sprachen | 268 Gebietsschema-Dateien als Inhaltssprachen; Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen) | [Sprachen in Exponential](../../sprachen.md) |
+| Sprachen | 368 Gebietsschema-Dateien als Inhaltssprachen; Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen) | [Sprachen in Exponential](../../sprachen.md) |
 | E-Commerce | Produkte, Warenkörbe, Bestellungen, Mehrwertsteuer, Währungen, PayPal | [Wer ist 7x?](../wer-ist-7x.md#cms-cmf-und-shop-in-einem) |
 | Integration | REST-API v1 und v2 | [REST-API v1 und v2](../../anleitungen/rest-api-v1-und-v2.md) |
 | Sicherheit und Prüfung | Content Security Policy, zweistufige Anmeldung, ein manipulationssicheres Audit-Protokoll | [Sicherheitshärtung](../sicherheitshaertung.md), [Audit-Protokoll](../../funktionen/6.0/pruefprotokoll.md) |
@@ -103,7 +123,7 @@ Beschreibungen, mit Quellen und dem Stand jedes Produkts, finden Sie unter
 | **Exponential 6** | Der Kernel für CMS, CMF und Shop, auf dem diese Installation läuft | Organisationen mit strukturierten Inhalten, mehreren Sites oder mehreren Sprachen; Entwickler, die auf seinem Framework aufbauen |
 | **Exponential Platform 3.2.9** | Reines Symfony-CMS aus der letzten freien eZ Platform | Teams auf dem Stack von eZ Platform 3, die ein aktuelles PHP möchten |
 | **Exponential Platform Legacy** | Die Symfony-Plattform plus Exponential 6 („Dual Kernel“) | Bestehende Sites, die Exponential 6 behalten und Symfony daneben hinzufügen |
-| **Exponential Platform Nexus** | Platform plus Exponential 6, Netgen Layouts und Media Site, mit Demo-Inhalten | Agenturen und Teams, die schnell eine vollständige Site möchten |
+| **Exponential Platform Nexus** | Platform plus Exponential 6, Exponential Layouts und Media Site, mit Demo-Inhalten | Agenturen und Teams, die schnell eine vollständige Site möchten |
 | **Exponential Platform DXP** | Eine reine Symfony-Plattform für digitale Erlebnisse, die Fortführung der Linie Ibexa DXP OSS | Neue Symfony-Projekte |
 | **Exponential Basic** | Das einfache CMS der Linie eZ Publish 2 | Bildung, private Nutzung, kleine Sites |
 | **Exponential Velocity** | Ein in PHP geschriebener Web- und Anwendungsserver | Alle, die Exponential ausliefern |
@@ -139,10 +159,10 @@ Seiten zur Führung sind für Exponential 6 geschrieben, den Kernel, zu dem dies
 
 | Schicht | Fakten | Lesen |
 |---|---|---|
-| PHP | 8.0 bis 8.5, auch für Velocity (ab seinem Release 0.0.4.54); 7.4 nur bis 6.0.7 | [Die Support-Zusage](../wer-ist-die-exponential-foundation.md#php-versionen) |
+| PHP | 8.0 bis 8.5, auch für Velocity (ab seinem Release 0.0.4.54); 7.4 ab 6.0.15 ohne Support nutzbar | [Die Support-Zusage](../wer-ist-die-exponential-foundation.md#php-versionen) |
 | Datenbank | In der Reihenfolge der Empfehlung: SQLite 3 (der Standard), PostgreSQL, MongoDB, MariaDB, Oracle, MySQL | [Datenbankunterstützung](../datenbankunterstuetzung.md) |
 | Betriebssystem | „fast jedes, auf dem PHP 8.0 oder höher läuft“, eingeteilt in vier Stufen | [Unterstützte Betriebssysteme](../betriebssystemunterstuetzung.md) |
-| Webserver | Exponential Velocity (empfohlen), FrankenPHP (produktionsreife Alternative), Apache oder nginx mit PHP-FPM und weitere | [Kapitel 8: Die Site ausliefern](../../installation/08-die-website-ausliefern.md) |
+| Webserver | Exponential Velocity (empfohlen; seit 6.0.15 Teil von Exponential und mit ihm installiert), FrankenPHP (produktionsreife Alternative), Apache oder nginx mit PHP-FPM und weitere | [Kapitel 8: Die Site ausliefern](../../installation/08-die-website-ausliefern.md) |
 | Installation | Composer-Pakete oder Git-Klone mit vollständiger Historie (der empfohlene Weg, Websites zu bauen) | [Mit Git entwickeln](../mit-git-entwickeln.md) |
 
 Die Entscheidung zwischen ihnen ist Thema von
@@ -150,8 +170,8 @@ Die Entscheidung zwischen ihnen ist Thema von
 
 ## Sprachen und Barrierefreiheit
 
-- **268 Gebietsschema-Dateien** (261 Sprachen und Länder, die Testsprache Lorem Ipsum und 6 Varianten) in 32 Schriften,
-  40 davon von rechts nach links geschrieben, können als Inhaltssprachen gewählt werden; es gibt
+- **368 Gebietsschema-Dateien** (361 Sprachen und Länder, die Testsprache Lorem Ipsum und 6 Varianten),
+  43 davon von rechts nach links geschrieben, können als Inhaltssprachen gewählt werden; es gibt
   **Übersetzungen der Administration** (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen) ([Sprachen in Exponential](../../sprachen.md)).
 - Eine Installation enthält auf 64-Bit-PHP höchstens 62 Inhaltssprachen gleichzeitig
   ([Sprachen](../../sprachen.md#11-die-grenze-von-62-inhaltssprachen)).
@@ -201,7 +221,7 @@ Nutzen Sie diese als Ausgangspunkt. Jeder Satz ist nur aus den oben genannten Qu
 
 > Exponential ist ein Open-Source-Content-Management-System in PHP mit einem Inhaltsmodell, das Sie selbst festlegen,
 > mit Versionen, Freigabe-Workflows, Multisite, vielen Sprachen und einem eingebauten Shop. Es steht unter der GPL v2
-> oder höher, wird mit Composer oder als Git-Klone installiert und läuft auf PHP 8.0 bis 8.5 mit sechs unterstützten
+> oder höher, wird mit Composer oder als Git-Klone installiert und läuft auf PHP 8.0 bis 8.5 (PHP 7.4 ohne Support nutzbar) mit sechs unterstützten
 > Datenbanken, allen voran SQLite. Das Unternehmen 7x leitet seine Entwicklung, und die gemeinnützige Exponential
 > Foundation betreibt das Projekt.
 

@@ -6,6 +6,20 @@ result, and roll back if something is wrong. It is the short, practical procedur
 An installation older than 6.0 (4.x, 5.x, 5.90 or LoveStack) follows [Upgrading](guides/upgrading.md), which has a
 part for each of them and ends with the same steps as this page.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](examples/web-servers/nginx.md), [LiteSpeed](examples/web-servers/litespeed.md),
+> [Caddy](examples/web-servers/caddy.md), [IIS](examples/web-servers/iis.md), [Velocity](examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](help/hosting/panels/plesk.md), [cPanel](help/hosting/panels/cpanel.md), [DirectAdmin](help/hosting/panels/directadmin.md), [ISPConfig](help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](guides/litespeed-page-cache.md).
+
 Every command is run from the installation root (the directory that holds `index.php`, `autoload.php`, `bin/` and
 `settings/`), as the user the site runs as. When you run a script as `root`, add `--allow-root-user`.
 `./console` is a shortcut for `php bin/php/console` (see [Installing Exponential 6.0](INSTALL.md)).
@@ -116,6 +130,21 @@ composer install
 rest. After the code has changed, `composer.json` and `composer.lock` must match: `composer install` that ends
 without an error proves it.
 
+**Compare your files with the new templates.** A release can change `.htaccess_root`, `.htaccess_root_static` and
+`config.php-RECOMMENDED`; your `.htaccess` and `config.php` stay as they are. Check them (nothing is written without
+`--apply`):
+
+```bash
+./console exp:setup:status                     # is .htaccess still a copy of a template?
+./console exp:setup:htaccess                   # the diff between your .htaccess and the new template
+./console exp:setup:htaccess --force --apply   # take the new rules (backup first), when the diff holds nothing of yours
+./console exp:config:list                      # settings new in config.php-RECOMMENDED show up as (not set)
+```
+
+Set the new settings you want with `./console exp:config:set <NAME> <value> --apply`; the settings you had keep their
+values. Use `--static` with `exp:setup:htaccess` when the site serves the static cache. See
+[Setting up .htaccess and config.php from the console](guides/setup-files-from-the-console.md#12-after-an-upgrade).
+
 ## 5. Update the database
 
 The database update files are in `update/database/<engine>/6.0/`:
@@ -175,12 +204,12 @@ Then make the running PHP processes load the new code, and clear the caches in f
 systemctl reload <your-php-fpm-service>                     # Apache or nginx with PHP-FPM
 ./console exp:velocity deploy --dry-run --allow-root-user    # Velocity: shows every step
 ./console exp:velocity deploy --allow-root-user              # Velocity: autoloads, caches, reload, restart, in order
-./console exp:velocity cache clear --allow-root-user         # Velocity's response cache
+./console exp:velocity cache clear --apply --allow-root-user         # Velocity's response cache
 ```
 
 Clear the content view cache **after** the reload (`php bin/php/ezcache.php --clear-tag=content --allow-root-user`):
 a page rendered by the old code between a clear and the reload would be cached again. After an update, rebuild the
-manuals of the help as well: `./console exp:help:content build-manuals -s admin --release`.
+manuals of the help as well: `./console exp:help:content build-manuals --apply -s admin --release`.
 
 ## 7. Verify the update
 
@@ -217,16 +246,19 @@ next version, so the way forward after a rollback is the next release, not a pat
 |---|---|
 | A white page after the code change | `var/log/error.log`; run step 6 again; `vendor/` must match `composer.lock` (`composer install`) |
 | `Class ... not found` | `php bin/php/ezpgenerateautoloads.php -e`, then `php bin/php/ezcache.php --clear-all --allow-root-user` |
-| A change does not show under Velocity | `./console exp:velocity restart --allow-root-user`, then `./console exp:velocity cache clear --allow-root-user` |
+| A change does not show under Velocity | `./console exp:velocity restart --allow-root-user`, then `./console exp:velocity cache clear --apply --allow-root-user` |
 | A SQL file failed half way | restore the backup of step 2 and apply the file again from the start |
 | Libraries missing after a failed Composer run | [Repairing an installation](bc/6.0/repair.md) |
 
 ## 9. Related pages
 
 - [Installing Exponential 6.0](INSTALL.md): a clean install of the same version, for a staging copy.
+- [Configuring Exponential 6.0](CONFIGURING.md): check the settings after an update, and which file wins.
+- [Extending Exponential 6.0](EXTENDING.md): after an update, regenerate the autoloads of your extensions and run their upgrade steps.
 - [Upgrading](guides/upgrading.md): from 4.x, 5.x, 5.90 or LoveStack, and every checklist per period of 6.0.
 - [Uninstalling Exponential 6.0](UNINSTALL.md): the full data export, then the removal.
 - [The upgrade check](guides/upgrade-check.md) and [the file manifest](features/6.0/file-consistency-check.md).
+- [Setting up .htaccess and config.php from the console](guides/setup-files-from-the-console.md): compare both files with the new templates.
 - [Operating a site](guides/operating-a-site.md): backups, caches, cronjobs and repairs.
 - [Deploying](guides/deploying.md) and [Velocity engines](bc/6.0/velocity-engines.md): reload the right PHP-FPM.
 - The installation book: [Upgrading](install/11-upgrading.md).

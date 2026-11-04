@@ -8,7 +8,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/kernel/common/eZTemplateRawURLEncodeOperatorTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group templateoperators
@@ -16,6 +16,7 @@
  * Portions derived from LoveStack (mugoweb/ezpublish-legacy, commit 627004e5c4), Copyright (C) Mugo Web, GPL v2
  */
 
+#[\PHPUnit\Framework\Attributes\Group('templateoperators')]
 class eZTemplateRawURLEncodeOperatorTest extends PHPUnit\Framework\TestCase
 {
     const VALUE = 'a b+c/ä?x=1&y=~';

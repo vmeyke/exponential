@@ -16,6 +16,21 @@ Exponential entwickeln. Das Werkzeug dafür ist **Git**, und die nützlichste Ei
 ist, Exponential **als Git-Klone mit ihrer vollständigen History** zu installieren, den Kernel und jede Erweiterung,
 statt als Release-Archive.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../beispiele/webserver/nginx.md), [LiteSpeed](../beispiele/webserver/litespeed.md), [Caddy](../beispiele/webserver/caddy.md), [IIS](../beispiele/webserver/iis.md),
+> [Velocity](../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](hosting/control-panels/plesk.md), [cPanel](hosting/control-panels/cpanel.md), [DirectAdmin](hosting/control-panels/directadmin.md), [ISPConfig](hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../anleitungen/seiten-cache-mit-litespeed.md).
+
 Nichts hier setzt voraus, dass Sie Experte sind. Jeder Schritt zeigt den einzugebenden Befehl und was Sie sehen
 sollten, und jeder Befehl auf dieser Seite wurde auf einem frischen Rechner ausprobiert, bevor er aufgeschrieben wurde.
 
@@ -96,7 +111,23 @@ composer install
   `vendor/`.
 
 Installieren Sie die Site dann wie gewohnt: [Eine Installationsmethode wählen](../installation/04-installationsweg-waehlen.md)
-oder der eine Befehl `php bin/php/console exp:install` aus [der Konsoleninstallation](../installation/07-installation-ueber-die-konsole.md).
+oder der eine Befehl `php bin/php/console exp:install --apply` aus [der Konsoleninstallation](../installation/07-installation-ueber-die-konsole.md).
+
+Für eine lokale Entwicklungs-Site unter Apache bringen Sie die Regeln und die Konstanten von der Konsole aus an ihren
+Platz. Eine Kopie von `config.php-RECOMMENDED` setzt nichts, es gelten also die eingebauten Vorgaben, und die passen zur
+Entwicklung (Änderungen an INI-Dateien werden sofort gesehen); `exp:config:list` zeigt, was sich setzen ließe:
+
+```bash
+php bin/php/console exp:setup:status
+php bin/php/console exp:setup:htaccess --apply
+php bin/php/console exp:setup:config --apply
+php bin/php/console exp:config:list
+```
+
+Der Klon verfolgt nur die Vorlagen (`.htaccess_root`, `.htaccess_root_static`, `config.php-RECOMMENDED`); die Kopien
+erscheinen in `git status` als nicht verfolgte Dateien. Committen Sie `config.php` nie: Sie kann ein Passwort enthalten.
+Tragen Sie in einem Repository Ihrer eigenen Site `/config.php` in dessen `.gitignore` ein. Einzelheiten:
+[.htaccess und config.php von der Konsole aus einrichten](../anleitungen/setup-dateien-von-der-konsole.md).
 
 **Lieber `composer create-project`?** Auch das kann Klone erzeugen, aber Sie brauchen zwei Optionen zusammen:
 
@@ -227,10 +258,32 @@ stattdessen in Ihren Fork, sodass Sie keinen Schreibzugriff auf das Projekt brau
 zuerst `CONTRIBUTING.md` im Wurzelverzeichnis der Installation: Es erklärt den Commit-Hook (`make hooks`) und das
 Dateimanifest (`make manifest-fix`), die jeder Pull-Request für den Kernel aktuell hält.
 
-Nicht jeder vermeintliche Fehler ist einer: Manches Verhalten ist beabsichtigt oder Auslegungssache, und andere Sites
-verlassen sich darauf. Ein Pull-Request, der es ändert, braucht eine klare Begründung und oft mehrere Runden der
-Prüfung, bevor er übernommen wird; bieten Sie das neue Verhalten lieber als Option an als als neuen Standard
-([Negative Funktionen](projekt/unterstuetzung-erhalten.md#negative-funktionen)).
+**Rechnen Sie mit vielen Prüfrunden.** 7x prüft einen Commit oder Pull-Request in viel mehr Runden als üblich,
+manchmal in Hunderten von Überarbeitungen; seien Sie bereit, Ihre Änderung zu überarbeiten, bis sie sich einfach
+übernehmen lässt. Eine Korrektur für Verhalten, das sich als beabsichtigt herausstellt, eine
+[negative Funktion](projekt/unterstuetzung-erhalten.md#negative-funktionen), auf die sich andere Sites verlassen,
+braucht zusätzlich eine klare Begründung, und eine Option lässt sich leichter übernehmen als ein neuer Standard.
+Solange der Pull-Request offen ist, fassen Sie ihn zusammen (squash) und setzen ihn mit rebase auf `main` neu auf, wie
+die Prüfungen es verlangen; 7x setzt das voraus:
+
+```bash
+git fetch origin
+git rebase -i origin/main
+git push --force-with-lease
+```
+
+Pushen Sie mit Force nur in den Branch Ihres eigenen Pull-Requests. Nach dem Merge wird `main` nie umgeschrieben
+([Code reviews](https://github.com/se7enxweb/exponential/blob/main/CONTRIBUTING.md#code-reviews)).
+
+**Übertragung des Urheberrechts (CLA).** 7x und die Exponential Foundation übernehmen einen Code-Beitrag zum
+Kernel (`se7enxweb/exponential`), gleich in welcher Form er kommt (Pull-Request, Patch, Issue oder Mail), erst, nachdem
+Sie das Contributor Licensing Agreement unterschrieben haben. **Mit Unterschrift und Einreichung übertragen Sie das
+Urheberrecht an Ihrem Beitrag auf 7x, das sein Eigentümer wird, und geben die Kontrolle darüber auf:** 7x darf ihn auf
+jede Weise verwenden, ändern, neu lizenzieren und verbreiten, auch unter anderen Lizenzen und in kommerziellen
+Produkten, ohne Sie zu fragen oder zu bezahlen, und Sie können ihn weder zurückziehen noch Bedingungen daran knüpfen.
+Ihre eigenen Erweiterungen und der Branch Ihrer eigenen Site sind davon nicht betroffen. Siehe
+[Copyright assignment (CLA)](https://github.com/se7enxweb/exponential/blob/main/CONTRIBUTING.md#copyright-assignment-cla)
+und die [Seite zum CLA](https://share.se7enx.com/community-project/contributor-licensing-agreement-cla).
 
 Eine eigene Erweiterung gebaut? [Erweiterungen zurückgeben](erweiterungen-zurueckgeben.md) zeigt, wie Sie sie auf
 GitHub und Packagist veröffentlichen, damit jede Site sie installieren kann, und was die GPL verlangt, wenn Sie eine
@@ -348,6 +401,8 @@ Drei weitere wissenswerte Dinge:
 - [Den Code beziehen](../installation/03-den-code-beschaffen.md): jeder Installationsweg, Versionen und Tags, Erweiterungen als
   Composer-Pakete.
 - [Erweiterungen](../anleitungen/extensions.md) und die [Seiten zu den Erweiterungen](../funktionen/6.0/erweiterungen/README.md).
+- [.htaccess und config.php von der Konsole aus einrichten](../anleitungen/setup-dateien-von-der-konsole.md): die
+  lokale `.htaccess` und `config.php`.
 - [git_manager](../funktionen/6.0/erweiterungen/git_manager.md): den Zustand eines Git-Checkouts in der Administration
   ansehen und ändern und Backups erstellen, bevor Sie etwas ändern.
 - [Wenn etwas schiefgeht](wenn-etwas-schiefgeht.md#einen-fehler-in-exponential-melden): welcher Issue-Tracker zu verwenden
@@ -358,6 +413,13 @@ Drei weitere wissenswerte Dinge:
 - [Freie Dokumentation](freie-dokumentation.md): Diese Seiten dürfen frei kopiert, übersetzt und verbessert werden.
 - Git selbst: das freie Buch [Pro Git](https://git-scm.com/book/en/v2) und die Anleitung von GitHub zu
   [Pull-Requests](https://docs.github.com/en/pull-requests).
+
+<!-- exp-see-also-645 -->
+**Siehe auch:** [Ökosystem](oekosystem/oekosystem-hier-beginnen.md), [PHP-Entwickler](php-entwickler/php-entwickler-hier-beginnen.md), [KI, Agenten und agentisch](ki-agenten/ki-und-agenten-hier-beginnen.md), [Software-Ingenieure](softwareingenieure/softwareingenieure-hier-beginnen.md), [Web-Framework-Entwickler](web-framework-entwickler/web-framework-entwickler-hier-beginnen.md), [CMS-Entwickler](cms-entwickler/cms-entwickler-hier-beginnen.md), [DXP-Entwickler](dxp-entwickler/dxp-entwickler-hier-beginnen.md), [Integratoren](integratoren/integratoren-hier-beginnen.md).
+
+## Verwandte Seiten
+
+- [Migrationen: Teamarbeit mit Git](migrationen/rezepte/teamarbeit-mit-git.md), [Migrationen](migrationen/README.md)
 
 <!-- exp-partner-block:start -->
 **Werden Sie Exponential-Partner.** Partner teilen ihre Informationen, stellen Mittel bereit, geben Beiträge zurück

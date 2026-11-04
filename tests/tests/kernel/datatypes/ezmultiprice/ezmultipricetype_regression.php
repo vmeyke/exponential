@@ -3,7 +3,7 @@
 /**
  * File containing the eZMultiPriceTypeRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -11,6 +11,7 @@
  * @group database
  */
 
+#[\PHPUnit\Framework\Attributes\Group('database')]
 class eZMultiPriceTypeRegression extends ezpDatabaseTestCase
 {
 
@@ -30,6 +31,7 @@ class eZMultiPriceTypeRegression extends ezpDatabaseTestCase
      * @link http://issues.ez.no/13712
      * @group issue_13712
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_13712')]
     public function testMultipleCallsToCalculatedPrice()
     {
         $currencyCode = 'EUR';

@@ -8,13 +8,15 @@
  *
  * No kernel bootstrap, no database, no PHP extension: the files are plain INI. Fixed timestamp, UTC.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group lib
  * @group ezlocale
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezlocale')]
 class expLocaleFilesTest extends PHPUnit\Framework\TestCase
 {
     /** 2023-11-14 22:13:20 UTC, a Tuesday in November */

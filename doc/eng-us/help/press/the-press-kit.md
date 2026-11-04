@@ -94,14 +94,14 @@ The kit is dated June 2026. The repository has moved on since, and for release f
 
 | The kit says | The repository says (19 October 2026) | Source |
 |---|---|---|
-| Current stable 6.0.13 | The newest release is 6.0.14 (7 June 2026); the current line, 6.0.15, is in development and had no release tag on 19 October 2026 | [The 6.0.x releases at a glance](the-6-0-x-releases-at-a-glance.md) |
+| Current stable 6.0.13 | The newest release is 6.0.14 (7 June 2026); the current line, 6.0.15, had no release tag on 19 October 2026 | [The 6.0.x releases at a glance](the-6-0-x-releases-at-a-glance.md) |
 | 6.0.14 "Experimental" with MongoDB support | 6.0.14 is a release; MongoDB 8 as a database arrived on 1 June 2026 | [Who is 7x?, timeline](../who-is-7x.md#nearly-thirty-years-the-timeline) |
 | "stewarded by 7x (se7enxweb) since 1998" | The copyright notice of 7x and the Foundation starts in 1998; 7x was founded as Brookins Consulting in 2001; its project was launched in December 2023 | [7x in three stages: 2014, 2022, 2023](7x-in-three-stages.md) |
 | "Founded 1998 (as eZ Publish steward)" | eZ Systems developed eZ Publish from 1999; 7x took over leadership in 2023 | [Timeline for reporters](timeline-for-reporters.md) |
 
 The kit predates the news of 20 October 2026, which it therefore does not mention: **as of 6.0.15 the Velocity
 Internet / Web Application Server is part of Exponential.** The root `composer.json` requires
-`se7enxweb/exponential-velocity ~0.0.4.55` (until then it was only suggested), and Velocity 0.0.4.54 runs on PHP 8.0
+`se7enxweb/exponential-velocity ~0.0.4.57` (through `se7enxweb/exponential-php-floor`, on PHP 8.0 and later) (until then it was only suggested), and Velocity 0.0.4.54 runs on PHP 8.0
 and later. Facts you can print, each with its source:
 
 | Fact | Source |
@@ -159,3 +159,11 @@ develop the products with us, and that is how Exponential grows. A partner websi
 mid-2027: please become a partner today to speed up our growth rate and land new features faster. Start with
 [Partners: start here](../partners/partners-start-here.md) and [How to apply](../partners/how-to-apply.md).
 <!-- exp-partner-block:end -->
+
+## Copyright and copyleft
+
+Since 29 October 2026 the copyright of Exponential is held by the Exponential Foundation and 7x together, the
+Foundation named first: "Exponential Copyright © 1998-2026 Exponential Foundation and 7x", in files
+"Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved." Who holds it and why, what the
+GPL lets you do, the third-party notices that stay and how to write the notice in new files and extensions:
+[Copyright and copyleft](../copyright-and-copyleft.md).

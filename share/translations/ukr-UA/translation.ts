@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Пошук лише на цій сторінці: з %from по %to із %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Кожен тип даних ядра та розширень і те, як класи та вміст його використовують.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Типи даних</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Системні сторінки теж можна додавати до закладок: відкрийте сторінку (Налаштування, журнал аудиту, список користувачів ...) і виберіть над нею «Додати сторінку до закладок». Такі закладки мають значок шестірні.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ви більше не можете відкривати цю сторінку тут. Вилучіть закладку або попросіть адміністратора надати доступ.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Перейти до першої сторінки</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Інше</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Останні 7 днів</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Власний період</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Усі слова</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Будь-яке слово</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Точна фраза</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Релевантність</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Назва А–Я</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Назва Я–А</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Змінено, спочатку новіші</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Змінено, спочатку старіші</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Опубліковано, спочатку новіші</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Опубліковано, спочатку старіші</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Змінено</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Фільтри</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Показати фільтри</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Сховати фільтри</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Скинути</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Застосувати</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Слова</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Тип вмісту</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Показати ще (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Виберіть один тип вмісту, щоб шукати в одному з його атрибутів.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Розділ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Від</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>До</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Початкова дата некоректна.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Кінцева дата некоректна.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Власник</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID користувача, логін або адреса e-mail.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Користувача «%input» не знайдено.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Мова</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Будь-яка мова</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Розташування</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Розташувань: %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Результатів на сторінці</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Результати для «%text» (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Результати (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Сортувати за</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Сортувати</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Активні фільтри</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Прибрати цей фільтр</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Або виберіть фільтри й застосуйте їх, щоб показати відповідний вміст.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Фільтри звужують пошук, щойно ви ввели слова.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Для «%text» нічого не знайдено.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Нічого не знайдено.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Приберіть один із фільтрів вище.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Переклади</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Дії</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Редагувати %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Редагувати</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Повідомлення про авторські права оригінальних авторів і стороннього програмного забезпечення, що входить до Exponential, зберігаються у вихідних файлах і у файлі LICENSE, як того вимагає ліцензія.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Нижче наведено список учасників Exponential, які надали 7x ліцензію на використання своєї роботи на умовах Contributor Licensing Agreement від eZ Systems. Як дозволяє ця угода, 7x поширює кожен внесок під тією самою ліцензією, що й файл, до якого його включено. У списку зазначено кожного учасника, необов&apos;язкові контактні дані та файли, які він створив або в які зробив внесок.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Учасники, яким висловлюється визнання за роботу над Exponential і над програмним забезпеченням, з якого він виріс, із файлами, до яких вони долучилися. Це визнання, а не повідомлення про авторське право: внески до Exponential передаються Exponential Foundation і 7x відповідно до Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Оцінити Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Станьте учасником спільноти Exponential, обмінюйтеся досвідом і робіть внесок&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; та інші.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Працює на &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Докладніше див. &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; та інші.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Докладніше див. &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; та інші.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Оцінити Exponential (від 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Станьте учасником спільноти Exponential, отримуйте підтримку та робіть внесок&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; та інші.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>Центр довідки</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Вміст</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Сторінки документів</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Користувачі</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Класи вмісту</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Адміністрування</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Сторінка %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Показати всі результати</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Результатів: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Один результат</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Підказок: %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Немає підказок</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Не вдалося завантажити підказки.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Підказки</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Nothing new</source>
         <translation>Нічого нового</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ваші пристрої</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Дії з безпеки</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Посібники, пошук і як повідомити про помилку.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Нові матеріали</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Найновіші матеріали, те, що затримано на перевірку, і дії з вибраними елементами.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>Синхронізації</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: кінцева точка, схема та пісочниця для випробування запитів.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Міграції</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Зміни інсталяції, збережені як файли: їхній стан, запуски, виконання та відкат.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Нові матеріали</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Найновіші матеріали, те, що затримано на перевірку, і дії з вибраними елементами.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Публікуйте статичну копію сайту на GitHub Pages або будь-якому git-хостингу.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статична публікація</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Типи даних</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Кожен тип даних ядра та розширень і те, як класи та вміст його використовують.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Облікові записи, якими ніхто не користується або які варто перевірити; вимкнути, розблокувати чи експортувати їх.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Журнал аудиту користувачів</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Хто вносив зміни, входив у систему або отримав відмову, за кожним обліковим записом; фільтрування й експорт.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Звіт про входи</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Хто в системі, входи й невдалі спроби за днями; вихід користувача на всіх пристроях.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n год тому</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Відповіді збережених запитів GraphQL API та класи вмісту його схеми.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Опублікувати статичну копію на GitHub Pages або будь-якому git-хостингу</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статична публікація</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Статичний кеш віддає сторінки з цього сервера. Щоб опублікувати статичну копію сайту деінде, на GitHub Pages або будь-якому git-хостингу, скористайтеся статичною публікацією.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>останнє очищення</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Записи не змогли взяти блокування стану (востаннє %date): кожен із них робив застарілими всі кешовані результати. %file має бути доступним для запису кожному користувачеві, від імені якого працює сайт; на NFS потрібні NFSv4 або lockd.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Прострочені сеанси обробника PHP вилучає сам PHP (session.gc_maxlifetime), а не ця сторінка чи частина cronjob session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Сеанси всіх користувачів, які увійшли, перелічено у звіті про входи, і там їх можна завершити; звіт працює з будь-яким обробником сеансів.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Відкрити звіт про входи</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>Поки немає</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Дії з безпеки</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Ваші останні входи, невдалі спроби та зміни пароля, адреси електронної пошти й двоетапного входу.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Останні входи, невдалі спроби та зміни безпеки цього облікового запису.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Переглянути дії</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Невдалих спроб входу: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Після входу користувач має вибрати новий пароль, перш ніж робити щось інше. Використовуйте це, коли даєте комусь тимчасовий пароль.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Вибрати наявне зображення</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Файл зображення вибраного вами об'єкта копіюється в це поле. Інший об'єкт не змінюється.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Зображення «%name» скопійовано в це поле.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Переглянути зображення</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Пошук зображень за назвою</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Пошук</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Використати зображення «%name»</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Використати це зображення</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Жодне зображення не відповідає вашому пошуку.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab не записано (%reason). Додайте ці рядки до crontab користувача, від імені якого працює сайт, інакше черга, імпорт, сповіщення й пошуковий індекс ніколи не запускатимуться:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Перевстановлення виконується за допомогою kickstarter (%file, потім php bin/php/kickstarter.php run --apply) або новою інсталяцією.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>Кеш публічного пакувальника eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Кеш GraphQL (відповіді та класи схеми)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>Копія %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Типи даних</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Тип даних %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Не вдалося прочитати SVG-зображення, або в ньому немає нічого, що можна безпечно показати.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Не вдалося скопіювати зображення. Спробуйте ще раз або зверніться до адміністратора сайту.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Вибраний об'єкт не існує або ви не маєте права його читати.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Вибраний об'єкт не має зображення.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Не вдалося прочитати файл зображення вибраного об'єкта.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Зображення вибраного об'єкта більше, ніж дозволяє це поле: %1 байтів.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Закладку перейменовано на «%name».</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Цю сторінку вимкнено в цьому доступі до сайту (%siteaccess). Відкрийте закладку в доступі до сайту, у якому вона є.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Модуль цієї сторінки тут не встановлено або не увімкнено.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Ця сторінка більше не існує: її модуль не має такого подання.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Жодна з ваших ролей не дозволяє вам відкрити цю сторінку.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Вам не дозволено використовувати цей доступ до сайту.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Вам не дозволено читати вміст, який показує ця сторінка.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Сторінку такого типу не можна додати до закладок: вона лише обробляє форму або чинна тільки в одну мить.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Адреса цієї сторінки відсутня.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Цю сторінку зараз не можна відкрити.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Поштовий транспорт відхилив повідомлення (%count) під час останнього запуску. Перевірте поштовий сервер і site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Подій в очікуванні: %count, а запусків завдання cron для сповіщень не зафіксовано. Додайте частину завдань cron «frequent» до crontab або виконайте exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>Вибрати інший сайт або розділ за допомогою вибору вузлів</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Змінити власника може лише системний адміністратор: виконайте ./console exp:content-check --fix-permissions --apply від імені root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>порожньо</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Ключу підпису понад рік: замініть його командою exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -66917,6 +67416,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>Частка часу сторінки</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>запитано повне генерування</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>у кеші сторінок не було цієї сторінки (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>кеш сторінок не відповів</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Згенеровано</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Згенеровано ядром: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Віддано з кешу сторінок за %ms мс. Сторінку збережено о %stored після генерування тривалістю %render мс, %age с тому.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Згенерувати зараз</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Повернутися до сторінки з кешу</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>З генерування о %stored (%render мс)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Цей запит: віддано з кешу сторінок за %ms мс.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Користувач</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID користувача</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Профіль кешу</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Цей перегляд</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Кеш переглядів</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>для кожного користувача (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Профіль кешу користувача: користувачі з однаковим профілем спільно використовують файли кешу переглядів</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>так</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ні</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Логін</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Увійшов</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Сеанс</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Частини ключа кешу переглядів вмісту, що залежать від користувача, саме так, як їх бере ключ, за ViewCacheTweaks цієї сторінки. Користувачі з однаковим профілем спільно використовують файли кешу переглядів, якщо не відрізняються частини самого перегляду (налаштування, ключі слухачів): вони мають власний профіль, лише для цієї сторінки.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Профіль</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Цей перегляд (вузол %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: кожен користувач, що увійшов, має власні файли кешу.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Чинні ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Частина</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Значення</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Жодна частина не залежить від користувача (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>цей перегляд</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Копіювати як текст</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Ролі</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Не вдалося прочитати призначення ролей.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID ролі</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Роль</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Обмеження</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Призначено</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>користувачеві</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>група %name (об'єкт %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Скопійовано</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Не вдалося скопіювати.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>пропущено слухачем</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Анонімні відвідувачі</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>такий самий, як ваш</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>інший</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Профіль, який отримують анонімні відвідувачі за тих самих ViewCacheTweaks, з типовими налаштуваннями, без частин перегляду: слухача, що читає сесію, не можна про них запитати.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Жоден режим перегляду не залежить від налаштувань користувача (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Налаштування, від яких залежать перегляди цих режимів перегляду (CachedViewPreferences), зі значенням користувача або типовим. У профілі вони є як userpreferences, усіх режимів перегляду разом.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Режим перегляду</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Параметр</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Типово</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Політики</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Показати політики ролей (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Політики завантажуються з сервера під час відкриття цього розділу, по одній сторінці, і їх можна фільтрувати за модулем і функцією.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Функція</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Усі модулі</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Усі функції</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Обмеження</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Показати більше</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Ці ролі не мають політик.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Жодна політика не відповідає фільтру.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown з %matching політик (усього %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Завантажується під час відкриття.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, роль, обмеження</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Пошук за політиками</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Завантажити ще</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Модуль/функція</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Усі ролі (політик: %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Відповідних політик немає.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown із %matched політик</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Немає відповіді</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>приховано</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Показати пояснення</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Приховати пояснення</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Відкрити</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Розгорнути все</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Згорнути все</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Ключ або значення</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Пошук у сеансі</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Тип</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>ще %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>вкладено надто глибоко для показу</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>обрізано, усього символів: %count</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Почато</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Ім'я cookie</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID сеансу</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Обробник</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Шлях збереження</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Типово для PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Час життя (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Файл cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>час життя %s с</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Ваш власний сеанс PHP у тому вигляді, в якому він був під час відкриття розділу, і ніколи не чужий. Значення ключів, схожих на секрети (токени, хеші, паролі), приховано (debugbar.ini SessionMask[]); усе інше показано так, як збережено, зокрема персональні дані.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>Ключів: %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>великий</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Сеанс порожній.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Для цього запиту сеанс не було запущено.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Розширення %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Ядро та інше</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Показано не всі записи: у сеансі більше, ніж можна тут перелічити.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Не перелічено ключів: %count.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Оточення</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Значення, схожі на токен (JSON Web Token, облікові дані заголовка Authorization, закритий ключ, довгий шістнадцятковий або випадковий текст), також приховуються, хоч як би називався їхній ключ (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Ключ схожий на секрет (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Значення схоже на токен.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Під прихованим ключем.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Сеанс у вигляді тексту, прихований так само, як у таблиці.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Сеанс більший за %size (debugbar.ini SessionWarnBytes): кожен запит цього користувача читає весь сеанс і записує його, якщо він змінився.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP зберігає цей сеанс у файлах і блокує файл на час усього запиту: запити одного й того самого користувача (кілька вкладок, виклики AJAX) чекають один на одного.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Залишати відкритим</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Більший за %size (debugbar.ini SessionWarnBytes): кожен запит цього користувача читає весь сеанс.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits з %count прочитано з кешу</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Жодного шаблону не відтворено (подання, прочитане з кешу подань, не відтворює жодного).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Призначення ролей</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Ролі та політики</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>відрізняється від анонімних відвідувачів</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>як у анонімних відвідувачів</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -68797,6 +69776,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>не надіслано</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Завдання cron для сповіщень записує тут кожен свій запуск. Додайте частину frequent до crontab або виконайте exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Скористайтеся консоллю: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -74296,6 +75283,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Цю тему не випущено; читачі її не бачать.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Міграції</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Зміни інсталяції, збережені як файли: їхній стан, запуски, виконання та відкат.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Публікуйте статичну копію сайту на GitHub Pages або будь-якому git-хостингу.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статична публікація</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>На перевірці</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Читачі бачать цю сторінку.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Прихована від читачів, доки хтось її не випустить.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Сторінка зараз на перевірці. Вона прихована від читачів, доки її не випустять.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Сторінку випущено: читачі вже її бачать.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Сторінка знову стала чернеткою. Вона прихована від читачів, доки її не перевірять і не випустять.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Випустити зараз</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Випустити цю версію може лише користувач із роллю %role, який її не писав.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Теми довідки, що очікують на випуск</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Приховує її від читачів, доки її знову не випустять.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Далі її перевірить рецензент. Читачі її ще не бачать.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Читачі одразу її побачать.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Знімає її з перевірки для доопрацювання. Читачі її не бачать.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Приховати цю сторінку від читачів?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Повернути цю сторінку в чернетку?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Читачі більше не бачать %title, доки хтось знову не випустить цю сторінку.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title повертається в чернетку на доопрацювання. Читачі досі не бачать сторінку, а перед випуском потрібна нова перевірка.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Ці теми на перевірці. Читачі побачать їх, щойно їх випустить той, хто не писав поточну версію.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/languages</name>
@@ -76137,6 +77216,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Setup &gt; Cronjobs</source>
         <translation>Налаштування &gt; Завдання cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Жодна частина завдань cron ще не запускалася: черга завдань, імпорт, сповіщення та пошуковий індекс чекають. Виконайте php bin/php/installcrontab.php --add --apply або додайте рядки з --show до crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/workflow/eventtype/expuserapprove</name>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>Немає.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>за допомогою застосунку автентифікації</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>за допомогою коду електронною поштою</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>за допомогою коду відновлення</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>за допомогою ключа доступу</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>за допомогою зовнішнього облікового запису</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Дії з безпеки</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Показано як мережу; адреса зберігається так, як передбачають налаштування захисту даних сайту.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Не записано</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Місцезнаходження</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>приблизно</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>Керувати пристроями</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>за допомогою застосунку автентифікації</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>за допомогою коду електронною поштою</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>за допомогою коду відновлення</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>за допомогою ключа доступу</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>за допомогою зовнішнього облікового запису</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Дії з безпеки</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Не записано</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Місцезнаходження</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>приблизно</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>Переглянути сеанси цього користувача</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>У ваш обліковий запис %login на сайті %site щойно ввійшли з місця, звідки останнім часом у нього не входили:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Приблизне місцезнаходження</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser на %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Звіт про входи</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Не вдалося перевірити ключ доступу. Спробуйте ще раз.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Облікові записи, які входять лише за допомогою ключів доступу, не можуть використовувати тут пароль: виберіть «Увійти за допомогою ключа доступу».</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Ключі доступу %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Ключі доступу, з якими входить цей обліковий запис. Відкличте ключ, що знаходиться на втраченому або вкраденому пристрої: з ним більше не можна буде увійти. Нові ключі власник додає сам.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Вашому обліковому запису потрібен ключ доступу</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Додайте ключ доступу до свого облікового запису</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Додайте ключ доступу, щоб продовжити. Потім ви входитимете з ним, а не лише з паролем.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Вхід за допомогою ключа доступу швидший і безпечніший, ніж за паролем. Додайте його зараз або продовжте без нього.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Не зараз</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Відкликати ключ доступу «%name»?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>З ним більше не можна буде увійти в цей обліковий запис. Якщо це був останній ключ, власник входить із паролем, або ви встановлюєте новий пароль.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Відкликати ключ доступу</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Відкликати</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Цей обліковий запис не має ключа доступу.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Автентифікатор</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Невідомо</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Ваш останній ключ доступу: додайте ще один, перш ніж вилучати його.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Цей обліковий запис входить лише за допомогою ключів доступу (політика ключів доступу): якщо їх не залишиться, він знову входитиме з паролем.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Це ваш останній ключ доступу, і без нього ваш обліковий запис не зможе увійти. Спершу додайте ще один ключ доступу.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Ключ доступу «%name» відкликано. З ним більше не можна увійти в цей обліковий запис.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>Код із застосунку автентифікації</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Ви збираєтеся остаточно видалити дані або очистити журнал.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Ваш пароль і ключ доступу</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Ваш пароль і код із застосунку автентифікації</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Або:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Цей браузер не може використовувати ключі доступу. Виберіть інший спосіб або інший браузер.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Коли ви продовжите, браузер попросить один із ваших ключів доступу.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Продовжити з ключем доступу</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Зміна власного пароля, адреси електронної пошти, ключів доступу, двоетапного входу, кодів відновлення або ключів API, а також вихід на інших своїх пристроях.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Створення та редагування користувачів, їхніх паролів і пристроїв, налаштувань облікових записів, схвалення або відхилення нових облікових записів, призначення ролей і редагування політик.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Видалення даних</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Очищення кошика, вилучення елементів із нього та вилучення кількох елементів одночасно.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Вилучення, публікація та збереження вмісту</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Вилучення вмісту (зокрема в кошик), публікація та збереження чернетки; запит з’являється під час надсилання форми. Типово вимкнено.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Перед важливою дією користувач, який увійшов, ще раз підтверджує, хто він: паролем і ключем доступу або, без ключа доступу, паролем і кодом із застосунку автентифікації. Запитують лише вебсторінки: інтерфейс REST, SOAP, WebDAV, вхід expservices і командний рядок ніколи.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Де діють налаштування</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Налаштування для</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Кожен доступ до сайту</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Доступ до сайту %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Відкрити</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Кого запитувати: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Позначте групи користувачів, щоб запитувати лише їхніх учасників (наприклад, редакторів). Нічого не позначено: кожного користувача.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Зберігається в settings/override/site.ini.append.php, для кожного доступу до сайту. Під час збереження потрібно підтвердити, що це ви.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Зберігається в settings/siteaccess/%name/site.ini.append.php. Значення в settings/override має перевагу. Під час збереження потрібно підтвердити, що це ви.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>Відкрити сторінку</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from – %to з %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Логін або ID користувача: обліковий запис, якого стосується подія, або користувач, який виконав дію.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Обліковий запис</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Дія</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Після</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Будь-який результат</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>До</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Виконавець</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Очистити</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Виконано</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Термін зберігання подій у днях: %days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Події зберігаються, доки їх не вилучать вручну.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Події</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Будь-яка дія</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Усі події цього облікового запису</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Експортувати список у CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Помилка</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>З</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Звузити список</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Немає подій, що відповідають умовам.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>На сторінку</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Запис подій вимкнено в audit.ini ([UserAuditSettings] UserAudit); у списку показано те, що було записано раніше.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Відхилено</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Результат</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Показати</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Таблиця журналу аудиту користувачів відсутня. Створіть її командою php update/common/scripts/6.0/createuseraudittable.php; доти всі події зберігаються у файлах аудиту.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Для цієї сторінки потрібна база даних SQL; у MongoDB вона недоступна. Усі події зберігаються у файлах аудиту.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>По</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Журнал аудиту користувачів</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Користувач</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Коли</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Де</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Хто змінив, створив, увімкнув, вимкнув, перемістив або вилучив який обліковий запис, хто ввійшов у систему або отримав відмову і які ролі було призначено: один рядок на подію, зі значеннями полів до і після. Паролі та секрети ніколи не записуються.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>група</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>система</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>невідомо</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Захистити обліковий запис</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>У ваш обліковий запис %login на сайті %site виконано вхід за допомогою коду відновлення.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Використано код відновлення</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Обліковий запис</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Приблизна адреса</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Попросіть новий пароль, щоб знову увійти, або зверніться до адміністраторів сайту.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Запросити новий пароль</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Кожен код відновлення діє один раз. Якщо ви загубили телефон, знову налаштуйте застосунок автентифікації та зберігайте нові коди відновлення в надійному місці.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Невдалі спроби входу у ваш обліковий запис</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Відтепер під час входу, крім пароля, запитується код. Якщо це зробили ви, нічого робити не потрібно.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Якщо це були ви і ви забули пароль, попросіть новий. Якщо ні, виберіть надійніший пароль і ввімкніть двоетапний вхід.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Якщо це були не ви, хтось може знати ваш пароль: змініть його зараз і перевірте, де виконано вхід у ваш обліковий запис.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Залишилося кодів відновлення</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Перевірити ваші пристрої</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Сповіщення про безпеку</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Хтось намагався увійти у ваш обліковий запис %login на сайті %site з неправильним паролем кілька разів поспіль (спроб: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>З вашим обліковим записом %login на сайті %site сталася подія безпеки.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Це сповіщення про безпеку вашого облікового запису. Воно надсилається під час кожної такої зміни, і його не можна вимкнути.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Час</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Двоетапний вхід для вашого облікового запису %login на сайті %site вимкнено.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Двоетапний вхід вимкнено</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Двоетапний вхід для вашого облікового запису %login на сайті %site увімкнено.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Двоетапний вхід увімкнено</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Ваш обліковий запис %login на сайті %site заблоковано після забагатьох невдалих спроб входу.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Тепер ваш обліковий запис захищено лише паролем. Якщо це зробили не ви, змініть пароль і знову ввімкніть двоетапний вхід.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Ваш обліковий запис заблоковано</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>До вашого облікового запису %login на %site додано ключ доступу.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Той, хто має цей ключ доступу, може увійти у ваш обліковий запис без пароля. Якщо ви його не додавали, вилучіть його в розділі «Ключі доступу» і змініть пароль.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>З вашого облікового запису %login на %site вилучено ключ доступу.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>З ним більше не можна увійти у ваш обліковий запис. Якщо ви його не вилучали, перевірте свої ключі доступу та пристрої.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>До вашого облікового запису додано ключ доступу</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>З вашого облікового запису вилучено ключ доступу</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Дії з безпеки</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Дії з безпеки: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Вхід виконано</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Невдала спроба входу</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Вихід виконано</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Сеанси завершено</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Вхід із нового пристрою</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Вхід із нового місцезнаходження</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Особу підтверджено («Підтвердьте, що це ви»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Перевірку особи не пройдено</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Вхід за допомогою ключа доступу</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Не вдалося увійти за допомогою ключа доступу</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Вхід відхилено: код двоетапного входу відсутній або неправильний</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Неправильний код двоетапного входу</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Обліковий запис заблоковано після невдалих спроб входу</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Обліковий запис розблоковано</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Пароль змінено</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Не вдалося змінити пароль</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Пароль скинуто</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Запитано новий пароль</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Адресу електронної пошти змінено</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Ім&apos;я користувача змінено</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Двоетапний вхід увімкнено</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Двоетапний вхід вимкнено</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Використано код відновлення</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Нові коди відновлення</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Пароль застосунку створено</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Пароль застосунку відкликано</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Ключ доступу додано</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Ключ доступу вилучено</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Обліковий запис увімкнено</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Обліковий запис вимкнено</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Усі</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Входи та сеанси</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Зміни облікового запису</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Потребує уваги</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>вами</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>користувачем</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>користувачем %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Спосіб</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Браузер</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Операційна система</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Пристрій</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Місце</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Країна</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Сеанси</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Які</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Канал</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Невдалі спроби</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Залишилося кодів</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Обробник входу</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Дії з безпеки</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Дії з безпеки: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Входи та зміни безпеки вашого облікового запису. Якщо ви бачите дію, якої не виконували, змініть пароль і завершіть сеанси на пристроях, яких не впізнаєте.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Входи та зміни безпеки цього облікового запису.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ваші пристрої</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Змінити пароль</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Назад до облікового запису</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Дії з безпеки не записуються</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Їх зчитують із журналу аудиту користувачів, таблиця якого expuser_audit відсутня або не підтримується цією базою даних. Виконайте php update/common/scripts/6.0/createuseraudittable.php або оновлення бази даних до 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Останні дні: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Входи за останні дні: %days</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Останні дії з безпеки</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Показати</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>невдало</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>відхилено</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Дій з безпеки ще не записано.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Події безпеки зберігаються стільки днів: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Події безпеки зберігаються, доки адміністратор їх не вилучить.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Завантажити мої дані про входи</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ваші сеанси та події безпеки у вигляді файлу JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>На цьому сайті сеанси не записуються, тому не вдалося завершити сеанс на жодному іншому пристрої. Негайно змініть пароль.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Завершено інших сеансів: %count. Тепер змініть пароль.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Жоден інший пристрій не був у системі. Тепер змініть пароль.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Дякуємо. Подію позначено як вашу.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ця подія не потребує відповіді.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Термін дії сторінки минув. Нічого не змінено; спробуйте ще раз.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Захистити обліковий запис</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Якщо щось тут робили не ви, вийдіть на всіх інших пристроях, а потім виберіть новий пароль. Пристрої, на яких вхід збережено за допомогою Запам'ятати мене, теж буде відключено.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>На всіх пристроях, крім цього, вихід відбудеться під час наступного запиту. Потім ви виберете новий пароль.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Так, вийти на інших пристроях</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Це були ви?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Так, це був я</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ні, захистити мій обліковий запис</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Вхід виконано</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Невдала спроба входу</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Вихід виконано</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Сеанси завершено</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Вхід із нового пристрою</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Вхід із нового місцезнаходження</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Особу підтверджено («Підтвердьте, що це ви»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Перевірку особи не пройдено</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Вхід за допомогою ключа доступу</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Не вдалося увійти за допомогою ключа доступу</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Вхід відхилено: код двоетапного входу відсутній або неправильний</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Неправильний код двоетапного входу</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Обліковий запис заблоковано після невдалих спроб входу</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Обліковий запис розблоковано</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Пароль змінено</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Не вдалося змінити пароль</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Пароль скинуто</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Запитано новий пароль</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Адресу електронної пошти змінено</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Ім&apos;я користувача змінено</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Двоетапний вхід увімкнено</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Двоетапний вхід вимкнено</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Використано код відновлення</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Нові коди відновлення</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Пароль застосунку створено</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Пароль застосунку відкликано</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Ключ доступу додано</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Ключ доступу вилучено</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Обліковий запис увімкнено</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Обліковий запис вимкнено</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Усі</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Входи та сеанси</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Зміни облікового запису</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Потребує уваги</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Дії з безпеки</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Дії з безпеки: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Входи та зміни безпеки вашого облікового запису. Якщо ви бачите дію, якої не виконували, змініть пароль і завершіть сеанси на пристроях, яких не впізнаєте.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ваші пристрої</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Змінити пароль</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Дії з безпеки на цьому сайті ще не записуються.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Входи за останні дні: %days</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Невдалі спроби</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Дій з безпеки ще не записано.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Завантажити мої дані про входи</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ваші сеанси та події безпеки у вигляді файлу JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>На цьому сайті сеанси не записуються, тому не вдалося завершити сеанс на жодному іншому пристрої. Негайно змініть пароль.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Завершено інших сеансів: %count. Тепер змініть пароль.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Жоден інший пристрій не був у системі. Тепер змініть пароль.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Дякуємо. Подію позначено як вашу.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ця подія не потребує відповіді.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Термін дії сторінки минув. Нічого не змінено; спробуйте ще раз.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Захистити обліковий запис</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Якщо щось тут робили не ви, вийдіть на всіх інших пристроях, а потім виберіть новий пароль. Пристрої, на яких вхід збережено за допомогою Запам'ятати мене, теж буде відключено.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>На всіх пристроях, крім цього, вихід відбудеться під час наступного запиту. Потім ви виберете новий пароль.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Так, вийти на інших пристроях</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Це були ви?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Так, це був я</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ні, захистити мій обліковий запис</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Пароль</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Пароль і код двоетапного входу</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Інтерфейс REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Інтерфейс SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Єдиний вхід</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Вхід виконано до початку запису сеансів</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Звіт про входи</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Хто ввійшов на сайт, як часто облікові записи входять і не можуть увійти, а також вихід користувача на всіх пристроях. Працює з будь-яким обробником сеансів.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Сеанс завершено. Пристрою потрібно увійти знову.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Користувача %login виведено із системи, завершено сеансів: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>У користувача %login не було активних сеансів.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Немає облікового запису з таким ID, ім&apos;ям користувача або адресою електронної пошти.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Це сеанс, яким ви користуєтеся. Щоб завершити його, вийдіть із системи.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Цей сеанс уже завершено.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Термін дії сторінки минув. Нічого не змінено; спробуйте ще раз.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Сеанси на цьому сайті не записуються (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Таблиця expuser_session відсутня</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Сеанси почнуть записуватися, щойно її буде створено: php update/common/scripts/6.0/createusersessiontable.php або оновлення бази даних до 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Зараз і сьогодні</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Активні сеанси</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Користувачі в системі</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Входи сьогодні</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Невдалі спроби сьогодні</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Вихід користувача на всіх пристроях</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Кожен сеанс облікового запису завершиться під час наступного запиту, зокрема й сеанси, збережені за допомогою «Запам&apos;ятати мене». Використовуйте це, якщо обліковий запис міг потрапити в чужі руки; потім скиньте його пароль.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID користувача, ім&apos;я користувача або адреса електронної пошти</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Вийти на всіх пристроях</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Зараз у системі</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Показано останні використані (не більше %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Користувач</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Пристрій</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Вхід виконано</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Остання активність</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Дії</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Цей пристрій</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Не записано</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Вийти</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Немає сеансів із виконаним входом.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Останні дні: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Входи й невдалі спроби підраховуються за журналом аудиту користувачів, якого немає; нові сеанси підраховуються.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>День</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Входи</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Невдалі спроби</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Нові сеанси</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Обробник сеансів: %handler. Сеанси зчитуються з таблиці expuser_session, тому звіт працює з будь-яким обробником.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Підозріла активність за останні %hours год.</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Одна мережа не змогла увійти до облікових записів (%accounts) (спроб: %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Обліковий запис заблоковано після невдалих входів</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Невдалих входів до одного облікового запису: %count</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Вхід одночасно з країн: %count</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Дії з безпеки</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Сесії</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Невдалі входи зчитуються з журналу аудиту користувачів, який тут недоступний.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Нічого підозрілого: немає облікових записів із повторними невдалими входами, немає мереж, що пробують кілька облікових записів, немає облікових записів із входом з кількох країн.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Сповіщення про безпеку вашого облікового запису</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>З вашим обліковим записом %login сталася подія безпеки: %event. Якщо це були не ви, захистіть обліковий запис за адресою %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Запитуйте у вмісту цього сайту саме ті поля, які потрібні сторінці, одним запитом. Схема відповідає класам вмісту; кожен запит виконується з правами користувача, який його надсилає.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API вимкнено в цьому доступі до сайту. Увімкніть його в graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Бібліотеку GraphQL (webonyx/graphql-php 15) не встановлено.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Кінцева точка</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Бібліотека</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Схема</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Класів вмісту: %count, схема %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Запит</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Змінні (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Запустити</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Відповідь</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Виконується…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Не вдалося прочитати відповідь.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Запит виконується з вашими правами, з входом у цьому сеансі.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count за %seconds с</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>без обмеження</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Глибина</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Складність</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Елементів у списку</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (типово %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Звернень на користувача або ключ</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Звернень на анонімну адресу</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Інтроспекція</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Лише збережені запити</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Найбільший запит</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes байтів</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Найбільше завантаження</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Доступу до сайту %siteaccess немає.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Мутації увімкнено в %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Мутації вимкнено в %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API увімкнено в %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API вимкнено в %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Не вдалося записати налаштування: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Кеш відповідей очищено: вилучено відповідей: %count.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Позначте прапорець біля запиту, щоб вилучити його.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Не вдалося вилучити запит: запит, що постачається в каталозі з PersistedQueryDirectoryList[], вилучається разом зі своїм файлом.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Збережений запит вилучено.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Мутації</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>увімк.</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>вимк.</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Доступи до сайту</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Де відповідають API та його мутації. Кнопки записують graphql.ini так само, як ./console exp:graphql:enable і exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Доступ до сайту</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Змінити</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Вимкнути</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Вимкнути мутації</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Увімкнути мутації</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Увімкнути</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Обмеження</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] цього доступу до сайту.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Кеш відповідей</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Відповіді збережених запитів, що зберігаються окремо для прав користувачів і застарівають щоразу, коли публікується вміст.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Стан</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Збережено відповідей</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>Відповідей: %count, байтів: %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Зберігаються щонайбільше</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds с</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Востаннє застаріло</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Очистити кеш відповідей</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Збережені запити</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Зберігаються через ./console exp:graphql:persist або клієнтами (автоматичні збережені запити); викликаються за назвою або SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Назви</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Розмір</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Де</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Вилучити</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>постачений</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>збережений</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Так, вилучити цей запит</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Збережених запитів ще немає.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Ключі API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Особисті ключі API з областю доступу graphql:read (запити) або graphql:write (мутації). Створюйте й відкликайте їх на сторінці «Доступ до API» або через ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Доступ до API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Усі ключі</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Ключ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Назва</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Власник</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Області доступу</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Останнє використання</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>активний</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>застарів</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>відкликаний</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ніколи</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Ключів API з областю доступу GraphQL ще немає.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API вимкнено в доступі до сайту %siteaccess, який показує цю сторінку; таблиця нижче показує, де він відповідає.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Для доступу до сайту %siteaccess, який показує цю сторінку.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Вебхуки</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Кожну подію, яку запитує кінцева точка (publish, update, trash, delete, move, hide, reveal, mutation), надсилає їй, з підписом, частина cronjob graphqlwebhooks. ./console exp:graphql:webhooks робить те саме, що й цей розділ.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Події</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>усі</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Кожен доступ до сайту</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>зламаний</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>без секрету</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Очікують</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>Відмовлено: %count</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Остання доставка</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Надіслати тест</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Так, вилучити цей вебхук</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Вебхуків ще немає.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Додати вебхук</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Додати</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Останні доставки</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Час</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Результат</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Підписки</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Оновлення наживо для клієнтів: потік подій на /api/graphql/subscribe і WebSocket (graphql-transport-ws) на Velocity. Кожна подія надходить лише тим підписникам, які можуть читати її вміст.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Відкрито зараз</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Найбільше відкритих</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total загалом, %user на користувача, %address на адресу</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Анонімні підписки</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Тривалість потоку</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Не вдалося додати вебхук: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Вебхук %name змінено; його секрет підпису зберігається.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Не вдалося зберегти секрет підпису (Налаштування &gt; Секрети).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Вебхук %name додано. Його секрет підпису, показаний лише цей раз: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Вебхука %name не існує.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Вебхук %name не відповів: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Вебхук %name відповів %status за %ms мс.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Позначте прапорець біля вебхука, щоб вилучити його.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Вебхук %name вилучено.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API вимкнено в цьому доступі до сайту.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Бібліотеку GraphQL не встановлено.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Використовуйте GET або POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Тіло звернення не є об’єктом JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables не є об’єктом JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions не є об’єктом JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Надсилайте запит методом POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Звернення не містить запиту.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Запит довший за %max байтів.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Внутрішня помилка сервера</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node потребує рівно одного з id, remoteId, path і urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content потребує рівно одного з id і remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Курсор after видано не цим API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Немає псевдоніма зображення %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Тут приймаються лише збережені запити: надішліть id збереженого запиту.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Хеш збереженого запиту не є SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Хеш збереженого запиту не відповідає запиту.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Забагато звернень: щонайбільше %limit за %window секунд. Спробуйте знову через %reset секунд.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Запит має глибину %depth рівнів; дозволено щонайбільше %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Запит має складність %complexity; дозволено щонайбільше %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Цьому зверненню заборонено читати схему (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search потребує тексту або фільтра (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument не є датою (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag потребує рівно одного з id, remoteId і path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout потребує рівно одного з id, identifier і urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Поле operations багаточастинного звернення не є одним запитом JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Поле map багаточастинного звернення не є об’єктом JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Багаточастинне звернення не має файлу %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Шлях у полі map має починатися з variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Файл %name надійшов не повністю (помилка завантаження %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Файл %name більший за %max байтів.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Не вдалося перевірити файл %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Мутації вимкнено в цьому доступі до сайту (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Надішліть мутацію методом POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Увійдіть, щоб змінювати вміст.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Ключ API не має області доступу %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Мутації із сеансом потрібен токен форми цього сеансу (заголовок X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl вимкнено: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] не називає жодного хоста.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Адреса має бути адресою https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Хоста %host немає в graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Не вдалося отримати файл.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload — лише вхідний тип.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Змінна типу Upload приймає файл багаточастинного звернення.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Віддалений ідентифікатор %remoteId уже зайнятий.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Вміст уже має переклад мовою %language: використовуйте updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Укажіть принаймні одне поле.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Не вдалося створити нову версію (у вмісту забагато чернеток).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Версія %version не є чернеткою.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent потребує рівно одного з id і nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Розташування не можна перемістити під саме себе.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Вміст уже має розташування під %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Не вдалося зберегти значення поля %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Мови вмісту %language немає.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>У схемі немає класу вмісту %class.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Вмісту немає, або вам заборонено його читати.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Вам заборонено робити це з цим вмістом.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Клас %class не має поля %field, у яке можна записувати.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Поле %field указано двічі.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Поле %field приймає файл: надішліть його як upload (багаточастинне звернення).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Поле %field не приймає файлів.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Поле %field потребує значення.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Формат %format лише для полів форматованого тексту; %field приймає значення як є (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Поле %field обов’язкове.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Не вдалося прочитати HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content приймає version лише разом з id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Токен попереднього перегляду недійсний або його строк минув.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Не є джерелом (https://host або https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Не є областю доступу GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Надсилайте підписки на /api/graphql/subscribe (потік подій або WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Запит не називає жодної операції документа.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Підписка запитує рівно одне поле.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Відкрито забагато підписок; спробуйте пізніше.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>У вас відкрито %max підписок — це найбільша дозволена кількість.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>З вашої адреси відкрито %max підписок — це найбільша дозволена кількість.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Підписки вимкнено в цьому доступі до сайту.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Увійдіть, щоб підписатися (токен або особистий ключ API).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Надсилайте мутації на /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Міграції</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Не вдалося прочитати стан: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Таблиць міграцій ще немає: ./console exp:upgrade --apply створює їх.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Не вдалося виконати міграцій: %count</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Триває запуск, розпочатий користувачем %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Інсталяцію заблоковано: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Очікує</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Невдалі</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Осиротілі</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Останній запуск</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ще жодного</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Усі міграції</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Імітований запуск</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Пробний запуск</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Очікувані міграції виконано в транзакції, яку потім відкочено: нічого не збережено. Нижче показано, що кожна з них змінила в базі даних.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Що запуск зробив би зараз. Нічого не змінюється: кожна очікувана міграція перелічує зміни, які вона внесла б, а запуск — що він зробив би до і після.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Імітувати</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Виконати</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Пробний запуск не вдався: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Для імітації потрібен PostgreSQL або SQLite, зміни схеми яких можна відкотити; на цій базі даних план нижче показує, що зробив би запуск.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Міграції</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Міграція</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Стан</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Що вона зробила б</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Імітація: %result за %ms мс</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Міграцій ще немає.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>До і після запуску</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Точка відновлення до</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>створюється і відновлюється, якщо міграція не вдається</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>вимкнено</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Точка відновлення після</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>створюється, якщо запуск успішний</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Міграцій: %total; очікують: %pending, виконано: %done, невдалих: %failed.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Історія міграцій</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Кожен запуск із користувачем, середовищем, точками відновлення та тим, що було закомічено, позначено тегом і надіслано (push). Невдалий або перерваний запуск можна продовжити; запуск із точкою відновлення до нього можна скасувати.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Не вдалося прочитати запуски: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Таблиць міграцій ще немає: ./console exp:upgrade --apply створює їх.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Показати</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Усі</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Запуски</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Розпочато</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ким</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Точки відновлення</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Репозиторій</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Дії</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>до</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>після</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>надсилання (push): %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Продовжити</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Відкотити</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Немає запусків у цьому стані.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Розпочато тут</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Запуски, продовження та відкати, розпочаті на цих сторінках, зі звітом про кожен.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Що</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Результат</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Відкат</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Відкат %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Запуск %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Що зробив запуск, його запис і журнал. Запуск, розпочатий тут, триває у фоновому режимі, коли цю сторінку закрито; відкрийте сторінку знову, щоб стежити за ним.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Продовжити цей запуск</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Відкотити цей запуск</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Не вдалося прочитати запис: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Хід виконання</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Розпочав %user о %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Перевірка коду та створення точки відновлення перед запуском</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Виконується %id (%index з %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>Виконано %done з %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Міграції виконано; точка відновлення відновлюється, якщо якась не вдалася</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Створення точки відновлення після запуску, коміт, тег і push</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Відновлення точки відновлення</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Запуск завершено. Завантаження звіту.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Не вдалося стежити за ходом виконання. Перезавантажте сторінку, щоб побачити стан запуску.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ця сторінка стежить за запуском під час його виконання.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Перезавантажити</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Звіт</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Тривалість</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms мс</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Що запуск вивів як помилки</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Запис</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Середовище</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>немає</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Завершено</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Коміт</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Тег</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Надсилання (push)</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Повідомлення</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Міграції цього запуску</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Джерело</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Журнал запуску</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Показано лише кінець журналу.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>виконується</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>завершено без звіту</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>успішно</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>не вдалося</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>відхилено</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>база даних була недоступна</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>внутрішня помилка</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Триває запуск</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind розпочав %user о %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Стежити</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Інсталяцію заблоковано</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Інший запуск утримує блокування (оновлення або запуск у консолі): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>виконано</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>очікує</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>не потрібно</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>невідомо</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>відкочено</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>застосовано</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>було б застосовано</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>скасовано</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>було б скасовано</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>не виконано</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>чекає на іншу</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>зміну прийнято</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>зміну було б прийнято</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>імітовано</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Міграції</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Стан</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Історія</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Скасувати %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Запуск скасовується до точки відновлення, створеної перед ним, окрема міграція — її методом down(). Відновлення ранішої точки відновлення — для фахівців. Кожна дія виконується у фоні від вашого імені після створення точки відновлення поточного стану.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Не вдалося прочитати, що можна скасувати: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Запуск</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Одна міграція</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Раніша точка відновлення</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Опис</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>так</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ні</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Точка відновлення</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Позначка</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Створено</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Вид</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Частини для відновлення</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>База даних</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Файли сховища (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Налаштування (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Відновлення повертає базу даних до моменту точки відновлення, включно із сесіями: після цього, можливо, доведеться увійти знову. Усе, що змінилося відтоді, буде втрачено; спочатку створюється точка відновлення поточного стану.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Я знаю, що це відновлює</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Введіть ідентифікатор точки відновлення ще раз</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Так, скасувати</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Запуски з точкою відновлення, створеною перед ними.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Вибрати</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Ще немає запусків із точкою відновлення.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Застосовані міграції, які можуть скасувати себе самі (мають down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Жодна застосована міграція не має down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Раніші точки відновлення (для фахівців)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Точок відновлення ще немає.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Виконати міграції</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Запуск виконується у фоні від імені %user, а його сторінка показує хід виконання. Перед першою міграцією створюється точка відновлення інсталяції; якщо міграція не вдається, запуск зупиняється і точку відновлення буде відновлено.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Спочатку пробний запуск</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Не вдалося прочитати стан: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Очікувані міграції</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Вони виконуються в цьому порядку. Зніміть позначку з міграції, щоб залишити її та залежні від неї міграції для пізнішого запуску.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Виконати</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Вмикає режим обслуговування на час виконання.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Змінено після застосування</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Ці файли не ті, що були застосовані. Запуск відхиляє їх, якщо зміну не прийнято з обґрунтуванням; вони не виконуються повторно, нова контрольна сума записується, а обґрунтування зберігається в журналі аудиту.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Прийняти зміни</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Чому</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Типові значення — безпечні. Кожен прапорець пропускає один крок.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Без точки відновлення</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Без точки відновлення до і після запуску: збій не можна буде виправити автоматично.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Без відновлення</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Після збою залишити інсталяцію такою, якою її залишив збій.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Зберегти незакомічені зміни</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Виконувати, навіть якщо налаштування, розширення або дизайни мають незакомічені зміни; вони потрапляють у точку відновлення.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Без коміту</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Не комітити файл стану та журнал запуску (також без тегу і без push).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Без push</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Закомітити й позначити тегом, але не надсилати (push).</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Без тегу</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Закомітити й надіслати (push), але не позначати запуск тегом.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Так, виконати ці міграції зараз</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Немає очікуваних міграцій.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Назад до стану</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Зміни цієї інсталяції, один раз записані як файли (вміст, класи, ролі, налаштування, схема) і застосовані до кожної інсталяції сайту в тому самому порядку. Запуск спочатку створює точку відновлення, відновлює її, якщо міграція не вдається, і записує, комітить та надсилає (push) зроблене.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Виконати очікувані (%count)</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Огляд</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Очікує</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Виконано</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Невдалі</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Не потрібно</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>База даних</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>транзакції: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Міграції сайту лежать у migrations/, міграції розширення — у extension/&lt;name&gt;/migrations/. Вони виконуються в порядку їхніх назв і залежностей.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Останній запуск</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Файл змінився після застосування.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Міграцій ще немає. ./console exp:migration:generate --skeleton &lt;name&gt; --apply створює першу.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Останні запуски</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Усі запуски</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Запусків ще немає.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Для імітації запуску потрібна політика migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Триває запуск: імітуйте, коли він завершиться.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target не є ні запуском, ні міграцією, ні точкою відновлення цієї інсталяції.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Спочатку позначте «Так, скасувати».</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Відновлення ранішої точки відновлення — для фахівців: позначте «Я знаю, що це відновлює».</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Введіть ідентифікатор точки відновлення ще раз: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Виберіть принаймні одну частину для відновлення.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Цей запуск не має точки відновлення перед ним: скасуйте його міграції по одній або відновіть ранішу точку відновлення.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Цю міграцію не можна скасувати саму по собі: вона не застосована або не має down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Не вдалося прочитати форму.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Виберіть запуск, який слід продовжити.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Спочатку позначте «Так, виконати ці міграції зараз».</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Виберіть принаймні одну міграцію.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Міграція змінилася після застосування: прийміть зміну з обґрунтуванням або поверніть файл.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Вкажіть, чому змінені міграції приймаються.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Обґрунтування — не більше 500 символів.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Запуск, розпочатий тут, ще триває (%detail). Дочекайтеся його завершення.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Інший запуск утримує блокування інсталяції: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Для запуску потрібен наявний користувач, що увійшов у систему.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Не знайдено програму командного рядка php. Вкажіть у migration.ini [AdminSettings] PhpCliPath повний шлях до неї.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open вимкнено, тому запуск тут розпочати не можна. Виконайте ./console exp:migration:migrate --apply на сервері.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Неможливо записати в теку запусків: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Запуск розпочато, але він не повідомив ідентифікатор свого процесу. Перевірте %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Вкажіть, що слід скасувати.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Не вдалося розпочати запуск.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Запис змін</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Поки триває запис, усе, що ви змінюєте в адмініструванні або на бічній панелі сайту, зберігається як кроки міграції: вміст, класи, ролі та політики, розділи, користувачі та групи, псевдоніми URL, налаштування. Зупиніть запис, коли закінчите, перегляньте, що він зафіксував, і створіть із нього міграцію.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Не вдалося прочитати записи: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Таблиць записів ще немає: спочатку виконайте оновлення (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Запис вимкнено в migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Мої зміни</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Записує лише те, що змінюєте ви, де б ви це не змінювали, доки ви його не зупините.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Запис</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>з %time, поки змін: %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Мітка (необов'язково)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Показати, що він зафіксував</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Зупинити запис</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Почати запис моїх змін</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Вікно для всього сайту</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Записує кожну зміну кожного користувача й консолі, доки вікно не закрито. Під час відкриття вас попросять підтвердити, що це ви.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Відкрито</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Закрити вікно</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Відкрити вікно для всього сайту</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Записи</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Обліковий запис користувача (логін, e-mail, пароль) і поля облікових записів користувачів ніколи не записуються.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Зміни</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Весь сайт</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Зміни користувача %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Зупинено</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Записів поки немає.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Запис %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Усі записи</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Міграція, яка з нього вийде</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Зміни, зведені в один крок на кожен змінений об'єкт: що зробила б міграція, створена з цього запису.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Міграцію з нього можна буде створити, коли в цьому встановленні з'являться типи кроків YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Навмисно пропущено: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Нічого не записано.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Що він зафіксував</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Змін: %count, у тому порядку, в якому їх зроблено.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Зміна</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Крок</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Об'єкт</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Ще %count: ./console exp:migration:record:show виводить усі.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Відкинути</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Видаляє запис і те, що він зафіксував. Змінене залишається зміненим.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Так, відкинути цей запис</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Триває запис…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ваші зміни записуються для міграції.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Кожна зміна на цьому сайті записується для міграції (вікно для всього сайту).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Запис для всього сайту почався: кожна зміна кожного користувача записується, доки ви його не зупините.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Запис почався: ваші зміни записуються, доки ви його не зупините.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Запис зупинено. Те, що він зафіксував, зберігається, доки ви його не відкинете.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Запис і його події видалено.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Запису %id немає.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Спочатку позначте «Так, відкинути цей запис».</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Зупинити запис сеансу може лише користувач, який його вів.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Виберіть запис, який треба зупинити.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Запис такого виду вже триває.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Не вдалося змінити запис: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Згенерувати міграцію</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Назва міграції (необов'язково)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Міграцію %file записано. Зміни, яких не може зробити жоден крок, названо на початку файлу, їх треба зробити вручну.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Міграцію не записано: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Тривалий запуск частинами</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Порожні поля зберігають налаштування з migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Не більше ніж стільки міграцій</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Жодних міграцій після (секунд)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Пауза між міграціями (секунд)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Нижчий пріоритет (від 1 до 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Поле тривалого запуску - ціле число від 1 (пауза: секунди від 0 до 60, пріоритет: від 1 до 19) або порожнє.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Воно закриється саме о %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Закрити само через (хвилин, необов'язково)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Хвилини - ціле число від 1 до 44640 (31 день) або порожнє.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Міграція %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Нова міграція</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML-міграція: напишіть її як текст або складіть її кроки у формі, перевірте, а потім збережіть у папці міграцій.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Ця міграція вже виконувалася, тому її не буде збережено знову: змінений файл відхилив би захист контрольною сумою. Внесіть зміну в нову міграцію.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Вебсервер не може записати файл.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Рядки коментарів на початку — це заголовок (description, author, requires, environments, engines). Коли крок додається або змінюється у формі, міграція записується заново: коментарі між кроками не зберігаються.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Назва міграції</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Куди потрапить</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Сайт</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Текст YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Перевірка</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Зберегти</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Кроки</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Клавіші</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Редагувати</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Перемістити вгору</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Перемістити вниз</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Вилучити</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Кроків ще немає: додайте один за допомогою форми або напишіть їх у тексті.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Змінити крок %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Додати крок</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Форма кроку створюється з його типу кроку: його ключі, що приймає кожен із них і до яких режимів він належить.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Тип кроку</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Показати форму</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Крок має ключі, яких не знає його тип; їх буде пропущено, коли крок змінюватиметься: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Режим</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>У</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>лише в %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Типово: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Умови, посилання та коментар</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Пари назва=значення через кому. Значення цього кроку: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Приклад</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Змінити крок</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Додати крок</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Що каже exp:migration:check: заголовок, документ і кожен крок, перевірений його типом кроку.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Міграція проходить перевірку.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Попередній перегляд</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML у тому вигляді, в якому його буде збережено.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Показати YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-міграції</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>виконано</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>YAML-міграцій ще немає.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Редактор</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>У папках міграцій немає YAML-міграції %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Виберіть тип кроку.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Крок додано. Перевірте міграцію, перш ніж її зберегти.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Крок змінено. Перевірте міграцію, перш ніж її зберегти.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Виберіть крок.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Цей крок не має форми (цикл або тип кроку, якого немає в цій інсталяції): змініть його в тексті.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Виберіть, куди потрапить міграція: сайт або активне розширення.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file збережено. Виконайте пробний запуск, перш ніж міграцію буде виконано.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Не збережено: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Віддалені вузли</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Інші інсталяції, на які ця розгортає свої міграції: розгортання надсилає міграції на вибрані віддалені вузли й виконує їх там, усі одночасно й синхронно. Віддалений вузол ніколи не зберігає секрет: його облікові дані лише називають секрет у Налаштування &gt; Секрети.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Новий віддалений вузол</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Довідка</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Перевірка з'єднання з %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Віддалені вузли</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Одночасно обробляється до %parallel віддалених вузлів; одна фаза може тривати %timeout секунд на кожному.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Віддалений вузол</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Облікові дані</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Групи</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>налаштування потрібно виправити</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>лише файли (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Ключ SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Пароль</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>немає (агент SSH і ключі хоста)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Перевірити з'єднання</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Розгортання на групу охоплює кожен її віддалений вузол.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Розгорнути на віддалені вузли</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Віддалених вузлів ще не налаштовано.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Віддалений вузол %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Тут нічого не надсилається і не виконується: «Зберегти» записує налаштування в settings/override/migration.ini.append.php. Облікові дані — це назва; їхнє значення залишається в Налаштування &gt; Секрети або в середовищі.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Перевірте ці налаштування</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Налаштування в тому вигляді, як їх введено, ще не збережені.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Перевірка</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Налаштування коректні. Буде записано такі рядки:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Транспорт</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>лише назва; значення залишається в Налаштування &gt; Секрети</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Рядки, які буде записано</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>З'єднання</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Ключ хоста</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Віддалений вузол</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Як називається віддалений вузол і яке це середовище.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Ідентифікатор</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Літери, цифри, - і _, наприклад production1. Це ім'я позначає віддалений вузол у звітах і в консолі (--remotes=production1), і змінити його пізніше неможливо.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Поетапне розгортання проходить середовища в цьому порядку.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Необов'язково, через кому, наприклад production. Розгортання на групу охоплює кожен її віддалений вузол.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. З'єднання</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Як файли потрапляють туди і де розташована інсталяція.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Через SSH, лише те, що змінилося, перервана передача продовжується. Найкращий вибір там, де встановлено rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH з scp для файлів.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH з sftp для файлів.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Лише файли: міграції надсилаються й зчитуються назад, але виконати їх там неможливо.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP через TLS; лише файли.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Інша інсталяція на цьому сервері, у папці.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Хост</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Ім'я хоста або адреса, наприклад node1.example.com. Не для local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Порт</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Порожньо: 22 для SSH, 21 для FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Користувач</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Шлях</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Кореневий каталог інсталяції там, наприклад /var/www/site (для FTP: шлях, який бачить обліковий запис FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Командний рядок PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI там: php або повний шлях, наприклад /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Консольні скрипти виконуються там від імені root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Лише якщо користувач віддаленого вузла — root (тоді вони виконуються з --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Облікові дані</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Як ця інсталяція входить туди. Зберігається лише назва.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Немає</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Агент SSH і ключі користувача, від імені якого працює ця інсталяція (і завжди для local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Приватний ключ, збережений як секрет.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Пароль, збережений як секрет (FTP входить за допомогою пароля).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Назва секрету</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Секрет із Налаштування &gt; Секрети, наприклад deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Налаштування &gt; Секрети</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Або змінна середовища</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Змінна серверного процесу, яка його містить, наприклад DEPLOY_KEY (зберігається як env:DEPLOY_KEY). Вона заміняє назву секрету.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Ключ хоста</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Необов'язково, для SSH, sftp і rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Відбиток ключа хоста</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... так, як його виводить ssh-keygen -l. Якщо його вказано, хост мусить показати цей ключ; без нього ключ запам'ятовується під час першого з'єднання.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Перевірка</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Перевірте з'єднання з наведеними вище налаштуваннями, а потім перегляньте рядки, які буде записано.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Вилучити цей віддалений вузол</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Його налаштування вилучаються з settings/override/migration.ini.append.php. На віддаленому вузлі нічого не змінюється, а його розгортання залишаються в історії.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Так, вилучити цей віддалений вузол</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Розгортання</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Розгортання надсилає міграції цієї інсталяції на вибрані віддалені вузли й виконує їх там від імені %user, усі одночасно й синхронно: спочатку перевіряється кожен віддалений вузол, а якщо один зазнає невдачі, кожен вузол, який їх застосував, відкочується. Розгортання триває у фоновому режимі, а його сторінка показує кожен віддалений вузол по ходу виконання.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Віддалені вузли</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Позначте віддалені вузли, групу або те й інше.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Розгорнути на нього</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Як</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Розгорнути</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Надіслати й виконати</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Міграції надсилаються, перевіряються й виконуються на кожному віддаленому вузлі з одним спільним ідентифікатором запуску.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Лише передача</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Файли надсилаються й перевіряються, нічого не виконується (єдиний спосіб для віддаленого вузла FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Поетапно</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Етап за етапом у порядку середовищ (dev, stage, beta, production ...): спочатку розгортається перший етап, потім шлюз чекає, доки хтось не схвалить наступний. Усе або нічого в межах кожного етапу.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Лише ці міграції</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Необов'язково: ідентифікатори міграцій через кому. Порожньо: кожна міграція сайту та його розширень.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Лише попередня перевірка</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Так, розгорнути зараз</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Розгортання, які щось надіслали або виконали, найновіші спочатку (попередня перевірка звіту не зберігає).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>лише передача</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>поетапно, етапів: %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>не синхронізовано</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Розгортань ще немає.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Розгортання %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Кожен віддалений вузол розгортання з його станом. Розгортання, розпочате тут, триває у фоновому режимі, коли цю сторінку закрито; відкрийте сторінку знову, щоб стежити за ним.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Усі розгортання</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Попередня перевірка</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Наступний етап</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Перевірка налаштувань і облікових даних</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Попередня перевірка: зчитування стану кожного віддаленого вузла</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Надсилання файлів міграцій</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Перевірка отриманого</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Виконання міграцій на кожному віддаленому вузлі</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Відкочування віддалених вузлів</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Розгортання завершено. Завантаження його звіту.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Не вдалося стежити за ходом виконання. Перезавантажте сторінку, щоб побачити, як іде розгортання.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Фаза</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ця сторінка стежить за розгортанням по ходу виконання.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Синхронно</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Етапи</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>етап %stage чекає на своєму шлюзі</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Шлюз %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>схвалено користувачем %user о %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Етап</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Надіслані файли</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Версія ядра</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>застосовано: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>до застосування: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Фази</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Шлюз: етап %stage з %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Етапи перед ним розгорнуто. Перевірте їх, а потім схваліть наступний етап: його віддалені вузли буде знову перевірено й розгорнуто, усе або нічого.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Далі</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Так, розгорнути наступний етап зараз</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Схвалити</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Відкотити це розгортання</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Кожен віддалений вузол, який його застосував (%list), повертається до точки відновлення, створеної перед його запуском, усі одночасно.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Так, відкотити це розгортання зараз</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>заплановано</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>передано</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>розгорнуто</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>чекає на шлюзі</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>вибрано</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>підготовлено</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>готове</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>чекає на свій етап</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>файли надіслано</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>перевірено</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>не вдалося, відновлено самостійно</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>без змін</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>не розгорнуто</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>недоступний</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Віддалений вузол відповів.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Віддалений вузол зараз неможливо використати.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done виконано, %pending очікує, %failed не вдалося</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Блокування</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>там блокування утримує запуск</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>вільно</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage з %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Виберіть віддалений вузол для перевірки.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Спочатку позначте «Так, вилучити цей віддалений вузол».</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Не вдалося вилучити віддалений вузол: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Не вдалося зберегти віддалений вузол: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Не вдається прочитати файл налаштувань: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Виберіть принаймні один віддалений вузол або групу.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Вибраного віддаленого вузла більше немає в налаштуваннях. Перезавантажте сторінку.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Спочатку позначте «Так, розгорнути зараз».</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Віддалений вузол FTP не може виконувати міграції: виберіть «Лише передача» або не включайте його.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Міграції для розгортання — це ідентифікатори міграцій через кому.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Розгортання ще триває. Зачекайте, доки воно завершиться.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Це розгортання не чекає на шлюзі.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Жоден віддалений вузол не застосував це розгортання: відкочувати нічого.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Спочатку позначте «Так, розгорнути наступний етап зараз».</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Спочатку позначте «Так, відкотити це розгортання зараз».</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Віддалений вузол з ідентифікатором %id уже існує.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Порт — це число від 1 до 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Середовище — це слово з літер, цифр, - і _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Група — це слово з літер, цифр, - і _ (не all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Облікові дані зараз неможливо прочитати: %problem. Збережіть їх у Налаштування &gt; Секрети (або задайте змінну) перед першим розгортанням.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Віддалений вузол FTP лише отримує файли: розгортання на нього — це «Лише передача», а його міграції виконуються там вручну.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Віддаленого вузла %id немає в settings/override/migration.ini.append.php; вилучіть його там, де його задано.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Вхід через FTP виконано, index.php прочитано. Стан міграцій віддаленого вузла FTP прочитати неможливо.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Змінено</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Створено</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Назва</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Клас</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Розділ</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Автор</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Нові матеріали</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Останні створені та змінені матеріали всього сайту, спочатку найновіші: те, що надіслали відвідувачі, що затримано на перевірку, чернетки, які чекають на публікацію. Виберіть елементи, щоб зняти затримку, затримати, приховати, показати, видалити їх або перенести до іншого розділу чи стану.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Не вдалося прочитати список: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Затримку на перевірку ще не налаштовано, тому нічого не затримується і дії затримки недоступні. Її налаштовує крок оновлення 6.0.15-review-hold: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Фільтрувати список</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>З</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>По</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Створено (перша публікація)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Усі</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Опубліковано</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Чернетка, жодного разу не опублікована</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Очікує (схвалення або дати)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>У кошику</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Затримано на перевірку</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Затримано</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Не затримано</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Приховано</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Видимо</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Надіслано через</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Будь-який доступ до сайту</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Лише те, що записав аудит.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Зараз: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Логін або ID користувача.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Фільтр</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Скинути фільтри</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Елементи</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to з %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Немає елементів</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(прочитано за %ms мс)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Дії з вибраними елементами</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Вибрати все на цій сторінці</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>Вибрано: %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Дія</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Виберіть дію</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Зняти затримку</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Затримати на перевірку</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Приховати</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Показати</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Перемістити до кошика</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Видалити</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Призначити розділ</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Призначити стан</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Причина</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Потрібна для затримки; зберігається разом із затримкою та в аудиті.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Виберіть розділ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Стан</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Виберіть стан</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Застосувати до вибраних</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Кожен елемент перевіряється за вашими власними правами. Переміщення до кошика та видалення потребують підтвердження. Понад %count елементів обробляються у фоновому режимі.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Вибрати</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Публікація</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Надіслано з адреси</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Вибрати %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ще ні</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(без назви)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Чернетка</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Очікує</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Приховано батьківським елементом</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Затримано: нове надсилання</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Версія %version очікує</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Версія %version у роботі</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Чернетка, версія %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Версію %version опубліковано</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Заплановано на %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>немає адреси</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>не записано</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Ніщо не відповідає цим фільтрам.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Показати все</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Матеріалів ще немає.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>На сторінці</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Показувати %count елементів на сторінці.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Адреса та браузер надсилання беруться з індексу аудиту, який тут недоступний: у стовпці вказано «не записано».</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Адреса та браузер — це ті, що аудит записав для елемента (автозатримка записує їх завжди; публікація та створення — лише там, де це ввімкнено), тією мірою, якою їх зберігають його налаштування конфіденційності.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: елементів: %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Видалення знищує елементи назавжди, з усіма їхніми версіями та перекладами. Це неможливо скасувати.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Елементи потрапляють до кошика, звідки їх можна відновити.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Кожен елемент перевіряється за вашими власними правами; елемент із підлеглими елементами залишається як є (видаліть його у структурі матеріалів). Вас попросять підтвердити, що це ви.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Це виконується у фоновому режимі: відкриється сторінка перебігу, а результат для кожного елемента буде показано після завершення.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Вибрані елементи</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>і ще %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Нічого не зроблено</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Причина: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Дія все ще виконується у фоновому режимі.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Перебіг виконання</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Фонова дія завершилася помилкою: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Виконано</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Відхилено</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Помилка</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>За елементами</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Елемент</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Результат</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Чому</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Назад до списку</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Нічого не зроблено</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Підтвердити</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Виберіть дію.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Виберіть хоча б один елемент.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Виберіть не більше 1000 елементів за раз.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Вкажіть, чому елементи затримано.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Виберіть розділ.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Виберіть стан.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Не вдалося прочитати форму.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Панель керування</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Нові матеріали</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Не вдалося прочитати лічильники: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Затримано на перевірку</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Нові сьогодні</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Затримку на перевірку ще не налаштовано (крок оновлення 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Усі нові матеріали</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Вам не дозволено виконувати дії модерації (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Дію модерації не завершено: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Модерація: %action для %count об’єктів</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done з %total об’єктів: виконано %ok, відхилено %refused, помилок %failed</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>виконано %ok, відхилено %refused, помилок %failed</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Об’єкта більше не існує.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Об’єкт не має розміщення (не опубліковано).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Вам не дозволено приховувати об’єкт (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Вам не дозволено показувати об’єкт (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Об’єкт уже приховано.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Об’єкт не приховано.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Приховано.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Показано.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Об’єкт у кошику: очистіть кошик або відновіть його звідти.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Чернетку, яку жодного разу не публікували, не можна перемістити до кошика: видаліть її.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Вам не дозволено видаляти об’єкт (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Видалено.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Вам не дозволено вилучати об’єкт (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Об’єкт має підлеглі елементи: видаліть його у структурі матеріалів, де їх перелічено.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Об’єкт не вилучено (вилучення може затримувати робочий процес).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Переміщено до кошика.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Розділ не існує.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Об’єкт уже в цьому розділі.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Вам не дозволено призначати цей розділ (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Розділ не призначено.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Розділ призначено.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Стан не існує.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Об’єкт уже в цьому стані.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Вам не дозволено призначати цей стан (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Стан не призначено (зміну може затримувати робочий процес).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Стан призначено.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Такої дії немає.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Затримку на перевірку не налаштовано (крок оновлення 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Вкажіть, чому об’єкт затримано.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Об’єкт уже затримано.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Вам не дозволено затримувати об’єкт (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Затримку не встановлено (зміну може затримувати робочий процес).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Затримано.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Об’єкт не затримано.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Вам не дозволено знімати затримку з об’єкта (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Затримку не знято (зміну може затримувати робочий процес).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Затримку знято; об’єкт досі приховано: вам не дозволено показувати його (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Затримку знято.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Усі цілі</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Остання публікація</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Опублікуйте безкоштовну статичну копію свого сайту на GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Застарілі сторінки</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статична публікація</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Статичну публікацію вимкнено.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Ціль</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Не вдалося прочитати цілі: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>виконується завдання</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>збірка на перевірку</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>приховати це</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>створити ціль</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ніколи</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>прочитати посібник</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>Додано: %added, змінено: %changed, вилучено: %removed</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes з %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Ще %count не показано.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Записано сторінок: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path має розмір %size, більше, ніж хостинг дозволяє для одного файлу.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % від ліміту</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds с</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag — публікація, яка зараз на сайті.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: завдання %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/репозиторій/ для сайту проєкту GitHub; порожньо для власного домену або сайту користувача.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Сайт</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Хостинг</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Вхід до репозиторію</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Репозиторій</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Посилання та базовий шлях</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Власний домен</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Що містить збірка</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Коли публікувати</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Перевірка та збереження</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Сайт проєкту GitHub розміщується під /&lt;repository&gt;/; відносні посилання працюють там і будь-де ще.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Збірка отримує кожну сторінку %site так, як її бачить відвідувач без входу, переписує посилання, копіює файли й записує результат до папки цілі. Нічого не публікується, доки ви не перевірите збірку й не натиснете «Опублікувати».</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Вираз cron, наприклад 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Ключ розгортання зберігається як секрет %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Ключ розгортання дозволяє цій інсталяції надсилати (push) через SSH до одного репозиторію і більше нікуди. Його приватна половина залишається в Налаштування &gt; Секрети; показується лише публічна половина.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Ключ розгортання, створений для цієї цілі</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Ключ розгортання входить через SSH: змініть git-адресу на SSH-адресу (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Виконується завдання, запущене користувачем %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Завдання цієї цілі ще виконується (%detail). Дочекайтеся його завершення.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Завдання цієї цілі ще виконується. Дочекайтеся його завершення.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Посилання зі сторінки /news/ на сторінку /about-us/team буде записано як</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Створено новий ключ розгортання. Додайте його публічну половину до репозиторію зараз.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Сторінка, яка після очищення все ще містить налагоджувальний вивід, токен форми або ідентифікатор сесії, ніколи не публікується.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Відкат — для досвідчених: позначте «Я знаю, що це змінює» і ще раз введіть назву тегу.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Сайт може мати до %site, один файл — до %file, з трафіком близько 100 ГБ на місяць. На безкоштовному тарифі репозиторій має бути публічним. GitHub Pages не призначено для магазинів чи інших комерційних операцій.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Ціль — це один сайт, що публікується в один git-репозиторій. Тут нічого не збирається і не публікується: «Зберегти» записує налаштування до settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Ціль — це один сайт, що публікується в одне місце, наприклад ваш публічний сайт на GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Токен з Налаштування &gt; Секрети</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Його публікує робочий процес репозиторію.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Додайте цей публічний ключ до репозиторію з правом запису. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, позначте Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Додано</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Інший git-хостинг</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>З цією ціллю працює інший процес: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Назад</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Базовий шлях</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>До</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Під базовим шляхом</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Гілка</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Пошкоджені посилання</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Пошкоджені посилання у збірці</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Збірка</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Збірка %id, автор: %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Збірка %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Зібрати зараз</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Збірка на перевірку</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ким</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Вручну, тут</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Змінити</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Змінено</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Зміни</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Спочатку перевірте</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Перевірте ці налаштування</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Перевірте, що змінює збірка, перегляньте її, а потім опублікуйте або відхиліть.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Виберіть публікацію, до якої повернутися.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>З&apos;явиться в одному з наступних випусків.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Коміт</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Коміти</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Комітить збірку, позначає її тегом і надсилає (push) до %remote. Надсилання ніколи не виконується примусово; пізніше можна повернутися до будь-якої публікації.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Порівняно з попереднім станом папки: додано %added, змінено %changed, вилучено %removed, без змін %unchanged.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Порівняно з останньою публікацією.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Облікові дані</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Власний домен</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Налагоджувальний вивід, токени форм, ідентифікатори сесій і nonce завжди вилучаються.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Ключ розгортання</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Ключ розгортання %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Відхилити</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Відхилити збірку</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Домен</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Порожньо: адреса сайту. Інакше — внутрішня адреса того самого сайту.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Завершено</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Кожне посилання починається з базового шляху.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Кожна публікація — це коміт із тегом static/%id/&lt;n&gt;. Повернення створює новий коміт із файлами попередньої публікації: історія зберігається, жоден тег не переміщується і нічого не виконується примусово.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Додаткові файли</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Отримувати сторінки з</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Файл</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Файли</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Бракує файлів</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Файли сайту</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Файли, які не вдалося зібрати</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Відбиток</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Папка</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Для SSH-адреси. Ключ створюється після збереження; його публічну половину ви додаєте до репозиторію.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Для адреси https://. GitHub: детальний (fine-grained) токен із правом Contents на читання й запис у репозиторії.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Для досвідчених. Публічний сайт змінюється, щойно надсилання (push) завершиться.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Форми</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Безкоштовний хостинг із репозиторію GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>З гілки</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-адреса</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages дозволяє сайт розміром %site і файл розміром %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Обмеження GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages публікує файли як є (потрібно для файлів, що починаються з _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub віддає гілку такою, як її надіслано. Типово.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, ваш власний сервер: будь-який git-репозиторій.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Повернутися до попередньої публікації</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Довідка</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Довідка щодо майстра</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Приховати їх</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Історія</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Історія %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Хостинг</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Як GitHub Pages отримує збірку</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Зміни перевірено</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Я знаю, що це змінює</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Ідентифікатор</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Її вимкнено: нічого не можна зібрати, доки її не ввімкнено.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Виконується у фоні від імені %user; цю сторінку можна закрити.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Завдання %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Зберігається як секрет %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Тип</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Остання публікація</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Не включати ці сторінки</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Не включати ці розділи</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Посилання</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Переписано посилань</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Робочий сайт</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Переглянути збірку</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Малі літери, цифри, _ і -, наприклад github-public. Задає назву папки й тегів (static/&lt;id&gt;/&lt;n&gt;) і не може бути змінене пізніше.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Створити новий ключ</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Створити ціль</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Створити ключ</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Спершу створіть репозиторій на хостингу; порожній підійде.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Маніфест</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Повідомлення</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Більшість сторінок</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Назва</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Назва токена в Налаштування &gt; Секрети</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Нова ціль</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Далі</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ні</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Комітів ще немає.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Ключ не створено: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Не знайдено виконуваного файлу php для командного рядка. Вкажіть повний шлях до нього в migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Тегів ще немає.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Цілей ще немає.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Немає</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Немає у збірці.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Ще нічого не опубліковано.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Ще нічого не опубліковано: усі файли нові.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Сповіщення</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>За розкладом</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>У консолі</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>На сервері: ./console exp:static:serve %id віддає її так само.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Один шлях на рядок, * відповідає будь-якій частині: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>З ціллю зберігається лише назва; сам токен або ключ залишається в Налаштування &gt; Секрети і ніколи не з&apos;являється в журналі.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Лише те, що називають сторінки</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Лише з токеном. env:NAME натомість читає змінну середовища сервера.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Відкрити попередній перегляд</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Відкриває збірку з папки цілі так, як її віддаватиме хостинг. Посилання працює для вас протягом години.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Необов&apos;язково. Порожньо: те, що було опубліковано.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Необов&apos;язково. З доменом сайт віддається з його кореня.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Вивід</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Сторінки</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Сторінки цілі</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Відхилені сторінки</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Остаточна обробка</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Попередній перегляд</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Перегляд і публікація</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Перегляд і публікація %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Попередньо переглянути збірку</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Перебіг</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Публічна адреса</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Публічний ключ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Опублікувати</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Публікуйте статичну копію сайту на GitHub Pages або будь-якому git-хостингу: зберіть її, перевірте зміни, опублікуйте та за потреби поверніться до попередньої публікації.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Публікація, до якої повернутися</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Публікації</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Надсилання (push)</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Прочитати посібник</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Журнал</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Відхилено</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Відносні</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Перезавантажити</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Вилучено</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Замінити ключ: старий перестане працювати</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Звіт</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Звіт про збірку</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Репозиторій</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Перевірка</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Перевірка проходить кожне налаштування й показує рядки, які буде записано. Нічого ще не збережено.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Відкотити</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Відкат</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Зберегти</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Розклад</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Сторінка пошуку</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Ідентифікатори розділів через кому.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Спрямовувати їх на робочий сайт</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Налаштування %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Налаштування &gt; Секрети</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Показується у списках, наприклад «Публічний сайт на GitHub Pages».</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Вхід через GitHub App з&apos;явиться разом з інтеграцією GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Сайт</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Сайт для публікації</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Розмір</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Розмір і обмеження</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Розмір збірки</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Застарілі сторінки</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Розпочато</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Розпочато користувачем %user о %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Стан</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статична публікація</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Статичну публікацію вимкнено</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Статичну публікацію вимкнено.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Статичну публікацію вимкнено. Спершу ввімкніть її в Налаштування &gt; Статична публікація.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Статичну публікацію ввімкнено.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Крок %step з %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Кроки</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Очищення</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Вимкнути</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Увімкнути</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Увімкнути статичну публікацію</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Тег</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Теги</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Ціль</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Цілі можна створювати й змінювати, але нічого не збирається і не публікується, доки її не ввімкнено.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Підказує пошуковим системам, що читати.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Не вдалося відхилити збірку: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Збірка така сама, як остання публікація: публікувати нічого.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Збірку відхилено: папка знову містить останню публікацію.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Типові значення підходять більшості сайтів.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Папка містить ще не опубліковану збірку; нова збірка її замінить.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Не вдається записати до папки завдань: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Не вдалося підготувати завдання: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Не вдалося запустити завдання.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Завдання завершено. Завантаження його звіту.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Завданню потрібен користувач, який увійшов.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Завдання запущено, але воно не повідомило ідентифікатор свого процесу. Перевірте %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Ключ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Найбільший файл: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Рядки, які буде записано</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Список сторінок для пошукових систем; потребує публічної адреси.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Сторінки отримуються так, як їх бачить відвідувач без входу. Доступи до сайту для адміністрування й редагування ніколи не пропонуються.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Не вдалося відстежити перебіг. Перезавантажте сторінку, щоб побачити, як іде завдання.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Публічна половина ключа:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Корінь гілки</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Сховище секретів ще не налаштовано (./console exp:upgrade --apply створює його таблицю), тож ключ не можна зберегти.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Сервер входить самостійно (власним SSH-ключем або помічником облікових даних), або репозиторій розміщено на цьому сервері.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Не вдалося записати налаштування: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Налаштування коректні. Буде записано такі рядки:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Не вдається прочитати файл налаштувань: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Сайт повертається до файлів тієї публікації; ще не опубліковану збірку спершу треба опублікувати або відхилити.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Власна сторінка сайту для адрес, яких не існує.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Не вдалося зберегти ціль: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Ціль ще не входить цим ключем: виберіть «Ключ розгортання, створений для цієї цілі» в її налаштуваннях.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Не вдалося прочитати цілі: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Збірки на перевірку ще немає.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Ця інсталяція не має публічного доступу до сайту. Доступи для адміністрування й редагування ніколи не публікуються.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Ця сторінка стежить за завданням у міру його виконання; після закриття сторінки воно продовжується у фоні.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Ця ціль ще не має ключа розгортання.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Цю ціль тут ще не збирали.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Ця ціль його має.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Відхиляє цю збірку: папка знову містить останню публікацію. Робочий сайт не змінюється.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Спершу позначте «Зміни перевірено».</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Час</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Тригери</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Ще раз введіть назву тегу</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Без змін</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Вебхук</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Що</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Що змінюється</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Що являє собою кожен файл; записується завжди.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Що зробило завдання і його журнал. Завдання, запущене тут, продовжується у фоні після закриття цієї сторінки.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Що завдання вивело як помилки</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Те, що називають сторінки, і кожне зображення опублікованого вмісту</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Коли</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Коли публікація не вдається</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Коли публікація вдається</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Коли публікується вміст</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Куди ведуть посилання на те, чого немає в копії (пошук, вхід).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Звідки віддається статична копія.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Який сайт публікується і як називається ціль.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Працює під будь-яким шляхом. Типово.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Записується щоразу, коли задано власний домен.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Так</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Тут і в консолі завжди можна зібрати й опублікувати вручну.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>лише назва; значення залишається в Налаштування &gt; Секрети</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>під %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>завершено без звіту</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>додатковий</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>не вдалося</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>файл</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages або main з папкою docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-хостинг</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (з токеном) або git@github.com:owner/repo.git (з ключем розгортання); ніколи не вказуйте в ній пароль чи токен.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, для карти сайту та канонічних посилань.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>зображення</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ніколи</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ні</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>немає віддаленого репозиторію</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>немає: коміти залишаються в папці</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>немає: нічого не змінилося</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>не надіслано</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>нічого не змінилося</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>сторінка</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>успішно</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open вимкнено, тож завдання тут запустити не можна. Скористайтеся ./console exp:static:build на сервері.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>публікація</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>опубліковано</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>очікує надсилання</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>надіслано</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>відхилено</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>відносні</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>відкат</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>відкочено</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>виконується</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>лише папка</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: записується до файлу CNAME. Спрямуйте DNS домену на хостинг так, як він пояснює; HTTPS може запрацювати не одразу.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>так, ще не опубліковано</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Застосунок GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Його публікує workflow репозиторію. Збірка записує файл workflow; залиште теку порожньою.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Після збереження цілі з репозиторієм GitHub і токеном або GitHub App цей крок може створити репозиторій і ввімкнути GitHub Pages. Інакше спочатку створіть репозиторій на GitHub; підійде й порожній.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Гілка чи GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Перевірити DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Створити репозиторій, якщо його немає</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Створіть репозиторій на GitHub і ввімкніть GitHub Pages у його налаштуваннях (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Створює репозиторій %repo, якщо його немає (якщо це запитано), вмикає GitHub Pages з гілки або з GitHub Actions, як збережено, і задає власний домен і HTTPS. Використовує збережені налаштування: спочатку збережіть зміни.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Подробиці на GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Спочатку введіть власний домен.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Кожен push спершу перевіряється на відповідність цим обмеженням.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Для адреси https:// на GitHub. Вхід виконує App, налаштований для цього встановлення; йому потрібен ідентифікатор встановлення.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages обслуговує приватний репозиторій лише на платному тарифі.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: піддомену (www.example.com) потрібен запис CNAME на &lt;owner&gt;.github.io; кореневому домену (example.com) — записи A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Ідентифікатор встановлення GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Остання збірка Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Обмеження та умови</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Потрібно для GitHub Pages на безкоштовному тарифі.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>На GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Лише з GitHub App: число в кінці адреси встановлення App на GitHub. Сам App задається в staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Приватний</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Публічний</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Спочатку збережіть ціль з репозиторієм GitHub і токеном або GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Задайте ці записи в постачальника домену:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Налаштувати на GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS домену %domain ще не вказує на GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS домену %domain вказує на GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Інтеграція з GitHub тут недоступна: %problem. Публікація в гілку однаково працює; увімкніть GitHub Pages у налаштуваннях репозиторію.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Кроки GitHub недоступні для цієї цілі: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Стан GitHub Pages показується, якщо облікові дані — токен або GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Використовувати власний домен</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Що вибрати: токен, ключ розгортання чи GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>З репозиторієм GitHub і токеном або GitHub App майстер може сам створити репозиторій, увімкнути GitHub Pages і задати домен (крок 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>збирається</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>зібрано</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>з GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>з гілки %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>поки немає</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>не знайдено</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>вимкнено</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>приватний</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>публічний</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>у черзі</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>невідомо</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count на %pages стор.:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Файл .gz (і .br) поруч із кожним текстовим файлом, для хостів, які їх віддають.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Невелика сторінка для кожної старої адреси та псевдоніма сторінки, щоб старі посилання продовжували працювати.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Записується завжди, коли сайт доставляє GitHub Actions.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Ідентифікатор SPDX, наприклад CC-BY-4.0, або сам текст.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Кошик</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Звернення до сервера</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Коментарі</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Форми, що збирають інформацію</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Робочий процес GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Менше пробілів і жодних коментарів на сторінках.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Ліцензія на вміст</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Вхід</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Мінімізація</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Інші форми</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Попереднє стиснення</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Сторінки перенаправлення</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Сторінки перенаправлення: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Пошук</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Пошуковий індекс: %pages стор. мовами: %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Таблиці стилів і скрипти, названі за хешем їхнього вмісту, щоб браузери могли їх зберігати.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Змінені сторінки, через кілька хвилин після останньої зміни (частина cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Ліцензія на вміст, з поля нижче.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Весь сайт, у часи розкладу (частина cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Цим частинам сторінок потрібен сервер; для кожної задано запасний варіант. Перевірте їх перед публікацією.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Що не працює статично</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Чим є репозиторій, для того, хто відкриває його на хості.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>пропущено</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>запасний текст</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>кінцева точка форм робочого сайту</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>робочий сайт</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>сторінка пошуку копії</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Не вдалося надіслати форму.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Дякуємо: форму надіслано.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Форму не прийнято: перевірте введене та надішліть її знову.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Видаляти посилання на сторінки, яких немає в копії</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Видаляти посилання в адміністрування</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Їхній текст залишається. Зображення, форми та посилання на інші сайти ніколи не видаляються.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версія</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Доступи до сайту для публікації</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Доступ до сайту</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>У корені</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Немає доступу в корені: кожен у своїй теці, а корінь посилається на них</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Доступи до сайту</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Позначте один доступ до сайту або кілька, що ділять один хост за своїм URI-префіксом. Той, що в корені, віддається там, решта — у теці свого префікса (/ger/); посилання між ними лишаються в копії. Адміністративні доступи ніколи не пропонуються.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Статична публікація %target на %site не вдалася</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Статична публікація %target на %site пройшла успішно</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Цей лист надіслав %site, бо його запитує ціль статичної публікації %target.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Розгортання %deploy на %site завершилося невдало</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Розгортання %deploy на %site очікує на контрольній точці</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Розгортання %deploy на %site пройшло успішно</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Цей лист надіслано сайтом %site, оскільки цього вимагає migration.ini [RemoteSettings] Notify[].</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Типи даних (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Підраховано %time, знову через %minutes хв</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Тип даних зберігає й редагує один вид значення атрибута класу: рядок тексту, зображення, зв'язок. Більшість із них надає ядро, розширення додають інші. Тут усі вони, хто їх надає і яка частина вмісту їх використовує. Тип даних, який використовує база даних, але вже ніщо не реєструє, ламає вміст, що його має.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Групи класів</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Перерахувати зараз замість використання підрахунків останніх хвилин.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Перерахувати</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Огляд</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Зареєстровано</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Використовується</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Не використовується</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Розширення, що надають типи даних</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Атрибути класу</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Атрибути об'єкта</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Не зареєстрований</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>У списку, файл відсутній</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count типів даних використовуються, але не зареєстровані</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes атрибутів класу та %object_attributes атрибутів об'єктів мають тип даних, який не реєструє жодне розширення чи налаштування. Їхні об'єкти не можна показати, редагувати чи опублікувати. Увімкніть розширення, яке надає цей тип даних, або змініть клас.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Показати лише ці</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Знайти тип даних</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Ідентифікатор, назва, клас PHP або розширення.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Показати</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Усі</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Надає</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Усі</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Ядро</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Жоден тип даних не відповідає цьому фільтру.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Показати все</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Розширення</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown з %count типів даних, %used використовуються</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>У базі даних є атрибути класів або об'єктів цих типів даних, але content.ini не містить жодного з них, або їхній файл відсутній.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Типи даних від %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Тип даних</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Клас PHP і файл</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Класи</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Об'єкти</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Позначки</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>немає</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Жоден тип даних не відповідає пошуку. Очистіть пошук.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Показано %shown з %count типів даних</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Показано типів даних: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Сортувати за %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Підраховано %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Усі типи даних</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Сторінка довідки</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Цей тип даних використовується, але не зареєстрований</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Об'єкти наведених нижче класів не можна показати, редагувати чи опублікувати, поки жодне розширення не реєструє цей тип даних. Увімкніть розширення, яке його надає, і додайте його до content.ini [DataTypeSettings] AvailableDataTypes[], або змініть класи.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini містить цей тип даних, але жоден каталог типів даних не має його файлу. Ніщо його не використовує; вилучіть його з AvailableDataTypes[] або увімкніть його розширення.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Про цей тип даних</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Ідентифікатор</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Назва</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Розширення %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ніхто</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Клас PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Файл</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>У AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>так</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ні</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Стовпці його значення</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Стовпці його налаштувань атрибута класу</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Таблиці</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Стовпці й таблиці визначено з коду типу даних: це орієнтир, а не гарантія.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Шаблони</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Доступ до сайту</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Шаблон</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Знайдено в</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>це адміністрування</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>типовий сайт</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Без перевизначень: шаблон перевизначення, що збігається за класом або атрибутом, має перевагу над цими.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Класи, що його використовують (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Жоден клас не має атрибута цього типу даних.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Клас</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Атрибути</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Атрибути класу (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Обов'язковий</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Доступний для пошуку</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Перекладний</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Збирає інформацію</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Частина вмісту, що його використовує</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Спочатку останні змінені</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Змінено</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Вузол %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Кожен переклад має власне значення.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Пошук індексує його значення.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Він може збирати інформацію від відвідувачів (форми).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Списки можна сортувати за ним: ключ сортування %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Сортування</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Його значення вказують на інші об'єкти.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Зв'язки</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Його можна заповнити зі звичайного рядка (імпорт, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>З тексту</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Його можна заповнити з файлу.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>З файлу</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Його налаштування атрибута класу потрапляють у пакети.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Пакети</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Вміст (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to із %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Фільтрувати список</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Усі класи</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Розділ</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Мови</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Власник</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Опубліковано</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Зворотний порядок</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Немає елементів</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>На сторінку</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Показувати %count елементів на сторінці.</translation>
     </message>
 </context>
 </TS>

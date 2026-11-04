@@ -20,6 +20,9 @@ The block `[ReauthGroup_account]` of `settings/site.ini`, with 2 setting(s).
 >                  pending account of an approval item of "Approve user accounts")  
 >   credentials    only when the POST changes the login, e-mail or password of a user  
 >   !module/view   never asked for this view (an exception to a module/\* rule)  
+>   bulk           only when several items are removed at once (BulkCount)  
+> A group may name UserGroups\[\] (content object ids of user groups): it then asks only  
+> their members; empty or missing: every user.  
 
 Never edit `settings/site.ini` itself: an update replaces it. Put the settings you change in an override, which wins over the shipped file:
 
@@ -43,7 +46,10 @@ Enabled=true
 
 ## Rules
 
-Default: a list of 6: `user/password self`, `user/passkeys *`, `user2fa/setup`, `apikey/list`, `content/edit self credentials`, `user/sessions self SaveMailButton`.
+> "Sign out all other sessions" asks first too: someone at an unattended screen must not lock the owner out  
+> "Secure your account" on the security activity signs every other session out, the same as above  
+
+Default: a list of 7: `user/password self`, `user/passkeys *`, `user2fa/setup`, `apikey/list`, `content/edit self credentials`, `user/sessions self SaveMailButton RevokeOthersButton`, `user/security self SecureButton`.
 
 ```ini
 <?php /* #?ini charset="utf-8"?
@@ -56,7 +62,8 @@ Rules[]=user/passkeys *
 Rules[]=user2fa/setup
 Rules[]=apikey/list
 Rules[]=content/edit self credentials
-Rules[]=user/sessions self SaveMailButton
+Rules[]=user/sessions self SaveMailButton RevokeOthersButton
+Rules[]=user/security self SecureButton
 */ ?>
 ```
 

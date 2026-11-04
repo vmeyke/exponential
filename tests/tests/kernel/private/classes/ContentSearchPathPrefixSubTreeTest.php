@@ -3,12 +3,13 @@
  * content/search without SubTreeArray is limited to the siteaccess's PathPrefix node:
  * \Exponential\View\Kernel\Content\Search::pathPrefixSubTreeArray(). No database: the URL alias lookup is a stub.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class ContentSearchPathPrefixSubTreeTest extends PHPUnit\Framework\TestCase
 {
     protected function setUp(): void

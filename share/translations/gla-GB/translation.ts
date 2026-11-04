@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Chan eil ach an duilleag seo ga lorg: %from gu %to à %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Gach seòrsa dàta aig an eitean is aig na leudachain, agus mar a chleachdas na clasaichean is an t-susbaint e.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Seòrsachan dàta</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Faodar comharran-lìn a chur ri duilleagan an t-siostaim cuideachd: fosglaibh an duilleag (Suidheachadh, an lorg sgrùdaidh, liosta chleachdaichean ...) agus taghaibh “Cuir comharra-lìn ris an duilleag seo” os a cionn. Tha ìomhaigheag gèar aig comharran-lìn mar sin.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Chan fhaod sibh an duilleag seo fhosgladh an-seo tuilleadh. Thoiribh air falbh an comharra-lìn, no iarraibh inntrigeadh air rianaire.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Rach dhan chiad duilleag</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Eile</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Na 7 làithean mu dheireadh</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Raon gnàthaichte</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Na faclan uile</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Facal sam bith</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Abairt cheart</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Buntainneas</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Ainm A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Ainm Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Atharraichte, as ùire an toiseach</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Atharraichte, as sine an toiseach</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Foillsichte, as ùire an toiseach</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Foillsichte, as sine an toiseach</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Atharraichte</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Criathragan</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Seall na criathragan</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Falaich na criathragan</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ath-shuidhich</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Cuir an sàs</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Faclan</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Seòrsa susbainte</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Seall barrachd (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Tagh aon seòrsa susbainte gus lorg a dhèanamh ann an aon dhe na buadhan aige.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Earrann</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Bho</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gu</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Chan eil an ceann-latha tòiseachaidh dligheach.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Chan eil an ceann-latha crìochnachaidh dligheach.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Sealbhadair</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID cleachdaiche, ainm clàraidh no seòladh puist-d.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Cha deach cleachdaiche a lorg airson “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Cànan</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Cànan sam bith</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ionad</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count ionadan</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Toraidhean gach duilleag</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Toraidhean airson “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Toraidhean (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Seòrsaich a rèir</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Seòrsaich</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Criathragan gnìomhach</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Thoir air falbh a' chriathrag seo</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>No tagh criathragan is cuir an sàs iad gus an t-susbaint a fhreagras riutha a liostadh.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Cuingichidh na criathragan an lorg nuair a bhios tu air faclan a sgrìobhadh.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Cha deach toradh a lorg airson “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Cha deach toradh a lorg.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Thoir air falbh criathrag gu h-àrd.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Eadar-theangachaidhean</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Gnìomhan</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Deasaich %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Deasaich</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Suidheachadh &gt; Obraichean cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Cha deach pàirt sam bith dhen cronjob a ruith fhathast: tha ciutha nan obraichean, na h-ion-phortaidhean, na brathan agus clàr-amais an luirg a&apos; feitheamh. Ruithibh php bin/php/installcrontab.php --add --apply, no cuiribh loidhnichean --show ris a&apos; crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Tha brathan còir-lethbhreac nan ùghdaran tùsail agus a' bhathair-bhog threas-phàrtaidhean a tha an lùib Exponential air an cumail sna faidhlichean tùsail agus san fhaidhle LICENSE, mar a dh'iarras an ceadachas.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Seo liosta de chom-pàirtichean Exponential a thug ceadachas air an cuid obrach airson a cleachdadh le 7x fo chumhachan an eZ Systems Contributor Licensing Agreement. Mar a cheadaicheas an t-aonta seo, sgaoilidh 7x gach com-pàirteachas às ùr fon aon cheadachas ris an fhaidhle anns a bheil an com-pàirteachas. Ainmichidh an liosta gach com-pàirtiche, fiosrachadh conaltraidh roghainneil agus na faidhlichean a chuir iad ris no ris an do chuir iad obair.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Com-pàirtichean a gheibh creideas airson an obrach air Exponential agus air a' bhathar-bhog às an do dh'fhàs e, leis na faidhlichean dhan do chuir iad. 'S e creideas a tha seo, chan e brath còir-lethbhreac: thèid tabhartasan do Exponential a ghluasad dhan Exponential Foundation agus gu 7x fon Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ An aire: Cha tèid na pacaidean a dhì-stàladh.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Feuchaibh Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Bithibh nur ball de Choimhearsnachd Exponential, iomlaidibh is cuiribh ris&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Còir-lethbhreac &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; agus feadhainn eile.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Le cumhachd &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Airson barrachd fiosrachaidh, faicibh &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Còir-lethbhreac &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; agus feadhainn eile.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Airson barrachd fiosrachaidh, faicibh &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Còir-lethbhreac &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; agus feadhainn eile.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Feuchaibh Exponential (o 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Bithibh nur ball de Choimhearsnachd Exponential, faighibh taic is cuiribh ris&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Còir-lethbhreac &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; agus feadhainn eile.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ An aire: Cha tèid na pacaidean a dhì-stàladh.</translation>
     <message>
         <source>Help center</source>
         <translation>Ionad na cobhrach</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Susbaint</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Duilleagan sgrìobhainn</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Cleachdaichean</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Clasaichean susbainte</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Rianachd</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Duilleag %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Seall na toraidhean uile</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count toraidhean</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Aon toradh</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count molaidhean</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Gun mholaidhean</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Cha b’ urrainn dhuinn na molaidhean a luchdadh.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Molaidhean</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ An aire: Cha tèid na pacaidean a dhì-stàladh.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>'S e taisbeanadh poblach a th' anns an stàladh seo: faodaidh fios a bhith aig duine sam bith air facal-faire an rianaire aige, agus cha ghabh faclan-faire rianairean atharrachadh no ath-shuidheachadh. Na cuiribh a-steach dad prìobhaideach an-seo.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ur n-uidheaman</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gnìomhachd tèarainteachd</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ An aire: Cha tèid na pacaidean a dhì-stàladh.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Stiùiridhean, lorg agus mar a nì sibh aithris air mearachd.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Susbaint o chionn ghoirid</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>An t-susbaint as ùire, na tha ga chumail airson lèirmheas, agus gnìomhan air taghadh.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ An aire: Cha tèid na pacaidean a dhì-stàladh.</translation>
         <source>Synchronisations</source>
         <translation>Sioncronachaidhean</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>An API GraphQL: a phuing-crìche, an sgeama agus raon-cluiche airson ceistean fheuchainn.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Imrichean</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Atharraichean air an stàladh air an cumail mar fhaidhlichean: an staid, na ruithean, ruith is cuir air ais.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Susbaint o chionn ghoirid</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>An t-susbaint as ùire, na tha ga chumail airson lèirmheas, agus gnìomhan air taghadh.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Foillsich lethbhreac stataigeach de làrach air GitHub Pages no air òstair git sam bith.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Foillseachadh stataigeach</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Seòrsachan dàta</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Gach seòrsa dàta aig an eitean is aig na leudachain, agus mar a chleachdas na clasaichean is an t-susbaint e.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ An aire: Cha tèid na pacaidean a dhì-stàladh.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Cunntasan nach cleachd duine no a dh'fheumas sùil; cuiribh à comas iad, thoiribh a' ghlas dhiubh no às-phortaichibh iad.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Loga sgrùdaidh nan cleachdaichean</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Cò a dh&apos;atharraich, a chlàraich a-steach no a chaidh a dhiùltadh, a rèir cunntais; criathraich is às-phortaich.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Aithisg a&apos; chlàraidh a-steach</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Cò tha air clàradh a-steach, clàraidhean a-steach agus fàilligidhean gach latha; cleachdaiche a chlàradh a-mach anns gach àite.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ An aire: Cha tèid na pacaidean a dhì-stàladh.</translation>
         <source>%n hours ago</source>
         <translation>%n uairean air ais</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Freagairtean cheistean glèidhte an API GraphQL, agus clasaichean susbainte an sgeama aige.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Foillsich lethbhreac stataigeach air GitHub Pages no air òstair git sam bith</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Foillseachadh stataigeach</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Bidh an tasgadan stataigeach a&apos; frithealadh dhuilleagan bhon fhrithealaiche seo. Gus lethbhreac stataigeach de làrach fhoillseachadh an àiteigin eile, air GitHub Pages no air òstair git sam bith, cleachdaibh am foillseachadh stataigeach.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ An aire: Cha tèid na pacaidean a dhì-stàladh.</translation>
     <message>
         <source>last purge</source>
         <translation>glanadh mu dheireadh</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Cha b&apos; urrainn do sgrìobhaidhean glas na staid a ghabhail (an turas mu dheireadh %date): rinn gach fear dhiubh a h-uile toradh san tasgadan seann-fhasanta. Feumaidh %file a bhith so-sgrìobhte do gach cleachdaiche fon ruith an làrach; air NFS feumaidh e NFSv4 no lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ An aire: Cha tèid na pacaidean a dhì-stàladh.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Thèid seiseanan làimhsichear PHP a dh'fhalbh à ùine a thoirt air falbh le PHP fhèin (session.gc_maxlifetime), chan ann leis an duilleag seo no le pàirt cronjob session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Tha seiseanan clàraichte a-steach gach cleachdaiche air an liostadh, agus air an clàradh a-mach, air aithisg a&apos; chlàraidh a-steach, a dh&apos;obraicheas le gach làimhsichear sheiseanan.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Fosgail aithisg a&apos; chlàraidh a-steach</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ ur cunntas a ghnìomhachadh.</translation>
     <message>
         <source>None yet</source>
         <translation>Chan eil gin fhathast</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gnìomhachd tèarainteachd</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Na clàraidhean a-steach as ùire agaibh, oidhirpean a dh&apos;fhàillig agus atharraichean air ur facal-faire, ur seòladh puist-d agus ur clàradh a-steach dà-cheumnach.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Na clàraidhean a-steach as ùire, oidhirpean a dh&apos;fhàillig agus atharraichean tèarainteachd a&apos; chunntais seo.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Dèan lèirmheas air a&apos; ghnìomhachd</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Clàraidhean a-steach a dh&apos;fhàillig: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Ma tha sibh airson beachdan a chur chun an neach-aontachaidh no an staid fhaicin
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Às dèidh clàradh a-steach, feumaidh an cleachdaiche facal-faire ùr a thaghadh mus dèan e dad eile. Cleachdaibh seo nuair a bheir sibh facal-faire sealach do chuideigin.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Tagh dealbh a tha ann mu thràth</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Thèid lethbhreac de dh’fhaidhle deilbh an oibseict a thaghas tu a chur san raon seo. Cha tèid an t-oibseact eile atharrachadh.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Chaidh lethbhreac de dhealbh “%name” a chur san raon seo.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Brabhsaich airson deilbh</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Lorg dealbhan a-rèir ainm</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Lorg</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Cleachd an dealbh aig “%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Cleachd an dealbh seo</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Chan eil dealbh sam bith a’ freagairt ris an lorg agad.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Faicibh duilleag nan riatanasan airson tuilleadh fiosrachaidh.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Cha deach an crontab a sgrìobhadh (%reason). Cuiribh na loidhnichean seo ri crontab a' chleachdaiche air a bheil an làrach a' ruith, air neo cha ruith an ciutha, na h-ion-phortaidhean, na brathan agus clàr-amais an luirg a-chaoidh:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Thèid ath-stàladh a dhèanamh leis a&apos; kickstarter (%file, an uairsin php bin/php/kickstarter.php run --apply) no le stàladh ùr.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ ur cunntas a ghnìomhachadh.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Tasgadan pacaiche phoblaich eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Tasgadan GraphQL (freagairtean agus clasaichean an sgeama)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ ur cunntas a ghnìomhachadh.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Lethbhreac de %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Seòrsachan dàta</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Seòrsa dàta %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ ur cunntas a ghnìomhachadh.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Cha b' urrainnear an dealbh SVG a leughadh, no chan eil dad ann a ghabhas a shealltainn gu sàbhailte.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Cha b’ urrainn dhuinn lethbhreac a dhèanamh dhen dealbh. Feuch ris a-rithist no cuir fios gu rianaire na làraich.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Chan eil an t-oibseact a thagh thu ann no chan fhaod thu a leughadh.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Chan eil dealbh aig an oibseact a thagh thu.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Cha b’ urrainn dhuinn faidhle deilbh an oibseict a thagh thu a leughadh.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Tha dealbh an oibseict a thagh thu nas motha na tha an raon seo a’ ceadachadh: %1 baidht.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ ur cunntas a ghnìomhachadh.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Chaidh ainm a' chomharra-lìn atharrachadh gu "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Tha an duilleag seo air a cur à comas san inntrigeadh làraich seo (%siteaccess). Fosglaibh an comharra-lìn ann an inntrigeadh làraich aig a bheil i.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Chan eil mòideal na duilleige seo air a stàladh no air a chur an comas an-seo.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Chan eil an duilleag seo ann tuilleadh: chan eil sealladh mar sin aig a mòideal.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Chan eil gin dhe ur dreuchdan a' leigeil leibh an duilleag seo fhosgladh.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Chan fhaod sibh an t-inntrigeadh làraich seo a chleachdadh.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Chan fhaod sibh an t-susbaint a tha an duilleag seo a' sealltainn a leughadh.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Cha ghabh comharra-lìn a chur ris an seòrsa duilleige seo: chan obraich i ach air foirm, no 's e duilleag aon mhionaid a th' innte.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Tha seòladh na duilleige seo a dhìth.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Cha ghabh an duilleag seo fosgladh an-dràsta.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Dhiùlt an gluasad puist %count teachdaireachd san ruith mu dheireadh. Thoiribh sùil air am frithealaiche puist agus site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Tachartasan a&apos; feitheamh: %count, agus chan eil ruith sam bith de chronjob nam brathan air a chlàradh. Cuiribh pàirt “frequent” a&apos; chronjob ris a&apos; crontab, no ruithibh exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Taghaibh làrach no earrann eile leis an neach-taghaidh nòd</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Chan urrainn ach do rianaire an t-siostaim an sealbhadair atharrachadh: ruithibh ./console exp:content-check --fix-permissions --apply mar root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
     <message>
         <source>empty</source>
         <translation>falamh</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Tha an iuchair-shoidhnidh nas sine na bliadhna: cuairtichibh i le exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
         <source>Share of page time</source>
         <translation>Cuibhreann de ùine na duilleige</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>chaidh reandaradh slàn iarraidh</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>cha robh an duilleag ann an tasgadan nan duilleagan (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>cha do fhreagair tasgadan nan duilleagan</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Air a reandaradh</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Air a reandaradh leis an eitean: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Air a lìbhrigeadh à tasgadan nan duilleagan ann an %ms ms. Chaidh an duilleag a stòradh aig %stored le reandaradh de %render ms, %age s air ais.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Reandaraich an-dràsta</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Air ais dhan t-sealladh on tasgadan</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>On reandaradh aig %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>An t-iarrtas seo: air a lìbhrigeadh à tasgadan nan duilleagan ann an %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Cleachdaiche</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID a' chleachdaiche</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Pròifil tasgadain</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>An sealladh seo</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Tasgadan sealladh</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>do gach cleachdaiche (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Pròifil tasgadain a' chleachdaiche: bidh cleachdaichean leis an aon phròifil a' co-roinneadh faidhlichean tasgadain nan seallaidhean</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>tha</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>chan eil</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Ainm-cleachdaiche</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Air a chlàradh a-steach</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Seisean</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Na pàirtean de dh'iuchair tasgadain seallaidhean na susbainte a tha an urra ris a' chleachdaiche, dìreach mar a ghabhas an iuchair iad, fo ViewCacheTweaks na duilleige seo. Bidh cleachdaichean leis an aon phròifil a' co-roinneadh faidhlichean tasgadain nan seallaidhean, ach ma tha pàirtean seallaidh fhèin eadar-dhealaichte (roghainnean, iuchraichean nan èisteachdairean): tha pròifil aca fhèin, airson na duilleige seo a-mhàin.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Pròifil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>An sealladh seo (nòd %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: tha faidhlichean tasgadain fhèin aig gach cleachdaiche a chlàraich a-steach.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks an sàs: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Pàirt</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Luach</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Chan eil pàirt sam bith an urra ris a' chleachdaiche (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>an sealladh seo</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Dèan lethbhreac mar theacsa</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Dreuchdan</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Cha b' urrainn dhuinn sònrachaidhean dhreuchdan a leughadh.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID na dreuchd</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Dreuchd</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Cuingeachadh</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Air a shònrachadh do</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>an cleachdaiche</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>buidheann %name (oibseact %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Lethbhreac air a dhèanamh</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Cha b' urrainn dhuinn lethbhreac a dhèanamh.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>air fhàgail às le èisteachdair</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Tadhalaichean gun ainm</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>co-ionann ris a' phròifil agad</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>eadar-dhealaichte</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>A' phròifil a gheibh aoighean gun ainm fon aon ViewCacheTweaks, leis na roghainnean bunaiteach, às aonais pàirtean an t-seallaidh: chan urrainnear faighneachd dhiubh do dh'èisteachdair a leughas an seisean.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Roghainnean</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Chan eil modh seallaidh sam bith an urra ri roghainnean a' chleachdaiche (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Na roghainnean air a bheil seallaidhean nam modhan seallaidh seo an urra (CachedViewPreferences), le luach a' chleachdaiche no am bun-roghainn. Tha iad sa phròifil mar userpreferences, an fheadhainn aig gach modh seallaidh còmhla.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Modh seallaidh</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Roghainn</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Bunaiteach</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Poileasaidhean</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Seall poileasaidhean nan dreuchdan (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Thèid na poileasaidhean a luchdadh on fhrithealaiche nuair a thèid an earrann seo fhosgladh, duilleag aig an aon àm, agus gabhaidh an criathradh a-rèir mòideil is foincsein.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Foincsean</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Gach mòideal</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>A h-uile foincsean</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Cuingeachaidhean</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Seall barrachd</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Chan eil poileasaidh sam bith aig na dreuchdan seo.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Chan eil poileasaidh sam bith a' freagairt ris a' chriathrag.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown à %matching poileasaidhean (%total uile gu lèir)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Thèid a luchdadh nuair a dh'fhosglas tu e.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, dreuchd, cuingealachadh</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Lorg sna poileasaidhean</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Luchdaich barrachd</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Mòideal/foincsean</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>A h-uile dreuchd (%count poileasaidhean)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Chan eil poileasaidh a' freagairt.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown à %matched poileasaidhean</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Chan eil freagairt ann</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>falaichte</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Seall mìneachaidhean</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Falaich mìneachaidhean</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Fosgail</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Fosgail na h-uile</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Dùin na h-uile</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Iuchair no luach</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Lorg san t-seisean</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Seòrsa</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count a bharrachd</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>neadaichte ro dhomhainn airson a shealltainn</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>air a ghearradh, %count caractar uile gu lèir</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Air tòiseachadh</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Ainm a' bhriosgaid</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID an t-seisein</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Làimhsichear</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Slighe sàbhalaidh</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Bun-roghainn PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Fad-beatha (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Briosgaid</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>fad-beatha %s diog</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>An seisean PHP agad fhèin, mar a bha e nuair a chaidh an earrann fhosgladh, chan e seisean eile idir. Thèid luachan nan iuchraichean a tha coltach ri rùintean dìomhair (tòcanan, hashes, faclan-faire) a mhasgadh (debugbar.ini SessionMask[]); thèid a h-uile càil eile a shealltainn mar a chaidh a stòradh, dàta pearsanta cuideachd.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count iuchraichean, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>mòr</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Tha an seisean falamh.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Cha deach seisean sam bith a thòiseachadh airson an iarrtais seo.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Leudachan %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Eitean is eile</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Chan eil a h-uile innteart ga shealltainn: tha barrachd san t-seisean na ghabhas liostadh an-seo.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Chan eil %count iuchraichean air an liostadh.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Frèam</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Thèid luachan a tha coltach ri tòcan (JSON Web Token, teisteasan bann-cinn Authorization, iuchair phrìobhaideach, teacsa hex no air thuaiream fada) a mhasgadh cuideachd, ge b' e dè an t-ainm a th' air an iuchair aca (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Tha an iuchair coltach ri rùn dìomhair (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Tha an luach coltach ri tòcan.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Fo iuchair mhasgaichte.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>An seisean mar theacsa, air a mhasgadh mar an clàr.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Tha an seisean nas motha na %size (debugbar.ini SessionWarnBytes): leughaidh gach iarrtas aig a' chleachdaiche seo an seisean air fad, agus sgrìobhaidh e e nuair a dh'atharraich e.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>Cumaidh PHP an seisean seo ann am faidhlichean agus glasaidh e am faidhle fad an iarrtais gu lèir: fuirichidh iarrtasan aig an aon chleachdaiche (iomadh taba, gairmean AJAX) ri chèile.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Cùm fosgailte</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Nas motha na %size (debugbar.ini SessionWarnBytes): leughaidh gach iarrtas aig a' chleachdaiche seo an seisean air fad.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits à %count air an leughadh on tasgadan</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Cha deach teamplaid sam bith a reandaradh (cha reandaraich sealladh a chaidh a leughadh o thasgadan nan seallaidhean gin).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Sònrachaidhean dhreuchdan</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Dreuchdan is poileasaidhean</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>eadar-dhealaichte o luchd-tadhail gun ainm</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>co-ionann ri luchd-tadhail gun ainm</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
     <message>
         <source>not sent</source>
         <translation>gun chur</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Clàraidh cronjob nam brathan gach ruith aige an-seo. Cuiribh am pàirt frequent ris a&apos; crontab, no ruithibh exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Cleachdaibh a&apos; chonsoil: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Chan eil an cuspair seo air a Sgaoileadh; chan fhaic luchd-leughaidh e.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Imrichean</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Atharraichean air an stàladh air an cumail mar fhaidhlichean: an staid, na ruithean, ruith is cuir air ais.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Foillsich lethbhreac stataigeach de làrach air GitHub Pages no air òstair git sam bith.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Foillseachadh stataigeach</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Ann an ath-sgrùdadh</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Chì luchd-leughaidh an duilleag seo.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Falaichte on luchd-leughaidh gus an sgaoil cuideigin i.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Tha an duilleag ann an Ath-sgrùdadh a-nis. Tha i falaichte on luchd-leughaidh gus an tèid a sgaoileadh.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Tha an duilleag air a sgaoileadh: chì luchd-leughaidh i a-nis.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Tha an duilleag na Dreachd a-rithist. Tha i falaichte on luchd-leughaidh gus an tèid a h-ath-sgrùdadh agus a sgaoileadh.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Sgaoil an-dràsta</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Chan fhaod ach cleachdaiche aig a bheil an dreuchd %role nach do sgrìobh an tionndadh seo a sgaoileadh.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Cuspairean cobhrach a’ feitheamh ri sgaoileadh</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Falaichidh seo on luchd-leughaidh e gus an tèid a sgaoileadh a-rithist.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Sgrùdaidh ath-sgrùdaire e an ath-thuras. Chan fhaic luchd-leughaidh e fhathast.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Chì luchd-leughaidh e sa bhad.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Bheir seo a-mach à ath-sgrùdadh e airson tuilleadh obrach. Chan fhaic luchd-leughaidh e.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>A bheil thu airson an duilleag seo fhalach on luchd-leughaidh?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>A bheil thu airson an duilleag seo a chur air ais gu Dreachd?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Chan fhaic luchd-leughaidh %title tuilleadh gus an sgaoil cuideigin e a-rithist.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>Thèid %title air ais gu Dreachd airson tuilleadh obrach. Chan fhaic luchd-leughaidh e fhathast, agus feumaidh e ath-sgrùdadh ùr mus tèid a sgaoileadh.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Sguir dheth</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Tha na cuspairean seo ann an Ath-sgrùdadh. Chì luchd-leughaidh iad nuair a sgaoileas cuideigin nach do sgrìobh an tionndadh làithreach iad.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
         <source>None.</source>
         <translation>Chan eil gin.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>le aplacaid dearbhaiche</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>le còd air post-d</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>le còd aisig</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>le iuchair-faire</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>le cunntas taobh a-muigh</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gnìomhachd tèarainteachd</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Ga shealltainn mar an lìonra aige; thèid an seòladh a chumail mar a dh&apos;iarras roghainnean dìon an dàta aig an làrach.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Gun chlàradh</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ionad</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>mu thuaiream</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
         <source>Manage devices</source>
         <translation>Stiùir na h-uidheaman</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>le aplacaid dearbhaiche</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>le còd air post-d</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>le còd aisig</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>le iuchair-faire</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>le cunntas taobh a-muigh</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gnìomhachd tèarainteachd</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Gun chlàradh</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ionad</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>mu thuaiream</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
         <source>View the sessions of this user</source>
         <translation>Seall seiseanan a' chleachdaiche seo</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Chaidh ur cunntas %login air %site a chleachdadh an-dràsta fhèin airson clàradh a-steach o àite nach do chlàraich e a-steach uaithe o chionn greis:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Ionad mu thuaiream</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser air %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Aithisg a&apos; chlàraidh a-steach</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Cha b' urrainnear an iuchair-faire a sgrùdadh. Feuchaibh a-rithist.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Chan urrainn do chunntasan a chlàraicheas a-steach le iuchraichean-faire a-mhàin facal-faire a chleachdadh an-seo: taghaibh “Clàraich a-steach le iuchair-faire”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Iuchraichean-faire %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Na h-iuchraichean-faire leis an clàraich an cunntas seo a-steach. Cùl-ghairmibh tè a tha air uidheam a chaidh air chall no a chaidh a ghoid: cha chlàraich i a-steach tuilleadh. Cuiridh an sealbhadair fhèin feadhainn ùra ris.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Feumaidh ur cunntas iuchair-faire</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Cuir iuchair-faire ris a&apos; chunntas agaibh</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Cuiribh iuchair-faire ris airson leantainn air adhart. An uair sin clàraichidh sibh a-steach leatha seach le facal-faire a-mhàin.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Tha clàradh a-steach le iuchair-faire nas luaithe is nas sàbhailte na facal-faire. Cuiribh tè ris an-dràsta, no leanaibh air adhart às a h-aonais.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Chan ann an-dràsta</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>A bheil sibh airson an iuchair-faire “%name” a chùl-ghairm?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Chan urrainn dhi clàradh a-steach dhan chunntas seo tuilleadh. Mas e an tè mu dheireadh a bh&apos; ann, clàraichidh an sealbhadair a-steach leis an fhacal-fhaire, no suidhichidh sibh fear ùr.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Cùl-ghairm an iuchair-faire</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Cùl-ghairm</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Chan eil iuchair-faire aig a&apos; chunntas seo.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Dearbhaiche</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Neo-aithnichte</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>An iuchair-faire mu dheireadh agaibh: cuiribh tè eile ris mus toir sibh air falbh i.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Clàraichidh an cunntas seo a-steach le iuchraichean-faire a-mhàin (poileasaidh nan iuchraichean-faire): mura bi tè air fhàgail, clàraichidh e a-steach leis an fhacal-fhaire aige a-rithist.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Seo an iuchair-faire mu dheireadh agaibh agus chan urrainn dhan chunntas agaibh clàradh a-steach às a h-aonais. Cuiribh iuchair-faire eile ris an toiseach.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Chaidh an iuchair-faire “%name” a chùl-ghairm. Chan urrainn dhi clàradh a-steach dhan chunntas seo tuilleadh.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
         <source>Code from your authenticator app</source>
         <translation>Còd o ur n-aplacaid dearbhaiche</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Tha sibh gu bhith a&apos; sguabadh às dàta gu buan no a&apos; falmhachadh loga.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Ur facal-faire agus iuchair-faire</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Ur facal-faire agus còd o ur n-aplacaid dearbhaiche</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>No:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Chan urrainn dhan bhrabhsair seo iuchraichean-faire a chleachdadh. Cleachdaibh dòigh eile, no brabhsair eile.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Nuair a leanas sibh air adhart, iarraidh am brabhsair agaibh tè de na h-iuchraichean-faire agaibh.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Lean air adhart le iuchair-faire</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
     <message>
         <source>Setup</source>
         <translation>Suidheachadh</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Atharrachadh an fhacail-fhaire, an t-seòlaidh puist-d, nan iuchraichean-faire, a&apos; chlàraidh a-steach dà-cheumnaich, nan còdan aiseig no nan iuchraichean API agad fhèin, agus clàradh a-mach air na h-uidheaman eile agad fhèin.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Cruthachadh is deasachadh chleachdaichean, am faclan-faire is an uidheaman, roghainnean chunntasan, aontachadh ri cunntasan cleachdaiche ùra no an diùltadh, sònrachadh dhreuchdan agus deasachadh phoileasaidhean.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>A&apos; sguabadh às dàta</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Falmhachadh an sgudail, toirt air falbh nithean às agus toirt air falbh grunn nithean aig an aon àm.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>A&apos; toirt air falbh, a&apos; foillseachadh is a&apos; sàbhaladh susbaint</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Toirt air falbh susbaint (cuideachd dhan sgudal), foillseachadh agus sàbhaladh dreachd; thèid fhaighneachd nuair a thèid am foirm a chur. Dheth a ghnàth.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Ro ghnìomh mothachail, dearbhaidh cleachdaiche a tha air clàradh a-steach cò e a-rithist: le fhacal-faire agus iuchair-faire, no gun iuchair-faire le fhacal-faire agus còd na h-aplacaid dearbhaiche aige. Chan fhaighnich ach na duilleagan-lìn: chan fhaighnich eadar-aghaidh REST, SOAP, WebDAV, clàradh a-steach expservices no an loidhne-àithne idir.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Far a bheil na roghainnean an sàs</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Roghainnean airson</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Gach inntrigeadh làraich</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>An t-inntrigeadh làraich %name a-mhàin</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Fosgail</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Cò dha a thèid fhaighneachd: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Cuiribh cromag ri buidhnean chleachdaichean airson faighneachd dhe na buill aca a-mhàin (deasaichean, mar eisimpleir). Gun chromag: gach cleachdaiche.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Air a shàbhaladh ann an settings/override/site.ini.append.php, airson gach inntrigeadh làraich. Iarraidh an sàbhaladh oirbh dearbhadh gur e sibh a th&apos; ann.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Air a shàbhaladh ann an settings/siteaccess/%name/site.ini.append.php. Bidh luach ann an settings/override os a chionn. Iarraidh an sàbhaladh oirbh dearbhadh gur e sibh a th&apos; ann.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Feumaidh sibh clas an nòd atharrachadh leis a' ghnìomh iomlaid.</translation>
     <message>
         <source>Open the page</source>
         <translation>Fosgail an duilleag</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from gu %to à %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Ainm clàraidh a-steach no ID cleachdaiche: an cunntas air an robh an tachartas no an cleachdaiche a rinn an gnìomh.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Cunntas</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Gnìomh</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Às dèidh</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Toradh sam bith</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ro</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Le</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Falamhaich</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Dèanta</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Thèid tachartasan a chumail fad %days là.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Thèid tachartasan a chumail gus an toirear air falbh iad le làimh.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Tachartasan</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Gnìomh sam bith</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>A h-uile tachartas aig a&apos; chunntas seo</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Às-phortaich an liosta mar CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Dh&apos;fhàillig e</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Bho</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Cuingich an liosta</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Chan eil tachartas a&apos; freagairt.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Air gach duilleag</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Tha an clàradh dheth ann an audit.ini ([UserAuditSettings] UserAudit); seallaidh an liosta na chaidh a chlàradh roimhe.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Air a dhiùltadh</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Toradh</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Seall</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tha clàr loga sgrùdaidh nan cleachdaichean a dhìth. Cruthaichibh e le php update/common/scripts/6.0/createuseraudittable.php; gus an uairsin, cumaidh na faidhlichean sgrùdaidh a h-uile tachartas.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Feumaidh an duilleag seo stòr-dàta SQL; chan eil i ri làimh air MongoDB. Cumaidh na faidhlichean sgrùdaidh a h-uile tachartas.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gu</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Loga sgrùdaidh nan cleachdaichean</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Cleachdaiche</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Cuin</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Càite</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Cò a dh&apos;atharraich, a chruthaich, a chuir an comas, a chuir à comas, a ghluais no a thug air falbh dè an cunntas, cò a chlàraich a-steach no a chaidh a dhiùltadh agus dè na dreuchdan a chaidh a shònrachadh: loidhne do gach tachartas, leis na raointean roimhe is às a dhèidh. Cha tèid faclan-faire no rùintean-dìomhair a chlàradh idir.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>buidheann</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>siostam</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>neo-aithnichte</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Dìon ur cunntas</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Chaidh còd aisig a chleachdadh airson clàradh a-steach dhan chunntas agaibh %login air %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Chaidh còd aisig a chleachdadh</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Cunntas</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Seòladh mu thuaiream</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Iarraibh facal-faire ùr gus clàradh a-steach a-rithist, no cuiribh fios gu rianairean na làraich.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Iarr facal-faire ùr</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Obraichidh gach còd aisig aon turas. Ma chaill sibh am fòn agaibh, suidhichibh an aplacaid dearbhaiche agaibh a-rithist agus cumaibh na còdan aisig ùra ann an àite sàbhailte.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Oidhirpean clàraidh a-steach a dh&apos;fhàillig air ur cunntas</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>O seo a-mach, iarraidh an clàradh a-steach còd a bharrachd air ur facal-faire. Mas e sibh fhèin a rinn seo, chan fheum sibh dad a dhèanamh.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Mas e sibh fhèin a bh&apos; ann agus ma dhìochuimhnich sibh ur facal-faire, iarraibh fear ùr. Mur e, taghaibh facal-faire nas làidire agus cuiribh air an clàradh a-steach dà-cheumnach.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Mur e sibh fhèin a bh&apos; ann, dh&apos;fhaoidte gu bheil cuideigin eòlach air ur facal-faire: atharraichibh e an-dràsta agus thoiribh sùil càite a bheil ur cunntas clàraichte a-steach.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Còdan aisig air fhàgail</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Dèan lèirmheas air ur n-uidheaman</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Rabhadh tèarainteachd</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Dh&apos;fheuch cuideigin ri clàradh a-steach dhan chunntas agaibh %login air %site le facal-faire cearr iomadh turas an dèidh a chèile (àireamh: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Thachair tachartas tèarainteachd air ur cunntas %login air %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Seo rabhadh tèarainteachd mu ur cunntas. Thèid a chur airson gach atharrachadh dhen leithid agus cha ghabh a chur dheth.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Àm</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Chaidh an clàradh a-steach dà-cheumnach a chur dheth airson ur cunntas %login air %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Chaidh an clàradh a-steach dà-cheumnach a chur dheth</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Chaidh an clàradh a-steach dà-cheumnach a chur air airson ur cunntas %login air %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Chaidh an clàradh a-steach dà-cheumnach a chur air</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Chaidh ur cunntas %login air %site a ghlasadh às dèidh cus chlàraidhean a-steach a dh&apos;fhàillig.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Chan eil ach ur facal-faire a&apos; dìon ur cunntais a-nis. Mur e sibh fhèin a rinn seo, cuiribh air an clàradh a-steach dà-cheumnach a-rithist às dèidh dhuibh ur facal-faire atharrachadh.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Chaidh ur cunntas a ghlasadh</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Chaidh iuchair-faire a chur ris a&apos; chunntas agaibh %login air %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Is urrainn do neach sam bith aig a bheil an iuchair-faire seo clàradh a-steach dhan chunntas agaibh gun ur facal-faire. Mura do chuir sibh fhèin ris i, thoiribh air falbh i fo Iuchraichean-faire agus atharraichibh ur facal-faire.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Chaidh iuchair-faire a thoirt air falbh on chunntas agaibh %login air %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Chan urrainn dhi clàradh a-steach dhan chunntas agaibh tuilleadh. Mura do thoir sibh fhèin air falbh i, thoiribh sùil air na h-iuchraichean-faire is na h-uidheaman agaibh.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Chaidh iuchair-faire a chur ris a&apos; chunntas agaibh</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Chaidh iuchair-faire a thoirt air falbh on chunntas agaibh</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Gnìomhachd tèarainteachd</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Gnìomhachd tèarainteachd a&apos; chleachdaiche %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Clàraichte a-steach</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Oidhirp clàraidh a-steach a dh&apos;fhàillig</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Clàraichte a-mach</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Seiseanan air an clàradh a-mach</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Clàradh a-steach o uidheam ùr</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Clàradh a-steach o ionad ùr</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Dearbh-aithne air a dearbhadh (“Dearbhaibh gur e sibh a th&apos; ann”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Dh&apos;fhàillig dearbhadh na dearbh-aithne</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Clàraichte a-steach le iuchair-faire</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Dh&apos;fhàillig an clàradh a-steach le iuchair-faire</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Chaidh an clàradh a-steach a dhiùltadh: tha an còd dà-cheumnach a dhìth no cearr</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Còd dà-cheumnach cearr</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cunntas glaiste às dèidh chlàraidhean a-steach a dh&apos;fhàillig</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Cunntas air a dhì-ghlasadh</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Facal-faire air atharrachadh</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Dh&apos;fhàillig atharrachadh an fhacail-fhaire</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Facal-faire air ath-shuidheachadh</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Facal-faire ùr air iarraidh</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Seòladh puist-d air atharrachadh</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Ainm-cleachdaiche air atharrachadh</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Clàradh a-steach dà-cheumnach air a chur air</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Clàradh a-steach dà-cheumnach air a chur dheth</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Còd aisig air a chleachdadh</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Còdan aisig ùra</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Facal-faire aplacaid air a chruthachadh</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Facal-faire aplacaid air a chùl-ghairm</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Iuchair-faire air a cur ris</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Iuchair-faire air a toirt air falbh</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Cunntas air a chur an comas</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Cunntas air a chur à comas</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Na h-uile</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Clàraidhean a-steach is seiseanan</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Atharraichean cunntais</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Feumach air aire</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>leibhse</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>leis a&apos; chleachdaiche</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>le %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Dòigh</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Brabhsair</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Siostam-obrachaidh</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Uidheam</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Àite</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Dùthaich</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Seiseanan</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Cò iad</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Seanail</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Oidhirpean a dh&apos;fhàillig</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Còdan air fhàgail</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Làimhsichear a&apos; chlàraidh a-steach</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gnìomhachd tèarainteachd</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Gnìomhachd tèarainteachd a&apos; chleachdaiche %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Clàraidhean a-steach agus atharraichean air tèarainteachd ur cunntais. Ma chì sibh rud nach do rinn sibh, atharraichibh ur facal-faire agus clàraichibh a-mach na h-uidheaman nach aithnich sibh.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Clàraidhean a-steach agus atharraichean air tèarainteachd a&apos; chunntais seo.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ur n-uidheaman</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Atharraich am facal-faire</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Air ais dhan chunntas</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Chan eil a&apos; ghnìomhachd tèarainteachd ga clàradh</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Thèid a leughadh o loga sgrùdaidh nan cleachdaichean, agus tha an clàr expuser_audit aige a dhìth no chan eil taic ris air an stòr-dàta seo. Ruithibh php update/common/scripts/6.0/createuseraudittable.php, no ùrachadh an stòir-dàta aig tionndadh 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Na làithean mu dheireadh: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Clàraidhean a-steach sna làithean mu dheireadh (%days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Gnìomhachd tèarainteachd o chionn goirid</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Seall</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>dh&apos;fhàillig e</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>air a dhiùltadh</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Cha deach gnìomhachd tèarainteachd sam bith a chlàradh fhathast.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Thèid tachartasan tèarainteachd a chumail fad àireamh de làithean: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Thèid tachartasan tèarainteachd a chumail gus an toir rianaire air falbh iad.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Luchdaich a-nuas an dàta clàraidh a-steach agam</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ur seiseanan is ur tachartasan tèarainteachd mar fhaidhle JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Chan eilear a’ clàradh sheiseanan air an làrach seo, mar sin cha b’ urrainnear inneal eile a chlàradh a-mach. Atharraichibh ur facal-faire an-dràsta.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Chaidh %count seiseanan eile a chlàradh a-mach. A-nis atharraichibh ur facal-faire.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Cha robh inneal eile air a chlàradh a-steach. A-nis atharraichibh ur facal-faire.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Tapadh leibh. Tha an tachartas air a chomharrachadh mar ur fear fhèin.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Chan fheum an tachartas sin freagairt.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Bha an duilleag air a dhol à ùine. Cha deach dad atharrachadh; feuchaibh a-rithist.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Dìon ur cunntas</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Mur e sibhse a bh’ ann an rud sam bith an-seo, clàraichibh a-mach gach inneal eile agus an uairsin taghaibh facal-faire ùr. Thèid innealan a dh’fhan clàraichte a-steach le Cuimhnich orm a chlàradh a-mach cuideachd.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Thèid gach inneal ach am fear seo a chlàradh a-mach leis an ath iarrtas aige. An uairsin taghaidh sibh facal-faire ùr.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Tha, clàraich a-mach na h-innealan eile</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>An e sibhse a bh’ ann?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Is e, b’ e mise a bh’ ann</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Chan e, dìon mo chunntas</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Clàraichte a-steach</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Oidhirp clàraidh a-steach a dh&apos;fhàillig</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Clàraichte a-mach</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Seiseanan air an clàradh a-mach</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Clàradh a-steach o uidheam ùr</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Clàradh a-steach o ionad ùr</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Dearbh-aithne air a dearbhadh (“Dearbhaibh gur e sibh a th&apos; ann”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Dh&apos;fhàillig dearbhadh na dearbh-aithne</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Clàraichte a-steach le iuchair-faire</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Dh&apos;fhàillig an clàradh a-steach le iuchair-faire</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Chaidh an clàradh a-steach a dhiùltadh: tha an còd dà-cheumnach a dhìth no cearr</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Còd dà-cheumnach cearr</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cunntas glaiste às dèidh chlàraidhean a-steach a dh&apos;fhàillig</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Cunntas air a dhì-ghlasadh</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Facal-faire air atharrachadh</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Dh&apos;fhàillig atharrachadh an fhacail-fhaire</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Facal-faire air ath-shuidheachadh</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Facal-faire ùr air iarraidh</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Seòladh puist-d air atharrachadh</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Ainm-cleachdaiche air atharrachadh</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Clàradh a-steach dà-cheumnach air a chur air</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Clàradh a-steach dà-cheumnach air a chur dheth</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Còd aisig air a chleachdadh</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Còdan aisig ùra</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Facal-faire aplacaid air a chruthachadh</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Facal-faire aplacaid air a chùl-ghairm</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Iuchair-faire air a cur ris</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Iuchair-faire air a toirt air falbh</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Cunntas air a chur an comas</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Cunntas air a chur à comas</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Na h-uile</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Clàraidhean a-steach is seiseanan</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Atharraichean cunntais</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Feumach air aire</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gnìomhachd tèarainteachd</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Gnìomhachd tèarainteachd a&apos; chleachdaiche %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Clàraidhean a-steach agus atharraichean air tèarainteachd ur cunntais. Ma chì sibh rud nach do rinn sibh, atharraichibh ur facal-faire agus clàraichibh a-mach na h-uidheaman nach aithnich sibh.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ur n-uidheaman</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Atharraich am facal-faire</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Chan eil a&apos; ghnìomhachd tèarainteachd ga clàradh air an làrach seo fhathast.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Clàraidhean a-steach sna làithean mu dheireadh (%days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Oidhirpean a dh&apos;fhàillig</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Cha deach gnìomhachd tèarainteachd sam bith a chlàradh fhathast.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Luchdaich a-nuas an dàta clàraidh a-steach agam</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ur seiseanan is ur tachartasan tèarainteachd mar fhaidhle JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Chan eilear a’ clàradh sheiseanan air an làrach seo, mar sin cha b’ urrainnear inneal eile a chlàradh a-mach. Atharraichibh ur facal-faire an-dràsta.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Chaidh %count seiseanan eile a chlàradh a-mach. A-nis atharraichibh ur facal-faire.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Cha robh inneal eile air a chlàradh a-steach. A-nis atharraichibh ur facal-faire.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Tapadh leibh. Tha an tachartas air a chomharrachadh mar ur fear fhèin.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Chan fheum an tachartas sin freagairt.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Bha an duilleag air a dhol à ùine. Cha deach dad atharrachadh; feuchaibh a-rithist.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Dìon ur cunntas</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Mur e sibhse a bh’ ann an rud sam bith an-seo, clàraichibh a-mach gach inneal eile agus an uairsin taghaibh facal-faire ùr. Thèid innealan a dh’fhan clàraichte a-steach le Cuimhnich orm a chlàradh a-mach cuideachd.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Thèid gach inneal ach am fear seo a chlàradh a-mach leis an ath iarrtas aige. An uairsin taghaidh sibh facal-faire ùr.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Tha, clàraich a-mach na h-innealan eile</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>An e sibhse a bh’ ann?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Is e, b’ e mise a bh’ ann</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Chan e, dìon mo chunntas</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Facal-faire</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Facal-faire agus còd dà-cheumnach</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Eadar-aghaidh REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Eadar-aghaidh SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Clàradh a-steach singilte</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Clàraichte a-steach mus deach seiseanan a chlàradh</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Aithisg a&apos; chlàraidh a-steach</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Cò tha air clàradh a-steach dhan làrach, dè cho tric &apos;s a bhios cunntasan a&apos; clàradh a-steach is a&apos; fàilligeadh, agus cleachdaiche a chlàradh a-mach anns gach àite. Obraichidh e le gach làimhsichear sheiseanan.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Chaidh an seisean a chlàradh a-mach. Feumaidh an t-uidheam clàradh a-steach a-rithist.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Chaidh %login a chlàradh a-mach à seiseanan (àireamh: %count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Cha robh seisean a&apos; ruith aig %login.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Chan eil an ID, an t-ainm-cleachdaiche no an seòladh puist-d sin aig cunntas sam bith.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Seo an seisean a tha sibh a&apos; cleachdadh. Airson crìoch a chur air, clàraichibh a-mach.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Bha an seisean sin air crìochnachadh mu thràth.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Bha an duilleag air falbh an ùine. Cha deach dad atharrachadh; feuchaibh ris a-rithist.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Chan eil seiseanan gan clàradh air an làrach seo (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tha an clàr expuser_session a dhìth</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Thèid seiseanan a chlàradh cho luath &apos;s a thèid a chruthachadh: php update/common/scripts/6.0/createusersessiontable.php, no ùrachadh an stòir-dàta aig tionndadh 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>An-dràsta is an-diugh</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Seiseanan a&apos; ruith</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Cleachdaichean clàraichte a-steach</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Clàraidhean a-steach an-diugh</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Oidhirpean a dh&apos;fhàillig an-diugh</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Clàraich cleachdaiche a-mach anns gach àite</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Thig crìoch air gach seisean dhen chunntas aig an ath-iarrtas aige, fiù &apos;s an fheadhainn a chumas “Cuimhnich orm”. Cleachdaibh seo nuair a dh&apos;fhaodadh cunntas a bhith anns na làmhan cearra; an uairsin ath-shuidhichibh am facal-faire aige.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID cleachdaiche, ainm-cleachdaiche no seòladh puist-d</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Clàraich a-mach anns gach àite</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Clàraichte a-steach an-dràsta</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Thathar a&apos; sealltainn an fheadhainn a chaidh a chleachdadh o chionn ghoirid, suas ri %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Cleachdaiche</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Uidheam</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Seòladh</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Clàraichte a-steach</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Gnìomhach mu dheireadh</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Gnìomhan</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>An t-uidheam seo</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Gun chlàradh</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Clàraich a-mach</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Chan eil seisean sam bith clàraichte a-steach.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Na làithean mu dheireadh: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Thèid clàraidhean a-steach agus oidhirpean a dh&apos;fhàillig a chunntadh o loga sgrùdaidh nan cleachdaichean, nach eil ann; thèid na seiseanan ùra a chunntadh.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Latha</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Clàraidhean a-steach</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Oidhirpean a dh&apos;fhàillig</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Seiseanan ùra</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Làimhsichear sheiseanan: %handler. Thèid na seiseanan a leughadh on chlàr expuser_session, mar sin obraichidh an aithisg le gach làimhsichear.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Gnìomhachd amharasach anns na %hours uairean a thìde mu dheireadh</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Dh’fhàillig air aon lìonra clàradh a-steach gu %accounts cunntasan (%count oidhirpean)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cunntas glaiste às dèidh clàraidhean a-steach a dh’fhàillig</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count clàraidhean a-steach a dh’fhàillig air aon chunntas</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Clàraichte a-steach à %count dùthchannan aig an aon àm</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gnìomhachd tèarainteachd</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Seiseanan</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Thèid clàraidhean a-steach a dh’fhàillig a leughadh à loga sgrùdaidh nan cleachdaichean, nach eil ri fhaighinn an-seo.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Chan eil dad amharasach: chan eil cunntas le clàraidhean a-steach a dh’fhàillig a-rithist is a-rithist, lìonra a’ feuchainn grunn chunntasan no cunntas clàraichte a-steach à grunn dhùthchannan.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Rabhadh tèarainteachd mu ur cunntas</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Thachair tachartas tèarainteachd air ur cunntas %login: %event. Mur e sibh fhèin a bh&apos; ann, dìonaibh ur cunntas aig %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Suidheachadh</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Iarr air susbaint na làraich seo dìreach na raointean a tha a dhìth air duilleag, ann an aon iarrtas. Tha an sgeama a' leantainn nan clasaichean susbainte; bidh gach ceist a' ruith le còraichean a' chleachdaiche a chuireas i.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>Tha an API GraphQL dheth san inntrigeadh làraich seo. Cuir air e ann an graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Chan eil an leabharlann GraphQL (webonyx/graphql-php 15) air a stàladh.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Puing-crìche</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Leabharlann</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Sgeama</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count clasaichean susbainte, sgeama %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Ceist</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Caochladairean (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ruith</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Freagairt</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>A' ruith…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Cha b' urrainn dhuinn an fhreagairt a leughadh.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Bidh a' cheist a' ruith le na còraichean agad, air do chlàradh a-steach leis an t-seisean seo.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count ann an %seconds diog</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>gun chrìoch</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Doimhne</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Iom-fhillteachd</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Nithean gach liosta</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (bun-roghainn %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Iarrtasan gach cleachdaiche no iuchair</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Iarrtasan gach seòladh gun ainm</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Ceistean glèidhte a-mhàin</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>A' cheist as motha</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes baidht</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>An luchdadh suas as motha</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Chan eil inntrigeadh làraich %siteaccess ann.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Tha na mùthaidhean air ann an %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Tha na mùthaidhean dheth ann an %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>Tha an API GraphQL air ann an %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>Tha an API GraphQL dheth ann an %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Cha b' urrainn dhuinn na roghainnean a sgrìobhadh: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Chaidh tasgadan nam freagairtean fhalamhachadh: chaidh %count freagairt a thoirt air falbh.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Cuir cromag sa bhogsa ri taobh na ceiste gus a toirt air falbh.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Cha b' urrainn dhuinn a' cheist a thoirt air falbh: thèid ceist a chaidh a libhrigeadh ann am pasgan de PersistedQueryDirectoryList[] a thoirt air falbh còmhla ri a faidhle.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Chaidh a' cheist ghlèidhte a thoirt air falbh.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mùthaidhean</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>air</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>dheth</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Inntrigidhean làraich</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Far am freagair an API is a mhùthaidhean. Sgrìobhaidh na putanan graphql.ini, mar a nì ./console exp:graphql:enable agus exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Inntrigeadh làraich</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Atharraich</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Cuir dheth</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mùthaidhean dheth</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mùthaidhean air</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Cuir air</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Crìochan</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] an inntrigidh làraich seo.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Tasgadan nam freagairtean</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Freagairtean nan ceistean glèidhte, air an cumail a rèir còraichean a' chleachdaiche agus a dh'fhalbhas an ùine orra nuair a thèid susbaint fhoillseachadh.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staid</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Freagairtean air an cumail</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count freagairt, %bytes baidht</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Air an cumail aig a' char as motha</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds diog</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Dh'fhalbh an ùine mu dheireadh</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Falamhaich tasgadan nam freagairtean</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Ceistean glèidhte</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Air an glèidheadh le ./console exp:graphql:persist, no le cliantan (ceistean glèidhte fèin-obrachail); air an gairm air ainm no SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Ainmean</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Meud</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Càite</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Thoir air falbh</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>air a libhrigeadh</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>glèidhte</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Tha, thoir a' cheist seo air falbh</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Chan eil ceist ghlèidhte ann fhathast.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Iuchraichean API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Iuchraichean API pearsanta leis an sgòp graphql:read (ceistean) no graphql:write (mùthaidhean). Cruthaich is cùl-ghair iad air an duilleag Inntrigeadh API, no le ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Inntrigeadh API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Gach iuchair</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Iuchair</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ainm</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Sealbhadair</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Sgòpaichean</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Air a chleachdadh mu dheireadh</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>gnìomhach</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>dh'fhalbh an ùine air</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>air a chùl-ghairm</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>chan ann idir</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Chan eil iuchair API le sgòp GraphQL ann fhathast.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Tha an API GraphQL dheth san inntrigeadh làraich %siteaccess, a tha a' sealltainn na duilleige seo; tha an clàr gu h-ìosal a' sealltainn càite am freagair e.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Airson an inntrigidh làraich %siteaccess, a tha a' sealltainn na duilleige seo.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Dubhain-lìn</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Thèid gach tachartas a dh'iarras puing-crìche (publish, update, trash, delete, move, hide, reveal, mutation) a chur thuice, soidhnichte, leis a' phàirt cronjob graphqlwebhooks. Nì ./console exp:graphql:webhooks an aon rud ris an earrann seo.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Tachartasan</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>na h-uile</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Gach inntrigeadh làraich</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>briste</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>gun dìomhair</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>A' feitheamh</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count air an leigeil seachad</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>An lìbhrigeadh mu dheireadh</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Cuir deuchainn</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Tha, thoir an dubhan-lìn seo air falbh</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Chan eil dubhan-lìn ann fhathast.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Cuir dubhan-lìn ris</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Cuir ris</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Lìbhrigidhean o chionn goirid</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Àm</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Toradh</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Fo-sgrìobhaidhean</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Ùrachaidhean beò do chliantan: sruth thachartasan aig /api/graphql/subscribe, agus WebSocket (graphql-transport-ws) air Velocity. Chan fhalbh gach tachartas ach gu fo-sgrìobhaichean aig a bheil cead an t-susbaint aige a leughadh.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Fosgailte an-dràsta</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Fosgailte air a' char as motha</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total uile gu lèir, %user gach cleachdaiche, %address gach seòladh</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Fo-sgrìobhaidhean gun ainm</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Faid an t-sruth</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Cha b' urrainn dhuinn an dubhan-lìn a chur ris: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Chaidh an dubhan-lìn %name atharrachadh; fanaidh an dìomhair soidhnidh aige.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Cha b' urrainn dhuinn an dìomhair soidhnidh a stòradh (Suidheachadh &gt; Dìomhaireachdan).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Chaidh an dubhan-lìn %name a chur ris. An dìomhair soidhnidh aige, ga shealltainn an turas seo a-mhàin: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Chan eil dubhan-lìn %name ann.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Cha do fhreagair an dubhan-lìn %name: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Fhreagair an dubhan-lìn %name %status ann an %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Cuir cromag sa bhogsa ri taobh an dubhain-lìn gus a thoirt air falbh.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Chaidh an dubhan-lìn %name a thoirt air falbh.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>Tha an API GraphQL dheth san inntrigeadh làraich seo.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Chan eil an leabharlann GraphQL air a stàladh.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Cleachd GET no POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Chan e oibseact JSON a th&apos; anns a&apos; bhodhaig.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>Chan e oibseact JSON a th&apos; ann an variables.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>Chan e oibseact JSON a th&apos; ann an extensions.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Cuir a&apos; cheist le POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Chan eil ceist sam bith san iarrtas.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Tha a&apos; cheist nas fhaide na %max baidht.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Mearachd taobh a-staigh an fhrithealaiche</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>Feumaidh node dìreach aon de id, remoteId, path agus urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>Feumaidh content dìreach aon de id agus remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Cha tàinig cùrsair after on API seo.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Chan eil alias deilbh %alias ann (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Cha ghabhar ach ri ceistean glèidhte an seo: cuir id ceist ghlèidhte.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Chan e SHA-256 a th&apos; ann an hais na ceist glèidhte.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Chan eil hais na ceist glèidhte a&apos; freagairt ris a&apos; cheist.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Cus iarrtasan: %limit air a&apos; char as motha ann an %window diogan. Feuch ris a-rithist an ceann %reset diogan.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Tha a&apos; cheist %depth ìrean a dhoimhne; tha %max ceadaichte air a&apos; char as motha.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Tha iom-fhillteachd %complexity aig a&apos; cheist; tha %max ceadaichte air a&apos; char as motha.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Chan fhaod an t-iarrtas seo an sgeama a leughadh (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>Feumaidh search teacsa no criathrag (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>Chan e ceann-latha a th&apos; ann an %argument (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>Feumaidh tag dìreach aon de id, remoteId agus path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>Feumaidh layout dìreach aon de id, identifier agus urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Chan e aon iarrtas JSON a th' ann an raon operations iarrtais multipart.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Chan e oibseact JSON a th' ann an raon map iarrtais multipart.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Chan eil faidhle %field san iarrtas multipart.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Feumaidh slighe de mhapa nan raointean tòiseachadh le variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Cha do ràinig am faidhle %name slàn (mearachd luchdaidh suas %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Tha am faidhle %name nas motha na %max baidht.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Cha b' urrainn dhuinn am faidhle %name a sgrùdadh.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Tha na mùthaidhean dheth san inntrigeadh làraich seo (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Cuir mùthadh le POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Clàraich a-steach gus susbaint atharrachadh.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Chan eil an sgòp %scope aig an iuchair API.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Feumaidh mùthadh le seisean tòcan foirm an t-seisein (bann-cinn X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>Tha uploadFromUrl dheth: chan ainmich graphql.ini [GraphQLSettings] UploadFromUrlHostList[] òstair sam bith.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Feumaidh an seòladh a bhith na sheòladh https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Chan eil an t-òstair %host ann an graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Cha b' urrainn dhuinn am faidhle fhaighinn.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Chan eil ann an Upload ach seòrsa ion-chuir.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Gabhaidh caochladair dhen t-seòrsa Upload ri faidhle iarrtais multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Tha an id cèin %remoteId ga chleachdadh mu thràth.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Tha eadar-theangachadh gu %language aig an t-susbaint mu thràth: cleachd updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Thoir seachad co-dhiù aon raon.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Cha b' urrainn dhuinn tionndadh ùr a dhèanamh (tha cus dreachdan aig an t-susbaint).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Chan e dreachd a th' ann an tionndadh %version.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>Feumaidh deleteContent dìreach aon de id agus nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Chan urrainn dhut ionad a ghluasad fodha fhèin.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Tha ionad fo %parentId aig an t-susbaint mu thràth.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Cha b' urrainn dhuinn luach an raoin %field a stòradh.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Chan eil cànan susbainte %language ann.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Chan eil clas susbainte %class san sgema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Chan eil an t-susbaint ann, no chan fhaod thu a leughadh.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Chan fhaod thu seo a dhèanamh ris an t-susbaint seo.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Chan eil raon %field as urrainnear sgrìobhadh ann aig a' chlas %class.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Chaidh an raon %field a thoirt seachad dà thuras.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Gabhaidh an raon %field ri faidhle: cuir e mar luchdadh suas (iarrtas multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Cha ghabh an raon %field ri faidhle.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Feumaidh an raon %field luach.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Tha am fòrmat %format do raointean teacsa bheairtich a-mhàin; gabhaidh %field ri a luach mar a tha e (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Tha an raon %field riatanach.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Cha b' urrainn dhuinn an HTML a leughadh.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>Cha ghabh content ri version ach còmhla ri id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Chan eil tòcan an ro-shealladh dligheach no dh'fhalbh an ùine air.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Chan e tùs a th' ann (https://host no https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Chan e sgòp an API GraphQL a th' ann: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Cuir fo-sgrìobhaidhean gu /api/graphql/subscribe (sruth thachartasan no WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Chan eil an t-iarrtas ag ainmeachadh obrachadh sam bith dhen sgrìobhainn.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Iarraidh fo-sgrìobhadh dìreach aon raon.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Tha cus fho-sgrìobhaidhean fosgailte; feuch ris a-rithist an ceann tamaill.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Tha %max fo-sgrìobhaidhean fosgailte agad, an àireamh as motha a tha ceadaichte.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Tha %max fo-sgrìobhaidhean fosgailte aig an t-seòladh agad, an àireamh as motha a tha ceadaichte.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Tha fo-sgrìobhaidhean dheth san inntrigeadh làraich seo.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Clàraich a-steach gus fo-sgrìobhadh (tòcan no iuchair API phearsanta).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Cuir mùthaidhean gu /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Imrichean</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Cha b&apos; urrainn dhuinn an inbhe a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Chan eil clàran nan imrichean ann fhathast: cruthaichidh ./console exp:upgrade --apply iad.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Dh&apos;fhàillig %count imrichean</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Tha ruith a&apos; dol, air a tòiseachadh le %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Tha an stàladh glaiste: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ri dhèiligeadh</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Dh&apos;fhàillig</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Dìlleachdain</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>An ruith mu dheireadh</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>gin fhathast</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>A h-uile imrich</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Ruith shamhlaichte</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Ruith-deuchainn</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Ruith na h-imrichean ri dhèiligeadh ann an tar-chur a chaidh a roiligeadh air ais an uairsin: cha deach dad a chumail. Gu h-ìosal tha na dh&apos;atharraich gach tè dhiubh san stòr-dàta.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Na dhèanadh ruith an-dràsta. Chan atharraichear dad: tha gach imrich ri dhèiligeadh a&apos; liostadh nan atharraichean a dhèanadh i, agus an ruith na dhèanadh i roimhe is às a dhèidh.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Samhlaich</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ruith</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Dh&apos;fhàillig an ruith-deuchainn: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Feumaidh samhlachadh PostgreSQL no SQLite, oir gabhaidh na h-atharraichean sgeama aca roiligeadh air ais; air an stòr-dàta seo, &apos;s e am plana gu h-ìosal na dhèanadh ruith.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Na h-imrichean</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Imrich</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staid</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Na dhèanadh i</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Samhlachadh: %result ann an %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Chan eil imrich ann fhathast.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ron ruith is às a dèidh</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Glacadh roimhe</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ga ghabhail, is ga aiseag ma dh&apos;fhàilligeas imrich</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>dheth</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Glacadh às a dhèidh</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ga ghabhail nuair a shoirbhicheas leis an ruith</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total imrichean: %pending ri dhèiligeadh, %done deiseil, %failed air fàilligeadh.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Eachdraidh nan imrichean</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Gach ruith le cleachdaiche, àrainneachd, glacaidhean agus na chaidh a ghealladh, a thagadh is a phutadh. Gabhaidh ruith a dh&apos;fhàillig no a chaidh a bhriseadh a leantainn air adhart; gabhaidh ruith le glacadh roimhe a thoirt air ais.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Cha b&apos; urrainn dhuinn na ruithean a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Chan eil clàran nan imrichean ann fhathast: cruthaichidh ./console exp:upgrade --apply iad.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Seall</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Na h-uile</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ruithean</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Air tòiseachadh</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Le</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Glacaidhean</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Ionad-tasgaidh</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Gnìomhan</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>roimhe</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>às a dhèidh</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>putadh: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Lean air adhart</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Thoir air ais</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Chan eil ruith san staid seo.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Air tòiseachadh an-seo</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Ruithean, leantainnean is toirt-air-ais a chaidh a thòiseachadh air na duilleagan seo, le aithisg gach fear.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Dè</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Toradh</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Toirt air ais</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Toirt air ais %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ruith %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Na rinn an ruith, an clàr is an loga aice. Leanaidh ruith a chaidh a thòiseachadh an-seo air adhart sa chùlaibh ma dhùinear an duilleag seo; fosgail an duilleag a-rithist gus a leantainn.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Lean air adhart leis an ruith seo</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Thoir an ruith seo air ais</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Cha b&apos; urrainn dhuinn an clàr a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Adhartas</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Air tòiseachadh le %user aig %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>A&apos; sgrùdadh a&apos; chòd is a&apos; gabhail glacadh ron ruith</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>A&apos; ruith %id (%index à %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done à %total deiseil</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Ruith na h-imrichean; ag aiseag a&apos; ghlacaidh ma dh&apos;fhàillig tè</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>A&apos; gabhail glacadh às dèidh na ruith, a&apos; gealladh, a&apos; tagadh is a&apos; putadh</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Ag aiseag a&apos; ghlacaidh</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Tha an ruith deiseil. A&apos; luchdadh na h-aithisg aice.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Cha b&apos; urrainn dhuinn an t-adhartas a leantainn. Ath-luchdaich an duilleag a dh&apos;fhaicinn ciamar a tha an ruith a&apos; dol.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Leanaidh an duilleag seo an ruith fhad &apos;s a tha i a&apos; dol.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ath-luchdaich</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Aithisg</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ùine</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms mille-diog</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Na sheall an ruith mar mhearachdan</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Clàr</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Àrainneachd</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>chan eil gin</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Air crìochnachadh</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Gealladh</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Taga</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Putadh</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Teachdaireachd</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Imrichean na ruith seo</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Tùs</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Loga na ruith</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Chan fhaicear ach deireadh an loga.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>a&apos; ruith</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>air crìochnachadh gun aithisg</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>shoirbhich leis</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>dh&apos;fhàillig e</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>air a dhiùltadh</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>cha robh an stòr-dàta ruigsinneach</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>mearachd taobh a-staigh</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Tha ruith a&apos; dol</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind air tòiseachadh le %user aig %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Lean e</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Tha an stàladh glaiste</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Tha a&apos; ghlas aig ruith eile (àrdachadh no ruith air a&apos; chonsoil): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>deiseil</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ri dhèiligeadh</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>cha leig a leas</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>neo-aithnichte</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>air a roiligeadh air ais</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>air a chur an sàs</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>rachadh a chur an sàs</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>air a thoirt air ais</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>rachadh a thoirt air ais</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>gun ruith</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>a&apos; feitheamh ri tè eile</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>atharrachadh air gabhail ris</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>rachadh gabhail ris an atharrachadh</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>air a shamhlachadh</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Imrichean</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Inbhe</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Eachdraidh</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Thoir air ais %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Thèid ruith a thoirt air ais chun a&apos; ghlacaidh a chaidh a ghabhail roimhpe, imrich shingilte leis an down() aice. &apos;S ann do eòlaichean a tha aiseag glacaidh nas tràithe. Ruithidh gach fear sa chùlaibh mar thusa, às dèidh glacadh dhen staid làithreach.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Cha b&apos; urrainn dhuinn leughadh dè ghabhas toirt air ais: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Ruith</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Aon imrich</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Glacadh nas tràithe</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Tuairisgeul</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>tha</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>chan eil</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Glacadh</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Leubail</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Air a ghabhail</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Seòrsa</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Pàirtean ri aiseag</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>An stòr-dàta</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Na faidhlichean stòraidh (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Na roghainnean (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Ma dh&apos;aisigear an stòr-dàta, thèid e air ais gu àm a&apos; ghlacaidh, seiseanan na lùib: dh&apos;fhaoidte gun iarrar ort clàradh a-steach a-rithist an uairsin. Thèid gach rud a dh&apos;atharraich on uair sin air chall; thèid glacadh dhen staid làithreach a ghabhail an toiseach.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Tha fios agam dè dh&apos;aisigeas seo</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Sgrìobh ID a&apos; ghlacaidh a-rithist</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Tha, thoir air ais e</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Sguir dheth</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Na ruithean le glacadh air a ghabhail romhpa.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Tagh</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Chan eil ruith le glacadh ann fhathast.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Na h-imrichean a chaidh a chur an sàs as urrainn iad fhèin a thoirt air ais (tha down() aca).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Chan eil down() aig imrich sam bith a chaidh a chur an sàs.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Glacaidhean nas tràithe (eòlaichean)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Chan eil glacadh ann fhathast.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Ruith na h-imrichean</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Leanaidh an ruith sa chùlaibh mar %user, agus seallaidh an duilleag aice i fhad &apos;s a tha i a&apos; dol. Ron chiad imrich thèid glacadh dhen stàladh a ghabhail; ma dh&apos;fhàilligeas imrich, stadaidh an ruith agus thèid an glacadh aiseag.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Ruith-deuchainn an toiseach</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Cha b&apos; urrainn dhuinn an inbhe a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Imrichean ri dhèiligeadh</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ruithidh iad san òrdugh seo. Thoir a&apos; chromag far tè gus a fàgail, cuide ris an fheadhainn a tha feumach oirre, airson ruith nas fhaide air adhart.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Ruith i</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Cuiridh e am modh obrach-glèidhidh air fhad &apos;s a tha e a&apos; ruith.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Air atharrachadh às dèidh an cur an sàs</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Chan e na faidhlichean seo an fheadhainn a chaidh a chur an sàs. Diùltaidh ruith iad mura gabhar ris an atharrachadh le adhbhar; cha ruith iad a-rithist, thèid an t-suim-dhearbhaidh ùr a chlàradh agus an t-adhbhar a chumail ann an loga an sgrùdaidh.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Gabh ris na h-atharraichean</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Carson</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>&apos;S e na bun-roghainnean an fheadhainn shàbhailte. Fàgaidh gach bogsa ceum às.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Gun ghlacadh</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Gun ghlacadh ron ruith no às a dèidh: cha ghabh fàilligeadh aiseag gu fèin-obrachail.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Gun aiseag</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Às dèidh fàilligidh, fàg an stàladh mar a dh&apos;fhàg am fàilligeadh e.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Cùm atharraichean nach deach a ghealladh</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Ruith fiù &apos;s ma tha atharraichean nach deach a ghealladh sna roghainnean, sna leudachain no sna dealbhaidhean; thèid iad dhan ghlacadh.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Gun ghealladh</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Na gabh gealladh air faidhle na h-inbhe is loga na ruith (gun taga is gun phutadh nas motha).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Gun phutadh</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Geall is taga, ach na put.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Gun taga</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Geall is put, ach na cuir taga ris an ruith.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Tha, ruith na h-imrichean seo an-dràsta</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Chan eil imrich ri dhèiligeadh.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Air ais dhan inbhe</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Atharraichean air an stàladh seo air an sgrìobhadh aon turas mar fhaidhlichean (susbaint, clasaichean, dreuchdan, roghainnean, sgeama) is air an cur an sàs air gach stàladh dhen làrach san aon òrdugh. Gabhaidh ruith glacadh an toiseach, aisigidh i e ma dh&apos;fhàilligeas imrich, agus clàraidh, gheallaidh is putaidh i na rinn i.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Ruith %count ri dhèiligeadh</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Foir-shealladh</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ri dhèiligeadh</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Deiseil</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Dh&apos;fhàillig</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Cha leig a leas</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Stòr-dàta</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>tar-chuir: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Tha imrichean na làraich ann am migrations/, feadhainn leudachain ann an extension/&lt;name&gt;/migrations/. Ruithidh iad a rèir òrdugh an ainmean is na tha iad feumach air.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>An ruith mu dheireadh</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Dh&apos;atharraich am faidhle às dèidh a chur an sàs.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Chan eil imrich ann fhathast. Sgrìobhaidh ./console exp:migration:generate --skeleton &lt;name&gt; --apply a&apos; chiad tè.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Na ruithean as ùire</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>A h-uile ruith</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Chan eil ruith ann fhathast.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Feumaidh samhlachadh ruith am poileasaidh migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Tha ruith a&apos; dol: samhlaich nuair a bhios i deiseil.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Suidheachadh</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>Chan e ruith, imrich no glacadh dhen stàladh seo a th&apos; ann an %target.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Cuir cromag ri “Tha, thoir air ais e” an toiseach.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>&apos;S ann do eòlaichean a tha aiseag glacaidh nas tràithe: cuir cromag ri “Tha fios agam dè dh&apos;aisigeas seo”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Sgrìobh ID a&apos; ghlacaidh a-rithist: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Tagh co-dhiù aon phàirt ri aiseag.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Chan eil glacadh ann ron ruith seo: thoir na h-imrichean aice air ais tè air thè, no aisig glacadh nas tràithe.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Chan urrainn dhan imrich seo i fhèin a thoirt air ais: cha deach a cur an sàs, no chan eil down() aice.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Cha b&apos; urrainn dhuinn am foirm a leughadh.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Tagh an ruith airson leantainn oirre.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Cuir cromag ri “Tha, ruith na h-imrichean seo an-dràsta” an toiseach.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Tagh co-dhiù aon imrich.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Dh&apos;atharraich imrich às dèidh a cur an sàs: gabh ris an atharrachadh le adhbhar, no cuir am faidhle air ais.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Thoir seachad an t-adhbhar airson gabhail ris na h-imrichean atharraichte.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Tha an t-adhbhar 500 caractar air a&apos; char as motha.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Tha ruith a chaidh a thòiseachadh an-seo fhathast a&apos; dol (%detail). Fuirich gus an crìochnaich i.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Tha glas an stàlaidh aig ruith eile: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Feumaidh an ruith cleachdaiche a tha ann &apos;s a chlàraich a-steach.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Cha deach prògram loidhne-àithne php a lorg. Suidhich migration.ini [AdminSettings] PhpCliPath air an t-slighe shlàn aige.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>Tha proc_open à comas, mar sin chan urrainnear ruith a thòiseachadh an-seo. Ruith ./console exp:migration:migrate --apply air an fhrithealaiche.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Cha ghabh sgrìobhadh ann am pasgan nan ruithean: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Chaidh an ruith a thòiseachadh ach cha do dh&apos;innis i ID a pròiseis. Thoir sùil air %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Ainmich na tha ri thoirt air ais.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Cha b&apos; urrainn dhuinn an ruith a thòiseachadh.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Atharraichean a chlàradh</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Fhad 's a tha clàradh a' dol, thèid na dh'atharraicheas tu san rianachd no ann am bàr-taoibh na làraich a ghleidheadh mar cheuman imrich: susbaint, clasaichean, dreuchdan is poileasaidhean, earrannan, cleachdaichean is buidhnean, ailias URL, roghainnean. Cuir stad air nuair a bhios tu deiseil, thoir sùil air na ghlac e agus gin imrich às.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Cha b' urrainn dhuinn na clàraidhean a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Chan eil clàran nan clàraidhean ann fhathast: ruith an t-àrdachadh an toiseach (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Tha an clàradh dheth ann am migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Na h-atharraichean agam</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Cha chlàraich e ach na dh'atharraicheas tusa, ge b' e càite, gus an cuir thu stad air.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Clàradh</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>bho %time, %count atharrachadh gu ruige seo.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Leubail (roghainneil)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Seall na ghlac e</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Cuir stad air a' chlàradh</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Tòisich air na h-atharraichean agam a chlàradh</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Uinneag airson na làraich gu lèir</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Clàraidh e gach atharrachadh aig gach cleachdaiche is aig a' chonsoil gus an tèid a dùnadh. Nuair a dh'fhosglas tu i, thèid iarraidh ort dearbhadh gur tusa a th' ann.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Fosgailte</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Dùin an uinneag</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Fosgail an uinneag airson na làraich gu lèir</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Clàraidhean</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Cha tèid cunntas cleachdaiche (ainm clàraidh a-steach, post-d, facal-faire) no raointean nan cunntasan cleachdaiche a chlàradh gu bràth.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Atharraichean</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>An làrach gu lèir</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Atharraichean %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Air stad</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Chan eil clàradh ann fhathast.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Clàradh %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Na clàraidhean uile</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>An imrich a thigeadh às</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Na h-atharraichean air an cruinneachadh gu aon cheum airson gach rud a dh'atharraich: na dhèanadh imrich a ghineadh bhon chlàradh seo.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Gabhaidh imrich a ghintinn às nuair a bhios seòrsaichean cheuman YAML %types aig an stàladh seo.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Air fhàgail a-mach a dh'aon ghnothach: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Cha deach dad a chlàradh.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Na ghlac e</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count atharrachadh, san òrdugh san deach an dèanamh.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Atharrachadh</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Ceum</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Mu dhèidhinn</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count eile: liostaichidh ./console exp:migration:record:show iad uile.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tilg air falbh</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Thoir air falbh an clàradh agus na ghlac e. Fanaidh na chaidh atharrachadh air atharrachadh.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Tha, tilg an clàradh seo air falbh</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>A' clàradh…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Tha na h-atharraichean agad gan clàradh airson imrich.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Tha gach atharrachadh air an làrach seo ga chlàradh airson imrich (uinneag airson na làraich gu lèir).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Thòisich clàradh na làraich gu lèir: thèid gach atharrachadh aig gach cleachdaiche a chlàradh gus an cuir thu stad air.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Thòisich an clàradh: thèid na h-atharraichean agad a chlàradh gus an cuir thu stad air.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Chaidh stad a chur air a' chlàradh. Fanaidh na ghlac e gus an tilg thu air falbh e.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Chaidh an clàradh 's na tachartasan aige a thoirt air falbh.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Chan eil clàradh %id ann.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Cuir cromag ri "Tha, tilg an clàradh seo air falbh" an toiseach.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Chan fhaod ach an cleachdaiche a rinn an clàradh stad a chur air clàradh seisein.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Tagh an clàradh air an tèid stad a chur.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Tha clàradh dhen t-seòrsa seo a' dol mu thràth.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Cha b' urrainn dhuinn an clàradh atharrachadh: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Gin imrich</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Ainm na h-imrich (roghainneil)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Chaidh an imrich %file a sgrìobhadh. Tha atharrachaidhean nach urrainn do cheum sam bith a dhèanamh air an ainmeachadh aig mullach an fhaidhle, rin dèanamh le làimh.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Cha deach imrich sam bith a sgrìobhadh: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Ruith fhada ann am pàirtean</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Bidh na raointean falamh a' cumail roghainnean migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Cho mòr ri an uiread seo de ghluasadan imrich</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Gun imrich eile às dèidh (diogan)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Stad eadar imrichean (diogan)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Prìomhachas nas ìsle (1 gu 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Tha raon ruith fhada na àireamh slàn bho 1 (an stad: diogan bho 0 gu 60, am prìomhachas: 1 gu 19), no falamh.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Dùinidh e fhèin aig %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Dùin e fhèin an dèidh (mionaidean, roghainneil)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Tha na mionaidean nan àireamh slàn bho 1 gu 44640 (31 latha), no falamh.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Imrich %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Imrich ùr</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Imrich YAML: sgrìobh i mar theacsa no tog a ceuman san fhoirm, dearbhaich i, agus an uair sin sàbhail i ann am pasgan imrichean.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Chaidh an imrich seo a ruith mar-thà, mar sin cha tèid a sàbhaladh a-rithist: dhiùltadh freiceadan an t-suim-dhearbhaidh faidhle atharraichte. Dèan an t-atharrachadh ann an imrich ùr.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Chan urrainn dhan fhrithealaiche-lìn am faidhle a sgrìobhadh.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>'S e na loidhnichean beachd aig a' bharr am bann-cinn (description, author, requires, environments, engines). Nuair a thèid ceum a chur ris no atharrachadh san fhoirm, thèid an imrich a sgrìobhadh às ùr: cha tèid na beachdan eadar na ceuman a ghlèidheadh.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Ainm na h-imrich</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Càit an tèid i</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>An làrach</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Teacsa YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Dearbhaich</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Sàbhail</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Ceuman</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Iuchraichean</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Deasaich</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Gluais suas</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Gluais sìos</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Thoir air falbh</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Chan eil ceum ann fhathast: cuir fear ris leis an fhoirm, no sgrìobh iad san teacsa.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Atharraich ceum %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Cuir ceum ris</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Tha foirm ceuma ga dhèanamh à seòrsa a' cheuma: na h-iuchraichean aige, na ghabhas gach tè dhiubh agus na modhan dham buin e.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Seòrsa a' cheuma</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Seall am foirm aige</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Tha iuchraichean aig a' cheum nach aithne dha sheòrsa; thèid am fàgail às nuair a thèid an ceum atharrachadh: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modh</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Ann an</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>dìreach ann an %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Bun-roghainn: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Cumhaichean, iomraidhean agus beachd</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Paidhrichean Ainm=luach air an sgaradh le cromagan. Luachan a' cheuma seo: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Eisimpleir</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Atharraich an ceum</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Cuir an ceum ris</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Na tha exp:migration:check ag ràdh: am bann-cinn, an sgrìobhainn agus gach ceum air a dhearbhadh le a sheòrsa ceuma.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Tha an imrich a' dol tron dearbhadh.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ro-shealladh</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>An YAML mar a thèid a shàbhaladh.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Seall an YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Imrichean YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>air ruith</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Chan eil imrich YAML ann fhathast.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Deasaiche</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Chan eil imrich YAML %id ann am pasganan nan imrichean.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Tagh seòrsa ceuma.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Chaidh an ceum a chur ris. Dearbhaich an imrich mus sàbhail thu i.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Chaidh an ceum atharrachadh. Dearbhaich an imrich mus sàbhail thu i.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Tagh ceum.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Chan eil foirm aig a' cheum seo (lùb, no seòrsa ceuma nach eil aig an stàladh seo): atharraich e san teacsa.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Tagh càit an tèid an imrich: an làrach no leudachan gnìomhach.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Chaidh %file a shàbhaladh. Dèan ruith-deuchainn mus ruith an imrich.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Cha deach a shàbhaladh: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Ionadan cèin</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Na stàlaidhean eile dhan sgaoil an tè seo a h-imrichean: cuiridh sgaoileadh na h-imrichean dha na h-ionadan cèin a chaidh a thaghadh agus ruithidh e iad an sin, uile aig an aon àm agus co-shioncronaichte. Cha chum ionad cèin rùn-dìomhair idir: ainmichidh an teisteas aige fear ann an Suidheachadh &gt; Rùintean-dìomhair.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Ionad cèin ùr</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Cobhair</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Deuchainn ceangail %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Na h-ionadan cèin</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Thèid obrachadh air suas ri %parallel ionadan cèin aig an aon àm; faodaidh ceum %timeout diogan a thoirt air gach fear.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Ionad cèin</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Seòladh</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Teisteas</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Buidhnean</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>roghainnean ri chàradh</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>faidhlichean a-mhàin (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Iuchair SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Facal-faire</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>chan eil gin (àidseant SSH agus iuchraichean an òstair)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Feuch an ceangal</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Thèid sgaoileadh gu buidheann gu gach ionad cèin aice.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Sgaoil gu ionadan cèin</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Chan eil ionad cèin air a shuidheachadh fhathast.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Ionad cèin %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Cha tèid dad a chur no a ruith an seo: sgrìobhaidh “Sàbhail” na roghainnean gu settings/override/migration.ini.append.php. ’S e ainm a th’ anns an teisteas; fanaidh a luach ann an Suidheachadh &gt; Rùintean-dìomhair no san àrainneachd.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Sgrùdaibh na roghainnean seo</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Na roghainnean mar a chaidh an cur a-steach, gun sàbhaladh fhathast.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Lèirmheas</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Tha na roghainnean dligheach. Thèid na loidhnichean seo a sgrìobhadh:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Giùlan</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ainm a-mhàin; fuirichidh an luach ann an Suidheachadh &gt; Rùintean-dìomhair</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Na loidhnichean a thèid a sgrìobhadh</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Ceangal</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Iuchair an òstair</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. An t-ionad cèin</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Dè an t-ainm a th’ air an ionad chèin agus dè an àrainneachd a th’ ann.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Litrichean, àireamhan, - agus _, mar eisimpleir production1. Ainmichidh e an t-ionad cèin ann an aithisgean agus air a’ chonsoil (--remotes=production1) agus chan urrainnear atharrachadh às a dhèidh.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Thèid sgaoileadh ann an ìrean tro na h-àrainneachdan san òrdugh seo.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Roghainneil, air an sgaradh le cromagan, mar eisimpleir production. Thèid sgaoileadh gu buidheann gu gach ionad cèin aice.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. An ceangal</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Ciamar a ruigeas na faidhlichean an sin, agus càite a bheil an stàladh.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Thar SSH, dìreach na dh’atharraich, agus leanar air gluasad briste. An roghainn as fheàrr far a bheil rsync air a stàladh.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH le scp airson nam faidhlichean.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH le sftp airson nam faidhlichean.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Faidhlichean a-mhàin: thèid na h-imrichean a chur is a leughadh air ais, ach chan urrainnear an ruith an sin.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP thar TLS; faidhlichean a-mhàin.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Stàladh eile air an fhrithealaiche seo, ann am pasgan.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Òstair</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Ainm òstair no seòladh, mar eisimpleir node1.example.com. Chan ann airson local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Falamh: 22 airson SSH, 21 airson FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Cleachdaiche</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Slighe</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Freumh an stàlaidh an sin, mar eisimpleir /var/www/site (airson FTP: an t-slighe a chì an cunntas FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Loidhne-àithne PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>An PHP CLI an sin: php, no slighe shlàn mar /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Ruithidh na sgriobtaichean consoil an sin mar root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Dìreach nuair as e root cleachdaiche an ionaid chèin (thèid an ruith an uair sin le --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. An teisteas</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Ciamar a chlàraicheas an stàladh seo a-steach an sin. Cha tèid ach ainm a shàbhaladh.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Chan eil gin</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Àidseant SSH agus iuchraichean a’ chleachdaiche fon ruith an stàladh seo (agus an-còmhnaidh airson local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Iuchair phrìobhaideach air a cumail mar rùn-dìomhair.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Facal-faire air a chumail mar rùn-dìomhair (clàraidh FTP a-steach le fear).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Ainm an rùin-dhìomhair</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Rùn-dìomhair o Suidheachadh &gt; Rùintean-dìomhair, mar eisimpleir deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Suidheachadh &gt; Rùintean-dìomhair</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>No caochladair àrainneachd</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>An caochladair aig pròiseas an fhrithealaiche anns a bheil e, mar eisimpleir DEPLOY_KEY (air a shàbhaladh mar env:DEPLOY_KEY). Gabhaidh e àite ainm an rùin-dhìomhair.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Iuchair an òstair</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Roghainneil, airson SSH, sftp agus rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Lorg-meòir iuchair an òstair</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... mar a chlò-bhuaileas ssh-keygen -l e. Leis, feumaidh an t-òstair an iuchair seo a shealltainn; às aonais, thèid an iuchair ionnsachadh aig a’ chiad cheangal.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Lèirmheas</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Feuch an ceangal leis na roghainnean gu h-àrd, an uair sin dèan lèirmheas air na loidhnichean a thèid a sgrìobhadh.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Thoir air falbh an t-ionad cèin seo</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Thèid na roghainnean aige a thoirt à settings/override/migration.ini.append.php. Chan atharraich dad air an ionad chèin, agus fanaidh na sgaoilidhean aige san eachdraidh.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Tha, thoir air falbh an t-ionad cèin seo</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Sgaoilidhean</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Cuiridh sgaoileadh imrichean an stàlaidh seo dha na h-ionadan cèin a chaidh a thaghadh agus ruithidh e iad an sin mar %user, uile aig an aon àm agus co-shioncronaichte: thèid gach ionad cèin a sgrùdadh an toiseach, agus ma dh’fhàilligeas fear, thèid gach ionad cèin a chuir an sàs iad a thoirt air ais. Bidh e a’ dol air adhart sa chùlaibh, agus seallaidh an duilleag aige gach ionad cèin fhad ’s a bhios e a’ dol.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Na h-ionadan cèin</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Cuir strìochag ri ionadan cèin, buidheann no an dà chuid.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Sgaoil thuige</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Ciamar</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Sgaoil</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Cuir is ruith</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Thèid na h-imrichean a chur, a dhearbhadh agus a ruith air gach ionad cèin le aon ID ruith co-roinnte.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Gluasad a-mhàin</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Thèid na faidhlichean a chur is a dhearbhadh, cha tèid dad a ruith (an aon dòigh airson ionad cèin FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Ann an ìrean</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Ìre air ìre ann an òrdugh nan àrainneachdan (dev, stage, beta, production ...): thèid a’ chiad ìre a sgaoileadh, an uair sin feithidh geata gus an aontaich cuideigin ris an ath thè. A h-uile càil no càil idir taobh a-staigh gach ìre.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Na h-imrichean seo a-mhàin</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Roghainneil: IDs nan imrichean, air an sgaradh le cromagan. Falamh: gach imrich aig an làrach is aig na leudachain aice.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Ro-sgrùdadh a-mhàin</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Tha, sgaoil an-dràsta</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Na sgaoilidhean a chuir no a ruith rudeigin, an fheadhainn as ùire an toiseach (cha chum ro-sgrùdadh aithisg).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>gluasad a-mhàin</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ann an ìrean, %stages ìrean</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>gun cho-shioncronachadh</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Chan eil sgaoileadh ann fhathast.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Sgaoileadh %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Gach ionad cèin den sgaoileadh le a staid. Leanaidh sgaoileadh a thòisich an seo air adhart sa chùlaibh nuair a thèid an duilleag seo a dhùnadh; fosgail an duilleag a-rithist gus a leantainn.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Gach sgaoileadh</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Ro-sgrùdadh</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>An ath ìre</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>A’ sgrùdadh nan roghainnean agus nan teisteasan</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Ro-sgrùdadh: a’ leughadh staid gach ionaid chèin</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>A’ cur faidhlichean nan imrichean</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>A’ dearbhadh na ràinig</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>A’ ruith nan imrichean air gach ionad cèin</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>A’ toirt nan ionadan cèin air ais</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Tha an sgaoileadh deiseil. A’ luchdadh na h-aithisg aige.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Cha b’ urrainnear an adhartas a leantainn. Ath-luchdaich an duilleag gus faicinn ciamar a tha an sgaoileadh a’ dol.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Ceum</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Leanaidh an duilleag seo an sgaoileadh fhad ’s a bhios e a’ dol.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Co-shioncronaichte</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Ìrean</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>tha ìre %stage a’ feitheamh aig a geata</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Geata %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>air aontachadh le %user aig %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Ìre</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Faidhlichean air an cur</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Tionndadh a’ kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>air a chur an sàs: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ri chur an sàs: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Ceuman</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Geata: ìre %stage à %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Chaidh na h-ìrean roimhe a sgaoileadh. Sgrùd iad, an uair sin aontaich ris an ath ìre: thèid na h-ionadan cèin aice a sgrùdadh a-rithist agus a sgaoileadh, a h-uile càil no càil idir.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Air adhart</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Tha, sgaoil an ath ìre an-dràsta</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aontaich</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Thoir an sgaoileadh seo air ais</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Tillidh gach ionad cèin a chuir an sàs e (%list) dhan ghlacadh a chaidh a ghabhail ron ruith aige, uile aig an aon àm.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Tha, thoir an sgaoileadh seo air ais an-dràsta</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>air a phlanadh</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>air a ghluasad</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>air a sgaoileadh</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>a’ feitheamh aig geata</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>air a thaghadh</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>air ullachadh</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>deiseil</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>a’ feitheamh ris an ìre aige</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>faidhlichean air an cur</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>air a dhearbhadh</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>air fàilligeadh, dh’aisig e e fhèin</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>gun atharrachadh</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>gun sgaoileadh</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>cha ghabh ruigsinn</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Fhreagair an t-ionad cèin.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Cha ghabh an t-ionad cèin a chleachdadh an-dràsta.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done deiseil, %pending ri dhèanamh, %failed air fàilligeadh</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Glas</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>tha ruith a’ cumail na glaise an sin</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>saor</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage à %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Tagh an t-ionad cèin ri dheuchainn.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Cuir strìochag ri “Tha, thoir air falbh an t-ionad cèin seo” an toiseach.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Cha b’ urrainnear an t-ionad cèin a thoirt air falbh: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Cha b’ urrainnear an t-ionad cèin a shàbhaladh: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Cha ghabh am faidhle roghainnean a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Tagh co-dhiù aon ionad cèin no buidheann.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Chan eil ionad cèin a chaidh a thaghadh sna roghainnean tuilleadh. Ath-luchdaich an duilleag.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Cuir strìochag ri “Tha, sgaoil an-dràsta” an toiseach.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Chan urrainn do dh’ionad cèin FTP imrichean a ruith: tagh “Gluasad a-mhàin”, no fàg às e.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>’S e IDs imrichean, air an sgaradh le cromagan, a th’ anns na h-imrichean ri sgaoileadh.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Tha an sgaoileadh fhathast a’ dol. Fuirich gus an crìochnaich e.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Chan eil an sgaoileadh seo a’ feitheamh aig geata.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Cha do chuir ionad cèin sam bith an sgaoileadh seo an sàs: chan eil dad ri thoirt air ais.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Cuir strìochag ri “Tha, sgaoil an ath ìre an-dràsta” an toiseach.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Cuir strìochag ri “Tha, thoir an sgaoileadh seo air ais an-dràsta” an toiseach.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Tha ionad cèin leis an ID %id ann mu thràth.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>’S e àireamh eadar 1 agus 65535 a th’ anns a’ phort.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>’S e facal de litrichean, àireamhan, - agus _ a th’ anns an àrainneachd (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>’S e facal de litrichean, àireamhan, - agus _ a th’ ann am buidheann (chan e all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Cha ghabh an teisteas a leughadh an-dràsta: %problem. Sàbhail e ann an Suidheachadh &gt; Rùintean-dìomhair (no suidhich an caochladair) ron chiad sgaoileadh.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Chan fhaigh ionad cèin FTP ach faidhlichean: ’s e “Gluasad a-mhàin” a th’ ann an sgaoileadh thuige, agus thèid na h-imrichean aige a ruith an sin le làimh.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Chan eil an t-ionad cèin %id ann an settings/override/migration.ini.append.php; thoir air falbh e far a bheil e air a shuidheachadh.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Air clàradh a-steach thar FTP agus air index.php a leughadh. Cha ghabh staid imrich ionaid chèin FTP a leughadh.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Atharraichte</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Air a chruthachadh</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ainm</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Clas</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Earrann</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Cruthadair</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Susbaint o chionn ghoirid</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>An t-susbaint as ùire a chaidh a chruthachadh is atharrachadh air feadh na làraich gu lèir, an tè as ùire an toiseach: na chuir aoighean a-steach, na tha ga chumail airson lèirmheas, dreachdan a tha a' feitheamh ri am foillseachadh. Tagh nithean airson an leigeil ma sgaoil, an cumail, am falach, an sealltainn, an toirt air falbh no an gluasad gu earrann no staid eile.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Cha b' urrainn dhuinn an liosta a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Cha deach an cumail airson lèirmheas a shuidheachadh fhathast, mar sin chan eil dad ga chumail agus chan eil na gnìomhan cumail gan tairgsinn. Suidhichidh an ceum àrdachaidh 6.0.15-review-hold e: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Criathraich an liosta</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>O</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gu</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Ceann-latha</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Air a chruthachadh (a' chiad fhoillseachadh)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Na h-uile</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Inbhe</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Foillsichte</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Dreachd, nach deach fhoillseachadh a-riamh</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Ri dhèiligeadh (a' feitheamh ri aonta no ceann-latha)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>San sgudal</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ga chumail airson lèirmheas</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Ga chumail</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Gun a chumail</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Falaichte</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Ri fhaicinn</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Air a chur a-steach air</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Inntrigeadh làraich sam bith</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Dìreach na chlàraich an sgrùdadh.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>An-dràsta: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Ainm clàraidh a-steach no ID cleachdaiche.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Criathraich</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Falamhaich na criathragan</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Nithean</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from gu %to à %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Gun nì</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(air a leughadh ann an %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Gnìomhan air na nithean a thagh thu</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Tagh na h-uile air an duilleag seo</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count air an taghadh</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Gnìomh</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Tagh gnìomh</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Leig ma sgaoil an cumail</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Cùm airson lèirmheas</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Falaich</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Seall</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Gluais dhan sgudal</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Sguab às</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Iomruin earrann</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Iomruin staid</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Adhbhar</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Feumail airson cumail; air a ghlèidheadh leis a' chumail agus san sgrùdadh.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Tagh earrann</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staid</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Tagh staid</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Cuir an sàs air an fheadhainn a thagh thu</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Thèid gach nì a sgrùdadh a rèir nan ceadan agad fhèin. Iarraidh gluasad dhan sgudal agus sguabadh às ort dearbhadh. Ruithidh barrachd air %count nithean sa chùlaibh.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Tagh</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Foillseachadh</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Air a chur a-steach o</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Tagh %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>chan ann fhathast</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(gun ainm)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Dreachd</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ri dhèiligeadh</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Falaichte le a phàrant</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Ga chumail: tagradh ùr</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Tionndadh %version ri dhèiligeadh</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Tionndadh %version a' dol</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Dreachd, tionndadh %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Tionndadh %version foillsichte</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Air an sgeideal airson %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>gun seòladh</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>gun chlàradh</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Chan eil dad a' freagairt ris na criathragan seo.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Seall na h-uile</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Chan eil susbaint ann fhathast.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Gach duilleag</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Seall %count nithean gach duilleag.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Thig seòladh is brabhsair tagraidh o chlàr-amais an sgrùdaidh, nach eil ri fhaighinn an-seo: tha an colbh ag ràdh "gun chlàradh".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>'S e an seòladh is am brabhsair an fheadhainn a chlàraich an sgrùdadh airson an nì (bidh an cumail fèin-obrachail gan clàradh an-còmhnaidh; foillseachadh is cruthachadh a-mhàin far a bheil e air), mar a ghlèidheas na roghainnean prìobhaideachd aige iad.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count nithean</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Bheir sguabadh às air falbh na nithean gu buan, le gach tionndadh is eadar-theangachadh aca. Cha ghabh seo a neo-dhèanamh.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Thèid na nithean dhan sgudal, far an gabh an aiseag.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Thèid gach nì a sgrùdadh a rèir nan ceadan agad fhèin; thèid nì le fo-nithean fhàgail mar a tha e (thoir air falbh e ann an structar na susbainte). Thèid iarraidh ort dearbhadh gur e thu fhèin a th' ann.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Ruithidh seo sa chùlaibh: fosglaidh duilleag an adhartais aige, agus thèid an toradh airson gach nì a shealltainn nuair a bhios e deiseil.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Na nithean a thagh thu</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>agus %count a bharrachd</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Sguir dheth</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Cha deach dad a dhèanamh</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Adhbhar: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Tha an gnìomh fhathast a' ruith sa chùlaibh.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>An t-adhartas aige</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Dh'fhàillig an gnìomh sa chùlaibh: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Deiseil</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Air a dhiùltadh</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Air fàilligeadh</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Gach nì</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Nì</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Toradh</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Carson</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Air ais dhan liosta</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Suidheachadh</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Cha do rinneadh dad</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Dearbh</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Tagh gnìomh.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Tagh co-dhiù aon nì.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Tagh 1000 nì air a' char as motha aig an aon àm.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Innis carson a tha na nithean gan cumail.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Tagh an earrann.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Tagh an staid.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Cha b' urrainn dhuinn am foirm a leughadh.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Deas-bhòrd</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Susbaint o chionn ghoirid</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Cha b' urrainn dhuinn na h-àireamhan a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ga chumail airson lèirmheas</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Ùr an-diugh</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Cha deach an cumail airson lèirmheas a shuidheachadh fhathast (an ceum àrdachaidh 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>A h-uile susbaint o chionn ghoirid</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Chan fhaod thu gnìomhan maorsainneachd a ruith (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Chan eil an gnìomh maorsainneachd coileanta: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Maorsainneachd: %action air %count oibseactan</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done à %total oibseactan: %ok deiseil, %refused air an diùltadh, %failed air fàilligeadh</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok deiseil, %refused air an diùltadh, %failed air fàilligeadh</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Chan eil e ann tuilleadh.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Chan eil ionad aige (gun fhoillseachadh).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Chan fhaod thu fhalach (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Chan fhaod thu a shealltainn (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Tha e falaichte mu thràth.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Chan eil e falaichte.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Air fhalach.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Air a shealltainn.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Tha e san sgudal: falamhaich an sgudal no aisig e an-sin.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Chan urrainn do dhreachd nach deach fhoillseachadh a-riamh a dhol dhan sgudal: sguab às e.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Chan fhaod thu a sguabadh às (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Air a sguabadh às.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Chan fhaod thu a thoirt air falbh (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Tha fo-nithean aige: thoir air falbh e ann an structar na susbainte, far a bheil iad air an liostadh.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Cha deach a thoirt air falbh (dh'fhaoidte gu bheil sruth-obrach a' cumail an toirt air falbh).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Air a ghluasad dhan sgudal.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Chan eil an earrann ann.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Tha e san earrann seo mu thràth.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Chan fhaod thu an earrann seo iomruineadh (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Cha deach an earrann iomruineadh.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Earrann air iomruineadh.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Chan eil an staid ann.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Tha e san staid seo mu thràth.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Chan fhaod thu an staid seo iomruineadh (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Cha deach an staid iomruineadh (dh'fhaoidte gu bheil sruth-obrach a' cumail an atharrachaidh).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Staid air iomruineadh.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Chan eil a leithid de ghnìomh ann.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Cha deach an cumail airson lèirmheas a shuidheachadh (an ceum àrdachaidh 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Innis carson a tha e ga chumail.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Tha e ga chumail mu thràth.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Chan fhaod thu a chumail (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Cha deach an cumail a chur air (dh'fhaoidte gu bheil sruth-obrach a' cumail an atharrachaidh).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Ga chumail.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Chan eil e ga chumail.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Chan fhaod thu a leigeil ma sgaoil (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Cha deach an cumail a leigeil ma sgaoil (dh'fhaoidte gu bheil sruth-obrach a' cumail an atharrachaidh).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Air a leigeil ma sgaoil; fhathast falaichte: chan fhaod thu a shealltainn (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Air a leigeil ma sgaoil.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Na h-amasan uile</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Am foillseachadh mu dheireadh</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Foillsichibh lethbhreac stataigeach saor &apos;n-asgaidh dhen làrach agaibh air GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Duilleagan a dh&apos;aois</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Foillseachadh stataigeach</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Tha am foillseachadh stataigeach dheth.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Amas</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Cha b&apos; urrainn dhuinn na h-amasan a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>tha obair a&apos; dol</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>togail ri sgrùdadh</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>falaich seo</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>cruthaich amas</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>chaoidh</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>leughaibh an oideachadh</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added air a chur ris, %changed air atharrachadh, %removed air a thoirt air falbh</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes à %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Chan eil %count eile air an liosta.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages duilleag air an sgrìobhadh</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>Tha %path %size, barrachd na cheadaicheas an t-òstair do dh&apos;fhaidhle.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % dhen chrìoch</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds diog</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>Is e %tag am foillseachadh a th&apos; aig an làrach an-dràsta.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: obair %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/ionad-tasgaidh/ airson làrach pròiseict GitHub; falamh airson àrainn ghnàthaichte no làrach cleachdaiche.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. An làrach</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. An t-òstair</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Clàradh a-steach dhan ionad-tasgaidh</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. An t-ionad-tasgaidh</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Ceanglaichean agus bun-slighe</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. An àrainn agaibh fhèin</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Na tha san togail</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Cuin a thèid fhoillseachadh</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Lèirmheas is sàbhaladh</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Bidh làrach pròiseict GitHub fo /&lt;repository&gt;/; obraichidh ceanglaichean dàimheach an sin agus àite sam bith eile.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Gheibh togail gach duilleag de %site mar a chì aoigh nach do chlàraich a-steach i, sgrìobhaidh i na ceanglaichean às ùr, nì i lethbhreac dhe na faidhlichean agus sgrìobhaidh i an toradh gu pasgan an amais. Cha tèid càil fhoillseachadh gus an sgrùd sibh an togail agus am brùth sibh Foillsich.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Abairt cron, mar eisimpleir 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Thèid iuchair cur-an-sàs a chumail mar an rùn-dìomhair %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Leigidh iuchair cur-an-sàs leis an stàladh seo putadh gu aon ionad-tasgaidh thar SSH, is chan ann gu àite sam bith eile. Fuirichidh an leth phrìobhaideach aice ann an Suidheachadh &gt; Rùintean-dìomhair; chan fhaicear ach an leth phoblach.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Iuchair cur-an-sàs a chaidh a chruthachadh dhan amas seo</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Clàraichidh iuchair cur-an-sàs a-steach thar SSH: atharraichibh an seòladh git gu seòladh SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Tha obair a&apos; dol, air a tòiseachadh le %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Tha obair aig an amas seo fhathast a&apos; dol (%detail). Fuirichibh gus an crìochnaich i.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Tha obair aig an amas seo fhathast a&apos; dol. Fuirichibh gus an crìochnaich i.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Thèid ceangal bhon duilleag /news/ chun na duilleige /about-us/team a sgrìobhadh mar</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Chaidh iuchair cur-an-sàs ùr a chruthachadh. Cuiribh an leth phoblach aice ris an ionad-tasgaidh an-dràsta.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Cha tèid duilleag fhoillseachadh gu bràth ma tha às-chur dì-bhugachaidh, tòcan foirm no ID seisein innte fhathast às dèidh an sgioblachaidh.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Tha toirt air ais do dh&apos;eòlaichean: cuiribh cromag ri “Tha fios agam dè dh&apos;atharraicheas seo” agus sgrìobhaibh ainm an taga a-rithist.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Faodaidh làrach a bhith suas ri %site, aon fhaidhle suas ri %file, le mu 100 GB de thrafaig gach mìos. Air plana saor &apos;n-asgaidh feumaidh an t-ionad-tasgaidh a bhith poblach. Chan eil GitHub Pages airson bhùthan no gnothaichean malairteach eile.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>&apos;S e amas aon làrach a thèid fhoillseachadh gu aon ionad-tasgaidh git. Cha tèid càil a thogail no fhoillseachadh an seo: sgrìobhaidh Sàbhail na roghainnean gu settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>&apos;S e amas aon làrach a thèid fhoillseachadh ann an aon àite, mar eisimpleir an làrach phoblach agaibh air GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Tòcan à Suidheachadh &gt; Rùintean-dìomhair</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Foillsichidh sruth-obrach an ionaid-tasgaidh e.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Cuiribh an iuchair phoblach seo ris an ionad-tasgaidh le cead sgrìobhaidh. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, cuiribh cromag ri Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Air a chur ris</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Òstair git eile</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Tha pròiseas eile ag obair air an amas seo: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Air ais</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Bun-slighe</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Roimhe</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Fo bhun-slighe</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Meur</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Ceanglaichean briste</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Ceanglaichean briste san togail</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Togail</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Togail %id le %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Togail %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Tog an-dràsta</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Togail ri sgrùdadh</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Le</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Le làimh, an seo</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Sguir dheth</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Atharraich</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Air atharrachadh</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Atharraichean</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Sgrùdaibh an toiseach e</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Sgrùdaibh na roghainnean seo</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Sgrùdaibh dè dh&apos;atharraicheas an togail, thoiribh sùil oirre, an uairsin foillsichibh i no tilgibh air falbh i.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Taghaibh am foillseachadh a thilleas sibh thuige.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Thig e le sgaoileadh nas fhaide air adhart.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Gealladh</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Geallaidhean</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Nì e gealladh dhen togail, cuiridh e taga rithe agus putaidh e gu %remote i. Cha tèid putadh a sparradh gu bràth; faodaidh sibh tilleadh gu foillseachadh sam bith an uairsin.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>An coimeas ris a&apos; phasgan roimhe: %added air a chur ris, %changed air atharrachadh, %removed air a thoirt air falbh, %unchanged gun atharrachadh.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>An coimeas ris an fhoillseachadh mu dheireadh.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Teisteas</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Àrainn ghnàthaichte</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Thèid às-chur dì-bhugachaidh, tòcanan foirm, IDan seisein agus nonces a thoirt às an-còmhnaidh.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Iuchair cur-an-sàs</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Iuchair cur-an-sàs %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tilg air falbh</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Tilg air falbh an togail</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Àrainn</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Falamh: seòladh na làraich. Seòladh inntearnail dhen aon làrach air dhòigh eile.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Crìochnaichte</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Tòisichidh gach ceangal leis a&apos; bhun-slighe.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>&apos;S e gealladh le taga static/%id/&lt;n&gt; a th&apos; anns gach foillseachadh. Ma thilleas sibh, thèid gealladh ùr a dhèanamh le faidhlichean foillseachaidh nas tràithe: mairidh an eachdraidh, cha ghluais taga sam bith agus cha tèid càil a sparradh.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Rudan a bharrachd</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Faigh na duilleagan o</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faidhle</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Faidhlichean</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Faidhlichean a dhìth</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Faidhlichean de</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Faidhlichean nach b&apos; urrainnear a chruinneachadh</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Làrach-mheòir</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Pasgan</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Airson seòladh SSH. Thèid an iuchair a chruthachadh às dèidh sàbhalaidh; cuiridh sibh an leth phoblach aice ris an ionad-tasgaidh.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Airson seòladh https://. GitHub: tòcan mionaideach le leughadh is sgrìobhadh air Contents an ionaid-tasgaidh.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Do dh&apos;eòlaichean. Atharraichidh an làrach phoblach cho luath &apos;s a bhios am putadh deiseil.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Foirmean</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Aoigheachd saor &apos;n-asgaidh o ionad-tasgaidh GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>On mheur</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Seòladh git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>Ceadaichidh GitHub Pages làrach de %site agus faidhle de %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Crìochan GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>Foillsichidh GitHub Pages na faidhlichean mar a tha iad (riatanach airson faidhlichean a thòisicheas le _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>Frithealaidh GitHub am meur mar a chaidh a phutadh. An roghainn bhunaiteach.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, am frithealaiche agaibh fhèin: ionad-tasgaidh git sam bith.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Till gu foillseachadh nas tràithe</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Cobhair</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Cobhair leis an draoidh</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Falaich iad</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Eachdraidh</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Eachdraidh %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Òstair</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Mar a gheibh GitHub Pages an togail</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Sgrùd mi na h-atharraichean</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Tha fios agam dè dh&apos;atharraicheas seo</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Tha e dheth: cha ghabh càil a thogail gus an cuirear air e.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Tha e a&apos; ruith sa chùlaibh mar %user; faodaidh sibh an duilleag seo a dhùnadh.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Obair %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Air a chumail mar an rùn-dìomhair %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Seòrsa</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Am foillseachadh mu dheireadh</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Fàg às na duilleagan seo</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Fàg às na h-earrannan seo</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Ceanglaichean</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Ceanglaichean air an ath-sgrìobhadh</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Làrach beò</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Seallaibh air an togail</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Litrichean beaga, àireamhan, _ agus -, mar eisimpleir github-public. Bheir e ainm dhan phasgan is dha na tagaichean (static/&lt;id&gt;/&lt;n&gt;) agus cha ghabh atharrachadh an uairsin.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Cruthaich iuchair ùr</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Cruthaich amas</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Cruthaich an iuchair</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Cruthaichibh an t-ionad-tasgaidh air an òstair an toiseach; tha fear falamh ceart gu leòr.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Teachdaireachd</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>A&apos; mhòr-chuid de dhuilleagan</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ainm</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Ainm an tòcain ann an Suidheachadh &gt; Rùintean-dìomhair</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Amas ùr</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Air adhart</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Chan eil</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Gun ghealladh fhathast.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Cha deach iuchair a chruthachadh: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Cha deach prògram loidhne-àithne php a lorg. Suidhichibh migration.ini [AdminSettings] PhpCliPath air an t-slighe shlàn aige.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Gun taga fhathast.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Gun amas fhathast.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Chan eil gin</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Chan eil e san togail.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Cha deach càil fhoillseachadh fhathast.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Cha deach càil fhoillseachadh fhathast: tha gach faidhle ùr.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Cuir brath</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>A rèir sgeideil</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Air a&apos; chonsoil</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Air an fhrithealaiche: frithealaidh ./console exp:static:serve %id e air an aon dòigh.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Aon slighe air gach loidhne, freagraidh * ri pàirt sam bith: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Cha tèid ach ainm a stòradh leis an amas; fuirichidh an tòcan no an iuchair fhèin ann an Suidheachadh &gt; Rùintean-dìomhair agus cha nochd e gu bràth ann an loga.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Dìreach na dh&apos;ainmicheas na duilleagan</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Le tòcan a-mhàin. Leughaidh env:NAME caochladair àrainneachd an fhrithealaiche na àite.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Fosgail an ro-shealladh</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Fosglaidh e an togail mar a fhrithealas an t-òstair i, bho phasgan an amais. Obraichidh an ceangal dhuibh fad uair a thìde.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Roghainneil. Falamh: na chaidh fhoillseachadh.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Roghainneil. Le àrainn, thèid an làrach a fhrithealadh aig a freumh.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Toradh</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Duilleagan</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Duilleagan an amais</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Duilleagan air an diùltadh</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Iar-phròiseasadh</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ro-shealladh</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Ro-shealladh is foillseachadh</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Ro-shealladh is foillseachadh: %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Ro-shealladh air an togail</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Adhartas</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Seòladh poblach</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Iuchair phoblach</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Foillsich</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Foillsich lethbhreac stataigeach de làrach air GitHub Pages no air òstair git sam bith: togaibh e, sgrùdaibh na h-atharraichean, foillsichibh, agus tillibh gu foillseachadh nas tràithe nuair a bhios feum air.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Foillseachadh gus tilleadh thuige</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Foillseachaidhean</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Putadh</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Leughaibh an oideachadh</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Clàr</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Air a dhiùltadh</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Dàimheach</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ath-luchdaich</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Air a thoirt air falbh</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Cuir iuchair eile na h-àite: sguiridh an t-seann tè a dh&apos;obair</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Aithisg</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Aithisg na togail</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Ionad-tasgaidh</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Lèirmheas</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Sgrùdaidh an lèirmheas gach roghainn agus seallaidh e na loidhnichean a thèid a sgrìobhadh. Cha deach càil a shàbhaladh fhathast.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Thoir air ais</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Toirt air ais</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Sàbhail</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Sgeideal</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Duilleag luirg</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>IDan earrainn, air an sgaradh le cromagan.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Cuir gun làrach bheò iad</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Roghainn</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Roghainnean</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Roghainnean %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Suidheachadh</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Suidheachadh &gt; Rùintean-dìomhair</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Ga shealltainn ann an liostaichean, mar eisimpleir “Làrach phoblach air GitHub Pages”.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Thig clàradh a-steach le GitHub App leis an amalachadh GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Làrach</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>An làrach ri foillseachadh</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Meud</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Meud is crìochan</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Meud na togail</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Duilleagan a dh&apos;aois</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Air tòiseachadh</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Air a tòiseachadh le %user aig %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staid</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Foillseachadh stataigeach</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Tha am foillseachadh stataigeach dheth</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Tha am foillseachadh stataigeach dheth.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Tha am foillseachadh stataigeach dheth. Cuiribh air e ann an Suidheachadh &gt; Foillseachadh stataigeach an toiseach.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Tha am foillseachadh stataigeach air.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Ceum %step à %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Ceuman</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Sgioblachadh</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Cuir dheth</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Cuir air</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Cuir am foillseachadh stataigeach air</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Taga</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Tagaichean</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Amas</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Faodar amasan a chruthachadh is atharrachadh, ach cha tèid càil a thogail no fhoillseachadh gus an cuirear air e.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Innsidh e do dh&apos;einnseanan-luirg dè leughas iad.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Cha b&apos; urrainnear an togail a thilgeil air falbh: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Tha an togail co-ionann ris an fhoillseachadh mu dheireadh: chan eil càil ri fhoillseachadh.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Chaidh an togail a thilgeil air falbh: tha am foillseachadh mu dheireadh sa phasgan a-rithist.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Freagraidh na roghainnean bunaiteach air a&apos; mhòr-chuid de làraichean.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Tha togail sa phasgan nach deach fhoillseachadh fhathast; cuiridh togail ùr na h-àite i.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Cha ghabh pasgan nan obraichean sgrìobhadh: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Cha b&apos; urrainnear an obair ullachadh: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Cha b&apos; urrainnear an obair a thòiseachadh.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Tha an obair deiseil. A&apos; luchdadh na h-aithisg aice.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Feumaidh an obair cleachdaiche a chlàraich a-steach.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Chaidh an obair a thòiseachadh ach cha do dh&apos;innis i ID a pròiseis. Sgrùdaibh %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>An iuchair</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Am faidhle as motha: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Na loidhnichean a thèid a sgrìobhadh</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Liosta nan duilleagan airson einnseanan-luirg; feumaidh i an seòladh poblach.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Thèid na duilleagan fhaighinn mar a chì aoigh nach do chlàraich a-steach iad. Cha tèid inntrigidhean làraich rianachd no deasachaidh a thairgsinn gu bràth.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Cha b&apos; urrainnear an t-adhartas a leantainn. Ath-luchdaichibh an duilleag gus faicinn ciamar a tha an obair a&apos; dol.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>An leth phoblach dhen iuchair:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Freumh a&apos; mheòir</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Cha deach stòras nan rùintean-dìomhair a shuidheachadh fhathast (cruthaichidh ./console exp:upgrade --apply an clàr aige), mar sin cha ghabh iuchair a chumail.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Clàraichidh am frithealaiche a-steach leis fhèin (le iuchair SSH no cuidiche teisteis fhèin), no tha an t-ionad-tasgaidh air an fhrithealaiche seo.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Cha b&apos; urrainnear an roghainn a sgrìobhadh: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Tha na roghainnean dligheach. Thèid na loidhnichean seo a sgrìobhadh:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Cha ghabh am faidhle roghainnean a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Tillidh an làrach gu faidhlichean an fhoillseachaidh sin; feumar togail nach deach fhoillseachadh fhathast fhoillseachadh no a thilgeil air falbh an toiseach.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Duilleag na làraich fhèin airson seòlaidhean nach eil ann.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Cha b&apos; urrainnear an t-amas a shàbhaladh: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Chan eil an t-amas a&apos; clàradh a-steach leis an iuchair seo fhathast: taghaibh “Iuchair cur-an-sàs a chaidh a chruthachadh dhan amas seo” sna roghainnean aige.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Cha b&apos; urrainn dhuinn na h-amasan a leughadh: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Chan eil togail ri sgrùdadh ann fhathast.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Chan eil inntrigeadh làraich aghaidh aig an stàladh seo. Cha tèid inntrigidhean làraich rianachd no deasachaidh fhoillseachadh gu bràth.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Leanaidh an duilleag seo an obair fhad &apos;s a tha i a&apos; dol; cumaidh i a&apos; dol sa chùlaibh nuair a thèid an duilleag a dhùnadh.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Chan eil iuchair cur-an-sàs aig an amas seo fhathast.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Cha deach an t-amas seo a thogail an seo fhathast.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Tha tè aig an amas seo.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Tilgidh e an togail seo air falbh: tha am foillseachadh mu dheireadh sa phasgan a-rithist. Cha atharraich an làrach bheò.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Cuiribh cromag ri “Sgrùd mi na h-atharraichean” an toiseach.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Àm</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Brosnachaidhean</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Sgrìobhaibh ainm an taga a-rithist</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Gun atharrachadh</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Dè</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Na dh&apos;atharraicheas</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Dè th&apos; anns gach faidhle; air a sgrìobhadh an-còmhnaidh.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Na rinn an obair agus an clàr aice. Cumaidh obair a thòisich an seo a&apos; dol sa chùlaibh nuair a thèid an duilleag seo a dhùnadh.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Na chlò-bhuail an obair mar mhearachdan</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Na dh&apos;ainmicheas na duilleagan, agus gach dealbh de shusbaint fhoillsichte</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Cuin</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Nuair a dh&apos;fhàilligeas foillseachadh</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Nuair a shoirbhicheas foillseachadh</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Nuair a thèid susbaint fhoillseachadh</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Càite an tèid ceanglaichean gu rudan nach eil san lethbhreac (an lorg, an clàradh a-steach).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Cò às a thèid an lethbhreac stataigeach a fhrithealadh.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Dè an làrach a thèid fhoillseachadh, agus dè an t-ainm a th&apos; air an amas.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Obraichidh e fo shlighe sam bith. An roghainn bhunaiteach.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Air a sgrìobhadh uair sam bith a tha àrainn ghnàthaichte air a suidheachadh.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Tha</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Faodaidh sibh an-còmhnaidh togail is foillseachadh le làimh an seo agus air a&apos; chonsoil.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ainm a-mhàin; fuirichidh an luach ann an Suidheachadh &gt; Rùintean-dìomhair</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>fo %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>crìochnaichte gun aithisg</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>a bharrachd</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>dh&apos;fhàillig e</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>faidhle</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, no main leis a&apos; phasgan docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>òstair git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (le tòcan) no git@github.com:owner/repo.git (le iuchair cur-an-sàs); na cuiribh facal-faire no tòcan ann gu bràth.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, airson mapa na làraich is nan ceanglaichean canonach.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>dealbh</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>chaoidh</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>chan eil</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>gun iomallach</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>chan eil gin: fuirichidh geallaidhean sa phasgan</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>chan eil gin: cha do dh&apos;atharraich càil</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>gun phutadh</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>cha do dh&apos;atharraich càil</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>duilleag</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>chaidh leis</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>Tha proc_open à comas, mar sin cha ghabh obair a thòiseachadh an seo. Cleachdaibh ./console exp:static:build air an fhrithealaiche.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>foillseachadh</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>foillsichte</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>putadh ri dhèanamh</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>air a phutadh</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>air a dhiùltadh</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>dàimheach</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>toirt air ais</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>air a thoirt air ais</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>a&apos; ruith</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>am pasgan a-mhàin</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: air a sgrìobhadh dhan fhaidhle CNAME. Stiùiribh DNS na h-àrainne chun an òstair mar a mhìnicheas e; dh&apos;fhaodadh gun toir HTTPS greis mus tòisich e.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>tha, gun fhoillseachadh fhathast</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Foillsichidh sruth-obrach an ionaid-tasgaidh e. Sgrìobhaidh an togail faidhle an t-sruth-obrach; fàg am pasgan falamh.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Às dèidh amas a shàbhaladh le ionad-tasgaidh GitHub agus tòcan no GitHub App, is urrainn dhan cheum seo an t-ionad-tasgaidh a chruthachadh agus GitHub Pages a chur air. Air neo cruthaich an t-ionad-tasgaidh air GitHub an toiseach; nì fear falamh a' chùis.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Meur no GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Thoir sùil air an DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Cruthaich an t-ionad-tasgaidh mura h-eil e ann</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Cruthaich an t-ionad-tasgaidh air GitHub agus cuir GitHub Pages air sna roghainnean aige (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Cruthaichidh e an t-ionad-tasgaidh %repo nuair a bhios e a dhìth (ma chaidh iarraidh), cuiridh e GitHub Pages air on mheur no o GitHub Actions mar a chaidh a shàbhaladh, agus suidhichidh e an àrainn ghnàthaichte agus HTTPS. Cleachdaidh e na roghainnean a chaidh a shàbhaladh: sàbhail na h-atharraichean an toiseach.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Mion-fhiosrachadh air GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Cuir a-steach an àrainn ghnàthaichte an toiseach.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Thèid gach push a sgrùdadh an aghaidh nan crìochan seo an toiseach.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Airson seòladh https:// air GitHub. Clàraidh an App a chaidh a shuidheachadh airson an stàlaidh seo a-steach; feumaidh e id an stàlaidh.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>Cha fhrithealaich GitHub Pages ionad-tasgaidh prìobhaideach ach air plana pàighte.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: feumaidh fo-àrainn (www.example.com) clàr CNAME gu &lt;owner&gt;.github.io; feumaidh àrainn apex (example.com) na clàran A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>ID stàlaidh an GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>An togail Pages mu dheireadh</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Crìochan is teirmichean</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Riatanach airson GitHub Pages air plana saor 'n-asgaidh.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Air GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Le GitHub App a-mhàin: an àireamh aig deireadh seòladh stàladh an App air GitHub. Tha an App fhèin air a shuidheachadh ann an staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Prìobhaideach</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Poblach</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Sàbhail an t-amas le ionad-tasgaidh GitHub agus tòcan no GitHub App an toiseach.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Suidhich na clàran seo aig solaraiche na h-àrainne:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Suidhich air GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Chan eil DNS %domain a' comharrachadh GitHub Pages fhathast.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Tha DNS %domain a' comharrachadh GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Chan eil an amalachadh GitHub ri fhaighinn an-seo: %problem. Obraichidh foillseachadh dhan mheur co-dhiù; cuir GitHub Pages air ann an roghainnean an ionaid-tasgaidh.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Chan eil ceuman GitHub ri fhaighinn airson an amais seo: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Thèid staid GitHub Pages a shealltainn le tòcan no GitHub App mar an teisteas.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Cleachd an àrainn agad fhèin</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Dè a thaghas tu: tòcan, iuchair cur-an-sàs no GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Le ionad-tasgaidh GitHub agus tòcan no GitHub App, is urrainn dhan draoidh an t-ionad-tasgaidh a chruthachadh, GitHub Pages a chur air agus an àrainn a shuidheachadh dhut (ceum 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ga thogail</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>air a thogail</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>o GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>on mheur %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>chan eil gin fhathast</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>cha deach a lorg</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>dheth</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>prìobhaideach</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>poblach</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>sa chiutha</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>neo-aithnichte</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count air %pages duilleag(an):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (agus .br) ri taobh gach faidhle teacsa, airson luchd-aoigheachd a bheir seachad iad.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Duilleag bheag airson gach seann seòladh agus alias de dhuilleag, gus an obraich seann cheanglaichean fhathast.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Air a sgrìobhadh an-còmhnaidh nuair a bheir GitHub Actions seachad an làrach.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>ID SPDX mar CC-BY-4.0, no an teacsa fhèin.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Basgaid</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Gairmean chun an fhrithealaiche</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Beachdan</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Foirmean a bhios a' cruinneachadh fiosrachaidh</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Nas lugha de spàs bàn is gun bheachdan sna duilleagan.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Cead-cleachdaidh na susbaint</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Log a-steach</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Lùghdaich</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Foirmean eile</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Ro-dhùmhlaich</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Duilleagan ath-stiùiridh</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Duilleagan ath-stiùiridh: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Lorg</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Clàr-amais luirg: %pages duilleag(an) ann an %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Duilleagan-stoidhle is sgriobtaichean air an ainmeachadh le hais na susbaint aca, gus an urrainn do bhrobhsairean an cumail.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Na duilleagan a dh'atharraich, beagan mhionaidean às dèidh an atharrachaidh mu dheireadh (pàirt cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Cead-cleachdaidh na susbaint, on raon gu h-ìosal.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>An làrach gu lèir, aig amannan na clàir-ama (pàirt cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Tha feum air frithealaiche airson na pàirtean seo de na duilleagan; fhuair gach fear tè air ais. Thoir sùil orra mus foillsich thu iad.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Na nithean nach obraich gu stataigeach</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Dè th' anns an ionad-tasgaidh, dhan neach a dh'fhosglas e air an aoigh.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>air fhàgail a-mach</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>an teacsa air ais</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>puing-chrìche na foirme aig an làrach bheò</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>an làrach bheò</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>duilleag luirg a' chopaidh</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Cha b' urrainn an fhoirm a chur.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Tapadh leibh: chaidh an fhoirm a chur.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Cha deach an fhoirm a ghabhail: thoir sùil air na chuir thu a-steach is cuir a-rithist i.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Thoir air falbh ceanglaichean gu duilleagan nach eil san lethbhreac</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Thoir air falbh ceanglaichean dhan rianachd</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Fanaidh an teacsa aca. Cha tèid dealbhan, foirmean is ceanglaichean gu làraichean eile a thoirt air falbh idir.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Tionndadh</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Inntrigidhean làraich ri fhoillseachadh</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Inntrigeadh làraich</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Aig a' bhun</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Chan eil inntrigeadh sam bith aig a' bhun: tha gach fear na phasgan fhèin, agus tha am bun a' ceangal riutha</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Inntrigidhean làraich</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Cuir strìochag ri aon inntrigeadh làraich, no grunn a tha a' co-roinn aon òstair tron ro-leasachan URI aca. Thèid am fear aig a' bhun a fhrithealadh an sin, càch ann am pasgan an ro-leasachain (/ger/); fanaidh na ceanglaichean eatarra san lethbhreac. Cha tèid inntrigidhean rianachd a thairgsinn gu bràth.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Dh'fhàillig foillseachadh stadach %target air %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Shoirbhich foillseachadh stadach %target air %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Chaidh am post-d seo a chur le %site a chionn 's gu bheil an targaid foillseachaidh stadaich %target ga iarraidh.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Dh'fhàillig an sgaoileadh %deploy air %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Tha an sgaoileadh %deploy a' feitheamh aig geata air %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Shoirbhich leis an sgaoileadh %deploy air %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Chaidh am post-d seo a chur le %site a chionn 's gu bheil migration.ini [RemoteSettings] Notify[] ga iarraidh.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Seòrsachan dàta (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Air a chunntadh %time, a-rithist an ceann %minutes mionaid</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Stòraichidh is deasaichidh seòrsa dàta aon seòrsa luach de bhuadh clas: loidhne teacsa, dealbh, dàimh. Bheir an t-eitean a' mhòr-chuid dhiubh, cuiridh leudachain barrachd ris. Seo iad uile, cò a bheir seachad iad agus dè na tha den t-susbaint gan cleachdadh. Brisidh seòrsa dàta a tha an stòr-dàta a' cleachdadh ach nach eil dad a' clàradh tuilleadh an t-susbaint aig a bheil e.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Buidhnean chlasaichean</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Cunnt a-rithist an-dràsta seach na cunntasan aig na mionaidean mu dheireadh a chleachdadh.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Cunnt a-rithist</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Foir-shealladh</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Clàraichte</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Ga chleachdadh</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Gun chleachdadh</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Leudachain a bheir seachad seòrsachan dàta</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Buadhan a' chlas</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Buadhan an oibseict</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Gun chlàradh</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Air an liosta, faidhle a dhìth</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Tha %count seòrsachan dàta gan cleachdadh ach gun chlàradh</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Tha seòrsa dàta aig %class_attributes buadhan clas agus %object_attributes buadhan oibseict nach eil leudachan no roghainn sam bith a' clàradh. Chan urrainnear na h-oibseactan aca a shealltainn, a dheasachadh no fhoillseachadh. Cuir an comas an leudachan a bheir seachad an seòrsa dàta, no atharraich an clas.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Seall iad seo a-mhàin</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Lorg seòrsa dàta</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Aithnichear, ainm, clas PHP no leudachan.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Seall</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Na h-uile</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Air a thoirt seachad le</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>A h-uile duine</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Eitean</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Chan eil seòrsa dàta sam bith a' freagairt ris a' chriathrag seo.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Seall na h-uile</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Leudachan</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown à %count seòrsachan dàta, %used gan cleachdadh</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Tha buadhan clas no oibseict de na seòrsachan dàta seo san stòr-dàta, ach chan eil content.ini a' liostadh gin dhiubh, no tha am faidhle aca a dhìth.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Seòrsachan dàta o %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Seòrsa dàta</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Clas PHP agus faidhle</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Clasaichean</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Oibseactan</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Brataichean</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>chan eil gin</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Chan eil seòrsa dàta sam bith a' freagairt ris an lorg. Falamhaich an lorg.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown à %count seòrsachan dàta gan sealltainn</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Seòrsachan dàta gan sealltainn: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Seòrsaich a rèir %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Air a chunntadh %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Gach seòrsa dàta</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Duilleag cobharach</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Tha an seòrsa dàta seo ga chleachdadh ach gun chlàradh</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Chan urrainnear oibseactan nan clasaichean gu h-ìosal a shealltainn, a dheasachadh no fhoillseachadh fhad 's nach eil leudachan sam bith a' clàradh an t-seòrsa dàta. Cuir an comas an leudachan a bheir seachad e agus cuir ri content.ini [DataTypeSettings] AvailableDataTypes[] e, no atharraich na clasaichean.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>Tha content.ini a' liostadh an t-seòrsa dàta seo, ach chan eil am faidhle aige ann am pasgan seòrsa dàta sam bith. Chan eil dad ga chleachdadh; thoir air falbh e o AvailableDataTypes[] no cuir an comas an leudachan aige.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Mun t-seòrsa dàta seo</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Aithnichear</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ainm</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Leudachan %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>gun duine</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Clas PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faidhle</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Ann an AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>tha</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>chan eil</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Colbhan an luach aige</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Colbhan roghainnean a' bhuaidh clas aige</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Clàran</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Lorgar na colbhan is na clàran le bhith a' leughadh còd an t-seòrsa dàta: stiùireadh, chan e gealladh.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Teamplaidean</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Inntrigeadh làraich</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Teamplaid</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Air a lorg ann an</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>an rianachd seo</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>an làrach bhunaiteach</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Gun tar-àitheantan: buadhaichidh teamplaid tar-àithne a fhreagras ri clas no buadh air an fheadhainn seo.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Clasaichean ga chleachdadh (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Chan eil buadh den t-seòrsa dàta seo aig clas sam bith.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Clas</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Buadhan</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Buadhan a' chlas (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Buadh</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Roghainnean</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Riatanach</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Gabhaidh a lorg</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>So-eadar-theangachadh</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Cruinnichidh e fiosrachadh</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Beagan susbainte ga chleachdadh</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Na h-atharraichean as ùire an toiseach</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Atharraichte</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nòd %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Tha a luach fhèin aig gach eadar-theangachadh.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Cuiridh an lorg na luachan aige ann an clàr-amais.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>'S urrainn dha fiosrachadh a chruinneachadh o thadhalaichean (foirmean).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Gabhaidh liostaichean an seòrsachadh a rèir seo: iuchair seòrsachaidh %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Ri sheòrsachadh</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Tha na luachan aige a' comharrachadh oibseactan eile.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Ceanglaichean</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Gabhaidh a lìonadh o shreang shìmplidh (ion-phortadh, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>O theacsa</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Gabhaidh a lìonadh o fhaidhle.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>O fhaidhle</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Thèid roghainnean a' bhuaidh clas aige ann am pacaidean.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pacaidean</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Susbaint (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from gu %to à %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Criathraich an liosta</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>A h-uile clas</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Earrann</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Cànanan</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Sealbhadair</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Foillsichte</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Cuir an t-òrdugh an comhair a chùil</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Gun nì</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Air gach duilleag</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Seall %count nithean air gach duilleag.</translation>
     </message>
 </context>
 </TS>

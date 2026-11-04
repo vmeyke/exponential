@@ -5,7 +5,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/kernel/classes/benchmark/ExpBenchmarkHttpTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group benchmark
@@ -14,6 +14,7 @@
 require_once __DIR__ . '/../../../../../kernel/classes/expbenchmark.php';
 require_once __DIR__ . '/../../../../../kernel/classes/expbenchmarkhttp.php';
 
+#[\PHPUnit\Framework\Attributes\Group('benchmark')]
 class ExpBenchmarkHttpTest extends \PHPUnit\Framework\TestCase
 {
     /** @var resource|null */
@@ -143,8 +144,17 @@ class ExpBenchmarkHttpTest extends \PHPUnit\Framework\TestCase
     {
         $rows = expBenchmarkHttp::run( array( self::$base ), array( '/slow' ), $this->options( array( 'requests' => 8, 'concurrency' => 4, 'rounds' => 1 ) ) );
         $this->assertGreaterThanOrEqual( 20.0, $rows[0]['min'] );
-        // One at a time, 8 requests of 20 ms cannot exceed 50 per second; four at a time they do.
-        $this->assertGreaterThan( 50.0, $rows[0]['rps'] );
+        // Four at a time are clearly faster than one at a time, measured side by side: a fixed floor (50 per second)
+        // failed on a loaded machine at 47, where both sides slow down alike (2026-10-31).
+        // A load spike during one of the two series can still flip the comparison (50.03 against 54.16, 2026-11-01),
+        // so a miss measures both series once more and only a second miss fails.
+        $serial = expBenchmarkHttp::run( array( self::$base ), array( '/slow' ), $this->options( array( 'requests' => 8, 'concurrency' => 1, 'rounds' => 1 ) ) );
+        if ( $rows[0]['rps'] <= 1.5 * $serial[0]['rps'] )
+        {
+            $rows = expBenchmarkHttp::run( array( self::$base ), array( '/slow' ), $this->options( array( 'requests' => 8, 'concurrency' => 4, 'rounds' => 1 ) ) );
+            $serial = expBenchmarkHttp::run( array( self::$base ), array( '/slow' ), $this->options( array( 'requests' => 8, 'concurrency' => 1, 'rounds' => 1 ) ) );
+        }
+        $this->assertGreaterThan( 1.5 * $serial[0]['rps'], $rows[0]['rps'], 'concurrency 4 against 1, measured twice' );
     }
 
     public function testTwoTargetsGiveOneRowEachAndAPair()

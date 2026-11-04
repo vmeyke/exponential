@@ -2,7 +2,7 @@
 /**
  * File containing the eZOrderStatus class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -307,15 +307,25 @@ class eZOrderStatus extends eZPersistentObject
     {
         $db = eZDB::instance();
         $db->begin();
+        try
+        {
 
-        // Set all elements using this status to 0 (undefined).
-        $statusID = (int)$this->StatusID;
-        $db->query( "UPDATE ezorder SET status_id = 0 WHERE status_id = $statusID" );
-        $db->query( "UPDATE ezorder_status_history SET status_id = 0 WHERE status_id = $statusID" );
+            // Set all elements using this status to 0 (undefined).
+            $statusID = (int)$this->StatusID;
+            $db->query( "UPDATE ezorder SET status_id = 0 WHERE status_id = $statusID" );
+            $db->query( "UPDATE ezorder_status_history SET status_id = 0 WHERE status_id = $statusID" );
 
-        $id = $this->ID;
-        eZPersistentObject::removeObject( eZOrderStatus::definition(), array( "id" => $id ) );
+            $id = $this->ID;
+            eZPersistentObject::removeObject( eZOrderStatus::definition(), array( "id" => $id ) );
 
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
 
         eZOrderStatus::flush();

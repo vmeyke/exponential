@@ -109,9 +109,9 @@ Notes:
 - 7x and the Foundation are **two organizations**. Never write as if they were one, and never write that the
   Foundation sells services: 7x is the company, the Foundation operates and funds the project
   ([The Foundation and 7x](../who-is-the-exponential-foundation.md#the-foundation-and-7x)).
-- The copyright holder of the software is written **7x & Exponential Foundation** (`COPYRIGHT.md`); the
-  documentation's notice adds "and the Exponential contributors" ([The license of this documentation](../../README-LICENSE.md)).
-  Copy these notices exactly, never shorten them.
+- The copyright holder of the software is written **Exponential Foundation and 7x** (`COPYRIGHT.md`); the
+  documentation carries the same notice, with no third holder: contributors assign their copyright to both through the
+  CLA ([The license of this documentation](../../README-LICENSE.md)). Copy the notice exactly, never shorten it.
 
 ## The old name: eZ Publish, only as history
 
@@ -166,7 +166,7 @@ The sources mention other companies factually. Keep that tone.
 |---|---|---|
 | eZ Systems | Developer of eZ Publish; its copyright 1999 to 2014 stays in the code | Name only as history and in copyright notices |
 | Ibexa, eZ Platform, Ibexa DXP OSS | The Symfony-based successors of eZ Publish; the product was renamed "At the specific request of Ibexa" | Factual statements only; no comparisons beyond what the sources say ([Comparing Exponential factually](comparing-exponential-factually.md)) |
-| Netgen | Exponential Layouts brings "the Netgen Layouts concept to the Exponential kernel" | Credit them where their work is used |
+| Netgen | Exponential Layouts brings "the concept of the upstream layouts packages to the Exponential kernel" | Credit them where their work is used |
 | Mugo Web | LoveStack features rebuilt "with full credit to Mugo Web" | Credit them |
 | CJW Network | `cjw_newsletter`, request-shield | Credit them; request-shield is "a project of CJW Network ... not of the Foundation" |
 

@@ -10,6 +10,20 @@ problems people actually meet, a rollback plan and a checklist. Every command, p
 against the code of this repository; where the vendor's own upgrade pages for 4.0 to 4.7 say something else, the
 difference is pointed out.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../examples/web-servers/nginx.md), [LiteSpeed](../examples/web-servers/litespeed.md),
+> [Caddy](../examples/web-servers/caddy.md), [IIS](../examples/web-servers/iis.md), [Velocity](../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../help/hosting/panels/plesk.md), [cPanel](../help/hosting/panels/cpanel.md), [DirectAdmin](../help/hosting/panels/directadmin.md), [ISPConfig](../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../guides/litespeed-page-cache.md).
+
 [Contents](README.md) · Previous: [13. Security hardening for production](13-security-hardening.md) · Next: [15. Migrating from the 5.x legacy stack](15-migrating-from-5x-legacy.md)
 
 ## 14.1 What changes, and what does not
@@ -143,7 +157,7 @@ Do these on the old site while it still runs its old code, before you take the d
 - **Optional clean-ups that make the dump smaller:** remove internal drafts (set `content.ini [ContentSettings]
   InternalDraftsCleanUpLimit` and `InternalDraftsDuration` low and run the `internal_drafts_cleanup.php` cron job), old
   archived versions, expired sessions. The same tools exist in Exponential afterwards:
-  `php runcronjobs.php --script=internal_drafts_cleanup.php`, `php bin/php/cleanupversions.php`,
+  `php runcronjobs.php --script=internal_drafts_cleanup.php`, `php bin/php/cleanupversions.php --apply`,
   `php update/common/scripts/cleanup.php session`.
 - **Back up** the database and the whole old directory, including `var/`. The commands are in
   [11.1](11-upgrading.md#111-before-you-start). Restore the backup once on a scratch machine.
@@ -408,7 +422,7 @@ The vendor's direct-upgrade page says to skip the 4.4 section identifier script 
 4.5 and 4.6 pages of the vendor set `define( 'STORAGE_BACKEND', 'dfsmysqli' )` inside `index_cluster.php`; that name
 is not read any more, and the old `index_cluster_*` and `index_image_*` files are to be removed from the document root
 (4.7 notes). The tools for a DFS site: `php bin/php/clusterize.php` (`-u` moves files back to the plain file system),
-`php bin/php/dfscleanup.php` (consistency between `ezdfsfile` and the mount), `php bin/php/clusterpurge.php`.
+`php bin/php/dfscleanup.php` (consistency between `ezdfsfile` and the mount), `php bin/php/clusterpurge.php --apply`.
 
 ## 14.7 Settings and siteaccesses
 
@@ -423,6 +437,20 @@ Copy, from the old installation into the new one, **only**:
 then go through them with the list below. Never copy the old `settings/*.ini` files over the new ones: the new
 defaults are part of the code. The vendor's pages said the same in their step 1 (copy `settings/siteaccess`,
 `settings/override` and the site's own `design/<site>` directories into the unpacked new release).
+
+To compare a carried-over `config.php` with the template without an editor, run in the new root:
+
+```bash
+./console exp:setup:status                 # config.php: how many settings it sets, or that it does not compile
+./console exp:setup:config                 # the diff between config.php and config.php-RECOMMENDED (changes nothing)
+./console exp:config:list                  # every documented setting: the value config.php has, or (not set)
+./console exp:config:set CLUSTER_STORAGE_BACKEND dfsmysqli --apply    # set or correct one value, backup first
+```
+
+A setting the old file defines inside an `if` is reported as `conditional` and left to you. Without an old
+`config.php`, `./console exp:setup:config --apply` creates one from the template; for `.htaccess`, take the new
+`.htaccess_root` with `./console exp:setup:htaccess --apply` rather than the old site's copy. See
+[Setting up .htaccess and config.php from the console](../guides/setup-files-from-the-console.md).
 
 ### Settings to change
 
@@ -827,7 +855,7 @@ says where, and how Exponential differs.
 | File and database consistency check in Setup > Upgrade check | 14.4, 14.12 | same buttons; file check compares with `share/filelist.md5` |
 | Five steps: files, database, system scripts, configuration, caches ([how to proceed](https://ezpublishdoc.mugo.ca/eZ-Publish/Upgrading/How-to-proceed.html)) | 14.5 to 14.8 | database scripts in two phases (14.5.4) |
 | Direct upgrade only between consecutive stable releases; otherwise stage it | 14.5.5 | one chain, applied in one session, file by file |
-| 4.0: PHP 5, `date.timezone`, autoload arrays, class constants instead of global constants ([important notes](https://ezpublishdoc.mugo.ca/eZ-Publish/Upgrading/Upgrading-to-4.0/Important-notes.html)) | 14.9 | PHP 8.0 to 8.5; arrays in `autoload/` and `var/autoload/` |
+| 4.0: PHP 5, `date.timezone`, autoload arrays, class constants instead of global constants ([important notes](https://ezpublishdoc.mugo.ca/eZ-Publish/Upgrading/Upgrading-to-4.0/Important-notes.html)) | 14.9 | PHP 8.0 to 8.5 (PHP 7.4 usable without support); arrays in `autoload/` and `var/autoload/` |
 | 4.0: charset conversion with `ezconvertdbcharset.php`, InnoDB with `ezconvertmysqltabletype.php` ([3.10 to 4.0](https://ezpublishdoc.mugo.ca/eZ-Publish/Upgrading/Upgrading-to-4.0/from-3.10.x-to-4.0.y.html)) | 14.5.2 | same scripts; MySQL `utf8`, mind MySQL 8 defaults |
 | 4.0: overriding templates in `override/templates/` | 14.8 | unchanged; `Priority` now orders override blocks |
 | 4.1: `updateimagesystem.php` **before** the SQL; ezdhtml replaced by ezoe; `$Result['path']` must be an array ([4.0 to 4.1](https://ezpublishdoc.mugo.ca/eZ-Publish/Upgrading/Upgrading-to-4.1/4.0.x-to-4.1.y.html)) | 14.5.4, 14.7, 14.9 | only if `ezimage` has rows; ezoe on TinyMCE 3 or 8 |

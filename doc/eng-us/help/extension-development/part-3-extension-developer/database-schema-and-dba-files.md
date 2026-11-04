@@ -92,7 +92,7 @@ script and compare by primary key) instead of reading the diff.
 
 ## Testing on more than one engine
 
-The quickest real test is a fresh SQLite installation (`./console exp:install`) with your extension switched on and its
+The quickest real test is a fresh SQLite installation (`./console exp:install --apply`) with your extension switched on and its
 schema installed. If your extension claims support for other databases, test there too; the kernel's CI runs MySQL and
 PostgreSQL for this reason ([Continuous integration](../../../bc/6.0/ci.md)).
 
@@ -102,6 +102,7 @@ PostgreSQL for this reason ([Continuous integration](../../../bc/6.0/ci.md)).
 - Next: [Events, listeners and filters](events-and-filters.md)
 - [Databases](../../../install/09-databases.md)
 - [Packages (.ezpkg) and the package creator](../part-7-releasing/packages-ezpkg.md)
+- [Migrations](../../migrations/README.md), [Migrations in an extension or a package](../../migrations/recipes/migrations-in-an-extension-or-package.md), [Upgrade step or migration?](../../migrations/recipes/upgrade-step-or-migration.md)
 - [Free documentation](../../free-documentation.md): this page is free to copy, translate and improve under the GNU FDL 1.3.
 
 <!-- exp-partner-block:start -->

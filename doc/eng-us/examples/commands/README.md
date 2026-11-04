@@ -15,13 +15,13 @@ Every command of `./console` (`bin/php/console`): each `bin/php/<name>.php` is `
 | Command | Aliases | What it does |
 |---|---|---|
 | [exp:accesscheck](accesscheck.md) | exp:access:check | Check what a user may do with a node or object (content/read, edit, ...) and which limitation refuses it |
-| [exp:addanonymouspublicpolicies](addanonymouspublicpolicies.md) |  | Give the Anonymous role the public policies it lacks: user/register, rss/feed, tags/view, the newsletter's public views (--dry-run lists them first) |
-| [exp:adddefaultstates](adddefaultstates.md) |  |  |
-| [exp:addeditorpolicies](addeditorpolicies.md) |  | Give the Editor role the everyday policies it lacks: content/hide, content/restore, content/reverserelatedlist, ezmultiupload, the image editor, the own account (--dry-run lists them first) |
-| [exp:addexphelpreadpolicy](addexphelpreadpolicy.md) | exp:help-grant | Grant exphelp/read (the help system) to the Editor role or the roles named (--dry-run lists them first) |
-| [exp:addmembermanagement](addmembermanagement.md) |  | Set up member management from membermanagement.ini: the role that lets a group (default Editors) manage the accounts of another (default Members), never Administrator users or Editors (--dry-run lists it first) |
-| [exp:addoauthauthorizepolicy](addoauthauthorizepolicy.md) |  | Grant oauth/authorize to the roles that let users sign in (6.0.15 upgrade; --dry-run lists them first) |
-| [exp:adduserapproval](adduserapproval.md) |  | Set up the approval of new accounts in a user group (default: new Editors wait for the Administrator users): the workflow event on content/publish before and the role that lets the requesters create such accounts (--dry-run lists it first) |
+| [exp:addanonymouspublicpolicies](addanonymouspublicpolicies.md) |  | Give the Anonymous role the public policies it lacks: user/register, rss/feed, tags/view, the newsletter's public views (dry run unless --apply) |
+| [exp:adddefaultstates](adddefaultstates.md) |  | Give every content object the default state of each state group it has no state of (dry run unless --apply) |
+| [exp:addeditorpolicies](addeditorpolicies.md) |  | Give the Editor role the everyday policies it lacks: content/hide, content/restore, content/reverserelatedlist, ezmultiupload, the image editor, the own account, the UI switch, the class sets of editorpolicies.ini, no duplicates (dry run unless --apply) |
+| [exp:addexphelpreadpolicy](addexphelpreadpolicy.md) | exp:help-grant | Grant exphelp/read (the help system) to the Editor role or the roles named (dry run unless --apply) |
+| [exp:addmembermanagement](addmembermanagement.md) |  | Set up member management from membermanagement.ini: the role that lets a group (default Editors) manage the accounts of another (default Members), never Administrator users or Editors (dry run unless --apply) |
+| [exp:addoauthauthorizepolicy](addoauthauthorizepolicy.md) |  | Grant oauth/authorize to the roles that let users sign in (6.0.15 upgrade; dry run unless --apply) |
+| [exp:adduserapproval](adduserapproval.md) |  | Set up the approval of new accounts in a user group (default: new Editors wait for the Administrator users): the workflow event on content/publish before and the role that lets the requesters create such accounts; --mode=section sets up the optional alternative, a section Staff with the plain approval event (both a dry run unless --apply) |
 | [exp:audit](audit.md) |  | Audit log: tail, show one event, verify the hash chains, list the channels |
 | [exp:benchmark](benchmark.md) | exp:bench | Measure this installation: page timings over HTTP, A/B between servers, kernel probes, regression check |
 | [exp:cache](cache.md) |  | Clear and inspect caches by tag, id or all: content, static, HTTP, Velocity, OPcache, APCu |
@@ -30,26 +30,106 @@ Every command of `./console` (`bin/php/console`): each `bin/php/<name>.php` is `
 | [exp:checkcodestyle](checkcodestyle.md) |  |  |
 | [exp:checkdbfiles](checkdbfiles.md) |  | Verify the database update files against the upgrade path; reports missing or stray files |
 | [exp:checkmanifest](checkmanifest.md) |  |  |
-| [exp:cleanuppolicies](cleanuppolicies.md) |  | Remove policies of modules that no longer exist (--dry-run lists them first) |
-| [exp:cleanuprss](cleanuprss.md) |  | Trim RSS-imported content, keeping the newest items of each active import |
-| [exp:cleanupversions](cleanupversions.md) |  | Remove archived content versions beyond the VersionManagement limits (-n: do not wait) |
+| [exp:cleanuppolicies](cleanuppolicies.md) |  | Remove policies of modules that no longer exist (dry run unless --apply) |
+| [exp:cleanuprss](cleanuprss.md) |  | Trim RSS-imported content, keeping the newest items of each active import (dry run unless --apply) |
+| [exp:cleanupversions](cleanupversions.md) |  | Remove archived content versions beyond the VersionManagement limits (dry run unless --apply; -n: do not wait) |
 | [exp:clusterize](clusterize.md) |  | Move var files into the database cluster storage (-u moves them back) |
-| [exp:clusterpurge](clusterpurge.md) |  | Physically purge the cluster files of the given scopes (--scopes=scope1,scope2) |
-| [exp:collaborationsampledata](collaborationsampledata.md) | exp:collaboration:sample-data | Build sample content for the collaboration tool (approvals, comments, groups), or remove it again |
-| [exp:contentcheck](contentcheck.md) | exp:content-check | Content checks: build the reference index, list the unused assets and the broken relations below a node, list the missing files, scan the storage files (report only, unless --fix, --quarantine or --fix-permissions without --dry-run) |
+| [exp:clusterpurge](clusterpurge.md) |  | Physically purge the cluster files of the given scopes (--scopes=scope1,scope2; dry run unless --apply) |
+| [exp:collaborationsampledata](collaborationsampledata.md) | exp:collaboration:sample-data | Build sample content for the collaboration tool (approvals, comments, groups), or remove it again (dry run unless --apply) |
+| [exp:configphp](configphp.md) | exp:config:list, exp:config:get, exp:config:set, exp:config:unset | List, read, set and unset the define() settings of config.php, typed and checked with php -l, documented by config.php-RECOMMENDED (set and unset: dry run unless --apply) |
+| [exp:contentcheck](contentcheck.md) | exp:content-check | Content checks: build the reference index, list the unused assets and the broken relations below a node, list the missing files, scan the storage files (report only; --fix, --quarantine and --fix-permissions are a dry run unless --apply) |
 | [exp:convertezenumtoezselection](convertezenumtoezselection.md) |  |  |
 | [exp:convertprice2multiprice](convertprice2multiprice.md) |  | Convert content objects with 'price' datatype attributes to 'multiprice' |
 | [exp:dfscleanup](dfscleanup.md) |  | Check database and DFS files against each other (-S, -B) and delete nonexistent ones (-D) |
+| [exp:expbackfillordersiteaccess](expbackfillordersiteaccess.md) |  | Infer the siteaccess of orders placed before ezorder.siteaccess was recorded (dry run unless --apply) |
 | [exp:expcontentjob](expcontentjob.md) |  | Run, list, resume and cancel content jobs: large subtree removes and copies in batches |
 | [exp:expfetch](expfetch.md) | exp:info, exp:about | The system card: the Exponential "e" next to the facts of this installation, its engine and its machine, with health hints (exp:info adds an inventory, exp:about the project) |
+| [exp:expgraphqlbench](expgraphqlbench.md) | exp:graphql:bench | Measure the speed of the GraphQL API against decision 18: cached GET, 304, cached POST, a cached answer through the kernel and an uncached query, N requests each, with median, p95 and max |
+| [exp:expgraphqldisable](expgraphqldisable.md) | exp:graphql:disable | Switch the GraphQL API, or only its mutations, off for every siteaccess or for some; a dry run unless --apply |
+| [exp:expgraphqlenable](expgraphqlenable.md) | exp:graphql:enable | Switch the GraphQL API on in one command: the siteaccesses, the mutations, CORS for a front end, an API key, the schema, a curl example; a dry run unless --apply |
+| [exp:expgraphqlkeys](expgraphqlkeys.md) | exp:graphql:keys | The personal API keys of the GraphQL API: list them, make one for a user (the token is shown once) or revoke one; a dry run unless --apply |
+| [exp:expgraphqlpersist](expgraphqlpersist.md) | exp:graphql:persist | Store GraphQL queries on the server as persisted queries (called by name or SHA-256), list them or remove them; a dry run unless --apply |
+| [exp:expgraphqlquery](expgraphqlquery.md) | exp:graphql:query | Run a GraphQL query from the console, as a user of the installation (anonymous unless --as names one), and print the answer |
+| [exp:expgraphqlschema](expgraphqlschema.md) | exp:graphql:schema | Print or write the GraphQL schema of a siteaccess: the schema language (sdl), the introspection result (json) or the classes and their fields (summary) |
+| [exp:expgraphqlstarter](expgraphqlstarter.md) | exp:graphql:starter | Generate a starter front end (Next.js, Nuxt, Astro, plain HTML or Expo) that reads the site through the GraphQL API, with queries from the live schema; a dry run unless --apply |
+| [exp:expgraphqlstatus](expgraphqlstatus.md) | exp:graphql:status | The GraphQL API of a siteaccess: switched on or off, end point, library, limits, introspection, naming, schema hash, classes and datatypes without a mapping |
+| [exp:expgraphqlwebhooks](expgraphqlwebhooks.md) | exp:graphql:webhooks | The webhooks of the GraphQL API: list them, add or change one (with a new signing secret), remove one, send a test, deliver now, read the delivery log; a dry run unless --apply |
 | [exp:exphelp](exphelp.md) | exp:help | The help system on the command line: build and describe the index of doc/, search it, show a page's metadata, check its links and images |
-| [exp:exphelpcontent](exphelpcontent.md) | exp:help:content | Help maintained as content: create the help classes, sections, states, tree and roles (idempotent), check the topics against the style guide, seed the glossary and topics, report and uninstall |
+| [exp:exphelpcontent](exphelpcontent.md) | exp:help:content | Help maintained as content: create the help classes, sections, states, tree and roles (idempotent), check the topics against the style guide, seed the glossary and topics, report and uninstall (the changing actions are a dry run unless --apply) |
 | [exp:exphelpexamples](exphelpexamples.md) | exp:help:examples | Generate the reference examples of the help below doc/eng-us/examples/ from the code: template operators and functions, fetch functions, module views, policies, INI settings, datatypes, workflow events, cronjobs, console commands and extension points |
-| [exp:explogs](explogs.md) | exp:logs | The log viewer on the command line: list the log files, follow one, search them and their rotations, find an error reference and the lines of its request (masked by default); rotate logs and prune their archives |
-| [exp:exploremipsumfill](exploremipsumfill.md) | exp:loremipsum | Fill a translation of objects in a test language (Lorem Ipsum, qlo-ZZ) with lorem ipsum text |
+| [exp:explogs](explogs.md) | exp:logs | The log viewer on the command line: list the log files, follow one, search them and their rotations, find an error reference and the lines of its request (masked by default); rotate logs and prune their archives (dry run unless --apply) |
+| [exp:exploremipsumfill](exploremipsumfill.md) | exp:loremipsum | Fill a translation of objects in a test language (Lorem Ipsum, qlo-ZZ) with lorem ipsum text (dry run unless --apply) |
 | [exp:explovestack](explovestack.md) | exp:lovestack | Check an installation coming from LoveStack (read-only), and record its database as Exponential's (migrate) |
+| [exp:expmigrationcaption](expmigrationcaption.md) | exp:migration:caption | Take a caption of the installation now (database, storage, settings, the commits of the code), or list the captions; a dry run unless --apply |
+| [exp:expmigrationcheck](expmigrationcheck.md) | exp:migration:check | Check migration files without running them: names, headers, order, PHP syntax and classes (the lint for CI) |
+| [exp:expmigrationconvert](expmigrationconvert.md) | exp:migration:convert | Convert YAML migrations of the migration bundle of the Symfony based platform into YAML migrations of Exponential: a file or every .yml file of a folder, step by step, what does not convert listed at the top of the new file; a dry run unless --apply |
+| [exp:expmigrationdeploy](expmigrationdeploy.md) | exp:migration:deploy | Deploy this installation's migrations to one or many remotes at once, in sync: preflight and verify on all, then switch all, or take all back |
+| [exp:expmigrationdryrun](expmigrationdryrun.md) | exp:migration:dry-run | Dry run of the pending migrations: the plan, and with --simulate a run in a transaction that is rolled back (--diff shows what changed) |
+| [exp:expmigrationgenerate](expmigrationgenerate.md) | exp:migration:generate | Write a new migration file: --skeleton writes an empty migration (PHP, or with --type=yml, sql, ini or graphql that kind); --from-recording turns a recording of changes into a YAML migration; --from-content, --from-class, --from-role, --from-section and --from-settings turn what the installation has into one; --from-diff turns what changed since a caption, another installation or a database dump into one; a dry run unless --apply |
+| [exp:expmigrationheal](expmigrationheal.md) | exp:migration:heal | Self-healing before a migration run: a stale run lock, missing migration folders, file modes, caches (what a deploy may fix on a remote) |
+| [exp:expmigrationmigrate](expmigrationmigrate.md) | exp:migration:migrate | Run the pending migrations: a dry run unless --apply; captions before and after, restore on failure, commit, tag and push |
+| [exp:expmigrationpush](expmigrationpush.md) | exp:migration:push | Push the migration runs whose push failed (push state pending) to the remote of the migrations repository; a dry run unless --apply |
+| [exp:expmigrationrecorddiscard](expmigrationrecorddiscard.md) | exp:migration:record:discard | Discard a recording of changes: the recording and every event it captured are removed (a running one stops recording); a dry run unless --apply |
+| [exp:expmigrationrecordlist](expmigrationrecordlist.md) | exp:migration:record:list | List the recordings of changes, running and stopped, the newest first, with their kind, state and number of events |
+| [exp:expmigrationrecordshow](expmigrationrecordshow.md) | exp:migration:record:show | Show a recording of changes: every event it captured as the migration step it stands for, or with --plan the steps a migration of it would have |
+| [exp:expmigrationrecordstart](expmigrationrecordstart.md) | exp:migration:record:start | Start a recording of changes: one user's own changes (a session recording) or every change of the site (--site-wide), kept as the steps of a YAML migration; a dry run unless --apply |
+| [exp:expmigrationrecordstatus](expmigrationrecordstatus.md) | exp:migration:record:status | The recordings of changes that run: the site-wide window and the user's own recording, with how much each has recorded; repairs the file of running recordings |
+| [exp:expmigrationrecordstop](expmigrationrecordstop.md) | exp:migration:record:stop | Stop a recording of changes: the one named, a user's own (--user) or the site-wide window (--site-wide); its events stay for exp:migration:generate --from-recording; a dry run unless --apply |
+| [exp:expmigrationremotelist](expmigrationremotelist.md) | exp:migration:remote:list | The remotes migrations can be deployed to (migration.ini [RemoteSettings]), with their groups and any problem of their settings; connects to none |
+| [exp:expmigrationremotestatus](expmigrationremotestatus.md) | exp:migration:remote:status | The migration state of remotes, read in parallel (reachable, version, lock, done, pending, failed), whether they are in sync, and the latest deploys |
+| [exp:expmigrationreposplit](expmigrationreposplit.md) | exp:migration:repo:split | Split the migrations folder of the installation's git checkout into a repository of its own with its history (every commit that changed it, same authors, dates and messages); a dry run unless --apply |
+| [exp:expmigrationresume](expmigrationresume.md) | exp:migration:resume | Resume a migration run that failed or was interrupted: the migrations still pending run again; a dry run unless --apply |
+| [exp:expmigrationrollback](expmigrationrollback.md) | exp:migration:rollback | Take migrations back: a run (its caption restored), one migration (its down()) or, for experts, any caption; a dry run unless --apply |
+| [exp:expmigrationstatus](expmigrationstatus.md) | exp:migration:status | Migration status: every migration with its state (done, pending, not-needed, failed, unknown), the latest runs and what waits |
 | [exp:exppatterncatalogue](exppatterncatalogue.md) |  |  |
 | [exp:exprepair](exprepair.md) |  | Repair queue of the missing-libraries error page: --create-key, --disable, --status, --run |
+| [exp:expstaticbuild](expstaticbuild.md) | exp:static:build | Build a static copy of a target's siteaccess into its folder (static publishing): crawled as the anonymous user, links rewritten, files collected, extras and manifest written |
+| [exp:expstaticdiff](expstaticdiff.md) | exp:static:diff | What the last static build of a target changed, whether its folder still matches the manifest, and whether every link of it works when served below a path |
+| [exp:expstaticdns](expstaticdns.md) | exp:static:dns | Check the DNS records of a custom domain for GitHub Pages: the A, AAAA and CNAME records compared with GitHub's addresses, and what to change |
+| [exp:expstaticgithub](expstaticgithub.md) | exp:static:github | Set a static publishing target up on GitHub (the repository, GitHub Pages from the branch or Actions, the custom domain, HTTPS), show its state there, or sign in with GitHub |
+| [exp:expstatickeys](expstatickeys.md) | exp:static:keys | Make or show the SSH deploy key of a static publishing target: ed25519, the private half in the secret store, the public half to add to the repository |
+| [exp:expstaticpublish](expstaticpublish.md) | exp:static:publish | Publish a target's static build (static publishing): commit it in the target's git repository, tag it static/<target>/<n> and push it, never forced |
+| [exp:expstaticpush](expstaticpush.md) | exp:static:push | Push the static publishing targets whose push failed again (runs with push state pending), never forced |
+| [exp:expstaticrollback](expstaticrollback.md) | exp:static:rollback | Roll a static publishing target back to an earlier publish: a new commit with the files of that tag, tagged and pushed; the history stays |
+| [exp:expstaticserve](expstaticserve.md) | exp:static:serve | Preview the static build of a target locally: PHP's built-in web server serves its folder below the target's base path, as GitHub Pages serves a project site |
+| [exp:expstaticstatus](expstaticstatus.md) | exp:static:status | The state of a static publishing target: its git repository, the credential (never its value), the last runs, waiting pushes and stale pages |
+| [exp:expstatictargets](expstatictargets.md) | exp:static:targets | List the targets of static publishing (staticcache.ini [Target_<id>]) with their siteaccess, links and folder, and check each one |
+| [exp:exptemplatecheck](exptemplatecheck.md) | exp:template:check, exp:template:lint, exp:template:convert:check | Check templates of every engine (.tpl, .stpl, .twig, .html.twig) for valid syntax: files, directories, designs, extensions, siteaccesses; levels syntax/compile/strict; text, json, jsonl, junit, checkstyle, github and sarif output |
+| [exp:exptemplateconvert](exptemplateconvert.md) | exp:template:convert | Convert the templates of a design from one template engine to another (--from-engine, --to-engine: tpl, stpl, twig); --dry-run, --file, --force, --override-ini, --twig-suffix |
+| [exp:exptemplateconvertdiff](exptemplateconvertdiff.md) | exp:template:convert:diff | Print the conversion of one template to another engine on stdout, without writing anything (--file, --to-engine, --from-engine) |
+| [exp:exptemplateconvertstpltotpl](exptemplateconvertstpltotpl.md) | exp:template:convert:stpl-to-tpl | Convert the Smarty templates (.stpl) of a design to Exponential templates (.tpl); --dry-run, --file, --force, --override-ini |
+| [exp:exptemplateconvertstpltotwig](exptemplateconvertstpltotwig.md) | exp:template:convert:stpl-to-twig | Convert the Smarty templates (.stpl) of a design to Twig templates (.twig); --dry-run, --file, --force, --override-ini, --twig-suffix |
+| [exp:exptemplateconverttpltostpl](exptemplateconverttpltostpl.md) | exp:template:convert:tpl-to-stpl | Convert the Exponential templates (.tpl) of a design to Smarty templates (.stpl); --dry-run, --file, --force, --override-ini |
+| [exp:exptemplateconverttpltotwig](exptemplateconverttpltotwig.md) | exp:template:convert:tpl-to-twig | Convert the Exponential templates (.tpl) of a design to Twig templates (.twig); --dry-run, --file, --force, --override-ini, --twig-suffix |
+| [exp:exptemplateconverttwigtostpl](exptemplateconverttwigtostpl.md) | exp:template:convert:twig-to-stpl | Convert the Twig templates (.twig) of a design to Smarty templates (.stpl); --dry-run, --file, --force, --override-ini |
+| [exp:exptemplateconverttwigtotpl](exptemplateconverttwigtotpl.md) | exp:template:convert:twig-to-tpl | Convert the Twig templates (.twig) of a design to Exponential templates (.tpl); --dry-run, --file, --force, --override-ini |
+| [exp:exptemplateengines](exptemplateengines.md) | exp:template:engines | List the template engines: library found or not, version, file endings, settings, security policy, compiled-template cache |
+| [exp:expuser2fa](expuser2fa.md) | exp:user:2fa | Two-step sign-in and passkeys of an account: show them; reset the second step for someone who lost the phone, remove the passkeys of a lost device (changes are a dry run unless --apply) |
+| [exp:expuserapprove](expuserapprove.md) | exp:user:approve | Approve a waiting registration (activate the account, or accept its approval item and publish it), or reject it with --reject, as Users > Unactivated and the approval item do (a dry run unless --apply) |
+| [exp:expuseraudit](expuseraudit.md) | exp:user:audit | The user audit log of an account (Users > Audit): what happened to it and what it did, newest first, filtered by event, result and days |
+| [exp:expuserbulk](expuserbulk.md) | exp:user:bulk | Disable, enable, delete, approve, reject or unlock every account the list filters select, each as the single command does it; --apply needs --confirm with the number the dry run showed |
+| [exp:expuserchecklogin](expuserchecklogin.md) | exp:user:check-login | Check whether a password read from standard input signs an account in (right password, enabled, not locked), for scripts and health checks; never counts as a failed sign-in |
+| [exp:expusercreate](expusercreate.md) | exp:user:create | Create a user account through the content publish, as the administration does (its workflows and the approval of new accounts run): login, e-mail, names, groups, and a password from standard input, a generated one or the activation mail (a dry run unless --apply) |
+| [exp:expuserdelete](expuserdelete.md) | exp:user:delete | Remove a user account for good, as the administration does; refuses the anonymous user, the administrator accounts, the user who acts and the last administrator (a dry run unless --apply) |
+| [exp:expuserdisable](expuserdisable.md) | exp:user:disable | Disable a user account and end its sessions, as Edit user settings does; refuses the protected accounts and the last administrator (a dry run unless --apply) |
+| [exp:expuseredit](expuseredit.md) | exp:user:edit | Change a user account: e-mail address, login, first and last name, groups added or removed, the main group (a dry run unless --apply) |
+| [exp:expuserenable](expuserenable.md) | exp:user:enable | Enable a disabled user account again, as Edit user settings does; an account that was never activated is approved with exp:user:approve instead (a dry run unless --apply) |
+| [exp:expuserexport](expuserexport.md) | exp:user:export | Export the accounts the list filters select as CSV or JSON: login, e-mail, names, state, groups, last visit (never a password or its hash) |
+| [exp:expusergroups](expusergroups.md) | exp:user:groups | User groups: list the group tree with its members, create, rename and move a group, remove an empty group to the trash (changes are a dry run unless --apply) |
+| [exp:expuserhygiene](expuserhygiene.md) | exp:user:hygiene | The counts of Users > Hygiene: accounts per state (disabled, unactivated, pending, locked, never signed in, inactive, orphaned, duplicate logins and addresses), each with the command that lists them |
+| [exp:expuserimport](expuserimport.md) | exp:user:import | Import accounts from a CSV or JSON file, each created as exp:user:create creates it, with the activation mail or disabled; never a password from the file (a dry run that checks every row unless --apply) |
+| [exp:expuserlist](expuserlist.md) | exp:user:list | List user accounts: filter by state (enabled, disabled, unactivated, pending, locked, never signed in, inactive ...), group and search, with paging |
+| [exp:expuserpending](expuserpending.md) | exp:user:pending | List the registrations that wait: for the e-mail address to be confirmed, for an administrator, or for an approval item, newest first |
+| [exp:expuserrequirepasswordchange](expuserrequirepasswordchange.md) | exp:user:require-password-change | Require a new password at the account's next sign-in, or remove that mark with --clear, as the account's edit form does (a dry run unless --apply) |
+| [exp:expuserresendactivation](expuserresendactivation.md) | exp:user:resend-activation | Send the activation mail again, with a new key, to an account that never activated, as Users > Unactivated does (a dry run unless --apply) |
+| [exp:expuserresetpassword](expuserresetpassword.md) | exp:user:reset-password | Reset a user's password: send the "reset your password" link, set a generated password shown once, or one read from standard input; optionally require a new password at the next sign-in (a dry run unless --apply) |
+| [exp:expuserroles](expuserroles.md) | exp:user:roles | Role assignments: list those of a user or group, assign a role with or without a subtree or section limitation, unassign it, as role/assign does (changes are a dry run unless --apply) |
+| [exp:expusersessions](expusersessions.md) | exp:user:sessions | The tracked sessions of an account (Your devices): list them, end all of them or one, as an administrator does on user/sessions (ending is a dry run unless --apply) |
+| [exp:expusershow](expusershow.md) | exp:user:show | Show one user account: groups, roles with their limitation, enabled or locked, last visit, registration state, two-step sign-in and active sessions (never a password hash) |
+| [exp:expuserunlock](expuserunlock.md) | exp:user:unlock | Unlock an account locked after too many wrong passwords: its failed sign-ins back to 0, as Users > Hygiene does (a dry run unless --apply) |
+| [exp:expuserwhoami](expuserwhoami.md) | exp:user:whoami | Which account the console acts as (the user of [UserSettings] UserCreatorID, or --as), with its roles and whether it has every right |
+| [exp:expviewcountupdate](expviewcountupdate.md) | exp:viewcount:update | Count the page views of the web server's access logs into the view counter (ezview_counter), for one siteaccess or several |
+| [exp:expwtmigratefromezwt](expwtmigratefromezwt.md) | exp:wt:migrate-from-ezwt | Replace ezwt (the website toolbar) by expwt (the website sidebar): settings, policies, activation, schedule (dry run unless --apply) |
 | [exp:ezapplytemplate](ezapplytemplate.md) |  | Apply the template blocks found in files and write the files back (exit code 0, 1 or 2) |
 | [exp:ezasynchronouspublisher](ezasynchronouspublisher.md) |  |  |
 | [exp:ezcache](ezcache.md) |  | Clear Exponential caches by tag or id (--clear-tag, --clear-id, --clear-all, --list-tags) |
@@ -74,8 +154,8 @@ Every command of `./console` (`bin/php/console`): each `bin/php/<name>.php` is `
 | [exp:ezsqldumpisbndata](ezsqldumpisbndata.md) |  | Dump the ISBN group and range tables as SQL to a file or standard output |
 | [exp:ezsqldumpschema](ezsqldumpschema.md) |  | Dump the database schema to a file or standard output (--type, --user) |
 | [exp:ezsqlinsertschema](ezsqlinsertschema.md) |  | Insert a database schema and data from a .dba file into a database (--type, --user) |
-| [exp:ezsubtreecopy](ezsubtreecopy.md) |  | Copy a content subtree to a new location (--src-node-id, --dst-node-id) |
-| [exp:ezsubtreeremove](ezsubtreeremove.md) |  | Remove content subtrees by node ID, to the trash unless --ignore-trash is given |
+| [exp:ezsubtreecopy](ezsubtreecopy.md) |  | Copy a content subtree to a new location (--src-node-id, --dst-node-id; dry run unless --apply) |
+| [exp:ezsubtreeremove](ezsubtreeremove.md) |  | Remove content subtrees by node ID, to the trash unless --ignore-trash is given (dry run unless --apply) |
 | [exp:eztc](eztc.md) |  | Compile the templates of a siteaccess into the template cache (--force recompiles all) |
 | [exp:eztemplatecheck](eztemplatecheck.md) |  | Check the syntax of the templates of a siteaccess or of a design directory |
 | [exp:ezwebincommon](ezwebincommon.md) |  | Helper library of ezwebininstall and ezwebinupgrade, not meant to be run directly |
@@ -85,33 +165,46 @@ Every command of `./console` (`bin/php/console`): each `bin/php/<name>.php` is `
 | [exp:frankenphp](frankenphp.md) | exp:fp | Control the FrankenPHP engine of the Exponential web server |
 | [exp:i18n](i18n.md) |  | The translation fallbacks: per locale the chain of translations it falls back to, and how much of the kernel and of each extension it shows translated; --check for CI |
 | [exp:ini](ini.md) |  | Read and change INI settings in every scope: get, set, add, rem, clear, toggle, copy, move, where, list, scopes |
-| [exp:install](install.md) | exp:names | One-command installation, SQLite by default, no kickstart.ini needed |
-| [exp:installcrontab](installcrontab.md) |  | Show, add or remove the cron job of the installation: the crontab lines that run its cronjob parts (--dry-run says what would change) |
-| [exp:kickstarter](kickstarter.md) |  | Kickstarter runner. Supports "ini" generation and full "run" setup subcommands |
-| [exp:mailbounces](mailbounces.md) | exp:mail:bounces | Read the bounce mailbox: hard bounces and spam complaints go on the suppression list |
-| [exp:mailconsent](mailconsent.md) | exp:mail:consent | The consent log of the e-mail preferences: list, export as CSV, retention cleanup |
+| [exp:install](install.md) | exp:names | One-command installation, SQLite by default, no kickstart.ini needed (a dry run unless --apply) |
+| [exp:installcrontab](installcrontab.md) |  | Show, add or remove the cron job of the installation: the crontab lines that run its cronjob parts (--add and --remove: dry run unless --apply) |
+| [exp:kickstarter](kickstarter.md) |  | Kickstarter runner: "ini" writes kickstart.ini, "run" installs from it (a dry run unless --apply) |
+| [exp:mailbounces](mailbounces.md) | exp:mail:bounces | Read the bounce mailbox: hard bounces and spam complaints go on the suppression list (dry run unless --apply) |
+| [exp:mailconsent](mailconsent.md) | exp:mail:consent | The consent log of the e-mail preferences: list, export as CSV, retention cleanup (dry run unless --apply) |
 | [exp:mailgate](mailgate.md) | exp:mail:gate | Test the mail gate: who of the given addresses would get a mail of a category, and what the decorated mail looks like |
 | [exp:mailpreferences](mailpreferences.md) | exp:mail:preferences | Show and change the e-mail preferences of a user or an address: categories, master switch, frequency, export, erase |
 | [exp:mailstatus](mailstatus.md) | exp:mail:status | Show the e-mail preference system: tables, gate, footer, categories, suppression, consent log, the gate's last decisions and problems |
 | [exp:mailsuppression](mailsuppression.md) | exp:mail:suppression | The suppression list of the e-mail gate: list, check, add and lift entries (only hashes are stored) |
 | [exp:maintenance](maintenance.md) |  | Take the site offline for maintenance and back: on, off or status |
 | [exp:makestaticcache](makestaticcache.md) |  | Crawl the public siteaccesses and generate static pages (--site, --max-pages, --max-depth) |
-| [exp:notificationevents](notificationevents.md) | exp:notification:events, exp:notify:events | List the notification events, or remove the old ones |
-| [exp:notificationrun](notificationrun.md) | exp:notification:run, exp:notify:run | Run the notification filter: send the notifications of the pending events and the due digests (--dry-run: only list them) |
+| [exp:notificationevents](notificationevents.md) | exp:notification:events, exp:notify:events | List the notification events, or remove the old ones (dry run unless --apply) |
+| [exp:notificationrun](notificationrun.md) | exp:notification:run, exp:notify:run | Run the notification filter: send the notifications of the pending events and the due digests (dry run unless --apply) |
 | [exp:notificationstatus](notificationstatus.md) | exp:notification:status, exp:notify:status | Show the notification system: pending events, digest items, subscriptions, the last runs and problems |
-| [exp:notificationsubscriptions](notificationsubscriptions.md) | exp:notification:subscriptions, exp:notify:subscriptions | List the subtree notification subscriptions per user and subtree, or remove those whose content is gone |
+| [exp:notificationsubscriptions](notificationsubscriptions.md) | exp:notification:subscriptions, exp:notify:subscriptions | List the subtree notification subscriptions per user and subtree, or remove those whose content is gone (dry run unless --apply) |
 | [exp:phar](phar.md) |  | Build and inspect the engine archive dist/engine.phar (verbs build, check, clean, info) |
-| [exp:preload](preload.md) |  | Warm the page caches of a site: request its section pages, then follow its links, and report the broken ones |
+| [exp:preload](preload.md) |  | Warm the page caches of a site: request its section pages, then follow its links, and report the broken ones (dry run unless --apply) |
 | [exp:preloadjob](preloadjob.md) |  |  |
 | [exp:publish_content](publish_content.md) |  |  |
 | [exp:resetuserpassword](resetuserpassword.md) |  | Reset a user password with admin authentication or root bypass |
 | [exp:services](services.md) | exp:services:compile, exp:services:list, exp:services:show, exp:services:check | Compile, list, show and check the kernel service container (verbs compile, list, show, check) |
+| [exp:setupfiles](setupfiles.md) | exp:setup:htaccess, exp:setup:config, exp:setup:status | Copy .htaccess_root (or .htaccess_root_static) to .htaccess and config.php-RECOMMENDED to config.php, with a diff, a backup and --force for an existing file (dry run unless --apply) |
 | [exp:solr](solr.md) | exp:search | Control the Solr search server, once it is installed and configured |
 | [exp:systeminfo](systeminfo.md) | exp:system:info | The facts and health checks of Setup > System information, as text or JSON (--json, --sizes) |
-| [exp:trashpurge](trashpurge.md) |  | Permanently delete all objects in the trash |
+| [exp:trashpurge](trashpurge.md) |  | Permanently delete all objects in the trash (dry run unless --apply) |
 | [exp:updateisbn13](updateisbn13.md) |  | Update the ISBN range data in the database from an XML file (--url is required) |
 | [exp:updateniceurls](updateniceurls.md) |  | Import old URL aliases and update the URL aliases of all nodes (--update-nodes) |
 | [exp:updatesearchindex](updatesearchindex.md) |  | Reindex all content objects in the search engine |
+| [exp:upgrade](upgrade.md) |  | Upgrade the installation in one call: every stage in order (dry run unless --apply) |
+| [exp:upgradebackup](upgradebackup.md) | exp:upgrade:backup | Upgrade backup: the backup exp:upgrade makes before it writes, on its own (database dump and settings overrides) |
+| [exp:upgradecaptions](upgradecaptions.md) | exp:upgrade:captions | Upgrade captions: the safe points to roll back to (git_manager's and exp:upgrade's), checked with --verify, pruned with --prune |
+| [exp:upgradecode](upgradecode.md) | exp:upgrade:code | Upgrade stage 1, code: the git checkouts moved to the target release, fast-forward only, through git_manager (dry run unless --apply) |
+| [exp:upgradedatabase](upgradedatabase.md) | exp:upgrade:database | Upgrade stage 3, database: the schema and data steps on every engine (dry run unless --apply) |
+| [exp:upgradefinish](upgradefinish.md) | exp:upgrade:finish | Upgrade stage 5, finish: deploy the changes (exp:velocity deploy --kernel) and check the site answers (dry run unless --apply) |
+| [exp:upgradelibraries](upgradelibraries.md) | exp:upgrade:libraries | Upgrade stage 2, libraries: Composer install from composer.lock (or update of named packages) with a security audit (dry run unless --apply) |
+| [exp:upgraderollback](upgraderollback.md) | exp:upgrade:rollback | Upgrade rollback: put the database, storage, settings, libraries and code back to a caption (dry run unless --apply) |
+| [exp:upgradescripts](upgradescripts.md) | exp:upgrade:scripts | Upgrade stage 4, scripts: the PHP upgrade steps, policies and repairs (dry run unless --apply) |
+| [exp:upgradestatus](upgradestatus.md) | exp:upgrade:status | Upgrade status: every upgrade step with its state (done, pending, not-needed, failed, unknown) |
+| [exp:upgradesteps](upgradesteps.md) | exp:upgrade:steps | Upgrade steps: the registered steps with id, stage, version, engines and description |
+| [exp:upgradeverify](upgradeverify.md) | exp:upgrade:verify | Upgrade verify: re-detect every step and report drift; --after: the full check after an upgrade (steps, smoke addresses, tests, error log, autoloads) |
 | [exp:userlogincheck](userlogincheck.md) | exp:user-login-check | Unique logins: list the logins more than one user account has; --fix-index adds the unique index on ezuser.login once there are none |
 | [exp:userpasswordchangerequired](userpasswordchangerequired.md) | exp:user-password-change-required | Change password at next sign-in: show, set or clear the mark of a user account |
 | [exp:velocity-router](velocity-router.md) |  |  |
@@ -139,6 +232,7 @@ Every command of `./console` (`bin/php/console`): each `bin/php/<name>.php` is `
 | `shell:common` | `bin/shell/common.sh` |  |
 | `shell:creatediff` | `bin/shell/creatediff.sh` | Create a patch/diff archive between two Exponential release versions |
 | `shell:distcommon` | `bin/shell/distcommon.sh` | Shared functions library sourced by distribution build scripts (not executable) |
+| `shell:expstaticaskpass` | `bin/shell/expstaticaskpass.sh` | Static publishing: git's password helper (GIT_ASKPASS) for a target with a token credential |
 | `shell:extensionscommon` | `bin/shell/extensionscommon.sh` | Shared functions library sourced by extension packaging scripts (not executable) |
 | `shell:fixlicense` | `bin/shell/fixlicense.sh` | Update legacy eZ Systems license URLs in PHP source files |
 | `shell:generatefilelist` | `bin/shell/generatefilelist.sh` | Generate share/filelist.md5 file integrity checksums for the current release |

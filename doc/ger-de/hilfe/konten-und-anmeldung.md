@@ -29,6 +29,22 @@ Alle Einzelheiten der Anmeldeseiten: [Anmelden im Editor](anmelden-im-editor.md)
 
 Zum Anmelden muss Ihr Browser Cookies annehmen.
 
+## Ihre erste Anmeldung mit einem vorläufigen Passwort
+
+Hat ein Administrator Ihr Konto angelegt, haben Sie die Adresse und Ihren Benutzernamen erhalten und das vorläufige
+Passwort auf einem zweiten Weg (zum Beispiel am Telefon). Bei Ihrer ersten Anmeldung öffnet die Website
+**Passwort ändern** mit dem Hinweis *Wählen Sie ein neues Passwort, bevor Sie fortfahren*:
+
+1. Geben Sie unter **Aktuelles Passwort** das vorläufige Passwort ein.
+2. Geben Sie Ihr neues Passwort unter **Neues Passwort** und noch einmal unter **Neues Passwort bestätigen** ein und
+   klicken Sie auf **Passwort ändern**.
+3. **Bestätigen Sie, dass Sie es sind** fragt noch einmal nach dem vorläufigen Passwort: Geben Sie es ein und klicken
+   Sie auf **Bestätigen**.
+4. *Ihr Passwort wurde geändert.* Klicken Sie auf **Weiter**.
+
+Ab jetzt kennen nur Sie Ihr Passwort. Jeden Schritt mit Bildschirmfotos zeigt
+[Konten für Redakteure und Administratoren einrichten](konten-fuer-redakteure-und-administratoren-einrichten.md#9-die-erste-anmeldung-des-redakteurs).
+
 ## Abmelden
 
 In der Administration verwenden Sie die letzte Schaltfläche der Kopfzeile, einen Pfeil, der ein Kästchen verlässt
@@ -145,9 +161,17 @@ dem Passwort aufgefordert, sie einzurichten.
 
 **Auf einer öffentlichen Demo** (ein Hinweisbalken **Demo-Modus** in der Administration) lassen sich die Passwörter von Administratorkonten weder ändern noch zurücksetzen; andere Konten funktionieren wie gewohnt. [Demo-Modus](demomodus.md).
 
+## Von der Konsole
+
+Administratoren können Ihnen auch vom Server aus helfen: ein vergessenes Passwort zurücksetzen, ein Konto nach zu
+vielen falschen Passwörtern entsperren oder die zweistufige Anmeldung nach einem verlorenen Telefon zurücksetzen.
+Siehe [Sitzungen und Anmeldesicherheit](benutzerverwaltung-von-der-konsole/sitzungen-und-anmeldesicherheit.md).
+
 ## Mehr erfahren
 
 - [Zweistufige Anmeldung](../anleitungen/zwei-faktor-anmeldung.md), für Administratoren, die sie einrichten.
+- [Konten für Redakteure und Administratoren einrichten](konten-fuer-redakteure-und-administratoren-einrichten.md), für Administratoren
+- [Was die Redakteursrolle erlaubt](was-die-redakteursrolle-erlaubt.md)
 - [Erste Schritte](erste-schritte.md)
 
 <!-- exp-partner-block:start -->

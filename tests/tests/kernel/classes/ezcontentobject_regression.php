@@ -3,7 +3,7 @@
 /**
  * File containing the eZContentObjectRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -11,6 +11,7 @@
  * @group database
  */
 
+#[\PHPUnit\Framework\Attributes\Group('database')]
 class eZContentObjectRegression extends ezpDatabaseTestCase
 {
     protected $backupGlobals = false;
@@ -254,6 +255,7 @@ class eZContentObjectRegression extends ezpDatabaseTestCase
      *
      * @group issue_15985
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_15985')]
     public function testIssue15985()
     {
         $folder = new ezpObject( "folder", 2, 14, 1, 'eng-GB' );

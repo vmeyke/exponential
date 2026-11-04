@@ -11,7 +11,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/extension/expservices/content/
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -44,8 +44,7 @@ abstract class expContentServicesTestCase extends PHPUnit\Framework\TestCase
             $script->setUseSiteAccess( 'admin' );
             $script->initialize();
             eZExecution::setCleanExit();
-            if ( !eZDB::instance()->isConnected() )
-                throw new RuntimeException( 'no database connection' );
+            ezpLiveInstallation::installedSiteDatabase();
             if ( !class_exists( 'expServiceBase' ) || !class_exists( 'expNodeServices' ) )
                 throw new RuntimeException( 'expservices is not active' );
             self::$script = $script;

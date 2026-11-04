@@ -2,7 +2,7 @@
 /**
  * File containing the eZCollaborationItem class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -96,7 +96,8 @@ class eZCollaborationItem extends eZPersistentObject
                                                       'message_count' => 'messageCount',
                                                       'unread_message_count' => 'unreadMessageCount',
                                                       'content' => 'content',
-                                                      'title' => 'title' ),
+                                                      'title' => 'title',
+                                                      'admin_url' => 'adminURL' ),
                       'increment_key' => 'id',
                       'class_name' => 'eZCollaborationItem',
                       'sort' => array( 'modified' => 'asc' ),
@@ -171,6 +172,20 @@ class eZCollaborationItem extends eZPersistentObject
     {
         $userID = eZUser::currentUserID();
         return eZCollaborationItemStatus::fetch( $this->ID, $userID );
+    }
+
+    /**
+     * The address of this item in the administration (collaboration/item/full/<id>), for the notification mails: the
+     * approver signs in there, whichever siteaccess published the content or ran the notification cronjob. The base
+     * is site.ini [UserSettings] RegistrationAdminBaseURL, else the administration siteaccess's address
+     * (expRegistrationAdminAction::adminBaseURL()). The link carries no key.
+     *
+     * @return string
+     */
+    function adminURL()
+    {
+        $base = class_exists( 'expRegistrationAdminAction' ) ? expRegistrationAdminAction::adminBaseURL() : '';
+        return rtrim( (string)$base, '/' ) . '/collaboration/item/full/' . (int)$this->attribute( 'id' );
     }
 
     function handler()
@@ -619,14 +634,24 @@ class eZCollaborationItem extends eZPersistentObject
     {
         $db = eZDB::instance();
         $db->begin();
-        $db->query( "DELETE FROM ezcollab_item" );
-        $db->query( "DELETE FROM ezcollab_item_group_link" );
-        $db->query( "DELETE FROM ezcollab_item_message_link" );
-        $db->query( "DELETE FROM ezcollab_item_participant_link" );
-        $db->query( "DELETE FROM ezcollab_item_status" );
-        $db->query( "DELETE FROM ezcollab_notification_rule" );
-        $db->query( "DELETE FROM ezcollab_profile" );
-        $db->query( "DELETE FROM ezcollab_simple_message" );
+        try
+        {
+            $db->query( "DELETE FROM ezcollab_item" );
+            $db->query( "DELETE FROM ezcollab_item_group_link" );
+            $db->query( "DELETE FROM ezcollab_item_message_link" );
+            $db->query( "DELETE FROM ezcollab_item_participant_link" );
+            $db->query( "DELETE FROM ezcollab_item_status" );
+            $db->query( "DELETE FROM ezcollab_notification_rule" );
+            $db->query( "DELETE FROM ezcollab_profile" );
+            $db->query( "DELETE FROM ezcollab_simple_message" );
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
     }
 

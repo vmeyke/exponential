@@ -20,20 +20,27 @@
       "tests/tests/kernel/classes/help/expHelpCommunityAudiencesTest.php",
       "tests/tests/kernel/classes/help/expHelpLandingPagesTest.php",
       "tests/tests/kernel/classes/help/expHelpContentsPageTest.php",
-      "tests/tests/kernel/classes/user/expDemoModeTest.php"
+      "tests/tests/kernel/classes/user/expDemoModeTest.php",
+      "tests/tests/bin/CopyrightNoticeTest.php",
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
     ],
     "*.php": [
-      "tests/tests/kernel/classes/security/expFileModeLimitsTest.php"
+      "tests/tests/kernel/classes/security/expFileModeLimitsTest.php",
+      "tests/tests/bin/CopyrightNoticeTest.php"
     ],
     "bin/*": [
-      "tests/tests/kernel/classes/security/expFileModeLimitsTest.php"
+      "tests/tests/kernel/classes/security/expFileModeLimitsTest.php",
+      "tests/tests/bin/CopyrightNoticeTest.php"
     ],
     "bin/php/console": [
       "tests/tests/bin/ConsoleExtensionAliasTest.php",
-      "tests/tests/kernel/classes/security/expFileModeLimitsTest.php"
+      "tests/tests/kernel/classes/security/expFileModeLimitsTest.php",
+      "tests/tests/kernel/private/classes/commands/expSetupFilesAndConfigPhpCommandsTest.php",
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
     ],
     "*.ini": [
-      "tests/tests/kernel/classes/ini/expIniRoundTripTest.php"
+      "tests/tests/kernel/classes/ini/expIniRoundTripTest.php",
+      "tests/tests/bin/CopyrightNoticeTest.php"
     ],
     "*.ini.append": [
       "tests/tests/kernel/classes/ini/expIniRoundTripTest.php"
@@ -46,7 +53,9 @@
       "tests/tests/kernel/classes/security/expFileModeLimitsTest.php",
       "tests/tests/design/AdminStylingRulesTest.php",
       "tests/tests/design/ExtensionInlineScriptsTest.php",
-      "tests/tests/extension/ezflow/ezflowEditScriptTest.php"
+      "tests/tests/extension/ezflow/ezflowEditScriptTest.php",
+      "tests/tests/kernel/private/classes/commands/expApplyFlagDeployCommandsTest.php",
+      "tests/tests/bin/CopyrightNoticeTest.php"
     ],
     "kernel/classes/mail/expmailtemplatebody.php": [
       "tests/tests/kernel/classes/mail/expMailTemplateBodyTest.php",
@@ -164,14 +173,24 @@
     ],
     "kernel/classes/datatypes/ezimage/ezimagetype.php": [
       "tests/tests/kernel/datatypes/ezimage/expImageSvgTest.php",
-      "tests/tests/kernel/classes/expImageUploadValidatorTest.php"
+      "tests/tests/kernel/classes/expImageUploadValidatorTest.php",
+      "tests/tests/lib/ezimage/expImageFocalPointTest.php"
     ],
     "kernel/classes/datatypes/ezimage/ezimagealiashandler.php": [
       "tests/tests/kernel/datatypes/ezimage/expImageSvgTest.php",
-      "tests/tests/kernel/datatypes/ezimage/eZImageAliasHandlerGuardsTest.php"
+      "tests/tests/kernel/datatypes/ezimage/eZImageAliasHandlerGuardsTest.php",
+      "tests/tests/lib/ezimage/expImageFocalPointTest.php"
     ],
     "lib/ezimage/classes/ezimagemanager.php": [
-      "tests/tests/kernel/datatypes/ezimage/expImageSvgTest.php"
+      "tests/tests/kernel/datatypes/ezimage/expImageSvgTest.php",
+      "tests/tests/lib/ezimage/expImageFocalPointTest.php"
+    ],
+    "settings/image.ini": [
+      "tests/tests/lib/ezimage/expImageFocalPointTest.php",
+      "tests/tests/lib/ezimage/eZImageShellHandlerTest.php"
+    ],
+    "lib/ezimage/classes/expimagefocalpoint.php": [
+      "tests/tests/lib/ezimage/expImageFocalPointTest.php"
     ],
     "kernel/classes/expimageuploadvalidator.php": [
       "tests/tests/kernel/classes/expImageUploadValidatorTest.php",
@@ -223,7 +242,8 @@
       "tests/tests/kernel/classes/eZDBGarbageCollectorBasketQueryTest.php"
     ],
     "kernel/classes/ezcontentobjecttreenode.php": [
-      "tests/tests/kernel/classes/eZContentObjectTreeNodeMissingPathLogTest.php"
+      "tests/tests/kernel/classes/eZContentObjectTreeNodeMissingPathLogTest.php",
+      "tests/tests/kernel/classes/eZContentObjectTreeNodeMongoAttributeFilterTest.php"
     ],
     "kernel/common/ezpi18n.php": [
       "tests/tests/kernel/common/ezpI18nMissingTranslationLogTest.php"
@@ -246,20 +266,25 @@
     ],
     "lib/eztemplate/classes/eztemplate.php": [
       "tests/tests/lib/eztemplate/eZTemplateVanishedCompiledTemplateTest.php",
-      "tests/tests/lib/eztemplate/eZTemplateEngineRenderTest.php"
+      "tests/tests/lib/eztemplate/eZTemplateEngineRenderTest.php",
+      "tests/tests/lib/templatebridge/expTemplateCheckerTest.php"
     ],
     "lib/ezfile/classes/ezlog.php": [
       "tests/tests/lib/ezfile/expLogRotatorTest.php",
-      "tests/tests/lib/ezfile/eZLogMaxSizeTest.php"
+      "tests/tests/lib/ezfile/eZLogMaxSizeTest.php",
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
     ],
     "lib/ezutils/classes/ezdebug.php": [
       "tests/tests/lib/ezutils/expDebugReportNoInlineCssTest.php",
+      "tests/tests/lib/ezutils/expDebugOffHeaderTest.php",
       "tests/tests/lib/ezutils/eZDebugTimingPointLogTest.php",
       "tests/tests/lib/ezfile/expLogRotatorTest.php"
     ],
     "lib/ezutils/classes/expdebugbarreport.php": [
+      "tests/tests/kernel/classes/httpcache/ezpHttpCacheDebugViewerTest.php",
+      "tests/tests/lib/ezutils/expDebugBarReportToolbarThemeTest.php",
       "tests/tests/lib/ezutils/expDebugReportNoInlineCssTest.php",
-      "tests/tests/lib/ezutils/expDebugBarReportToolbarThemeTest.php"
+      "tests/tests/lib/smarty/expSmartyDebugBarTest.php"
     ],
     "design/standard/stylesheets/expdebugbar-toolbar.css": [
       "tests/tests/lib/ezutils/expDebugBarReportToolbarThemeTest.php"
@@ -498,7 +523,8 @@
     ],
     "config.php-RECOMMENDED": [
       "tests/tests/kernel/classes/expShippedFeatureDefaultsTest.php",
-      "tests/tests/lib/ezfile/eZLogMaxSizeTest.php"
+      "tests/tests/lib/ezfile/eZLogMaxSizeTest.php",
+      "tests/tests/kernel/private/classes/commands/expSetupFilesAndConfigPhpCommandsTest.php"
     ],
     "lib/eztemplate/classes/eztemplatephpoperator.php": [
       "tests/tests/kernel/common/eZTemplateRawURLEncodeOperatorTest.php"
@@ -538,7 +564,8 @@
       "tests/tests/extension/ezjscore/ezjscoreVendoredLibrariesTest.php"
     ],
     "extension/ezjscore/settings/ezjscore.ini": [
-      "tests/tests/extension/ezjscore/ezjscoreVendoredLibrariesTest.php"
+      "tests/tests/extension/ezjscore/ezjscoreVendoredLibrariesTest.php",
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
     ],
     "extension/ezjscore/extension.xml": [
       "tests/tests/extension/ezjscore/ezjscoreVendoredLibrariesTest.php"
@@ -556,6 +583,9 @@
     ],
     "kernel/classes/audit/*": [
       "tests/tests/design/AdminSelfContainedTest.php"
+    ],
+    "kernel/classes/audit/format/*": [
+      "tests/tests/kernel/classes/audit/expAuditArchiveTest.php"
     ],
     "share/icons/crystal*": [
       "tests/tests/design/AdminIconsTest.php"
@@ -682,12 +712,14 @@
       "tests/tests/design/AdminIconsTest.php",
       "tests/tests/design/AdminHeaderTabOrderTest.php"
     ],
-    "design/admin4/stylesheets/pagelayout.css": [
+    "design/admin4/stylesheets/base.css": [
       "tests/tests/design/AdminHeaderTest.php",
       "tests/tests/design/AdminVisibilityStatusTest.php",
       "tests/tests/design/AdminLeftColumnFontTest.php",
       "tests/tests/design/AdminCssReviewFixesTest.php",
-      "tests/tests/design/AdminResponsiveTest.php"
+      "tests/tests/design/AdminResponsiveTest.php",
+      "tests/tests/design/AdminRightToLeftTest.php",
+      "tests/tests/design/AdminContentEditAttributeKindsTest.php"
     ],
     "extension/ezoe/design/standard/templates/content/datatype/edit/ezxmltext_ezoe_engine_switch.tpl": [
       "tests/tests/extension/ezoe/expOEEngineConfigTest.php",
@@ -714,7 +746,9 @@
       "tests/tests/design/AdminSubitemsTranslationsTest.php"
     ],
     "kernel/content/ezcontentoperationcollection.php": [
-      "tests/tests/kernel/content/eZPendingIndexActionsTest.php"
+      "tests/tests/kernel/content/eZPendingIndexActionsTest.php",
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php",
+      "tests/tests/kernel/content/eZContentOperationCollectionPublishNodeTest.php"
     ],
     "kernel/content/operation_definition.php": [
       "tests/tests/kernel/content/eZPendingIndexActionsTest.php",
@@ -803,7 +837,8 @@
       "tests/tests/kernel/classes/user/expUserAccountStatusTest.php"
     ],
     "extension/ezjscore/classes/ezjscserverfunctionsnode.php": [
-      "tests/tests/extension/ezjscore/ezjscServerFunctionsNodePriorityTest.php"
+      "tests/tests/extension/ezjscore/ezjscServerFunctionsNodePriorityTest.php",
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
     ],
     "kernel/classes/subitems/expsubitemsserverfunctions.php": [
       "tests/tests/kernel/classes/user/expUserAccountStatusTest.php"
@@ -1201,7 +1236,8 @@
       "tests/tests/lib/ezi18n/eZTSTranslatorFallbackChainTest.php"
     ],
     "kernel/classes/i18n/*": [
-      "tests/tests/kernel/classes/i18n/expI18nFallbackReportTest.php"
+      "tests/tests/kernel/classes/i18n/expI18nFallbackReportTest.php",
+      "tests/tests/kernel/classes/uiswitch/expUISwitchLanguageCatalogueScanTest.php"
     ],
     "kernel/private/classes/commands/i18n.php": [
       "tests/tests/kernel/classes/i18n/expI18nFallbackReportTest.php",
@@ -1238,6 +1274,7 @@
     "kernel/classes/uiswitch/*": [
       "tests/tests/kernel/classes/uiswitch/expUISwitchTest.php",
       "tests/tests/kernel/classes/uiswitch/expUISwitchLanguageProviderTest.php",
+      "tests/tests/kernel/classes/uiswitch/expUISwitchLanguageCatalogueScanTest.php",
       "tests/tests/kernel/classes/uiswitch/expUISwitchTestLanguageTest.php"
     ],
     "kernel/uiswitch/*": [
@@ -1256,12 +1293,14 @@
       "tests/tests/kernel/classes/uiswitch/expUISwitchTest.php"
     ],
     "lib/eztemplate/classes/eztemplatecachefunction.php": [
-      "tests/tests/kernel/classes/uiswitch/expUISwitchTest.php"
+      "tests/tests/kernel/classes/uiswitch/expUISwitchTest.php",
+      "tests/tests/lib/eztemplate/eZTemplateCacheBlockRecursionTest.php"
     ],
     "kernel/classes/audit/expaudittaxonomy.php": [
       "tests/tests/kernel/classes/audit/expAuditRecordTest.php",
       "tests/tests/kernel/classes/audit/expAuditHookTest.php",
-      "tests/tests/kernel/classes/user/expDemoModeTest.php"
+      "tests/tests/kernel/classes/user/expDemoModeTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRunnerTest.php"
     ],
     "kernel/classes/uiswitch/expuiswitchdesignprovider.php": [
       "tests/tests/kernel/classes/uiswitch/expUISwitchDesignProviderTest.php"
@@ -1308,7 +1347,8 @@
     ],
     "kernel/classes/user/expuserhygiene.php": [
       "tests/tests/kernel/classes/user/expUserHygieneTest.php",
-      "tests/tests/kernel/classes/user/expUserDeactivationTest.php"
+      "tests/tests/kernel/classes/user/expUserDeactivationTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerSqliteTest.php"
     ],
     "kernel/private/classes/views/contentcheck/brokenrelations.php": [
       "tests/tests/kernel/contentcheck/expContentCheckQueryTest.php"
@@ -1368,23 +1408,17 @@
     "extension/ezoe/translations/ger-DE/translation.ts": [
       "tests/tests/design/AdminReviewTemplateWarningsTest.php"
     ],
-    "design/admin4/templates/content/searchresult.tpl": [
+    "design/admin/templates/content/searchresult.tpl": [
       "tests/tests/design/AdminSearchTest.php"
     ],
     "design/admin4/templates/content/search.tpl": [
       "tests/tests/design/AdminSearchTest.php"
     ],
-    "design/admin4/templates/content/advancedsearch.tpl": [
+    "design/admin/templates/content/advancedsearch.tpl": [
       "tests/tests/design/AdminSearchTest.php"
     ],
-    "design/admin4/templates/page_search.tpl": [
+    "design/standard/templates/parts/header_search.tpl": [
       "tests/tests/design/AdminSearchTest.php"
-    ],
-    "design/admin4/stylesheets/core.css": [
-      "tests/tests/design/AdminCssReviewFixesTest.php"
-    ],
-    "design/admin4/stylesheets/theme/admin_datatable.css": [
-      "tests/tests/design/AdminCssReviewFixesTest.php"
     ],
     "tests/tests/design/js/first_paint.js": [
       "tests/tests/design/AdminFirstPaintColumnsTest.php"
@@ -1621,7 +1655,8 @@
       "tests/tests/kernel/common/eZWordToImageOperatorDesignThemeTest.php"
     ],
     "kernel/classes/ezsiteaccess.php": [
-      "tests/tests/kernel/classes/eZSiteAccessGetIniAndFindPathTest.php"
+      "tests/tests/kernel/classes/eZSiteAccessGetIniAndFindPathTest.php",
+      "tests/tests/kernel/classes/viewcount/expViewCountSiteAccessMatchTest.php"
     ],
     "kernel/classes/datatypes/ezxmltext/ezxmlinputhandler.php": [
       "tests/tests/kernel/datatypes/ezxmltext/eZXMLInputSupplementaryCharactersTest.php",
@@ -1639,10 +1674,6 @@
       "tests/tests/extension/ezoe/expOEFormulaTextTest.php"
     ],
     "design/admin4/javascript/page/content_edit_attribute.js": [
-      "tests/tests/design/AdminContentEditAttributeKindsTest.php"
-    ],
-    "design/admin4/stylesheets/content.css": [
-      "tests/tests/design/AdminRightToLeftTest.php",
       "tests/tests/design/AdminContentEditAttributeKindsTest.php"
     ],
     "design/admin4/stylesheets/modules/people.css": [
@@ -1699,7 +1730,19 @@
       "tests/tests/kernel/classes/help/expHelpModulePolicyTest.php",
       "tests/tests/kernel/classes/help/expHelpContentsPageTest.php"
     ],
+    "kernel/private/classes/views/exphelp/asset.php": [
+      "tests/tests/kernel/classes/help/expHelpAssetRevalidationTest.php"
+    ],
     "kernel/classes/help/exphelpnavigation.php": [
+      "tests/tests/kernel/classes/help/expHelpNavigationTest.php"
+    ],
+    "kernel/private/classes/views/exphelp/navigation.php": [
+      "tests/tests/kernel/classes/help/expHelpNavigationTest.php"
+    ],
+    "kernel/exphelp/navigation.php": [
+      "tests/tests/kernel/classes/help/expHelpNavigationTest.php"
+    ],
+    "design/admin*/templates/exphelp/navigation.tpl": [
       "tests/tests/kernel/classes/help/expHelpNavigationTest.php"
     ],
     "kernel/classes/help/exphelplinks.php": [
@@ -1732,9 +1775,11 @@
       "tests/tests/kernel/classes/help/expHelpCachePruneTest.php",
       "tests/tests/kernel/classes/help/expHelpAudienceBoostTest.php",
       "tests/tests/kernel/classes/help/expHelpSearchBudgetTest.php",
-      "tests/tests/kernel/classes/help/expHelpIndexStabilityTest.php"
+      "tests/tests/kernel/classes/help/expHelpIndexStabilityTest.php",
+      "tests/tests/kernel/classes/help/expHelpIndexBackgroundBuildTest.php"
     ],
     "kernel/classes/help/exphelpallowlist.php": [
+      "tests/tests/kernel/classes/help/expHelpIndexBackgroundBuildTest.php",
       "tests/tests/kernel/classes/help/expHelpDocumentIndexTest.php",
       "tests/tests/kernel/classes/help/expHelpSearchContractTest.php",
       "tests/tests/kernel/classes/help/expHelpCachePruneTest.php",
@@ -1748,6 +1793,7 @@
       "tests/tests/kernel/classes/help/expHelpFrontMatterQuotingTest.php"
     ],
     "kernel/classes/help/exphelpaudience.php": [
+      "tests/tests/kernel/classes/help/expHelpMigrationDocsTest.php",
       "tests/tests/kernel/classes/help/expHelpPageTitlesTest.php",
       "tests/tests/kernel/classes/help/expHelpDocumentIndexTest.php",
       "tests/tests/kernel/classes/help/expHelpSearchContractTest.php",
@@ -1765,7 +1811,8 @@
       "tests/tests/kernel/classes/help/expHelpIndexStabilityTest.php"
     ],
     "kernel/classes/help/exphelplicense.php": [
-      "tests/tests/kernel/classes/help/expHelpLicenseTest.php"
+      "tests/tests/kernel/classes/help/expHelpLicenseTest.php",
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
     ],
     "design/*/templates/exphelp/parts/license_*.tpl": [
       "tests/tests/kernel/classes/help/expHelpLicenseTest.php"
@@ -1847,6 +1894,7 @@
       "tests/tests/kernel/classes/help/expHelpContentsPageTest.php"
     ],
     "settings/exphelp.ini": [
+      "tests/tests/kernel/classes/help/expHelpMigrationDocsTest.php",
       "tests/tests/kernel/classes/help/expHelpLeadershipAudiencesTest.php",
       "tests/tests/kernel/classes/help/expHelpPageTitlesTest.php",
       "tests/tests/kernel/classes/help/expHelpContextRegistryTest.php",
@@ -1856,7 +1904,8 @@
       "tests/tests/kernel/classes/help/expHelpCommunityAudiencesTest.php",
       "tests/tests/kernel/classes/help/expHelpLandingPagesTest.php",
       "tests/tests/kernel/classes/help/expHelpMigrationHubTest.php",
-      "tests/tests/kernel/classes/help/expHelpCachePruneTest.php"
+      "tests/tests/kernel/classes/help/expHelpCachePruneTest.php",
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
     ],
     "settings/module.ini": [
       "tests/tests/kernel/classes/help/expHelpModulePolicyTest.php"
@@ -1914,6 +1963,7 @@
       "tests/tests/kernel/classes/help/expHelpContentExportTest.php"
     ],
     "kernel/private/classes/views/exphelp/search.php": [
+      "tests/tests/kernel/classes/help/expHelpMigrationDocsTest.php",
       "tests/tests/kernel/classes/help/expHelpCommunityAudiencesTest.php",
       "tests/tests/kernel/classes/help/expHelpLandingPagesTest.php"
     ],
@@ -1936,7 +1986,9 @@
       "tests/tests/kernel/classes/help/expHelpLandingPagesTest.php"
     ],
     "kernel/classes/help/exphelpexamplesgenerator.php": [
-      "tests/tests/kernel/classes/help/expHelpExamplesGeneratorTest.php"
+      "tests/tests/kernel/classes/help/expHelpExamplesGeneratorTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsTest.php"
     ],
     "kernel/private/classes/commands/exphelpexamples.php": [
       "tests/tests/kernel/classes/help/expHelpExamplesGeneratorTest.php"
@@ -1977,10 +2029,15 @@
       "tests/tests/kernel/classes/user/expDemoModeTest.php"
     ],
     "extension/expservices/classes/users/expusersbase.php": [
-      "tests/tests/kernel/classes/user/expDemoModeTest.php"
+      "tests/tests/kernel/classes/user/expDemoModeTest.php",
+      "tests/tests/extension/expservices/users/expUserServicesTest.php",
+      "tests/tests/extension/expservices/users/expAccountServicesTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerSqliteTest.php"
     ],
     "extension/expservices/classes/users/expaccountservices.php": [
-      "tests/tests/kernel/classes/user/expDemoModeTest.php"
+      "tests/tests/kernel/classes/user/expDemoModeTest.php",
+      "tests/tests/extension/expservices/users/expAccountServicesTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerSqliteTest.php"
     ],
     "design/admin/templates/parts/exp_demo_mode_banner.tpl": [
       "tests/tests/kernel/classes/user/expDemoModeTest.php"
@@ -2056,6 +2113,979 @@
     "extension/expimageeditor/*": [
       "extension/expimageeditor/tests/phpunit/unit/expImageEditorStoreTest.php",
       "extension/expimageeditor/tests/phpunit/unit/expImageEditorDesignTest.php"
+    ],
+    "kernel/private/classes/commands/*.php": [
+      "tests/tests/kernel/private/classes/commands/expApplyFlagCommandsTest.php",
+      "tests/tests/kernel/private/classes/commands/expApplyFlagMaintenanceCommandsTest.php",
+      "tests/tests/kernel/private/classes/commands/expApplyFlagCronCommandsTest.php",
+      "tests/tests/kernel/private/classes/commands/expApplyFlagInstallerCommandsTest.php",
+      "tests/tests/kernel/private/classes/commands/expApplyFlagDeployCommandsTest.php"
+    ],
+    "kernel/classes/expsetupfilecopy.php": [
+      "tests/tests/kernel/private/classes/commands/expSetupFilesAndConfigPhpCommandsTest.php"
+    ],
+    "kernel/classes/expconfigphpeditor.php": [
+      "tests/tests/kernel/private/classes/commands/expSetupFilesAndConfigPhpCommandsTest.php"
+    ],
+    "kernel/classes/expconfigphpcatalogue.php": [
+      "tests/tests/kernel/private/classes/commands/expSetupFilesAndConfigPhpCommandsTest.php"
+    ],
+    "autoload.php": [
+      "tests/tests/kernel/private/classes/commands/expSetupFilesAndConfigPhpCommandsTest.php"
+    ],
+    "kernel/private/classes/runnable/command.php": [
+      "tests/tests/kernel/private/classes/commands/expApplyFlagCommandsTest.php"
+    ],
+    "kernel/classes/expnotificationjob.php": [
+      "tests/tests/kernel/private/classes/commands/expApplyFlagCronCommandsTest.php"
+    ],
+    "doc/eng-us/examples/demo-mode/install-demo-sqlite.sh": [
+      "tests/tests/kernel/private/classes/commands/expApplyFlagCronCommandsTest.php",
+      "tests/tests/kernel/private/classes/commands/expApplyFlagInstallerCommandsTest.php"
+    ],
+    "doc/eng-us/examples/demo-mode/install-demo-sqlite-demo-exponential-earth.sh": [
+      "tests/tests/kernel/private/classes/commands/expApplyFlagCronCommandsTest.php",
+      "tests/tests/kernel/private/classes/commands/expApplyFlagInstallerCommandsTest.php"
+    ],
+    "kernel/classes/expkickstarter.php": [
+      "tests/tests/kernel/private/classes/commands/expApplyFlagInstallerCommandsTest.php"
+    ],
+    "bin/php/install.php": [
+      "tests/tests/kernel/private/classes/commands/expApplyFlagInstallerCommandsTest.php"
+    ],
+    "bin/php/kickstarter.php": [
+      "tests/tests/kernel/private/classes/commands/expApplyFlagInstallerCommandsTest.php"
+    ],
+    "kernel/classes/expvelocitydeploy.php": [
+      "tests/tests/kernel/private/classes/commands/expApplyFlagDeployCommandsTest.php",
+      "tests/tests/kernel/classes/expVelocityDeployCachePlanTest.php",
+      "tests/tests/kernel/classes/help/expHelpIndexBackgroundBuildTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsTest.php"
+    ],
+    "lib/smarty/classes/*": [
+      "tests/tests/lib/smarty/expSmartyTemplateRenderTest.php",
+      "tests/tests/lib/smarty/expSmartyParameterOperatorTest.php",
+      "tests/tests/lib/smarty/expSmartySecurityTest.php",
+      "tests/tests/lib/smarty/expSmartyDebugBarTest.php"
+    ],
+    "lib/eztemplate/classes/eztemplatefileresource.php": [
+      "tests/tests/lib/smarty/expSmartyTemplateRenderTest.php",
+      "tests/tests/lib/eztemplate/eZTemplateEngineRenderTest.php"
+    ],
+    "lib/smarty/classes/expsmartyconverter.php": [
+      "tests/tests/lib/smarty/expSmartyTemplateRenderTest.php",
+      "tests/tests/lib/smarty/expSmartyOperatorParityTest.php",
+      "tests/tests/lib/smarty/expSmartyReverseConverterTest.php",
+      "tests/tests/lib/smarty/expSmartyParameterOperatorTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php"
+    ],
+    "lib/smarty/classes/expsmartyreverseconverter.php": [
+      "tests/tests/lib/smarty/expSmartyReverseConverterTest.php",
+      "tests/tests/lib/smarty/expSmartyParameterOperatorTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php"
+    ],
+    "lib/templatebridge/classes/*": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php"
+    ],
+    "bin/php/exptemplateconvert*.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplateconvert*.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php"
+    ],
+    "settings/smarty.ini": [
+      "tests/tests/lib/smarty/expSmartyTemplateRenderTest.php",
+      "tests/tests/lib/smarty/expSmartyParameterOperatorTest.php",
+      "tests/tests/lib/smarty/expSmartySecurityTest.php",
+      "tests/tests/lib/smarty/expSmartyOperatorParityTest.php"
+    ],
+    "design/admin4/stylesheets/pagelayout.css": [
+      "tests/tests/design/AdminHeaderTest.php",
+      "tests/tests/design/AdminVisibilityStatusTest.php",
+      "tests/tests/design/AdminLeftColumnFontTest.php",
+      "tests/tests/design/AdminCssReviewFixesTest.php",
+      "tests/tests/design/AdminResponsiveTest.php"
+    ],
+    "design/admin4/stylesheets/core.css": [
+      "tests/tests/design/AdminCssReviewFixesTest.php"
+    ],
+    "design/admin4/stylesheets/theme/admin_datatable.css": [
+      "tests/tests/design/AdminCssReviewFixesTest.php"
+    ],
+    "design/admin4/stylesheets/content.css": [
+      "tests/tests/design/AdminRightToLeftTest.php",
+      "tests/tests/design/AdminContentEditAttributeKindsTest.php"
+    ],
+    "lib/smarty/classes/expsmartyrenderer.php": [
+      "tests/tests/lib/smarty/expSmartyTemplateRenderTest.php",
+      "tests/tests/lib/smarty/expSmartyOperatorParityTest.php",
+      "tests/tests/lib/smarty/expSmartyParameterOperatorTest.php",
+      "tests/tests/lib/smarty/expSmartySecurityTest.php",
+      "tests/tests/lib/smarty/expSmartyDebugBarTest.php"
+    ],
+    "lib/smarty/classes/expsmartysecurity.php": [
+      "tests/tests/lib/smarty/expSmartySecurityTest.php",
+      "tests/tests/lib/smarty/expSmartyOperatorParityTest.php"
+    ],
+    "lib/eztemplate/classes/eztemplatecacheblock.php": [
+      "tests/tests/lib/smarty/expSmartyDebugBarTest.php",
+      "tests/tests/kernel/classes/debugbar/expRenderStatsCacheBlockTest.php"
+    ],
+    "kernel/classes/debugbar/exprenderstats.php": [
+      "tests/tests/lib/smarty/expSmartyDebugBarTest.php"
+    ],
+    "kernel/classes/debugbar/expdebugbaruser.php": [
+      "tests/tests/kernel/classes/debugbar/expDebugBarUserTest.php",
+      "tests/tests/kernel/classes/debugbar/expDebugBarUserPoliciesTest.php"
+    ],
+    "kernel/classes/debugbar/expdebugbarpolicies.php": [
+      "tests/tests/kernel/classes/debugbar/expDebugBarPoliciesTest.php"
+    ],
+    "kernel/classes/debugbar/expdebugbarsession.php": [
+      "tests/tests/kernel/classes/debugbar/expDebugBarSessionTest.php"
+    ],
+    "lib/twig/classes/exptwigrenderer.php": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php",
+      "tests/tests/lib/twig/expTwigOperatorParityTest.php",
+      "tests/tests/lib/twig/expTwigSecurityTest.php",
+      "tests/tests/lib/twig/expTwigDebugBarTest.php",
+      "tests/tests/lib/twig/expTwigReverseConverterTest.php"
+    ],
+    "lib/twig/classes/exptwigextension.php": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php",
+      "tests/tests/lib/twig/expTwigOperatorParityTest.php",
+      "tests/tests/lib/twig/expTwigSecurityTest.php",
+      "tests/tests/lib/twig/expTwigDebugBarTest.php"
+    ],
+    "lib/twig/classes/exptwigtagtokenparser.php": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php",
+      "tests/tests/lib/twig/expTwigOperatorParityTest.php"
+    ],
+    "lib/twig/classes/exptwigtagnode.php": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php",
+      "tests/tests/lib/twig/expTwigOperatorParityTest.php",
+      "tests/tests/lib/twig/expTwigDebugBarTest.php"
+    ],
+    "lib/twig/classes/exptwigcapturenode.php": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php"
+    ],
+    "lib/twig/classes/exptwigcapturevisitor.php": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php"
+    ],
+    "lib/twig/classes/exptwigobjectproxy.php": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php",
+      "tests/tests/lib/twig/expTwigSecurityTest.php",
+      "tests/tests/lib/templatebridge/expTemplateBridgeTest.php"
+    ],
+    "lib/twig/classes/exptwigoperator.php": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php"
+    ],
+    "lib/twig/classes/exptwigsecurity.php": [
+      "tests/tests/lib/twig/expTwigSecurityTest.php",
+      "tests/tests/lib/twig/expTwigOperatorParityTest.php"
+    ],
+    "lib/twig/classes/exptwigenvironment.php": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php"
+    ],
+    "lib/twig/classes/exptwigconverter.php": [
+      "tests/tests/lib/twig/expTwigOperatorParityTest.php",
+      "tests/tests/lib/twig/expTwigReverseConverterTest.php",
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php",
+      "tests/tests/lib/templatebridge/expTemplateConvertAllEnginesTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php"
+    ],
+    "lib/twig/classes/exptwigreverseconverter.php": [
+      "tests/tests/lib/twig/expTwigReverseConverterTest.php",
+      "tests/tests/lib/templatebridge/expTemplateConvertAllEnginesTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php"
+    ],
+    "lib/twig/classes/exptwigtemplatechecker.php": [
+      "tests/tests/lib/templatebridge/expTemplateCheckerTest.php"
+    ],
+    "lib/smarty/classes/expsmartytemplatechecker.php": [
+      "tests/tests/lib/templatebridge/expTemplateCheckerTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplatebridge.php": [
+      "tests/tests/lib/templatebridge/expTemplateBridgeTest.php",
+      "tests/tests/lib/twig/expTwigOperatorParityTest.php",
+      "tests/tests/lib/smarty/expSmartyOperatorParityTest.php",
+      "tests/tests/lib/smarty/expSmartyParameterOperatorTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplatevalues.php": [
+      "tests/tests/lib/templatebridge/expTemplateBridgeTest.php",
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php",
+      "tests/tests/lib/smarty/expSmartyTemplateRenderTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplateobjectproxy.php": [
+      "tests/tests/lib/templatebridge/expTemplateBridgeTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplatevoid.php": [
+      "tests/tests/lib/templatebridge/expTemplateBridgeTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplateengines.php": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php",
+      "tests/tests/lib/smarty/expSmartyTemplateRenderTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplateengineinfo.php": [
+      "tests/tests/lib/twig/expTwigSecurityTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplatechainconverter.php": [
+      "tests/tests/lib/templatebridge/expTemplateConvertAllEnginesTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplatechecker.php": [
+      "tests/tests/lib/templatebridge/expTemplateCheckerTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplatecheckformatter.php": [
+      "tests/tests/lib/templatebridge/expTemplateCheckerTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplateenginechecker.php": [
+      "tests/tests/lib/templatebridge/expTemplateCheckerTest.php"
+    ],
+    "lib/templatebridge/classes/exptpltemplatechecker.php": [
+      "tests/tests/lib/templatebridge/expTemplateCheckerTest.php"
+    ],
+    "lib/templatebridge/classes/exptemplatedesignconverter.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php",
+      "tests/tests/lib/templatebridge/expTemplateConvertAllEnginesTest.php",
+      "tests/tests/lib/twig/expTwigReverseConverterTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplatecheck.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php",
+      "tests/tests/lib/templatebridge/expTemplateCheckerTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplateengines.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "kernel/classes/graphql/*": [
+      "tests/tests/kernel/classes/graphql/expGraphQLSchemaTest.php",
+      "tests/tests/kernel/classes/graphql/expGraphQLRestTest.php",
+      "tests/tests/kernel/private/classes/commands/expGraphQLCommandContractTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGraphqlIntegrationTest.php",
+      "tests/tests/kernel/classes/graphql/expMigrationGraphQLExtensionTest.php"
+    ],
+    "kernel/private/classes/commands/expgraphql*": [
+      "tests/tests/kernel/private/classes/commands/expGraphQLCommandContractTest.php"
+    ],
+    "bin/php/expgraphql*": [
+      "tests/tests/kernel/private/classes/commands/expGraphQLCommandContractTest.php"
+    ],
+    "settings/graphql.ini": [
+      "tests/tests/kernel/classes/graphql/expGraphQLSchemaTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGraphqlIntegrationTest.php",
+      "tests/tests/kernel/classes/graphql/expMigrationGraphQLExtensionTest.php"
+    ],
+    "kernel/private/rest/classes/auth/auth_configuration.php": [
+      "tests/tests/kernel/classes/graphql/expGraphQLRestTest.php",
+      "tests/tests/kernel/private/restapi/ezpRestRouteSecurityTest.php"
+    ],
+    "kernel/private/rest/classes/default_regexp_prefix_filter.php": [
+      "tests/tests/kernel/classes/rest/ezpRestPrefixFilterTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplateconvertdiff.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "settings/twig.ini": [
+      "tests/tests/lib/twig/expTwigTemplateRenderTest.php",
+      "tests/tests/lib/twig/expTwigOperatorParityTest.php",
+      "tests/tests/lib/twig/expTwigSecurityTest.php",
+      "tests/tests/lib/twig/expTwigDebugBarTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplateconvert.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplateconverttpltostpl.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplateconvertstpltotpl.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplateconverttpltotwig.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplateconverttwigtotpl.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplateconvertstpltotwig.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "kernel/private/classes/commands/exptemplateconverttwigtostpl.php": [
+      "tests/tests/kernel/private/classes/commands/expTemplateConvertCommandTest.php",
+      "tests/tests/kernel/private/classes/commands/expTemplateCommandContractTest.php"
+    ],
+    "kernel/classes/expkernelservicescope.php": [
+      "tests/tests/kernel/classes/expKernelServiceScopeMemoTest.php"
+    ],
+    "kernel/classes/expkernelservices.php": [
+      "tests/tests/kernel/classes/expKernelServiceScopeMemoTest.php"
+    ],
+    "kernel/classes/expvelocity.php": [
+      "tests/tests/kernel/classes/expVelocityEngineRunArchiveTest.php"
+    ],
+    "kernel/private/classes/httpcache/exprenderswitch.php": [
+      "tests/tests/kernel/classes/httpcache/ezpHttpCacheDebugViewerTest.php"
+    ],
+    "kernel/private/classes/httpcache/ezphttpcachecontract.php": [
+      "tests/tests/kernel/classes/httpcache/ezpHttpCacheDebugViewerTest.php"
+    ],
+    "kernel/private/classes/httpcache/ezphttpcachelistener.php": [
+      "tests/tests/kernel/classes/httpcache/ezpHttpCacheDebugViewerTest.php"
+    ],
+    "kernel/private/classes/httpcache/ezphttpcacheworkerdebug.php": [
+      "tests/tests/kernel/classes/httpcache/ezpHttpCacheDebugViewerTest.php"
+    ],
+    "*.js": [
+      "tests/tests/bin/CopyrightNoticeTest.php"
+    ],
+    "*.tpl": [
+      "tests/tests/bin/CopyrightNoticeTest.php"
+    ],
+    "*.css": [
+      "tests/tests/bin/CopyrightNoticeTest.php"
+    ],
+    "*.xml": [
+      "tests/tests/bin/CopyrightNoticeTest.php"
+    ],
+    "*.cpp": [
+      "tests/tests/bin/CopyrightNoticeTest.php"
+    ],
+    "*.h": [
+      "tests/tests/bin/CopyrightNoticeTest.php"
+    ],
+    "*.sql": [
+      "tests/tests/bin/CopyrightNoticeTest.php"
+    ],
+    "*.txt": [
+      "tests/tests/bin/CopyrightNoticeTest.php"
+    ],
+    "LICENSE": [
+      "tests/tests/bin/CopyrightNoticeTest.php"
+    ],
+    "tests/tests/bin/copyright-notice-allowlist.json": [
+      "tests/tests/bin/CopyrightNoticeTest.php"
+    ],
+    "tests/tests/lib/ezi18n/translation-identical-allowlist.json": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "design/*/templates/page_copyright.tpl": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "design/*/templates/page_login_copyright.tpl": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "design/standard/templates/setup/page_copyright.tpl": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "design/standard/templates/setup_pagelayout.tpl": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "design/standard/templates/undefinedmodule.tpl": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "design/base/templates/pagelayout.tpl": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "design/base/templates/loginpagelayout.tpl": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "design/*/templates/ezinfo/copyright.tpl": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "kernel/private/classes/views/ezinfo/copyright.php": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "lib/ezutils/classes/ezexecution.php": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "share/syscard/about.txt": [
+      "tests/tests/design/CopyrightFooterNoticeTest.php"
+    ],
+    "kernel/classes/expdependencyorder.php": [
+      "tests/tests/kernel/classes/expDependencyOrderTest.php",
+      "tests/tests/kernel/classes/upgrade/expUpgradeRegistryTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationLocatorTest.php"
+    ],
+    "settings/migration.ini": [
+      "tests/tests/kernel/classes/migration/expMigrationLocatorTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRunnerTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationStructureStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRecordingTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGraphqlIntegrationTest.php"
+    ],
+    "kernel/classes/migration/steps/*": [
+      "tests/tests/kernel/classes/migration/expMigrationStructureStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationStructureStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationStructureStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationStructureStepsMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationYamlMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationContentStepsMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationTagAliasTrashFileStepsMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCacheSearchAutoloadStepsMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationLayoutHttpMailCommandStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationLayoutHttpMailCommandStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationLayoutHttpMailCommandStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationLayoutHttpMailCommandStepsMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationSqlSettingsStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationSqlSettingsStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationSqlSettingsStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationSqlSettingsStepsMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGraphqlIntegrationTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGraphqlSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGraphqlDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationGraphqlMongoDBTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationStructureStepsEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationStructureStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationStructureStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationStructureStepsMongoDBTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/fixtures/*": [
+      "tests/tests/kernel/classes/migration/expMigrationLocatorTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRunnerTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRunnerSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRunnerDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationRunnerMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandToolsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCommandMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationYamlMongoDBTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationRunnerFakes.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRunnerTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRepositoryGitTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandToolsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationRunnerEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRunnerSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRunnerDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationRunnerMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCaptionMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCommandMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationYamlMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationContentStepsMongoDBTest.php"
+    ],
+    "kernel/classes/migration/*": [
+      "tests/tests/kernel/classes/migration/expMigrationDefinitionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationLocatorTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRecordTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationStatusMirrorTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRecordDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationRecordMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRunnerTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRunnerSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRunnerDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationRunnerMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRepositoryGitTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCaptionMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandToolsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCommandMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationYamlMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationUpgradeSourceTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationUpgradeSourceSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationUpgradeSourceDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationUpgradeSourceMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGraphqlIntegrationTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGraphqlSqliteTest.php",
+      "tests/tests/kernel/classes/graphql/expMigrationGraphQLExtensionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationPerformanceSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationPerformanceDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationPerformanceMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGraphqlDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationGraphqlMongoDBTest.php"
+    ],
+    "kernel/classes/upgrade/*": [
+      "tests/tests/kernel/classes/migration/expMigrationUpgradeSourceTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationUpgradeSourceSqliteTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationUpgradeSource*": [
+      "tests/tests/kernel/classes/migration/expMigrationUpgradeSourceTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationUpgradeSourceSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationUpgradeSourceDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationUpgradeSourceMongoDBTest.php"
+    ],
+    "kernel/classes/upgrade/expupgradelock.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRunnerTest.php",
+      "tests/tests/kernel/classes/upgrade/expUpgradeStagesTest.php"
+    ],
+    "kernel/classes/upgrade/expupgradecaption.php": [
+      "tests/tests/kernel/classes/upgrade/expUpgradeCaptionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCaptionMongoDBTest.php"
+    ],
+    "kernel/classes/upgrade/expupgraderollback.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCaptionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCaptionMongoDBTest.php"
+    ],
+    "kernel/classes/upgrade/expupgradebackup.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCaptionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCaptionMongoDBTest.php"
+    ],
+    "cronjobs/migrationpush.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCaptionTest.php"
+    ],
+    "kernel/private/classes/cronjobs/migrationpush.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCaptionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRepositoryGitTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationCaptionFakes.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCaptionTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRepositoryGitTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationCaptionEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCaptionSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCaptionMongoDBTest.php"
+    ],
+    "share/migration/schema/exp-migration-status-1.json": [
+      "tests/tests/kernel/classes/migration/expMigrationStatusMirrorTest.php"
+    ],
+    "kernel/classes/upgrade/expupgraderecord.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRecordDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationRecordMongoDBTest.php",
+      "tests/tests/kernel/classes/upgrade/expUpgradeRegistryTest.php"
+    ],
+    "kernel/classes/upgrade/steps/expupgradestepmigrationtables.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRecordDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationRecordMongoDBTest.php",
+      "tests/tests/kernel/classes/upgrade/expUpgradeRegistryTest.php"
+    ],
+    "kernel/classes/upgrade/steps/expupgradesteprecordtable.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordTest.php",
+      "tests/tests/kernel/classes/upgrade/expUpgradeRegistryTest.php"
+    ],
+    "settings/upgrade.ini": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordTest.php",
+      "tests/tests/kernel/classes/upgrade/expUpgradeRegistryTest.php"
+    ],
+    "share/db_schema.dba": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordTest.php",
+      "tests/tests/kernel/classes/updatesql/KernelSchemaParityUpdateSqlTest.php",
+      "tests/tests/kernel/classes/upgrade/expUpgradeRegistryTest.php"
+    ],
+    "kernel/sql/*/*schema.sql": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordTest.php",
+      "tests/tests/kernel/classes/upgrade/expUpgradeRegistryTest.php"
+    ],
+    "update/database/*/6.0/dbupdate-6.0.0-6.0.15.sql": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordTest.php",
+      "tests/tests/kernel/classes/upgrade/expUpgradeRegistryTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationCommandEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCommandDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCommandMongoDBTest.php"
+    ],
+    "kernel/private/classes/commands/expmigration*": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php",
+      "tests/tests/bin/ConsoleExtensionAliasTest.php"
+    ],
+    "bin/php/expmigration*": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php",
+      "tests/tests/bin/ConsoleExtensionAliasTest.php"
+    ],
+    "kernel/search/plugins/ezsearchengine/ezsearchengine.php": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
+    ],
+    "kernel/classes/ezurlaliasml.php": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationContentStepsMongoDBTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationTagAliasTrashFileStepsMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsSqliteTest.php"
+    ],
+    "settings/file.ini": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
+    ],
+    "lib/ezutils/classes/ezfileextensionblacklistvalidator.php": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
+    ],
+    "extension/ezoe/design/standard/javascript/plugins/media/editor_plugin.js": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
+    ],
+    "extension/ezoe/design/standard/javascript/plugins/media/editor_plugin_src.js": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationContentStepsEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationContentStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationContentStepsMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationStructureStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationStructureStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationStructureStepsMongoDBTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationYamlFakes.php": [
+      "tests/tests/kernel/classes/migration/expMigrationYamlTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationYamlMongoDBTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationYamlEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationYamlSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationYamlDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationYamlMongoDBTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationTagAliasTrashFileStepsMongoDBTest.php"
+    ],
+    "kernel/classes/ezurlaliasquery.php": [
+      "tests/tests/lib/ezdb/mongodb/expMigrationTagAliasTrashFileStepsMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsSqliteTest.php"
+    ],
+    "kernel/classes/migration/expmigrationidentifier.php": [
+      "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsTest.php"
+    ],
+    "kernel/classes/migration/expmigrationcontext.php": [
+      "tests/tests/kernel/classes/migration/expMigrationTagAliasTrashFileStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsTest.php"
+    ],
+    "kernel/classes/migration/expmigrationrecord*.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordingTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRecordingSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRecordingDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationRecordingMongoDBTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGeneratorTest.php"
+    ],
+    "kernel/classes/upgrade/steps/expupgradestepmigrationrecordingtables.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordingSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRecordingDatabaseTest.php"
+    ],
+    "kernel/private/classes/commands/expmigrationrecord*.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php"
+    ],
+    "bin/php/expmigrationrecord*.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php"
+    ],
+    "kernel/private/classes/views/migration/recording.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordingTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRecordingSqliteTest.php"
+    ],
+    "kernel/migration/recording.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordingTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationRecordingEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRecordingSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRecordingDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationRecordingMongoDBTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationCacheSearchAutoloadStepsMongoDBTest.php"
+    ],
+    "kernel/classes/migration/expmigrationafterrun.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsSqliteTest.php"
+    ],
+    "kernel/classes/migration/expmigrationrunner.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsSqliteTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationLayoutHttpMailCommandStepsEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationLayoutHttpMailCommandStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationLayoutHttpMailCommandStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationLayoutHttpMailCommandStepsMongoDBTest.php"
+    ],
+    "kernel/classes/migration/expmigrationprocess.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCacheSearchAutoloadStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationLayoutHttpMailCommandStepsTest.php"
+    ],
+    "kernel/classes/migration/expmigrationsql.php": [
+      "tests/tests/kernel/classes/migration/expMigrationSqlSettingsStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationSqlSettingsStepsSqliteTest.php"
+    ],
+    "kernel/classes/migration/expmigrationini.php": [
+      "tests/tests/kernel/classes/migration/expMigrationSqlSettingsStepsTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationSqlSettingsStepsSqliteTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/expMigrationSqlSettingsStepsEngineChecks.php": [
+      "tests/tests/kernel/classes/migration/expMigrationSqlSettingsStepsSqliteTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationSqlSettingsStepsDatabaseTest.php",
+      "tests/tests/lib/ezdb/mongodb/expMigrationSqlSettingsStepsMongoDBTest.php"
+    ],
+    "settings/rest.ini": [
+      "tests/tests/kernel/classes/migration/expMigrationGraphqlIntegrationTest.php"
+    ],
+    "kernel/classes/migration/expmigrationyamlwriter.php": [
+      "tests/tests/kernel/classes/migration/expMigrationGeneratorTest.php"
+    ],
+    "kernel/classes/migration/expmigrationgenerator.php": [
+      "tests/tests/kernel/classes/migration/expMigrationGeneratorTest.php"
+    ],
+    "kernel/classes/migration/steps/expmigrationstepuser.php": [
+      "tests/tests/kernel/classes/migration/expMigrationGeneratorTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationStructureStepsSqliteTest.php"
+    ],
+    "kernel/classes/migration/expmigrationremote*.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployStagedTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployIntegrationTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployTriggerHealTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployInstallationTest.php"
+    ],
+    "kernel/classes/migration/expmigrationdeploy{record,notifier}.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployStagedTest.php"
+    ],
+    "kernel/classes/upgrade/steps/expupgradestepmigrationdeploytables.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployStagedTest.php"
+    ],
+    "kernel/private/classes/views/migration/{remotes,remote,deploy,deployment}.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployStagedTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationJobTest.php"
+    ],
+    "design/standard/templates/migration/deploy_notice_mail.tpl": [
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployStagedTest.php"
+    ],
+    "kernel/private/classes/commands/expmigrationdeploy.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployStagedTest.php"
+    ],
+    "kernel/private/classes/commands/expmigrationremote*.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployTest.php"
+    ],
+    "tests/tests/kernel/classes/migration/fixtures/remotedeploy/*": [
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployIntegrationTest.php"
+    ],
+    "kernel/private/classes/commands/expmigrationgenerate.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationGeneratorTest.php"
+    ],
+    "kernel/classes/ezpersistentobject.php": [
+      "tests/tests/kernel/classes/eZPersistentObjectMongoConditionTest.php",
+      "tests/tests/kernel/classes/eZPersistentObjectShortNameTest.php"
+    ],
+    "kernel/classes/migration/expmigrationeditor.php": [
+      "tests/tests/kernel/classes/migration/expMigrationEditorTest.php"
+    ],
+    "kernel/private/classes/views/migration/editor.php": [
+      "tests/tests/kernel/classes/migration/expMigrationEditorTest.php"
+    ],
+    "kernel/migration/editor.php": [
+      "tests/tests/kernel/classes/migration/expMigrationEditorTest.php"
+    ],
+    "kernel/migration/module.php": [
+      "tests/tests/kernel/classes/migration/expMigrationEditorTest.php"
+    ],
+    "kernel/classes/migration/expmigrationconverter.php": [
+      "tests/tests/kernel/classes/migration/expMigrationConverterTest.php"
+    ],
+    "kernel/private/classes/commands/expmigrationconvert.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationConverterTest.php"
+    ],
+    "bin/php/expmigrationconvert.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php"
+    ],
+    "kernel/classes/migration/expmigrationreposplit.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRepoSplitTest.php"
+    ],
+    "kernel/private/classes/commands/expmigrationreposplit.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRepoSplitTest.php"
+    ],
+    "bin/php/expmigrationreposplit.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php"
+    ],
+    "kernel/classes/migration/expmigration{trigger,heal}.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployTriggerHealTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployInstallationTest.php"
+    ],
+    "kernel/private/classes/views/migration/trigger.php": [
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployTriggerHealTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployInstallationTest.php"
+    ],
+    "kernel/private/classes/commands/expmigrationheal.php": [
+      "tests/tests/kernel/classes/migration/expMigrationCommandContractTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationRemoteDeployTriggerHealTest.php"
+    ],
+    "kernel/classes/user/expusermanager.php": [
+      "tests/tests/kernel/classes/user/expUserCommandContractTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerSqliteTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerDatabaseTest.php"
+    ],
+    "kernel/private/classes/commands/expuser*.php": [
+      "tests/tests/kernel/classes/user/expUserCommandContractTest.php"
+    ],
+    "bin/php/expuser*.php": [
+      "tests/tests/kernel/classes/user/expUserCommandContractTest.php"
+    ],
+    "kernel/classes/user/expuseraccountoverview.php": [
+      "tests/tests/kernel/classes/user/expUserAccountOverviewTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerSqliteTest.php"
+    ],
+    "tests/tests/kernel/classes/user/expUserManagerEngineChecks.php": [
+      "tests/tests/kernel/classes/user/expUserManagerSqliteTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerDatabaseTest.php"
+    ],
+    "kernel/classes/user/expusergroupmanager.php": [
+      "tests/tests/kernel/classes/user/expUserCommandContractTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerSqliteTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerDatabaseTest.php"
+    ],
+    "kernel/classes/user/expuserbulk.php": [
+      "tests/tests/kernel/classes/user/expUserCommandContractTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerSqliteTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerDatabaseTest.php"
+    ],
+    "tests/tests/kernel/classes/user/expUserGroupsBulkEngineChecks.php": [
+      "tests/tests/kernel/classes/user/expUserManagerSqliteTest.php",
+      "tests/tests/kernel/classes/user/expUserManagerDatabaseTest.php"
+    ],
+    "kernel/sql/mysql/kernel_schema.sql": [
+      "tests/tests/kernel/classes/updatesql/KernelSchemaParityUpdateSqlTest.php"
+    ],
+    "kernel/sql/postgresql/kernel_schema.sql": [
+      "tests/tests/kernel/classes/updatesql/KernelSchemaParityUpdateSqlTest.php"
+    ],
+    "kernel/sql/sqlite/schema.sql": [
+      "tests/tests/kernel/classes/updatesql/KernelSchemaParityUpdateSqlTest.php"
+    ],
+    "update/database/mysql/6.0/dbupdate-6.0.0-6.0.15.sql": [
+      "tests/tests/kernel/classes/updatesql/KernelSchemaParityUpdateSqlTest.php"
+    ],
+    "update/database/postgresql/6.0/dbupdate-6.0.0-6.0.15.sql": [
+      "tests/tests/kernel/classes/updatesql/KernelSchemaParityUpdateSqlTest.php"
+    ],
+    "update/database/sqlite/6.0/dbupdate-6.0.0-6.0.15.sql": [
+      "tests/tests/kernel/classes/updatesql/KernelSchemaParityUpdateSqlTest.php"
+    ],
+    "kernel/classes/viewcount/*.php": [
+      "tests/tests/kernel/classes/viewcount/expViewCountLogParserTest.php",
+      "tests/tests/kernel/classes/viewcount/expViewCountRequestFilterTest.php",
+      "tests/tests/kernel/classes/viewcount/expViewCountPathResolverTest.php",
+      "tests/tests/kernel/classes/viewcount/expViewCountLogReaderTest.php",
+      "tests/tests/kernel/classes/viewcount/expViewCountUpdaterTest.php",
+      "tests/tests/kernel/classes/viewcount/expViewCountSqliteTest.php",
+      "tests/tests/kernel/classes/viewcount/expViewCountSiteAccessMatchTest.php",
+      "tests/tests/kernel/classes/viewcount/expViewCountConfigurationTest.php"
+    ],
+    "kernel/classes/ezviewcounter.php": [
+      "tests/tests/kernel/classes/viewcount/expViewCountSqliteTest.php",
+      "tests/tests/kernel/classes/eZContentObjectTreeNodeViewCountTest.php"
+    ],
+    "kernel/private/classes/cronjobs/updateviewcount.php": [
+      "tests/tests/kernel/classes/viewcount/expViewCountUpdaterTest.php"
+    ],
+    "kernel/private/classes/commands/expviewcountupdate.php": [
+      "tests/tests/kernel/classes/viewcount/expViewCountUpdaterTest.php"
+    ],
+    "settings/logfile.ini": [
+      "tests/tests/kernel/classes/viewcount/expViewCountRequestFilterTest.php"
+    ],
+    "lib/eztemplate/classes/eztemplateforeachfunction.php": [
+      "tests/tests/lib/eztemplate/eZTemplateCompiledLoopRecursionTest.php"
+    ],
+    "lib/eztemplate/classes/eztemplateforfunction.php": [
+      "tests/tests/lib/eztemplate/eZTemplateCompiledLoopRecursionTest.php"
+    ],
+    "lib/eztemplate/classes/eztemplatewhilefunction.php": [
+      "tests/tests/lib/eztemplate/eZTemplateCompiledLoopRecursionTest.php"
+    ],
+    "lib/eztemplate/classes/eztemplatedofunction.php": [
+      "tests/tests/lib/eztemplate/eZTemplateCompiledLoopRecursionTest.php"
+    ],
+    "lib/eztemplate/classes/eztemplatecompiledloop.php": [
+      "tests/tests/lib/eztemplate/eZTemplateCompiledLoopRecursionTest.php"
+    ],
+    "lib/eztemplate/classes/eztemplateincludefunction.php": [
+      "tests/tests/lib/eztemplate/eZTemplateCompiledLoopRecursionTest.php"
+    ],
+    "kernel/classes/expdatatypeinventory.php": [
+      "tests/tests/kernel/classes/expDataTypeInventoryTest.php",
+      "tests/tests/kernel/classes/expDataTypeInventorySqliteTest.php",
+      "tests/tests/kernel/classes/expDataTypeInventoryNodesSqliteTest.php"
+    ],
+    "kernel/private/classes/views/class/datatype.php": [
+      "tests/tests/kernel/classes/expDataTypeInventoryTest.php",
+      "tests/tests/kernel/classes/expDataTypeInventorySqliteTest.php",
+      "tests/tests/kernel/classes/expDataTypeInventoryNodesSqliteTest.php"
+    ],
+    "kernel/class/datatype.php": [
+      "tests/tests/kernel/classes/expDataTypeInventoryTest.php",
+      "tests/tests/kernel/classes/expDataTypeInventorySqliteTest.php"
+    ],
+    "kernel/class/module.php": [
+      "tests/tests/kernel/classes/expDataTypeInventoryTest.php",
+      "tests/tests/kernel/classes/expDataTypeInventorySqliteTest.php"
+    ],
+    "design/admin*/templates/class/datatype_*.tpl": [
+      "tests/tests/design/AdminStylingRulesTest.php",
+      "tests/tests/design/TranslationFilesValidTest.php"
+    ],
+    "design/admin*/javascript/page/class_datatypes.js": [
+      "tests/tests/design/AdminStylingRulesTest.php",
+      "tests/tests/design/TranslationFilesValidTest.php"
+    ],
+    "lib/ezdbschema/classes/ezpgsqlschema.php": [
+      "tests/tests/lib/ezdbschema/expPgsqlSchemaEngineOnlyTypesTest.php"
+    ],
+    "lib/ezdb/classes/expmongodb.php": [
+      "tests/tests/lib/ezdb/mongodb/expMongoDBColumnAliasAndCollectionsTest.php"
+    ],
+    "lib/ezdbschema/classes/expmongoschema.php": [
+      "tests/tests/lib/ezdb/mongodb/expMongoDBColumnAliasAndCollectionsTest.php"
     ]
   },
   "generated": {
@@ -2232,7 +3262,8 @@
     ],
     "design/standard/javascript/expdebugbar.js": [
       "tests/tests/kernel/classes/debugbar/expDebugBarSettingsTest.php",
-      "tests/tests/lib/ezutils/expDebugBarReportCopyMessagesTest.php"
+      "tests/tests/lib/ezutils/expDebugBarReportCopyMessagesTest.php",
+      "tests/tests/kernel/classes/debugbar/expDebugBarUserPoliciesTest.php"
     ],
     "design/standard/stylesheets/core.css": [
       "tests/tests/kernel/classes/expVelocityEnginesTest.php"
@@ -2349,15 +3380,18 @@
       "tests/tests/kernel/classes/debugbar/expDebugBarIPListTest.php"
     ],
     "kernel/classes/debugbar/expdebugbarserverfunctions.php": [
-      "tests/tests/kernel/classes/debugbar/expDebugBarSettingsTest.php"
+      "tests/tests/kernel/classes/debugbar/expDebugBarSettingsTest.php",
+      "tests/tests/kernel/classes/debugbar/expDebugBarUserPoliciesTest.php"
     ],
     "kernel/classes/expbenchmark.php": [
       "tests/tests/kernel/classes/benchmark/ExpBenchmarkHttpTest.php",
+      "tests/tests/lib/ezutils/expDebugOffHeaderTest.php",
       "tests/tests/kernel/classes/benchmark/ExpBenchmarkMicroTest.php",
       "tests/tests/kernel/classes/benchmark/ExpBenchmarkTest.php"
     ],
     "kernel/classes/expbenchmarkhttp.php": [
       "tests/tests/kernel/classes/benchmark/ExpBenchmarkHttpTest.php",
+      "tests/tests/lib/ezutils/expDebugOffHeaderTest.php",
       "tests/tests/kernel/classes/benchmark/ExpBenchmarkTest.php"
     ],
     "kernel/classes/expbenchmarkmicro.php": [
@@ -2674,6 +3708,7 @@
       "tests/tests/kernel/classes/apikey/ApiKeySchemaSqlTest.php"
     ],
     "kernel/sql/sqlite/schema.sql": [
+      "tests/tests/kernel/classes/upgrade/expUpgradeSqliteCompositeKeysTest.php",
       "tests/tests/kernel/classes/apikey/ApiKeySchemaSqlTest.php",
       "tests/tests/kernel/classes/expUserLoginIntegrityTest.php",
       "tests/tests/kernel/classes/trash/TrashedByColumnsTest.php",
@@ -2691,9 +3726,6 @@
     ],
     "lib/ezdb/classes/ezdbquerycache.php": [
       "tests/tests/lib/ezdb/eZDBQueryCacheTest.php"
-    ],
-    "lib/ezdb/classes/ezsqlite3db.php": [
-      "tests/tests/lib/ezdb/eZSQLite3TransactionWaitTest.php"
     ],
     "lib/ezdbschema/classes/ezdbschemachecker.php": [
       "tests/tests/lib/ezdbschema/expSQLiteSchemaReaderTest.php"
@@ -2749,7 +3781,8 @@
     ],
     "lib/ezutils/classes/ezini.php": [
       "tests/tests/kernel/classes/audit/expAuditHookTest.php",
-      "tests/tests/kernel/classes/engineindex/expPharCheckTest.php"
+      "tests/tests/kernel/classes/engineindex/expPharCheckTest.php",
+      "tests/tests/lib/ezutils/eZINISiteAccessIniMemoTest.php"
     ],
     "lib/ezutils/classes/ezmodule.php": [
       "tests/tests/kernel/classes/audit/expAuditHookTest.php"
@@ -2777,6 +3810,7 @@
       "tests/tests/lib/ezversion/ExponentialSDKAndPhpCompatTest.php"
     ],
     "settings/audit.ini": [
+      "tests/tests/kernel/classes/migration/expMigrationRunnerTest.php",
       "tests/tests/kernel/classes/audit/expAuditHookTest.php",
       "tests/tests/kernel/classes/expShippedFeatureDefaultsTest.php",
       "tests/tests/kernel/content/eZAuditLocationTest.php"
@@ -2786,7 +3820,8 @@
       "tests/tests/kernel/classes/expShippedFeatureDefaultsTest.php"
     ],
     "settings/cronjob.ini": [
-      "tests/tests/kernel/classes/ini/expIniLocatorTest.php"
+      "tests/tests/kernel/classes/ini/expIniLocatorTest.php",
+      "tests/tests/kernel/classes/migration/expMigrationCaptionTest.php"
     ],
     "settings/debugbar.ini": [
       "tests/tests/kernel/classes/debugbar/RadSurveyDebugBarTest.php"
@@ -3078,6 +4113,24 @@
     ],
     "design/standard/templates/dashboard/community_activity.tpl": [
       "tests/tests/design/AdminJQueryOnDemandTest.php"
+    ],
+    "lib/ezdb/classes/ezsqlite3db.php": [
+      "tests/tests/lib/ezdb/eZSQLite3TransactionWaitTest.php"
+    ],
+    "index_cluster.php": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
+    ],
+    "kernel/private/rest/classes/ezpkernelrest.php": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
+    ],
+    "benchmarks/classes/ezbenchmarkrunner.php": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
+    ],
+    "benchmarks/classes/ezbenchmarkclirunner.php": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
+    ],
+    "design/standard/templates/content/datatype/pdf/ezxmltags/object_denied.tpl": [
+      "tests/tests/kernel/classes/expLegacyForkFixesTest.php"
     ]
   }
 }

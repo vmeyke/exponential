@@ -29,19 +29,19 @@ wave is done and checked. The languages, their locales and their administration 
 
 ## The plan, measured
 
-<!-- generated: exp:i18n waves 2026-10-28 (start) -->
-**Measured on 28 October 2026** by `./console exp:i18n waves` from the files of this release (no database):
+<!-- generated: exp:i18n waves 2026-11-03 (start) -->
+**Measured on 3 November 2026** by `./console exp:i18n waves` from the files of this release (no database):
 
 | What | Size |
 |---|---:|
-| Administration: strings of `share/translations/untranslated/translation.ts`, in 10 parts | **18,839** (127,866 words) |
+| Administration: strings of `share/translations/untranslated/translation.ts`, in 11 parts | **20,855** (140,414 words) |
 | Shipped extensions (`expimageeditor`, `ezjscore`, `ezoe`) | **567** strings |
-| Help: pages below `doc/eng-us/` (the generated example pages left out) | **5,732** pages, 4,971,200 words |
-| Help: tables of the generated example pages (`.examples/`) | **2,694** entries, 80,458 words |
-| Administration translations, complete of them | **152**, 152 |
+| Help: pages below `doc/eng-us/` (the generated example pages left out) | **5,963** pages, 5,332,621 words |
+| Help: tables of the generated example pages (`.examples/`) | **4,186** entries, 112,725 words |
+| Administration translations, complete of them | **156**, 156 |
 | of them in daily use (administration, extensions and daily-use help ≥ 97 %) | **2** |
-| Languages without an administration translation ([list](#languages-without-a-translation)), being translated on a branch | **25**, 0 |
-| Waves to 100 % in every language | **30,208** |
+| Languages without an administration translation ([list](#languages-without-a-translation)), being translated on a branch | **41**, 0 |
+| Waves to 100 % in every language | **33,675** |
 
 ### Where each language stands
 
@@ -49,352 +49,372 @@ Percent of the strings (administration, extensions) and of the words (help), rou
 
 | Language | Code | Speakers (millions) | Difficulty | Administration | Extensions | Daily-use help | All help | Waves left | Next wave |
 |---|---|---:|:-:|---:|---:|---:|---:|---:|---|
-| Afrikaans | `afr-ZA` | 17 | 2 | 100 | 100 | **0** | **0** | 200 | #541 `S` |
-| Akan | `aka-GH` | 11 | 3 | 100 | **80** | **0** | **0** | 201 | #427 `E` |
-| Albanian | `sqi-AL` | 8 | 2 | 100 | **80** | **0** | **0** | 201 | #426 `E` |
-| Amharic | `amh-ET` | 60 | 4 | 100 | 100 | **0** | **0** | 200 | #525 `S` |
-| Arabic | `ara-SA` | 400 | 4 | 100 | **80** | **0** | **0** | 201 | #2 `E` |
-| Aramaic | `arc-IQ` | < 1 | 5 | 100 | **80** | **0** | **0** | 201 | #476 `E` |
-| Armenian | `hye-AM` | 5 | 4 | 100 | **80** | **0** | **0** | 201 | #446 `E` |
-| Assamese | `asm-IN` | 15 | 5 | 100 | **80** | **0** | **0** | 201 | #430 `E` |
-| Asturian | `ast-ES` | < 1 | 3 | 100 | **80** | **0** | **0** | 201 | #474 `E` |
-| Azerbaijani | `aze-AZ` | 10 | 3 | 100 | **80** | **0** | **0** | 201 | #429 `E` |
-| Bambara | `bam-ML` | 14 | 3 | 100 | **80** | **0** | **0** | 201 | #419 `E` |
-| Basque | `eus-ES` | < 1 | 3 | 100 | **80** | **0** | **0** | 201 | #467 `E` |
-| Belarusian | `bel-BY` | 5 | 4 | 100 | **80** | **0** | **0** | 201 | #447 `E` |
-| Bengali | `ben-BD` | 285 | 4 | 100 | 100 | **0** | **0** | 200 | #502 `S` |
-| Bhojpuri | `bho-IN` | 52 | 5 | 100 | **80** | **0** | **0** | 201 | #402 `E` |
-| Bodo | `brx-IN` | 2 | 5 | 100 | **80** | **0** | **0** | 201 | #465 `E` |
-| Bosnian | `bos-BA` | 3 | 3 | 100 | **80** | **0** | **0** | 201 | #452 `E` |
-| Breton | `bre-FR` | < 1 | 4 | 100 | **80** | **0** | **0** | 201 | #480 `E` |
-| Bulgarian | `bul-BG` | 8 | 2 | 100 | 100 | **0** | **0** | 200 | #561 `S` |
-| Burmese | `mya-MM` | 43 | 5 | 100 | **80** | **0** | **0** | 201 | #408 `E` |
-| Catalan | `cat-ES` | 10 | 1 | 100 | 100 | **0** | **0** | 200 | #534 `S` |
-| Cebuano | `ceb-PH` | 28 | 3 | 100 | **80** | **0** | **0** | 201 | #404 `E` |
-| Central Kurdish (Sorani) | `ckb-IQ` | 7 | 5 | 100 | **80** | **0** | **0** | 201 | #444 `E` |
-| Chechen | `che-RU` | 2 | 5 | 100 | **80** | **0** | **0** | 201 | #463 `E` |
-| Chinese (Simplified) | `chi-CN` | 1,100 | 2 | 100 | 100 | **0** | **0** | 200 | #494 `S` |
-| Chinese (Traditional) | `chi-TW` | 31 | 2 | 100 | 100 | **0** | **0** | 200 | #521 `S` |
-| Croatian | `cro-HR` | 5 | 2 | 100 | **80** | **0** | **0** | 201 | #435 `E` |
-| Czech | `cze-CZ` | 11 | 2 | 100 | **80** | **0** | **0** | 201 | #417 `E` |
-| Danish | `dan-DK` | 6 | 1 | 100 | **80** | **0** | **0** | 201 | #415 `E` |
-| Dari (Persian of Afghanistan) | `fas-AF` | 35 | 4 | 100 | **80** | **0** | **0** | 201 | #406 `E` |
-| Dhivehi | `div-MV` | < 1 | 5 | 100 | **80** | **0** | **0** | 201 | #478 `E` |
-| Dogri | `doi-IN` | 3 | 5 | 100 | **80** | **0** | **0** | 201 | #459 `E` |
-| Dutch | `dut-NL` | 25 | 1 | 100 | **80** | **0** | **0** | 201 | #392 `E` |
-| Dzongkha | `dzo-BT` | < 1 | 5 | 100 | **80** | **0** | **0** | 201 | #473 `E` |
+| Afrikaans | `afr-ZA` | 17 | 2 | 100 | 100 | **0** | **0** | 217 | #648 `S` |
+| Akan | `aka-GH` | 11 | 3 | 100 | 100 | **0** | **0** | 217 | #673 `S` |
+| Albanian | `sqi-AL` | 8 | 2 | 100 | 100 | **0** | **0** | 217 | #672 `S` |
+| Amharic | `amh-ET` | 60 | 4 | 100 | 100 | **0** | **0** | 217 | #632 `S` |
+| Arabic | `ara-SA` | 400 | 4 | 100 | 100 | **0** | **0** | 217 | #2 `S` |
+| Aramaic | `arc-IQ` | < 1 | 5 | 100 | 100 | **0** | **0** | 217 | #727 `S` |
+| Armenian | `hye-AM` | 5 | 4 | 100 | 100 | **0** | **0** | 217 | #696 `S` |
+| Assamese | `asm-IN` | 15 | 5 | 100 | 100 | **0** | **0** | 217 | #677 `S` |
+| Asturian | `ast-ES` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #725 `S` |
+| Azerbaijani | `aze-AZ` | 10 | 3 | 100 | 100 | **0** | **0** | 217 | #675 `S` |
+| Bambara | `bam-ML` | 14 | 3 | 100 | 100 | **0** | **0** | 217 | #664 `S` |
+| Basque | `eus-ES` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #718 `S` |
+| Belarusian | `bel-BY` | 5 | 4 | 100 | 100 | **0** | **0** | 217 | #697 `S` |
+| Bengali | `ben-BD` | 285 | 4 | 100 | 100 | **0** | **0** | 217 | #609 `S` |
+| Bhojpuri | `bho-IN` | 52 | 5 | 100 | 100 | **0** | **0** | 217 | #639 `S` |
+| Bodo | `brx-IN` | 2 | 5 | 100 | 100 | **0** | **0** | 217 | #716 `S` |
+| Bosnian | `bos-BA` | 3 | 3 | 100 | 100 | **0** | **0** | 217 | #702 `S` |
+| Breton | `bre-FR` | < 1 | 4 | 100 | 100 | **0** | **0** | 217 | #732 `S` |
+| Bulgarian | `bul-BG` | 8 | 2 | 100 | 100 | **0** | **0** | 217 | #668 `S` |
+| Burmese | `mya-MM` | 43 | 5 | 100 | 100 | **0** | **0** | 217 | #647 `S` |
+| Catalan | `cat-ES` | 10 | 1 | 100 | 100 | **0** | **0** | 217 | #641 `S` |
+| Cebuano | `ceb-PH` | 28 | 3 | 100 | 100 | **0** | **0** | 217 | #643 `S` |
+| Central Kurdish (Sorani) | `ckb-IQ` | 7 | 5 | 100 | 100 | **0** | **0** | 217 | #694 `S` |
+| Chechen | `che-RU` | 2 | 5 | 100 | 100 | **0** | **0** | 217 | #714 `S` |
+| Chinese (Simplified) | `chi-CN` | 1,100 | 2 | 100 | 100 | **0** | **0** | 217 | #601 `S` |
+| Chinese (Traditional) | `chi-TW` | 31 | 2 | 100 | 100 | **0** | **0** | 217 | #628 `S` |
+| Croatian | `cro-HR` | 5 | 2 | 100 | 100 | **0** | **0** | 217 | #682 `S` |
+| Czech | `cze-CZ` | 11 | 2 | 100 | 100 | **0** | **0** | 217 | #661 `S` |
+| Danish | `dan-DK` | 6 | 1 | 100 | 100 | **0** | **0** | 217 | #659 `S` |
+| Dari (Persian of Afghanistan) | `fas-AF` | 35 | 4 | 100 | 100 | **0** | **0** | 217 | #645 `S` |
+| Dhivehi | `div-MV` | < 1 | 5 | 100 | 100 | **0** | **0** | 217 | #729 `S` |
+| Dogri | `doi-IN` | 3 | 5 | 100 | 100 | **0** | **0** | 217 | #710 `S` |
+| Dutch | `dut-NL` | 25 | 1 | 100 | 100 | **0** | **0** | 217 | #620 `S` |
+| Dzongkha | `dzo-BT` | < 1 | 5 | 100 | 100 | **0** | **0** | 217 | #724 `S` |
 | English (Australia) | `eng-AU` | 1,500 | 1 | 100 | 100 | 100 | 100 | 0 | source texts |
 | English (United States) | `eng-US` | 1,500 | 1 | 100 | 100 | 100 | 100 | 0 | source texts |
-| Esperanto | `epo-EO` | < 1 | 2 | 100 | **80** | **0** | **0** | 201 | #481 `E` |
-| Estonian | `est-EE` | 1 | 3 | 100 | **80** | **0** | **0** | 201 | #462 `E` |
-| Ewe | `ewe-GH` | 5 | 3 | 100 | **80** | **0** | **0** | 201 | #443 `E` |
-| Faroese | `fao-FO` | < 1 | 4 | 100 | **80** | **0** | **0** | 201 | #484 `E` |
-| Filipino | `fil-PH` | 83 | 2 | 100 | **80** | **0** | **0** | 201 | #387 `E` |
-| Finnish | `fin-FI` | 6 | 2 | 100 | **80** | **0** | **0** | 201 | #432 `E` |
-| French | `fre-FR` | 310 | 1 | 100 | **80** | **0** | **0** | 201 | #379 `E` |
-| Fula | `ful-SN` | 37 | 4 | 100 | **80** | **0** | **0** | 201 | #405 `E` |
-| Galician | `glg-ES` | 2 | 2 | 100 | **80** | **0** | **0** | 201 | #450 `E` |
-| Ganda | `lug-UG` | 11 | 4 | 100 | **80** | **0** | **0** | 201 | #434 `E` |
-| Georgian | `kat-GE` | 4 | 4 | 100 | **80** | **0** | **0** | 201 | #455 `E` |
-| German | `ger-DE` | 135 | 2 | 100 | **76** | 100 | 99 | 14 | #1 `E` |
-| Greek | `ell-GR` | 13 | 3 | 100 | **80** | **0** | **0** | 201 | #422 `E` |
-| Greenlandic | `kal-GL` | < 1 | 4 | 100 | **80** | **0** | **0** | 201 | #485 `E` |
-| Gujarati | `guj-IN` | 62 | 4 | 100 | 100 | **0** | **0** | 200 | #522 `S` |
-| Hausa | `hau-NG` | 94 | 3 | 100 | 100 | **0** | **0** | 200 | #510 `S` |
-| Hawaiian | `haw-US` | < 1 | 3 | 100 | **80** | **0** | **0** | 201 | #487 `E` |
-| Hebrew | `heb-IL` | 9 | 4 | 100 | **80** | **0** | **0** | 201 | #436 `E` |
-| Hindi | `hin-IN` | 610 | 4 | 100 | **80** | **0** | **0** | 201 | #382 `E` |
-| Hulaulá (Jewish Neo-Aramaic) | `huy-IL` | < 1 | 5 | 100 | **80** | **0** | **0** | 201 | #490 `E` |
-| Hungarian | `hun-HU` | 13 | 2 | 100 | **80** | **0** | **0** | 201 | #414 `E` |
-| Icelandic | `isl-IS` | < 1 | 3 | 100 | **80** | **0** | **0** | 201 | #475 `E` |
-| Igbo | `ibo-NG` | 31 | 3 | 100 | 100 | **0** | **0** | 200 | #533 `S` |
-| Indonesian | `ind-ID` | 252 | 1 | 100 | **80** | **0** | **0** | 201 | #380 `E` |
-| Irish | `gle-IE` | 2 | 4 | 100 | **80** | **0** | **0** | 201 | #460 `E` |
-| isiXhosa | `xho-ZA` | 19 | 4 | 100 | 100 | **0** | **0** | 200 | #556 `S` |
-| isiZulu | `zul-ZA` | 28 | 4 | 100 | 100 | **0** | **0** | 200 | #548 `S` |
-| Italian | `ita-IT` | 68 | 1 | 100 | **80** | **0** | **0** | 201 | #385 `E` |
-| Japanese | `jpn-JP` | 123 | 3 | 100 | **80** | **0** | **0** | 201 | #388 `E` |
-| Javanese | `jav-ID` | 68 | 3 | 100 | **80** | **0** | **0** | 201 | #394 `E` |
-| Kabyle | `kab-DZ` | 5 | 4 | 100 | **80** | **0** | **0** | 201 | #448 `E` |
-| Kannada | `kan-IN` | 59 | 5 | 100 | 100 | **0** | **0** | 200 | #528 `S` |
-| Kashmiri | `kas-IN` | 7 | 5 | 100 | **80** | **0** | **0** | 201 | #445 `E` |
-| Kazakh | `kaz-KZ` | 16 | 4 | 100 | **80** | **0** | **0** | 201 | #423 `E` |
-| Khmer | `khm-KH` | 18 | 4 | 100 | **80** | **0** | **0** | 201 | #420 `E` |
-| Kikuyu | `kik-KE` | 8 | 4 | 100 | **80** | **0** | **0** | 201 | #439 `E` |
-| Kinyarwanda | `kin-RW` | 15 | 4 | 100 | **80** | **0** | **0** | 201 | #424 `E` |
-| Kirundi | `run-BI` | 12 | 4 | 100 | **80** | **0** | **0** | 201 | #431 `E` |
-| Klingon | `tlh-QO` | < 1 | 4 | 100 | **80** | **0** | **0** | 201 | #493 `E` |
-| Konkani | `kok-IN` | 2 | 5 | 100 | **80** | **0** | **0** | 201 | #461 `E` |
-| Korean | `kor-KR` | 82 | 3 | 100 | **80** | **0** | **0** | 201 | #390 `E` |
-| Korean (North Korea, Munhwaŏ) | `kor-KP` | 26 | 3 | 100 | **80** | **0** | **0** | 201 | #407 `E` |
-| Kurdish (Kurmanji) | `kur-TR` | 16 | 3 | 100 | **80** | **0** | **0** | 201 | #7 `E` |
-| Kyrgyz | `kir-KG` | 5 | 5 | 100 | **80** | **0** | **0** | 201 | #453 `E` |
-| Lao | `lao-LA` | 30 | 5 | 100 | **80** | **0** | **0** | 201 | #416 `E` |
-| Latin | `lat-VA` | < 1 | 4 | 100 | **80** | **0** | **0** | 201 | #491 `E` |
-| Latvian | `lav-LV` | 2 | 3 | 100 | **80** | **0** | **0** | 201 | #458 `E` |
-| Lingala | `lin-CD` | 40 | 4 | 100 | **80** | **0** | **0** | 201 | #403 `E` |
-| Lithuanian | `lit-LT` | 3 | 3 | 100 | 100 | **0** | **0** | 200 | #595 `S` |
-| Lower Sorbian | `dsb-DE` | < 1 | 4 | 100 | **80** | **0** | **0** | 201 | #489 `E` |
-| Luxembourgish | `ltz-LU` | < 1 | 2 | 100 | **80** | **0** | **0** | 201 | #468 `E` |
-| Macedonian | `mkd-MK` | 2 | 3 | 100 | **80** | **0** | **0** | 201 | #457 `E` |
-| Maithili | `mai-IN` | 34 | 5 | 100 | **80** | **0** | **0** | 201 | #412 `E` |
-| Malagasy | `mlg-MG` | 25 | 3 | 100 | **80** | **0** | **0** | 201 | #409 `E` |
-| Malay | `msa-MY` | 60 | 1 | 100 | **80** | **0** | **0** | 201 | #386 `E` |
-| Malayalam | `mal-IN` | 37 | 5 | 100 | 100 | **0** | **0** | 200 | #546 `S` |
-| Maltese | `mlt-MT` | < 1 | 3 | 100 | **80** | **0** | **0** | 201 | #470 `E` |
-| Manipuri | `mni-IN` | 2 | 5 | 100 | **80** | **0** | **0** | 201 | #464 `E` |
-| Māori | `mri-NZ` | < 1 | 3 | 100 | **80** | **0** | **0** | 201 | #479 `E` |
-| Marathi | `mar-IN` | 99 | 4 | 100 | 100 | **0** | **0** | 200 | #515 `S` |
-| Mongolian | `mon-MN` | 6 | 5 | 100 | **80** | **0** | **0** | 201 | #451 `E` |
-| Nepali | `nep-NP` | 32 | 4 | 100 | **80** | **0** | **0** | 201 | #410 `E` |
-| Nigerian Pidgin | `pcm-NG` | 120 | 3 | 100 | **80** | **0** | **0** | 201 | #389 `E` |
-| Northern Sami | `sme-NO` | < 1 | 4 | 100 | **80** | **0** | **0** | 201 | #486 `E` |
-| Norwegian | `nor-NO` | 5 | 1 | 100 | **80** | **0** | **0** | 201 | #418 `E` |
-| N’Ko | `nqo-GN` | – | 5 | 100 | **80** | **0** | **0** | 201 | #492 `E` |
-| Occitan | `oci-FR` | < 1 | 3 | 100 | **80** | **0** | **0** | 201 | #472 `E` |
-| Odia | `ori-IN` | 40 | 5 | 100 | 100 | **0** | **0** | 200 | #544 `S` |
-| Oromo | `orm-ET` | 45 | 4 | 100 | **80** | **0** | **0** | 201 | #400 `E` |
-| Pashto | `pus-AF` | 60 | 5 | 100 | **80** | **0** | **0** | 201 | #6 `E` |
-| Persian | `fas-IR` | 83 | 4 | 100 | **80** | **0** | **0** | 201 | #5 `E` |
-| Polish | `pol-PL` | 40 | 2 | 100 | **80** | **0** | **0** | 201 | #395 `E` |
-| Portuguese (Brazil) | `por-BR` | 215 | 1 | 100 | **80** | **0** | **0** | 201 | #381 `E` |
-| Portuguese (Portugal) | `por-PT` | 50 | 1 | 100 | 100 | **0** | **0** | 200 | #506 `S` |
-| Punjabi | `pan-IN` | 48 | 4 | 100 | 100 | **0** | **0** | 200 | #527 `S` |
-| Quechua | `que-PE` | 8 | 4 | 100 | **80** | **0** | **0** | 201 | #440 `E` |
-| Romanian | `ron-RO` | 25 | 1 | 100 | **80** | **0** | **0** | 201 | #393 `E` |
-| Romansh | `roh-CH` | < 1 | 3 | 100 | **80** | **0** | **0** | 201 | #483 `E` |
-| Russian | `rus-RU` | 255 | 3 | 100 | 100 | **0** | **0** | 200 | #11 `S` |
-| Scottish Gaelic | `gla-GB` | < 1 | 4 | 100 | **80** | **0** | **0** | 201 | #482 `E` |
-| Serbian (Cyrillic) | `srp-RS` | 10 | 4 | 100 | 100 | **0** | **0** | 200 | #576 `S` |
-| Serbian (Latin) | `ser-SR` | 10 | 3 | 100 | 100 | **0** | **0** | 200 | #569 `S` |
-| Shona | `sna-ZW` | 15 | 4 | 100 | **80** | **0** | **0** | 201 | #425 `E` |
-| Sindhi | `snd-PK` | 34 | 5 | 100 | **80** | **0** | **0** | 201 | #413 `E` |
-| Sinhala | `sin-LK` | 18 | 4 | 100 | **80** | **0** | **0** | 201 | #421 `E` |
-| Slovak | `slk-SK` | 7 | 2 | 100 | **80** | **0** | **0** | 201 | #428 `E` |
-| Slovenian | `slv-SI` | 3 | 3 | 100 | **80** | **0** | **0** | 201 | #456 `E` |
-| Somali | `som-SO` | 24 | 3 | 100 | 100 | **0** | **0** | 200 | #545 `S` |
-| Spanish (Mexico) | `esl-MX` | 130 | 1 | 100 | **80** | **0** | **0** | 201 | #383 `E` |
-| Spanish (Spain) | `esl-ES` | 430 | 1 | 100 | **80** | **0** | **0** | 201 | #378 `E` |
-| Standard Moroccan Tamazight | `zgh-MA` | 14 | 5 | 100 | **80** | **0** | **0** | 201 | #433 `E` |
-| Sundanese | `sun-ID` | 32 | 3 | 100 | **80** | **0** | **0** | 201 | #401 `E` |
-| Swahili | `swa-KE` | 80 | 3 | 100 | **80** | **0** | **0** | 201 | #391 `E` |
-| Swedish | `swe-SE` | 13 | 1 | 100 | **80** | **0** | **0** | 201 | #398 `E` |
-| Syriac | `syr-IQ` | < 1 | 5 | 100 | **80** | **0** | **0** | 201 | #477 `E` |
-| Tajik | `tgk-TJ` | 9 | 4 | 100 | **80** | **0** | **0** | 201 | #437 `E` |
-| Tamil | `tam-IN` | 87 | 5 | 100 | 100 | **0** | **0** | 200 | #520 `S` |
-| Tatar | `tat-RU` | 5 | 5 | 100 | **80** | **0** | **0** | 201 | #454 `E` |
-| Telugu | `tel-IN` | 96 | 5 | 100 | 100 | **0** | **0** | 200 | #518 `S` |
-| Thai | `tha-TH` | 61 | 4 | 100 | **80** | **0** | **0** | 201 | #397 `E` |
-| Tibetan | `bod-CN` | 6 | 5 | 100 | **80** | **0** | **0** | 201 | #449 `E` |
-| Tigrinya | `tir-ET` | 10 | 5 | 100 | **80** | **0** | **0** | 201 | #441 `E` |
-| Turkish | `tur-TR` | 90 | 2 | 100 | **80** | **0** | **0** | 201 | #3 `E` |
-| Turkmen | `tuk-TM` | 7 | 4 | 100 | **80** | **0** | **0** | 201 | #442 `E` |
-| Ukrainian | `ukr-UA` | 39 | 3 | 100 | **80** | **0** | **0** | 201 | #4 `E` |
-| Upper Sorbian | `hsb-DE` | < 1 | 4 | 100 | **80** | **0** | **0** | 201 | #488 `E` |
-| Urdu | `urd-PK` | 232 | 4 | 100 | 100 | **0** | **0** | 200 | #505 `S` |
-| Uyghur | `uig-CN` | 11 | 5 | 100 | **80** | **0** | **0** | 201 | #438 `E` |
-| Uzbek | `uzb-UZ` | 35 | 3 | 100 | **80** | **0** | **0** | 201 | #399 `E` |
-| Vietnamese | `vie-VN` | 86 | 1 | 100 | **80** | **0** | **0** | 201 | #384 `E` |
-| Welsh | `cym-GB` | < 1 | 3 | 100 | **80** | **0** | **0** | 201 | #466 `E` |
-| Western Frisian | `fry-NL` | < 1 | 3 | 100 | **80** | **0** | **0** | 201 | #471 `E` |
-| Western Punjabi | `pnb-PK` | 90 | 5 | 100 | **80** | **0** | **0** | 201 | #396 `E` |
-| Wolof | `wol-SN` | 22 | 3 | 100 | **80** | **0** | **0** | 201 | #411 `E` |
-| Yiddish | `yid-US` | 1 | 5 | 100 | **80** | **0** | **0** | 201 | #469 `E` |
-| Yoruba | `yor-NG` | 46 | 3 | 100 | 100 | **0** | **0** | 200 | #523 `S` |
+| Esperanto | `epo-EO` | < 1 | 2 | 100 | 100 | **0** | **0** | 217 | #733 `S` |
+| Estonian | `est-EE` | 1 | 3 | 100 | 100 | **0** | **0** | 217 | #713 `S` |
+| Ewe | `ewe-GH` | 5 | 3 | 100 | 100 | **0** | **0** | 217 | #691 `S` |
+| Faroese | `fao-FO` | < 1 | 4 | 100 | 100 | **0** | **0** | 217 | #736 `S` |
+| Filipino | `fil-PH` | 83 | 2 | 100 | 100 | **0** | **0** | 217 | #614 `S` |
+| Finnish | `fin-FI` | 6 | 2 | 100 | 100 | **0** | **0** | 217 | #679 `S` |
+| French | `fre-FR` | 310 | 1 | 100 | 100 | **0** | **0** | 217 | #603 `S` |
+| Fula | `ful-SN` | 37 | 4 | 100 | 100 | **0** | **0** | 217 | #644 `S` |
+| Galician | `glg-ES` | 2 | 2 | 100 | 100 | **0** | **0** | 217 | #700 `S` |
+| Ganda | `lug-UG` | 11 | 4 | 100 | 100 | **0** | **0** | 217 | #681 `S` |
+| Georgian | `kat-GE` | 4 | 4 | 100 | 100 | **0** | **0** | 217 | #706 `S` |
+| German | `ger-DE` | 135 | 2 | 100 | **76** | 100 | 100 | 1 | #1 `E` |
+| Greek | `ell-GR` | 13 | 3 | 100 | 100 | **0** | **0** | 217 | #667 `S` |
+| Greenlandic | `kal-GL` | < 1 | 4 | 100 | 100 | **0** | **0** | 217 | #737 `S` |
+| Guarani | `grn-PY` | 7 | 4 | 100 | **80** | **0** | **0** | 218 | #600 `E` |
+| Gujarati | `guj-IN` | 62 | 4 | 100 | 100 | **0** | **0** | 217 | #629 `S` |
+| Hausa | `hau-NG` | 94 | 3 | 100 | 100 | **0** | **0** | 217 | #617 `S` |
+| Hawaiian | `haw-US` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #739 `S` |
+| Hebrew | `heb-IL` | 9 | 4 | 100 | 100 | **0** | **0** | 217 | #684 `S` |
+| Hindi | `hin-IN` | 610 | 4 | 100 | 100 | **0** | **0** | 217 | #606 `S` |
+| Hulaulá (Jewish Neo-Aramaic) | `huy-IL` | < 1 | 5 | 100 | 100 | **0** | **0** | 217 | #743 `S` |
+| Hungarian | `hun-HU` | 13 | 2 | 100 | 100 | **0** | **0** | 217 | #658 `S` |
+| Icelandic | `isl-IS` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #726 `S` |
+| Igbo | `ibo-NG` | 31 | 3 | 100 | 100 | **0** | **0** | 217 | #640 `S` |
+| Indonesian | `ind-ID` | 252 | 1 | 100 | 100 | **0** | **0** | 217 | #604 `S` |
+| Irish | `gle-IE` | 2 | 4 | 100 | 100 | **0** | **0** | 217 | #711 `S` |
+| isiXhosa | `xho-ZA` | 19 | 4 | 100 | 100 | **0** | **0** | 217 | #663 `S` |
+| isiZulu | `zul-ZA` | 28 | 4 | 100 | 100 | **0** | **0** | 217 | #655 `S` |
+| Italian | `ita-IT` | 68 | 1 | 100 | 100 | **0** | **0** | 217 | #610 `S` |
+| Japanese | `jpn-JP` | 123 | 3 | 100 | 100 | **0** | **0** | 217 | #615 `S` |
+| Javanese | `jav-ID` | 68 | 3 | 100 | 100 | **0** | **0** | 217 | #623 `S` |
+| Kabyle | `kab-DZ` | 5 | 4 | 100 | 100 | **0** | **0** | 217 | #698 `S` |
+| Kannada | `kan-IN` | 59 | 5 | 100 | 100 | **0** | **0** | 217 | #635 `S` |
+| Kashmiri | `kas-IN` | 7 | 5 | 100 | 100 | **0** | **0** | 217 | #695 `S` |
+| Kazakh | `kaz-KZ` | 16 | 4 | 100 | 100 | **0** | **0** | 217 | #669 `S` |
+| Khmer | `khm-KH` | 18 | 4 | 100 | 100 | **0** | **0** | 217 | #665 `S` |
+| Kikuyu | `kik-KE` | 8 | 4 | 100 | 100 | **0** | **0** | 217 | #687 `S` |
+| Kinyarwanda | `kin-RW` | 15 | 4 | 100 | 100 | **0** | **0** | 217 | #670 `S` |
+| Kirundi | `run-BI` | 12 | 4 | 100 | 100 | **0** | **0** | 217 | #678 `S` |
+| Klingon | `tlh-QO` | < 1 | 4 | 100 | 100 | **0** | **0** | 217 | #746 `S` |
+| Konkani | `kok-IN` | 2 | 5 | 100 | 100 | **0** | **0** | 217 | #712 `S` |
+| Korean | `kor-KR` | 82 | 3 | 100 | 100 | **0** | **0** | 217 | #618 `S` |
+| Korean (North Korea, Munhwaŏ) | `kor-KP` | 26 | 3 | 100 | 100 | **0** | **0** | 217 | #646 `S` |
+| Kurdish (Kurmanji) | `kur-TR` | 16 | 3 | 100 | 100 | **0** | **0** | 217 | #8 `S` |
+| Kyrgyz | `kir-KG` | 5 | 5 | 100 | 100 | **0** | **0** | 217 | #703 `S` |
+| Lao | `lao-LA` | 30 | 5 | 100 | 100 | **0** | **0** | 217 | #660 `S` |
+| Latin | `lat-VA` | < 1 | 4 | 100 | 100 | **0** | **0** | 217 | #744 `S` |
+| Latvian | `lav-LV` | 2 | 3 | 100 | 100 | **0** | **0** | 217 | #709 `S` |
+| Lingala | `lin-CD` | 40 | 4 | 100 | 100 | **0** | **0** | 217 | #642 `S` |
+| Lithuanian | `lit-LT` | 3 | 3 | 100 | 100 | **0** | **0** | 217 | #704 `S` |
+| Lower Sorbian | `dsb-DE` | < 1 | 4 | 100 | 100 | **0** | **0** | 217 | #742 `S` |
+| Luxembourgish | `ltz-LU` | < 1 | 2 | 100 | 100 | **0** | **0** | 217 | #719 `S` |
+| Macedonian | `mkd-MK` | 2 | 3 | 100 | 100 | **0** | **0** | 217 | #708 `S` |
+| Maithili | `mai-IN` | 34 | 5 | 100 | 100 | **0** | **0** | 217 | #656 `S` |
+| Malagasy | `mlg-MG` | 25 | 3 | 100 | 100 | **0** | **0** | 217 | #649 `S` |
+| Malay | `msa-MY` | 60 | 1 | 100 | 100 | **0** | **0** | 217 | #611 `S` |
+| Malayalam | `mal-IN` | 37 | 5 | 100 | 100 | **0** | **0** | 217 | #653 `S` |
+| Maltese | `mlt-MT` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #721 `S` |
+| Manipuri | `mni-IN` | 2 | 5 | 100 | 100 | **0** | **0** | 217 | #715 `S` |
+| Māori | `mri-NZ` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #730 `S` |
+| Marathi | `mar-IN` | 99 | 4 | 100 | 100 | **0** | **0** | 217 | #622 `S` |
+| Mongolian | `mon-MN` | 6 | 5 | 100 | 100 | **0** | **0** | 217 | #701 `S` |
+| Nepali | `nep-NP` | 32 | 4 | 100 | 100 | **0** | **0** | 217 | #650 `S` |
+| Nigerian Pidgin | `pcm-NG` | 120 | 3 | 100 | 100 | **0** | **0** | 217 | #616 `S` |
+| Northern Sami | `sme-NO` | < 1 | 4 | 100 | 100 | **0** | **0** | 217 | #738 `S` |
+| Norwegian | `nor-NO` | 5 | 1 | 100 | 100 | **0** | **0** | 217 | #662 `S` |
+| N’Ko | `nqo-GN` | – | 5 | 100 | 100 | **0** | **0** | 217 | #745 `S` |
+| Occitan | `oci-FR` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #723 `S` |
+| Odia | `ori-IN` | 40 | 5 | 100 | 100 | **0** | **0** | 217 | #651 `S` |
+| Oromo | `orm-ET` | 45 | 4 | 100 | 100 | **0** | **0** | 217 | #637 `S` |
+| Pashto | `pus-AF` | 60 | 5 | 100 | 100 | **0** | **0** | 217 | #7 `S` |
+| Persian | `fas-IR` | 83 | 4 | 100 | 100 | **0** | **0** | 217 | #6 `S` |
+| Polish | `pol-PL` | 40 | 2 | 100 | 100 | **0** | **0** | 217 | #624 `S` |
+| Portuguese (Brazil) | `por-BR` | 215 | 1 | 100 | 100 | **0** | **0** | 217 | #605 `S` |
+| Portuguese (Portugal) | `por-PT` | 50 | 1 | 100 | 100 | **0** | **0** | 217 | #613 `S` |
+| Punjabi | `pan-IN` | 48 | 4 | 100 | 100 | **0** | **0** | 217 | #634 `S` |
+| Quechua | `que-PE` | 8 | 4 | 100 | 100 | **0** | **0** | 217 | #688 `S` |
+| Romanian | `ron-RO` | 25 | 1 | 100 | 100 | **0** | **0** | 217 | #621 `S` |
+| Romansh | `roh-CH` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #735 `S` |
+| Russian | `rus-RU` | 255 | 3 | 100 | 100 | **0** | **0** | 217 | #5 `S` |
+| Sanskrit | `san-IN` | < 1 | 5 | 100 | 100 | **0** | **0** | 217 | #740 `S` |
+| Santali | `sat-IN` | 8 | 5 | 100 | 100 | **0** | **0** | 217 | #693 `S` |
+| Scottish Gaelic | `gla-GB` | < 1 | 4 | 100 | 100 | **0** | **0** | 217 | #734 `S` |
+| Serbian (Cyrillic) | `srp-RS` | 10 | 4 | 100 | 100 | **0** | **0** | 217 | #683 `S` |
+| Serbian (Latin) | `ser-SR` | 10 | 3 | 100 | 100 | **0** | **0** | 217 | #676 `S` |
+| Shona | `sna-ZW` | 15 | 4 | 100 | 100 | **0** | **0** | 217 | #671 `S` |
+| Sindhi | `snd-PK` | 34 | 5 | 100 | 100 | **0** | **0** | 217 | #657 `S` |
+| Sinhala | `sin-LK` | 18 | 4 | 100 | 100 | **0** | **0** | 217 | #666 `S` |
+| Slovak | `slk-SK` | 7 | 2 | 100 | 100 | **0** | **0** | 217 | #674 `S` |
+| Slovenian | `slv-SI` | 3 | 3 | 100 | 100 | **0** | **0** | 217 | #707 `S` |
+| Somali | `som-SO` | 24 | 3 | 100 | 100 | **0** | **0** | 217 | #652 `S` |
+| Spanish (Mexico) | `esl-MX` | 130 | 1 | 100 | 100 | **0** | **0** | 217 | #607 `S` |
+| Spanish (Spain) | `esl-ES` | 430 | 1 | 100 | 100 | **0** | **0** | 217 | #602 `S` |
+| Standard Moroccan Tamazight | `zgh-MA` | 14 | 5 | 100 | 100 | **0** | **0** | 217 | #680 `S` |
+| Sundanese | `sun-ID` | 32 | 3 | 100 | 100 | **0** | **0** | 217 | #638 `S` |
+| Swahili | `swa-KE` | 80 | 3 | 100 | 100 | **0** | **0** | 217 | #619 `S` |
+| Swedish | `swe-SE` | 13 | 1 | 100 | 100 | **0** | **0** | 217 | #633 `S` |
+| Syriac | `syr-IQ` | < 1 | 5 | 100 | 100 | **0** | **0** | 217 | #728 `S` |
+| Tajik | `tgk-TJ` | 9 | 4 | 100 | 100 | **0** | **0** | 217 | #685 `S` |
+| Tamil | `tam-IN` | 87 | 5 | 100 | 100 | **0** | **0** | 217 | #627 `S` |
+| Tatar | `tat-RU` | 5 | 5 | 100 | 100 | **0** | **0** | 217 | #705 `S` |
+| Telugu | `tel-IN` | 96 | 5 | 100 | 100 | **0** | **0** | 217 | #625 `S` |
+| Thai | `tha-TH` | 61 | 4 | 100 | 100 | **0** | **0** | 217 | #631 `S` |
+| Tibetan | `bod-CN` | 6 | 5 | 100 | 100 | **0** | **0** | 217 | #699 `S` |
+| Tigrinya | `tir-ET` | 10 | 5 | 100 | 100 | **0** | **0** | 217 | #689 `S` |
+| Tongan | `ton-TO` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #731 `S` |
+| Turkish | `tur-TR` | 90 | 2 | 100 | 100 | **0** | **0** | 217 | #3 `S` |
+| Turkmen | `tuk-TM` | 7 | 4 | 100 | 100 | **0** | **0** | 217 | #690 `S` |
+| Ukrainian | `ukr-UA` | 39 | 3 | 100 | 100 | **0** | **0** | 217 | #4 `S` |
+| Upper Sorbian | `hsb-DE` | < 1 | 4 | 100 | 100 | **0** | **0** | 217 | #741 `S` |
+| Urdu | `urd-PK` | 232 | 4 | 100 | 100 | **0** | **0** | 217 | #612 `S` |
+| Uyghur | `uig-CN` | 11 | 5 | 100 | 100 | **0** | **0** | 217 | #686 `S` |
+| Uzbek | `uzb-UZ` | 35 | 3 | 100 | 100 | **0** | **0** | 217 | #636 `S` |
+| Vietnamese | `vie-VN` | 86 | 1 | 100 | 100 | **0** | **0** | 217 | #608 `S` |
+| Welsh | `cym-GB` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #717 `S` |
+| Western Frisian | `fry-NL` | < 1 | 3 | 100 | 100 | **0** | **0** | 217 | #722 `S` |
+| Western Punjabi | `pnb-PK` | 90 | 5 | 100 | 100 | **0** | **0** | 217 | #626 `S` |
+| Wolof | `wol-SN` | 22 | 3 | 100 | 100 | **0** | **0** | 217 | #654 `S` |
+| Yiddish | `yid-US` | 1 | 5 | 100 | 100 | **0** | **0** | 217 | #720 `S` |
+| Yoruba | `yor-NG` | 46 | 3 | 100 | 100 | **0** | **0** | 217 | #630 `S` |
 
 ### The help in tiers
 
 | Tier | Sections | Pages | Words | Parts |
 |---|---|---:|---:|---:|
-| Daily use: editors, users, administrators’ how-tos | `help`, `help/manual`, `help/non-technical-people`, `guides`, `help/book-learning`, `help/book-building-a-site` | 261 | 292,493 | 13 |
-| Product and audience guides | `install`, `features`, `help/adopters`, `help/advocates`, `help/business`, `help/businesses`, `help/community`, `help/creators` and 22 more | 3,681 | 2,875,016 | 112 |
-| Developer reference | `help/extension-development`, `help/template-language`, `help/template-operators`, `help/build-two-ways`, `help/php-developers`, `help/cms-developers`, `help/dxp-developers`, `help/software-engineers` and 12 more | 1,790 | 1,803,691 | 70 |
-| Tables of the generated examples | `examples` | 2,694 entries | 80,458 | 4 |
+| Daily use: editors, users, administrators’ how-tos | `help`, `help/manual`, `help/non-technical-people`, `guides`, `help/book-learning`, `help/book-building-a-site` | 343 | 443,905 | 17 |
+| Product and audience guides | `install`, `features`, `help/adopters`, `help/advocates`, `help/business`, `help/businesses`, `help/community`, `help/creators` and 26 more | 3,803 | 3,024,465 | 121 |
+| Developer reference | `help/extension-development`, `help/template-language`, `help/template-operators`, `help/build-two-ways`, `help/php-developers`, `help/cms-developers`, `help/dxp-developers`, `help/software-engineers` and 12 more | 1,817 | 1,864,251 | 73 |
+| Tables of the generated examples | `examples` | 4,186 entries | 112,725 | 5 |
 
-<details><summary>The 199 parts of the help</summary>
+<details><summary>The 216 parts of the help</summary>
 
 | Part | Tier | Pages | Words | First … last page |
 |---|---|---:|---:|---|
-| `H-help-01` | daily | 11 | 24,706 | `help/README.md` … `help/develop-with-git.md` |
-| `H-help-02` | daily | 11 | 12,294 | `help/editing-content.md` … `help/media-and-uploads.md` |
-| `H-help-03` | daily | 11 | 30,223 | `help/os-support.md` … `help/who-is-the-exponential-foundation.md` |
-| `H-help-manual-01` | daily | 44 | 17,445 | `help/manual/README.md` … `help/manual/how-do-i-let-a-translator-edit-one-language.md` |
-| `H-help-manual-02` | daily | 44 | 18,658 | `help/manual/how-do-i-move-a-user-to-another-group.md` … `help/manual/why-does-search-not-find-an-item.md` |
-| `H-help-non-technical-people` | daily | 47 | 28,042 | `help/non-technical-people/checklists/README.md` … `help/non-technical-people/words/the-site-and-the-administration.md` |
-| `H-guides-01` | daily | 10 | 26,121 | `guides/README.md` … `guides/collected-information.md` |
-| `H-guides-02` | daily | 11 | 28,453 | `guides/content-history.md` … `guides/getting-started.md` |
-| `H-guides-03` | daily | 10 | 28,000 | `guides/mail-preferences-administrator.md` … `guides/passkeys.md` |
-| `H-guides-04` | daily | 11 | 28,451 | `guides/pdf-exports.md` … `guides/system-information.md` |
-| `H-guides-05` | daily | 11 | 26,855 | `guides/templates-and-design.md` … `guides/your-devices-and-sessions.md` |
-| `H-help-book-learning` | daily | 31 | 18,155 | `help/book-learning/README.md` … `help/book-learning/workflows-and-triggers.md` |
-| `H-help-book-building-a-site` | daily | 9 | 5,090 | `help/book-building-a-site/README.md` … `help/book-building-a-site/the-news-pages.md` |
-| `H-install-01` | guides | 7 | 34,636 | `install/01-introduction.md` … `install/07-console-install.md` |
-| `H-install-02` | guides | 7 | 57,773 | `install/08-serving-the-site.md` … `install/14-migrating-from-4x.md` |
-| `H-install-03` | guides | 7 | 39,225 | `install/15-migrating-from-5x-legacy.md` … `install/migration/checklist.md` |
-| `H-install-04` | guides | 7 | 8,465 | `install/migration/coldfusion-apps.md` … `install/migration/exponential-platform-legacy.md` |
-| `H-install-05` | guides | 7 | 7,921 | `install/migration/exponential-platform-nexus.md` … `install/migration/magento.md` |
+| `H-help-01` | daily | 14 | 33,869 | `help/README.md` … `help/free-documentation.md` |
+| `H-help-02` | daily | 14 | 17,297 | `help/getting-started.md` … `help/reading-help-in-other-languages.md` |
+| `H-help-03` | daily | 14 | 35,423 | `help/recent-content.md` … `help/why-exponential-supports-php-7-4.md` |
+| `H-help-manual-01` | daily | 44 | 17,659 | `help/manual/README.md` … `help/manual/how-do-i-let-a-translator-edit-one-language.md` |
+| `H-help-manual-02` | daily | 44 | 18,751 | `help/manual/how-do-i-move-a-user-to-another-group.md` … `help/manual/why-does-search-not-find-an-item.md` |
+| `H-help-non-technical-people` | daily | 48 | 28,376 | `help/non-technical-people/a-website-without-hosting-costs.md` … `help/non-technical-people/words/the-site-and-the-administration.md` |
+| `H-guides-01` | daily | 13 | 31,813 | `guides/README.md` … `guides/content-history.md` |
+| `H-guides-02` | daily | 14 | 31,783 | `guides/content-languages.md` … `guides/getting-started.md` |
+| `H-guides-03` | daily | 14 | 36,373 | `guides/graphql-recipes.md` … `guides/migrations-rollback-and-captions.md` |
+| `H-guides-04` | daily | 14 | 34,108 | `guides/migrations-sql-and-settings.md` … `guides/preloading-caches.md` |
+| `H-guides-05` | daily | 13 | 35,910 | `guides/remote-services-and-apps.md` … `guides/smarty-templates-migrating.md` |
+| `H-guides-06` | daily | 14 | 25,559 | `guides/smarty-templates-operator-reference.md` … `guides/static-publishing-history-and-rollback.md` |
+| `H-guides-07` | daily | 14 | 21,885 | `guides/static-publishing-limits-and-github-terms.md` … `guides/twig-templates-compatibility.md` |
+| `H-guides-08` | daily | 14 | 14,197 | `guides/twig-templates-converter.md` … `guides/twig-templates-tutorial.md` |
+| `H-guides-09` | daily | 14 | 36,569 | `guides/twig-templates.md` … `guides/your-devices-and-sessions.md` |
+| `H-help-book-learning` | daily | 31 | 18,870 | `help/book-learning/README.md` … `help/book-learning/workflows-and-triggers.md` |
+| `H-help-book-building-a-site` | daily | 10 | 5,463 | `help/book-building-a-site/README.md` … `help/book-building-a-site/your-first-static-site-in-15-minutes.md` |
+| `H-install-01` | guides | 7 | 36,149 | `install/01-introduction.md` … `install/07-console-install.md` |
+| `H-install-02` | guides | 7 | 60,732 | `install/08-serving-the-site.md` … `install/14-migrating-from-4x.md` |
+| `H-install-03` | guides | 7 | 39,901 | `install/15-migrating-from-5x-legacy.md` … `install/migration/checklist.md` |
+| `H-install-04` | guides | 7 | 8,467 | `install/migration/coldfusion-apps.md` … `install/migration/exponential-platform-legacy.md` |
+| `H-install-05` | guides | 7 | 7,934 | `install/migration/exponential-platform-nexus.md` … `install/migration/magento.md` |
 | `H-install-06` | guides | 7 | 5,299 | `install/migration/older-releases.md` … `install/migration/wordpress.md` |
-| `H-features-01` | guides | 22 | 36,480 | `features/4.7/cluster_events.md` … `features/6.0/bookmark-folders.md` |
-| `H-features-02` | guides | 23 | 39,007 | `features/6.0/bookmarks-of-system-pages.md` … `features/6.0/extension-list-and-downloads.md` |
-| `H-features-03` | guides | 23 | 16,924 | `features/6.0/extension-loading-order.md` … `features/6.0/extensions/ezgmaplocation.md` |
-| `H-features-04` | guides | 22 | 16,291 | `features/6.0/extensions/ezie.md` … `features/6.0/extensions/nxc_powercontent.md` |
-| `H-features-05` | guides | 23 | 36,511 | `features/6.0/extensions/owsimpleoperator.md` … `features/6.0/kickstarter-cli.md` |
-| `H-features-06` | guides | 23 | 33,689 | `features/6.0/legacy-bridge.md` … `features/6.0/permission-checks-for-many-assignments.md` |
-| `H-features-07` | guides | 22 | 27,076 | `features/6.0/platform-admin-ui-fork.md` … `features/6.0/right-to-left.md` |
-| `H-features-08` | guides | 23 | 24,165 | `features/6.0/robots-txt.md` … `features/6.0/transfer-runs.md` |
-| `H-features-09` | guides | 23 | 29,109 | `features/6.0/translations-and-languages.md` … `features/6.0/web-server-and-solr-commands.md` |
-| `H-help-adopters` | guides | 46 | 16,586 | `help/adopters/adopters-checklists.md` … `help/adopters/what-adoption-means.md` |
-| `H-help-advocates-01` | guides | 48 | 29,324 | `help/advocates/7x-and-the-foundation-for-advocates.md` … `help/advocates/proposing-a-contribution-sprint.md` |
-| `H-help-advocates-02` | guides | 48 | 29,008 | `help/advocates/proposing-a-meetup.md` … `help/advocates/your-first-week-as-an-advocate.md` |
-| `H-help-business` | guides | 12 | 29,909 | `help/business/brand-and-naming-rules.md` … `help/business/who-exponential-is-for.md` |
-| `H-help-businesses-01` | guides | 30 | 28,552 | `help/businesses/associations/README.md` … `help/businesses/extranets/README.md` |
-| `H-help-businesses-02` | guides | 31 | 30,998 | `help/businesses/extranets/customer-and-partner-areas.md` … `help/businesses/libraries/tagging-and-subject-headings.md` |
-| `H-help-businesses-03` | guides | 31 | 28,345 | `help/businesses/members/README.md` … `help/businesses/multisite/multi-brand-checklist.md` |
-| `H-help-businesses-04` | guides | 31 | 32,234 | `help/businesses/multisite/multi-brand-planning.md` … `help/businesses/reliability/health-checks-and-monitoring.md` |
-| `H-help-businesses-05` | guides | 31 | 33,539 | `help/businesses/reliability/incident-response-for-small-teams.md` … `help/businesses/stores/digital-products-and-downloads.md` |
-| `H-help-businesses-06` | guides | 31 | 25,915 | `help/businesses/stores/discounts-and-wishlists.md` … `help/businesses/why-businesses-rely-on-exponential.md` |
-| `H-help-community` | guides | 52 | 26,819 | `help/community/community-checklists.md` … `help/community/your-first-week-in-the-community.md` |
-| `H-help-creators-01` | guides | 46 | 23,103 | `help/creators/app-creators/access-control-in-code.md` … `help/creators/app-creators/rad-tools.md` |
-| `H-help-creators-02` | guides | 47 | 26,126 | `help/creators/app-creators/remote-services-expservices.md` … `help/creators/website-creators/member-registration-and-areas.md` |
-| `H-help-creators-03` | guides | 47 | 28,743 | `help/creators/website-creators/menus-and-navigation.md` … `help/creators/website-creators/your-first-site-step-by-step.md` |
-| `H-help-customers-01` | guides | 37 | 25,813 | `help/customers/commerce/README.md` … `help/customers/day-to-day/analytics-and-what-to-measure.md` |
-| `H-help-customers-02` | guides | 38 | 26,714 | `help/customers/day-to-day/approvals-and-review.md` … `help/customers/growth/rss-and-podcast-feeds.md` |
-| `H-help-customers-03` | guides | 38 | 24,959 | `help/customers/growth/using-ai-drafts-responsibly.md` … `help/customers/partners-and-hosts/who-does-what.md` |
-| `H-help-customers-04` | guides | 38 | 22,291 | `help/customers/partners-and-hosts/working-with-7x-and-the-project.md` … `help/customers/what-you-own.md` |
-| `H-help-designers-01` | guides | 63 | 28,180 | `help/designers/README.md` … `help/designers/extensions/gitignore-for-themes.md` |
-| `H-help-designers-02` | guides | 64 | 24,251 | `help/designers/extensions/install-and-changelog-files.md` … `help/designers/sales/assets-under-separate-licenses.md` |
+| `H-features-01` | guides | 20 | 32,950 | `features/4.7/cluster_events.md` … `features/6.0/audit-trail.md` |
+| `H-features-02` | guides | 20 | 40,482 | `features/6.0/benchmark.md` … `features/6.0/editor-account-approval.md` |
+| `H-features-03` | guides | 20 | 16,334 | `features/6.0/environment-settings.md` … `features/6.0/extensions/expai.md` |
+| `H-features-04` | guides | 20 | 14,597 | `features/6.0/extensions/expimageeditor.md` … `features/6.0/extensions/ezstarrating.md` |
+| `H-features-05` | guides | 20 | 16,880 | `features/6.0/extensions/eztags.md` … `features/6.0/extensions/swark.md` |
+| `H-features-06` | guides | 20 | 54,829 | `features/6.0/extensions/syndication.md` … `features/6.0/mail-layout.md` |
+| `H-features-07` | guides | 20 | 22,465 | `features/6.0/mail-preferences.md` … `features/6.0/pagelayout-hooks.md` |
+| `H-features-08` | guides | 20 | 24,206 | `features/6.0/password-change-at-next-sign-in.md` … `features/6.0/repair-from-the-browser.md` |
+| `H-features-09` | guides | 20 | 24,413 | `features/6.0/request-logs.md` … `features/6.0/soap-client-tls.md` |
+| `H-features-10` | guides | 20 | 26,631 | `features/6.0/sqlite-database.md` … `features/6.0/user-audit.md` |
+| `H-features-11` | guides | 20 | 27,583 | `features/6.0/user-hygiene.md` … `features/6.0/website-sidebar.md` |
+| `H-help-adopters` | guides | 47 | 16,998 | `help/adopters/adopters-checklists.md` … `help/adopters/what-adoption-means.md` |
+| `H-help-advocates-01` | guides | 48 | 29,486 | `help/advocates/7x-and-the-foundation-for-advocates.md` … `help/advocates/proposing-a-contribution-sprint.md` |
+| `H-help-advocates-02` | guides | 48 | 29,620 | `help/advocates/proposing-a-meetup.md` … `help/advocates/your-first-week-as-an-advocate.md` |
+| `H-help-business-01` | guides | 6 | 15,690 | `help/business/brand-and-naming-rules.md` … `help/business/feature-highlights-for-customers.md` |
+| `H-help-business-02` | guides | 6 | 15,383 | `help/business/growing-the-community.md` … `help/business/who-exponential-is-for.md` |
+| `H-help-businesses-01` | guides | 26 | 25,794 | `help/businesses/associations/README.md` … `help/businesses/costs/what-you-do-not-pay-for.md` |
+| `H-help-businesses-02` | guides | 26 | 25,357 | `help/businesses/costs/worked-example-intranet.md` … `help/businesses/intranets/two-factor-and-sign-in.md` |
+| `H-help-businesses-03` | guides | 27 | 26,097 | `help/businesses/libraries/README.md` … `help/businesses/mobile-and-headless/responsive-sites.md` |
+| `H-help-businesses-04` | guides | 26 | 24,905 | `help/businesses/mobile-and-headless/rest-api-v1-and-v2-for-businesses.md` … `help/businesses/newsletters/opt-in-and-consent.md` |
+| `H-help-businesses-05` | guides | 27 | 29,917 | `help/businesses/newsletters/writing-and-sending-editions.md` … `help/businesses/reliability/restore-drills.md` |
+| `H-help-businesses-06` | guides | 26 | 26,999 | `help/businesses/reliability/static-and-response-cache.md` … `help/businesses/stores/payment-gateways-for-businesses.md` |
+| `H-help-businesses-07` | guides | 27 | 22,322 | `help/businesses/stores/paypal-payments.md` … `help/businesses/why-businesses-rely-on-exponential.md` |
+| `H-help-community` | guides | 53 | 27,394 | `help/community/a-free-site-for-your-user-group.md` … `help/community/your-first-week-in-the-community.md` |
+| `H-help-creators-01` | guides | 47 | 23,568 | `help/creators/app-creators/access-control-in-code.md` … `help/creators/app-creators/remote-services-expservices.md` |
+| `H-help-creators-02` | guides | 47 | 26,278 | `help/creators/app-creators/rest-api.md` … `help/creators/website-creators/member-registration-and-areas.md` |
+| `H-help-creators-03` | guides | 47 | 29,000 | `help/creators/website-creators/menus-and-navigation.md` … `help/creators/website-creators/your-first-site-step-by-step.md` |
+| `H-help-customers-01` | guides | 37 | 25,803 | `help/customers/commerce/README.md` … `help/customers/day-to-day/analytics-and-what-to-measure.md` |
+| `H-help-customers-02` | guides | 38 | 26,709 | `help/customers/day-to-day/approvals-and-review.md` … `help/customers/growth/rss-and-podcast-feeds.md` |
+| `H-help-customers-03` | guides | 38 | 24,975 | `help/customers/growth/using-ai-drafts-responsibly.md` … `help/customers/partners-and-hosts/who-does-what.md` |
+| `H-help-customers-04` | guides | 38 | 22,272 | `help/customers/partners-and-hosts/working-with-7x-and-the-project.md` … `help/customers/what-you-own.md` |
+| `H-help-designers-01` | guides | 63 | 28,332 | `help/designers/README.md` … `help/designers/extensions/gitignore-for-themes.md` |
+| `H-help-designers-02` | guides | 64 | 24,321 | `help/designers/extensions/install-and-changelog-files.md` … `help/designers/sales/assets-under-separate-licenses.md` |
 | `H-help-designers-03` | guides | 63 | 23,137 | `help/designers/sales/contracts-and-terms.md` … `help/designers/templates/if-and-conditions.md` |
-| `H-help-designers-04` | guides | 64 | 26,860 | `help/designers/templates/include.md` … `help/designers/theme-design/color-contrast.md` |
-| `H-help-designers-05` | guides | 64 | 37,336 | `help/designers/theme-design/csp-safe-design.md` … `help/designers/theme-design/what-a-design-is.md` |
+| `H-help-designers-04` | guides | 64 | 26,861 | `help/designers/templates/include.md` … `help/designers/theme-design/color-contrast.md` |
+| `H-help-designers-05` | guides | 64 | 38,389 | `help/designers/theme-design/csp-safe-design.md` … `help/designers/theme-design/what-a-design-is.md` |
 | `H-help-e-commerce-01` | guides | 26 | 17,960 | `help/e-commerce/catalog/README.md` … `help/e-commerce/operations/analytics-for-stores.md` |
 | `H-help-e-commerce-02` | guides | 27 | 18,329 | `help/e-commerce/operations/commerce-audit-trail.md` … `help/e-commerce/settings/workflow-ini-for-the-shop.md` |
-| `H-help-ecosystem` | guides | 45 | 18,516 | `help/ecosystem/a-short-history-of-the-ecosystem.md` … `help/ecosystem/what-the-ecosystem-is.md` |
-| `H-help-government-01` | guides | 52 | 32,618 | `help/government/accessibility/README.md` … `help/government/building/documents-and-publications/pdf-export.md` |
-| `H-help-government-02` | guides | 53 | 24,723 | `help/government/building/documents-and-publications/versions-of-documents.md` … `help/government/building/news-and-alerts/README.md` |
-| `H-help-government-03` | guides | 53 | 28,365 | `help/government/building/news-and-alerts/archive-and-expiry.md` … `help/government/checklists/quarterly-access-review.md` |
-| `H-help-government-04` | guides | 53 | 31,184 | `help/government/checklists/records-checklist.md` … `help/government/languages/removing-a-translation-safely.md` |
-| `H-help-government-05` | guides | 53 | 34,129 | `help/government/languages/right-to-left-in-the-administration.md` … `help/government/levels/parliaments/what-it-publishes.md` |
-| `H-help-government-06` | guides | 53 | 35,568 | `help/government/levels/public-health/README.md` … `help/government/operations/availability/high-availability-overview.md` |
-| `H-help-government-07` | guides | 53 | 38,338 | `help/government/operations/availability/maintenance-mode-and-planned-downtime.md` … `help/government/operations/incidents/database-unreachable.md` |
-| `H-help-government-08` | guides | 53 | 33,862 | `help/government/operations/incidents/ddos-and-probe-floods.md` … `help/government/privacy/analytics.md` |
-| `H-help-government-09` | guides | 52 | 31,746 | `help/government/privacy/audit-retention.md` … `help/government/procurement/exit-plans/lock-in-clauses-to-avoid.md` |
-| `H-help-government-10` | guides | 53 | 34,251 | `help/government/procurement/exit-plans/personal-data-at-exit.md` … `help/government/procurement/total-cost-of-ownership/staff-and-skills.md` |
-| `H-help-government-11` | guides | 53 | 29,772 | `help/government/procurement/total-cost-of-ownership/support-contracts.md` … `help/government/security/file-uploads-and-svg.md` |
-| `H-help-government-12` | guides | 53 | 30,490 | `help/government/security/forwarding-audit-to-a-siem.md` … `help/government/tasks/compliance/add-security-txt.md` |
-| `H-help-government-13` | guides | 53 | 19,549 | `help/government/tasks/compliance/add-your-own-words-to-the-weak-password-list.md` … `help/government/tasks/operations/bring-the-site-back-online.md` |
-| `H-help-government-14` | guides | 53 | 23,257 | `help/government/tasks/operations/check-file-and-directory-permissions.md` … `help/government/tasks/people-and-permissions/keep-editors-out-of-the-admin-siteaccess.md` |
-| `H-help-government-15` | guides | 53 | 25,199 | `help/government/tasks/people-and-permissions/let-a-contractor-edit-only-one-folder.md` … `help/government/tasks/publishing/find-and-fix-broken-links.md` |
-| `H-help-government-16` | guides | 53 | 24,196 | `help/government/tasks/publishing/follow-changes-with-notifications.md` … `help/government/tasks/sites-and-languages/connect-staff-sign-in-to-ldap.md` |
-| `H-help-government-17` | guides | 53 | 21,475 | `help/government/tasks/sites-and-languages/export-a-list-of-content-as-csv.md` … `help/government/transparency-and-foi/withdrawing-and-correcting-published-information.md` |
-| `H-help-hosting-01` | guides | 23 | 24,499 | `help/hosting/basics/README.md` … `help/hosting/business/licensing-for-hosts.md` |
-| `H-help-hosting-02` | guides | 24 | 20,708 | `help/hosting/business/marketing-exponential-hosting.md` … `help/hosting/models/kubernetes.md` |
-| `H-help-hosting-03` | guides | 24 | 30,593 | `help/hosting/models/managed-hosting.md` … `help/hosting/operations/storage-layout.md` |
-| `H-help-hosting-04` | guides | 23 | 25,168 | `help/hosting/operations/system-card-for-hosts.md` … `help/hosting/performance/valkey-and-redis.md` |
-| `H-help-hosting-05` | guides | 24 | 20,812 | `help/hosting/performance/varnish-and-reverse-proxies.md` … `help/hosting/security/content-security-policy.md` |
-| `H-help-hosting-06` | guides | 24 | 29,752 | `help/hosting/security/demo-mode-for-hosts.md` … `help/hosting/servers/velocity-workers-and-pools.md` |
-| `H-help-individuals-01` | guides | 27 | 19,254 | `help/individuals/blogs/README.md` … `help/individuals/individuals-glossary.md` |
-| `H-help-individuals-02` | guides | 28 | 21,124 | `help/individuals/individuals-reading-path.md` … `help/individuals/what-exists-and-what-does-not.md` |
-| `H-help-leadership-01` | guides | 9 | 19,891 | `help/leadership/accessibility-security-and-compliance-checklists.md` … `help/leadership/planning-an-exponential-project.md` |
-| `H-help-leadership-02` | guides | 9 | 20,201 | `help/leadership/project-managers-start-here.md` … `help/leadership/working-with-the-community.md` |
-| `H-help-local-businesses-01` | guides | 27 | 17,671 | `help/local-businesses/budget/README.md` … `help/local-businesses/getting-started/working-with-a-local-partner-or-freelancer.md` |
+| `H-help-ecosystem` | guides | 45 | 18,856 | `help/ecosystem/a-short-history-of-the-ecosystem.md` … `help/ecosystem/what-the-ecosystem-is.md` |
+| `H-help-government-01` | guides | 53 | 32,971 | `help/government/accessibility/README.md` … `help/government/building/documents-and-publications/pdf-export.md` |
+| `H-help-government-02` | guides | 53 | 24,724 | `help/government/building/documents-and-publications/versions-of-documents.md` … `help/government/building/news-and-alerts/README.md` |
+| `H-help-government-03` | guides | 53 | 28,368 | `help/government/building/news-and-alerts/archive-and-expiry.md` … `help/government/checklists/quarterly-access-review.md` |
+| `H-help-government-04` | guides | 53 | 31,704 | `help/government/checklists/records-checklist.md` … `help/government/languages/redirecting-to-the-visitors-language.md` |
+| `H-help-government-05` | guides | 53 | 34,251 | `help/government/languages/removing-a-translation-safely.md` … `help/government/levels/parliaments/structure-sections-and-roles.md` |
+| `H-help-government-06` | guides | 53 | 35,269 | `help/government/levels/parliaments/what-it-publishes.md` … `help/government/operations/availability/database-high-availability.md` |
+| `H-help-government-07` | guides | 53 | 39,235 | `help/government/operations/availability/high-availability-overview.md` … `help/government/operations/incidents/data-breach-notification-framing.md` |
+| `H-help-government-08` | guides | 53 | 34,233 | `help/government/operations/incidents/database-unreachable.md` … `help/government/privacy/README.md` |
+| `H-help-government-09` | guides | 53 | 32,204 | `help/government/privacy/analytics.md` … `help/government/procurement/exit-plans/lock-in-clauses-to-avoid.md` |
+| `H-help-government-10` | guides | 53 | 34,358 | `help/government/procurement/exit-plans/personal-data-at-exit.md` … `help/government/procurement/total-cost-of-ownership/staff-and-skills.md` |
+| `H-help-government-11` | guides | 53 | 30,491 | `help/government/procurement/total-cost-of-ownership/support-contracts.md` … `help/government/security/file-uploads-and-svg.md` |
+| `H-help-government-12` | guides | 53 | 31,597 | `help/government/security/forwarding-audit-to-a-siem.md` … `help/government/tasks/compliance/add-security-txt.md` |
+| `H-help-government-13` | guides | 53 | 19,557 | `help/government/tasks/compliance/add-your-own-words-to-the-weak-password-list.md` … `help/government/tasks/operations/bring-the-site-back-online.md` |
+| `H-help-government-14` | guides | 53 | 23,496 | `help/government/tasks/operations/check-file-and-directory-permissions.md` … `help/government/tasks/people-and-permissions/keep-editors-out-of-the-admin-siteaccess.md` |
+| `H-help-government-15` | guides | 53 | 25,206 | `help/government/tasks/people-and-permissions/let-a-contractor-edit-only-one-folder.md` … `help/government/tasks/publishing/find-and-fix-broken-links.md` |
+| `H-help-government-16` | guides | 53 | 24,198 | `help/government/tasks/publishing/follow-changes-with-notifications.md` … `help/government/tasks/sites-and-languages/connect-staff-sign-in-to-ldap.md` |
+| `H-help-government-17` | guides | 53 | 21,481 | `help/government/tasks/sites-and-languages/export-a-list-of-content-as-csv.md` … `help/government/transparency-and-foi/withdrawing-and-correcting-published-information.md` |
+| `H-help-hosting-01` | guides | 24 | 25,768 | `help/hosting/basics/README.md` … `help/hosting/business/marketing-exponential-hosting.md` |
+| `H-help-hosting-02` | guides | 24 | 22,215 | `help/hosting/business/partner-programs.md` … `help/hosting/models/managed-hosting.md` |
+| `H-help-hosting-03` | guides | 24 | 31,750 | `help/hosting/models/platform-as-a-service.md` … `help/hosting/operations/storage-layout.md` |
+| `H-help-hosting-04` | guides | 24 | 28,982 | `help/hosting/operations/system-card-for-hosts.md` … `help/hosting/performance/varnish-and-reverse-proxies.md` |
+| `H-help-hosting-05` | guides | 24 | 22,444 | `help/hosting/performance/velocity-response-cache.md` … `help/hosting/security/demo-mode-for-hosts.md` |
+| `H-help-hosting-06` | guides | 24 | 32,158 | `help/hosting/security/first-sign-in-and-default-passwords.md` … `help/hosting/static-publishing-and-your-hosting.md` |
+| `H-help-individuals-01` | guides | 28 | 20,557 | `help/individuals/blogs/README.md` … `help/individuals/individuals-reading-path.md` |
+| `H-help-individuals-02` | guides | 28 | 21,329 | `help/individuals/individuals-start-here.md` … `help/individuals/your-personal-site-for-free.md` |
+| `H-help-leadership-01` | guides | 9 | 19,895 | `help/leadership/accessibility-security-and-compliance-checklists.md` … `help/leadership/planning-an-exponential-project.md` |
+| `H-help-leadership-02` | guides | 9 | 20,242 | `help/leadership/project-managers-start-here.md` … `help/leadership/working-with-the-community.md` |
+| `H-help-local-businesses-01` | guides | 28 | 18,013 | `help/local-businesses/a-fast-free-brochure-site-for-your-business.md` … `help/local-businesses/getting-started/working-with-a-local-partner-or-freelancer.md` |
 | `H-help-local-businesses-02` | guides | 28 | 19,105 | `help/local-businesses/local-businesses-faq.md` … `help/local-businesses/templates/website-brief-for-a-local-business.md` |
-| `H-help-non-profits-01` | guides | 27 | 18,785 | `help/non-profits/accessibility/README.md` … `help/non-profits/non-profits-faq.md` |
-| `H-help-non-profits-02` | guides | 28 | 19,503 | `help/non-profits/non-profits-glossary.md` … `help/non-profits/volunteers/volunteers-as-editors.md` |
-| `H-help-partners-01` | guides | 37 | 15,646 | `help/partners/application-checklist.md` … `help/partners/partner-faq.md` |
-| `H-help-partners-02` | guides | 38 | 17,420 | `help/partners/partner-glossary.md` … `help/partners/your-partner-page.md` |
+| `H-help-migrations-01` | guides | 22 | 20,677 | `help/migrations/README.md` … `help/migrations/recipes/coming-from-sql-update-files.md` |
+| `H-help-migrations-02` | guides | 23 | 21,845 | `help/migrations/recipes/create-or-change-a-content-class.md` … `help/migrations/when-a-migration-fails.md` |
+| `H-help-non-profits-01` | guides | 28 | 19,186 | `help/non-profits/a-free-website-for-your-nonprofit.md` … `help/non-profits/non-profits-faq.md` |
+| `H-help-non-profits-02` | guides | 28 | 19,746 | `help/non-profits/non-profits-glossary.md` … `help/non-profits/volunteers/volunteers-as-editors.md` |
+| `H-help-partners-01` | guides | 37 | 15,750 | `help/partners/application-checklist.md` … `help/partners/partner-faq.md` |
+| `H-help-partners-02` | guides | 38 | 17,508 | `help/partners/partner-glossary.md` … `help/partners/your-partner-page.md` |
 | `H-help-podcasters-01` | guides | 24 | 17,308 | `help/podcasters/a-release-calendar.md` … `help/podcasters/podcaster-checklists.md` |
 | `H-help-podcasters-02` | guides | 24 | 18,395 | `help/podcasters/podcaster-faq.md` … `help/podcasters/writing-show-notes.md` |
-| `H-help-press-01` | guides | 37 | 27,147 | `help/press/7x-for-reporters.md` … `help/press/fact-checking-checklist.md` |
-| `H-help-press-02` | guides | 38 | 24,830 | `help/press/fact-checking-guide.md` … `help/press/release-story-templates.md` |
-| `H-help-press-03` | guides | 38 | 23,299 | `help/press/reporter-faq.md` … `help/press/story-nexus-and-legacy.md` |
-| `H-help-press-04` | guides | 38 | 25,322 | `help/press/story-online-editor-tinymce-8.md` … `help/press/writing-about-the-ez-publish-years.md` |
-| `H-help-project` | guides | 12 | 15,556 | `help/project/README.md` … `help/project/roadmap.md` |
-| `H-help-resellers-01` | guides | 26 | 17,381 | `help/resellers/basics/choosing-a-partner-level.md` … `help/resellers/offers/demo-sites.md` |
-| `H-help-resellers-02` | guides | 27 | 18,529 | `help/resellers/offers/e-commerce-offers.md` … `help/resellers/sales/sales-process.md` |
-| `H-help-site-packages-01` | guides | 26 | 27,323 | `help/site-packages/README.md` … `help/site-packages/cjw-multisite/the-cjw-themes-jumper-extension.md` |
-| `H-help-site-packages-02` | guides | 26 | 29,246 | `help/site-packages/cjw-multisite/the-demo-content-package.md` … `help/site-packages/requirements/the-requirements-checklist.md` |
-| `H-help-site-packages-03` | guides | 26 | 26,764 | `help/site-packages/requirements/thumbnails-and-screenshots.md` … `help/site-packages/your-own/versioning-your-own-packages.md` |
-| `H-help-sponsors` | guides | 11 | 5,284 | `help/sponsors/7x-the-first-sponsor.md` … `help/sponsors/what-sponsorship-funds.md` |
-| `H-help-students-01` | guides | 27 | 21,038 | `help/students/asking-for-help-and-study-groups.md` … `help/students/project-04-a-page-with-layouts.md` |
-| `H-help-students-02` | guides | 28 | 23,218 | `help/students/project-05-a-multilingual-site.md` … `help/students/your-first-site-three-ways.md` |
-| `H-help-supporters` | guides | 12 | 5,687 | `help/supporters/advocacy.md` … `help/supporters/ways-to-support-exponential.md` |
-| `H-help-theme-designers-01` | guides | 21 | 17,949 | `help/theme-designers/building-a-portfolio-and-getting-work.md` … `help/theme-designers/designing-the-front-page.md` |
-| `H-help-theme-designers-02` | guides | 22 | 19,306 | `help/theme-designers/designing-view-modes.md` … `help/theme-designers/your-first-day-as-a-theme-designer.md` |
+| `H-help-press-01` | guides | 38 | 27,987 | `help/press/7x-for-reporters.md` … `help/press/fact-checking-guide.md` |
+| `H-help-press-02` | guides | 38 | 25,330 | `help/press/fact-sheet-for-journalists.md` … `help/press/reporter-faq.md` |
+| `H-help-press-03` | guides | 38 | 23,973 | `help/press/requesting-an-interview.md` … `help/press/story-online-editor-tinymce-8.md` |
+| `H-help-press-04` | guides | 38 | 25,257 | `help/press/story-open-source-and-licenses.md` … `help/press/writing-about-the-ez-publish-years.md` |
+| `H-help-project` | guides | 12 | 16,030 | `help/project/README.md` … `help/project/roadmap.md` |
+| `H-help-resellers-01` | guides | 26 | 17,388 | `help/resellers/basics/choosing-a-partner-level.md` … `help/resellers/offers/demo-sites.md` |
+| `H-help-resellers-02` | guides | 27 | 18,547 | `help/resellers/offers/e-commerce-offers.md` … `help/resellers/sales/sales-process.md` |
+| `H-help-site-packages-01` | guides | 26 | 27,331 | `help/site-packages/README.md` … `help/site-packages/cjw-multisite/the-cjw-themes-jumper-extension.md` |
+| `H-help-site-packages-02` | guides | 26 | 29,251 | `help/site-packages/cjw-multisite/the-demo-content-package.md` … `help/site-packages/requirements/the-requirements-checklist.md` |
+| `H-help-site-packages-03` | guides | 26 | 26,781 | `help/site-packages/requirements/thumbnails-and-screenshots.md` … `help/site-packages/your-own/versioning-your-own-packages.md` |
+| `H-help-sponsors` | guides | 11 | 5,286 | `help/sponsors/7x-the-first-sponsor.md` … `help/sponsors/what-sponsorship-funds.md` |
+| `H-help-static-publishing` | guides | 25 | 13,266 | `help/static-publishing/README.md` … `help/static-publishing/who-may-publish-roles-and-policies.md` |
+| `H-help-students-01` | guides | 28 | 21,897 | `help/students/asking-for-help-and-study-groups.md` … `help/students/project-05-a-multilingual-site.md` |
+| `H-help-students-02` | guides | 28 | 22,743 | `help/students/project-06-search-that-finds-the-right-things.md` … `help/students/your-first-site-three-ways.md` |
+| `H-help-supporters` | guides | 12 | 5,721 | `help/supporters/advocacy.md` … `help/supporters/ways-to-support-exponential.md` |
+| `H-help-theme-designers-01` | guides | 22 | 18,799 | `help/theme-designers/building-a-portfolio-and-getting-work.md` … `help/theme-designers/designing-view-modes.md` |
+| `H-help-theme-designers-02` | guides | 22 | 18,806 | `help/theme-designers/designing-with-real-content.md` … `help/theme-designers/your-first-day-as-a-theme-designer.md` |
 | `H-help-trainers-01` | guides | 31 | 31,213 | `help/trainers/assessments/README.md` … `help/trainers/assessments/module-05-newsletter-and-migration/README.md` |
-| `H-help-trainers-02` | guides | 32 | 32,170 | `help/trainers/assessments/module-05-newsletter-and-migration/migration-practical-task.md` … `help/trainers/developers/module-03-designs-overrides-and-debugging/the-design-chain.md` |
-| `H-help-trainers-03` | guides | 31 | 28,811 | `help/trainers/developers/module-04-content-classes-and-datatypes/README.md` … `help/trainers/developers/module-09-the-console-and-persistent-objects/the-console.md` |
-| `H-help-trainers-04` | guides | 32 | 30,511 | `help/trainers/developers/module-10-workflows-events-and-cronjobs/README.md` … `help/trainers/editors-101/module-04-the-online-editor/embeds-tables-and-choosing-the-editor.md` |
-| `H-help-trainers-05` | guides | 31 | 27,725 | `help/trainers/editors-101/module-04-the-online-editor/links-and-anchors.md` … `help/trainers/editors-201/module-03-organizing-content/README.md` |
-| `H-help-trainers-06` | guides | 32 | 26,487 | `help/trainers/editors-201/module-03-organizing-content/large-operations-and-the-trash.md` … `help/trainers/exponential-intelligence/module-03-the-edit-form/README.md` |
-| `H-help-trainers-07` | guides | 31 | 28,236 | `help/trainers/exponential-intelligence/module-03-the-edit-form/alt-text-for-images.md` … `help/trainers/hosting-operations/module-03-databases/README.md` |
-| `H-help-trainers-08` | guides | 32 | 30,684 | `help/trainers/hosting-operations/module-03-databases/choosing-a-database.md` … `help/trainers/layouts/module-02-layouts-and-layout-types/README.md` |
-| `H-help-trainers-09` | guides | 31 | 26,302 | `help/trainers/layouts/module-02-layouts-and-layout-types/creating-a-layout.md` … `help/trainers/migration/module-01-planning-a-migration/phases-and-the-checklist.md` |
-| `H-help-trainers-10` | guides | 32 | 32,609 | `help/trainers/migration/module-01-planning-a-migration/rehearsal-cut-over-and-rollback.md` … `help/trainers/multisite-and-packages/module-01-siteaccesses-for-several-sites/a-siteaccess-per-language.md` |
-| `H-help-trainers-11` | guides | 31 | 35,515 | `help/trainers/multisite-and-packages/module-01-siteaccesses-for-several-sites/adding-a-second-site.md` … `help/trainers/newsletter/README.md` |
-| `H-help-trainers-12` | guides | 32 | 31,600 | `help/trainers/newsletter/module-01-getting-started/README.md` … `help/trainers/search/module-01-how-search-works/where-people-search.md` |
-| `H-help-trainers-13` | guides | 31 | 30,687 | `help/trainers/search/module-02-indexing/README.md` … `help/trainers/site-administrators/module-02-users-and-groups/passwords-resets-and-lockouts.md` |
-| `H-help-trainers-14` | guides | 32 | 32,745 | `help/trainers/site-administrators/module-02-users-and-groups/unactivated-users-and-account-checks.md` … `help/trainers/site-administrators/module-08-security/README.md` |
-| `H-help-trainers-15` | guides | 31 | 34,596 | `help/trainers/site-administrators/module-08-security/content-security-policy.md` … `help/trainers/theme-designers/module-03-stylesheets-and-scripts/listing-files-in-design-ini.md` |
-| `H-help-trainers-16` | guides | 32 | 31,783 | `help/trainers/theme-designers/module-03-stylesheets-and-scripts/ready-for-a-content-security-policy.md` … `help/trainers/train-the-trainer/module-01-preparing-to-teach/your-material-and-the-gfdl.md` |
-| `H-help-trainers-17` | guides | 31 | 21,442 | `help/trainers/train-the-trainer/module-02-building-the-lab/README.md` … `help/trainers/train-the-trainer/module-06-assessment-and-follow-up/certificates-of-attendance.md` |
-| `H-help-trainers-18` | guides | 32 | 19,506 | `help/trainers/train-the-trainer/module-06-assessment-and-follow-up/checking-understanding-during-class.md` … `help/trainers/workshops/module-05-capstone-projects/multilingual-event-site.md` |
-| `H-root-01` | guides | 4 | 11,136 | `INSTALL.md` … `UPDATE.md` |
-| `H-root-02` | guides | 4 | 32,704 | `branch-overview.md` … `languages.md` |
-| `H-help-extension-development-01` | reference | 43 | 36,332 | `help/extension-development/README.md` … `help/extension-development/part-2-builder/the-exp-ini-command.md` |
-| `H-help-extension-development-02` | reference | 43 | 25,019 | `help/extension-development/part-2-builder/view-modes-for-builders.md` … `help/extension-development/part-3-extension-developer/tutorials/by-hand-custom-tag.md` |
-| `H-help-extension-development-03` | reference | 43 | 28,639 | `help/extension-development/part-3-extension-developer/tutorials/by-hand-datatype.md` … `help/extension-development/part-4-upgrading/old-jquery-to-jquery-4.md` |
-| `H-help-extension-development-04` | reference | 43 | 29,974 | `help/extension-development/part-4-upgrading/php-8-1-to-8-5-deprecations.md` … `help/extension-development/part-7-releasing/github-releases-and-release-notes.md` |
-| `H-help-extension-development-05` | reference | 44 | 24,398 | `help/extension-development/part-7-releasing/packages-ezpkg.md` … `help/extension-development/reading-paths.md` |
-| `H-help-template-language` | reference | 29 | 28,445 | `help/template-language/README.md` … `help/template-language/what-the-template-language-is.md` |
-| `H-help-template-operators-01` | reference | 24 | 24,188 | `help/template-operators/README.md` … `help/template-operators/menu-and-tree-operators.md` |
-| `H-help-template-operators-02` | reference | 24 | 30,491 | `help/template-operators/newsletter-operators.md` … `help/template-operators/url-operators.md` |
+| `H-help-trainers-02` | guides | 32 | 32,172 | `help/trainers/assessments/module-05-newsletter-and-migration/migration-practical-task.md` … `help/trainers/developers/module-03-designs-overrides-and-debugging/the-design-chain.md` |
+| `H-help-trainers-03` | guides | 31 | 29,141 | `help/trainers/developers/module-04-content-classes-and-datatypes/README.md` … `help/trainers/developers/module-09-the-console-and-persistent-objects/sql-safely-with-ezdb.md` |
+| `H-help-trainers-04` | guides | 32 | 30,122 | `help/trainers/developers/module-09-the-console-and-persistent-objects/the-console.md` … `help/trainers/editors-101/module-04-the-online-editor/README.md` |
+| `H-help-trainers-05` | guides | 32 | 29,014 | `help/trainers/editors-101/module-04-the-online-editor/embeds-tables-and-choosing-the-editor.md` … `help/trainers/editors-201/module-03-organizing-content/README.md` |
+| `H-help-trainers-06` | guides | 31 | 26,155 | `help/trainers/editors-201/module-03-organizing-content/large-operations-and-the-trash.md` … `help/trainers/exponential-intelligence/module-02-the-intelligence-tab/keeping-sending-and-discarding-drafts.md` |
+| `H-help-trainers-07` | guides | 32 | 29,476 | `help/trainers/exponential-intelligence/module-03-the-edit-form/README.md` … `help/trainers/hosting-operations/module-03-databases/README.md` |
+| `H-help-trainers-08` | guides | 31 | 30,398 | `help/trainers/hosting-operations/module-03-databases/choosing-a-database.md` … `help/trainers/layouts/module-01-introducing-layouts/the-five-ideas.md` |
+| `H-help-trainers-09` | guides | 32 | 26,649 | `help/trainers/layouts/module-02-layouts-and-layout-types/README.md` … `help/trainers/migration/module-01-planning-a-migration/phases-and-the-checklist.md` |
+| `H-help-trainers-10` | guides | 32 | 32,621 | `help/trainers/migration/module-01-planning-a-migration/rehearsal-cut-over-and-rollback.md` … `help/trainers/multisite-and-packages/module-01-siteaccesses-for-several-sites/a-siteaccess-per-language.md` |
+| `H-help-trainers-11` | guides | 31 | 35,761 | `help/trainers/multisite-and-packages/module-01-siteaccesses-for-several-sites/adding-a-second-site.md` … `help/trainers/newsletter/README.md` |
+| `H-help-trainers-12` | guides | 32 | 31,603 | `help/trainers/newsletter/module-01-getting-started/README.md` … `help/trainers/search/module-01-how-search-works/where-people-search.md` |
+| `H-help-trainers-13` | guides | 31 | 30,701 | `help/trainers/search/module-02-indexing/README.md` … `help/trainers/site-administrators/module-02-users-and-groups/passwords-resets-and-lockouts.md` |
+| `H-help-trainers-14` | guides | 32 | 32,752 | `help/trainers/site-administrators/module-02-users-and-groups/unactivated-users-and-account-checks.md` … `help/trainers/site-administrators/module-08-security/README.md` |
+| `H-help-trainers-15` | guides | 32 | 35,241 | `help/trainers/site-administrators/module-08-security/content-security-policy.md` … `help/trainers/theme-designers/module-03-stylesheets-and-scripts/listing-files-in-design-ini.md` |
+| `H-help-trainers-16` | guides | 31 | 30,777 | `help/trainers/theme-designers/module-03-stylesheets-and-scripts/ready-for-a-content-security-policy.md` … `help/trainers/train-the-trainer/module-01-preparing-to-teach/the-help-center-as-your-textbook.md` |
+| `H-help-trainers-17` | guides | 32 | 22,473 | `help/trainers/train-the-trainer/module-01-preparing-to-teach/your-material-and-the-gfdl.md` … `help/trainers/train-the-trainer/module-06-assessment-and-follow-up/certificates-of-attendance.md` |
+| `H-help-trainers-18` | guides | 32 | 19,670 | `help/trainers/train-the-trainer/module-06-assessment-and-follow-up/checking-understanding-during-class.md` … `help/trainers/workshops/module-05-capstone-projects/multilingual-event-site.md` |
+| `H-help-user-management-from-the-console` | guides | 20 | 7,853 | `help/user-management-from-the-console/README.md` … `help/user-management-from-the-console/when-a-command-fails.md` |
+| `H-reference` | guides | 1 | 1,858 | `reference/template-check-rules.md` |
+| `H-root-01` | guides | 4 | 12,136 | `INSTALL.md` … `UPDATE.md` |
+| `H-root-02` | guides | 4 | 35,466 | `branch-overview.md` … `languages.md` |
+| `H-help-extension-development-01` | reference | 43 | 36,427 | `help/extension-development/README.md` … `help/extension-development/part-2-builder/the-exp-ini-command.md` |
+| `H-help-extension-development-02` | reference | 43 | 25,222 | `help/extension-development/part-2-builder/view-modes-for-builders.md` … `help/extension-development/part-3-extension-developer/tutorials/by-hand-custom-tag.md` |
+| `H-help-extension-development-03` | reference | 43 | 28,645 | `help/extension-development/part-3-extension-developer/tutorials/by-hand-datatype.md` … `help/extension-development/part-4-upgrading/old-jquery-to-jquery-4.md` |
+| `H-help-extension-development-04` | reference | 43 | 30,248 | `help/extension-development/part-4-upgrading/php-8-1-to-8-5-deprecations.md` … `help/extension-development/part-7-releasing/github-releases-and-release-notes.md` |
+| `H-help-extension-development-05` | reference | 44 | 24,416 | `help/extension-development/part-7-releasing/packages-ezpkg.md` … `help/extension-development/reading-paths.md` |
+| `H-help-template-language-01` | reference | 16 | 18,348 | `help/template-language/README.md` … `help/template-language/moving-from-tpl-to-twig.md` |
+| `H-help-template-language-02` | reference | 17 | 17,445 | `help/template-language/namespaces.md` … `help/template-language/what-the-template-language-is.md` |
+| `H-help-template-operators-01` | reference | 24 | 24,150 | `help/template-operators/README.md` … `help/template-operators/menu-and-tree-operators.md` |
+| `H-help-template-operators-02` | reference | 24 | 30,407 | `help/template-operators/newsletter-operators.md` … `help/template-operators/url-operators.md` |
 | `H-help-build-two-ways-01` | reference | 83 | 27,828 | `help/build-two-ways/README.md` … `help/build-two-ways/examples/maintain/add-a-recipe-to-the-index.md` |
 | `H-help-build-two-ways-02` | reference | 83 | 20,834 | `help/build-two-ways/examples/maintain/adjust-spacing.md` … `help/build-two-ways/examples/plan/inventory-from-the-console.md` |
 | `H-help-build-two-ways-03` | reference | 84 | 30,664 | `help/build-two-ways/examples/plan/inventory-page-types.md` … `help/build-two-ways/your-own-design-extension.md` |
-| `H-help-php-developers-01` | reference | 27 | 21,596 | `help/php-developers/a-php-development-checkout.md` … `help/php-developers/php-developer-checklists.md` |
-| `H-help-php-developers-02` | reference | 27 | 20,955 | `help/php-developers/php-developer-faq.md` … `help/php-developers/writing-code-that-runs-on-php-8-0.md` |
-| `H-help-cms-developers-01` | reference | 25 | 23,426 | `help/cms-developers/accessibility.md` … `help/cms-developers/headless-delivery.md` |
-| `H-help-cms-developers-02` | reference | 26 | 22,875 | `help/cms-developers/images-and-image-aliases.md` … `help/cms-developers/workflows-and-triggers.md` |
-| `H-help-dxp-developers` | reference | 51 | 26,801 | `help/dxp-developers/application-cache-and-redis.md` … `help/dxp-developers/what-the-dxp-ships-and-what-it-does-not.md` |
-| `H-help-software-engineers-01` | reference | 25 | 18,400 | `help/software-engineers/api-design-rest-ezjscore-headless.md` … `help/software-engineers/glossary-for-software-engineers.md` |
-| `H-help-software-engineers-02` | reference | 26 | 19,814 | `help/software-engineers/http-security-csp-and-proxies.md` … `help/software-engineers/writing-portable-sql.md` |
-| `H-help-web-framework-developers-01` | reference | 27 | 18,428 | `help/web-framework-developers/authentication-and-sessions.md` … `help/web-framework-developers/migrations-and-dba-schema-files.md` |
-| `H-help-web-framework-developers-02` | reference | 27 | 18,999 | `help/web-framework-developers/mixing-exponential-and-a-framework.md` … `help/web-framework-developers/your-first-module-step-by-step.md` |
+| `H-help-php-developers-01` | reference | 28 | 23,394 | `help/php-developers/a-php-development-checkout.md` … `help/php-developers/php-developer-faq.md` |
+| `H-help-php-developers-02` | reference | 28 | 21,569 | `help/php-developers/php-developer-reading-path.md` … `help/php-developers/writing-migrations-in-php.md` |
+| `H-help-cms-developers-01` | reference | 25 | 23,828 | `help/cms-developers/accessibility.md` … `help/cms-developers/headless-delivery.md` |
+| `H-help-cms-developers-02` | reference | 26 | 22,999 | `help/cms-developers/images-and-image-aliases.md` … `help/cms-developers/workflows-and-triggers.md` |
+| `H-help-dxp-developers` | reference | 52 | 27,610 | `help/dxp-developers/application-cache-and-redis.md` … `help/dxp-developers/what-the-dxp-ships-and-what-it-does-not.md` |
+| `H-help-software-engineers-01` | reference | 26 | 19,175 | `help/software-engineers/api-design-rest-ezjscore-headless.md` … `help/software-engineers/http-security-csp-and-proxies.md` |
+| `H-help-software-engineers-02` | reference | 26 | 21,759 | `help/software-engineers/i18n-and-right-to-left.md` … `help/software-engineers/writing-portable-sql.md` |
+| `H-help-web-framework-developers-01` | reference | 27 | 18,466 | `help/web-framework-developers/authentication-and-sessions.md` … `help/web-framework-developers/migrations-and-dba-schema-files.md` |
+| `H-help-web-framework-developers-02` | reference | 28 | 19,394 | `help/web-framework-developers/mixing-exponential-and-a-framework.md` … `help/web-framework-developers/your-first-module-step-by-step.md` |
 | `H-help-mobile-app-developers-01` | reference | 27 | 15,938 | `help/mobile-app-developers/auth/README.md` … `help/mobile-app-developers/media-and-images/images-in-rest-answers.md` |
 | `H-help-mobile-app-developers-02` | reference | 28 | 17,528 | `help/mobile-app-developers/mobile-app-developers-faq.md` … `help/mobile-app-developers/which-api-for-your-app.md` |
-| `H-help-database-administrators-01` | reference | 24 | 19,363 | `help/database-administrators/applying-the-6-0-15-database-update.md` … `help/database-administrators/mysql-read-replicas.md` |
-| `H-help-database-administrators-02` | reference | 25 | 21,311 | `help/database-administrators/oracle-connections-and-tuning.md` … `help/database-administrators/upgrades-and-sql-update-files.md` |
+| `H-help-database-administrators-01` | reference | 24 | 19,430 | `help/database-administrators/applying-the-6-0-15-database-update.md` … `help/database-administrators/mysql-read-replicas.md` |
+| `H-help-database-administrators-02` | reference | 25 | 21,935 | `help/database-administrators/oracle-connections-and-tuning.md` … `help/database-administrators/upgrades-and-sql-update-files.md` |
 | `H-help-ai-agents-01` | reference | 24 | 16,131 | `help/ai-agents/agentic-workflows/README.md` … `help/ai-agents/expai/chains-and-queued-work.md` |
 | `H-help-ai-agents-02` | reference | 24 | 18,470 | `help/ai-agents/expai/configuring-a-provider.md` … `help/ai-agents/which-path-fits-your-task.md` |
-| `H-help-bundlers-01` | reference | 27 | 18,589 | `help/bundlers/adding-and-removing-extensions.md` … `help/bundlers/hosting-panel-installers.md` |
-| `H-help-bundlers-02` | reference | 28 | 19,389 | `help/bundlers/integrity-checks.md` … `help/bundlers/your-own-package-server.md` |
-| `H-help-integrators-01` | reference | 27 | 21,189 | `help/integrators/ai-job-queue-and-mcp.md` … `help/integrators/integrators-start-here.md` |
-| `H-help-integrators-02` | reference | 28 | 22,239 | `help/integrators/interface-specification-template.md` … `help/integrators/writing-an-import-script.md` |
+| `H-help-bundlers-01` | reference | 27 | 19,462 | `help/bundlers/adding-and-removing-extensions.md` … `help/bundlers/hosting-panel-installers.md` |
+| `H-help-bundlers-02` | reference | 28 | 20,538 | `help/bundlers/integrity-checks.md` … `help/bundlers/your-own-package-server.md` |
+| `H-help-integrators-01` | reference | 28 | 21,616 | `help/integrators/ai-job-queue-and-mcp.md` … `help/integrators/interface-specification-template.md` |
+| `H-help-integrators-02` | reference | 29 | 24,168 | `help/integrators/login-handlers-ldap-and-textfile.md` … `help/integrators/writing-an-import-script.md` |
 | `H-help-sqli-import` | reference | 6 | 6,974 | `help/sqli-import/README.md` … `help/sqli-import/upgrading-from-1x.md` |
-| `H-specifications-01` | reference | 18 | 24,726 | `specifications/6.0/README.md` … `specifications/6.0/legacy-bridge-bundle.md` |
-| `H-specifications-02` | reference | 19 | 30,138 | `specifications/6.0/mail-preferences-cli.md` … `specifications/6.0/xrowextract.md` |
-| `H-standards-01` | reference | 18 | 34,432 | `standards/README.md` … `standards/patterns/area-extension-bcgooglesitemaps.md` |
-| `H-standards-02` | reference | 18 | 21,766 | `standards/patterns/area-extension-bcwebsitestatistics.md` … `standards/patterns/area-extension-explayouts-content-browser.md` |
-| `H-standards-03` | reference | 19 | 15,550 | `standards/patterns/area-extension-explayouts-core.md` … `standards/patterns/area-extension-ezautosave.md` |
+| `H-specifications-01` | reference | 14 | 17,988 | `specifications/6.0/README.md` … `specifications/6.0/help-standards.md` |
+| `H-specifications-02` | reference | 14 | 24,377 | `specifications/6.0/help-style-guide.md` … `specifications/6.0/platform-package-map.md` |
+| `H-specifications-03` | reference | 14 | 22,310 | `specifications/6.0/platform-sqlite-installer.md` … `specifications/6.0/xrowextract.md` |
+| `H-standards-01` | reference | 18 | 34,552 | `standards/README.md` … `standards/patterns/area-extension-bcgooglesitemaps.md` |
+| `H-standards-02` | reference | 18 | 21,769 | `standards/patterns/area-extension-bcwebsitestatistics.md` … `standards/patterns/area-extension-explayouts-content-browser.md` |
+| `H-standards-03` | reference | 19 | 15,548 | `standards/patterns/area-extension-explayouts-core.md` … `standards/patterns/area-extension-ezautosave.md` |
 | `H-standards-04` | reference | 18 | 10,141 | `standards/patterns/area-extension-ezdemo.md` … `standards/patterns/area-extension-ezprestapiprovider.md` |
-| `H-standards-05` | reference | 18 | 10,157 | `standards/patterns/area-extension-ezssp.md` … `standards/patterns/area-extension-sevenx-themes-simple.md` |
-| `H-standards-06` | reference | 19 | 22,100 | `standards/patterns/area-extension-sevenx-themes-super.md` … `standards/patterns/area-kernel-classes-datatable.md` |
-| `H-standards-07` | reference | 18 | 9,815 | `standards/patterns/area-kernel-classes-datatypes.md` … `standards/patterns/area-kernel-classes-role.md` |
-| `H-standards-08` | reference | 18 | 23,036 | `standards/patterns/area-kernel-classes-secrets.md` … `standards/patterns/area-kernel-private-classes-exceptions.md` |
-| `H-standards-09` | reference | 19 | 20,556 | `standards/patterns/area-kernel-private-classes-httpcache.md` … `standards/patterns/area-lib-ezsoap.md` |
-| `H-standards-10` | reference | 18 | 69,241 | `standards/patterns/area-lib-eztemplate.md` … `standards/patterns/iterator.md` |
-| `H-standards-11` | reference | 19 | 79,264 | `standards/patterns/module-view.md` … `standards/web-platform.md` |
-| `H-bc-01` | reference | 10 | 33,882 | `bc/5.90/README.md` … `bc/6.0/SUBITEMS_MENU_MORE_ACTIONS_MENU_EXPANSION_HIDE_UNHIDE.md` |
-| `H-bc-02` | reference | 11 | 68,348 | `bc/6.0/admin4-styling.md` … `bc/6.0/bookmarks-of-system-pages.md` |
-| `H-bc-03` | reference | 11 | 29,419 | `bc/6.0/cache-console.md` … `bc/6.0/demo-mode.md` |
-| `H-bc-04` | reference | 10 | 12,356 | `bc/6.0/draft-edit-access.md` … `bc/6.0/file-modes.md` |
-| `H-bc-05` | reference | 11 | 30,832 | `bc/6.0/frankenphp.md` … `bc/6.0/kickstartercli.md` |
-| `H-bc-06` | reference | 11 | 9,474 | `bc/6.0/locations-tab-paging-and-sorting.md` … `bc/6.0/love/ROADMAP.md` |
-| `H-bc-07` | reference | 11 | 20,922 | `bc/6.0/love/TESTING.md` … `bc/6.0/oauth-pkce.md` |
-| `H-bc-08` | reference | 10 | 12,624 | `bc/6.0/oauth-token-hardening.md` … `bc/6.0/php-8.0-support.md` |
-| `H-bc-09` | reference | 11 | 35,090 | `bc/6.0/php8.md` … `bc/6.0/repair.md` |
-| `H-bc-10` | reference | 11 | 27,579 | `bc/6.0/response-cache-and-navigation.md` … `bc/6.0/trash.md` |
-| `H-bc-11` | reference | 11 | 26,805 | `bc/6.0/trusted-proxies.md` … `bc/6.0/yui-removal.md` |
+| `H-standards-05` | reference | 19 | 10,278 | `standards/patterns/area-extension-ezssp.md` … `standards/patterns/area-extension-sevenx-themes-super.md` |
+| `H-standards-06` | reference | 18 | 21,979 | `standards/patterns/area-extension-sqliimport.md` … `standards/patterns/area-kernel-classes-datatable.md` |
+| `H-standards-07` | reference | 19 | 10,021 | `standards/patterns/area-kernel-classes-datatypes.md` … `standards/patterns/area-kernel-classes-secrets.md` |
+| `H-standards-08` | reference | 18 | 23,028 | `standards/patterns/area-kernel-classes-shopaccounthandlers.md` … `standards/patterns/area-kernel-private-classes-httpcache.md` |
+| `H-standards-09` | reference | 19 | 21,656 | `standards/patterns/area-kernel-private-classes-requestrules.md` … `standards/patterns/area-lib-eztemplate.md` |
+| `H-standards-10` | reference | 18 | 90,563 | `standards/patterns/area-lib-ezutils.md` … `standards/patterns/module-view.md` |
+| `H-standards-11` | reference | 19 | 57,198 | `standards/patterns/observer.md` … `standards/web-platform.md` |
+| `H-bc-01` | reference | 10 | 34,139 | `bc/5.90/README.md` … `bc/6.0/SUBITEMS_MENU_MORE_ACTIONS_MENU_EXPANSION_HIDE_UNHIDE.md` |
+| `H-bc-02` | reference | 11 | 72,739 | `bc/6.0/admin4-styling.md` … `bc/6.0/bookmarks-of-system-pages.md` |
+| `H-bc-03` | reference | 10 | 29,067 | `bc/6.0/cache-console.md` … `bc/6.0/debug-bar.md` |
+| `H-bc-04` | reference | 11 | 16,158 | `bc/6.0/demo-mode.md` … `bc/6.0/ezpsessionhandlerdb-php8-bugfix-and-tests.md` |
+| `H-bc-05` | reference | 10 | 27,094 | `bc/6.0/file-modes.md` … `bc/6.0/ini-save-file-permissions.md` |
+| `H-bc-06` | reference | 11 | 14,484 | `bc/6.0/installer-crontab.md` … `bc/6.0/love/L01-callers.md` |
+| `H-bc-07` | reference | 11 | 18,567 | `bc/6.0/love/MIGRATION.md` … `bc/6.0/middle-out-compression.md` |
+| `H-bc-08` | reference | 10 | 14,107 | `bc/6.0/multi-node-edit.md` … `bc/6.0/passkeys-and-verify-its-you.md` |
+| `H-bc-09` | reference | 11 | 20,963 | `bc/6.0/password-change-at-next-sign-in.md` … `bc/6.0/rad-extension-points.md` |
+| `H-bc-10` | reference | 10 | 26,591 | `bc/6.0/rad-extension-surface.md` … `bc/6.0/site-packages-no-extension-packages.md` |
+| `H-bc-11` | reference | 11 | 30,123 | `bc/6.0/soap-entry-script-index-soap.md` … `bc/6.0/ui-switch-design.md` |
+| `H-bc-12` | reference | 11 | 28,256 | `bc/6.0/ui-switch.md` … `bc/6.0/yui-removal.md` |
 | `H-history-01` | reference | 23 | 9,704 | `history/2023/2023-12.md` … `history/2025/2025-09.md` |
 | `H-history-02` | reference | 24 | 42,484 | `history/2025/2025-10.md` … `history/ecosystem/adminneo.md` |
 | `H-history-03` | reference | 24 | 20,834 | `history/ecosystem/cjw-exponential-platform-nexus.md` … `history/ecosystem/ezplatform-query-fieldtype.md` |
@@ -409,28 +429,30 @@ Percent of the strings (administration, extensions) and of the words (help), rou
 | `H-history-12` | reference | 24 | 7,378 | `history/ledger/ezpaypal.md` … `history/ledger/eztags.md` |
 | `H-history-13` | reference | 24 | 33,737 | `history/ledger/ezupdate.md` … `history/ledger/recaptcha.md` |
 | `H-history-14` | reference | 24 | 40,503 | `history/ledger/sevenx-recipes.md` … `history/velocity/installers-and-packages.md` |
-| `H-examples` | reference | 26 | 19,476 | `examples/README.md` … `examples/web-servers/velocity.md` |
-| `X01` | tables | 1,051 entries | 23,586 | `descriptions/01-command-accesscheck.json` … `descriptions/05-ini-settings-content-ini.json` |
-| `X02` | tables | 594 entries | 24,994 | `descriptions/06-ini-settings-debugbar-ini.json` … `descriptions/08-ini-settings-package-ini.json` |
-| `X03` | tables | 730 entries | 29,292 | `descriptions/09-ini-settings-site-ini.json` … `descriptions/workflow-events.json` |
-| `X04` | tables | 319 entries | 2,586 | `strings.json` |
+| `H-examples` | reference | 27 | 24,802 | `examples/README.md` … `examples/web-servers/velocity.md` |
+| `X01` | tables | 1,139 entries | 25,959 | `descriptions/01-command-accesscheck.json` … `descriptions/05-ini-settings-content-ini.json` |
+| `X02` | tables | 598 entries | 25,885 | `descriptions/06-ini-settings-debugbar-ini.json` … `descriptions/08-ini-settings-package-ini.json` |
+| `X03` | tables | 690 entries | 29,504 | `descriptions/09-ini-settings-site-ini.json` … `descriptions/12-shell-checkcalltimeref.json` |
+| `X04` | tables | 1,413 entries | 28,454 | `descriptions/13-command-exptemplateconvert.json` … `descriptions/workflow-events.json` |
+| `X05` | tables | 346 entries | 2,923 | `strings.json` |
 
 </details>
 
-<details><summary>The 10 parts of the administration catalogue</summary>
+<details><summary>The 11 parts of the administration catalogue</summary>
 
 | Part | Strings | Words | Contexts (first … last) |
 |---|---:|---:|---|
-| `A01` | 1,977 | 12,767 | `contentstructuremenu/show_content_structure` … `design/admin/infocollector/confirmremoval` |
-| `A02` | 1,998 | 11,479 | `design/admin/infocollector/overview` … `design/admin/preview/feedbackform` |
-| `A03` | 1,766 | 11,981 | `design/admin/preview/folder` … `design/admin/setup/extensions` |
-| `A04` | 1,971 | 20,842 | `design/admin/setup/info` … `design/admin/setup/rad/override` |
-| `A05` | 1,991 | 14,841 | `design/admin/setup/rad/settings` … `design/admin/visual/templateview` |
-| `A06` | 1,984 | 8,966 | `design/admin/visual/toolbar` … `design/standard/section` |
-| `A07` | 1,921 | 13,620 | `design/standard/setup` … `kernel/collaboration` |
-| `A08` | 1,830 | 12,973 | `kernel/content` … `kernel/contentfinder` |
-| `A09` | 2,000 | 11,265 | `design/admin/audit` … `kernel/mailpreferences/mail` |
-| `A10` | 1,401 | 9,132 | `kernel/mailpreferences/status` … `design/standard/mail` |
+| `A01` | 1,966 | 12,338 | `contentstructuremenu/show_content_structure` … `design/admin/error/shop` |
+| `A02` | 1,922 | 11,372 | `design/admin/ezinfo/about` … `design/admin/pdf/edit` |
+| `A03` | 1,939 | 12,857 | `design/admin/pdf/list` … `design/admin/setup/extensions` |
+| `A04` | 1,972 | 20,876 | `design/admin/setup/info` … `design/admin/setup/rad/override` |
+| `A05` | 1,998 | 14,899 | `design/admin/setup/rad/settings` … `design/admin/visual/templateview` |
+| `A06` | 1,993 | 9,020 | `design/admin/visual/toolbar` … `design/standard/section` |
+| `A07` | 1,929 | 13,688 | `design/standard/setup` … `kernel/collaboration` |
+| `A08` | 1,839 | 13,074 | `kernel/content` … `kernel/contentfinder` |
+| `A09` | 1,948 | 10,348 | `design/admin/audit` … `design/admin/mailpreferences` |
+| `A10` | 1,928 | 13,144 | `design/standard/mailpreferences` … `kernel/user/security/mail` |
+| `A11` | 1,421 | 8,798 | `design/admin/graphql` … `design/admin/class/datatype` |
 
 </details>
 
@@ -440,112 +462,128 @@ The languages of the shipped locales that the administration shows in English, t
 
 | Language | Code | Speakers (millions) | Script | Direction | Difficulty | State |
 |---|---|---:|---|---|:-:|---|
-| Haitian Creole | `hat-HT` | 13 | Latn | LTR | 2 | new locale, wave #106 |
-| Saraiki | `skr-PK` | 26 | Arab | RTL | 5 | new locale, wave #117 |
-| Tswana | `tsn-ZA` | 14 | Latn | LTR | 3 | new locale, wave #128 |
-| Dyula | `dyu-CI` | 12 | Latn | LTR | 3 | new locale, wave #139 |
-| Chichewa | `nya-MW` | 15 | Latn | LTR | 4 | new locale, wave #150 |
-| Northern Sotho | `nso-ZA` | 14 | Latn | LTR | 4 | new locale, wave #161 |
-| Sesotho | `sot-ZA` | 14 | Latn | LTR | 4 | new locale, wave #172 |
-| Mooré | `mos-BF` | 10 | Latn | LTR | 3 | new locale, wave #183 |
-| South Azerbaijani | `azb-IR` | 15 | Arab | RTL | 5 | new locale, wave #194 |
-| Kanuri | `kau-NG` | 10 | Latn | LTR | 4 | new locale, wave #205 |
-| Makhuwa | `vmw-MZ` | 9 | Latn | LTR | 4 | new locale, wave #216 |
-| Kongo | `kon-CD` | 7 | Latn | LTR | 4 | new locale, wave #227 |
-| Luhya | `luy-KE` | 7 | Latn | LTR | 4 | new locale, wave #238 |
-| Tsonga | `tso-ZA` | 7 | Latn | LTR | 4 | new locale, wave #249 |
-| Umbundu | `umb-AO` | 7 | Latn | LTR | 4 | new locale, wave #260 |
-| Dholuo | `luo-KE` | 5 | Latn | LTR | 3 | new locale, wave #271 |
-| Sango | `sag-CF` | 5 | Latn | LTR | 3 | new locale, wave #282 |
-| Guarani | `grn-PY` | 7 | Latn | LTR | 4 | new locale, wave #293 |
-| Balochi | `bal-PK` | 8 | Arab | RTL | 5 | new locale, wave #304 |
-| Santali | `sat-IN` | 8 | Olck | LTR | 5 | wave #315 |
-| Kalenjin | `kln-KE` | 6 | Latn | LTR | 4 | new locale, wave #325 |
-| Luba-Kasai | `lua-CD` | 6 | Latn | LTR | 4 | new locale, wave #336 |
-| Sukuma | `suk-TZ` | 5 | Latn | LTR | 4 | new locale, wave #347 |
-| Tongan | `ton-TO` | < 1 | Latn | LTR | 3 | wave #358 |
-| Sanskrit | `san-IN` | < 1 | Deva | LTR | 5 | wave #368 |
+| Haitian Creole | `hat-HT` | 13 | Latn | LTR | 2 | new locale, wave #128 |
+| Saraiki | `skr-PK` | 26 | Arab | RTL | 5 | new locale, wave #140 |
+| Tswana | `tsn-ZA` | 14 | Latn | LTR | 3 | new locale, wave #152 |
+| Dyula | `dyu-CI` | 12 | Latn | LTR | 3 | new locale, wave #164 |
+| Chichewa | `nya-MW` | 15 | Latn | LTR | 4 | new locale, wave #176 |
+| Northern Sotho | `nso-ZA` | 14 | Latn | LTR | 4 | new locale, wave #188 |
+| Sesotho | `sot-ZA` | 14 | Latn | LTR | 4 | new locale, wave #200 |
+| Mooré | `mos-BF` | 10 | Latn | LTR | 3 | new locale, wave #212 |
+| South Azerbaijani | `azb-IR` | 15 | Arab | RTL | 5 | new locale, wave #224 |
+| Kanuri | `kau-NG` | 10 | Latn | LTR | 4 | new locale, wave #236 |
+| Makhuwa | `vmw-MZ` | 9 | Latn | LTR | 4 | new locale, wave #248 |
+| Kongo | `kon-CD` | 7 | Latn | LTR | 4 | new locale, wave #260 |
+| Luhya | `luy-KE` | 7 | Latn | LTR | 4 | new locale, wave #272 |
+| Tsonga | `tso-ZA` | 7 | Latn | LTR | 4 | new locale, wave #284 |
+| Umbundu | `umb-AO` | 7 | Latn | LTR | 4 | new locale, wave #296 |
+| Dholuo | `luo-KE` | 5 | Latn | LTR | 3 | new locale, wave #308 |
+| Sango | `sag-CF` | 5 | Latn | LTR | 3 | new locale, wave #320 |
+| Balochi | `bal-PK` | 8 | Arab | RTL | 5 | new locale, wave #332 |
+| Kalenjin | `kln-KE` | 6 | Latn | LTR | 4 | new locale, wave #344 |
+| Luba-Kasai | `lua-CD` | 6 | Latn | LTR | 4 | new locale, wave #356 |
+| Sukuma | `suk-TZ` | 5 | Latn | LTR | 4 | new locale, wave #368 |
+| ale-US | `ale-US` | – | Latn | LTR | 3 | wave #380 |
+| arn-CL | `arn-CL` | – | Latn | LTR | 3 | wave #391 |
+| aym-BO | `aym-BO` | – | Latn | LTR | 3 | wave #402 |
+| chr-US | `chr-US` | – | Latn | LTR | 3 | wave #413 |
+| cre-CA | `cre-CA` | – | Latn | LTR | 3 | wave #424 |
+| ems-US | `ems-US` | – | Latn | LTR | 3 | wave #435 |
+| esu-US | `esu-US` | – | Latn | LTR | 3 | wave #446 |
+| gwi-US | `gwi-US` | – | Latn | LTR | 3 | wave #457 |
+| hai-US | `hai-US` | – | Latn | LTR | 3 | wave #468 |
+| iku-CA | `iku-CA` | – | Latn | LTR | 3 | wave #479 |
+| ipk-US | `ipk-US` | – | Latn | LTR | 3 | wave #490 |
+| lkt-US | `lkt-US` | – | Latn | LTR | 3 | wave #501 |
+| moh-CA | `moh-CA` | – | Latn | LTR | 3 | wave #512 |
+| nah-MX | `nah-MX` | – | Latn | LTR | 3 | wave #523 |
+| nav-US | `nav-US` | – | Latn | LTR | 3 | wave #534 |
+| oji-CA | `oji-CA` | – | Latn | LTR | 3 | wave #545 |
+| quc-GT | `quc-GT` | – | Latn | LTR | 3 | wave #556 |
+| tli-US | `tli-US` | – | Latn | LTR | 3 | wave #567 |
+| tsi-US | `tsi-US` | – | Latn | LTR | 3 | wave #578 |
+| yua-MX | `yua-MX` | – | Latn | LTR | 3 | wave #589 |
 
 ### The queue: the first 60 waves
 
 | Phase | Waves |
 |---|---:|
-| 1. Catalogues of the priority group | 7 |
+| 1. Catalogues of the priority group | 1 |
 | 2. German: daily-use help | 0 |
-| 3. Daily-use help of the priority group | 98 |
-| 4. New translations | 272 |
-| 5. Extensions of the other languages | 116 |
-| 6. Daily-use help of the other languages | 1,988 |
-| 7. Rest of the help of the priority group | 1,315 |
-| 8. Rest of the help of the other languages | 26,412 |
+| 3. Daily-use help of the priority group | 126 |
+| 4. New translations | 472 |
+| 5. Extensions of the other languages | 1 |
+| 6. Daily-use help of the other languages | 2,628 |
+| 7. Rest of the help of the priority group | 1,393 |
+| 8. Rest of the help of the other languages | 29,054 |
 
 | # | Wave | Language | Work set | Size (left) | Difficulty | Prerequisites |
 |---:|---|---|---|---|:-:|---|
 | 1 | `ger-DE/E` | German | Shipped extensions | 137 of 567 strings | 2 | `GUIDE.md` |
-| 2 | `ara-SA/E` | Arabic | Shipped extensions | 114 of 567 strings | 4 | `GUIDE.md`, RTL |
-| 3 | `tur-TR/E` | Turkish | Shipped extensions | 114 of 567 strings | 2 | `GUIDE.md` |
-| 4 | `ukr-UA/E` | Ukrainian | Shipped extensions | 114 of 567 strings | 3 | `GUIDE.md` |
-| 5 | `fas-IR/E` | Persian | Shipped extensions | 114 of 567 strings | 4 | `GUIDE.md`, RTL |
-| 6 | `pus-AF/E` | Pashto | Shipped extensions | 114 of 567 strings | 5 | `GUIDE.md`, RTL |
-| 7 | `kur-TR/E` | Kurdish (Kurmanji) | Shipped extensions | 114 of 567 strings | 3 | `GUIDE.md` |
-| 8 | `ara-SA/S` | Arabic | Set up the help | small | 4 | `GUIDE.md`, RTL, PDF font Arab |
-| 9 | `tur-TR/S` | Turkish | Set up the help | small | 2 | `GUIDE.md` |
-| 10 | `ukr-UA/S` | Ukrainian | Set up the help | small | 3 | `GUIDE.md` |
-| 11 | `rus-RU/S` | Russian | Set up the help | small | 3 | `GUIDE.md` |
-| 12 | `fas-IR/S` | Persian | Set up the help | small | 4 | `GUIDE.md`, RTL, PDF font Arab |
-| 13 | `pus-AF/S` | Pashto | Set up the help | small | 5 | `GUIDE.md`, RTL, PDF font Arab |
-| 14 | `kur-TR/S` | Kurdish (Kurmanji) | Set up the help | small | 3 | `GUIDE.md` |
-| 15 | `ara-SA/H-help-01` | Arabic | Help `H-help-01` | 11 pages, 24,706 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 16 | `tur-TR/H-help-01` | Turkish | Help `H-help-01` | 11 pages, 24,706 words | 2 | `GUIDE.md`, waves `S` and administration |
-| 17 | `ukr-UA/H-help-01` | Ukrainian | Help `H-help-01` | 11 pages, 24,706 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 18 | `rus-RU/H-help-01` | Russian | Help `H-help-01` | 11 pages, 24,706 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 19 | `fas-IR/H-help-01` | Persian | Help `H-help-01` | 11 pages, 24,706 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 20 | `pus-AF/H-help-01` | Pashto | Help `H-help-01` | 11 pages, 24,706 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 21 | `kur-TR/H-help-01` | Kurdish (Kurmanji) | Help `H-help-01` | 11 pages, 24,706 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 22 | `ara-SA/H-help-02` | Arabic | Help `H-help-02` | 11 pages, 12,294 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 23 | `tur-TR/H-help-02` | Turkish | Help `H-help-02` | 11 pages, 12,294 words | 2 | `GUIDE.md`, waves `S` and administration |
-| 24 | `ukr-UA/H-help-02` | Ukrainian | Help `H-help-02` | 11 pages, 12,294 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 25 | `rus-RU/H-help-02` | Russian | Help `H-help-02` | 11 pages, 12,294 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 26 | `fas-IR/H-help-02` | Persian | Help `H-help-02` | 11 pages, 12,294 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 27 | `pus-AF/H-help-02` | Pashto | Help `H-help-02` | 11 pages, 12,294 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 28 | `kur-TR/H-help-02` | Kurdish (Kurmanji) | Help `H-help-02` | 11 pages, 12,294 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 29 | `ara-SA/H-help-03` | Arabic | Help `H-help-03` | 11 pages, 30,223 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 30 | `tur-TR/H-help-03` | Turkish | Help `H-help-03` | 11 pages, 30,223 words | 2 | `GUIDE.md`, waves `S` and administration |
-| 31 | `ukr-UA/H-help-03` | Ukrainian | Help `H-help-03` | 11 pages, 30,223 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 32 | `rus-RU/H-help-03` | Russian | Help `H-help-03` | 11 pages, 30,223 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 33 | `fas-IR/H-help-03` | Persian | Help `H-help-03` | 11 pages, 30,223 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 34 | `pus-AF/H-help-03` | Pashto | Help `H-help-03` | 11 pages, 30,223 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 35 | `kur-TR/H-help-03` | Kurdish (Kurmanji) | Help `H-help-03` | 11 pages, 30,223 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 36 | `ara-SA/H-help-manual-01` | Arabic | Help `H-help-manual-01` | 44 pages, 17,445 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 37 | `tur-TR/H-help-manual-01` | Turkish | Help `H-help-manual-01` | 44 pages, 17,445 words | 2 | `GUIDE.md`, waves `S` and administration |
-| 38 | `ukr-UA/H-help-manual-01` | Ukrainian | Help `H-help-manual-01` | 44 pages, 17,445 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 39 | `rus-RU/H-help-manual-01` | Russian | Help `H-help-manual-01` | 44 pages, 17,445 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 40 | `fas-IR/H-help-manual-01` | Persian | Help `H-help-manual-01` | 44 pages, 17,445 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 41 | `pus-AF/H-help-manual-01` | Pashto | Help `H-help-manual-01` | 44 pages, 17,445 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 42 | `kur-TR/H-help-manual-01` | Kurdish (Kurmanji) | Help `H-help-manual-01` | 44 pages, 17,445 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 43 | `ara-SA/H-help-manual-02` | Arabic | Help `H-help-manual-02` | 44 pages, 18,658 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 44 | `tur-TR/H-help-manual-02` | Turkish | Help `H-help-manual-02` | 44 pages, 18,658 words | 2 | `GUIDE.md`, waves `S` and administration |
-| 45 | `ukr-UA/H-help-manual-02` | Ukrainian | Help `H-help-manual-02` | 44 pages, 18,658 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 46 | `rus-RU/H-help-manual-02` | Russian | Help `H-help-manual-02` | 44 pages, 18,658 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 47 | `fas-IR/H-help-manual-02` | Persian | Help `H-help-manual-02` | 44 pages, 18,658 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 48 | `pus-AF/H-help-manual-02` | Pashto | Help `H-help-manual-02` | 44 pages, 18,658 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 49 | `kur-TR/H-help-manual-02` | Kurdish (Kurmanji) | Help `H-help-manual-02` | 44 pages, 18,658 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 50 | `ara-SA/H-help-non-technical-people` | Arabic | Help `H-help-non-technical-people` | 47 pages, 28,042 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 51 | `tur-TR/H-help-non-technical-people` | Turkish | Help `H-help-non-technical-people` | 47 pages, 28,042 words | 2 | `GUIDE.md`, waves `S` and administration |
-| 52 | `ukr-UA/H-help-non-technical-people` | Ukrainian | Help `H-help-non-technical-people` | 47 pages, 28,042 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 53 | `rus-RU/H-help-non-technical-people` | Russian | Help `H-help-non-technical-people` | 47 pages, 28,042 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 54 | `fas-IR/H-help-non-technical-people` | Persian | Help `H-help-non-technical-people` | 47 pages, 28,042 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 55 | `pus-AF/H-help-non-technical-people` | Pashto | Help `H-help-non-technical-people` | 47 pages, 28,042 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 56 | `kur-TR/H-help-non-technical-people` | Kurdish (Kurmanji) | Help `H-help-non-technical-people` | 47 pages, 28,042 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 57 | `ara-SA/H-guides-01` | Arabic | Help `H-guides-01` | 10 pages, 26,121 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
-| 58 | `tur-TR/H-guides-01` | Turkish | Help `H-guides-01` | 10 pages, 26,121 words | 2 | `GUIDE.md`, waves `S` and administration |
-| 59 | `ukr-UA/H-guides-01` | Ukrainian | Help `H-guides-01` | 10 pages, 26,121 words | 3 | `GUIDE.md`, waves `S` and administration |
-| 60 | `rus-RU/H-guides-01` | Russian | Help `H-guides-01` | 10 pages, 26,121 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 2 | `ara-SA/S` | Arabic | Set up the help | small | 4 | `GUIDE.md`, RTL, PDF font Arab |
+| 3 | `tur-TR/S` | Turkish | Set up the help | small | 2 | `GUIDE.md` |
+| 4 | `ukr-UA/S` | Ukrainian | Set up the help | small | 3 | `GUIDE.md` |
+| 5 | `rus-RU/S` | Russian | Set up the help | small | 3 | `GUIDE.md` |
+| 6 | `fas-IR/S` | Persian | Set up the help | small | 4 | `GUIDE.md`, RTL, PDF font Arab |
+| 7 | `pus-AF/S` | Pashto | Set up the help | small | 5 | `GUIDE.md`, RTL, PDF font Arab |
+| 8 | `kur-TR/S` | Kurdish (Kurmanji) | Set up the help | small | 3 | `GUIDE.md` |
+| 9 | `ara-SA/H-help-01` | Arabic | Help `H-help-01` | 14 pages, 33,869 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 10 | `tur-TR/H-help-01` | Turkish | Help `H-help-01` | 14 pages, 33,869 words | 2 | `GUIDE.md`, waves `S` and administration |
+| 11 | `ukr-UA/H-help-01` | Ukrainian | Help `H-help-01` | 14 pages, 33,869 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 12 | `rus-RU/H-help-01` | Russian | Help `H-help-01` | 14 pages, 33,869 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 13 | `fas-IR/H-help-01` | Persian | Help `H-help-01` | 14 pages, 33,869 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 14 | `pus-AF/H-help-01` | Pashto | Help `H-help-01` | 14 pages, 33,869 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 15 | `kur-TR/H-help-01` | Kurdish (Kurmanji) | Help `H-help-01` | 14 pages, 33,869 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 16 | `ara-SA/H-help-02` | Arabic | Help `H-help-02` | 14 pages, 17,297 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 17 | `tur-TR/H-help-02` | Turkish | Help `H-help-02` | 14 pages, 17,297 words | 2 | `GUIDE.md`, waves `S` and administration |
+| 18 | `ukr-UA/H-help-02` | Ukrainian | Help `H-help-02` | 14 pages, 17,297 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 19 | `rus-RU/H-help-02` | Russian | Help `H-help-02` | 14 pages, 17,297 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 20 | `fas-IR/H-help-02` | Persian | Help `H-help-02` | 14 pages, 17,297 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 21 | `pus-AF/H-help-02` | Pashto | Help `H-help-02` | 14 pages, 17,297 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 22 | `kur-TR/H-help-02` | Kurdish (Kurmanji) | Help `H-help-02` | 14 pages, 17,297 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 23 | `ara-SA/H-help-03` | Arabic | Help `H-help-03` | 14 pages, 35,423 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 24 | `tur-TR/H-help-03` | Turkish | Help `H-help-03` | 14 pages, 35,423 words | 2 | `GUIDE.md`, waves `S` and administration |
+| 25 | `ukr-UA/H-help-03` | Ukrainian | Help `H-help-03` | 14 pages, 35,423 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 26 | `rus-RU/H-help-03` | Russian | Help `H-help-03` | 14 pages, 35,423 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 27 | `fas-IR/H-help-03` | Persian | Help `H-help-03` | 14 pages, 35,423 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 28 | `pus-AF/H-help-03` | Pashto | Help `H-help-03` | 14 pages, 35,423 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 29 | `kur-TR/H-help-03` | Kurdish (Kurmanji) | Help `H-help-03` | 14 pages, 35,423 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 30 | `ara-SA/H-help-manual-01` | Arabic | Help `H-help-manual-01` | 44 pages, 17,659 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 31 | `tur-TR/H-help-manual-01` | Turkish | Help `H-help-manual-01` | 44 pages, 17,659 words | 2 | `GUIDE.md`, waves `S` and administration |
+| 32 | `ukr-UA/H-help-manual-01` | Ukrainian | Help `H-help-manual-01` | 44 pages, 17,659 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 33 | `rus-RU/H-help-manual-01` | Russian | Help `H-help-manual-01` | 44 pages, 17,659 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 34 | `fas-IR/H-help-manual-01` | Persian | Help `H-help-manual-01` | 44 pages, 17,659 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 35 | `pus-AF/H-help-manual-01` | Pashto | Help `H-help-manual-01` | 44 pages, 17,659 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 36 | `kur-TR/H-help-manual-01` | Kurdish (Kurmanji) | Help `H-help-manual-01` | 44 pages, 17,659 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 37 | `ara-SA/H-help-manual-02` | Arabic | Help `H-help-manual-02` | 44 pages, 18,751 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 38 | `tur-TR/H-help-manual-02` | Turkish | Help `H-help-manual-02` | 44 pages, 18,751 words | 2 | `GUIDE.md`, waves `S` and administration |
+| 39 | `ukr-UA/H-help-manual-02` | Ukrainian | Help `H-help-manual-02` | 44 pages, 18,751 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 40 | `rus-RU/H-help-manual-02` | Russian | Help `H-help-manual-02` | 44 pages, 18,751 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 41 | `fas-IR/H-help-manual-02` | Persian | Help `H-help-manual-02` | 44 pages, 18,751 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 42 | `pus-AF/H-help-manual-02` | Pashto | Help `H-help-manual-02` | 44 pages, 18,751 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 43 | `kur-TR/H-help-manual-02` | Kurdish (Kurmanji) | Help `H-help-manual-02` | 44 pages, 18,751 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 44 | `ara-SA/H-help-non-technical-people` | Arabic | Help `H-help-non-technical-people` | 48 pages, 28,376 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 45 | `tur-TR/H-help-non-technical-people` | Turkish | Help `H-help-non-technical-people` | 48 pages, 28,376 words | 2 | `GUIDE.md`, waves `S` and administration |
+| 46 | `ukr-UA/H-help-non-technical-people` | Ukrainian | Help `H-help-non-technical-people` | 48 pages, 28,376 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 47 | `rus-RU/H-help-non-technical-people` | Russian | Help `H-help-non-technical-people` | 48 pages, 28,376 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 48 | `fas-IR/H-help-non-technical-people` | Persian | Help `H-help-non-technical-people` | 48 pages, 28,376 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 49 | `pus-AF/H-help-non-technical-people` | Pashto | Help `H-help-non-technical-people` | 48 pages, 28,376 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 50 | `kur-TR/H-help-non-technical-people` | Kurdish (Kurmanji) | Help `H-help-non-technical-people` | 48 pages, 28,376 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 51 | `ara-SA/H-guides-01` | Arabic | Help `H-guides-01` | 13 pages, 31,813 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 52 | `tur-TR/H-guides-01` | Turkish | Help `H-guides-01` | 13 pages, 31,813 words | 2 | `GUIDE.md`, waves `S` and administration |
+| 53 | `ukr-UA/H-guides-01` | Ukrainian | Help `H-guides-01` | 13 pages, 31,813 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 54 | `rus-RU/H-guides-01` | Russian | Help `H-guides-01` | 13 pages, 31,813 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 55 | `fas-IR/H-guides-01` | Persian | Help `H-guides-01` | 13 pages, 31,813 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 56 | `pus-AF/H-guides-01` | Pashto | Help `H-guides-01` | 13 pages, 31,813 words | 5 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 57 | `kur-TR/H-guides-01` | Kurdish (Kurmanji) | Help `H-guides-01` | 13 pages, 31,813 words | 3 | `GUIDE.md`, waves `S` and administration |
+| 58 | `ara-SA/H-guides-02` | Arabic | Help `H-guides-02` | 14 pages, 31,783 words | 4 | `GUIDE.md`, RTL, PDF font Arab, waves `S` and administration |
+| 59 | `tur-TR/H-guides-02` | Turkish | Help `H-guides-02` | 14 pages, 31,783 words | 2 | `GUIDE.md`, waves `S` and administration |
+| 60 | `ukr-UA/H-guides-02` | Ukrainian | Help `H-guides-02` | 14 pages, 31,783 words | 3 | `GUIDE.md`, waves `S` and administration |
 
 The whole queue and the pages of a wave: `./console exp:i18n waves --list`, `./console exp:i18n waves --wave=<wave>`.
 
 Made by `./console exp:i18n waves`; `./console exp:i18n waves --check` and the test `expI18nTranslationWavesTest` fail when a percentage changed or a size is more than 3 % off.
-<!-- exp:i18n waves data {"status":{"afr-ZA":[100,100,0,0],"aka-GH":[100,80,0,0],"amh-ET":[100,100,0,0],"ara-SA":[100,80,0,0],"arc-IQ":[100,80,0,0],"asm-IN":[100,80,0,0],"ast-ES":[100,80,0,0],"aze-AZ":[100,80,0,0],"bam-ML":[100,80,0,0],"bel-BY":[100,80,0,0],"ben-BD":[100,100,0,0],"bho-IN":[100,80,0,0],"bod-CN":[100,80,0,0],"bos-BA":[100,80,0,0],"bre-FR":[100,80,0,0],"brx-IN":[100,80,0,0],"bul-BG":[100,100,0,0],"cat-ES":[100,100,0,0],"ceb-PH":[100,80,0,0],"che-RU":[100,80,0,0],"chi-CN":[100,100,0,0],"chi-TW":[100,100,0,0],"ckb-IQ":[100,80,0,0],"cro-HR":[100,80,0,0],"cym-GB":[100,80,0,0],"cze-CZ":[100,80,0,0],"dan-DK":[100,80,0,0],"div-MV":[100,80,0,0],"doi-IN":[100,80,0,0],"dsb-DE":[100,80,0,0],"dut-NL":[100,80,0,0],"dzo-BT":[100,80,0,0],"ell-GR":[100,80,0,0],"eng-AU":[100,100,100,100],"eng-US":[100,100,100,100],"epo-EO":[100,80,0,0],"esl-ES":[100,80,0,0],"esl-MX":[100,80,0,0],"est-EE":[100,80,0,0],"eus-ES":[100,80,0,0],"ewe-GH":[100,80,0,0],"fao-FO":[100,80,0,0],"fas-AF":[100,80,0,0],"fas-IR":[100,80,0,0],"fil-PH":[100,80,0,0],"fin-FI":[100,80,0,0],"fre-FR":[100,80,0,0],"fry-NL":[100,80,0,0],"ful-SN":[100,80,0,0],"ger-DE":[100,76,100,99],"gla-GB":[100,80,0,0],"gle-IE":[100,80,0,0],"glg-ES":[100,80,0,0],"guj-IN":[100,100,0,0],"hau-NG":[100,100,0,0],"haw-US":[100,80,0,0],"heb-IL":[100,80,0,0],"hin-IN":[100,80,0,0],"hsb-DE":[100,80,0,0],"hun-HU":[100,80,0,0],"huy-IL":[100,80,0,0],"hye-AM":[100,80,0,0],"ibo-NG":[100,100,0,0],"ind-ID":[100,80,0,0],"isl-IS":[100,80,0,0],"ita-IT":[100,80,0,0],"jav-ID":[100,80,0,0],"jpn-JP":[100,80,0,0],"kab-DZ":[100,80,0,0],"kal-GL":[100,80,0,0],"kan-IN":[100,100,0,0],"kas-IN":[100,80,0,0],"kat-GE":[100,80,0,0],"kaz-KZ":[100,80,0,0],"khm-KH":[100,80,0,0],"kik-KE":[100,80,0,0],"kin-RW":[100,80,0,0],"kir-KG":[100,80,0,0],"kok-IN":[100,80,0,0],"kor-KP":[100,80,0,0],"kor-KR":[100,80,0,0],"kur-TR":[100,80,0,0],"lao-LA":[100,80,0,0],"lat-VA":[100,80,0,0],"lav-LV":[100,80,0,0],"lin-CD":[100,80,0,0],"lit-LT":[100,100,0,0],"ltz-LU":[100,80,0,0],"lug-UG":[100,80,0,0],"mai-IN":[100,80,0,0],"mal-IN":[100,100,0,0],"mar-IN":[100,100,0,0],"mkd-MK":[100,80,0,0],"mlg-MG":[100,80,0,0],"mlt-MT":[100,80,0,0],"mni-IN":[100,80,0,0],"mon-MN":[100,80,0,0],"mri-NZ":[100,80,0,0],"msa-MY":[100,80,0,0],"mya-MM":[100,80,0,0],"nep-NP":[100,80,0,0],"nor-NO":[100,80,0,0],"nqo-GN":[100,80,0,0],"oci-FR":[100,80,0,0],"ori-IN":[100,100,0,0],"orm-ET":[100,80,0,0],"pan-IN":[100,100,0,0],"pcm-NG":[100,80,0,0],"pnb-PK":[100,80,0,0],"pol-PL":[100,80,0,0],"por-BR":[100,80,0,0],"por-PT":[100,100,0,0],"pus-AF":[100,80,0,0],"que-PE":[100,80,0,0],"roh-CH":[100,80,0,0],"ron-RO":[100,80,0,0],"run-BI":[100,80,0,0],"rus-RU":[100,100,0,0],"ser-SR":[100,100,0,0],"sin-LK":[100,80,0,0],"slk-SK":[100,80,0,0],"slv-SI":[100,80,0,0],"sme-NO":[100,80,0,0],"sna-ZW":[100,80,0,0],"snd-PK":[100,80,0,0],"som-SO":[100,100,0,0],"sqi-AL":[100,80,0,0],"srp-RS":[100,100,0,0],"sun-ID":[100,80,0,0],"swa-KE":[100,80,0,0],"swe-SE":[100,80,0,0],"syr-IQ":[100,80,0,0],"tam-IN":[100,100,0,0],"tat-RU":[100,80,0,0],"tel-IN":[100,100,0,0],"tgk-TJ":[100,80,0,0],"tha-TH":[100,80,0,0],"tir-ET":[100,80,0,0],"tlh-QO":[100,80,0,0],"tuk-TM":[100,80,0,0],"tur-TR":[100,80,0,0],"uig-CN":[100,80,0,0],"ukr-UA":[100,80,0,0],"urd-PK":[100,100,0,0],"uzb-UZ":[100,80,0,0],"vie-VN":[100,80,0,0],"wol-SN":[100,80,0,0],"xho-ZA":[100,100,0,0],"yid-US":[100,80,0,0],"yor-NG":[100,100,0,0],"zgh-MA":[100,80,0,0],"zul-ZA":[100,100,0,0]},"sizes":{"messages":18839,"extensions":567,"parts":199,"daily_pages":261,"daily_words":292493,"guides_pages":3681,"guides_words":2875016,"reference_pages":1790,"reference_words":1803691,"tables_pages":0,"tables_words":80458},"waves":30208,"untranslated":["hat-HT","skr-PK","tsn-ZA","dyu-CI","nya-MW","nso-ZA","sot-ZA","mos-BF","azb-IR","kau-NG","vmw-MZ","kon-CD","luy-KE","tso-ZA","umb-AO","luo-KE","sag-CF","grn-PY","bal-PK","sat-IN","kln-KE","lua-CD","suk-TZ","ton-TO","san-IN"]} -->
+<!-- exp:i18n waves data {"status":{"afr-ZA":[100,100,0,0],"aka-GH":[100,100,0,0],"amh-ET":[100,100,0,0],"ara-SA":[100,100,0,0],"arc-IQ":[100,100,0,0],"asm-IN":[100,100,0,0],"ast-ES":[100,100,0,0],"aze-AZ":[100,100,0,0],"bam-ML":[100,100,0,0],"bel-BY":[100,100,0,0],"ben-BD":[100,100,0,0],"bho-IN":[100,100,0,0],"bod-CN":[100,100,0,0],"bos-BA":[100,100,0,0],"bre-FR":[100,100,0,0],"brx-IN":[100,100,0,0],"bul-BG":[100,100,0,0],"cat-ES":[100,100,0,0],"ceb-PH":[100,100,0,0],"che-RU":[100,100,0,0],"chi-CN":[100,100,0,0],"chi-TW":[100,100,0,0],"ckb-IQ":[100,100,0,0],"cro-HR":[100,100,0,0],"cym-GB":[100,100,0,0],"cze-CZ":[100,100,0,0],"dan-DK":[100,100,0,0],"div-MV":[100,100,0,0],"doi-IN":[100,100,0,0],"dsb-DE":[100,100,0,0],"dut-NL":[100,100,0,0],"dzo-BT":[100,100,0,0],"ell-GR":[100,100,0,0],"eng-AU":[100,100,100,100],"eng-US":[100,100,100,100],"epo-EO":[100,100,0,0],"esl-ES":[100,100,0,0],"esl-MX":[100,100,0,0],"est-EE":[100,100,0,0],"eus-ES":[100,100,0,0],"ewe-GH":[100,100,0,0],"fao-FO":[100,100,0,0],"fas-AF":[100,100,0,0],"fas-IR":[100,100,0,0],"fil-PH":[100,100,0,0],"fin-FI":[100,100,0,0],"fre-FR":[100,100,0,0],"fry-NL":[100,100,0,0],"ful-SN":[100,100,0,0],"ger-DE":[100,76,100,100],"gla-GB":[100,100,0,0],"gle-IE":[100,100,0,0],"glg-ES":[100,100,0,0],"grn-PY":[100,80,0,0],"guj-IN":[100,100,0,0],"hau-NG":[100,100,0,0],"haw-US":[100,100,0,0],"heb-IL":[100,100,0,0],"hin-IN":[100,100,0,0],"hsb-DE":[100,100,0,0],"hun-HU":[100,100,0,0],"huy-IL":[100,100,0,0],"hye-AM":[100,100,0,0],"ibo-NG":[100,100,0,0],"ind-ID":[100,100,0,0],"isl-IS":[100,100,0,0],"ita-IT":[100,100,0,0],"jav-ID":[100,100,0,0],"jpn-JP":[100,100,0,0],"kab-DZ":[100,100,0,0],"kal-GL":[100,100,0,0],"kan-IN":[100,100,0,0],"kas-IN":[100,100,0,0],"kat-GE":[100,100,0,0],"kaz-KZ":[100,100,0,0],"khm-KH":[100,100,0,0],"kik-KE":[100,100,0,0],"kin-RW":[100,100,0,0],"kir-KG":[100,100,0,0],"kok-IN":[100,100,0,0],"kor-KP":[100,100,0,0],"kor-KR":[100,100,0,0],"kur-TR":[100,100,0,0],"lao-LA":[100,100,0,0],"lat-VA":[100,100,0,0],"lav-LV":[100,100,0,0],"lin-CD":[100,100,0,0],"lit-LT":[100,100,0,0],"ltz-LU":[100,100,0,0],"lug-UG":[100,100,0,0],"mai-IN":[100,100,0,0],"mal-IN":[100,100,0,0],"mar-IN":[100,100,0,0],"mkd-MK":[100,100,0,0],"mlg-MG":[100,100,0,0],"mlt-MT":[100,100,0,0],"mni-IN":[100,100,0,0],"mon-MN":[100,100,0,0],"mri-NZ":[100,100,0,0],"msa-MY":[100,100,0,0],"mya-MM":[100,100,0,0],"nep-NP":[100,100,0,0],"nor-NO":[100,100,0,0],"nqo-GN":[100,100,0,0],"oci-FR":[100,100,0,0],"ori-IN":[100,100,0,0],"orm-ET":[100,100,0,0],"pan-IN":[100,100,0,0],"pcm-NG":[100,100,0,0],"pnb-PK":[100,100,0,0],"pol-PL":[100,100,0,0],"por-BR":[100,100,0,0],"por-PT":[100,100,0,0],"pus-AF":[100,100,0,0],"que-PE":[100,100,0,0],"roh-CH":[100,100,0,0],"ron-RO":[100,100,0,0],"run-BI":[100,100,0,0],"rus-RU":[100,100,0,0],"san-IN":[100,100,0,0],"sat-IN":[100,100,0,0],"ser-SR":[100,100,0,0],"sin-LK":[100,100,0,0],"slk-SK":[100,100,0,0],"slv-SI":[100,100,0,0],"sme-NO":[100,100,0,0],"sna-ZW":[100,100,0,0],"snd-PK":[100,100,0,0],"som-SO":[100,100,0,0],"sqi-AL":[100,100,0,0],"srp-RS":[100,100,0,0],"sun-ID":[100,100,0,0],"swa-KE":[100,100,0,0],"swe-SE":[100,100,0,0],"syr-IQ":[100,100,0,0],"tam-IN":[100,100,0,0],"tat-RU":[100,100,0,0],"tel-IN":[100,100,0,0],"tgk-TJ":[100,100,0,0],"tha-TH":[100,100,0,0],"tir-ET":[100,100,0,0],"tlh-QO":[100,100,0,0],"ton-TO":[100,100,0,0],"tuk-TM":[100,100,0,0],"tur-TR":[100,100,0,0],"uig-CN":[100,100,0,0],"ukr-UA":[100,100,0,0],"urd-PK":[100,100,0,0],"uzb-UZ":[100,100,0,0],"vie-VN":[100,100,0,0],"wol-SN":[100,100,0,0],"xho-ZA":[100,100,0,0],"yid-US":[100,100,0,0],"yor-NG":[100,100,0,0],"zgh-MA":[100,100,0,0],"zul-ZA":[100,100,0,0]},"sizes":{"messages":20855,"extensions":567,"parts":216,"daily_pages":343,"daily_words":443905,"guides_pages":3803,"guides_words":3024465,"reference_pages":1817,"reference_words":1864251,"tables_pages":0,"tables_words":112725},"waves":33675,"untranslated":["hat-HT","skr-PK","tsn-ZA","dyu-CI","nya-MW","nso-ZA","sot-ZA","mos-BF","azb-IR","kau-NG","vmw-MZ","kon-CD","luy-KE","tso-ZA","umb-AO","luo-KE","sag-CF","bal-PK","kln-KE","lua-CD","suk-TZ","ale-US","arn-CL","aym-BO","chr-US","cre-CA","ems-US","esu-US","gwi-US","hai-US","iku-CA","ipk-US","lkt-US","moh-CA","nah-MX","nav-US","oji-CA","quc-GT","tli-US","tsi-US","yua-MX"]} -->
 <!-- generated: exp:i18n waves (end) -->
 
 ## What the waves are

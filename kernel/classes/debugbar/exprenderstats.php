@@ -2,7 +2,7 @@
 /**
  * File containing the expRenderStats class: how the page was rendered, for the Rendering tab of the Exp Debug bar.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -63,6 +63,8 @@ class expRenderStats
     /** A new request: nothing noted yet. */
     public static function resetRequest()
     {
+        // whether to collect without output is decided again for this request (checkCollectByPolicy())
+        $GLOBALS['eZDebugCollect'] = false;
         self::$views = array();
         self::$viewCache = null;
         self::$templates = array( 'compiled' => array(), 'executed' => 0 );
@@ -78,8 +80,79 @@ class expRenderStats
 
     protected static function enabled()
     {
-        // what eZDebug::isDebugEnabled() reads, without loading eZDebug
-        return !empty( $GLOBALS['eZDebugEnabled'] );
+        // what eZDebug::isCollecting() reads, without loading eZDebug
+        return !empty( $GLOBALS['eZDebugEnabled'] ) || !empty( $GLOBALS['eZDebugCollect'] );
+    }
+
+    /**
+     * Whether this request's statistics are collected: with debug output on, or for a user one of site.ini
+     * [DebugSettings] CollectStatsPolicyList[] matches (checkCollectByPolicy()), without output.
+     *
+     * @return bool
+     */
+    public static function collecting()
+    {
+        return self::enabled();
+    }
+
+    /**
+     * After the user is known (ezpKernelWeb, right after eZDebug::checkDebugByUser()): a signed-in user who holds one
+     * of the policies of site.ini [DebugSettings] CollectStatsPolicyList[] (module/function, e.g. expwt/performance)
+     * gets this request's statistics collected without debug output, for a tool of theirs to show (the website
+     * sidebar's Performance panel). Nothing is printed and no debug message is kept; anonymous visitors and an empty
+     * list cost one setting read.
+     *
+     * @return bool whether the statistics are collected now
+     */
+    public static function checkCollectByPolicy()
+    {
+        if ( !empty( $GLOBALS['eZDebugEnabled'] ) )
+            return true;
+        $GLOBALS['eZDebugCollect'] = false;
+        if ( !class_exists( 'eZINI' ) || !class_exists( 'eZUser' ) )
+            return false;
+        $ini = eZINI::instance();
+        $list = $ini->hasVariable( 'DebugSettings', 'CollectStatsPolicyList' ) ? (array)$ini->variable( 'DebugSettings', 'CollectStatsPolicyList' ) : array();
+        if ( !$list )
+            return false;
+        $user = eZUser::currentUser();
+        if ( !$user instanceof eZUser || !$user->isRegistered() )
+            return false;
+        $collect = self::policyMatches( $list, function ( $module, $function ) use ( $user ) {
+            $access = $user->hasAccessTo( $module, $function );
+            return isset( $access['accessWord'] ) && $access['accessWord'] !== 'no';
+        } );
+        if ( !$collect )
+            return false;
+        // nothing collected before this point belongs to this request: debug was off (a persistent worker's instance
+        // may hold what an earlier request with debug output on measured)
+        if ( class_exists( 'eZDebug', false ) && isset( $GLOBALS['eZDebugGlobalInstance'] ) && $GLOBALS['eZDebugGlobalInstance'] instanceof eZDebug )
+        {
+            $GLOBALS['eZDebugGlobalInstance']->TimeAccumulatorList = array();
+            $GLOBALS['eZDebugGlobalInstance']->TimeAccumulatorGroupList = array();
+        }
+        $GLOBALS['eZDebugCollect'] = true;
+        return true;
+    }
+
+    /**
+     * Pure: whether one of the entries (module/function; module/* and * cover more) is held.
+     *
+     * @param array $list entries of CollectStatsPolicyList[]
+     * @param callable $holds function ( $module, $function ): bool
+     * @return bool
+     */
+    public static function policyMatches( array $list, $holds )
+    {
+        foreach ( $list as $entry )
+        {
+            $entry = trim( (string)$entry );
+            if ( !preg_match( '#^([A-Za-z0-9_]+)/([A-Za-z0-9_]+|\*)$#', $entry, $m ) )
+                continue;
+            if ( $holds( $m[1], $m[2] ) )
+                return true;
+        }
+        return false;
     }
 
     /**
@@ -279,7 +352,19 @@ class expRenderStats
             return;
         $template = null;
         $line = null;
-        if ( is_string( $placement ) && $placement !== '' )
+        $blockId = null;
+        if ( is_string( $placement ) && ( strncmp( $placement, 'stpl:', 5 ) === 0 || strncmp( $placement, 'twig:', 5 ) === 0 ) )
+        {
+            // a Smarty or Twig {expcacheblock}: stpl:<template file>:<block id>, twig:<template file>:<block id> (the file
+            // may itself hold colons)
+            $colon = strrpos( $placement, ':' );
+            if ( $colon > 5 )
+            {
+                $template = substr( $placement, 5, $colon - 5 );
+                $blockId = substr( $placement, $colon + 1 );
+            }
+        }
+        else if ( is_string( $placement ) && $placement !== '' )
         {
             // start line _ start column _ end line _ end column _ template (which may itself hold underscores)
             $parts = explode( '_', $placement, 5 );
@@ -289,7 +374,7 @@ class expRenderStats
                 $template = $parts[4];
             }
         }
-        self::$cacheBlocks[] = array( 'template' => $template, 'line' => $line, 'path' => (string)$path, 'keys' => self::keysText( $keys ),
+        self::$cacheBlocks[] = array( 'template' => $template, 'line' => $line, 'block_id' => $blockId, 'path' => (string)$path, 'keys' => self::keysText( $keys ),
                                       'node_id' => $nodeID === false || $nodeID === null ? null : (int)$nodeID,
                                       'ttl' => $ttl === null || (int)$ttl <= 0 ? null : (int)$ttl,
                                       'state' => $hit ? 'hit' : ( $generateMs !== null ? 'generated' : 'pending' ),
@@ -351,7 +436,8 @@ class expRenderStats
     }
 
     /**
-     * @return array list of template, line, path, keys (text or null), node_id, ttl, state (hit, generated, pending:
+     * @return array list of template, line (null for a Smarty block), block_id (the id= of a Smarty {expcacheblock},
+     *               null for a .tpl block), path, keys (text or null), node_id, ttl, state (hit, generated, pending:
      *               not found and not stored, as an old compiled template does not report it), lookup_ms,
      *               generate_ms (inclusive of nested blocks), size
      */

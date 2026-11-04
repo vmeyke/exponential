@@ -29,9 +29,12 @@ Every module's policy functions and the limitations each can carry, from `$Funct
 | [ezinfo](ezinfo.md) | `read` |
 | [ezjscore](ezjscore.md) | `call`, `run` |
 | [ezoe](ezoe.md) | `browse`, `disable_editor`, `editor`, `relations`, `search` |
+| [graphql](graphql.md) | `administrate`, `playground`, `query` |
 | [infocollector](infocollector.md) | `read` |
 | [layout](layout.md) | (none: `layout/*`) |
 | [mailpreferences](mailpreferences.md) | `administrate`, `export` |
+| [migration](migration.md) | `deploy`, `edit`, `read`, `remotes`, `rollback`, `run` |
+| [moderation](moderation.md) | `act`, `personaldata`, `read` |
 | [notification](notification.md) | `administrate`, `use` |
 | [oauth](oauth.md) | `authorize` |
 | [oauthadmin](oauthadmin.md) | (none: `oauthadmin/*`) |
@@ -46,11 +49,12 @@ Every module's policy functions and the limitations each can carry, from `$Funct
 | [setup](setup.md) | `administrate`, `install`, `logs`, `managecache`, `managecronjobs`, `managelogs`, `preload`, `setup`, `system_info`, `unmasklogs` |
 | [shop](shop.md) | `administrate`, `buy`, `edit_status`, `setstatus`, `setup` |
 | [state](state.md) | `administrate`, `assign` |
+| [staticpublish](staticpublish.md) | `build`, `publish`, `read`, `setup` |
 | [switchlanguage](switchlanguage.md) | (none: `switchlanguage/*`) |
 | [trigger](trigger.md) | (none: `trigger/*`) |
 | [uiswitch](uiswitch.md) | `design`, `language` |
 | [url](url.md) | (none: `url/*`) |
-| [user](user.md) | `activation`, `deactivate`, `hygiene`, `login`, `password`, `preferences`, `register`, `selfedit`, `sessions` |
+| [user](user.md) | `activation`, `audit`, `deactivate`, `hygiene`, `login`, `passkeys_manage`, `password`, `preferences`, `register`, `selfedit`, `sessions`, `sessions_manage` |
 | [visual](visual.md) | (none: `visual/*`) |
 | [workflow](workflow.md) | (none: `workflow/*`) |
 

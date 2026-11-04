@@ -2,7 +2,7 @@
 /**
  * File containing the expUserAccountOverview class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -25,7 +25,7 @@ class expUserAccountOverview
     const PASSWORD_AGE_HINT_DAYS = 365;
 
     /** The cards, in the order the page shows them */
-    const ACTIONS = array( 'profile', 'password', 'settings', 'twofactor', 'passkeys', 'sessions', 'apikeys', 'bookmarks', 'notifications', 'mail' );
+    const ACTIONS = array( 'profile', 'password', 'settings', 'twofactor', 'passkeys', 'sessions', 'security', 'apikeys', 'bookmarks', 'notifications', 'mail' );
 
     /** @var array */
     protected $facts;
@@ -50,6 +50,8 @@ class expUserAccountOverview
      * twofactor_setup, apikeys_own, apikeys_admin, bookmarks, notifications, mail_own, mail_admin). twofactor:
      * null when the user class has no two-step field or the extension is not active, else array( active, method ).
      * sessions: null when sessions are not tracked (user/sessions), else array( active ): the running sessions.
+     * security: null when the security activity cannot be read (user/security: no user audit log), else
+     * array( failures ): the failed sign-ins of the last 30 days.
      * apikeys: null when not readable, else the counts of the apikey module (active, total). password_changed: the
      * time of the last password change the audit index knows, else null. hash_type: eZUser::PASSWORD_HASH_*.
      *
@@ -62,7 +64,7 @@ class expUserAccountOverview
             'own' => false, 'enabled' => true, 'locked' => false, 'failed_attempts' => 0, 'max_failed_attempts' => 0,
             'login_count' => 0, 'last_visit' => null, 'hash_type' => eZUser::PASSWORD_HASH_PHP_DEFAULT,
             'password_changed' => null, 'groups' => array(), 'roles' => array(), 'twofactor' => null, 'passkeys' => null, 'apikeys' => null,
-            'can_create_apikeys' => false, 'access' => array(), 'sessions' => null,
+            'can_create_apikeys' => false, 'access' => array(), 'sessions' => null, 'security' => null,
         );
     }
 
@@ -102,8 +104,8 @@ class expUserAccountOverview
             'twofactor' => self::twoFactorOf( $object ),
             'access' => self::accessOf( $viewer, $own ),
         );
-        // the passkeys card: the own account only, while passkeys can be used here
-        if ( $own && class_exists( 'expPasskeyService' ) )
+        // the passkeys card: the own account, or another one for a viewer with user/passkeys_manage, while passkeys can be used
+        if ( ( $own || !empty( $facts['access']['passkeys_admin'] ) ) && class_exists( 'expPasskeyService' ) )
         {
             $service = new expPasskeyService();
             if ( $service->available() )
@@ -119,6 +121,18 @@ class expUserAccountOverview
             catch ( Throwable $e )
             {
                 $facts['sessions'] = null;
+            }
+        }
+        if ( class_exists( 'expUserSecurityActivity' ) && expUserSecurityActivity::available() )
+        {
+            try
+            {
+                $summary = expUserSecurityActivity::summary( $id );
+                $facts['security'] = array( 'failures' => (int)$summary['failures'] );
+            }
+            catch ( Throwable $e )
+            {
+                $facts['security'] = null;
             }
         }
         if ( class_exists( 'expApiKeyFunctionCollection' ) )
@@ -209,7 +223,7 @@ class expUserAccountOverview
     {
         $f = $this->facts;
         $a = $f['access'] + array_fill_keys( array( 'password', 'settings', 'roles', 'twofactor_setup', 'apikeys_own',
-            'apikeys_admin', 'bookmarks', 'notifications', 'mail_own', 'mail_admin', 'sessions_admin' ), false );
+            'apikeys_admin', 'bookmarks', 'notifications', 'mail_own', 'mail_admin', 'sessions_admin', 'passkeys_admin' ), false );
         $id = (int)$f['user_id'];
         $own = (bool)$f['own'];
         $out = array();
@@ -244,11 +258,12 @@ class expUserAccountOverview
                     }
                     break;
                 case 'passkeys':
-                    // the user's own passkeys (user/passkeys); null: passkeys cannot be used here, or another user's account
-                    if ( $own && is_array( $f['passkeys'] ) )
+                    // the user's own passkeys (user/passkeys), another user's for an administrator (user/passkeys/<id>); null:
+                    // passkeys cannot be used here, or the viewer may not see them
+                    if ( is_array( $f['passkeys'] ) && ( $own || $a['passkeys_admin'] ) )
                     {
                         $total = (int)$f['passkeys']['total'];
-                        $card = array( 'how' => 'link', 'url' => 'user/passkeys',
+                        $card = array( 'how' => 'link', 'url' => $own ? 'user/passkeys' : 'user/passkeys/' . $id,
                                        'status' => array( 'key' => $total > 0 ? 'count' : 'none', 'level' => $total > 0 ? 'ok' : 'none', 'total' => $total ) );
                     }
                     break;
@@ -261,6 +276,18 @@ class expUserAccountOverview
                             $card = array( 'how' => 'link', 'url' => 'user/sessions', 'status' => $status );
                         elseif ( $a['sessions_admin'] )
                             $card = array( 'how' => 'link', 'url' => 'user/sessions/' . $id, 'status' => $status );
+                    }
+                    break;
+                case 'security':
+                    // "Security activity": the user's own, or another account's with the policy user/sessions
+                    if ( is_array( $f['security'] ) )
+                    {
+                        $failures = isset( $f['security']['failures'] ) ? (int)$f['security']['failures'] : 0;
+                        $status = array( 'key' => $failures > 0 ? 'failures' : 'none', 'level' => $failures > 0 ? 'warn' : 'none', 'failures' => $failures );
+                        if ( $own )
+                            $card = array( 'how' => 'link', 'url' => 'user/security', 'status' => $status );
+                        elseif ( $a['sessions_admin'] )
+                            $card = array( 'how' => 'link', 'url' => 'user/security/' . $id, 'status' => $status );
                     }
                     break;
                 case 'apikeys':
@@ -353,7 +380,7 @@ class expUserAccountOverview
      * @param eZContentObject|null $object
      * @return array|null active, method
      */
-    protected static function twoFactorOf( $object )
+    public static function twoFactorOf( $object )
     {
         if ( !$object instanceof eZContentObject || !eZModule::exists( 'user2fa' ) )
             return null;
@@ -396,6 +423,7 @@ class expUserAccountOverview
             'mail_own' => $own && eZModule::exists( 'mailpreferences' ),
             'mail_admin' => $may( 'mailpreferences', 'administrate' ),
             'sessions_admin' => !$own && $may( 'user', 'sessions' ),
+            'passkeys_admin' => !$own && $may( 'user', 'passkeys_manage' ),
         );
     }
 

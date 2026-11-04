@@ -3,7 +3,7 @@
  * The SQL query cache in the Exp Debug bar: the level of the summary chip (expDebugBarSummary::queryCacheLevel()),
  * the chip itself (expDebugBarReport), and one source for the level and the figures (DQ-05).
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -31,6 +31,8 @@ class expDebugBarQueryCacheTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 'high', expDebugBarSummary::queryCacheLevel( $this->snapshot( array( 'apcu' => false, 'storage' => null ) ), $limits ), 'Storage=apcu without APCu' );
         $this->assertSame( 'ok', expDebugBarSummary::queryCacheLevel( $this->snapshot( array( 'apcu' => false, 'storage' => 'file' ) ), $limits ), 'without APCu in files' );
         $this->assertSame( 'ok', expDebugBarSummary::queryCacheLevel( $this->snapshot( array( 'mode' => 'request', 'apcu' => false, 'storage' => null ) ), $limits ) );
+        $this->assertSame( 'high', expDebugBarSummary::queryCacheLevel( $this->snapshot( array( 'lock_failed' => true ) ), $limits ), 'a write could not take the state lock' );
+        $this->assertSame( 'ok', expDebugBarSummary::queryCacheLevel( $this->snapshot( array( 'lock_failed' => false ) ), $limits ) );
     }
 
     /** DQ-02 */

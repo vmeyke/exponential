@@ -10,7 +10,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/design/AdminSidebarDrawerTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -37,7 +37,7 @@ class AdminSidebarDrawerTest extends PHPUnit\Framework\TestCase
         $this->assertStringContainsString( 'const narrow = window.matchMedia("(max-width: 1023.98px)");', $js );
         $this->assertStringContainsString( 'right: window.matchMedia("(max-width: 1279.98px)")', $js );
         // the left column takes room from 1024px (pagelayout.css), the right one from 1280px (admin4.css)
-        $this->assertStringContainsString( '@media screen and (min-width: 1024px) {', self::read( 'design/admin4/stylesheets/pagelayout.css' ) );
+        $this->assertStringContainsString( '@media screen and (min-width: 1024px) {', self::read( 'design/admin4/stylesheets/base.css' ) );
         $this->assertStringContainsString( '@media screen and (min-width: 1024px) and (max-width: 1279.98px) {', self::read( 'design/admin4/stylesheets/admin4.css' ) );
     }
 

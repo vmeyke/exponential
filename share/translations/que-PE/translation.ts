@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Kay raphillapi maskasqa kachkan: %from manta %to kama, %count manta.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Sunqup yapakuqkunap llapan willay layankuna, t'aqakuna ukhunpas imaynatam llamk'achinku.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Willay layakuna</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Ruranap raphinkunatapas yuyarinaman yapayta atinki: raphita kichay (Wakichiy, chiqaqchay qillqa, apaykachaqkunap sinrun...) hinaspa hawanpi «Kay raphita yuyarinaman yapay» nisqata akllay. Chhayna yuyarinakunaqa t'ullu muyu siq'ayuq.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Kay raphitaqa manañam kaypi kichayta atinkichu. Yuyarinata hurquy, icha huk kamachiqman yaykunapaq saqillayta mañakuy.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Ñawpaq raphiman riy</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Huk</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Qhipa 7 p'unchaw</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Akllasqa pacha</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Tukuy simikuna</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Huk simillapas</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Chiqan rimay</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Tupanakuy</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Suti A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Suti Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Hukchasqa, musuqkuna ñawpaqta</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Hukchasqa, machukuna ñawpaqta</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Uyarichisqa, musuqkuna ñawpaqta</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Uyarichisqa, machukuna ñawpaqta</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Hukchasqa</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Suysukuna</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Suysukunata rikuchiy</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Suysukunata pakay</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Kutichiy</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Hunt'achiy</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Simikuna</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Ukhun laya</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Astawan rikuchiy (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Huk ukhun layata akllay, huk kaqninkunapi maskanaykipaq.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Raki</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Maymanta</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Kayman</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Qallariy p'unchawqa manam allin p'unchawchu.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Tukukuy p'unchawqa manam allin p'unchawchu.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Kapuq</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Apaykachaqpa ID, yaykuna suti utaq e-mail chaskina.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Manam “%input” nisqapaq apaykachaq tarikunchu.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Simi</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Mayqin simipas</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Tiyana</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count tiyanakuna</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Sapa raphipi lluqsiykuna</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” nisqapaq lluqsiykuna (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Lluqsiykuna (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Ñiqinchay:</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Ñiqinchay</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Llamk'achkaq suysukuna</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Kay suysuta hurquy</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Utaq suysukunata akllay hinaspa hunt'achiy, tupaq ukhunta rikuchinapaq.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Simikunata qillqasqayki qhipaqa suysukuna maskayta k'iklluchin.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Manam “%text” nisqapaq lluqsiykuna tarikunchu.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Manam lluqsiykuna tarikunchu.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Hawapi huk suysuta hurquy.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>T'ikraykuna</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ruraykuna</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name hukchay</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Hukchay</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Wakichiy &gt; Cron llamk'aykuna</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Manaraq mayqin cron llamk&apos;aypa partin purinchu: llamk&apos;aykunap suyana sinrun, apamuykuna, willakuykuna, maskay indicepas suyachkanku. Purichiy php bin/php/installcrontab.php --add --apply, utaq --show nisqap siqinkunata crontab nisqaman yapay.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Ñawpaq qillqaqkunap hinaspa Exponential nisqawan hamuq hukkunap kamachiyninpa copyright willakuyninkunaqa, lisensya mañakusqanman hina, ñawpaq willañiqikunapi hinaspa LICENSE willañiqipi waqaychasqa kachkan.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Kayqa Exponential nisqap yanapaqkunap sinrunmi, paykunaqa llamk'ayninkuta 7x nisqapaq eZ Systems Contributor Licensing Agreement nisqap kamachikuyninman hina lisensyayuqta qurqanku. Kay rimanakuy saqisqanman hina, 7x nisqaqa sapa yanapayta chay kikin lisensyawan huktawan rakin willañiqiwan, maypichus yanapay kachkan. Sinruqa sapa yanapaqta, munaspa tinkinapaq willayta hinaspa paykunap yanapasqan willañiqikunata sutinchan.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Yanapaqkuna, Exponential nisqapi chaymanta paqarimusqan softwarepipas llamkasqankumanta riqsisqa, yanapasqanku willañiqikunawan kuska. Kayqa riqsikuymi, manam copyright willakuychu: Exponential nisqaman yanapakuykunaqa Contributor Licensing Agreement nisqa hina Exponential Foundation nisqaman 7x nisqamanpas quykun.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Yuyay: q'ipikunaqa manam churasqata hurqusqa kanqachu.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition nisqata llamk'ay&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential Community nisqap huñunman yaykuy, yachayta tikray, yanapaytaq&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; chaymanta wakin.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; nisqawan llamk'an. Astawan willayta munaspaykiqa &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; nisqata qhaway.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; chaymanta wakin.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Astawan willayta munaspaykiqa &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; nisqata qhaway.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; chaymanta wakin.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential nisqata llamk'ay (7x nisqamanta)&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential Community nisqap huñunman yaykuy, yanapayta chaskiy, yanapaytaq&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; chaymanta wakin.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Yuyay: q'ipikunaqa manam churasqata hurqusqa kanqachu.</translation>
     <message>
         <source>Help center</source>
         <translation>Yanapay wasi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Ukhun</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Qillqa raphikuna</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Apaykachaqkuna</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Ukhun t'aqakuna</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Kamachiy</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Raphi %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Tukuy lluqsiykunata qhaway</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count lluqsiy</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Huk lluqsiy</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count yuyaychakuykuna</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Mana yuyaychakuykuna kanchu</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Manam yuyaychakuykuna apakuyta atikunchu.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Yuyaychakuykuna</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Yuyay: q'ipikunaqa manam churasqata hurqusqa kanqachu.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Kay churayqa llapaman rikuchiy: pipas kamachiq pakasqa simita yachayta atin, kamachiqpa pakasqa simintapas manam t'ikrayta nitaq musuqmanta churayta atikunchu. Kaypi ama imapas pakasqatachu churaychu.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Aparatukuna</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Amachay ruraykuna</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Yuyay: q'ipikunaqa manam churasqata hurqusqa kanqachu.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Pusaqkuna, maskay chaymanta pantayta imayna willanaykipaq.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Musuq willakuykuna</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Aswan musuq willakuykuna, qhawarinapaq hark'asqa, akllasqapaq ruwaykunapas.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Yuyay: q'ipikunaqa manam churasqata hurqusqa kanqachu.</translation>
         <source>Synchronisations</source>
         <translation>Huk pachaman churaykuna</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: tukuna k'itin, siq'in, tapukuykunata pruebanapaq pukllanapas.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Astaykuna</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Churasqapi tikraykuna willañiqi hina waqaychasqa: kayninkuna, purichiykuna, purichiy hinaspa kutichiy.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Musuq willakuykuna</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Aswan musuq willakuykuna, qhawarinapaq hark'asqa, akllasqapaq ruwaykunapas.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Huk webpa sayaq kikinchasqanta GitHub Pages nisqaman utaq ima git wasichaqmanpas lluqsichiy.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Sayaq lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Willay layakuna</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Sunqup yapakuqkunap llapan willay layankuna, t'aqakuna ukhunpas imaynatam llamk'achinku.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Yuyay: q'ipikunaqa manam churasqata hurqusqa kanqachu.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Mana pipas llamk'achisqan utaq qhawanapaq kuwintakuna; samachiy, kichay utaq apachiy.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Apaykachaqkunap chiqaqchay qillqan</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Pim tikrarqan, yaykurqan utaq mana chaskisqa karqan, sapa kuwintapi; suysuy hinaspa apachiy.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Yaykuykunamanta willakuy</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Pikuna yaykusqa kachkanku, sapa p&apos;unchaw yaykuykuna mana atipasqakunapas; huk apaykachaqta llapa ladumanta lluqsichiy.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Yuyay: q'ipikunaqa manam churasqata hurqusqa kanqachu.</translation>
         <source>%n hours ago</source>
         <translation>%n ura ñawpaqmanta</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL APIpa waqaychasqa tapukuyninkunapa kutichiyninkuna, siq&apos;inpa contenido clasenkunapas.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Sayaq kikinchasqata GitHub Pages nisqaman utaq ima git wasichaqmanpas lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Sayaq lluqsichiy</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Sayaq utqay waqaychaqa kay servidormanta raphikunata qun. Huk webpa sayaq kikinchasqanta huk lawpi, GitHub Pages nisqapi utaq ima git wasichaqpipas lluqsichinaykipaqqa, sayaq lluqsichiyta llamk&apos;achiy.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Yuyay: q'ipikunaqa manam churasqata hurqusqa kanqachu.</translation>
     <message>
         <source>last purge</source>
         <translation>qhipa pichay</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Qillqaykuna mana atirqankuchu kaq hark&apos;ayta hap&apos;iyta (qhipa kuti %date): sapankanmi llapan waqaychasqa lluqsiykunata mawk&apos;ayachirqan. %file qillqanapaq kanan tiyan sapa ruraqpaq, pikunawanmi kitiqa purin; NFS-pi NFSv4 utaq lockd necesitan.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Yuyay: q'ipikunaqa manam churasqata hurqusqa kanqachu.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP ruraqpa pachan tukusqa tinkuykunataqa PHP kikin hurqun (session.gc_maxlifetime), mana kay raphichu nitaq cron llamk'ay session_gc rakichu.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Sapa apaykachaqpa yaykusqa tinkuyninkunaqa yaykuykunamanta willakuypi qillqasqa kachkan, chaypitaq lluqsichiyta atikun; chay willakuyqa sapa tinkuy ruraqwan llamk&apos;an.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Yaykuykunamanta willakuyta kichay</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ llamk'achinaykipaq.</translation>
     <message>
         <source>None yet</source>
         <translation>Manaraq</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Amachay ruraykuna</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Qayna yaykusqaykikuna, mana atipasqa kallpachakuykuna, pakasqa simiykipi, antañiqi riqsichiqniykipi, iskay purinapi yaykuyniykipipas hukchaykuna.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Kay kuwintap qayna yaykuyninkuna, mana atipasqa kallpachakuykuna, amachay hukchayninkunapas.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Ruraykunata qhaway</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Mana atipasqa yaykuykuna: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Chaskiqman rimariykunata kachayta icha kaynin qhawayta munaspaqa uraypi URL-ta a
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Yaykuptinqa apaykachaqqa imatapas ruwanampaq ñawpaqtaqa musuq pakasqa simita akllanan. Pimanpas pachallapaq pakasqa simita qukuptiyki llamk'achiy.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Kachkaq rikchayta akllay</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Akllasqayki objetup rikchay willañiqinqa kay kitiman copiasqa kanqa. Huk objetuqa manam tikrakunchu.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>"%name" nisqap rikchayninqa kay kitimanmi copiasqa karqan.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Rikchayta purimuy</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Rikchaykunata sutinwan maskay</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Maskay</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>"%name" nisqap rikchayninta llamk'achiy</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Kay rikchayta llamk'achiy</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Manam ima rikchaypas maskasqaykiman tupanchu.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Aswan willaypaq mañasqakunap raphinta qhaway.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab mana qillqasqachu (%reason). Kay siq'ikunata webpa purinan apaykachaqpa crontab nisqanman yapay, mana chayqa suyana sinru, apamuykuna, willakuykuna hinallataq maskay yupay mana hayk'aqpas purinqachu:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Musuqmanta churanapaqqa kickstarter nisqawan (%file, chaymanta php bin/php/kickstarter.php run --apply) utaq musuq churaywan ruwakun.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ llamk'achinaykipaq.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore Packer utqay waqaycha (llapa runapaq)</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL cache (kutichiykuna, siq&apos;ipa clasenkunapas)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ llamk'achinaykipaq.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name-pa kikinchasqan</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Willay layakuna</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Willay laya %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ llamk'achinaykipaq.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG rikchayta mana ñawiyta atirqanchu, icha chay ukhupi mana imapas sapaqchasqa rikuchisqa kayta atinchu.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Rikchayqa manam copiakuyta atirqanchu. Ama hina kaspa, huktawan ruraykachay icha web kamachiqwan rimay.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Akllasqa objetuqa manam kanchu, icha manam ñawinchayta atiwaqchu.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Akllasqa objetuqa manam rikchayniyuqchu.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Akllasqa objetup rikchay willañiqinqa manam ñawinchakuyta atirqanchu.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Akllasqa objetup rikchayninqa kay kitip saqisqanmanta aswan hatunmi: %1 bytes.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ llamk'achinaykipaq.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Yuyarinap sutinqa «%name» nisqaman hukchasqa karqan.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Kay raphiqa kay web yaykunapi (%siteaccess) wañuchisqa kachkan. Yuyarinata kichay kay raphiyuq web yaykunapi.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Kay raphip mudulunqa manam kaypi churasqachu icha manam llamk'achisqachu.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Kay raphiqa manañam kanchu: mudulunpiqa manam chay hina qhawana kanchu.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Mana mayqin ruwanaykipas kay raphita kichanaykipaq saqisunkichu.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Mana saqillayniyki kanchu kay web yaykunata llamk'achinaykipaq.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Mana saqillayniyki kanchu kay raphi rikuchisqan ukhunta ñawinchanaykipaq.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Kay hina raphitaqa mana yuyarinaman yapakuyta atikunchu: huk formulariollapim ruwan, icha huk ratillapaq raphim.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Kay raphip riqsichiqnin mana kanchu.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Kay raphitaqa kunanqa mana kichakuyta atikunchu.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Antañiqi apaqqa qhipa purichiypi %count willakuykunata mana chaskirqanchu. Antañiqi sirwidurta hinaspa site.ini MailSettings nisqata qhaway.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count pasakuy suyachkan, manataq willakuy cron llamk&apos;aypa purisqanqa qillqasqachu. Cron llamk&apos;aypa &quot;frequent&quot; nisqa partinta crontab nisqaman yapay, utaq exp:notification:run --apply purichiy.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Huk webta utaq rakita khipu akllanawan akllay</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Sistemap kamachiqllanmi dueñota hukchayta atin: ./console exp:content-check --fix-permissions --apply root hina purichiy.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
     <message>
         <source>empty</source>
         <translation>ch'usaq</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Firmana llaveqa huk watamanta aswan machuñam: exp:audit key rotate --apply nisqawan t&apos;ikray.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
         <source>Share of page time</source>
         <translation>Raphip pachanmanta rakin</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>hunt'asqa ruwayta mañakurqan</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>raphi utqay waqaychaqa mana kay raphiyuqchu karqan (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>raphi utqay waqaychaqa mana kutichirqanchu</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Ruwasqa</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Sunqup ruwasqan: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Raphi utqay waqaychamanta %ms ms-pi qusqa. Raphiqa %stored-pi %render ms ruwaywan waqaychasqa karqan, %age s ñawpaqta.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Kunan ruway</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Utqay waqaychamanta qhawayman kutiy</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored-pi ruwaymanta (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Kay mañay: raphi utqay waqaychamanta %ms ms-pi qusqa.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Apaykachaq</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Apaykachaq ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Waqaycha rikch'ay</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Kay qhaway</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Qhaway utqay waqaycha</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>sapa apaykachaqpaq (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Apaykachaqpa waqaycha rikch'aynin: kikin rikch'ayniyuq apaykachaqkuna qhaway waqaycha willañiqikunata rakinakunku</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>arí</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>mana</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Apaykachaqpa sutin</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Yaykusqa</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Tinkuy</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Kay p'anqapa ViewCacheTweaks nisqanpi, apaykachaqmanta hap'ipakuq qhaway waqaycha llavepa t'aqankuna, llave imayna hap'isqanman hina. Kikin rikch'ayniyuq apaykachaqkunaqa qhawaykunapa waqaycha willañiqinkunata rakinakunku, huk qhawaypa kikin t'aqankuna mana hukniray kaptinqa (akllanakuna, uyariqkunapa llavenkuna): chaykunaqa paykunapa rikch'ayniyuqmi, kay p'anqallapaq.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Rikch'ay</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Kay qhaway (nodo %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: sapa yaykusqa apaykachaqmi paypa waqaycha willañiqinkunayuq.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Llamk'achkaq ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>K'itu</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Chani</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Mana ima t'aqapas apaykachaqmanta hap'ipakunchu (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>kay qhaway</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Qillqa hina iskaychay</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Ruwanakuna</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Mana ima llamk'ay quykunatapas ñawinchayta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Llamk'aypa ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Ruwana</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Saywa</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Kaqman quqsa</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>apaykachaq</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>huñu %name (objeto %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kikinchasqa</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Mana iskaychayta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>huk uyariqmi qharqurqan</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Mana sutiyuq watukuqkuna</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>qampa hina kikin</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>hukniray</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Mana sutiyuq watukuqkunapa chaskisqan rikch'ay kikin ViewCacheTweaks nisqapi, ñawpaqmanta churasqa akllanakunawan, qhawaypa t'aqankunannaq: tinkuyta ñawinchaq uyariqtaqa mana paykunamanta tapuyta atikunchu.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Akllanakuna</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Mana ima qhaway layapas apaykachaqpa akllanankunamanta hap'ipakunchu (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Kay qhaway layakunapa qhawayninkuna hap'ipakusqan akllanakuna (CachedViewPreferences), apaykachaqpa chaninwan utaq ñawpaqmanta churasqawan. Rikch'aypi kachkanku userpreferences hina, llapa qhaway layakunapa kuska.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Qhaway laya</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Akllana</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Ñawpaqmanta</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Kamachikuykuna</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Llamk'aykunapa kamachiyninkunata rikuchiy (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Kamachiykunaqa servidormanta apakamun kay t'aqa kicharikuptin, sapa kuti huk p'anqa, hinaspa modulowan funcionwan suysuyta atikun.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Ruray</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Tukuy mudulukuna</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Llapa funcionkuna</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Saywakuna</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Astawan rikuchiy</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Kay llamk'aykunaqa mana kamachiyniyuqchu.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Mana ima kamachiypas suysuyman tupanchu.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown %matching kamachiykunamanta (llapanpi %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Kkichakuptinqa chaskin.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rurana, kamachiy</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Kamachikunata maskay</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Astawan chaskiy</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Mudulu/ruray</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Llapa rurana (%count kamachi)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Mana kamachichu tupan.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched kamachikunamanta %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Mana kutichiychu</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>pakasqa</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Sut'ichaykunata rikuchiy</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Sut'ichaykunata pakay</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Kichay</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Tukuyta kichay</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Tukuyta wisq'ay</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kichana utaq chani</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Tinkuypi maskay</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Laya</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count aswan</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ancha ukhupi churasqa, mana rikuchiyta atikunchu</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>kuchusqa, llapanpi %count sananchakuna</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Qallarisqa</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Cookiepa sutin</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Tinkuypa ID-nin</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Kamachiq</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Waqaychana ñan</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP-pa kikinmanta</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Kawsay pacha (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>kawsay pacha %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Qampa kikiyki PHP tinkuyniyki, t'aqa kicharisqa kaqtin hina, manapuni huk runaq tinkuynin. Pakasqa rimaykuna hina rikchakuq kichanakunaq chaninkuna (tokenkuna, hashkuna, yaykuna rimaykuna) pakasqa kanku (debugbar.ini SessionMask[]); llapan wakinkunaqa waqaychasqa hina rikuchisqa kanku, sapan runaq willakuyninkunapas.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count kichanakuna, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>hatun</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Tinkuyqa ch'usaqmi.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Kay mañakuypaq mana ima tinkuypas qallarisqachu.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Yapakuq %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel wakinkunapas</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Mana llapan yaykuykunachu rikuchisqa: tinkuypiqa kaypi sutichanapaq atisqamanta aswan kan.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count kichanakuna mana sutichasqachu.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Muyuriq</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Token hina rikchakuq chanikunapas (JSON Web Token, Authorization umalliq riqsichiqninkuna, sapan kichana, hatun hex utaq kikinmanta qillqa) pakasqa kanku, kichanankupa sutin ima kaptinpas (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Kichanaqa pakasqa rimay hina rikchakun (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Chaniqa token hina rikchakun.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Pakasqa kichanaq uranpi.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Tinkuy qillqa hina, tabla hina pakasqa.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Tinkuyqa %size-manta aswan hatunmi (debugbar.ini SessionWarnBytes): kay ruraqpa sapa mañakuynin llapan tinkuyta ñawirin, hinallataq tikrasqa kaqtin qillqan.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP kay tinkuyta willañiqikunapi waqaychan, llapan mañakuy kaqkama willañiqita wichqan: huklla ruraqpa mañakuyninkuna (achka tabkuna, AJAX waqyakuykuna) paykunapura suyanakunku.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Kichasqa saqiy</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size-manta aswan hatun (debugbar.ini SessionWarnBytes): kay ruraqpa sapa mañakuynin llapan tinkuyta ñawirin.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count-manta %hits utqay waqaychamanta ñawirisqa</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Mana ima plantillapas rurasqachu (qhawana waqaychamanta ñawirisqa qhawanaqa mana ima plantillatapas ruranchu).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Ruwana qukuykuna</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Ruwanakuna chaymanta kamachikuykuna</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>sutinnaq watukuqkunamanta hukniray</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>sutinnaq watukuqkuna hina</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
     <message>
         <source>not sent</source>
         <translation>mana kachasqa</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Willakuy cron llamk&apos;ayqa sapa purisqanta kaypi qillqan. frequent nisqa partita crontab nisqaman yapay, utaq exp:notification:run --apply purichiy.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Consolata llamk&apos;achiy: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Kay yachayqa mana lluqsichisqachu; ñawinchaqkunaqa manan rikunkuchu.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Astaykuna</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Churasqapi tikraykuna willañiqi hina waqaychasqa: kayninkuna, purichiykuna, purichiy hinaspa kutichiy.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Huk webpa sayaq kikinchasqanta GitHub Pages nisqaman utaq ima git wasichaqmanpas lluqsichiy.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Sayaq lluqsichiy</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Qhawaypi</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Ñawinchaqkuna kay raphita rikunku.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Pipas lluqsichinankama ñawinchaqkunamanta pakasqa.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Raphiqa kunan qhawaypi kachkan. Lluqsichisqa kanankama ñawinchaqkunamanta pakasqa.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Raphiqa lluqsichisqa: ñawinchaqkuna kunan rikunku.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Raphiqa huktawan ñawpa qillqasqa. Qhawasqa, lluqsichisqa kanankama ñawinchaqkunamanta pakasqa.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Kunan lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>%role ruwanayuq, kay versiyunta mana qillqaq ruraqlla lluqsichiyta atin.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Lluqsichiyta suyaq yanapay yachaykuna</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Huktawan lluqsichisqa kanankama ñawinchaqkunamanta pakan.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Qhawaqmi qatiqninpi qhawanqa. Ñawinchaqkuna manaraq rikunkuchu.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Ñawinchaqkuna chaylla rikunku.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Aswan llamk'anapaq qhawaymanta hurqun. Ñawinchaqkuna mana rikunkuchu.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Kay raphita ñawinchaqkunamanta pakankichu?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Kay raphita ñawpa qillqasqaman kutichinkichu?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Pipas huktawan lluqsichinankama ñawinchaqkuna %title manaña rikunkuchu.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title aswan llamk'anapaq ñawpa qillqasqaman kutin. Ñawinchaqkuna manaraqmi rikunkuchu, lluqsichisqa kananpaqqa musuq qhawayta munan.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Qhisachay</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Kay yachaykunaqa qhawaypi kachkan. Kunan versiyunta mana qillqaq pipas lluqsichiptin, ñawinchaqkuna rikunqaku.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
         <source>None.</source>
         <translation>Manan imapas.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>chiqaqchaq app-wan</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>antañiqiwan chayamuq yupaywan</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>kutichina yupaywan</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>yaykuna kichanawan</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>hawa kuwintawan</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Amachay ruraykuna</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Llikan hina rikuchisqa; riqsichiqqa web willakuna amachay allichayninkuna nisqanman hina waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Mana qillqasqa</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Tiyana</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>yaqa</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
         <source>Manage devices</source>
         <translation>Aparatukunata kamachiy</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>chiqaqchaq app-wan</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>antañiqiwan chayamuq yupaywan</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>kutichina yupaywan</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>yaykuna kichanawan</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>hawa kuwintawan</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Amachay ruraykuna</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Mana qillqasqa</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Tiyana</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>yaqa</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
         <source>View the sessions of this user</source>
         <translation>Kay apaykachaqpa tinkuyninkunata qhaway</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Kuwintayki (%login, %site nisqapi) kunallan huk maymantam yaykunapaq llamk&apos;achisqa karqan, chaymantaqa kay qayna p&apos;unchawkunapi mana yaykurqanchu:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Yaqa tiyana</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser, %os nisqapi</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Yaykuykunamanta willakuy</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Yaykuna kichanata mana qhawayta atirqanchu. Huktawan yachapay.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Yaykuna kichanakunallawan yaykuq kuwintakunaqa kaypi pakasqa simita mana llamk&apos;achiyta atinkuchu: «Yaykuna kichanawan yaykuy» nisqata akllay.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login-pa yaykuna kichanankuna</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Kay kuwinta yaykunanpaq yaykuna kichanakuna. Chinkasqa utaq suwasqa aparatupi kaqta kutichiy: manañam yaykuyta atinqachu. Musuqkunataqa kuwinta dueñon kikin yapan.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Kuwintaykiqa yaykuna kichanata munan</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Kuwintaykiman yaykuna kichanata yapay</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Qatinaykipaq yaykuna kichanata yapay. Chaymantaqa chaywanmi yaykunki, mana pakasqa simillawanchu.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Yaykuna kichanawan yaykuyqa pakasqa simimanta aswan utqaylla, aswan allin waqaychasqa ima. Kunan hukta yapay, utaq mana chaywan qatiy.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Mana kunanchu</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>¿«%name» yaykuna kichanata kutichiyta munankichu?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Manañam kay kuwintaman yaykuyta atinqachu. Qhipa kaq kaptinqa, dueñonmi pakasqa simiwan yaykun, utaq qammi musuq pakasqa simita churanki.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Yaykuna kichanata kutichiy</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Kutichiy</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Kay kuwintaqa mana yaykuna kichanayuqchu.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Chiqaqchaq</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Mana riqsisqa</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Qhipa kaq yaykuna kichanayki: manaraq hurquspa huktawan yapay.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Kay kuwintaqa yaykuna kichanakunallawan yaykun (yaykuna kichana kamachiy): mana ni huk puchuptinqa, pakasqa siminwan yapamanta yaykun.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Kayqa qhipa kaq yaykuna kichanaykim, kuwintaykitaq mana chaywanqa yaykuyta atinchu. Ñawpaqta huk yaykuna kichanata yapay.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>«%name» yaykuna kichanaqa kutichisqañam. Manañam kay kuwintaman yaykuyta atinchu.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
         <source>Code from your authenticator app</source>
         <translation>Autentikasyun apliqasiyunniykip kudiqun</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Willakuykunata wiñaypaq chinkachiyta utaq huk qillqa hallch&apos;ata pichayta munachkanki.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Pakasqa simiyki hinaspa yaykuna kichana</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Pakasqa simiyki hinaspa chiqaqchaq app-niykimanta yupay</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Utaq:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Kay web puriqqa yaykuna kichanakunata mana llamk&apos;achiyta atinchu. Huk ñanta utaq huk web puriqta llamk&apos;achiy.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Qatiptiykiqa, web puriqniyki huk yaykuna kichanaykita mañakunqa.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Yaykuna kichanawan qatiy</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
     <message>
         <source>Setup</source>
         <translation>Wakichiy</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Kikinpa pakasqa siminta, correo electrónico tiyananta, yaykuna kichanakunata, iskay purinapi yaykuyta, kutichina kudikunata utaq API kichanakunata hukchay, hinaspa kikinpa huk aparatunkunamanta lluqsiy.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Apaykachaqkunata, pakasqa siminkunata, aparatunkunata, kuwinta allichaykunata paqarichiy hinaspa hukchay, musuq apaykachaq kuwintakunata chaskiy utaq mana chaskiy, ruraykunata quy hinaspa kamachiykunata hukchay.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Willakuykunata chinkachiy</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Q&apos;upata ch&apos;usaqyachiy, chaymanta imakunata hurquy hinaspa achka imakunata huk kutillapi hurquy.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Ukhunta hurquy, lluqsichiy hinaspa waqaychay</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Ukhunta hurquy (q&apos;upamanpas), lluqsichiy hinaspa borradorta waqaychay; formulario kachakuptin tapukun. Ñawpaqmantapacha wañuchisqa.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Ancha chaniyuq ruraypa ñawpaqninpi, yaykusqa apaykachaqqa pis kasqanta yapamanta chiqaqchan: pakasqa siminwan yaykuna kichanawan ima, utaq mana yaykuna kichana kaptinqa pakasqa siminwan chiqaqchaq app-ninpa yupayninwan ima. Web raphikunallam tapunku: REST interfaz, SOAP, WebDAV, expservices yaykuy hinaspa kamachiy siqi mana hayk&apos;aqpas tapunkuchu.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Maypi allichaykuna llamk&apos;an</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Kaypaq allichaykuna</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Sapa web yaykuna</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Web yaykuna %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Kichay</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Pita tapukun: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Apaykachaqkunap huñunkunata markay, kamayuqninkunallata tapunapaq (editorkunata, kayhina). Mana imapas markasqa: llapan apaykachaqkuna.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php nisqapi waqaychasqa, sapa web yaykunapaq. Waqaychaspaqa qam kasqaykita chiqaqchanaykipaqmi mañakun.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php nisqapi waqaychasqa. settings/override nisqapi chaniqa kaymanta aswan atiyniyuqmi. Waqaychaspaqa qam kasqaykita chiqaqchanaykipaqmi mañakun.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Khipup t'aqanta t'ikrachiy rurayta llamk'achispa hukchanayki.</translation>
     <message>
         <source>Open the page</source>
         <translation>Raphita kichay</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, %count ukhumanta</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Apaykachaqpa sutin utaq apaykachaqpa ID: kuwinta pasakuypa rimasqan utaq apaykachaq ruraq.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kuwinta</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ruray</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Qhipapi</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Ima lluqsiynipas</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ñawpaqpi</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ruraq</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Pichay</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tukusqa</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Pasakuykunaqa %days p&apos;unchaw waqaychasqa kanku.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Pasakuykunaqa makiwan qichusqa kanankama waqaychasqa kanku.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Pasakuykuna</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Ima ruraypas</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Kay kuwintap llapan pasakuyninkuna</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Listata CSV hina apachiy (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mana atipasqa</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Maymanta</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Listata k&apos;ichkichay</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Mana ima pasakuypas tupanchu.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Sapa raphipi</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Qillqakuyqa audit.ini ukhupi wañuchisqa kachkan ([UserAuditSettings] UserAudit); listaqa ñawpaqta qillqasqakunata rikuchin.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Mana chaskisqa</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Lluqsiyniy</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rikuchiy</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Apaykachaqkunap chiqaqchay qillqanpa tablan mana kanchu. Kaywan ruray: php update/common/scripts/6.0/createuseraudittable.php; chaykama chiqaqchay willañiqikuna sapa pasakuyta waqaychanku.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Kay raphiqa SQL willakuna waqaychanatam munan; MongoDB-pi mana kanchu. Chiqaqchay willañiqikuna sapa pasakuyta waqaychanku.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Kayman</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Apaykachaqkunap chiqaqchay qillqan</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Apaykachaq</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Hayk&apos;aq</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Maypi</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Pim mayqin kuwintata tikrarqan, ruwarqan, kichaykurqan, wichqarqan, astarqan utaq qichurqan, pim yaykurqan utaq mana chaskisqa karqan, hinaspa ima ruwanakuna quykusqa karqan: sapa pasakuypaq huk siq&apos;i, ñawpaq hinaspa qhipa pampakunawan. Pakasqa simikuna hinaspa pakasqa willakuna manam hayk&apos;aqpas qillqasqachu.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>huñu</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistema</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>mana riqsisqa</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kuwintaykita amachay</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Huk kutichina yupaywanmi kuwintaykiman yaykurqanku (%login, %site nisqapi).</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Huk kutichina yupaymi llamk&apos;achisqa karqan</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kuwinta</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Yaqa riqsichiq</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Musuq pakasqa simita mañakuy huktawan yaykunaykipaq, utaq webpa kamachiqninkunawan rimay.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Musuq pakasqa simita mañakuy</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Sapa kutichina yupayqa huk kutillam llamk&apos;an. Tilifunuykita chinkachirqanki chayqa, chiqaqchaq app-niykita huktawan allichay, musuq kutichina yupaykunatataq allin amachasqa kitipi waqaychay.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Kuwintaykiman mana atipasqa yaykuy kallpachakuykuna</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Kunanmantaqa yaykunapaq pakasqa simiykimanta aswan huk yupaytam mañakunqa. Qam kayta ruwarqanki chayqa, manam imatapas ruwanaykichu.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Qam karqanki, pakasqa simiykitataq qunqarqanki chayqa, musuqta mañakuy. Mana chayqa, aswan kallpasapa pakasqa simita akllay, iskay purinapi yaykuytataq llamk&apos;achiy.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Mana qamchu karqanki chayqa, pipas pakasqa simiykita yachanman: kunallan hukchay, maypichus kuwintayki yaykusqa kachkan chaytapas qhaway.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Puchuq kutichina yupaykuna</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Aparatuykikunata qhaway</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Amachay willakuy</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Pipas kuwintaykiman (%login, %site nisqapi) pantasqa pakasqa simiwan yaykuyta munarqan, %count kutita qatiqninpi.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Kuwintaykipi (%login, %site nisqapi) huk amachay pasakuy karqan.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Kayqa kuwintaykimanta amachay willakuymi. Sapa kay hina hukchaypaq kachakun, manataq samachiyta atikunchu.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Pacha</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Iskay purinapi yaykuyqa kuwintaykipaq (%login, %site nisqapi) samachisqa karqan.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Iskay purinapi yaykuyqa samachisqa karqan</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Iskay purinapi yaykuyqa kuwintaykipaq (%login, %site nisqapi) llamk&apos;achisqa karqan.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Iskay purinapi yaykuyqa llamk&apos;achisqa karqan</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Kuwintayki (%login, %site nisqapi) achka mana atipasqa yaykuykuna qhipata wichqasqa karqan.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Kunanqa kuwintayki pakasqa simiykillawan amachasqa. Mana qamchu kayta ruwarqanki chayqa, pakasqa simiykita hukchaspaqa iskay purinapi yaykuyta huktawan llamk&apos;achiy.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Kuwintayki wichqasqa karqan</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site nisqapi %login kuwintaykimanmi huk yaykuna kichana yapakurqan.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Pipas kay yaykuna kichanayuqqa kuwintaykiman yaykuyta atin mana pakasqa simiykiwan. Mana qam yapakurqankichu chayqa, Yaykuna kichanakuna nisqapi hurquy hinaspa pakasqa simiykita hukchay.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site nisqapi %login kuwintaykimantam huk yaykuna kichana hurqukurqan.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Manañam kuwintaykiman yaykuyta atinchu. Mana qam hurqurqankichu chayqa, yaykuna kichanaykikunata aparatuykikunatawan qhaway.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Kuwintaykimanmi huk yaykuna kichana yapakurqan</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Kuwintaykimantam huk yaykuna kichana hurqukurqan</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Amachay ruraykuna</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Amachay ruraykuna: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Yaykusqa</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Mana atipasqa yaykuy kallpachakuy</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Lluqsisqa</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Tinkuykuna lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Musuq aparatumanta yaykuy</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Musuq tiyanamanta yaykuy</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Pi kasqan chiqaqchasqa («Qam kasqaykita chiqaqchay»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Pi kasqanta qhaway mana atipasqa</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Yaykuna kichanawan yaykusqa</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Yaykuna kichanawan yaykuy mana atipasqa</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Yaykuy mana chaskisqa: iskay purinap yupayninqa mana kanchu utaq pantasqa</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Iskay purinap pantasqa yupaynin</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kuwinta mana atipasqa yaykuykuna qhipata wichqasqa</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kuwinta kichasqa</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Pakasqa simi hukchasqa</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Pakasqa simi hukchay mana atipasqa</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Pakasqa simi musuqyachisqa</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Musuq pakasqa simi mañakusqa</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Antañiqi riqsichiq hukchasqa</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Apaykachaqpa sutin hukchasqa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Iskay purinapi yaykuy llamk&apos;achisqa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Iskay purinapi yaykuy samachisqa</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kutichina yupay llamk&apos;achisqa</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Musuq kutichina yupaykuna</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>App pakasqa simi paqarichisqa</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>App pakasqa simi chinkachisqa</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Yaykuna kichana yapasqa</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Yaykuna kichana hurqusqa</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kuwinta llamk&apos;achisqa</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kuwinta samachisqa</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tukuy</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Yaykuykuna tinkuykunapas</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kuwinta hukchaykuna</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Qhawanapaq</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>qampa ruwasqan</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>apaykachaqpa ruwasqan</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login-pa ruwasqan</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Imayna</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Web puriq</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Llamk&apos;ay sistema</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Aparatu</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Kiti</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Suyu</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Tinkuykuna</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Mayqinkuna</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kachana ñan</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mana atipasqa kallpachakuykuna</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Puchuq yupaykuna</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Yaykuy ruraq</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Amachay ruraykuna</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Amachay ruraykuna: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Kuwintaykip amachayninpi yaykuykuna hukchaykunapas. Mana ruwasqaykita rikunki chayqa, pakasqa simiykita hukchay, mana riqsisqayki aparatukunatataq lluqsichiy.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Kay kuwintap amachayninpi yaykuykuna hukchaykunapas.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Aparatukuna</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Pakasqa simita t&apos;ikray</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Kuwintaman kutiy</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Amachay ruraykunaqa mana qillqasqachu</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Apaykachaqkunap chiqaqchay qillqanmanta ñawinchasqa; chaypa expuser_audit tablanqa mana kanchu utaq kay willakuna waqaychanapi mana yanapasqachu. Purichiy php update/common/scripts/6.0/createuseraudittable.php, utaq 6.0.15 nisqap willakuna waqaychana musuqyachiynin.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Qhipa %days p&apos;unchawkuna</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Qhipa %days p&apos;unchawpi yaykuykuna</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Qayna amachay ruraykuna</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rikuchiy</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>mana atipasqa</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>mana chaskisqa</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Manaraq amachay ruraykuna qillqasqachu.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Amachay pasakuykunaqa %days p&apos;unchaw waqaychasqa kanku.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Amachay pasakuykunaqa huk kamachiq hurqunankama waqaychasqa kanku.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Yaykuy willakunayta uraqay</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Tinkuykunayki amachay pasakuykunaykipas JSON willañiqi hina.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Kay sitiopiqa tinkuykunaqa mana qillqasqachu, chayrayku mana ima huk aparatutapas lluqsichiyta atikurqanchu. Kunanpacha pakasqa simiykita t'ikray.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count huk tinkuykuna lluqsichisqa karqan. Kunan pakasqa simiykita t'ikray.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Mana ima huk aparatupas yaykusqachu karqan. Kunan pakasqa simiykita t'ikray.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Sulpayki. Kay ruwasqaqa qampa hina markasqa.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Chay ruwasqaqa mana kutichiyta munanchu.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Raphiqa pachanta pasarqan. Manam imapas hukchasqachu; huktawan yachapay.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kuwintaykita amachay</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Kaypi imapas mana qamchu karqan chayqa, llapa huk aparatukunata lluqsichiy, chaymanta musuq pakasqa simita akllay. “Yuyaykuway” nisqawan yaykusqa qhipaq aparatukunapas lluqsichisqa kanqaku.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Kay aparatumanta hawa, llapa aparatukuna qatiq mañakuyninpi lluqsichisqa kanqa. Chaymanta musuq pakasqa simita akllanki.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Arí, huk aparatukunata lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Qamchu karqanki?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Arí, ñuqam karqani</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Mana, kuwintayta amachay</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Yaykusqa</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Mana atipasqa yaykuy kallpachakuy</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Lluqsisqa</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Tinkuykuna lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Musuq aparatumanta yaykuy</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Musuq tiyanamanta yaykuy</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Pi kasqan chiqaqchasqa («Qam kasqaykita chiqaqchay»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Pi kasqanta qhaway mana atipasqa</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Yaykuna kichanawan yaykusqa</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Yaykuna kichanawan yaykuy mana atipasqa</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Yaykuy mana chaskisqa: iskay purinap yupayninqa mana kanchu utaq pantasqa</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Iskay purinap pantasqa yupaynin</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kuwinta mana atipasqa yaykuykuna qhipata wichqasqa</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kuwinta kichasqa</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Pakasqa simi hukchasqa</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Pakasqa simi hukchay mana atipasqa</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Pakasqa simi musuqyachisqa</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Musuq pakasqa simi mañakusqa</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Antañiqi riqsichiq hukchasqa</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Apaykachaqpa sutin hukchasqa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Iskay purinapi yaykuy llamk&apos;achisqa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Iskay purinapi yaykuy samachisqa</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kutichina yupay llamk&apos;achisqa</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Musuq kutichina yupaykuna</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>App pakasqa simi paqarichisqa</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>App pakasqa simi chinkachisqa</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Yaykuna kichana yapasqa</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Yaykuna kichana hurqusqa</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kuwinta llamk&apos;achisqa</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kuwinta samachisqa</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tukuy</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Yaykuykuna tinkuykunapas</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kuwinta hukchaykuna</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Qhawanapaq</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Amachay ruraykuna</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Amachay ruraykuna: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Kuwintaykip amachayninpi yaykuykuna hukchaykunapas. Mana ruwasqaykita rikunki chayqa, pakasqa simiykita hukchay, mana riqsisqayki aparatukunatataq lluqsichiy.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Aparatukuna</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Pakasqa simita t&apos;ikray</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Kay webpiqa amachay ruraykuna manaraq qillqasqachu.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Qhipa %days p&apos;unchawpi yaykuykuna</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mana atipasqa kallpachakuykuna</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Manaraq amachay ruraykuna qillqasqachu.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Yaykuy willakunayta uraqay</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Tinkuykunayki amachay pasakuykunaykipas JSON willañiqi hina.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Kay sitiopiqa tinkuykunaqa mana qillqasqachu, chayrayku mana ima huk aparatutapas lluqsichiyta atikurqanchu. Kunanpacha pakasqa simiykita t'ikray.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count huk tinkuykuna lluqsichisqa karqan. Kunan pakasqa simiykita t'ikray.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Mana ima huk aparatupas yaykusqachu karqan. Kunan pakasqa simiykita t'ikray.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Sulpayki. Kay ruwasqaqa qampa hina markasqa.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Chay ruwasqaqa mana kutichiyta munanchu.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Raphiqa pachanta pasarqan. Manam imapas hukchasqachu; huktawan yachapay.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kuwintaykita amachay</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Kaypi imapas mana qamchu karqan chayqa, llapa huk aparatukunata lluqsichiy, chaymanta musuq pakasqa simita akllay. “Yuyaykuway” nisqawan yaykusqa qhipaq aparatukunapas lluqsichisqa kanqaku.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Kay aparatumanta hawa, llapa aparatukuna qatiq mañakuyninpi lluqsichisqa kanqa. Chaymanta musuq pakasqa simita akllanki.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Arí, huk aparatukunata lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Qamchu karqanki?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Arí, ñuqam karqani</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Mana, kuwintayta amachay</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Pakasqa simi</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Pakasqa simi iskay purinap yupayninpas</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST tinkuchiq</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP tinkuchiq</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Huklla yaykuy</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Tinkuykuna manaraq qillqasqa kachkaptin yaykusqa</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Yaykuykunamanta willakuy</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Pikuna webman yaykusqa kachkanku, hayk&apos;a kutitataq kuwintakuna yaykunku mana atipaspapas, huk apaykachaqta llapa ladumanta lluqsichiypas. Sapa tinkuy ruraqwan llamk&apos;an.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Tinkuyqa lluqsichisqa karqan. Aparatuqa huktawan yaykunan tiyan.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login lluqsichisqa karqan; tinkuykuna: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login mana purichkaq tinkuyniyuqchu karqan.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Mana mayqin kuwintapas chay ID, apaykachaqpa sutin utaq antañiqi riqsichiqniyuqchu.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Kayqa llamk&apos;achisqayki tinkuymi. Tukuchinaykipaqqa lluqsiy.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Chay tinkuyqa ñam tukusqaña karqan.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>P&apos;anqaqa tukusqa pachayuqña karqan. Mana imapas hukchasqachu; ama hina kaspa, huktawan ruway.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Kay webpiqa tinkuykuna mana qillqasqachu (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session tablaqa mana kanchu</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Paqarichisqa kaptinmi tinkuykuna qillqasqa kanqa: php update/common/scripts/6.0/createusersessiontable.php, utaq 6.0.15 nisqap willakuna waqaychana musuqyachiynin.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Kunan, kunan p&apos;unchawpas</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Purichkaq tinkuykuna</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Yaykusqa apaykachaqkuna</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Kunan p&apos;unchaw yaykuykuna</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Kunan p&apos;unchaw mana atipasqa kallpachakuykuna</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Huk apaykachaqta llapa ladumanta lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Kuwintap sapa tinkuyninqa qatiq mañakuyninpi tukukun, «Yuyaykuway» nisqawan waqaychasqakunapas. Kayta llamk&apos;achiy huk kuwinta mana allin makipi kanman chayqa; chaymantataq pakasqa siminta musuqyachiy.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Apaykachaqpa ID-n, apaykachaqpa sutin utaq antañiqi riqsichiq</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Llapa ladumanta lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Kunan yaykusqa</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Qhipa llamk&apos;achisqa tinkuykuna rikuchisqa: %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Apaykachaq</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Aparatu</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Riqsichiq</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Yaykusqa</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Qhipa kuyuy</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ruraykuna</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Kay aparatu</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Mana qillqasqa</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Lluqsiy</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Mana mayqin tinkuypas yaykusqachu.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Qhipa %days p&apos;unchawkuna</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Yaykuykuna mana atipasqa kallpachakuykunapas apaykachaqkunap chiqaqchay qillqanmanta yupasqa, chayqa mana kanchu; musuq tinkuykunaqa yupasqallam.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>P&apos;unchaw</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Yaykuykuna</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mana atipasqa kallpachakuykuna</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Musuq tinkuykuna</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Tinkuy ruraq: %handler. Tinkuykunaqa expuser_session tablamanta ñawinchasqa, chaymi willakuyqa sapa ruraqwan llamk&apos;an.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Tukukuq %hours horakunapi iskayrayana ruraykuna</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Huk llika mana atirqanchu %accounts kuwintakunaman yaykuyta (%count kallpachakuy)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kuwinta wichqasqa mana atipasqa yaykuykunamanta</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Huk kuwintapi %count mana atipasqa yaykuykuna</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>%count suyukunamanta kuskalla yaykusqa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Amachay ruraykuna</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Tinkuykuna</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Mana atipasqa yaykuykunaqa ruraqkunap qhawarina qillqanmanta ñawinchasqa, chayqa mana kaypichu.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Mana imapas iskayranapaqchu: mana kanchu kuwinta mana atipasqa yaykuykunawan kutin kutin, mana kanchu llika achka kuwintakunata yachapaq, mana kanchu kuwinta achka suyukunamanta yaykusqa.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Kuwintaykimanta amachay willakuy</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Kuwintaykipi (%login) huk amachay pasakuy karqan: %event. Mana qamchu karqanki chayqa, kuwintaykita kaypi amachay: %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Wakichiy</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Kay web kamachikuypa contenidonmanta huk p'anqa necesitasqan campokunallata mañakuy, huk mañakuyllapi. Siq'iqa contenido clasekunatam qatin; sapa tapukuymi kachaqnin runapa derechonkunawan purin.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL APIqa wañuchisqam kay web yaykunapi. graphql.ini nisqapi kawsachiy: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL biblioteca (webonyx/graphql-php 15) mana churasqachu.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Tukuna k'iti</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Biblioteca</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Siq'i</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count contenido clasekuna, siq'i %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Tapukuy</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Tikrakuqkuna (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Purichiy</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Kutichiy</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Purichkan…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Kutichiyqa mana ñawinchay atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Tapukuyqa qampa derechoykikunawan purin, kay sesionwan yaykusqa kaspa.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds s ukhupi %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>mana saywayuq</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Ukhu kay</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Ch'iqi kay</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Sapa listapi imakuna</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ñawpaqmanta %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Sapa ruraq utaq llavepaq mañakuykuna</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Sapa mana riqsisqa tiyapaq mañakuykuna</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspección</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Waqaychasqa tapukuykunalla</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Aswan hatun tapukuy</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Aswan hatun wichachiy</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Manam %siteaccess web yaykuy kanchu.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutacionkunaqa kawsachisqam %siteaccess nisqapi.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutacionkunaqa wañuchisqam %siteaccess nisqapi.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL APIqa kawsachisqam %siteaccess nisqapi.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL APIqa wañuchisqam %siteaccess nisqapi.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Churanakunata manam qillqayta atikurqanchu: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Kutichiy cacheqa ch'uyanchasqam: %count kutichiykuna qichusqa.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Tapukuyta qichunaykipaq waqtanpi cajata markay.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Tapukuytaqa manam qichuyta atikurqanchu: PersistedQueryDirectoryList[] nisqapa directorionpi apamusqa tapukuyqa willañiqinwan kuskam qichukun.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Waqaychasqa tapukuyqa qichusqam.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutacionkuna</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>kawsachisqa</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>wañuchisqa</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Web yaykunakuna</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Maypim API mutacionninkunapas kutichinku. Butonkunaqa graphql.ini nisqatam qillqanku, ./console exp:graphql:enable exp:graphql:disable nisqakuna hina.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Web yaykuy</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Tikray</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Wañuchiy</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutacionkuna wañuchisqa</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutacionkuna kawsachisqa</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Kawsachiy</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Saywakuna</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Kay web yaykuypa graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Kutichiy cache</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Waqaychasqa tapukuykunapa kutichiyninkuna, ruraqpa derechonkunaman hina waqaychasqa, samiq lluqsichikuqtinkama tukusqa.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kaynin</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Waqaychasqa kutichiykuna</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count kutichiykuna, %bytes bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Aswan unaypaq waqaychasqa</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Qhipa tukukuy</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Kutichiy cacheta ch'uyanchay</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Waqaychasqa tapukuykuna</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist nisqawan, utaq clientekunawan waqaychasqa (kikinmanta waqaychasqa tapukuykuna); sutinwan utaq SHA-256wan waqyasqa.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Sutikuna</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Sayaynin</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Maypi</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Qichuy</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>apamusqa</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>waqaychasqa</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Arí, kay tapukuyta qichuy</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Manaraqmi waqaychasqa tapukuy kanchu.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API llavekuna</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Sapan API llavekuna graphql:read (tapukuykuna) utaq graphql:write (mutacionkuna) chiqanniyuq. API yaykuy p'anqapi, utaq ./console exp:graphql:keys nisqawan ruway hinaspa chinkachiy.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API yaykuy</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Llapa llavekuna</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Llave</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Suti</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Dueño</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Chiqankuna</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Qhipa llamk'achisqa</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>kawsaq</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>tukusqa</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>chinkachisqa</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mana hayk'appas</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Manaraqmi GraphQL chiqanniyuq API llave kanchu.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL APIqa wañuchisqam kay raphita rikuchiq %siteaccess web yaykunapi; uraypi kaq tablam rikuchin maypi kutichisqanta.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Kay raphita rikuchiq %siteaccess web yaykunapaq.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhookkuna</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Tukuna k'iti mañakusqan sapa ruwakuyta (publish, update, trash, delete, move, hide, reveal, mutation) paymanmi apachikun, silq'usqa, cronjobpa graphqlwebhooks nisqa partenwan. ./console exp:graphql:webhooksqa kay t'aqa hinallatam ruwan.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Ruwakuykuna</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>llapan</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Sapa web yaykuy</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>p'akisqa</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>mana pakasqayuq</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Suyachkan</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count saqisqa</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Qhipa apachiy</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Huk pruebata apachiy</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Arí, kay webhookta qichuy</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Manaraqmi webhook kanchu.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Huk webhookta yapay</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Yapay</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Qayna apachiykuna</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Pacha</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Lluqsisqan</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Suscripcionkuna</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Clientekunapaq kawsaq musuqchaykuna: ruwakuy puriy /api/graphql/subscribe nisqapi, huk WebSocket (graphql-transport-ws) Velocitypi ima. Sapa ruwakuyqa samiqninta ñawinchayta atiq suscriptorkunallamanmi rin.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Kunan kichasqa</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Aswan achka kichasqa</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total llapanpi, %user sapa llamk'achiqpaq, %address sapa tiyanapaq</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Mana sutiyuq suscripcionkuna</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Puriypa unaynin</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhookta manam yapayta atikurqanchu: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name tikrasqam; silq'una pakasqanqa qhipakunmi.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Silq'una pakasqata manam waqaychayta atikurqanchu (Wakichiy &gt; Pakasqakuna).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name yapasqam. Silq'una pakasqan, kay kutillam rikuchisqa: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Manam webhook %name kanchu.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name manam kutichirqanchu: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name %status kutichirqan %ms ms ukhupi.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Webhookta qichunaykipaq waqtanpi cajata markay.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name qichusqam.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL APIqa wañuchisqam kay web yaykunapi.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL bibliotecaqa mana churasqachu.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET utaq POST nisqata llamk&apos;achiy.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Mañakuypa ukhunqa manam JSON objetochu.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables nisqaqa manam JSON objetochu.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions nisqaqa manam JSON objetochu.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Tapukuyta POST nisqawan apachiy.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Mañakuypiqa manam tapukuy kanchu.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Tapukuyqa %max bytesmanta aswan sunim.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Servidorpa ukhun pantay</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node nisqaqa id, remoteId, path, urlAlias nisqakunamanta hukllatam munan.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content nisqaqa id, remoteId nisqakunamanta hukllatam munan.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after nisqapa cursorninqa manam kay API qusqanchu.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Manam kanchu %alias rikch&apos;a aliasqa (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Kaypiqa waqaychasqa tapukuykunallatam chaskinku: servidorpi waqaychasqa tapukuypa id nisqanta apachiy.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Waqaychasqa tapukuypa hashninqa manam SHA-256chu.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Waqaychasqa tapukuypa hashninqa manam tapukuywan tupanchu.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Nisyu mañakuykuna: %window segundopi aswanqa %limit. %reset segundomanta huktawan kallpachakuy.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Tapukuyqa %depth patakuna ukhum; aswanqa %max nisqallam saqisqa.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Tapukuypa sasachakuyninqa %complexity; aswanqa %max nisqallam saqisqa.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Kay mañakuyqa manam siq&apos;ita ñawinchanmanchu (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search nisqaqa qillqata utaq filtrota munan (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument nisqaqa manam p&apos;unchawchu (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag nisqaqa id, remoteId, path nisqakunamanta hukllatam munan.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout nisqaqa id, identifier, urlAlias nisqakunamanta hukllatam munan.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart mañakuypa operations nisqa pampanqa manam huk JSON mañakuychu.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart mañakuypa map nisqa pampanqa manam JSON objetochu.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart mañakuypiqa manam %field willañiqichu kan.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Pampakuna mapapi ñanqa variables. nisqawan qallarinan: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name willañiqiqa manam hunt'asqachu chayamurqan (wichachiy pantay %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name willañiqiqa %max bytesmanta aswan hatunmi.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name willañiqitaqa manam qhawayta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutacionkunaqa wañuchisqam kay web yaykunapi (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Mutaciontaqa POSTwan apachiy.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Yaykuy samiqta tikrachinaykipaq.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API llaveqa manam %scope nisqa chiqanniyuqchu.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Sesionniyuq mutacionqa sesionpa formulario tokenninta munan (umalliq X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrlqa wañuchisqam: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nisqapiqa manam ima hostpas kanchu.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Tiyaqa https tiyam kanan.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host hostqa manam graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nisqapichu.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Willañiqitaqa manam apamuyta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload nisqaqa yaykuchiy laya kaqllam.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload layayuq tikrakuqqa multipart mañakuypa willañiqintam chaskin.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>%remoteId karu id nisqaqa ñam hap'isqa.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Samiqqa ñam %language simipi t'ikrasqayuq: updateContent nisqata llamk'achiy.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Huk pampallatapas quy.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Manam musuq versionta ruwayta atikurqanchu (samiqqa nisyu borradorniyuqmi).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>%version versionqa manam borradorchu.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContentqa id nodeId nisqakunamanta hukllatam munan.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Huk tiyakuyqa manam kikinpa uranmanqa astakuyta atinchu.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Samiqqa ñam %parentId uranpi tiyakuyniyuq.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field pampapa chaninta manam waqaychayta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Manam %language samiq simi kanchu.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Siq'ipiqa manam %class samiq clase kanchu.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Samiqqa manam kanchu, utaq manam ñawinchayta atinkichu.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Manam kay samiqwan chayta ruwayta atinkichu.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class claseqa manam qillqana %field pampayuqchu.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field pampaqa iskay kutitam qusqa.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field pampaqa willañiqitam chaskin: wichachiy hina apachiy (multipart mañakuy).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field pampaqa manam willañiqita chaskinchu.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field pampaqa huk chanintam munan.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format formatoqa qhapaq qillqa pampakunallapaqmi; %field chaninninta kasqanta hinam chaskin (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field pampaqa necesitasqam.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTMLtaqa manam ñawinchayta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>contentqa id nisqawanllam version nisqata chaskin.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Ñawpaq qhawana tokenqa manam allinchu utaq ña tukukurqanmi.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Manam originchu (https://host utaq https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Manam GraphQL APIpa chiqanninchu: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Suscripcionkunata /api/graphql/subscribe nisqaman apachiy (ruwakuy puriy utaq WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Mañakuyqa manam qillqapa ni huk ruwayninta sutichanchu.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Huk suscripcionqa huk chakrallatam mañakun.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Nishu achka suscripcionkunam kichasqa; qhipaman wakmanta ruway.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>%max suscripcionkunam kichasqa kapusunki, chayqa aswan achka saqisqam.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Tiyanaykiqa %max kichasqa suscripcionkunayuqmi, chayqa aswan achka saqisqam.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Suscripcionkunaqa wañuchisqam kay web yaykunapi.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Suscribikunaykipaq yaykuy (huk token utaq kikiykipa API llavenwan).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Mutacionkunata /api/graphql nisqaman apachiy.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Astaykuna</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Kayninta mana ñawinchayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Astaykunapa tablankuna manaraq kanchu: ./console exp:upgrade --apply ruran.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count astaykuna pantarqan</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Huk purichiy purichkan, %user qallarichirqan</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Churasqa wichqasqa kachkan: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Suyachkan</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Pantasqa</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Wakcha</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Qhipa purichiy</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>manaraq mayqinpas</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Tukuy astaykuna</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Yanqa purichiy</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Pruebapaq purichiy</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Suyachkaq astaykuna huk ruraypi purirqan, chaymanta kutichisqa karqan: manam imapas waqaychasqachu. Uraypim sapanka willakuna waqaychanapi ima tikrasqanta qhawanki.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Kunan huk purichiy ima ruranmanchus. Manam imapas tikrakunchu: sapanka suyachkaq astaymi ima tikraykunata ruranmanchus sutinchan, purichiytaq ñawpaqta qhipatapas ima ruranmanchus.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Yanqamanta ruray</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Purichiy</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Pruebapaq purichiy pantarqan: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Yanqamanta rurayqa PostgreSQL utaq SQLite nisqatam munan, chaykunapi esquema tikraykuna kutichiy atikun; kay willakuna waqaychanapiqa uraypi yuyaymi huk purichiy ima ruranmanchus rikuchin.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Astaykuna</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Astay</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kaynin</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ima ruranman</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Yanqamanta ruray: %result %ms ms ukhupi</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Manaraq astay kanchu.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Purichiypa ñawpaqninpi qhipanpipas</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Ñawpaq rikch&apos;ay</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>hurqusqa, astay pantaptinqa kutichisqa</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>wañuchisqa</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Qhipa rikch&apos;ay</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>hurqusqa purichiy allin lluqsiptin</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total astaykuna: %pending suyachkan, %done tukusqa, %failed pantasqa.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Astaykunapa willakuynin</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Sapanka purichiy runanwan, muyuriqninwan, rikch&apos;ayninkunawan, ima takyachisqa, unanchasqa, apachisqa kasqanwan. Pantasqa utaq kuchusqa purichiyta hukmanta qallariy atikun; ñawpaqninpi rikch&apos;ay hurqusqa purichiytaqa kutichiy atikun.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Purichiykunata mana ñawinchayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Astaykunapa tablankuna manaraq kanchu: ./console exp:upgrade --apply ruran.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rikuchiy</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tukuy</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Purichiykuna</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Qallarisqa</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Pi</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Rikch&apos;aykuna</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Waqaychana</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ruraykuna</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ñawpaq</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>qhipa</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>apachiy: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Hukmanta qallariy</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Kutichiy</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Kay kayninpi manam purichiy kanchu.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Kaypi qallarisqa</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Kay p&apos;anqakunapi qallarisqa purichiykuna, hukmanta qallariykuna, kutichiykunapas, sapankapa willakuyninwan.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ima</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Lluqsisqan</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Kutichiy</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target kutichiy</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Purichiy %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Purichiy ima rurasqan, qillqasqan, qillqa willakuynin ima. Kaypi qallarisqa purichiyqa kay p&apos;anqa wichqasqa kaptinpas qhipapi purillanmi; qatipanaykipaq p&apos;anqata hukmanta kichay.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Kay purichiyta hukmanta qallariy</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Kay purichiyta kutichiy</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Qillqasqata mana ñawinchayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ñawpaqman puriy</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user qallarichirqan %time pachapi.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Codigota qhawachkan, purichiypa ñawpaqninpi rikch&apos;ayta hurquchkan</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id purichkan (%index %total ukhumanta)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done %total ukhumanta tukusqa</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Astaykuna purirqanña; huknin pantarqan chayqa rikch&apos;ayta kutichichkan</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Purichiypa qhipanpi rikch&apos;ayta hurquchkan, takyachichkan, unanchachkan, apachichkan</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Rikch&apos;ayta kutichichkan</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Purichiy tukurqanña. Willakuynin cargakuchkan.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Ñawpaqman puriyninta mana qatipayta atikurqanchu. P&apos;anqata hukmanta cargay purichiy imayna kachkasqanta qhawanaykipaq.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Kay p&apos;anqaqa purichiyta purichkaptin qatipan.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Hukmanta cargay</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Willakuy</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Unaynin</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Purichiy pantay hina ima qillqasqan</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Qillqasqa</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Muyuriq</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>mana mayqinpas</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Tukusqa</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Takyachiy</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Unanchay</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Apachiy</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Willay</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Kay purichiypa astaykunan</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Pukyu</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Purichiypa qillqa willakuynin</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Qillqa willakuypa tukukuyllanmi rikuchikun.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>purichkan</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>willakuy mana kaspa tukurqan</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>allin lluqsirqan</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>pantasqa</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>mana chaskisqa</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>willakuna waqaychanaman mana chayayta atikurqanchu</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>ukhu pantay</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Huk purichiy purichkan</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind %user qallarichirqan %time pachapi.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Qatipay</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Churasqa wichqasqa kachkan</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Huk purichiymi wichqanata hap&apos;ichkan (huk musuqchay utaq consolapi purichiy): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>tukusqa</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>suyachkan</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>mana necesitakunchu</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>mana riqsisqa</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>kutichisqa</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>churasqa</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>churakunman</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>kutichisqa kaq</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>kutichikunman</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>mana purisqa</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>hukta suyachkan</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>tikray chaskisqa</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>tikray chaskikunman</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>yanqamanta rurasqa</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Astaykuna</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Kaynin</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Willakuynin</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target kutichiy</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Huk purichiyqa ñawpaqninpi hurqusqa rikch&apos;aymanmi kutichikun, huk astaytaq down() nisqanwan. Ñawpaq rikch&apos;ayta kutichiyqa yachaqkunapaqmi. Sapankam qampa sutiykipi qhipapi purin, kunan kayninpa rikch&apos;aynin hurqusqa kaptin.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Ima kutichiy atikusqanta mana ñawinchayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Huk purichiy</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Huk astay</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Huk ñawpaq rikch&apos;ay</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Sut&apos;ichay</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>arí</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>manam</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Rikch&apos;ay</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Sutichay</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Hurqusqa</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Laya</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Kutichinapaq partekuna</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Willakuna waqaychana</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Waqaychasqa willañiqikuna (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Churanakuna (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Willakuna waqaychanata kutichiyqa rikch&apos;ay hurqusqa pachamanmi kutichin, sesionkunapas: chaymantaqa hukmanta yaykunayki kanman. Chaymanta tikrasqa llapanmi chinkan; ñawpaqtaqa kunan kayninpa rikch&apos;aynin hurqukun.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Kay ima kutichisqanta yachani</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Rikch&apos;aypa riqsichiyninta hukmanta qillqay</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Arí, kutichiy</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Qhisachay</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Ñawpaqninkupi rikch&apos;ay hurqusqa purichiykuna.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Akllay</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Manaraq rikch&apos;ayniyuq purichiy kanchu.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Churasqa astaykuna kikinkumanta kutichikuyta atiqkuna (down() nisqayuqmi kanku).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Manam mayqin churasqa astaypas down() nisqayuqchu.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Ñawpaq rikch&apos;aykuna (yachaqkunapaq)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Manaraq rikch&apos;ay kanchu.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Astaykunata purichiy</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Purichiyqa %user hina qhipapi purin, p&apos;anqantaq purichkaptin rikuchin. Ñawpaq kaq astaypa ñawpaqninpi churasqapa rikch&apos;aynin hurqukun; huk astay pantaptinqa purichiy sayan, rikch&apos;aytaq kutichikun.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Ñawpaqta pruebapaq purichiy</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Kayninta mana ñawinchayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Suyachkaq astaykuna</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Kay ordenpi purinku. Hukninta unanchanta qichuy, chayta chaywan necesitaqkunatawan qhipa purichiypaq saqinaykipaq.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Purichiy</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Purichkaptin allichay modota hap&apos;ichin.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Churasqa kasqanku qhipa tikrasqa</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Kay willañiqikunaqa manam churasqa kaqkunachu. Huk purichiyqa mana chaskinchu, tikray imaraykuwan chaskisqa kaptillanmi; manam hukmanta purinkuchu, musuq checksum qillqakun, imaraykutaq auditoria qillqapi waqaychakun.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Tikraykunata chaskiy</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Imarayku</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Ñawpaqmanta churasqakunaqa mana manchakuypaqmi. Sapanka cajam huk puriyta saqin.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Mana rikch&apos;ayniyuq</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Purichiypa ñawpaqninpi qhipanpipas mana rikch&apos;ay: pantayqa manam kikinmanta kutichiy atikunchu.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Mana kutichiyniyuq</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Pantaypa qhipanpi, churasqata pantay saqisqanta hina saqiy.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Mana takyachisqa tikraykunata waqaychay</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Purichiy churanakuna, mast&apos;arikuykuna utaq disenokuna mana takyachisqa tikrayniyuq kaspapas; chaykunaqa rikch&apos;aymanmi yaykun.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Mana takyachiyniyuq</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Kaynin willañiqita purichiypa qillqa willakuynintapas ama takyachiychu (nitaq unanchaytapas nitaq apachiytapas).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Mana apachiyniyuq</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Takyachiy unanchaypas, ichaqa ama apachiychu.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Mana unanchayniyuq</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Takyachiy apachiypas, ichaqa purichiyta ama unanchaychu.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Arí, kay astaykunata kunan purichiy</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Manam mayqin astaypas suyachkanchu.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Kayninman kutiy</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Kay churasqapi tikraykuna huk kutillata willañiqi hina qillqasqa (contenidokuna, clasekuna, rolkuna, churanakuna, esquema) hinaspa sitiopa sapanka churasqanpi kikin ordenllapi churasqa. Huk purichiyqa ñawpaqta rikch&apos;ayta hurqun, huk astay pantaptin kutichin, rurasqantataq qillqan, takyachin, apachin.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count suyachkaqta purichiy</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Tukuy qhaway</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Suyachkan</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tukusqa</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Pantasqa</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Mana necesitakunchu</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Willakuna waqaychana</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ruraykuna: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Sitiopa astayninkunaqa migrations/ ukhupim kachkan, huk mast&apos;arikuypa astayninkunataq extension/&lt;name&gt;/migrations/ ukhupi. Sutinkupa ordenninpi necesitasqankuman hina purinku.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Qhipa purichiy</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Willañiqiqa churasqa kasqan qhipa tikrakurqan.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Manaraq astay kanchu. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ñawpaq kaqta qillqan.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Qhipa purichiykuna</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Tukuy purichiykuna</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Manaraq purichiy kanchu.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Purichiyta yanqamanta rurayqa migration/run kamachiytam munan.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Huk purichiy purichkan: tukuptin yanqamanta ruray.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Wakichiy</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target manam kay churasqapa purichiynin, astaynin nitaq rikch&apos;ayninchu.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Ñawpaqta «Arí, kutichiy» unanchay.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Ñawpaq rikch&apos;ayta kutichiyqa yachaqkunapaqmi: «Kay ima kutichisqanta yachani» unanchay.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Rikch&apos;aypa riqsichiyninta hukmanta qillqay: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Kutichinapaq aswan pisiqa huk parteta akllay.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Kay purichiyqa manam ñawpaqninpi rikch&apos;ayniyuqchu: astayninkunata hukmanta hukman kutichiy, utaq huk ñawpaq rikch&apos;ayta kutichiy.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Kay astayqa manam kikinmanta kutichikuyta atinchu: mana churasqachu, utaq mana down() nisqayuqchu.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formulariota mana ñawinchayta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Hukmanta qallarinapaq purichiyta akllay.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Ñawpaqta «Arí, kay astaykunata kunan purichiy» unanchay.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Aswan pisiqa huk astayta akllay.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Huk astay churasqa kasqan qhipa tikrakurqan: tikrayta imaraykuwan chaskiy, utaq willañiqita kutichiy.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Tikrasqa astaykuna imarayku chaskisqa kasqanta niy.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Imaraykuqa aswan achkaqa 500 sananchakunam.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Kaypi qallarisqa purichiyqa purichkanraqmi (%detail). Tukunankama suyay.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Huk purichiymi churasqapa wichqananta hap&apos;ichkan: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Purichiyqa yaykusqa kaq, kaq runatam munan.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Manam php kamachiy siqi programa tarikurqanchu. migration.ini [AdminSettings] PhpCliPath nisqapi llapan ñanninta churay.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open wañuchisqam, chayrayku kaypi purichiyta mana qallariy atikunchu. Servidorpi ./console exp:migration:migrate --apply purichiy.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Purichiykunapa carpetanpi mana qillqay atikunchu: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Purichiyqa qallarirqanmi, ichaqa procesonpa riqsichiynintaqa mana willarqanchu. %detail qhaway.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Ima kutichinatam niy.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Purichiyta mana qallariyta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Tikraykunata qillqay</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Qillqay purichkaptinqa, kamachiypi utaq kitiq waqta barranpi tikrasqaykiqa huk astakuypa purikunan hina waqaychakun: willakuy, laya, ruraykuna kamachikuykunapas, rakikuna, llamk'aqkuna huñukunapas, URL huk sutikuna, churakuykuna. Tukuspaqa sayachiy, ima hap'isqanta qhaway, chaymantataq huk astakuyta ruray.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Qillqasqakunata mana ñawinchayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Qillqasqakunap tablankuna manaraq kanchu: ñawpaqta musuqyachiyta puriy (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Qillqayqa migration.ini nisqapi wañuchisqa ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Tikraykunay</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Qam tikrasqallaykita qillqan, maypipas tikraptiyki, sayachinaykikama.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Qillqasqa</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time pachamanta, kunankama %count tikray.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Unanchay (munaspaqa)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Ima hap'isqanta rikuchiy</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Qillqayta sayachiy</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Tikraykunayta qillqayta qallariy</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Llapan kitipaq ventana</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Sapanka llamk'aqpa konsolpa sapanka tikraynintam qillqan wichq'akunankama. Kicharispaqa qam kasqaykita takyachinaykitam mañakunqa.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Kichasqa</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Ventanata wichq'ay</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Llapan kitipaq ventanata kichay</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Qillqasqakuna</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Llamk'aqpa yupanmi (yaykuna suti, e-mail, pakasqa simi) llamk'aqkunap yupanpa chaqrankunapas mana hayk'appas qillqakunchu.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Tikraykuna</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Llapan kiti</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name nisqap tikraynin</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Sayachisqa</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Manaraq qillqasqa kanchu.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Qillqasqa %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Llapan qillqasqakuna</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Chaymanta lluqsiq astakuy</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Sapanka tikrasqa kaqpaq huk purikunapi huñusqa tikraykuna: kay qillqasqamanta rurasqa astakuy ima ruranan.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Kay churakuyqa YAML purikuna layakunata %types kapuptinqa, chaymanta astakuyta rurakunman.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Yachaspa saqisqa: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Manam imapas qillqasqachu.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ima hap'isqan</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count tikray, rurasqa kasqanman hina.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Tikray</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Puriku</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Imamanta</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Astawan %count: ./console exp:migration:record:show llapanta sutinchan.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Wikch'uy</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Qillqasqata ima hap'isqantapas qichun. Tikrasqaqa tikrasqallam qipan.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Arí, kay qillqasqata wikch'uy</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Qillqachkan…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Tikraykunaykiqa huk astakuypaqmi qillqakuchkan.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Kay kitipi sapanka tikrayqa huk astakuypaqmi qillqakuchkan (llapan kitipaq ventana).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Llapan kitip qillqaynin qallarirqanña: sapanka llamk'aqpa sapanka tikraynin qillqakunqa sayachinaykikama.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Qillqay qallarirqanña: tikraykunayki qillqakunqa sayachinaykikama.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Qillqay sayachisqa. Ima hap'isqanqa wikch'unaykikamam qipanqa.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Qillqasqapas imakuna pasasqanpas qichusqañam.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Manam qillqasqa %id kanchu.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Ñawpaqta "Arí, kay qillqasqata wikch'uy" nisqata akllay.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Qillqaq llamk'aqllam huñunakuy qillqayta sayachiyta atin.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Sayachinapaq qillqasqata akllay.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Kay layapi qillqayqa purichkanñam.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Qillqasqata mana tikrayta atikurqanchu: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Astakuyta paqarichiy</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Astakuypa sutin (munaspa)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Astakuy %file qillqasqañam. Mana ima puriypas ruwayta atisqan tikraykunaqa willakuypa hawanpim sutichasqa, makiwan ruwanapaq.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Manam ima astakuypas qillqasqachu: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Hatun puriy rakisqa</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Ch'usaq kikinkuna migration.ini [RunSettings] churaykunata waqaychanku.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Aswan achka kay hina astaykuna</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Chaymanta qhipa astay mana kanchu (sikundu)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Astaykuna chawpipi samay (sikundu)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Aswan pisi allin (1 manta 19 kama)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Hatun puriy kikin 1 manta qallariq lliw yupay (samay: 0 manta 60 sikundu, allin: 1 manta 19), icha ch'usaq.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>%time pachapi kikin wisq'akun.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Chaymanta qhipa kikin wisq'ay (minutu, munaspa)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minutukuna 1 manta 44640 kama (31 punchaw) lliw yupay, icha ch'usaq.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Astay %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Musuq astay</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML astay: qillqa hina qillqay utaq purikunkunata formulariopi ruway, qhaway, chaymantataq astaykunapa karpetanpi waqaychay.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Kay astayqa ñam purirqan, chayrayku manam wakmanta waqaychakunchu: tikrasqa willañiqitaqa checksum harkaq mana chaskinmanchu. Tikrayta musuq astaypi ruway.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Web servidorqa willañiqita mana qillqayta atinchu.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Hanaq willapay siq'ikunaqa umanmi (description, author, requires, environments, engines). Formulariopi huk puriku yapakuptin utaq tikrakuptin, astayqa wakmanta qillqakun: purikukuna chawpipi willapaykunaqa mana waqaychakunchu.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Astaypa sutin</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Maymanchus rin</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Web kiti</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML qillqa</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Qhaway</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Waqaychay</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Ñankuna</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Kichanakuna</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Hukchay</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Hawaman kuyuchiy</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Uraman kuyuchiy</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Hurquy</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Manaraq purikukuna kanchu: formulariowan hukta yapay, utaq qillqapi qillqay.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>%number puriku tikray</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Huk puriku yapay</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Purikupa formularionqa purikupa layanmanta ruwasqa: kichanankuna, sapankanku ima chaskisqanku, maykan ruway layakunamanchus kanku.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Purikupa layan</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Formulariota rikuchiy</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Purikuqa layan mana riqsisqan kichanakunayuq; puriku tikrakuptin chaykunaqa qichusqa kanqa: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Ruway laya</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Ukhupi</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes nisqallapi</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Ñawpaqmanta kaq: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Kamachikuykuna, rikuchiykuna hinataq willapay</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Suti=chani yanantinkuna, comawan t'aqasqa. Kay purikupa chaninkuna: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Ejemplo</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Puriku tikray</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Puriku yapay</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check niqnin: uma, qillqa, sapanka purikupas, purikupa layanwan qhawasqa.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Astayqa qhawayta atipan.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ñawpaq qhaway</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML, imaynatachus waqaychakunqa.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML rikuchiy</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML astaykuna</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>purirqanña</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Manaraq YAML astaykuna kanchu.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Hukchaq</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Astaykunapa karpetankunapi mana %id YAML astay kanchu.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Purikupa layanta akllay.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Purikuqa yapasqañam. Astayta qhaway manaraq waqaychachkaspa.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Purikuqa tikrasqañam. Astayta qhaway manaraq waqaychachkaspa.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Huk purikuta akllay.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Kay purikuqa mana formularioyuqchu (huk muyu, utaq kay churakuypi mana kaq puriku laya): qillqapi tikray.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Maymanchus astay rinanta akllay: web kitiman utaq huk llamk'aq mast'arinaman.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file waqaychasqa. Astay manaraq purichkaptin, pruebapaq purichiyta ruway.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Mana waqaychasqachu: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Karu churasqakuna</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Kay churasqa astaykunanta mast'ariq huk churasqakuna: huk mast'ariyqa astaykunata akllasqa karu churasqakunaman apachin, chaypitaq purichin, llapanta huk kutillapi, kuska. Karu churasqaqa manam hayk'appas pakasqata waqaychanchu: yaykunapaq willakuynin Wakichiy &gt; Pakasqakunapi hukta sutichan.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Musuq karu churasqa</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Yanapay</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id-pa tinkiy pruebay</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Karu churasqakuna</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>%parallel karu churasqakunakama kuskalla llamk'achisqa; huk t'aqaqa sapankapi %timeout segundokama unayta atin.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Karu churasqa</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Riqsichiq</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Yaykunapaq willakuy</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Huñukuna</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>allichanapaq allichaykuna</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>willañiqikunalla (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH kichana</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Pakasqa simi</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>mana mayqinpas (hostpa SSH agentnin kichanankunapas)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Tinkiyta pruebay</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Huk huñuman mast'ariyqa sapanka karu churasqanmanmi rin.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Karu churasqakunaman mast'ariy</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Manaraq karu churasqa wakichisqachu.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Karu churasqa %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Kaypiqa manam imapas apachisqachu nitaq purichisqachu: Waqaychay allichaykunata settings/override/migration.ini.append.php-man qillqan. Yaykunapaq willakuyqa huk sutim; chaninqa Wakichiy &gt; Pakasqakunapi utaq muyuriqpi qhepan.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kay allichaykunata qhaway</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Allichaykuna qillqasqa hina, manaraq waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Hukmanta qhaway</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Allichaykunaqa allinmi. Kay siqikunam qillqasqa kanqa:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Apay</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>sutilla; chaninqa Wakichiy &gt; Pakasqakuna nisqapi qhipan</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Qillqasqa kanqa siqikuna</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Tinkiy</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Host kichana</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Karu churasqa</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Karu churasqa ima sutichasqa, ima muyuriqtaq.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Riqsichiq</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Qillqakuna, yupaykuna, - _ ima, ejemplo: production1. Willakuykunapi consolapi ima (--remotes=production1) karu churasqata sutichan, manataq qhipaman tikrayta atikunchu.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Pata patapi mast'ariyqa muyuriqkunata kay ordenpi purin.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Munaspaqa, comakunawan t'aqasqa, ejemplo: production. Huk huñuman mast'ariyqa sapanka karu churasqanmanmi rin.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Tinkiy</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Imaynatam willañiqikuna chayman chayan, maypitaq churasqa kachkan.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH-wan, tikrasqallata, p'akisqa apaytaq hukmanta qallarin. Aswan allin akllay rsync churasqa kaptinqa.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH scp-wan willañiqikunapaq.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH sftp-wan willañiqikunapaq.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Willañiqikunalla: astaykunaqa apachisqa, hukmanta ñawinchasqa, ichaqa manam chaypi purichiyta atikunchu.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP TLS-wan; willañiqikunalla.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Kay servidorpi huk churasqa, huk karpetapi.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Huk host suti utaq riqsichiq, ejemplo: node1.example.com. Mana local-paqchu.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Punku</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Ch'usaq: 22 SSH-paq, 21 FTP-paq.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Apaykachaq</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Ñan</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Chaypi churasqapa saphin, ejemplo: /var/www/site (FTP-paq: FTP cuentapa rikusqan ñan).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-pa command line-nin</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Chaypi PHP CLI: php, utaq hunt'a ñan, kayhina /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Consolapa scriptninkunaqa chaypi root hina purin</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Karu churasqapa apaykachaqnin root kaptinlla (chaypacha --allow-root-user-wan purichisqa).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Yaykunapaq willakuy</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Imaynatam kay churasqa chaypi yaykun. Sutillam waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Manan imapas</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Kay churasqa purichiq apaykachaqpa SSH agentnin kichanankunapas (local-paqqa sapa kuti).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Huk sapan kichana, pakasqa hina waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Huk pakasqa simi, pakasqa hina waqaychasqa (FTP-qa chaywan yaykun).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Pakasqapa sutin</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Wakichiy &gt; Pakasqakunamanta huk pakasqa, ejemplo: deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Wakichiy &gt; Pakasqakuna</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Utaq muyuriqpa variablen</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Servidorpa procesonpa variablen chayta hap'iq, ejemplo: DEPLOY_KEY (env:DEPLOY_KEY hina waqaychasqa). Pakasqapa sutinpa rantinpi kan.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Host kichana</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Munaspaqa, SSH, sftp, rsync-paq.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Host kichanapa unanchan</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l rikuchisqanman hina. Kaywanqa, hostqa kay kichanata rikuchinan; mana kaywanqa, kichanaqa ñawpaq tinkiypi yachakun.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Hukmanta qhaway</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Hawapi allichaykunawan tinkiyta pruebay, chaymantataq qillqakunanta siqikunata hukmanta qhaway.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Kay karu churasqata hurquy</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Allichaykunanqa settings/override/migration.ini.append.php-manta hurqusqa. Karu churasqapiqa manam imapas tikrakunchu, mast'ariykunantaq willakuyninpi qhepan.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Arí, kay karu churasqata hurquy</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Mast'ariykuna</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Huk mast'ariyqa kay churasqapa astaykunanta akllasqa karu churasqakunaman apachin, chaypitaq %user hina purichin, llapanta huk kutillapi, kuska: ñawpaqtaqa sapanka karu churasqa qhawasqa kan, hukmi pantaptinqa, churarqaq sapanka karu churasqa kutichisqa kan. Pakallapi purin, p'anqantaq sapanka karu churasqata rikuchin purichkaptin.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Karu churasqakuna</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Karu churasqakunata, huk huñuta, utaq iskayninta markay.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Chayman mast'ariy</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Imayna</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Mast'ariy</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Apachiy, purichiy ima</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Astaykunaqa apachisqa, qhawasqa, sapanka karu churasqapi purichisqa huk rakinakusqa purichiy riqsichiqwan.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Apaylla</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Willañiqikunaqa apachisqa, qhawasqa, manam imapas purichisqachu (FTP karu churasqapaq sapan ñan).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Pata patapi</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Pata pata muyuriqkunapa ordenninman hina (dev, stage, beta, production ...): ñawpaq pata mast'arisqa, chaymantataq huk hatun punku suyan pipas qatiqta chaskinankama. Sapanka pata ukhupi llapan utaq mana imapas.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Kay astaykunalla</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Munaspaqa: astaykunapa riqsichiqninkuna, comakunawan t'aqasqa. Ch'usaq: web kitipa extensionninkunapa ima sapanka astaynin.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Ñawpaqta qhawaykuylla</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Arí, kunan mast'ariy</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Imatapas apachiq utaq purichiq mast'ariykuna, aswan musuq ñawpaqta (ñawpaqta qhawaykuyqa manam willakuyta waqaychanchu).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>apaylla</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>pata patapi, %stages patakuna</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>mana kuska</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Manaraq mast'ariy kanchu.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Mast'ariy %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Mast'ariypa sapanka karu churasqan kayninwan. Kaypi qallarisqa mast'ariyqa pakallapi purichkanraq kay p'anqa wisqakuptinpas; qatipanaykipaq p'anqata hukmanta kichay.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Llapan mast'ariykuna</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Ñawpaqta qhawaykuy</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Qatiq pata</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Allichaykunata yaykunapaq willakuykunatapas qhawachkan</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Ñawpaqta qhawaykuy: sapanka karu churasqapa kayninta ñawinchachkan</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Astaypa willañiqikunanta apachichkan</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Chayamuqta qhawachkan</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Sapanka karu churasqapi astaykunata purichichkan</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Karu churasqakunata kutichichkan</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Mast'ariyqa tukurqanña. Willakuyninta cargachkan.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Ñawpaqman puriytaqa manam qatipayta atikurqanchu. P'anqata hukmanta cargay mast'ariy imayna kachkanta rikunaykipaq.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>T'aqa</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Kay p'anqaqa mast'ariyta qatipan purichkaptin.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Kuska</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Patakuna</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>pata %stage hatun punkunpi suyachkan</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Hatun punku %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user chaskisqa, %time-pi</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Pata</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Apachisqa willañiqikuna</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kernelpa versionnin</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>churasqa: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>churanapaq: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>T'aqakuna</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Hatun punku: pata %stage, %stages-manta</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Ñawpaqnin patakunaqa mast'arisqañam. Qhawaykuy, chaymantataq qatiq patata chaskiy: karu churasqankunaqa hukmanta qhawasqa, mast'arisqa ima, llapan utaq mana imapas.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Qatiq</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Arí, kunan qatiq patata mast'ariy</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Chaskiy</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Kay mast'ariyta kutichiy</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Churarqaq sapanka karu churasqa (%list) purichiyninpa ñawpaqninpi hurqusqa rikch'ayman kutin, llapanta huk kutillapi.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Arí, kunan kay mast'ariyta kutichiy</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>yuyaychasqa</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>apasqa</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>mast'arisqa</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>hatun punkupi suyachkan</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>akllasqa</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>wakichisqa</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>wakichisqa</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>patanta suyachkan</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>willañiqikuna apachisqa</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>qhawasqa</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>pantasqa, kikinmanta kutichikurqan</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>mana tikrasqa</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>mana mast'arisqa</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>mana chayanapaq</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Karu churasqaqa kutichirqanmi.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Karu churasqataqa manam kunan llamk'achiyta atikunchu.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done tukusqa, %pending suyachkan, %failed pantasqa</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Wichq'ana</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>huk purichiy chaypi wichq'anata hap'ichkan</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ch'usaq</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage, %stages-manta</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Pruebanapaq karu churasqata akllay.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Ñawpaqta “Arí, kay karu churasqata hurquy” nisqata markay.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Karu churasqataqa manam hurquyta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Karu churasqataqa manam waqaychayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Allichay willañiqita mana ñawinchayta atikunchu: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Pisimanta huk karu churasqata utaq huñuta akllay.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Huk akllasqa karu churasqaqa manañam allichaykunapichu kachkan. P'anqata hukmanta cargay.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Ñawpaqta “Arí, kunan mast'ariy” nisqata markay.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP karu churasqaqa manam astaykunata purichiyta atinchu: “Apaylla” akllay, utaq ama churaychu.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Mast'arinapaq astaykunaqa astaykunapa riqsichiqninkunam, comakunawan t'aqasqa.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Mast'ariyqa purichkanraq. Tukunankama suyay.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Kay mast'ariyqa manam hatun punkupi suyanchu.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Manam mayqin karu churasqapas kay mast'ariyta churarqanchu: manam imapas kutichinapaq kanchu.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Ñawpaqta “Arí, kunan qatiq patata mast'ariy” nisqata markay.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Ñawpaqta “Arí, kunan kay mast'ariyta kutichiy” nisqata markay.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id riqsichiqniyuq karu churasqaqa kachkanñam.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Punkuqa 1 manta 65535 kama yupaymi.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Muyuriqqa huk simim, qillqakunamanta, yupaykunamanta, - _ ima (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Huñuqa huk simim, qillqakunamanta, yupaykunamanta, - _ ima (mana all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Yaykunapaq willakuyqa manam kunan ñawinchayta atikunchu: %problem. Ñawpaq mast'ariymanta ñawpaqta Wakichiy &gt; Pakasqakunapi waqaychay (utaq variableta churay).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP karu churasqaqa willañiqikunallatam chaskin: chayman mast'ariyqa “Apaylla” kan, astaykunantaq chaypi makiwan purichisqa.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>%id karu churasqaqa manam settings/override/migration.ini.append.php-pichu; maypi churasqa kachkan chaypi hurquy.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP-wan yaykurqan, index.php-tataq ñawincharqan. FTP karu churasqapa astay kayninqa manam ñawinchayta atikunchu.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Hukchasqa</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Ruwasqa</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Suti</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>T'aqa</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Raki</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Paqarichiq</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Musuq willakuykuna</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Llapan k'itipi aswan musuq ruwasqa hukchasqa willakuykuna, aswan musuqmanta qallarispa: watukuqkunap apachisqanku, qhawarinapaq hark'asqa, lluqsichinapaq suyaq ñawpa qillqasqakuna. Imakunatapas akllay kacharinaykipaq, hark'anaykipaq, pakanaykipaq, rikuchinaykipaq, qichunaykipaq utaq huk rakiman utaq imaynakayman astanaykipaq.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Listaqa mana ñawinchakuyta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Qhawarinapaq hark'ayqa manaraq churasqachu, chaymi mana imapas hark'asqachu, hark'ay ruwaykunataq mana qusqachu. 6.0.15-review-hold musuqyachiy patam churan: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Listata suysuy</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Maymanta</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Mayman</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>P'unchaw</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Ruwasqa (ñawpaq kuti lluqsichisqa)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Llapan</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Lluqsichiy imaynakay</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Ñawpa qillqasqa, mana hayk'appas lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Suyachkan (allinniyta utaq p'unchawta suyan)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Q'upapi</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Qhawarinapaq hark'asqa</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Hark'asqa</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Mana hark'asqa</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Pakasqa</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Rikukuq</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Apachisqa p'unchaw</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Mayqin siteaccesspas</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Auditpa qillqasqallan.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Kunan: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Yaykuna suti utaq ruraqpa ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Suysuy</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Suysuykunata pichay</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Imakuna</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from manta %to kama, %count ukhumanta</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Mana ima kanchu</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms-pi ñawinchasqa)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Akllasqa imakunapaq ruwaykuna</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Kay p'anqapi llapanta akllay</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count akllasqa</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ruway</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Huk ruwayta akllay</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Hark'ayta kachariy</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Qhawarinapaq hark'ay</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Pakay</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Rikuchiy</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Q'upaman astay</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Chinkachiy</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Rakita churay</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Imaynakayta churay</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Imarayku</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Hark'anapaq necesitakun; hark'aywan auditpiwan waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Huk rakita akllay</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Imaynakay</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Huk imaynakayta akllay</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Akllasqakunaman churay</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Sapa imapas qampa atiyniykikunawan qhawasqa. Q'upaman astayqa chinkachiypas takyachiyta mañan. %count imakunamanta aswanqa qhipapi ruwakun.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Akllay</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Maymanta apachisqa</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name akllay</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>manaraq</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(mana sutiyuq)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Ñawpa qillqasqa</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Suyachkan</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Tayta-mamanpa pakasqan</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Hark'asqa: musuq apachisqa</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versión %version suyachkan</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versión %version ruwakuchkan</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Ñawpa qillqasqa, versión %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versión %version lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date p'unchawpaq wakichisqa</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>mana tiyana</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>mana qillqasqa</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Mana imapas kay suysuykunawan tupanchu.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Llapanta rikuchiy</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Manaraq ima willakuypas kanchu.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Sapa p'anqapi</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Sapa p'anqapi %count imakunata rikuchiy.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Apachisqapa tiyananpas browserninpas auditpa indicenmanta hamun, kaypi mana kanchu: columnaqa "mana qillqasqa" nin.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Tiyananpas browserninpas auditpa chay imapaq qillqasqanmi (kikillanmanta hark'ayqa sapa kuti qillqan; lluqsichiypas ruwaypas hap'ichisqa kaptinlla), privacidad churasqankunawan waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count imakuna</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Chinkachiyqa imakunata wiñaypaq qichun, llapan versiónninkunawan t'ikrasqankunawan. Mana kutichiyta atikunchu.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Imakunaqa q'upaman rinku, chaymanta kutichiyta atikun.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Sapa imapas qampa atiyniykikunawan qhawasqa; uchuy imakunayuqqa kasqallan qhipan (willakuypa sayayninpi qichuy). Qamchus kanki chayta takyachinaykim.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Kayqa qhipapi ruwakun: ñawpaqman purisqan p'anqa kicharikun, tukukuptintaq sapa imapa lluqsiyninta rikuchikun.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Akllasqa imakuna</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>hinallataq %count aswan</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Qhisachay</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Mana imapas ruwakurqanchu</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Imarayku: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Ruwayqa qhipapi ruwakuchkanraqmi.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ñawpaqman purisqan</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Qhipapi ruwayqa pantarqan: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tukusqa</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Mana chaskisqa</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Pantasqa</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Sapa imapaq</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Ima</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Lluqsiynin</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Imanaqtin</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Listaman kutiy</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Wakichiy</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Mana imapas ruwasqa</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Takyachiy</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Huk ruwayta akllay.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Pisimanta huk imata akllay.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Huk kutipi 1000 imakunallata akllay.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Niy imarayku imakuna hark'asqa kasqanta.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Rakita akllay.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Imaynakayta akllay.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formularioqa mana ñawinchakuyta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Llamk'ana panqa</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Musuq willakuykuna</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Yupaykuna mana ñawinchakuyta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Qhawarinapaq hark'asqa</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Kunan p'unchaw musuq</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Qhawarinapaq hark'ayqa manaraq churasqachu (6.0.15-review-hold musuqyachiy pata).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Llapan musuq willakuykuna</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Mana moderación ruwaykunata ruwayta atinkichu (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Moderación ruwayqa manaraq hunt'asqachu: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderación: %action %count objetokunapi</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total objetokunamanta %done: %ok tukusqa, %refused mana chaskisqa, %failed pantasqa</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok tukusqa, %refused mana chaskisqa, %failed pantasqa</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Manañam kanchu.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Mana maypi kasqan kanchu (mana lluqsichisqa).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Mana pakayta atinkichu (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Mana rikuchiyta atinkichu (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Ñam pakasqaña.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Mana pakasqachu.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Pakasqa.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Rikuchisqa.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Q'upapim kachkan: chaypi ch'usaqyachiy utaq kutichiy.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Mana hayk'appas lluqsichisqa ñawpa qillqasqaqa mana q'upaman riyta atinchu: chinkachiy.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Mana chinkachiyta atinkichu (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Chinkachisqa.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Mana qichuyta atinkichu (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Uchuy imakunayuqmi: willakuypa sayayninpi qichuy, chaypi rikuchisqa kanku.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Mana qichusqachu (huk ruway puriy qichuyta hark'anman).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Q'upaman astasqa.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Rakiqa mana kanchu.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Ñam kay rakipiña kachkan.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Mana kay rakita churayta atinkichu (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Rakiqa mana churasqachu.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Raki churasqa.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Imaynakayqa mana kanchu.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Ñam kay imaynakaypiña kachkan.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Mana kay imaynakayta churayta atinkichu (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Imaynakayqa mana churasqachu (huk ruway puriy hukchayta hark'anman).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Imaynakay churasqa.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Mana chay hina ruway kanchu.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Qhawarinapaq hark'ayqa mana churasqachu (6.0.15-review-hold musuqyachiy pata).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Niy imarayku hark'asqa kasqanta.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Ñam hark'asqaña.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Mana hark'ayta atinkichu (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Hark'ayqa mana churasqachu (huk ruway puriy hukchayta hark'anman).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Hark'asqa.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Mana hark'asqachu.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Mana kachariyta atinkichu (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Hark'ayqa mana kacharisqachu (huk ruway puriy hukchayta hark'anman).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Kacharisqa; pakasqallaraq: mana rikuchiyta atinkichu (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Kacharisqa.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Tukuy chayanakuna</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Qhipa lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Webniykipa sayaq kikinchasqanta GitHub Pages nisqapi qasilla lluqsichiy:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Mawk&apos;a raphikuna</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Sayaq lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Sayaq lluqsichiyqa wañuchisqam.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Chayana</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Chayanakunata mana ñawinchayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>huk llamk&apos;ay purichkan</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>qhawanapaq hatarichisqa</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>kayta pakay</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>chayanata ruray</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mana hayk&apos;aqpas</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>yachachiyta ñawinchay</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added yapasqa, %changed tikrasqa, %removed qichusqa</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes %limit nisqamanta (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Huk %count manam sutinchasqachu.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages raphikuna qillqasqa</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path %size kan, wasichaq huk willañiqipaq saqisqanmanta aswan.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % saywanmanta</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag kunan webpa kaq lluqsichisqanmi.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: llamk&apos;ay %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/waqaychana/ GitHub proyecto webpaq; ch&apos;usaq kikin dominiopaq utaq runapa webninpaq.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Web</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Wasichaq</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Waqaychanaman yaykuy</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Waqaychana</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. T&apos;inkikuna tiksi ñanpas</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Kikiykipa dominioyki</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Hatarichisqa ima hap&apos;isqan</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Hayk&apos;ap lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Qhawariy waqaychaypas</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub proyecto webqa /&lt;repository&gt;/ uraypim tiyan; kikinpura t&apos;inkikunaqa chaypi hukkunapipas llamk&apos;anmi.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Huk hatarichisqaqa %site nisqapa sapanka raphinta apamun mana yaykusqa watukuq rikusqanman hina, t&apos;inkikunata musuqmanta qillqan, willañiqikunata kikinchan, lluqsisqantataq chayanapa karpetanman qillqan. Manam imapas lluqsichisqachu hatarichisqata qhawanaykikama, Lluqsichiy nisqata ñit&apos;inaykikamapas.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Huk cron rimay, ahinataq 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Huk churanapaq llaveqa %secret pakasqa hina waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Churanapaq llaveqa kay churasqata huk waqaychanallaman SSH nisqawan apachinanpaq saqin, manataq huk maymanpas. Pakasqa kuskanqa Wakichiy &gt; Pakasqakuna nisqapi qhipan; riqsisqa kuskanllam rikuchisqa.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Kay chayanapaq rurasqa churanapaq llave</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Churanapaq llaveqa SSH nisqawan yaykun: git tiyananta SSH tiyanaman tikray (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Huk llamk&apos;ay purichkan, %user qallarichisqan</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Kay chayanapa huk llamk&apos;aynin purichkanraqmi (%detail). Tukunankama suyay.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Kay chayanapa huk llamk&apos;aynin purichkanraqmi. Tukunankama suyay.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ raphimanta /about-us/team raphiman t&apos;inkiqa kayhinam qillqasqa kanqa</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Musuq churanapaq llave rurasqa karqan. Kunan riqsisqa kuskanta waqaychanaman yapay.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Ch&apos;uyanchasqa kaptinpas depuración lluqsiyta, formulario tokenta utaq sesión idta apachkaq raphiqa mana hayk&apos;aqpas lluqsichisqachu.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Kutichiyqa yachaqkunapaqmi: &quot;Yachanim kay ima tikrasqanta&quot; nisqata akllay, unanchaypa sutintataq hukmanta qillqay.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Huk webqa %site kamam kanman, huk willañiqi %file kamam, killapi yaqa 100 GB purisqawan. Qasi planpiqa waqaychanaqa llapanpaq kanan. GitHub Pages manam tiendakunapaqchu nitaq huk qhatuy ruraykunapaqchu.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Huk chayanaqa huk git waqaychanaman lluqsichisqa huk webmi. Kaypiqa manam imapas hatarichisqachu nitaq lluqsichisqachu: Waqaychay allichaykunata settings/override/staticcache.ini.append.php nisqaman qillqan.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Huk chayanaqa huk lawman lluqsichisqa huk webmi, ahinataq llapanpaq webniyki GitHub Pages nisqapi.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Wakichiy &gt; Pakasqakuna nisqamanta huk token</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Waqaychanapa huk llamk&apos;ay puriyninmi lluqsichin.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Kay riqsisqa llaveta waqaychanaman qillqanapaq saqiywan yapay. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access nisqata akllay.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Yapasqa</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Huk git wasichaq</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Huk ruraymi kay chayanapi llamk&apos;achkan: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Kutiy</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Tiksi ñan</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ñawpaq</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Tiksi ñan uraypi</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>K&apos;allma</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>P&apos;akisqa t&apos;inkikuna</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Hatarichisqapi p&apos;akisqa t&apos;inkikuna</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Hatarichisqa</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Hatarichisqa %id, %user rurasqan</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name hatarichiy</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Kunan hatarichiy</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Qhawanapaq hatarichisqa</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Pi</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Makiwan, kaypi</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Qhisachay</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Tikray</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Tikrasqa</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Tikraykuna</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Ñawpaqta qhaway</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kay allichaykunata qhaway</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Hatarichisqa ima tikrasqanta qhaway, qhawariy, chaymanta lluqsichiy utaq wikch&apos;uy.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Kutinaykipaq lluqsichisqata akllay.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Qhipa musuq kaqninpim hamunqa.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Takyachiy</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Takyachiykuna</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Hatarichisqata takyachin, unanchan, %remote nisqamantaq apachin. Apachiyqa mana hayk&apos;aqpas kallpawanchu; qhipaman ima lluqsichisqamanpas kutiyta atinki.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Ñawpaq karpetawan tupachisqa: %added yapasqa, %changed tikrasqa, %removed qichusqa, %unchanged mana tikrasqa.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Qhipa lluqsichisqawan tupachisqa.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Yaykunapaq willakuy</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Kikin dominio</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Depuración lluqsiy, formulario tokenkuna, sesión idkuna, noncekunapas sapa kutim qichusqa.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Churanapaq llave</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name nisqapa churanapaq llaven</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Wikch&apos;uy</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Hatarichisqata wikch&apos;uy</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Dominio</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Ch&apos;usaq: webpa tiyanan. Mana chayqa, kikin webpa ukhu tiyanan.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Tukusqa</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Sapanka t&apos;inkim tiksi ñanwan qallarin.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Sapanka lluqsichisqaqa static/%id/&lt;n&gt; unanchayniyuq takyachiymi. Kutiyqa ñawpaq lluqsichisqapa willañiqinkunawan musuq takyachiytam ruran: willakuyninqa qhipan, manam ima unanchaypas kuyunchu, manataq imapas kallpawanchu.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Yapakuna</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Raphikunata kaymanta apamuy</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Willañiqi</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Willañiqikuna</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Chinkasqa willañiqikuna</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Kaypa willañiqinkuna</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Mana huñuy atisqa willañiqikuna</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Ruk&apos;ana unancha</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Karpeta</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH tiyanapaq. Llaveqa waqaychasqa kaptin rurasqa kanqa; riqsisqa kuskantataq waqaychanaman yapanki.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// tiyanapaq. GitHub: huk fine-grained token, waqaychanapi Contents ñawinchanapaq qillqanapaqpas.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Yachaqkunapaq. Llapanpaq webqa apachiy tukurqaptinpacha tikrakun.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulariokuna</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub waqaychanamanta qasi wasichay.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>K&apos;allmamanta</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git tiyana</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages %site webta %file willañiqitapas saqin.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages nisqapa saywankuna</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages willañiqikunata kasqanman hina lluqsichin (_ nisqawan qallariq willañiqikunapaq munakun).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub k&apos;allmata apachisqanman hina qun. Ñawpaqmanta kaq.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, kikiykipa servidorniyki: ima git waqaychanapas.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Ñawpaq lluqsichisqaman kutiy</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Yanapay</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Pusaqwan yanapay</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Pakay</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Willakuynin</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name nisqapa willakuynin</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Wasichaq</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages hatarichisqata imaynatam chaskin</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Tikraykunata qhawarqanim</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Yachanim kay ima tikrasqanta</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Riqsichiq</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Wañuchisqam: manam imapas hatarichikunmanchu kawsachisqa kanankama.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Qhipapi %user hina purin; kay raphita wichq&apos;ayta atinki.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Llamk&apos;ay %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>%secret pakasqa hina waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Laya</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Qhipa lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Kay raphikunata saqiy</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Kay rakikunata saqiy</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>T&apos;inkikuna</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Musuqmanta qillqasqa t&apos;inkikuna</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Kawsaq web</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Hatarichisqata qhaway</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Uchuy qillqakuna, yupaykuna, _ -pas, ahinataq github-public. Karpetata unanchaykunatapas (static/&lt;id&gt;/&lt;n&gt;) sutichan, qhipamantaq mana tikrayta atikunchu.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Musuq llaveta ruray</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Chayanata ruray</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Llaveta ruray</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Ñawpaqta wasichaqpi waqaychanata ruray; ch&apos;usaqpas allinmi.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Willañiqikunapa sutinchasqan</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Willakuy</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Aswan raphikuna</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Suti</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Wakichiy &gt; Pakasqakuna nisqapi tokenpa sutin</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Musuq chayana</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Qatiq</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Mana</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Manaraq takyachiy kanchu.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Manam llave rurasqachu karqan: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Manam php kamachiy siqi binariota tarikurqanchu. migration.ini [AdminSettings] PhpCliPath nisqata hunt&apos;a ñanninman churay.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Manaraq unanchay kanchu.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Manaraq chayana kanchu.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Manan imapas</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Manam hatarichisqapichu.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Manaraq imapas lluqsichisqachu.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Manaraq imapas lluqsichisqachu: sapanka willañiqim musuq.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Willachiy</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Pacha chiqanchasqaman hina</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Consolapi</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Servidorpi: ./console exp:static:serve %id kikin hinallataq qun.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Sapa siqipi huk ñan, * ima rakimanpas tupan: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Chayanawanqa sutillam waqaychasqa; tokenqa utaq llaveqa Wakichiy &gt; Pakasqakuna nisqapi qhipan, manataq hayk&apos;aqpas qillqa registropi rikhurinchu.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Raphikuna sutichasqallan</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Tokenwanlla. env:NAME nisqaqa chaypa rantinpi servidorpa muyuriq variablenta ñawinchan.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Ñawpaq qhawayta kichay</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Hatarichisqata wasichaq qunqanman hina kichan, chayanapa karpetanmanta. T&apos;inkiqa huk horalla qampaq llamk&apos;an.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Munaspa. Ch&apos;usaq: lluqsichisqa kaq.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Munaspa. Dominiowanqa webqa saphinpi qusqa.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Lluqsiy</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Raphikuna</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Chayanapa raphinkuna</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Mana chaskisqa raphikuna</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Qhipa ruray</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ñawpaq qhaway</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Ñawpaq qhaway lluqsichiypas</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name: ñawpaq qhaway lluqsichiypas</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Hatarichisqata ñawpaq qhaway</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Puriynin</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Llapanpaq tiyana</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Riqsisqa llave</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Huk webpa sayaq kikinchasqanta GitHub Pages nisqaman utaq ima git wasichaqmanpas lluqsichiy: hatarichiy, tikraykunata qhaway, lluqsichiy, munaspataq ñawpaq lluqsichisqaman kutiy.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Kutinapaq lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Lluqsichisqakuna</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Apachiy</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Yachachiyta ñawinchay</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Qillqa registro</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Mana chaskisqa</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Kikinpura</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Musuqmanta apamuy</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Qichusqa</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Llaveta tikray: mawk&apos;a llaveqa manaña llamk&apos;anqachu</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Willakuy qillqa</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Hatarichisqapa willakuy qillqan</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Waqaychana</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Qhawariy</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Qhawariyqa sapanka allichayta qhawan, qillqasqa kanqa siqikunatataq rikuchin. Manaraq imapas waqaychasqachu.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Kutichiy</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Kutichiy</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Waqaychay</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Pacha chiqanchay</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Maskana raphi</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Raki idkuna, comawan rakisqa.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Kawsaq webman apachiy</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Allichay</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Allichaykuna</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name nisqapa allichaykunan</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Wakichiy</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Wakichiy &gt; Pakasqakuna</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Sutinchaykunapi rikuchisqa, ahinataq &quot;GitHub Pages nisqapi llapanpaq web&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App nisqawan yaykuyqa GitHub hukllachaywan hamunqa.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Web</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Lluqsichinapaq web</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Tupu</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Tupu saywakunapas</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Hatarichisqapa tupun</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Mawk&apos;a raphikuna</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Qallarisqa</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user qallarichisqan, %time nisqapi.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kaynin</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Sayaq lluqsichiy</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Sayaq lluqsichiyqa wañuchisqam</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Sayaq lluqsichiyqa wañuchisqam.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Sayaq lluqsichiyqa wañuchisqam. Ñawpaqta Wakichiy &gt; Sayaq lluqsichiy nisqapi kawsachiy.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Sayaq lluqsichiyqa kawsachisqam.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%step patma %total nisqamanta</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Patmakuna</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Ch&apos;uyanchay</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Wañuchiy</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Kawsachiy</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Sayaq lluqsichiyta kawsachiy</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Unanchay</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Unanchaykuna</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Chayana</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Chayanakunata rurayta tikraytapas atikun, ichaqa manam imapas hatarichisqachu nitaq lluqsichisqachu kawsachisqa kanankama.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Maskana makinakunaman ima ñawinchanankuta willan.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Hatarichisqata mana wikch&apos;uyta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Hatarichisqaqa qhipa lluqsichisqawan kikinmi: manam imapas lluqsichinapaq kanchu.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Hatarichisqa wikch&apos;usqa karqan: karpetaqa hukmanta qhipa lluqsichisqata hap&apos;in.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Ñawpaqmanta kaqkunaqa aswan webkunapaq allinmi.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Karpetaqa manaraq lluqsichisqa hatarichisqata hap&apos;in; musuq hatarichisqam rantinqa.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Llamk&apos;aykunapa karpetanman mana qillqayta atikunchu: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Llamk&apos;ayta mana wakichiyta atikurqanchu: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Llamk&apos;ayta mana qallarichiyta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Llamk&apos;ayqa tukurqanmi. Willakuy qillqanta apamuchkan.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Llamk&apos;ayqa yaykusqa runatam munan.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Llamk&apos;ayqa qallarirqan, ichaqa manam ruraypa idninta willarqanchu. %detail nisqata qhaway.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Llave</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Aswan hatun willañiqi: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Qillqasqa kanqa siqikuna</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Maskana makinakunapaq raphikunapa sutinchasqan; llapanpaq tiyanatam munan.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Raphikunaqa mana yaykusqa watukuq rikusqanman hina apamusqa. Kamachiy, allichay siteaccesskunaqa mana hayk&apos;aqpas qusqachu.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Puriynintaqa mana qatiyta atikurqanchu. Raphita musuqmanta apamuy llamk&apos;ay imayna kachkasqanta rikunaykipaq.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Llavepa riqsisqa kuskan:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>K&apos;allmapa saphin</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Pakasqa waqaychanaqa manaraq wakichisqachu (./console exp:upgrade --apply tablanta ruran), chayrayku manam llave waqaychakunmanchu.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Servidorqa kikillanmanta yaykun (kikin SSH llavenwan utaq credential helper nisqawan), utaq waqaychanaqa kay servidorpim.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Allichayta mana qillqayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Allichaykunaqa allinmi. Kay siqikunam qillqasqa kanqa:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Allichay willañiqita mana ñawinchayta atikunchu: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Webqa chay lluqsichisqapa willañiqinkunaman kutin; manaraq lluqsichisqa hatarichisqataqa ñawpaqta lluqsichina utaq wikch&apos;una.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Webpa kikin raphin mana kaq tiyanakunapaq.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Chayanata mana waqaychayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Chayanaqa manaraq kay llavewan yaykunchu: allichaykunanpi &quot;Kay chayanapaq rurasqa churanapaq llave&quot; nisqata akllay.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Chayanakunata mana ñawinchayta atikurqanchu: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Manaraq qhawanapaq hatarichisqa kanchu.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Kay churasqaqa manam ñawpaq siteaccessniyuqchu. Kamachiy, allichay siteaccesskunaqa mana hayk&apos;aqpas lluqsichisqachu.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Kay raphiqa llamk&apos;ayta purisqanman hina qatin; raphi wichq&apos;asqa kaptinqa llamk&apos;ayqa qhipapi purichkanpuni.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Kay chayanaqa manaraq churanapaq llaveyuqchu.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Kay chayanaqa manaraq kaypi hatarichisqachu.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Kay chayanaqa hukniyuqmi.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Kay hatarichisqata wikch&apos;un: karpetaqa hukmanta qhipa lluqsichisqata hap&apos;in. Kawsaq webqa mana tikrakunchu.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Ñawpaqta &quot;Tikraykunata qhawarqanim&quot; nisqata akllay.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Pacha</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Qallarichiqkuna</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Unanchaypa sutinta hukmanta qillqay</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Mana tikrasqa</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ima</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Ima tikrakun</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Sapanka willañiqi imam kasqan; sapa kutim qillqasqa.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Llamk&apos;ay ima rurasqan, qillqa registronpas. Kaypi qallarisqa llamk&apos;ayqa kay raphi wichq&apos;asqa kaptinqa qhipapi purichkanpuni.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Llamk&apos;ay pantay hina ima qillqamusqan</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Raphikuna sutichasqan, lluqsichisqa contenidopa sapanka rikch&apos;ayninpas</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Hayk&apos;ap</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Huk lluqsichiy pantaptin</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Huk lluqsichiy allin lluqsiptin</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Contenido lluqsichisqa kaptin</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kikinchasqapi mana kaqman t&apos;inkikuna maymanchus rinku (maskay, yaykuy).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Maymantam sayaq kikinchasqa qusqa.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Ima web lluqsichisqa, chayanataq ima sutiyuq.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Ima ñan uraypipas llamk&apos;an. Ñawpaqmanta kaq.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Kikin dominio churasqa kaptinqa sapa kutim qillqasqa.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Arí</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Kaypi consolapipas makiwan hatarichiyta lluqsichiytapas sapa kutim atinki.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>sutilla; chaninqa Wakichiy &gt; Pakasqakuna nisqapi qhipan</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path uraypi</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>willakuy qillqa mana kaspa tukusqa</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>yapa</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>pantasqa</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>willañiqi</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, utaq main docs karpetawan.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git wasichaq</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (tokenwan) utaq git@github.com:owner/repo.git (churanapaq llavewan); mana hayk&apos;aqpas chaypi pakasqa simi nitaq token.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, web mapapaq canonical t&apos;inkikunapaqpas.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>rikch&apos;ay</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mana hayk&apos;aqpas</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>mana</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>mana karu waqaychana</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>manam: takyachiykuna karpetapi qhipanku</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>manam: manam imapas tikrakurqanchu</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>mana apachisqa</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>manam imapas tikrakurqanchu</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>raphi</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>allin lluqsisqa</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open wañuchisqa, chayrayku manam kaypi llamk&apos;ayta qallarichiyta atikunchu. Servidorpi ./console exp:static:build nisqata llamk&apos;achiy.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>lluqsichisqañam</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>apachiy suyachkan</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>apachisqa</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>mana chaskisqa</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>kikinpura</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>kutichiy</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>kutichisqa</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>purichkan</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>karpetalla</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME willañiqiman qillqasqa. Dominiopa DNS nisqanta wasichaqman qhawachiy, paypa willasqanman hina; HTTPS qallarinanpaqqa unaytam atinman.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>arí, manaraq lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Huk GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Waqaychanapa huk workflow-nin lluqsichin. Hatarichisqa workflow willañiqita qillqan; carpetata ch'usaqta saqiy.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Chayanata GitHub waqaychanawan, tokenwan utaq GitHub App-wan waqaychaspa, kay ruray waqaychanata ruranman GitHub Pages-ta kichanmanpas. Mana chayqa, ñawpaqta GitHub-pi waqaychanata ruray; ch'usaq kaptinpas allinmi.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>¿K'allmachu utaq GitHub Actions-chu?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS-ta qhaway</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Waqaychanata ruray mana kaptinqa</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub-pi waqaychanata ruray, hinaspa churakuyninkunapi GitHub Pages-ta kichay (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>%repo waqaychanata ruran mana kaptinqa (mañakuptinqa), GitHub Pages-ta kichan k'allmamanta utaq GitHub Actions-manta waqaychasqa hina, kikin dominiotawan HTTPS-tawan churan. Waqaychasqa churakuykunata llamk'achin: ñawpaqta tikraykunata waqaychay.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Aswan willakuykuna GitHub-pi</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Ñawpaqta kikin dominiota qillqay.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Sapa push ñawpaqta kay saywakunawan qhawasqa kan.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub-pi huk https:// tiyanapaq. Kay churasqapaq allichasqa App yaykun; churasqa id-ta munan.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages pakasqa waqaychanata qullqi paganapaq planpi chayllam qun.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: huk subdominio (www.example.com) &lt;owner&gt;.github.io-man CNAME qillqasqata munan; huk apex dominio (example.com) A qillqasqakunata %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App-pa churasqa id-nin</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Qhipa Pages hatarichisqa</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Saywakuna kamachikunapas</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>GitHub Pages-paq mana qullqiyuq planpi necesitakun.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub-pi</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App-wan chayllam: GitHub-pi App-pa churasqan tiyanapa tukukuyninpi yupay. App kikinqa staticcache.ini-pi churakun (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Pakasqa</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Llapanpaq</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Ñawpaqta chayanata GitHub waqaychanawan, tokenwan utaq GitHub App-wan waqaychay.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Kay qillqasqakunata dominio quqpa kaqninpi churay:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub-pi allichay</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain-pa DNS-nin manaraq GitHub Pages-man rikuchinchu.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain-pa DNS-nin GitHub Pages-man rikuchin.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub tinkuy kaypi mana kanchu: %problem. K'allmaman lluqsichiyqa llamk'allantaq; waqaychanapa churakuyninkunapi GitHub Pages-ta kichay.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub rurakunaqa kay chayanapaq mana kanchu: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages-pa kayninqa rikuchikun token utaq GitHub App yaykunapaq willakuy kaptin.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Kikin dominioykita llamk'achiy</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Imata akllana: token, churanapaq llave utaq GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub waqaychanawan, tokenwan utaq GitHub App-wan, pusaqqa qampaq waqaychanata ruranman, GitHub Pages-ta kichanman dominiotapas churanman (ruray 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>hatarichikushan</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>hatarichisqa</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions-manta</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>%branch k'allmamanta</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>manaraq kanchu</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>mana tarisqachu</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>wañusqa</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>pakasqa</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>llapanpaq</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>suyashan</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>mana yachasqa</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages raphikunamanta %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Sapa qillqa willaypa ladunpi huk .gz (hinaspa .br), paykunata qukuq hostkunapaq.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Raphipa sapa ñawpaq kikinchayninpaq hinaspa ruwasqa sutinpaq huk huch'uy raphi, ñawpaq t'inkikuna llamk'ananpaq.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Sapa kutim qillqasqa kanqa GitHub Actions kawsaq webta chayachimuptin.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 hina huk SPDX id, icha qillqa kikin.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Chuspa</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Servidorman waqyaykuna</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Rimaykuna</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Willakuykunata huñuq formulariokuna</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions llamk'ay puriy</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Raphikunapi pisi chusaq cheqe, mana rimaykunayuq.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Ukhunchapa licencian</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Yaykuy</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Huch'uyyachiy</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Huk formulariokuna</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Ñawpaqta ñit'iy</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Hukman apaq raphikuna</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Hukman apaq raphikuna: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Maskay</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Maskay yupana: %pages raphikuna %languages simipi.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Ukhunchanku hash sutiwan sutichasqa estilo raphikuna hinaspa scriptkuna, buscadorkuna waqaychanankupaq.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Tikrasqa raphikuna, qhipa tikraymanta pisi minutu qhipata (cronjob rakin staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Ukhunchapa licencian, chaypi ruraypi kaymanta.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Llapan web, tiempo qillqapi (cronjob rakin staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Kay raphi rakikunaqa servidorta munanku; sapankanmi huk rantiyta chaskirqan. Lluqsichiyta ñawpaqmanta qhawariy.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Mana takyaq hinalla ruwaq</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Repositorio ima kasqanta, hostpi kicharuqpaq.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>saqisqa</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>rantiq qillqa</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>kawsaq webpa formulario tukukuy</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>kawsaq web</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>kikinchasqapa maskana raphin</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formulario mana apachisqachu karqan.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Añay: formulario apachisqa karqan.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Formulario mana chaskisqachu karqan: qillqasqaykita qhawariy hinaspa kutimpuni apachiy.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Qhichuy t'inkikunata mana copiapi kaq p'anqakunaman</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Qhichuy t'inkikunata kamachiyman</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Qillqankuna qhepakun. Siq'ikuna, formulariokuna, hukkunaq sitionkunaman t'inkikunapas manapuni qhichusqachu.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versiyun</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Web yaykunakuna willakunapaq</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Web yaykuna</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Saphipi</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Mana web yaykuna saphipiqa kanchu: sapakama carpetanpi kachkan, saphitaq paykunaman t'inkin</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Web yaykunakuna</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Huk web yaykunata akllay, utaq URI qallariyninwan huk host-ta rakinakuqkunata. Saphipi kaqqa chaypi qusqa kanqa, wakinkunataq qallariyninpa carpetanpi (/ger/); paykuna chawpi t'inkikunaqa copiapi qhipakun. Kamachiy yaykunakunaqa manam hayk'appas qusqachu.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%target nisqap static willakuyninqa %site nisqapi mana atikurqanchu</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%target nisqap static willakuyninqa %site nisqapi atikurqan</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Kay correota %site kacharqan, static willakuypa munaynin %target mañakusqanrayku.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Mast'ariy %deploy %site nisqapi pantarqan</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Mast'ariy %deploy %site nisqapi huk punkupi suyachkan</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Mast'ariy %deploy %site nisqapi allinta lluqsirqan</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Kay willakuyqa %site nisqamanta kachasqa karqan, migration.ini [RemoteSettings] Notify[] mañakusqanrayku.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Willay layakuna (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time yupasqa, %minutes minutu qhipaman wakmanta yupakunqa</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Willay layaqa huk t'aqap kaqninpa huk laya chaninta waqaychan, hukchantaq: huk qillqa siq'i, huk rikch'a, huk tinkiy. Sunqum aswan achkata apamun, yapakuqkunataq astawan yapanku. Kaypim llapan kachkan, pikuna quykun, hayk'a ukhuntaq llamk'achin. Willakuna waqaychana llamk'achisqan willay laya, manaña imapas qillqachiptinqa, chay kapuq ukhunta p'akin.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>T'aqakunap huñunkuna</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Kunanpacha wakmanta yupay, qhipa minutukunap yupayninta mana llamk'achispa.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Wakmanta yupay</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Tukuy qhaway</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Qillqakusqa</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Llamk'achkan</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Mana llamk'achisqa</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Willay layakunata quq yapakuqkuna</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>T'aqap kaqninkuna</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objetup kaqninkuna</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Mana qillqachisqa</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Sutisqa, willañiqi manam kanchu</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count willay layakuna llamk'achisqa, ichaqa mana qillqachisqa</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes t'aqap kaqninkuna %object_attributes objetup kaqninkunapiwan huk willay layayuq kanku, mana ima yapakuqpas allichaypas qillqachisqan. Paykunap objetunkunaqa manam rikuchiyta, hukchayta, lluqsichiytapas atikunchu. Willay layata quq yapakuqta kawsachiy, utaq t'aqata hukchay.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Kaykunallata rikuchiy</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Willay layata maskay</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Riqsichiq, suti, PHP t'aqa utaq yapakuq.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rikuchiy</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tukuy</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Quq</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Llapa</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Sunqu</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Manam ima willay layapas kay suysuwan tupanchu.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Llapanta rikuchiy</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Yapakuq</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count willay layakunamanta %shown, %used llamk'achisqa</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Willakuna waqaychanaqa kay willay layakunap t'aqa utaq objetu kaqninkunayuqmi, ichaqa content.ini manam mayqintapas sutinchu, utaq willañiqin manam kanchu.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider-pa willay layankuna</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Willay laya</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP t'aqa willañiqipiwan</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>T'aqakuna</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objetukuna</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Unanchakuna</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>manan</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Manam ima willay layapas maskaywan tupanchu. Maskayta pichay.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count willay layakunamanta %shown rikuchisqa</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Rikuchisqa willay layakuna: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column-nisqawan ñiqinchay</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time yupasqa</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Llapan willay layakuna</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Yanapay p'anqa</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Kay willay layaqa llamk'achisqam, ichaqa mana qillqachisqa</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Uraypi t'aqakunap objetunkunaqa manam rikuchiyta, hukchayta, lluqsichiytapas atikunchu, mana ima yapakuqpas willay layata qillqachinankama. Quq yapakuqta kawsachiy, content.ini [DataTypeSettings] AvailableDataTypes[] nisqaman yapay, utaq t'aqakunata hukchay.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini kay willay layata sutin, ichaqa manam ima willay laya q'imiripas willañiqinta hap'inchu. Manam imapas llamk'achinchu; AvailableDataTypes[] nisqamanta qichuy utaq yapakuqninta kawsachiy.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Kay willay layamanta</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Riqsichiq</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Suti</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Yapakuq %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>mana pipas</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP t'aqa</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Willañiqi</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] nisqapi</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>arí</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>mana</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Chaninpa columnankuna</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>T'aqa kaqninpa allichayninkunap columnankuna</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tablakuna</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Columnakuna tablakunapas willay layap codigonta ñawinchaspa tarisqa: huk pusaylla, mana rimanakuychu.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Plantillakuna</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Web yaykuna</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Plantilla</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Tarisqa kaypi</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>kay kamachiy</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ñawpaqmanta web</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Mana override nisqakunawan: t'aqawan utaq kaqninwan tupaq override plantilla kaykunata atipan.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Llamk'achiq t'aqakuna (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Manam ima t'aqapas kay willay layap kaqninta hap'inchu.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>T'aqa</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Kaqninkuna</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>T'aqap kaqninkuna (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Kaqnin</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Allichaykuna</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Mañakusqa</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Maskasqa kayta atiq</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>T'ikrayta atikuq</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Willayta huñun</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Llamk'achiq wakin ukhun</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Qhipa hukchasqa ñawpaqta</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Hukchasqa</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Khipu %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Sapa t'ikraymi kikin chaniyuq.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Maskayqa chaninkunata indexan.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Watukuqkunamanta willakuyta huñunman (formulariokuna).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Listakunata paywan ñiqinchayta atikun: ñiqinchana llave %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Ñiqinchana</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Chaninkunan huk objetukunaman qhawachin.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>T'inkikuna</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Ch'uya qillqamanta hunt'achiyta atikun (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Qillqamanta</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Willañiqimanta hunt'achiyta atikun.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Willañiqimanta</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>T'aqa kaqninpa allichayninkuna q'ipikunaman rinku.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Q'ipikuna</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Ukhun (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from manta %to kama, %count manta</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Listata suysuy</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Llapa t'aqakuna</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Raki</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Simikuna</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Kapuq</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Lluqsichisqa</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Ñiqita kutichiy</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Mana ima kanchu</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Sapa raphipi</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Sapa raphipi %count kaqkunata rikuchiy.</translation>
     </message>
 </context>
 </TS>

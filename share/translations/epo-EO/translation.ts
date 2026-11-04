@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Serĉata estas nur ĉi tiu paĝo: %from ĝis %to el %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Ĉiu datumtipo de la kerno kaj la etendaĵoj, kaj kiel la klasoj kaj enhavo uzas ĝin.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datumtipoj</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Ankaŭ sistemaj paĝoj povas esti legosignitaj: malfermu la paĝon (Agordado, la aŭdita spuro, listo de uzantoj ...) kaj elektu Legosigni ĉi tiun paĝon super ĝi. Tiaj legosignoj havas ikonon de dentrado.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Vi ne plu rajtas malfermi ĉi tiun paĝon ĉi tie. Forprenu la legosignon, aŭ petu aliron de administranto.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Iri al la unua paĝo</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Alia</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Lastaj 7 tagoj</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Propra periodo</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Ĉiuj vortoj</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Iu ajn vorto</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Preciza frazo</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Rilateco</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Nomo A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Nomo Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Modifita, plej novaj unue</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Modifita, plej malnovaj unue</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Publikigita, plej novaj unue</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Publikigita, plej malnovaj unue</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modifita</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtriloj</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Montri filtrilojn</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Kaŝi filtrilojn</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Restarigi</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Apliki</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Vortoj</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Enhavotipo</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Montri pli (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Elektu unu enhavotipon por serĉi en unu el ĝiaj atributoj.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekcio</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>El</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Al</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>La komenca dato ne estas valida dato.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>La fina dato ne estas valida dato.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Posedanto</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Uzanto-ID, salutnomo aŭ retpoŝtadreso.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Neniu uzanto troviĝis por “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lingvo</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Iu ajn lingvo</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Loko</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count lokoj</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Rezultoj po paĝo</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Rezultoj por “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Rezultoj (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Ordigi laŭ</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Ordigi</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktivaj filtriloj</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Forpreni ĉi tiun filtrilon</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Aŭ elektu filtrilojn kaj apliku ilin por listigi la kongruan enhavon.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>La filtriloj malvastigas la serĉon post kiam vi tajpis vortojn.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Neniuj rezultoj troviĝis por “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Neniuj rezultoj troviĝis.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Forigu filtrilon supre.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tradukoj</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Agoj</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Redakti %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Redakti</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Agordado &gt; Cron-taskoj</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Neniu parto de la cron-taskoj ankoraŭ ruliĝis: la laborvico, la importoj, la sciigoj kaj la serĉindekso atendas. Rulu php bin/php/installcrontab.php --add --apply, aŭ aldonu la liniojn de --show al la crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>La aŭtorrajtaj notoj de la originaj aŭtoroj kaj de la programaro de triaj partoj inkluzivita kun Exponential estas konservataj en la fontaj dosieroj kaj en la dosiero LICENSE, kiel la licenco postulas.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Sekvas listo de kontribuantoj al Exponential, kiuj licencis sian laboron por uzo de 7x laŭ la kondiĉoj de la eZ Systems Contributor Licensing Agreement. Kiel ĉi tiu interkonsento permesas, 7x redistribuas ĉiun kontribuon laŭ la sama licenco kiel la dosiero, en kiu la kontribuo estas inkluzivita. La listo nomas ĉiun kontribuanton, laŭvolajn kontaktajn informojn kaj la dosierojn, al kiuj ili kontribuis.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Kontribuantoj agnoskitaj pro sia laboro pri Exponential kaj pri la programaro el kiu ĝi kreskis, kun la dosieroj al kiuj ili kontribuis. Ĉi tio estas agnosko, ne kopirajta avizo: kontribuoj al Exponential estas cedataj al la Exponential Foundation kaj al 7x laŭ la Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Noto: La pakoj ne estos malinstalitaj.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Provi Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Fariĝu membro de la Exponential-komunumo, interŝanĝu kaj kontribuu&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; kaj aliaj.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Funkciigita de &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Por pliaj informoj vidu &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; kaj aliaj.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Por pliaj informoj vidu &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; kaj aliaj.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Provi Exponential (de 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Fariĝu membro de la Exponential-komunumo, ricevu subtenon kaj kontribuu&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; kaj aliaj.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Noto: La pakoj ne estos malinstalitaj.</translation>
     <message>
         <source>Help center</source>
         <translation>Helpcentro</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Enhavo</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Dokumentpaĝoj</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Uzantoj</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Enhavoklasoj</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administrado</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Paĝo %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Vidi ĉiujn rezultojn</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count rezultoj</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Unu rezulto</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count sugestoj</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Neniuj sugestoj</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>La sugestoj ne povis esti ŝargitaj.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Sugestoj</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Noto: La pakoj ne estos malinstalitaj.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Ĉi tiu instalaĵo estas publika demonstraĵo: ĉiu rajtas koni ĝian pasvorton de administranto, kaj pasvortoj de administrantoj ne povas esti ŝanĝitaj aŭ restarigitaj. Ne enigu ĉi tie ion privatan.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Viaj aparatoj</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekureca agado</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Noto: La pakoj ne estos malinstalitaj.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Gvidiloj, serĉo kaj kiel raporti eraron.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Lastatempa enhavo</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>La plej nova enhavo, kio estas retenita por revizio, kaj agoj pri elekto.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Noto: La pakoj ne estos malinstalitaj.</translation>
         <source>Synchronisations</source>
         <translation>Sinkronigoj</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>La GraphQL-API: ĝia finpunkto, la skemo kaj ludejo por provi informpetojn.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migradoj</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ŝanĝoj al la instalaĵo konservataj kiel dosieroj: ilia stato, la ruloj, ruli kaj malfari.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Lastatempa enhavo</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>La plej nova enhavo, kio estas retenita por revizio, kaj agoj pri elekto.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publikigu statikan kopion de retejo ĉe GitHub Pages aŭ ĉe ajna git-gastiganto.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statika publikigo</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datumtipoj</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Ĉiu datumtipo de la kerno kaj la etendaĵoj, kaj kiel la klasoj kaj enhavo uzas ĝin.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Noto: La pakoj ne estos malinstalitaj.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Kontoj, kiujn neniu uzas aŭ kiuj bezonas rigardon; malŝalti, malŝlosi aŭ eksporti ilin.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Kontrola protokolo de uzantoj</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Kiu ŝanĝis, ensalutis aŭ estis rifuzita, laŭ konto; filtri kaj eksporti.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Raporto pri ensalutoj</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Kiu estas ensalutinta, ensalutoj kaj malsukcesoj po tago; elsalutigi uzanton ĉie.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Noto: La pakoj ne estos malinstalitaj.</translation>
         <source>%n hours ago</source>
         <translation>antaŭ %n horoj</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Respondoj de la konservitaj informpetoj de la GraphQL-API kaj la enhavklasoj de ĝia skemo.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Publikigu statikan kopion ĉe GitHub Pages aŭ ĉe ajna git-gastiganto</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statika publikigo</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>La statika kaŝmemoro servas paĝojn el ĉi tiu servilo. Por publikigi statikan kopion de retejo aliloke, ĉe GitHub Pages aŭ ĉe ajna git-gastiganto, uzu la statikan publikigon.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Noto: La pakoj ne estos malinstalitaj.</translation>
     <message>
         <source>last purge</source>
         <translation>lasta forviŝo</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Skriboj ne povis preni la staton-ŝloson (laste %date): ĉiu igis ĉiujn kaŝmemorigitajn rezultojn malaktualaj. %file devas esti skribebla por ĉiu uzanto, kiel kiu la retejo funkcias; ĉe NFS ĝi bezonas NFSv4 aŭ lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Noto: La pakoj ne estos malinstalitaj.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Eksvalidiĝintajn seancojn de la PHP-pritraktilo forprenas PHP mem (session.gc_maxlifetime), ne ĉi tiu paĝo nek la parto session_gc de la cron-tasko.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>La ensalutintaj seancoj de ĉiu uzanto estas listigitaj, kaj elsalutigeblaj, en la raporto pri ensalutoj, kiu funkcias kun ĉiu traktilo de seancoj.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Malfermi la raporton pri ensalutoj</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ vian konton.</translation>
     <message>
         <source>None yet</source>
         <translation>Ankoraŭ neniu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekureca agado</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Viaj lastaj ensalutoj, malsukcesaj provoj kaj ŝanĝoj de via pasvorto, retpoŝtadreso kaj dupaŝa ensaluto.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>La lastaj ensalutoj, malsukcesaj provoj kaj sekurecaj ŝanĝoj de ĉi tiu konto.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Kontroli la agadon</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Malsukcesaj ensalutoj: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Se vi volas sendi komentojn al la aprobanto aŭ vidi la staton, uzu la suban URL
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Post ensaluto la uzanto devas elekti novan pasvorton, antaŭ ol fari ion alian. Uzu tion, kiam vi donas al iu provizoran pasvorton.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Elekti ekzistantan bildon</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>La bilddosiero de la objekto, kiun vi elektas, estas kopiata en ĉi tiun kampon. La alia objekto ne ŝanĝiĝas.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>La bildo de „%name“ estis kopiita en ĉi tiun kampon.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Foliumi por bildo</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Serĉi bildojn laŭ nomo</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Serĉi</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Uzi la bildon de „%name“</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Uzi ĉi tiun bildon</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Neniu bildo kongruas kun via serĉo.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Legu la paĝon pri postuloj por pliaj informoj.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>La crontab ne estis skribita (%reason). Aldonu ĉi tiujn liniojn al la crontab de la uzanto, sub kiu la retejo funkcias, alie la atendovico, la importoj, la sciigoj kaj la serĉindekso neniam funkcios:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Reinstalado okazas per la kickstarter (%file, poste php bin/php/kickstarter.php run --apply) aŭ per freŝa instalado.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ vian konton.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Kaŝmemoro de la publika pakilo de eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL-kaŝmemoro (respondoj kaj klasoj de la skemo)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ vian konton.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopio de %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datumtipoj</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Datumtipo %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ vian konton.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>La SVG-bildo ne povis esti legita, aŭ nenio en ĝi povas esti montrata sekure.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Ne eblis kopii la bildon. Bonvolu provi denove aŭ kontakti la administranton de la retejo.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>La elektita objekto ne ekzistas aŭ vi ne rajtas legi ĝin.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>La elektita objekto havas neniun bildon.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Ne eblis legi la bilddosieron de la elektita objekto.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>La bildo de la elektita objekto estas pli granda ol ĉi tiu kampo permesas: %1 bajtoj.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ vian konton.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>La legosigno estis renomita al "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Ĉi tiu paĝo estas malŝaltita en ĉi tiu retejaliro (%siteaccess). Malfermu la legosignon en retejaliro, kiu havas ĝin.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>La modulo de ĉi tiu paĝo ne estas instalita aŭ ne estas ŝaltita ĉi tie.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Ĉi tiu paĝo ne plu ekzistas: ĝia modulo ne havas tian vidon.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Neniu el viaj roloj permesas al vi malfermi ĉi tiun paĝon.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Vi ne rajtas uzi ĉi tiun retejaliron.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Vi ne rajtas legi la enhavon, kiun ĉi tiu paĝo montras.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Tia paĝo ne povas esti legosignita: ĝi nur agas sur formularo, aŭ estas paĝo de unu momento.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>La adreso de ĉi tiu paĝo mankas.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Ĉi tiu paĝo ne povas esti malfermita nun.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>La retpoŝta transporto rifuzis %count mesaĝojn en la lasta ruligo. Kontrolu la retpoŝtan servilon kaj site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Atendantaj eventoj: %count, kaj neniu rulo de la sciiga cron-tasko estas registrita. Aldonu la cron-taskan parton &quot;frequent&quot; al la crontab, aŭ rulu exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Elekti alian retejon aŭ sekcion per la nodo-elektilo</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Nur la sistemadministranto povas ŝanĝi la posedanton: rulu ./console exp:content-check --fix-permissions --apply kiel root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
     <message>
         <source>empty</source>
         <translation>malplena</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>La subskriba ŝlosilo aĝas pli ol unu jaron: anstataŭigu ĝin per exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
         <source>Share of page time</source>
         <translation>Parto de la paĝa tempo</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>plena aranĝo estis petita</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>la paĝa kaŝmemoro ne havis la paĝon (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>la paĝa kaŝmemoro ne respondis</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Aranĝita</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Aranĝita de la kerno: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Servita el la paĝa kaŝmemoro en %ms ms. La paĝo estis konservita je %stored de aranĝo de %render ms, antaŭ %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Aranĝi nun</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Reen al la kaŝmemorigita vido</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>El la aranĝo je %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Ĉi tiu peto: servita el la paĝa kaŝmemoro en %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Uzanto</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Uzanto-ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Kaŝmemora profilo</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Ĉi tiu vido</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Vida kaŝmemoro</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>po uzanto (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Kaŝmemora profilo de la uzanto: uzantoj kun la sama profilo kunhavas la vidajn kaŝmemorajn dosierojn</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jes</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Uzantnomo</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Ensalutinta</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Seanco</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>La partoj de la kaŝmemora ŝlosilo de enhavvido, kiuj dependas de la uzanto, ĝuste kiel la ŝlosilo prenas ilin, laŭ la ViewCacheTweaks de ĉi tiu paĝo. Uzantoj kun la sama profilo kunhavas la kaŝmemorajn dosierojn de la vidoj, krom se la partoj de vido mem diferencas (preferoj, ŝlosiloj de aŭskultantoj): tiuj havas propran profilon, nur por ĉi tiu paĝo.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profilo</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Ĉi tiu vido (nodo %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: ĉiu ensalutinta uzanto havas proprajn kaŝmemorajn dosierojn.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Aktivaj ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Parto</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Valoro</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Neniu parto dependas de la uzanto (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ĉi tiu vido</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopii kiel tekston</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Roloj</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Neniuj rolasignoj legeblis.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Rola ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rolo</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Limigo</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Asignita al</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>la uzanto</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grupo %name (objekto %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kopiita</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Ne eblis kopii.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>forlasita de aŭskultanto</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonimaj vizitantoj</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>sama kiel via</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>malsama</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>La profilo, kiun anonimaj vizitantoj ricevas laŭ la samaj ViewCacheTweaks, kun la defaŭltaj preferoj, sen la partoj de la vido: aŭskultanto, kiu legas la seancon, ne povas esti demandata pri ili.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Preferoj</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Neniu vidreĝimo dependas de uzantaj preferoj (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>La preferoj, de kiuj dependas la vidoj de ĉi tiuj vidreĝimoj (CachedViewPreferences), kun la valoro de la uzanto aŭ la defaŭlto. Ili estas en la profilo kiel userpreferences, tiuj de ĉiuj vidreĝimoj kune.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Vida reĝimo</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Prefero</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Defaŭlta</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Politikoj</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Montri la politikojn de la roloj (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>La politikoj ŝargiĝas de la servilo, kiam ĉi tiu sekcio malfermiĝas, po unu paĝo, kaj filtreblas laŭ modulo kaj funkcio.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funkcio</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Ĉiuj moduloj</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Ĉiuj funkcioj</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Limigoj</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Montri pli</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Ĉi tiuj roloj havas neniujn politikojn.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Neniu politiko kongruas kun la filtrilo.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown el %matching politikoj (%total entute)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Ŝargiĝas dum malfermo.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rolo, limigo</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Serĉi la politikojn</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Ŝargi pli</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modulo/funkcio</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Ĉiuj roloj (%count politikoj)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Neniu politiko kongruas.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown el %matched politikoj</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Neniu respondo</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>maskita</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Montri klarigojn</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Kaŝi klarigojn</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Malfermi</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Malfermi ĉiujn</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Fermi ĉiujn</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Ŝlosilo aŭ valoro</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Serĉi en la seanco</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count pliaj</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>tro profunde ingita por montri</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>tranĉita, %count signoj entute</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startigita</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Nomo de la kuketo</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Seanca identigilo</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Traktilo</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Konserva vojo</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Implicita valoro de PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Vivdaŭro (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuketo</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>vivdaŭro %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Via propra PHP-seanco, kia ĝi estis kiam la sekcio estis malfermita, neniam alia. Valoroj de ŝlosiloj, kiuj aspektas kiel sekretoj (ĵetonoj, haketoj, pasvortoj), estas maskitaj (debugbar.ini SessionMask[]); ĉio alia estas montrata kiel konservita, ankaŭ personaj datumoj.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count ŝlosiloj, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>granda</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>La seanco estas malplena.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Neniu seanco estis komencita por ĉi tiu peto.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Etendaĵo %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kerno kaj aliaj</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Ne ĉiu ero estas montrata: la seanco havas pli ol eblas listigi ĉi tie.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count ŝlosiloj ne estas listigitaj.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Kadro</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Valoroj, kiuj aspektas kiel ĵetono (JSON Web Token, la akreditaĵoj de kapo Authorization, privata ŝlosilo, longa deksesuma aŭ hazarda teksto), ankaŭ estas maskitaj, kiel ajn nomiĝas ilia ŝlosilo (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>La ŝlosilo aspektas kiel sekreto (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>La valoro aspektas kiel ĵetono.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Sub maskita ŝlosilo.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>La seanco kiel teksto, maskita kiel la tabelo.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>La seanco estas pli granda ol %size (debugbar.ini SessionWarnBytes): ĉiu peto de ĉi tiu uzanto legas la tutan seancon kaj skribas ĝin, kiam ĝi ŝanĝiĝis.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP tenas ĉi tiun seancon en dosieroj kaj ŝlosas la dosieron dum la tuta peto: petoj de la sama uzanto (pluraj langetoj, AJAX-alvokoj) atendas unu la alian.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Teni malfermita</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Pli granda ol %size (debugbar.ini SessionWarnBytes): ĉiu peto de ĉi tiu uzanto legas la tutan seancon.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits el %count legitaj el la kaŝmemoro</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Neniu ŝablono estis bildigita (vido legita el la vida kaŝmemoro bildigas neniun).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Rolasignoj</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Roloj kaj politikoj</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>malsama ol por anonimaj vizitantoj</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>sama kiel por anonimaj vizitantoj</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
     <message>
         <source>not sent</source>
         <translation>ne sendita</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>La sciiga cron-tasko registras ĉi tie ĉiun sian rulon. Aldonu la parton frequent al la crontab, aŭ rulu exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Uzu la konzolon: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Ĉi tiu temo ne estas Eldonita; legantoj ne vidas ĝin.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migradoj</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ŝanĝoj al la instalaĵo konservataj kiel dosieroj: ilia stato, la ruloj, ruli kaj malfari.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publikigu statikan kopion de retejo ĉe GitHub Pages aŭ ĉe ajna git-gastiganto.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statika publikigo</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>En kontrolo</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Legantoj vidas ĉi tiun paĝon.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Kaŝita al legantoj ĝis iu eldonos ĝin.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>La paĝo nun estas en Kontrolo. Ĝi estas kaŝita al legantoj ĝis ĝi estos eldonita.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>La paĝo estas Eldonita: legantoj nun vidas ĝin.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>La paĝo denove estas Malneto. Ĝi estas kaŝita al legantoj ĝis ĝi estos kontrolita kaj eldonita.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Eldoni nun</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Nur uzanto kun la rolo %role, kiu ne verkis ĉi tiun version, povas eldoni ĝin.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Helptemoj atendantaj eldonon</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Kaŝas ĝin al legantoj ĝis ĝi estos denove eldonita.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Kontrolanto kontrolos ĝin poste. Legantoj ankoraŭ ne vidas ĝin.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Legantoj vidas ĝin tuj.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Elprenas ĝin el kontrolo por plia laboro. Legantoj ne vidas ĝin.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Ĉu kaŝi ĉi tiun paĝon al legantoj?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Ĉu resendi ĉi tiun paĝon al Malneto?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Legantoj ne plu vidas %title ĝis iu denove eldonos ĝin.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title reiras al Malneto por plia laboro. Legantoj ankoraŭ ne vidas ĝin, kaj ĝi bezonas novan kontrolon antaŭ ol esti eldonita.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Nuligi</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Ĉi tiuj temoj estas en Kontrolo. Legantoj vidos ilin, tuj kiam iu, kiu ne verkis la aktualan version, eldonos ilin.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
         <source>None.</source>
         <translation>Neniu.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>per aŭtentiga aplikaĵo</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>per kodo per retpoŝto</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>per restariga kodo</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>per alirŝlosilo</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>per ekstera konto</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekureca agado</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Montrata kiel ĝia reto; la adreso estas konservata kiel diras la datumprotektaj agordoj de la retejo.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ne registrita</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Loko</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>proksimume</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
         <source>Manage devices</source>
         <translation>Administri aparatojn</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>per aŭtentiga aplikaĵo</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>per kodo per retpoŝto</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>per restariga kodo</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>per alirŝlosilo</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>per ekstera konto</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekureca agado</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ne registrita</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Loko</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>proksimume</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
         <source>View the sessions of this user</source>
         <translation>Vidi la seancojn de ĉi tiu uzanto</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Via konto %login ĉe %site ĵus estis uzata por ensaluti el loko, el kiu ĝi lastatempe ne ensalutis:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Proksimuma loko</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser en %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Raporto pri ensalutoj</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>La alirŝlosilo ne povis esti kontrolita. Bonvolu provi denove.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Kontoj, kiuj ensalutas nur per alirŝlosiloj, ne povas uzi pasvorton ĉi tie: elektu &quot;Ensaluti per alirŝlosilo&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Alirŝlosiloj de %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>La alirŝlosiloj, per kiuj ĉi tiu konto ensalutas. Revoku tiun, kiu estas sur perdita aŭ ŝtelita aparato: ĝi ne plu povos ensaluti. La posedanto mem aldonas novajn.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Via konto bezonas alirŝlosilon</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Aldonu alirŝlosilon al via konto</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Aldonu alirŝlosilon por daŭrigi. Poste vi ensalutos per ĝi anstataŭ nur per pasvorto.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Ensaluti per alirŝlosilo estas pli rapide kaj pli sekure ol per pasvorto. Aldonu unu nun, aŭ daŭrigu sen ĝi.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ne nun</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Ĉu revoki la alirŝlosilon &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ĝi ne plu povos ensaluti en ĉi tiun konton. Se ĝi estis la lasta, la posedanto ensalutas per la pasvorto, aŭ vi agordas novan.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Revoki la alirŝlosilon</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Revoki</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Ĉi tiu konto ne havas alirŝlosilon.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Aŭtentigilo</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Nekonata</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Via lasta alirŝlosilo: aldonu alian antaŭ ol forpreni ĝin.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Ĉi tiu konto ensalutas nur per alirŝlosiloj (alirŝlosila politiko): se neniu restas, ĝi denove ensalutas per sia pasvorto.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Ĉi tio estas via lasta alirŝlosilo, kaj via konto ne povas ensaluti sen ĝi. Unue aldonu alian alirŝlosilon.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>La alirŝlosilo &quot;%name&quot; estas revokita. Ĝi ne plu povas ensaluti en ĉi tiun konton.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kodo el via aŭtentiga aplikaĵo</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Vi estas forigonta datumojn porĉiame aŭ malplenigonta protokolon.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Via pasvorto kaj alirŝlosilo</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Via pasvorto kaj kodo el via aŭtentiga aplikaĵo</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Aŭ:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Ĉi tiu retumilo ne povas uzi alirŝlosilojn. Uzu alian manieron aŭ alian retumilon.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Kiam vi daŭrigos, via retumilo petos unu el viaj alirŝlosiloj.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Daŭrigi per alirŝlosilo</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
     <message>
         <source>Setup</source>
         <translation>Agordado</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Ŝanĝo de la propra pasvorto, retpoŝtadreso, alirŝlosiloj, dupaŝa ensaluto, restarigaj kodoj aŭ API-ŝlosiloj, kaj elsalutigo de la propraj aliaj aparatoj.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Kreado kaj redaktado de uzantoj, iliaj pasvortoj kaj aparatoj, kontaj agordoj, aprobo aŭ rifuzo de novaj uzantkontoj, atribuo de roloj kaj redaktado de politikoj.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Forigo de datumoj</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Malplenigo de la rubujo, forpreno de eroj el ĝi kaj forpreno de pluraj eroj samtempe.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Forpreno, publikigo kaj konservado de enhavo</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Forpreno de enhavo (ankaŭ en la rubujon), publikigo kaj konservado de malneto, demandata kiam la formularo estas sendata. Implicite malŝaltita.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Antaŭ sentema ago ensalutinta uzanto denove konfirmas, kiu li estas: per sia pasvorto kaj alirŝlosilo, aŭ sen alirŝlosilo per sia pasvorto kaj la kodo de sia aŭtentiga aplikaĵo. Nur la retpaĝoj demandas: la REST-interfaco, SOAP, WebDAV, la ensaluto de expservices kaj la komandlinio neniam demandas.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Kie la agordoj validas</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Agordoj por</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Ĉiu retejaliro</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Retejaliro %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Malfermi</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Kiu estas demandata: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Marku uzantgrupojn por demandi nur iliajn membrojn (ekzemple redaktorojn). Nenio markita: ĉiu uzanto.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Konservita en settings/override/site.ini.append.php, por ĉiu retejaliro. Konservado petas, ke vi konfirmu, ke ĝi estas vi.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Konservita en settings/siteaccess/%name/site.ini.append.php. Valoro en settings/override havas prioritaton. Konservado petas, ke vi konfirmu, ke ĝi estas vi.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Vi devos ŝanĝi la klason de la nodo per la interŝanĝa funkcio.</translation>
     <message>
         <source>Open the page</source>
         <translation>Malfermi la paĝon</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ĝis %to el %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Salutnomo aŭ uzant-identigilo: la konto, pri kiu temis la evento, aŭ la uzanto, kiu agis.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ago</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Poste</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Ajna rezulto</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Antaŭe</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Fare de</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Malplenigi</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Farita</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Eventoj estas konservataj dum %days tagoj.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Eventoj estas konservataj, ĝis oni forigas ilin permane.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Eventoj</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Ĉiu ago</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Ĉiuj eventoj de ĉi tiu konto</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Eksporti la liston kiel CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Malsukcesa</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>De</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Malvastigi la liston</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Neniu evento kongruas.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Po paĝo</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Registrado estas malŝaltita en audit.ini ([UserAuditSettings] UserAudit); la listo montras tion, kio estis registrita antaŭe.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Rifuzita</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezulto</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Montri</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Mankas la tabelo de la kontrola protokolo de uzantoj. Kreu ĝin per php update/common/scripts/6.0/createuseraudittable.php; ĝis tiam la kontrolaj dosieroj konservas ĉiun eventon.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Ĉi tiu paĝo bezonas SQL-datumbazon; ĝi ne disponeblas ĉe MongoDB. La kontrolaj dosieroj konservas ĉiun eventon.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ĝis</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Kontrola protokolo de uzantoj</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Uzanto</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kiam</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kie</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Kiu ŝanĝis, kreis, ŝaltis, malŝaltis, movis aŭ forigis kiun konton, kiu ensalutis aŭ estis rifuzita kaj kiuj roloj estis atribuitaj: unu linio por ĉiu evento, kun la kampoj antaŭe kaj poste. Pasvortoj kaj sekretoj neniam estas registrataj.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>grupo</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistemo</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nekonata</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sekurigi vian konton</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Restariga kodo estis uzata por ensaluti al via konto %login ĉe %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Restariga kodo estis uzata</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Proksimuma adreso</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Petu novan pasvorton por denove ensaluti, aŭ kontaktu la administrantojn de la retejo.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Peti novan pasvorton</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Ĉiu restariga kodo funkcias unufoje. Se vi perdis vian telefonon, denove agordu vian aŭtentigan aplikaĵon kaj konservu la novajn restarigajn kodojn en sekura loko.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Malsukcesaj ensalutprovoj ĉe via konto</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>De nun ensaluto petas kodon krom via pasvorto. Se vi faris tion, vi nenion devas fari.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Se tio estis vi kaj vi forgesis vian pasvorton, petu novan. Se ne, elektu pli fortan pasvorton kaj ŝaltu la dupaŝan ensaluton.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Se tio ne estis vi, iu eble konas vian pasvorton: ŝanĝu ĝin nun kaj kontrolu, kie via konto estas ensalutinta.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Restantaj restarigaj kodoj</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Kontroli viajn aparatojn</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Sekureca averto</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Iu provis ensaluti al via konto %login ĉe %site per malĝusta pasvorto plurfoje sinsekve (nombro: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Okazis sekureca evento ĉe via konto %login ĉe %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Ĉi tio estas sekureca averto pri via konto. Ĝi estas sendata pro ĉiu tia ŝanĝo kaj ne malŝalteblas.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tempo</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>La dupaŝa ensaluto estis malŝaltita por via konto %login ĉe %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>La dupaŝa ensaluto estis malŝaltita</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>La dupaŝa ensaluto estis ŝaltita por via konto %login ĉe %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>La dupaŝa ensaluto estis ŝaltita</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Via konto %login ĉe %site estis ŝlosita post tro multaj malsukcesaj ensalutoj.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Via konto nun estas protektata nur per via pasvorto. Se vi ne faris tion, denove ŝaltu la dupaŝan ensaluton post kiam vi ŝanĝis vian pasvorton.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Via konto estis ŝlosita</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Alirŝlosilo estis aldonita al via konto %login ĉe %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Ĉiu, kiu havas ĉi tiun alirŝlosilon, povas ensaluti en vian konton sen via pasvorto. Se vi ne aldonis ĝin, forprenu ĝin sub Alirŝlosiloj kaj ŝanĝu vian pasvorton.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Alirŝlosilo estis forprenita de via konto %login ĉe %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ĝi ne plu povas ensaluti en vian konton. Se vi ne forprenis ĝin, kontrolu viajn alirŝlosilojn kaj aparatojn.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Alirŝlosilo estis aldonita al via konto</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Alirŝlosilo estis forprenita de via konto</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekureca agado</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sekureca agado de la uzanto %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Ensalutinta</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Malsukcesa ensalutprovo</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Elsalutinta</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Seancoj elsalutigitaj</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Ensaluto el nova aparato</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Ensaluto el nova loko</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identeco konfirmita (&quot;Kontrolu, ke ĝi estas vi&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Kontrolo de identeco malsukcesis</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ensalutinta per alirŝlosilo</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Ensaluto per alirŝlosilo malsukcesis</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Ensaluto rifuzita: dupaŝa kodo mankas aŭ estas malĝusta</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Malĝusta dupaŝa kodo</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto ŝlosita post malsukcesaj ensalutoj</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto malŝlosita</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Pasvorto ŝanĝita</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Ŝanĝo de pasvorto malsukcesis</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Pasvorto restarigita</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nova pasvorto petita</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Retpoŝtadreso ŝanĝita</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Uzantnomo ŝanĝita</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dupaŝa ensaluto ŝaltita</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dupaŝa ensaluto malŝaltita</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Restariga kodo uzita</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Novaj restarigaj kodoj</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Aplika pasvorto kreita</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Aplika pasvorto revokita</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Alirŝlosilo aldonita</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Alirŝlosilo forigita</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto ebligita</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konto malebligita</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ĉiuj</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Ensalutoj kaj seancoj</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Ŝanĝoj de konto</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Bezonas atenton</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>de vi</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>de la uzanto</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>de %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metodo</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Retumilo</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Operaciumo</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Aparato</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Loko</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Lando</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Seancoj</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Kiuj</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanalo</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Malsukcesaj provoj</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Restantaj kodoj</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Traktilo de ensaluto</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekureca agado</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sekureca agado de la uzanto %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Ensalutoj kaj ŝanĝoj de la sekureco de via konto. Se vi vidas ion, kion vi ne faris, ŝanĝu vian pasvorton kaj elsalutigu la aparatojn, kiujn vi ne rekonas.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Ensalutoj kaj ŝanĝoj de la sekureco de ĉi tiu konto.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Viaj aparatoj</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Ŝanĝi pasvorton</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Reen al la konto</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>La sekureca agado ne estas registrata</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Ĝi estas legata el la kontrola protokolo de uzantoj, kies tabelo expuser_audit mankas aŭ ne estas subtenata en ĉi tiu datumbazo. Rulu php update/common/scripts/6.0/createuseraudittable.php, aŭ la datumbazan ĝisdatigon de 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>La lastaj tagoj: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Ensalutoj en la lastaj tagoj (%days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Lasta sekureca agado</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Montri</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>malsukcesis</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>rifuzita</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Ankoraŭ neniu sekureca agado registrita.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Sekurecaj eventoj estas konservataj dum %days tagoj.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Sekurecaj eventoj estas konservataj, ĝis administranto forigas ilin.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Elŝuti miajn ensalutajn datumojn</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Viaj seancoj kaj sekurecaj eventoj kiel JSON-dosiero.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Seancoj ne estas registrataj en ĉi tiu retejo, do neniu alia aparato povis esti elsalutigita. Ŝanĝu vian pasvorton nun.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count aliaj seancoj estis elsalutigitaj. Nun ŝanĝu vian pasvorton.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Neniu alia aparato estis ensalutinta. Nun ŝanĝu vian pasvorton.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Dankon. La evento estas markita kiel via.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Tiu evento bezonas neniun respondon.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>La paĝo eksvalidiĝis. Nenio estis ŝanĝita; bonvolu provi denove.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sekurigi vian konton</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Se io ĉi tie ne estis vi, elsalutigu ĉiun alian aparaton, poste elektu novan pasvorton. Aparatoj, kiuj restis ensalutintaj per «Memori min», ankaŭ estas elsalutigitaj.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Ĉiu aparato krom ĉi tiu estas elsalutigita ĉe sia sekva peto. Poste vi elektas novan pasvorton.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Jes, elsalutigi la aliajn aparatojn</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ĉu tio estis vi?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Jes, tio estis mi</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ne, sekurigi mian konton</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Ensalutinta</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Malsukcesa ensalutprovo</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Elsalutinta</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Seancoj elsalutigitaj</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Ensaluto el nova aparato</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Ensaluto el nova loko</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identeco konfirmita (&quot;Kontrolu, ke ĝi estas vi&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Kontrolo de identeco malsukcesis</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ensalutinta per alirŝlosilo</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Ensaluto per alirŝlosilo malsukcesis</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Ensaluto rifuzita: dupaŝa kodo mankas aŭ estas malĝusta</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Malĝusta dupaŝa kodo</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto ŝlosita post malsukcesaj ensalutoj</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto malŝlosita</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Pasvorto ŝanĝita</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Ŝanĝo de pasvorto malsukcesis</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Pasvorto restarigita</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nova pasvorto petita</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Retpoŝtadreso ŝanĝita</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Uzantnomo ŝanĝita</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dupaŝa ensaluto ŝaltita</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dupaŝa ensaluto malŝaltita</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Restariga kodo uzita</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Novaj restarigaj kodoj</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Aplika pasvorto kreita</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Aplika pasvorto revokita</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Alirŝlosilo aldonita</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Alirŝlosilo forigita</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto ebligita</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konto malebligita</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ĉiuj</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Ensalutoj kaj seancoj</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Ŝanĝoj de konto</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Bezonas atenton</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekureca agado</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sekureca agado de la uzanto %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Ensalutoj kaj ŝanĝoj de la sekureco de via konto. Se vi vidas ion, kion vi ne faris, ŝanĝu vian pasvorton kaj elsalutigu la aparatojn, kiujn vi ne rekonas.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Viaj aparatoj</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Ŝanĝi pasvorton</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>La sekureca agado ankoraŭ ne estas registrata en ĉi tiu retejo.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Ensalutoj en la lastaj tagoj (%days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Malsukcesaj provoj</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Ankoraŭ neniu sekureca agado registrita.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Elŝuti miajn ensalutajn datumojn</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Viaj seancoj kaj sekurecaj eventoj kiel JSON-dosiero.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Seancoj ne estas registrataj en ĉi tiu retejo, do neniu alia aparato povis esti elsalutigita. Ŝanĝu vian pasvorton nun.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count aliaj seancoj estis elsalutigitaj. Nun ŝanĝu vian pasvorton.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Neniu alia aparato estis ensalutinta. Nun ŝanĝu vian pasvorton.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Dankon. La evento estas markita kiel via.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Tiu evento bezonas neniun respondon.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>La paĝo eksvalidiĝis. Nenio estis ŝanĝita; bonvolu provi denove.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sekurigi vian konton</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Se io ĉi tie ne estis vi, elsalutigu ĉiun alian aparaton, poste elektu novan pasvorton. Aparatoj, kiuj restis ensalutintaj per «Memori min», ankaŭ estas elsalutigitaj.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Ĉiu aparato krom ĉi tiu estas elsalutigita ĉe sia sekva peto. Poste vi elektas novan pasvorton.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Jes, elsalutigi la aliajn aparatojn</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ĉu tio estis vi?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Jes, tio estis mi</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ne, sekurigi mian konton</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Pasvorto</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Pasvorto kaj dupaŝa kodo</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-interfaco</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-interfaco</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Unuopa ensaluto</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Ensalutinta antaŭ ol seancoj estis registrataj</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Raporto pri ensalutoj</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Kiu estas ensalutinta en la retejo, kiom ofte kontoj ensalutas kaj malsukcesas, kaj elsalutigi uzanton ĉie. Ĝi funkcias kun ĉiu traktilo de seancoj.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>La seanco estis elsalutigita. La aparato devas denove ensaluti.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login estis elsalutigita el seancoj (nombro: %count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login havis neniun rulantan seancon.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Neniu konto havas tiun identigilon, uzantnomon aŭ retpoŝtadreson.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Ĉi tio estas la seanco, kiun vi uzas. Por fini ĝin, elsalutu.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Tiu seanco jam finiĝis.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>La paĝo eksvalidiĝis. Nenio estis ŝanĝita; bonvolu reprovi.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Seancoj ne estas registrataj en ĉi tiu retejo (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>La tabelo expuser_session mankas</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Seancoj estas registrataj, tuj kiam ĝi estas kreita: php update/common/scripts/6.0/createusersessiontable.php, aŭ la datumbaza ĝisdatigo de 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Nun kaj hodiaŭ</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Rulantaj seancoj</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Ensalutintaj uzantoj</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Ensalutoj hodiaŭ</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Malsukcesaj provoj hodiaŭ</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Elsalutigi uzanton ĉie</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Ĉiu seanco de la konto finiĝas ĉe sia venonta peto, ankaŭ tiuj tenataj de &quot;Memori min&quot;. Uzu tion, kiam konto eble estas en malĝustaj manoj; poste restarigu ĝian pasvorton.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Uzant-identigilo, uzantnomo aŭ retpoŝtadreso</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Elsalutigi ĉie</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Ensalutintaj nun</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>La plej lastatempe uzataj estas montrataj, ĝis %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Uzanto</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Aparato</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adreso</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Ensalutinta</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Laste aktiva</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Agoj</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Ĉi tiu aparato</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ne registrita</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Elsalutigi</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Neniu seanco estas ensalutinta.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>La lastaj tagoj: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Ensalutoj kaj malsukcesaj provoj estas kalkulataj el la kontrola protokolo de uzantoj, kiu ne ekzistas; la novaj seancoj estas kalkulataj.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Tago</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Ensalutoj</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Malsukcesaj provoj</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Novaj seancoj</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Traktilo de seancoj: %handler. La seancoj estas legataj el la tabelo expuser_session, do la raporto funkcias kun ĉiu traktilo.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Suspektinda agado en la lastaj %hours horoj</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Unu reto malsukcesis ensaluti en %accounts kontojn (%count provoj)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto ŝlosita post malsukcesaj ensalutoj</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count malsukcesaj ensalutoj en unu konto</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Ensalutinta el %count landoj samtempe</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekureca agado</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Seancoj</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Malsukcesaj ensalutoj estas legataj el la kontrola protokolo de uzantoj, kiu ne disponeblas ĉi tie.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nenio suspektinda: neniu konto kun ripetaj malsukcesaj ensalutoj, neniu reto provanta plurajn kontojn, neniu konto ensalutinta el pluraj landoj.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Sekureca averto pri via konto</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Okazis sekureca evento ĉe via konto %login: %event. Se tio ne estis vi, sekurigu vian konton ĉe %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Agordado</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Petu de la enhavo de ĉi tiu retejo ĝuste la kampojn, kiujn paĝo bezonas, per unu peto. La skemo sekvas la enhavklasojn; ĉiu informpeto ruliĝas kun la rajtoj de la uzanto, kiu sendas ĝin.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>La GraphQL-API estas malŝaltita en ĉi tiu retejaliro. Ŝaltu ĝin en graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>La GraphQL-biblioteko (webonyx/graphql-php 15) ne estas instalita.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Finpunkto</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Biblioteko</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skemo</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count enhavklasoj, skemo %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Informpeto</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variabloj (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ruli</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Respondo</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Rulante…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>La respondo ne legeblis.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>La informpeto ruliĝas kun viaj rajtoj, ensalutinte per ĉi tiu seanco.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count en %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>sen limo</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Profundo</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Komplekseco</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Eroj po listo</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (defaŭlte %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Petoj po uzanto aŭ ŝlosilo</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Petoj po anonima adreso</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspekto</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Nur konservitaj informpetoj</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Plej granda informpeto</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bajtoj</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Plej granda alŝuto</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Ne ekzistas retejaliro %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>La mutacioj estas ŝaltitaj en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>La mutacioj estas malŝaltitaj en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>La GraphQL-API estas ŝaltita en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>La GraphQL-API estas malŝaltita en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Ne eblis skribi la agordojn: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>La respondkaŝmemoro estis malplenigita: %count respondoj forigitaj.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Marku la skatolon apud la informpeto por forigi ĝin.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Ne eblis forigi la informpeton: informpeto liverita en dosierujo de PersistedQueryDirectoryList[] estas forigata kun sia dosiero.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>La konservita informpeto estis forigita.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutacioj</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ŝaltita</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>malŝaltita</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Retejaliroj</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Kie la API kaj ĝiaj mutacioj respondas. La butonoj skribas graphql.ini, kiel faras ./console exp:graphql:enable kaj exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Retejaliro</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL-API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Ŝanĝi</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Malŝalti</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Malŝalti mutaciojn</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Ŝalti mutaciojn</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Ŝalti</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Limoj</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] de ĉi tiu retejaliro.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Respondkaŝmemoro</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>La respondoj de konservitaj informpetoj, tenataj laŭ uzantorajtoj kaj eksvalidigataj kiam ajn enhavo estas publikigita.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stato</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Tenataj respondoj</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count respondoj, %bytes bajtoj</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Tenataj maksimume</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Laste eksvalidigita</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Malplenigi la respondkaŝmemoron</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Konservitaj informpetoj</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Konservitaj per ./console exp:graphql:persist aŭ de klientoj (aŭtomataj konservitaj informpetoj); vokataj per nomo aŭ SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nomoj</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Grando</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kie</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Forigi</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>liverita</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>konservita</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Jes, forigi ĉi tiun informpeton</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Ankoraŭ neniu konservita informpeto.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-ŝlosiloj</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Personaj API-ŝlosiloj kun la amplekso graphql:read (informpetoj) aŭ graphql:write (mutacioj). Kreu kaj revoku ilin en la paĝo API-aliro aŭ per ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API-aliro</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Ĉiuj ŝlosiloj</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Ŝlosilo</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nomo</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Posedanto</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Ampleksoj</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Laste uzita</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktiva</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>eksvalidiĝinta</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>revokita</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>neniam</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Ankoraŭ neniu API-ŝlosilo kun GraphQL-amplekso.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>La GraphQL-API estas malŝaltita en la retejaliro %siteaccess, kiu montras ĉi tiun paĝon; la suba tabelo montras, kie ĝi respondas.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Por la retejaliro %siteaccess, kiu montras ĉi tiun paĝon.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Rethokoj</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Ĉiun eventon, kiun finpunkto petas (publish, update, trash, delete, move, hide, reveal, mutation), la cronjob-parto graphqlwebhooks sendas al ĝi, subskribitan. ./console exp:graphql:webhooks faras la samon kiel ĉi tiu sekcio.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Eventoj</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ĉiuj</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Ĉiu retejaliro</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>rompita</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>sen sekreto</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Atendantaj</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count rezignitaj</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Lasta liverado</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Sendi teston</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Jes, forigi ĉi tiun rethokon</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Ankoraŭ neniu rethoko.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Aldoni rethokon</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Aldoni</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Lastatempaj liveradoj</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tempo</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezulto</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abonoj</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Vivaj ĝisdatigoj por klientoj: eventofluo ĉe /api/graphql/subscribe, kaj WebSocket (graphql-transport-ws) ĉe Velocity. Ĉiu evento iras nur al abonantoj, kiuj rajtas legi ĝian enhavon.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Nun malfermitaj</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Maksimume malfermitaj</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total entute, %user po uzanto, %address po adreso</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Anonimaj abonoj</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Daŭro de fluo</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Ne eblis aldoni la rethokon: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>La rethoko %name estis ŝanĝita; ĝia subskriba sekreto restas.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Ne eblis konservi la subskriban sekreton (Agordado &gt; Sekretoj).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>La rethoko %name estis aldonita. Ĝia subskriba sekreto, montrata nur ĉi-foje: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Ne ekzistas rethoko %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>La rethoko %name ne respondis: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>La rethoko %name respondis %status post %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Marku la skatolon apud la rethoko por forigi ĝin.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>La rethoko %name estis forigita.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>La GraphQL-API estas malŝaltita en ĉi tiu retejaliro.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>La GraphQL-biblioteko ne estas instalita.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Uzu GET aŭ POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>La korpo ne estas JSON-objekto.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ne estas JSON-objekto.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ne estas JSON-objekto.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Sendu la informpeton per POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>La peto enhavas neniun informpeton.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>La informpeto estas pli longa ol %max bajtoj.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Interna servila eraro</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node bezonas ekzakte unu el id, remoteId, path kaj urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content bezonas ekzakte unu el id kaj remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>La kursoro de after ne devenas de ĉi tiu API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Ne ekzistas bildalias %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Ĉi tie estas akceptataj nur konservitaj informpetoj: sendu la identigilon de konservita informpeto.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>La haketaĵo de la konservita informpeto ne estas SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>La haketaĵo de la konservita informpeto ne kongruas kun la informpeto.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Tro da petoj: maksimume %limit en %window sekundoj. Reprovu post %reset sekundoj.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>La informpeto estas %depth nivelojn profunda; maksimume %max estas permesataj.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>La informpeto havas kompleksecon de %complexity; maksimume %max estas permesata.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Ĉi tiu peto ne rajtas legi la skemon (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search bezonas tekston aŭ filtrilon (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ne estas dato (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag bezonas ekzakte unu el id, remoteId kaj path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout bezonas ekzakte unu el id, identifier kaj urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>La kampo operations de multparta peto ne estas unu JSON-peto.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>La kampo map de multparta peto ne estas JSON-objekto.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>La multparta peto ne enhavas la dosieron %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Vojo de la kampo map devas komenciĝi per variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>La dosiero %name ne alvenis tuta (alŝuta eraro %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>La dosiero %name estas pli granda ol %max bajtoj.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Ne eblis kontroli la dosieron %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutacioj estas malŝaltitaj en ĉi tiu retejaliro (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Sendu mutacion per POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Ensalutu por ŝanĝi enhavon.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>La API-ŝlosilo ne havas la amplekson %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutacio kun seanco bezonas la formularan ĵetonon de la seanco (kapo X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl estas malŝaltita: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nomas neniun gastiganton.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>La adreso devas esti https-adreso.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>La gastiganto %host ne estas en graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Ne eblis elŝuti la dosieron.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload estas nur enigtipo.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Variablo de tipo Upload prenas dosieron de multparta peto.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>La fora identigilo %remoteId jam estas uzata.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>La enhavo jam havas tradukon en %language: uzu updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Donu almenaŭ unu kampon.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Ne eblis krei novan version (la enhavo havas tro da malnetoj).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Versio %version ne estas malneto.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent bezonas ekzakte unu el id kaj nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Loko ne povas esti movita sub sin mem.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>La enhavo jam havas lokon sub %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Ne eblis konservi la valoron de la kampo %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Ne ekzistas enhavlingvo %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Ne ekzistas enhavklaso %class en la skemo.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>La enhavo ne ekzistas, aŭ vi ne rajtas legi ĝin.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Vi ne rajtas fari tion al ĉi tiu enhavo.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>La klaso %class ne havas skribeblan kampon %field.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>La kampo %field estas donita dufoje.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>La kampo %field prenas dosieron: sendu ĝin kiel alŝuton (multparta peto).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>La kampo %field prenas neniun dosieron.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>La kampo %field bezonas valoron.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>La formato %format estas nur por riĉtekstaj kampoj; %field prenas sian valoron tia, kia ĝi estas (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>La kampo %field estas deviga.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Ne eblis legi la HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content akceptas version nur kun id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>La antaŭrigarda ĵetono ne validas aŭ eksvalidiĝis.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ne estas origino (https://host aŭ https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ne estas amplekso de la GraphQL-API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Sendu abonojn al /api/graphql/subscribe (eventofluo aŭ WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>La peto nomas neniun operacion de la dokumento.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Abono petas ekzakte unu kampon.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Tro da abonoj estas malfermitaj; reprovu poste.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Vi havas %max malfermitajn abonojn, la maksimumon permesatan.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Via adreso havas %max malfermitajn abonojn, la maksimumon permesatan.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Abonoj estas malŝaltitaj en ĉi tiu retejaliro.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Ensalutu por aboni (ĵetono aŭ persona API-ŝlosilo).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Sendu mutaciojn al /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migradoj</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>La stato ne legeblis: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>La tabeloj de la migradoj ankoraŭ ne ekzistas: ./console exp:upgrade --apply kreas ilin.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migradoj malsukcesis</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Rulo okazas, startigita de %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>La instalaĵo estas ŝlosita: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Atendanta</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Malsukcesa</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Orfoj</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Lasta rulo</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ankoraŭ neniu</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Ĉiuj migradoj</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simulita rulo</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Provrulo</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>La atendantaj migradoj ruliĝis en transakcio, kiu poste estis malfarita: nenio estis konservita. Sube estas, kion ĉiu ŝanĝis en la datumbazo.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Kion rulo nun farus. Nenio estas ŝanĝata: ĉiu atendanta migrado listigas la ŝanĝojn, kiujn ĝi farus, kaj la rulo, kion ĝi farus antaŭe kaj poste.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simuli</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ruli</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>La provrulo malsukcesis: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulado bezonas PostgreSQL aŭ SQLite, kies skemoŝanĝoj malfareblas; ĉe ĉi tiu datumbazo la suba plano montras, kion rulo farus.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>La migradoj</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrado</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stato</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Kion ĝi farus</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulado: %result en %ms milisekundoj</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Ankoraŭ neniu migrado.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Antaŭ kaj post la rulo</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Momentfoto antaŭe</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>farata, kaj restarigata, kiam migrado malsukcesas</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>malŝaltita</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Momentfoto poste</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>farata, kiam la rulo sukcesis</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migradoj: %pending atendantaj, %done faritaj, %failed malsukcesaj.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Historio de la migradoj</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Ĉiu rulo kun sia uzanto, medio, momentfotoj kaj tio, kio estis enmetita, markita kaj puŝita. Malsukcesa aŭ interrompita rulo daŭrigeblas; rulo kun momentfoto farita antaŭ ĝi malfareblas.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>La ruloj ne legeblis: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>La tabeloj de la migradoj ankoraŭ ne ekzistas: ./console exp:upgrade --apply kreas ilin.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Montri</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ĉiuj</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ruloj</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startigita</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>De</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Momentfotoj</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Deponejo</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Agoj</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>antaŭe</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>poste</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>puŝo: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Daŭrigi</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Malfari</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Neniu rulo en ĉi tiu stato.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Startigitaj ĉi tie</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Ruloj, daŭrigoj kaj malfaroj startigitaj sur ĉi tiuj paĝoj, kun la raporto de ĉiu.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Kio</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezulto</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Malfaro</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Malfaro de %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Rulo %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Kion la rulo faris, ĝia registro kaj ĝia protokolo. Rulo startigita ĉi tie daŭras en la fono, kiam ĉi tiu paĝo estas fermita; malfermu la paĝon denove por sekvi ĝin.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Daŭrigi ĉi tiun rulon</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Malfari ĉi tiun rulon</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>La registro ne legeblis: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progreso</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Startigita de %user je %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kontrolante la kodon kaj farante momentfoton antaŭ la rulo</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Rulante %id (%index el %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done el %total faritaj</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>La migradoj ruliĝis; restarigante la momentfoton, se unu malsukcesis</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Farante momentfoton post la rulo, enmetante, markante kaj puŝante</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Restarigante la momentfoton</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>La rulo finiĝis. Ŝargante ĝian raporton.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>La progreso ne sekveblis. Reŝargu la paĝon por vidi, kiel la rulo iras.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ĉi tiu paĝo sekvas la rulon dum ĝi iras.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Reŝargi</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raporto</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Daŭro</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisekundoj</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Kion la rulo eligis kiel erarojn</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Registro</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Medio</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>neniu</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Finita</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Enmeto</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Marko</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Puŝo</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mesaĝo</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migradoj de ĉi tiu rulo</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Fonto</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Protokolo de la rulo</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Nur la fino de la protokolo estas montrata.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ruliĝas</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>finiĝis sen raporto</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>sukcesis</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>malsukcesis</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>rifuzita</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>la datumbazo ne estis atingebla</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>interna eraro</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Rulo okazas</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind startigita de %user je %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Sekvi ĝin</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>La instalaĵo estas ŝlosita</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Alia rulo tenas la ŝloson (ĝisdatigo aŭ rulo en la konzolo): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>farita</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>atendanta</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ne bezonata</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nekonata</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>malfarita</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>aplikita</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>estus aplikita</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>reprenita</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>estus reprenita</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ne rulita</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>atendas alian</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ŝanĝo akceptita</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ŝanĝo estus akceptita</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulita</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migradoj</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statuso</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historio</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Repreni %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Rulo estas reprenita al la momentfoto farita antaŭ ĝi, unuopa migrado per sia down(). Restarigi pli fruan momentfoton estas por spertuloj. Ĉiu ruliĝas en la fono kiel vi, post momentfoto de la nuna stato.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Kio repreneblas, ne legeblis: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Rulo</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Unu migrado</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Pli frua momentfoto</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Priskribo</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jes</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Momentfoto</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etikedo</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Farita</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Speco</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Restarigotaj partoj</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>La datumbazo</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>La konservitaj dosieroj (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>La agordoj (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Restarigo reigas la datumbazon al la tempo de la momentfoto, inkluzive de seancoj: poste vi eble devos denove ensaluti. Ĉio ŝanĝita ekde tiam perdiĝas; unue estas farata momentfoto de la nuna stato.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Mi scias, kion tio restarigas</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Tajpu denove la identigilon de la momentfoto</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Jes, repreni</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Nuligi</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>La ruloj kun momentfoto farita antaŭ ili.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Elekti</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Ankoraŭ neniu rulo kun momentfoto.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>La aplikitaj migradoj, kiuj povas repreni sin mem (ili havas down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Neniu aplikita migrado havas down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Pli fruaj momentfotoj (spertuloj)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Ankoraŭ neniu momentfoto.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Ruli la migradojn</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>La rulo okazas en la fono kiel %user, kaj ĝia paĝo montras ĝin dum ĝi iras. Antaŭ la unua migrado estas farata momentfoto de la instalaĵo; kiam migrado malsukcesas, la rulo haltas kaj la momentfoto estas restarigata.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Unue provrulo</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>La stato ne legeblis: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Atendantaj migradoj</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ili ruliĝas en ĉi tiu ordo. Malmarku unu por lasi ĝin, kaj tiujn, kiuj bezonas ĝin, por posta rulo.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Ruli ĝin</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Ŝaltas la prizorgan reĝimon dum la rulo.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Ŝanĝitaj post sia apliko</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Ĉi tiuj dosieroj ne estas tiuj, kiuj estis aplikitaj. Rulo rifuzas ilin, krom se la ŝanĝo estas akceptita kun kialo; ili ne ruliĝas denove, la nova kontrolsumo estas registrata kaj la kialo konservata en la kontrolprotokolo.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Akcepti la ŝanĝojn</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Kial</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>La aprioraj valoroj estas la sekuraj. Ĉiu markobutono ellasas paŝon.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Neniu momentfoto</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Neniu momentfoto antaŭ kaj post la rulo: malsukceso ne restarigeblas aŭtomate.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Neniu restarigo</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Post malsukceso, lasi la instalaĵon tia, kia la malsukceso lasis ĝin.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Konservi neenmetitajn ŝanĝojn</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Ruli, kvankam agordoj, kromprogramoj aŭ dezajnoj havas neenmetitajn ŝanĝojn; ili eniras la momentfoton.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Neniu enmeto</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ne enmeti la statusan dosieron kaj la protokolon de la rulo (ankaŭ neniu marko kaj neniu puŝo).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Neniu puŝo</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Enmeti kaj marki, sed ne puŝi.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Neniu marko</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Enmeti kaj puŝi, sed ne marki la rulon.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Jes, ruli ĉi tiujn migradojn nun</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Neniu migrado atendas.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Reen al la stato</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Ŝanĝoj al ĉi tiu instalaĵo, skribitaj unufoje kiel dosieroj (enhavo, klasoj, roloj, agordoj, skemo) kaj aplikitaj al ĉiu instalaĵo de la retejo en la sama ordo. Rulo unue faras momentfoton, restarigas ĝin, kiam migrado malsukcesas, kaj registras, enmetas kaj puŝas tion, kion ĝi faris.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Ruli %count atendantajn</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Superrigardo</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Atendantaj</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Faritaj</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Malsukcesaj</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ne bezonataj</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Datumbazo</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transakcioj: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Migradoj de la retejo troviĝas en migrations/, tiuj de kromprogramo en extension/&lt;name&gt;/migrations/. Ili ruliĝas laŭ la ordo de siaj nomoj kaj de tio, kion ili bezonas.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Lasta rulo</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>La dosiero ŝanĝiĝis post sia apliko.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Ankoraŭ neniu migrado. ./console exp:migration:generate --skeleton &lt;name&gt; --apply skribas la unuan.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>La lastaj ruloj</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Ĉiuj ruloj</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Ankoraŭ neniu rulo.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Simuli rulon bezonas la politikon migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Rulo okazas: simulu, kiam ĝi finiĝis.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Agordado</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target estas nek rulo, nek migrado, nek momentfoto de ĉi tiu instalaĵo.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Unue marku „Jes, repreni“.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Restarigi pli fruan momentfoton estas por spertuloj: marku „Mi scias, kion tio restarigas“.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Tajpu denove la identigilon de la momentfoto: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Elektu almenaŭ unu parton por restarigi.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ĉi tiu rulo ne havas momentfoton faritan antaŭ ĝi: reprenu ĝiajn migradojn unu post la alia, aŭ restarigu pli fruan momentfoton.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Ĉi tiu migrado ne povas repreni sin mem: ĝi ne estas aplikita, aŭ ĝi ne havas down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>La formularo ne legeblis.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Elektu la rulon daŭrigotan.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Unue marku „Jes, ruli ĉi tiujn migradojn nun“.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Elektu almenaŭ unu migradon.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migrado ŝanĝiĝis post sia apliko: akceptu la ŝanĝon kun kialo, aŭ remetu la dosieron.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Indiku la kialon, kial la ŝanĝitaj migradoj estas akceptataj.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>La kialo estas maksimume 500 signojn longa.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Rulo startigita ĉi tie ankoraŭ okazas (%detail). Atendu, ĝis ĝi finiĝos.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Alia rulo tenas la ŝloson de la instalaĵo: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>La rulo bezonas ensalutintan uzanton, kiu ekzistas.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Neniu komandlinia php-programo troviĝis. Agordu migration.ini [AdminSettings] PhpCliPath al ĝia plena vojo.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open estas malŝaltita, do rulo ne startigeblas ĉi tie. Rulu ./console exp:migration:migrate --apply ĉe la servilo.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>La dosierujo de la ruloj ne skribeblas: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>La rulo startis, sed ne raportis sian procezan identigilon. Kontrolu %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Indiku, kion repreni.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>La rulo ne startigeblis.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Registri ŝanĝojn</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Dum registrado funkcias, kion vi ŝanĝas en la administrado aŭ en la flanka breto de la retejo estas konservata kiel paŝoj de migrado: enhavo, klasoj, roloj kaj politikoj, sekcioj, uzantoj kaj grupoj, URL-kaŝnomoj, agordoj. Haltigu ĝin kiam vi finis, rigardu kion ĝi kaptis kaj generu migradon el ĝi.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>La registraĵoj ne legeblis: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>La tabeloj de la registraĵoj ankoraŭ ne ekzistas: unue rulu la ĝisdatigon (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Registrado estas malŝaltita en migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Miaj ŝanĝoj</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Registras nur tion, kion vi ŝanĝas, kie ajn vi ŝanĝas ĝin, ĝis vi haltigas ĝin.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Registrado</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>ekde %time, ĝis nun %count ŝanĝo(j).</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etikedo (nedeviga)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Montri kion ĝi kaptis</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Haltigi registradon</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Komenci registri miajn ŝanĝojn</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Fenestro por la tuta retejo</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Registras ĉiun ŝanĝon de ĉiu uzanto kaj de la konzolo ĝis ĝi estas fermita. Malfermante ĝin, vi devas konfirmi ke estas vi.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Malfermita</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Fermi la fenestron</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Malfermi la fenestron por la tuta retejo</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Registraĵoj</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>La konto de uzanto (salutnomo, retpoŝto, pasvorto) kaj la kampoj de uzantkontoj neniam estas registrataj.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ŝanĝoj</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Tuta retejo</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Ŝanĝoj de %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Haltigita</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Ankoraŭ neniu registraĵo.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Registraĵo %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Ĉiuj registraĵoj</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>La migrado, kiun ĝi farus</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>La ŝanĝoj kunigitaj en unu paŝon por ĉiu ŝanĝita afero: kion farus migrado generita el ĉi tiu registraĵo.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Migrado povos esti generata el ĝi, kiam ĉi tiu instalaĵo havos la YAML-paŝtipojn %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Intence ellasita: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Nenio estis registrita.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Kion ĝi kaptis</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count ŝanĝo(j), laŭ la ordo en kiu ili estis faritaj.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Ŝanĝo</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Paŝo</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Koncernas</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Ankoraŭ %count: ./console exp:migration:record:show listigas ĉiujn.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Forĵeti</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Forigas la registraĵon kaj tion, kion ĝi kaptis. Kio estis ŝanĝita restas ŝanĝita.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Jes, forĵeti ĉi tiun registraĵon</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Registrante…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Viaj ŝanĝoj estas registrataj por migrado.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Ĉiu ŝanĝo en ĉi tiu retejo estas registrata por migrado (fenestro por la tuta retejo).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>La registrado por la tuta retejo komenciĝis: ĉiu ŝanĝo de ĉiu uzanto estas registrata ĝis vi haltigas ĝin.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>La registrado komenciĝis: viaj ŝanĝoj estas registrataj ĝis vi haltigas ĝin.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Registrado haltigita. Kion ĝi kaptis restas ĝis vi forĵetas ĝin.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>La registraĵo kaj ĝiaj eventoj estas forigitaj.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Ne ekzistas registraĵo %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Unue marku „Jes, forĵeti ĉi tiun registraĵon“.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Nur la uzanto kiu registris rajtas haltigi seancan registradon.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Elektu la registradon haltigotan.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Registrado de ĉi tiu speco jam funkcias.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>La registraĵo ne ŝanĝeblis: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Generi migradon</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Nomo de la migrado (laŭvola)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>La migrado %file estas skribita. Ŝanĝoj, kiujn neniu paŝo povas fari, estas nomitaj supre en la dosiero, por fari ilin permane.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Neniu migrado estis skribita: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Longa ruldo en partoj</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Malplenaj kampoj konservas la agordojn de migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Maksimume tiom da migradoj</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Neniu plia migrado post (sekundoj)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Paŭzo inter migradoj (sekundoj)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Pli malalta prioritato (1 ĝis 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Kampo de longa ruldo estas entjero ekde 1 (la paŭzo: sekundoj de 0 ĝis 60, la prioritato: 1 ĝis 19), aŭ malplena.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Ĝi fermiĝas mem je %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Fermiĝu mem post (minutoj, laŭvole)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>La minutoj estas entjero de 1 ĝis 44640 (31 tagoj), aŭ malplena.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrado %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nova migrado</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML-migrado: skribu ĝin kiel tekston aŭ kunmetu ĝiajn paŝojn en la formularo, kontrolu ĝin, poste konservu ĝin en migrad-dosierujon.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Ĉi tiu migrado jam ruliĝis, do ĝi ne estas konservata denove: la kontrolsuma gardo rifuzus ŝanĝitan dosieron. Faru la ŝanĝon en nova migrado.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>La retservilo ne povas skribi la dosieron.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>La komentaj linioj supre estas la kapo (description, author, requires, environments, engines). Kiam paŝo estas aldonita aŭ ŝanĝita en la formularo, la migrado estas reskribita: komentoj inter la paŝoj ne estas konservataj.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Nomo de la migrado</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Kien ĝi iras</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>La retejo</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-teksto</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kontroli</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Konservi</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Paŝoj</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Ŝlosiloj</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Redakti</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Movi supren</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Movi malsupren</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Forpreni</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Ankoraŭ neniuj paŝoj: aldonu unu per la formularo, aŭ skribu ilin en la teksto.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Ŝanĝi paŝon %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Aldono de paŝo</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>La formularo de paŝo estas farita el ĝia paŝotipo: ĝiaj ŝlosiloj, kion ĉiu akceptas kaj la reĝimoj, al kiuj ĝi apartenas.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Paŝotipo</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Montri ĝian formularon</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>La paŝo havas ŝlosilojn, kiujn ĝia tipo ne konas; ili estas forlasitaj, kiam la paŝo estas ŝanĝita: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Reĝimo</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>En</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>nur en %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Defaŭlto: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Kondiĉoj, referencoj kaj komento</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Paroj Nomo=valoro apartigitaj per komoj. La valoroj de ĉi tiu paŝo: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Ekzemplo</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Ŝanĝi paŝon</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Aldoni paŝon</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Kion diras exp:migration:check: la kapo, la dokumento kaj ĉiu paŝo kontrolita de ĝia paŝotipo.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>La migrado trapasas la kontrolon.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Antaŭrigardo</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>La YAML, kiel ĝi estos konservita.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Montri la YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-migradoj</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ruliĝis</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Ankoraŭ ne estas YAML-migradoj.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Redaktanto</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Ne estas YAML-migrado %id en la migrad-dosierujoj.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Elektu paŝotipon.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>La paŝo estas aldonita. Kontrolu la migradon antaŭ ol konservi ĝin.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>La paŝo estas ŝanĝita. Kontrolu la migradon antaŭ ol konservi ĝin.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Elektu paŝon.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Ĉi tiu paŝo ne havas formularon (ciklo, aŭ paŝotipo, kiun ĉi tiu instalaĵo ne havas): ŝanĝu ĝin en la teksto.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Elektu, kien la migrado iras: la retejo aŭ aktiva kromprogramo.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file konservita. Faru provrulon antaŭ ol la migrado ruliĝas.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ne konservita: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Forstacioj</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>La aliaj instalaĵoj, al kiuj ĉi tiu liveras siajn migradojn: liverado sendas la migradojn al la elektitaj forstacioj kaj rulas ilin tie, ĉiujn samtempe kaj sinkrone. Forstacio neniam tenas sekreton: ĝia akreditaĵo nomas unu en Agordado &gt; Sekretoj.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Nova forstacio</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Helpo</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Testo de konekto de %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>La forstacioj</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Ĝis %parallel forstacioj estas traktataj samtempe; unu fazo povas daŭri %timeout sekundojn ĉe ĉiu.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Forstacio</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adreso</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Akreditaĵo</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Grupoj</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>korektendaj agordoj</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>nur dosieroj (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-ŝlosilo</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Pasvorto</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>neniu (la SSH-agento kaj ŝlosiloj de la gastiganto)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Testi konekton</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Liverado al grupo iras al ĉiu ĝia forstacio.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Liveri al forstacioj</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Ankoraŭ neniu forstacio estas agordita.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Forstacio %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Nenio estas sendata aŭ rulata ĉi tie: Konservi skribas la agordojn al settings/override/migration.ini.append.php. La akreditaĵo estas nomo; ĝia valoro restas en Agordado &gt; Sekretoj aŭ en la medio.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontrolu ĉi tiujn agordojn</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>La agordoj kiel enigitaj, ankoraŭ ne konservitaj.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Kontrolo</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>La agordoj validas. Ĉi tiuj linioj estos skribitaj:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transporto</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>nur nomo; la valoro restas en Agordado &gt; Sekretoj</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>La linioj, kiuj estos skribitaj</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Konekto</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Gastiganta ŝlosilo</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. La forstacio</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Kiel la forstacio nomiĝas kaj kiu medio ĝi estas.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Identigilo</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Literoj, ciferoj, - kaj _, ekzemple production1. Ĝi nomas la forstacion en raportoj kaj en la konzolo (--remotes=production1) kaj ne povas esti ŝanĝita poste.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Etapa liverado trairas la mediojn en ĉi tiu ordo.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Nedeviga, apartigitaj per komoj, ekzemple production. Liverado al grupo iras al ĉiu ĝia forstacio.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. La konekto</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Kiel la dosieroj atingas tien, kaj kie la instalaĵo estas.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Per SSH, nur kio ŝanĝiĝis, rompita transigo daŭrigata. La plej bona elekto, kie rsync estas instalita.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH kun scp por la dosieroj.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH kun sftp por la dosieroj.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Nur dosieroj: la migradoj estas sendataj kaj relegataj, sed ne povas esti rulataj tie.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP per TLS; nur dosieroj.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Alia instalaĵo sur ĉi tiu servilo, en dosierujo.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Gastiganto</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Gastiganta nomo aŭ adreso, ekzemple node1.example.com. Ne por local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Pordo</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Malplena: 22 por SSH, 21 por FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Uzanto</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Vojo</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>La radiko de la instalaĵo tie, ekzemple /var/www/site (por FTP: la vojo, kiun la FTP-konto vidas).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-komandlinio</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>La PHP-CLI tie: php, aŭ plena vojo kiel /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>La konzolaj skriptoj ruliĝas tie kiel root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Nur kiam la uzanto de la forstacio estas root (ili tiam estas rulataj kun --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. La akreditaĵo</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Kiel ĉi tiu instalaĵo ensalutas tie. Nur nomo estas konservata.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Neniu</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>La SSH-agento kaj ŝlosiloj de la uzanto, kiel kiu ĉi tiu instalaĵo ruliĝas (kaj ĉiam por local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Privata ŝlosilo konservata kiel sekreto.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Pasvorto konservata kiel sekreto (FTP ensalutas per ĝi).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Nomo de la sekreto</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Sekreto de Agordado &gt; Sekretoj, ekzemple deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Agordado &gt; Sekretoj</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Aŭ media variablo</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>La variablo de la servila procezo, kiu tenas ĝin, ekzemple DEPLOY_KEY (konservita kiel env:DEPLOY_KEY). Ĝi anstataŭas la nomon de la sekreto.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. La gastiganta ŝlosilo</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Nedeviga, por SSH, sftp kaj rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Fingrospuro de la gastiganta ŝlosilo</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... kiel ssh-keygen -l presas ĝin. Kun ĝi, la gastiganto devas montri ĉi tiun ŝlosilon; sen ĝi, la ŝlosilo estas lernata ĉe la unua kontakto.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Kontrolo</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Testu la konekton kun la supraj agordoj, poste kontrolu la liniojn, kiuj estos skribitaj.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Forpreni ĉi tiun forstacion</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Ĝiaj agordoj estas forprenataj el settings/override/migration.ini.append.php. Nenio ŝanĝiĝas ĉe la forstacio, kaj ĝiaj liveradoj restas en la historio.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Jes, forpreni ĉi tiun forstacion</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Liveradoj</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Liverado sendas la migradojn de ĉi tiu instalaĵo al la elektitaj forstacioj kaj rulas ilin tie kiel %user, ĉiujn samtempe kaj sinkrone: ĉiu forstacio unue estas kontrolata, kaj kiam unu malsukcesas, ĉiu forstacio, kiu aplikis, estas reprenata. Ĝi daŭras fone, kaj ĝia paĝo montras ĉiun forstacion dum ĝi progresas.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. La forstacioj</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Marku forstaciojn, grupon aŭ ambaŭ.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Liveri al ĝi</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Kiel</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Liveri</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Sendi kaj ruli</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>La migradoj estas sendataj, kontrolataj kaj rulataj ĉe ĉiu forstacio kun unu komuna rul-identigilo.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Nur transigi</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>La dosieroj estas sendataj kaj kontrolataj, nenio estas rulata (la sola maniero por FTP-forstacio).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Etape</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Etapo post etapo laŭ la ordo de la medioj (dev, stage, beta, production ...): la unua etapo estas liverata, poste pordego atendas, ĝis iu aprobas la sekvan. Ĉio aŭ nenio en ĉiu etapo.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Nur ĉi tiuj migradoj</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Nedeviga: identigiloj de migradoj, apartigitaj per komoj. Malplena: ĉiu migrado de la retejo kaj ĝiaj kromprogramoj.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Nur antaŭkontrolo</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Jes, liveri nun</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>La liveradoj, kiuj sendis aŭ rulis ion, la plej nova unue (antaŭkontrolo konservas neniun raporton).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>nur transigo</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>etapa, %stages etapoj</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>nesinkrona</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Ankoraŭ neniu liverado.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Liverado %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ĉiu forstacio de la liverado kun sia stato. Liverado startigita ĉi tie daŭras fone, kiam ĉi tiu paĝo estas fermita; malfermu la paĝon denove por sekvi ĝin.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Ĉiuj liveradoj</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Antaŭkontrolo</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Sekva etapo</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Kontrolante la agordojn kaj la akreditaĵojn</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Antaŭkontrolo: legante la staton de ĉiu forstacio</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Sendante la migradajn dosierojn</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Kontrolante kio alvenis</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Rulante la migradojn ĉe ĉiu forstacio</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Reprenante la forstaciojn</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>La liverado finiĝis. Ŝargante ĝian raporton.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>La progreso ne sekveblis. Reŝargu la paĝon por vidi, kiel la liverado iras.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fazo</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ĉi tiu paĝo sekvas la liveradon dum ĝi progresas.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Sinkrone</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Etapoj</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>etapo %stage atendas ĉe sia pordego</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Pordego %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>aprobita de %user je %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Etapo</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Senditaj dosieroj</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Versio de la kerno</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>aplikitaj: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>aplikotaj: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fazoj</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Pordego: etapo %stage el %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>La etapoj antaŭ ĝi estas liveritaj. Kontrolu ilin, poste aprobu la sekvan etapon: ĝiaj forstacioj estas denove kontrolataj kaj liverataj, ĉio aŭ nenio.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Sekva</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Jes, liveri la sekvan etapon nun</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aprobi</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Malfari ĉi tiun liveradon</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Ĉiu forstacio, kiu aplikis ĝin (%list), revenas al la momentfoto farita antaŭ sia rulo, ĉiuj samtempe.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Jes, malfari ĉi tiun liveradon nun</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>planita</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>transigita</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>liverita</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>atendas ĉe pordego</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>elektitaj</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>preparita</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>preta</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>atendas sian etapon</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>dosieroj senditaj</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>kontrolita</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>malsukcesis, restarigis sin mem</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>neŝanĝita</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ne liverita</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ne atingebla</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>La forstacio respondis.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>La forstacio ne uzeblas nun.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done faritaj, %pending atendantaj, %failed malsukcesaj</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Ŝloso</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>rulo tenas la ŝloson tie</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>libera</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage el %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Elektu la forstacion testotan.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Unue marku “Jes, forpreni ĉi tiun forstacion”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>La forstacio ne forpreneblis: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>La forstacio ne konserveblis: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>La agorda dosiero ne legeblas: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Elektu almenaŭ unu forstacion aŭ grupon.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Elektita forstacio ne plu estas en la agordoj. Reŝargu la paĝon.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Unue marku “Jes, liveri nun”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP-forstacio ne povas ruli migradojn: elektu “Nur transigi”, aŭ preterlasu ĝin.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>La liverotaj migradoj estas identigiloj de migradoj, apartigitaj per komoj.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>La liverado ankoraŭ daŭras. Atendu, ĝis ĝi finiĝos.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Ĉi tiu liverado ne atendas ĉe pordego.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Neniu forstacio aplikis ĉi tiun liveradon: estas nenio por malfari.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Unue marku “Jes, liveri la sekvan etapon nun”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Unue marku “Jes, malfari ĉi tiun liveradon nun”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Forstacio kun la identigilo %id jam ekzistas.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>La pordo estas nombro de 1 ĝis 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>La medio estas vorto el literoj, ciferoj, - kaj _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Grupo estas vorto el literoj, ciferoj, - kaj _ (ne all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>La akreditaĵo ne legeblas nun: %problem. Konservu ĝin en Agordado &gt; Sekretoj (aŭ agordu la variablon) antaŭ la unua liverado.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP-forstacio nur ricevas dosierojn: liverado al ĝi estas “Nur transigi”, kaj ĝiaj migradoj estas rulataj tie permane.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>La forstacio %id ne estas en settings/override/migration.ini.append.php; forprenu ĝin tie, kie ĝi estas agordita.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Ensalutis per FTP kaj legis index.php. La migrada stato de FTP-forstacio ne legeblas.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Modifita</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Kreita</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nomo</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klaso</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekcio</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Kreinto</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Lastatempa enhavo</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>La plej lastatempe kreita kaj modifita enhavo de la tuta retejo, la plej nova unue: kion vizitantoj sendis, kio estas retenita por revizio, malnetoj atendantaj sian publikigon. Elektu erojn por liberigi, reteni, kaŝi, montri, forigi ilin aŭ movi ilin al alia sekcio aŭ stato.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>La listo ne legeblis: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>La retenado por revizio ankoraŭ ne estas agordita, do nenio estas retenita kaj la retenaj agoj ne estas proponataj. La ĝisdatiga paŝo 6.0.15-review-hold agordas ĝin: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtri la liston</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>De</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ĝis</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dato</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Kreita (unua publikigo)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ĉiuj</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statuso</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publikigita</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Malneto, neniam publikigita</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Atendanta (aprobon aŭ daton)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>En la rubujo</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Retenita por revizio</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Retenita</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Ne retenita</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Kaŝita</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Videbla</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Sendita je</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Ajna retejaliro</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Nur kion la kontrolprotokolo registris.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Nun: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Ensalutnomo aŭ uzanto-ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtri</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Forigi filtrilojn</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Eroj</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ĝis %to el %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Neniu ero</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(legita en %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Agoj pri la elektitaj eroj</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Elekti ĉion en ĉi tiu paĝo</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count elektitaj</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ago</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Elektu agon</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Liberigi la retenon</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Reteni por revizio</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Kaŝi</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Montri</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Movi al la rubujo</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Forigi</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Atribui sekcion</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Atribui staton</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Kialo</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Necesa por reteni; konservata kun la reteno kaj en la kontrolprotokolo.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Elektu sekcion</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stato</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Elektu staton</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Apliki al la elektitaj</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Ĉiu ero estas kontrolata laŭ viaj propraj permesoj. Movi al la rubujo kaj forigi petas vian konfirmon. Pli ol %count eroj ruliĝas fone.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Elekti</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publikigo</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Sendita de</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Elekti %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ankoraŭ ne</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(sen nomo)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Malneto</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Atendanta</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Kaŝita de sia gepatro</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Retenita: nova sendaĵo</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versio %version atendanta</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versio %version prilaborata</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Malneto, versio %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versio %version publikigita</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Planita por %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>neniu adreso</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ne registrita</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Nenio kongruas kun ĉi tiuj filtriloj.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Montri ĉion</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Ankoraŭ ne estas enhavo.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Po paĝo</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Montri %count erojn po paĝo.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>La adreso kaj la retumilo de sendaĵo venas el la kontrolprotokola indekso, kiu ne disponeblas ĉi tie: la kolumno diras "ne registrita".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>La adreso kaj la retumilo estas tiuj, kiujn la kontrolprotokolo registris por la ero (la aŭtomata reteno ĉiam registras ilin; publikigo kaj kreado nur kie tio estas ŝaltita), tiel kiel ĝiaj privatecaj agordoj konservas ilin.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count eroj</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Forigo forviŝas la erojn definitive, kun ĉiuj iliaj versioj kaj tradukoj. Ĝi ne estas malfarebla.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>La eroj iras al la rubujo, el kie ili estas restaŭreblaj.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Ĉiu ero estas kontrolata laŭ viaj propraj permesoj; ero kun subaj eroj restas kiel ĝi estas (forigu ĝin en la enhavstrukturo). Oni petos vin konfirmi, ke temas pri vi.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Ĉi tio ruliĝas fone: ĝia progresa paĝo malfermiĝas, kaj la rezulto por ĉiu ero aperas kiam ĝi finiĝis.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>La elektitaj eroj</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>kaj %count pliaj</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Nuligi</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Nenio estis farita</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Kialo: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>La ago ankoraŭ ruliĝas fone.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ĝia progreso</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>La fona ago malsukcesis: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Farita</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Rifuzita</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Malsukcesis</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Po ero</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Ero</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezulto</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Kial</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Reen al la listo</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Agordado</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Nenio farita</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Konfirmi</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Elektu agon.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Elektu almenaŭ unu eron.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Elektu maksimume 1000 erojn samtempe.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Diru, kial la eroj estas retenitaj.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Elektu la sekcion.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Elektu la staton.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>La formularo ne legeblis.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Panelo</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Lastatempa enhavo</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>La nombroj ne legeblis: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Retenita por revizio</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Novaj hodiaŭ</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>La retenado por revizio ankoraŭ ne estas agordita (la ĝisdatiga paŝo 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Ĉiu lastatempa enhavo</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Vi ne rajtas ruli moderigajn agojn (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>La moderiga ago ne estas kompleta: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderigo: %action sur %count objektoj</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done el %total objektoj: %ok faritaj, %refused rifuzitaj, %failed malsukcesaj</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok faritaj, %refused rifuzitaj, %failed malsukcesaj</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Ĝi ne plu ekzistas.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Ĝi havas neniun lokon (ne publikigita).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Vi ne rajtas kaŝi ĝin (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Vi ne rajtas montri ĝin (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Ĝi jam estas kaŝita.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Ĝi ne estas kaŝita.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Kaŝita.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Montrita.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Ĝi estas en la rubujo: malplenigu aŭ restaŭru ĝin tie.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Malneto neniam publikigita ne povas iri al la rubujo: forigu ĝin.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Vi ne rajtas forigi ĝin (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Forigita.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Vi ne rajtas forpreni ĝin (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Ĝi havas subajn erojn: forprenu ĝin en la enhavstrukturo, kie ili estas listigitaj.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Ĝi ne estis forprenita (laborfluo eble retenas la forprenon).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Movita al la rubujo.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>La sekcio ne ekzistas.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Ĝi jam estas en ĉi tiu sekcio.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Vi ne rajtas atribui ĉi tiun sekcion (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>La sekcio ne estis atribuita.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Sekcio atribuita.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>La stato ne ekzistas.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Ĝi jam estas en ĉi tiu stato.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Vi ne rajtas atribui ĉi tiun staton (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>La stato ne estis atribuita (laborfluo eble retenas la ŝanĝon).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Stato atribuita.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Ne ekzistas tia ago.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>La retenado por revizio ne estas agordita (la ĝisdatiga paŝo 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Diru, kial ĝi estas retenita.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Ĝi jam estas retenita.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Vi ne rajtas reteni ĝin (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>La reteno ne estis metita (laborfluo eble retenas la ŝanĝon).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Retenita.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Ĝi ne estas retenita.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Vi ne rajtas liberigi ĝin (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>La reteno ne estis liberigita (laborfluo eble retenas la ŝanĝon).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Liberigita; ankoraŭ kaŝita: vi ne rajtas montri ĝin (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Liberigita.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Ĉiuj celoj</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Lasta publikigo</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publikigu senpagan statikan kopion de via retejo ĉe GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Malaktualaj paĝoj</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statika publikigo</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statika publikigo estas malŝaltita.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Celo</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>La celoj ne legeblis: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>tasko estas plenumata</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>kompilaĵo kontrolota</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>kaŝi ĉi tion</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>krei celon</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>neniam</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>legi la lernilon</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added aldonitaj, %changed ŝanĝitaj, %removed forigitaj</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes el %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count pliaj ne estas listigitaj.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages paĝoj skribitaj</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path havas %size, pli ol la gastiganto permesas por unu dosiero.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % de la limo</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds sek</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag estas la publikigo, kiun la retejo nun havas.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: tasko %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/deponejo/ por projekta retejo ĉe GitHub; malplena por propra domajno aŭ uzanta retejo.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. La retejo</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. La gastiganto</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Ensaluto al la deponejo</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. La deponejo</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Ligiloj kaj baza vojo</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Via propra domajno</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Kion la kompilaĵo enhavas</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Kiam ĝi estas publikigata</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Kontroli kaj konservi</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Projekta retejo ĉe GitHub loĝas sub /&lt;repository&gt;/; relativaj ligiloj funkcias tie kaj ĉie ajn.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Kompilado elŝutas ĉiun paĝon de %site tiel, kiel neensalutinta vizitanto vidas ĝin, reskribas la ligilojn, kopias la dosierojn kaj skribas la rezulton al la dosierujo de la celo. Nenio estas publikigata, ĝis vi kontrolas la kompilaĵon kaj premas Publikigi.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron-esprimo, ekzemple 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Deploja ŝlosilo estas konservata kiel la sekreto %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Deploja ŝlosilo permesas al ĉi tiu instalaĵo puŝi al unu deponejo per SSH kaj nenien alien. Ĝia privata duono restas en Agordado &gt; Sekretoj; nur la publika duono estas montrata.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Deploja ŝlosilo kreita por ĉi tiu celo</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Deploja ŝlosilo ensalutas per SSH: ŝanĝu la git-adreson al la SSH-adreso (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Tasko estas plenumata, startigita de %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Tasko de ĉi tiu celo ankoraŭ estas plenumata (%detail). Atendu, ĝis ĝi finiĝos.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Tasko de ĉi tiu celo ankoraŭ estas plenumata. Atendu, ĝis ĝi finiĝos.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Ligilo de la paĝo /news/ al la paĝo /about-us/team estos skribita kiel</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Nova deploja ŝlosilo estis kreita. Aldonu ĝian publikan duonon al la deponejo nun.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Paĝo, kiu post la purigado ankoraŭ enhavas sencimigan eligon, formularan ĵetonon aŭ seancan identigilon, neniam estas publikigata.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Malfaro estas por spertuloj: marku &quot;Mi scias, kion tio ŝanĝas&quot; kaj tajpu denove la nomon de la marko.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Retejo povas havi ĝis %site, unu dosiero ĝis %file, kun ĉirkaŭ 100 GB da trafiko monate. Kun senpaga plano la deponejo devas esti publika. GitHub Pages ne estas celita por butikoj aŭ aliaj komercaj transakcioj.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Celo estas unu retejo publikigata al unu git-deponejo. Ĉi tie nenio estas kompilata aŭ publikigata: Konservi skribas la agordojn al settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Celo estas unu retejo publikigata al unu loko, ekzemple via publika retejo ĉe GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Ĵetono el Agordado &gt; Sekretoj</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Laborfluo de la deponejo publikigas ĝin.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Aldonu ĉi tiun publikan ŝlosilon al la deponejo kun skribrajto. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, marku Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Aldonita</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Alia git-gastiganto</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Alia procezo laboras pri ĉi tiu celo: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Reen</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Baza vojo</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Antaŭe</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Sub baza vojo</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Branĉo</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Rompitaj ligiloj</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Rompitaj ligiloj en la kompilaĵo</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Kompilaĵo</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Kompilaĵo %id de %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Kompili %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Kompili nun</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Kompilaĵo kontrolota</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>De</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Mane, ĉi tie</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Nuligi</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Ŝanĝi</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Ŝanĝita</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ŝanĝoj</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Unue kontroli ĝin</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontrolu ĉi tiujn agordojn</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Kontrolu, kion la kompilaĵo ŝanĝas, rigardu ĝin, kaj poste publikigu aŭ forĵetu ĝin.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Elektu la publikigon, al kiu reiri.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Venos en posta eldono.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Enmeto</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Enmetoj</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Enmetas la kompilaĵon, markas ĝin kaj puŝas ĝin al %remote. Puŝo neniam estas devigata; vi povas poste reiri al ajna publikigo.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Kompare kun la antaŭa dosierujo: %added aldonitaj, %changed ŝanĝitaj, %removed forigitaj, %unchanged neŝanĝitaj.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Kompare kun la lasta publikigo.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Akreditaĵo</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Propra domajno</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Sencimiga eligo, formularaj ĵetonoj, seancaj identigiloj kaj nonce-oj ĉiam estas forigataj.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Deploja ŝlosilo</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Deploja ŝlosilo de %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Forĵeti</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Forĵeti la kompilaĵon</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domajno</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Malplena: la adreso de la retejo. Alie interna adreso de la sama retejo.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Finiĝis</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Ĉiu ligilo komenciĝas per la baza vojo.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Ĉiu publikigo estas enmeto kun marko static/%id/&lt;n&gt;. Reiro faras novan enmeton kun la dosieroj de pli frua publikigo: la historio restas, neniu marko moviĝas kaj nenio estas devigata.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Aldonaĵoj</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Elŝuti la paĝojn de</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Dosiero</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Dosieroj</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Mankantaj dosieroj</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Dosieroj de</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Dosieroj, kiuj ne kolekteblis</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Fingrospuro</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Dosierujo</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Por SSH-adreso. La ŝlosilo estas kreata post la konservo; vi aldonas ĝian publikan duonon al la deponejo.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Por https://-adreso. GitHub: detalgranula ĵetono kun Contents legi kaj skribi en la deponejo.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Por spertuloj. La publika retejo ŝanĝiĝas tuj kiam la puŝo finiĝas.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularoj</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Senpaga gastigado el GitHub-deponejo.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>El la branĉo</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-adreso</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages permesas retejon de %site kaj dosieron de %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Limoj de GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages publikigas la dosierojn tiaj, kiaj ili estas (necese por dosieroj, kiuj komenciĝas per _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub servas la branĉon tia, kia ĝi estas puŝita. La defaŭlto.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, via propra servilo: ajna git-deponejo.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Reiri al pli frua publikigo</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Helpo</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Helpo pri la asistanto</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Kaŝi ilin</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historio</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Historio de %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Gastiganto</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Kiel GitHub Pages ricevas la kompilaĵon</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Mi kontrolis la ŝanĝojn</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Mi scias, kion tio ŝanĝas</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Identigilo</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Ĝi estas malŝaltita: nenio kompileblas, ĝis ĝi estos ŝaltita.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Ĝi ruliĝas fone kiel %user; vi povas fermi ĉi tiun paĝon.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Tasko %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Konservata kiel la sekreto %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Speco</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Lasta publikigo</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Ellasi ĉi tiujn paĝojn</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Ellasi ĉi tiujn sekciojn</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Ligiloj</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Reskribitaj ligiloj</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Viva retejo</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Rigardi la kompilaĵon</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Minusklaj literoj, ciferoj, _ kaj -, ekzemple github-public. Ĝi nomas la dosierujon kaj la markojn (static/&lt;id&gt;/&lt;n&gt;) kaj ne ŝanĝeblas poste.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Krei novan ŝlosilon</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Krei celon</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Krei la ŝlosilon</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Unue kreu la deponejon ĉe la gastiganto; malplena taŭgas.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifesto</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mesaĝo</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>La plej multaj paĝoj</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nomo</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Nomo de la ĵetono en Agordado &gt; Sekretoj</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Nova celo</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Sekva</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ne</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Ankoraŭ neniu enmeto.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Neniu ŝlosilo estis kreita: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Neniu komandlinia php-programo troviĝis. Agordu migration.ini [AdminSettings] PhpCliPath al ĝia plena vojo.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Ankoraŭ neniu marko.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Ankoraŭ neniu celo.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Neniu</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ne en la kompilaĵo.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Nenio estis publikigita ankoraŭ.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Nenio estis publikigita ankoraŭ: ĉiu dosiero estas nova.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Sciigi</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Laŭ horaro</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>En la konzolo</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>En la servilo: ./console exp:static:serve %id servas ĝin same.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Unu vojo po linio, * kongruas kun ajna parto: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Nur nomo estas konservata kun la celo; la ĵetono aŭ ŝlosilo mem restas en Agordado &gt; Sekretoj kaj neniam aperas en protokolo.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Nur tio, kion la paĝoj nomas</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Nur kun ĵetono. env:NAME anstataŭe legas medivariablon de la servilo.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Malfermi la antaŭrigardon</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Malfermas la kompilaĵon tiel, kiel la gastiganto servos ĝin, el la dosierujo de la celo. La ligilo funkcias por vi dum unu horo.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Nedeviga. Malplena: tio, kio estis publikigita.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Nedeviga. Kun domajno la retejo estas servata ĉe ĝia radiko.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Eligo</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Paĝoj</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Paĝoj de la celo</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Rifuzitaj paĝoj</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Postprilaboro</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Antaŭrigardo</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Antaŭrigardi kaj publikigi</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Antaŭrigardi kaj publikigi %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Antaŭrigardi la kompilaĵon</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progreso</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Publika adreso</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Publika ŝlosilo</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publikigi</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Publikigu statikan kopion de retejo ĉe GitHub Pages aŭ ĉe ajna git-gastiganto: kompilu ĝin, kontrolu la ŝanĝojn, publikigu, kaj reiru al pli frua publikigo, kiam necese.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publikigo, al kiu reiri</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publikigoj</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Puŝo</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Legu la lernilon</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Registro</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Rifuzita</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relativaj</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Reŝargi</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Forigita</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Anstataŭigi la ŝlosilon: la malnova ĉesas funkcii</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raporto</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Raporto de la kompilaĵo</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Deponejo</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Kontrolo</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>La kontrolo ekzamenas ĉiun agordon kaj montras la liniojn, kiuj estos skribitaj. Nenio estas konservita ankoraŭ.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Malfari</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Malfaro</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Konservi</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Horaro</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Serĉpaĝo</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Identigiloj de sekcioj, apartigitaj per komoj.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Sendi ilin al la viva retejo</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Agordo</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Agordoj</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Agordoj de %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Agordado</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Agordado &gt; Sekretoj</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Montrata en listoj, ekzemple &quot;Publika retejo ĉe GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Ensaluto per GitHub App venos kun la GitHub-integriĝo.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Retejo</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Publikigota retejo</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Grando</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Grando kaj limoj</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Grando de la kompilaĵo</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Malaktualaj paĝoj</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startigita</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Startigita de %user je %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stato</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statika publikigo</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Statika publikigo estas malŝaltita</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statika publikigo estas malŝaltita.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Statika publikigo estas malŝaltita. Unue ŝaltu ĝin en Agordado &gt; Statika publikigo.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Statika publikigo estas ŝaltita.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Paŝo %step el %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Paŝoj</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Purigado</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Malŝalti</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Ŝalti</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Ŝalti la statikan publikigon</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Marko</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Markoj</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Celo</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Celoj kreeblas kaj ŝanĝeblas, sed nenio estas kompilata aŭ publikigata, ĝis ĝi estos ŝaltita.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Diras al serĉiloj, kion legi.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>La kompilaĵo ne forĵeteblis: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>La kompilaĵo samas al la lasta publikigo: estas nenio por publikigi.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>La kompilaĵo estis forĵetita: la dosierujo denove enhavas la lastan publikigon.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>La defaŭltoj taŭgas por la plej multaj retejoj.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>La dosierujo enhavas kompilaĵon ankoraŭ ne publikigitan; nova kompilaĵo anstataŭigas ĝin.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>La dosierujo de la taskoj ne skribeblas: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>La tasko ne prepareblis: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>La tasko ne startigeblis.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>La tasko finiĝis. Ŝargante ĝian raporton.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>La tasko bezonas ensalutintan uzanton.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>La tasko estis startigita, sed ne raportis sian procezan identigilon. Kontrolu %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>La ŝlosilo</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>La plej granda dosiero: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>La linioj, kiuj estos skribitaj</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>La listo de paĝoj por serĉiloj; bezonas la publikan adreson.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>La paĝoj estas elŝutataj tiel, kiel neensalutinta vizitanto vidas ilin. Administraj kaj redaktaj retejalirejoj neniam estas proponataj.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>La progreso ne sekveblis. Reŝargu la paĝon por vidi, kiel la tasko progresas.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>La publika duono de la ŝlosilo:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>La radiko de la branĉo</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>La sekreta konservejo ankoraŭ ne estas pretigita (./console exp:upgrade --apply kreas ĝian tabelon), do neniu ŝlosilo konserveblas.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>La servilo ensalutas per si mem (per sia propra SSH-ŝlosilo aŭ akreditaĵa helpilo), aŭ la deponejo estas en ĉi tiu servilo.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>La agordo ne skribeblis: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>La agordoj validas. Ĉi tiuj linioj estos skribitaj:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>La agorda dosiero ne legeblas: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>La retejo reiras al la dosieroj de tiu publikigo; kompilaĵo ankoraŭ ne publikigita devas unue esti publikigita aŭ forĵetita.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>La propra paĝo de la retejo por adresoj, kiuj ne ekzistas.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>La celo ne konserveblis: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>La celo ankoraŭ ne ensalutas per ĉi tiu ŝlosilo: elektu &quot;Deploja ŝlosilo kreita por ĉi tiu celo&quot; en ĝiaj agordoj.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>La celoj ne legeblis: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Ankoraŭ ne estas kompilaĵo kontrolota.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Ĉi tiu instalaĵo ne havas publikan retejalirejon. Administraj kaj redaktaj retejalirejoj neniam estas publikigataj.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Ĉi tiu paĝo sekvas la taskon dum ĝi progresas; la tasko daŭras fone, kiam la paĝo estas fermita.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Ĉi tiu celo ankoraŭ ne havas deplojan ŝlosilon.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Ĉi tiu celo ankoraŭ ne estis kompilita ĉi tie.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Ĉi tiu celo havas unu.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Forĵetas ĉi tiun kompilaĵon: la dosierujo denove enhavas la lastan publikigon. La viva retejo ne ŝanĝiĝas.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Unue marku &quot;Mi kontrolis la ŝanĝojn&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tempo</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Ekigiloj</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Tajpu denove la nomon de la marko</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Neŝanĝita</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Retkroĉilo</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Kio</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Kio ŝanĝiĝas</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Kio estas ĉiu dosiero; ĉiam skribata.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Kion la tasko faris kaj ĝia registro. Tasko startigita ĉi tie daŭras fone, kiam ĉi tiu paĝo estas fermita.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Kion la tasko eligis kiel erarojn</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Tio, kion la paĝoj nomas, kaj ĉiu bildo de publikigita enhavo</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kiam</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Kiam publikigo malsukcesas</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Kiam publikigo sukcesas</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Kiam enhavo estas publikigata</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kien iras ligiloj al tio, kion la kopio ne enhavas (la serĉo, la ensaluto).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>De kie la statika kopio estas servata.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Kiu retejo estas publikigata, kaj kiel la celo nomiĝas.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Funkcias sub ajna vojo. La defaŭlto.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Skribata, kiam ajn propra domajno estas agordita.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Jes</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Vi ĉiam povas kompili kaj publikigi mane, ĉi tie kaj en la konzolo.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>nur nomo; la valoro restas en Agordado &gt; Sekretoj</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>sub %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>finiĝis sen raporto</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>aldonaĵo</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>malsukcesis</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>dosiero</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, aŭ main kun la dosierujo docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-gastiganto</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (kun ĵetono) aŭ git@github.com:owner/repo.git (kun deploja ŝlosilo); neniam pasvorto aŭ ĵetono en ĝi.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, por la retejmapo kaj la kanonaj ligiloj.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>bildo</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>neniam</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>neniu fora deponejo</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>neniu: enmetoj restas en la dosierujo</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>neniu: nenio ŝanĝiĝis</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ne puŝita</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>nenio ŝanĝiĝis</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>paĝo</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>sukcesis</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open estas malŝaltita, do tasko ne startigeblas ĉi tie. Uzu ./console exp:static:build en la servilo.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>publikigo</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>publikigita</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>puŝo atendata</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>puŝita</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>rifuzita</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relativaj</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>malfaro</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>malfarita</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>plenumata</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>nur la dosierujo</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: skribata al la dosiero CNAME. Direktu la DNS de la domajno al la gastiganto, kiel ĝi klarigas; HTTPS povas bezoni iom da tempo por ekfunkcii.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>jes, ankoraŭ ne publikigita</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Aplikaĵo GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Laborfluo de la deponejo publikigas ĝin. La kompilaĵo skribas la laborfluan dosieron; lasu la dosierujon malplena.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Post konservo de celo kun GitHub-deponejo kaj ĵetono aŭ GitHub App, ĉi tiu paŝo povas krei la deponejon kaj ŝalti GitHub Pages. Alie unue kreu la deponejon ĉe GitHub; malplena taŭgas.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Branĉo aŭ GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Kontroli la DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Krei la deponejon, se ĝi ne ekzistas</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Kreu la deponejon ĉe GitHub kaj ŝaltu GitHub Pages en ĝiaj agordoj (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Kreas la deponejon %repo, se ĝi mankas (laŭpete), ŝaltas GitHub Pages el la branĉo aŭ el GitHub Actions laŭ la konservitaĵo, kaj agordas la propran domajnon kaj HTTPS. Ĝi uzas la konservitajn agordojn: unue konservu la ŝanĝojn.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Detaloj ĉe GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Unue enigu la propran domajnon.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Ĉiu push unue estas kontrolata kontraŭ ĉi tiuj limoj.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Por https://-adreso ĉe GitHub. La aplikaĵo agordita por ĉi tiu instalaĵo ensalutas; ĝi bezonas la instalaĵan identigilon.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages servas privatan deponejon nur kun pagata plano.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdomajno (www.example.com) bezonas CNAME-registron al &lt;owner&gt;.github.io; ĉefa domajno (example.com) la A-registrojn %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Instalaĵa identigilo de la GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Lasta kompilaĵo de Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Limoj kaj kondiĉoj</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Necesa por GitHub Pages kun senpaga plano.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Ĉe GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Nur kun GitHub App: la numero ĉe la fino de la adreso de la instalaĵo de la aplikaĵo ĉe GitHub. La aplikaĵo mem estas agordita en staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privata</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Publika</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Unue konservu la celon kun GitHub-deponejo kaj ĵetono aŭ GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Agordu ĉi tiujn registrojn ĉe la provizanto de la domajno:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Agordi ĉe GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>La DNS de %domain ankoraŭ ne montras al GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>La DNS de %domain montras al GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>La GitHub-integriĝo ne estas disponebla ĉi tie: %problem. Publikigo al la branĉo tamen funkcias; ŝaltu GitHub Pages en la agordoj de la deponejo.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>La GitHub-paŝoj ne estas disponeblaj por ĉi tiu celo: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>La stato de GitHub Pages estas montrata kun ĵetono aŭ GitHub App kiel akreditaĵo.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Uzi vian propran domajnon</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Kion elekti: ĵetono, deploja ŝlosilo aŭ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Kun GitHub-deponejo kaj ĵetono aŭ GitHub App, la asistanto povas krei la deponejon, ŝalti GitHub Pages kaj agordi la domajnon por vi (paŝo 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>kompilata</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>kompilita</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>el GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>el la branĉo %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ankoraŭ neniu</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ne trovita</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>malŝaltita</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privata</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>publika</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>envicigita</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nekonata</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count en %pages paĝo(j):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Dosiero .gz (kaj .br) apud ĉiu teksta dosiero, por gastigantoj kiuj servas ilin.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Malgranda paĝo por ĉiu malnova adreso kaj alinomo de paĝo, por ke malnovaj ligiloj daŭre funkciu.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Ĉiam skribita kiam GitHub Actions liveras la retejon.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX-identigilo kiel CC-BY-4.0, aŭ la teksto mem.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Korbo</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Vokoj al la servilo</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentoj</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formularoj kiuj kolektas informojn</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Laborfluo de GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Malpli da blanka spaco kaj neniuj komentoj en la paĝoj.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Permesilo de la enhavo</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Ensaluti</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minimumigi</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Aliaj formularoj</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Antaŭkunpremi</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Alidirektaj paĝoj</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Alidirektaj paĝoj: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Serĉi</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Serĉindekso: %pages paĝo(j) en %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Stilfolioj kaj skriptoj nomitaj laŭ la haketo de ilia enhavo, por ke foliumiloj povu konservi ilin.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>La ŝanĝitaj paĝoj, kelkajn minutojn post la lasta ŝanĝo (la cronjob-parto staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>La permesilo de la enhavo, el la kampo sube.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>La tuta retejo, je la tempoj de la horaro (la cronjob-parto staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Ĉi tiuj partoj de la paĝoj bezonas servilon; ĉiu ricevis rezervon. Kontrolu ilin antaŭ ol publikigi.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Kio ne funkcias statike</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Kio estas la deponejo, por kiu malfermas ĝin ĉe la gastiganto.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>preterlasita</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>la rezerva teksto</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>la formulara finpunkto de la viva retejo</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>la viva retejo</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>la serĉpaĝo de la kopio</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>La formularo ne povis esti sendita.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Dankon: la formularo estis sendita.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>La formularo ne estis akceptita: kontrolu kion vi enigis kaj resendu ĝin.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Forigi ligilojn al paĝoj, kiujn la kopio ne enhavas</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Forigi ligilojn al la administrado</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Ilia teksto restas. Bildoj, formularoj kaj ligiloj al aliaj retejoj neniam estas forigataj.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versio</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Retejaliroj publikigotaj</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Retejaliro</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Ĉe la radiko</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Neniu retejaliro ĉe la radiko: ĉiu estas en sia dosierujo, kaj la radiko ligas al ili</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Retejaliroj</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Marku unu retejaliron, aŭ plurajn, kiuj dividas unu gastiganton per sia URI-prefikso. Tiu ĉe la radiko estas servata tie, la aliaj en la dosierujo de sia prefikso (/ger/); ligiloj inter ili restas en la kopio. Administraj retejaliroj neniam estas proponataj.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Statika publikigo de %target malsukcesis ĉe %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Statika publikigo de %target sukcesis ĉe %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Ĉi tiun retleteron sendis %site, ĉar la celo de statika publikigo %target petas ĝin.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>La liverado %deploy malsukcesis ĉe %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>La liverado %deploy atendas ĉe pordego ĉe %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>La liverado %deploy sukcesis ĉe %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Ĉi tiun retleteron sendis %site, ĉar migration.ini [RemoteSettings] Notify[] petas ĝin.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Datumtipoj (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Kalkulita %time, denove post %minutes minutoj</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Datumtipo konservas kaj redaktas unu specon de valoro de klasatributo: tekstlinion, bildon, rilaton. La kerno liveras la plejmulton, etendaĵoj aldonas pliajn. Jen ĉiuj, kiu liveras ilin kaj kiom da enhavo uzas ilin. Datumtipo, kiun la datumbazo uzas sed nenio plu registras, rompas la enhavon, kiu havas ĝin.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Klasgrupoj</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Kalkuli denove nun anstataŭ uzi la kalkulojn de la lastaj minutoj.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Kalkuli denove</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Superrigardo</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Registrita</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Uzata</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ne uzita</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Etendaĵoj, kiuj liveras datumtipojn</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Klasatributoj</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objektaj atributoj</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Ne registrita</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Listigita, dosiero mankas</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count datumtipoj estas uzataj sed ne registritaj</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes klasatributoj kaj %object_attributes objektatributoj havas datumtipon, kiun neniu etendaĵo aŭ agordo registras. Iliaj objektoj ne povas esti montrataj, redaktataj aŭ publikigataj. Aktivigu la etendaĵon, kiu liveras la datumtipon, aŭ ŝanĝu la klason.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Montri nur tiujn</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Trovi datumtipon</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identigilo, nomo, PHP-klaso aŭ etendaĵo.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Montri</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ĉiuj</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Liverata de</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Ĉiuj</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kerno</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Neniu datumtipo kongruas kun ĉi tiu filtrilo.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Montri ĉion</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Etendaĵo</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown el %count datumtipoj, %used uzataj</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>La datumbazo havas klas- aŭ objektatributojn de ĉi tiuj datumtipoj, sed content.ini listigas neniun el ili, aŭ ĝia dosiero mankas.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Datumtipoj de %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Datumtipo</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-klaso kaj dosiero</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klasoj</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objektoj</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Flagoj</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>neniu</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Neniu datumtipo kongruas kun la serĉo. Viŝu la serĉon.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown el %count datumtipoj montritaj</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Montritaj datumtipoj: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Ordigi laŭ %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Kalkulita %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Ĉiuj datumtipoj</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Helppaĝo</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Ĉi tiu datumtipo estas uzata sed ne registrita</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>La objektoj de la subaj klasoj ne povas esti montrataj, redaktataj aŭ publikigataj, dum neniu etendaĵo registras la datumtipon. Aktivigu la etendaĵon, kiu liveras ĝin, kaj aldonu ĝin al content.ini [DataTypeSettings] AvailableDataTypes[], aŭ ŝanĝu la klasojn.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini listigas ĉi tiun datumtipon, sed neniu datumtipa dosierujo havas ĝian dosieron. Nenio uzas ĝin; forigu ĝin el AvailableDataTypes[] aŭ aktivigu ĝian etendaĵon.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Pri ĉi tiu datumtipo</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identigilo</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nomo</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Etendaĵo %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>neniu</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-klaso</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Dosiero</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>En AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jes</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Kolumnoj de ĝia valoro</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Kolumnoj de ĝiaj klasatributaj agordoj</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabeloj</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>La kolumnoj kaj tabeloj estas trovitaj per legado de la kodo de la datumtipo: gvidilo, ne promeso.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Ŝablonoj</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Retejaliro</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Ŝablono</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Trovita en</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ĉi tiu administrado</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>defaŭlta retejo</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Sen anstataŭigoj: anstataŭiga ŝablono, kiu kongruas laŭ klaso aŭ atributo, superas ĉi tiujn.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klasoj, kiuj uzas ĝin (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Neniu klaso havas atributon de ĉi tiu datumtipo.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klaso</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atributoj</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Klasatributoj (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atributo</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Agordoj</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Deviga</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Serĉebla</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Tradukebla</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Kolektas informon</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Iom da enhavo, kiu uzas ĝin</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Laste modifitaj unue</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modifita</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nodo %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Ĉiu traduko havas sian propran valoron.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>La serĉo indeksas ĝiajn valorojn.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Ĝi povas kolekti informojn de vizitantoj (formularoj).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Listoj povas esti ordigitaj laŭ ĝi: ordiga ŝlosilo %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Ordigebla</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Ĝiaj valoroj montras al aliaj objektoj.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Rilatoj</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Ĝi povas esti plenigita el simpla ĉeno (importo, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>El teksto</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Ĝi povas esti plenigita el dosiero.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>El dosiero</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Ĝiaj klasatributaj agordoj iras en pakaĵojn.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pakoj</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Enhavo (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ĝis %to el %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtri la liston</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Ĉiuj klasoj</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekcio</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Lingvoj</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Posedanto</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publikigita</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Inversigi la ordon</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Neniu ero</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Po paĝo</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Montri %count erojn po paĝo.</translation>
     </message>
 </context>
 </TS>

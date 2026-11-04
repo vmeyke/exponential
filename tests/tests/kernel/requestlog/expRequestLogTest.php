@@ -22,7 +22,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/kernel/requestlog/expRequestLogTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -40,6 +40,10 @@ class expRequestLogTest extends PHPUnit\Framework\TestCase
     protected function setUp(): void
     {
         chdir( dirname( __DIR__, 4 ) );
+        // the status code is the process's: an earlier test may have set one (a status line, as http_response_code()
+        // has no effect after an earlier header( 'HTTP/...' ) on PHP 8.5)
+        if ( !headers_sent() )
+            header( 'HTTP/1.1 200 OK', true, 200 );
         $this->dir = 'var/tmp/requestlog_test_' . uniqid( '', true );
         mkdir( $this->dir, 0700, true );
         expRequestLog::reset();

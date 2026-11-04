@@ -10,7 +10,7 @@ generated: exp:help:examples
 ---
 # site.ini
 
-Die ausgelieferten Einstellungen von `settings/site.ini`: 59 Blöcke, 463 Einstellungen.
+Die ausgelieferten Einstellungen von `settings/site.ini`: 66 Blöcke, 509 Einstellungen.
 
 > Exponential-Konfigurationsdatei.  
 >
@@ -28,34 +28,39 @@ Die ausgelieferten Einstellungen von `settings/site.ini`: 59 Blöcke, 463 Einste
 | [Cache_rest](Cache_rest.md) | 5 |
 | [Cache_restRoutes](Cache_restRoutes.md) | 5 |
 | [Cache_exphelpcontent](Cache_exphelpcontent.md) | 5 |
+| [Cache_smarty](Cache_smarty.md) | 4 |
+| [Cache_twig](Cache_twig.md) | 4 |
+| [Cache_searchsuggest](Cache_searchsuggest.md) | 5 |
 | [DatabaseSettings](DatabaseSettings.md) | 20 |
 | [Event](Event.md) | 1 |
 | [RunnableSettings](RunnableSettings.md) | 2 |
 | [ExtensionSettings](ExtensionSettings.md) | 6 |
 | [InformationCollectionSettings](InformationCollectionSettings.md) | 1 |
 | [Session](Session.md) | 14 |
-| [UserSessionSettings](UserSessionSettings.md) | 7 |
-| [DebugSettings](DebugSettings.md) | 16 |
+| [UserSessionSettings](UserSessionSettings.md) | 12 |
+| [DebugSettings](DebugSettings.md) | 17 |
 | [RequestLogSettings](RequestLogSettings.md) | 4 |
 | [HTMLForms](HTMLForms.md) | 2 |
-| [URLTranslator](URLTranslator.md) | 13 |
+| [URLTranslator](URLTranslator.md) | 14 |
 | [AppendNodeIDFilterSettings](AppendNodeIDFilterSettings.md) | 1 |
 | [SiteSettings](SiteSettings.md) | 18 |
 | [AdminEnvironment](AdminEnvironment.md) | 7 |
 | [AdminSiteAccessMenu](AdminSiteAccessMenu.md) | 5 |
 | [SiteDataSettings](SiteDataSettings.md) | 1 |
 | [SearchSettings](SearchSettings.md) | 14 |
-| [UserSettings](UserSettings.md) | 44 |
+| [UserSettings](UserSettings.md) | 45 |
 | [PasswordSettings](PasswordSettings.md) | 11 |
 | [PasswordChangeRequiredSettings](PasswordChangeRequiredSettings.md) | 1 |
 | [SignInSecondFactorSettings](SignInSecondFactorSettings.md) | 2 |
-| [PasskeySettings](PasskeySettings.md) | 9 |
-| [ReauthSettings](ReauthSettings.md) | 5 |
+| [PasskeySettings](PasskeySettings.md) | 21 |
+| [ContentFieldMarkerSettings](ContentFieldMarkerSettings.md) | 1 |
+| [ReauthSettings](ReauthSettings.md) | 8 |
 | [ReauthGroup_account](ReauthGroup_account.md) | 2 |
 | [ReauthGroup_users](ReauthGroup_users.md) | 2 |
 | [ReauthGroup_system](ReauthGroup_system.md) | 2 |
 | [ReauthGroup_export](ReauthGroup_export.md) | 2 |
-| [ReauthGroup_content](ReauthGroup_content.md) | 2 |
+| [ReauthGroup_delete](ReauthGroup_delete.md) | 2 |
+| [ReauthGroup_content](ReauthGroup_content.md) | 3 |
 | [SiteAccessSettings](SiteAccessSettings.md) | 37 |
 | [PortAccessSettings](PortAccessSettings.md) | 2 |
 | [RoleSettings](RoleSettings.md) | 13 |
@@ -66,7 +71,9 @@ Die ausgelieferten Einstellungen von `settings/site.ini`: 59 Blöcke, 463 Einste
 | [RegionalSettings](RegionalSettings.md) | 17 |
 | [UnitSettings](UnitSettings.md) | 2 |
 | [FileSettings](FileSettings.md) | 22 |
-| [TemplateSettings](TemplateSettings.md) | 25 |
+| [PageLayoutHooks](PageLayoutHooks.md) | 1 |
+| [TemplateSettings](TemplateSettings.md) | 26 |
+| [TemplateBridgeSettings](TemplateBridgeSettings.md) | 4 |
 | [ContentSettings](ContentSettings.md) | 20 |
 | [MailSettings](MailSettings.md) | 23 |
 | [ShopSettings](ShopSettings.md) | 4 |

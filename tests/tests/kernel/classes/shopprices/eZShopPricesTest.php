@@ -8,13 +8,15 @@
  * No database: VAT types, currencies, attributes and orders are built in memory; shop.ini settings are set by the
  * test and put back.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
  * @group shop
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
+#[\PHPUnit\Framework\Attributes\Group('shop')]
 class eZShopPricesTestOrder
 {
     public $items = array();

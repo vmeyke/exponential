@@ -76,8 +76,8 @@ or behaves differently without being asked to. In particular:
 
 - The kernel version is in `lib/version.php` (`VERSION_MAJOR = 6`, `VERSION_MINOR = 0`, `VERSION_RELEASE = 15`) and
   in the database row `ezsite_data` `ezpublish-version`, which the update SQL writes (for example `6.0.15stable`).
-- Releases of the 6.0 line are tagged `v6.0.<n>`. The newest tag in the repository is `v6.0.14`; the 6.0.15 line is
-  in development and has no tag yet ([Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md)).
+- Releases of the 6.0 line are tagged `v6.0.<n>`. The current line, 6.0.15, follows `v6.0.14` and is released as the
+  tag `v6.0.15` once it is published ([Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md)).
 - **Only the last position counts on.** After `x.y.9` comes `x.y.10`, never `x.(y+1).0`; moving a higher position is a
   decision about what the release means. Tags are sorted with `git tag -l 'v*' --sort=version:refname` (or `sort -V`),
   because a plain name sort puts `0.1.10` before `0.1.8`. The rule is written down for extensions in
@@ -146,7 +146,7 @@ After a change to a PHP class, an operator or an INI file, the steps **must** ru
    `auto` shipped) and restart Velocity (`./console exp:velocity restart`), whose workers keep the classes loaded at
    warm-up.
 5. **Clear the page caches last**: the content view cache (`--clear-id=content`), the HTTP cache, and Velocity's
-   response cache (`./console exp:velocity cache clear`). Clearing them before step 4 lets old code cache a page again.
+   response cache (`./console exp:velocity cache clear --apply`). Clearing them before step 4 lets old code cache a page again.
 
 `./console exp:velocity deploy` runs all of this in order (fourteen steps, PASS, FAIL or SKIP per step, exit status
 1 on the first failure); `--dry-run` shows the steps, `--kernel` adds the kernel class map, `--packer` clears packed
@@ -180,7 +180,8 @@ A template or stylesheet change needs only the template caches and Velocity's re
 
 ### Known gaps
 
-- The database update files are applied by hand; there is no migration runner that records which statements ran.
+- The database update files applied by hand leave no record of which statements ran; `exp:upgrade` and the
+  migrations (`exp:migration:migrate`, 6.0.15) apply and record every step.
 - `exp:velocity deploy` covers PHP-FPM and Velocity on one machine; several web servers are deployed one by one.
 
 ## Related pages

@@ -47,7 +47,7 @@ Workflows, eine Template-Engine und eine Headless-REST-API.
 | **Die Exponential Foundation** | Eine gemeinnützige Organisation, "a 501(c)(3) Non-Profit Corporation founded in Seattle, Washington, USA" am 19. März 2026; sie betreibt und finanziert das Projekt | [Wer ist die Exponential Foundation?](../wer-ist-die-exponential-foundation.md#kurz-gesagt) |
 | **Die Beitragenden** | Hunderte von Menschen über die Geschichte des Codes; Pull Requests seit Dezember 2023 von 7x und von anderen Unternehmen und Entwicklern | [Wie das Projekt wächst](../wer-ist-die-exponential-foundation.md#wie-das-projekt-wächst) |
 
-Der Urheberrechtshinweis lautet "Copyright (C) 1998 - 2026 7x & Exponential Foundation" neben "Copyright (C) 1999 - 2014
+Der Urheberrechtshinweis lautet "Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved." neben "Copyright (C) 1999 - 2014
 eZ Systems AS" ([COPYRIGHT.md](https://github.com/se7enxweb/exponential/blob/main/COPYRIGHT.md)).
 
 ## Woher es kommt
@@ -62,8 +62,8 @@ Fork übernommen wurde. Version 6.0.0 folgte am 1. Januar 2024. Das Produkt wurd
 
 ## Was neu ist
 
-Das neueste Release ist **6.0.14** (7. Juni 2026). **6.0.15** ist in Entwicklung; sein Changelog nennt bereits, neben
-vielem anderen ([Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md)):
+**6.0.15** ist die aktuelle Linie von Exponential 6.0 und folgt auf **6.0.14** (7. Juni 2026); ihr Changelog nennt,
+neben vielem anderen ([Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md)):
 
 | Funktion | In einem Satz | Thema |
 |---|---|---|
@@ -74,7 +74,7 @@ vielem anderen ([Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md)):
 | Prüfprotokoll | Ein manipulationssicherer Nachweis dessen, was in der Administration geschah | [Thema: das Prüfprotokoll](thema-audit-trail.md) |
 | Das Hilfesystem | Diese Dokumentation in der Administration, durchsuchbar nach Zielgruppe | [Thema: das Hilfesystem](thema-das-hilfesystem.md) |
 
-Geben Sie 6.0.15 kein Veröffentlichungsdatum: Es ist keines veröffentlicht ([Über 6.0.15 berichten, solange es in Entwicklung ist](ueber-6-0-15-in-entwicklung-berichten.md)).
+Geben Sie 6.0.15 ein Veröffentlichungsdatum nur mit dem Tag `v6.0.15`, aus `git tag -l 'v6.0.*'` ([Über 6.0.15 berichten: vor und nach dem Tag](ueber-6-0-15-in-entwicklung-berichten.md)).
 
 ## Lizenz und Preis
 
@@ -86,7 +86,7 @@ Siehe [Lizenzen für Reporter erklärt](lizenzen-fuer-reporter-erklaert.md).
 
 ## Wo es läuft
 
-PHP 8.0 bis 8.5; sechs Datenbanken (SQLite 3 ist der Standard, dann PostgreSQL, MongoDB, MariaDB, Oracle und MySQL);
+PHP 8.0 bis 8.5 (PHP 7.4 ohne Support nutzbar); sechs Datenbanken (SQLite 3 ist der Standard, dann PostgreSQL, MongoDB, MariaDB, Oracle und MySQL);
 Linux, BSD, macOS und Windows in dokumentierten Stufen; Apache, Nginx und andere Webserver oder das mitgelieferte
 Velocity ([Datenbankunterstützung](../datenbankunterstuetzung.md), [Unterstützte Betriebssysteme](../betriebssystemunterstuetzung.md),
 [PHP-Versionen](../wer-ist-die-exponential-foundation.md#php-versionen)).

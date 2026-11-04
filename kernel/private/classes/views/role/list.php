@@ -7,7 +7,7 @@
  * The original header of kernel/role/list.php:
  *
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -76,16 +76,26 @@ class ListView extends \Exponential\Runnable\ModuleView
                 $removedCount = count( $deleteIDArray );
                 $db = \eZDB::instance();
                 $db->begin();
-                foreach ( $deleteIDArray as $deleteID )
+                try
                 {
-                    \eZRole::removeRole( $deleteID );
+                    foreach ( $deleteIDArray as $deleteID )
+                    {
+                        \eZRole::removeRole( $deleteID );
+                    }
+                    // Clear role caches.
+                    \eZRole::expireCache();
+
+                    // Clear all content cache.
+                    \eZContentCacheManager::clearAllContentCache();
+
                 }
-                // Clear role caches.
-                \eZRole::expireCache();
-
-                // Clear all content cache.
-                \eZContentCacheManager::clearAllContentCache();
-
+                catch ( \Throwable $e )
+                {
+                    // nothing of a transaction that failed half way is committed by a later commit()
+                    if ( $db->transactionCounter() > 0 )
+                        $db->rollback();
+                    throw $e;
+                }
                 $db->commit();
             }
         }

@@ -2,7 +2,7 @@
 /**
  * File containing the eZTemplateWhileFunction class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -88,6 +88,8 @@ class eZTemplateWhileFunction
                                             $node, $tpl, $privateData );
 
 
+        // a template that includes itself runs this code again in the same scope: keep the sequence of the loop outside
+        $loop->saveSequenceState();
         $loop->initVars();
 
         // loop header
@@ -103,7 +105,8 @@ class eZTemplateWhileFunction
         $newNodes[] = eZTemplateNodeTool::createSpacingDecreaseNode();
         $newNodes[] = eZTemplateNodeTool::createCodePieceNode( "} // end of while\n" );
         $newNodes[] = eZTemplateNodeTool::createVariableUnsetNode( 'while_cond' );
-        $loop->cleanup();
+        $loop->cleanup( false );
+        $loop->restoreSequenceState();
 
         return $newNodes;
     }

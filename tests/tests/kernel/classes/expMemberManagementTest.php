@@ -8,12 +8,13 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/kernel/classes/expMemberManagementTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group kernel
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class expMemberManagementTest extends PHPUnit\Framework\TestCase
 {
     const MEMBERS = '/1/5/12/';
@@ -128,5 +129,27 @@ class expMemberManagementTest extends PHPUnit\Framework\TestCase
             $this->assertNotNull( $policy, $line );
             $this->assertNotContains( $policy['module'], array( 'role', 'setup', 'section', 'class' ), $line );
         }
+    }
+
+    /**
+     * bin/php/addmembermanagement.php is a dry run by default: no flag and --dry-run (kept as a synonym) do not
+     * write, --apply writes (the option parsing itself: expEditorPoliciesTest::testCommandWritesOnlyWithApply()).
+     */
+    public function testCommandWritesOnlyWithApply()
+    {
+        $this->assertFalse( \Exponential\Runnable\Command::applyRequested( array( 'apply' => false, 'dry-run' => false ) ) );
+        $this->assertTrue( \Exponential\Runnable\Command::applyRequested( array( 'apply' => true, 'dry-run' => false ) ) );
+        $this->assertNull( \Exponential\Runnable\Command::applyRequested( array( 'apply' => true, 'dry-run' => true ) ) );
+        require_once __DIR__ . '/expEditorPoliciesTest.php';
+        expEditorPoliciesTest::assertWritesOnlyOutsideADryRun( $this, 'kernel/private/classes/commands/addmembermanagement.php',
+                                                               array( '\\expMemberManagement::apply(' ) );
+    }
+
+    public function testCommandRefusesApplyTogetherWithDryRun()
+    {
+        require_once __DIR__ . '/expEditorPoliciesTest.php';
+        list( $code, $out ) = expEditorPoliciesTest::runCommand( 'addmembermanagement', array( '--apply', '--dry-run' ) );
+        $this->assertSame( 2, $code, $out );
+        $this->assertStringContainsString( '--apply and --dry-run exclude each other', $out );
     }
 }

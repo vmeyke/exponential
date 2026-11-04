@@ -5,7 +5,7 @@
  * var/datatable/ (removed afterwards), the class expDTFixtureRow on that connection, and a catalogue of this one
  * class set for the process (expDataTableCatalogue::setInstance()). No installation.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -102,7 +102,7 @@ trait expDataTableSqliteFixture
             $GLOBALS['eZDBGlobalInstance'] = $this->fixtureSavedGlobal[0];
         // the SQLite driver's writer gate leaves <file>.writer-lock beside the database
         expDataConnections::closeAll();
-        foreach ( array( '', '-wal', '-shm', '-journal', '.writer-lock' ) as $suffix )
+        foreach ( array( '', '-wal', '-shm', '-journal', '.writer-lock', '.writer-queue' ) as $suffix )
             if ( $this->fixtureFile && is_file( $this->fixtureFile . $suffix ) )
                 unlink( $this->fixtureFile . $suffix );
     }

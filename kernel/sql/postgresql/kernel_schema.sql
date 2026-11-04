@@ -836,6 +836,15 @@ CREATE SEQUENCE expuser_session_id_seq
 
 
 
+CREATE SEQUENCE expuser_audit_id_seq
+    START 1
+    INCREMENT 1
+    MAXVALUE 9223372036854775807
+    MINVALUE 1
+    CACHE 1;
+
+
+
 CREATE SEQUENCE exphelp_feedback_id_seq
     START 1
     INCREMENT 1
@@ -1567,8 +1576,11 @@ CREATE TABLE expbookmark_folder (
 CREATE TABLE expbookmark_view (
     bookmark_id integer DEFAULT 0 NOT NULL,
     created integer DEFAULT 0 NOT NULL,
+    module_name character varying(100) DEFAULT ''::character varying NOT NULL,
     module_uri text,
-    user_id integer DEFAULT 0 NOT NULL
+    user_id integer DEFAULT 0 NOT NULL,
+    view_name character varying(100) DEFAULT ''::character varying NOT NULL,
+    view_parameters text
 );
 
 
@@ -2228,6 +2240,7 @@ CREATE TABLE ezorder (
     is_temporary integer DEFAULT 1 NOT NULL,
     order_nr integer DEFAULT 0 NOT NULL,
     productcollection_id integer DEFAULT 0 NOT NULL,
+    siteaccess character varying(255) DEFAULT ''::character varying NOT NULL,
     status_id integer DEFAULT 0,
     status_modified integer DEFAULT 0,
     status_modifier_id integer DEFAULT 0,
@@ -2325,11 +2338,13 @@ CREATE TABLE ezpdf_export (
     creator_id integer,
     export_classes character varying(255),
     export_structure character varying(255),
+    footer_text character varying(255) DEFAULT ''::character varying NOT NULL,
     id integer DEFAULT nextval('ezpdf_export_id_seq'::text) NOT NULL,
     intro_text text,
     modified integer,
     modifier_id integer,
     pdf_filename character varying(255),
+    show_footer integer DEFAULT 1 NOT NULL,
     show_frontpage integer,
     site_access character varying(255),
     source_node_id integer,
@@ -2659,6 +2674,174 @@ CREATE TABLE expuser_session (
     token_hash character varying(64) DEFAULT ''::character varying NOT NULL,
     user_agent character varying(512) DEFAULT ''::character varying NOT NULL,
     user_id integer DEFAULT 0 NOT NULL
+);
+
+
+
+CREATE TABLE expuser_session_info (
+    auth_detail character varying(32) DEFAULT ''::character varying NOT NULL,
+    country character varying(2) DEFAULT ''::character varying NOT NULL,
+    host character varying(255) DEFAULT ''::character varying NOT NULL,
+    location character varying(128) DEFAULT ''::character varying NOT NULL,
+    session_id integer DEFAULT 0 NOT NULL,
+    user_id integer DEFAULT 0 NOT NULL
+);
+
+
+
+CREATE TABLE expuser_audit (
+    actor_id integer DEFAULT 0 NOT NULL,
+    actor_login character varying(150) DEFAULT ''::character varying NOT NULL,
+    client_ip character varying(64) DEFAULT ''::character varying NOT NULL,
+    created integer DEFAULT 0 NOT NULL,
+    event_id character varying(26) DEFAULT ''::character varying NOT NULL,
+    event_name character varying(128) DEFAULT ''::character varying NOT NULL,
+    host character varying(255) DEFAULT ''::character varying NOT NULL,
+    id integer DEFAULT nextval('expuser_audit_id_seq'::text) NOT NULL,
+    module_view character varying(128) DEFAULT ''::character varying NOT NULL,
+    reason character varying(64) DEFAULT ''::character varying NOT NULL,
+    request_id character varying(40) DEFAULT ''::character varying NOT NULL,
+    result character varying(16) DEFAULT ''::character varying NOT NULL,
+    siteaccess character varying(64) DEFAULT ''::character varying NOT NULL,
+    target_id integer DEFAULT 0 NOT NULL,
+    target_login character varying(150) DEFAULT ''::character varying NOT NULL,
+    target_type character varying(16) DEFAULT ''::character varying NOT NULL,
+    time_ms bigint DEFAULT 0 NOT NULL,
+    value_after text,
+    value_before text
+);
+
+
+
+CREATE TABLE exp_migration (
+    caption_id character varying(150) DEFAULT ''::character varying NOT NULL,
+    checksum character varying(64) DEFAULT ''::character varying NOT NULL,
+    duration_ms integer DEFAULT 0 NOT NULL,
+    engine character varying(30) DEFAULT ''::character varying NOT NULL,
+    environment character varying(50) DEFAULT ''::character varying NOT NULL,
+    file_path character varying(255) DEFAULT ''::character varying NOT NULL,
+    finished_at integer DEFAULT 0 NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    migration_id character varying(150) DEFAULT ''::character varying NOT NULL,
+    revision character varying(64) DEFAULT ''::character varying NOT NULL,
+    run_by character varying(150) DEFAULT ''::character varying NOT NULL,
+    run_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    source character varying(100) DEFAULT ''::character varying NOT NULL,
+    stage character varying(20) DEFAULT ''::character varying NOT NULL,
+    started_at integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    "version" character varying(30) DEFAULT ''::character varying NOT NULL
+);
+
+
+
+CREATE TABLE exp_static_page (
+    built_at integer DEFAULT 0 NOT NULL,
+    hash character varying(64) DEFAULT ''::character varying NOT NULL,
+    node_id integer DEFAULT 0 NOT NULL,
+    page_bytes integer DEFAULT 0 NOT NULL,
+    path character varying(255) DEFAULT ''::character varying NOT NULL,
+    stale integer DEFAULT 0 NOT NULL,
+    target character varying(50) DEFAULT ''::character varying NOT NULL
+);
+
+
+
+CREATE TABLE exp_static_run (
+    added integer DEFAULT 0 NOT NULL,
+    bytes integer DEFAULT 0 NOT NULL,
+    changed integer DEFAULT 0 NOT NULL,
+    commit_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    files integer DEFAULT 0 NOT NULL,
+    finished_at integer DEFAULT 0 NOT NULL,
+    kind character varying(20) DEFAULT ''::character varying NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    pages integer DEFAULT 0 NOT NULL,
+    push_state character varying(20) DEFAULT ''::character varying NOT NULL,
+    removed integer DEFAULT 0 NOT NULL,
+    run_by character varying(150) DEFAULT ''::character varying NOT NULL,
+    run_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    started_at integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    tag_name character varying(150) DEFAULT ''::character varying NOT NULL,
+    target character varying(50) DEFAULT ''::character varying NOT NULL
+);
+
+
+
+CREATE TABLE exp_migration_deploy (
+    deploy_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    finished_at integer DEFAULT 0 NOT NULL,
+    in_sync integer DEFAULT 0 NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    mode character varying(20) DEFAULT ''::character varying NOT NULL,
+    next_stage integer DEFAULT 0 NOT NULL,
+    run_by character varying(150) DEFAULT ''::character varying NOT NULL,
+    stages integer DEFAULT 0 NOT NULL,
+    started_at integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL
+);
+
+
+
+CREATE TABLE exp_migration_deploy_host (
+    address character varying(255) DEFAULT ''::character varying NOT NULL,
+    applied integer DEFAULT 0 NOT NULL,
+    caption character varying(150) DEFAULT ''::character varying NOT NULL,
+    deploy_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    environment character varying(50) DEFAULT ''::character varying NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    remote_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    stage integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    transport character varying(20) DEFAULT ''::character varying NOT NULL
+);
+
+
+
+CREATE TABLE exp_migration_run (
+    caption_post character varying(150) DEFAULT ''::character varying NOT NULL,
+    caption_pre character varying(150) DEFAULT ''::character varying NOT NULL,
+    commit_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    environment character varying(50) DEFAULT ''::character varying NOT NULL,
+    finished_at integer DEFAULT 0 NOT NULL,
+    log_file character varying(255) DEFAULT ''::character varying NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    push_state character varying(20) DEFAULT ''::character varying NOT NULL,
+    run_by character varying(150) DEFAULT ''::character varying NOT NULL,
+    run_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    started_at integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    tag_name character varying(150) DEFAULT ''::character varying NOT NULL
+);
+
+
+
+CREATE TABLE exp_migration_recording (
+    environment character varying(50) DEFAULT ''::character varying NOT NULL,
+    event_count integer DEFAULT 0 NOT NULL,
+    kind character varying(20) DEFAULT ''::character varying NOT NULL,
+    label character varying(255) DEFAULT ''::character varying NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    recording_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    started_at integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    stopped_at integer DEFAULT 0 NOT NULL,
+    user_id integer DEFAULT 0 NOT NULL
+);
+
+
+
+CREATE TABLE exp_migration_recording_event (
+    actor_id integer DEFAULT 0 NOT NULL,
+    audit_name character varying(100) DEFAULT ''::character varying NOT NULL,
+    event_id character varying(32) DEFAULT ''::character varying NOT NULL,
+    payload text,
+    recorded_at integer DEFAULT 0 NOT NULL,
+    recording_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    step_mode character varying(20) DEFAULT ''::character varying NOT NULL,
+    step_type character varying(50) DEFAULT ''::character varying NOT NULL,
+    subject character varying(255) DEFAULT ''::character varying NOT NULL
 );
 
 
@@ -3462,6 +3645,14 @@ CREATE INDEX expbookmark_folder_user ON expbookmark_folder USING btree (user_id,
 
 
 
+CREATE INDEX expbookmark_view_module ON expbookmark_view USING btree (module_name, view_name);
+
+
+
+
+
+
+
 CREATE INDEX expbookmark_view_user ON expbookmark_view USING btree (user_id);
 
 
@@ -3527,6 +3718,10 @@ CREATE INDEX ezcontentobject_owner ON ezcontentobject USING btree (owner_id);
 
 
 CREATE INDEX ezcontentobject_pub ON ezcontentobject USING btree (published);
+
+
+
+CREATE INDEX ezcontentobject_modified ON ezcontentobject USING btree (modified);
 
 
 
@@ -4181,6 +4376,30 @@ CREATE INDEX expuser_session_active ON expuser_session USING btree (ended, last_
 
 
 
+CREATE INDEX expuser_session_info_user ON expuser_session_info USING btree (user_id);
+
+
+
+CREATE UNIQUE INDEX expuser_audit_event ON expuser_audit USING btree (event_id);
+
+
+
+CREATE INDEX expuser_audit_target ON expuser_audit USING btree (target_id, created);
+
+
+
+CREATE INDEX expuser_audit_actor ON expuser_audit USING btree (actor_id, created);
+
+
+
+CREATE INDEX expuser_audit_name ON expuser_audit USING btree (event_name, created);
+
+
+
+CREATE INDEX expuser_audit_created ON expuser_audit USING btree (created);
+
+
+
 CREATE INDEX exphelp_help_id_object ON exphelp_help_id USING btree (object_id);
 
 
@@ -4190,6 +4409,34 @@ CREATE INDEX exphelp_feedback_object ON exphelp_feedback USING btree (object_id,
 
 
 CREATE INDEX exphelp_feedback_created ON exphelp_feedback USING btree (created);
+
+
+
+CREATE INDEX exp_migration_run_id ON exp_migration USING btree (run_id);
+
+
+
+CREATE INDEX exp_static_page_node ON exp_static_page USING btree (node_id);
+
+
+
+CREATE INDEX exp_static_run_target ON exp_static_run USING btree (target, started_at);
+
+
+
+CREATE INDEX exp_migration_run_started ON exp_migration_run USING btree (started_at);
+
+
+
+CREATE INDEX exp_migration_deploy_started ON exp_migration_deploy USING btree (started_at);
+
+
+
+CREATE INDEX exp_migration_deploy_host_remote ON exp_migration_deploy_host USING btree (remote_id);
+
+
+
+CREATE INDEX exp_migration_recording_state ON exp_migration_recording USING btree (state);
 
 
 
@@ -5284,6 +5531,56 @@ ALTER TABLE ONLY exp_data_sync_link
 
 ALTER TABLE ONLY expuser_session
     ADD CONSTRAINT expuser_session_pkey PRIMARY KEY (id);
+
+
+
+ALTER TABLE ONLY expuser_session_info
+    ADD CONSTRAINT expuser_session_info_pkey PRIMARY KEY (session_id);
+
+
+
+ALTER TABLE ONLY expuser_audit
+    ADD CONSTRAINT expuser_audit_pkey PRIMARY KEY (id);
+
+
+
+ALTER TABLE ONLY exp_migration
+    ADD CONSTRAINT exp_migration_pkey PRIMARY KEY (source, migration_id);
+
+
+
+ALTER TABLE ONLY exp_static_page
+    ADD CONSTRAINT exp_static_page_pkey PRIMARY KEY (target, path);
+
+
+
+ALTER TABLE ONLY exp_static_run
+    ADD CONSTRAINT exp_static_run_pkey PRIMARY KEY (run_id);
+
+
+
+ALTER TABLE ONLY exp_migration_run
+    ADD CONSTRAINT exp_migration_run_pkey PRIMARY KEY (run_id);
+
+
+
+ALTER TABLE ONLY exp_migration_deploy
+    ADD CONSTRAINT exp_migration_deploy_pkey PRIMARY KEY (deploy_id);
+
+
+
+ALTER TABLE ONLY exp_migration_deploy_host
+    ADD CONSTRAINT exp_migration_deploy_host_pkey PRIMARY KEY (deploy_id, remote_id);
+
+
+
+ALTER TABLE ONLY exp_migration_recording
+    ADD CONSTRAINT exp_migration_recording_pkey PRIMARY KEY (recording_id);
+
+
+
+ALTER TABLE ONLY exp_migration_recording_event
+    ADD CONSTRAINT exp_migration_recording_event_pkey PRIMARY KEY (recording_id, event_id);
 
 
 

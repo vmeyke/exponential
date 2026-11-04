@@ -5,12 +5,13 @@
  * the destination's {1}, {2} refer to those groups, and the two together translate a request URL the way
  * translateWithCache() does.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class eZURLWildcardPatternTestProbe extends eZURLWildcard
 {
     public static function regexp( $wildcard )

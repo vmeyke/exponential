@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -155,6 +155,15 @@ $ViewList['versionview'] = array(
                                  'site_access' => 'SiteAccess',
                                  'view_mode' => 'ViewMode' ) );
 
+// The preview of a draft through a signed, expiring share link (expContentPreviewLink), for a reviewer without an
+// account: no policy (site.ini [RoleSettings] PolicyOmitList[]), the token is the permission
+$ViewList['sharedpreview'] = array(
+    'functions' => array( 'read' ),
+    'default_navigation_part' => 'ezcontentnavigationpart',
+    'ui_context' => 'view',
+    'script' => 'sharedpreview.php',
+    'params' => array( 'Token' ) );
+
 $ViewList['restore'] = array(
     'functions' => array( 'restore' ),
     'default_navigation_part' => 'ezcontentnavigationpart',
@@ -172,6 +181,30 @@ $ViewList['search'] = array(
     'script' => 'search.php',
     'params' => array( ),
     'unordered_params' => array( 'offset' => 'Offset' ) );
+
+// The suggestions of the administration's header search field as JSON, asked for while the user types
+// (content/suggest/(text)/<text>, javascript/page/search_suggest.js): content, PDF pages, users, classes and the
+// administration's pages, each only as far as the user may see it (expSearchSuggest). Read only; ajax, so the
+// address is not kept as the last page seen. Settings: admininterface.ini [SearchSuggestSettings].
+$ViewList['suggest'] = array(
+    'functions' => array( 'read' ),
+    'default_navigation_part' => 'ezcontentnavigationpart',
+    'ui_context' => 'ajax',
+    'script' => 'suggest.php',
+    'params' => array( ),
+    'unordered_params' => array( 'text' => 'Text' ) );
+
+// The suggestions of a site's header search field as JSON (content/sitesuggest/(text)/<text>, the include
+// parts/front_search_suggest.tpl): content only, as far as the user may read it, never users, classes or the
+// administration's pages; rate-limited, an anonymous answer kept briefly and public (expSearchSuggest::siteSuggest()).
+// Settings: site.ini [SiteSearchSuggestSettings].
+$ViewList['sitesuggest'] = array(
+    'functions' => array( 'read' ),
+    'default_navigation_part' => 'ezcontentnavigationpart',
+    'ui_context' => 'ajax',
+    'script' => 'sitesuggest.php',
+    'params' => array( ),
+    'unordered_params' => array( 'text' => 'Text' ) );
 
 $ViewList['urlalias'] = array(
     'functions' => array( 'edit' ),

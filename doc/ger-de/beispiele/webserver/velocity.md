@@ -18,7 +18,34 @@ Zertifikate. Sein Routing ist das von `.htaccess_root`, fest eingebaut (`expVelo
 liefert auch die Icon-Themes der Erweiterungen aus (`extension/<name>/icons/`, SVG-, PNG- und GIF-Bilder mit genau
 einer Dateiendung); nach einem Upgrade gilt sie mit dem Neustart, den `exp:velocity deploy` ausführt.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](nginx.md), [LiteSpeed](litespeed.md), [Caddy](caddy.md), [IIS](iis.md),
+> [Velocity](velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../hilfe/hosting/control-panels/plesk.md), [cPanel](../../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 Alles wird in `velocity.ini` eingestellt; der Baum `/etc/vc` wird bei jedem Start daraus erzeugt.
+
+Velocity liest `.htaccess` nicht. Kopieren Sie sie trotzdem (`./console exp:setup:htaccess --apply`), wenn Apache
+denselben Baum ausliefern könnte, etwa hinter einem Panel oder während eines Umzugs. `config.php` liest jeder Worker
+einmal: Führen Sie nach `./console exp:setup:config --apply` oder `./console exp:config:set <NAME> <Wert> --apply`
+den Befehl `./console exp:velocity restart` aus. Siehe
+[.htaccess und config.php von der Konsole einrichten](../../anleitungen/setup-dateien-von-der-konsole.md).
+
+**WebDAV liefert Velocity nicht aus.** Seine Einstiegsskripte sind `index.php`, `index_rest.php` und
+`index_treemenu.php`; der WebDAV-Server, seit 6.0.15 `index_webdav.php` (früher `webdav.php`), gehört unter keinem der
+beiden Namen dazu. Liefern Sie WebDAV über Apache oder nginx mit PHP-FPM aus, am besten auf einem eigenen Host wie
+`webdav.example.com`; für die Umbenennung muss in `velocity.ini` nichts geändert werden. Siehe
+[Das WebDAV-Einstiegsskript heißt jetzt index_webdav.php](../../bc/6.0/webdav-einstiegsskript-index-webdav.md).
 
 ## 1. Die Einstellungen
 
@@ -81,15 +108,15 @@ Installieren Sie es als `settings/override/velocity.ini.append.php` (führen Sie
 zusammen), oder setzen Sie die Werte einzeln, was dieselbe Datei schreibt:
 
 ```bash
-php bin/php/console exp:velocity config set ServerSettings Engine qbix --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings Host 0.0.0.0 --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings Port 80 --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings HTTPSPort 443 --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings User example --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings Group example --allow-root-user
-php bin/php/console exp:velocity config set HTTPSSettings Certificate /etc/ssl/example.com/fullchain.pem --allow-root-user
-php bin/php/console exp:velocity config set HTTPSSettings Key /etc/ssl/example.com/privkey.pem --allow-root-user
-php bin/php/console exp:velocity config set HTTPSSettings Enabled true --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Engine qbix --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Host 0.0.0.0 --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Port 80 --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings HTTPSPort 443 --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings User example --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Group example --allow-root-user
+php bin/php/console exp:velocity config set --apply HTTPSSettings Certificate /etc/ssl/example.com/fullchain.pem --allow-root-user
+php bin/php/console exp:velocity config set --apply HTTPSSettings Key /etc/ssl/example.com/privkey.pem --allow-root-user
+php bin/php/console exp:velocity config set --apply HTTPSSettings Enabled true --allow-root-user
 php bin/php/console exp:velocity config list --allow-root-user      # * marks what you set
 php bin/php/console exp:velocity restart --allow-root-user
 php bin/php/console exp:velocity status --allow-root-user
@@ -107,7 +134,7 @@ Hinweise:
   erneuertes Zertifikat wird innerhalb einer Minute übernommen, ohne Neustart. Für Let's Encrypt, betrieben von
   Velocity selbst, siehe `exp:velocity ssl` in
   [Kapitel 8, Abschnitt 8.3.9](../../installation/08-die-website-ausliefern.md#839-https-direkt-von-velocity).
-- **HSTS** beginnt mit 300 Sekunden; erhöhen Sie `HSTSMaxAge` erst dann auf ein Jahr, wenn jeder Name dauerhaft über
+- **HSTS** ist ausgeliefert aus (`HSTSMaxAge=0`); beginnen Sie wie oben mit 300 Sekunden und erhöhen Sie `HSTSMaxAge` erst dann auf ein Jahr, wenn jeder Name dauerhaft über
   HTTPS ausgeliefert wird.
 - **Header.** `[ServerSettings] ResponseHeaders[]` bringt die Standard-Sicherheits-Header des Kernels für das mit, was
   Velocity selbst beantwortet, und `ResponseHeadersOnScripts` ergänzt sie bei Seiten, denen sie fehlen: Es gibt nichts
@@ -171,15 +198,20 @@ eine Beispielinstallation gekürzt, die Liste der statischen Pfade abgeschnitten
 }
 ```
 
+`scripts` führt jedes Skript auf, das der Server ausführt. Der SOAP-Server (`index_soap.php`, vor 6.0.15 `soap.php`)
+steht nicht darauf und stand es auch vorher nicht: Liefern Sie SOAP über das Apache- oder nginx-Frontend der
+Installation aus (siehe
+[Das SOAP-Einstiegsskript heißt jetzt index_soap.php](../../bc/6.0/soap-einstiegsskript-index-soap.md)).
+
 Bearbeiten Sie keine erzeugte Datei: Ändern Sie `velocity.ini` und starten Sie neu. Um eine eigene Datei zu behalten,
 entfernen Sie ihre Markierung `"_generated"`; dann wird sie nie überschrieben, wie eine Conffile von dpkg. Aktivieren
 und deaktivieren Sie wie mit `a2ensite`, `a2enconf` und `a2enmod`:
 
 ```bash
 php bin/php/console exp:velocity layout --allow-root-user                 # every path, what is enabled, the files in use
-php bin/php/console exp:velocity site enable example.com --allow-root-user
-php bin/php/console exp:velocity conf enable reverse-proxy --allow-root-user
-php bin/php/console exp:velocity mod disable http2 --allow-root-user
+php bin/php/console exp:velocity site enable --apply example.com --allow-root-user
+php bin/php/console exp:velocity conf enable --apply reverse-proxy --allow-root-user
+php bin/php/console exp:velocity mod disable --apply http2 --allow-root-user
 php bin/php/console exp:velocity ctl configtest --allow-root-user         # the engine's own check of the tree
 ```
 
@@ -260,6 +292,7 @@ Datei, in der die Pfade dieses Rechners ersetzt wurden.
   [8.3.10 Der Konfigurationsbaum](../../installation/08-die-website-ausliefern.md#8310-der-konfigurationsbaum-etcvc-im-debian-stil),
   [8.3.11 Velocity als Dienst betreiben](../../installation/08-die-website-ausliefern.md#8311-velocity-als-dienst-betreiben).
 - [Velocity-Engines](../../bc/6.0/velocity-engines.md) und [FrankenPHP](frankenphp.md).
+- [.htaccess und config.php von der Konsole einrichten](../../anleitungen/setup-dateien-von-der-konsole.md).
 - [Kapitel 13, Abschnitt 13.12: Velocity-spezifische Härtung](../../installation/13-sicherheitshaertung.md#1312-velocity-spezifische-härtung).
 - [Webserver-Beispiele](README.md) und [alle Beispiele](../README.md).
 - [Freie Dokumentation](../../hilfe/freie-dokumentation.md): Diese Seite dürfen Sie frei kopieren, übersetzen und verbessern.

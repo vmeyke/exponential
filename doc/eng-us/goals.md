@@ -94,7 +94,7 @@ work today, each with the page that describes it:
 
 | The problem | What is already there | Read more |
 |---|---|---|
-| Getting a working site | `./console exp:install` installs a multisite package on SQLite and prints the addresses and the login: "a working Exponential site in a few minutes, without writing a `kickstart.ini` and without a database server" | [Installing Exponential in one command](features/6.0/install-in-one-command.md) |
+| Getting a working site | `./console exp:install --apply` installs a multisite package on SQLite and prints the addresses and the login: "a working Exponential site in a few minutes, without writing a `kickstart.ini` and without a database server" | [Installing Exponential in one command](features/6.0/install-in-one-command.md) |
 | Choosing a database | Six supported databases, in order of preference: SQLite 3 (the default), PostgreSQL, MongoDB, MariaDB, Oracle, MySQL; documented tools move a site between them | [Database support](help/database-support.md) |
 | Choosing a machine | Operating systems in documented tiers, Apache, Nginx and others, or the bundled Velocity server | [Operating system support](help/os-support.md) |
 | Many languages | Locale files for content, many of them right to left, and administration translations; the totals are at the top of the languages page | [Languages in Exponential](languages.md) |
@@ -109,7 +109,7 @@ work today, each with the page that describes it:
 | Staying up to date | Git clones with their full history, updated by hand or automatically | [Develop with Git](help/develop-with-git.md), [Update with Git](help/update-with-git.md) |
 
 None of this is a separate edition. It is in the same free package, and the newest of it is listed in the
-[6.0.15 changelog](../changelogs/6.0/6.0.15.md) while 6.0.15 is in development.
+[6.0.15 changelog](../changelogs/6.0/6.0.15.md), the changelog of the current 6.0.15 line.
 
 ## Why it is free software, and what that gives you
 
@@ -188,9 +188,9 @@ are your own: your server, your time, and the services you choose to buy, from 7
 lock-in risks are listed one by one, with the reason each does not apply, on
 [Comparing Exponential factually](help/business/comparing-exponential-factually.md).
 
-There is one condition you should know before you contribute code to the kernel: 7x and the Foundation require a
+There is one condition you should know before you contribute code to the kernel: the Foundation and 7x require a
 signed Contributor Licensing Agreement, and by signing and submitting, you assign the copyright in that contribution
-to 7x, which may then use, change, relicense and distribute it without asking or paying you. Your own extensions are
+to the Exponential Foundation and 7x, which may then use, change, relicense and distribute it without asking or paying you. Your own extensions are
 not affected ([Copyright assignment (CLA)](../../CONTRIBUTING.md#copyright-assignment-cla),
 [The CLA explained](help/community/contributing/the-cla-explained.md)). We say this plainly because you should decide
 with all the facts.
@@ -208,11 +208,11 @@ history and the code itself.
 
 ### Who owns the code?
 
-The copyright notice of the kernel reads "Copyright (C) 1998 - 2026 7x & Exponential Foundation", next to "Copyright
+The copyright notice of the kernel reads "Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.", next to "Copyright
 (C) 1999 - 2014 eZ Systems AS", and the code carries the work of hundreds of contributors over the years
 ([Who is 7x?, 7x and the Exponential Foundation](help/who-is-7x.md#7x-and-the-exponential-foundation),
 [Contributors and friends of the project](help/who-is-7x.md#contributors-and-friends-of-the-project)). New code
-contributions to the kernel are assigned to 7x through the CLA described above. In one sentence: 7x leads the project,
+contributions to the kernel are assigned to the Exponential Foundation and 7x through the CLA described above. In one sentence: 7x leads the project,
 7x and the Foundation hold the copyright, and the license is the GPL
 ([Common errors in coverage](help/press/common-errors-in-coverage.md)).
 

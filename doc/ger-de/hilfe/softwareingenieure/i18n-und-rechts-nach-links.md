@@ -33,8 +33,8 @@ oder Zahlen anzeigt. Sie fasst den Entwurf und seine Grenzen zusammen; der Stand
 | Übersetzung der Oberfläche | die Texte der Administration und der Templates in einer Sprache | `share/translations/<locale>/translation.ts` |
 | Siteaccess | welche Sprachen eine Website zeigt und in welcher Rückfallreihenfolge | Siteaccess-Einstellungen |
 
-Das README zählt in der Linie 6.0.15 219 Gebietsschemata; die Administration ist auf Englisch und Deutsch vollständig und
-in weitere Sprachen teilweise übersetzt ([Sprachen in Exponential](../../sprachen.md)).
+Das README zählt in der Linie 6.0.15 mehr als 360 Gebietsschemata; die Administration ist in mehr als 150 Sprachen
+übersetzt, alle vollständig ([Sprachen in Exponential](../../sprachen.md) nennt die aktuellen Gesamtzahlen).
 
 ## Inhaltssprachen und die Grenze von 62
 
@@ -67,7 +67,7 @@ Rückfälle entscheiden, was ein Besucher sieht, wenn eine Übersetzung fehlt
 
 ## Rechts-nach-links
 
-Die Schreibrichtung hat eine Quelle: `share/locale/<locale>.ini [LanguageSettings] TextDirection=rtl` (40
+Die Schreibrichtung hat eine Quelle: `share/locale/<locale>.ini [LanguageSettings] TextDirection=rtl` (43
 Gebietsschema-Dateien tragen sie). `eZLocale::textDirection()`, `isRightToLeft()` und das statische
 `textDirectionOf( 'heb-IL' )` lesen sie. Ist die Oberflächensprache rechts nach links, setzt die Administration
 `dir="rtl"` an `<html>` und spiegelt ihr Layout; Inhalte in einer Inhaltssprache mit Schreibrichtung rechts nach links

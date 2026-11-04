@@ -2,7 +2,7 @@
 /**
  * File containing the eZContentLanguageRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -15,6 +15,8 @@
  * @group ezcontentlanguage
  * @group database
  */
+#[\PHPUnit\Framework\Attributes\Group('ezcontentlanguage')]
+#[\PHPUnit\Framework\Attributes\Group('database')]
 class eZContentLanguageRegression extends ezpDatabaseTestCase
 {
     protected $backupGlobals = false;
@@ -85,6 +87,7 @@ END;
      * @link http://issues.ez.no/18613
      * @group issue18613
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue18613')]
     public function testFetchListWithBlankCacheFile()
     {
         // First simulate a problem generating the language cache file (make it blank)

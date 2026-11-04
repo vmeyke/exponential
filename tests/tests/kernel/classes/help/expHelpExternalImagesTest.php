@@ -11,7 +11,7 @@
  *  HEI-04  README.md under the shipped img-src has no <img src="https://...">
  *  HEI-05  expContentSecurityPolicy::imageSources() and sourcesAllowUrl() read img-src the way a browser applies it
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -128,7 +128,7 @@ class expHelpExternalImagesTest extends PHPUnit\Framework\TestCase
             'Directives' => array( 'default-src' => "'self'", 'img-src' => "'self' data: blob:" ),
             'AdditionalSources' => array( 'img-src images.example.org' ),
         );
-        $ini = $this->createMock( 'eZINI' );
+        $ini = $this->createStub( 'eZINI' );
         $ini->method( 'hasVariable' )->willReturnCallback( static function ( $section, $name ) use ( &$values ) {
             return $section === 'ContentSecurityPolicy' && array_key_exists( $name, $values );
         } );

@@ -9,6 +9,21 @@ und die Release Notes, die Sie für jeden durchlaufenen Zeitraum lesen sollten. 
 [Anleitung zum Upgrade](../anleitungen/aktualisieren.md) zusammen und erweitert sie; diese bleibt das Verfahren Schritt für
 Schritt.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../beispiele/webserver/nginx.md), [LiteSpeed](../beispiele/webserver/litespeed.md), [Caddy](../beispiele/webserver/caddy.md), [IIS](../beispiele/webserver/iis.md),
+> [Velocity](../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hilfe/hosting/control-panels/plesk.md), [cPanel](../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../anleitungen/seiten-cache-mit-litespeed.md).
+
 [Inhalt](README.md) · Zurück: [10. Nach der Installation](10-nach-der-installation.md) · Weiter: [12. Fehlerbehebung](12-fehlerbehebung.md)
 
 ## 11.1 Bevor Sie beginnen
@@ -296,7 +311,7 @@ beschriebene Weg gilt für sie. Um Exponential 6 weiterhin innerhalb einer Symfo
    Spalte nicht hat. Die MySQL-Datei läuft auf jedem MySQL ab 5.5.3 und auf MariaDB (siehe die Hinweise je Datenbank
    oben). Details: [Changelog 6.0.0](../../changelogs/6.0/6.0.0.md).
 3. **PHP.** Die aktuelle Linie läuft unter PHP 8.0 bis 8.5 (`composer.json`: `^8.0`), Velocity ab seinem Release 0.0.4.54 eingeschlossen. Die
-   Releases 6.0.8 bis 6.0.14 verlangten 8.1. Eine Site, die auf PHP 7.4 bleiben muss, bleibt auf 6.0.7. Prüfen Sie Ihre
+   Releases 6.0.8 bis 6.0.14 verlangten 8.1. Eine Site unter PHP 7.4 kann ab 6.0.15 wieder die aktuelle Linie betreiben, ohne Support (6.0.8 bis 6.0.14 brauchen PHP 8.1). Prüfen Sie Ihre
    eigenen Extensions auf Probleme mit PHP 8: Klassen, die `eZPersistentObject` oder `eZDataType` erweitern, sind die
    üblichen Fälle. Siehe [PHP-8-Unterstützung](../bc/6.0/php8.md) und [PHP-8.0-Unterstützung](../bc/6.0/php-8.0-unterstuetzung.md).
 4. Fahren Sie mit [11.6](#116-von-einer-beliebigen-60x-auf-den-heutigen-stand) fort.
@@ -348,6 +363,20 @@ hinzugefügt oder umbenannt hat (die Release Notes sagen es). Die Reihenfolge is
 Seiten, der geleert wird, bevor PHP den neuen Code ausführt, füllt sich wieder mit Seiten des alten Codes. Siehe
 [Kapitel 8](08-die-website-ausliefern.md#8314-eine-änderung-bereitstellen-expvelocity-deploy) und
 [Velocity-Engines](../bc/6.0/velocity-engines.md).
+
+**Vergleichen Sie Ihre Dateien mit den neuen Vorlagen.** Eine Release kann `.htaccess_root`,
+`.htaccess_root_static` und `config.php-RECOMMENDED` ändern; Ihre `.htaccess` und `config.php` bleiben, wie sie sind:
+
+```bash
+php bin/php/console exp:setup:status                     # ist .htaccess noch eine Kopie einer Vorlage?
+php bin/php/console exp:setup:htaccess                   # der Diff zwischen Ihrer .htaccess und der neuen Vorlage
+php bin/php/console exp:setup:htaccess --force --apply   # die neuen Regeln übernehmen (vorher Sicherung), wenn der Diff nichts Eigenes enthält
+php bin/php/console exp:config:list                      # Einstellungen, die neu in config.php-RECOMMENDED sind, erscheinen als (not set)
+```
+
+Setzen Sie die neuen Einstellungen, die Sie möchten, mit `exp:config:set <NAME> <value> --apply`; die Einstellungen,
+die Sie hatten, behalten ihre Werte. Siehe
+[.htaccess und config.php von der Konsole aus einrichten](../anleitungen/setup-dateien-von-der-konsole.md).
 
 ### Schritt 2: das Datenbank-Update anwenden
 
@@ -408,7 +437,7 @@ Lesen Sie jede Release Note zwischen Ihrer Version und dem heutigen Stand; jede 
 | 6.0.3 | [6.0.4](../../changelogs/6.0/6.0.4.md): das responsive Administrationsdesign |
 | 6.0.4 | [6.0.5](../../changelogs/6.0/6.0.5.md): eine fehlgeschlagene 6.0.4-Installation, Datentypen von Extensions |
 | 6.0.5 | [6.0.6](../../changelogs/6.0/6.0.6.md): `admin3` auf Smartphones und Tablets |
-| 6.0.6 | [6.0.7](../../changelogs/6.0/6.0.7.md): die letzte Release für PHP 7.4 |
+| 6.0.6 | [6.0.7](../../changelogs/6.0/6.0.7.md): die letzte Release für PHP 7.4 bis 6.0.15 |
 | 6.0.7 | [6.0.8](../../changelogs/6.0/6.0.8.md): **braucht PHP 8.1**; und [PHP-8-Unterstützung](../bc/6.0/php8.md) |
 | 6.0.8 | [6.0.9](../../changelogs/6.0/6.0.9.md): PostgreSQL, REST-Zugriff auf Inhalte |
 | 6.0.9 | [6.0.10](../../changelogs/6.0/6.0.10.md): der Produktname in Templates, Übersetzungen und Overrides; [Das Produkt heißt Exponential](../funktionen/6.0/umbenennung-in-exponential.md) |
@@ -435,6 +464,8 @@ Die Änderungen, auf die man beim Erreichen von 6.0.15 am häufigsten stößt:
 - **Legacy-Extensions** wurden zwischen dem 22. September und dem 2. Oktober 2026 auf einen gemeinsamen Standard
   gebracht: [Verhaltensänderungen der Legacy-Extensions](../bc/6.0/verhaltensaenderungen-von-erweiterungen.md).
 - **Die Standardwerte des Static Cache** haben sich geändert: [Standardwerte des Static Cache](../bc/6.0/standardwerte-des-statischen-caches.md).
+- **Statisches Veröffentlichen** ist neu (November 2026): ausgeschaltet, bis Sie es einschalten; der Upgrade-Schritt
+  `6.0.15-static-publish-tables` legt die Tabellen `exp_static_run` und `exp_static_page` an. [Statisches Veröffentlichen](../bc/6.0/statisches-veroeffentlichen.md).
 - **Velocity**, falls Sie ihn betreiben: [Upgrade-Hinweise zur Velocity-Engine](../bc/6.0/velocity-engine-upgrade-hinweise.md)
   und [Verzeichnisstruktur auf der Festplatte](../bc/6.0/velocity-verzeichnisstruktur.md).
 
@@ -494,14 +525,14 @@ Weitere Werkzeuge, die nach einem Upgrade helfen:
 | `php bin/php/ezsqldiff.php --type=mysql --user=USER --password=PASS share/db_schema.dba <database>` | Vergleich Ihrer Datenbank mit dem Referenzschema, das **zuerst** angegeben wird. Die Ausgabe ist das SQL, das das zweite Argument (Ihre Datenbank) in das erste (die Referenz) überführen würde: Eine Zeile mit `CREATE TABLE` oder `ADD` nennt etwas, das ein Update-Schritt hätte anlegen sollen, eine Zeile mit `DROP TABLE` eine Tabelle, die nur Ihre Datenbank hat (die Tabellen Ihrer eigenen Extensions erscheinen so). Lesen Sie es, führen Sie es nicht aus. Exit-Code 0, wenn die Schemas übereinstimmen, 1, wenn sie sich unterscheiden (`--type` ist `mysql` oder `postgresql`). Die Kapitel 14 bis 16 verwenden es auf dieselbe Weise |
 | `php bin/php/updateniceurls.php` | die URL-Aliase neu aufbauen (`--update-nodes`) |
 | `php bin/php/updatesearchindex.php` | alle Inhalte in der Suchmaschine neu indizieren |
-| `php bin/php/cleanupversions.php` | archivierte Versionen jenseits der Grenzen von `VersionManagement` entfernen |
+| `php bin/php/cleanupversions.php --apply` | archivierte Versionen jenseits der Grenzen von `VersionManagement` entfernen |
 
 Leeren Sie zuletzt den Content-Cache und, unter Velocity, dessen Antwort-Cache, und zwar **nach** dem Neuladen von
 PHP-FPM oder dem Neustart von Velocity, damit keine vom alten Code dargestellte Seite erneut ausgeliefert wird:
 
 ```bash
 php bin/php/ezcache.php --clear-tag=content
-php bin/php/console exp:velocity cache clear
+php bin/php/console exp:velocity cache clear --apply
 ```
 
 ## 11.8 Wenn etwas schiefgeht
@@ -530,6 +561,7 @@ Version enthält, öffnen Sie ihr Changelog: [6.0.0 bis 6.0.15](../../changelogs
 In diesem Repository:
 
 - [Upgrade](../anleitungen/aktualisieren.md): die Schritt-für-Schritt-Anleitung, die dieses Kapitel erweitert.
+- [.htaccess und config.php von der Konsole aus einrichten](../anleitungen/setup-dateien-von-der-konsole.md): beide Dateien mit den neuen Vorlagen vergleichen.
 - Release Notes: [Changelogs von 6.0](../../changelogs/6.0/6.0.15.md) ([6.0.0](../../changelogs/6.0/6.0.0.md) bis
   [6.0.14](../../changelogs/6.0/6.0.14.md)), die [Release Notes der Extensions](../../changelogs/extensions/README.md),
   [alle Changelogs](../../changelogs/README.md).

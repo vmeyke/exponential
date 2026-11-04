@@ -27,7 +27,7 @@
  *
  * Each test builds its own root under var/tmp/ini/b/.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group ini
@@ -35,6 +35,7 @@
 
 require_once __DIR__ . '/fixtures/iniroot.php';
 
+#[\PHPUnit\Framework\Attributes\Group('ini')]
 class IniCommandTest extends PHPUnit\Framework\TestCase
 {
     /** @var string the installation (cwd of the processes) */

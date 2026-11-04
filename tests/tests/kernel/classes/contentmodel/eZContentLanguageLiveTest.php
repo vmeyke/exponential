@@ -5,12 +5,13 @@
  * (also one that names a language that no longer exists), the JavaScript list of a mask, the SQL filters and the
  * object and class counts. Nothing is written.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class eZContentLanguageLiveTest extends PHPUnit\Framework\TestCase
 {
     /** @var eZContentLanguage[] locale => language */

@@ -2,7 +2,7 @@
 /**
  * File containing the eZOperationHandlerRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -32,6 +32,7 @@ class eZOperationHandlerRegression extends ezpTestCase
      * @link http://issues.ez.no/15883
      * @group issue_15883
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_15883')]
     function testEnablingPartialOperation()
     {
         $wfINI = eZINI::instance( 'workflow.ini' );

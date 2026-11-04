@@ -82,6 +82,14 @@ $$;
 
 CREATE INDEX IF NOT EXISTS ezcobj_trash_trashed_by ON ezcontentobject_trash USING btree ( trashed_by );
 
+--
+-- An index on ezcontentobject.modified: Dashboard > Recent content lists the
+-- objects by their modification date, a page at a time, and on a large
+-- database that read must be indexed. Created only when missing.
+--
+
+CREATE INDEX IF NOT EXISTS ezcontentobject_modified ON ezcontentobject USING btree ( modified );
+
 
 --
 -- Sequence names: <table>_s becomes <table>_<column>_seq.
@@ -451,14 +459,28 @@ BEGIN
         CREATE TABLE expbookmark_view (
           bookmark_id integer DEFAULT 0 NOT NULL,
           created integer DEFAULT 0 NOT NULL,
+          module_name character varying(100) DEFAULT ''::character varying NOT NULL,
           module_uri text,
-          user_id integer DEFAULT 0 NOT NULL
+          user_id integer DEFAULT 0 NOT NULL,
+          view_name character varying(100) DEFAULT ''::character varying NOT NULL,
+          view_parameters text
         );
         ALTER TABLE ONLY expbookmark_view ADD CONSTRAINT expbookmark_view_pkey PRIMARY KEY ( bookmark_id );
         CREATE INDEX expbookmark_view_user ON expbookmark_view USING btree ( user_id );
     END IF;
 END
 $$;
+
+-- The address parsed: module_name, view_name and view_parameters (JSON of the ordered, unordered
+-- and query parameters), so bookmarks are found and moved by module and view. A table made by an
+-- early 6.0.15 build has only the address: the columns are added when missing (ADD COLUMN IF NOT
+-- EXISTS, PostgreSQL 9.6 or newer) and so is their index, so the lines can run again. The rows are
+-- filled from their address by update/common/scripts/6.0/createbookmarkviewtable.php or
+-- ./console exp:upgrade --apply; until then the kernel reads the address alone.
+ALTER TABLE expbookmark_view ADD COLUMN IF NOT EXISTS module_name character varying(100) DEFAULT ''::character varying NOT NULL;
+ALTER TABLE expbookmark_view ADD COLUMN IF NOT EXISTS view_name character varying(100) DEFAULT ''::character varying NOT NULL;
+ALTER TABLE expbookmark_view ADD COLUMN IF NOT EXISTS view_parameters text;
+CREATE INDEX IF NOT EXISTS expbookmark_view_module ON expbookmark_view USING btree ( module_name, view_name );
 
 -- E-mail preferences and consent.
 --
@@ -836,6 +858,29 @@ END
 $$;
 
 --
+-- What a signed-in session adds to its row of expuser_session (doc/eng-us/features/6.0/user-sessions.md): the host
+-- the sign-in was made on, the country and place a local GeoIP database names (empty without one) and the second
+-- step of the sign-in (totp, email, recovery). One row per session, removed with it. Without the table the sessions
+-- are tracked as before, without these details; update/common/scripts/6.0/createusersessiontable.php creates it on
+-- any engine. Created only when the table is missing, so running this block again changes nothing.
+DO $$
+BEGIN
+    IF NOT EXISTS ( SELECT 1 FROM information_schema.tables WHERE table_schema = current_schema() AND table_name = 'expuser_session_info' ) THEN
+        CREATE TABLE expuser_session_info (
+          auth_detail character varying(32) DEFAULT ''::character varying NOT NULL,
+          country character varying(2) DEFAULT ''::character varying NOT NULL,
+          host character varying(255) DEFAULT ''::character varying NOT NULL,
+          location character varying(128) DEFAULT ''::character varying NOT NULL,
+          session_id integer DEFAULT 0 NOT NULL,
+          user_id integer DEFAULT 0 NOT NULL
+        );
+        ALTER TABLE ONLY expuser_session_info ADD CONSTRAINT expuser_session_info_pkey PRIMARY KEY ( session_id );
+        CREATE INDEX expuser_session_info_user ON expuser_session_info USING btree ( user_id );
+    END IF;
+END
+$$;
+
+--
 -- ezuser.login: one account per login.
 --
 -- A new installation has the unique index ezuser_login from the kernel schema.
@@ -932,3 +977,249 @@ CREATE TABLE IF NOT EXISTS exphelp_feedback (
 );
 CREATE INDEX IF NOT EXISTS exphelp_feedback_object ON exphelp_feedback USING btree (object_id, created);
 CREATE INDEX IF NOT EXISTS exphelp_feedback_created ON exphelp_feedback USING btree (created);
+
+--
+-- ezorder.siteaccess: the siteaccess (store or site) an order was placed in
+-- (doc/eng-us/features/6.0/order-siteaccess.md). The shop records it when the
+-- basket becomes an order; the order view and the order lists show it and
+-- filter by it. Orders placed before keep '' and are shown as unknown: which
+-- siteaccess they came from is not recorded; bin/php/expbackfillordersiteaccess.php
+-- infers it from the content tree where it can (dry run unless --apply).
+-- Until the column is there the kernel stores and reads orders without it.
+-- Added only when it is missing, so the block can run again.
+--
+
+DO $$
+BEGIN
+    IF NOT EXISTS ( SELECT 1 FROM information_schema.columns
+                    WHERE table_schema = current_schema()
+                      AND table_name = 'ezorder'
+                      AND column_name = 'siteaccess' ) THEN
+        ALTER TABLE ezorder ADD siteaccess character varying(255) DEFAULT ''::character varying NOT NULL;
+    END IF;
+END
+$$;
+
+--
+-- expuser_audit: the user audit log (doc/eng-us/features/6.0/user-audit.md). One row per
+-- security event about a user account or a user group (a change with its fields before and
+-- after, a sign-in, a refused attempt, a role assignment): who, when, where (siteaccess, host,
+-- the address as the audit's privacy rules leave it), whom and what. Filled from the audit
+-- records of the access channel; read on user/audit. Never a password, a hash or a secret.
+-- Created only when the table is missing, so running this block again changes nothing.
+--
+DO $$
+BEGIN
+    IF NOT EXISTS ( SELECT 1 FROM information_schema.tables WHERE table_schema = current_schema() AND table_name = 'expuser_audit' ) THEN
+        IF NOT EXISTS ( SELECT 1 FROM information_schema.sequences WHERE sequence_schema = current_schema() AND sequence_name = 'expuser_audit_id_seq' ) THEN
+            CREATE SEQUENCE expuser_audit_id_seq START 1 INCREMENT 1 MAXVALUE 9223372036854775807 MINVALUE 1 CACHE 1;
+        END IF;
+        CREATE TABLE expuser_audit (
+          actor_id integer DEFAULT 0 NOT NULL,
+          actor_login character varying(150) DEFAULT ''::character varying NOT NULL,
+          client_ip character varying(64) DEFAULT ''::character varying NOT NULL,
+          created integer DEFAULT 0 NOT NULL,
+          event_id character varying(26) DEFAULT ''::character varying NOT NULL,
+          event_name character varying(128) DEFAULT ''::character varying NOT NULL,
+          host character varying(255) DEFAULT ''::character varying NOT NULL,
+          id integer DEFAULT nextval('expuser_audit_id_seq'::text) NOT NULL,
+          module_view character varying(128) DEFAULT ''::character varying NOT NULL,
+          reason character varying(64) DEFAULT ''::character varying NOT NULL,
+          request_id character varying(40) DEFAULT ''::character varying NOT NULL,
+          result character varying(16) DEFAULT ''::character varying NOT NULL,
+          siteaccess character varying(64) DEFAULT ''::character varying NOT NULL,
+          target_id integer DEFAULT 0 NOT NULL,
+          target_login character varying(150) DEFAULT ''::character varying NOT NULL,
+          target_type character varying(16) DEFAULT ''::character varying NOT NULL,
+          time_ms bigint DEFAULT 0 NOT NULL,
+          value_after text,
+          value_before text
+        );
+        ALTER TABLE ONLY expuser_audit ADD CONSTRAINT expuser_audit_pkey PRIMARY KEY ( id );
+        CREATE UNIQUE INDEX expuser_audit_event ON expuser_audit USING btree ( event_id );
+        CREATE INDEX expuser_audit_target ON expuser_audit USING btree ( target_id, created );
+        CREATE INDEX expuser_audit_actor ON expuser_audit USING btree ( actor_id, created );
+        CREATE INDEX expuser_audit_name ON expuser_audit USING btree ( event_name, created );
+        CREATE INDEX expuser_audit_created ON expuser_audit USING btree ( created );
+    END IF;
+END
+$$;
+
+-- expupgrade_step: the older record of exp:upgrade, which only a pre-release of 6.0.15 had (no released
+-- version has it). exp_migration below replaces it: its rows are copied over and the table is dropped at the
+-- end of this section. Created empty here when it is missing, so the copy below can read it on every
+-- installation; the upgrade step 6.0.15-upgrade-record-table does the same from the console.
+
+CREATE TABLE IF NOT EXISTS expupgrade_step (
+    applied_at integer DEFAULT 0 NOT NULL,
+    applied_by character varying(150) DEFAULT ''::character varying NOT NULL,
+    checksum character varying(64) DEFAULT ''::character varying NOT NULL,
+    duration_ms integer DEFAULT 0 NOT NULL,
+    engine character varying(30) DEFAULT ''::character varying NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    stage character varying(20) DEFAULT ''::character varying NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    step_id character varying(150) DEFAULT ''::character varying NOT NULL,
+    "version" character varying(30) DEFAULT ''::character varying NOT NULL,
+    CONSTRAINT expupgrade_step_pkey PRIMARY KEY ( step_id )
+);
+
+-- exp_static_run and exp_static_page: the record of static publishing, one row per publish or rollback of a
+-- target and one per page of a target as last published (the upgrade step 6.0.15-static-publish-tables makes
+-- them). Written with IF NOT EXISTS, so running these statements again changes nothing.
+
+CREATE TABLE IF NOT EXISTS exp_static_page (
+    built_at integer DEFAULT 0 NOT NULL,
+    hash character varying(64) DEFAULT ''::character varying NOT NULL,
+    node_id integer DEFAULT 0 NOT NULL,
+    page_bytes integer DEFAULT 0 NOT NULL,
+    path character varying(255) DEFAULT ''::character varying NOT NULL,
+    stale integer DEFAULT 0 NOT NULL,
+    target character varying(50) DEFAULT ''::character varying NOT NULL,
+    CONSTRAINT exp_static_page_pkey PRIMARY KEY ( target, path )
+);
+CREATE INDEX IF NOT EXISTS exp_static_page_node ON exp_static_page USING btree ( node_id );
+
+CREATE TABLE IF NOT EXISTS exp_static_run (
+    added integer DEFAULT 0 NOT NULL,
+    bytes integer DEFAULT 0 NOT NULL,
+    changed integer DEFAULT 0 NOT NULL,
+    commit_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    files integer DEFAULT 0 NOT NULL,
+    finished_at integer DEFAULT 0 NOT NULL,
+    kind character varying(20) DEFAULT ''::character varying NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    pages integer DEFAULT 0 NOT NULL,
+    push_state character varying(20) DEFAULT ''::character varying NOT NULL,
+    removed integer DEFAULT 0 NOT NULL,
+    run_by character varying(150) DEFAULT ''::character varying NOT NULL,
+    run_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    started_at integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    tag_name character varying(150) DEFAULT ''::character varying NOT NULL,
+    target character varying(50) DEFAULT ''::character varying NOT NULL,
+    CONSTRAINT exp_static_run_pkey PRIMARY KEY ( run_id )
+);
+CREATE INDEX IF NOT EXISTS exp_static_run_target ON exp_static_run USING btree ( target, started_at );
+
+-- exp_migration and exp_migration_run: the migration record (one row per migration, the key is its source and
+-- id) and its runs; exp:upgrade writes its steps there as migrations of the source "kernel" (the upgrade step
+-- 6.0.15-migration-tables makes them). No sequence. Written with IF NOT EXISTS, the copy leaves out a row that
+-- exp_migration has already and the table expupgrade_step is gone afterwards, so running these statements again
+-- changes nothing.
+
+CREATE TABLE IF NOT EXISTS exp_migration (
+    caption_id character varying(150) DEFAULT ''::character varying NOT NULL,
+    checksum character varying(64) DEFAULT ''::character varying NOT NULL,
+    duration_ms integer DEFAULT 0 NOT NULL,
+    engine character varying(30) DEFAULT ''::character varying NOT NULL,
+    environment character varying(50) DEFAULT ''::character varying NOT NULL,
+    file_path character varying(255) DEFAULT ''::character varying NOT NULL,
+    finished_at integer DEFAULT 0 NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    migration_id character varying(150) DEFAULT ''::character varying NOT NULL,
+    revision character varying(64) DEFAULT ''::character varying NOT NULL,
+    run_by character varying(150) DEFAULT ''::character varying NOT NULL,
+    run_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    source character varying(100) DEFAULT ''::character varying NOT NULL,
+    stage character varying(20) DEFAULT ''::character varying NOT NULL,
+    started_at integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    "version" character varying(30) DEFAULT ''::character varying NOT NULL,
+    CONSTRAINT exp_migration_pkey PRIMARY KEY ( source, migration_id )
+);
+CREATE INDEX IF NOT EXISTS exp_migration_run_id ON exp_migration USING btree ( run_id );
+
+CREATE TABLE IF NOT EXISTS exp_migration_run (
+    caption_post character varying(150) DEFAULT ''::character varying NOT NULL,
+    caption_pre character varying(150) DEFAULT ''::character varying NOT NULL,
+    commit_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    environment character varying(50) DEFAULT ''::character varying NOT NULL,
+    finished_at integer DEFAULT 0 NOT NULL,
+    log_file character varying(255) DEFAULT ''::character varying NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    push_state character varying(20) DEFAULT ''::character varying NOT NULL,
+    run_by character varying(150) DEFAULT ''::character varying NOT NULL,
+    run_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    started_at integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    tag_name character varying(150) DEFAULT ''::character varying NOT NULL,
+    CONSTRAINT exp_migration_run_pkey PRIMARY KEY ( run_id )
+);
+CREATE INDEX IF NOT EXISTS exp_migration_run_started ON exp_migration_run USING btree ( started_at );
+
+INSERT INTO exp_migration ( source, migration_id, stage, "version", state, started_at, finished_at, duration_ms, run_by, engine, checksum, message, caption_id )
+  SELECT 'kernel', s.step_id, s.stage, s."version", s.state,
+         CASE WHEN s.applied_at > 0 THEN GREATEST( s.applied_at - CAST( ROUND( s.duration_ms / 1000.0 ) AS integer ), 0 ) ELSE 0 END,
+         s.applied_at, s.duration_ms, s.applied_by, s.engine, s.checksum, s.message,
+         CASE WHEN s.stage = 'caption' AND s.step_id LIKE 'caption:%' THEN SUBSTRING( s.step_id FROM 9 ) ELSE '' END
+    FROM expupgrade_step s
+   WHERE NOT EXISTS ( SELECT 1 FROM exp_migration m WHERE m.source = 'kernel' AND m.migration_id = s.step_id );
+
+DROP TABLE IF EXISTS expupgrade_step;
+
+-- exp_migration_recording and exp_migration_recording_event: the recordings of changes for migrations (one row per
+-- recording, one row per recorded change with the migration step it stands for as JSON in payload). The upgrade
+-- step 6.0.15-migration-recording-tables does the same. No sequence. New tables only, written with IF NOT EXISTS,
+-- so running these statements again changes nothing.
+
+CREATE TABLE IF NOT EXISTS exp_migration_recording (
+    environment character varying(50) DEFAULT ''::character varying NOT NULL,
+    event_count integer DEFAULT 0 NOT NULL,
+    kind character varying(20) DEFAULT ''::character varying NOT NULL,
+    label character varying(255) DEFAULT ''::character varying NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    recording_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    started_at integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    stopped_at integer DEFAULT 0 NOT NULL,
+    user_id integer DEFAULT 0 NOT NULL,
+    CONSTRAINT exp_migration_recording_pkey PRIMARY KEY ( recording_id )
+);
+CREATE INDEX IF NOT EXISTS exp_migration_recording_state ON exp_migration_recording USING btree ( state );
+
+CREATE TABLE IF NOT EXISTS exp_migration_recording_event (
+    actor_id integer DEFAULT 0 NOT NULL,
+    audit_name character varying(100) DEFAULT ''::character varying NOT NULL,
+    event_id character varying(32) DEFAULT ''::character varying NOT NULL,
+    payload text,
+    recorded_at integer DEFAULT 0 NOT NULL,
+    recording_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    step_mode character varying(20) DEFAULT ''::character varying NOT NULL,
+    step_type character varying(50) DEFAULT ''::character varying NOT NULL,
+    subject character varying(255) DEFAULT ''::character varying NOT NULL,
+    CONSTRAINT exp_migration_recording_event_pkey PRIMARY KEY ( recording_id, event_id )
+);
+
+-- exp_migration_deploy and exp_migration_deploy_host: the record of the deploys of migrations to remotes (one row
+-- per deploy, one per remote of it; exp:migration:deploy and Setup > Migrations > Deploys). The upgrade step
+-- 6.0.15-migration-deploy-tables makes them the same way.
+CREATE TABLE IF NOT EXISTS exp_migration_deploy (
+    deploy_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    finished_at integer DEFAULT 0 NOT NULL,
+    in_sync integer DEFAULT 0 NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    mode character varying(20) DEFAULT ''::character varying NOT NULL,
+    next_stage integer DEFAULT 0 NOT NULL,
+    run_by character varying(150) DEFAULT ''::character varying NOT NULL,
+    stages integer DEFAULT 0 NOT NULL,
+    started_at integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    CONSTRAINT exp_migration_deploy_pkey PRIMARY KEY ( deploy_id )
+);
+CREATE INDEX IF NOT EXISTS exp_migration_deploy_started ON exp_migration_deploy USING btree ( started_at );
+
+CREATE TABLE IF NOT EXISTS exp_migration_deploy_host (
+    address character varying(255) DEFAULT ''::character varying NOT NULL,
+    applied integer DEFAULT 0 NOT NULL,
+    caption character varying(150) DEFAULT ''::character varying NOT NULL,
+    deploy_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    environment character varying(50) DEFAULT ''::character varying NOT NULL,
+    message character varying(1000) DEFAULT ''::character varying NOT NULL,
+    remote_id character varying(64) DEFAULT ''::character varying NOT NULL,
+    stage integer DEFAULT 0 NOT NULL,
+    state character varying(20) DEFAULT ''::character varying NOT NULL,
+    transport character varying(20) DEFAULT ''::character varying NOT NULL,
+    CONSTRAINT exp_migration_deploy_host_pkey PRIMARY KEY ( deploy_id, remote_id )
+);
+CREATE INDEX IF NOT EXISTS exp_migration_deploy_host_remote ON exp_migration_deploy_host USING btree ( remote_id );

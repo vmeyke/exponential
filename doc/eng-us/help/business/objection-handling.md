@@ -15,6 +15,20 @@ where the sources say "no" or say nothing, the honest answer. A buyer who checks
 trust the next one. A buyer who finds one overstatement will doubt everything, so this page prefers "the sources do
 not state that" over a guess.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../examples/web-servers/nginx.md), [LiteSpeed](../../examples/web-servers/litespeed.md),
+> [Caddy](../../examples/web-servers/caddy.md), [IIS](../../examples/web-servers/iis.md), [Velocity](../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../hosting/panels/plesk.md), [cPanel](../hosting/panels/cpanel.md), [DirectAdmin](../hosting/panels/directadmin.md), [ISPConfig](../hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## Contents
 
 1. [A method for any objection](#a-method-for-any-objection)
@@ -48,7 +62,7 @@ not state that" over a guess.
 | Objection | Short answer from the sources | Proof |
 |---|---|---|
 | "Open source is less secure." | Private vulnerability reporting with a first answer within one business day; fixes in the next 6.0.x release; a CSP, an audit trail, two-step sign-in and a hardening guide | `SECURITY.md`, [Security hardening](../security-hardening.md) |
-| "Is it still maintained?" | Fifteen 6.0.x releases from 1 January 2024 to 7 June 2026, 6.0.15 in development; CI on every push | [Who is 7x?, The 6.0.x releases](../who-is-7x.md#the-60x-releases), [CI](../../bc/6.0/ci.md) |
+| "Is it still maintained?" | Fifteen 6.0.x releases from 1 January 2024 to 7 June 2026, followed by the current 6.0.15 line; CI on every push | [Who is 7x?, The 6.0.x releases](../who-is-7x.md#the-60x-releases), [CI](../../bc/6.0/ci.md) |
 | "Will it last?" | A code base kept since 1999, a company and a nonprofit behind it, and a GPL license that keeps the code available to everyone | `COPYRIGHT.md`, [Who is the Exponential Foundation?](../who-is-the-exponential-foundation.md) |
 | "Who supports us?" | Documented commitments for PHP, security fixes, releases and documentation; service contracts from 7x or any provider; community places | [The support commitment](../who-is-the-exponential-foundation.md#the-support-commitment) |
 | "Which PHP versions?" | PHP 8.0 to 8.5, Velocity included (from its release 0.0.4.54) | [PHP versions](../who-is-the-exponential-foundation.md#php-versions) |
@@ -80,7 +94,7 @@ customer can verify it.
 
 **Answer.** Yes, and the buyer can check it in minutes:
 
-- Releases: 6.0.0 on 1 January 2024 to 6.0.14 on 7 June 2026, with 6.0.15 in development
+- Releases: 6.0.0 on 1 January 2024 to 6.0.14 on 7 June 2026, followed by the current 6.0.15 line
   ([Who is 7x?, The 6.0.x releases](../who-is-7x.md#the-60x-releases)).
 - Changes: "6556 ledger changes in 53 repositories since December 2023. 1037 of them were made by the se7enxweb team"
   ([The Exponential platform ecosystem](../../history/ecosystem.md)); every month is told in
@@ -108,7 +122,7 @@ Nobody can promise the future, and you should not. What the sources show is a re
 
 | Fact | Source |
 |---|---|
-| The code base carries copyright years from 1999 (eZ Systems AS) and 1998 to 2026 (7x and the Exponential Foundation) | `COPYRIGHT.md` |
+| The code base carries copyright years from 1999 (eZ Systems AS) and 1998 to 2026 (the Exponential Foundation and 7x) | `COPYRIGHT.md` |
 | "Exponential has made it beyond it's end of life in 2021 and survived" | `README.md`, "Exponential Project Status" |
 | 7x took over leadership of the project in 2023; the company worked with this software since its first versions | [Who is 7x?](../who-is-7x.md#from-brookins-consulting-to-7x-in-three-stages) |
 | The Exponential Foundation, a nonprofit founded on 19 March 2026, operates the project; its mission includes "Funding, Adoption, Support, Direction, Education, Development, Promotion and Documentation" | [Who is the Exponential Foundation?](../who-is-the-exponential-foundation.md#what-the-foundation-is) |
@@ -143,9 +157,9 @@ report, "within one business day" (`SECURITY.md`). Service levels belong in a co
 
 | Objection | Answer | Source |
 |---|---|---|
-| "It needs an old PHP." | PHP 8.0 is the oldest supported version; 8.1 to 8.5 are supported; `composer.json` allows up to 8.8. | [PHP versions](../who-is-the-exponential-foundation.md#php-versions) |
+| "It needs an old PHP." | Supported: PHP 8.0 to 8.5. Usable without support: PHP 7.4 (Exponential 6.0.15 and later); `composer.json` allows up to 8.8. | [PHP versions](../who-is-the-exponential-foundation.md#php-versions) |
 | "We run Red Hat Enterprise Linux 9 with its stock PHP." | PHP 8.0, the stock PHP of RHEL 9 and its rebuilds, runs it under Apache, PHP-FPM or Velocity (from Velocity 0.0.4.54). | `README.md`, [PHP 8.0 support](../../bc/6.0/php-8.0-support.md) |
-| "We are still on PHP 7.4." | 6.0.7 is the last release for PHP 7.4; 7x "strongly recommends you to upgrade". | `README.md` |
+| "We are still on PHP 7.4." | 6.0.15 is usable on PHP 7.4 again, without support, as a bridge; 7x still recommends moving to PHP 8. | `README.md` |
 | "The interface looks dated." | admin4, with light and dark mode; jQuery 4 and TinyMCE 8 in the 6.0.15 line; AdminUI as an alternative look. | [The admin4 design](../../features/6.0/admin4-design.md), [October 2026](../../history/2026/2026-10.md), [AdminUI](../../features/6.0/exp-adminui.md) |
 | "We need headless delivery." | A REST API, versions 1 and 2. For a Symfony project with GraphQL, the family offers Exponential Platform DXP. | [REST API v1 and v2](../../guides/rest-api-v1-and-v2.md), [Which product is for you](../who-is-the-exponential-foundation.md#which-product-is-for-you) |
 
@@ -210,7 +224,7 @@ do not give legal advice.
 
 | Objection | Answer | Source |
 |---|---|---|
-| "Our language is not supported." | 268 locale files exist; check the customer's language in the list. The administration is complete in ten translations; others are partial or content only. | [Languages in Exponential](../../languages.md) |
+| "Our language is not supported." | 368 locale files exist; check the customer's language in the list. Every administration translation is complete (the current totals are at the top of the languages page); a language without one shows English. | [Languages in Exponential](../../languages.md) |
 | "We need Arabic or Hebrew." | Right-to-left in content and in the administration; Hebrew and Arabic administration translations are complete. | [Right to left](../../features/6.0/right-to-left.md), [Support levels](../../languages.md#2-support-levels) |
 | "Is the administration accessible?" | Skip link, landmarks, keyboard patterns, labeled fields, contrast and target-size tests in admin4. | [The admin4 design](../../features/6.0/admin4-design.md#landmarks-and-names) |
 | "PHP is slow." | `README.md` documents 0.36 ms per cached page and 8,941 requests per second on a 12-core machine with Velocity, and states that most of the speed came from fixes that also apply on Apache or Nginx. Offer a measurement on the customer's hardware. | `README.md`, [Benchmarking](../../guides/benchmarking.md) |
@@ -226,7 +240,7 @@ Some objections are right. Say so, and offer the alternative the sources name.
 | A published SLA from the project | There is none | A service contract with a provider |
 | More than 62 content languages in one installation | Not possible | Split into installations, or check the real need ([The limit of 62](../../languages.md#11-the-limit-of-62-content-languages)) |
 | Velocity on shared hosting | Usually not possible | Apache or LiteSpeed with `.htaccess` (`README.md`) |
-| PHP 7.4 with new features | No; PHP 7.4 stops at 6.0.7 | Upgrade PHP ([PHP versions](../who-is-the-exponential-foundation.md#php-versions)) |
+| PHP 7.4 with new features | Yes from 6.0.15, without support and without the features that need PHP 8 | Upgrade PHP ([PHP versions](../who-is-the-exponential-foundation.md#php-versions)) |
 
 ## Record new objections
 

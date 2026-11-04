@@ -17,13 +17,15 @@
  * No kernel bootstrap, no database and no siteaccess: a bare eZTemplate with the lib/eztemplate autoloads. Template
  * files and compiled templates go to a private directory under var/tmp that tearDownAfterClass() removes.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group lib
  * @group eztemplate
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('eztemplate')]
 class eZTemplateCompiledInterpretedParityTest extends PHPUnit\Framework\TestCase
 {
     /** @var string directory of this class's template files and compiled templates */

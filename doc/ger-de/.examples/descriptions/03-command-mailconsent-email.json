@@ -188,12 +188,16 @@
         "de": "Nur diesen Siteaccess erzeugen. Für mehrere wiederholen; weglassen für jeden öffentlichen."
     },
     "command:notificationevents": {
-        "en": "List the notification events, or remove the old ones",
-        "de": "Listet die Benachrichtigungsereignisse auf oder entfernt die alten"
+        "en": "List the notification events, or remove the old ones (dry run unless --apply)",
+        "de": "Die Benachrichtigungsereignisse auflisten oder die alten entfernen (Probelauf, außer mit --apply)"
+    },
+    "command:notificationevents --apply": {
+        "en": "cleanup: remove the events (the default counts them and removes nothing)",
+        "de": "cleanup: die Ereignisse entfernen (Standard zählt sie und entfernt nichts)"
     },
     "command:notificationevents --dry-run": {
-        "en": "cleanup: count, remove nothing",
-        "de": "cleanup: zählen, nichts entfernen"
+        "en": "cleanup: the default, kept for scripts that pass it: count, remove nothing",
+        "de": "cleanup: der Standard, beibehalten für Skripte, die die Option übergeben: zählen, nichts entfernen"
     },
     "command:notificationevents --include-unknown": {
         "en": "cleanup: also remove events whose age cannot be told",
@@ -208,20 +212,24 @@
         "de": "list, cleanup --older-than: pending oder handled (Standard beide)"
     },
     "command:notificationrun": {
-        "en": "Run the notification filter: send the notifications of the pending events and the due digests (--dry-run: only list them)",
-        "de": "Führt den Benachrichtigungsfilter aus: sendet die Benachrichtigungen der anstehenden Ereignisse und die fälligen Zusammenfassungen (--dry-run: nur auflisten)"
+        "en": "Run the notification filter: send the notifications of the pending events and the due digests (dry run unless --apply)",
+        "de": "Den Benachrichtigungsfilter ausführen: die Benachrichtigungen der wartenden Ereignisse und die fälligen Zusammenfassungen senden (Probelauf, außer mit --apply)"
     },
     "command:notificationrun --addresses": {
         "en": "Show whole recipient addresses in the dry run (they are masked by default)",
         "de": "Im Probelauf die ganzen Empfängeradressen zeigen (standardmäßig maskiert)"
+    },
+    "command:notificationrun --apply": {
+        "en": "Send the messages, mark and remove the events (the default lists what would be sent)",
+        "de": "Die Nachrichten senden, die Ereignisse markieren und entfernen (Standard listet, was gesendet würde)"
     },
     "command:notificationrun --at": {
         "en": "The time of the time event: a date (2026-10-05 08:00) or a timestamp, default now",
         "de": "Der Zeitpunkt des Zeitereignisses: ein Datum (2026-10-05 08:00) oder ein Zeitstempel, Standard jetzt"
     },
     "command:notificationrun --dry-run": {
-        "en": "List what would be sent and change nothing",
-        "de": "Auflisten, was gesendet würde, und nichts ändern"
+        "en": "The default, kept for scripts that pass it: list what would be sent and change nothing",
+        "de": "Der Standard, beibehalten für Skripte, die die Option übergeben: auflisten, was gesendet würde, nichts ändern"
     },
     "command:notificationrun --event": {
         "en": "Only these events (ids, comma separated); no time event is made then",
@@ -248,20 +256,24 @@
         "de": "Zeigt das Benachrichtigungssystem: anstehende Ereignisse, Einträge der Zusammenfassungen, Abonnements, die letzten Läufe und Probleme"
     },
     "command:notificationsubscriptions": {
-        "en": "List the subtree notification subscriptions per user and subtree, or remove those whose content is gone",
-        "de": "Listet die Teilbaum-Benachrichtigungsabonnements pro Benutzer und Teilbaum auf oder entfernt die, deren Inhalt nicht mehr existiert"
+        "en": "List the subtree notification subscriptions per user and subtree, or remove those whose content is gone (dry run unless --apply)",
+        "de": "Die Teilbaum-Benachrichtigungsabonnements je Benutzer und Teilbaum auflisten oder die entfernen, deren Inhalt fehlt (Probelauf, außer mit --apply)"
     },
     "command:notificationsubscriptions --addresses": {
         "en": "also show the user's e-mail address (hidden by default)",
         "de": "auch die E-Mail-Adresse des Benutzers zeigen (standardmäßig verborgen)"
+    },
+    "command:notificationsubscriptions --apply": {
+        "en": "remove-missing: remove the subscriptions (the default lists them and removes nothing)",
+        "de": "remove-missing: die Abonnements entfernen (Standard listet sie und entfernt nichts)"
     },
     "command:notificationsubscriptions --class": {
         "en": "only nodes of this class identifier",
         "de": "nur Knoten dieses Klassenbezeichners"
     },
     "command:notificationsubscriptions --dry-run": {
-        "en": "remove-missing: count, remove nothing",
-        "de": "remove-missing: zählen, nichts entfernen"
+        "en": "remove-missing: the default, kept for scripts that pass it: list, remove nothing",
+        "de": "remove-missing: der Standard, beibehalten für Skripte, die die Option übergeben: auflisten, nichts entfernen"
     },
     "command:notificationsubscriptions --limit": {
         "en": "how many (default 50)",
@@ -300,8 +312,12 @@
         "de": "Das Archiv an einen anderen Ort als dist/engine.phar schreiben."
     },
     "command:preload": {
-        "en": "Warm the page caches of a site: request its section pages, then follow its links, and report the broken ones",
-        "de": "Wärmt die Seiten-Caches einer Website vor: fordert ihre Bereichsseiten an, folgt dann ihren Links und meldet die defekten"
+        "en": "Warm the page caches of a site: request its section pages, then follow its links, and report the broken ones (dry run unless --apply)",
+        "de": "Die Seiten-Caches einer Site vorwärmen: ihre Abschnittsseiten abrufen, dann ihren Links folgen und die defekten melden (Probelauf, außer mit --apply)"
+    },
+    "command:preload --apply": {
+        "en": "request the pages (the default is a dry run that prints the plan and requests nothing)",
+        "de": "die Seiten abrufen (Standard ist ein Probelauf, der den Plan ausgibt und nichts abruft)"
     },
     "command:preload --max-pages": {
         "en": "most pages to request (default ",
@@ -348,8 +364,16 @@
         "de": "Auch die Größe von var/, jedes Cache-Verzeichnisses und der Datenbank messen"
     },
     "command:trashpurge": {
-        "en": "Permanently delete all objects in the trash",
-        "de": "Löscht alle Objekte im Papierkorb endgültig"
+        "en": "Permanently delete all objects in the trash (dry run unless --apply)",
+        "de": "Löscht alle Objekte im Papierkorb endgültig (Probelauf, außer mit --apply)"
+    },
+    "command:trashpurge --apply": {
+        "en": "Purge the objects (the default is a dry run that lists them and deletes nothing)",
+        "de": "Die Objekte löschen (Standard ist ein Probelauf, der sie auflistet und nichts löscht)"
+    },
+    "command:trashpurge --dry-run": {
+        "en": "The default: count and list what would be purged, change nothing",
+        "de": "Der Standard: zählen und auflisten, was gelöscht würde, nichts ändern"
     },
     "command:trashpurge --memory-monitoring": {
         "en": "If set, memory usage will be logged in var/log/trashpurge.log.",
@@ -443,9 +467,13 @@
         "en": "Show the logins in full instead of shortened",
         "de": "Die Logins vollständig statt gekürzt zeigen"
     },
+    "command:velocity --apply": {
+        "en": "config set|unset, cache clear, layout migrate, site|conf|mod, ssl renew, watchdog install|remove, install: make the change (without it they are a dry run that changes nothing)",
+        "de": "config set|unset, cache clear, layout migrate, site|conf|mod, ssl renew, watchdog install|remove, install: die Änderung vornehmen (ohne die Option sind sie ein Probelauf, der nichts ändert)"
+    },
     "command:velocity --dry-run": {
-        "en": "deploy: print the steps and what each would do, and do nothing",
-        "de": "deploy: die Schritte ausgeben und was jeder täte, und nichts tun"
+        "en": "the default of the commands that write (kept for scripts that pass it); deploy: print the steps and what each would do, and do nothing",
+        "de": "der Standard der schreibenden Befehle (beibehalten für Skripte, die die Option übergeben); deploy: die Schritte ausgeben und was jeder täte, und nichts tun"
     },
     "command:velocity --engine": {
         "en": "php, frankenphp or qbix -- or several, comma-separated -- for this command only, instead of [ServerSettings] Engine",
@@ -483,6 +511,14 @@
         "en": "deploy: clear the packed scripts and styles too (ezjscore-packer, right before template-block)",
         "de": "deploy: auch die gepackten Skripte und Styles leeren (ezjscore-packer, direkt vor template-block)"
     },
+    "command:velocity --clear-content": {
+        "en": "deploy: clear the content, exphttpcache, template-block and response caches even when no template, design file, setting or translation changed",
+        "de": "deploy: die Caches content, exphttpcache, template-block und den Antwort-Cache auch leeren, wenn sich kein Template, keine Design-Datei, keine Einstellung und keine Übersetzung geändert hat"
+    },
+    "command:velocity --all-caches": {
+        "en": "deploy: clear every cache, whatever changed since the last deploy",
+        "de": "deploy: jeden Cache leeren, gleich was sich seit dem letzten Deployment geändert hat"
+    },
     "command:velocity --rebuild-phar": {
         "en": "start, restart, graceful, deploy: rebuild the engine archive even when it is current",
         "de": "start, restart, graceful, deploy: das Engine-Archiv neu bauen, auch wenn es aktuell ist"
@@ -519,13 +555,17 @@
         "en": "Control the Exponential web server (php, frankenphp or qbix engines)",
         "de": "Steuert den Exponential-Webserver (Engines php, frankenphp oder qbix)"
     },
+    "command:webserver --apply": {
+        "en": "configure, and the commands that write (config set|unset, cache clear, layout migrate, site|conf|mod, ssl renew, install): make the change; without it they are a dry run",
+        "de": "configure und die schreibenden Befehle (config set|unset, cache clear, layout migrate, site|conf|mod, ssl renew, install): die Änderung vornehmen; ohne die Option sind sie ein Probelauf"
+    },
     "command:webserver --docroot": {
         "en": "configure/reconfigure: the document root to persist for the engine",
         "de": "configure/reconfigure: das Dokumentenverzeichnis, das für die Engine gespeichert wird"
     },
     "command:webserver --dry-run": {
-        "en": "configure/reconfigure: show what would be written, without writing it",
-        "de": "configure/reconfigure: zeigen, was geschrieben würde, ohne es zu schreiben"
+        "en": "the default of configure and the commands that write (kept for scripts); start: show the configuration it would write, without writing or running it",
+        "de": "der Standard von configure und den schreibenden Befehlen (beibehalten für Skripte); start: die Konfiguration zeigen, die er schreiben würde, ohne sie zu schreiben oder auszuführen"
     },
     "command:webserver --engine": {
         "en": "php, frankenphp or qbix for this command only (or several, comma-separated, or --all), instead of the configured default",
@@ -596,8 +636,8 @@
         "de": "Setzt Inhaltsaufträge fort, deren Worker gestorben ist, und startet wartende Aufträge, die niemand gestartet hat"
     },
     "cronjob:contentjobs.php docblock": {
-        "en": "The cronjob part contentjobs (cronjobs/contentjobs.php, frequent group): starts the content jobs that need a\nworker and have none — a running job whose worker died (kill -9, a reboot, a memory limit) and a queued job\nnobody started within content.ini [ContentJobSettings] QueuedGrace seconds (the spawn from the web request\nfailed) — and removes finished jobs older than KeepDays.\n\nThe worker is started detached (bin/php/expcontentjob.php run <id>), as from the web request, so a long job\nnever holds up the other cronjob parts; started as root, it becomes the site user. A job resumed again and\nagain without finishing a batch is failed by the worker after MaxAttempts starts instead of looping.",
-        "de": "Der Cronjob-Teil contentjobs (cronjobs/contentjobs.php, Gruppe frequent): startet die Inhaltsaufträge, die einen\nWorker brauchen und keinen haben (ein laufender Auftrag, dessen Worker gestorben ist (kill -9, ein Neustart, eine Speichergrenze), und ein wartender Auftrag,\nden niemand innerhalb von content.ini [ContentJobSettings] QueuedGrace Sekunden gestartet hat (der Start aus der Web-Anfrage\nist fehlgeschlagen)) und entfernt abgeschlossene Aufträge, die älter als KeepDays sind.\n\nDer Worker wird abgekoppelt gestartet (bin/php/expcontentjob.php run <id>), wie aus der Web-Anfrage, sodass ein langer Auftrag\nnie die anderen Cronjob-Teile aufhält; als root gestartet, wird er zum Benutzer der Website. Ein Auftrag, der immer wieder\nfortgesetzt wird, ohne einen Stapel abzuschließen, wird vom Worker nach MaxAttempts Starts als fehlgeschlagen markiert, statt sich endlos zu wiederholen."
+        "en": "The cronjob part contentjobs (cronjobs/contentjobs.php, frequent group): starts the content jobs that need a\nworker and have none — a running job whose worker died (kill -9, a reboot, a memory limit), a queued job\nnobody started within content.ini [ContentJobSettings] QueuedGrace seconds (the spawn from the web request\nfailed), and a job that failed for a temporary database error (busy, locked, a deadlock) once its worker's\nBusyRetries ran out — and removes finished jobs older than KeepDays, and the runs of the import and export\ntools' run history older than transfer.ini [TransferSettings] KeepDays (expKernelTransferHistory::purge()).\n\nThe worker is started detached (bin/php/expcontentjob.php run <id>), as from the web request, so a long job\nnever holds up the other cronjob parts; started as root, it becomes the site user. A job resumed again and\nagain without finishing a batch is failed by the worker after MaxAttempts starts instead of looping, and a job\nfailed for a temporary error is resumed at most MaxAttempts times in a row (the count starts again after every\nbatch done); after that it waits for a person (bin/php/expcontentjob.php list --resume).",
+        "de": "Der Cronjob-Teil contentjobs (cronjobs/contentjobs.php, Gruppe frequent): startet die Inhalts-Jobs, die einen\nWorker brauchen und keinen haben — einen laufenden Job, dessen Worker gestorben ist (kill -9, ein Neustart, ein Speicherlimit), einen eingereihten\nJob, den innerhalb von content.ini [ContentJobSettings] QueuedGrace Sekunden niemand gestartet hat (der Start\naus der Web-Anfrage ist fehlgeschlagen), und einen Job, der an einem vorübergehenden Datenbankfehler (belegt, gesperrt, ein Deadlock) scheiterte,\nnachdem die BusyRetries seines Workers aufgebraucht waren — und entfernt beendete Jobs, die älter sind als KeepDays, sowie den Verlauf der Läufe der Import- und Export-Werkzeuge,\nder älter ist als transfer.ini [TransferSettings] KeepDays (expKernelTransferHistory::purge()).\n\nDer Worker wird abgekoppelt gestartet (bin/php/expcontentjob.php run <id>), wie aus der Web-Anfrage, damit ein langer Job\nnie die anderen Cronjob-Teile aufhält; als root gestartet, wechselt er zum Site-Benutzer. Ein Job, der immer wieder\nfortgesetzt wird, ohne einen Batch abzuschließen, wird vom Worker nach MaxAttempts Starts als fehlgeschlagen markiert, statt endlos zu laufen, und ein Job,\nder an einem vorübergehenden Fehler scheiterte, wird höchstens MaxAttempts Mal hintereinander fortgesetzt (die Zählung beginnt nach jedem fertigen\nBatch neu); danach wartet er auf eine Person (bin/php/expcontentjob.php list --resume)."
     },
     "cronjob:explogrotate.php": {
         "en": "Logs: rotate the logs over their MaxSize, prune and compress their archives (off unless a part runs it)",
@@ -744,8 +784,8 @@
         "de": "Der Code von cronjobs/unpublish.php, in eine Klasse verschoben (#207 Stufe 1). Die Datei cronjobs/unpublish.php ist ein Aufruf davon.\nAnleitung: doc/eng-us/bc/6.0/cli_cronjob_view_abstractions.md"
     },
     "cronjob:updateviewcount.php": {
-        "en": "Flush the in-memory view count buffer to the database",
-        "de": "Schreibt den Puffer der Aufrufzähler aus dem Speicher in die Datenbank"
+        "en": "Count the page views of the web server's access logs into the view counter (ezview_counter)",
+        "de": "Zählt die Seitenaufrufe aus den Zugriffsprotokollen des Webservers in den Aufrufzähler (ezview_counter)"
     },
     "cronjob:updateviewcount.php docblock": {
         "en": "The code of cronjobs/updateviewcount.php, moved into a class (#207 stage 1). The file cronjobs/updateviewcount.php is one call to it.\nGuide: doc/eng-us/bc/6.0/cli_cronjob_view_abstractions.md",
@@ -800,8 +840,8 @@
         "de": "Um die Last statischer Dateien auf getrennte Domänen zu verteilen, wie es die\nYDN Performance Best Practices empfehlen. Der Schlüssel muss zur Dateiendung passen: .js | .css"
     },
     "ini:extension/ezjscore/settings/ezjscore.ini [eZJSCore] ExternalScripts": {
-        "en": "List of external JavaScript jQuery libraries with their CDN URL\nIf it starts with :// http or https will be selected based on if page is served as https or not\nSecurity hardening (H-06, CWE-829/319): use https for external scripts so the\nadmin/frontend JavaScript cannot be tampered with on the network path. Prefer\nleaving LoadFromCDN=disabled (local scripts) or adding Subresource Integrity.\njQuery: the same releases from the CDN as the local files below (the CDN entries used to name\njQuery 1.10.2 and jQuery UI 1.10.3, older than the local copies).",
-        "de": "Liste externer JavaScript-Bibliotheken für jQuery mit ihrer CDN-URL\nBeginnt sie mit ://, wird http oder https gewählt, je nachdem, ob die Seite über https ausgeliefert wird\nSicherheitshärtung (H-06, CWE-829/319): Verwenden Sie https für externe Skripte, damit das\nJavaScript der Administration und des Frontends auf dem Netzwerkweg nicht manipuliert werden kann. Lassen Sie\nam besten LoadFromCDN=disabled (lokale Skripte) oder ergänzen Sie Subresource Integrity.\njQuery: dieselben Releases aus dem CDN wie die lokalen Dateien unten (die CDN-Einträge nannten früher\njQuery 1.10.2 und jQuery UI 1.10.3, älter als die lokalen Kopien)."
+        "en": "List of external JavaScript jQuery libraries with their CDN URL\nIf it starts with :// http or https will be selected based on if page is served as https or not\nSecurity hardening (H-06, CWE-829/319): use https for external scripts so the\nadmin/frontend JavaScript cannot be tampered with on the network path. Prefer\nleaving LoadFromCDN=disabled (local scripts) or adding Subresource Integrity.\njQuery: the same releases from the CDN as the local files below (the CDN entries used to name\njQuery 1.10.2 and jQuery UI 1.10.3, older than the local copies).\njQuery Migrate is switched off (empty), see LocalScripts[jqueryMigrate] below. To switch it back on:\nExternalScripts[jqueryMigrate]=https://code.jquery.com/jquery-migrate-4.0.2.min.js",
+        "de": "Liste externer JavaScript-Bibliotheken für jQuery mit ihrer CDN-URL\nBeginnt sie mit ://, wird http oder https gewählt, je nachdem, ob die Seite über https ausgeliefert wird\nSicherheitshärtung (H-06, CWE-829/319): Verwenden Sie https für externe Skripte, damit das\nJavaScript der Administration und des Frontends auf dem Netzwerkweg nicht manipuliert werden kann. Lassen Sie\nam besten LoadFromCDN=disabled (lokale Skripte) oder ergänzen Sie Subresource Integrity.\njQuery: dieselben Releases aus dem CDN wie die lokalen Dateien unten (die CDN-Einträge nannten früher\njQuery 1.10.2 und jQuery UI 1.10.3, älter als die lokalen Kopien).\njQuery Migrate ist ausgeschaltet (leer), siehe LocalScripts[jqueryMigrate] unten. Um es wieder einzuschalten:\nExternalScripts[jqueryMigrate]=https://code.jquery.com/jquery-migrate-4.0.2.min.js"
     },
     "ini:extension/ezjscore/settings/ezjscore.ini [eZJSCore] JavaScriptOptimizer": {
         "en": "Disables/enables js / css packer (for debugging Apache rewrite rules)\nNormally controlled by [TemplateSettings]DevelopmentMode for convenience,\nbut can also be specifically controlled by this setting if set.\nForce packer level by setting integer from 0 to 3 instead of [dis|en]abled\nPacker=disabled",
@@ -812,8 +852,8 @@
         "de": "# Einstellungen der CDN-Skripte (jQuery-Integration)\nDie folgenden Einstellungen in diesem Block gehören zur jQuery-Integration\nvon ezjscore und werden von den Aufrufen ezjsc::jquery verwendet.\nSie müssen sie nur ändern, wenn Sie:\n- diese Skripte lokal laden müssen (Intranet / ohne Abhängigkeit von einer Internetverbindung)\n- Unterstützung für eine andere JS-Bibliothek oder ein anderes Framework hinzufügen wollen\n- die Bibliothek selbst aktualisieren wollen\nIhre eigenen JS-Skripte müssen Sie hiermit nicht einrichten; es genügt, sie direkt\nüber {ezscript[_require]('somescript.js')} oder\n{ezscript_require(array('ezjsc::jquery', 'somescript_that_uses_jquery.js'))} einzubinden\nDas Laden der jQuery-Dateien von externen Servern aktivieren / deaktivieren"
     },
     "ini:extension/ezjscore/settings/ezjscore.ini [eZJSCore] LocalScripts": {
-        "en": "List of local JavaScript jQuery libraries, optionally start with \"/\" to signal that its in\nroot of design folder and not in /javascript sub folder\nezjsc::jquery: jQuery 4.0.0, followed by jQuery Migrate 4.0.2, which restores the APIs jQuery 4 removed so older\ncode keeps working. This build is quiet; to see in the browser console every old call it restores, use the\nreporting build, jquery-migrate-4.0.2.js. Leave jqueryMigrate empty to load jQuery 4 alone. Only these releases\nare shipped: the older jQuery 3.7.1, Migrate 3.4.1 and jQuery UI 1.10.3 files are removed.\nezjsc::jqueryUI: jQuery UI 1.14.2, which supports jQuery 4",
-        "de": "Liste lokaler JavaScript-Bibliotheken für jQuery; ein \"/\" am Anfang zeigt an, dass sie im\nWurzelverzeichnis des Design-Ordners liegen und nicht im Unterordner /javascript\nezjsc::jquery: jQuery 4.0.0, gefolgt von jQuery Migrate 4.0.2, das die von jQuery 4 entfernten APIs wiederherstellt, damit älterer\nCode weiter funktioniert. Dieser Build ist still; um in der Browser-Konsole jeden alten Aufruf zu sehen, den er wiederherstellt, verwenden Sie den\nmeldenden Build, jquery-migrate-4.0.2.js. Lassen Sie jqueryMigrate leer, um jQuery 4 allein zu laden. Nur diese Releases\nwerden ausgeliefert: Die älteren Dateien von jQuery 3.7.1, Migrate 3.4.1 und jQuery UI 1.10.3 sind entfernt.\nezjsc::jqueryUI: jQuery UI 1.14.2, das jQuery 4 unterstützt"
+        "en": "List of local JavaScript jQuery libraries, optionally start with \"/\" to signal that its in\nroot of design folder and not in /javascript sub folder\nezjsc::jquery: jQuery 4.0.0 alone. jQuery Migrate 4.0.2, which restores the APIs jQuery 4 removed so older code\nkeeps working, is still shipped but switched off: the admin designs and the extensions they load no longer call\nany of those APIs. A site whose own code still does can switch it back on in an override:\n  LocalScripts[jqueryMigrate]=jquery-migrate-4.0.2.min.js\n(quiet build; jquery-migrate-4.0.2.js reports in the browser console every old call it restores), and\nExternalScripts[jqueryMigrate] as above when LoadFromCDN is enabled. Only these releases are shipped: the older\njQuery 3.7.1, Migrate 3.4.1 and jQuery UI 1.10.3 files are removed.\nezjsc::jqueryUI: jQuery UI 1.14.2, which supports jQuery 4",
+        "de": "Liste lokaler JavaScript-Bibliotheken für jQuery; ein \"/\" am Anfang zeigt an, dass sie im\nWurzelverzeichnis des Design-Ordners liegen und nicht im Unterordner /javascript\nezjsc::jquery: jQuery 4.0.0 allein. jQuery Migrate 4.0.2, das die von jQuery 4 entfernten APIs wiederherstellt, damit älterer Code\nweiter funktioniert, wird weiter ausgeliefert, ist aber ausgeschaltet: Die Admin-Designs und die Erweiterungen, die sie laden, rufen\nkeine dieser APIs mehr auf. Eine Site, deren eigener Code das noch tut, kann es in einem Override wieder einschalten:\n  LocalScripts[jqueryMigrate]=jquery-migrate-4.0.2.min.js\n(stiller Build; jquery-migrate-4.0.2.js meldet in der Browser-Konsole jeden alten Aufruf, den er wiederherstellt), und\nExternalScripts[jqueryMigrate] wie oben, wenn LoadFromCDN eingeschaltet ist. Nur diese Releases werden ausgeliefert: Die älteren\nDateien von jQuery 3.7.1, Migrate 3.4.1 und jQuery UI 1.10.3 sind entfernt.\nezjsc::jqueryUI: jQuery UI 1.14.2, das jQuery 4 unterstützt"
     },
     "ini:extension/ezjscore/settings/ezjscore.ini [eZJSCore] PreferredLibrary": {
         "en": "Preferred Library (jquery)\nThis is a preference hint to extensions that use ezjscore\nso they can optionally select to support both and select by this setting",
@@ -832,8 +872,8 @@
         "de": "File=kernel/classes/subitems/expsubitemsserverfunctions.php"
     },
     "ini:extension/ezjscore/settings/ezjscore.ini [ezjscServer_expdebugbar] Class": {
-        "en": "The Exp Debug bar (settings/debugbar.ini, guide doc/eng-us/bc/6.0/debug-bar.md):\n<root>/ezjscore/call/expdebugbar::settings[::<siteaccess>]\n  every debug setting with its value in effect, where it comes from and the value of each scope\n<root>/ezjscore/call/expdebugbar::set      (POST setting, op, value, scope, ezxform_token)\n<root>/ezjscore/call/expdebugbar::undo     (POST entry or group, ezxform_token)\n<root>/ezjscore/call/expdebugbar::preset   (POST preset + scope, or save, or delete, ezxform_token)\n<root>/ezjscore/call/expdebugbar::cache    (action=list; POST action=clear by=tag|id|all|node|velocity|opcache)\n<root>/ezjscore/call/expdebugbar::iptest   (address, list)\n<root>/ezjscore/call/expdebugbar::log, expdebugbar::summary\n<root>/ezjscore/call/expdebugbar::panelheight  (POST height in pixels or 0, ezxform_token: user preference\n  expdebugbar_panel_height, the height of the open panel)\nEvery function checks itself: reading needs debug output for the request or setup/setup or\nsetup/managecache; changing settings needs setup/setup, clearing caches setup/managecache;\npanelheight a signed-in user who sees the debug output.",
-        "de": "Die Exp-Debug-Leiste (settings/debugbar.ini, Anleitung doc/eng-us/bc/6.0/debug-bar.md):\n<root>/ezjscore/call/expdebugbar::settings[::<siteaccess>]\n  jede Debug-Einstellung mit ihrem geltenden Wert, ihrer Herkunft und dem Wert jedes Bereichs\n<root>/ezjscore/call/expdebugbar::set      (POST setting, op, value, scope, ezxform_token)\n<root>/ezjscore/call/expdebugbar::undo     (POST entry or group, ezxform_token)\n<root>/ezjscore/call/expdebugbar::preset   (POST preset + scope, or save, or delete, ezxform_token)\n<root>/ezjscore/call/expdebugbar::cache    (action=list; POST action=clear by=tag|id|all|node|velocity|opcache)\n<root>/ezjscore/call/expdebugbar::iptest   (address, list)\n<root>/ezjscore/call/expdebugbar::log, expdebugbar::summary\n<root>/ezjscore/call/expdebugbar::panelheight  (POST Höhe in Pixeln oder 0, ezxform_token: Benutzereinstellung\n  expdebugbar_panel_height, die Höhe des geöffneten Panels)\nJede Funktion prüft selbst: Lesen braucht die Debug-Ausgabe für die Anfrage oder setup/setup oder\nsetup/managecache; Einstellungen ändern braucht setup/setup, Caches leeren setup/managecache;\npanelheight einen angemeldeten Benutzer, der die Debug-Ausgabe sieht."
+        "en": "The Exp Debug bar (settings/debugbar.ini, guide doc/eng-us/bc/6.0/debug-bar.md):\n<root>/ezjscore/call/expdebugbar::settings[::<siteaccess>]\n  every debug setting with its value in effect, where it comes from and the value of each scope\n<root>/ezjscore/call/expdebugbar::set      (POST setting, op, value, scope, ezxform_token)\n<root>/ezjscore/call/expdebugbar::undo     (POST entry or group, ezxform_token)\n<root>/ezjscore/call/expdebugbar::preset   (POST preset + scope, or save, or delete, ezxform_token)\n<root>/ezjscore/call/expdebugbar::cache    (action=list; POST action=clear by=tag|id|all|node|velocity|opcache)\n<root>/ezjscore/call/expdebugbar::iptest   (address, list)\n<root>/ezjscore/call/expdebugbar::log, expdebugbar::summary\n<root>/ezjscore/call/expdebugbar::policies::<role>::<offset>::<search>  (in the path: role id or -, offset,\n  base64url of the search or -; the policies of the user's roles, a page at a time; setup/setup)\n<root>/ezjscore/call/expdebugbar::session  (POST, ezxform_token when signed in, never cached: the request's own PHP\n  session for the User tab, secrets masked; setup/setup, or an anonymous visitor with debug output)\n<root>/ezjscore/call/expdebugbar::panelheight  (POST height in pixels or 0, ezxform_token: user preference\n  expdebugbar_panel_height, the height of the open panel)\nEvery function checks itself: reading needs debug output for the request or setup/setup or\nsetup/managecache; changing settings needs setup/setup, clearing caches setup/managecache;\npanelheight a signed-in user who sees the debug output.",
+        "de": "Die Exp-Debug-Leiste (settings/debugbar.ini, Anleitung doc/eng-us/bc/6.0/debug-bar.md):\n<root>/ezjscore/call/expdebugbar::settings[::<siteaccess>]\n  jede Debug-Einstellung mit ihrem geltenden Wert, ihrer Herkunft und dem Wert jedes Bereichs\n<root>/ezjscore/call/expdebugbar::set      (POST setting, op, value, scope, ezxform_token)\n<root>/ezjscore/call/expdebugbar::undo     (POST entry or group, ezxform_token)\n<root>/ezjscore/call/expdebugbar::preset   (POST preset + scope, or save, or delete, ezxform_token)\n<root>/ezjscore/call/expdebugbar::cache    (action=list; POST action=clear by=tag|id|all|node|velocity|opcache)\n<root>/ezjscore/call/expdebugbar::iptest   (address, list)\n<root>/ezjscore/call/expdebugbar::log, expdebugbar::summary\n<root>/ezjscore/call/expdebugbar::policies::<role>::<offset>::<search>  (im Pfad: Rollen-ID oder -, Versatz,\n  base64url der Suche oder -; die Richtlinien der Rollen des Benutzers, seitenweise; setup/setup)\n<root>/ezjscore/call/expdebugbar::session  (POST, angemeldet mit ezxform_token, nie zwischengespeichert: die eigene PHP-\n  Session des Requests für die Registerkarte Benutzer, Geheimnisse maskiert; setup/setup oder ein anonymer Besucher mit Debug-Ausgabe)\n<root>/ezjscore/call/expdebugbar::panelheight  (POST Höhe in Pixeln oder 0, ezxform_token: Benutzereinstellung\n  expdebugbar_panel_height, die Höhe des geöffneten Panels)\nJede Funktion prüft selbst: Lesen braucht die Debug-Ausgabe für die Anfrage oder setup/setup oder\nsetup/managecache; Einstellungen ändern braucht setup/setup, Caches leeren setup/managecache;\npanelheight einen angemeldeten Benutzer, der die Debug-Ausgabe sieht."
     },
     "ini:extension/ezjscore/settings/ezjscore.ini [ezjscServer_expsubitems] Class": {
         "en": "The admin subitems list's Table options (settings/subitems.ini, settings/subitemscolumns.ini):\n<root>/ezjscore/call/expsubitems::columns::2\n  the columns the user may see under node 2, the defaults, presets and the saved choice\n<root>/ezjscore/call/expsubitems::rows::2::10::0::name::1?columns=parentnodeid,urlalias\n  ezjscnode::subtree's list plus the requested columns per item\n<root>/ezjscore/call/expsubitems::savepreference[::2]  (POST preference=<json>)\nEvery function checks itself: a logged-in user with content/read who can read the parent;\ncolumn policies come from subitemscolumns.ini. The HardLimit above applies to rows too.",
@@ -864,8 +904,8 @@
         "de": "File=extension/ezjscore/classes/ezjscserverfunctionsnode.php\nDie Knotendaten (Name, IDs, Remote-ID, Eigentümer, Sektion, Daten, Klasse, Übersetzungen, Pfade) kann\njeder Benutzer lesen, der den Knoten lesen darf, anonyme Besucher eingeschlossen, außer bei\nRequirePolicy=enabled: Dann braucht ein Benutzer außerdem ezjscore/call mit der Funktionsliste ezjscnode\n(Einschränkung FunctionList). Neue Installationen schreiben RequirePolicy=enabled in\nsettings/override/ezjscore.ini.append.php und gewähren der Rolle Editor diese Richtlinie; eine aktualisierte\nWebsite behält disabled, bis sie umschaltet. Anleitung: doc/eng-us/bc/6.0/backend_ezjscore_services.md"
     },
     "ini:extension/ezjscore/settings/ezjscore.ini [ezjscServer_ezjscnode] HardLimit": {
-        "en": "Allows setting a Hard Limit to the subtree method to prevent the load of very large subtrees\n reducing server load and risk of DOS attacks.\n false disables the feature, any integer will set the hard limit.\n for example: a hard limit of 100 will allow limiting to 30 or 40, but will replace a\n              limit of 150.",
-        "de": "Erlaubt eine harte Grenze für die Methode subtree, um das Laden sehr großer Teilbäume zu verhindern,\n was die Serverlast und das Risiko von DoS-Angriffen senkt.\n false deaktiviert die Funktion, jede Ganzzahl setzt die harte Grenze.\n Zum Beispiel: Eine harte Grenze von 100 erlaubt eine Begrenzung auf 30 oder 40, ersetzt aber eine\n              Begrenzung von 150."
+        "en": "The most items one subtree (and expsubitems rows) request returns, whatever limit it asks\nfor: a request for a million children of a large folder would load them all. A larger\nlimit is replaced by this one, a smaller one is kept: with 500, a limit of 30 stays 30 and\n1000 becomes 500. 500 is the largest page size the admin's sub-items list offers.\nfalse (or 0) switches the limit off, as it was before 6.0.15.",
+        "de": "Die meisten Einträge, die eine Anfrage an subtree (und an die Zeilen von expsubitems) liefert, welches Limit\nsie auch verlangt: eine Anfrage nach einer Million Kindern eines großen Ordners lüde sie alle. Ein größeres\nLimit wird durch dieses ersetzt, ein kleineres bleibt: mit 500 bleibt ein Limit von 30 bei 30, und\n1000 wird zu 500. 500 ist die größte Seitengröße, die die Unterelemente-Liste der Administration anbietet.\nfalse (oder 0) schaltet die Grenze ab, wie vor 6.0.15."
     },
     "ini:extension/ezjscore/settings/ezjscore.ini [ezjscServer_ezjsctemplate]": {
         "en": "File=kernel/classes/debugbar/expdebugbarserverfunctions.php",

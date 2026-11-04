@@ -4,18 +4,36 @@ audience: admin, developer
 category: examples
 order: 70
 summary: Serving Exponential 6 with LiteSpeed Enterprise (it reads .htaccess like Apache) or OpenLiteSpeed (the rules in the virtual host), with a complete OpenLiteSpeed virtual host whose rewrite rules were tested in Apache's mod_rewrite.
-keywords: LiteSpeed, LiteSpeed Enterprise, OpenLiteSpeed, OLS, vhconf.conf, LSAPI, lsphp, rewrite, .htaccess, autoLoadHtaccess, context, extraHeaders, example
+keywords: LiteSpeed, LiteSpeed Enterprise, OpenLiteSpeed, OLS, vhconf.conf, LSAPI, lsphp, rewrite, .htaccess, autoLoadHtaccess, context, extraHeaders, page cache, LSCache, cache module, X-LiteSpeed-Cache, example
 type: example
 ---
 # LiteSpeed and OpenLiteSpeed
 
 **LiteSpeed Web Server (Enterprise)** is a drop-in replacement for Apache: it reads Apache's configuration and
 `.htaccess` files, including `mod_rewrite` rules. Serve Exponential exactly as with Apache: `cp .htaccess_root
-.htaccess` ([Apache .htaccess](apache-htaccess.md)), PHP through LiteSpeed's LSAPI. Nothing on this page is needed.
+.htaccess` or `./console exp:setup:htaccess --apply` ([Apache .htaccess](apache-htaccess.md),
+[Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md)), PHP through
+LiteSpeed's LSAPI. Nothing on this page is needed.
+
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](nginx.md), [LiteSpeed](litespeed.md),
+> [Caddy](caddy.md), [IIS](iis.md), [Velocity](velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../help/hosting/panels/plesk.md), [cPanel](../../help/hosting/panels/cpanel.md), [DirectAdmin](../../help/hosting/panels/directadmin.md), [ISPConfig](../../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
 
 **OpenLiteSpeed**, the open source edition, reads only the rewrite rules of a `.htaccess`, only when
 `autoLoadHtaccess` is on, and only after a restart when the file changes. The example below puts the rules in the
-virtual host instead, where they are read once.
+virtual host instead, where they are read once. `./console exp:setup:htaccess --apply` still copies the file, but on
+OpenLiteSpeed that alone does not protect the site; after an upgrade, `./console exp:setup:htaccess` shows the diff
+between your copy and the new `.htaccess_root`, which tells you which rules of this virtual host to update.
 
 > **Note:** This example is derived, not tested on OpenLiteSpeed: there is no OpenLiteSpeed on the machine the
 > examples are verified on. Its rewrite rules use Apache's `mod_rewrite` syntax, which OpenLiteSpeed implements, and
@@ -133,6 +151,31 @@ context /var/log/ {
   allowBrowse             0
 }
 
+# Page cache (off). OpenLiteSpeed keeps whole pages and answers anonymous
+# visitors and crawlers from them without PHP. To switch it on, remove the "#"
+# of the lines below and of the cache rules in the rewrite block, then a
+# graceful restart. Guide: doc/eng-us/guides/litespeed-page-cache.md
+# enableCache 0 with checkPublicCache 1 leaves the choice to the rewrite rule:
+# only requests it marks with cache-control are stored. respCookieCache 0
+# never stores a page that sets a cookie. ignoreRespCacheCtrl 0 obeys the
+# page's own Cache-Control: with it, switch on site.ini [HTTPHeaderSettings]
+# for anonymous visitors (OnlyForAnonymous=enabled, see the guide), or no
+# page is stored.
+#module cache {
+#  ls_enabled              1
+#  enableCache             0
+#  enablePrivateCache      0
+#  checkPublicCache        1
+#  checkPrivateCache       0
+#  qsCache                 0
+#  reqCookieCache          1
+#  respCookieCache         0
+#  ignoreReqCacheCtrl      1
+#  ignoreRespCacheCtrl     0
+#  expireInSeconds         120
+#  storagePath             $VH_ROOT/lscache
+#}
+
 rewrite  {
   enable                  1
   autoLoadHtaccess        0
@@ -167,6 +210,16 @@ RewriteRule ^/?robots\.txt - [L]
 RewriteRule ^/?index\.js$ - [L]
 RewriteRule ^/?sw\.js$ - [L]
 RewriteRule ^/?w3c/p3p\.xml - [L]
+# Page cache (off; see "module cache" above): GET or HEAD, no query string,
+# no session or sign-in cookie, not the administration, user/, shop/,
+# notification/, layout/, ezjscore/, setup/ or content/ other than view/.
+# Kept max-age seconds; nothing removes a page when an editor publishes.
+#RewriteCond %{REQUEST_METHOD} ^(GET|HEAD)$
+#RewriteCond %{QUERY_STRING} ^$
+#RewriteCond %{HTTP_COOKIE} !(eZSESSID|PHPSESSID|is_logged_in) [NC]
+#RewriteCond %{REQUEST_URI} !^/([^/]+/)?((admin|user|shop|notification|layout|ezjscore|setup)(/|$)|content/(?!view/)) [NC]
+#RewriteCond %{HTTP_HOST} !^admin\. [NC]
+#RewriteRule ^/?(.*)$ - [E=cache-control:max-age=120]
 # Everything else, settings/, var/, vendor/ and composer.json included
 RewriteRule .* /index.php [L]
   END_rules
@@ -195,6 +248,22 @@ vhssl  {
   Use OpenLiteSpeed's own Let's Encrypt support, or add `RewriteRule ^/?\.well-known/acme-challenge/ - [L]` directly
   after the dot rule.
 
+## Page cache
+
+Both servers can keep whole pages and answer anonymous visitors and crawlers from them without running PHP, with no
+plugin and no code. It ships off, in three places:
+
+| Where | What to do |
+|---|---|
+| `.htaccess_root` (LiteSpeed Enterprise, or OpenLiteSpeed with `autoLoadHtaccess`) | the block between `## >>> LiteSpeed page cache` and `## <<< LiteSpeed page cache`: remove the first `#` of each line |
+| [`litespeed-page-cache.conf`](litespeed-page-cache.conf) | the same block for a LiteSpeed Enterprise virtual host, Plesk's "Additional directives for HTTPS", cPanel's include files or DirectAdmin's custom HTTPD configuration |
+| The file above (OpenLiteSpeed) | the commented `module cache` block before `rewrite`, and the commented cache rules before the last rewrite rule: remove their `#`, then a graceful restart |
+
+Only a `GET` or `HEAD` without a query string, from a visitor with no session or sign-in cookie, to an address that is
+not an administration, user, shop or editing view is stored, for `max-age` (120) seconds. Every line, how to check
+`X-LiteSpeed-Cache: hit`, purging, the panels and troubleshooting:
+[Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## Check it
 
 ```bash
@@ -207,7 +276,9 @@ curl -sI https://example.com/design/admin4/stylesheets/components.css | head -1 
 
 ## Related pages
 
+- [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md): the page cache of both servers, without a plugin.
 - [Apache .htaccess](apache-htaccess.md): the rules explained one by one; LiteSpeed Enterprise uses this file.
+- [Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md): `exp:setup:htaccess` and which servers read the file.
 - [Chapter 13, section 13.2: What the web server must never hand out](../../install/13-security-hardening.md#132-what-the-web-server-must-never-hand-out).
 - [Operating system support](../../help/os-support.md): web servers and PHP SAPIs by platform.
 - [Web server examples](README.md) and [all examples](../README.md).

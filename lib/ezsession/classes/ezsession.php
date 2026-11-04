@@ -2,7 +2,7 @@
 /**
  * File containing session interface
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -276,7 +276,7 @@ class eZSession
      * @since 4.1
      * @return bool Depending on if eZSession is registrated as session handler.
     */
-    static protected function registerFunctions( $sessionName = false, ezpSessionHandler|null $handler = null )
+    static protected function registerFunctions( $sessionName = false, ?ezpSessionHandler $handler = null )
     {
         if ( self::$hasStarted || self::$handlerInstance !== null )
             return false;
@@ -284,7 +284,8 @@ class eZSession
         $ini = eZINI::instance();
         if ( $sessionName !== false )
         {
-            if ( $sessionName !== session_name() )
+            // session_name() cannot change the name of a session already started (a warning)
+            if ( $sessionName !== session_name() && session_status() !== PHP_SESSION_ACTIVE )
             {
                 session_name( $sessionName );
             }
@@ -298,7 +299,7 @@ class eZSession
                 // Use md5 to make sure name is only consistent of alphanumeric characters
                 $sessionName .= isset( $access['name'] ) ? md5( $access['name'] ) : '';
             }
-            if ( $sessionName !== session_name() ) {
+            if ( $sessionName !== session_name() && session_status() !== PHP_SESSION_ACTIVE ) {
                 session_name( $sessionName );
             }
         }
@@ -1097,7 +1098,7 @@ class eZSession
      * @since 4.4
      * @return ezpSessionHandler
      */
-    static public function getHandlerInstance( ezpSessionHandler|null $handler = null )
+    static public function getHandlerInstance( ?ezpSessionHandler $handler = null )
     {
         if ( self::$handlerInstance === null )
         {

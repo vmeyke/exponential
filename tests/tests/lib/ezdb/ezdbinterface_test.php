@@ -2,7 +2,7 @@
 /**
  * File containing the eZDBInterfaceTest class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -61,6 +61,7 @@ class eZDBInterfaceTest extends ezpDatabaseTestCase
     /**
      * @dataProvider providerForTestImplodeWithTypeCast
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerForTestImplodeWithTypeCast')]
     public function testImplodeWithTypeCast( $array, $glue, $type, $expected )
     {
         $db = eZDB::instance();
@@ -71,6 +72,7 @@ class eZDBInterfaceTest extends ezpDatabaseTestCase
     /**
      * @dataProvider providerForTestGenerateSQLINStatement
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerForTestGenerateSQLINStatement')]
     public function testGenerateSQLINStatement( $elements, $columnName, $not, $unique, $type, $expected )
     {
         $db = eZDB::instance();
@@ -82,6 +84,7 @@ class eZDBInterfaceTest extends ezpDatabaseTestCase
     /**
      * @dataProvider providerForTestGenerateSQLINStatement2
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerForTestGenerateSQLINStatement2')]
     public function testGenerateSQLINStatementOracle( $elements, $columnName, $not, $unique, $type, $expected )
     {
         $db = eZDB::instance();

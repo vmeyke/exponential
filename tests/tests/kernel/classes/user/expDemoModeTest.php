@@ -31,12 +31,13 @@
  *  DM-13  Under Velocity a value the engine took from a shared envvars file (/etc/vc) is not taken; one from a tree
  *         inside the installation, the start environment or the site envvars is
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group kernel
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class expDemoModeTest extends PHPUnit\Framework\TestCase
 {
     /** @var string|false the environment value before the test */
@@ -350,7 +351,8 @@ class expDemoModeTest extends PHPUnit\Framework\TestCase
         // a web SAPI that forgets the static between requests (PHP-FPM, mod_php, php -S) keeps the claim in a marker
         // file per process (pid and start time) in the cache directory; the console and Velocity keep the static
         $marker = new ReflectionMethod( 'expDemoMode', 'processMarker' );
-        $marker->setAccessible( true );
+        if ( PHP_VERSION_ID < 80100 )
+            $marker->setAccessible( true );
         $path = $marker->invoke( null, '4711' );
         $this->assertMatchesRegularExpression( '#/demo-mode/4711(-[0-9]+)?$#', (string)$path );
         $this->assertStringStartsWith( rtrim( eZSys::cacheDirectory(), '/' ) . '/demo-mode/', (string)$path );

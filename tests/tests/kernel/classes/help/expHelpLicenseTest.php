@@ -11,7 +11,7 @@
  *  LIC-06  the notice page holds the standard GFDL notice; the explanation is for every audience
  *  LIC-07  every string of the license parts is in the complete catalogues
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -179,7 +179,7 @@ class expHelpLicenseTest extends PHPUnit\Framework\TestCase
         $this->assertTrue( $free['or_later'] );
         $this->assertSame( 'https://www.gnu.org/licenses/fdl-1.3.html', $free['url'] );
         $this->assertStringContainsString( 'Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.', $free['notice'] );
-        $this->assertStringStartsWith( 'Copyright (C) ', $free['copyright'] );
+        $this->assertSame( 'Exponential Copyright © 1998-2026 Exponential Foundation and 7x', $free['copyright'] );
         $this->assertStringContainsString( 'GNU Free Documentation License 1.3 or later', expHelpLicense::noticeText( 'help/getting-started.md' ) );
 
         $old = expHelpLicense::forPage( 'features/3.8/foo.txt' );

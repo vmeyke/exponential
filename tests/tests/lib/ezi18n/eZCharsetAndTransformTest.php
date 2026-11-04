@@ -8,13 +8,15 @@
  * Transformations run with useCache=false and code pages are loaded without their cache, so nothing is written.
  * The word separator is set explicitly, so the result does not depend on the installation's site.ini.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group lib
  * @group ezi18n
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezi18n')]
 class eZCharsetAndTransformTest extends PHPUnit\Framework\TestCase
 {
     private $separator;

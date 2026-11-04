@@ -11,7 +11,7 @@
  *  LV-54  the session limit: counting, Retry-After, a new window, kept between requests; the read audit interval
  *  LV-55  settings: bounds, switches, lists, the browser's values
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -112,7 +112,8 @@ require ' . var_export( $vendor, true ) . ';
 $l = new expLogFileLocator( expLogViewerConfig::fromArray( array(), ' . var_export( $this->root, true ) . ' ), "var/log" );
 expLogActions::download( $l->resolve( "var/log/error.log" ), ' . $from . ', ' . $to . ', new expLogRedactor() );
 ' );
-        $out = shell_exec( escapeshellarg( PHP_BINARY ) . ' ' . escapeshellarg( $script ) . ' 2>/dev/null' );
+        // display_errors=stderr: a deprecation of a library on a newer PHP must not land in the gzip data on stdout
+        $out = shell_exec( escapeshellarg( PHP_BINARY ) . ' -d display_errors=stderr ' . escapeshellarg( $script ) . ' 2>/dev/null' );
         $this->assertIsString( $out );
         $plain = gzdecode( $out );
         $this->assertSame( "mail j***@***.com from 192.0.x.x\n", $plain );

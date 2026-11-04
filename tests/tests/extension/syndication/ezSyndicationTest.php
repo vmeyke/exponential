@@ -6,7 +6,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/extension/syndication/
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -137,10 +137,10 @@ class ezSyndicationTest extends TestCase
     public function testSafeServerHidesCredentials()
     {
         $import = eZSyndicationImport::create();
-        $import->setAttribute( 'server', 'https://user:secret@example.com:8443/soap.php?x=1' );
-        $this->assertSame( 'https://example.com:8443/soap.php?x=1', eZSyndicationUI::safeServer( $import ) );
-        $import->setAttribute( 'server', 'https://example.com/soap.php' );
-        $this->assertSame( 'https://example.com/soap.php', eZSyndicationUI::safeServer( $import ) );
+        $import->setAttribute( 'server', 'https://user:secret@example.com:8443/index_soap.php?x=1' );
+        $this->assertSame( 'https://example.com:8443/index_soap.php?x=1', eZSyndicationUI::safeServer( $import ) );
+        $import->setAttribute( 'server', 'https://example.com/index_soap.php' );
+        $this->assertSame( 'https://example.com/index_soap.php', eZSyndicationUI::safeServer( $import ) );
     }
 
     public function testFeedWithoutSourceExportsNothingInADryRun()

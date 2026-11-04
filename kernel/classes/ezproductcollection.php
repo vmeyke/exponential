@@ -2,7 +2,7 @@
 /**
  * File containing the eZProductCollection class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -68,12 +68,22 @@ class eZProductCollection extends eZPersistentObject
 
         $db = eZDB::instance();
         $db->begin();
-        $collection->store();
-
-        $oldItems = $this->itemList();
-        foreach ( $oldItems as $oldItem )
+        try
         {
-            $item = $oldItem->copy( $collection->attribute( 'id' ) );
+            $collection->store();
+
+            $oldItems = $this->itemList();
+            foreach ( $oldItems as $oldItem )
+            {
+                $item = $oldItem->copy( $collection->attribute( 'id' ) );
+            }
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
         $db->commit();
         return $collection;
@@ -155,14 +165,24 @@ class eZProductCollection extends eZPersistentObject
     {
         $db = eZDB::instance();
         $db->begin();
+        try
+        {
 
-        // Purge shipping information associated with product collections being removed.
-        foreach ( $productCollectionIDList as $productCollectionID )
-            eZShippingManager::purgeShippingInfo( $productCollectionID );
+            // Purge shipping information associated with product collections being removed.
+            foreach ( $productCollectionIDList as $productCollectionID )
+                eZShippingManager::purgeShippingInfo( $productCollectionID );
 
-        eZProductCollectionItem::cleanupList( $productCollectionIDList );
-        $where = $db->generateSQLINStatement( $productCollectionIDList, 'id', false, false, 'int' );
-        $db->query( "DELETE FROM ezproductcollection WHERE {$where}" );
+            eZProductCollectionItem::cleanupList( $productCollectionIDList );
+            $where = $db->generateSQLINStatement( $productCollectionIDList, 'id', false, false, 'int' );
+            $db->query( "DELETE FROM ezproductcollection WHERE {$where}" );
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
     }
 }

@@ -39,13 +39,17 @@ zwei Jahre Sicherheitskorrekturen.
 
 **Wie Exponential es erfüllt.**
 
-- `composer.json` `require`: `"php": "^8.0 || ^8.1 || ^8.2 || ^8.3 || ^8.4 || ^8.5 || ^8.6 || ^8.7 || ^8.8"`. Die
+- `composer.json` `require`: `"php": "^7.4 || ^8.0 || ^8.1 || ^8.2 || ^8.3 || ^8.4 || ^8.5 || ^8.6 || ^8.7 || ^8.8"`. Die
   Bereiche für 8.6 bis 8.8 sind vorausschauend; diese Versionen gibt es noch nicht, und sie sind nicht getestet.
-- **PHP 8.0 ist die älteste unterstützte Version**, weil es das Standard-PHP von Red Hat Enterprise Linux 9 ist; siehe
-  [Unterstützung für PHP 8.0](../bc/6.0/php-8.0-unterstuetzung.md). PHP-Funktionen, die neuer als 8.0 sind, werden in
-  `lib/phpcompat.php` definiert, das `autoload.php` nur lädt, wenn `PHP_VERSION_ID < 80100`.
+- **PHP 7.4 ist ab 6.0.15 die älteste unterstützte Version**, für Websites, die noch nicht auf PHP 8 umziehen können;
+  PHP 8.0 ist wichtig, weil es das Standard-PHP von Red Hat Enterprise Linux 9 ist; siehe
+  [Warum Exponential PHP 7.4 unterstützt](../hilfe/warum-exponential-php-7-4-unterstuetzt.md) und
+  [Unterstützung für PHP 8.0](../bc/6.0/php-8.0-unterstuetzung.md). PHP-Funktionen, die neuer als 7.4 sind, kommen aus
+  `symfony/polyfill-php80` und `symfony/polyfill-php81` sowie aus `lib/phpcompat.php`, das `autoload.php` nur lädt,
+  wenn `PHP_VERSION_ID < 80100`. Composer wählt die Erweiterungspakete pro PHP-Version über das Metapaket
+  `se7enxweb/exponential-php-floor`.
 - Exponential Velocity, der Anwendungsserver, läuft ab seinem Release 0.0.4.54 auf PHP 8.0 bis 8.5 und steht mit
-  `~0.0.4.55` in `require` (bis dahin brauchte es PHP 8.1 und stand nur in `suggest`).
+  `~0.0.4.57` in `require` (bis dahin brauchte es PHP 8.1 und stand nur in `suggest`).
 - Erforderliche PHP-Erweiterungen in `composer.json`: `dom`, `libxml`, `mbstring`, `pcre`, `json`, `iconv`,
   `reflection`, `session`, `spl`, `simplexml`. Datenbank- und Bilderweiterungen stehen in `suggest`.
 
@@ -60,7 +64,7 @@ zwei Jahre Sicherheitskorrekturen.
 | PHPStan | 8.3 (Analyse `phpVersion: 80100`) | `quality.yml`, `phpstan` |
 | Micro-Benchmark | 8.5 | `performance.yml`, `micro` |
 
-**Status: Erfüllt** für PHP 8.0 bis 8.5.
+**Status: Erfüllt** für PHP 8.0 bis 8.5 (PHP 7.4 ohne Support nutzbar).
 
 **Bekannte Lücken.**
 
@@ -187,7 +191,7 @@ Bedeutung jeder Erhöhung.
 **Wie die Versionen von Exponential funktionieren.**
 
 - **Der Kernel** wird als `6.0.x` versioniert: `lib/version.php` (`ExponentialSDK`, `VERSION_MAJOR = 6`,
-  `VERSION_MINOR = 0`, `VERSION_RELEASE = 15`) und die Tags `v6.0.0` bis `v6.0.14`. 6.0.15 ist in Entwicklung
+  `VERSION_MINOR = 0`, `VERSION_RELEASE = 15`) und die Tags ab `v6.0.0`. 6.0.15 ist die aktuelle Linie
   ([Changelog 6.0.15](../../changelogs/6.0/6.0.15.md)). Neue Funktionen landen in Patch-Releases der Linie 6.0, was
   nicht der Absicht von SemVer für PATCH entspricht.
 - **Extensions** verwenden drei oder vier Stellen: `exp_adminui ~1.0.0.50`, `bcgooglesitemaps ~1.1.6.6`,

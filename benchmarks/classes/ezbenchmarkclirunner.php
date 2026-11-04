@@ -2,7 +2,7 @@
 /**
  * File containing the eZBenchmarkCLIRunner class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -46,7 +46,7 @@ class eZBenchmarkCLIRunner extends eZBenchmarkRunner
     /*!
      Displays the result text on the console.
     */
-    function display( $result )
+    function display( $result, $repeatCount = 1 )
     {
         $cli = eZCLI::instance();
         $col = 60;

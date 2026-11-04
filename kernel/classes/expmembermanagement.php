@@ -2,7 +2,7 @@
 /**
  * File containing the expMemberManagement class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -337,6 +337,10 @@ class expMemberManagement
             $limitations = array();
             foreach ( (array)$policy->limitationList( false ) as $limitation )
             {
+                // the review hold adds its limitation to every content/edit and content/publish policy: not part of
+                // the rule, so a limited policy still matches it
+                if ( (string)$limitation->attribute( 'identifier' ) === expReviewHold::LIMITATION )
+                    continue;
                 $values = array_map( 'strval', (array)$limitation->allValues() );
                 sort( $values );
                 $limitations[(string)$limitation->attribute( 'identifier' )] = $values;
@@ -521,24 +525,37 @@ class expMemberManagement
      * Applies a prepared rule without errors.
      *
      * @param array $rule prepare()'s result
-     * @return array changes() as applied, with role set
+     * @return array changes() as applied, with role set and review_hold (string[]: the policies the review hold
+     *               limitation was added to, expReviewHold::limitPolicies())
      */
     public static function apply( array $rule )
     {
         $changes = self::changes( $rule );
         $db = eZDB::instance();
         $db->begin();
-        $role = $changes['role'];
-        if ( $role === null )
+        try
         {
-            $role = eZRole::create( $rule['role'] );
-            $role->store();
+            $role = $changes['role'];
+            if ( $role === null )
+            {
+                $role = eZRole::create( $rule['role'] );
+                $role->store();
+            }
+            foreach ( $changes['add'] as $policy )
+                $role->appendPolicy( $policy['module'], $policy['function'], $policy['limitations'] );
+            foreach ( $changes['assign'] as $group )
+                $role->assignToUser( $group['object_id'] );
         }
-        foreach ( $changes['add'] as $policy )
-            $role->appendPolicy( $policy['module'], $policy['function'], $policy['limitations'] );
-        foreach ( $changes['assign'] as $group )
-            $role->assignToUser( $group['object_id'] );
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
+        // a new content/edit policy would edit objects held for review: keep the review hold whole
+        $changes['review_hold'] = $changes['add'] && class_exists( 'expReviewHold' ) ? expReviewHold::limitPolicies() : array();
         if ( $changes['add'] || $changes['assign'] || $changes['create_role'] )
         {
             eZRole::expireCache();

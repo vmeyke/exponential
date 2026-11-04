@@ -9,17 +9,24 @@
  *
  * No database and no siteaccess; the settings are set in memory and put back in tearDown().
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class eZSiteAccessMatchTest extends PHPUnit\Framework\TestCase
 {
     protected function setUp(): void
     {
         chdir( dirname( __DIR__, 5 ) );
+        // the status code is the process's: an earlier test may have set one (a status line, as http_response_code()
+        // has no effect after an earlier header( 'HTTP/...' ) on PHP 8.5)
+        if ( !headers_sent() )
+            header( 'HTTP/1.1 200 OK', true, 200 );
+        // and a request rule of an earlier test may have kept its request out of the caches
+        unset( $GLOBALS['ezpRequestRuleNoStore'] );
         $this->set( 'SiteAccessSettings', 'StaticMatch', '' );
         $this->set( 'SiteSettings', 'DefaultAccess', 'k1default' );
         $this->set( 'SiteAccessSettings', 'AvailableSiteAccessList', array( 'k1default', 'k1eng', 'k1ger', 'k1admin', 'k1_mobile' ) );

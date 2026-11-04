@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Kërkohet vetëm në këtë faqe: %from deri në %to nga %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Çdo tip të dhënash i kernelit dhe i zgjerimeve, dhe si e përdorin klasat dhe përmbajtja.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipet e të dhënave</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Edhe faqet e sistemit mund të shtohen te faqeshënuesit: hapni faqen (Konfigurimi, gjurma e auditimit, një listë përdoruesish ...) dhe zgjidhni „Shto faqen te faqeshënuesit“ mbi të. Këta faqeshënues kanë një ikonë ingranazhi.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Nuk keni më leje ta hapni këtë faqe këtu. Hiqni faqeshënuesin ose kërkoni qasje nga një administrator.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Shko te faqja e parë</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Të tjera</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 ditët e fundit</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Periudhë e personalizuar</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Të gjitha fjalët</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Çdo fjalë</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Fraza e saktë</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Rëndësia</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Emri A–Zh</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Emri Zh–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Modifikuar, më të rejat në fillim</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Modifikuar, më të vjetrat në fillim</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Publikuar, më të rejat në fillim</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Publikuar, më të vjetrat në fillim</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modifikuar</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtrat</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Shfaq filtrat</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Fshih filtrat</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Rivendos</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Zbato</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Fjalët</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Lloji i përmbajtjes</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Shfaq më shumë (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Zgjidhni një lloj përmbajtjeje për të kërkuar në një nga atributet e tij.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksioni</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Nga</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Deri</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Data e fillimit nuk është datë e vlefshme.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Data e mbarimit nuk është datë e vlefshme.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Pronari</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID e përdoruesit, emri i hyrjes ose adresa e-mail.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Nuk u gjet asnjë përdorues për “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Gjuha</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Çdo gjuhë</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Vendndodhja</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count vendndodhje</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Rezultate për faqe</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Rezultate për “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Rezultate (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Rendit sipas</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Renditja</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Filtrat aktivë</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Hiq këtë filtër</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Ose zgjidhni filtra dhe zbatojini për të listuar përmbajtjen që përputhet me ta.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Filtrat e ngushtojnë kërkimin pasi të keni shkruar fjalë.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Nuk u gjetën rezultate për “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Nuk u gjetën rezultate.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Hiqni një filtër më sipër.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Përkthimet</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Veprimet</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Redakto %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Redakto</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Njoftimet për të drejtat e autorit të autorëve origjinalë dhe të softuerit të palëve të treta që përfshihet në Exponential ruhen në skedarët burimorë dhe në skedarin LICENSE, siç e kërkon licenca.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Më poshtë jepet një listë e kontribuuesve të Exponential që e kanë licencuar punën e tyre për përdorim nga 7x sipas kushteve të eZ Systems Contributor Licensing Agreement. Siç e lejon kjo marrëveshje, 7x e rishpërndan çdo kontribut me të njëjtën licencë si skedari në të cilin përfshihet kontributi. Lista përmban çdo kontribuues, të dhëna kontakti opsionale dhe skedarët në të cilët ka kontribuuar.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Kontribuues të përmendur për punën e tyre në Exponential dhe në softuerin nga i cili lindi, bashkë me skedarët ku kanë kontribuar. Kjo është mirënjohje, jo njoftim për të drejtat e autorit: kontributet në Exponential u kalohen Exponential Foundation dhe 7x sipas Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Shënim: paketat nuk do të çinstalohen.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Vlerësoni Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Bëhuni anëtar i komunitetit Exponential, shkëmbeni dhe kontribuoni&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; dhe të tjerë.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Mundësuar nga &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Për më shumë informacion shihni &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; dhe të tjerë.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Për më shumë informacion shihni &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; dhe të tjerë.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Vlerësoni Exponential (nga 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Bëhuni anëtar i komunitetit Exponential, merrni mbështetje dhe kontribuoni&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; dhe të tjerë.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Shënim: paketat nuk do të çinstalohen.</translation>
     <message>
         <source>Help center</source>
         <translation>Qendra e ndihmës</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Përmbajtja</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Faqet e dokumenteve</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Përdoruesit</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Klasat e përmbajtjes</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administrimi</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Faqja %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Shiko të gjitha rezultatet</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Rezultate: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Një rezultat</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count sugjerime</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Asnjë sugjerim</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Sugjerimet nuk mund të ngarkoheshin.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Sugjerime</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Shënim: paketat nuk do të çinstalohen.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Ky instalim është një demo publike: fjalëkalimin e administratorit mund ta dijë kushdo, dhe fjalëkalimet e administratorëve nuk mund të ndryshohen ose të rivendosen. Mos futni këtu asgjë private.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Pajisjet tuaja</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktiviteti i sigurisë</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Shënim: paketat nuk do të çinstalohen.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Udhëzues, kërkim dhe si të raportoni një gabim.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Përmbajtja e fundit</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Përmbajtja më e re, çfarë mbahet për shqyrtim dhe veprime mbi një përzgjedhje.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Shënim: paketat nuk do të çinstalohen.</translation>
         <source>Synchronisations</source>
         <translation>Sinkronizimet</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: pika fundore, skema dhe një hapësirë për të provuar pyetësorë.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrimet</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ndryshime të instalimit të ruajtura si skedarë: gjendja e tyre, ekzekutimet, ekzekuto dhe kthe mbrapsht.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Përmbajtja e fundit</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Përmbajtja më e re, çfarë mbahet për shqyrtim dhe veprime mbi një përzgjedhje.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publikoni një kopje statike të një sajti në GitHub Pages ose në çdo host git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publikimi statik</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipet e të dhënave</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Çdo tip të dhënash i kernelit dhe i zgjerimeve, dhe si e përdorin klasat dhe përmbajtja.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Shënim: paketat nuk do të çinstalohen.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Llogari që nuk i përdor askush ose që duan një kontroll; çaktivizojini, zhbllokojini ose eksportojini.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Regjistri i auditimit të përdoruesve</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Kush ndryshoi, u identifikua ose u refuzua, sipas llogarisë; filtrim dhe eksport.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Raporti i identifikimeve</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Kush është i identifikuar, identifikimet dhe dështimet për çdo ditë; nxjerrja e një përdoruesi kudo.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Shënim: paketat nuk do të çinstalohen.</translation>
         <source>%n hours ago</source>
         <translation>%n orë më parë</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Përgjigjet e pyetësorëve të ruajtur të GraphQL API dhe klasat e përmbajtjes të skemës së tij.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Publikoni një kopje statike në GitHub Pages ose në çdo host git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publikimi statik</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Memoria e përkohshme statike shërben faqe nga ky server. Për të publikuar një kopje statike të një sajti diku tjetër, në GitHub Pages ose në çdo host git, përdorni publikimin statik.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Shënim: paketat nuk do të çinstalohen.</translation>
     <message>
         <source>last purge</source>
         <translation>spastrimi i fundit</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Shkrimet nuk mundën të merrnin kyçjen e gjendjes (herën e fundit %date): secili e bëri të vjetëruar çdo rezultat në fshehtinë. %file duhet të jetë i shkrueshëm për çdo përdorues me të cilin punon sajti; në NFS i duhet NFSv4 ose lockd.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Shënim: paketat nuk do të çinstalohen.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Seancat e skaduara të trajtuesit PHP i heq vetë PHP-ja (session.gc_maxlifetime), jo kjo faqe apo pjesa session_gc e punëve cron.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Seancat aktive të të gjithë përdoruesve listohen dhe mbyllen te raporti i identifikimeve, i cili funksionon me çdo trajtues seancash.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Hap raportin e identifikimeve</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ llogarinë tuaj.</translation>
     <message>
         <source>None yet</source>
         <translation>Asnjë ende</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktiviteti i sigurisë</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Identifikimet tuaja të fundit, përpjekjet e dështuara dhe ndryshimet e fjalëkalimit, adresës së email-it dhe identifikimit me dy hapa.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Identifikimet e fundit, përpjekjet e dështuara dhe ndryshimet e sigurisë së kësaj llogarie.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Shqyrto aktivitetin</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Identifikime të dështuara: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Nëse dëshironi t&apos;i dërgoni komente miratuesit ose të shihni statusin, p
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Pas identifikimit, përdoruesi duhet të zgjedhë një fjalëkalim të ri përpara se të bëjë ndonjë gjë tjetër. Përdoreni këtë kur i jepni dikujt një fjalëkalim të përkohshëm.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Zgjidhni një imazh ekzistues</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Skedari i imazhit të objektit që zgjidhni kopjohet në këtë fushë. Objekti tjetër nuk ndryshon.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Imazhi i “%name” u kopjua në këtë fushë.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Shfletoni për një imazh</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Kërkoni imazhe sipas emrit</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Kërko</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Përdorni imazhin e “%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Përdorni këtë imazh</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Asnjë imazh nuk përputhet me kërkimin tuaj.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ Për më shumë informacion shihni faqen e kërkesave.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab-i nuk u shkrua (%reason). Shtojini këto rreshta në crontab-in e përdoruesit me të cilin ekzekutohet sajti, përndryshe radha, importet, njoftimet dhe indeksi i kërkimit nuk do të ekzekutohen kurrë:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Riinstalimi bëhet me kickstarter (%file, pastaj php bin/php/kickstarter.php run --apply) ose me një instalim të ri.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ llogarinë tuaj.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Memoria e përkohshme e paketuesit publik të eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Cache GraphQL (përgjigje dhe klasa të skemës)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ llogarinë tuaj.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopje e %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipet e të dhënave</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Tipi i të dhënave %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ llogarinë tuaj.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Imazhi SVG nuk mund të lexohej ose asgjë në të nuk mund të shfaqet në mënyrë të sigurt.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Imazhi nuk mund të kopjohej. Ju lutemi, provoni përsëri ose kontaktoni administratorin e sajtit.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Objekti i zgjedhur nuk ekziston ose nuk keni leje ta lexoni.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Objekti i zgjedhur nuk ka imazh.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Skedari i imazhit të objektit të zgjedhur nuk mund të lexohej.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Imazhi i objektit të zgjedhur është më i madh se sa lejon kjo fushë: %1 bajte.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ llogarinë tuaj.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Faqeshënuesi u riemërtua në „%name“.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Kjo faqe është e çaktivizuar në këtë qasje në sajt (%siteaccess). Hapeni faqeshënuesin në një qasje në sajt që e ka atë.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Moduli i kësaj faqeje nuk është i instaluar ose i aktivizuar këtu.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Kjo faqe nuk ekziston më: moduli i saj nuk ka një pamje të tillë.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Asnjë nga rolet tuaja nuk ju lejon ta hapni këtë faqe.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Nuk keni leje ta përdorni këtë qasje në sajt.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Nuk keni leje ta lexoni përmbajtjen që shfaq kjo faqe.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Ky lloj faqeje nuk mund të shtohet te faqeshënuesit: ajo vetëm vepron mbi një formular ose është e vlefshme vetëm për një çast.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Adresa e kësaj faqeje mungon.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Kjo faqe nuk mund të hapet tani.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Transporti i postës refuzoi mesazhe në ekzekutimin e fundit (%count). Kontrolloni serverin e postës dhe site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Ngjarje në pritje: %count, dhe nuk është regjistruar asnjë ekzekutim i punës cron të njoftimeve. Shtoni në crontab pjesën e punëve cron „frequent“ ose ekzekutoni exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
         <source>Choose another site or section with the node picker</source>
         <translation>Zgjidh një sajt ose seksion tjetër me përzgjedhësin e nyjeve</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Vetëm administratori i sistemit mund ta ndryshojë pronarin: ekzekutoni ./console exp:content-check --fix-permissions --apply si root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
     <message>
         <source>empty</source>
         <translation>bosh</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Çelësi i nënshkrimit është më i vjetër se një vit: ndërrojeni me exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
         <source>Share of page time</source>
         <translation>Pjesa e kohës së faqes</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>u kërkua një prodhim i plotë</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>memoria e përkohshme e faqeve nuk e kishte faqen (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>memoria e përkohshme e faqeve nuk u përgjigj</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Prodhuar</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Prodhuar nga kerneli: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Shërbyer nga memoria e përkohshme e faqeve në %ms ms. Faqja u ruajt më %stored nga një prodhim prej %render ms, %age s më parë.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Prodho tani</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Kthehu te pamja nga memoria e përkohshme</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Nga prodhimi më %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Kjo kërkesë: shërbyer nga memoria e përkohshme e faqeve në %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Përdoruesi</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID-ja e përdoruesit</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profili i cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Kjo pamje</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Memoria e përkohshme e pamjeve</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>për përdorues (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profili i cache i përdoruesit: përdoruesit me të njëjtin profil ndajnë skedarët e cache të pamjeve</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>po</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Emri i përdoruesit</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>I identifikuar</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Seanca</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Pjesët e çelësit të cache të pamjeve të përmbajtjes që varen nga përdoruesi, saktësisht siç i merr çelësi, sipas ViewCacheTweaks të kësaj faqeje. Përdoruesit me të njëjtin profil ndajnë skedarët e cache të pamjeve, përveç nëse ndryshojnë pjesët e vetë pamjes (preferencat, çelësat e dëgjuesve): ato kanë profilin e tyre, vetëm për këtë faqe.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profili</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Kjo pamje (nyja %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: çdo përdorues i identifikuar ka skedarët e vet të cache.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks në fuqi: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Pjesa</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Vlera</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Asnjë pjesë nuk varet nga përdoruesi (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>kjo pamje</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopjo si tekst</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rolet</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Nuk u lexua dot asnjë caktim rolesh.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID e rolit</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Roli</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Kufizimi</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Caktuar për</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>përdoruesin</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grupi %name (objekti %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>U kopjua</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Nuk u kopjua dot.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>lënë jashtë nga një dëgjues</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Vizitorët anonimë</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>njësoj si i juaji</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ndryshe</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profili që marrin vizitorët anonimë me të njëjtat ViewCacheTweaks, me preferencat e parazgjedhura, pa pjesët e pamjes: një dëgjuesi që lexon sesionin nuk mund t'i kërkohen ato.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Preferencat</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Asnjë mënyrë pamjeje nuk varet nga preferencat e përdoruesit (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Preferencat nga të cilat varen pamjet e këtyre mënyrave të pamjes (CachedViewPreferences), me vlerën e përdoruesit ose të parazgjedhurën. Ato janë në profil si userpreferences, ato të të gjitha mënyrave të pamjes bashkë.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Mënyra e shfaqjes</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Preferenca</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>I parazgjedhur</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Politikat</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Shfaq politikat e roleve (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Politikat ngarkohen nga serveri kur hapet ky seksion, një faqe në një herë, dhe mund të filtrohen sipas modulit dhe funksionit.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funksioni</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Të gjitha modulet</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Të gjitha funksionet</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Kufizimet</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Shfaq më shumë</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Këto role nuk kanë politika.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Asnjë politikë nuk përputhet me filtrin.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown nga %matching politika (%total gjithsej)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Ngarkohet kur hapet.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, roli, kufizim</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Kërko te politikat</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Ngarko më shumë</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Moduli/funksioni</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Të gjitha rolet (%count politika)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Asnjë politikë nuk përputhet.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown nga %matched politika</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Nuk ka përgjigje</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>i maskuar</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Shfaq shpjegimet</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Fshih shpjegimet</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Hap</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Hapi të gjitha</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Mbylli të gjitha</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Çelës ose vlerë</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Kërko në seancë</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Lloji</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>edhe %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>i futur shumë thellë për t'u shfaqur</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>i shkurtuar, %count karaktere gjithsej</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Nisur</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Emri i cookie-t</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID-ja e seancës</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Trajtuesi</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Shtegu i ruajtjes</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Parazgjedhja e PHP-së</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Jetëgjatësia (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie-t</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>jetëgjatësia %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Seanca juaj PHP, ashtu siç ishte kur u hap seksioni, kurrë ndonjë tjetër. Vlerat e çelësave që duken si sekrete (tokenë, hash-e, fjalëkalime) maskohen (debugbar.ini SessionMask[]); gjithçka tjetër shfaqet ashtu siç është ruajtur, edhe të dhënat personale.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count çelësa, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>e madhe</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Seanca është bosh.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Për këtë kërkesë nuk u nis asnjë seancë.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Zgjerimi %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kerneli dhe të tjerë</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Nuk shfaqen të gjitha zërat: seanca ka më shumë nga sa mund të listohen këtu.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count çelësa nuk janë listuar.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Korniza</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Vlerat që duken si token (një JSON Web Token, kredencialet e një koke Authorization, një çelës privat, një tekst i gjatë heksadecimal ose i rastësishëm) maskohen gjithashtu, pavarësisht si quhet çelësi i tyre (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Çelësi duket si sekret (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Vlera duket si token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Nën një çelës të maskuar.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Seanca si tekst, e maskuar si tabela.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Seanca është më e madhe se %size (debugbar.ini SessionWarnBytes): çdo kërkesë e këtij përdoruesi lexon të gjithë seancën dhe e shkruan kur ka ndryshuar.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP e mban këtë seancë në skedarë dhe e kyç skedarin gjatë gjithë kërkesës: kërkesat e të njëjtit përdorues (disa skeda, thirrje AJAX) presin njëra-tjetrën.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Mbaje të hapur</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Më e madhe se %size (debugbar.ini SessionWarnBytes): çdo kërkesë e këtij përdoruesi lexon të gjithë seancën.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits nga %count lexuar nga memoria e përkohshme</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Nuk u vizatua asnjë shabllon (një pamje e lexuar nga memoria e përkohshme e pamjeve nuk vizaton asnjë).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Caktimet e roleve</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rolet dhe politikat</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>ndryshe nga vizitorët anonimë</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>njëlloj si për vizitorët anonimë</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
     <message>
         <source>not sent</source>
         <translation>i padërguar</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Puna cron e njoftimeve regjistron këtu çdo ekzekutim të saj. Shtoni në crontab pjesën frequent ose ekzekutoni exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Përdorni konsolën: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Kjo temë nuk është Publikuar; lexuesit nuk e shohin.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrimet</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ndryshime të instalimit të ruajtura si skedarë: gjendja e tyre, ekzekutimet, ekzekuto dhe kthe mbrapsht.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publikoni një kopje statike të një sajti në GitHub Pages ose në çdo host git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publikimi statik</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Në rishikim</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Lexuesit e shohin këtë faqe.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>E fshehur nga lexuesit derisa dikush ta publikojë.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Faqja është tani në Rishikim. Është e fshehur nga lexuesit derisa të publikohet.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Faqja është Publikuar: lexuesit e shohin tani.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Faqja është sërish Skicë. Është e fshehur nga lexuesit derisa të rishikohet dhe të publikohet.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Publiko tani</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Vetëm një përdorues me rolin %role që nuk e ka shkruar këtë version mund ta publikojë.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Temat e ndihmës në pritje të publikimit</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>E fsheh nga lexuesit derisa të publikohet sërish.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Më pas e kontrollon një rishikues. Lexuesit ende nuk e shohin.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Lexuesit e shohin menjëherë.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>E nxjerr nga rishikimi për punë të mëtejshme. Lexuesit nuk e shohin.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Ta fsheh këtë faqe nga lexuesit?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Ta kthej këtë faqe në Skicë?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Lexuesit nuk e shohin më %title derisa dikush ta publikojë sërish.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title kthehet në Skicë për punë të mëtejshme. Lexuesit ende nuk e shohin dhe i duhet një rishikim i ri para se të publikohet.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anulo</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Këto tema janë në Rishikim. Lexuesit i shohin sapo t’i publikojë dikush që nuk e ka shkruar versionin aktual.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Konfigurimi &gt; Punët cron</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Asnjë pjesë e punëve cron nuk është ekzekutuar ende: radha e punëve, importimet, njoftimet dhe indeksi i kërkimit janë në pritje. Ekzekutoni php bin/php/installcrontab.php --add --apply ose shtoni në crontab rreshtat e --show.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
         <source>None.</source>
         <translation>Asnjë.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>me një aplikacion vërtetimi</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>me një kod me email</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>me një kod rikuperimi</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>me një çelës kalimi</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>me një llogari të jashtme</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktiviteti i sigurisë</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Shfaqet si rrjeti i saj; adresa ruhet ashtu siç përcaktojnë cilësimet e mbrojtjes së të dhënave të sajtit.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>I paregjistruar</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Vendndodhja</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>e përafërt</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
         <source>Manage devices</source>
         <translation>Menaxho pajisjet</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>me një aplikacion vërtetimi</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>me një kod me email</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>me një kod rikuperimi</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>me një çelës kalimi</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>me një llogari të jashtme</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktiviteti i sigurisë</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>I paregjistruar</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Vendndodhja</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>e përafërt</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
         <source>View the sessions of this user</source>
         <translation>Shiko seancat e këtij përdoruesi</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Llogaria juaj %login në %site sapo u përdor për t&apos;u identifikuar nga një vend prej të cilit nuk është identifikuar së fundi:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Vendndodhja e përafërt</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser në %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Raporti i identifikimeve</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Çelësi i kalimit nuk mund të kontrollohej. Provoni sërish.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Llogaritë që identifikohen vetëm me çelësa kalimi nuk mund të përdorin fjalëkalim këtu: zgjidhni „Identifikohu me një çelës kalimi“.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Çelësat e kalimit të %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Çelësat e kalimit me të cilët identifikohet kjo llogari. Revokoni atë që ndodhet në një pajisje të humbur ose të vjedhur: nuk mund të identifikohet më. Të rinjtë i shton vetë pronari.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Llogaria juaj ka nevojë për një çelës kalimi</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Shtoni një çelës kalimi në llogarinë tuaj</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Shtoni një çelës kalimi për të vazhduar. Pastaj identifikoheni me të në vend të vetëm një fjalëkalimi.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Identifikimi me një çelës kalimi është më i shpejtë dhe më i sigurt se një fjalëkalim. Shtoni një tani ose vazhdoni pa të.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Jo tani</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Të revokohet çelësi i kalimit „%name“?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Nuk mund të identifikohet më në këtë llogari. Nëse ishte i fundit, pronari identifikohet me fjalëkalimin, ose ju vendosni një të ri.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Revoko çelësin e kalimit</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Revoko</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Kjo llogari nuk ka çelës kalimi.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Vërtetues</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>I panjohur</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Çelësi juaj i fundit i kalimit: shtoni një tjetër para se ta hiqni.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Kjo llogari identifikohet vetëm me çelësa kalimi (politika e çelësave të kalimit): kur nuk mbetet asnjë, identifikohet përsëri me fjalëkalimin e saj.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Ky është çelësi juaj i fundit i kalimit dhe llogaria juaj nuk mund të identifikohet pa të. Shtoni fillimisht një çelës tjetër kalimi.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Çelësi i kalimit „%name“ u revokua. Nuk mund të identifikohet më në këtë llogari.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
         <source>Code from your authenticator app</source>
         <translation>Kodi nga aplikacioni juaj i vërtetimit</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Jeni gati të fshini përgjithmonë të dhëna ose të pastroni një regjistër.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Fjalëkalimi juaj dhe një çelës kalimi</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Fjalëkalimi juaj dhe një kod nga aplikacioni juaj i vërtetimit</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Ose:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Ky shfletues nuk mund të përdorë çelësa kalimi. Përdorni një mënyrë tjetër ose një shfletues tjetër.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Kur vazhdoni, shfletuesi kërkon një nga çelësat tuaj të kalimit.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Vazhdo me një çelës kalimi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
     <message>
         <source>Setup</source>
         <translation>Konfigurimi</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Ndryshimi i fjalëkalimit, adresës email, çelësave të kalimit, identifikimit me dy hapa, kodeve të rikuperimit ose çelësave API të vetë përdoruesit dhe nxjerrja nga pajisjet e tjera të tij.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Krijimi dhe redaktimi i përdoruesve, i fjalëkalimeve dhe pajisjeve të tyre, i cilësimeve të llogarisë, miratimi ose refuzimi i llogarive të reja, caktimi i roleve dhe redaktimi i politikave.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Fshirja e të dhënave</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Zbrazja e koshit, heqja e elementeve prej tij dhe heqja e disa elementeve njëherësh.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Heqja, publikimi dhe ruajtja e përmbajtjes</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Heqja e përmbajtjes (edhe në kosh), publikimi dhe ruajtja e një skice, pyetet kur dërgohet formulari. Fikur si parazgjedhje.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Para një veprimi të ndjeshëm, një përdorues i identifikuar konfirmon sërish kush është: me fjalëkalimin dhe një çelës kalimi, ose pa çelës kalimi me fjalëkalimin dhe kodin nga aplikacioni i vërtetimit. Pyesin vetëm faqet web: ndërfaqja REST, SOAP, WebDAV, identifikimi expservices dhe rreshti i komandave kurrë.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Ku vlejnë cilësimet</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Cilësimet për</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Çdo qasje në sajt</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Qasja në sajt %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Hap</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Kush pyetet: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Shënoni grupet e përdoruesve për të pyetur vetëm anëtarët e tyre (për shembull redaktorët). Asnjë i shënuar: çdo përdorues.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Ruhet në settings/override/site.ini.append.php, për çdo qasje në sajt. Ruajtja ju kërkon të konfirmoni se jeni ju.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Ruhet në settings/siteaccess/%name/site.ini.append.php. Një vlerë në settings/override ka përparësi. Ruajtja ju kërkon të konfirmoni se jeni ju.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ Duhet ta ndryshoni klasën e nyjes duke përdorur funksionin e shkëmbimit.</tra
     <message>
         <source>Open the page</source>
         <translation>Hap faqen</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from deri në %to nga %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Një emër identifikimi ose ID përdoruesi: llogaria së cilës i përkiste ngjarja ose përdoruesi që veproi.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Llogaria</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Veprimi</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Pas</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Çdo rezultat</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Para</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kryer nga</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Pastro</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>U krye</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Ngjarjet ruhen për %days ditë.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Ngjarjet ruhen derisa të hiqen me dorë.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Ngjarjet</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Çdo veprim</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Të gjitha ngjarjet e kësaj llogarie</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Eksporto listën si CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Dështoi</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Nga</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Ngushtoni listën</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Asnjë ngjarje nuk përputhet.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Për faqe</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Regjistrimi është i çaktivizuar në audit.ini ([UserAuditSettings] UserAudit); lista tregon atë që u regjistrua më parë.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>U refuzua</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultati</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Shfaq</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tabela e regjistrit të auditimit të përdoruesve mungon. Krijojeni me php update/common/scripts/6.0/createuseraudittable.php; deri atëherë skedarët e auditimit ruajnë çdo ngjarje.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Kjo faqe kërkon një bazë të dhënash SQL; nuk është e disponueshme në MongoDB. Skedarët e auditimit ruajnë çdo ngjarje.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Deri</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Regjistri i auditimit të përdoruesve</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Përdoruesi</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kur</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ku</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Kush ndryshoi, krijoi, aktivizoi, çaktivizoi, zhvendosi ose hoqi cilën llogari, kush u identifikua ose u refuzua dhe cilat role u caktuan: një rresht për çdo ngjarje, me fushat para dhe pas. Fjalëkalimet dhe të dhënat sekrete nuk regjistrohen kurrë.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>grup</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistemi</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>i panjohur</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Siguroni llogarinë tuaj</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Në llogarinë tuaj %login në %site u bë identifikim me një kod rikuperimi.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>U përdor një kod rikuperimi</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Llogaria</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Adresa e përafërt</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Kërkoni një fjalëkalim të ri për t&apos;u identifikuar përsëri ose kontaktoni administratorët e sajtit.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Kërko një fjalëkalim të ri</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Çdo kod rikuperimi funksionon një herë. Nëse e keni humbur telefonin, konfiguroni përsëri aplikacionin e vërtetimit dhe ruajini kodet e reja të rikuperimit në një vend të sigurt.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Përpjekje të dështuara identifikimi në llogarinë tuaj</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Tani e tutje, identifikimi kërkon një kod përveç fjalëkalimit tuaj. Nëse këtë e bëtë ju, nuk keni nevojë të bëni asgjë.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Nëse ishit ju dhe e keni harruar fjalëkalimin, kërkoni një të ri. Nëse jo, zgjidhni një fjalëkalim më të fortë dhe aktivizoni identifikimin me dy hapa.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Nëse nuk ishit ju, dikush mund ta dijë fjalëkalimin tuaj: ndryshojeni tani dhe kontrolloni ku është e identifikuar llogaria juaj.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Kode rikuperimi të mbetura</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Shqyrto pajisjet tuaja</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Sinjalizim sigurie</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Dikush u përpoq të identifikohej në llogarinë tuaj %login në %site me një fjalëkalim të gabuar disa herë radhazi: %count.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Ndodhi një ngjarje sigurie në llogarinë tuaj %login në %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Ky është një sinjalizim sigurie për llogarinë tuaj. Dërgohet për çdo ndryshim të tillë dhe nuk mund të çaktivizohet.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Koha</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Identifikimi me dy hapa u çaktivizua për llogarinë tuaj %login në %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Identifikimi me dy hapa u çaktivizua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Identifikimi me dy hapa u aktivizua për llogarinë tuaj %login në %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Identifikimi me dy hapa u aktivizua</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Llogaria juaj %login në %site u bllokua pas shumë identifikimeve të dështuara.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Llogaria juaj tani mbrohet vetëm nga fjalëkalimi. Nëse këtë nuk e bëtë ju, aktivizoni përsëri identifikimin me dy hapa pasi të keni ndryshuar fjalëkalimin.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Llogaria juaj u bllokua</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Në llogarinë tuaj %login në %site u shtua një çelës kalimi.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Kushdo që e ka këtë çelës kalimi mund të identifikohet në llogarinë tuaj pa fjalëkalimin tuaj. Nëse nuk e shtuat ju, hiqeni te Çelësat e kalimit dhe ndryshoni fjalëkalimin.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Nga llogaria juaj %login në %site u hoq një çelës kalimi.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Nuk mund të identifikohet më në llogarinë tuaj. Nëse nuk e hoqët ju, kontrolloni çelësat tuaj të kalimit dhe pajisjet.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Në llogarinë tuaj u shtua një çelës kalimi</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Nga llogaria juaj u hoq një çelës kalimi</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktiviteti i sigurisë</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktiviteti i sigurisë së %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Identifikuar</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Përpjekje e dështuar identifikimi</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Doli</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Seancat u mbyllën</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Identifikim nga një pajisje e re</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Identifikim nga një vendndodhje e re</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identiteti u konfirmua („Konfirmoni se jeni ju“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Kontrolli i identitetit dështoi</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Identifikuar me një çelës kalimi</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Identifikimi me çelës kalimi dështoi</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Identifikimi u refuzua: kodi i identifikimit me dy hapa mungon ose është i gabuar</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kod i gabuar i identifikimit me dy hapa</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Llogaria u bllokua pas identifikimeve të dështuara</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Llogaria u zhbllokua</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Fjalëkalimi u ndryshua</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Ndryshimi i fjalëkalimit dështoi</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Fjalëkalimi u rivendos</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>U kërkua një fjalëkalim i ri</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Adresa e email-it u ndryshua</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Emri i përdoruesit u ndryshua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Identifikimi me dy hapa u aktivizua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Identifikimi me dy hapa u çaktivizua</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>U përdor një kod rikuperimi</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kode të reja rikuperimi</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>U krijua fjalëkalim aplikacioni</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>U revokua fjalëkalim aplikacioni</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>U shtua çelës kalimi</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>U hoq çelës kalimi</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Llogaria u aktivizua</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Llogaria u çaktivizua</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Të gjitha</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Identifikimet dhe seancat</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Ndryshimet e llogarisë</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Kërkojnë vëmendje</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>nga ju</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>nga përdoruesi</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>nga %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metoda</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Shfletuesi</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistemi operativ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Pajisja</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Vendi</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Shteti</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Seancat</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Cilat</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanali</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Përpjekjet e dështuara</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kodet e mbetura</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Trajtuesi i identifikimit</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktiviteti i sigurisë</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktiviteti i sigurisë së %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Identifikimet dhe ndryshimet në sigurinë e llogarisë suaj. Nëse shihni diçka që nuk e keni bërë, ndryshoni fjalëkalimin dhe nxirrni pajisjet që nuk i njihni.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Identifikimet dhe ndryshimet në sigurinë e kësaj llogarie.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Pajisjet tuaja</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Ndrysho fjalëkalimin</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Kthehu te llogaria</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Aktiviteti i sigurisë nuk regjistrohet</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Ai lexohet nga regjistri i auditimit të përdoruesve, tabela expuser_audit e të cilit mungon ose nuk mbështetet në këtë bazë të dhënash. Ekzekutoni php update/common/scripts/6.0/createuseraudittable.php ose përditësimin e bazës së të dhënave të versionit 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ditët e fundit: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Identifikimet në ditët e fundit (%days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Aktiviteti i fundit i sigurisë</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Shfaq</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>dështoi</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>u refuzua</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nuk është regjistruar ende asnjë aktivitet sigurie.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Ngjarjet e sigurisë ruhen për %days ditë.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Ngjarjet e sigurisë ruhen derisa një administrator t&apos;i heqë.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Shkarko të dhënat e mia të identifikimit</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Seancat dhe ngjarjet tuaja të sigurisë si skedar JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Seancat nuk regjistrohen në këtë sajt, prandaj asnjë pajisje tjetër nuk mund të shkëputej. Ndryshoni fjalëkalimin tani.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>U mbyllën %count seanca të tjera. Tani ndryshoni fjalëkalimin.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Asnjë pajisje tjetër nuk ishte e lidhur. Tani ndryshoni fjalëkalimin.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Faleminderit. Ngjarja është shënuar si e juaja.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ajo ngjarje nuk ka nevojë për përgjigje.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Faqja kishte skaduar. Nuk u ndryshua asgjë; provoni sërish.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Siguroni llogarinë tuaj</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Nëse diçka këtu nuk ishit ju, shkëputni të gjitha pajisjet e tjera, pastaj zgjidhni një fjalëkalim të ri. Shkëputen edhe pajisjet që mbeten të lidhura me Më mbaj mend.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Çdo pajisje përveç kësaj shkëputet në kërkesën e saj të radhës. Pastaj zgjidhni një fjalëkalim të ri.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Po, shkëput pajisjet e tjera</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>A ishit ju?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Po, isha unë</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Jo, sigurojeni llogarinë time</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Identifikuar</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Përpjekje e dështuar identifikimi</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Doli</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Seancat u mbyllën</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Identifikim nga një pajisje e re</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Identifikim nga një vendndodhje e re</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identiteti u konfirmua („Konfirmoni se jeni ju“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Kontrolli i identitetit dështoi</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Identifikuar me një çelës kalimi</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Identifikimi me çelës kalimi dështoi</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Identifikimi u refuzua: kodi i identifikimit me dy hapa mungon ose është i gabuar</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kod i gabuar i identifikimit me dy hapa</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Llogaria u bllokua pas identifikimeve të dështuara</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Llogaria u zhbllokua</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Fjalëkalimi u ndryshua</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Ndryshimi i fjalëkalimit dështoi</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Fjalëkalimi u rivendos</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>U kërkua një fjalëkalim i ri</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Adresa e email-it u ndryshua</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Emri i përdoruesit u ndryshua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Identifikimi me dy hapa u aktivizua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Identifikimi me dy hapa u çaktivizua</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>U përdor një kod rikuperimi</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kode të reja rikuperimi</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>U krijua fjalëkalim aplikacioni</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>U revokua fjalëkalim aplikacioni</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>U shtua çelës kalimi</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>U hoq çelës kalimi</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Llogaria u aktivizua</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Llogaria u çaktivizua</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Të gjitha</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Identifikimet dhe seancat</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Ndryshimet e llogarisë</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Kërkojnë vëmendje</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktiviteti i sigurisë</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktiviteti i sigurisë së %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Identifikimet dhe ndryshimet në sigurinë e llogarisë suaj. Nëse shihni diçka që nuk e keni bërë, ndryshoni fjalëkalimin dhe nxirrni pajisjet që nuk i njihni.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Pajisjet tuaja</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Ndrysho fjalëkalimin</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Aktiviteti i sigurisë nuk regjistrohet ende në këtë sajt.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Identifikimet në ditët e fundit (%days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Përpjekjet e dështuara</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nuk është regjistruar ende asnjë aktivitet sigurie.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Shkarko të dhënat e mia të identifikimit</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Seancat dhe ngjarjet tuaja të sigurisë si skedar JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Seancat nuk regjistrohen në këtë sajt, prandaj asnjë pajisje tjetër nuk mund të shkëputej. Ndryshoni fjalëkalimin tani.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>U mbyllën %count seanca të tjera. Tani ndryshoni fjalëkalimin.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Asnjë pajisje tjetër nuk ishte e lidhur. Tani ndryshoni fjalëkalimin.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Faleminderit. Ngjarja është shënuar si e juaja.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ajo ngjarje nuk ka nevojë për përgjigje.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Faqja kishte skaduar. Nuk u ndryshua asgjë; provoni sërish.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Siguroni llogarinë tuaj</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Nëse diçka këtu nuk ishit ju, shkëputni të gjitha pajisjet e tjera, pastaj zgjidhni një fjalëkalim të ri. Shkëputen edhe pajisjet që mbeten të lidhura me Më mbaj mend.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Çdo pajisje përveç kësaj shkëputet në kërkesën e saj të radhës. Pastaj zgjidhni një fjalëkalim të ri.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Po, shkëput pajisjet e tjera</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>A ishit ju?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Po, isha unë</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Jo, sigurojeni llogarinë time</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Fjalëkalimi</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Fjalëkalimi dhe kodi i identifikimit me dy hapa</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Ndërfaqja REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Ndërfaqja SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Identifikim i njëhershëm (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Identifikuar para se të regjistroheshin seancat</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Raporti i identifikimeve</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Kush është i identifikuar në sajt, sa shpesh identifikohen llogaritë dhe sa shpesh dështojnë, si dhe nxjerrja e një përdoruesi kudo. Funksionon me çdo trajtues seancash.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Seanca u mbyll. Pajisja duhet të identifikohet përsëri.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login u nxor nga seancat: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login nuk kishte asnjë seancë aktive.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Asnjë llogari nuk e ka këtë ID, emër përdoruesi ose adresë email-i.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Kjo është seanca që po përdorni. Për ta mbyllur, dilni.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Ajo seancë kishte përfunduar tashmë.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Faqja kishte skaduar. Nuk u ndryshua asgjë; ju lutemi provoni përsëri.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Seancat nuk regjistrohen në këtë sajt (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabela expuser_session mungon</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Seancat regjistrohen sapo ajo të krijohet: php update/common/scripts/6.0/createusersessiontable.php ose përditësimi i bazës së të dhënave të versionit 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Tani dhe sot</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Seancat aktive</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Përdoruesit e identifikuar</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Identifikimet sot</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Përpjekjet e dështuara sot</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Nxirr një përdorues kudo</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Çdo seancë e llogarisë përfundon në kërkesën e saj të radhës, edhe ato që mbahen nga „Më mbaj mend“. Përdoreni kur një llogari mund të jetë në duar të gabuara; pastaj rivendosni fjalëkalimin e saj.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID e përdoruesit, emri i përdoruesit ose adresa e email-it</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Dil kudo</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Të identifikuar tani</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Shfaqen të përdorurat më së fundi, deri në %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Përdoruesi</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Pajisja</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Identifikuar</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Aktiv së fundi</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Veprimet</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Kjo pajisje</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>I paregjistruar</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Nxirr</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Asnjë seancë nuk është e identifikuar.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ditët e fundit: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Identifikimet dhe përpjekjet e dështuara numërohen nga regjistri i auditimit të përdoruesve, i cili mungon; seancat e reja numërohen.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dita</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Identifikimet</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Përpjekjet e dështuara</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Seancat e reja</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Trajtuesi i seancave: %handler. Seancat lexohen nga tabela expuser_session, prandaj raporti funksionon me çdo trajtues.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Aktivitet i dyshimtë në %hours orët e fundit</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Një rrjet nuk arriti të hyjë në %accounts llogari (%count përpjekje)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Llogaria u kyç pas hyrjeve të dështuara</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count hyrje të dështuara në një llogari</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Hyrje nga %count vende njëkohësisht</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktiviteti i sigurisë</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Seancat</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Hyrjet e dështuara lexohen nga regjistri i auditimit të përdoruesve, i cili nuk është i disponueshëm këtu.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Asgjë e dyshimtë: asnjë llogari me hyrje të dështuara të përsëritura, asnjë rrjet që provon disa llogari, asnjë llogari e hyrë nga disa vende.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Sinjalizim sigurie për llogarinë tuaj</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Ndodhi një ngjarje sigurie në llogarinë tuaj %login: %event. Nëse nuk ishit ju, siguroni llogarinë tuaj te %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurimi</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Kërkojini përmbajtjes së këtij sajti pikërisht fushat që i duhen një faqeje, me një kërkesë të vetme. Skema ndjek klasat e përmbajtjes; çdo pyetësor ekzekutohet me të drejtat e përdoruesit që e dërgon.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API është i çaktivizuar në këtë qasje në sajt. Aktivizojeni në graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Biblioteka GraphQL (webonyx/graphql-php 15) nuk është instaluar.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Pika fundore</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Biblioteka</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Klasa përmbajtjeje: %count, skema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Pyetësor</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variablat (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ekzekuto</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Përgjigjja</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Po ekzekutohet…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Përgjigjja nuk mund të lexohej.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Pyetësori ekzekutohet me të drejtat tuaja, i identifikuar në këtë seancë.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count në %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>pa kufi</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Thellësia</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Kompleksiteti</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elemente për listë</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (parazgjedhje %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Kërkesa për përdorues ose çelës</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Kërkesa për adresë anonime</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspeksioni</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Vetëm pyetësorë të ruajtur</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Pyetësori më i madh</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bajtë</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Ngarkimi më i madh</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nuk ka qasje në sajt %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutacionet janë aktivizuar në %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutacionet janë çaktivizuar në %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API është aktivizuar në %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API është çaktivizuar në %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Cilësimet nuk mund të shkruheshin: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Cache-i i përgjigjeve u pastrua: %count përgjigje u hoqën.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Shënoni kutinë pranë pyetësorit për ta hequr.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Pyetësori nuk mund të hiqej: një pyetësor i dorëzuar në një direktori të PersistedQueryDirectoryList[] hiqet bashkë me skedarin e tij.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Pyetësori i ruajtur u hoq.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutacionet</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>aktiv</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>joaktiv</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Qasjet në sajt</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Ku përgjigjen API dhe mutacionet e tij. Butonat shkruajnë graphql.ini, siç bëjnë ./console exp:graphql:enable dhe exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Qasja në sajt</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Ndrysho</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Çaktivizo</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutacionet joaktive</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutacionet aktive</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Aktivizo</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Kufijtë</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] i kësaj qasjeje në sajt.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Cache-i i përgjigjeve</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Përgjigjet e pyetësorëve të ruajtur, të mbajtura sipas të drejtave të përdoruesit dhe të skaduara sa herë publikohet përmbajtje.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Gjendja</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Përgjigje të mbajtura</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count përgjigje, %bytes bajtë</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Mbahen të shumtën</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Skadimi i fundit</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Pastro cache-in e përgjigjeve</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Pyetësorë të ruajtur</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Të ruajtur me ./console exp:graphql:persist, ose nga klientët (pyetësorë të ruajtur automatikisht); thirren me emër ose SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Emrat</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Madhësia</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ku</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Hiq</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>i dorëzuar</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>i ruajtur</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Po, hiqe këtë pyetësor</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Ende asnjë pyetësor i ruajtur.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Çelësat API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Çelësa API personalë me fushëveprimin graphql:read (pyetësorë) ose graphql:write (mutacione). Krijojini dhe revokojini në faqen Qasja API, ose me ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Qasja API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Të gjithë çelësat</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Çelësi</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Emri</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Pronari</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Fushëveprimet</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Përdorur së fundi</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktiv</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>skaduar</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>revokuar</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>kurrë</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Ende asnjë çelës API me fushëveprim GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API është i çaktivizuar në qasjen në sajt %siteaccess, që shfaq këtë faqe; tabela më poshtë tregon ku përgjigjet.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Për qasjen në sajt %siteaccess, që shfaq këtë faqe.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook-et</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Çdo ngjarje që kërkon një pikë fundore (publish, update, trash, delete, move, hide, reveal, mutation) i dërgohet asaj, e nënshkruar, nga pjesa e cronjob-it graphqlwebhooks. ./console exp:graphql:webhooks bën të njëjtën gjë si ky seksion.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Ngjarjet</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>të gjitha</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Çdo qasje në sajt</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>i prishur</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>pa sekret</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Në pritje</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count të braktisura</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Dorëzimi i fundit</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Dërgo një test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Po, hiqe këtë webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Ende asnjë webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Shto një webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Shto</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Dorëzimet e fundit</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Koha</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultati</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abonimet</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Përditësime të drejtpërdrejta për klientët: një rrjedhë ngjarjesh në /api/graphql/subscribe dhe një WebSocket (graphql-transport-ws) në Velocity. Çdo ngjarje shkon vetëm te abonentët që mund të lexojnë përmbajtjen e saj.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Të hapura tani</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Më së shumti të hapura</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total gjithsej, %user për përdorues, %address për adresë</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Abonime anonime</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Kohëzgjatja e rrjedhës</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook-u nuk mund të shtohej: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook-u %name u ndryshua; sekreti i tij i nënshkrimit mbetet.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Sekreti i nënshkrimit nuk mund të ruhej (Konfigurimi &gt; Sekretet).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook-u %name u shtua. Sekreti i tij i nënshkrimit, i shfaqur vetëm këtë herë: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Nuk ka webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook-u %name nuk u përgjigj: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook-u %name u përgjigj %status në %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Shënoni kutinë pranë webhook-ut për ta hequr.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook-u %name u hoq.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API është i çaktivizuar në këtë qasje në sajt.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Biblioteka GraphQL nuk është instaluar.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Përdorni GET ose POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Trupi i kërkesës nuk është objekt JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables nuk është objekt JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions nuk është objekt JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Dërgojeni pyetësorin me POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Kërkesa nuk ka pyetësor.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Pyetësori është më i gjatë se %max bajtë.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Gabim i brendshëm i serverit</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node kërkon saktësisht një nga id, remoteId, path dhe urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content kërkon saktësisht një nga id dhe remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Kursori i after nuk është dhënë nga ky API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Nuk ka alias imazhi %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Këtu pranohen vetëm pyetësorë të ruajtur: dërgoni id-në e një pyetësori të ruajtur.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash-i i pyetësorit të ruajtur nuk është SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash-i i pyetësorit të ruajtur nuk përputhet me pyetësorin.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Shumë kërkesa: të shumtën %limit në %window sekonda. Provoni përsëri pas %reset sekondash.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Pyetësori ka thellësi %depth nivele; lejohen të shumtën %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Pyetësori ka kompleksitet %complexity; lejohet të shumtën %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Kjo kërkesë nuk mund të lexojë skemën (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search kërkon një tekst ose një filtër (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument nuk është datë (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag kërkon saktësisht një nga id, remoteId dhe path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout kërkon saktësisht një nga id, identifier dhe urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Fusha operations e një kërkese multipart nuk është një kërkesë e vetme JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Fusha map e një kërkese multipart nuk është objekt JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Kërkesa multipart nuk ka skedar %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Një shteg i fushës map duhet të fillojë me variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Skedari %name nuk mbërriti i plotë (gabim ngarkimi %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Skedari %name është më i madh se %max bajtë.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Skedari %name nuk mund të kontrollohej.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutacionet janë të çaktivizuara në këtë qasje në sajt (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Dërgojeni mutacionin me POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Identifikohuni për të ndryshuar përmbajtjen.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Çelësi API nuk ka fushëveprimin %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Një mutacion me seancë ka nevojë për tokenin e formularit të seancës (koka X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl është i çaktivizuar: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nuk emërton asnjë host.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adresa duhet të jetë adresë https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Hosti %host nuk është në graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Skedari nuk mund të merrej.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload është vetëm tip hyrjeje.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Një variabël e tipit Upload merr një skedar të një kërkese multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>ID-ja e largët %remoteId është e zënë.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Përmbajtja ka tashmë një përkthim në %language: përdorni updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Jepni të paktën një fushë.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Nuk mund të krijohej version i ri (përmbajtja ka shumë drafte).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Versioni %version nuk është draft.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ka nevojë për saktësisht një nga id dhe nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Një vendndodhje nuk mund të zhvendoset nën veten.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Përmbajtja ka tashmë një vendndodhje nën %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Vlera e fushës %field nuk mund të ruhej.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Nuk ka gjuhë përmbajtjeje %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Nuk ka klasë përmbajtjeje %class në skemë.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Përmbajtja nuk ekziston, ose nuk keni leje ta lexoni.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Nuk keni leje ta bëni këtë me këtë përmbajtje.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Klasa %class nuk ka fushë %field që mund të shkruhet.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Fusha %field është dhënë dy herë.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Fusha %field merr një skedar: dërgojeni si ngarkim (një kërkesë multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Fusha %field nuk merr skedar.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Fusha %field ka nevojë për një vlerë.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Formati %format është vetëm për fusha teksti të pasur; %field e merr vlerën ashtu siç është (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Fusha %field është e detyrueshme.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML-ja nuk mund të lexohej.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content merr version vetëm me id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Tokeni i parapamjes nuk është i vlefshëm ose ka skaduar.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Nuk është origjinë (https://host ose https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Nuk është fushëveprim i GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Dërgoni abonimet te /api/graphql/subscribe (një rrjedhë ngjarjesh ose një WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Kërkesa nuk emërton asnjë operacion të dokumentit.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Një abonim kërkon saktësisht një fushë.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Ka shumë abonime të hapura; provoni përsëri më vonë.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Keni %max abonime të hapura, numri maksimal i lejuar.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Adresa juaj ka %max abonime të hapura, numri maksimal i lejuar.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Abonimet janë të çaktivizuara në këtë qasje në sajt.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Identifikohuni për t'u abonuar (një token ose një çelës API personal).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Dërgoni mutacionet te /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrimet</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Gjendja nuk u lexua dot: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabelat e migrimeve nuk ekzistojnë ende: ./console exp:upgrade --apply i krijon.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migrime dështuan</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Një ekzekutim është në vazhdim, nisur nga %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Instalimi është i kyçur: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Në pritje</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Të dështuara</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Jetime</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ekzekutimi i fundit</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>asnjë ende</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Të gjitha migrimet</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Ekzekutim i simuluar</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Provë pa ndryshime</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Migrimet në pritje u ekzekutuan në një transaksion që u anulua më pas: asgjë nuk u ruajt. Më poshtë është çfarë ndryshoi secili në bazën e të dhënave.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Çfarë do të bënte një ekzekutim tani. Asgjë nuk ndryshohet: çdo migrim në pritje rendit ndryshimet që do të bënte, dhe ekzekutimi çfarë do të bënte para dhe pas.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simulo</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ekzekuto</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Prova pa ndryshime dështoi: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Një simulim kërkon PostgreSQL ose SQLite, ndryshimet e skemës së të cilave mund të anulohen; në këtë bazë të dhënash plani më poshtë tregon çfarë do të bënte një ekzekutim.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migrimet</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrimi</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Gjendja</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Çfarë do të bënte</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulimi: %result në %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Asnjë migrim ende.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Para dhe pas ekzekutimit</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Pamje e gjendjes para</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>merret, dhe rikthehet kur një migrim dështon</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>joaktive</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Pamje e gjendjes pas</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>merret kur ekzekutimi ka sukses</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migrime: %pending në pritje, %done të kryera, %failed të dështuara.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Historiku i migrimeve</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Çdo ekzekutim me përdoruesin, mjedisin, pamjet e gjendjes dhe çfarë u regjistrua, u etiketua dhe u dërgua. Një ekzekutim i dështuar ose i ndërprerë mund të vazhdohet; një ekzekutim me pamje gjendjeje të marrë para tij mund të tërhiqet.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Ekzekutimet nuk u lexuan dot: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabelat e migrimeve nuk ekzistojnë ende: ./console exp:upgrade --apply i krijon.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Shfaq</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Të gjitha</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ekzekutimet</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Nisur</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Nga</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Pamjet e gjendjes</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Depoja</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Veprimet</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>para</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>pas</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>dërgimi: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Vazhdo</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Tërhiq</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Asnjë ekzekutim në këtë gjendje.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Nisur këtu</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Ekzekutime, vazhdime dhe kthime mbrapsht të nisura në këto faqe, me raportin e secilit.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Çfarë</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultati</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Kthim mbrapsht</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Kthim mbrapsht i %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ekzekutimi %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Çfarë bëri ekzekutimi, regjistrimi dhe ditari i tij. Një ekzekutim i nisur këtu vazhdon në sfond kur kjo faqe mbyllet; hapeni sërish faqen për ta ndjekur.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Vazhdo këtë ekzekutim</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Tërhiq këtë ekzekutim</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Regjistrimi nuk u lexua dot: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ecuria</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Nisur nga %user më %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Po kontrollohet kodi dhe po merret një pamje e gjendjes para ekzekutimit</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Po ekzekutohet %id (%index nga %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done nga %total të kryera</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migrimet u ekzekutuan; po rikthehet pamja e gjendjes nëse njëri dështoi</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Po merret një pamje e gjendjes pas ekzekutimit, po regjistrohet, etiketohet dhe dërgohet</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Po rikthehet pamja e gjendjes</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ekzekutimi përfundoi. Po ngarkohet raporti.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Ecuria nuk u ndoq dot. Ringarkoni faqen për të parë si po shkon ekzekutimi.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Kjo faqe e ndjek ekzekutimin ndërsa zhvillohet.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ringarko</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raporti</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Koha</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisekonda</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Çfarë shtypi ekzekutimi si gabime</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Regjistrimi</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Mjedisi</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>asnjë</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Përfunduar</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Regjistrim (commit)</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Dërgimi</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mesazhi</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migrimet e këtij ekzekutimi</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Burimi</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Ditari i ekzekutimit</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Shfaqet vetëm fundi i ditarit.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>në vazhdim</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>përfundoi pa raport</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>me sukses</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>dështoi</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>u refuzua</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>baza e të dhënave nuk ishte e arritshme</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>gabim i brendshëm</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Një ekzekutim është në vazhdim</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind nisur nga %user më %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Ndiqe</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Instalimi është i kyçur</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Një ekzekutim tjetër mban kyçin (një përditësim ose një ekzekutim në konsolë): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>kryer</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>në pritje</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>nuk nevojitet</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>i panjohur</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>anuluar</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>zbatuar</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>do të zbatohej</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>tërhequr</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>do të tërhiqej</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>pa ekzekutuar</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>pret për një tjetër</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ndryshimi u pranua</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ndryshimi do të pranohej</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simuluar</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrimet</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statusi</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historiku</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Tërhiq %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Një ekzekutim tërhiqet te pamja e gjendjes e marrë para tij, një migrim i vetëm me down() e vet. Rikthimi i një pamjeje më të hershme është për ekspertë. Secili ekzekutohet në sfond si ju, pas një pamjeje të gjendjes aktuale.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Nuk u lexua dot çfarë mund të tërhiqet: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Një ekzekutim</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Një migrim</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Një pamje më e hershme</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Përshkrimi</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>po</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Pamje e gjendjes</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketimi</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Marrë më</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Lloji</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Pjesët për t’u rikthyer</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Baza e të dhënave</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Skedarët e ruajtjes (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Parametrat (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Rikthimi i bazës së të dhënave e çon atë në kohën e pamjes së gjendjes, përfshirë seancat: mund t’ju kërkohet të hyni sërish më pas. Gjithçka e ndryshuar që atëherë humbet; fillimisht merret një pamje e gjendjes aktuale.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>E di çfarë rikthen kjo</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Shkruani sërish id-në e pamjes së gjendjes</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Po, tërhiqe</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anulo</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Ekzekutimet me një pamje gjendjeje të marrë para tyre.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Zgjidh</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Asnjë ekzekutim me pamje gjendjeje ende.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Migrimet e zbatuara që mund të tërhiqen vetë (kanë një down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Asnjë migrim i zbatuar nuk ka down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Pamje më të hershme (ekspertë)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Asnjë pamje gjendjeje ende.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Ekzekuto migrimet</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ekzekutimi vazhdon në sfond si %user, dhe faqja e tij e tregon ndërsa zhvillohet. Para migrimit të parë merret një pamje e gjendjes së instalimit; kur një migrim dështon, ekzekutimi ndalet dhe pamja rikthehet.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Fillimisht provë pa ndryshime</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Gjendja nuk u lexua dot: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Migrimet në pritje</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ekzekutohen në këtë rend. Hiqni shenjën nga njëri për ta lënë atë, dhe ata që e kërkojnë, për një ekzekutim të mëvonshëm.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Ekzekutoje</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Aktivizon mënyrën e mirëmbajtjes gjatë ekzekutimit.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Të ndryshuara pasi u zbatuan</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Këta skedarë nuk janë ata që u zbatuan. Një ekzekutim i refuzon, përveç nëse ndryshimi pranohet me një arsye; nuk ekzekutohen sërish, shuma e re e kontrollit regjistrohet dhe arsyeja ruhet në ditarin e auditimit.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Prano ndryshimet</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Arsyeja</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Vlerat e paracaktuara janë të sigurtat. Çdo kuti lë jashtë një hap.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Pa pamje gjendjeje</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Pa pamje gjendjeje para dhe pas ekzekutimit: një dështim nuk mund të rikthehet automatikisht.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Pa rikthim</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Pas një dështimi, lëre instalimin siç e la dështimi.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Mbaj ndryshimet e paregjistruara</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Ekzekuto edhe pse parametrat, zgjerimet ose dizajnet kanë ndryshime të paregjistruara; ato përfshihen në pamjen e gjendjes.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Pa regjistrim</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Mos regjistro skedarin e gjendjes dhe ditarin e ekzekutimit (as etiketë, as dërgim).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Pa dërgim</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Regjistro dhe etiketo, por mos dërgo.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Pa etiketë</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Regjistro dhe dërgo, por mos e etiketo ekzekutimin.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Po, ekzekuto këto migrime tani</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Asnjë migrim në pritje.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Kthehu te gjendja</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Ndryshime të këtij instalimi të shkruara një herë si skedarë (përmbajtje, klasa, role, parametra, skema) dhe të zbatuara në çdo instalim të sajtit në të njëjtin rend. Një ekzekutim merr fillimisht një pamje gjendjeje, e rikthen kur një migrim dështon, dhe regjistron, bën commit dhe dërgon atë që bëri.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Ekzekuto %count në pritje</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Përmbledhje</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Në pritje</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Të kryera</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Të dështuara</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Të panevojshme</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Baza e të dhënave</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transaksionet: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Migrimet e sajtit janë në migrations/, ato të një zgjerimi në extension/&lt;name&gt;/migrations/. Ekzekutohen sipas rendit të emrave të tyre dhe asaj që kërkojnë.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ekzekutimi i fundit</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Skedari ndryshoi pasi u zbatua.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Asnjë migrim ende. ./console exp:migration:generate --skeleton &lt;name&gt; --apply shkruan të parin.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Ekzekutimet e fundit</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Të gjitha ekzekutimet</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Asnjë ekzekutim ende.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Simulimi i një ekzekutimi kërkon politikën migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Një ekzekutim është në vazhdim: simuloni kur të përfundojë.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurimi</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target nuk është as ekzekutim, as migrim, as pamje gjendjeje e këtij instalimi.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Shënoni fillimisht &quot;Po, tërhiqe&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Rikthimi i një pamjeje më të hershme është për ekspertë: shënoni &quot;E di çfarë rikthen kjo&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Shkruani sërish id-në e pamjes së gjendjes: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Zgjidhni të paktën një pjesë për t’u rikthyer.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ky ekzekutim nuk ka pamje gjendjeje të marrë para tij: tërhiqni migrimet e tij një nga një, ose riktheni një pamje më të hershme.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Ky migrim nuk mund të tërhiqet vetë: nuk është zbatuar, ose nuk ka down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formulari nuk u lexua dot.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Zgjidhni ekzekutimin që do të vazhdohet.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Shënoni fillimisht &quot;Po, ekzekuto këto migrime tani&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Zgjidhni të paktën një migrim.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Një migrim ndryshoi pasi u zbatua: pranoni ndryshimin me një arsye, ose riktheni skedarin.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Jepni arsyen pse pranohen migrimet e ndryshuara.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Arsyeja ka të shumtën 500 karaktere.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Një ekzekutim i nisur këtu është ende në vazhdim (%detail). Prisni të përfundojë.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Një ekzekutim tjetër mban kyçin e instalimit: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Ekzekutimi kërkon një përdorues të identifikuar që ekziston.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nuk u gjet asnjë program php për rreshtin e komandave. Vendosni shtegun e plotë të tij te migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open është i çaktivizuar, ndaj një ekzekutim nuk mund të niset këtu. Ekzekutoni ./console exp:migration:migrate --apply në server.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Në dosjen e ekzekutimeve nuk mund të shkruhet: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Ekzekutimi u nis, por nuk raportoi id-në e procesit të tij. Kontrolloni %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Tregoni çfarë duhet tërhequr.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Ekzekutimi nuk u nis dot.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Regjistrimi i ndryshimeve</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Ndërsa një regjistrim është në vazhdim, ajo që ndryshoni në administrim ose në shiritin anësor të sajtit ruhet si hapa të një migrimi: përmbajtje, klasa, role dhe politika, seksione, përdorues dhe grupe, pseudonime URL, cilësime. Ndalojeni kur të keni mbaruar, shikoni çfarë kapi dhe krijoni prej tij një migrim.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Regjistrimet nuk mund të lexoheshin: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tabelat e regjistrimeve nuk ekzistojnë ende: ekzekutoni fillimisht përditësimin (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Regjistrimi është i çaktivizuar në migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Ndryshimet e mia</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Regjistron vetëm atë që ndryshoni ju, kudo që ta ndryshoni, derisa ta ndaloni.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Regjistrim</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>që nga %time, deri tani %count ndryshim(e).</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etiketë (opsionale)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Shfaq çfarë kapi</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Ndalo regjistrimin</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Fillo regjistrimin e ndryshimeve të mia</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Dritare për të gjithë sajtin</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Regjistron çdo ndryshim të çdo përdoruesi dhe të konsolës derisa të mbyllet. Kur e hapni, ju kërkohet të verifikoni se jeni ju.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>E hapur</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Mbyll dritaren</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Hap dritaren për të gjithë sajtin</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Regjistrimet</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Llogaria e një përdoruesi (emri i hyrjes, e-maili, fjalëkalimi) dhe fushat e llogarive të përdoruesve nuk regjistrohen kurrë.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ndryshime</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>I gjithë sajti</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Ndryshimet e %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>I ndaluar</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Ende asnjë regjistrim.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Regjistrimi %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Të gjitha regjistrimet</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migrimi që do të dilte</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Ndryshimet të bashkuara në një hap për çdo gjë të ndryshuar: çfarë do të bënte një migrim i krijuar nga ky regjistrim.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Prej tij mund të krijohet një migrim kur ky instalim të ketë llojet e hapave YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Lënë jashtë qëllimisht: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Asgjë nuk u regjistrua.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Çfarë kapi</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count ndryshim(e), sipas radhës kur u bënë.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Ndryshim</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Hap</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Ka të bëjë me</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Edhe %count: ./console exp:migration:record:show i liston të gjitha.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hidh poshtë</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Heq regjistrimin dhe atë që kapi. Ajo që u ndryshua mbetet e ndryshuar.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Po, hidhe poshtë këtë regjistrim</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Po regjistrohet…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ndryshimet tuaja regjistrohen për një migrim.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Çdo ndryshim në këtë sajt regjistrohet për një migrim (dritare për të gjithë sajtin).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Regjistrimi i të gjithë sajtit filloi: çdo ndryshim i çdo përdoruesi regjistrohet derisa ta ndaloni.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Regjistrimi filloi: ndryshimet tuaja regjistrohen derisa ta ndaloni.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Regjistrimi u ndal. Ajo që kapi mbetet derisa ta hidhni poshtë.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Regjistrimi dhe ngjarjet e tij u hoqën.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Nuk ka regjistrim %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Shënoni fillimisht «Po, hidhe poshtë këtë regjistrim».</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Vetëm përdoruesi që regjistroi mund të ndalojë një regjistrim sesioni.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Zgjidhni regjistrimin që do të ndalohet.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Një regjistrim i këtij lloji është tashmë në vazhdim.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Regjistrimi nuk mund të ndryshohej: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Gjenero migrimin</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Emri i migrimit (opsional)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migrimi %file u shkrua. Ndryshimet që asnjë hap nuk mund t'i bëjë përmenden në krye të skedarit, për t'u bërë me dorë.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Nuk u shkrua asnjë migrim: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Një ekzekutim i gjatë pjesë-pjesë</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Fushat bosh ruajnë cilësimet e migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Më së shumti kaq migrime</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Asnjë migrim tjetër pas (sekondash)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Pauzë ndërmjet migrimeve (sekonda)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Përparësi më e ulët (1 deri në 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Një fushë e ekzekutimit të gjatë është numër i plotë nga 1 (pauza: sekonda nga 0 deri në 60, përparësia: 1 deri në 19), ose bosh.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Mbyllet vetë në %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Mbylle vetë pas (minutash, opsionale)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minutat janë numër i plotë nga 1 deri në 44640 (31 ditë), ose bosh.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrimi %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Migrim i ri</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Një migrim YAML: shkruaje si tekst ose ndërto hapat e tij në formular, kontrolloje, pastaj ruaje në një dosje migrimesh.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Ky migrim është ekzekutuar tashmë, prandaj nuk ruhet përsëri: një skedar i ndryshuar do të refuzohej nga mbrojtja e shumës së kontrollit. Bëje ndryshimin në një migrim të ri.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Serveri i uebit nuk mund ta shkruajë skedarin.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Rreshtat e komentit në krye janë koka (description, author, requires, environments, engines). Kur një hap shtohet ose ndryshohet në formular, migrimi shkruhet përsëri: komentet ndërmjet hapave nuk ruhen.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Emri i migrimit</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Ku shkon</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Sajti</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Teksti YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kontrollo</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Ruaj</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Hapat</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Çelësat</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Redakto</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Zhvendos lart</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Zhvendos poshtë</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Hiq</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Ende asnjë hap: shto një me formularin ose shkruaji në tekst.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Ndrysho hapin %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Shto një hap</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Formulari i një hapi ndërtohet nga lloji i tij i hapit: çelësat e tij, çfarë merr secili dhe mënyrat të cilave u përket.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Lloji i hapit</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Shfaq formularin e tij</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Hapi ka çelësa që lloji i tij nuk i njeh; ata lihen jashtë kur hapi ndryshohet: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Mënyra</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Në</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>vetëm në %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Parazgjedhja: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Kushtet, referencat dhe komenti</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Çifte Emër=vlerë të ndara me presje. Vlerat e këtij hapi: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Shembull</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Ndrysho hapin</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Shto hap</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Çfarë thotë exp:migration:check: koka, dokumenti dhe çdo hap i kontrolluar nga lloji i tij i hapit.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migrimi e kalon kontrollin.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Pamje paraprake</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML-i siç do të ruhet.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Shfaq YAML-in</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Migrime YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>është ekzekutuar</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Ende nuk ka migrime YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Editor</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Nuk ka migrim YAML %id në dosjet e migrimeve.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Zgjidh një lloj hapi.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Hapi u shtua. Kontrollo migrimin para se ta ruash.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Hapi u ndryshua. Kontrollo migrimin para se ta ruash.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Zgjidh një hap.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Ky hap nuk ka formular (një cikël ose një lloj hapi që ky instalim nuk e ka): ndryshoje në tekst.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Zgjidh ku shkon migrimi: te sajti ose te një zgjerim aktiv.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>U ruajt %file. Bëj një provë pa ndryshime para se të ekzekutohet migrimi.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Nuk u ruajt: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Destinacionet</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Instalimet e tjera te të cilat ky instalim shpërndan migrimet e tij: një shpërndarje dërgon migrimet te destinacionet e zgjedhura dhe i ekzekuton atje, të gjitha njëherësh dhe të sinkronizuara. Një destinacion nuk mban kurrë një sekret: kredenciali i tij emërton një te Konfigurimi &gt; Sekretet.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Destinacion i ri</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ndihmë</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Testi i lidhjes së %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Destinacionet</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Deri në %parallel destinacione përpunohen njëherësh; një fazë mund të zgjasë %timeout sekonda në secilin.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Destinacioni</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kredenciali</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Grupet</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>cilësime për t’u rregulluar</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>vetëm skedarë (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Çelësi SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Fjalëkalimi</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>asnjë (agjenti SSH dhe çelësat e hostit)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Testo lidhjen</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Një shpërndarje te një grup shkon te çdo destinacion i tij.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Shpërndaj te destinacionet</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Ende asnjë destinacion i konfiguruar.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Destinacioni %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Këtu nuk dërgohet e nuk ekzekutohet asgjë: Ruaj i shkruan cilësimet në settings/override/migration.ini.append.php. Kredenciali është një emër; vlera e tij mbetet te Konfigurimi &gt; Sekretet ose në mjedis.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontrolloni këto cilësime</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Cilësimet siç janë futur, ende të paruajtura.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Rishikim</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Cilësimet janë të vlefshme. Do të shkruhen këta rreshta:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Mënyra e dërgimit</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>vetëm një emër; vlera mbetet te Konfigurimi &gt; Sekretet</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Rreshtat që do të shkruhen</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Lidhja</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Çelësi i hostit</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Destinacioni</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Si quhet destinacioni dhe cili mjedis është.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Shkronja, shifra, - dhe _, për shembull production1. Ai e emërton destinacionin në raporte dhe në konsolë (--remotes=production1) dhe nuk mund të ndryshohet më vonë.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Një shpërndarje me etapa i kalon mjediset në këtë radhë.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Opsionale, të ndara me presje, për shembull production. Një shpërndarje te një grup shkon te çdo destinacion i tij.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Lidhja</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Si arrijnë skedarët atje dhe ku ndodhet instalimi.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Përmes SSH, vetëm ajo që ka ndryshuar, një transferim i ndërprerë vazhdohet. Zgjedhja më e mirë kur rsync është i instaluar.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH me scp për skedarët.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH me sftp për skedarët.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Vetëm skedarë: migrimet dërgohen dhe rilexohen, por nuk mund të ekzekutohen atje.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP mbi TLS; vetëm skedarë.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Një instalim tjetër në këtë server, në një dosje.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hosti</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Një emër hosti ose adresë, për shembull node1.example.com. Jo për local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Porti</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Bosh: 22 për SSH, 21 për FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Përdoruesi</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Shtegu</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Rrënja e instalimit atje, për shembull /var/www/site (për FTP: shtegu që sheh llogaria FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Rreshti i komandave PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI atje: php, ose një shteg i plotë si /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Skriptet e konsolës ekzekutohen atje si root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Vetëm kur përdoruesi i destinacionit është root (atëherë ekzekutohen me --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Kredenciali</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Si hyn ky instalim atje. Ruhet vetëm një emër.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Asnjë</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Agjenti SSH dhe çelësat e përdoruesit me të cilin ekzekutohet ky instalim (dhe gjithmonë për local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Një çelës privat i ruajtur si sekret.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Një fjalëkalim i ruajtur si sekret (FTP hyn me të).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Emri i sekretit</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Një sekret nga Konfigurimi &gt; Sekretet, për shembull deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Konfigurimi &gt; Sekretet</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Ose një ndryshore mjedisi</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Ndryshorja e procesit të serverit që e mban, për shembull DEPLOY_KEY (ruhet si env:DEPLOY_KEY). Ajo zë vendin e emrit të sekretit.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Çelësi i hostit</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Opsionale, për SSH, sftp dhe rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Gjurma e çelësit të hostit</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ashtu siç e shfaq ssh-keygen -l. Me të, hosti duhet të tregojë këtë çelës; pa të, çelësi mësohet në kontaktin e parë.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Rishikim</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Testoni lidhjen me cilësimet më sipër, pastaj rishikoni rreshtat që do të shkruhen.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Hiq këtë destinacion</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Cilësimet e tij hiqen nga settings/override/migration.ini.append.php. Asgjë nuk ndryshon te destinacioni, dhe shpërndarjet e tij mbeten në historik.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Po, hiq këtë destinacion</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Shpërndarjet</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Një shpërndarje dërgon migrimet e këtij instalimi te destinacionet e zgjedhura dhe i ekzekuton atje si %user, të gjitha njëherësh dhe të sinkronizuara: çdo destinacion kontrollohet së pari, dhe kur një dështon, çdo destinacion që i zbatoi tërhiqet. Ajo vazhdon në sfond, dhe faqja e saj shfaq çdo destinacion ndërsa ecën.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Destinacionet</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Shënoni destinacione, një grup ose të dyja.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Shpërndaj atje</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Si</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Shpërndaj</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Dërgo dhe ekzekuto</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migrimet dërgohen, verifikohen dhe ekzekutohen në çdo destinacion me një ID të përbashkët ekzekutimi.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Vetëm transferim</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Skedarët dërgohen dhe verifikohen, asgjë nuk ekzekutohet (e vetmja mënyrë për një destinacion FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Me etapa</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Etapë pas etape sipas radhës së mjediseve (dev, stage, beta, production ...): shpërndahet etapa e parë, pastaj një portë pret derisa dikush të miratojë tjetrën. Gjithçka ose asgjë brenda çdo etape.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Vetëm këto migrime</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Opsionale: ID të migrimeve, të ndara me presje. Bosh: çdo migrim i sajtit dhe i shtesave të tij.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Vetëm kontroll paraprak</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Po, shpërndaj tani</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Shpërndarjet që dërguan ose ekzekutuan diçka, më e reja e para (një kontroll paraprak nuk mban raport).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>vetëm transferim</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>me etapa, %stages etapa</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>jo të sinkronizuara</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Ende asnjë shpërndarje.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Shpërndarja %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Çdo destinacion i shpërndarjes me gjendjen e tij. Një shpërndarje e nisur këtu vazhdon në sfond kur kjo faqe mbyllet; hapeni faqen përsëri për ta ndjekur.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Të gjitha shpërndarjet</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Kontroll paraprak</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Etapa tjetër</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Po kontrollohen cilësimet dhe kredencialet</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Kontroll paraprak: po lexohet gjendja e çdo destinacioni</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Po dërgohen skedarët e migrimeve</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Po verifikohet çfarë mbërriti</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Po ekzekutohen migrimet në çdo destinacion</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Po tërhiqen destinacionet</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Shpërndarja përfundoi. Po ngarkohet raporti i saj.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Ecuria nuk mund të ndiqej. Ringarkoni faqen për të parë si po shkon shpërndarja.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Faza</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Kjo faqe e ndjek shpërndarjen ndërsa ecën.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Të sinkronizuara</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Etapat</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>etapa %stage pret në portën e saj</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Porta %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>miratuar nga %user më %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Etapa</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Skedarët e dërguar</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Versioni i kernelit</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>zbatuar: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>për t’u zbatuar: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fazat</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Porta: etapa %stage nga %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Etapat para saj janë shpërndarë. Kontrollojini, pastaj miratoni etapën tjetër: destinacionet e saj kontrollohen përsëri dhe shpërndahen, gjithçka ose asgjë.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Tjetri</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Po, shpërndaj tani etapën tjetër</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Mirato</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Tërhiq këtë shpërndarje</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Çdo destinacion që e zbatoi (%list) kthehet te pamja e gjendjes e marrë para ekzekutimit të tij, të gjitha njëherësh.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Po, tërhiq tani këtë shpërndarje</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>planifikuar</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>transferuar</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>shpërndarë</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>pret në një portë</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>të përzgjedhura</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>përgatitur</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>gati</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>pret për etapën e tij</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>skedarët u dërguan</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>verifikuar</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>dështoi, u rikthye vetë</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>pa ndryshim</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>pa shpërndarë</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>i paarritshëm</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Destinacioni u përgjigj.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Destinacioni nuk mund të përdoret tani.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done të kryera, %pending në pritje, %failed të dështuara</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Kyçja</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>një ekzekutim mban kyçjen atje</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>i lirë</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage nga %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Zgjidhni destinacionin që do të testohet.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Shënoni së pari «Po, hiq këtë destinacion».</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Destinacioni nuk u hoq dot: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Destinacioni nuk u ruajt dot: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Skedari i cilësimeve nuk mund të lexohet: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Zgjidhni të paktën një destinacion ose grup.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Një destinacion i zgjedhur nuk është më në cilësime. Ringarkoni faqen.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Shënoni së pari «Po, shpërndaj tani».</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Një destinacion FTP nuk mund të ekzekutojë migrime: zgjidhni «Vetëm transferim» ose lëreni jashtë.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Migrimet për t’u shpërndarë janë ID migrimesh, të ndara me presje.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Shpërndarja është ende në vazhdim. Prisni derisa të përfundojë.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Kjo shpërndarje nuk pret në një portë.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Asnjë destinacion nuk e zbatoi këtë shpërndarje: nuk ka asgjë për t’u tërhequr.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Shënoni së pari «Po, shpërndaj tani etapën tjetër».</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Shënoni së pari «Po, tërhiq tani këtë shpërndarje».</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Një destinacion me ID-në %id ekziston tashmë.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Porti është një numër nga 1 deri në 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Mjedisi është një fjalë me shkronja, shifra, - dhe _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Një grup është një fjalë me shkronja, shifra, - dhe _ (jo all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Kredenciali nuk mund të lexohet tani: %problem. Ruajeni te Konfigurimi &gt; Sekretet (ose caktoni ndryshoren) para shpërndarjes së parë.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Një destinacion FTP vetëm merr skedarë: një shpërndarje atje është «Vetëm transferim», dhe migrimet e tij ekzekutohen atje me dorë.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Destinacioni %id nuk është në settings/override/migration.ini.append.php; hiqeni aty ku është caktuar.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>U hy përmes FTP dhe u lexua index.php. Gjendja e migrimeve e një destinacioni FTP nuk mund të lexohet.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Modifikuar</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Krijuar</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Emri</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasa</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksioni</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Krijuesi</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Përmbajtja e fundit</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Përmbajtja e krijuar dhe e modifikuar së fundi në të gjithë sajtin, më e reja e para: çfarë kanë dërguar vizitorët, çfarë mbahet për shqyrtim, skica që presin publikimin e tyre. Përzgjidhni elemente për t&apos;i liruar, mbajtur, fshehur, shfaqur, hequr ose zhvendosur në një seksion ose gjendje tjetër.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Lista nuk mund të lexohej: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Mbajtja për shqyrtim nuk është konfiguruar ende, ndaj asgjë nuk mbahet dhe veprimet e mbajtjes nuk ofrohen. Hapi i përditësimit 6.0.15-review-hold e konfiguron: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtroni listën</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Nga</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Deri më</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Krijuar (publikimi i parë)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Të gjitha</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statusi</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>I publikuar</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Skicë, e papublikuar kurrë</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Në pritje (pret miratim ose një datë)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Në kosh</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Mbajtur për shqyrtim</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Mbajtur</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Jo i mbajtur</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>I fshehur</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>I dukshëm</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Dërguar më</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Çdo qasje në sajt</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Vetëm çfarë regjistroi auditimi.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Tani: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Një emër hyrjeje ose një ID përdoruesi.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtro</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Pastro filtrat</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elementet</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from deri %to nga %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Asnjë element</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(lexuar në %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Veprime mbi elementet e përzgjedhura</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Përzgjidh të gjitha në këtë faqe</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count të përzgjedhura</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Veprimi</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Zgjidhni një veprim</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Liro mbajtjen</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Mbaj për shqyrtim</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Fshih</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Shfaq</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Zhvendos në kosh</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Fshi</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Cakto seksionin</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Cakto gjendjen</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Arsyeja</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>E nevojshme për mbajtjen; ruhet me mbajtjen dhe në auditim.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Zgjidhni një seksion</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Gjendja</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Zgjidhni një gjendje</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Zbato te të përzgjedhurat</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Çdo element kontrollohet sipas lejeve tuaja. Zhvendosja në kosh dhe fshirja kërkojnë konfirmimin tuaj. Më shumë se %count elemente ekzekutohen në sfond.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Përzgjidh</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publikimi</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Dërguar nga</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Përzgjidh %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ende jo</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(pa emër)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Skicë</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Në pritje</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>I fshehur nga prindi i tij</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Mbajtur: dërgesë e re</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versioni %version në pritje</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versioni %version në punim</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Skicë, versioni %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versioni %version i publikuar</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Planifikuar për %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>pa adresë</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>i paregjistruar</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Asgjë nuk përputhet me këto filtra.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Shfaq të gjitha</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Ende nuk ka përmbajtje.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Për faqe</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Shfaq %count elemente për faqe.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Adresa dhe shfletuesi i një dërgese vijnë nga indeksi i auditimit, i cili nuk është i disponueshëm këtu: kolona thotë „i paregjistruar”.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adresa dhe shfletuesi janë ato që auditimi regjistroi për elementin (mbajtja automatike i regjistron gjithmonë; publikimi dhe krijimi vetëm aty ku është aktivizuar), ashtu siç i ruajnë cilësimet e tij të privatësisë.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count elemente</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Fshirja i heq elementet përgjithmonë, me të gjitha versionet dhe përkthimet e tyre. Nuk mund të zhbëhet.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Elementet shkojnë në kosh, prej nga mund të rikthehen.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Çdo element kontrollohet sipas lejeve tuaja; një element me nënelemente lihet siç është (hiqeni te struktura e përmbajtjes). Do t&apos;ju kërkohet të verifikoni që jeni ju.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Kjo ekzekutohet në sfond: hapet faqja e ecurisë dhe rezultati për çdo element shfaqet kur të përfundojë.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Elementet e përzgjedhura</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>dhe %count të tjera</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anulo</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Nuk u bë asgjë</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Arsyeja: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Veprimi po ekzekutohet ende në sfond.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ecuria e tij</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Veprimi në sfond dështoi: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>U krye</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>U refuzua</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Dështoi</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Për element</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Elementi</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultati</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Pse</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Kthehu te lista</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurimi</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Asgjë e bërë</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Konfirmo</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Zgjidhni një veprim.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Përzgjidhni të paktën një element.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Përzgjidhni më së shumti 1000 elemente njëherësh.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Tregoni pse mbahen elementet.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Zgjidhni seksionin.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Zgjidhni gjendjen.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formulari nuk mund të lexohej.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Paneli</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Përmbajtja e fundit</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Numërimet nuk mund të lexoheshin: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Mbajtur për shqyrtim</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Të reja sot</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Mbajtja për shqyrtim nuk është konfiguruar ende (hapi i përditësimit 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>E gjithë përmbajtja e fundit</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Nuk keni leje të ekzekutoni veprime moderimi (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Veprimi i moderimit nuk është i plotë: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderimi: %action mbi %count objekte</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done nga %total objekte: %ok të kryera, %refused të refuzuara, %failed të dështuara</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok të kryera, %refused të refuzuara, %failed të dështuara</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Nuk ekziston më.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Nuk ka vendndodhje (i papublikuar).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Nuk keni leje ta fshihni (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Nuk keni leje ta shfaqni (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Është tashmë i fshehur.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Nuk është i fshehur.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>U fsheh.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>U shfaq.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Është në kosh: zbrazeni ose riktheheni atje.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Një skicë që nuk është publikuar kurrë nuk mund të shkojë në kosh: fshijeni.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Nuk keni leje ta fshini (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>U fshi.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Nuk keni leje ta hiqni (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Ka nënelemente: hiqeni te struktura e përmbajtjes, ku ato renditen.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Nuk u hoq (një rrjedhë pune mund ta mbajë heqjen).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>U zhvendos në kosh.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Seksioni nuk ekziston.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Është tashmë në këtë seksion.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Nuk keni leje ta caktoni këtë seksion (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Seksioni nuk u caktua.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Seksioni u caktua.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Gjendja nuk ekziston.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Është tashmë në këtë gjendje.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Nuk keni leje ta caktoni këtë gjendje (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Gjendja nuk u caktua (një rrjedhë pune mund ta mbajë ndryshimin).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Gjendja u caktua.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Nuk ka një veprim të tillë.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Mbajtja për shqyrtim nuk është konfiguruar (hapi i përditësimit 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Tregoni pse mbahet.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Është tashmë i mbajtur.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Nuk keni leje ta mbani (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Mbajtja nuk u vendos (një rrjedhë pune mund ta mbajë ndryshimin).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>U mbajt.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Nuk është i mbajtur.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Nuk keni leje ta lironi (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Mbajtja nuk u lirua (një rrjedhë pune mund ta mbajë ndryshimin).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>U lirua; ende i fshehur: nuk keni leje ta shfaqni (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>U lirua.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Të gjitha destinacionet</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Publikimi i fundit</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publikoni një kopje statike falas të sajtit tuaj në GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Faqe të vjetruara</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publikimi statik</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Publikimi statik është i çaktivizuar.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Destinacioni</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Destinacionet nuk mund të lexoheshin: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>një punë është në vazhdim</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ndërtim për t&apos;u kontrolluar</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>fshihe këtë</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>krijoni një destinacion</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>kurrë</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>lexoni udhëzuesin</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added të shtuara, %changed të ndryshuara, %removed të hequra</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes nga %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count të tjera nuk renditen.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages faqe të shkruara</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ka madhësinë %size, më shumë se sa lejon hosti për një skedar.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % e kufirit</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds sek</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag është publikimi që sajti ka tani.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: puna %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/depoja/ për një sajt projekti GitHub; bosh për një domen të personalizuar ose një sajt përdoruesi.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Sajti</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Hosti</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Hyrja në depo</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Depoja</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Lidhjet dhe shtegu bazë</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Domeni juaj</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Çfarë përmban ndërtimi</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Kur publikohet</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Rishikimi dhe ruajtja</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Një sajt projekti GitHub ndodhet nën /&lt;repository&gt;/; lidhjet relative funksionojnë atje dhe kudo tjetër.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Një ndërtim merr çdo faqe të %site ashtu siç e sheh një vizitor që nuk ka hyrë, rishkruan lidhjet, kopjon skedarët dhe e shkruan rezultatin në dosjen e destinacionit. Asgjë nuk publikohet derisa ta kontrolloni ndërtimin dhe të shtypni Publiko.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Një shprehje cron, për shembull 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Çelësi i vendosjes ruhet si sekreti %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Një çelës vendosjeje i lejon këtij instalimi të dërgojë në një depo të vetme përmes SSH dhe askund tjetër. Gjysma e tij private mbetet te Konfigurimi &gt; Sekretet; shfaqet vetëm gjysma publike.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Një çelës vendosjeje i krijuar për këtë destinacion</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Një çelës vendosjeje hyn përmes SSH: ndryshoni adresën git në atë SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Një punë është në vazhdim, e nisur nga %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Një punë e këtij destinacioni është ende në vazhdim (%detail). Prisni që të përfundojë.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Një punë e këtij destinacioni është ende në vazhdim. Prisni që të përfundojë.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Një lidhje nga faqja /news/ te faqja /about-us/team do të shkruhet si</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>U krijua një çelës i ri vendosjeje. Shtojeni tani gjysmën e tij publike në depo.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Një faqe që pas pastrimit ende përmban dalje korrigjimi, një token formulari ose një identifikues sesioni nuk publikohet kurrë.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Kthimi mbrapsht është për ekspertë: shënoni „E di çfarë ndryshon kjo“ dhe shkruani sërish emrin e etiketës.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Një sajt mund të jetë deri në %site, një skedar deri në %file, me rreth 100 GB trafik në muaj. Në një plan falas depoja duhet të jetë publike. GitHub Pages nuk është menduar për dyqane apo transaksione të tjera tregtare.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Një destinacion është një sajt i publikuar në një depo git. Këtu nuk ndërtohet dhe nuk publikohet asgjë: Ruaj i shkruan cilësimet në settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Një destinacion është një sajt i publikuar në një vend, për shembull sajti juaj publik në GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Një token nga Konfigurimi &gt; Sekretet</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>E publikon një rrjedhë pune (workflow) e depos.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Shtojeni këtë çelës publik në depo me të drejtë shkrimi. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, shënoni Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Të shtuara</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Një host tjetër git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Një proces tjetër po punon me këtë destinacion: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Prapa</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Shtegu bazë</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Më parë</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Nën një shteg bazë</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Dega</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Lidhje të prishura</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Lidhje të prishura në ndërtim</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Ndërtimi</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Ndërtimi %id nga %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Ndërtimi %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Ndërto tani</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Ndërtim për t&apos;u kontrolluar</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Nga</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Me dorë, këtu</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anulo</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Ndrysho</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Të ndryshuara</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ndryshimet</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Kontrollojeni fillimisht</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontrolloni këto cilësime</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Kontrolloni çfarë ndryshon ndërtimi, shikojeni, pastaj publikojeni ose hidheni poshtë.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Zgjidhni publikimin ku do të ktheheni.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Vjen me një version të mëvonshëm.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Regjistrimi</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Regjistrimet</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Regjistron ndërtimin, e etiketon dhe e dërgon në %remote. Dërgimi nuk detyrohet kurrë; mund të ktheheni më vonë te çdo publikim.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Krahasuar me dosjen më parë: %added të shtuara, %changed të ndryshuara, %removed të hequra, %unchanged të pandryshuara.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Krahasuar me publikimin e fundit.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kredenciali</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domen i personalizuar</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Dalja e korrigjimit, token-at e formularëve, identifikuesit e sesioneve dhe nonce-t hiqen gjithmonë.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Çelësi i vendosjes</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Çelësi i vendosjes i %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hidh poshtë</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Hidh poshtë ndërtimin</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domeni</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Bosh: adresa e sajtit. Përndryshe, një adresë e brendshme e të njëjtit sajt.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Përfundoi</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Çdo lidhje fillon me shtegun bazë.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Çdo publikim është një regjistrim me etiketën static/%id/&lt;n&gt;. Kthimi prapa krijon një regjistrim të ri me skedarët e një publikimi të mëparshëm: historiku mbetet, asnjë etiketë nuk lëviz dhe asgjë nuk detyrohet.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Shtesat</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Merr faqet nga</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Skedari</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Skedarët</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Mungojnë skedarë</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Skedarët e</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Skedarë që nuk mund të mblidheshin</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Gjurma</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Dosja</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Për një adresë SSH. Çelësi krijohet pas ruajtjes; ju shtoni gjysmën e tij publike në depo.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Për një adresë https://. GitHub: një token i hollësishëm (fine-grained) me Contents për lexim dhe shkrim në depo.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Për ekspertë. Sajti publik ndryshon sapo të përfundojë dërgimi.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularët</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Pritje falas nga një depo GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Nga dega</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Adresa git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages lejon një sajt prej %site dhe një skedar prej %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Kufijtë e GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages i publikon skedarët ashtu siç janë (e nevojshme për skedarët që fillojnë me _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub e shërben degën ashtu siç dërgohet. Parazgjedhja.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, serveri juaj: çdo depo git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Kthehu te një publikim i mëparshëm</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ndihmë</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Ndihmë me magjistarin</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Fshihi</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historiku</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Historiku i %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hosti</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Si e merr GitHub Pages ndërtimin</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>I kam kontrolluar ndryshimet</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>E di çfarë ndryshon kjo</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Është i çaktivizuar: asgjë nuk mund të ndërtohet derisa të aktivizohet.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Ekzekutohet në sfond si %user; mund ta mbyllni këtë faqe.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Puna %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Ruhet si sekreti %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Lloji</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Publikimi i fundit</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Lëri jashtë këto faqe</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Lëri jashtë këto seksione</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Lidhjet</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Lidhje të rishkruara</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Sajti i drejtpërdrejtë</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Shiko ndërtimin</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Shkronja të vogla, shifra, _ dhe -, për shembull github-public. I jep emrin dosjes dhe etiketave (static/&lt;id&gt;/&lt;n&gt;) dhe nuk mund të ndryshohet më vonë.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Krijo një çelës të ri</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Krijo një destinacion</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Krijo çelësin</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Krijojeni fillimisht depon në host; një depo bosh është në rregull.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifesti</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mesazhi</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Shumica e faqeve</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Emri</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Emri i token-it te Konfigurimi &gt; Sekretet</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Destinacion i ri</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Tjetri</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Jo</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Ende asnjë regjistrim.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Nuk u krijua asnjë çelës: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nuk u gjet asnjë skedar ekzekutues php për rreshtin e komandave. Vendosni migration.ini [AdminSettings] PhpCliPath në shtegun e tij të plotë.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Ende asnjë etiketë.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Ende asnjë destinacion.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Asnjë</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Nuk është në ndërtim.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Ende nuk është publikuar asgjë.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Ende nuk është publikuar asgjë: çdo skedar është i ri.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Njoftimet</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Sipas një orari</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Në konsolë</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Në server: ./console exp:static:serve %id e shërben në të njëjtën mënyrë.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Një shteg për rresht, * përputhet me çdo pjesë: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Me destinacionin ruhet vetëm një emër; vetë token-i ose çelësi mbetet te Konfigurimi &gt; Sekretet dhe nuk shfaqet kurrë në ditar.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Vetëm çfarë përmendin faqet</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Vetëm me token. env:NAME lexon në vend të kësaj një ndryshore mjedisi të serverit.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Hap pamjen paraprake</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Hap ndërtimin ashtu siç do ta shërbejë hosti, nga dosja e destinacionit. Lidhja funksionon për ju për një orë.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Opsionale. Bosh: çfarë u publikua.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Opsionale. Me një domen, sajti shërbehet në rrënjën e tij.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Dalja</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Faqet</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Faqet e destinacionit</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Faqe të refuzuara</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Përpunimi pasues</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Pamje paraprake</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Pamje paraprake dhe publikim</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Pamje paraprake dhe publikim: %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Shiko paraprakisht ndërtimin</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ecuria</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Adresa publike</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Çelësi publik</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publiko</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Publikoni një kopje statike të një sajti në GitHub Pages ose në çdo host git: ndërtojeni, kontrolloni ndryshimet, publikojeni dhe kthehuni te një publikim i mëparshëm kur ju duhet.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publikimi ku do të ktheheni</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publikimet</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Dërgimi</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Lexoni udhëzuesin</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Regjistri</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>I refuzuar</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Lidhje relative</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ringarko</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Të hequra</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Zëvendëso çelësin: i vjetri pushon së funksionuari</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raporti</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Raporti i ndërtimit</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Depoja</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Rishikimi</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Rishikimi kontrollon çdo cilësim dhe tregon rreshtat që do të shkruhen. Ende nuk është ruajtur asgjë.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Tërhiq</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Kthim mbrapsht</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Ruaj</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Orari</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Faqja e kërkimit</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ID-të e seksioneve, të ndara me presje.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Dërgoji te sajti i drejtpërdrejtë</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Cilësimi</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Cilësimet</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Cilësimet e %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurimi</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Konfigurimi &gt; Sekretet</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Shfaqet në lista, për shembull „Sajti publik në GitHub Pages“.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Hyrja me një GitHub App vjen me integrimin e GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Sajti</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Sajti për t&apos;u publikuar</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Madhësia</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Madhësia dhe kufijtë</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Madhësia e ndërtimit</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Faqe të vjetruara</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Filloi</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Nisur nga %user në %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Gjendja</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publikimi statik</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Publikimi statik është i çaktivizuar</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Publikimi statik është i çaktivizuar.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Publikimi statik është i çaktivizuar. Aktivizojeni fillimisht te Konfigurimi &gt; Publikimi statik.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Publikimi statik është i aktivizuar.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Hapi %step nga %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Hapat</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Pastrimi</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Çaktivizo</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Aktivizo</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Aktivizo publikimin statik</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Etiketat</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Destinacioni</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Destinacionet mund të krijohen dhe ndryshohen, por asgjë nuk ndërtohet ose publikohet derisa të aktivizohet.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>U tregon motorëve të kërkimit çfarë të lexojnë.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Ndërtimi nuk mund të hidhej poshtë: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Ndërtimi është i njëjtë me publikimin e fundit: nuk ka asgjë për të publikuar.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Ndërtimi u hodh poshtë: dosja përmban sërish publikimin e fundit.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Vlerat e parazgjedhura u përshtaten shumicës së sajteve.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Dosja përmban një ndërtim që ende nuk është publikuar; një ndërtim i ri e zëvendëson.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Në dosjen e punëve nuk mund të shkruhet: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Puna nuk mund të përgatitej: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Puna nuk mund të nisej.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Puna përfundoi. Po ngarkohet raporti i saj.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Puna ka nevojë për një përdorues të identifikuar.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Puna u nis, por nuk raportoi identifikuesin e procesit të saj. Kontrolloni %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Çelësi</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Skedari më i madh: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Rreshtat që do të shkruhen</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Lista e faqeve për motorët e kërkimit; kërkon adresën publike.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Faqet merren ashtu siç i sheh një vizitor që nuk ka hyrë. Aksesi i administrimit dhe i redaktimit nuk ofrohen kurrë.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Ecuria nuk mund të ndiqej. Ringarkoni faqen për të parë si po ecën puna.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Gjysma publike e çelësit:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Rrënja e degës</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Depoja e sekreteve ende nuk është konfiguruar (./console exp:upgrade --apply krijon tabelën e saj), prandaj nuk mund të ruhet asnjë çelës.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Serveri hyn vetë (me çelësin e vet SSH ose ndihmësin e kredencialeve), ose depoja ndodhet në këtë server.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Cilësimi nuk mund të shkruhej: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Cilësimet janë të vlefshme. Do të shkruhen këta rreshta:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Skedari i cilësimeve nuk mund të lexohet: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Sajti kthehet te skedarët e atij publikimi; një ndërtim ende i papublikuar duhet fillimisht të publikohet ose të hidhet poshtë.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Faqja e vetë sajtit për adresat që nuk ekzistojnë.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Destinacioni nuk mund të ruhej: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Destinacioni ende nuk hyn me këtë çelës: zgjidhni „Një çelës vendosjeje i krijuar për këtë destinacion“ te cilësimet e tij.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Destinacionet nuk mund të lexoheshin: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Ende nuk ka asnjë ndërtim për t&apos;u kontrolluar.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Ky instalim nuk ka akses sajti publik. Aksesi i administrimit dhe i redaktimit nuk publikohen kurrë.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Kjo faqe e ndjek punën ndërsa ecën; ajo vazhdon në sfond kur faqja mbyllet.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Ky destinacion ende nuk ka çelës vendosjeje.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Ky destinacion ende nuk është ndërtuar këtu.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Ky destinacion ka një të tillë.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>E hedh poshtë këtë ndërtim: dosja përmban sërish publikimin e fundit. Sajti i drejtpërdrejtë nuk ndryshon.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Shënoni fillimisht „I kam kontrolluar ndryshimet“.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Koha</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Shkaktuesit</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Shkruani sërish emrin e etiketës</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Të pandryshuara</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Çfarë</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Çfarë ndryshon</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Çfarë është secili skedar; shkruhet gjithmonë.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Çfarë bëri puna dhe regjistri i saj. Një punë e nisur këtu vazhdon në sfond kur kjo faqe mbyllet.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Çfarë shtypi puna si gabime</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Çfarë përmendin faqet, dhe çdo imazh i përmbajtjes së publikuar</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kur</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Kur një publikim dështon</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Kur një publikim ka sukses</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Kur publikohet përmbajtje</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Ku shkojnë lidhjet drejt asaj që kopja nuk përmban (kërkimi, hyrja).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Nga ku shërbehet kopja statike.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Cili sajt publikohet dhe si quhet destinacioni.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Funksionon nën çdo shteg. Parazgjedhja.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Shkruhet sa herë që vendoset një domen i personalizuar.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Po</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Gjithmonë mund të ndërtoni dhe publikoni me dorë këtu dhe në konsolë.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>vetëm një emër; vlera mbetet te Konfigurimi &gt; Sekretet</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>nën %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>përfundoi pa raport</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>shtesë</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>dështoi</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>skedar</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, ose main me dosjen docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>host git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (me token) ose git@github.com:owner/repo.git (me çelës vendosjeje); kurrë me fjalëkalim ose token brenda.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, për hartën e sajtit dhe lidhjet kanonike.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>imazh</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>kurrë</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>pa depo të largët</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>asnjë: regjistrimet mbeten në dosje</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>asnjë: asgjë nuk ndryshoi</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>i padërguar</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>asgjë nuk ndryshoi</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>faqe</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>kaloi</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open është i çaktivizuar, prandaj këtu nuk mund të niset një punë. Përdorni ./console exp:static:build në server.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>publikim</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>i publikuar</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>dërgim në pritje</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>i dërguar</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>i refuzuar</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>lidhje relative</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>kthim mbrapsht</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>i kthyer mbrapsht</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>në ekzekutim</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>vetëm dosja</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: shkruhet në skedarin CNAME. Drejtojeni DNS-në e domenit te hosti siç e shpjegon ai; HTTPS mund të kërkojë pak kohë për t&apos;u nisur.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>po, ende i papublikuar</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Një GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>E publikon një rrjedhë pune e depos. Ndërtimi shkruan skedarin e rrjedhës së punës; lëreni dosjen bosh.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Pasi të ruani një destinacion me një depo GitHub dhe një token ose GitHub App, ky hap mund ta krijojë depon dhe të aktivizojë GitHub Pages. Përndryshe krijoni fillimisht depon në GitHub; mjafton një bosh.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Degë apo GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Kontrollo DNS-në</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Krijo depon nëse nuk ekziston</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Krijoni depon në GitHub dhe aktivizoni GitHub Pages te cilësimet e saj (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Krijon depon %repo kur mungon (kur kërkohet), aktivizon GitHub Pages nga dega ose nga GitHub Actions siç është ruajtur dhe cakton domenin e personalizuar dhe HTTPS. Përdor cilësimet e ruajtura: ruani fillimisht ndryshimet.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Hollësi në GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Jepni fillimisht domenin e personalizuar.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Çdo dërgim kontrollohet fillimisht kundrejt këtyre kufijve.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Për një adresë https:// në GitHub. Hyn App-i i konfiguruar për këtë instalim; i nevojitet id-ja e instalimit.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages shërben një depo private vetëm me një plan me pagesë.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: një nëndomen (www.example.com) ka nevojë për një regjistrim CNAME drejt &lt;owner&gt;.github.io; një domen rrënjë (example.com) për regjistrimet A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id-ja e instalimit të GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Ndërtimi i fundit i Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Kufij dhe kushte</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>E nevojshme për GitHub Pages me një plan falas.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Në GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Vetëm me një GitHub App: numri në fund të adresës së instalimit të App-it në GitHub. Vetë App-i caktohet në staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Private</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Publike</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Ruani fillimisht destinacionin me një depo GitHub dhe një token ose GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Caktoni këto regjistrime te ofruesi i domenit:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Konfiguro në GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS-ja e %domain nuk drejton ende te GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS-ja e %domain drejton te GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Integrimi i GitHub nuk është i disponueshëm këtu: %problem. Publikimi në degë funksionon njësoj; aktivizoni GitHub Pages te cilësimet e depos.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Hapat e GitHub nuk janë të disponueshëm për këtë destinacion: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Gjendja e GitHub Pages shfaqet me një token ose GitHub App si kredencial.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Përdorni domenin tuaj</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Çfarë të zgjidhni: token, çelës vendosjeje apo GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Me një depo GitHub dhe një token ose GitHub App, magjistari mund ta krijojë depon, të aktivizojë GitHub Pages dhe të caktojë domenin për ju (hapi 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>po ndërtohet</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>u ndërtua</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>nga GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>nga dega %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ende asnjë</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>nuk u gjet</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>joaktive</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>private</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>publike</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>në radhë</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>e panjohur</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count në %pages faqe:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Një .gz (dhe .br) pranë çdo skedari teksti, për hostet që i shërbejnë.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Një faqe e vogël për çdo adresë të vjetër dhe pseudonim të një faqeje, që lidhjet e vjetra të vazhdojnë të funksionojnë.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Shkruhet gjithmonë kur GitHub Actions e dorëzon sajtin.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Një id SPDX si CC-BY-4.0, ose vetë teksti.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Shporta</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Thirrjet te serveri</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentet</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formularë që mbledhin informacion</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Rrjedha e punës GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Më pak hapësira të bardha dhe pa komente në faqe.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Licenca e përmbajtjes</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Hyrje</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minifiko</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Formularë të tjerë</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Parangjesho</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Faqe ridrejtimi</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Faqe ridrejtimi: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Kërko</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Indeksi i kërkimit: %pages faqe në %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Stile dhe skripte të emërtuara sipas hash-it të përmbajtjes, që shfletuesit t'i ruajnë.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Faqet e ndryshuara, disa minuta pas ndryshimit të fundit (pjesa cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Licenca e përmbajtjes, nga fusha më poshtë.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>I gjithë sajti, në kohët e orarit (pjesa cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Këto pjesë të faqeve kanë nevojë për server; secila ka marrë një zëvendësim. Kontrolloji përpara se të publikosh.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Çfarë nuk funksionon statikisht</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Çfarë është depoja, për këdo që e hap në host.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>lënë jashtë</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>teksti zëvendësues</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>pika e formularëve e sajtit të drejtpërdrejtë</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>sajti i drejtpërdrejtë</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>faqja e kërkimit e kopjes</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formulari nuk mund të dërgohej.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Faleminderit: formulari u dërgua.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Formulari nuk u pranua: kontrollo çfarë shkruajte dhe dërgoje përsëri.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Hiq lidhjet drejt faqeve që kopja nuk i përmban</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Hiq lidhjet drejt administrimit</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Teksti i tyre mbetet. Figurat, formularët dhe lidhjet drejt sajteve të tjera nuk hiqen kurrë.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versioni</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Qasjet në sajt për botim</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Qasja në sajt</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Në rrënjë</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Asnjë qasje në rrënjë: secila është në dosjen e vet, dhe rrënja lidhet me to</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Qasjet në sajt</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Shënoni një qasje në sajt, ose disa që ndajnë një host përmes prefiksit të tyre URI. Ajo në rrënjë shërbehet atje, të tjerat në dosjen e prefiksit të tyre (/ger/); lidhjet mes tyre mbeten në kopje. Qasjet e administrimit nuk ofrohen kurrë.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Publikimi statik i %target dështoi në %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Publikimi statik i %target pati sukses në %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Ky email u dërgua nga %site sepse e kërkon objektivi i publikimit statik %target.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Shpërndarja %deploy dështoi në %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Shpërndarja %deploy pret te një portë në %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Shpërndarja %deploy pati sukses në %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Ky email u dërgua nga %site sepse migration.ini [RemoteSettings] Notify[] e kërkon.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Tipet e të dhënave (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Numëruar %time, sërish pas %minutes minutash</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Një tip i të dhënave ruan dhe redakton një lloj vlere të një atributi të klasës: një rresht teksti, një imazh, një lidhje. Shumicën i sjell kerneli, zgjerimet shtojnë të tjera. Këtu janë të gjitha, kush i ofron dhe sa përmbajtje i përdor. Një tip i të dhënave që baza e të dhënave e përdor, por që asgjë nuk e regjistron më, prish përmbajtjen që e ka.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Grupet e klasave</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Numëro sërish tani në vend që të përdorësh numërimet e minutave të fundit.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Numëro sërish</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Pasqyra</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Regjistruar</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Në përdorim</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>I papërdorur</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Zgjerimet që ofrojnë tipe të dhënash</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Atributet e klasës</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Atributet e objektit</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>I paregjistruar</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Në listë, skedari mungon</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count tipe të dhënash përdoren, por nuk janë të regjistruara</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes atribute klase dhe %object_attributes atribute objekti kanë një tip të dhënash që nuk e regjistron asnjë zgjerim apo cilësim. Objektet e tyre nuk mund të shfaqen, redaktohen ose publikohen. Aktivizo zgjerimin që ofron tipin e të dhënave ose ndrysho klasën.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Shfaq vetëm këto</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Gjej një tip të dhënash</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifikuesi, emri, klasa PHP ose zgjerimi.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Shfaq</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Të gjitha</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Ofruar nga</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Të gjithë</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kerneli</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Asnjë tip të dhënash nuk përputhet me këtë filtër.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Shfaqi të gjitha</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Zgjerimi</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown nga %count tipe të dhënash, %used në përdorim</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Baza e të dhënave ka atribute klase ose objekti të këtyre tipeve të të dhënave, por content.ini nuk liston asnjërin prej tyre, ose skedari i tij mungon.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Tipet e të dhënave të %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Tipi i të dhënave</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Klasa PHP dhe skedari</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klasat</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objektet</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Shenjat</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>asnjë</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Asnjë tip të dhënash nuk përputhet me kërkimin. Pastro kërkimin.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown nga %count tipe të dhënash të shfaqura</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Tipe të dhënash të shfaqura: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Rendit sipas kolonës %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Numëruar %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Të gjitha tipet e të dhënave</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Faqja e ndihmës</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Ky tip i të dhënave përdoret, por nuk është i regjistruar</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Objektet e klasave më poshtë nuk mund të shfaqen, redaktohen ose publikohen derisa asnjë zgjerim nuk e regjistron tipin e të dhënave. Aktivizo zgjerimin që e ofron dhe shtoje te content.ini [DataTypeSettings] AvailableDataTypes[], ose ndrysho klasat.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini e liston këtë tip të dhënash, por asnjë drejtori tipesh të dhënash nuk ka skedarin e tij. Asgjë nuk e përdor; hiqe nga AvailableDataTypes[] ose aktivizo zgjerimin e tij.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Rreth këtij tipi të dhënash</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifikuesi</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Emri</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Zgjerimi %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>askush</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Klasë PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Skedari</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Në AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>po</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Kolonat e vlerës së tij</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Kolonat e cilësimeve të atributit të tij të klasës</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabelat</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Kolonat dhe tabelat gjenden duke lexuar kodin e tipit të të dhënave: një udhëzim, jo një premtim.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Shabllonet</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Qasja në sajt</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Shablloni</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Gjetur në</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>kjo administratë</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>sajti i parazgjedhur</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Pa mbishkrime: një shabllon mbishkrimi i përputhur sipas klasës ose atributit ka përparësi ndaj këtyre.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klasat që e përdorin (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Asnjë klasë nuk ka atribut të këtij tipi të dhënash.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasa</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atributet</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Atributet e klasës (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atributi</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Cilësimet</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>I detyrueshëm</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>I kërkueshëm</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>I përkthyeshëm</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Mbledh informacion</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Pak përmbajtje që e përdor</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Të ndryshuarat së fundi në fillim</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modifikuar</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nyja %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Çdo përkthim ka vlerën e vet.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Kërkimi indekson vlerat e tij.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Mund të mbledhë informacion nga vizitorët (formularë).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Listat mund të renditen sipas tij: çelësi i renditjes %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>I renditshëm</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Vlerat e tij tregojnë drejt objekteve të tjera.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Ndërlidhjet</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Mund të mbushet nga një tekst i thjeshtë (importim, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Nga teksti</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Mund të mbushet nga një skedar.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Nga skedari</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Cilësimet e atributit të tij të klasës shkojnë në paketa.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paketat</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Përmbajtja (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from deri në %to nga %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtroni listën</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Të gjitha klasat</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksioni</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Gjuhët</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Pronari</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>I publikuar</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Përmbys renditjen</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Asnjë element</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Për faqe</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Shfaq %count elemente për faqe.</translation>
     </message>
 </context>
 </TS>

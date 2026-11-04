@@ -86,8 +86,8 @@ braucht, um weiter zu funktionieren, oder sich ungefragt anders verhält. Insbes
 - Die Kernel-Version steht in `lib/version.php` (`VERSION_MAJOR = 6`, `VERSION_MINOR = 0`, `VERSION_RELEASE = 15`)
   und in der Datenbankzeile `ezsite_data` `ezpublish-version`, die das Update-SQL schreibt (zum Beispiel
   `6.0.15stable`).
-- Releases der Reihe 6.0 werden mit `v6.0.<n>` getaggt. Der neueste Tag im Repository ist `v6.0.14`; die Reihe 6.0.15
-  ist in Entwicklung und hat noch keinen Tag ([Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md)).
+- Releases der Reihe 6.0 werden mit `v6.0.<n>` getaggt. Die aktuelle Reihe ist 6.0.15; sie folgt auf `v6.0.14`, und
+  ihr Tag ist `v6.0.15` ([Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md)).
 - **Nur die letzte Stelle zählt weiter.** Nach `x.y.9` kommt `x.y.10`, nie `x.(y+1).0`; eine höhere Stelle zu
   verändern ist eine Entscheidung darüber, was das Release bedeutet. Tags werden mit
   `git tag -l 'v*' --sort=version:refname` (oder `sort -V`) sortiert, weil eine einfache Namenssortierung `0.1.10` vor
@@ -161,7 +161,7 @@ Reihenfolge laufen:
    `velocity.ini [DeploySettings] PhpFpmService`, ausgeliefert mit `auto`), und starten Sie Velocity neu
    (`./console exp:velocity restart`), dessen Worker die beim Aufwärmen geladenen Klassen behalten.
 5. **Die Seiten-Caches zuletzt leeren**: den Cache der Inhaltsansichten (`--clear-id=content`), den HTTP-Cache und den
-   Antwort-Cache von Velocity (`./console exp:velocity cache clear`). Werden sie vor Schritt 4 geleert, kann alter Code
+   Antwort-Cache von Velocity (`./console exp:velocity cache clear --apply`). Werden sie vor Schritt 4 geleert, kann alter Code
    eine Seite erneut zwischenspeichern.
 
 `./console exp:velocity deploy` führt all das in der richtigen Reihenfolge aus (vierzehn Schritte, PASS, FAIL oder SKIP
@@ -199,8 +199,8 @@ keinen Neustart.
 
 ### Bekannte Lücken
 
-- Die Datenbank-Updatedateien werden von Hand angewendet; es gibt keinen Migrations-Runner, der festhält, welche
-  Anweisungen gelaufen sind.
+- Von Hand angewendete Datenbank-Updatedateien hinterlassen keine Aufzeichnung, welche Anweisungen gelaufen sind;
+  `exp:upgrade` und die Migrationen (`exp:migration:migrate`, 6.0.15) wenden jeden Schritt an und halten ihn fest.
 - `exp:velocity deploy` deckt PHP-FPM und Velocity auf einer Maschine ab; mehrere Webserver werden einer nach dem
   anderen ausgerollt.
 

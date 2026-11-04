@@ -985,6 +985,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Haec sola pagina quaeritur: %from ad %to ex %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Omnia genera datorum nuclei et extensionum, et quomodo classes et contenta ea adhibeant.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Genera datorum</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2317,6 +2325,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Etiam paginae systematis signari possunt: paginam aperi (Configuratio, vestigia inspectionis, index usorum ...) et supra eam "Hanc paginam signare" elige. Talia signacula imaginem rotae dentatae habent.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Hanc paginam hic iam aperire tibi non licet. Signaculum remove, aut administratorem aditum roga.</translation>
     </message>
 </context>
 <context>
@@ -5166,6 +5178,210 @@
         <source>Go to the first page</source>
         <translation>Ad primam paginam ire</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Aliud</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Ultimi 7 dies</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Spatium proprium</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Omnia verba</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Quodvis verbum</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Locutio exacta</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Congruentia</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Nomen A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Nomen Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Mutatum, recentissima prima</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Mutatum, antiquissima prima</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Editum, recentissima prima</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Editum, antiquissima prima</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Mutatum</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtra</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Filtra ostendere</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Filtra celare</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ad initium reducere</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Adhibere</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Verba</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Genus contenti</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Plura ostendere (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Unum genus contenti elige, ut in uno eius attributorum quaeras.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sectio</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ex</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Usque ad</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Dies initii non est dies validus.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Dies finis non est dies validus.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Possessor</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID usoris, nomen inscriptionis vel inscriptio electronica.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Nullus usor inventus est pro “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lingua</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Quaevis lingua</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Locus</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count loci</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Inventa per paginam</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Inventa pro “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Inventa (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Ordinare secundum</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Ordinare</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Filtra activa</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Hoc filtrum removere</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Vel filtra elige et adhibe, ut contenta congruentia enumerentur.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Filtra quaestionem coartant, postquam verba scripseris.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Nulla inventa sunt pro “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Nulla inventa sunt.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Filtrum supra remove.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Translationes</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Actiones</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name recensere</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Recensere</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8004,8 +8220,8 @@
         <translation>Notae de iure auctorum originalium et programmatum tertiarum partium cum Exponential inclusorum in fasciculis fontium et in fasciculo LICENSE servantur, ut licentia postulat.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Sequitur index contributorum Exponential qui opus suum 7x ad usum licentiaverunt secundum condiciones eZ Systems Contributor Licensing Agreement. Ut hoc pactum permittit, 7x quamque contributionem sub eadem licentia redistribuit ac fasciculum in quo contributio inclusa est. Index quemque contributorem nominat, notitiam contactus facultativam et fasciculos quos contribuerunt aut ad quos opus contribuerunt.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Contributores qui ob opus suum in Exponential et in programmate unde ortum est nominantur, cum fasciculis quibus contulerunt. Haec est agnitio, non nota iuris auctoris: collationes ad Exponential cedunt Exponential Foundation et 7x secundum Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13827,32 +14043,20 @@ Nota: institutio sarcinarum non revocabitur.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition explorare&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Socius Communitatis Exponential fieri, communicare et conferre&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; et alii.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Fultum a &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Plura vide in &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; et alii.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Plura vide in &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; et alii.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential (a 7x) explorare&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Socius Communitatis Exponential fieri, auxilium accipere et conferre&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; et alii.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13861,6 +14065,61 @@ Nota: institutio sarcinarum non revocabitur.</translation>
     <message>
         <source>Help center</source>
         <translation>Centrum auxilii</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Contenta</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Paginae documentorum</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Usores</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Classes contenti</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administratio</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Pagina %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Omnia inventa videre</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count inventa</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Unum inventum</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count suggestiones</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Nullae suggestiones</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Suggestiones onerari non potuerunt.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Suggestiones</translation>
     </message>
 </context>
 <context>
@@ -14329,6 +14588,14 @@ Nota: institutio sarcinarum non revocabitur.</translation>
         <source>Nothing new</source>
         <translation>Nihil novi</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Instrumenta tua</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Acta securitatis</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14618,6 +14885,14 @@ Nota: institutio sarcinarum non revocabitur.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Duces, quaestio et quomodo errorem nunties.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Contentum recens</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Contentum novissimum, quae ad recognitionem retinentur, et actiones in selectionem.</translation>
     </message>
 </context>
 <context>
@@ -15076,6 +15351,46 @@ Nota: institutio sarcinarum non revocabitur.</translation>
         <source>Synchronisations</source>
         <translation>Synchronizationes</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>API GraphQL: punctum finale, schema et area ludi ad quaestiones temptandas.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrationes</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Mutationes installationis ut fasciculi servatae: earum status, cursus, exsecutio et revocatio.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Contentum recens</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Contentum novissimum, quae ad recognitionem retinentur, et actiones in selectionem.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Exemplar staticum situs in GitHub Pages vel in quolibet hospite git publica.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicatio statica</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Genera datorum</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Omnia genera datorum nuclei et extensionum, et quomodo classes et contenta ea adhibeant.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15240,6 +15555,22 @@ Nota: institutio sarcinarum non revocabitur.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Rationes quibus nemo utitur aut quae inspici debent; eas inactivare, reserare aut exportare.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Acta inspectionis usorum</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Quis mutaverit, intraverit vel repulsus sit, per rationes; filtrare et exportare.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Relatio introituum</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Qui intraverint, introitus et defectus in singulos dies; usorem ubique exire cogere.</translation>
     </message>
 </context>
 <context>
@@ -22056,6 +22387,22 @@ Nota: institutio sarcinarum non revocabitur.</translation>
         <source>%n hours ago</source>
         <translation>ante horas %n</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Responsa quaestionum servatarum API GraphQL, et classes contenti schematis eius.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Exemplar staticum in GitHub Pages vel in quolibet hospite git publica</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicatio statica</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Promptuarium staticum paginas ex hoc servitore praebet. Ut exemplar staticum situs alibi publices, in GitHub Pages vel in quolibet hospite git, publicatione statica utere.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25597,6 +25944,10 @@ Nota: institutio sarcinarum non revocabitur.</translation>
     <message>
         <source>last purge</source>
         <translation>ultima purgatio</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Scriptiones seram status capere non potuerunt (ultimum %date): quaeque omnes eventus in cella servatos obsoletos fecit. %file ab omni usore, sub quo situs currit, scribi debet; in NFS NFSv4 aut lockd requirit.</translation>
     </message>
 </context>
 <context>
@@ -33545,6 +33896,14 @@ Nota: institutio sarcinarum non revocabitur.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Sessiones exspiratae tractatoris PHP ab ipso PHP removentur (session.gc_maxlifetime), non ab hac pagina neque a parte session_gc operis statuti.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Sessiones apertae omnium usorum in relatione introituum enumerantur et clauduntur, quae cum quovis tractatore sessionum operatur.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Relationem introituum aperire</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37869,6 +38228,26 @@ rationem tuam activeres.</translation>
     <message>
         <source>None yet</source>
         <translation>Nullae adhuc</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Acta securitatis</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Introitus tui recentes, conatus irriti et mutationes tesserae, inscriptionis electronicae et introitus duorum graduum.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Introitus recentes, conatus irriti et mutationes securitatis huius rationis.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Acta inspicere</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Introitus irriti: %count</translation>
     </message>
 </context>
 <context>
@@ -44035,6 +44414,42 @@ Si commentaria approbatori mittere aut statum inspicere vis, URL infra adhibe.</
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Post introitum usor novam tesseram eligere debet, antequam quidquam aliud faciat. Hoc utere, cum alicui tesseram temporariam das.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Imaginem exstantem elige</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Fasciculus imaginis rei quam eligis in hunc campum transcribitur. Altera res non mutatur.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Imago rei "%name" in hunc campum transcripta est.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Imagines perlustra</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Imagines nomine quaere</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Quaerere</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Imagine rei "%name" utere</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Hac imagine utere</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Nulla imago quaesitioni tuae respondet.</translation>
     </message>
 </context>
 <context>
@@ -50959,6 +51374,10 @@ Plura vide in pagina postulatorum.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab scriptum non est (%reason). Has lineas in crontab usoris sub quo situs currit adde, aliter ordo exspectationis, importationes, notificationes et index quaestionis numquam currunt:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Iterum instituitur kickstarter adhibito (%file, deinde php bin/php/kickstarter.php run --apply) aut nova institutione.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54838,6 +55257,10 @@ rationem tuam activeres.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Promptuarium publicum compressoris eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Memoria temporaria GraphQL (responsa et classes schematis)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54924,6 +55347,14 @@ rationem tuam activeres.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Exemplar classis %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Genera datorum</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Genus datorum %string</translation>
     </message>
 </context>
 <context>
@@ -55750,6 +56181,26 @@ rationem tuam activeres.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Imago SVG legi non potuit, aut nihil in ea tuto ostendi potest.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Imago transcribi non potuit. Iterum conare, aut administratorem situs, quaeso, adi.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Res electa non exstat aut eam legere tibi non licet.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Res electa imaginem non habet.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Fasciculus imaginis rei electae legi non potuit.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Imago rei electae maior est quam hic campus permittit: %1 octeti.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56280,6 +56731,42 @@ rationem tuam activeres.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Signaculum renominatum est: "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Haec pagina in hoc aditu situs (%siteaccess) exstincta est. Signaculum in aditu situs aperi qui eam habet.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Modulus huius paginae hic non est institutus aut non est activatus.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Haec pagina iam non exstat: modulus eius talem visionem non habet.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Nullum munus tuum tibi permittit hanc paginam aperire.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Hoc aditu situs uti tibi non licet.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Contenta quae haec pagina ostendit legere tibi non licet.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Hoc genus paginae signaculo notari non potest: tantum in formulam agit, aut pagina unius momenti est.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Inscriptio huius paginae deest.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Haec pagina nunc aperiri non potest.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56751,6 +57238,10 @@ Classem nodi functione permutandi mutare debebis.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Vector epistularum in ultimo cursu nuntios recusavit: %count. Servitrum epistularum et site.ini MailSettings inspice.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Eventus exspectantes: %count, neque ulla actio operis statuti monitionum notata est. Partem operis statuti &quot;frequent&quot; in crontab adde, aut exsequere exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63007,6 +63498,10 @@ Classem nodi functione permutandi mutare debebis.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Alium situm vel sectionem selectore nodorum eligere</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Solus administrator systematis possessorem mutare potest: exsequere ./console exp:content-check --fix-permissions --apply ut root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64540,6 +65035,10 @@ Classem nodi functione permutandi mutare debebis.</translation>
     <message>
         <source>empty</source>
         <translation>vacua</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Clavis signandi plus quam annum habet: eam muta per exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -66920,6 +67419,486 @@ Classem nodi functione permutandi mutare debebis.</translation>
         <source>Share of page time</source>
         <translation>Pars temporis paginae</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>plena redditio petita est</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>promptuarium paginarum paginam non habuit (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>promptuarium paginarum non respondit</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Redditum</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>A nucleo redditum: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Ex promptuario paginarum praebitum intra %ms ms. Pagina tempore %stored servata est redditione %render ms, ante %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Nunc reddere</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Redire ad visionem ex promptuario</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Ex redditione tempore %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Haec petitio: ex promptuario paginarum praebita intra %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Usor</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID usoris</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profilum promptuarii</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Hic aspectus</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Promptuarium visionum</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>per usorem (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profilum promptuarii usoris: usores eodem profilo fasciculos promptuarii aspectuum communicant</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ita</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>non</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Nomen usoris</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Ingressus</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sessio</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Partes clavis promptuarii aspectus contenti quae ab usore pendent, prorsus ut clavis eas sumit, sub ViewCacheTweaks huius paginae. Usores eodem profilo fasciculos promptuarii aspectuum communicant, nisi partes ipsius aspectus differunt (praeferentiae, claves auscultatorum): illi profilum suum habent, huic paginae tantum.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profilum</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Hic aspectus (nodus %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: quisque usor ingressus suos fasciculos promptuarii habet.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks vigentes: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Pars</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Valor</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Nulla pars ab usore pendet (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>hic aspectus</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Ut textum exscribere</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Munera</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Nullae attributiones munerum legi potuerunt.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID muneris</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Munus</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Limitatio</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Attributum</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>usori</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grex %name (obiectum %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Exscriptum</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Exscribi non potuit.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ab auscultatore omissum</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Visitatores anonymi</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>idem ac tuum</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>diversum</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profilum quod visitatores anonymi sub eisdem ViewCacheTweaks accipiunt, cum praeferentiis praedefinitis, sine partibus aspectus: auscultator qui sessionem legit de eis interrogari non potest.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Praeferentiae</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Nullus modus aspectus a praeferentiis usoris pendet (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Praeferentiae a quibus aspectus horum modorum pendent (CachedViewPreferences), cum valore usoris aut praedefinito. In profilo sunt ut userpreferences, omnium modorum aspectus simul.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Modus visionis</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Praeferentia</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Praedefinitum</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Regulae</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Regulas munerum ostendere (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Regulae e servitore onerantur cum haec sectio aperitur, singulis paginis, et per modulum et functionem eligi possunt.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Functio</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Omnes moduli</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Omnes functiones</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Limitationes</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Plura ostendere</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Haec munera regulas non habent.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Nulla regula filtro congruit.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown ex %matching regulis (%total in summa)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Oneratur cum aperitur.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>modulus/functio, munus, limitatio</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Quaere in normis</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Plura onera</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modulus/functio</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Omnia munera (%count normae)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Nulla norma congruit.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown ex %matched normis</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Nullum responsum</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>celatum</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Explicationes ostendere</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Explicationes celare</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Aperire</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Omnia aperire</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Omnia claudere</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Clavis aut valor</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Quaere in sessione</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Genus</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count plura</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>nimis profunde inclusum ad ostendendum</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>praecisum, %count characteres in summa</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Inceptum</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Nomen crustuli</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID sessionis</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Tractator</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Via servandi</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Praefinitum PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Vita (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Crustulum</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>vita %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Tua ipsius sessio PHP, qualis erat cum sectio aperta est, numquam alia. Valores clavium quae arcana videntur (signa, hashes, tesserae) celantur (debugbar.ini SessionMask[]); cetera omnia ostenduntur ut condita sunt, etiam data personalia.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count claves, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>magna</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Sessio vacua est.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Nulla sessio huic petitioni incepta est.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extensio %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Nucleus et cetera</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Non omnia inscripta ostenduntur: sessio plura continet quam hic enumerari possunt.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count claves non enumerantur.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Compages</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Valores qui signum videntur (JSON Web Token, credentialia capitis Authorization, clavis privata, longus textus hexadecimalis aut fortuitus) quoque celantur, quocumque nomine clavis eorum appellatur (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Clavis arcanum videtur (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Valor signum videtur.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Sub clave celata.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Sessio ut textus, celata sicut tabula.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Sessio maior est quam %size (debugbar.ini SessionWarnBytes): omnis petitio huius usoris totam sessionem legit, et scribit cum mutata est.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP hanc sessionem in fasciculis servat et fasciculum per totam petitionem claudit: petitiones eiusdem usoris (plures tabulae, vocationes AJAX) inter se exspectant.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Apertum servare</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Maior quam %size (debugbar.ini SessionWarnBytes): omnis petitio huius usoris totam sessionem legit.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits ex %count ex promptuario lecta</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Nulla formula reddita est (visus ex promptuario visuum lectus nullam reddit).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Assignationes munerum</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Munera et regulae</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>differt ab hospitibus anonymis</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>idem ac hospitibus anonymis</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -68800,6 +69779,14 @@ Classem nodi functione permutandi mutare debebis.</translation>
     <message>
         <source>not sent</source>
         <translation>non missum</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Opus statutum monitionum hic singulas actiones suas notat. Partem frequent in crontab adde, aut exsequere exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Consolam adhibe: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -74299,6 +75286,98 @@ Classem nodi functione permutandi mutare debebis.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Hoc argumentum non editum est; lectores id non vident.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrationes</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Mutationes installationis ut fasciculi servatae: earum status, cursus, exsecutio et revocatio.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Exemplar staticum situs in GitHub Pages vel in quolibet hospite git publica.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicatio statica</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>In recognitione</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Lectores hanc paginam vident.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Lectoribus occultatur donec aliquis eam edat.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Pagina nunc recognoscitur. Lectoribus occultatur donec edatur.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Pagina edita est: lectores eam nunc vident.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Pagina iterum adumbratio est. Lectoribus occultatur donec recognita et edita sit.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Nunc ede</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Solus usor cum munere %role qui hanc versionem non scripsit eam edere potest.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Argumenta auxilii quae editionem exspectant</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Eam lectoribus occultat donec iterum edatur.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Deinde recognitor eam inspicit. Lectores eam nondum vident.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Lectores eam statim vident.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Eam ex recognitione removet ut amplius elaboretur. Lectores eam non vident.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Hancne paginam lectoribus occultare?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Hancne paginam ad adumbrationem remittere?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Lectores %title non iam vident donec aliquis id iterum edat.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title ad adumbrationem redit ut amplius elaboretur. Lectores id adhuc non vident, et novam recognitionem requirit antequam edatur.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abrogare</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Haec argumenta recognoscuntur. Lectores ea vident simul ac aliquis qui versionem hodiernam non scripsit ea edit.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/languages</name>
@@ -76140,6 +77219,10 @@ Classem nodi functione permutandi mutare debebis.</translation>
         <source>Setup &gt; Cronjobs</source>
         <translation>Configuratio &gt; Opera statuta</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Nulla pars operum statutorum adhuc acta est: ordo exspectationis operum, importationes, monitiones et index quaestionis exspectant. Exsequere php bin/php/installcrontab.php --add --apply, aut versus ab --show monstratos in crontab adde.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/workflow/eventtype/expuserapprove</name>
@@ -76478,6 +77561,46 @@ Classem nodi functione permutandi mutare debebis.</translation>
         <source>None.</source>
         <translation>Nullae.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>applicatione authenticationis</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>codice per epistulam electronicam</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>codice restitutionis</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>clave accessus</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ratione externa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Acta securitatis</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Ut rete suum ostenditur; inscriptio servatur ut optiones tutelae datorum situs praescribunt.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Non notatum</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Locus</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>proxime</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76721,6 +77844,42 @@ Classem nodi functione permutandi mutare debebis.</translation>
         <source>Manage devices</source>
         <translation>Instrumenta administrare</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>applicatione authenticationis</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>codice per epistulam electronicam</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>codice restitutionis</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>clave accessus</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ratione externa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Acta securitatis</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Non notatum</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Locus</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>proxime</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76800,6 +77959,14 @@ Classem nodi functione permutandi mutare debebis.</translation>
         <source>View the sessions of this user</source>
         <translation>Sessiones huius usoris inspicere</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Ratio tua %login in %site modo adhibita est ad intrandum ex loco unde nuper non intraverat:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Locus proximus</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76838,6 +78005,10 @@ Classem nodi functione permutandi mutare debebis.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser in %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Relatio introituum</translation>
     </message>
 </context>
 <context>
@@ -77046,6 +78217,82 @@ Classem nodi functione permutandi mutare debebis.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Clavis accessus probari non potuit. Iterum, quaeso, conare.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Rationes in quas solis clavibus accessus initur hic tessera uti non possunt: &quot;Clave accessus inire&quot; elige.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Claves accessus usoris %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Claves accessus quibus haec ratio initur. Eam quae in instrumento amisso aut furto ablato est revoca: iam inire non poterit. Possessor novas ipse addit.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Ratio tua clavem accessus requirit</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Clavem accessus rationi tuae addere</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Clavem accessus adde ut pergas. Deinde ea inibis, non sola tessera.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Clave accessus inire celerius et tutius est quam tessera. Unam nunc adde, aut sine ea perge.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Non nunc</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Visne clavem accessus &quot;%name&quot; revocare?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>In hanc rationem iam inire non poterit. Si ultima erat, possessor tessera init, aut tu novam tesseram statuis.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Clavem accessus revocare</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Revocare</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Haec ratio nullam clavem accessus habet.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Instrumentum authenticationis</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Ignotum</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Ultima clavis accessus tua: aliam adde antequam eam removeas.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Haec ratio solis clavibus accessus initur (regula clavium accessus): nulla relicta, rursus tessera sua initur.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Haec est ultima clavis accessus tua, et ratio tua sine ea iniri non potest. Prius aliam clavem accessus adde.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Clavis accessus &quot;%name&quot; revocata est. In hanc rationem iam inire non potest.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77145,6 +78392,34 @@ Classem nodi functione permutandi mutare debebis.</translation>
         <source>Code from your authenticator app</source>
         <translation>Codex ex applicatione authenticationis tua</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Data in perpetuum deleturus aut commentarium purgaturus es.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Tessera tua et clavis accessus</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Tessera tua et codex ex applicatione authenticationis tua</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Aut:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Hoc navigatrum claves accessus adhibere non potest. Alia via aut alio navigatro utere.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Cum perges, navigatrum tuum unam ex clavibus accessus tuis petet.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Clave accessus pergere</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77235,6 +78510,70 @@ Classem nodi functione permutandi mutare debebis.</translation>
     <message>
         <source>Setup</source>
         <translation>Configuratio</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Mutatio tesserae propriae, inscriptionis electronicae, clavium accessus, introitus duorum graduum, codicum restitutionis aut clavium API, et exitus ex aliis instrumentis propriis.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Creatio et recensio usorum, tesserarum et instrumentorum eorum, optionum rationis, approbatio aut repudiatio novarum rationum usorum, attributio munerum et recensio regularum.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Deletio datorum</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Evacuatio corbis, remotio rerum ex eo et remotio plurium rerum simul.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Remotio, publicatio et servatio contentorum</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Remotio contentorum (etiam in corbem), publicatio et servatio adumbrationis; rogatur cum forma mittitur. Ex praedefinito exstincta.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Ante actionem gravem usor qui iniit iterum confirmat quis sit: tessera sua et clave accessus, aut sine clave accessus tessera sua et codice applicationis authenticationis suae. Solae paginae interretiales rogant: interfacies REST, SOAP, WebDAV, introitus expservices et linea mandatorum numquam rogant.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Ubi optiones valent</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Optiones pro</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Omnis aditus situs</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Aditus situs %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Aperire</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Qui rogatur: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Greges usorum nota ut solos eorum sodales roges (exempli gratia editores). Nullo notato: omnis usor.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>In settings/override/site.ini.append.php servatum, pro omni aditu situs. Servatio te rogat ut confirmes te esse.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>In settings/siteaccess/%name/site.ini.append.php servatum. Valor in settings/override ei praevalet. Servatio te rogat ut confirmes te esse.</translation>
     </message>
 </context>
 <context>
@@ -77369,6 +78708,6822 @@ Classem nodi functione permutandi mutare debebis.</translation>
     <message>
         <source>Open the page</source>
         <translation>Paginam aperire</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ad %to ex %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Nomen accessus vel numerus usoris: ratio ad quam eventus pertinebat vel usor qui egit.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Ratio</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Actio</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Post</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Quilibet exitus</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ante</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Auctor</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Purgare</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Factum</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Eventus per %days dies servantur.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Eventus servantur donec manu removentur.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Eventus</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Quaelibet actio</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Omnes eventus huius rationis</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Indicem ut CSV exportare (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Defecit</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ex</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Indicem angustare</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Nullus eventus congruit.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>In singulis paginis</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Inscriptio in audit.ini exstincta est ([UserAuditSettings] UserAudit); index ostendit quae antea inscripta sunt.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Repulsum</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Exitus</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ostendere</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tabula actorum inspectionis usorum deest. Crea eam per php update/common/scripts/6.0/createuseraudittable.php; interea fasciculi inspectionis omnes eventus servant.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Haec pagina basim datorum SQL requirit; apud MongoDB non praesto est. Fasciculi inspectionis omnes eventus servant.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Usque ad</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Acta inspectionis usorum</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Usor</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Quando</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ubi</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Quis quam rationem mutaverit, creaverit, activaverit, deactivaverit, moverit vel removerit, quis intraverit vel repulsus sit, et quae munera assignata sint: una linea pro quoque eventu, cum campis ante et post. Tesserae et arcana numquam inscribuntur.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>grex</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>systema</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ignotum</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Rationem tuam munire</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Codex restitutionis adhibitus est ad intrandum in rationem tuam %login in %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Codex restitutionis adhibitus est</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Ratio</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Inscriptio proxima</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Novam tesseram pete ut iterum intres, aut administratores situs adi.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Novam tesseram petere</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Quisque codex restitutionis semel tantum valet. Si telephonum amisisti, applicationem authenticationis denuo constitue et novos codices restitutionis loco tuto serva.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Conatus irriti intrandi in rationem tuam</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Posthac introitus praeter tesseram tuam codicem poscit. Si hoc tu fecisti, nihil tibi agendum est.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Si tu eras et tesseram oblitus es, novam pete. Sin minus, tesseram firmiorem elige et introitum duorum graduum activa.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Si tu non eras, fortasse aliquis tesseram tuam novit: eam nunc muta et inspice ubi ratio tua aperta sit.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Codices restitutionis reliqui</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Instrumenta tua inspicere</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Monitio securitatis</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Aliquis tessera falsa in rationem tuam %login in %site intrare conatus est, continenter vicibus: %count.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Eventus securitatis in ratione tua %login in %site accidit.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Haec est monitio securitatis de ratione tua. Ad quamque talem mutationem mittitur neque inactivari potest.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tempus</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Introitus duorum graduum rationi tuae %login in %site inactivatus est.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Introitus duorum graduum inactivatus est</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Introitus duorum graduum rationi tuae %login in %site activatus est.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Introitus duorum graduum activatus est</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Ratio tua %login in %site post nimios introitus irritos clausa est.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Ratio tua nunc sola tessera munitur. Si hoc non fecisti, introitum duorum graduum iterum activa postquam tesseram mutaveris.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Ratio tua clausa est</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Clavis accessus rationi tuae %login in %site addita est.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Quicumque hanc clavem accessus habet, in rationem tuam sine tessera tua inire potest. Si eam non addidisti, eam sub Claves accessus remove et tesseram tuam muta.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Clavis accessus ex ratione tua %login in %site remota est.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>In rationem tuam iam inire non potest. Si eam non removisti, claves accessus et instrumenta tua inspice.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Clavis accessus rationi tuae addita est</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Clavis accessus ex ratione tua remota est</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Acta securitatis</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Acta securitatis: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Introitus</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Conatus intrandi irritus</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Exitus</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sessiones clausae</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Introitus ex novo instrumento</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Introitus ex novo loco</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitas confirmata (&quot;Confirma te esse&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Probatio identitatis defecit</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Introitus clave accessus</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Introitus clave accessus defecit</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Introitus recusatus: codex introitus duorum graduum deest aut falsus est</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Codex introitus duorum graduum falsus</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Ratio post introitus irritos clausa</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Ratio reserata</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Tessera mutata</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Mutatio tesserae defecit</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Tessera restituta</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nova tessera petita</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Inscriptio electronica mutata</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Nomen usoris mutatum</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Introitus duorum graduum activatus</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Introitus duorum graduum inactivatus</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Codex restitutionis adhibitus</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Novi codices restitutionis</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Tessera applicationis creata</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Tessera applicationis revocata</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Clavis accessus addita</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Clavis accessus remota</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Ratio activata</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Ratio inactivata</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Omnia</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Introitus et sessiones</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Mutationes rationis</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Cura opus est</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>a te</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ab usore</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>ab usore %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Navigatrum</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Systema</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Instrumentum</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Locus</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Civitas</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessiones</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Quae</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Via</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Conatus irriti</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Codices reliqui</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Tractator introitus</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Acta securitatis</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Acta securitatis: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Introitus et mutationes securitatis rationis tuae. Si quid vides quod non fecisti, tesseram muta et instrumenta quae non agnoscis exire coge.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Introitus et mutationes securitatis huius rationis.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Instrumenta tua</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Tesseram mutare</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Ad rationem redire</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Acta securitatis non notantur</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Ex actis inspectionis usorum leguntur, quorum tabula expuser_audit deest aut in hac datorum basi non sustinetur. Exsequere php update/common/scripts/6.0/createuseraudittable.php, aut renovationem datorum basis versionis 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Dies ultimi: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Introitus dierum ultimorum: %days</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Acta securitatis recentia</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ostendere</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>irritum</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>recusatum</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nulla acta securitatis adhuc notata sunt.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Eventus securitatis servantur per dies: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Eventus securitatis servantur donec administrator eos removeat.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Data introituum meorum depromere</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Sessiones et eventus securitatis tui ut fasciculus JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sessiones in hoc situ non notantur, itaque nullum aliud instrumentum exire cogi potuit. Tesseram tuam nunc muta.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count aliae sessiones finitae sunt. Nunc tesseram tuam muta.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Nullum aliud instrumentum ingressum erat. Nunc tesseram tuam muta.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Gratias tibi. Eventus ut tuus notatus est.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ille eventus nullum responsum requirit.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Pagina exspiraverat. Nihil mutatum est; iterum, quaeso, conare.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Rationem tuam munire</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Si quid hic a te non factum est, omnia alia instrumenta exire iube, deinde novam tesseram elige. Instrumenta per “Memento mei” ingressa manentia quoque exeunt.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Omne instrumentum praeter hoc ad proximam petitionem suam exit. Deinde novam tesseram eligis.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ita, alia instrumenta exire iube</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Tune hoc fecisti?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ita, ego feci</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Minime, rationem meam muni</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Introitus</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Conatus intrandi irritus</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Exitus</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sessiones clausae</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Introitus ex novo instrumento</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Introitus ex novo loco</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitas confirmata (&quot;Confirma te esse&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Probatio identitatis defecit</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Introitus clave accessus</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Introitus clave accessus defecit</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Introitus recusatus: codex introitus duorum graduum deest aut falsus est</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Codex introitus duorum graduum falsus</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Ratio post introitus irritos clausa</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Ratio reserata</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Tessera mutata</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Mutatio tesserae defecit</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Tessera restituta</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nova tessera petita</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Inscriptio electronica mutata</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Nomen usoris mutatum</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Introitus duorum graduum activatus</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Introitus duorum graduum inactivatus</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Codex restitutionis adhibitus</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Novi codices restitutionis</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Tessera applicationis creata</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Tessera applicationis revocata</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Clavis accessus addita</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Clavis accessus remota</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Ratio activata</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Ratio inactivata</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Omnia</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Introitus et sessiones</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Mutationes rationis</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Cura opus est</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Acta securitatis</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Acta securitatis: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Introitus et mutationes securitatis rationis tuae. Si quid vides quod non fecisti, tesseram muta et instrumenta quae non agnoscis exire coge.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Instrumenta tua</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Tesseram mutare</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Acta securitatis in hoc situ nondum notantur.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Introitus dierum ultimorum: %days</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Conatus irriti</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nulla acta securitatis adhuc notata sunt.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Data introituum meorum depromere</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Sessiones et eventus securitatis tui ut fasciculus JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sessiones in hoc situ non notantur, itaque nullum aliud instrumentum exire cogi potuit. Tesseram tuam nunc muta.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count aliae sessiones finitae sunt. Nunc tesseram tuam muta.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Nullum aliud instrumentum ingressum erat. Nunc tesseram tuam muta.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Gratias tibi. Eventus ut tuus notatus est.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ille eventus nullum responsum requirit.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Pagina exspiraverat. Nihil mutatum est; iterum, quaeso, conare.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Rationem tuam munire</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Si quid hic a te non factum est, omnia alia instrumenta exire iube, deinde novam tesseram elige. Instrumenta per “Memento mei” ingressa manentia quoque exeunt.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Omne instrumentum praeter hoc ad proximam petitionem suam exit. Deinde novam tesseram eligis.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ita, alia instrumenta exire iube</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Tune hoc fecisti?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ita, ego feci</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Minime, rationem meam muni</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Tessera</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Tessera et codex introitus duorum graduum</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Interfacies REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Interfacies SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Introitus unicus</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Introitus antequam sessiones notarentur</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Relatio introituum</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Qui in situ intraverint, quam saepe rationes intrent aut frustra conentur, et usorem ubique exire cogere. Cum quovis tractatore sessionum operatur.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Sessio clausa est. Instrumentum iterum intrare debet.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Usor %login e sessionibus exire coactus est: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Usor %login nullam sessionem apertam habebat.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Nulla ratio hoc ID, hoc nomen usoris aut hanc inscriptionem electronicam habet.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Haec est sessio qua uteris. Ut eam finias, exi.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Ea sessio iam finita erat.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Pagina exspiraverat. Nihil mutatum est; quaeso, iterum conare.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sessiones in hoc situ non notantur (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabula expuser_session deest</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sessiones notantur simul ac creata est: php update/common/scripts/6.0/createusersessiontable.php, aut renovatio datorum basis versionis 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Nunc et hodie</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sessiones currentes</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Usores intus</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Introitus hodie</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Conatus irriti hodie</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Usorem ubique exire cogere</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Quaeque sessio rationis ad proximam petitionem suam finitur, etiam eae quas &quot;Memento mei&quot; servat. Hoc adhibe cum ratio in alienas manus venisse possit; deinde tesseram eius restitue.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID usoris, nomen usoris aut inscriptio electronica</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Ubique exire cogere</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Nunc intus</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Recentissime adhibitae ostenduntur: %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Usor</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Instrumentum</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Inscriptio</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Introitus</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Ultimo activum</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Actiones</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Hoc instrumentum</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Non notatum</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Exire</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Nulla sessio aperta est.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Dies ultimi: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Introitus et conatus irriti ex actis inspectionis usorum numerantur, quae desunt; novae sessiones numerantur.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Introitus</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Conatus irriti</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Novae sessiones</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Tractator sessionum: %handler. Sessiones e tabula expuser_session leguntur, itaque relatio cum quovis tractatore operatur.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Acta suspecta proximis %hours horis</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Una retis in %accounts rationes ingredi non potuit (%count conatus)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Ratio post ingressus irritos clausa</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count ingressus irriti in una ratione</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Ex %count civitatibus simul ingressus</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Acta securitatis</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessiones</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Ingressus irriti ex acto inspectionis usorum leguntur, qui hic praesto non est.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nihil suspectum: nulla ratio cum ingressibus irritis iteratis, nulla retis plures rationes temptans, nulla ratio ex pluribus civitatibus ingressa.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Monitio securitatis de ratione tua</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Eventus securitatis in ratione tua %login accidit: %event. Si tu non eras, rationem tuam muni apud %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuratio</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Pete a contento huius situs ipsos campos quibus pagina eget, una petitione. Schema classes contenti sequitur; quaeque quaestio iuribus usoris qui eam mittit exsequitur.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>API GraphQL in hoc aditu situs exstincta est. Accende eam in graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Bibliotheca GraphQL (webonyx/graphql-php 15) non est installata.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Punctum finale</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Bibliotheca</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count classes contenti, schema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Quaestio</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variabiles (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Exsequi</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Responsum</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Exsequitur…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Responsum legi non potuit.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Quaestio tuis iuribus exsequitur, hac sessione inscriptus.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count in %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>sine limite</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Altitudo</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Complexitas</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Res per indicem</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (praefinitum %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Petitiones per usorem aut clavem</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Petitiones per inscriptionem anonymam</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspectio</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Solae quaestiones servatae</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Maxima quaestio</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes octeti</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Maxima impositio</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nullus est aditus situs %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutationes in %siteaccess accensae sunt.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutationes in %siteaccess exstinctae sunt.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>API GraphQL in %siteaccess accensa est.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>API GraphQL in %siteaccess exstincta est.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Optiones scribi non potuerunt: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Memoria responsorum purgata est: %count responsa remota.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Nota capsulam iuxta quaestionem ut eam removeas.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Quaestio removeri non potuit: quaestio in directorio PersistedQueryDirectoryList[] tradita cum fasciculo suo removetur.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Quaestio servata remota est.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutationes</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>accensum</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>exstinctum</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Aditus situs</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Ubi API et mutationes eius respondent. Bulla graphql.ini scribunt, sicut ./console exp:graphql:enable et exp:graphql:disable faciunt.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Aditus situs</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Muta</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Exstingue</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutationes exstinctae</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutationes accensae</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Accende</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Limites</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] huius aditus situs.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Memoria responsorum</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Responsa quaestionum servatarum, secundum iura usoris servata et exspirata quotiens contentum publicatur.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Responsa servata</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count responsa, %bytes octeti</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Diutissime servatur</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Ultimo exspiravit</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Purga memoriam responsorum</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Quaestiones servatae</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Servatae per ./console exp:graphql:persist aut a clientibus (quaestiones servatae automaticae); nomine aut SHA-256 vocantur.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nomina</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Magnitudo</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ubi</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Remove</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>tradita</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>servata</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ita, remove hanc quaestionem</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Nulla quaestio servata adhuc.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Claves API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Claves API personales cum ambitu graphql:read (quaestiones) aut graphql:write (mutationes). Fac et revoca eas in pagina Aditus API, aut per ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Aditus API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Omnes claves</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Clavis</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nomen</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Possessor</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Ambitus</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Ultimo usa</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>activa</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>exspirata</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>revocata</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>numquam</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Nulla clavis API cum ambitu GraphQL adhuc.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>API GraphQL in aditu situs %siteaccess, qui hanc paginam ostendit, exstincta est; tabula infra ostendit ubi respondeat.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Pro aditu situs %siteaccess, qui hanc paginam ostendit.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Uncini interretiales</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Omnis eventus quem punctum finale petit (publish, update, trash, delete, move, hide, reveal, mutation) ei mittitur, signatus, a parte cronjob graphqlwebhooks. ./console exp:graphql:webhooks idem facit quod haec sectio.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Eventus</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>omnes</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Omnis aditus situs</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>fractus</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>sine secreto</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Exspectantes</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count omissae</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Ultima traditio</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Mitte probationem</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ita, remove hunc uncinum</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Nullus uncinus adhuc.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Adde uncinum</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Adde</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Traditiones recentes</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tempus</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Exitus</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Subscriptiones</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Renovationes vivae clientibus: fluxus eventuum ad /api/graphql/subscribe, et WebSocket (graphql-transport-ws) in Velocity. Quisque eventus solum ad subscriptores it qui contentum eius legere possunt.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Nunc apertae</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Plurimae apertae</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total in summa, %user per usorem, %address per inscriptionem</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Subscriptiones anonymae</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Longitudo fluxus</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Uncinus addi non potuit: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Uncinus %name mutatus est; secretum signandi eius manet.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Secretum signandi servari non potuit (Configuratio &gt; Secreta).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Uncinus %name additus est. Secretum signandi eius, hac sola vice ostensum: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Nullus est uncinus %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Uncinus %name non respondit: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Uncinus %name respondit %status in %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Nota capsulam iuxta uncinum ut eum removeas.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Uncinus %name remotus est.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>API GraphQL in hoc aditu situs exstincta est.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Bibliotheca GraphQL non est installata.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Utere GET aut POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Corpus petitionis non est obiectum JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables non est obiectum JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions non est obiectum JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Mitte quaestionem per POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Petitio nullam quaestionem habet.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Quaestio longior est quam %max octeti.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Error interior servitoris</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node unum tantum ex id, remoteId, path et urlAlias requirit.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content unum tantum ex id et remoteId requirit.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Cursor ipsius after non ab hac API datus est.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Nullum cognomen imaginis %alias exstat (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Hic solae quaestiones servatae accipiuntur: mitte id quaestionis servatae.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash quaestionis servatae non est SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash quaestionis servatae cum quaestione non congruit.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Nimiae petitiones: non plures quam %limit in %window secundis. Iterum conare post %reset secundas.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Quaestio %depth gradus alta est; non plures quam %max permittuntur.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Quaestio complexitatem %complexity habet; non plus quam %max permittitur.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Haec petitio schema legere non potest (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search textum aut filtrum requirit (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument dies non est (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag unum tantum ex id, remoteId et path requirit.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout unum tantum ex id, identifier et urlAlias requirit.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Campus operations petitionis multipartitae non est una petitio JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Campus map petitionis multipartitae non est obiectum JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Petitio multipartita fasciculum %field non habet.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Via campi map a variables. incipere debet: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Fasciculus %name non integer advenit (error impositionis %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Fasciculus %name maior est quam %max octeti.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Fasciculus %name examinari non potuit.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutationes in hoc aditu situs exstinctae sunt (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Mitte mutationem per POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Inscribe te ut contentum mutes.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Clavis API ambitum %scope non habet.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutatio cum sessione signum formae sessionis requirit (caput X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl exstinctum est: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nullum hospitem nominat.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Inscriptio debet esse inscriptio https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Hospes %host non est in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Fasciculus afferri non potuit.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload genus inputi tantum est.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Variabilis generis Upload fasciculum petitionis multipartitae accipit.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Id remotum %remoteId iam occupatum est.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Contentum iam translationem in %language habet: utere updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Da saltem unum campum.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Nulla nova versio fieri potuit (contentum nimis multa adumbrata habet).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Versio %version non est adumbratio.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent requirit unum ex id et nodeId, neque plura.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Locus sub se ipsum moveri non potest.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Contentum iam locum sub %parentId habet.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Valor campi %field servari non potuit.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Nulla est lingua contenti %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Nulla est classis contenti %class in schemate.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Contentum non adest, aut tibi legere non licet.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Hoc huic contento facere tibi non licet.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Classis %class nullum campum %field habet qui scribi possit.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Campus %field bis datus est.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Campus %field fasciculum accipit: mitte eum ut impositionem (petitio multipartita).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Campus %field nullum fasciculum accipit.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Campus %field valorem requirit.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Forma %format tantum ad campos textus ditioris pertinet; %field valorem suum ut est accipit (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Campus %field necessarius est.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML legi non potuit.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content version tantum cum id accipit.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Signum praevisionis non valet aut exspiravit.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Non est origo (https://host aut https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Non est ambitus API GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Mitte subscriptiones ad /api/graphql/subscribe (fluxum eventuum aut WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Petitio nullam operationem documenti nominat.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Subscriptio unum campum exacte petit.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Nimis multae subscriptiones apertae sunt; postea iterum conare.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Habes %max subscriptiones apertas, plurimas permissas.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Inscriptio tua %max subscriptiones apertas habet, plurimas permissas.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Subscriptiones in hoc aditu situs exstinctae sunt.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Inscribe te ut subscribas (signo aut clave API personali).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Mitte mutationes ad /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrationes</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Status rerum legi non potuit: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabulae migrationum nondum exstant: ./console exp:upgrade --apply eas creat.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migrationes defecerunt</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Cursus agitur, ab %user incohatus</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Installatio clausa est: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendens</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Defecit</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Orbae</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Cursus ultimus</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>nullus adhuc</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Omnes migrationes</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Cursus simulatus</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Cursus siccus</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Migrationes pendentes in transactione cucurrerunt quae postea revocata est: nihil servatum est. Infra est quod quaeque in basi datorum mutavit.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Quid cursus nunc faceret. Nihil mutatur: quaeque migratio pendens mutationes quas faceret enumerat, et cursus quid ante et post faceret.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simulare</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Exsequi</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Cursus siccus defecit: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulatio PostgreSQL vel SQLite requirit, quorum mutationes schematis revocari possunt; in hac basi datorum consilium infra ostendit quid cursus faceret.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migrationes</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migratio</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Condicio</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Quid faceret</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulatio: %result in %ms msec.</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Nulla migratio adhuc.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ante et post cursum</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Imago prior</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>capitur, et restituitur si migratio deficit</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>inactiva</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Imago posterior</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>capitur cum cursus successit</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migrationes: %pending pendentes, %done perfectae, %failed defectae.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Historia migrationum</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Omnis cursus cum usore, ambitu, imaginibus et eo quod commissum, signatum et missum est. Cursus defectus vel interruptus resumi potest; cursus cum imagine ante eum capta revocari potest.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Cursus legi non potuerunt: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabulae migrationum nondum exstant: ./console exp:upgrade --apply eas creat.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Monstrare</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Omnes</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Cursus</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Incohatus</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ab</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Imagines</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repositorium</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Actiones</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ante</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>post</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>missio: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Resumere</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Revocare</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Nullus cursus in hac condicione.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Hic incohati</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Cursus, resumptiones et revocationes in his paginis incohatae, cum relatione cuiusque.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Quid</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Exitus</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Revocatio</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Revocatio %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Cursus %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Quid cursus fecit, eius tabula et acta. Cursus hic incohatus in recessu pergit cum haec pagina clauditur; paginam iterum aperi ut eum sequaris.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Hunc cursum resumere</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Hunc cursum revocare</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Tabula legi non potuit: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progressus</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Ab %user incohatus %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Codex inspicitur et imago ante cursum capitur</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id currit (%index ex %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done ex %total perfectae</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migrationes cucurrerunt; imago restituitur si qua defecit</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Imago post cursum capitur, committitur, signatur et mittitur</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Imago restituitur</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Cursus finitus est. Relatio eius oneratur.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Progressus sequi non potuit. Paginam renova ut videas quomodo cursus procedat.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Haec pagina cursum procedentem sequitur.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Renovare</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Relatio</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tempus</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms msec.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Quae cursus ut errores scripsit</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Tabula</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Ambitus</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nulla</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Finitus</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commissio</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Signum</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Missio</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nuntius</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migrationes huius cursus</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Fons</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Acta cursus</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Solus finis actorum monstratur.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>currit</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>sine relatione finitus</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>successit</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>defecit</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>recusatus</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>basis datorum attingi non potuit</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>error internus</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Cursus agitur</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ab %user incohatus %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Sequi</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Installatio clausa est</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Alius cursus clausuram tenet (renovatio vel cursus in consolatorio): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>perfecta</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>pendens</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>non necessaria</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ignota</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>revocata</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>adhibita</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>adhiberetur</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>retracta</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>retraheretur</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>non cucurrit</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>aliam exspectat</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>mutatio accepta</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>mutatio acciperetur</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulata</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrationes</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status rerum</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target retrahere</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Cursus ad imaginem ante eum captam retrahitur, singula migratio per suum down(). Imaginem priorem restituere peritis est. Quodque in recessu tuo nomine currit, post imaginem status praesentis.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Quae retrahi possint legi non potuerunt: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Cursus</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Una migratio</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Imago prior</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Descriptio</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ita</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>non</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Imago</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Titulus</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Capta</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Genus</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Partes restituendae</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Basis datorum</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Fasciculi repositorii (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Configurationes (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Restitutio basis datorum eam ad tempus imaginis reducit, sessionibus inclusis: fortasse postea iterum inire rogaberis. Omnia ex eo tempore mutata amittuntur; prius imago status praesentis capitur.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Scio quid hoc restituat</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Identificatorem imaginis iterum scribe</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ita, retrahe</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abrogare</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Cursus cum imagine ante eos capta.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Eligere</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Nullus cursus cum imagine adhuc.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Migrationes adhibitae quae se ipsas retrahere possunt (down() habent).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Nulla migratio adhibita down() habet.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Imagines priores (periti)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Nulla imago adhuc.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Migrationes exsequi</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Cursus in recessu ut %user procedit, et pagina eius eum procedentem monstrat. Ante primam migrationem imago installationis capitur; si migratio deficit, cursus consistit et imago restituitur.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Primum cursus siccus</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Status rerum legi non potuit: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Migrationes pendentes</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Hoc ordine currunt. Notam unius remove ut eam, et quae eam requirunt, in cursum posteriorem relinquas.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Exsequi</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Modum sustentationis dum currit accendit.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Post adhibitionem mutatae</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Hi fasciculi non sunt ii qui adhibiti sunt. Cursus eos recusat nisi mutatio cum causa accipitur; iterum non currunt, nova summa probatoria notatur et causa in actis inspectionis servatur.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Mutationes accipere</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Cur</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Valores praedefiniti tuti sunt. Quaeque capsula gradum omittit.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Sine imagine</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Nulla imago ante et post cursum: defectus sponte restitui non potest.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Sine restitutione</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Post defectum installationem relinque ut defectus eam reliquit.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Mutationes non commissas servare</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Curre quamquam configurationes, extensiones vel designationes mutationes non commissas habent; in imaginem eunt.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Sine commissione</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Fasciculum status et acta cursus noli committere (neque signum neque missionem).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Sine missione</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Committe et signa, sed noli mittere.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Sine signo</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Committe et mitte, sed cursum noli signare.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ita, has migrationes nunc exsequere</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nulla migratio pendet.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Ad statum rerum redire</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Mutationes huius installationis semel ut fasciculi scriptae (contenta, classes, munera, configurationes, schema) et omni installationi situs eodem ordine adhibitae. Cursus primum imaginem capit, eam restituit si migratio deficit, et quod fecit notat, committit et mittit.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count pendentes exsequi</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Conspectus</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendens</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Perfecta</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Defecit</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Non necessaria</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Basis datorum</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transactiones: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Migrationes situs in migrations/ sunt, eae extensionis in extension/&lt;name&gt;/migrations/. Ordine nominum suorum et eorum quae requirunt currunt.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Cursus ultimus</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Fasciculus post adhibitionem mutatus est.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Nulla migratio adhuc. ./console exp:migration:generate --skeleton &lt;name&gt; --apply primam scribit.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Cursus recentissimi</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Omnes cursus</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Nullus cursus adhuc.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Ad cursum simulandum ratio migration/run requiritur.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Cursus agitur: simula cum finitus erit.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuratio</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target neque cursus neque migratio neque imago huius installationis est.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Primum nota &quot;Ita, retrahe&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Imaginem priorem restituere peritis est: nota &quot;Scio quid hoc restituat&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Identificatorem imaginis iterum scribe: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Elige saltem unam partem restituendam.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Hic cursus nullam imaginem ante se captam habet: migrationes eius singillatim retrahe, vel imaginem priorem restitue.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Haec migratio se ipsam retrahere non potest: non adhibita est, vel down() non habet.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formula legi non potuit.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Elige cursum resumendum.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Primum nota &quot;Ita, has migrationes nunc exsequere&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Elige saltem unam migrationem.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migratio post adhibitionem mutata est: mutationem cum causa accipe, vel fasciculum restitue.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Da causam cur migrationes mutatae accipiantur.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Causa summum 500 litterarum est.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Cursus hic incohatus adhuc agitur (%detail). Exspecta dum finiatur.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Alius cursus clausuram installationis tenet: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Cursus usorem ingressum qui exstet requirit.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nullum programma php lineae mandatorum inventum est. Pone migration.ini [AdminSettings] PhpCliPath ad viam eius plenam.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open inactivum est, itaque cursus hic incohari non potest. Exsequere ./console exp:migration:migrate --apply in servitore.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>In plicam cursuum scribi non potest: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Cursus incohatus est sed identificatorem processus sui non rettulit. Inspice %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Nomina quid retrahendum sit.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Cursus incohari non potuit.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Mutationes inscribere</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Dum inscriptio currit, quod in administratione vel in tabella laterali situs mutas ut gradus migrationis servatur: argumentum, classes, munera et praecepta, sectiones, usores et greges, nomina alterna URL, optiones. Siste eam cum finieris, vide quid ceperit, et ex ea migrationem genera.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Inscriptiones legi non potuerunt: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tabulae inscriptionum nondum exstant: primum renovationem exsequere (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Inscriptio in migration.ini exstincta est ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Mutationes meae</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Solum inscribit quod tu mutas, ubicumque mutas, donec eam sistas.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Inscriptio</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>ab %time, adhuc mutationes: %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Titulus (ad libitum)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Ostende quid ceperit</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Siste inscriptionem</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Incipe mutationes meas inscribere</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Fenestra toti situi</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Omnem mutationem omnis usoris et consolae inscribit donec claudatur. Aperiens rogaberis ut te esse confirmes.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Aperta</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Claude fenestram</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Aperi fenestram toti situi</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Inscriptiones</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Ratio usoris (nomen ingressus, inscriptio electronica, tessera) et campi rationum usorum numquam inscribuntur.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Mutationes</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Totus situs</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Mutationes usoris %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Sistita</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Nulla adhuc inscriptio.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Inscriptio %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Omnes inscriptiones</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migratio quae inde fieret</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Mutationes in unum gradum pro singula re mutata collectae: quod migratio ex hac inscriptione generata faceret.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Migratio ex ea generari poterit cum haec institutio genera graduum YAML %types habebit.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Consulto omissum: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Nihil inscriptum est.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Quid ceperit</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Mutationes: %count, eo ordine quo factae sunt.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Mutatio</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Gradus</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Pertinet ad</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Plures %count: ./console exp:migration:record:show omnes enumerat.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Abice</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Inscriptionem et quod cepit removet. Quod mutatum est mutatum manet.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ita, hanc inscriptionem abice</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Inscribitur…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Mutationes tuae pro migratione inscribuntur.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Omnis mutatio in hoc situ pro migratione inscribitur (fenestra toti situi).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Inscriptio totius situs coepit: omnis mutatio omnis usoris inscribitur donec eam sistas.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Inscriptio coepit: mutationes tuae inscribuntur donec eam sistas.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Inscriptio sistita. Quod cepit manet donec eam abicias.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Inscriptio et eventus eius remoti sunt.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Nulla est inscriptio %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Primum nota «Ita, hanc inscriptionem abice».</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Solus usor qui inscripsit inscriptionem sessionis sistere potest.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Elige inscriptionem sistendam.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Inscriptio huius generis iam currit.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Inscriptio mutari non potuit: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Migrationem gignere</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Nomen migrationis (ad libitum)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migratio %file scripta est. Mutationes quas nullus gradus facere potest in summo plicae nominantur, manu faciendae.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Nulla migratio scripta est: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Cursus longus in partibus</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Campi vacui occupant optiones migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Ad summum tot migrationes</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Nulla migratio ulterior post (secunda)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Intermissio inter migrationes (secunda)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Prioritas inferior (1 ad 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Campus cursus longi est numerus integer ab 1 (intermissio: secunda a 0 ad 60, prioritas: 1 ad 19), aut vacuus.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Se ipsum claudit hora %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Se ipsum claudat post (minuta, optionale)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minuta sunt numerus integer ab 1 ad 44640 (31 dies), aut vacua.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migratio %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nova migratio</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Migratio YAML: eam ut textum scribe aut gradus eius in formula compone, inspice, deinde in capsam migrationum serva.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Haec migratio iam cucurrit, itaque non iterum servatur: fasciculus mutatus a custode summae probationis reiceretur. Mutationem in nova migratione fac.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Servitor interretialis fasciculum scribere non potest.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Lineae commentarii in summo sunt caput (description, author, requires, environments, engines). Cum gradus in formula additur aut mutatur, migratio denuo scribitur: commentaria inter gradus non servantur.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Nomen migrationis</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Quo eat</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Situs</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Textus YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Inspicere</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Servare</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Gradus</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Claves</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Recensere</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Sursum movere</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Deorsum movere</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Removere</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Nulli gradus adhuc: unum formula adde aut eos in textu scribe.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Gradum %number muta</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Gradum adde</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Formula gradus ex genere gradus fit: claves eius, quid quaeque accipiat et modi ad quos pertineat.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Genus gradus</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Formulam eius monstra</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Gradus claves habet quas genus eius non novit; omittuntur cum gradus mutatur: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Intra</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>tantum in %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Praefinitum: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Condiciones, relationes et commentarium</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Paria nomen=valor commatibus separata. Valores huius gradus: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Exemplum</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Gradum muta</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Adde gradum</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Quid exp:migration:check dicat: caput, documentum et omnis gradus a genere suo inspectus.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migratio inspectionem superat.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Praevisio</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML ut servabitur.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML monstra</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Migrationes YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>cucurrit</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Nullae migrationes YAML adhuc sunt.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Redactor</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Nulla migratio YAML %id in capsis migrationum est.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Genus gradus elige.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Gradus additus est. Migrationem inspice antequam eam servas.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Gradus mutatus est. Migrationem inspice antequam eam servas.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Gradum elige.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Hic gradus formulam non habet (ansa, aut genus gradus quod haec institutio non habet): eum in textu muta.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Elige quo migratio eat: in situm an in extensionem activam.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file servatum est. Cursum siccum exsequere antequam migratio currit.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Non servatum: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Stationes remotae</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Ceterae installationes quibus haec migrationes suas tradit: traditio migrationes ad stationes remotas electas mittit easque ibi exsequitur, omnes simul et concorditer. Statio remota numquam secretum tenet: testimonium aditus eius unum in Configuratio &gt; Secreta nominat.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Nova statio remota</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Auxilium</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Probatio conexionis %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Stationes remotae</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Usque ad %parallel stationes remotae simul tractantur; una phasis in quaque %timeout secundas durare potest.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Statio remota</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Inscriptio</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Testimonium aditus</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Greges</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>optiones corrigendae</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>fasciculi tantum (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Clavis SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Tessera</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>nulla (agens SSH et claves hospitis)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Conexionem probare</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Traditio ad gregem ad quamque eius stationem remotam it.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Stationibus remotis tradere</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Nulla statio remota adhuc constituta est.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Statio remota %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Hic nihil mittitur neque agitur: Servare optiones in settings/override/migration.ini.append.php scribit. Testimonium aditus nomen est; valor eius in Configuratio &gt; Secreta vel in ambitu manet.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Has optiones proba</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Optiones ut inditae, nondum servatae.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Recognitio</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Optiones validae sunt. Hae lineae scribentur:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Vectura</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>nomen tantum; valor in Configuratio &gt; Secreta manet</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Lineae quae scribentur</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Conexio</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Clavis hospitis</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Statio remota</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Quomodo statio remota appelletur et quis ambitus sit.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Numerus</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Litterae, numeri, - et _, exempli gratia production1. Stationem remotam in relationibus et in consolatorio (--remotes=production1) nominat nec postea mutari potest.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Traditio per stadia ambitus hoc ordine percurrit.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Ad libitum, commatibus separata, exempli gratia production. Traditio ad gregem ad quamque eius stationem remotam it.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Conexio</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Quomodo fasciculi illuc perveniant, et ubi installatio sit.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Per SSH, tantum quod mutatum est, translatio interrupta resumitur. Optima electio ubi rsync installatum est.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH cum scp pro fasciculis.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH cum sftp pro fasciculis.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Fasciculi tantum: migrationes mittuntur et iterum leguntur, sed ibi agi non possunt.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP per TLS; fasciculi tantum.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Alia installatio in hoc servitore, in capsa.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Nomen hospitis</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Nomen hospitis vel inscriptio, exempli gratia node1.example.com. Non pro local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Porta</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Vacuum: 22 pro SSH, 21 pro FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Usor</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Via</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Radix installationis ibi, exempli gratia /var/www/site (pro FTP: via quam ratio FTP videt).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Linea mandatorum PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI ibi: php, aut via plena ut /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Scripta consolatorii ibi ut root currunt</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Tantum si usor stationis remotae root est (tum cum --allow-root-user aguntur).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Testimonium aditus</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Quomodo haec installatio ibi aditum petat. Nomen tantum servatur.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nulla</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Agens SSH et claves usoris sub quo haec installatio currit (et semper pro local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Clavis privata ut secretum servata.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Tessera ut secretum servata (FTP ea aditum petit).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Nomen secreti</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Secretum ex Configuratio &gt; Secreta, exempli gratia deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Configuratio &gt; Secreta</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Aut variabilis ambitus</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Variabilis processus servitoris quae id tenet, exempli gratia DEPLOY_KEY (servata ut env:DEPLOY_KEY). Locum nominis secreti tenet.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Clavis hospitis</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Ad libitum, pro SSH, sftp et rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Vestigium clavis hospitis</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ut ssh-keygen -l id imprimit. Cum eo, hospes hanc clavem ostendere debet; sine eo, clavis primo contactu discitur.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Recognitio</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Conexionem cum optionibus supra positis proba, deinde lineas scribendas recognosce.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Hanc stationem remotam removere</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Optiones eius ex settings/override/migration.ini.append.php tolluntur. In statione remota nihil mutatur, et traditiones eius in historia manent.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ita, hanc stationem remotam remove</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Traditiones</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Traditio migrationes huius installationis ad stationes remotas electas mittit easque ibi ut %user exsequitur, omnes simul et concorditer: quaeque statio remota primum inspicitur, et si una deficit, quaeque quae adhibuit retrahitur. In occulto procedit, et pagina eius quamque stationem remotam monstrat dum procedit.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Stationes remotae</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Signa stationes remotas, gregem, aut utrumque.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Ad eam tradere</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Quomodo</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Tradere</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Mittere et exsequi</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migrationes ad quamque stationem remotam mittuntur, verificantur et aguntur uno numero cursus communi.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Tantum transferre</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Fasciculi mittuntur et verificantur, nihil agitur (sola via pro statione remota FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Per stadia</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Stadium post stadium ordine ambituum (dev, stage, beta, production ...): primum stadium traditur, deinde ianua exspectat donec aliquis sequens approbet. Omnia aut nihil intra quodque stadium.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Hae migrationes tantum</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Ad libitum: numeri migrationum, commatibus separati. Vacuum: omnis migratio situs et extensionum eius.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Praeinspectio tantum</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ita, nunc trade</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Traditiones quae aliquid miserunt aut egerunt, recentissima prima (praeinspectio nullam relationem servat).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>tantum transferre</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>per stadia, %stages stadia</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>non concordes</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Nulla traditio adhuc.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Traditio %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Quaeque statio remota traditionis cum condicione sua. Traditio hic incohata in occulto pergit cum haec pagina clauditur; paginam iterum aperi ut eam sequaris.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Omnes traditiones</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Praeinspectio</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Stadium sequens</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Optiones et testimonia aditus inspiciuntur</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Praeinspectio: condicio cuiusque stationis remotae legitur</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Fasciculi migrationum mittuntur</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Quod advenit verificatur</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Migrationes in quaque statione remota aguntur</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Stationes remotae retrahuntur</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Traditio finita est. Relatio eius oneratur.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Progressus observari non potuit. Paginam renova ut videas quomodo traditio procedat.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Phasis</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Haec pagina traditionem sequitur dum procedit.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Concordes</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Stadia</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>stadium %stage ad ianuam suam exspectat</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Ianua %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>approbata ab %user hora %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Stadium</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Fasciculi missi</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Versio nuclei</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>adhibitae: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>adhibendae: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Phases</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Ianua: stadium %stage ex %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Stadia priora tradita sunt. Ea inspice, deinde stadium sequens approba: stationes remotae eius iterum inspiciuntur et traduntur, omnia aut nihil.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Sequens</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ita, stadium sequens nunc trade</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Approbare</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Hanc traditionem revocare</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Quaeque statio remota quae eam adhibuit (%list) ad imaginem ante cursum suum captam redit, omnes simul.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ita, hanc traditionem nunc revoca</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>proposita</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>translata</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>tradita</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ad ianuam exspectat</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>selecta</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>parata</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>paratum</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>stadium suum exspectat</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>fasciculi missi</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>verificata</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>defecit, se ipsa restituit</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>immutata</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>non tradita</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>non attingibilis</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Statio remota respondit.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Statio remota nunc adhiberi non potest.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done perfectae, %pending pendentes, %failed defecerunt</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Sera</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>cursus ibi seram tenet</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>liberum</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage ex %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Elige stationem remotam probandam.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Primum “Ita, hanc stationem remotam remove” signa.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Statio remota removeri non potuit: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Statio remota servari non potuit: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Fasciculus optionum legi non potest: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Elige saltem unam stationem remotam aut gregem.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Statio remota electa iam non est in optionibus. Paginam renova.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Primum “Ita, nunc trade” signa.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Statio remota FTP migrationes exsequi non potest: elige “Tantum transferre” aut eam omitte.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Migrationes tradendae sunt numeri migrationum, commatibus separati.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Traditio adhuc procedit. Exspecta dum finiatur.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Haec traditio ad ianuam non exspectat.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Nulla statio remota hanc traditionem adhibuit: nihil revocandum est.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Primum “Ita, stadium sequens nunc trade” signa.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Primum “Ita, hanc traditionem nunc revoca” signa.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Statio remota numero %id iam exstat.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Porta est numerus ab 1 ad 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Ambitus est verbum ex litteris, numeris, - et _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Grex est verbum ex litteris, numeris, - et _ (non all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Testimonium aditus nunc legi non potest: %problem. Id in Configuratio &gt; Secreta serva (aut variabilem pone) ante primam traditionem.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Statio remota FTP tantum fasciculos accipit: traditio ad eam est “Tantum transferre”, et migrationes eius ibi manu aguntur.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Statio remota %id non est in settings/override/migration.ini.append.php; eam remove ubi constituta est.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Aditus per FTP factus et index.php lectum. Status migrationum stationis remotae FTP legi non potest.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Mutatum</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Creatum</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nomen</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Classis</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sectio</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Auctor</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Contentum recens</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Contentum totius situs nuperrime creatum et mutatum, novissimum primum: quae visitatores miserunt, quae ad recognitionem retinentur, adumbrationes publicationem exspectantes. Res selige ut eas liberes, retineas, occultes, reveles, removeas vel in aliam sectionem aut statum moveas.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Index legi non potuit: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Retentio ad recognitionem nondum constituta est, itaque nihil retinetur neque actiones retentionis offeruntur. Gradus renovationis 6.0.15-review-hold eam constituit: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Indicem cribrare</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ab</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ad</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Creatum (prima publicatio)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Omnia</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Condicio</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publicatum</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Adumbratio, numquam publicata</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Pendens (approbationem vel diem exspectans)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>In corbe</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ad recognitionem retentum</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Retentum</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Non retentum</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Occultum</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Visibile</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Missum die</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Quilibet aditus situs</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Solum quae inspectio rettulit.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Nunc: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Nomen ingressus vel ID usoris.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Cribrare</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Cribra purgare</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Res</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ad %to ex %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nulla res</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(lectum %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Actiones in res selectas</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Omnia in hac pagina seligere</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count selecta</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Actio</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Actionem elige</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Retentionem solvere</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Ad recognitionem retinere</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Occultare</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Revelare</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>In corbem movere</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Delere</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Sectionem assignare</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Statum assignare</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Causa</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Ad retinendum necessaria; cum retentione et in inspectione servatur.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Sectionem elige</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Statum elige</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Selectis applicare</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Quaeque res tuis permissionibus comparatur. In corbem movere et delere confirmationem petunt. Plures quam %count res in recessu aguntur.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Seligere</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publicatio</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Missum ex</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name seligere</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>nondum</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(sine nomine)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Adumbratio</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendens</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>A parente occultum</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Retentum: nova missio</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versio %version pendens</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versio %version in opere</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Adumbratio, versio %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versio %version publicata</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Constitutum in %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>nulla inscriptio</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>non relatum</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Nihil his cribris congruit.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Omnia monstrare</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Nullum contentum adhuc est.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Per paginam</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>%count res per paginam monstrare.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Inscriptio et navigatrum missionis ex indice inspectionis veniunt, qui hic non praesto est: columna dicit „non relatum“.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Inscriptio et navigatrum ea sunt quae inspectio de re rettulit (retentio automatica ea semper refert; publicatio et creatio solum ubi activatae sunt), ut eius optiones secreti ea servant.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count res</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Delere res in perpetuum tollit, cum omnibus versionibus et translationibus. Rescindi non potest.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Res in corbem eunt, unde restitui possunt.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Quaeque res tuis permissionibus comparatur; res cum subrebus relinquitur ut est (eam in structura contenti remove). Rogaberis ut te esse confirmes.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Hoc in recessu agitur: pagina progressus aperitur, et exitus cuiusque rei ostenditur cum finitum est.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Res selectae</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>et %count aliae</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abrogare</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Nihil factum est</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Causa: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Actio adhuc in recessu agitur.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Progressus eius</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Actio in recessu defecit: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Factum</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Recusatum</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Defectum</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Per rem</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Res</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Exitus</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Cur</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Ad indicem redire</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuratio</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Nihil factum</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Confirmare</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Actionem elige.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Saltem unam rem selige.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Non plures quam 1000 res simul selige.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Dic cur res retineantur.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Sectionem elige.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Statum elige.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formula legi non potuit.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Tabula moderatoria</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Contentum recens</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Numeri legi non potuerunt: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ad recognitionem retenta</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Nova hodie</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Retentio ad recognitionem nondum constituta est (gradus renovationis 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Omne contentum recens</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Tibi non licet actiones moderationis agere (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Actio moderationis non est perfecta: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderatio: %action in %count obiectis</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done ex %total obiectis: %ok facta, %refused recusata, %failed defecta</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok facta, %refused recusata, %failed defecta</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Iam non exstat.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Locum non habet (non publicatum).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Tibi non licet id occultare (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Tibi non licet id revelare (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Iam occultum est.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Non est occultum.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Occultatum.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Revelatum.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>In corbe est: corbem vacua vel id inde restitue.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Adumbratio numquam publicata in corbem ire non potest: dele eam.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Tibi non licet id delere (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Deletum.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Tibi non licet id removere (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Subres habet: id in structura contenti remove, ubi enumerantur.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Non remotum est (cursus operis remotionem retinere potest).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>In corbem motum.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Sectio non exstat.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Iam in hac sectione est.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Tibi non licet hanc sectionem assignare (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Sectio assignata non est.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Sectio assignata.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Status non exstat.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Iam in hoc statu est.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Tibi non licet hunc statum assignare (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Status assignatus non est (cursus operis mutationem retinere potest).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Status assignatus.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Nulla talis actio est.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Retentio ad recognitionem non constituta est (gradus renovationis 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Dic cur retineatur.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Iam retentum est.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Tibi non licet id retinere (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Retentio imposita non est (cursus operis mutationem retinere potest).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Retentum.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Non est retentum.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Tibi non licet id liberare (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Retentio soluta non est (cursus operis mutationem retinere potest).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Liberatum; adhuc occultum: tibi non licet id revelare (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Liberatum.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Omnes scopi</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ultima publicatio</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Exemplar staticum gratuitum situs tui in GitHub Pages publica:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Paginae obsoletae</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicatio statica</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Publicatio statica exstincta est.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Scopus</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Scopi legi non potuerunt: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>opus agitur</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>constructio probanda</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>hoc celare</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>scopum creare</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>numquam</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>institutionem legere</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added addita, %changed mutata, %removed remota</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes ex %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Alia %count non enumerantur.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Paginae scriptae: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path est %size, plus quam hospes uni fasciculo permittit.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % finis</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds sec.</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag est publicatio quam situs nunc habet.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: opus %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repositorium/ pro situ projecti GitHub; vacuum pro dominio proprio vel situ usoris.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Situs</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Hospes</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Aditus ad repositorium</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Repositorium</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Nexus et via basis</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Dominium tuum</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Quid constructio contineat</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Quando publicetur</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Recensere et servare</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Situs projecti GitHub sub /&lt;repository&gt;/ habitat; nexus relativi ibi et ubique alibi valent.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Constructio omnem paginam %site affert ut visitator non inscriptus eam videt, nexus rescribit, fasciculos exscribit et exitum in capsam scopi scribit. Nihil publicatur donec constructionem probaveris et &quot;Publicare&quot; presseris.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Expressio cron, exempli gratia 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Clavis deponendi ut secretum %secret servatur.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Clavis deponendi huic institutioni permittit in unum repositorium per SSH mittere (push) neque alibi. Pars eius privata in Configuratio &gt; Secreta manet; sola pars publica ostenditur.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Clavis deponendi huic scopo facta</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Clavis deponendi per SSH intrat: inscriptionem git in inscriptionem SSH muta (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Opus agitur, ab %user incohatum</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Opus huius scopi adhuc agitur (%detail). Exspecta dum finiatur.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Opus huius scopi adhuc agitur. Exspecta dum finiatur.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Nexus a pagina /news/ ad paginam /about-us/team sic scribetur:</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Nova clavis deponendi facta est. Partem eius publicam nunc repositorio adde.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Pagina quae post purgationem adhuc exitum vestigationis, signum formae vel id sessionis continet numquam publicatur.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Revocatio peritis est: nota &quot;Scio quid hoc mutet&quot; et nomen pittacii iterum scribe.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Situs usque ad %site esse potest, unus fasciculus usque ad %file, cum circiter 100 GB commeatus in mense. In consilio gratuito repositorium publicum esse debet. GitHub Pages non est ad tabernas vel alia negotia commercialia.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Scopus est unus situs in unum repositorium git publicatus. Hic nihil construitur neque publicatur: &quot;Servare&quot; optiones in settings/override/staticcache.ini.append.php scribit.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Scopus est unus situs in unum locum publicatus, exempli gratia situs tuus publicus in GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Signum ex Configuratio &gt; Secreta</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Cursus operis repositorii id publicat.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Hanc clavem publicam repositorio cum iure scribendi adde. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, nota Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Additum</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Alius hospes git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Alius processus in hoc scopo laborat: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Redire</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Via basis</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Antea</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Sub via basis</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Ramus</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Nexus fracti</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Nexus fracti in constructione</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Constructio</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Constructio %id ab %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Construere %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Nunc construere</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Constructio probanda</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ab</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Manu, hic</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abrogare</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Mutare</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Mutatum</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Mutationes</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Primum proba</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Has optiones proba</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Proba quid constructio mutet, eam inspice, deinde publica aut abice.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Elige publicationem ad quam redeas.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>In editione posteriore veniet.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commissio</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Commissiones</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Constructionem committit (commit), pittacio signat et ad %remote mittit (push). Missio numquam cogitur; postea ad quamlibet publicationem redire potes.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Comparatum cum capsa priore: %added addita, %changed mutata, %removed remota, %unchanged immutata.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Comparatum cum ultima publicatione.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Testimonium aditus</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Dominium proprium</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Exitus vestigationis, signa formarum, id sessionum et numeri semel adhibiti semper removentur.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Clavis deponendi</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Clavis deponendi %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Abicere</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Constructionem abicere</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Dominium</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Vacuum: inscriptio situs. Aliter inscriptio interna eiusdem situs.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Finitum</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Omnis nexus a via basis incipit.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Omnis publicatio est commissio cum pittacio static/%id/&lt;n&gt;. Reditus novam commissionem cum fasciculis publicationis prioris facit: historia manet, nullum pittacium movetur et nihil cogitur.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Addenda</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Paginas afferre ex</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fasciculus</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fasciculi</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Fasciculi desunt</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Fasciculi ex</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Fasciculi qui colligi non potuerunt</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Impressio digitalis</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Capsa</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Pro inscriptione SSH. Clavis post servationem fit; partem eius publicam repositorio addis.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Pro inscriptione https://. GitHub: signum subtile (fine-grained) cum Contents legendi et scribendi in repositorio.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Peritis. Situs publicus mutatur simul ac missio perfecta est.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formae</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Hospitium gratuitum ex repositorio GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Ex ramo</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Inscriptio git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages situm %site et fasciculum %file permittit.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Fines GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages fasciculos ut sunt publicat (necessarium pro fasciculis qui ab _ incipiunt).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ramum praebet ut missus est. Praefinitum.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, servitor tuus: quodlibet repositorium git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Ad publicationem priorem redire</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Auxilium</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Auxilium de duce</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Eas celare</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Historia %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hospes</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Quomodo GitHub Pages constructionem accipiat</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Mutationes probavi</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Scio quid hoc mutet</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Numerus</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Exstincta est: nihil construi potest donec accensa sit.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>In recessu ut %user currit; hanc paginam claudere potes.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Opus %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Ut secretum %secret servatum.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Genus</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ultima publicatio</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Has paginas omittere</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Has sectiones omittere</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Nexus</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Nexus rescripti</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Situs vivus</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Constructionem inspicere</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Litterae minusculae, numeri, _ et -, exempli gratia github-public. Capsam et pittacia (static/&lt;id&gt;/&lt;n&gt;) nominat neque postea mutari potest.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Novam clavem facere</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Scopum creare</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Clavem facere</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Primum repositorium in hospite crea; vacuum quoque sufficit.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Index fasciculorum</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nuntius</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Plurimae paginae</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nomen</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Nomen signi in Configuratio &gt; Secreta</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Novus scopus</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Sequens</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Non</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Nulla commissio adhuc.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Nulla clavis facta est: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nullum programma php lineae mandatorum inventum est. Pone migration.ini [AdminSettings] PhpCliPath ad viam eius plenam.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Nullum pittacium adhuc.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Nullus scopus adhuc.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nihil</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Non in constructione.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Nihil adhuc publicatum est.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Nihil adhuc publicatum est: omnis fasciculus novus est.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Nuntiare</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ex horario</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>In console</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>In servitore: ./console exp:static:serve %id eodem modo praebet.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Una via in quaque linea, * quamlibet partem congruit: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Solum nomen cum scopo servatur; ipsum signum vel clavis in Configuratio &gt; Secreta manet neque umquam in acta apparet.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Solum quod paginae nominant</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Solum cum signo. env:NAME pro eo variabilem ambitus servitoris legit.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Praevisionem aperire</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Constructionem aperit ut hospes eam praebebit, ex capsa scopi. Nexus tibi per horam valet.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Optionale. Vacuum: quod publicatum est.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Optionale. Cum dominio situs in radice eius praebetur.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Exitus</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Paginae</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Paginae scopi</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Paginae recusatae</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Postprocessio</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Praevisio</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Praevidere et publicare</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Praevidere et publicare %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Constructionem praevidere</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progressus</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Inscriptio publica</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Clavis publica</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publicare</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Exemplar staticum situs in GitHub Pages vel in quolibet hospite git publica: construe, mutationes proba, publica et ad publicationem priorem redi cum opus est.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publicatio ad quam redeas</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publicationes</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Missio</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Institutionem legere</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Acta</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Recusatum</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relativi</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Renovare</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Remotum</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Clavem substituere: vetus desinit valere</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Relatio</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Relatio constructionis</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repositorium</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Recensio</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Recensio omnem optionem probat et lineas quae scribentur ostendit. Nihil adhuc servatur.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Revocare</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Revocatio</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Servare</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Horarium</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Pagina quaerendi</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Numeri sectionum, commatibus separati.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Ad situm vivum mittere</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Optio</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Optiones</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Optiones %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuratio</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Configuratio &gt; Secreta</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>In indicibus ostenditur, exempli gratia &quot;Situs publicus in GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Aditus cum GitHub App cum integratione GitHub veniet.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Situs</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Situs publicandus</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Magnitudo</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Magnitudo et fines</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Magnitudo constructionis</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Paginae obsoletae</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Incohatum</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Ab %user incohatum hora %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Condicio</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicatio statica</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Publicatio statica exstincta est</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Publicatio statica exstincta est.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Publicatio statica exstincta est. Primum eam accende in Configuratio &gt; Publicatio statica.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Publicatio statica accensa est.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Gradus %step ex %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Gradus</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Purgatio</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Exstinguere</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Accendere</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Publicationem staticam accendere</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Pittacium</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Pittacia</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Scopus</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Scopi creari et mutari possunt, sed nihil construitur neque publicatur donec accensa sit.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Machinis quaerendi dicit quid legant.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Constructio abici non potuit: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Constructio eadem est ac ultima publicatio: nihil publicandum est.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Constructio abiecta est: capsa iterum ultimam publicationem continet.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Valores praefiniti plerisque situs conveniunt.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Capsa constructionem nondum publicatam continet; nova constructio eam substituit.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>In capsam operum scribi non potest: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Opus parari non potuit: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Opus incohari non potuit.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Opus finitum est. Relatio eius oneratur.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Opus usorem inscriptum requirit.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Opus incohatum est sed numerum processus sui non rettulit. Proba %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Clavis</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Fasciculus maximus: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Lineae quae scribentur</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Index paginarum pro machinis quaerendi; inscriptionem publicam requirit.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Paginae afferuntur ut visitator non inscriptus eas videt. Aditus administrationis et emendationis numquam offeruntur.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Progressus sequi non potuit. Paginam renova ut videas quomodo opus procedat.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Pars publica clavis:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Radix rami</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Repositorium secretorum nondum paratum est (./console exp:upgrade --apply tabulam eius creat), itaque nulla clavis servari potest.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Servitor per se intrat (clave SSH sua vel adiutore testimoniorum), aut repositorium in hoc servitore est.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Optio scribi non potuit: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Optiones validae sunt. Hae lineae scribentur:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Fasciculus optionum legi non potest: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Situs ad fasciculos illius publicationis redit; constructio nondum publicata prius publicanda aut abicienda est.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Pagina propria situs pro inscriptionibus quae non exstant.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Scopus servari non potuit: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Scopus nondum hac clave intrat: in optionibus eius elige &quot;Clavis deponendi huic scopo facta&quot;.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Scopi legi non potuerunt: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Nulla constructio probanda adhuc est.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Haec institutio nullum aditum publicum habet. Aditus administrationis et emendationis numquam publicantur.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Haec pagina opus procedens sequitur; clausa pagina in recessu pergit.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Hic scopus nondum clavem deponendi habet.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Hic scopus hic nondum constructus est.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Hic scopus unam habet.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Hanc constructionem abicit: capsa iterum ultimam publicationem continet. Situs vivus non mutatur.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Primum nota &quot;Mutationes probavi&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tempus</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Incitamenta</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Nomen pittacii iterum scribe</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Immutatum</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Uncus interretialis</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Quid</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Quid mutatur</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Quid quisque fasciculus sit; semper scribitur.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Quid opus fecerit et acta eius. Opus hic incohatum in recessu pergit cum haec pagina clauditur.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Quid opus ut errores scripserit</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Quod paginae nominant, et omnis imago contenti publicati</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Quando</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Cum publicatio deficit</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Cum publicatio succedit</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Cum contentum publicatur</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Quo nexus ad ea quae exemplar non continet ducant (quaerere, intrare).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Unde exemplar staticum praebeatur.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Quis situs publicetur et quomodo scopus appelletur.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Sub qualibet via valet. Praefinitum.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Scribitur quotiens dominium proprium ponitur.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ita</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Semper manu hic et in console construere et publicare potes.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>nomen tantum; valor in Configuratio &gt; Secreta manet</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>sub %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>sine relatione finitum</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>addendum</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>defecit</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fasciculus</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, vel main cum capsa docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>hospes git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (cum signo) vel git@github.com:owner/repo.git (cum clave deponendi); numquam tessera vel signum in ea.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, pro mappa situs et nexibus canonicis.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>imago</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>numquam</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>non</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>nullum repositorium remotum</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>nihil: commissiones in capsa manent</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>nihil: nihil mutatum</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>non missum</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>nihil mutatum</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>pagina</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>successit</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open inactivum est, itaque opus hic incohari non potest. In servitore ./console exp:static:build adhibe.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>publicatio</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>publicatum</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>missio exspectatur</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>missum</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>recusatum</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relativi</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>revocatio</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>revocatum</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>currit</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>capsa tantum</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: in fasciculum CNAME scribitur. DNS dominii ad hospitem dirige ut ille explicat; HTTPS aliquamdiu ad incipiendum requirere potest.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ita, nondum publicatum</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Applicatio GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Cursus operis repositorii id publicat. Constructio fasciculum cursus operis scribit; capsam vacuam relinque.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Postquam scopus cum repositorio GitHub et signo vel GitHub App servatus est, hic gradus repositorium creare et GitHub Pages accendere potest. Aliter primum repositorium in GitHub crea; vacuum quoque sufficit.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Ramus an GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS inspicere</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Repositorium creare, si non exstat</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Repositorium in GitHub crea et GitHub Pages in eius configurationibus accende (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Repositorium %repo creat, si deest (si petitur), GitHub Pages ex ramo vel ex GitHub Actions ut servatum est accendit, et dominium proprium atque HTTPS constituit. Configurationibus servatis utitur: primum mutationes serva.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Singula in GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Primum dominium proprium inscribe.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Quodque push primum ad hos fines examinatur.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Pro inscriptione https:// in GitHub. Applicatio huic installationi constituta se inscribit; numerum installationis requirit.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages repositorium privatum solum in consilio pretioso praebet.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdominium (www.example.com) inscriptionem CNAME ad &lt;owner&gt;.github.io requirit; dominium summum (example.com) inscriptiones A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Numerus installationis GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Ultima constructio Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Fines et condiciones</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Necessarium pro GitHub Pages in consilio gratuito.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>In GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Solum cum GitHub App: numerus in fine inscriptionis installationis applicationis in GitHub. Applicatio ipsa in staticcache.ini constituitur (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privatum</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Publicum</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Primum scopum cum repositorio GitHub et signo vel GitHub App serva.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Has inscriptiones apud praebitorem dominii constitue:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>In GitHub constituere</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS dominii %domain nondum ad GitHub Pages spectat.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS dominii %domain ad GitHub Pages spectat.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Integratio GitHub hic praesto non est: %problem. Publicatio in ramum nihilominus operatur; GitHub Pages in configurationibus repositorii accende.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Gradus GitHub huic scopo praesto non sunt: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Status GitHub Pages ostenditur cum signum vel GitHub App testimonium aditus est.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Dominio proprio uti</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Quid eligendum: signum, clavis deponendi an GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Cum repositorio GitHub et signo vel GitHub App, magus repositorium creare, GitHub Pages accendere et dominium tibi constituere potest (gradus 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>construitur</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>constructum</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>ex GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ex ramo %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>nullum adhuc</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>non inventum</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>exstinctum</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privatum</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>publicum</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>in ordine exspectat</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ignotum</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count in %pages pagina(e/is):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Fasciculus .gz (et .br) iuxta quemque fasciculum textus, pro hospitibus qui eos praebent.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Parva pagina pro omni veteri inscriptione et cognomine paginae, ut vetera ligamina operentur.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Semper scribitur cum GitHub Actions situm tradit.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id velut CC-BY-4.0, aut ipse textus.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Cista</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Vocationes ad servitorem</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Commentarii</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formae quae informationes colligunt</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Fluxus operis GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Minus spatii vacui et nulli commentarii in paginis.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Licentia contentorum</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Ingressus</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Contrahere</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Aliae formae</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Praecomprimere</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Paginae redirectionis</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Paginae redirectionis: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Quaerere</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Index quaerendi: %pages pagina(e/is) in %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Formulae stili et scripta nomine hash contenti sui appellata, ut navigatra ea servare possint.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Paginae mutatae, paucis minutis post ultimam mutationem (pars cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Licentia contentorum, ex agro infra.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Totus situs, temporibus horarii (pars cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Hae paginarum partes servitorem requirunt; unaquaeque subsidium accepit. Eas inspice antequam publices.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Quae statice non operantur</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Quid sit repositorium, pro eo qui id in hospite aperit.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>omissum</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>textus subsidiarius</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>terminus formarum situs vivi</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>situs vivus</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>pagina quaerendi exempli</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Forma mitti non potuit.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Gratias: forma missa est.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Forma non accepta est: inspice quae inscripsisti et iterum mitte.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Remove nexus ad paginas quas exemplar non continet</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Remove nexus ad administrationem</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Textus eorum manet. Imagines, formulae et nexus ad alias sedes numquam removentur.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versio</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Aditus situs edendi</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Aditus situs</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>In radice</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Nullus aditus in radice: quisque in sua capsa est, et radix ad eos nectit</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Aditus situs</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Nota unum aditum situs, vel plures qui unum hospitem per praefixum URI communicant. Qui in radice est ibi praebetur, ceteri in capsa praefixi sui (/ger/); nexus inter eos in exemplari manent. Aditus administrationis numquam offeruntur.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Editio statica %target in %site defecit</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Editio statica %target in %site successit</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Has litteras %site misit quia scopus editionis staticae %target eas postulat.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Traditio %deploy in %site defecit</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Traditio %deploy in %site ad portam exspectat</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Traditio %deploy in %site successit</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Hae litterae a %site missae sunt quia migration.ini [RemoteSettings] Notify[] eas postulat.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Genera datorum (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Numeratum %time, iterum post %minutes minuta</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Genus datorum unum genus valoris attributi classis servat et emendat: lineam textus, imaginem, relationem. Nucleus plurima affert, extensiones alia addunt. Hic sunt omnia, qui ea praebeant et quantum contentorum ea adhibeat. Genus datorum quod basis datorum adhibet sed nihil iam inscribit, contenta quae id habent frangit.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Greges classium</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Nunc iterum numera pro numeris ultimorum minutorum.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Iterum numera</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Conspectus</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Inscriptum</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>In usu</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Non adhibitum</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Extensiones quae genera datorum praebent</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Attributa classis</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Attributa rei</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Non inscriptum</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>In indice, fasciculus deest</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count genera datorum adhibentur sed non inscripta sunt</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes attributa classis et %object_attributes attributa rerum genus datorum habent quod nulla extensio neque optio inscribit. Res eorum ostendi, emendari aut edi non possunt. Extensionem quae genus datorum praebet activa, aut classem muta.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Haec sola ostende</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Genus datorum quaere</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identificator, nomen, classis PHP aut extensio.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ostendere</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Omnia</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Praebetur a</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Omnes</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Nucleus</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Nullum genus datorum huic filtro congruit.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Omnia ostendere</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Extensio</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown ex %count generibus datorum, %used in usu</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Basis datorum attributa classium aut rerum horum generum datorum habet, sed content.ini nullum eorum enumerat, aut fasciculus eius deest.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Genera datorum %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Genus datorum</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Classis et fasciculus PHP</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Classes</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Res</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Notae</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nullum</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Nullum genus datorum quaestioni congruit. Quaestionem purga.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown ex %count generibus datorum ostensa</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Genera datorum ostensa: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Secundum %column ordinare</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Numeratum %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Omnia genera datorum</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Pagina auxilii</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Hoc genus datorum adhibetur sed non inscriptum est</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Res classium infra ostendi, emendari aut edi non possunt dum nulla extensio genus datorum inscribit. Extensionem quae id praebet activa et id adde ad content.ini [DataTypeSettings] AvailableDataTypes[], aut classes muta.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini hoc genus datorum enumerat, sed nullum directorium generum datorum fasciculum eius habet. Nihil id adhibet; remove id ex AvailableDataTypes[] aut extensionem eius activa.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>De hoc genere datorum</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identificator</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nomen</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extensio %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>nemo</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Classis PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fasciculus</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>In AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ita</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>non</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Columnae valoris eius</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Columnae optionum attributi classis</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabulae</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Columnae et tabulae inveniuntur legendo codicem generis datorum: dux, non promissum.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Formulae</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Aditus situs</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Formula</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Inventum in</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>haec administratio</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>situs praefinitus</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Sine substitutionibus: formula substituta quae classi aut attributo congruit his praevalet.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Classes quae id adhibent (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Nulla classis attributum huius generis datorum habet.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Classis</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Attributa</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Attributa classis (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attributum</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Optiones</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Necessarium</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Investigabile</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Vertibile</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Notitiam colligit</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Aliqua contenta quae id adhibent</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Novissime mutata primum</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Mutatum</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nodus %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Quaeque translatio suum valorem habet.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Quaestio valores eius in indicem refert.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Informationem a visitatoribus colligere potest (formulae).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Indices secundum id ordinari possunt: clavis ordinis %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Ordinabile</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Valores eius ad alias res monstrant.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Relationes</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Ex simplici catena textus impleri potest (importatio, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Ex textu</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Ex fasciculo impleri potest.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Ex fasciculo</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Optiones attributi classis eius in sarcinas includuntur.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Sarcinae</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Contenta (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ad %to ex %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Indicem cribrare</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Omnes classes</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sectio</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Linguae</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Possessor</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publicatum</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Ordinem invertere</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nulla res</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>In singulis paginis</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Res in singulis paginis ostendere: %count.</translation>
     </message>
 </context>
 </TS>

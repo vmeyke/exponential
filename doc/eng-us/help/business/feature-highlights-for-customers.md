@@ -15,6 +15,20 @@ it, the place in the administration where you can show it, the page of this help
 should mention before the customer finds it. Nothing here is a promise beyond what the linked pages document: when a
 customer asks for more than a page says, the honest answer is "the documentation does not state that; we will check".
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../examples/web-servers/nginx.md), [LiteSpeed](../../examples/web-servers/litespeed.md),
+> [Caddy](../../examples/web-servers/caddy.md), [IIS](../../examples/web-servers/iis.md), [Velocity](../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../hosting/panels/plesk.md), [cPanel](../hosting/panels/cpanel.md), [DirectAdmin](../hosting/panels/directadmin.md), [ISPConfig](../hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## Contents
 
 1. [How to use this page](#how-to-use-this-page)
@@ -48,9 +62,10 @@ customer asks for more than a page says, the honest answer is "the documentation
    can be printed or downloaded as a PDF (see [PDF and e-books](#pdf-and-e-books)).
 
 > **Note**
-> The features below are those of the 6.0.15 line, which is in development; the newest tag is 6.0.14
+> The features below are those of the 6.0.15 line, the current line after 6.0.14
 > ([Who is 7x?, The 6.0.x releases](../who-is-7x.md#the-60x-releases)). When a customer will run a released version,
-> check the [6.0.15 changelog](../../../changelogs/6.0/6.0.15.md) for what is in which version before you promise a date.
+> check the [6.0.15 changelog](../../../changelogs/6.0/6.0.15.md) and the published tags for what is in which version
+> before you promise a date.
 
 ## The map: need, feature, where to show it, proof
 
@@ -58,7 +73,7 @@ customer asks for more than a page says, the honest answer is "the documentation
 |---|---|---|---|
 | Editors who arrange pages without a developer | Exponential Layouts: layouts, zones, blocks and rules | **Layouts** tab, **Open** a layout | [The layouts editor](../layouts-editor.md) |
 | Several sites, brands or countries from one installation | Siteaccesses (one per site, language or the administration), per-site settings, cross-site links | The globe button in the header, **Open the site or another siteaccess** | [Siteaccess host and language matching](../../features/6.0/siteaccess-host-and-language-matching.md), [Per-site settings](../../features/6.0/multi-site-ini-overrides.md), [Cross-site links](../../features/6.0/multisite-cross-site-links.md) |
-| Content in many languages | 268 locale files (261 languages and countries) as content languages; translations per item | An item's language badges and **Translations** tab | [Languages in Exponential](../../languages.md), [Languages](../languages.md) |
+| Content in many languages | 368 locale files (361 languages and countries) as content languages; translations per item | An item's language badges and **Translations** tab | [Languages in Exponential](../../languages.md), [Languages](../languages.md) |
 | An administration in the editors' own language | administration translations (the current totals are at the top of [Languages in Exponential](../../languages.md)) | Right column, **Interface** box, **Interface language** | [Languages in Exponential, support levels](../../languages.md#2-support-levels) |
 | Hebrew, Arabic, Persian or Urdu | Right-to-left in content and administration (`dir="rtl"`) | Choose a right-to-left interface language | [Right to left](../../features/6.0/right-to-left.md) |
 | Faster writing, with a human in charge | Exponential Intelligence (`expai`): writes drafts only | The **Intelligence** tab of an item; the edit form | [Exponential Intelligence](../../features/6.0/extensions/expai.md) |
@@ -76,13 +91,13 @@ customer asks for more than a page says, the honest answer is "the documentation
 | An online shop | The built-in shop with a dashboard and order statuses | **Store** tab | [Store dashboard](../../features/6.0/store-dashboard.md) |
 | Content for apps and other systems | REST API v1 and v2 | (show a request in a terminal) | [REST API v1 and v2](../../guides/rest-api-v1-and-v2.md) |
 | Their preferred database | SQLite 3, PostgreSQL, MongoDB, MariaDB, Oracle, MySQL | **Setup > System information**, Database card | [Database support](../database-support.md) |
-| Their preferred hosting | Almost any operating system with PHP 8.0 or later; many web servers | (a document) | [Operating system support](../os-support.md) |
+| Their preferred hosting | Almost any operating system with PHP 8.0 or later (PHP 7.4 usable without support); many web servers | (a document) | [Operating system support](../os-support.md) |
 | Fewer surprises in operations | Log viewer, error references, content checks, upgrade check | **Setup > Log files**, **Setup > Upgrade check** | [Log viewer](../../features/6.0/log-viewer.md), [Content checks](../../features/6.0/content-checks.md), [Upgrade check](../../guides/upgrade-check.md) |
 | Big changes that do not time out | Content jobs in the background | Remove or move a large subtree | [Content jobs](../../features/6.0/content-jobs.md) |
 
 ## Editors build pages themselves
 
-**What to say.** Exponential Layouts is "a visual page builder for Exponential. It brings the Netgen Layouts concept to
+**What to say.** Exponential Layouts is "a visual page builder for Exponential. It brings the concept of the upstream layouts packages to
 the Exponential kernel: a layout is a saved arrangement of blocks in zones, and a rule decides which pages get it"
 (`README.md`, "Exponential Layouts"). Editors drag blocks into zones, change them in a **Content** and a **Design**
 tab, and work on a draft that the site does not show until they publish
@@ -116,7 +131,7 @@ content tree go to the right site with the `ezurlmultisite` extension
 ([Cross-site links](../../features/6.0/multisite-cross-site-links.md)).
 
 **What to show.** The globe button in the header (**Open the site or another siteaccess**) and, on an installation
-made with `./console exp:install`, the sites of the multisite package
+made with `./console exp:install --apply`, the sites of the multisite package
 ([Installing Exponential in one command](../../features/6.0/install-in-one-command.md)).
 
 **Limits to state.**
@@ -129,7 +144,7 @@ made with `./console exp:install`, the sites of the multisite package
 
 ## Many languages, including right to left
 
-**What to say.** "268 locale files (261 languages and countries ...) can be chosen as content languages and
+**What to say.** "368 locale files (361 languages and countries ...) can be chosen as content languages and
 siteaccess locales; administration translations exist (the current totals are at the top of the languages page)" ([Languages in Exponential](../../languages.md)).
 Each translation of an item is published on its own ([Languages](../languages.md#translate-an-item)). When the interface
 language is written right to left, "the administration turns around" and content in a right-to-left language is marked
@@ -270,7 +285,7 @@ third-party integrations. Treat each integration as a scoping question
 
 **What to say.** Six databases are supported, "in order of preference: 1. SQLite 3 (the default) · 2. PostgreSQL ·
 3. MongoDB · 4. MariaDB · 5. Oracle · 6. MySQL" ([Database support](../database-support.md)). The operating system can
-be "almost any that runs PHP 8.0 or later", sorted into four honest tiers ([Operating system support](../os-support.md)).
+be "almost any that runs PHP 8.0 or later (PHP 7.4 usable without support)", sorted into four honest tiers ([Operating system support](../os-support.md)).
 A site can move to another database with documented tools
 ([Moving a site to another database](../database-support.md#moving-a-site-to-another-database)).
 

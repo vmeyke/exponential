@@ -2,7 +2,7 @@
 /**
  * File containing the eZContentClassTest class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -23,6 +23,7 @@ class eZContentClassTest extends ezpDatabaseTestCase
      * Unit test for eZContentClass::classIDByIdentifier()
      * @dataProvider providerForTestClassIDByIdentifier
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerForTestClassIDByIdentifier')]
     public function testClassIDByIdentifier( $sourceArray, $expectedArray )
     {
         $transformedClassArray = eZContentClass::classIDByIdentifier( $sourceArray );
@@ -45,6 +46,7 @@ class eZContentClassTest extends ezpDatabaseTestCase
      * Unit test for eZContentClass::versionHistoryLimit()
      * @dataProvider providerForTestVersionHistoryLimit
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerForTestVersionHistoryLimit')]
     public function testVersionHistoryLimit( $INISettings, $class, $expectedLimit )
     {
         // change the INI limit settings

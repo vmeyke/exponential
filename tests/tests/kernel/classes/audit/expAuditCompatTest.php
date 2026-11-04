@@ -19,7 +19,7 @@
  *          after; a secret is [secret]; audit.ini also records system.audit.setting.write and, for Audit=disabled,
  *          system.audit.disable
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group audit
@@ -28,6 +28,7 @@
 require_once __DIR__ . '/fixtures/expaudittestfixtures.php';
 require_once __DIR__ . '/../ini/fixtures/expinienginetestfixtures.php';
 
+#[\PHPUnit\Framework\Attributes\Group('audit')]
 class expAuditCompatTest extends PHPUnit\Framework\TestCase
 {
     protected $dir;

@@ -23,8 +23,14 @@ Never edit `settings/audit.ini` itself: an update replaces it. Put the settings 
 > (content.node.\*), an action with its details (content.node.remove.\*) or one name.  
 > The most specific pattern wins; on a tie the later line wins. Events marked "always"  
 > in the catalogue (system.audit.\*, access.view.sensitive) ignore Disabled\[\].  
+> Migrations (migration.ini): a run, a migration applied (also a changed file accepted with  
+> --force --reason), failed or rolled back, a caption taken, the migrations repository pushed,  
+> and the requests, mails and console commands of their http, mail and command steps.  
+> A site that switches system.\* off keeps them with these lines.  
+> Static publishing: a publish (also a push tried again), a rollback, a deploy key made, a target saved, a build,  
+> a post to the form endpoint.  
 
-Default: a list of 33: `access.*`, `system.*`, `content.node.move`, `content.node.remove.*`, `content.node.hide`, `content.node.reveal`, `content.node.swap`, `content.node.section`, `content.object.remove`, `content.object.purge`, `content.object.restore`, `content.object.state` ....
+Default: a list of 52: `access.*`, `system.*`, `system.migration.run`, `system.migration.apply`, `system.migration.fail`, `system.migration.rollback`, `system.migration.caption`, `system.migration.push`, `system.migration.http`, `system.migration.mail`, `system.migration.command`, `system.migration.record` ....
 
 ```ini
 <?php /* #?ini charset="utf-8"?
@@ -34,25 +40,25 @@ Default: a list of 33: `access.*`, `system.*`, `content.node.move`, `content.nod
 Enabled[]
 Enabled[]=access.*
 Enabled[]=system.*
-Enabled[]=content.node.move
-Enabled[]=content.node.remove.*
-Enabled[]=content.node.hide
-Enabled[]=content.node.reveal
-Enabled[]=content.node.swap
-Enabled[]=content.node.section
-Enabled[]=content.object.remove
-Enabled[]=content.object.purge
-Enabled[]=content.object.restore
-Enabled[]=content.object.state
-Enabled[]=content.object.translation.remove
-Enabled[]=content.version.remove
-Enabled[]=content.trash.empty
-Enabled[]=content.class.create
-Enabled[]=content.class.change
-Enabled[]=content.class.remove
-Enabled[]=content.section.*
-Enabled[]=content.state.*
-# ... 13 more in the shipped file
+Enabled[]=system.migration.run
+Enabled[]=system.migration.apply
+Enabled[]=system.migration.fail
+Enabled[]=system.migration.rollback
+Enabled[]=system.migration.caption
+Enabled[]=system.migration.push
+Enabled[]=system.migration.http
+Enabled[]=system.migration.mail
+Enabled[]=system.migration.command
+Enabled[]=system.migration.record
+Enabled[]=system.migration.deploy
+Enabled[]=system.migration.deploy.rollback
+Enabled[]=system.migration.remote
+Enabled[]=system.staticpublish.publish
+Enabled[]=system.staticpublish.rollback
+Enabled[]=system.staticpublish.credential
+Enabled[]=system.staticpublish.target
+Enabled[]=system.staticpublish.build
+# ... 32 more in the shipped file
 */ ?>
 ```
 

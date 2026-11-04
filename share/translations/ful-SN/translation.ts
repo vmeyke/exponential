@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Hello ndee tan yiylotoo: %from haa %to diga %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kala sifaa keɓe e ɓernde ndee e ɓeydaaji ɗii, e no sifaaji e loowdi huutortoo mo.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Sifaa keɓe</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Kelle sisteem ina waawee maandeede: uddu hello ndee (Teeltugol, daartol yeeso, doggol kuutorɓe ...) refti suɓo Maandu hello ndee dow mayre. Maandeeji non ina ngoodi natal gaasi.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>A waawataa uddude hello ndee ɗoo fahin. Itt maande ndee, walla ɗaɓɓu naatgol e toppitiiɗo.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Yah haa hello adiiɗo</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Goɗɗi</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>ñalɗi 7 cakkitiiɗi</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Kelme suɓaaɗe</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Konguɗi fof</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Konngol kala</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Konngol kaɓɓingol</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Fawaade</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Innde A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Innde Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Waylaama, ɓurɗo hesɗude adan</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Waylaama, ɓurɗo hiiɗde adan</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Muuɓtinaama, ɓurɗo hesɗude adan</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Muuɓtinaama, ɓurɗo hiiɗde adan</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Waylaama</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Sooɓirde</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Hollu sooɓirde</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Suuɗ sooɓirde</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Fuɗɗitin</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Jaɓ</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Konguɗi</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Sifaa loowdi</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Hollu ko ɓuri (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Suɓo sifaa loowdi gooto ngam yiylaade e gooto e jikkuuji mum.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Taƴre</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Diga</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Haa</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Ñalnde fuɗɗoode nden moƴƴaani.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Ñalnde gasoode nden moƴƴaani.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Jom</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID kuutoro, innde seŋorde walla ñiiɓirde iimeel.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Alaa kuutoro yiytaaɗo e “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Ɗemngal</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Ɗemngal kala</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Nokku</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Nokkuuji %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Pirooji e hello kala</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Pirooji “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Pirooji (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Yuɓɓin e</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Yuɓɓin</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Sooɓirde ɗe ina gollii</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Itt sooɓirde ndee</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Walla suɓo sooɓirde, jaɓaa ɗe ngam hollude loowdi fottiindi e majje.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Sooɓirde ɗee ɓeydat yiylo ngo so a winndii konguɗi.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Alaa pirooji yiytaa e “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Alaa pirooji yiytaa.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Momtu sooɓirde gooto dow.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Pirooji</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Golle</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Waylu %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Waylu</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Teeltugol &gt; Cronjobs</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Alaa geɗal cronjob golliiɗal tawo: tolno golle, ko naatnaa, tintine e doggol yiylo ina ndaara. Waɗ php bin/php/installcrontab.php --add --apply, walla ɓeydu diidi --show ɗii e crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Reentinooje copyright binndooɓe adinooɓe e software ɓanndu goɗɗo e Exponential ina mooftaama ka fichiers sorsi e ka fichier LICENSE, no jamirol ngol yeewti.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Ɗum ko doggol wallooɓe Exponential ɓe ndonni 7x jamirol huutinirgol golle maɓɓe e sarɗi Contributor Licensing Agreement ɗum eZ Systems. No sarɗi ɗin ndonni, 7x yaltinii golle kala wallooɗo e jamirol fichier ɗo golle ɗe ngoni. Doggol ngol innat wallooɗo kala, anndinol haɓɓitugol e fichiers ɗi o wallitii.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Wallitooɓe teddinaaɓe e golle maɓɓe e Exponential e software nde iwi e mayre, e fiise ɗe ɓe walli. Ɗum ko teddingol, wonaa tintinol copyright: wallitaaɗe ngam Exponential ndokkete Exponential Foundation e 7x e les Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Maandu: Paketji ɗin ittaaka aafugo maɓɓe.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Ndaar Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Wonu tiimoowo fedde Exponential, soomtu e wallu&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; e goɗɗo.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Huutinaama e &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Ngam anndinol ɓurngol yiy &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; e goɗɗo.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Ngam anndinol ɓurngol yiy &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; e goɗɗo.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Ndaar Exponential (diga 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Wonu tiimoowo fedde Exponential, heɓu ballal e wallu&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; e goɗɗo.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Maandu: Paketji ɗin ittaaka aafugo maɓɓe.</translation>
     <message>
         <source>Help center</source>
         <translation>Nokku ballal</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Loowdi</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Kelle dokimaa</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Kuutorɓe</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Sifaaji loowdi</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Toppitagol</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Hello %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Yiy pirooji fof</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Pirooji %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Pirol gootol</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Basiyaaji %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Alaa basiyaaji</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Basiyaaji ɗii loowaaki.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Basiyaaji</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Maandu: Paketji ɗin ittaaka aafugo maɓɓe.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Jooɗorde ndee ko demo yaaraaɓe: ko kala ina waawi anndude finnde toppitiiɗo, e finnde toppitiiɓe waylataa walla hesɗitintaa. Hoto winndu huunde suuɗaaɗe ɗoo.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Jaaɓirde maaɗa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Golle kisal</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Maandu: Paketji ɗin ittaaka aafugo maɓɓe.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ɗaɓɓitaaji, yiylugo e no anndintee juumre.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Loowdi kesi</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Loowdi kesi ndi, ko daraa ngam ƴeewndaagol, e golle e ko suɓaa.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Maandu: Paketji ɗin ittaaka aafugo maɓɓe.</translation>
         <source>Synchronisations</source>
         <translation>Synchronisations</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: tolnde mum joofnirde, schema oo e nokku ndarndagol ñaamde.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Egge</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Bayle aafgol ngol ɗe mooftaa no fiilde: no ɗe ngonri, doggi ɗii, dogin e artirgol.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Loowdi kesi</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Loowdi kesi ndi, ko daraa ngam ƴeewndaagol, e golle e ko suɓaa.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Yaltin nokkuure statik lowre e GitHub Pages walla e host git kala.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Yaltingol statik</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Sifaa keɓe</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kala sifaa keɓe e ɓernde ndee e ɓeydaaji ɗii, e no sifaaji e loowdi huutortoo mo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Maandu: Paketji ɗin ittaaka aafugo maɓɓe.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Konte ɗe alaa huutinii walla ɗe ndaarteeɗe; ñif, hollu walla yaltin ɗe.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Daartol taskaano huutorɓe</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Moy waylii, moy naati walla moy salaa, e konte kala; sooɓ e yaltin.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Jaŋtol naatgol</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Ɓe naatii, naatgol e ko waɗaaki ñalnde kala; yaltin kuutoro ka nokkuuje fof.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Maandu: Paketji ɗin ittaaka aafugo maɓɓe.</translation>
         <source>%n hours ago</source>
         <translation>%n waktu ɓooyɗi</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Jaabawol ñaamde mooftaaɗe GraphQL API, e ndenndi loowdi schema mayre.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Yaltin nokkuure statik e GitHub Pages walla e host git kala</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Yaltingol statik</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Cache static oo ina rokka kelle immorde e ndee sarwoor. Ngam yaltinde nokkuure statik lowre nokku goɗɗo, e GitHub Pages walla e host git kala, huutoro yaltingol statik.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Maandu: Paketji ɗin ittaaka aafugo maɓɓe.</translation>
     <message>
         <source>last purge</source>
         <translation>ɓoorgol cakkitiire</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Binndi ngalɗi waawaa jogaade uddorde ngonka nde (sakket %date): kala gooto e majji waɗii jaabawuuji ndesaaɗi fof ɓooyɗi. %file ena haani winndeede kala huutoroowo mo lowre nde golloto e innde makko; e NFS ena soklii NFSv4 walla lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Maandu: Paketji ɗin ittaaka aafugo maɓɓe.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Sessions ɗe wakkati ɗum e handler PHP ittetee PHP hoore mum (session.gc_maxlifetime), naa hello ndee walla feccere cronjob session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Jaŋtol naatgol ina hollira sessions naatɗe kuutoro kala, ina yaltina ɗe kadi; ina golla e handler session kala.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Uddit jaŋtol naatgol</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ konte maaɗa.</translation>
     <message>
         <source>None yet</source>
         <translation>Alaa haa jooni</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Golle kisal</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Naatgol maa sakkitorɗe, eeɗannde waɗaaki e bayle e finnde maa, ñiiɓirde iimeel maa e naatgol e jahal ɗiɗi.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Naatgol sakkitorɗe, eeɗannde waɗaaki e bayle kisal konte ndee.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Ƴeewto golle</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Naatgol waɗaaki: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ So a yiɗi neldude tinndinooje e jaɓoowo walla yiyde ngonka, huutoy URL les.</t
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Caggal naatgol, kuutoro oo foti suɓtude finnde kesde adan ko feere fof. Huutoy ɗum nde a hokki goɗɗo finnde ɓurnde.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Suɓo natal ngal woodi</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Fiilde natal huunde nde cuɓataa ndee ina nattee e nder fowru ndu. Huunde goo ndee waylotaake.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Natal "%name" nattaama e nder fowru ndu.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Yiylo natal e dow</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Yiylo nate e innde</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Yiylo</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Huutoro natal "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Huutoro natal ngal</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Alaa natal fotndungal e yiylo maa.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Yiy hello ko haani ngam anndude ɓuri.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab binndaaka (%reason). Ɓeydu setar ɗin e crontab kuutoro ngo lowre ndee dogoo, naa daaɗe, naattingol, tintinol e index yiylo ɗon doga abada:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Fawtitagol ina waɗee e Kickstarter (%file, caggal ɗuum php bin/php/kickstarter.php run --apply) walla e fawgol kesol.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ konte maaɗa.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Cache packer public eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Ndesgu GraphQL (jaabawol e ndenndi schema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ konte maaɗa.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Natto %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Sifaa keɓe</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Sifaa keɓe %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ konte maaɗa.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Natal SVG waawaa tonngeede, walla alaa ko nder mayri waawi hollireede no kisal.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Natal ngal nattaaki. Eto kadi walla jokkondir e jiiloowo lowre ndee.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Huunde cuɓaande ndee woodaani walla a yamiraaka tarde nde.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Huunde cuɓaande ndee alaa natal.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Fiilde natal huunde cuɓaande ndee tarotaake.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Natal huunde cuɓaande ndee ɓurii ko fowru ndu jaɓi: %1 bytes.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ konte maaɗa.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Maande ndee waylaama innde haa "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Hello ndee ñifaama e ndee siteaccess (%siteaccess). Uddu maande ndee e siteaccess jogiiɗo hello ndee.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Module hello ndee aafaaka walla huuɓaaka ɗoo.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Hello ndee woodaani kadi: module mayre alaa yiyannde nde wa nii.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Hay darnde wootere e darnde maa yamiraani ma uddude hello ndee.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>A waawaa huutoraade ndee siteaccess.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>A waawaa tarde loowdi ko hello ndee hollata.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Hello wa ndee waawaa maandeede: ina golloo tan e fomme, walla ko hello sahaa gooto tan.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Ñiiɓirde hello ndee ina ɓoorni.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Hello ndee waawaa uddeede jooni.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Transport iimeel salii tonngooji %count e dogugol sakitiingol. Ƴeewu serveur iimeel e site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Huunde waɗnde %count ina ndaara, alaa dogdu cronjob tintinol winndaa. Ɓeydu geɗal cronjob &quot;frequent&quot; e crontab, walla waɗ exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Suɓo lowre walla taƴre wooɗnde bee suɓoowo nokkuure</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Hooreejo sistem tan waawi waylude jom mum: waɗ ./console exp:content-check --fix-permissions --apply wano root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
     <message>
         <source>empty</source>
         <translation>koɗo</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Coktirgal siifannde ɓurii hitaande: waylu ɗum e exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
         <source>Share of page time</source>
         <translation>Ɓeydal waktu hello</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>yoɓugol timmungol ñaagaama</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>hello ndee alaa e cache kelle (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>cache kelle jaabaaki</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Yoɓaama</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Ɓernde yoɓii ɗum: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Rokkaama e cache kelle e nder %ms ms. Hello ndee mooftaama e %stored, yoɓugol %render ms, %age s ɓennii.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Yoɓ jooni</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Rutto e yiyannde cache</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Iwde e yoɓugol %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Ñaagnde ndee: rokkaama e cache kelle e nder %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kuutoro</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID kuutoro</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Porfiil kaas</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Ndee yiyannde</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Cache yiyannde</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>kala huutoroowo (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Porfiil kaas huutoroowo: huutorooɓe jogiiɓe porfiil gooto ina renndoo e fiše kaas yiyannde</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>eey</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>alaa</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Innde naatgol</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Naatii</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Jokkere</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Geɗe coktirgal kaas yiyannde loowdi ɗe njowitii e huutoroowo, no coktirgal ngal jogortoo ɗe non, e les ViewCacheTweaks hello ngoo. Huutorooɓe jogiiɓe porfiil gooto ina renndoo e fiše kaas yiyannde, si geɗe yiyannde nde e hoore mum ceertaani (cuɓe, coktirɗe heɗotooɓe): ɗeen ina njogii porfiil mum en, ngam hello ngoo tan.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Ndee yiyannde (nokku %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: kala huutoroowo naatiiɗo ina jogii fiše kaas mum.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks golloowi: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Dammugal</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Keewal</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Alaa geɗal njowitiingal e huutoroowo (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ndee yiyannde</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Natto no binndol</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Darnde</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Toɗɗagol darnde fof waawaa janngeede.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID darnde</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Darnde</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Keerol</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Toɗɗaa e</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>huutoroowo</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>fedde %name (huunde %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Nattaama</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Waawaa nattaade.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ɗaccaa ko heɗotooɗo</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Yaaroobe anndaaɓe</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>wano maa</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ceertuɗo</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Porfiil mo koɗɓe ɓe anndaaka keɓata e les ViewCacheTweaks gooto, e cuɓe woowaaɗe, tawa alaa geɗe yiyannde: heɗotooɗo janngoowo jokkere nde waawaa naamneede ɗe.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Cuɓe</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Alaa mbaydi yiyannde njowitiinde e cuɓe huutoroowo (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Cuɓe ɗe yiyannde ɗee mbaydi yiyannde njowitii (CachedViewPreferences), e njaru huutoroowo walla ndu woowaandu. Ɗe ngoni e porfiil hono userpreferences, ɗe mbaydi yiyannde fof kawriti.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Mbaadi yiyde</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Cuɓol</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Ko woowaa</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Doosgolji</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Hollu dawaale darnde ɗee (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Dawaale ɗee ina loowee e sarwoor tuma nde pecceere ndee udditaa, hello gooto e nder sahaa, ina waawi sefeede e mojuul e golle.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Golle</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Module fof</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Golle fof</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Keerol</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Hollu ko ɓuri</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Ɗee darnde alaa dawaale.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Alaa dawol yahdungol e sefirde nde.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown e %matching dawaale (%total fof)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>A ɗon loowee to ɗum maɓɓi.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, kuugal, ɓamtol</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Ɗaɓɓutu laawol ɗiɗi</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Loowtu ko ɓuri</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Module/golle</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Kuuje fuu (laawol %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Walaa laawol jaajanoojo.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown e laawol %matched</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Walaa jaabawol</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>suuɗaama</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Hollu firooji</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Suuɗ firooji</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Uddu</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Udditu fof</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Uddu fof</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kiɗ walla keewal</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Yiylo e jokkere ndee</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Fannu</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count goɗɗe</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>naatii ko ɓuri luggude ngam hollireede</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>taƴaama, alkule %count fof</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Fuɗɗii</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Innde kukii</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID jokkere</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Toppitoowo</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Laawol danndugol</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Ko PHP suɓi</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Juuteendi nguurndam (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kukii</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>juuteendi %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Jokkere PHP maa hoore maa, no wonnoo nde taƴre nde udditaa, wonaa jokkere goɗɗo. Keewe kiɗɗe nanndooje e cuuɗi (token, hash, finndeeji) ena suuɗaa (debugbar.ini SessionMask[]); kala goɗɗum hollirtee no danndiraa, hay humpitooji keeriiɗi.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>kiɗɗe %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>mawnde</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Jokkere ndee ena wolli.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Alaa jokkere fuɗɗaama ngam ndee ɗaɓɓaande.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Ɓeydaari %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel e goɗɗe</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Naatgooji ɗi fof hollaaka: jokkere ndee ena jogii ko ɓuri ko waawi limteede ɗoo.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Kiɗɗe %count limtaaka.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Kaɗɗungal</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Keewe nanndooje e token (JSON Web Token, seedeeji tiitoonde Authorization, kiɗ keeriiɗo, binndi hex juutɗi walla ko woni tan) ena suuɗee kadi, hay innde kiɗ mum woni hol ko (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Kiɗ o ena nanndi e suuɗaaɗum (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Keewal ngal ena nanndi e token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Ley kiɗ suuɗaaɗo.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Jokkere ndee wano binndi, suuɗaa wano tabalo o.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Jokkere ndee ena ɓuri %size (debugbar.ini SessionWarnBytes): kala ɗaɓɓaande huutoroowo oo ena janga jokkere ndee fof, ena winnda nde so nde waylii.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ena danndoo jokkere ndee e fiilaaji, ena uuma fiilde nde e ɗaɓɓaande nde fof: ɗaɓɓaaje huutoroowo gooto (tabbe keewɗe, noddaange AJAX) ena fadondira.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Accu ena udditii</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Ena ɓuri %size (debugbar.ini SessionWarnBytes): kala ɗaɓɓaande huutoroowo oo ena janga jokkere ndee fof.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits e %count njangaama e cache</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Alaa modèle hollaama (yiyannde jangaande e cache yiyannde hollataa hay gootel).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Hokkirɗe darnde</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Darnde e doosgolji</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>ceertii e koɓe jillotooɓe ɓe innde mum anndaaka</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>ko wano koɓe jillotooɓe ɓe innde mum anndaaka</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
     <message>
         <source>not sent</source>
         <translation>neldaaka</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Cronjob tintinol ina winnda ɗoo dogdu mum kala. Ɓeydu geɗal frequent e crontab, walla waɗ exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Huutoro konsol: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Sooynde ndee yaltinaaka; jaŋŋooɓe ndaaraa ɗum.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Egge</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Bayle aafgol ngol ɗe mooftaa no fiilde: no ɗe ngonri, doggi ɗii, dogin e artirgol.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Yaltin nokkuure statik lowre e GitHub Pages walla e host git kala.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Yaltingol statik</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>E ndaarngo</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Jaŋŋooɓe ina ndaara ngoo hello.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Suuɗaama jaŋŋooɓe haa goɗɗo yaltina ɗum.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Hello ngoo ina e ndaarngo jooni. Ina suuɗaa jaŋŋooɓe haa yaltinee.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Hello ngoo yaltinaama: jaŋŋooɓe ina ndaara ɗum jooni.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Hello ngoo ko daartol kadi. Ina suuɗaa jaŋŋooɓe haa ndaaree, yaltinee.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Yaltin jooni</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Kuutoro jogiiɗo darnde %role mo winndaani yamre ndee tan ina waawi yaltinde ɗum.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Sooynde ballal sabbiiɗe yaltingol</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Ina suuɗa ɗum jaŋŋooɓe haa yaltinee kadi.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Ndaarotooɗo ina ndaara ɗum caggal. Jaŋŋooɓe yiyataa ɗum tawo.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Jaŋŋooɓe ina ndaara ɗum ɗoon e ɗoon.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Ina yaltina ɗum e ndaarngo ngam golle goɗɗe. Jaŋŋooɓe yiyataa ɗum.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Suuɗ hello ngoo jaŋŋooɓe?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Rutto hello ngoo e daartol?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Jaŋŋooɓe yiyataa %title kadi haa goɗɗo yaltina ɗum kadi.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title ina rutto e daartol ngam golle goɗɗe. Jaŋŋooɓe yiyataa ɗum tawo, ina sokli ndaarngo kesngo hade mum yaltineede.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Haaytu</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Sooynde ɗee ina e ndaarngo. Jaŋŋooɓe ina ndaara ɗe so goɗɗo mo winndaani yamre jooni ndee yaltinii ɗe.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
         <source>None.</source>
         <translation>Alaa.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>e app authenticator</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>e code neldaaɗo e iimeel</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>e code artirgol</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>e passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>e konte caggal</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Golle kisal</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Ina hollira wano lewru mum; ñiiɓirde ndee ina mooftee no teelte reentaade keɓe lowre ndee mbiyri.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Winndaaka</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Nokku</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ko ɓadii</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
         <source>Manage devices</source>
         <translation>Toppit jaaɓirde</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>e app authenticator</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>e code neldaaɗo e iimeel</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>e code artirgol</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>e passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>e konte caggal</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Golle kisal</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Winndaaka</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Nokku</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ko ɓadii</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
         <source>View the sessions of this user</source>
         <translation>Ndaar session kuutoro oo</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Konte maa %login e %site huutoraama jooni ngam naatde diga nokku ka o naataano diga mum ko ɓooyaani:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Nokku ko ɓadii</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser e %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Jaŋtol naatgol</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Passkey ndaaraaka. Useni, foti kadi.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Konte naatooje e passkeys tan waawaa huutoraade finnde ɗoo: suɓo &quot;Naat e passkey&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Passkeys jeyaaɗi e %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Passkeys ɗe konte ndee naatortoo. Haaytu kala ngoo woni e kaɓirgal majjungal walla nguyaangal: ɗum waawataa naatde kadi. Jom konte oo ɓeydata kese ɗee hoore mum.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Konte maaɗa ina sokli passkey</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Ɓeydu passkey e konte maaɗa</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Ɓeydu passkey ngam jokkude. Caggal ɗuum a naatoto e mayre, wonaa e finnde tan.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Naatgol e passkey ina yaawi, ina reenii ko ɓuri finnde. Ɓeydu gooto jooni, walla jokku tawa alaa.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Wonaa jooni</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Haaytu passkey &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ɗum waawataa naatde e konte ndee kadi. So ɗum woni sakkitiiɗo oo, jom konte oo naatoto e finnde nden, walla a waɗa hesere.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Haaytu passkey oo</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Haaytu</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Konte ndee alaa passkey.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Kaɓirgal ƴeewtorgal</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Anndaaka</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Passkey maaɗa sakkitiiɗo: ɓeydu goɗɗo hade maa ittude ɗum.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Konte ndee naatortoo passkeys tan (doosgol passkey): so hay gooto heddaaki, ɗum naatoto e finnde mum kadi.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Ɗum ko passkey maaɗa sakkitiiɗo, konte maaɗa waawaa naatde tawa alaa. Ɓeydu passkey goɗɗo adan.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Passkey &quot;%name&quot; haaytaama. Ɗum waawataa naatde e konte ndee kadi.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
         <source>Code from your authenticator app</source>
         <translation>Koode diga application authenticator maaɗa</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>A ɗon yaara momtude keɓe haa abadaa walla wujjude jaaynde golle.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Finnde maaɗa e passkey</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Finnde maaɗa e koode diga application authenticator maaɗa</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Walla:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Wanngorde ndee waawaa huutoraade passkeys. Huutoro laawol goɗngol, walla wanngorde goɗnde.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>So a jokkii, wanngorde maaɗa naamnay gooto e passkeys maaɗa.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Jokku e passkey</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
     <message>
         <source>Setup</source>
         <translation>Teeltugol</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Waylude finnde mum, ñiiɓirde iimeel, passkeys, naatgol e jahal ɗiɗi, kodeeji danndugol walla keɓe API mum, e yaltinde kaɓirɗe mum goɗɗe.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Sosde e waylude kuutorɓe, finndeeji maɓɓe e kaɓirɗe maɓɓe, teelte konte, jaɓde walla salaade konte kuutorɓe kese, rokkude darnde e waylude doosgolji.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Momtude keɓe</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Wujjude ɓalli, ittude geɗe e mayri e ittude geɗe keewɗe e laawol gootol.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Ittude, yaltinde e mooftude loowdi</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Ittude loowdi (hay e ɓalli), yaltinde e mooftude daartol; naamnetee so formular oo neldaama. Ñifaama e mbaydi ɗoworndi.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Hade gollal maɓɓungal, kuutoro naatɗo oo teeŋtinta kadi ko hombo woni: e finnde mum e passkey, walla tawa alaa passkey e finnde mum e koode application authenticator mum. Hello geese tan naamnata: interface REST, SOAP, WebDAV, naatgol expservices e laawol yamirde naamnataa abadaa.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Ɗo teelte ɗee golli</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Teelte ngam</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Kala siteaccess</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Siteaccess %name tan</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Uddit</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Hombo naamnetee: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Maanto fedde kuutorɓe ngam naamnude tergaaɗe majje tan (binndooɓe, yeru). Hay gooto maantaaka: kala kuutoro.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Mooftaama e settings/override/site.ini.append.php, ngam kala siteaccess. Mooftugol ngol naamnay maa teeŋtinde ko an.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Mooftaama e settings/siteaccess/%name/site.ini.append.php. Keɗe e settings/override ɓurata ɗum. Mooftugol ngol naamnay maa teeŋtinde ko an.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ A haani waylude sifaa nokkuure ndee bee golle lomtugol.</translation>
     <message>
         <source>Open the page</source>
         <translation>Uddit hello ndee</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from haa %to e nder %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Innde naatgol walla ID kuutoro: konte nde huunde ndee fawii e mayre walla kuutoro gollirɗo ngol.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konte</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Golle</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Baawo</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Njaɓɓi kala</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Adan</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Gollirɗo</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Laɓɓin</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Waɗaama</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Geɗe waɗnde ina mooftee ñalɗi %days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Geɗe waɗnde ina mooftee haa ittee e junngo.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Geɗe waɗnde</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Golle kala</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Geɗe waɗnde konte ndee fof</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Yaltin doggol ngol no CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Waɗaaki</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Diga</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Ustu doggol ngol</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Alaa huunde waɗnde fotnde.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>E hello</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Winndugol ñifaama e audit.ini ([UserAuditSettings] UserAudit); doggol ngol ina hollira ko winndaa adii.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Salaama</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Njaɓɓi</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hollu</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tabal daartol taskaano huutorɓe ngol alaa. Tagu ɗum e php update/common/scripts/6.0/createuseraudittable.php; haa ndeen, fichier taskaano ɗii ina moofta huunde waɗnde kala.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Hello ngoo ina sokli base de données SQL; hello ngoo alaa e MongoDB. Fichier taskaano ɗii ina moofta huunde waɗnde kala.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Haa</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Daartol taskaano huutorɓe</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kuutoro</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Saa&apos;i</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Nokku</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Moy waylii, tagii, huuɓnii, ñifii, dirtinii walla itti konte ndee, moy naati walla salaa, e darnde ɗe ndokkaa: gonngol gootol e huunde waɗnde kala, e geɗe ɗe adan e baawo. Finndeeji e sirruuji winndetaake abada.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>fedde</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistem</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>anndaaka</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Reen konte maa</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Code artirgol huutoraama ngam naatde e konte maa %login e %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Code artirgol huutoraama</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konte</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Ñiiɓirde ko ɓadii</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Ɗaɓɓu finnde kesre ngam naattude, walla jokkondir e hooreeɓe lowre ndee.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Ɗaɓɓu finnde kesre</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Code artirgol kala ina golla laawol gootol tan. So a waasii telefon maa, fawtu app authenticator maa, mooftaa code artirgol kese ɗee ka nokku kisɗo.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Eeɗannde naatgol waɗaaki e konte maa</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Gila jooni, naatgol maa ɗaɓɓay code e dow finnde maa. So ko an waɗi ɗuum, a hatojinaaka waɗde hay huunde.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>So ko an e a yejjitii finnde maa, ɗaɓɓu kesre. So wonaa an, suɓo finnde ɓurnde semmbe, huuɓnaa naatgol e jahal ɗiɗi.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>So wonaa an waɗi ɗuum, goɗɗo ina waawi anndude finnde maa: waylu nde jooni, ƴeewtaa ka konte maa naatii.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Code artirgol heddiiɗe</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Ƴeewto jaaɓirde maaɗa</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Jeertino kisal</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Goɗɗo eeɗii naatde e konte maa %login e %site e finnde nde feewaani laabi %count ɗi ɗiɗɗondiri.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Huunde waɗnde kisal waɗii e konte maa %login e %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Ɗum ko jeertino kisal fii konte maa. Ina neldee e bayle ɗee fof, ina waawaa ñifeede.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waktu</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Naatgol e jahal ɗiɗi ñifaama e konte maa %login e %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Naatgol e jahal ɗiɗi ñifaama</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Naatgol e jahal ɗiɗi huuɓnaama e konte maa %login e %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Naatgol e jahal ɗiɗi huuɓnaama</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Konte maa %login e %site uddaama caggal naatgol keewngol waɗaangal.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Jooni konte maa ina reenaa e finnde maa tan. So wonaa an waɗi ɗuum, huuɓnitu naatgol e jahal ɗiɗi caggal nde mbaylu-ɗaa finnde maa.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Konte maa uddaama</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Passkey ɓeydaama e konte maaɗa %login e %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Kala jogiiɗo passkey oo ina waawi naatde e konte maaɗa tawa alaa finnde maaɗa. So wonaa an ɓeydi ɗum, itt ɗum e les Passkeys, waylaa finnde maaɗa.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Passkey ittaama e konte maaɗa %login e %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ɗum waawataa naatde e konte maaɗa kadi. So wonaa an itti ɗum, ƴeewto passkeys maaɗa e kaɓirɗe maaɗa.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Passkey ɓeydaama e konte maaɗa</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Passkey ittaama e konte maaɗa</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Golle kisal</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Golle kisal %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Naatii</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Eeɗannde naatgol waɗaaki</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Yaltii</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sessions yaltinaama</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Naatgol diga jawle kesel</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Naatgol diga nokku kesal</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Neɗɗo teeŋtinaama (&quot;Hoolu ko an&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ƴeewndo neɗɗo waɗaaki</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Naatii e passkey</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Naatgol e passkey waɗaaki</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Naatgol salaama: code jahal ɗiɗi alaa walla feewaani</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Code jahal ɗiɗi feewaani</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konte uddaama caggal naatgol waɗaaki</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konte udditaama</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Finnde waylaama</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Waylugol finnde waɗaaki</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Finnde fawtitaama</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Finnde kesre ɗaɓɓaama</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Ñiiɓirde iimeel waylaama</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Innde kuutoro waylaama</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Naatgol e jahal ɗiɗi ina huuɓi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Naatgol e jahal ɗiɗi ina ñifi</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Code artirgol huutoraama ndee laawol</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Code artirgol kese</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Finnde app tagaama</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Finnde app haaytaama</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Passkey ɓeydaama</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Passkey ittaama</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konte huuɓnaama</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konte ñifaama</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Fof</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Naatgol e sessions</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Bayle konte</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Ina sokli hakkilaare</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ko an waɗi</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ko kuutoro oo waɗi</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>ko %login waɗi</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Laawol</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Navigateur</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistem</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Jawle</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Nokku</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Leydi</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessions</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Ko hondun</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Laawol neldugol</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Eeɗannde waɗaaki</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Code heddiiɗe</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Handler naatgol</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Golle kisal</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Golle kisal %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Naatgol e bayle e kisal konte maa. So a yiyii huunde nde waɗaa, waylu finnde maa, yaltinaa jaaɓirde ɗe a anndaa.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Naatgol e bayle e kisal konte ndee.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Jaaɓirde maaɗa</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Waylu finnde</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Rutto e konte</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Golle kisal ndee winndaaka</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Ina janngee diga daartol taskaano huutorɓe, ko taabal mum expuser_audit alaa walla jaɓaaka e base de données ndee. Waɗ php update/common/scripts/6.0/createuseraudittable.php, walla kesɗitingol base de données 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Balɗe %days sakkitorɗe</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Naatgol e nder balɗe %days sakkitorɗe</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Golle kisal sakkitorɗe</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hollu</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>waɗaaki</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>salaama</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Alaa golle kisal winndaaɗe tawo.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Huuɗe waɗnde kisal ina mooftee balɗe %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Huuɗe waɗnde kisal ina mooftee haa hooreejo itta ɗe.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Telchin keɓe naatgol am</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Sessions maa e huuɗe waɗnde kisal maa wano fichier JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesiyonji e ndee nokkuure binndaaka, ndun noo jaaɓirde goɗɗe yaltinaaki. Waylu finnde maa jooni.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count sesiyonji goɗɗe yaltinaama. Jooni waylu finnde maa.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Alaa jaaɓirde goɗɗe naatnoo. Jooni waylu finnde maa.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>A jaaraama. Ko ɗum waɗi maandinaama no maa.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ko ɗum waɗi soklaaki jaabawol.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Hello ndee yottii. Alaa huunde waylaama; useni, foti kadi.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Reen konte maa</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>So huunde ɗoo wonaa an, yaltin jaaɓirde goɗɗe fof, refti suɓo finnde hesere. Jaaɓirde ɗe ngoni e nder e Siftor kam yaltinte kadi.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Jaaɓirde fof si wonaa ndee yaltinte e ɗaɓɓaande mum garoowo. Refti a suɓat finnde hesere.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Eey, yaltin jaaɓirde goɗɗe</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ko an waɗi ɗum?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Eey, ko min</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Alaa, reen konte am</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Naatii</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Eeɗannde naatgol waɗaaki</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Yaltii</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sessions yaltinaama</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Naatgol diga jawle kesel</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Naatgol diga nokku kesal</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Neɗɗo teeŋtinaama (&quot;Hoolu ko an&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ƴeewndo neɗɗo waɗaaki</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Naatii e passkey</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Naatgol e passkey waɗaaki</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Naatgol salaama: code jahal ɗiɗi alaa walla feewaani</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Code jahal ɗiɗi feewaani</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konte uddaama caggal naatgol waɗaaki</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konte udditaama</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Finnde waylaama</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Waylugol finnde waɗaaki</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Finnde fawtitaama</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Finnde kesre ɗaɓɓaama</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Ñiiɓirde iimeel waylaama</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Innde kuutoro waylaama</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Naatgol e jahal ɗiɗi ina huuɓi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Naatgol e jahal ɗiɗi ina ñifi</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Code artirgol huutoraama ndee laawol</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Code artirgol kese</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Finnde app tagaama</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Finnde app haaytaama</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Passkey ɓeydaama</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Passkey ittaama</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konte huuɓnaama</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konte ñifaama</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Fof</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Naatgol e sessions</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Bayle konte</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Ina sokli hakkilaare</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Golle kisal</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Golle kisal %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Naatgol e bayle e kisal konte maa. So a yiyii huunde nde waɗaa, waylu finnde maa, yaltinaa jaaɓirde ɗe a anndaa.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Jaaɓirde maaɗa</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Waylu finnde</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Golle kisal ndee winndaaka e lowre ndee tawo.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Naatgol e nder balɗe %days sakkitorɗe</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Eeɗannde waɗaaki</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Alaa golle kisal winndaaɗe tawo.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Telchin keɓe naatgol am</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Sessions maa e huuɗe waɗnde kisal maa wano fichier JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesiyonji e ndee nokkuure binndaaka, ndun noo jaaɓirde goɗɗe yaltinaaki. Waylu finnde maa jooni.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count sesiyonji goɗɗe yaltinaama. Jooni waylu finnde maa.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Alaa jaaɓirde goɗɗe naatnoo. Jooni waylu finnde maa.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>A jaaraama. Ko ɗum waɗi maandinaama no maa.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ko ɗum waɗi soklaaki jaabawol.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Hello ndee yottii. Alaa huunde waylaama; useni, foti kadi.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Reen konte maa</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>So huunde ɗoo wonaa an, yaltin jaaɓirde goɗɗe fof, refti suɓo finnde hesere. Jaaɓirde ɗe ngoni e nder e Siftor kam yaltinte kadi.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Jaaɓirde fof si wonaa ndee yaltinte e ɗaɓɓaande mum garoowo. Refti a suɓat finnde hesere.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Eey, yaltin jaaɓirde goɗɗe</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ko an waɗi ɗum?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Eey, ko min</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Alaa, reen konte am</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Finnde</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Finnde e code jahal ɗiɗi</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Jokkorde REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Jokkorde SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Naatgol gootol (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Naatii hade sessions fuɗɗaade winndeede</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Jaŋtol naatgol</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Ɓe naatii e lowre ndee, laabi jelu ɗi konteeji naatata e ɗi ɗi waɗaaki, e yaltingol kuutoro ka nokkuuje fof. Ina golla e handler session kala.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Session ndee yaltinaama. Jawle ndee ina foti naattude.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login yaltinaama e sessions %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login alaa session dogoowo.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Alaa konte jogiiɗo ID oo, innde kuutoro ndee walla ñiiɓirde iimeel ndee.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Ɗum ko session nde njogo-ɗaa e huutoraade. Ngam timminde nde, yaltu.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Session ndee gasii ko adii.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Waktu hello ngoo ɓennii. Alaa ko waylaa; useni, eeɗito.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sessions winndaaka e lowre ndee (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Taabal expuser_session alaa</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sessions ina winndee so tagaama tan: php update/common/scripts/6.0/createusersessiontable.php, walla kesɗitingol base de données 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Jooni e hannde</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sessions dogooje</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Huutorɓe naatɓe</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Naatgol hannde</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Eeɗannde waɗaaki hannde</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Yaltin kuutoro ka nokkuuje fof</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Session konte ndee kala ina gasa e ɗaɓɓaande mum garoore, hay ɗe &quot;Yejjitaa kam&quot; mooftata. Huutoro ɗum so konte ina waawi wonde e juuɗe ɗe feewaani; caggal ɗuum fawtito finnde mum.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID kuutoro, innde kuutoro walla ñiiɓirde iimeel</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Yaltu ka fof</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Naatii jooni</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>%limit huutoraaɗe sakkitorɗe ɗee ina hollaa.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kuutoro</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Jawle</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Ñiiɓirde</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Naatii</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Golle sakkitorɗe</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Golle</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Jawle ngel</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Winndaaka</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Yaltu</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Alaa session naatnde.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Balɗe %days sakkitorɗe</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Naatgol e eeɗannde waɗaaki ina limee diga daartol taskaano huutorɓe, ngol alaa; sessions kese ɗee ina limee.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Ñalawma</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Naatgol</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Eeɗannde waɗaaki</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Sessions kese</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Handler session: %handler. Sessions ina janngee diga taabal expuser_session, ɗuum waɗi jaŋtol ngol ina golla e handler kala.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Golle sikkitorɗe e %hours waktuuji ɓennuɗi</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Laylaywol gootol roŋki naatde e %accounts konte (%count eeɗannde)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konte uddaama caggal naatgol waɗaaki</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count naatgol waɗaaki e konte wootere</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Naatii e %count leyɗe e oon sahaa gootum</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Golle kisal</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiyonji</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Naatgol waɗaaki janngetee e deftere ƴeewndo huutortooɓe, nde woodaani ɗoo.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Alaa ko sikkitinii: alaa konte naatgol waɗaaki ruttaama, alaa laylaywol eeɗoowol konte keewɗe, alaa konte naatnde e leyɗe keewɗe.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Jeertino kisal fii konte maa</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Huunde waɗnde kisal waɗii e konte maa %login: %event. So wonaa an, reen konte maa e %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Teeltugol</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Ƴam loowdi ndee lowre ko hello ena sokli tan, e ñaamdu wootu. Schema oo ena rewa ndenndi loowdi; kala ñaamdu ena dogga e hakkeeji kuutoro neldu ndu.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API ko ñifaa e ndee siteaccess. Huɓɓin ɗum e graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Defterdu GraphQL (webonyx/graphql-php 15) aafaaka.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Tolnde joofnirde</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Defterdu</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Ndenndi loowdi %count, schema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Ñaamdu</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Ceertuɗi (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Dogin</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Jaabawol</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Ena dogga…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Jaabawol ngol waawaa janngeede.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Ñaamdu ndu ena dogga e hakkeeji maa, a naatii e ndee jokkondiral.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count nder majaango %seconds</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>alaa keerol</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Luggeendi</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Caɗeele</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Teme e kala doggol</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (woowaangal %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Ɗaɓɓaaɗe e kala kuutoro walla coktirgal</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Ɗaɓɓaaɗe e kala ñiiɓirde alaa innde</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Ñaamde mooftaaɗe tan</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Ñaamdu ɓurndu mawnude</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>bytes %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Yollugol ɓurngol mawnude</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Siteaccess %siteaccess woodaani.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Waylooji huɓɓaa e %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Waylooji ñifaa e %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API huɓɓaama e %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API ñifaama e %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Teelte ɗee waawaa winndeede: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Mooftirde jaabawuuji ndee laɓɓinaama: jaabawuuji %count momtaama.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Maantor koolol ngol ɓadiiɗo ñaamdu ndu ngam momtude ndu.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Ñaamdu ndu waawaa momteede: ñaamdu nelaandu e runde PersistedQueryDirectoryList[] momtetee e fiilde mayru.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Ñaamdu mooftaandu ndu momtaama.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Waylooji</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>huɓɓii</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ñifii</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Siteaccess-uuji</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Ɗo API e waylooji mum njaabotoo. Butooji ɗii mbinndata graphql.ini, no ./console exp:graphql:enable e exp:graphql:disable mbaɗata.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Waylu</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Ñif</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Waylooji ñifii</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Waylooji huɓɓii</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Huɓɓin</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Keeri</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ndee siteaccess.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Mooftirde jaabawuuji</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Jaabawuuji ñaamde mooftaaɗe, ndesaaɗi e hakkeeji kuutoro, ɗi gasata sahaa kala nde loowdi yaltinaa.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ngonka</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Jaabawuuji ndesaaɗi</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>Jaabawuuji %count, bytes %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Ndesaaɗi ko ɓurɗo heewde</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>majaango %seconds</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Gasgol sakkitiingol</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Laɓɓin mooftirde jaabawuuji</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Ñaamde mooftaaɗe</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Mooftaaɗe e ./console exp:graphql:persist, walla e kliyaan ɓee (ñaamde mooftaaɗe e jaajol); noddirtee innde walla SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Inɗe</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Mawnugol</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Hol to</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Momtu</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>nelaandu</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>mooftaandu</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Eey, momtu ndu ñaamdu</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Alaa ñaamdu mooftaandu tawo.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Coktirɗe API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Coktirɗe API keeriiɗe e diidol graphql:read (ñaamde) walla graphql:write (waylooji). Tagu ɗe ngomtaa ɗe e hello Naatgol API, walla e ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Naatgol API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Coktirɗe fof</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Coktirgal</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Innde</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Jom</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Diidi</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Huutoraa sakkitii</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ena gollira</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>gasii</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>momtaama</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>hay sahaa</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Alaa coktirgal API e diidol GraphQL tawo.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API ñifaama e siteaccess %siteaccess, mo hollata hello ngol; tabalo les ɗoo hollata ɗo o jaabotoo.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Ngam siteaccess %siteaccess, mo hollata hello ngol.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook-ji</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Kala kewu mbo tolnde joofnirde naamnii (publish, update, trash, delete, move, hide, reveal, mutation) ina neldee ndee, siifaaɗo, e geɗal cronjob graphqlwebhooks. ./console exp:graphql:webhooks ina waɗa ko wootum e ndee taƴre.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Kewuuji</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>fof</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Kala siteaccess</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>helii</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>alaa sirru</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Ina fadi</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count accaama</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Neldugol sakkitiingol</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Neldu ndaarndagol</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Eey, momtu ndee webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Alaa webhook tawo.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Ɓeydu webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Ɓeydu</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Neldi kesi</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Wakkati</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Njeñtudi</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Winnditeeje</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Kesitine e sahaa oo ngam kliyaan en: ndoggu kewuuji e /api/graphql/subscribe, e WebSocket (graphql-transport-ws) e Velocity. Kala kewu ina yaha tan e winnditiiɓe ɓe njamiraa jangude loowdi mayru.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Udditiiɗe jooni</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Ɓurɗe udditaade</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total e fof, %user e kala kuutoro, %address e kala ñiiɓirde</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Winnditeeje alaa innde</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Juuteeki ndoggu</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook ndee waawaa ɓeydeede: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name waylaama; sirru siifannde mayre heddii.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Sirru siifannde waawaa mooftaade (Teeltugol &gt; Sirruuji).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name ɓeydaama. Sirru siifannde mayre, hollaaɗo ndee laawol tan: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhook %name woodaani.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name jaabaaki: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name jaabii %status e nder %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Maantor koolol ngol ɓadiiɗo webhook ndee ngam momtude ndee.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name momtaama.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API ko ñifaa e ndee siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Defterdu GraphQL aafaaka.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Huutoro GET walla POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Ɓanndu ɗaɓɓaande ndee wonaa huunde JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables wonaa huunde JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions wonaa huunde JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Neldu ñaamdu ndu e POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Ɗaɓɓaande ndee alaa ñaamdu.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Ñaamdu ndu ɓurii juutde bytes %max.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Juumre nder sarworde</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node ena haani gooto tan e id, remoteId, path e urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content ena haani gooto tan e id e remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Kursoor after ngoo wonaa API ngal rokki ɗum.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Alaa innde natal %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Ñaamde mooftaaɗe tan jaɓetee ɗoo: neldu id ñaamdu mooftaandu.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash ñaamdu mooftaandu ndu wonaa SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash ñaamdu mooftaandu ndu yahdaani e ñaamdu ndu.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Ɗaɓɓaaɗe ɗuuɗii: ɓurɗo heewde ko %limit nder majaango %window. Fuɗɗito kadi caggal majaango %reset.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Ñaamdu ndu ena luggi tolnooji %depth; ɓurɗo heewde ko %max jaɓaa.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Ñaamdu ndu ena jogii caɗeele %complexity; ɓurɗo heewde ko %max jaɓaa.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Ɗaɓɓaande ndee yamiraaka tarde schema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search ena haani binndol walla caatnirgol (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument wonaa ñalngu (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag ena haani gooto tan e id, remoteId e path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout ena haani gooto tan e id, identifier e urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Diiwaan operations ɗaɓɓaande multipart wonaa ɗaɓɓaande JSON wootere.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Diiwaan map ɗaɓɓaande multipart wonaa huunde JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Ɗaɓɓaande multipart ndee alaa fiilde %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Laawol karte diiwaanuuji ngol foti fuɗɗoreede variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Fiilde %name nde yettaaki timmunde (juumre yollugol %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Fiilde %name ɓurii bytes %max mawnude.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Fiilde %name waawaa ƴeewteede.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Waylooji (mutations) ñifaa e ndee siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Neldu wayloo e POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Naatu ngam waylude loowdi.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Coktirgal API ngal alaa diidol %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Wayloo e jokkondiral ena haani tokosol fiilannde jokkondiral ngal (hoore X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ñifaa: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] innaani hay jaŋgoowo gooto.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Ñiiɓirde nde foti wonde ñiiɓirde https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Jaŋgoowo %host woodaani e graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Fiilde nde waawaa addeede.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ko fannu naatnugol tan.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Wayliindo fannu Upload ena ƴetta fiilde ɗaɓɓaande multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>id goɗɗungo %remoteId ƴettaama gila.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Loowdi ndi ena jogii gila firo e %language: huutoro updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Hokku diiwaan gootal tal.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Yamre hesere waawaa waɗeede (loowdi ndi ena jogii ɓoggi ɗuuɗɗi).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Yamre %version wonaa ɓoggol.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ena haani gooto tan e id e nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Nokku waawaa dirtineede les mum hoore.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Loowdi ndi ena jogii gila nokku les %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Keɓe diiwaan %field waawaa danndeede.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Ɗemngal loowdi %language woodaani.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Kalaas loowdi %class woodaani e Schema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Loowdi ndi woodaani, walla a yamiraaka janngude ndi.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>A yamiraaka waɗde ɗum e ndii loowdi.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Kalaas %class alaa diiwaan %field mo waawi winndeede.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Diiwaan %field hokkaama laabi ɗiɗi.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Diiwaan %field ena ƴetta fiilde: neldu nde no yollugol (ɗaɓɓaande multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Diiwaan %field ƴettataa fiilde.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Diiwaan %field ena haani keɓe.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Mbaydi %format ko ngam diiwaanuuji binndi ndimɗi tan; %field ena ƴetta keɓe mum no o woniri (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Diiwaan %field ko waajibi.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML waawaa janngeede.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content ena jaɓa version e id tan.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Tokosol yiytude ngol moƴƴaani walla ngol gasii.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Wonaa iwdi (https://host walla https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Wonaa diidol GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Neldu winnditeeje to /api/graphql/subscribe (ndoggu kewuuji walla WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Ñaagaandu ndu innataa golle woo e dokimaa oo.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Winndito ina ɗaɓɓa geɗal gootal tan.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Winnditeeje udditiiɗe ɗuuɗii; eto kadi ɓooyde seeɗa.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>A woodi winnditeeje %max udditiiɗe, ko ɓuri ko yamiraa.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Ñiiɓirde maa ina woodi winnditeeje %max udditiiɗe, ko ɓuri ko yamiraa.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Winnditeeje ko ñifaaɗe e ndee siteaccess.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Naatu ngam winnditaade (tokosol walla coktirgal API keeriingal).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Neldu waylooji to /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Egge</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Statut oo waawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Taabluuji egge ɗee alaa tawee: ./console exp:upgrade --apply sosan ɗi.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Egge %count waɗaaki</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Dogal ina yahra, ngal %user fuɗɗini</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Aafgol ngol ko uddangol: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ina fadi</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Waɗaaki</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Alfuɗɗe</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Dogal sakkitiingal</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>hay gootal tawee</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Egge ɗee fof</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Dogal nanndingal</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Dogga ndaarugol</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Egge ɗe fadetee ɗee dogii e nder jokkondiral ngal artiraa caggal ɗuum: hay huunde mooftaaka. Les ɗoo ko ko kala ngootu waylii e Base de données.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ko dogal waɗata jooni. Hay huunde waylaaka: kala eggol fadetengol ina limta bayle ɗe ngol waɗata, dogal ngal ko ngal waɗata adii e caggal.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Nanndin</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Dogin</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Dogga ndaarugol ngal waɗaaki: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Nanndingol ina haani PostgreSQL walla SQLite, ɗe bayle mbaadi mum mbaawi artireede; e ndee Base de données, feere les ɗoo ko ko dogal waɗata.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Egge ɗee</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Eggol</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>No ngonri</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ko ngol waɗata</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Nanndingol: %result e nder %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Alaa eggol tawee.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Adii e caggal dogal ngal</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Natal adii</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ina ƴettee, ina artiree so eggol waɗaaki</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ñifaa</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Natal caggal</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ina ƴettee so dogal ngal tawii ina moƴƴi</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Egge %total: %pending ina fadi, %done timmi, %failed waɗaaki.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Daartol egge</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Kala dogal e kuutoroowo mum, jooɗorde mum, nate mum e ko teeŋtinaa, maandinaa e neldaa. Dogal waɗaangal walla taƴaangal ina waawi jokkeede; dogal ngal natal ƴettaa adii mum ina waawi artireede.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Doggi ɗii mbaawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Taabluuji egge ɗee alaa tawee: ./console exp:upgrade --apply sosan ɗi.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hollu</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Fof</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Doggi</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Fuɗɗii</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Baɗɗo</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Nate</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Mooftirde</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Golle</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>adii</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>caggal</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>neldugol: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Jokku</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Artir</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Alaa dogal e ngol ngonka.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Fuɗɗii ɗoo</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Doggi, jokkondire e artirɗe fuɗɗaaɗe e ɗee hello, e ciimtol kala gootal.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ko honɗum</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Njeñtudi</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Artirgol</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Artirgol %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Dogal %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ko dogal ngal waɗi, winndannde mum e deftere mum. Dogal fuɗɗaangal ɗoo ina jokka e caggal so ngoo hello uddaama; uddit hello ngoo kadi ngam rewde ngal.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Jokku ngal dogal</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Artir ngal dogal</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Winndannde ndee waawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ko yaha</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user fuɗɗini ngal e %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Ina ƴeewee kod oo, ina ƴettee natal adii dogal ngal</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Ina dogina %id (%index e %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done e %total timmi</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Egge ɗee dogii; ina artiree natal ngal so gootol waɗaaki</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Ina ƴettee natal caggal dogal ngal, ina teeŋtinee, ina maandinee, ina neldee</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Ina artiree natal ngal</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Dogal ngal gasii. Ciimtol mum ina loowee.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Ko yaha oo waawaa rewee. Loow hello ngoo kadi ngam yiyde no dogal ngal yahrata.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ngoo hello ina rewa dogal ngal no ngal yahrata.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Loow kadi</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Ciimtol</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Juuteendi</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisekon</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ko dogal ngal muulni no juumre</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Winndannde</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Jooɗorde</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>alaa</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Gasii</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Teeŋtingol</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Maande</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Neldugol</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ɗerewol</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Egge ngal dogal</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Sumpo</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Deftere dogal</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Ko gasirde deftere ndee tan hollaa.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ina dogoo</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>gasii tawa alaa ciimtol</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>moƴƴii</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>waɗaaki</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>salaama</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>Base de données ndee heɓaaka</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>juumre nder</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Dogal ina yahra</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ngo %user fuɗɗini e %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Rew ngal</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Aafgol ngol ko uddangol</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Dogal goɗngal jogii uddorde ndee (ɓeydugol walla dogal e konsol): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>timmi</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ina fadi</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>haanaani</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>anndaaka</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>artiraama</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>waɗaama</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>waɗoyte</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>artiraama</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>artiroyte</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>dogaaki</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ina fada goɗngol</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>waylo jaɓaama</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>waylo jaɓoyte</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>nanndinaama</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Egge</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statut</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Daartol</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Artir %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Dogal ina artiree haa natal ƴettaangal adii mum, eggol gootol e down() mum. Artirgol natal ɓooyngal ko ngam ganndo&apos;en. Kala gootal ina dogoo e caggal e innde maa, caggal natal ngonka jooni.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Ko waawi artireede waawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Dogal</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Eggol gootol</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Natal ɓooyngal</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Cifol</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>eey</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>alaa</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Natal</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Maande</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Ƴettaama</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Sifaa</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Geɗe artirteeɗe</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Base de données</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Fiilde mooftaaɗe (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Teelte (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Artirgol Base de données ndee ina artira nde haa waktu natal ngal, naatgooli ɗii e nder: ina waawi ƴamee ma naatde kadi caggal ɗuum. Kala ko waylii gila ɗuum ina majja; natal ngonka jooni ina ƴettee adii.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Mi anndii ko ɗum artirta</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Tappu innde-ɓataake natal ngal kadi</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Eey, artir ngal</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Haaytu</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Doggi ɗi natal ƴettaa adii majji.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Suɓo</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Alaa dogal jogiingal natal tawee.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Egge waɗaaɗe ɗe mbaawi artirde hoore mum en (ɗe njogii down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Alaa eggol waɗaangol jogiingol down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Nate ɓooyɗe (ganndo&apos;en)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Alaa natal tawee.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Dogin egge ɗee</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Dogal ngal ina jokka e caggal no %user, hello mum ina holla ngal no ngal yahrata. Adii eggol arano, natal aafgol ngol ina ƴettee; so eggol waɗaaki dogal ngal ina darta, natal ngal ina artiree.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Dogga ndaarugol adii</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Statut oo waawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Egge fadeteeɗe</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ɗe ndogata e ndee doggol. Itt maande e gootol ngam acceede ngol, e ɗe ngol haaniri, ngam dogal garoowal.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Dogin ngol</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Ina huɓɓina mbaadi moƴƴingol tuma nde ngol dogata.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Waylii caggal nde ɗe ngaɗaa</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Ɗee fiilde wonaa ɗe ngaɗaa ɗee. Dogal ina salii ɗe si waylo ngo jaɓaaka e sabaabu; ɗe ndogetaake kadi, checksum kesum ina winndee, sabaabu oo ina mooftee e deftere ƴeewndo.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Jaɓ bayle ɗee</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Ko waɗi</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Ko woowaa ko ɗum woni ko hisi. Kala boyet ina acca daawal gootal.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Alaa natal</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Alaa natal adii e caggal dogal ngal: waɗaaki waawaa artireede e hoore mum.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Alaa artirgol</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Caggal waɗaaki, acc aafgol ngol no waɗaaki oo acciri ngol.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Mooftu bayle ɗe teeŋtinaaka</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Dogin hay so teelte, ɓeydaaɗe walla mbaadiiji ina njogii bayle ɗe teeŋtinaaka; ɗe ina naata e natal ngal.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Alaa teeŋtingol</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Wota teeŋtin fiilde statut e deftere dogal (alaa maande, alaa neldugol kadi).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Alaa neldugol</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Teeŋtin e maandin, kono wota nel.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Alaa maande</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Teeŋtin e nel, kono wota maandin dogal ngal.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Eey, dogin ɗee egge jooni</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Alaa eggol fadetengol.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Rutto e statut</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Bayle ngol aafgol winndaaɗe laawol gootol no fiilde (loowdi, klaasuuji, golle, teelte, mbaadi) waɗaaɗe e kala aafgol lowre ndee e doggol gootol. Dogal ina ƴetta natal adii, ina artira ngal so eggol waɗaaki, ina winnda, ina teeŋtina, ina nelda ko ngal waɗi.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Dogin %count fadeteeɗe</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Yiyde ɗuuɗɗe</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ina fadi</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Timmi</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Waɗaaki</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Haanaani</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Base de données</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>jokkondire: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Egge lowre ndee ina ngoni e migrations/, egge ɓeydaande e extension/&lt;name&gt;/migrations/. Ɗe ndogata e doggol inɗe mum en e ko ɗe ngaddi.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Dogal sakkitiingal</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Fiilde ndee waylii caggal nde waɗaa.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Alaa eggol tawee. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ina winnda arangol ngol.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Doggi sakkitiiɗi</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Doggi ɗii fof</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Alaa dogal tawee.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Nanndingol dogal ina haani dawrugol migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Dogal ina yahra: nanndin so ngal gasii.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Teeltugol</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target wonaa dogal, wonaa eggol, wonaa natal ngol aafgol.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Maandin “Eey, artir ngal” adii.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Artirgol natal ɓooyngal ko ngam ganndo&apos;en: maandin “Mi anndii ko ɗum artirta”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Tappu innde-ɓataake natal ngal kadi: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Suɓo hay huunde wootere ngam artirde.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ngal dogal alaa natal ƴettaangal adii mum: artir egge mum gootol-gootol, walla artir natal ɓooyngal.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Ngol eggol waawaa artirde hoore mum: waɗaaka, walla alaa down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Fiilde ƴamol ndee waawaa janngeede.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Suɓo dogal jokketeengal.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Maandin “Eey, dogin ɗee egge jooni” adii.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Suɓo hay eggol gootol.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Eggol waylii caggal nde waɗaa: jaɓ waylo ngo e sabaabu, walla artir fiilde ndee.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Hokku sabaabu ko waɗi egge waylaaɗe ɗee njaɓaa.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Sabaabu oo ɓurataa alkule 500.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Dogal fuɗɗaangal ɗoo ina yahra tawo (%detail). Fad haa ngal gasa.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Dogal goɗngal jogii uddorde aafgol ngol: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Dogal ngal ina haani kuutoroowo naatɗo, woodɗo.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Alaa porogaraam php gorol yamiroore yiytaa. Teelto migration.ini [AdminSettings] PhpCliPath e laawol mum timmungol.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ko ñifaaɗo, ɗum noon dogal waawaa fuɗɗeede ɗoo. Dogin ./console exp:migration:migrate --apply e sarworde ndee.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Hufo doggi ɗii waawaa winndeede: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Dogal ngal fuɗɗaama kono humpitaani innde-ɓataake golle mum. Ƴeewto %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Innde ko artirtee.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Dogal ngal waawaa fuɗɗeede.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Winndugol bayle</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Tuma nde winndugol ngol ɗon jokki, ko waylataa e toppitagol walla e baaraagal kombowal lowre ndee ɗon mardee wano daawe eggol: loowdi, kalasiiji, golle e laabi, taƴe, huutortooɓe e fedde, inɗe goɗɗe URL, teelte. Daru ɗum so a gasii, ndaar ko ɗum nangi, tafaa eggol e mayre.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Winnduɗe ɗee njanngaaki: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Taabule winnduɗe ɗee ngalaa tawo: adan huutoraade hesɗitinal (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Winndugol ko uddaaɗo e migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Bayle am</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Ɗum winndata tan ko waylataa, nder nokku kala, haa nde daraɗaa ɗum.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Winndugol</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>gila %time, bayle %count haa jooni.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Maandel (suɓaade)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Hollu ko ɗum nangi</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Daru winndugol</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Fuɗɗo winndugol bayle am</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Henorde lowre ndee fof</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Ɗum winndata kala bayl huutortooɗo kala e konsol haa nde ɗum uddaa. So a udditi ɗum, a naamnete teeŋtinaade wonde ko an.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Udditaama</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Uddu henorde</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Udditu henorde lowre ndee fof</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Winnduɗe</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Konte huutortooɗo (innde naatgol, iimeel, finnde) e nokkuuji konte huutortooɓe winndetaake abadaa.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Bayle</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Lowre ndee fof</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Bayle %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Daraama</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Alaa winndugol tawo.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Winndugol %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Winnduɗe ɗee fof</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Eggol ngol ɗum waɗata</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Bayle mooftaaɗe e daawal gootal ngam kala huunde waylaande: ko eggol tafaangol e ndee winndugol waɗata.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Eggol waawi tafeede e mayre so ndee aafgol heɓii noone daawe YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Accaama e anniya: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Alaa ko winndaa.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ko ɗum nangi</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Bayle %count, e doggol ɗe ngaɗaa.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Bayl</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Daawal</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Fii</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Goɗɗe %count: ./console exp:migration:record:show ɗon holla ɗe fof.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Werlu</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Ɗum momtata winndugol ngol e ko ɗum nangi. Ko waylaa luttat waylaaɗo.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Eey, werlu ndee winndugol</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Ɗon winnda…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Bayle maa ɗon winndee ngam eggol.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Kala bayl e ndee lowre ɗon winndee ngam eggol (henorde lowre ndee fof).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Winndugol lowre ndee fof fuɗɗii: kala bayl huutortooɗo kala winndete haa nde daraɗaa ɗum.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Winndugol fuɗɗii: bayle maa winndete haa nde daraɗaa ɗum.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Winndugol daraama. Ko ɗum nangi luttat haa nde werlaɗaa ɗum.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Winndugol e huunde mum momtaama.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Alaa winndugol %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Adan maandin "Eey, werlu ndee winndugol".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Ko huutortooɗo winndunooɗo tan waawi darnude winndugol jokkondiral.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Suɓo winndugol darneteengol.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Winndugol ngol noone ɗon jokki kadi.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Winndugol waylaaki: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Sos migration</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Innde migration (so a yiɗii)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migration %file winndaama. Waylooji ɗi taaɓal alaa waawi waɗde ina innditii e dow fiilde nde, ngam waɗde ɗi junngo.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Alaa migration winndaa: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Dimndol ɓurdol e fedde-fedde</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Ɗerewol ɓolɗol e jogii teelte migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Ɓuri heewde noon migrasiyoŋ</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Migrasiyoŋ goɗɗo walaa caggal (sekondi)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Daaɗal hakkunde migrasiyoŋ (sekondi)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Dow-ɗum famɗo (1 haa 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Ɗerewol dimndol ɓurdol ko limngal timmungal ndeeɗoo 1 (daaɗal: sekondi 0 haa 60, dow-ɗum: 1 haa 19), malla ɓoɗɗol.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Ɗum maɓɓitaa mo ɗum ngol %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Maɓɓitaa mo ɗum caggal (miniti, sarti walaa)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Miniti ko limngal timmungal 1 haa 44640 (nennde 31), malla ɓoɗɗol.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Eggol %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Eggol kesol</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Eggol YAML: winndu ngol hono binndol walla mbaɗaa laawɗe mayre e fiilde ƴamol, laar ngol, caggal ɗuum mooftu ngol e nder dossier egge.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Eggol ngol dogii ko adii, ɗum waɗi ngol mooftetaake kadi: fichier waylaaɗo salete e reentaade checksum. Waɗ waylo ngoo e eggol kesol.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Sarworde geese waawaa winndude fichier oo.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Gori miijo dow ɗii ko hoore (description, author, requires, environments, engines). So daawal ɓeydaama walla waylaama e fiilde ƴamol, eggol ngol winndetee kadi: miijooji hakkunde laawɗe ɗee mooftetaake.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Innde eggol ngol</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Ɗo ngol yahata</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Lowre ndee</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Binndol YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Laar</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Mooftu</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Laawɗe</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Saaya</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Waylu</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Dirtin dow</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Dirtin les</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Itt</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Alaa daawal tawee: ɓeydu gootal e fiilde ƴamol, walla winndu ɗe e binndol ngol.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Waylu daawal %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Ɓeydu daawal gootal</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Fiilde ƴamol daawal ko e fannu daawal mayre ɗum waɗetee: saaya mayre, ko gooto fof jaɓata e mbaydiiji ɗi ngal jeyaa.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Fannu daawal</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Hollu fiilde ƴamol mayre</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Daawal ngal ina jogii saaya ɗe fannu mayre anndaa; ɗe ittetee so daawal ngal waylaama: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Mbaydi</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Nder</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>e %modes tan</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Ko woowaa: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Sarɗiiji, tuugnorɗe e miijo</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Ɗiɗi Innde=keewal seerndaaɗe e kommaaji. Keewale ngal daawal: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Misaalu</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Waylu daawal</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Ɓeydu daawal</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ko exp:migration:check wiyi: hoore nde, dokimaa oo e kala daawal laaraaɗo e fannu daawal mayre.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Eggol ngol rawnii laarol ngol.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Yiyde adan</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Binndol YAML no ngol mooftortee.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Hollu YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Egge YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>dogii</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Alaa eggol YAML tawee.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Binndoowo</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Alaa eggol YAML %id e nder dossier-ji egge.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Suɓo fannu daawal.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Daawal ngal ɓeydaama. Laar eggol ngol hade maa mooftude ngol.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Daawal ngal waylaama. Laar eggol ngol hade maa mooftude ngol.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Suɓo daawal.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Ngal daawal alaa fiilde ƴamol (kurlol, walla fannu daawal ko ngol aafgol alaa): waylu ngal e binndol ngol.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Suɓo ɗo eggol ngol yahata: lowre ndee walla ɓeydaari golliindi.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file mooftaama. Waɗ dogga ndaarugol hade eggol ngol dogde.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Mooftaaka: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Nokkuuji woɗɗuɗi</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Aafgol goɗɗi ɗi ngol saakata egge mum: saakugol ina neldo egge ɗee e nokkuuji woɗɗuɗi suɓaaɗi, ina dogina ɗe toon, fof e wakkati gooto, ina fotondiri. Nokku woɗɗo jogataa sirru abadaa: ko seŋorta mum ina innda sirru e Teeltugol &gt; Ɗuuɗe suuɗɗe.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Nokku woɗɗo kesɗo</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ballal</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Laargol jokkorde %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Nokkuuji woɗɗuɗi ɗii</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Haa nokkuuji woɗɗuɗi %parallel ina golleede e wakkati gooto; sahaa gooto ina waawi ƴettude segonde %timeout e nokku kala.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Nokku woɗɗo</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Ñiiɓirde</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Ko seŋorta</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Feddeeji</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>teelte cellinteeɗe</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>fiilde tan (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Saawtu SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Finnde</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>alaa (agent SSH e saawtuuji host oo)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Laar jokkorde</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Saakugol e fedde ina yaha e nokkuuji woɗɗuɗi mayre fof.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Saaku e nokkuuji woɗɗuɗi</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Alaa nokku woɗɗo teeltaaɗo tawo.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Nokku woɗɗo %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Alaa ko neldetee walla dogintee ɗoo: Mooftu ina winnda teelte ɗee e settings/override/migration.ini.append.php. Ko seŋorta ko innde; keewal mum ina heddoo e Teeltugol &gt; Ɗuuɗe suuɗɗe walla e jooɗorde.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Ƴeew ɗee teelte</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Teelte ɗee no naatniraa, mooftaaka tawo.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Tar</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Teelte ɗee ina poti. Ɗee diidi ina mbinndee:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>innde tan; ko ɗum jogii ina heddoo e Teeltugol &gt; Ɗuuɗe suuɗɗe</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Diidi ɗi mbinndetee</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Jokkorde</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Saawtu host</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Nokku woɗɗo</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>No nokku woɗɗo oo innetee e jooɗorde nde o woni.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Alkule, limle, - e _, ko wayi no production1. Ina innda nokku woɗɗo oo e ciimte e e konsol (--remotes=production1), waawaa wayleede caggal.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Saakugol e tolnooji ina rewa jooɗorde ɗee e ngol dewondiral.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Suɓaade, seerndaaɗe e virgule, ko wayi no production. Saakugol e fedde ina yaha e nokkuuji woɗɗuɗi mayre fof.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Jokkorde</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>No fiilde ɗee yottortoo toon, e ɗo aafgol ngol woni.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>E dow SSH, ko waylii tan, yawtingol taƴaangol ina jokkee. Suɓaade ɓurnde moƴƴude ɗo rsync aafaa.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH e scp ngam fiilde ɗee.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH e sftp ngam fiilde ɗee.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Fiilde tan: egge ɗee ina neldee, ina janngee kadi, kono ɗe waawaa dogineede toon.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP e dow TLS; fiilde tan.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Aafgol goɗngol e ndee sarwoor, nder dossier.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Innde host walla ñiiɓirde, ko wayi no node1.example.com. Wonaa ngam local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Meho: 22 ngam SSH, 21 ngam FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kuutoro</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Laawol</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Lekki aafgol ngol toon, ko wayi no /var/www/site (ngam FTP: laawol ngol konte FTP ndee yiyata).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Laawol yamiroore PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI toon: php, walla laawol timmungol no /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Binndanɗe konsol ina dogoo toon no root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Tan so kuutoro nokku woɗɗo oo ko root (ɗe dogintee tuma oon e --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Ko seŋorta</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>No ngol aafgol seŋortoo toon. Ko innde tan mooftetee.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Alaa</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Agent SSH e saawtuuji kuutoro mo aafgol ngol dogortoo (e sahaa kala ngam local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Saawtu keeriiɗo mooftaaɗo no sirru.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Finnde mooftaande no sirru (FTP ina seŋoroo e mayre).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Innde sirru</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Sirru e Teeltugol &gt; Ɗuuɗe suuɗɗe, ko wayi no deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Teeltugol &gt; Ɗuuɗe suuɗɗe</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Walla waylotooɗo jooɗorde</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Waylotooɗo kuugal sarwoor jogiiɗo ɗum, ko wayi no DEPLOY_KEY (mooftaaɗo no env:DEPLOY_KEY). Ina lomta innde sirru.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Saawtu host</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Suɓaade, ngam SSH, sftp e rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Maande saawtu host</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... no ssh-keygen -l winndirta ɗum. So ina woodi, host oo ina haani hollude saawtu ngu; so alaa, saawtu ngu ina anndee e jokkondiral adiingal.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Tar</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Laar jokkorde nde e teelte dow ɗee, caggal ɗuum tar diidi winndeteeɗi ɗii.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Itt nokku woɗɗo ngu</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Teelte mum ina ittee e settings/override/migration.ini.append.php. Alaa ko waylotoo e nokku woɗɗo oo, saakuuji mum ina keddoo e daartol.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Eey, itt nokku woɗɗo ngu</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Saakuuji</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Saakugol ina neldo egge aafgol ngol e nokkuuji woɗɗuɗi suɓaaɗi, ina dogina ɗe toon no %user, fof e wakkati gooto, ina fotondiri: nokku woɗɗo kala ina laaree adii, so gooto waɗaaki, nokku woɗɗo kala mo waɗi ɗe ina artiree. Ina jokkoo e caggal, hello mum ina holla nokku woɗɗo kala no yahrata.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Nokkuuji woɗɗuɗi</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Maandin nokkuuji woɗɗuɗi, fedde, walla ɗi ɗiɗi fof.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Saaku toon</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. No ɗum waɗirtee</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Saaku</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Neldu e dogin</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Egge ɗee ina neldee, ina laaree, ina dogee e nokku woɗɗo kala e ID dogal gooto rendaaɗo.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Yawtin tan</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Fiilde ɗee ina neldee, ina laaree, alaa ko dogintee (ko ɗum tan woni laawol nokku woɗɗo FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>E tolnooji</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Tolno e tolno e dewondiral jooɗorde ɗee (dev, stage, beta, production ...): tolno adiingo ina saakee, caggal ɗuum damal ina fada haa goɗɗo jaɓa tolno garoowo. Fof walla alaa e nder tolno kala.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Egge ɗee tan</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Suɓaade: ID egge, seerndaaɗe e virgule. Meho: eggol kala lowre ndee e ɓeyditte mayre.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Laargol adii tan</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Eey, saaku jooni</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Saakuuji neldiiɗi walla doginiiɗi huunde, ɓurɗi kesɗude adii (laargol adii hedditaani ciimtol).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>yawtin tan</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>e tolnooji, tolnooji %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>fotondiraani</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Alaa saakugol tawo.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Saakugol %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Nokku woɗɗo kala e saakugol ngol e no ngonri. Saakugol fuɗɗiingol ɗoo ina jokkoo e caggal so hello ngoo uddaama; udditu hello ngoo kadi ngam rewde ngol.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Saakuuji ɗii fof</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Laargol adii</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Tolno garoowo</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Ina laaree teelte ɗee e ko seŋorta</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Laargol adii: ina janngee no nokku woɗɗo kala ngonri</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Ina neldee fiilde egge ɗee</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Ina laaree ko yottii</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Egge ɗee ina dogoo e nokku woɗɗo kala</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Ina artiree nokkuuji woɗɗuɗi ɗii</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Saakugol ngol gasii. Ciimtol mum ina loowee.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Ko yaha waawaa rewde. Loow hello ngoo kadi ngam yiyde no saakugol ngol yahrata.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Sahaa</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ngoo hello ina rewa saakugol ngol no yahrata.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Ina fotondiri</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Tolnooji</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>tolno %stage ina fada e damal mum</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Damal %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>jaɓaama e %user e %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Tolno</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Fiilde neldaaɗe</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Wersiyoŋ kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>waɗaama: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>waɗoyteeɗe: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Sahaaji</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Damal: tolno %stage e nder %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Tolnooji adiiɗi ɗum saakaama. Laar ɗi, caggal ɗuum jaɓ tolno garoowo: nokkuuji woɗɗuɗi mayru ina laaree kadi, ina saakee, fof walla alaa.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ɗiɗaɓo</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Eey, saaku tolno garoowo jooni</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Jaɓ</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Artir ngol saakugol</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Nokku woɗɗo kala mo waɗi ngol (%list) ina rutto e natal ƴettangal adii dogal mum, fof e wakkati gooto.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Eey, artir ngol saakugol jooni</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>eɓɓaama</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>yawtinaama</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>saakaama</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ina fada e damal</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>suɓaama</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>moƴƴinaama</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>hirnaama</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ina fada tolno mum</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>fiilde neldaama</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>laaraama</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>waɗaaki, artirii hoore mum</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>waylaaka</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>saakaaka</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>heɓotaako</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Nokku woɗɗo oo jaabii.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Nokku woɗɗo oo waawaa huutoreede jooni.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done timmi, %pending ina fadi, %failed waɗaaki</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Uddorde</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>dogal ina jogii uddorde ndee toon</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>wooɗi</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage e nder %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Suɓo nokku woɗɗo ngam laarde.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Maandin «Eey, itt nokku woɗɗo ngu» adii.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Nokku woɗɗo oo waawaa ittaade: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Nokku woɗɗo oo waawaa mooftaade: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Fichier teelte oo waawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Suɓo hay nokku woɗɗo gooto walla fedde wootere.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Nokku woɗɗo suɓaaɗo alaa kadi e teelte ɗee. Loow hello ngoo kadi.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Maandin «Eey, saaku jooni» adii.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Nokku woɗɗo FTP waawaa dogingol egge: suɓo «Yawtin tan», walla accu mo.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Egge saaketeeɗe ko ID egge, seerndaaɗe e virgule.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Saakugol ngol ina yahra tawo. Fad haa ngol gasa.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Ngol saakugol fadataa e damal.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Alaa nokku woɗɗo waɗi ngol saakugol: alaa ko artirtee.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Maandin «Eey, saaku tolno garoowo jooni» adii.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Maandin «Eey, artir ngol saakugol jooni» adii.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Nokku woɗɗo jogiiɗo ID %id ina woodi too.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Port ko limre gila 1 haa 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Jooɗorde ko konngol mbaɗaangol e alkule, limle, - e _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Fedde ko konngol mbaɗaangol e alkule, limle, - e _ (wonaa all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Ko seŋorta waawaa janngeede jooni: %problem. Mooftu ɗum e Teeltugol &gt; Ɗuuɗe suuɗɗe (walla teeltu waylotooɗo oo) adii saakugol adiingol.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Nokku woɗɗo FTP ina heɓa fiilde tan: saakugol to makko ko «Yawtin tan», egge makko ina dogee toon e juuɗe.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Nokku woɗɗo %id alaa e settings/override/migration.ini.append.php; itt mo ɗo o teeltaa.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Seŋoraama e dow FTP, index.php janngaama. Statut egge nokku woɗɗo FTP waawaa janngeede.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Waylaama</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Tagaama</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Innde</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Sifaa</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Taƴre</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Tagooɗo</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Loowdi kesi</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Loowdi lowre ndee fof tagaandi walla waylaandi sakket, kesi ɗi adii: ko yillotooɓe neldi, ko daraama ngam ƴeewndaagol, daartole sakkiiɗe yaltinegol mum en. Suɓo geɗe ngam accitde, darnude, suuɗde, hollude, ittude walla werlude ɗe e taƴre walla ngonka goɗɗo.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Doggol ngol waawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Darnugol ngam ƴeewndaagol teeltaaka tawo, ɗum noon hay huunde darnaaka, golle darnugol ndokkataake. Daawal hesɗitingol 6.0.15-review-hold teeltata ɗum: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Sooɓ doggol ngol</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Gila</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Haa</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Ñalnde</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Tagaama (yaltinegol arano)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Fof</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Ngonka yaltinegol</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Yaltinaama</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Daartol, yaltinaaka abadaa</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Ina fadi (ina fadi jaɓegol walla ñalnde)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>E ɓalli</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Daraama ngam ƴeewndaagol</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Daraama</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Daraaka</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Suuɗaama</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Ina yiyee</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Neldaa ñalnde</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Naatirde lowre fof</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Ko taskaano winndi tan.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Jooni: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Innde seŋorde walla ID kuutoro.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Sooɓ</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Momtu sooɓe</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Geɗe</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from haa %to e nder %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Alaa huunde</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(janngaa e nder %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Golle e geɗe suɓaaɗe</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Suɓo fof e hello ngoo</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count suɓaama</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Golle</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Suɓo golle</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Accit darnugol</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Darnu ngam ƴeewndaagol</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Suuɗ</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Hollu</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Werlu e ɓalli</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Momtu</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Hokku taƴre</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Hokku ngonka</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Sabaabu</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Ina waɗɗii ngam darnude; ina mooftee e darnugol ngol e nder taskaano.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Suɓo taƴre</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ngonka</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Suɓo ngonka</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Waɗ e ko suɓaa</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Huunde fof ina ƴeewee e jamirooje maa. Werlude e ɓalli e momtude ina ɗaminira ma. Ko ɓuri geɗe %count ina waɗee e caggal.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Suɓo</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Yaltinegol</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Neldaa gila</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Suɓo %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>tawo</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(alaa innde)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Daartol</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ina fadi</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Suuɗaama e jinnaaɗo mum</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Daraama: neldaa kesum</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Yamre %version ina fadi</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Yamre %version ina waɗee</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Daartol, yamre %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Yamre %version yaltinaama</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Yamiraama ngam %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>alaa ñiiɓirde</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>winndaaka</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Alaa huunde fotndi e sooɓe ɗee.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hollu fof</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Alaa loowdi tawo.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>E hello</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Hollu geɗe %count e hello kala.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Ñiiɓirde e wanngorde neldal ummotoo ko e tippude taskaano, ngal heɓaaka ɗoo: dognol ngol ina wiya "winndaaka".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Ñiiɓirde e wanngorde ko ɗe taskaano winndi ngam huunde ndee (darnugol jaajaagol ina winnda ɗe sahaa kala; yaltinegol e tagugol tan ɗo ɗum huɓɓinaa), no teelte suturo mayre mooftirta ɗe.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: geɗe %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Momtugol ina itta geɗe ɗee haa abadaa, e yamre mum en fof e firooji mum en. Ɗum waawaa artireede.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Geɗe ɗee ina yaha e ɓalli, ɗo ɗe mbaawi artireede.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Huunde fof ina ƴeewee e jamirooje maa; huunde jogiinde geɗe les mayre accitete no woniri (ittu nde e mbaadi loowdi). A ƴamete ƴeewtinde ko an woni.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Ɗum ina waɗee e caggal: hello yaarngo mum ina udditoo, njaɓɓi huunde fof ina hollee so timmii.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Geɗe suɓaaɗe</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>e %count goɗɗe</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Haaytu</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Hay huunde waɗaaka</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sabaabu: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Golle ɗee ina waɗee e caggal tawo.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Yaarngo mum</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Golle caggal ɗee ronkii: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Timmi</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Salaama</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Waɗaaki</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Huunde kala</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Huunde</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Njaɓɓi</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Ko waɗi</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Rutto e doggol ngol</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Teeltugol</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Waɗaaka hay huunde</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Tabbitin</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Suɓo golle.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Suɓo huunde wootere e ɓuri famɗude.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Suɓo geɗe 1000 e ɓuri heewde e nder sahaa gooto.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Wiy ko waɗi geɗe ɗee daraa.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Suɓo taƴre ndee.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Suɓo ngonka ngal.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Fiise ndee waawaa janngeede.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Tableau de bord</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Loowdi kesi</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Limooje ɗee waawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Daraama ngam ƴeewndaagol</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Kesi hannde</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Darnugol ngam ƴeewndaagol teeltaaka tawo (daawal hesɗitingol 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Loowdi kesi fof</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>A waawaa waɗde golle moderasiyoŋ (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Golle moderasiyoŋ timmaani: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderasiyoŋ: %action e geɗe %count</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done e %total geɗe: %ok timmi, %refused salaama, %failed waɗaaki</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok timmi, %refused salaama, %failed waɗaaki</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Ɗum woodaani kadi.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Alaa nokku (yaltinaaka).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>A waawaa suuɗde ɗum (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>A waawaa hollude ɗum (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Ɗum suuɗaama gila.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Ɗum suuɗaaka.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Suuɗaama.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Hollaama.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Ɗum ina e ɓalli: ɓoliɗin walla artir ɗum ɗoon.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Daartol yaltinaaka abadaa waawaa yahde e ɓalli: momtu ɗum.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>A waawaa momtude ɗum (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Momtaama.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>A waawaa ittude ɗum (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Ɗum jogii geɗe les mum: ittu ɗum e mbaadi loowdi, ɗo ɗe limtaa.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Ɗum ittaaka (laawol golle ina waawi darnude ittugol ngol).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Werlaama e ɓalli.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Taƴre ndee woodaani.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Ɗum ina e taƴre ndee gila.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>A waawaa hokkude taƴre ndee (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Taƴre ndee hokkaaka.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Taƴre hokkaama.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Ngonka ngal woodaani.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Ɗum ina e ngonka ngal gila.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>A waawaa hokkude ngonka ngal (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Ngonka ngal hokkaaka (laawol golle ina waawi darnude waylo ngo).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Ngonka hokkaama.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Alaa golle ɗe nanndi e ɗum.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Darnugol ngam ƴeewndaagol teeltaaka (daawal hesɗitingol 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Wiy ko waɗi ɗum daraa.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Ɗum daraama gila.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>A waawaa darnude ɗum (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Darnugol ngol waɗaaka (laawol golle ina waawi darnude waylo ngo).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Daraama.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Ɗum daraaka.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>A waawaa accitde ɗum (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Darnugol ngol accitaaka (laawol golle ina waawi darnude waylo ngo).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Accitaama; ina suuɗii tawo: a waawaa hollude ɗum (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Accitaama.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Jahayɗe ɗee fof</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Yaltingol sakkitorgol</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Yaltin nokkuure statik lowre maa e GitHub Pages ko aldaa e njoɓdi:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Kelle ɓooyɗe</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Yaltingol statik</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Yaltingol statik ñifaama.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Jahaynde</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Jahayɗe ɗee mbaawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>gollal ina yaha</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>mahngo ngo ƴeewetee</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>suuɗ ɗum</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>sos jahaynde</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>abada</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>jangu jaŋde ndee</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ɓeydaama, %changed waylaama, %removed ittaama</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes e %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count goɗɗe ndimmii ɗe limtaaka.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages hello mbinndaama</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ko %size, ɓuri ko host oo jaɓi fichier gooto.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % e ɓoggo oo</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds segoon</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ko yaltingol ngol lowre ndee jogii jooni.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: gollal %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/mooftirde/ ngam lowre porose GitHub; meho ngam domain maa walla lowre kuutoroowo.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Lowre ndee</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Host oo</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Seŋaade e mooftirde ndee</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Mooftirde ndee</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Jokkorde e laawol ɗaɓɓorgol</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Domain maa</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Ko mahngo ngoo jogii</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Nde yaltinetee</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Tar e mooftu</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Lowre porose GitHub ina woni les /&lt;repository&gt;/; jokkorde jokkondirɗe ina golla ɗoon e nokku kala.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Mahngo ina heɓa kala hello %site no yiilotooɗo mo seŋaaki yiyrata ngo, ina winndita jokkorde ɗee, ina natta fichiers ɗee, ina winnda njeñtudi ndii e dossier jahaynde ndee. Hay huunde yaltintaake si a ƴeewaani mahngo ngoo a ñoƴƴaani Yaltin.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Konngol cron, ko wayi no 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Coktirgal deploy ina mooftee no suuɗaangal %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Coktirgal deploy ina yamira ngal teeltugol neldude e mooftirde wootere tan rewrude e SSH, nokku goɗɗo alaa. Feccere mum suuɗaande ina heddoo e Teeltugol &gt; Ɗuuɗe suuɗɗe; ko feccere mum renndinaande tan hollirtee.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Coktirgal deploy sosanaangal ndee jahaynde</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Coktirgal deploy ina seŋoo rewrude e SSH: waylu ñiiɓirde git ndee e ñiiɓirde SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Gollal ina yaha, %user fuɗɗini ngal</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Gollal ndee jahaynde ina yaha tawo (%detail). Fadu haa ngal gasa.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Gollal ndee jahaynde ina yaha tawo. Fadu haa ngal gasa.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Jokkol immorde e hello /news/ haa hello /about-us/team ina winndee no</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Coktirgal deploy kesal sosaama. Ɓeydu feccere mum renndinaande e mooftirde ndee jooni.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Hello ngo jogii tawo ko muulni debug, token formilaar walla ID session caggal laɓɓingol yaltintaake abada.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Artirgol ko ngam ganduɓe: maandin “Mi anndi ko ɗum waylata” winndaa innde maande ndee kadi.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Lowre ina waawi yettaade %site, fichier gooto haa %file, e wonde 100 GB jahaa-ngartaa nder lewru. E kaŋko alaa njoɓdi, mooftirde ndee ina haani wonde renndinaande. GitHub Pages waɗaaka ngam bitikuuji walla njeeygu goɗɗo.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Jahaynde ko lowre wootere yaltinteende e mooftirde git wootere. Hay huunde mahetaake walla yaltinetaake ɗoo: Mooftu ina winnda teelte ɗee e settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Jahaynde ko lowre wootere yaltinteende e nokku gooto, ko wayi no lowre maa renndinaande e GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token immorde e Teeltugol &gt; Ɗuuɗe suuɗɗe</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Workflow mooftirde ndee ina yaltina ɗum.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Ɓeydu ngal coktirgal renndinaangal e mooftirde ndee e jamirde winndugol. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, maandin Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Ɓeydaama</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Host git goɗɗo</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Golle goɗɗe ina ngolla e ndee jahaynde: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Rutto</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Laawol ɗaɓɓorgol</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Adii</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Les laawol ɗaɓɓorgol</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Caljal</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Jokkorde taƴaaɗe</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Jokkorde taƴaaɗe e mahngo ngoo</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Mahngo</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Mahngo %id, %user mahi ngo</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Mahngo %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Mah jooni</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Mahngo ngo ƴeewetee</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Baɗɗo</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>E junngo, ɗoo</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Haaytu</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Waylu</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Waylaama</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Waylaaji</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Ƴeew ɗum taho</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Ƴeew ɗee teelte</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Ƴeew ko mahngo ngoo waylata, ndaar ngo, refti yaltin ngo walla werlaa ngo.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Suɓo yaltingol ngol ngartataa e mum.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Ina warta e yaltingol garoowol.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Teeŋtingol</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Teeŋtine</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Ina teeŋtina mahngo ngoo, ina maandina ngo, ina nelda ngo e %remote. Neldugol doolnetaake abada; a waawii rutto e yaltingol kala caggal ɗuum.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Fotndiraa e dossier adiiɗo: %added ɓeydaama, %changed waylaama, %removed ittaama, %unchanged waylaaka.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Fotndiraa e yaltingol sakkitorgol.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Ko seŋorta</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domain maa</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Ko muulni debug, tokeeje formilaar, ID session e nonces ina ittee sahaa kala.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Coktirgal deploy</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Coktirgal deploy %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Werlu</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Werlu mahngo ngoo</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domain</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Meho: ñiiɓirde lowre ndee. So wonaa ɗuum, ñiiɓirde nder lowre ndee hoore mum.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Gasii</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Kala jokkol ina fuɗɗoo e laawol ɗaɓɓorgol.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Kala yaltingol ko teeŋtingol jogiingol maande static/%id/&lt;n&gt;. Ruttagol ina waɗa teeŋtingol kesol e fichiers yaltingol adiingol: daartol ngol ina heddoo, hay maande dirtaaki, hay huunde doolnaaka.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Ɓeyditte</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Heɓ kelle ɗee immorde e</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fichier</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fichiers</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Fichiers majjuɗi</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Fichiers</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Fichiers ɗi mbaawaa renndineede</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Maande sigaare</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Dossier</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Ngam ñiiɓirde SSH. Coktirgal ngal ina sosee caggal mooftugol; aan ɓeydata feccere mum renndinaande e mooftirde ndee.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Ngam ñiiɓirde https://. GitHub: token fine-grained jogiiɗo janngugol e winndugol e Contents mooftirde ndee.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Ngam ganduɓe. Lowre renndinaande ndee ina waylo tuma neldugol ngol timmi.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formilaarji</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Hosting alaa njoɓdi immorde e mooftirde GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Immorde e caljal ngal</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Ñiiɓirde git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages ina jaɓa lowre %site e fichier %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Keeri GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ina yaltina fichiers ɗee no ɗi ngoniri (ina haani ngam fichiers fuɗɗotooɗi e _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ina rokka caljal ngal no ngal neldiraa. Ko ɗum woni ko woowaa.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, sarwoor maa: mooftirde git kala.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Rutto e yaltingol adiingol</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ballal</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Ballal e jaŋde ndee</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Suuɗ ɗe</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Daartol</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Daartol %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>No GitHub Pages heɓrata mahngo ngoo</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Mi ƴeewii waylaaji ɗii</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Mi anndi ko ɗum waylata</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Ina ñifaa: hay huunde mahetaake si huuɓnaaka.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Ina dogga e cakkitte no %user; a waawii uddude ngoo hello.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Gollal %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Mooftaama no suuɗaangal %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Sifaa</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Yaltingol sakkitorgol</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Accu ɗee kelle</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Accu ɗee taƴe</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Jokkorde</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Jokkorde winnditaaɗe</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Lowre ndee jooni</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Ndaar mahngo ngoo</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Alkule tokoose, limle, _ e -, ko wayi no github-public. Ina inna dossier oo e maandeeji ɗii (static/&lt;id&gt;/&lt;n&gt;), waylotaako caggal ɗuum.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Sos coktirgal kesal</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Sos jahaynde</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Sos coktirgal ngal</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Sos mooftirde ndee e host oo taho; mooftirde meho ina moƴƴi.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ɗerewol</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Ko ɓuri heewde e kelle</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Innde</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Innde token oo e Teeltugol &gt; Ɗuuɗe suuɗɗe</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Jahaynde kesre</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ɗiɗaɓo</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Alaa</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Alaa teeŋtingol tawo.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Alaa coktirgal sosaangal: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Alaa porogaraam php gonngal e laawol yamiroore. Teel migration.ini [AdminSettings] PhpCliPath e laawol mum timmungol.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Alaa maande tawo.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Alaa jahaynde tawo.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Alaa</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Alaa e mahngo ngoo.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Hay huunde yaltinaaka tawo.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Hay huunde yaltinaaka tawo: kala fichier ko kesum.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Tintin</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>E teelol waktu</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>E konsol</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>E sarwoor: ./console exp:static:serve %id ina rokka ɗum e no wootere.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Laawol gootol e kala diidol, * ina fota e kala feccere: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Ko innde tan mooftetee e jahaynde ndee; token oo walla coktirgal ngal hoore mum ina heddoo e Teeltugol &gt; Ɗuuɗe suuɗɗe, ɓanngintaake abada e deftere.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Ko kelle ɗee innata tan</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>E token tan. env:NAME ina jaŋga ɓeyɗital jooɗorde sarwoor oo e nokku mum.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Uddit yiyde adan</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Ina uddita mahngo ngoo no host oo rokkirta ngo, immorde e dossier jahaynde ndee. Jokkol ngol ina golla ngam maa waktu gooto.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Suɓaade. Meho: ko yaltinaa.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Suɓaade. E domain, lowre ndee ina rokkee e ɗaɗol mum.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Sottugol</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Kelle</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Kelle jahaynde ndee</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Kelle salaaɗe</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Waɗtugol caggal</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Yiyde adan</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Yiyde adan e yaltingol</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Yiyde adan e yaltingol %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Yiyde adan mahngo ngoo</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ko yaha</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Ñiiɓirde renndinaande</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Coktirgal renndinaangal</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Yaltin</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Yaltin nokkuure statik lowre e GitHub Pages walla e host git kala: mah ɗum, ƴeew waylaaji ɗii, yaltin, rutto e yaltingol adiingol so a haajii.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Yaltingol ngol ngartetee e mum</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Yaltine</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Neldugol</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Jangu jaŋde ndee</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Winndannde</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Salaama</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Jokkondirɗo</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Loow kadi</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Ittaama</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Lomtin coktirgal ngal: ngal ɓooyngal ina daroo golle</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Ciimtol</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Ciimtol mahngo ngoo</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Mooftirde</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Tar</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Tar ina ƴeewa kala teelol, ina hollira diidi ɗi mbinndetee. Hay huunde mooftaaka tawo.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Artir</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Artirgol</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Mooftu</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Teelol waktu</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Hello njiylaw</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ID taƴe, seertinaaɗe e virgule.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Nel ɗe e lowre ndee jooni</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Teelol</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Teelte</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Teelte %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Teeltugol</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Teeltugol &gt; Ɗuuɗe suuɗɗe</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Ina hollee e doggol, ko wayi no “Lowre renndinaande e GitHub Pages”.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Seŋaade e GitHub App ina warta e jokkondiral GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Lowre</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Lowre yaltinteende</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Mawnugol</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Mawnugol e keeri</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Mawnugol mahngo ngoo</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Kelle ɓooyɗe</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Fuɗɗii</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user fuɗɗini ngal e %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>No ngonri</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Yaltingol statik</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Yaltingol statik ñifaama</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Yaltingol statik ñifaama.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Yaltingol statik ñifaama. Huuɓnu ɗum taho e Teeltugol &gt; Yaltingol statik.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Yaltingol statik huuɓnaama.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Jahal %step e %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Laawɗe</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Laɓɓingol</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Ñif</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Huuɓnu</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Huuɓnu yaltingol statik</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Maande</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Maandeeji</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Jahaynde</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Jahayɗe ina mbaawi soseede e waylteede, kono hay huunde mahetaake walla yaltinetaake si huuɓnaaka.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Ina wiya masiŋaaji njiylaw ko ɗi njanngata.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Mahngo ngoo waawaa werleede: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Mahngo ngoo ina nanndi e yaltingol sakkitorgol: alaa ko yaltinetee.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Mahngo ngoo werlaama: dossier oo ina jogii yaltingol sakkitorgol kadi.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Teelte woowaaɗe ɗee ina poti e ko ɓuri heewde e lowe.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Dossier oo ina jogii mahngo ngo yaltinaaka tawo; mahngo kesngo ina lomtoo ngo.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Dossier golle ɗee waawaa winndireede: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Gollal ngal waawaa heboteede: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Gollal ngal waawaa fuɗɗeede.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Gollal ngal gasii. Ciimtol mum ina loowee.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Gollal ngal ina haani kuutoroowo seŋiiɗo.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Gollal ngal fuɗɗii kono humpitaani ID porose mum. Ƴeew %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Coktirgal ngal</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Fichier ɓurngo mawnude: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Diidi ɗi mbinndetee</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Doggol kelle ngam masiŋaaji njiylaw; ina haani ñiiɓirde renndinaande ndee.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Kelle ɗee ina keɓee no yiilotooɗo mo seŋaaki yiyrata ɗe. Siteaccess toppitagol e taƴtagol hokketaake abada.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Ko yaha oo waawaa rewee. Loow hello ngoo kadi ngam yiyde no gollal ngal yahrata.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Feccere renndinaande coktirgal ngal:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Ɗaɗol caljal ngal</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Nokku mooftirɗo suuɗaaɗi teeltaaka tawo (./console exp:upgrade --apply ina sosa taabal mum), ndeen alaa coktirgal mooftotoongal.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Sarwoor oo ina seŋoo hoore mum (e coktirgal SSH mum walla ballitoowo ko seŋorta), walla mooftirde ndee ina woni e ndee sarwoor.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Teelol ngol waawaa winndireede: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Teelte ɗee ina poti. Ɗee diidi ina mbinndee:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Fichier teelte oo waawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Lowre ndee ina rutta e fichiers ngol yaltingol; mahngo ngo yaltinaaka tawo ina haani yaltineede walla werleede taho.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Hello lowre ndee hoore mum ngam ñiiɓirɗe ɗe ngonaa.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Jahaynde ndee waawaa mooftireede: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Jahaynde ndee seŋotaake e ngal coktirgal tawo: suɓo “Coktirgal deploy sosanaangal ndee jahaynde” e teelte mum.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Jahayɗe ɗee mbaawaa janngeede: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Alaa mahngo ngo ƴeewetee tawo.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Ngal teeltugol alaa siteaccess yeeso. Siteaccess toppitagol e taƴtagol yaltinetaake abada.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Ngoo hello ina rewa gollal ngal no ngal yahrata; ngal ina jokka e cakkitte so hello ngoo uddaama.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Ndee jahaynde alaa coktirgal deploy tawo.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Ndee jahaynde mahaaka ɗoo tawo.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Ndee jahaynde ina jogii gootal.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Ina werla ngoo mahngo: dossier oo ina jogii yaltingol sakkitorgol kadi. Lowre ndee jooni waylotaako.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Maandin “Mi ƴeewii waylaaji ɗii” taho.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Juuteendi</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Fuɗɗinooji</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Winndu innde maande ndee kadi</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Waylaaka</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ko honɗum</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Ko waylotoo</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Ko kala fichier woni; ina winndee sahaa kala.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ko gollal ngal waɗi e winndannde mum. Gollal fuɗɗaangal ɗoo ina jokka e cakkitte so ngoo hello uddaama.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ko gollal ngal muulni no juumre</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ko kelle ɗee innata, e kala natal loowdi yaltinaandi</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Nde</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>So yaltingol waɗaaki</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>So yaltingol moƴƴii</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>So loowdi yaltinaama</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>To jokkorde yahata ngam ko nokkuure ndee jogiaani (njiylaw, seŋorde).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Nokku nokkuure statik ndee rokketee.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Lowre ndee yaltinetee, e innde jahaynde ndee.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Ina golla les laawol kala. Ko ɗum woni ko woowaa.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Ina winndee kala nde domain maa teeltaa.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Eey</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>A waawii sahaa kala mahde e yaltinde e junngo ɗoo e e konsol.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>innde tan; ko ɗum jogii ina heddoo e Teeltugol &gt; Ɗuuɗe suuɗɗe</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>les %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>gasii tawa alaa ciimtol</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ɓeydaari</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>waɗaaki</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fichier</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, walla main e dossier docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>host git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (e token) walla git@github.com:owner/repo.git (e coktirgal deploy); alaa finnde walla token e nder mum abada.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, ngam sitemap e jokkorde canonical.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>natal</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>abada</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>alaa</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>alaa remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>alaa: teeŋtine ina keddoo e dossier</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>alaa: hay huunde waylaaki</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>neldaaka</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>hay huunde waylaaki</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>hello</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>moƴƴii</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ko ñifaaɗo, ndeen gollal waawaa fuɗɗeede ɗoo. Huutoro ./console exp:static:build e sarwoor oo.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>yaltingol</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>yaltinaama</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>neldugol ina fadi</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>neldaama</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>salaama</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>jokkondirɗo</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>artirgol</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>artiraama</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ina dogga</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>dossier oo tan</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: ina winndee e fichier CNAME. Fewnu DNS domain oo e host oo no o firtiri; HTTPS ina waawi neeɓude seeɗa ado fuɗɗaade.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>eey, yaltinaaka tawo</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Golle mooftirde ndee ina yaltina ɗum. Mahngo ngoo ina winnda fiilde golle ndee; accu dosiyee oo meho.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Caggal danndude jahaynde e mooftirde GitHub e token walla GitHub App, ngol daawal ina waawi sosde mooftirde ndee e udditde GitHub Pages. Si wonaa ɗum, sos mooftirde ndee e GitHub adan; ndee meho ina moƴƴi.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Caljal walla GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Ƴeewto DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Sos mooftirde ndee si tawii ndee alaa</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Sos mooftirde ndee e GitHub te uddit GitHub Pages e teelte mayre (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Ina sosa mooftirde %repo si tawii ndee alaa (si ɗum naamnaama), ina uddita GitHub Pages immorde e caljal ngal walla e GitHub Actions no danndiraa, te ina teelta domain maa e HTTPS. Ina huutoro teelte danndaaɗe: dannd waylooji ɗii adan.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Cifooji e GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Naatnu domain maa adan.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Neldugol kala ina ƴeewtee e ɗee keeri adan.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Ngam ñiiɓirde https:// e GitHub. App teeltaaɗo ngam ɗee aafanɗe ina seŋoo; ina sokli id aafannde ndee.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages rokkata mooftirde suuɗaande si wonaa e parmaa njoɓetee.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: domain lesdi (www.example.com) ina sokli winndannde CNAME faade &lt;owner&gt;.github.io; domain mawɗo (example.com) ina sokli winndanɗe A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id aafannde GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Mahngo Pages sakkitiingo</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Keeri e sarɗiiji</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Ina sokli ngam GitHub Pages e parmaa alaa njoɓdi.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>E GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Tan e GitHub App: limoore ndee wonnde e gasirde ñiiɓirde aafannde App e GitHub. App kanko e hoore mum ina teeltee e staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Suuɗaaɗo</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Kala neɗɗo</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Dannd jahaynde ndee e mooftirde GitHub e token walla GitHub App adan.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Teelto ɗee winndanɗe to rokkoowo domain oo:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Teelto e GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS %domain fewndaaki GitHub Pages tawo.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS %domain ina fewndii GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Jokkondiral GitHub heɓotaako ɗoo: %problem. Yaltingol e caljal ngal ina gollira no feewi; uddit GitHub Pages e teelte mooftirde ndee.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Daawe GitHub heɓotaake ngam ndee jahaynde: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Ngonka GitHub Pages ina hollee so token walla GitHub App woni ko seŋorta.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Huutoro domain maa</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Ko suɓotoɗaa: token, coktirgal deploy walla GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>E mooftirde GitHub e token walla GitHub App, jaŋde ndee ina waawi sosde mooftirde ndee, udditde GitHub Pages e teeltude domain oo ngam maa (daawal 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ina mahee</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>mahaama</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>immorde e GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>immorde e caljal %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>alaa tawo</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>tawaaka</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>uddaama</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>suuɗaaɗo</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>kala neɗɗo</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ina reeni daaɗe</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>anndaaka</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count e %pages hello:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (e .br) bolle he fayl binndol kala, ngam hoɗooɓe ɓe poondata.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Hello pamaral ngam diiwal e innde goɗɗo ngal hello kala, ngam jokkondiral ɓooyɗum wondu.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Winndetee kala nde GitHub Actions rokkata lowre.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id bana CC-BY-4.0, malla binndol ngol ko ngol.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Sawru</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Noddooji e sarworde</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Haalooji</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formilaarji ɗi mooɓtata habaruuji</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Ɗuɗal sewre e ko woɗɗitaa e hello ɗe.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Lisans ko woni nder</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Naatugo</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Pamarin</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Formilaarji goɗɗi</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Nanndin adii</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Hello ɗe ɓoggol</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Hello ɗe ɓoggol: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Ɗaɓɓutugo</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Ɗaɓɓutugo index: %pages hello e %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Sitayl e skiriptiiji innaaɗi e hash ko woni nder ɗi, ngam browsers ngaaɗa.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Hello ɗe mbeɗɗi, minti seɗɗa caggal sanjo sakitiingo (taayre cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Lisans ko woni nder, immorde e fiilde les.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Lowre fuu, e saa'i ɗi jadirgal (taayre cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Taaje hello ɗe ɗe ngomnata sarworde; kala ɗum hebi ko haɓɓitoo. Raarita ɗe adii ma yaltina.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ko walaa e sanjo hakkunde</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Ko repository woni, ngam kala mo hollata ɗum e hoɗooɓe.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>acciti</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>binndol haɓɓitoo</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>hoore formilaar lowre jooni</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>lowre ndee jooni</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>hello ɗaɓɓutugo kopi</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formilaar nulaaki.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>A jaaraama: formilaar nuli.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Formilaar jaɓaaka: raarita ko winndaa ɗon, nelaa fahin.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Momtu jokkorɗe yahooje e hello ɗe kopi ndii alaa</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Momtu jokkorɗe yahooje e jiiloowo</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Binndi maɓɓe ina heddoo. Nate, formulaaruuji e jokkorɗe yahooje e lowe goɗɗe momtataake abada.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Yamre</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Siteaccess yaltinteeɗi</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>E daɗol</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Alaa siteaccess e daɗol: kala gooto ina e follere mum, daɗol ngol jokkondiri e majji</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Labo siteaccess gooto, walla ɗuuɗɗi lomtondirooji host gooto e jaɓɓorde URI maɓɓe. Ngol woni e daɗol ngol hokkete ton, goɗɗi ɗi ina e follere jaɓɓorde maɓɓe (/ger/); jokkole hakkunde maɓɓe ina heddoo e kopi oo. Siteaccess jiiloowo hokkatake abada.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Muurtinol static %target woni e %site rewaani</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Muurtinol static %target woni e %site laaɓi</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site neldi ndee bataake sabu ɓuuɗam muurtinol static %target ina ɗaɓɓi ɗum.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Saaku %deploy waɗaaki e %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Saaku %deploy ina habba e damal e %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Saaku %deploy moƴƴi e %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Ɓataake ndee neldaa ko %site sabu migration.ini [RemoteSettings] Notify[] ina naamnii ɗum.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Sifaaji keɓe (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Limaama %time, kadi caggal hojomaaji %minutes</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Sifaa keɓe ina mari e waylita ngonka keeri gootal e jikkuuji sifaa: diidol binndi, natal, jokkondiral. Ɓernde ndee addata ɓurɗi heewde, ɓeydaaji ɓeydata goɗɗi. Ɗoo ko ɗi fof, kala addoowo ɗi e no loowdi huutortoo ɗi heewi. Sifaa keɓe mo mooftirde keɓe huutortoo kono hay huunde winndaani mo kadi, ina bonna loowdi mari mo.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Feddeeji sifaaji</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Limtu kadi jooni, ɗo a huutortoo limooje hojomaaji sakkitiiɗi.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Limtu kadi</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Yiyde ɗuuɗɗe</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Winndaama</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Ina huutinee</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Kuutinaaka</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Ɓeydaaji addooji sifaaji keɓe</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Jikkuuji sifaa</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Jikkuuji huunde</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Winndaaka</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Ina e doggol, fiile ndee woodaani</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Sifaaji keɓe %count ina huutoraa kono winndaaka</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Jikkuuji sifaa %class_attributes e jikkuuji huunde %object_attributes ina keɓi sifaa keɓe mo hay ɓeydaari walla teelte winndaani. Huunde maɓɓe waawaa hollireede, waylteede walla yaltineede. Huurnu ɓeydaari addoori sifaa keɓe oo, walla waylu sifaa oo.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Hollu ɗii tan</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Yiylo sifaa keɓe</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Innde heɓtirde, innde, sifaa PHP walla ɓeydaari.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hollu</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Fof</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Addoowo</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Fof</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Ɓernde</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Alaa sifaa keɓe jaaɓiiɗo e caccagol ngol.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hollu fof</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Ɓeydaari</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown e sifaaji keɓe %count, %used ina huutoraa</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Mooftirde keɓe ndee ina mari jikkuuji sifaa walla huunde e ɗii sifaaji keɓe, kono content.ini winndaani hay gootal e majje, walla fiile mum woodaani.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Sifaaji keɓe %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Sifaa keɓe</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Sifaa PHP e fiile</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Sifaaji</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Geɗe</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Maandeeji</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>alaa</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Alaa sifaa keɓe jaaɓiiɗo e njiylaw ndee. Momtu njiylaw ndee.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown e sifaaji keɓe %count hollaama</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Sifaaji keɓe hollaaɗi: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Yuɓɓin dow %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Limaama %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Sifaaji keɓe fof</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Hello ballal</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Sifaa keɓe oo ina huutoraa kono winndaaka</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Huunde sifaaji ɗii les waawaa hollireede, waylteede walla yaltineede tuma nde hay ɓeydaari winndaani sifaa keɓe oo. Huurnu ɓeydaari addoori mo, ɓeydaa mo e content.ini [DataTypeSettings] AvailableDataTypes[], walla waylu sifaaji ɗii.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ina winndi sifaa keɓe oo, kono hay dossiyee sifaaji keɓe alaa fiile mum. Hay huunde huutortaake mo; momtu mo e AvailableDataTypes[] walla huurnu ɓeydaari mum.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Baɗte sifaa keɓe oo</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Anndinirde</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Innde</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Ɓeydaari %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>hay gooto</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Sifaa PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fichier</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Nder AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>eey</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>alaa</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Kolonɗe keeri mum</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Kolonɗe teelte jikkuuji sifaa mum</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tableau</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Kolonɗe e tabluuji ɗii njiytaa e janngugol kod sifaa keɓe oo: ko ardinoore, wonaa aadi.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Modèle</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Modèle</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Yiyaa e</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ardorde ndee</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>lowre woowaande</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Tawa alaa lomtinal: modèle lomtinal jaaɓiiɗo e sifaa walla jikku ina ɓuri ɗii.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Sifaaji huutortooɗi mo (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Alaa sifaa mari jikku e sifaa keɓe oo.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Sifaa</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Jikkuuji</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Jikkuuji sifaa (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Jikku</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Teelte</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Ina waɗɗii</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Ina yiylee</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Ina waawi fireede</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Ina munyi anndinol</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Loowdi huutortooɗi mo</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Ɓurɗi sakkitde waylteede adan</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Waylaama</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nokkuure %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Kala firo ina mari keeri mum.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Njiylaw ina winndita keeri mum.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Ina waawi rentinde kabaruuji ummoraaɗi e jillotooɓe (fomeeje).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Doggi ina mbaawi yiilteede e mayru: coktirgal yiilto %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Ina yuɓɓinee</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Keeri mum ina holla huunde goɗɗe.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Jokkondiraaji</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Ina waawi hebbinireede e binndi tan (naatnugol, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Ummoraade e binndi</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Ina waawi hebbinireede e fiile.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Ummoraade e fiile</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Teelte jikkuuji sifaa mum ina naata e paketeeji.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paketji</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Loowdi (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from haa %to diga %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Sooɓ doggol ngol</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Sifaaji fof</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Taƴre</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ɗemɗe</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Jom</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Yaltinaama</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Wirtin yuɓɓo</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Alaa huunde</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>E hello</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Hollu %count huunde ka hello kala.</translation>
     </message>
 </context>
 </TS>

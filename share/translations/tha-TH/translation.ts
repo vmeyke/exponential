@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>ค้นหาเฉพาะหน้านี้: %from ถึง %to จาก %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ชนิดข้อมูลทุกชนิดของเคอร์เนลและส่วนขยาย และวิธีที่คลาสและเนื้อหาใช้งาน</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ชนิดข้อมูล</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>คุณสามารถบุ๊กมาร์กหน้าระบบได้เช่นกัน: เปิดหน้านั้น (ตั้งค่าระบบ ประวัติการตรวจสอบ รายการผู้ใช้ ...) แล้วเลือก "บุ๊กมาร์กหน้านี้" ที่อยู่ด้านบน บุ๊กมาร์กเหล่านี้มีไอคอนรูปเฟือง.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>คุณไม่สามารถเปิดหน้านี้ที่นี่ได้อีกต่อไป กรุณานำบุ๊กมาร์กออก หรือขอสิทธิ์การเข้าถึงจากผู้ดูแลระบบ</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>ไปยังหน้าแรก</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>อื่น ๆ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 วันที่ผ่านมา</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>ช่วงเวลาที่กำหนดเอง</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>ทุกคำ</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>คำใดก็ได้</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>วลีที่ตรงกันทุกคำ</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>ความเกี่ยวข้อง</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>ชื่อ ก–ฮ</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>ชื่อ ฮ–ก</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>แก้ไขเมื่อ ใหม่สุดก่อน</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>แก้ไขเมื่อ เก่าสุดก่อน</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>เผยแพร่เมื่อ ใหม่สุดก่อน</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>เผยแพร่เมื่อ เก่าสุดก่อน</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>แก้ไขเมื่อ</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>ตัวกรอง</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>แสดงตัวกรอง</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>ซ่อนตัวกรอง</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>รีเซ็ต</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>ใช้</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>คำ</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>ประเภทเนื้อหา</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>แสดงเพิ่มเติม (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>เลือกประเภทเนื้อหาหนึ่งประเภทเพื่อค้นหาในแอตทริบิวต์หนึ่งของประเภทนั้น</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ส่วน</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>จาก</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ถึง</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>วันที่เริ่มต้นไม่ใช่วันที่ที่ถูกต้อง</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>วันที่สิ้นสุดไม่ใช่วันที่ที่ถูกต้อง</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>เจ้าของ</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID ผู้ใช้ ชื่อเข้าสู่ระบบ หรือที่อยู่อีเมล</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>ไม่พบผู้ใช้สำหรับ “%input”</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ภาษา</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>ภาษาใดก็ได้</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ตำแหน่ง</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count ตำแหน่ง</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>ผลลัพธ์ต่อหน้า</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>ผลลัพธ์สำหรับ “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ผลลัพธ์ (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>เรียงลำดับตาม</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>เรียงลำดับ</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>ตัวกรองที่ใช้งานอยู่</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>นำตัวกรองนี้ออก</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>หรือเลือกตัวกรองแล้วใช้เพื่อแสดงรายการเนื้อหาที่ตรงกัน</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>ตัวกรองจะจำกัดการค้นหาให้แคบลงเมื่อคุณพิมพ์คำแล้ว</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>ไม่พบผลลัพธ์สำหรับ “%text”</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ไม่พบผลลัพธ์</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>นำตัวกรองด้านบนออกหนึ่งรายการ</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>คำแปล</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>การดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>แก้ไข %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>แก้ไข</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>ตั้งค่าระบบ &gt; งาน cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>ยังไม่มีส่วนของงาน cron ใดทำงาน: คิวงาน การนำเข้า การแจ้งเตือน และดัชนีการค้นหากำลังรออยู่. กรุณาเรียกใช้ php bin/php/installcrontab.php --add --apply หรือเพิ่มบรรทัดจาก --show ลงใน crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>ประกาศลิขสิทธิ์ของผู้เขียนดั้งเดิมและของซอฟต์แวร์ของบุคคลที่สามที่รวมอยู่กับ Exponential เก็บไว้ในไฟล์ซอร์สและในไฟล์ LICENSE ตามที่สัญญาอนุญาตกำหนด.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>ต่อไปนี้คือรายชื่อผู้ร่วมพัฒนา Exponential ที่อนุญาตให้ 7x ใช้ผลงานของตนภายใต้ข้อกำหนดและเงื่อนไขของ eZ Systems Contributor Licensing Agreement. ตามที่ข้อตกลงนี้อนุญาต 7x แจกจ่ายผลงานแต่ละชิ้นต่อภายใต้สัญญาอนุญาตเดียวกันกับไฟล์ที่ผลงานนั้นรวมอยู่. รายการนี้ระบุชื่อผู้ร่วมพัฒนาแต่ละราย ข้อมูลติดต่อ (ถ้ามี) และไฟล์ที่เขามีส่วนร่วมพัฒนา.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>ผู้มีส่วนร่วมที่ได้รับการยกย่องสำหรับงานของพวกเขาใน Exponential และในซอฟต์แวร์ที่เป็นต้นกำเนิด พร้อมไฟล์ที่พวกเขามีส่วนร่วม นี่คือการยกย่อง ไม่ใช่ประกาศลิขสิทธิ์: การมีส่วนร่วมใน Exponential จะโอนให้แก่ Exponential Foundation และ 7x ตาม Contributor Licensing Agreement</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;ทดลองใช้ Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;เข้าร่วมเป็นสมาชิกของ Exponential Community แลกเปลี่ยนและร่วมพัฒนา&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ลิขสิทธิ์ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; และผู้อื่น.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>ขับเคลื่อนโดย &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. สำหรับข้อมูลเพิ่มเติม ดู &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ลิขสิทธิ์ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; และผู้อื่น.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> สำหรับข้อมูลเพิ่มเติม ดู &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ลิขสิทธิ์ &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; และผู้อื่น.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;ทดลองใช้ Exponential (จาก 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;เป็นสมาชิกของชุมชน Exponential รับการสนับสนุนและร่วมพัฒนา&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ลิขสิทธิ์ &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; และผู้อื่น.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>ศูนย์วิธีใช้</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>เนื้อหา</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>หน้าเอกสาร</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>ผู้ใช้</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>คลาสเนื้อหา</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>ส่วนผู้ดูแลระบบ</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>หน้า %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>ดูผลลัพธ์ทั้งหมด</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count ผลลัพธ์</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>หนึ่งผลลัพธ์</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count คำแนะนำ</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>ไม่มีคำแนะนำ</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>ไม่สามารถโหลดคำแนะนำได้</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>คำแนะนำ</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>การติดตั้งนี้เป็นการสาธิตสาธารณะ ทุกคนอาจทราบรหัสผ่านของผู้ดูแลระบบ และไม่สามารถเปลี่ยนหรือรีเซ็ตรหัสผ่านของผู้ดูแลระบบได้ กรุณาอย่าป้อนข้อมูลส่วนตัวใด ๆ ที่นี่.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>อุปกรณ์ของคุณ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>กิจกรรมด้านความปลอดภัย</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>คู่มือ การค้นหา และวิธีรายงานข้อผิดพลาด.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>เนื้อหาล่าสุด</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>เนื้อหาใหม่ล่าสุด สิ่งที่ถูกระงับไว้เพื่อตรวจทาน และการดำเนินการกับรายการที่เลือก</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>การซิงโครไนซ์</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: ปลายทาง สคีมา และพื้นที่ทดลองคิวรี</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ไมเกรชันของการติดตั้ง</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>การเปลี่ยนแปลงของการติดตั้งที่เก็บไว้เป็นไฟล์: สถานะ การเรียกใช้ เรียกใช้และย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>เนื้อหาล่าสุด</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>เนื้อหาใหม่ล่าสุด สิ่งที่ถูกระงับไว้เพื่อตรวจทาน และการดำเนินการกับรายการที่เลือก</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>เผยแพร่สำเนาแบบคงที่ของไซต์ไปยัง GitHub Pages หรือโฮสต์ git ใดก็ได้</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>การเผยแพร่แบบคงที่</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ชนิดข้อมูล</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ชนิดข้อมูลทุกชนิดของเคอร์เนลและส่วนขยาย และวิธีที่คลาสและเนื้อหาใช้งาน</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>บัญชีที่ไม่มีใครใช้หรือที่ควรตรวจสอบ ปิดใช้งาน ปลดล็อก หรือส่งออกบัญชีเหล่านั้น.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ล็อกการตรวจสอบผู้ใช้</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ใครเปลี่ยนแปลง เข้าสู่ระบบ หรือถูกปฏิเสธ แยกตามบัญชี; กรองและส่งออกได้.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>รายงานการเข้าสู่ระบบ</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ใครเข้าสู่ระบบอยู่ จำนวนการเข้าสู่ระบบและความล้มเหลวต่อวัน และการให้ผู้ใช้ออกจากระบบทุกที่.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n ชั่วโมงที่แล้ว</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>คำตอบของคิวรีที่จัดเก็บไว้ของ GraphQL API และคลาสเนื้อหาของสคีมา</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>เผยแพร่สำเนาแบบคงที่ไปยัง GitHub Pages หรือโฮสต์ git ใดก็ได้</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>การเผยแพร่แบบคงที่</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>แคชแบบคงที่ให้บริการหน้าจากเซิร์ฟเวอร์นี้ หากต้องการเผยแพร่สำเนาแบบคงที่ของไซต์ไว้ที่อื่น บน GitHub Pages หรือโฮสต์ git ใดก็ได้ ให้ใช้การเผยแพร่แบบคงที่</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>การล้างครั้งล่าสุด</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>การเขียนไม่สามารถรับล็อกสถานะได้ (ครั้งล่าสุด %date): แต่ละครั้งทำให้ผลลัพธ์ที่แคชไว้ทั้งหมดล้าสมัย %file ต้องเขียนได้โดยผู้ใช้ทุกคนที่ไซต์ทำงานในนาม บน NFS ต้องใช้ NFSv4 หรือ lockd</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>เซสชันที่หมดเวลาของตัวจัดการ PHP จะถูกนำออกโดย PHP เอง (session.gc_maxlifetime) ไม่ใช่โดยหน้านี้หรือส่วน session_gc ของงาน cron.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>เซสชันที่เข้าสู่ระบบอยู่ของผู้ใช้ทุกคนแสดงอยู่ในรายงานการเข้าสู่ระบบ และสามารถออกจากระบบได้จากที่นั่น รายงานนี้ทำงานกับตัวจัดการเซสชันทุกแบบ.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>เปิดรายงานการเข้าสู่ระบบ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>ยังไม่มี</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>กิจกรรมด้านความปลอดภัย</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>การเข้าสู่ระบบล่าสุด ความพยายามที่ล้มเหลว และการเปลี่ยนแปลงรหัสผ่าน ที่อยู่อีเมล และการเข้าสู่ระบบแบบสองขั้นตอนของคุณ.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>การเข้าสู่ระบบล่าสุด ความพยายามที่ล้มเหลว และการเปลี่ยนแปลงด้านความปลอดภัยของบัญชีนี้.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>ตรวจดูกิจกรรม</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>เข้าสู่ระบบล้มเหลว %count ครั้ง</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>หลังจากเข้าสู่ระบบ ผู้ใช้ต้องเลือกรหัสผ่านใหม่ก่อนทำสิ่งอื่นใด. ใช้ตัวเลือกนี้เมื่อคุณให้รหัสผ่านชั่วคราวแก่ผู้อื่น.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>เลือกรูปภาพที่มีอยู่</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>ไฟล์รูปภาพของออบเจ็กต์ที่คุณเลือกจะถูกคัดลอกไปยังฟิลด์นี้ ออบเจ็กต์อื่นจะไม่เปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>คัดลอกรูปภาพของ “%name” ไปยังฟิลด์นี้แล้ว</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>เรียกดูรูปภาพ</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>ค้นหารูปภาพตามชื่อ</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ค้นหา</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>ใช้รูปภาพของ “%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ใช้รูปภาพนี้</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ไม่มีรูปภาพที่ตรงกับการค้นหาของคุณ</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>ไม่ได้เขียน crontab (%reason). เพิ่มบรรทัดเหล่านี้ลงใน crontab ของผู้ใช้ที่ไซต์ทำงานอยู่ มิฉะนั้นคิว การนำเข้า การแจ้งเตือน และดัชนีการค้นหาจะไม่ทำงานเลย:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>การติดตั้งใหม่ทำได้ด้วย Kickstarter (%file แล้วเรียกใช้ php bin/php/kickstarter.php run --apply) หรือด้วยการติดตั้งใหม่ทั้งหมด.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>แคชตัวรวมไฟล์สาธารณะของ eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>แคช GraphQL (คำตอบและคลาสของสคีมา)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>สำเนาของ %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ชนิดข้อมูล</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ชนิดข้อมูล %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>ไม่สามารถอ่านรูปภาพ SVG ได้ หรือไม่มีส่วนใดในรูปภาพที่แสดงได้อย่างปลอดภัย.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>ไม่สามารถคัดลอกรูปภาพได้ โปรดลองอีกครั้งหรือติดต่อผู้ดูแลเว็บไซต์</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>ออบเจ็กต์ที่เลือกไม่มีอยู่ หรือคุณไม่มีสิทธิ์อ่าน</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>ออบเจ็กต์ที่เลือกไม่มีรูปภาพ</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>ไม่สามารถอ่านไฟล์รูปภาพของออบเจ็กต์ที่เลือกได้</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>รูปภาพของออบเจ็กต์ที่เลือกมีขนาดใหญ่เกินกว่าที่ฟิลด์นี้อนุญาต: %1 ไบต์</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>เปลี่ยนชื่อบุ๊กมาร์กเป็น "%name" แล้ว.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>หน้านี้ถูกปิดใช้งานในการเข้าถึงไซต์นี้ (%siteaccess) กรุณาเปิดบุ๊กมาร์กในการเข้าถึงไซต์ที่มีหน้านี้</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>โมดูลของหน้านี้ไม่ได้ติดตั้งหรือไม่ได้เปิดใช้งานที่นี่</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>หน้านี้ไม่มีอยู่แล้ว: โมดูลของหน้านี้ไม่มีมุมมองดังกล่าว</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>ไม่มีบทบาทใดของคุณที่อนุญาตให้คุณเปิดหน้านี้</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>คุณไม่มีสิทธิ์ใช้การเข้าถึงไซต์นี้</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>คุณไม่มีสิทธิ์อ่านเนื้อหาที่หน้านี้แสดง</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ไม่สามารถบุ๊กมาร์กหน้าประเภทนี้ได้: หน้านี้ทำงานกับฟอร์มเท่านั้น หรือเป็นหน้าที่ใช้ได้เพียงชั่วขณะ</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>ไม่มีที่อยู่ของหน้านี้</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ไม่สามารถเปิดหน้านี้ได้ในขณะนี้</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>ระบบส่งอีเมลปฏิเสธข้อความ %count รายการในการเรียกใช้ครั้งล่าสุด. กรุณาตรวจสอบเซิร์ฟเวอร์อีเมลและ site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>มี %count เหตุการณ์ที่รออยู่ และไม่มีการบันทึกการทำงานของงาน cron การแจ้งเตือน. กรุณาเพิ่มส่วนของงาน cron &quot;frequent&quot; ลงใน crontab หรือเรียกใช้ exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>เลือกไซต์หรือส่วนอื่นด้วยตัวเลือกโหนด</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>มีเพียงผู้ดูแลระบบเท่านั้นที่เปลี่ยนเจ้าของได้: กรุณาเรียกใช้ ./console exp:content-check --fix-permissions --apply ในฐานะ root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>ว่างเปล่า</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>คีย์สำหรับลงนามมีอายุเกินหนึ่งปีแล้ว: กรุณาหมุนเวียนคีย์ด้วย exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>สัดส่วนของเวลาหน้า</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>มีการขอให้เรนเดอร์ทั้งหน้า</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>แคชหน้าไม่มีหน้านี้ (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>แคชหน้าไม่ตอบสนอง</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>เรนเดอร์แล้ว</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>เรนเดอร์โดยเคอร์เนล: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>ส่งจากแคชหน้าใน %ms ms. หน้านี้ถูกจัดเก็บเมื่อ %stored โดยการเรนเดอร์ที่ใช้เวลา %render ms เมื่อ %age วินาทีที่แล้ว.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>เรนเดอร์ตอนนี้</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>กลับไปยังมุมมองจากแคช</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>จากการเรนเดอร์เมื่อ %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>คำขอนี้: ส่งจากแคชหน้าใน %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ผู้ใช้</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID ผู้ใช้</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>โปรไฟล์แคช</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>มุมมองนี้</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>แคชมุมมอง</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ต่อผู้ใช้ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>โปรไฟล์แคชของผู้ใช้: ผู้ใช้ที่มีโปรไฟล์เดียวกันใช้ไฟล์แคชมุมมองร่วมกัน</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ใช่</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ไม่ใช่</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ชื่อเข้าสู่ระบบ</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>เข้าสู่ระบบแล้ว</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>เซสชัน</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>ส่วนของคีย์แคชมุมมองเนื้อหาที่ขึ้นอยู่กับผู้ใช้ ตรงตามที่คีย์ใช้ ภายใต้ ViewCacheTweaks ของหน้านี้ ผู้ใช้ที่มีโปรไฟล์เดียวกันใช้ไฟล์แคชของมุมมองร่วมกัน เว้นแต่ส่วนของมุมมองเองจะต่างกัน (การตั้งค่าส่วนตัว, คีย์ของลิสเทนเนอร์): มุมมองเหล่านั้นมีโปรไฟล์ของตัวเอง สำหรับหน้านี้เท่านั้น</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>โปรไฟล์</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>มุมมองนี้ (โหนด %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: ผู้ใช้ที่เข้าสู่ระบบแต่ละคนมีไฟล์แคชของตัวเอง</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks ที่มีผล: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>ส่วน</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ค่า</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ไม่มีส่วนใดขึ้นอยู่กับผู้ใช้ (ViewCacheTweaks)</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>มุมมองนี้</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>คัดลอกเป็นข้อความ</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>บทบาท</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>ไม่สามารถอ่านการกำหนดบทบาทได้</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>รหัสบทบาท</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>บทบาท</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>ข้อจำกัด</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>กำหนดให้</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ผู้ใช้</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>กลุ่ม %name (ออบเจ็กต์ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>คัดลอกแล้ว</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>คัดลอกไม่ได้</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ถูกละไว้โดยลิสเทนเนอร์</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>ผู้เยี่ยมชมนิรนาม</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>เหมือนของคุณ</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>แตกต่าง</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>โปรไฟล์ที่ผู้เยี่ยมชมนิรนามได้รับภายใต้ ViewCacheTweaks เดียวกัน พร้อมการตั้งค่าส่วนตัวเริ่มต้น ไม่รวมส่วนของมุมมอง: ไม่สามารถถามลิสเทนเนอร์ที่อ่านเซสชันเกี่ยวกับส่วนเหล่านั้นได้</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>การตั้งค่าส่วนตัว</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ไม่มีโหมดมุมมองใดขึ้นอยู่กับการตั้งค่าส่วนตัวของผู้ใช้ (site.ini [ContentSettings] CachedViewPreferences)</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>การตั้งค่าส่วนตัวที่มุมมองของโหมดมุมมองเหล่านี้ขึ้นอยู่ด้วย (CachedViewPreferences) พร้อมค่าของผู้ใช้หรือค่าเริ่มต้น ค่าเหล่านี้อยู่ในโปรไฟล์ในชื่อ userpreferences ของทุกโหมดมุมมองรวมกัน</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>โหมดมุมมอง</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>การตั้งค่า</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>ค่าเริ่มต้น</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>นโยบาย</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>แสดงนโยบายของบทบาท (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>นโยบายจะโหลดจากเซิร์ฟเวอร์เมื่อเปิดส่วนนี้ ทีละหน้า และกรองตามโมดูลและฟังก์ชันได้</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ฟังก์ชัน</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>ทุกโมดูล</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>ทุกฟังก์ชัน</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>ข้อจำกัด</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>แสดงเพิ่มเติม</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>บทบาทเหล่านี้ไม่มีนโยบาย</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>ไม่มีนโยบายที่ตรงกับตัวกรอง</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown จาก %matching นโยบาย (ทั้งหมด %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>โหลดเมื่อเปิด</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, บทบาท, ข้อจำกัด</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>ค้นหานโยบาย</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>โหลดเพิ่ม</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>โมดูล/ฟังก์ชัน</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>ทุกบทบาท (%count นโยบาย)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ไม่พบนโยบายที่ตรงกัน</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown จาก %matched นโยบาย</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>ไม่มีการตอบกลับ</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>ถูกปิดบัง</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>แสดงคำอธิบาย</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>ซ่อนคำอธิบาย</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>เปิด</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>เปิดทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>ปิดทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>คีย์หรือค่า</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>ค้นหาในเซสชัน</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ประเภท</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>อีก %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ซ้อนกันลึกเกินกว่าจะแสดงได้</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>ถูกตัด รวม %count อักขระ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>เริ่มเมื่อ</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>ชื่อคุกกี้</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID เซสชัน</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>ตัวจัดการ</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>พาธที่บันทึก</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>ค่าเริ่มต้นของ PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>อายุการใช้งาน (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>คุกกี้</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>อายุการใช้งาน %s วินาที</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>เซสชัน PHP ของคุณเอง ตามที่เป็นอยู่ตอนเปิดส่วนนี้ ไม่ใช่ของผู้อื่นเด็ดขาด ค่าของคีย์ที่ดูเหมือนความลับ (โทเค็น แฮช รหัสผ่าน) จะถูกปิดบัง (debugbar.ini SessionMask[]); ส่วนอื่นทั้งหมดจะแสดงตามที่จัดเก็บไว้ รวมถึงข้อมูลส่วนบุคคลด้วย</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count คีย์, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>ใหญ่</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>เซสชันว่างเปล่า</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>ไม่มีการเริ่มเซสชันสำหรับคำขอนี้</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ส่วนขยาย %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>เคอร์เนลและอื่นๆ</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>ไม่ได้แสดงทุกรายการ: เซสชันมีมากกว่าที่จะแสดงรายการได้ที่นี่</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>ไม่ได้แสดงรายการ %count คีย์</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>เฟรม</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ค่าที่ดูเหมือนโทเค็น (JSON Web Token, ข้อมูลรับรองของส่วนหัว Authorization, คีย์ส่วนตัว, ข้อความ hex หรือข้อความสุ่มที่ยาว) จะถูกปิดบังด้วย ไม่ว่าคีย์ของค่านั้นจะมีชื่อว่าอะไร (debugbar.ini SessionValueMask[])</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>คีย์ดูเหมือนความลับ (debugbar.ini SessionMask[])</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>ค่าดูเหมือนโทเค็น</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>อยู่ใต้คีย์ที่ถูกปิดบัง</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>เซสชันในรูปแบบข้อความ ปิดบังเหมือนตาราง</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>เซสชันใหญ่กว่า %size (debugbar.ini SessionWarnBytes): ทุกคำขอของผู้ใช้นี้จะอ่านเซสชันทั้งหมด และเขียนเมื่อมีการเปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP เก็บเซสชันนี้ไว้ในไฟล์และล็อกไฟล์ตลอดทั้งคำขอ: คำขอของผู้ใช้คนเดียวกัน (หลายแท็บ การเรียก AJAX) จะรอกันและกัน</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>เปิดค้างไว้</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>ใหญ่กว่า %size (debugbar.ini SessionWarnBytes): ทุกคำขอของผู้ใช้นี้จะอ่านเซสชันทั้งหมด</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits จาก %count อ่านจากแคช</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>ไม่มีการเรนเดอร์เทมเพลต (มุมมองที่อ่านจากแคชมุมมองจะไม่เรนเดอร์เทมเพลตใดเลย)</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>การกำหนดบทบาท</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>บทบาทและนโยบาย</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>แตกต่างจากผู้เยี่ยมชมที่ไม่ระบุชื่อ</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>เหมือนกับผู้เยี่ยมชมที่ไม่ระบุชื่อ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ไม่ได้ส่ง</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>งาน cron การแจ้งเตือนจะบันทึกการทำงานแต่ละครั้งไว้ที่นี่. กรุณาเพิ่มส่วน frequent ลงใน crontab หรือเรียกใช้ exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>ใช้คอนโซล: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>หัวข้อนี้ยังไม่ออกรุ่น ผู้อ่านจึงมองไม่เห็น.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ไมเกรชันของการติดตั้ง</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>การเปลี่ยนแปลงของการติดตั้งที่เก็บไว้เป็นไฟล์: สถานะ การเรียกใช้ เรียกใช้และย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>เผยแพร่สำเนาแบบคงที่ของไซต์ไปยัง GitHub Pages หรือโฮสต์ git ใดก็ได้</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>การเผยแพร่แบบคงที่</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>อยู่ระหว่างตรวจทาน</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>ผู้อ่านเห็นหน้านี้</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>ซ่อนจากผู้อ่านจนกว่าจะมีผู้ออกรุ่น</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>หน้านี้อยู่ในสถานะตรวจทานแล้ว ซ่อนจากผู้อ่านจนกว่าจะออกรุ่น</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>หน้านี้ออกรุ่นแล้ว: ผู้อ่านเห็นได้แล้วในขณะนี้</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>หน้านี้กลับเป็นฉบับร่างอีกครั้ง ซ่อนจากผู้อ่านจนกว่าจะผ่านการตรวจทานและออกรุ่น</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ออกรุ่นทันที</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>เฉพาะผู้ใช้ที่มีบทบาท %role และไม่ได้เขียนเวอร์ชันนี้เท่านั้นที่ออกรุ่นได้</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>หัวข้อวิธีใช้ที่รอออกรุ่น</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>ซ่อนจากผู้อ่านจนกว่าจะออกรุ่นอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>ผู้ตรวจทานจะตรวจสอบเป็นลำดับถัดไป ผู้อ่านยังไม่เห็น</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>ผู้อ่านเห็นได้ทันที</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>นำออกจากการตรวจทานเพื่อแก้ไขเพิ่มเติม ผู้อ่านไม่เห็น</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ซ่อนหน้านี้จากผู้อ่านหรือไม่?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ส่งหน้านี้กลับไปเป็นฉบับร่างหรือไม่?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>ผู้อ่านจะไม่เห็น %title อีกจนกว่าจะมีผู้ออกรุ่นอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title กลับไปเป็นฉบับร่างเพื่อแก้ไขเพิ่มเติม ผู้อ่านยังไม่เห็น และต้องผ่านการตรวจทานใหม่ก่อนออกรุ่น</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ยกเลิก</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>หัวข้อเหล่านี้อยู่ในสถานะตรวจทาน ผู้อ่านจะเห็นเมื่อมีผู้ที่ไม่ได้เขียนเวอร์ชันปัจจุบันออกรุ่น</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>ไม่มี.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ด้วยแอปยืนยันตัวตน</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ด้วยรหัสทางอีเมล</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ด้วยรหัสกู้คืน</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ด้วยพาสคีย์</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ด้วยบัญชีภายนอก</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>กิจกรรมด้านความปลอดภัย</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>แสดงเป็นเครือข่าย ที่อยู่จะถูกเก็บไว้ตามการตั้งค่าการปกป้องข้อมูลของไซต์.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ไม่ได้บันทึกไว้</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ตำแหน่งที่ตั้ง</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>โดยประมาณ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>จัดการอุปกรณ์</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ด้วยแอปยืนยันตัวตน</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ด้วยรหัสทางอีเมล</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ด้วยรหัสกู้คืน</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ด้วยพาสคีย์</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ด้วยบัญชีภายนอก</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>กิจกรรมด้านความปลอดภัย</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ไม่ได้บันทึกไว้</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ตำแหน่งที่ตั้ง</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>โดยประมาณ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>ดูเซสชันของผู้ใช้นี้</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>บัญชี %login ของคุณบน %site เพิ่งถูกใช้เข้าสู่ระบบจากสถานที่ที่ไม่ได้เข้าสู่ระบบมาระยะหนึ่งแล้ว:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>ตำแหน่งที่ตั้งโดยประมาณ</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser บน %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>รายงานการเข้าสู่ระบบ</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>ไม่สามารถตรวจสอบพาสคีย์ได้. กรุณาลองอีกครั้ง.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>บัญชีที่เข้าสู่ระบบด้วยพาสคีย์เท่านั้นจะใช้รหัสผ่านที่นี่ไม่ได้: ให้เลือก &quot;เข้าสู่ระบบด้วยพาสคีย์&quot;</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>พาสคีย์ของ %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>พาสคีย์ที่บัญชีนี้ใช้เข้าสู่ระบบ เพิกถอนพาสคีย์ที่อยู่บนอุปกรณ์ที่สูญหายหรือถูกขโมย: จะเข้าสู่ระบบด้วยพาสคีย์นั้นไม่ได้อีก เจ้าของเป็นผู้เพิ่มพาสคีย์ใหม่เอง</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>บัญชีของคุณต้องมีพาสคีย์</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>เพิ่มพาสคีย์ให้บัญชีของคุณ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>เพิ่มพาสคีย์เพื่อดำเนินการต่อ จากนั้นคุณจะเข้าสู่ระบบด้วยพาสคีย์แทนการใช้รหัสผ่านเพียงอย่างเดียว</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>การเข้าสู่ระบบด้วยพาสคีย์เร็วกว่าและปลอดภัยกว่ารหัสผ่าน เพิ่มตอนนี้ หรือดำเนินการต่อโดยไม่มีพาสคีย์</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ไม่ใช่ตอนนี้</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>เพิกถอนพาสคีย์ &quot;%name&quot; หรือไม่</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>จะเข้าสู่ระบบบัญชีนี้ด้วยพาสคีย์นี้ไม่ได้อีก หากเป็นพาสคีย์สุดท้าย เจ้าของจะเข้าสู่ระบบด้วยรหัสผ่าน หรือคุณตั้งรหัสผ่านใหม่</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>เพิกถอนพาสคีย์</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>เพิกถอน</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>บัญชีนี้ไม่มีพาสคีย์</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>ตัวยืนยันตัวตน</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>ไม่ทราบ</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>พาสคีย์สุดท้ายของคุณ: เพิ่มอีกอันก่อนนำพาสคีย์นี้ออก</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>บัญชีนี้เข้าสู่ระบบด้วยพาสคีย์เท่านั้น (นโยบายพาสคีย์): เมื่อไม่เหลือพาสคีย์ บัญชีจะกลับไปเข้าสู่ระบบด้วยรหัสผ่าน</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>นี่คือพาสคีย์สุดท้ายของคุณ และบัญชีของคุณเข้าสู่ระบบไม่ได้หากไม่มีพาสคีย์ เพิ่มพาสคีย์อีกอันก่อน</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>เพิกถอนพาสคีย์ &quot;%name&quot; แล้ว จะเข้าสู่ระบบบัญชีนี้ด้วยพาสคีย์นี้ไม่ได้อีก</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>รหัสจากแอปยืนยันตัวตนของคุณ</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>คุณกำลังจะลบข้อมูลอย่างถาวรหรือล้างบันทึก</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>รหัสผ่านของคุณและพาสคีย์</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>รหัสผ่านของคุณและรหัสจากแอปยืนยันตัวตนของคุณ</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>หรือ:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>เบราว์เซอร์นี้ใช้พาสคีย์ไม่ได้ ใช้วิธีอื่นหรือเบราว์เซอร์อื่น</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>เมื่อคุณดำเนินการต่อ เบราว์เซอร์จะขอพาสคีย์หนึ่งในของคุณ</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>ดำเนินการต่อด้วยพาสคีย์</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>ตั้งค่าระบบ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>การเปลี่ยนรหัสผ่าน ที่อยู่อีเมล พาสคีย์ การเข้าสู่ระบบแบบสองขั้นตอน รหัสกู้คืน หรือคีย์ API ของตนเอง และการออกจากระบบบนอุปกรณ์อื่นของตนเอง</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>การสร้างและแก้ไขผู้ใช้ รหัสผ่านและอุปกรณ์ของผู้ใช้ การตั้งค่าบัญชี การอนุมัติหรือปฏิเสธบัญชีผู้ใช้ใหม่ การกำหนดบทบาท และการแก้ไขนโยบาย</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>การลบข้อมูล</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>การล้างถังขยะ การนำรายการออกจากถังขยะ และการนำหลายรายการออกพร้อมกัน</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>การนำออก การเผยแพร่ และการบันทึกเนื้อหา</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>การนำเนื้อหาออก (รวมถึงไปยังถังขยะ) การเผยแพร่ และการบันทึกฉบับร่าง ถามเมื่อส่งแบบฟอร์ม ปิดอยู่โดยค่าเริ่มต้น</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>ก่อนการดำเนินการที่สำคัญ ผู้ใช้ที่เข้าสู่ระบบแล้วจะยืนยันตัวตนอีกครั้ง: ด้วยรหัสผ่านและพาสคีย์ หรือหากไม่มีพาสคีย์ ด้วยรหัสผ่านและรหัสจากแอปยืนยันตัวตน มีเพียงหน้าเว็บที่ถาม: อินเทอร์เฟซ REST, SOAP, WebDAV, การเข้าสู่ระบบ expservices และบรรทัดคำสั่งจะไม่ถามเลย</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>ตำแหน่งที่การตั้งค่ามีผล</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>การตั้งค่าสำหรับ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ทุกการเข้าถึงไซต์</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>การเข้าถึงไซต์ %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>เปิด</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>ผู้ที่ถูกถาม: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>ทำเครื่องหมายกลุ่มผู้ใช้เพื่อถามเฉพาะสมาชิกของกลุ่ม (เช่น บรรณาธิการ) ไม่ทำเครื่องหมาย: ผู้ใช้ทุกคน</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>บันทึกไว้ใน settings/override/site.ini.append.php สำหรับทุกการเข้าถึงไซต์ การบันทึกจะขอให้คุณยืนยันว่าเป็นคุณ</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>บันทึกไว้ใน settings/siteaccess/%name/site.ini.append.php ค่าใน settings/override มีความสำคัญเหนือกว่า การบันทึกจะขอให้คุณยืนยันว่าเป็นคุณ</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>เปิดหน้า</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ถึง %to จาก %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>ชื่อเข้าสู่ระบบหรือ ID ผู้ใช้: บัญชีที่เหตุการณ์เกี่ยวข้อง หรือผู้ใช้ที่ดำเนินการ.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>บัญชี</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>การดำเนินการ</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>หลัง</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>ทุกผลลัพธ์</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ก่อน</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>โดย</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>ล้าง</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>สำเร็จ</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>เหตุการณ์จะถูกเก็บไว้ %days วัน.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>เหตุการณ์จะถูกเก็บไว้จนกว่าจะถูกนำออกด้วยตนเอง.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>เหตุการณ์</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>ทุกการดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>เหตุการณ์ทั้งหมดของบัญชีนี้</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>ส่งออกรายการเป็น CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>จาก</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>กรองรายการ</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>ไม่มีเหตุการณ์ที่ตรงกัน.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ต่อหน้า</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>การบันทึกถูกปิดใน audit.ini ([UserAuditSettings] UserAudit); รายการแสดงสิ่งที่บันทึกไว้ก่อนหน้านี้.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ถูกปฏิเสธ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ผลลัพธ์</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>แสดง</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>ไม่มีตารางของล็อกการตรวจสอบผู้ใช้. สร้างตารางด้วย php update/common/scripts/6.0/createuseraudittable.php; ระหว่างนี้ไฟล์การตรวจสอบจะเก็บทุกเหตุการณ์ไว้.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>หน้านี้ต้องใช้ฐานข้อมูล SQL; ไม่สามารถใช้งานบน MongoDB ได้. ไฟล์การตรวจสอบจะเก็บทุกเหตุการณ์ไว้.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ถึง</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ล็อกการตรวจสอบผู้ใช้</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ผู้ใช้</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>เมื่อ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ที่ไหน</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ใครเปลี่ยนแปลง สร้าง เปิดใช้งาน ปิดใช้งาน ย้าย หรือนำบัญชีใดออก ใครเข้าสู่ระบบหรือถูกปฏิเสธ และมีการกำหนดบทบาทใดบ้าง: หนึ่งบรรทัดต่อหนึ่งเหตุการณ์ พร้อมฟิลด์ก่อนและหลังการเปลี่ยนแปลง. รหัสผ่านและข้อมูลลับจะไม่ถูกบันทึกเลย.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>กลุ่ม</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>ระบบ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ไม่ทราบ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>ปกป้องบัญชีของคุณ</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>มีการใช้รหัสกู้คืนเพื่อเข้าสู่ระบบบัญชี %login ของคุณบน %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>มีการใช้รหัสกู้คืน</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>บัญชี</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>ที่อยู่โดยประมาณ</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>กรุณาขอรหัสผ่านใหม่เพื่อเข้าสู่ระบบอีกครั้ง หรือติดต่อผู้ดูแลไซต์.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>ขอรหัสผ่านใหม่</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>รหัสกู้คืนแต่ละรหัสใช้ได้เพียงครั้งเดียว. หากคุณทำโทรศัพท์หาย กรุณาตั้งค่าแอปยืนยันตัวตนใหม่ และเก็บรหัสกู้คืนชุดใหม่ไว้ในที่ปลอดภัย.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>มีความพยายามเข้าสู่ระบบบัญชีของคุณที่ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>ตั้งแต่นี้ไป การเข้าสู่ระบบจะขอรหัสเพิ่มเติมจากรหัสผ่านของคุณ. หากคุณเป็นผู้ดำเนินการเอง คุณไม่ต้องทำอะไร.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>หากเป็นคุณและคุณลืมรหัสผ่าน กรุณาขอรหัสผ่านใหม่. หากไม่ใช่ กรุณาเลือกรหัสผ่านที่รัดกุมกว่าเดิมและเปิดการเข้าสู่ระบบแบบสองขั้นตอน.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>หากไม่ใช่คุณ อาจมีคนรู้รหัสผ่านของคุณ: กรุณาเปลี่ยนรหัสผ่านทันทีและตรวจสอบว่าบัญชีของคุณเข้าสู่ระบบอยู่ที่ใดบ้าง.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>รหัสกู้คืนที่เหลือ</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>ตรวจดูอุปกรณ์ของคุณ</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>การแจ้งเตือนด้านความปลอดภัย</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>มีผู้พยายามเข้าสู่ระบบบัญชี %login ของคุณบน %site ด้วยรหัสผ่านที่ไม่ถูกต้อง %count ครั้งติดต่อกัน.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>เกิดเหตุการณ์ด้านความปลอดภัยกับบัญชี %login ของคุณบน %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>นี่คือการแจ้งเตือนด้านความปลอดภัยเกี่ยวกับบัญชีของคุณ. จะส่งทุกครั้งที่มีการเปลี่ยนแปลงลักษณะนี้และไม่สามารถปิดได้.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>เวลา</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>ปิดการเข้าสู่ระบบแบบสองขั้นตอนสำหรับบัญชี %login ของคุณบน %site แล้ว.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>ปิดการเข้าสู่ระบบแบบสองขั้นตอนแล้ว</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>เปิดการเข้าสู่ระบบแบบสองขั้นตอนสำหรับบัญชี %login ของคุณบน %site แล้ว.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>เปิดการเข้าสู่ระบบแบบสองขั้นตอนแล้ว</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>บัญชี %login ของคุณบน %site ถูกล็อกหลังจากเข้าสู่ระบบล้มเหลวหลายครั้งเกินไป.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>ขณะนี้บัญชีของคุณได้รับการปกป้องด้วยรหัสผ่านเพียงอย่างเดียว. หากคุณไม่ได้ดำเนินการนี้ กรุณาเปิดการเข้าสู่ระบบแบบสองขั้นตอนอีกครั้งหลังจากเปลี่ยนรหัสผ่านแล้ว.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>บัญชีของคุณถูกล็อก</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>มีการเพิ่มพาสคีย์ในบัญชี %login ของคุณบน %site</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>ใครก็ตามที่มีพาสคีย์นี้สามารถเข้าสู่ระบบบัญชีของคุณได้โดยไม่ต้องใช้รหัสผ่าน หากคุณไม่ได้เพิ่มพาสคีย์นี้ ให้นำออกในส่วนพาสคีย์และเปลี่ยนรหัสผ่านของคุณ</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>มีการนำพาสคีย์ออกจากบัญชี %login ของคุณบน %site</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>จะเข้าสู่ระบบบัญชีของคุณด้วยพาสคีย์นี้ไม่ได้อีก หากคุณไม่ได้นำออกเอง ให้ตรวจสอบพาสคีย์และอุปกรณ์ของคุณ</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>มีการเพิ่มพาสคีย์ในบัญชีของคุณ</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>มีการนำพาสคีย์ออกจากบัญชีของคุณ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>กิจกรรมด้านความปลอดภัย</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>กิจกรรมด้านความปลอดภัยของ %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>เข้าสู่ระบบแล้ว</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ความพยายามเข้าสู่ระบบที่ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ออกจากระบบแล้ว</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ออกจากระบบเซสชันแล้ว</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>เข้าสู่ระบบจากอุปกรณ์ใหม่</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>เข้าสู่ระบบจากตำแหน่งที่ตั้งใหม่</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ยืนยันตัวตนแล้ว (&quot;ยืนยันว่าเป็นคุณ&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>การตรวจสอบตัวตนล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>เข้าสู่ระบบด้วยพาสคีย์แล้ว</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>การเข้าสู่ระบบด้วยพาสคีย์ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ปฏิเสธการเข้าสู่ระบบ: ไม่มีรหัสสองขั้นตอนหรือรหัสไม่ถูกต้อง</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>รหัสสองขั้นตอนไม่ถูกต้อง</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>บัญชีถูกล็อกหลังจากเข้าสู่ระบบล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ปลดล็อกบัญชีแล้ว</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>เปลี่ยนรหัสผ่านแล้ว</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>การเปลี่ยนรหัสผ่านล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>รีเซ็ตรหัสผ่านแล้ว</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ขอรหัสผ่านใหม่แล้ว</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>เปลี่ยนที่อยู่อีเมลแล้ว</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>เปลี่ยนชื่อผู้ใช้แล้ว</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>เปิดการเข้าสู่ระบบแบบสองขั้นตอนแล้ว</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ปิดการเข้าสู่ระบบแบบสองขั้นตอนแล้ว</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ใช้รหัสกู้คืนแล้ว</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>รหัสกู้คืนชุดใหม่</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>สร้างรหัสผ่านแอปแล้ว</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>เพิกถอนรหัสผ่านแอปแล้ว</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>เพิ่มพาสคีย์แล้ว</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>นำพาสคีย์ออกแล้ว</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>เปิดใช้งานบัญชีแล้ว</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ปิดใช้งานบัญชีแล้ว</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>การเข้าสู่ระบบและเซสชัน</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>การเปลี่ยนแปลงบัญชี</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ต้องให้ความสนใจ</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>โดยคุณ</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>โดยผู้ใช้</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>โดย %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>วิธีการ</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>เบราว์เซอร์</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>ระบบปฏิบัติการ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>อุปกรณ์</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>สถานที่</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>ประเทศ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>เซสชัน</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>รายการใด</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>ช่องทาง</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ความพยายามที่ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>รหัสที่เหลือ</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>ตัวจัดการการเข้าสู่ระบบ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>กิจกรรมด้านความปลอดภัย</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>กิจกรรมด้านความปลอดภัยของ %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>การเข้าสู่ระบบและการเปลี่ยนแปลงด้านความปลอดภัยของบัญชีของคุณ. หากคุณเห็นสิ่งที่คุณไม่ได้ทำ กรุณาเปลี่ยนรหัสผ่านและออกจากระบบอุปกรณ์ที่คุณไม่รู้จัก.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>การเข้าสู่ระบบและการเปลี่ยนแปลงด้านความปลอดภัยของบัญชีนี้.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>อุปกรณ์ของคุณ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>เปลี่ยนรหัสผ่าน</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>กลับไปที่บัญชี</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>ไม่มีการบันทึกกิจกรรมด้านความปลอดภัย</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>กิจกรรมนี้อ่านจากล็อกการตรวจสอบผู้ใช้ ซึ่งตาราง expuser_audit ของล็อกนั้นไม่มีอยู่หรือไม่รองรับในฐานข้อมูลนี้. กรุณาเรียกใช้ php update/common/scripts/6.0/createuseraudittable.php หรือการอัปเดตฐานข้อมูลของ 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days วันที่ผ่านมา</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>การเข้าสู่ระบบใน %days วันที่ผ่านมา</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>กิจกรรมด้านความปลอดภัยล่าสุด</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>แสดง</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ถูกปฏิเสธ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ยังไม่มีการบันทึกกิจกรรมด้านความปลอดภัย.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>เหตุการณ์ด้านความปลอดภัยจะเก็บไว้ %days วัน.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>เหตุการณ์ด้านความปลอดภัยจะเก็บไว้จนกว่าผู้ดูแลระบบจะนำออก.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ดาวน์โหลดข้อมูลการเข้าสู่ระบบของฉัน</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>เซสชันและเหตุการณ์ด้านความปลอดภัยของคุณในรูปแบบไฟล์ JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>เว็บไซต์นี้ไม่ได้บันทึกเซสชัน จึงไม่สามารถนำอุปกรณ์อื่นออกจากระบบได้ เปลี่ยนรหัสผ่านของคุณตอนนี้เลย</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>ออกจากระบบเซสชันอื่นแล้ว %count เซสชัน ตอนนี้เปลี่ยนรหัสผ่านของคุณ</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ไม่มีอุปกรณ์อื่นที่ลงชื่อเข้าใช้อยู่ ตอนนี้เปลี่ยนรหัสผ่านของคุณ</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ขอบคุณ เหตุการณ์นี้ถูกทำเครื่องหมายว่าเป็นของคุณแล้ว</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>เหตุการณ์นั้นไม่จำเป็นต้องตอบ</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>หน้าหมดอายุแล้ว. ไม่มีการเปลี่ยนแปลงใด กรุณาลองอีกครั้ง.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ปกป้องบัญชีของคุณ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>หากมีสิ่งใดที่นี่ที่ไม่ใช่คุณ ให้ออกจากระบบอุปกรณ์อื่นทั้งหมด แล้วเลือกรหัสผ่านใหม่ อุปกรณ์ที่ยังคงลงชื่อเข้าใช้ด้วย จดจำฉัน จะถูกออกจากระบบด้วย</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>อุปกรณ์ทุกเครื่องยกเว้นเครื่องนี้จะถูกออกจากระบบเมื่อมีคำขอครั้งถัดไป จากนั้นคุณเลือกรหัสผ่านใหม่</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ใช่ ออกจากระบบอุปกรณ์อื่น</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>นี่คือคุณหรือไม่?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ใช่ นั่นคือฉัน</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ไม่ ปกป้องบัญชีของฉัน</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>เข้าสู่ระบบแล้ว</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ความพยายามเข้าสู่ระบบที่ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ออกจากระบบแล้ว</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ออกจากระบบเซสชันแล้ว</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>เข้าสู่ระบบจากอุปกรณ์ใหม่</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>เข้าสู่ระบบจากตำแหน่งที่ตั้งใหม่</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ยืนยันตัวตนแล้ว (&quot;ยืนยันว่าเป็นคุณ&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>การตรวจสอบตัวตนล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>เข้าสู่ระบบด้วยพาสคีย์แล้ว</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>การเข้าสู่ระบบด้วยพาสคีย์ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ปฏิเสธการเข้าสู่ระบบ: ไม่มีรหัสสองขั้นตอนหรือรหัสไม่ถูกต้อง</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>รหัสสองขั้นตอนไม่ถูกต้อง</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>บัญชีถูกล็อกหลังจากเข้าสู่ระบบล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ปลดล็อกบัญชีแล้ว</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>เปลี่ยนรหัสผ่านแล้ว</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>การเปลี่ยนรหัสผ่านล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>รีเซ็ตรหัสผ่านแล้ว</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ขอรหัสผ่านใหม่แล้ว</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>เปลี่ยนที่อยู่อีเมลแล้ว</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>เปลี่ยนชื่อผู้ใช้แล้ว</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>เปิดการเข้าสู่ระบบแบบสองขั้นตอนแล้ว</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ปิดการเข้าสู่ระบบแบบสองขั้นตอนแล้ว</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ใช้รหัสกู้คืนแล้ว</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>รหัสกู้คืนชุดใหม่</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>สร้างรหัสผ่านแอปแล้ว</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>เพิกถอนรหัสผ่านแอปแล้ว</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>เพิ่มพาสคีย์แล้ว</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>นำพาสคีย์ออกแล้ว</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>เปิดใช้งานบัญชีแล้ว</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ปิดใช้งานบัญชีแล้ว</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>การเข้าสู่ระบบและเซสชัน</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>การเปลี่ยนแปลงบัญชี</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ต้องให้ความสนใจ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>กิจกรรมด้านความปลอดภัย</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>กิจกรรมด้านความปลอดภัยของ %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>การเข้าสู่ระบบและการเปลี่ยนแปลงด้านความปลอดภัยของบัญชีของคุณ. หากคุณเห็นสิ่งที่คุณไม่ได้ทำ กรุณาเปลี่ยนรหัสผ่านและออกจากระบบอุปกรณ์ที่คุณไม่รู้จัก.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>อุปกรณ์ของคุณ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>เปลี่ยนรหัสผ่าน</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>ไซต์นี้ยังไม่มีการบันทึกกิจกรรมด้านความปลอดภัย.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>การเข้าสู่ระบบใน %days วันที่ผ่านมา</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ความพยายามที่ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ยังไม่มีการบันทึกกิจกรรมด้านความปลอดภัย.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ดาวน์โหลดข้อมูลการเข้าสู่ระบบของฉัน</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>เซสชันและเหตุการณ์ด้านความปลอดภัยของคุณในรูปแบบไฟล์ JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>เว็บไซต์นี้ไม่ได้บันทึกเซสชัน จึงไม่สามารถนำอุปกรณ์อื่นออกจากระบบได้ เปลี่ยนรหัสผ่านของคุณตอนนี้เลย</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>ออกจากระบบเซสชันอื่นแล้ว %count เซสชัน ตอนนี้เปลี่ยนรหัสผ่านของคุณ</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ไม่มีอุปกรณ์อื่นที่ลงชื่อเข้าใช้อยู่ ตอนนี้เปลี่ยนรหัสผ่านของคุณ</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ขอบคุณ เหตุการณ์นี้ถูกทำเครื่องหมายว่าเป็นของคุณแล้ว</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>เหตุการณ์นั้นไม่จำเป็นต้องตอบ</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>หน้าหมดอายุแล้ว. ไม่มีการเปลี่ยนแปลงใด กรุณาลองอีกครั้ง.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ปกป้องบัญชีของคุณ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>หากมีสิ่งใดที่นี่ที่ไม่ใช่คุณ ให้ออกจากระบบอุปกรณ์อื่นทั้งหมด แล้วเลือกรหัสผ่านใหม่ อุปกรณ์ที่ยังคงลงชื่อเข้าใช้ด้วย จดจำฉัน จะถูกออกจากระบบด้วย</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>อุปกรณ์ทุกเครื่องยกเว้นเครื่องนี้จะถูกออกจากระบบเมื่อมีคำขอครั้งถัดไป จากนั้นคุณเลือกรหัสผ่านใหม่</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ใช่ ออกจากระบบอุปกรณ์อื่น</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>นี่คือคุณหรือไม่?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ใช่ นั่นคือฉัน</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ไม่ ปกป้องบัญชีของฉัน</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>รหัสผ่าน</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>รหัสผ่านและรหัสสองขั้นตอน</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>อินเทอร์เฟซ REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>อินเทอร์เฟซ SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>การเข้าสู่ระบบครั้งเดียว (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>เข้าสู่ระบบก่อนเริ่มบันทึกเซสชัน</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>รายงานการเข้าสู่ระบบ</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>ใครเข้าสู่ระบบไซต์อยู่ บัญชีเข้าสู่ระบบและล้มเหลวบ่อยเพียงใด และการให้ผู้ใช้ออกจากระบบทุกที่. ทำงานกับตัวจัดการเซสชันทุกแบบ.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>ออกจากระบบเซสชันแล้ว. อุปกรณ์ต้องเข้าสู่ระบบอีกครั้ง.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ถูกออกจากระบบจาก %count เซสชัน.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login ไม่มีเซสชันที่กำลังทำงานอยู่.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ไม่มีบัญชีที่มี ID ชื่อผู้ใช้ หรือที่อยู่อีเมลนั้น.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>นี่คือเซสชันที่คุณกำลังใช้อยู่. หากต้องการสิ้นสุดเซสชัน กรุณาออกจากระบบ.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>เซสชันนั้นสิ้นสุดไปแล้ว.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>หน้านี้หมดอายุแล้ว. ไม่มีการเปลี่ยนแปลงใด กรุณาลองอีกครั้ง.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>ไซต์นี้ไม่บันทึกเซสชัน (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>ไม่มีตาราง expuser_session</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>เซสชันจะถูกบันทึกเมื่อสร้างตารางแล้ว: php update/common/scripts/6.0/createusersessiontable.php หรือการอัปเดตฐานข้อมูลของ 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>ขณะนี้และวันนี้</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>เซสชันที่กำลังทำงาน</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>ผู้ใช้ที่เข้าสู่ระบบอยู่</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>การเข้าสู่ระบบวันนี้</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>ความพยายามที่ล้มเหลววันนี้</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ให้ผู้ใช้ออกจากระบบทุกที่</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>ทุกเซสชันของบัญชีจะสิ้นสุดเมื่อมีคำขอครั้งถัดไป รวมถึงเซสชันที่คงไว้ด้วย &quot;จดจำฉัน&quot;. ใช้เมื่อบัญชีอาจตกอยู่ในมือผู้อื่น จากนั้นรีเซ็ตรหัสผ่านของบัญชี.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID ผู้ใช้ ชื่อผู้ใช้ หรือที่อยู่อีเมล</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>ออกจากระบบทุกที่</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>เข้าสู่ระบบอยู่ขณะนี้</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>แสดง %limit รายการที่ใช้ล่าสุด.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ผู้ใช้</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>อุปกรณ์</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>เข้าสู่ระบบแล้ว</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>ใช้งานล่าสุด</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>การดำเนินการ</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>อุปกรณ์นี้</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ไม่ได้บันทึกไว้</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>ออกจากระบบ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ไม่มีเซสชันที่เข้าสู่ระบบอยู่.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days วันที่ผ่านมา</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>การเข้าสู่ระบบและความพยายามที่ล้มเหลวนับจากล็อกการตรวจสอบผู้ใช้ ซึ่งไม่มีอยู่ ส่วนเซสชันใหม่ยังคงนับได้.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>วัน</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>การเข้าสู่ระบบ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ความพยายามที่ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>เซสชันใหม่</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>ตัวจัดการเซสชัน: %handler. เซสชันอ่านจากตาราง expuser_session ดังนั้นรายงานจึงทำงานกับตัวจัดการทุกแบบ.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>กิจกรรมที่น่าสงสัยใน %hours ชั่วโมงที่ผ่านมา</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>เครือข่ายหนึ่งลงชื่อเข้าใช้ %accounts บัญชีไม่สำเร็จ (%count ครั้ง)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>บัญชีถูกล็อกหลังจากลงชื่อเข้าใช้ไม่สำเร็จ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>ลงชื่อเข้าใช้ไม่สำเร็จ %count ครั้งในบัญชีเดียว</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>ลงชื่อเข้าใช้จาก %count ประเทศพร้อมกัน</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>กิจกรรมด้านความปลอดภัย</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>เซสชัน</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>การลงชื่อเข้าใช้ที่ไม่สำเร็จอ่านจากบันทึกการตรวจสอบผู้ใช้ ซึ่งไม่มีให้ใช้งานที่นี่</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>ไม่มีสิ่งใดน่าสงสัย: ไม่มีบัญชีที่ลงชื่อเข้าใช้ไม่สำเร็จซ้ำๆ ไม่มีเครือข่ายที่พยายามเข้าหลายบัญชี ไม่มีบัญชีที่ลงชื่อเข้าใช้จากหลายประเทศ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>การแจ้งเตือนด้านความปลอดภัยสำหรับบัญชีของคุณ</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>เกิดเหตุการณ์ด้านความปลอดภัยกับบัญชี %login ของคุณ: %event. หากไม่ใช่คุณ กรุณาปกป้องบัญชีของคุณที่ %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ตั้งค่าระบบ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>ขอข้อมูลจากเนื้อหาของไซต์นี้เฉพาะฟิลด์ที่หน้าต้องการ ภายในคำขอเดียว สคีมาเป็นไปตามคลาสเนื้อหา และทุกคิวรีจะทำงานด้วยสิทธิ์ของผู้ใช้ที่ส่งคิวรีนั้น</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API ถูกปิดอยู่ในการเข้าถึงไซต์นี้ เปิดได้ใน graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>ยังไม่ได้ติดตั้งไลบรารี GraphQL (webonyx/graphql-php 15)</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>ปลายทาง</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>ไลบรารี</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>สคีมา</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count คลาสเนื้อหา, สคีมา %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>คิวรี</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>ตัวแปร (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>เรียกใช้</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>คำตอบ</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>กำลังเรียกใช้…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>ไม่สามารถอ่านคำตอบได้</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>คิวรีทำงานด้วยสิทธิ์ของคุณ โดยลงชื่อเข้าใช้ด้วยเซสชันนี้</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count ครั้งใน %seconds วิ.</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ไม่จำกัด</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>ความลึก</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>ความซับซ้อน</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>รายการต่อลิสต์</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ค่าเริ่มต้น %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>คำขอต่อผู้ใช้หรือคีย์</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>คำขอต่อที่อยู่นิรนาม</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>เฉพาะคิวรีที่จัดเก็บไว้</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>คิวรีที่ใหญ่ที่สุด</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes ไบต์</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>การอัปโหลดที่ใหญ่ที่สุด</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>ไม่มีการเข้าถึงไซต์ %siteaccess</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>เปิดมิวเทชันใน %siteaccess แล้ว</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>ปิดมิวเทชันใน %siteaccess แล้ว</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>เปิด GraphQL API ใน %siteaccess แล้ว</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>ปิด GraphQL API ใน %siteaccess แล้ว</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>ไม่สามารถเขียนการตั้งค่าได้: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>ล้างแคชคำตอบแล้ว: ลบคำตอบออก %count รายการ</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>ทำเครื่องหมายในช่องข้างคิวรีเพื่อลบออก</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>ไม่สามารถลบคิวรีได้: คิวรีที่มาพร้อมในไดเรกทอรีของ PersistedQueryDirectoryList[] จะถูกลบพร้อมกับไฟล์ของมัน</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>ลบคิวรีที่จัดเก็บไว้แล้ว</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>มิวเทชัน</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>เปิด</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ปิด</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>การเข้าถึงไซต์</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>ที่ที่ API และมิวเทชันของมันตอบกลับ ปุ่มเหล่านี้เขียน graphql.ini เช่นเดียวกับ ./console exp:graphql:enable และ exp:graphql:disable</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>การเข้าถึงไซต์</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>เปลี่ยน</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ปิด</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>ปิดมิวเทชัน</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>เปิดมิวเทชัน</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>เปิด</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>ขีดจำกัด</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ของการเข้าถึงไซต์นี้</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>แคชคำตอบ</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>คำตอบของคิวรีที่จัดเก็บไว้ เก็บแยกตามสิทธิ์ผู้ใช้และหมดอายุทุกครั้งที่มีการเผยแพร่เนื้อหา</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>สถานะ</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>คำตอบที่เก็บไว้</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count คำตอบ, %bytes ไบต์</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>เก็บไว้นานสุด</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds วิ.</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>หมดอายุล่าสุด</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ล้างแคชคำตอบ</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>คิวรีที่จัดเก็บไว้</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>จัดเก็บด้วย ./console exp:graphql:persist หรือโดยไคลเอนต์ (automatic persisted queries); เรียกใช้ด้วยชื่อหรือ SHA-256</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>ชื่อ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ขนาด</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ที่อยู่</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ลบ</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>มาพร้อมระบบ</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>จัดเก็บแล้ว</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ใช่ ลบคิวรีนี้</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>ยังไม่มีคิวรีที่จัดเก็บไว้</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API key</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>API key ส่วนตัวที่มีขอบเขต graphql:read (คิวรี) หรือ graphql:write (มิวเทชัน) สร้างและเพิกถอนได้ที่หน้าการเข้าถึง API หรือด้วย ./console exp:graphql:keys</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>การเข้าถึง API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>คีย์ทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>คีย์</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ชื่อ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>เจ้าของ</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>ขอบเขต</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>ใช้ล่าสุด</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ใช้งานอยู่</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>หมดอายุ</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>เพิกถอนแล้ว</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ไม่เคย</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>ยังไม่มี API key ที่มีขอบเขต GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API ถูกปิดอยู่ในการเข้าถึงไซต์ %siteaccess ซึ่งแสดงหน้านี้ ตารางด้านล่างแสดงว่า API ตอบที่ใด</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>สำหรับการเข้าถึงไซต์ %siteaccess ซึ่งแสดงหน้านี้</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>เว็บฮุก</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>ทุกเหตุการณ์ที่ปลายทางร้องขอ (publish, update, trash, delete, move, hide, reveal, mutation) จะถูกส่งไปยังปลายทางนั้นพร้อมลายเซ็นโดยส่วน cronjob graphqlwebhooks ส่วน ./console exp:graphql:webhooks ทำงานเหมือนกับส่วนนี้</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>เหตุการณ์</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>การเข้าถึงไซต์ทุกแห่ง</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>เสีย</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ไม่มีรหัสลับ</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>รอส่ง</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>ยกเลิกแล้ว %count</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>ส่งครั้งล่าสุด</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ส่งทดสอบ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ใช่ ลบเว็บฮุกนี้</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>ยังไม่มีเว็บฮุก</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>เพิ่มเว็บฮุก</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>เพิ่ม</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>การส่งเมื่อเร็วๆ นี้</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>เวลา</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ผลลัพธ์</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>การสมัครรับข้อมูล</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>การอัปเดตสดสำหรับไคลเอนต์: สตรีมเหตุการณ์ที่ /api/graphql/subscribe และ WebSocket (graphql-transport-ws) บน Velocity แต่ละเหตุการณ์จะส่งถึงเฉพาะผู้สมัครรับที่มีสิทธิ์อ่านเนื้อหานั้น</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>เปิดอยู่ขณะนี้</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>เปิดได้สูงสุด</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>รวม %total, ต่อผู้ใช้ %user, ต่อที่อยู่ %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>การสมัครรับข้อมูลแบบไม่ระบุตัวตน</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>ระยะเวลาสตรีม</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ไม่สามารถเพิ่มเว็บฮุกได้: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>เปลี่ยนเว็บฮุก %name แล้ว รหัสลับสำหรับลงนามยังคงเดิม</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>ไม่สามารถจัดเก็บรหัสลับสำหรับลงนามได้ (ตั้งค่าระบบ &gt; รหัสลับ)</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>เพิ่มเว็บฮุก %name แล้ว รหัสลับสำหรับลงนามซึ่งแสดงเพียงครั้งนี้: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ไม่มีเว็บฮุก %name</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>เว็บฮุก %name ไม่ตอบกลับ: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>เว็บฮุก %name ตอบกลับ %status ใน %ms ms</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ทำเครื่องหมายในช่องข้างเว็บฮุกเพื่อลบออก</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>ลบเว็บฮุก %name แล้ว</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API ถูกปิดอยู่ในการเข้าถึงไซต์นี้</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>ยังไม่ได้ติดตั้งไลบรารี GraphQL</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>ใช้ GET หรือ POST</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>เนื้อหาคำขอไม่ใช่ออบเจ็กต์ JSON</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ไม่ใช่ออบเจ็กต์ JSON</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ไม่ใช่ออบเจ็กต์ JSON</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>ส่งคิวรีด้วย POST</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>คำขอไม่มีคิวรี</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>คิวรียาวเกิน %max ไบต์</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>ข้อผิดพลาดภายในเซิร์ฟเวอร์</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node ต้องมี id, remoteId, path หรือ urlAlias อย่างใดอย่างหนึ่งเท่านั้น</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content ต้องมี id หรือ remoteId อย่างใดอย่างหนึ่งเท่านั้น</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>เคอร์เซอร์ของ after ไม่ได้มาจาก API นี้</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>ไม่มีชื่อแทนรูปภาพ %alias (image.ini [AliasSettings] AliasList[])</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>ที่นี่รับเฉพาะคิวรีที่จัดเก็บไว้: ส่ง id ของคิวรีที่จัดเก็บไว้</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>แฮชของคิวรีที่จัดเก็บไว้ไม่ใช่ SHA-256</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>แฮชของคิวรีที่จัดเก็บไว้ไม่ตรงกับคิวรี</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>คำขอมากเกินไป: ไม่เกิน %limit ครั้งใน %window วินาที ลองอีกครั้งใน %reset วินาที</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>คิวรีลึก %depth ระดับ อนุญาตไม่เกิน %max ระดับ</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>คิวรีมีความซับซ้อน %complexity อนุญาตไม่เกิน %max</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>คำขอนี้ไม่ได้รับอนุญาตให้อ่านสคีมา (introspection)</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search ต้องมีข้อความหรือตัวกรอง (classes, subtree, sections, publishedAfter, publishedBefore)</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ไม่ใช่วันที่ (ISO 8601, 2026-10-30)</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag ต้องมี id, remoteId หรือ path อย่างใดอย่างหนึ่งเท่านั้น</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout ต้องมี id, identifier หรือ urlAlias อย่างใดอย่างหนึ่งเท่านั้น</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>ฟิลด์ operations ของคำขอแบบ multipart ไม่ใช่คำขอ JSON เดียว</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>ฟิลด์ map ของคำขอแบบ multipart ไม่ใช่ออบเจกต์ JSON</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>คำขอแบบ multipart ไม่มีไฟล์ %field</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>พาธในฟิลด์ map ต้องขึ้นต้นด้วย variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>ไฟล์ %name มาถึงไม่ครบ (ข้อผิดพลาดการอัปโหลด %error)</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>ไฟล์ %name ใหญ่เกิน %max ไบต์</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>ไม่สามารถตรวจสอบไฟล์ %name ได้</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>มิวเทชันถูกปิดอยู่ในการเข้าถึงไซต์นี้ (graphql.ini [GraphQLSettings] MutationsEnabled)</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>ส่งมิวเทชันด้วย POST</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>ลงชื่อเข้าใช้เพื่อแก้ไขเนื้อหา</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API key ไม่มีขอบเขต %scope</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>มิวเทชันที่ใช้เซสชันต้องมีโทเค็นฟอร์มของเซสชัน (ส่วนหัว X-CSRF-Token)</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ถูกปิดอยู่: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ไม่ได้ระบุโฮสต์ใดเลย</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>ที่อยู่ต้องเป็นที่อยู่ https</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>โฮสต์ %host ไม่อยู่ใน graphql.ini [GraphQLSettings] UploadFromUrlHostList[]</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ไม่สามารถดึงไฟล์ได้</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload เป็นชนิดอินพุตเท่านั้น</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>ตัวแปรชนิด Upload รับไฟล์จากคำขอแบบ multipart</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>remote id %remoteId ถูกใช้แล้ว</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>เนื้อหานี้มีคำแปลเป็น %language อยู่แล้ว: ใช้ updateContent</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>ระบุอย่างน้อยหนึ่งฟิลด์</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>ไม่สามารถสร้างเวอร์ชันใหม่ได้ (เนื้อหามีฉบับร่างมากเกินไป)</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>เวอร์ชัน %version ไม่ใช่ฉบับร่าง</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ต้องการ id หรือ nodeId อย่างใดอย่างหนึ่งเท่านั้น</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ไม่สามารถย้ายตำแหน่งไปไว้ใต้ตัวเองได้</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>เนื้อหานี้มีตำแหน่งอยู่ใต้ %parentId แล้ว</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>ไม่สามารถบันทึกค่าของฟิลด์ %field ได้</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>ไม่มีภาษาเนื้อหา %language</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>ไม่มีคลาสเนื้อหา %class ในสคีมา</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>ไม่มีเนื้อหานี้ หรือคุณไม่ได้รับอนุญาตให้อ่าน</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>คุณไม่ได้รับอนุญาตให้ทำสิ่งนี้กับเนื้อหานี้</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>คลาส %class ไม่มีฟิลด์ %field ที่เขียนได้</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>ระบุฟิลด์ %field ซ้ำสองครั้ง</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>ฟิลด์ %field รับไฟล์: ส่งเป็นการอัปโหลด (คำขอแบบ multipart)</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>ฟิลด์ %field ไม่รับไฟล์</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>ฟิลด์ %field ต้องมีค่า</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>รูปแบบ %format ใช้ได้กับฟิลด์ข้อความแบบ rich text เท่านั้น; %field รับค่าตามที่เป็น (RAW)</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>ต้องระบุฟิลด์ %field</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>ไม่สามารถอ่าน HTML ได้</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content รับ version ได้เฉพาะเมื่อใช้ร่วมกับ id</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>โทเค็นแสดงตัวอย่างไม่ถูกต้องหรือหมดอายุแล้ว</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>ไม่ใช่ origin (https://host หรือ https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>ไม่ใช่ขอบเขตของ GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>ส่งการสมัครรับข้อมูลไปที่ /api/graphql/subscribe (สตรีมเหตุการณ์หรือ WebSocket)</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>คำขอไม่ได้ระบุชื่อการดำเนินการใดของเอกสาร</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>การสมัครรับข้อมูลต้องขอฟิลด์เพียงหนึ่งฟิลด์เท่านั้น</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>มีการสมัครรับข้อมูลเปิดอยู่มากเกินไป โปรดลองอีกครั้งในภายหลัง</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>คุณเปิดการสมัครรับข้อมูลอยู่ %max รายการ ซึ่งเป็นจำนวนสูงสุดที่อนุญาต</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>ที่อยู่ของคุณเปิดการสมัครรับข้อมูลอยู่ %max รายการ ซึ่งเป็นจำนวนสูงสุดที่อนุญาต</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>การสมัครรับข้อมูลถูกปิดอยู่ในการเข้าถึงไซต์นี้</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>ลงชื่อเข้าใช้เพื่อสมัครรับข้อมูล (โทเค็นหรือ API key ส่วนตัว)</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>ส่งมิวเทชันไปที่ /api/graphql</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>ไมเกรชันของการติดตั้ง</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ไม่สามารถอ่านสถานะได้: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ตารางของไมเกรชันยังไม่มีอยู่: ./console exp:upgrade --apply จะสร้างตารางเหล่านั้น</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>ไมเกรชันล้มเหลว %count รายการ</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>มีการเรียกใช้กำลังดำเนินอยู่ เริ่มโดย %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>การติดตั้งถูกล็อก: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>รอดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>รายการกำพร้า</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>การเรียกใช้ล่าสุด</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ยังไม่มี</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>ไมเกรชันทั้งหมด</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>การเรียกใช้แบบจำลอง</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ทดลองเรียกใช้</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>ไมเกรชันที่รอดำเนินการถูกเรียกใช้ในทรานแซกชันที่ถูกย้อนกลับภายหลัง: ไม่มีสิ่งใดถูกเก็บไว้ ด้านล่างคือสิ่งที่แต่ละรายการเปลี่ยนแปลงในฐานข้อมูล</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>สิ่งที่การเรียกใช้จะทำในตอนนี้ ไม่มีสิ่งใดถูกเปลี่ยนแปลง: ไมเกรชันที่รอดำเนินการแต่ละรายการแสดงการเปลี่ยนแปลงที่จะทำ และการเรียกใช้แสดงสิ่งที่จะทำก่อนและหลัง</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>จำลอง</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>เรียกใช้</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>การทดลองเรียกใช้ล้มเหลว: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>การจำลองต้องใช้ PostgreSQL หรือ SQLite ซึ่งการเปลี่ยนแปลงสคีมาสามารถย้อนกลับได้ บนฐานข้อมูลนี้ แผนด้านล่างคือสิ่งที่การเรียกใช้จะทำ</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>ไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>ชื่อไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>สถานะ</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>สิ่งที่จะทำ</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>การจำลอง: %result ใน %ms มิลลิวินาที</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>ยังไม่มีไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>ก่อนและหลังการเรียกใช้</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>จุดคืนค่าก่อน</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ถูกสร้าง และคืนค่าเมื่อไมเกรชันล้มเหลว</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ปิด</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>จุดคืนค่าหลัง</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ถูกสร้างเมื่อการเรียกใช้สำเร็จ</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>ไมเกรชัน %total รายการ: รอดำเนินการ %pending, เสร็จแล้ว %done, ล้มเหลว %failed</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>ประวัติไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>การเรียกใช้ทุกครั้งพร้อมผู้ใช้ สภาพแวดล้อม จุดคืนค่า และสิ่งที่ถูกคอมมิต ติดแท็ก และพุช การเรียกใช้ที่ล้มเหลวหรือถูกขัดจังหวะสามารถดำเนินการต่อได้ การเรียกใช้ที่มีจุดคืนค่าสร้างไว้ก่อนสามารถย้อนกลับได้</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>ไม่สามารถอ่านการเรียกใช้ได้: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ตารางของไมเกรชันยังไม่มีอยู่: ./console exp:upgrade --apply จะสร้างตารางเหล่านั้น</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>แสดง</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>การเรียกใช้</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>เริ่มเมื่อ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>โดย</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>จุดคืนค่า</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>คลังโค้ด</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>การดำเนินการ</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ก่อน</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>หลัง</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>พุช: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>ดำเนินการต่อ</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>ไม่มีการเรียกใช้ในสถานะนี้</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>เริ่มจากที่นี่</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>การเรียกใช้ การดำเนินการต่อ และการย้อนกลับที่เริ่มจากหน้าเหล่านี้ พร้อมรายงานของแต่ละรายการ</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>อะไร</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ผลลัพธ์</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>การย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>การย้อนกลับของ %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>การเรียกใช้ %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>สิ่งที่การเรียกใช้ได้ทำ บันทึกและล็อกของการเรียกใช้ การเรียกใช้ที่เริ่มจากที่นี่จะทำงานต่อในเบื้องหลังเมื่อปิดหน้านี้ เปิดหน้านี้อีกครั้งเพื่อติดตาม</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>ดำเนินการเรียกใช้นี้ต่อ</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>ย้อนกลับการเรียกใช้นี้</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>ไม่สามารถอ่านบันทึกได้: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ความคืบหน้า</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>เริ่มโดย %user เมื่อ %time</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>กำลังตรวจสอบโค้ดและสร้างจุดคืนค่าก่อนการเรียกใช้</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>กำลังเรียกใช้ %id (%index จาก %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>เสร็จแล้ว %done จาก %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>ไมเกรชันถูกเรียกใช้แล้ว กำลังคืนค่าจุดคืนค่าหากมีรายการที่ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>กำลังสร้างจุดคืนค่าหลังการเรียกใช้ คอมมิต ติดแท็ก และพุช</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>กำลังคืนค่าจุดคืนค่า</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>การเรียกใช้สิ้นสุดแล้ว กำลังโหลดรายงาน</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>ไม่สามารถติดตามความคืบหน้าได้ โหลดหน้านี้ใหม่เพื่อดูสถานะของการเรียกใช้</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>หน้านี้ติดตามการเรียกใช้ขณะดำเนินอยู่</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>โหลดใหม่</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>รายงาน</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ระยะเวลา</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms มิลลิวินาที</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>ข้อผิดพลาดที่การเรียกใช้แสดงออกมา</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>บันทึก</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>สภาพแวดล้อม</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ไม่มี</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>สิ้นสุดเมื่อ</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>คอมมิต</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>แท็ก</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>พุช</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ข้อความ</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>ไมเกรชันของการเรียกใช้นี้</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ที่มา</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>ล็อกการเรียกใช้</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>แสดงเฉพาะส่วนท้ายของล็อก</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>กำลังทำงาน</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>สิ้นสุดโดยไม่มีรายงาน</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>สำเร็จ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ถูกปฏิเสธ</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ไม่สามารถเข้าถึงฐานข้อมูลได้</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>ข้อผิดพลาดภายใน</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>มีการเรียกใช้กำลังดำเนินอยู่</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind เริ่มโดย %user เมื่อ %time</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>ติดตาม</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>การติดตั้งถูกล็อก</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>การเรียกใช้อื่นถือล็อกอยู่ (การอัปเกรดหรือการเรียกใช้บนคอนโซล): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>เสร็จแล้ว</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>รอดำเนินการ</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ไม่จำเป็น</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ไม่ทราบ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ย้อนกลับแล้ว</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>นำไปใช้แล้ว</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>จะถูกนำไปใช้</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>ถอนกลับแล้ว</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>จะถูกถอนกลับ</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ไม่ได้เรียกใช้</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>รอรายการอื่น</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ยอมรับการเปลี่ยนแปลงแล้ว</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>การเปลี่ยนแปลงจะถูกยอมรับ</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>จำลองแล้ว</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ไมเกรชันของการติดตั้ง</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>สถานะ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ประวัติ</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>ย้อนกลับ %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>การเรียกใช้จะถูกย้อนกลับไปยังจุดคืนค่าที่สร้างไว้ก่อนหน้า ไมเกรชันเดี่ยวจะย้อนกลับด้วย down() การคืนค่าจุดคืนค่าที่เก่ากว่าเหมาะสำหรับผู้เชี่ยวชาญ แต่ละรายการทำงานในเบื้องหลังในนามของคุณ หลังจากสร้างจุดคืนค่าของสถานะปัจจุบัน</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ไม่สามารถอ่านรายการที่ย้อนกลับได้: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>การเรียกใช้</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>ไมเกรชันเดียว</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>จุดคืนค่าที่เก่ากว่า</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>คำอธิบาย</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ใช่</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ไม่</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>จุดคืนค่า</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ป้ายชื่อ</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>สร้างเมื่อ</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ชนิด</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>ส่วนที่จะคืนค่า</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>ฐานข้อมูล</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>ไฟล์ที่จัดเก็บ (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>การตั้งค่า (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>การคืนค่าฐานข้อมูลจะนำฐานข้อมูลกลับไปยังเวลาของจุดคืนค่า รวมถึงเซสชัน: คุณอาจต้องเข้าสู่ระบบอีกครั้งหลังจากนั้น ทุกสิ่งที่เปลี่ยนแปลงหลังจากนั้นจะสูญหาย โดยจะสร้างจุดคืนค่าของสถานะปัจจุบันก่อน</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>ฉันทราบว่าสิ่งนี้คืนค่าอะไร</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>พิมพ์รหัสของจุดคืนค่าอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ใช่ ย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ยกเลิก</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>การเรียกใช้ที่มีจุดคืนค่าสร้างไว้ก่อนหน้า</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>เลือก</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>ยังไม่มีการเรียกใช้ที่มีจุดคืนค่า</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>ไมเกรชันที่นำไปใช้แล้วซึ่งย้อนกลับตัวเองได้ (มี down())</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>ไม่มีไมเกรชันที่นำไปใช้แล้วรายการใดมี down()</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>จุดคืนค่าที่เก่ากว่า (ผู้เชี่ยวชาญ)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>ยังไม่มีจุดคืนค่า</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>เรียกใช้ไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>การเรียกใช้จะทำงานในเบื้องหลังในนาม %user และหน้าของการเรียกใช้จะแสดงความคืบหน้า ก่อนไมเกรชันแรกจะมีการสร้างจุดคืนค่าของการติดตั้ง เมื่อไมเกรชันล้มเหลว การเรียกใช้จะหยุดและคืนค่าจุดคืนค่า</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>ทดลองเรียกใช้ก่อน</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ไม่สามารถอ่านสถานะได้: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>ไมเกรชันที่รอดำเนินการ</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>ไมเกรชันจะทำงานตามลำดับนี้ ยกเลิกการเลือกรายการใดเพื่อเก็บรายการนั้นและรายการที่ต้องใช้รายการนั้นไว้สำหรับการเรียกใช้ครั้งถัดไป</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>เรียกใช้</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>เปิดโหมดบำรุงรักษาระหว่างการทำงาน</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>เปลี่ยนแปลงหลังจากนำไปใช้แล้ว</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ไฟล์เหล่านี้ไม่ใช่ไฟล์ที่ถูกนำไปใช้ การเรียกใช้จะปฏิเสธไฟล์เหล่านี้ เว้นแต่การเปลี่ยนแปลงจะได้รับการยอมรับพร้อมเหตุผล ไฟล์จะไม่ถูกเรียกใช้อีก ค่า checksum ใหม่จะถูกบันทึก และเหตุผลจะถูกเก็บไว้ในล็อกการตรวจสอบ</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>ยอมรับการเปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>เหตุผล</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ค่าเริ่มต้นคือค่าที่ปลอดภัย แต่ละช่องจะข้ามหนึ่งขั้นตอน</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>ไม่สร้างจุดคืนค่า</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>ไม่สร้างจุดคืนค่าก่อนและหลังการเรียกใช้: ความล้มเหลวจะไม่สามารถคืนค่าได้โดยอัตโนมัติ</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>ไม่คืนค่า</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>หลังจากล้มเหลว ให้คงการติดตั้งไว้ในสภาพที่ความล้มเหลวทิ้งไว้</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>เก็บการเปลี่ยนแปลงที่ยังไม่ได้คอมมิต</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>เรียกใช้แม้การตั้งค่า ส่วนขยาย หรือดีไซน์มีการเปลี่ยนแปลงที่ยังไม่ได้คอมมิต การเปลี่ยนแปลงเหล่านั้นจะรวมอยู่ในจุดคืนค่า</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>ไม่คอมมิต</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>ไม่คอมมิตไฟล์สถานะและล็อกการเรียกใช้ (ไม่ติดแท็กและไม่พุชด้วย)</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>ไม่พุช</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>คอมมิตและติดแท็ก แต่ไม่พุช</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ไม่ติดแท็ก</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>คอมมิตและพุช แต่ไม่ติดแท็กการเรียกใช้</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ใช่ เรียกใช้ไมเกรชันเหล่านี้ตอนนี้</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ไม่มีไมเกรชันที่รอดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>กลับไปที่สถานะ</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>การเปลี่ยนแปลงของการติดตั้งนี้ที่เขียนไว้ครั้งเดียวเป็นไฟล์ (เนื้อหา คลาส บทบาท การตั้งค่า สคีมา) และนำไปใช้กับทุกการติดตั้งของไซต์ตามลำดับเดียวกัน การเรียกใช้จะสร้างจุดคืนค่าก่อน คืนค่าเมื่อไมเกรชันล้มเหลว แล้วบันทึก คอมมิต และพุชสิ่งที่ได้ทำ</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>เรียกใช้ %count รายการที่รอดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ภาพรวม</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>รอดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>เสร็จแล้ว</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>ไม่จำเป็น</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>ฐานข้อมูล</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ทรานแซกชัน: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>ไมเกรชันของไซต์อยู่ใน migrations/ ไมเกรชันของส่วนขยายอยู่ใน extension/&lt;name&gt;/migrations/ ไมเกรชันจะทำงานตามลำดับชื่อและสิ่งที่ต้องใช้</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>การเรียกใช้ล่าสุด</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>ไฟล์ถูกเปลี่ยนแปลงหลังจากนำไปใช้แล้ว</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>ยังไม่มีไมเกรชัน ./console exp:migration:generate --skeleton &lt;name&gt; --apply จะเขียนรายการแรก</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>การเรียกใช้ล่าสุด</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>การเรียกใช้ทั้งหมด</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>ยังไม่มีการเรียกใช้</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>การจำลองการเรียกใช้ต้องมีนโยบาย migration/run</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>มีการเรียกใช้กำลังดำเนินอยู่: จำลองเมื่อสิ้นสุดแล้ว</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ตั้งค่าระบบ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ไม่ใช่การเรียกใช้ ไมเกรชัน หรือจุดคืนค่าของการติดตั้งนี้</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>เลือก &quot;ใช่ ย้อนกลับ&quot; ก่อน</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>การคืนค่าจุดคืนค่าที่เก่ากว่าเหมาะสำหรับผู้เชี่ยวชาญ: เลือก &quot;ฉันทราบว่าสิ่งนี้คืนค่าอะไร&quot;</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>พิมพ์รหัสของจุดคืนค่าอีกครั้ง: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>เลือกอย่างน้อยหนึ่งส่วนที่จะคืนค่า</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>การเรียกใช้นี้ไม่มีจุดคืนค่าที่สร้างไว้ก่อน: ย้อนกลับไมเกรชันทีละรายการ หรือคืนค่าจุดคืนค่าที่เก่ากว่า</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ไมเกรชันนี้ไม่สามารถย้อนกลับตัวเองได้: ยังไม่ได้นำไปใช้ หรือไม่มี down()</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ไม่สามารถอ่านแบบฟอร์มได้</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>เลือกการเรียกใช้ที่จะดำเนินการต่อ</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>เลือก &quot;ใช่ เรียกใช้ไมเกรชันเหล่านี้ตอนนี้&quot; ก่อน</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>เลือกอย่างน้อยหนึ่งไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>ไมเกรชันถูกเปลี่ยนแปลงหลังจากนำไปใช้แล้ว: ยอมรับการเปลี่ยนแปลงพร้อมเหตุผล หรือนำไฟล์เดิมกลับมา</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>ระบุเหตุผลที่ยอมรับไมเกรชันที่ถูกเปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>เหตุผลยาวได้ไม่เกิน 500 ตัวอักษร</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>การเรียกใช้ที่เริ่มจากที่นี่ยังดำเนินอยู่ (%detail) รอจนกว่าจะสิ้นสุด</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>การเรียกใช้อื่นถือล็อกของการติดตั้งอยู่: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>การเรียกใช้ต้องมีผู้ใช้ที่เข้าสู่ระบบและมีอยู่จริง</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>ไม่พบไบนารีบรรทัดคำสั่ง php ตั้งค่า migration.ini [AdminSettings] PhpCliPath เป็นพาธเต็มของไบนารีนั้น</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ถูกปิดใช้งาน จึงไม่สามารถเริ่มการเรียกใช้จากที่นี่ได้ เรียกใช้ ./console exp:migration:migrate --apply บนเซิร์ฟเวอร์</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>ไม่สามารถเขียนโฟลเดอร์ของการเรียกใช้ได้: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>การเรียกใช้เริ่มแล้วแต่ไม่ได้รายงานรหัสโปรเซส ตรวจสอบ %detail</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ระบุสิ่งที่จะย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>ไม่สามารถเริ่มการเรียกใช้ได้</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>บันทึกการเปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>ขณะที่การบันทึกทำงานอยู่ สิ่งที่คุณเปลี่ยนในส่วนผู้ดูแลหรือในแถบด้านข้างของเว็บไซต์จะถูกเก็บเป็นขั้นตอนของการย้ายข้อมูล: เนื้อหา คลาส บทบาทและนโยบาย ส่วน ผู้ใช้และกลุ่ม นามแฝง URL การตั้งค่า เมื่อเสร็จแล้วให้หยุด ดูว่ามันเก็บอะไรไว้ แล้วสร้างการย้ายข้อมูลจากมัน</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>อ่านการบันทึกไม่ได้: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>ยังไม่มีตารางของการบันทึก: ให้รันการอัปเกรดก่อน (exp:upgrade --apply)</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>การบันทึกถูกปิดใน migration.ini ([RecordingSettings] Recording=disabled)</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>การเปลี่ยนแปลงของฉัน</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>บันทึกเฉพาะสิ่งที่คุณเปลี่ยน ไม่ว่าจะเปลี่ยนที่ใด จนกว่าคุณจะหยุด</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>การบันทึก</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>ตั้งแต่ %time จนถึงตอนนี้ %count การเปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ป้ายกำกับ (ไม่บังคับ)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>แสดงสิ่งที่เก็บไว้</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>หยุดการบันทึก</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>เริ่มบันทึกการเปลี่ยนแปลงของฉัน</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>หน้าต่างสำหรับทั้งเว็บไซต์</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>บันทึกทุกการเปลี่ยนแปลงของผู้ใช้ทุกคนและของคอนโซลจนกว่าจะปิด เมื่อเปิดจะขอให้คุณยืนยันว่าเป็นคุณ</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>เปิดอยู่</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>ปิดหน้าต่าง</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>เปิดหน้าต่างสำหรับทั้งเว็บไซต์</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>รายการบันทึก</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>บัญชีของผู้ใช้ (ชื่อเข้าระบบ อีเมล รหัสผ่าน) และฟิลด์ของบัญชีผู้ใช้จะไม่ถูกบันทึกเลย</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>จำนวนการเปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>ทั้งเว็บไซต์</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>การเปลี่ยนแปลงของ %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>หยุดแล้ว</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>ยังไม่มีการบันทึก</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>การบันทึก %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>การบันทึกทั้งหมด</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>การย้ายข้อมูลที่จะได้</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>การเปลี่ยนแปลงที่รวมเป็นหนึ่งขั้นตอนต่อสิ่งที่ถูกเปลี่ยน: สิ่งที่การย้ายข้อมูลที่สร้างจากการบันทึกนี้จะทำ</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>จะสร้างการย้ายข้อมูลจากมันได้เมื่อการติดตั้งนี้มีชนิดขั้นตอน YAML %types</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ละไว้โดยเจตนา: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ไม่มีสิ่งใดถูกบันทึก</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>สิ่งที่เก็บไว้</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count การเปลี่ยนแปลง ตามลำดับที่ทำ</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>การเปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ขั้นตอน</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>เกี่ยวกับ</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>อีก %count รายการ: ./console exp:migration:record:show แสดงทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ทิ้ง</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ลบการบันทึกและสิ่งที่มันเก็บไว้ สิ่งที่ถูกเปลี่ยนยังคงถูกเปลี่ยน</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ใช่ ทิ้งการบันทึกนี้</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>กำลังบันทึก…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>การเปลี่ยนแปลงของคุณกำลังถูกบันทึกเพื่อการย้ายข้อมูล</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>ทุกการเปลี่ยนแปลงบนเว็บไซต์นี้กำลังถูกบันทึกเพื่อการย้ายข้อมูล (หน้าต่างสำหรับทั้งเว็บไซต์)</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>การบันทึกทั้งเว็บไซต์เริ่มแล้ว: ทุกการเปลี่ยนแปลงของผู้ใช้ทุกคนจะถูกบันทึกจนกว่าคุณจะหยุด</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>การบันทึกเริ่มแล้ว: การเปลี่ยนแปลงของคุณจะถูกบันทึกจนกว่าคุณจะหยุด</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>หยุดการบันทึกแล้ว สิ่งที่เก็บไว้จะยังอยู่จนกว่าคุณจะทิ้ง</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ลบการบันทึกและเหตุการณ์ของมันแล้ว</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ไม่มีการบันทึก %id</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>เลือก "ใช่ ทิ้งการบันทึกนี้" ก่อน</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>เฉพาะผู้ใช้ที่บันทึกเท่านั้นที่หยุดการบันทึกเซสชันได้</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>เลือกการบันทึกที่จะหยุด</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>การบันทึกชนิดนี้ทำงานอยู่แล้ว</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>เปลี่ยนการบันทึกไม่ได้: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>สร้างการย้ายข้อมูล</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>ชื่อการย้ายข้อมูล (ไม่บังคับ)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>เขียนการย้ายข้อมูล %file แล้ว การเปลี่ยนแปลงที่ไม่มีขั้นตอนใดทำได้ระบุไว้ที่ด้านบนของไฟล์ เพื่อทำด้วยมือ</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>ไม่ได้เขียนการย้ายข้อมูล: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>การรันยาวแบบแบ่งเป็นส่วน</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ช่องที่เว้นว่างจะคงการตั้งค่าของ migration.ini [RunSettings]</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>จำนวนการย้ายข้อมูลสูงสุดเท่านี้</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>ไม่ย้ายข้อมูลเพิ่มหลังจาก (วินาที)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>หยุดพักระหว่างการย้ายข้อมูล (วินาที)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>ลำดับความสำคัญต่ำลง (1 ถึง 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>ช่องการรันยาวเป็นจำนวนเต็มตั้งแต่ 1 (การหยุดพัก: วินาทีตั้งแต่ 0 ถึง 60, ลำดับความสำคัญ: 1 ถึง 19) หรือเว้นว่าง</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>จะปิดเองเมื่อเวลา %time</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>ปิดเองหลังจาก (นาที, ไม่บังคับ)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>จำนวนนาทีเป็นจำนวนเต็มตั้งแต่ 1 ถึง 44640 (31 วัน) หรือเว้นว่าง</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>ไมเกรชัน %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>ไมเกรชันใหม่</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>ไมเกรชัน YAML: เขียนเป็นข้อความหรือสร้างขั้นตอนในแบบฟอร์ม ตรวจสอบ แล้วบันทึกลงในโฟลเดอร์ไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ไมเกรชันนี้เรียกใช้ไปแล้ว จึงไม่บันทึกซ้ำ: ไฟล์ที่ถูกเปลี่ยนจะถูกปฏิเสธโดยตัวป้องกันเช็กซัม ให้ทำการเปลี่ยนแปลงในไมเกรชันใหม่</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>เว็บเซิร์ฟเวอร์ไม่สามารถเขียนไฟล์ได้</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>บรรทัดความคิดเห็นที่ด้านบนคือส่วนหัว (description, author, requires, environments, engines) เมื่อเพิ่มหรือเปลี่ยนขั้นตอนในแบบฟอร์ม ไมเกรชันจะถูกเขียนใหม่: ความคิดเห็นระหว่างขั้นตอนจะไม่ถูกเก็บไว้</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>ชื่อไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>ตำแหน่งที่จัดเก็บ</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>เว็บไซต์</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>ข้อความ YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>ตรวจสอบ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>บันทึก</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ขั้นตอน</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>คีย์</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>แก้ไข</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>เลื่อนขึ้น</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>เลื่อนลง</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>นำออก</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>ยังไม่มีขั้นตอน: เพิ่มขั้นตอนด้วยแบบฟอร์ม หรือเขียนลงในข้อความ</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>เปลี่ยนขั้นตอน %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>เพิ่มขั้นตอนหนึ่งขั้น</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>แบบฟอร์มของขั้นตอนสร้างจากประเภทขั้นตอน: คีย์ของขั้นตอน สิ่งที่แต่ละคีย์รับ และโหมดที่ขั้นตอนนั้นอยู่</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>ประเภทขั้นตอน</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>แสดงแบบฟอร์ม</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>ขั้นตอนนี้มีคีย์ที่ประเภทของขั้นตอนไม่รู้จัก ซึ่งจะถูกตัดออกเมื่อเปลี่ยนขั้นตอน: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>โหมด</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>ใน</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>เฉพาะใน %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ค่าเริ่มต้น: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>เงื่อนไข การอ้างอิง และความคิดเห็น</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>คู่ ชื่อ=ค่า คั่นด้วยเครื่องหมายจุลภาค ค่าของขั้นตอนนี้: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>ตัวอย่าง</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>เปลี่ยนขั้นตอน</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>เพิ่มขั้นตอน</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>สิ่งที่ exp:migration:check รายงาน: ส่วนหัว เอกสาร และทุกขั้นตอนที่ตรวจสอบตามประเภทขั้นตอนของตน</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>ไมเกรชันผ่านการตรวจสอบ</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>แสดงตัวอย่าง</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML ตามที่จะถูกบันทึก</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>แสดง YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>ไมเกรชัน YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>เรียกใช้แล้ว</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>ยังไม่มีไมเกรชัน YAML</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>ผู้แก้ไข</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>ไม่มีไมเกรชัน YAML %id ในโฟลเดอร์ไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>เลือกประเภทขั้นตอน</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>เพิ่มขั้นตอนแล้ว ตรวจสอบไมเกรชันก่อนบันทึก</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>เปลี่ยนขั้นตอนแล้ว ตรวจสอบไมเกรชันก่อนบันทึก</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>เลือกขั้นตอน</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ขั้นตอนนี้ไม่มีแบบฟอร์ม (เป็นลูป หรือเป็นประเภทขั้นตอนที่การติดตั้งนี้ไม่มี): เปลี่ยนในข้อความ</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>เลือกว่าไมเกรชันจะอยู่ที่ใด: เว็บไซต์หรือส่วนขยายที่เปิดใช้งาน</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>บันทึก %file แล้ว ทดลองเรียกใช้ก่อนเรียกใช้ไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>ไม่ได้บันทึก: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>เครื่องปลายทาง</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>การติดตั้งอื่นๆ ที่การติดตั้งนี้ดีพลอยไมเกรชันไปให้: การดีพลอยจะส่งไมเกรชันไปยังเครื่องปลายทางที่เลือกและเรียกใช้ที่นั่น พร้อมกันทั้งหมดและสอดคล้องกัน เครื่องปลายทางไม่เคยเก็บข้อมูลลับ: ข้อมูลรับรองของเครื่องปลายทางระบุชื่อข้อมูลลับใน ตั้งค่าระบบ &gt; ข้อมูลลับ</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>เครื่องปลายทางใหม่</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>วิธีใช้</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>ทดสอบการเชื่อมต่อของ %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>เครื่องปลายทางทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>ทำงานกับเครื่องปลายทางได้พร้อมกันสูงสุด %parallel เครื่อง แต่ละเฟสใช้เวลาได้ %timeout วินาทีบนแต่ละเครื่อง</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>เครื่องปลายทาง</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ข้อมูลรับรอง</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>กลุ่ม</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ต้องแก้ไขการตั้งค่า</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>เฉพาะไฟล์ (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>คีย์ SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>รหัสผ่าน</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ไม่มี (SSH agent และคีย์ของโฮสต์)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>ทดสอบการเชื่อมต่อ</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>การดีพลอยไปยังกลุ่มจะส่งไปยังทุกเครื่องปลายทางในกลุ่มนั้น</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>ดีพลอยไปยังเครื่องปลายทาง</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>ยังไม่ได้ตั้งค่าเครื่องปลายทางใด</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>เครื่องปลายทาง %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>ที่นี่จะไม่มีการส่งหรือเรียกใช้สิ่งใด: ปุ่มบันทึกจะเขียนการตั้งค่าลงใน settings/override/migration.ini.append.php ข้อมูลรับรองเป็นเพียงชื่อ ค่าจริงยังคงอยู่ใน ตั้งค่าระบบ &gt; ข้อมูลลับ หรือในสภาพแวดล้อม</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ตรวจสอบการตั้งค่าเหล่านี้</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>การตั้งค่าตามที่ป้อน ยังไม่ได้บันทึก</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ตรวจทาน</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>การตั้งค่าถูกต้อง บรรทัดเหล่านี้จะถูกเขียน:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>การรับส่ง</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>เฉพาะชื่อ ค่าจริงอยู่ใน ตั้งค่าระบบ &gt; ข้อมูลลับ</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>บรรทัดที่จะถูกเขียน</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>การเชื่อมต่อ</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>คีย์โฮสต์</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. เครื่องปลายทาง</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ชื่อของเครื่องปลายทางและสภาพแวดล้อมของเครื่อง</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>รหัส</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>ตัวอักษร ตัวเลข - และ _ เช่น production1 ใช้เรียกเครื่องปลายทางในรายงานและบนคอนโซล (--remotes=production1) และเปลี่ยนภายหลังไม่ได้</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... การดีพลอยแบบแบ่งระยะจะผ่านสภาพแวดล้อมตามลำดับนี้</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>ไม่บังคับ คั่นด้วยจุลภาค เช่น production การดีพลอยไปยังกลุ่มจะส่งไปยังทุกเครื่องปลายทางในกลุ่มนั้น</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. การเชื่อมต่อ</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ไฟล์ไปถึงที่นั่นอย่างไร และการติดตั้งอยู่ที่ใด</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>ผ่าน SSH ส่งเฉพาะสิ่งที่เปลี่ยน และถ่ายโอนที่ขาดตอนต่อจากเดิม ตัวเลือกที่ดีที่สุดเมื่อมี rsync ติดตั้งอยู่</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH พร้อม scp สำหรับไฟล์</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH พร้อม sftp สำหรับไฟล์</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>เฉพาะไฟล์: ไมเกรชันจะถูกส่งและอ่านกลับ แต่ไม่สามารถเรียกใช้ที่นั่นได้</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP ผ่าน TLS เฉพาะไฟล์</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>การติดตั้งอื่นบนเซิร์ฟเวอร์นี้ ในโฟลเดอร์หนึ่ง</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>โฮสต์</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ชื่อโฮสต์หรือที่อยู่ เช่น node1.example.com ไม่ใช้กับ local</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>พอร์ต</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>เว้นว่าง: 22 สำหรับ SSH, 21 สำหรับ FTP</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ผู้ใช้</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>พาธ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>รากของการติดตั้งที่นั่น เช่น /var/www/site (สำหรับ FTP: พาธที่บัญชี FTP มองเห็น)</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>บรรทัดคำสั่ง PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI ที่นั่น: php หรือพาธเต็ม เช่น /opt/plesk/php/8.4/bin/php</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>สคริปต์คอนโซลทำงานในฐานะ root ที่นั่น</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>เฉพาะเมื่อผู้ใช้ของเครื่องปลายทางเป็น root (จะเรียกใช้ด้วย --allow-root-user)</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. ข้อมูลรับรอง</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>การติดตั้งนี้ลงชื่อเข้าใช้ที่นั่นอย่างไร บันทึกไว้เพียงชื่อเท่านั้น</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ไม่มี</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>SSH agent และคีย์ของผู้ใช้ที่การติดตั้งนี้ทำงานอยู่ (และใช้เสมอสำหรับ local)</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>คีย์ส่วนตัวที่เก็บเป็นข้อมูลลับ</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>รหัสผ่านที่เก็บเป็นข้อมูลลับ (FTP ใช้รหัสผ่านนี้ลงชื่อเข้าใช้)</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>ชื่อข้อมูลลับ</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>ข้อมูลลับใน ตั้งค่าระบบ &gt; ข้อมูลลับ เช่น deploy_production1</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ตั้งค่าระบบ &gt; ข้อมูลลับ</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>หรือตัวแปรสภาพแวดล้อม</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>ตัวแปรของโปรเซสเซิร์ฟเวอร์ที่เก็บค่านี้ เช่น DEPLOY_KEY (บันทึกเป็น env:DEPLOY_KEY) ใช้แทนชื่อข้อมูลลับ</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. คีย์โฮสต์</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>ไม่บังคับ สำหรับ SSH, sftp และ rsync</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>ลายนิ้วมือคีย์โฮสต์</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ตามที่ ssh-keygen -l แสดง หากระบุ โฮสต์ต้องแสดงคีย์นี้ หากไม่ระบุ คีย์จะถูกจดจำเมื่อติดต่อครั้งแรก</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. ตรวจทาน</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>ทดสอบการเชื่อมต่อด้วยการตั้งค่าด้านบน แล้วตรวจทานบรรทัดที่จะถูกเขียน</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>นำเครื่องปลายทางนี้ออก</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>การตั้งค่าของเครื่องนี้จะถูกนำออกจาก settings/override/migration.ini.append.php ไม่มีสิ่งใดเปลี่ยนแปลงบนเครื่องปลายทาง และการดีพลอยของเครื่องนี้ยังคงอยู่ในประวัติ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ใช่ นำเครื่องปลายทางนี้ออก</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>การดีพลอย</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>การดีพลอยจะส่งไมเกรชันของการติดตั้งนี้ไปยังเครื่องปลายทางที่เลือกและเรียกใช้ที่นั่นในฐานะ %user พร้อมกันทั้งหมดและสอดคล้องกัน: ทุกเครื่องปลายทางจะถูกตรวจสอบก่อน และหากมีเครื่องใดล้มเหลว ทุกเครื่องที่นำไปใช้แล้วจะถูกถอนกลับ การดีพลอยทำงานอยู่เบื้องหลัง และหน้าของการดีพลอยจะแสดงทุกเครื่องปลายทางตามความคืบหน้า</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. เครื่องปลายทางทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>ทำเครื่องหมายเครื่องปลายทาง กลุ่ม หรือทั้งสองอย่าง</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>ดีพลอยไปที่นี่</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. วิธีการ</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ดีพลอย</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>ส่งและเรียกใช้</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>ไมเกรชันจะถูกส่ง ตรวจยืนยัน และเรียกใช้บนทุกเครื่องปลายทางด้วยรหัสการเรียกใช้ร่วมกันหนึ่งรหัส</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>ถ่ายโอนเท่านั้น</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ไฟล์จะถูกส่งและตรวจยืนยัน โดยไม่มีการเรียกใช้สิ่งใด (วิธีเดียวสำหรับเครื่องปลายทาง FTP)</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>แบ่งเป็นระยะ</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>ทีละระยะตามลำดับของสภาพแวดล้อม (dev, stage, beta, production ...): ดีพลอยระยะแรกก่อน จากนั้นด่านจะรอจนกว่าจะมีผู้อนุมัติระยะถัดไป ภายในแต่ละระยะจะสำเร็จทั้งหมดหรือไม่ทำเลย</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>เฉพาะไมเกรชันเหล่านี้</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>ไม่บังคับ: รหัสไมเกรชัน คั่นด้วยจุลภาค เว้นว่าง: ทุกไมเกรชันของเว็บไซต์และส่วนขยาย</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>ตรวจล่วงหน้าเท่านั้น</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ใช่ ดีพลอยตอนนี้</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>การดีพลอยที่ได้ส่งหรือเรียกใช้บางสิ่ง ล่าสุดอยู่ก่อน (การตรวจล่วงหน้าไม่เก็บรายงาน)</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>ถ่ายโอนเท่านั้น</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>แบ่งเป็นระยะ %stages ระยะ</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ไม่ตรงกัน</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>ยังไม่มีการดีพลอย</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>การดีพลอย %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ทุกเครื่องปลายทางของการดีพลอยพร้อมสถานะ การดีพลอยที่เริ่มจากที่นี่จะทำงานต่อเบื้องหลังเมื่อปิดหน้านี้ เปิดหน้านี้อีกครั้งเพื่อติดตาม</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>การดีพลอยทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>การตรวจล่วงหน้า</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ระยะถัดไป</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>กำลังตรวจสอบการตั้งค่าและข้อมูลรับรอง</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>ตรวจล่วงหน้า: กำลังอ่านสถานะของทุกเครื่องปลายทาง</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>กำลังส่งไฟล์ไมเกรชัน</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>กำลังตรวจยืนยันสิ่งที่ส่งถึง</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>กำลังเรียกใช้ไมเกรชันบนทุกเครื่องปลายทาง</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>กำลังถอนกลับเครื่องปลายทาง</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>การดีพลอยสิ้นสุดแล้ว กำลังโหลดรายงาน</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>ไม่สามารถติดตามความคืบหน้าได้ โปรดโหลดหน้านี้ใหม่เพื่อดูความคืบหน้าของการดีพลอย</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>เฟส</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>หน้านี้ติดตามการดีพลอยตามความคืบหน้า</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>ตรงกัน</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>ระยะทั้งหมด</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ระยะ %stage รออยู่ที่ด่าน</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>ด่าน %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>อนุมัติโดย %user เมื่อ %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>ระยะ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>ไฟล์ที่ส่งแล้ว</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>เวอร์ชันเคอร์เนล</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>นำไปใช้แล้ว: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>จะนำไปใช้: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>เฟสทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>ด่าน: ระยะ %stage จาก %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>ระยะก่อนหน้าดีพลอยแล้ว โปรดตรวจสอบ แล้วอนุมัติระยะถัดไป: เครื่องปลายทางของระยะนั้นจะถูกตรวจสอบอีกครั้งและดีพลอย สำเร็จทั้งหมดหรือไม่ทำเลย</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ถัดไป</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ใช่ ดีพลอยระยะถัดไปตอนนี้</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>อนุมัติ</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ย้อนกลับการดีพลอยนี้</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>ทุกเครื่องปลายทางที่นำไปใช้แล้ว (%list) จะกลับไปยังจุดคืนค่าที่สร้างไว้ก่อนการเรียกใช้ พร้อมกันทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ใช่ ย้อนกลับการดีพลอยนี้ตอนนี้</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>วางแผนไว้</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ถ่ายโอนแล้ว</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ดีพลอยแล้ว</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>รออยู่ที่ด่าน</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>เลือกแล้ว</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>เตรียมแล้ว</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>พร้อม</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>รอระยะของตน</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ส่งไฟล์แล้ว</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ตรวจยืนยันแล้ว</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ล้มเหลว คืนค่าตัวเองแล้ว</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ไม่เปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ไม่ได้ดีพลอย</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>เข้าถึงไม่ได้</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>เครื่องปลายทางตอบกลับแล้ว</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>ไม่สามารถใช้เครื่องปลายทางนี้ได้ในขณะนี้</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done เสร็จแล้ว, %pending รอดำเนินการ, %failed ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>ล็อก</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>มีการเรียกใช้ถือล็อกอยู่ที่นั่น</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ว่าง</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage จาก %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>โปรดเลือกเครื่องปลายทางที่จะทดสอบ</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>โปรดทำเครื่องหมาย “ใช่ นำเครื่องปลายทางนี้ออก” ก่อน</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>ไม่สามารถนำเครื่องปลายทางออกได้: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>ไม่สามารถบันทึกเครื่องปลายทางได้: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ไม่สามารถอ่านไฟล์การตั้งค่าได้: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>โปรดเลือกเครื่องปลายทางหรือกลุ่มอย่างน้อยหนึ่งรายการ</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>เครื่องปลายทางที่เลือกไว้ไม่อยู่ในการตั้งค่าแล้ว โปรดโหลดหน้านี้ใหม่</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>โปรดทำเครื่องหมาย “ใช่ ดีพลอยตอนนี้” ก่อน</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>เครื่องปลายทาง FTP ไม่สามารถเรียกใช้ไมเกรชันได้ โปรดเลือก “ถ่ายโอนเท่านั้น” หรือไม่ต้องรวมไว้</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ไมเกรชันที่จะดีพลอยคือรหัสไมเกรชัน คั่นด้วยจุลภาค</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>การดีพลอยยังดำเนินอยู่ โปรดรอจนกว่าจะสิ้นสุด</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>การดีพลอยนี้ไม่รอที่ด่าน</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ไม่มีเครื่องปลายทางใดนำการดีพลอยนี้ไปใช้ จึงไม่มีสิ่งใดให้ย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>โปรดทำเครื่องหมาย “ใช่ ดีพลอยระยะถัดไปตอนนี้” ก่อน</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>โปรดทำเครื่องหมาย “ใช่ ย้อนกลับการดีพลอยนี้ตอนนี้” ก่อน</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>มีเครื่องปลายทางที่มีรหัส %id อยู่แล้ว</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>พอร์ตคือตัวเลขตั้งแต่ 1 ถึง 65535</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>สภาพแวดล้อมคือคำที่ประกอบด้วยตัวอักษร ตัวเลข - และ _ (alpha, dev, stage, beta, production ...)</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>กลุ่มคือคำที่ประกอบด้วยตัวอักษร ตัวเลข - และ _ (ห้ามเป็น all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>ไม่สามารถอ่านข้อมูลรับรองได้ในขณะนี้: %problem โปรดบันทึกไว้ใน ตั้งค่าระบบ &gt; ข้อมูลลับ (หรือตั้งค่าตัวแปร) ก่อนการดีพลอยครั้งแรก</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>เครื่องปลายทาง FTP รับได้เฉพาะไฟล์ การดีพลอยไปยังเครื่องนั้นจึงเป็นแบบ “ถ่ายโอนเท่านั้น” และต้องเรียกใช้ไมเกรชันที่นั่นด้วยตนเอง</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>เครื่องปลายทาง %id ไม่อยู่ใน settings/override/migration.ini.append.php โปรดนำออกจากที่ที่กำหนดไว้</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>ลงชื่อเข้าใช้ผ่าน FTP และอ่าน index.php แล้ว ไม่สามารถอ่านสถานะไมเกรชันของเครื่องปลายทาง FTP ได้</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>แก้ไขเมื่อ</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>สร้างเมื่อ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ชื่อ</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>คลาส</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ส่วน</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>ผู้สร้าง</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>เนื้อหาล่าสุด</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>เนื้อหาที่สร้างและแก้ไขล่าสุดของทั้งไซต์ ใหม่สุดก่อน: สิ่งที่ผู้เยี่ยมชมส่งมา สิ่งที่ถูกระงับไว้เพื่อตรวจทาน ฉบับร่างที่รอการเผยแพร่ เลือกรายการเพื่อปลดการระงับ ระงับ ซ่อน แสดง นำออก หรือย้ายไปยังส่วนหรือสถานะอื่น</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>ไม่สามารถอ่านรายการได้: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>ยังไม่ได้ตั้งค่าการระงับเพื่อตรวจทาน จึงไม่มีสิ่งใดถูกระงับและไม่มีการดำเนินการระงับให้ใช้ ขั้นตอนการอัปเกรด 6.0.15-review-hold จะตั้งค่าให้: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>กรองรายการ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ตั้งแต่</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ถึง</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>วันที่</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>สร้างเมื่อ (เผยแพร่ครั้งแรก)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>สถานะการเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>เผยแพร่แล้ว</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>ฉบับร่าง ยังไม่เคยเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>รอดำเนินการ (รอการอนุมัติหรือรอถึงวันที่)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>อยู่ในถังขยะ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ถูกระงับไว้เพื่อตรวจทาน</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>ถูกระงับ</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>ไม่ถูกระงับ</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>ซ่อนอยู่</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>มองเห็นได้</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>ส่งเมื่อ</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>การเข้าถึงไซต์ใดก็ได้</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>เฉพาะสิ่งที่การตรวจสอบบันทึกไว้</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>ขณะนี้: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>ชื่อเข้าสู่ระบบหรือ ID ผู้ใช้</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>กรอง</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ล้างตัวกรอง</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>รายการ</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ถึง %to จาก %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ไม่มีรายการ</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(อ่านใน %ms มิลลิวินาที)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>การดำเนินการกับรายการที่เลือก</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>เลือกทั้งหมดในหน้านี้</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>เลือกแล้ว %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>การดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>เลือกการดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>ปลดการระงับ</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ระงับไว้เพื่อตรวจทาน</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>ซ่อน</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>แสดง</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ย้ายไปถังขยะ</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>ลบ</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>กำหนดส่วน</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>กำหนดสถานะ</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>เหตุผล</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>จำเป็นสำหรับการระงับ เก็บไว้กับการระงับและในบันทึกการตรวจสอบ</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>เลือกส่วน</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>สถานะ</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>เลือกสถานะ</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>ใช้กับรายการที่เลือก</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>แต่ละรายการจะถูกตรวจสอบกับสิทธิ์ของคุณเอง การย้ายไปถังขยะและการลบจะขอให้คุณยืนยัน มากกว่า %count รายการจะทำงานในเบื้องหลัง</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>เลือก</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>การเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>ส่งจาก</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>เลือก %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ยังไม่มี</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ไม่มีชื่อ)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ฉบับร่าง</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>รอดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>ถูกซ่อนโดยรายการแม่</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>ถูกระงับ: การส่งใหม่</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>เวอร์ชัน %version รอดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>เวอร์ชัน %version กำลังแก้ไข</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>ฉบับร่าง เวอร์ชัน %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>เวอร์ชัน %version เผยแพร่แล้ว</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>กำหนดไว้สำหรับ %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ไม่มีที่อยู่</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ไม่ได้บันทึก</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ไม่มีสิ่งใดตรงกับตัวกรองเหล่านี้</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>แสดงทั้งหมด</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>ยังไม่มีเนื้อหา</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ต่อหน้า</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>แสดง %count รายการต่อหน้า</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>ที่อยู่และเบราว์เซอร์ของการส่งมาจากดัชนีการตรวจสอบ ซึ่งไม่มีให้ใช้ที่นี่: คอลัมน์จะแสดงว่า "ไม่ได้บันทึก"</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ที่อยู่และเบราว์เซอร์คือสิ่งที่การตรวจสอบบันทึกไว้สำหรับรายการนั้น (การระงับอัตโนมัติบันทึกไว้เสมอ ส่วนการเผยแพร่และการสร้างจะบันทึกเฉพาะเมื่อเปิดใช้) ตามที่การตั้งค่าความเป็นส่วนตัวเก็บรักษาไว้</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count รายการ</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>การลบจะนำรายการออกอย่างถาวร พร้อมทุกเวอร์ชันและคำแปล ไม่สามารถยกเลิกได้</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>รายการจะถูกย้ายไปถังขยะ ซึ่งสามารถกู้คืนได้จากที่นั่น</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>แต่ละรายการจะถูกตรวจสอบกับสิทธิ์ของคุณเอง รายการที่มีรายการย่อยจะไม่ถูกเปลี่ยนแปลง (ให้นำออกในโครงสร้างเนื้อหา) คุณจะถูกขอให้ยืนยันว่าเป็นตัวคุณเอง</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>การดำเนินการนี้ทำงานในเบื้องหลัง: หน้าความคืบหน้าจะเปิดขึ้น และผลลัพธ์ของแต่ละรายการจะแสดงเมื่อเสร็จสิ้น</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>รายการที่เลือก</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>และอีก %count รายการ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ยกเลิก</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>ไม่มีการดำเนินการใด</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>เหตุผล: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>การดำเนินการยังทำงานอยู่ในเบื้องหลัง</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>ความคืบหน้า</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>การดำเนินการเบื้องหลังล้มเหลว: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>เสร็จสิ้น</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ถูกปฏิเสธ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>แยกตามรายการ</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>รายการ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ผลลัพธ์</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>สาเหตุ</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>กลับไปที่รายการ</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ตั้งค่าระบบ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>ไม่ได้ทำสิ่งใด</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>ยืนยัน</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>เลือกการดำเนินการ</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>เลือกอย่างน้อยหนึ่งรายการ</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>เลือกได้ไม่เกิน 1000 รายการต่อครั้ง</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ระบุเหตุผลที่ระงับรายการ</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>เลือกส่วน</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>เลือกสถานะ</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ไม่สามารถอ่านแบบฟอร์มได้</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>แดชบอร์ด</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>เนื้อหาล่าสุด</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>ไม่สามารถอ่านจำนวนได้: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ถูกระงับไว้เพื่อตรวจทาน</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>ใหม่วันนี้</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ยังไม่ได้ตั้งค่าการระงับเพื่อตรวจทาน (ขั้นตอนการอัปเกรด 6.0.15-review-hold)</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>เนื้อหาล่าสุดทั้งหมด</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>คุณไม่ได้รับอนุญาตให้ดำเนินการตรวจกลั่นกรอง (moderation/act)</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>การดำเนินการตรวจกลั่นกรองไม่สมบูรณ์: %errors</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>การตรวจกลั่นกรอง: %action กับ %count ออบเจ็กต์</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done จาก %total ออบเจ็กต์: สำเร็จ %ok ถูกปฏิเสธ %refused ล้มเหลว %failed</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>สำเร็จ %ok ถูกปฏิเสธ %refused ล้มเหลว %failed</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>รายการนี้ไม่มีอยู่แล้ว</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>รายการนี้ไม่มีตำแหน่ง (ยังไม่ได้เผยแพร่)</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>คุณไม่ได้รับอนุญาตให้ซ่อนรายการนี้ (content/hide)</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>คุณไม่ได้รับอนุญาตให้แสดงรายการนี้ (content/hide)</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>รายการนี้ถูกซ่อนอยู่แล้ว</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>รายการนี้ไม่ได้ถูกซ่อน</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>ซ่อนแล้ว</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>แสดงแล้ว</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>รายการนี้อยู่ในถังขยะ: ล้างหรือกู้คืนได้ที่นั่น</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ฉบับร่างที่ไม่เคยเผยแพร่ไม่สามารถย้ายไปถังขยะได้: ให้ลบแทน</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>คุณไม่ได้รับอนุญาตให้ลบรายการนี้ (content/remove)</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>ลบแล้ว</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>คุณไม่ได้รับอนุญาตให้นำรายการนี้ออก (content/remove)</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>รายการนี้มีรายการย่อย: ให้นำออกในโครงสร้างเนื้อหา ซึ่งแสดงรายการย่อยเหล่านั้นไว้</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>รายการนี้ไม่ได้ถูกนำออก (เวิร์กโฟลว์อาจระงับการนำออกไว้)</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ย้ายไปถังขยะแล้ว</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>ไม่มีส่วนนี้</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>รายการนี้อยู่ในส่วนนี้อยู่แล้ว</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>คุณไม่ได้รับอนุญาตให้กำหนดส่วนนี้ (section/assign)</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>ไม่ได้กำหนดส่วน</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>กำหนดส่วนแล้ว</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>ไม่มีสถานะนี้</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>รายการนี้อยู่ในสถานะนี้อยู่แล้ว</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>คุณไม่ได้รับอนุญาตให้กำหนดสถานะนี้ (state/assign)</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>ไม่ได้กำหนดสถานะ (เวิร์กโฟลว์อาจระงับการเปลี่ยนแปลงไว้)</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>กำหนดสถานะแล้ว</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>ไม่มีการดำเนินการดังกล่าว</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ยังไม่ได้ตั้งค่าการระงับเพื่อตรวจทาน (ขั้นตอนการอัปเกรด 6.0.15-review-hold)</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ระบุเหตุผลที่ระงับรายการนี้</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>รายการนี้ถูกระงับอยู่แล้ว</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>คุณไม่ได้รับอนุญาตให้ระงับรายการนี้ (state/assign)</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ไม่ได้วางการระงับ (เวิร์กโฟลว์อาจระงับการเปลี่ยนแปลงไว้)</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>ระงับแล้ว</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>รายการนี้ไม่ได้ถูกระงับ</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>คุณไม่ได้รับอนุญาตให้ปลดการระงับรายการนี้ (state/assign)</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ไม่ได้ปลดการระงับ (เวิร์กโฟลว์อาจระงับการเปลี่ยนแปลงไว้)</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>ปลดการระงับแล้ว แต่ยังซ่อนอยู่: คุณไม่ได้รับอนุญาตให้แสดงรายการนี้ (content/hide)</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>ปลดการระงับแล้ว</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>เป้าหมายทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>การเผยแพร่ล่าสุด</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>เผยแพร่สำเนาแบบคงที่ของไซต์ของคุณบน GitHub Pages ได้ฟรี:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>หน้าที่ล้าสมัย</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>การเผยแพร่แบบคงที่</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>การเผยแพร่แบบคงที่ถูกปิดอยู่</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>เป้าหมาย</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ไม่สามารถอ่านเป้าหมายได้: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>มีงานกำลังทำงานอยู่</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>บิลด์ที่รอตรวจสอบ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ซ่อนส่วนนี้</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>สร้างเป้าหมาย</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ไม่เคย</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>อ่านบทแนะนำ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>เพิ่ม %added, เปลี่ยน %changed, ลบ %removed</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes จาก %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>อีก %count รายการไม่ได้แสดงในรายการ</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>เขียนแล้ว %pages หน้า</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path มีขนาด %size เกินกว่าที่โฮสต์อนุญาตต่อไฟล์</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ของขีดจำกัด</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds วินาที</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag คือการเผยแพร่ที่ไซต์ใช้อยู่ในขณะนี้</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: งาน %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/คลังโค้ด/ สำหรับไซต์โปรเจกต์ GitHub; เว้นว่างสำหรับโดเมนของคุณเองหรือไซต์ผู้ใช้</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. ไซต์</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. โฮสต์</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. การลงชื่อเข้าใช้คลังโค้ด</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. คลังโค้ด</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. ลิงก์และพาธฐาน</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. โดเมนของคุณเอง</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. สิ่งที่บิลด์มี</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. เมื่อใดที่จะเผยแพร่</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. ตรวจทานและบันทึก</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>ไซต์โปรเจกต์ GitHub อยู่ใต้ /&lt;repository&gt;/ ลิงก์แบบสัมพัทธ์ใช้งานได้ทั้งที่นั่นและที่อื่น</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>บิลด์จะดึงทุกหน้าของ %site ตามที่ผู้เยี่ยมชมที่ไม่ได้ลงชื่อเข้าใช้เห็น เขียนลิงก์ใหม่ คัดลอกไฟล์ และเขียนผลลัพธ์ลงในโฟลเดอร์ของเป้าหมาย จะไม่มีสิ่งใดถูกเผยแพร่จนกว่าคุณจะตรวจสอบบิลด์และกด เผยแพร่</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>นิพจน์ cron เช่น 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>คีย์ดีพลอยถูกเก็บไว้เป็นข้อมูลลับ %secret</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>คีย์ดีพลอยอนุญาตให้การติดตั้งนี้พุชไปยังคลังโค้ดเดียวผ่าน SSH เท่านั้นและไม่ไปที่อื่น ครึ่งส่วนตัวของคีย์อยู่ใน ตั้งค่าระบบ &gt; ข้อมูลลับ จะแสดงเฉพาะครึ่งสาธารณะเท่านั้น</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>คีย์ดีพลอยที่สร้างสำหรับเป้าหมายนี้</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>คีย์ดีพลอยลงชื่อเข้าใช้ผ่าน SSH: เปลี่ยนที่อยู่ git เป็นแบบ SSH (git@github.com:owner/repo.git)</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>มีงานกำลังทำงานอยู่ เริ่มโดย %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>งานของเป้าหมายนี้ยังทำงานอยู่ (%detail) โปรดรอให้เสร็จ</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>งานของเป้าหมายนี้ยังทำงานอยู่ โปรดรอให้เสร็จ</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>ลิงก์จากหน้า /news/ ไปยังหน้า /about-us/team จะถูกเขียนเป็น</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>สร้างคีย์ดีพลอยใหม่แล้ว เพิ่มครึ่งสาธารณะของคีย์ลงในคลังโค้ดตอนนี้</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>หน้าที่ยังมีเอาต์พุตดีบัก โทเค็นฟอร์ม หรือรหัสเซสชันหลงเหลืออยู่หลังการตัดออก จะไม่ถูกเผยแพร่เลย</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>การย้อนกลับเหมาะสำหรับผู้เชี่ยวชาญ: ทำเครื่องหมาย &quot;ฉันรู้ว่าสิ่งนี้เปลี่ยนอะไร&quot; และพิมพ์ชื่อของแท็กอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>ไซต์มีขนาดได้สูงสุด %site ไฟล์หนึ่งได้สูงสุด %file และมีทราฟฟิกประมาณ 100 GB ต่อเดือน สำหรับแผนฟรี คลังโค้ดต้องเป็นสาธารณะ GitHub Pages ไม่ได้มีไว้สำหรับร้านค้าหรือธุรกรรมเชิงพาณิชย์อื่น ๆ</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>เป้าหมายคือไซต์หนึ่งที่เผยแพร่ไปยังคลังโค้ด git หนึ่ง ที่นี่จะไม่มีการบิลด์หรือเผยแพร่ใด ๆ: บันทึก จะเขียนการตั้งค่าลงใน settings/override/staticcache.ini.append.php</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>เป้าหมายคือไซต์หนึ่งที่เผยแพร่ไปยังที่หนึ่ง เช่น ไซต์สาธารณะของคุณบน GitHub Pages</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>โทเค็นจาก ตั้งค่าระบบ &gt; ข้อมูลลับ</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>เวิร์กโฟลว์ของคลังโค้ดจะเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>เพิ่มคีย์สาธารณะนี้ลงในคลังโค้ดพร้อมสิทธิ์เขียน GitHub: Settings &gt; Deploy keys &gt; Add deploy key แล้วทำเครื่องหมาย Allow write access</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>เพิ่มแล้ว</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>โฮสต์ git อื่น</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>มีโปรเซสอื่นกำลังทำงานกับเป้าหมายนี้: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>ย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>พาธฐาน</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ก่อนหน้า</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>ใต้พาธฐาน</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>แบรนช์</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>ลิงก์เสีย</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>ลิงก์เสียในบิลด์</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>บิลด์</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>บิลด์ %id โดย %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>บิลด์ %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>บิลด์ตอนนี้</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>บิลด์ที่รอตรวจสอบ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>โดย</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>ด้วยตนเอง ที่นี่</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ยกเลิก</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>เปลี่ยน</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>เปลี่ยนแล้ว</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>การเปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>ตรวจสอบก่อน</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ตรวจสอบการตั้งค่าเหล่านี้</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>ตรวจสอบสิ่งที่บิลด์เปลี่ยนแปลง ดูบิลด์ แล้วเผยแพร่หรือทิ้งไป</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>เลือกการเผยแพร่ที่จะย้อนกลับไป</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>จะมาในรุ่นถัดไป</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>คอมมิต</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>คอมมิต</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>คอมมิตบิลด์ ติดแท็ก และพุชไปยัง %remote การพุชจะไม่ถูกบังคับเลย คุณสามารถย้อนกลับไปยังการเผยแพร่ใดก็ได้ในภายหลัง</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>เทียบกับโฟลเดอร์ก่อนหน้า: เพิ่ม %added, เปลี่ยน %changed, ลบ %removed, ไม่เปลี่ยน %unchanged</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>เทียบกับการเผยแพร่ล่าสุด</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ข้อมูลรับรอง</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>โดเมนของคุณเอง</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>เอาต์พุตดีบัก โทเค็นฟอร์ม รหัสเซสชัน และ nonce จะถูกนำออกเสมอ</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>คีย์ดีพลอย</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>คีย์ดีพลอยของ %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ทิ้ง</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>ทิ้งบิลด์</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>โดเมน</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>เว้นว่าง: ที่อยู่ของไซต์ หรือที่อยู่ภายในของไซต์เดียวกัน</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>สิ้นสุดเมื่อ</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>ทุกลิงก์เริ่มต้นด้วยพาธฐาน</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>การเผยแพร่แต่ละครั้งคือคอมมิตที่มีแท็ก static/%id/&lt;n&gt; การย้อนกลับจะสร้างคอมมิตใหม่ด้วยไฟล์ของการเผยแพร่ก่อนหน้า: ประวัติยังคงอยู่ ไม่มีแท็กใดถูกย้าย และไม่มีการบังคับใด ๆ</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>ไฟล์เพิ่มเติม</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>ดึงหน้าจาก</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ไฟล์</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ไฟล์</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ไฟล์ที่ขาดหาย</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>ไฟล์ของ</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>ไฟล์ที่ไม่สามารถรวบรวมได้</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ลายนิ้วมือ</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>โฟลเดอร์</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>สำหรับที่อยู่ SSH คีย์จะถูกสร้างหลังบันทึก คุณต้องเพิ่มครึ่งสาธารณะของคีย์ลงในคลังโค้ด</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>สำหรับที่อยู่ https:// GitHub: โทเค็นแบบละเอียด (fine-grained) ที่มีสิทธิ์ Contents อ่านและเขียนบนคลังโค้ด</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>สำหรับผู้เชี่ยวชาญ ไซต์สาธารณะจะเปลี่ยนทันทีที่พุชเสร็จ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ฟอร์ม</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>โฮสติ้งฟรีจากคลังโค้ด GitHub</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>จากแบรนช์</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>ที่อยู่ git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages อนุญาตไซต์ขนาด %site และไฟล์ขนาด %file</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>ขีดจำกัดของ GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages เผยแพร่ไฟล์ตามที่เป็นอยู่ (จำเป็นสำหรับไฟล์ที่ขึ้นต้นด้วย _)</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ให้บริการแบรนช์ตามที่ถูกพุช ค่าเริ่มต้น</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, เซิร์ฟเวอร์ของคุณเอง: คลังโค้ด git ใดก็ได้</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>ย้อนกลับไปยังการเผยแพร่ก่อนหน้า</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>วิธีใช้</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>วิธีใช้ตัวช่วยสร้าง</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>ซ่อน</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ประวัติ</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>ประวัติของ %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>โฮสต์</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages รับบิลด์อย่างไร</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>ฉันตรวจสอบการเปลี่ยนแปลงแล้ว</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>ฉันรู้ว่าสิ่งนี้เปลี่ยนอะไร</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>รหัส</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>ถูกปิดอยู่: ไม่สามารถบิลด์ได้จนกว่าจะเปิด</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>ทำงานในเบื้องหลังในฐานะ %user คุณสามารถปิดหน้านี้ได้</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>งาน %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>เก็บไว้เป็นข้อมูลลับ %secret</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ชนิด</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>การเผยแพร่ล่าสุด</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ไม่รวมหน้าเหล่านี้</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>ไม่รวมส่วนเหล่านี้</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>ลิงก์</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>ลิงก์ที่เขียนใหม่</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>ไซต์จริง</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>ดูบิลด์</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>อักษรตัวพิมพ์เล็ก ตัวเลข _ และ - เช่น github-public ใช้เป็นชื่อของโฟลเดอร์และแท็ก (static/&lt;id&gt;/&lt;n&gt;) และเปลี่ยนภายหลังไม่ได้</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>สร้างคีย์ใหม่</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>สร้างเป้าหมาย</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>สร้างคีย์</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>สร้างคลังโค้ดบนโฮสต์ก่อน คลังโค้ดว่างก็ใช้ได้</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>รายการไฟล์</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ข้อความ</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>หน้าส่วนใหญ่</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ชื่อ</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>ชื่อของโทเค็นใน ตั้งค่าระบบ &gt; ข้อมูลลับ</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>เป้าหมายใหม่</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ถัดไป</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ไม่</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>ยังไม่มีคอมมิต</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ไม่ได้สร้างคีย์: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>ไม่พบไฟล์ไบนารีบรรทัดคำสั่ง php ตั้งค่า migration.ini [AdminSettings] PhpCliPath เป็นพาธเต็ม</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>ยังไม่มีแท็ก</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>ยังไม่มีเป้าหมาย</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ไม่มี</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>ไม่อยู่ในบิลด์</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>ยังไม่มีการเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>ยังไม่มีการเผยแพร่: ทุกไฟล์เป็นไฟล์ใหม่</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>แจ้งเตือน</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>ตามกำหนดการ</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>บนคอนโซล</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>บนเซิร์ฟเวอร์: ./console exp:static:serve %id ให้บริการแบบเดียวกัน</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>หนึ่งพาธต่อบรรทัด * ตรงกับส่วนใดก็ได้: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>เก็บเฉพาะชื่อไว้กับเป้าหมาย ตัวโทเค็นหรือคีย์ยังคงอยู่ใน ตั้งค่าระบบ &gt; ข้อมูลลับ และไม่ปรากฏในบันทึกใด ๆ</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>เฉพาะสิ่งที่หน้าอ้างถึง</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>เฉพาะกับโทเค็น env:NAME จะอ่านตัวแปรสภาพแวดล้อมของเซิร์ฟเวอร์แทน</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>เปิดตัวอย่าง</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>เปิดบิลด์ตามที่โฮสต์จะให้บริการ จากโฟลเดอร์ของเป้าหมาย ลิงก์ใช้ได้สำหรับคุณเป็นเวลาหนึ่งชั่วโมง</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>ไม่บังคับ เว้นว่าง: สิ่งที่ถูกเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>ไม่บังคับ หากมีโดเมน ไซต์จะให้บริการที่รากของโดเมน</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>เอาต์พุต</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>หน้า</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>หน้าของเป้าหมาย</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>หน้าที่ถูกปฏิเสธ</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>การประมวลผลภายหลัง</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>แสดงตัวอย่าง</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>แสดงตัวอย่างและเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>แสดงตัวอย่างและเผยแพร่ %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>แสดงตัวอย่างบิลด์</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ความคืบหน้า</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>ที่อยู่สาธารณะ</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>คีย์สาธารณะ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>เผยแพร่</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>เผยแพร่สำเนาแบบคงที่ของไซต์ไปยัง GitHub Pages หรือโฮสต์ git ใดก็ได้: บิลด์ ตรวจสอบการเปลี่ยนแปลง เผยแพร่ และย้อนกลับไปยังการเผยแพร่ก่อนหน้าเมื่อจำเป็น</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>การเผยแพร่ที่จะย้อนกลับไป</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>การเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>พุช</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>อ่านบทแนะนำ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>บันทึกการทำงาน</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ถูกปฏิเสธ</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>แบบสัมพัทธ์</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>โหลดใหม่</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>ลบแล้ว</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>แทนที่คีย์: คีย์เก่าจะใช้งานไม่ได้</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>รายงาน</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>รายงานของบิลด์</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>คลังโค้ด</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ตรวจทาน</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>การตรวจทานจะตรวจสอบทุกการตั้งค่าและแสดงบรรทัดที่จะถูกเขียน ยังไม่มีการบันทึกใด ๆ</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>การย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>บันทึก</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>กำหนดการ</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>หน้าค้นหา</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>รหัสส่วน คั่นด้วยเครื่องหมายจุลภาค</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>ส่งไปยังไซต์จริง</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>การตั้งค่า</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>การตั้งค่า</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>การตั้งค่าของ %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ตั้งค่าระบบ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ตั้งค่าระบบ &gt; ข้อมูลลับ</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>แสดงในรายการ เช่น &quot;ไซต์สาธารณะบน GitHub Pages&quot;</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>การลงชื่อเข้าใช้ด้วย GitHub App จะมาพร้อมกับการผสานรวม GitHub</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>ไซต์</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>ไซต์ที่จะเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ขนาด</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>ขนาดและขีดจำกัด</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>ขนาดของบิลด์</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>หน้าที่ล้าสมัย</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>เริ่มเมื่อ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>เริ่มโดย %user เมื่อ %time</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>สถานะ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>การเผยแพร่แบบคงที่</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>การเผยแพร่แบบคงที่ถูกปิดอยู่</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>การเผยแพร่แบบคงที่ถูกปิดอยู่</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>การเผยแพร่แบบคงที่ถูกปิดอยู่ เปิดใน ตั้งค่าระบบ &gt; การเผยแพร่แบบคงที่ ก่อน</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>การเผยแพร่แบบคงที่เปิดอยู่</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>ขั้นตอนที่ %step จาก %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ขั้นตอน</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>การตัดออก</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ปิด</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>เปิด</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>เปิดการเผยแพร่แบบคงที่</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>แท็ก</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>แท็ก</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>เป้าหมาย</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>สามารถสร้างและเปลี่ยนเป้าหมายได้ แต่จะไม่มีการบิลด์หรือเผยแพร่ใด ๆ จนกว่าจะเปิด</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>บอกเครื่องมือค้นหาว่าควรอ่านอะไร</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>ไม่สามารถทิ้งบิลด์ได้: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>บิลด์เหมือนกับการเผยแพร่ล่าสุด: ไม่มีอะไรให้เผยแพร่</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>บิลด์ถูกทิ้งแล้ว: โฟลเดอร์กลับมามีการเผยแพร่ล่าสุดอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ค่าเริ่มต้นเหมาะกับไซต์ส่วนใหญ่</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>โฟลเดอร์มีบิลด์ที่ยังไม่ได้เผยแพร่ บิลด์ใหม่จะแทนที่บิลด์นั้น</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>ไม่สามารถเขียนโฟลเดอร์ของงานได้: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ไม่สามารถเตรียมงานได้: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ไม่สามารถเริ่มงานได้</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>งานสิ้นสุดแล้ว กำลังโหลดรายงาน</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>งานต้องการผู้ใช้ที่ลงชื่อเข้าใช้</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>งานเริ่มแล้วแต่ไม่ได้รายงานรหัสโปรเซส ตรวจสอบ %detail</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>คีย์</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>ไฟล์ที่ใหญ่ที่สุด: %path, %size</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>บรรทัดที่จะถูกเขียน</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>รายการหน้าสำหรับเครื่องมือค้นหา ต้องมีที่อยู่สาธารณะ</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>หน้าจะถูกดึงตามที่ผู้เยี่ยมชมที่ไม่ได้ลงชื่อเข้าใช้เห็น siteaccess สำหรับการดูแลระบบและการแก้ไขจะไม่ถูกเสนอให้เลือก</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>ไม่สามารถติดตามความคืบหน้าได้ โหลดหน้าใหม่เพื่อดูสถานะของงาน</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>ครึ่งสาธารณะของคีย์:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>รากของแบรนช์</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>ที่เก็บข้อมูลลับยังไม่ได้ตั้งค่า (./console exp:upgrade --apply จะสร้างตาราง) จึงไม่สามารถเก็บคีย์ได้</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>เซิร์ฟเวอร์ลงชื่อเข้าใช้เอง (ด้วยคีย์ SSH หรือตัวช่วยข้อมูลรับรองของตนเอง) หรือคลังโค้ดอยู่บนเซิร์ฟเวอร์นี้</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>ไม่สามารถเขียนการตั้งค่าได้: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>การตั้งค่าถูกต้อง บรรทัดเหล่านี้จะถูกเขียน:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ไม่สามารถอ่านไฟล์การตั้งค่าได้: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>ไซต์จะกลับไปใช้ไฟล์ของการเผยแพร่นั้น บิลด์ที่ยังไม่ได้เผยแพร่ต้องถูกเผยแพร่หรือทิ้งก่อน</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>หน้าของไซต์เองสำหรับที่อยู่ที่ไม่มีอยู่</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ไม่สามารถบันทึกเป้าหมายได้: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>เป้าหมายยังไม่ลงชื่อเข้าใช้ด้วยคีย์นี้: เลือก &quot;คีย์ดีพลอยที่สร้างสำหรับเป้าหมายนี้&quot; ในการตั้งค่าของเป้าหมาย</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ไม่สามารถอ่านเป้าหมายได้: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>ยังไม่มีบิลด์ให้ตรวจสอบ</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>การติดตั้งนี้ไม่มี siteaccess ส่วนหน้า siteaccess สำหรับการดูแลระบบและการแก้ไขจะไม่ถูกเผยแพร่เลย</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>หน้านี้ติดตามงานขณะดำเนินการ งานจะทำต่อในเบื้องหลังเมื่อปิดหน้า</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>เป้าหมายนี้ยังไม่มีคีย์ดีพลอย</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>เป้าหมายนี้ยังไม่เคยถูกบิลด์ที่นี่</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>เป้าหมายนี้มีแล้ว</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>ทิ้งบิลด์นี้: โฟลเดอร์กลับมามีการเผยแพร่ล่าสุดอีกครั้ง ไซต์จริงจะไม่เปลี่ยน</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>ทำเครื่องหมาย &quot;ฉันตรวจสอบการเปลี่ยนแปลงแล้ว&quot; ก่อน</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>เวลา</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ตัวกระตุ้น</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>พิมพ์ชื่อของแท็กอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>ไม่เปลี่ยน</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>เว็บฮุก</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>อะไร</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>สิ่งที่เปลี่ยน</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>แต่ละไฟล์คืออะไร เขียนเสมอ</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>สิ่งที่งานทำและบันทึกการทำงาน งานที่เริ่มที่นี่จะทำต่อในเบื้องหลังเมื่อปิดหน้านี้</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>สิ่งที่งานพิมพ์เป็นข้อผิดพลาด</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>สิ่งที่หน้าอ้างถึง และทุกรูปภาพของเนื้อหาที่เผยแพร่</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>เมื่อ</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>เมื่อการเผยแพร่ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>เมื่อการเผยแพร่สำเร็จ</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>เมื่อเนื้อหาถูกเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>ลิงก์ไปยังสิ่งที่สำเนาไม่มีจะไปที่ใด (การค้นหา การเข้าสู่ระบบ)</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>สำเนาแบบคงที่ให้บริการจากที่ใด</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>ไซต์ใดถูกเผยแพร่ และเป้าหมายชื่ออะไร</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>ใช้งานได้ใต้พาธใดก็ได้ ค่าเริ่มต้น</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>เขียนเมื่อใดก็ตามที่ตั้งโดเมนของคุณเอง</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ใช่</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>คุณสามารถบิลด์และเผยแพร่ด้วยตนเองได้เสมอ ทั้งที่นี่และบนคอนโซล</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>เฉพาะชื่อ ค่าจริงอยู่ใน ตั้งค่าระบบ &gt; ข้อมูลลับ</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ใต้ %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>สิ้นสุดโดยไม่มีรายงาน</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ไฟล์เพิ่มเติม</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ไฟล์</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages หรือ main พร้อมโฟลเดอร์ docs</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>โฮสต์ git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (กับโทเค็น) หรือ git@github.com:owner/repo.git (กับคีย์ดีพลอย) ห้ามใส่รหัสผ่านหรือโทเค็นในที่อยู่</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/ สำหรับแผนผังไซต์และลิงก์ canonical</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>รูปภาพ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ไม่เคย</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ไม่</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ไม่มีรีโมต</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ไม่มี: คอมมิตอยู่ในโฟลเดอร์</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ไม่มี: ไม่มีอะไรเปลี่ยน</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ยังไม่ได้พุช</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ไม่มีอะไรเปลี่ยน</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>หน้า</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ผ่าน</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ถูกปิดใช้งาน จึงไม่สามารถเริ่มงานที่นี่ได้ ใช้ ./console exp:static:build บนเซิร์ฟเวอร์</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>การเผยแพร่</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>เผยแพร่แล้ว</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>รอพุช</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>พุชแล้ว</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ถูกปฏิเสธ</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>แบบสัมพัทธ์</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>การย้อนกลับ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ย้อนกลับแล้ว</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>กำลังทำงาน</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>เฉพาะโฟลเดอร์</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: เขียนลงในไฟล์ CNAME ชี้ DNS ของโดเมนไปยังโฮสต์ตามที่โฮสต์อธิบาย HTTPS อาจใช้เวลาสักครู่จึงเริ่มทำงาน</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ใช่ ยังไม่ได้เผยแพร่</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App หนึ่งตัว</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>เวิร์กโฟลว์ของคลังโค้ดจะเผยแพร่ บิลด์จะเขียนไฟล์เวิร์กโฟลว์ให้ ปล่อยโฟลเดอร์ว่างไว้</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>หลังบันทึกเป้าหมายที่มีคลังโค้ด GitHub และโทเค็นหรือ GitHub App แล้ว ขั้นตอนนี้จะสร้างคลังโค้ดและเปิด GitHub Pages ได้ มิฉะนั้นให้สร้างคลังโค้ดบน GitHub ก่อน คลังโค้ดว่างก็ได้</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>แบรนช์หรือ GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>ตรวจสอบ DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>สร้างคลังโค้ดหากยังไม่มี</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>สร้างคลังโค้ดบน GitHub แล้วเปิด GitHub Pages ในการตั้งค่าของคลังโค้ด (Settings &gt; Pages)</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>สร้างคลังโค้ด %repo เมื่อยังไม่มี (หากเลือกไว้) เปิด GitHub Pages จากแบรนช์หรือจาก GitHub Actions ตามที่บันทึกไว้ และตั้งค่าโดเมนของคุณเองกับ HTTPS โดยใช้การตั้งค่าที่บันทึกไว้ จึงควรบันทึกการเปลี่ยนแปลงก่อน</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>รายละเอียดบน GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>ป้อนโดเมนของคุณเองก่อน</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>ทุก push จะถูกตรวจกับขีดจำกัดเหล่านี้ก่อน</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>สำหรับที่อยู่ https:// บน GitHub โดย App ที่ตั้งค่าไว้สำหรับการติดตั้งนี้จะลงชื่อเข้าใช้ และต้องใช้ id ของการติดตั้ง</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages ให้บริการคลังโค้ดส่วนตัวเฉพาะในแผนแบบชำระเงินเท่านั้น</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: โดเมนย่อย (www.example.com) ต้องมีระเบียน CNAME ไปยัง &lt;owner&gt;.github.io ส่วนโดเมนหลัก (example.com) ต้องมีระเบียน A %ips</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>id การติดตั้งของ GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>บิลด์ Pages ล่าสุด</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>ขีดจำกัดและเงื่อนไข</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>จำเป็นสำหรับ GitHub Pages ในแผนฟรี</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>บน GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>ใช้กับ GitHub App เท่านั้น: ตัวเลขท้ายที่อยู่ของการติดตั้ง App บน GitHub ส่วนตัว App เองตั้งค่าใน staticcache.ini (GitHubAppId, GitHubAppKey)</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>ส่วนตัว</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>สาธารณะ</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>บันทึกเป้าหมายที่มีคลังโค้ด GitHub และโทเค็นหรือ GitHub App ก่อน</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ตั้งค่าระเบียนเหล่านี้ที่ผู้ให้บริการโดเมน:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>ตั้งค่าบน GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS ของ %domain ยังไม่ชี้ไปที่ GitHub Pages</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS ของ %domain ชี้ไปที่ GitHub Pages แล้ว</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>การเชื่อมต่อกับ GitHub ใช้ที่นี่ไม่ได้: %problem การเผยแพร่ไปยังแบรนช์ยังใช้ได้ตามปกติ ให้เปิด GitHub Pages ในการตั้งค่าของคลังโค้ด</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>ขั้นตอนของ GitHub ใช้กับเป้าหมายนี้ไม่ได้: %problem</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>สถานะของ GitHub Pages จะแสดงเมื่อใช้โทเค็นหรือ GitHub App เป็นข้อมูลรับรอง</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>ใช้โดเมนของคุณเอง</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>ควรเลือกอะไร: โทเค็น คีย์ดีพลอย หรือ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>เมื่อมีคลังโค้ด GitHub และโทเค็นหรือ GitHub App ตัวช่วยสร้างจะสร้างคลังโค้ด เปิด GitHub Pages และตั้งค่าโดเมนให้คุณได้ (ขั้นตอนที่ 4)</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>กำลังบิลด์</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>บิลด์แล้ว</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>จาก GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>จากแบรนช์ %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ยังไม่มี</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ไม่พบ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ปิด</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>ส่วนตัว</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>สาธารณะ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>อยู่ในคิว</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ไม่ทราบ</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count ใน %pages หน้า:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ไฟล์ .gz (และ .br) ข้างไฟล์ข้อความทุกไฟล์ สำหรับโฮสต์ที่ให้บริการไฟล์เหล่านี้</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>หน้าเล็ก ๆ สำหรับทุกที่อยู่เก่าและนามแฝงของหน้า เพื่อให้ลิงก์เก่ายังใช้งานได้</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>เขียนเสมอเมื่อ GitHub Actions ส่งมอบไซต์</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>รหัส SPDX เช่น CC-BY-4.0 หรือข้อความเอง</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>ตะกร้า</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>การเรียกไปยังเซิร์ฟเวอร์</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ความคิดเห็น</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>ฟอร์มที่เก็บข้อมูล</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>เวิร์กโฟลว์ GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>ช่องว่างน้อยลงและไม่มีความคิดเห็นในหน้า</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>สัญญาอนุญาตของเนื้อหา</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>เข้าสู่ระบบ</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>ฟอร์มอื่น ๆ</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>หน้าเปลี่ยนเส้นทาง</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>หน้าเปลี่ยนเส้นทาง: %count</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ค้นหา</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>ดัชนีค้นหา: %pages หน้าใน %languages</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>สไตล์ชีตและสคริปต์ที่ตั้งชื่อตามแฮชของเนื้อหา เพื่อให้เบราว์เซอร์เก็บไว้ได้</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>หน้าที่เปลี่ยนแปลง ไม่กี่นาทีหลังการเปลี่ยนแปลงครั้งล่าสุด (ส่วน cronjob staticpublish)</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>สัญญาอนุญาตของเนื้อหา จากช่องด้านล่าง</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>ทั้งไซต์ ตามเวลาของตารางเวลา (ส่วน cronjob staticpublish)</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>ส่วนเหล่านี้ของหน้าต้องใช้เซิร์ฟเวอร์ แต่ละส่วนมีทางเลือกสำรอง ตรวจสอบก่อนเผยแพร่</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>สิ่งที่ใช้งานแบบสถิตไม่ได้</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ที่เก็บคืออะไร สำหรับผู้ที่เปิดบนโฮสต์</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ข้ามไป</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ข้อความสำรอง</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>ปลายทางฟอร์มของไซต์จริง</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>ไซต์จริง</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>หน้าค้นหาของสำเนา</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ไม่สามารถส่งฟอร์มได้</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>ขอบคุณ: ส่งฟอร์มแล้ว</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ฟอร์มไม่ได้รับการยอมรับ: ตรวจสอบสิ่งที่คุณกรอกแล้วส่งอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>ลบลิงก์ไปยังหน้าที่สำเนาไม่มี</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>ลบลิงก์ไปยังส่วนผู้ดูแล</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>ข้อความของลิงก์ยังอยู่ รูปภาพ แบบฟอร์ม และลิงก์ไปยังไซต์อื่นจะไม่ถูกลบ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>เวอร์ชัน</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>การเข้าถึงไซต์ที่จะเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>การเข้าถึงไซต์</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>ที่ราก</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>ไม่มีการเข้าถึงไซต์ที่ราก: แต่ละอันอยู่ในโฟลเดอร์ของตน และรากลิงก์ไปยังพวกมัน</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>การเข้าถึงไซต์</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>เลือกการเข้าถึงไซต์หนึ่งรายการ หรือหลายรายการที่ใช้โฮสต์เดียวกันผ่านคำนำหน้า URI รายการที่รากจะให้บริการที่นั่น รายการอื่นอยู่ในโฟลเดอร์ของคำนำหน้า (/ger/) ลิงก์ระหว่างกันจะอยู่ในสำเนา การเข้าถึงไซต์สำหรับผู้ดูแลระบบจะไม่ถูกเสนอเลย</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>การเผยแพร่แบบคงที่ของ %target บน %site ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>การเผยแพร่แบบคงที่ของ %target บน %site สำเร็จ</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>อีเมลนี้ส่งโดย %site เนื่องจากเป้าหมายการเผยแพร่แบบคงที่ %target ร้องขอ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>การดีพลอย %deploy ล้มเหลวบน %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>การดีพลอย %deploy กำลังรอที่ประตูบน %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>การดีพลอย %deploy สำเร็จบน %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>อีเมลนี้ส่งโดย %site เนื่องจาก migration.ini [RemoteSettings] Notify[] ร้องขอ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>ชนิดข้อมูล (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>นับเมื่อ %time นับใหม่หลัง %minutes นาที</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>ชนิดข้อมูลจัดเก็บและแก้ไขค่าหนึ่งประเภทของแอตทริบิวต์ของคลาส เช่น บรรทัดข้อความ รูปภาพ ความสัมพันธ์ เคอร์เนลมีให้เป็นส่วนใหญ่ ส่วนขยายเพิ่มเติมอีก ที่นี่แสดงทั้งหมด ผู้ให้ และปริมาณเนื้อหาที่ใช้ ชนิดข้อมูลที่ฐานข้อมูลใช้อยู่แต่ไม่มีสิ่งใดลงทะเบียนอีกแล้วจะทำให้เนื้อหาที่ใช้ชนิดนั้นเสียหาย</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>กลุ่มคลาส</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>นับใหม่ตอนนี้แทนการใช้ตัวเลขจากไม่กี่นาทีที่ผ่านมา</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>นับใหม่</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ภาพรวม</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>ลงทะเบียนเมื่อ</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>ใช้งานอยู่</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ไม่ได้ใช้</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>ส่วนขยายที่ให้ชนิดข้อมูล</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>แอตทริบิวต์ของคลาส</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>แอตทริบิวต์ของออบเจ็กต์</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>ไม่ได้ลงทะเบียน</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>อยู่ในรายการ แต่ไม่มีไฟล์</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>มีชนิดข้อมูล %count ชนิดที่ถูกใช้แต่ไม่ได้ลงทะเบียน</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>แอตทริบิวต์ของคลาส %class_attributes รายการ และแอตทริบิวต์ของออบเจ็กต์ %object_attributes รายการ มีชนิดข้อมูลที่ไม่มีส่วนขยายหรือการตั้งค่าใดลงทะเบียนไว้ ออบเจ็กต์เหล่านั้นจึงแสดง แก้ไข หรือเผยแพร่ไม่ได้ เปิดใช้งานส่วนขยายที่ให้ชนิดข้อมูลนี้ หรือเปลี่ยนคลาส</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>แสดงเฉพาะรายการเหล่านี้</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>ค้นหาชนิดข้อมูล</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>ตัวระบุ ชื่อ คลาส PHP หรือส่วนขยาย</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>แสดง</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>ให้โดย</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>ทุกคน</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>เคอร์เนล</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ไม่มีชนิดข้อมูลที่ตรงกับตัวกรองนี้</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>แสดงทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>ส่วนขยาย</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown จาก %count ชนิดข้อมูล ใช้งานอยู่ %used</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>ฐานข้อมูลมีแอตทริบิวต์ของคลาสหรือออบเจ็กต์ที่เป็นชนิดข้อมูลเหล่านี้ แต่ content.ini ไม่ได้ระบุไว้เลย หรือไม่มีไฟล์ของมัน</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>ชนิดข้อมูลของ %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ชนิดข้อมูล</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>คลาส PHP และไฟล์</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>คลาส</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>ออบเจ็กต์</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>แฟล็ก</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ไม่มี</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>ไม่มีชนิดข้อมูลที่ตรงกับการค้นหา ล้างการค้นหา</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>แสดง %shown จาก %count ชนิดข้อมูล</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>ชนิดข้อมูลที่แสดง: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>เรียงลำดับตาม %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>นับเมื่อ %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>ชนิดข้อมูลทั้งหมด</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>หน้าช่วยเหลือ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ชนิดข้อมูลนี้ถูกใช้แต่ไม่ได้ลงทะเบียน</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>ออบเจ็กต์ของคลาสด้านล่างแสดง แก้ไข หรือเผยแพร่ไม่ได้ ตราบที่ไม่มีส่วนขยายใดลงทะเบียนชนิดข้อมูลนี้ เปิดใช้งานส่วนขยายที่ให้ชนิดนี้และเพิ่มลงใน content.ini [DataTypeSettings] AvailableDataTypes[] หรือเปลี่ยนคลาส</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ระบุชนิดข้อมูลนี้ แต่ไม่มีไดเรกทอรีชนิดข้อมูลใดมีไฟล์ของมัน ไม่มีสิ่งใดใช้งาน ให้ลบออกจาก AvailableDataTypes[] หรือเปิดใช้งานส่วนขยายของมัน</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>เกี่ยวกับชนิดข้อมูลนี้</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>ตัวระบุ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ชื่อ</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ส่วนขยาย %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ไม่มี</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>คลาส PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ไฟล์</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>ใน AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ใช่</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ไม่ใช่</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>คอลัมน์ของค่า</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>คอลัมน์ของการตั้งค่าแอตทริบิวต์ของคลาส</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>ตาราง</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>คอลัมน์และตารางหาได้จากการอ่านโค้ดของชนิดข้อมูล: เป็นแนวทาง ไม่ใช่คำรับประกัน</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>เทมเพลต</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>การเข้าถึงไซต์</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>เทมเพลต</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>พบใน</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ส่วนผู้ดูแลนี้</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ไซต์เริ่มต้น</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ไม่รวมการแทนที่: เทมเพลตแทนที่ที่ตรงตามคลาสหรือแอตทริบิวต์จะมีผลเหนือรายการเหล่านี้</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>คลาสที่ใช้ (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>ไม่มีคลาสใดมีแอตทริบิวต์ชนิดข้อมูลนี้</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>คลาส</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>แอตทริบิวต์</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>แอตทริบิวต์ของคลาส (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>แอตทริบิวต์</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>การตั้งค่า</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>จำเป็น</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>ค้นหาได้</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>แปลได้</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>รวบรวมข้อมูล</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>เนื้อหาบางส่วนที่ใช้</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>แก้ไขล่าสุดก่อน</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>แก้ไขเมื่อ</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>โหนด %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>แต่ละคำแปลมีค่าของตนเอง</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>การค้นหาทำดัชนีค่าของมัน</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>สามารถรวบรวมข้อมูลจากผู้เยี่ยมชมได้ (แบบฟอร์ม)</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>รายการสามารถเรียงตามค่านี้ได้: คีย์การเรียง %type</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>เรียงลำดับได้</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>ค่าของมันชี้ไปยังออบเจ็กต์อื่น</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>ความสัมพันธ์</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>สามารถกรอกจากสตริงธรรมดาได้ (นำเข้า, REST)</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>จากข้อความ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>สามารถกรอกจากไฟล์ได้</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>จากไฟล์</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>การตั้งค่าแอตทริบิวต์ของคลาสจะรวมอยู่ในแพ็กเกจ</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>แพ็กเกจ</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>เนื้อหา (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ถึง %to จาก %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>กรองรายการ</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>ทุกคลาส</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ส่วน</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ภาษา</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>เจ้าของ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>เผยแพร่แล้ว</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>กลับลำดับ</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ไม่มีรายการ</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ต่อหน้า</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>แสดง %count รายการต่อหน้า.</translation>
     </message>
 </context>
 </TS>

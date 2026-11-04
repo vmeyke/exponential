@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>ʻImi ʻia kēia ʻaoʻao wale nō: %from a %to o %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kēlā me kēia ʻano ʻikepili o ka Kernel a me nā pākuʻi, a me ke ʻano o ka hoʻohana ʻana o nā papa a me ka ʻike iā ia.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Nā ʻano ʻikepili</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Hiki ke kaha hoʻomanaʻo ʻia nā ʻaoʻao ʻōnaehana pū kekahi: e wehe i ka ʻaoʻao (Hoʻonohonoho, ke ala nānā, papa helu o nā mea hoʻohana ...) a koho i Kaha hoʻomanaʻo i kēia ʻaoʻao ma luna ona. He hōʻailona ʻōmaʻomaʻo kaʻa ko ia mau kaha hoʻomanaʻo.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>ʻAʻole hiki hou iā ʻoe ke wehe i kēia ʻaoʻao ma ʻaneʻi. E wehe i ke kaha hoʻomanaʻo, a i ʻole e noi i luna hoʻomalu no ke komo.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>E hele i ka ʻaoʻao mua</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>ʻĒ aʻe</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 lā i hala</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Kaulana i koho ʻia</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Nā hua ʻōlelo a pau</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Kekahi hua ʻōlelo</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Māmalaʻōlelo pololei</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Pili</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Inoa A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Inoa Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Hoʻololi ʻia, ka hou loa ma mua</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Hoʻololi ʻia, ka kahiko loa ma mua</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Paʻi ʻia, ka hou loa ma mua</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Paʻi ʻia, ka kahiko loa ma mua</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Hoʻololi ʻia</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Nā kānana</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Hōʻike i nā kānana</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Hūnā i nā kānana</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Hoʻokumu hou</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Hoʻohana</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Nā hua ʻōlelo</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>ʻAno ʻike</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Hōʻike hou aku (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>E koho i hoʻokahi ʻano ʻike e huli ai i loko o kekahi o kona mau ʻano.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Māhele</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Mai</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>I</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>ʻAʻole he lā kūpono ka lā hoʻomaka.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>ʻAʻole he lā kūpono ka lā hope.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Kahu</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID mea hoʻohana, inoa komo a i ʻole leka uila.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>ʻAʻohe mea hoʻohana i loaʻa no “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ʻŌlelo</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Kekahi ʻōlelo</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Wahi</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count wahi</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Nā hopena o kēlā me kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Nā hopena no “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Nā hopena (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Hoʻokaʻina e</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Hoʻokaʻina</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Nā kānana hana</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Wehe i kēia kānana</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>A i ʻole e koho i nā kānana a hoʻohana iā lākou e papa inoa i ka ʻike i kūlike.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Hoʻoliʻiliʻi nā kānana i ka huli ʻana ke kikokiko ʻoe i nā hua ʻōlelo.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>ʻAʻohe hopena i loaʻa no “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ʻAʻohe hopena i loaʻa.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>E wehe i kekahi kānana ma luna.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Nā unuhi</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Nā hana</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Hoʻoponopono iā %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Hoʻoponopono</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Hoʻonohonoho &gt; Nā hana cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>ʻAʻohe ʻāpana hana cron i holo i kēia manawa: ke kali nei ka laina kali hana, nā lawe mai, nā hoʻolaha a me ka papa kuhi ʻimi. E holo i ka php bin/php/installcrontab.php --add --apply, a i ʻole e hoʻohui i nā laina o --show i ka crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Mālama ʻia nā hoʻolaha kuleana kope o nā mea kākau mua a me ka polokalamu a nā ʻaoʻao ʻekolu i hoʻokomo ʻia me Exponential ma nā waihona kumu a ma ka waihona LICENSE, e like me ka koi ʻana o ka ʻae laikini.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>ʻO kēia ka papa o nā mea hāʻawi Exponential i ʻae i kā lākou hana e hoʻohana ʻia e 7x ma lalo o nā ʻōlelo a me nā kūlana o ka eZ Systems Contributor Licensing Agreement. E like me ka ʻae ʻana o kēia ʻaelike, hāʻawi hou ʻo 7x i kēlā me kēia hāʻawi ma lalo o ka ʻae laikini like me ka waihona i loaʻa ai ka hāʻawi. Hōʻike ka papa i kēlā me kēia mea hāʻawi, nā ʻike pili koho ʻia a me nā waihona a lākou i hāʻawi ai a i hāʻawi ai i ka hana.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Nā mea kōkua i hoʻomaikaʻi ʻia no kā lākou hana ma Exponential a ma ka polokalamu i ulu mai ai ia, me nā faila a lākou i kōkua ai. He hoʻomaikaʻi kēia, ʻaʻole he hoʻolaha kuleana kope: hāʻawi ʻia nā kōkua iā Exponential i ka Exponential Foundation a me 7x ma lalo o ka Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Hoʻomaopopo: ʻAʻole wehe ʻia ka hoʻokomo ʻana o nā pūʻolo.</translation
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;E hoʻāʻo i Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;E lilo i lālā o ke Kaiāulu Exponential, e hoʻololi a e hāʻawi&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; a me nā mea ʻē aʻe.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Hoʻohana ʻia me &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. No ka ʻike hou aku e nānā iā &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; a me nā mea ʻē aʻe.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> No ka ʻike hou aku e nānā iā &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; a me nā mea ʻē aʻe.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;E hoʻāʻo i Exponential (mai 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;E lilo i lālā o ke Kaiāulu Exponential, e loaʻa ke kōkua a e hāʻawi&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; a me nā mea ʻē aʻe.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Hoʻomaopopo: ʻAʻole wehe ʻia ka hoʻokomo ʻana o nā pūʻolo.</translation
     <message>
         <source>Help center</source>
         <translation>Kikowaena kōkua</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>ʻIke</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Nā ʻaoʻao palapala</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Nā mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Nā papa ʻike</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Hoʻomalu</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>ʻAoʻao %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Nānā i nā hopena a pau</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count hopena</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Hoʻokahi hopena</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count manaʻo paipai</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>ʻAʻohe manaʻo paipai</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>ʻAʻole hiki ke hoʻouka i nā manaʻo paipai.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Nā manaʻo paipai</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Hoʻomaopopo: ʻAʻole wehe ʻia ka hoʻokomo ʻana o nā pūʻolo.</translation
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>He hōʻike ākea kēia hoʻonohonoho: hiki i kekahi ke ʻike i kāna ʻōlelo huna luna hoʻomalu, a ʻaʻole hiki ke hoʻololi a hoʻonoho hou i nā ʻōlelo huna luna hoʻomalu. Mai hoʻokomo i kekahi mea pilikino ma ʻaneʻi.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Kāu mau hāmeʻa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Nā hana palekana</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Hoʻomaopopo: ʻAʻole wehe ʻia ka hoʻokomo ʻana o nā pūʻolo.</translation
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Nā alakaʻi, ka ʻimi a me ka haʻi ʻana i kekahi hewa.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ka ʻike hou</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ka ʻike hou loa, ka mea i kāohi ʻia no ka loiloi, a me nā hana ma kekahi koho ʻana.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Hoʻomaopopo: ʻAʻole wehe ʻia ka hoʻokomo ʻana o nā pūʻolo.</translation
         <source>Synchronisations</source>
         <translation>Nā hoʻokūlike</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>Ka GraphQL API: kona kiko hope, ka papahana a me kahi hoʻāʻo e hoʻāʻo ai i nā nīnau.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Nā hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Nā loli i ka hoʻokomo i mālama ʻia ma ke ʻano he mau faila: ko lākou kūlana, nā holo, ka holo ʻana a me ka hoʻihoʻi ʻana.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ka ʻike hou</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ka ʻike hou loa, ka mea i kāohi ʻia no ka loiloi, a me nā hana ma kekahi koho ʻana.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>E hoʻopuka i kope paʻa o kekahi pūnaewele ma GitHub Pages a i ʻole kekahi mea hoʻokipa git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Hoʻopuka paʻa</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Nā ʻano ʻikepili</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kēlā me kēia ʻano ʻikepili o ka Kernel a me nā pākuʻi, a me ke ʻano o ka hoʻohana ʻana o nā papa a me ka ʻike iā ia.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Hoʻomaopopo: ʻAʻole wehe ʻia ka hoʻokomo ʻana o nā pūʻolo.</translation
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Nā moʻokāki ʻaʻohe mea e hoʻohana a pono e nānā ʻia; e hoʻopio, e wehe i ka paʻa a e hoʻokuʻu iā lākou.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Moʻolelo nānā loiloi mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ʻO wai ka mea i hoʻololi, i komo, a i hōʻole ʻia paha, ma kēlā me kēia moʻokāki; kānana a hoʻokuʻu.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Hōʻike ʻeʻe</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ʻO wai ka mea i ʻeʻe ʻia, nā ʻeʻe a me nā hāʻule i kēlā me kēia lā; e hoʻohaʻalele i kekahi mea hoʻohana ma nā wahi a pau.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Hoʻomaopopo: ʻAʻole wehe ʻia ka hoʻokomo ʻana o nā pūʻolo.</translation
         <source>%n hours ago</source>
         <translation>%n hola i hala</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Nā pane o nā nīnau i mālama ʻia o ka GraphQL API, a me nā papa ʻike o kona papahana.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>E hoʻopuka i kope paʻa ma GitHub Pages a i ʻole kekahi mea hoʻokipa git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Hoʻopuka paʻa</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Hāʻawi ka ahu paʻa i nā ʻaoʻao mai kēia kikowaena. No ka hoʻopuka ʻana i kope paʻa o kekahi pūnaewele ma kahi ʻē, ma GitHub Pages a i ʻole kekahi mea hoʻokipa git, e hoʻohana i ka hoʻopuka paʻa.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Hoʻomaopopo: ʻAʻole wehe ʻia ka hoʻokomo ʻana o nā pūʻolo.</translation
     <message>
         <source>last purge</source>
         <translation>hoʻomaʻemaʻe hope loa</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>ʻAʻole hiki i nā kākau ke lawe i ka laka kūlana (hope loa %date): ua hoʻohala kēlā me kēia i nā hualoaʻa i mālama ʻia a pau. Pono e hiki i kēlā me kēia mea hoʻohana e holo ai ka pūnaewele ke kākau i %file; ma NFS pono ʻo NFSv4 a i ʻole lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Hoʻomaopopo: ʻAʻole wehe ʻia ka hoʻokomo ʻana o nā pūʻolo.</translation
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Wehe ʻia nā hālāwai pau manawa o ka mea lawelawe PHP e PHP iho (session.gc_maxlifetime), ʻaʻole e kēia ʻaoʻao a i ʻole ka ʻāpana hana cron session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Ua papa helu ʻia nā hālāwai i ʻeʻe ʻia o kēlā me kēia mea hoʻohana, a hiki ke hoʻohaʻalele ʻia, ma ka hōʻike ʻeʻe, e hana pū ana me kēlā me kēia mea lawelawe hālāwai.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Wehe i ka hōʻike ʻeʻe</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ i kāu moʻokāki.</translation>
     <message>
         <source>None yet</source>
         <translation>ʻAʻohe a i kēia manawa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Nā hana palekana</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Kāu mau ʻeʻe hou, nā hoʻāʻo i hāʻule a me nā loli i kāu ʻōlelo huna, kāu helu leka uila a me kāu ʻeʻe pae ʻelua.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Nā ʻeʻe hou, nā hoʻāʻo i hāʻule a me nā loli palekana o kēia moʻokāki.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Loiloi i nā hana</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Nā ʻeʻe i hāʻule: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ INā makemake ʻoe e hoʻouna i nā manaʻo i ka mea hoʻāpono a nānā paha i 
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Ma hope o ka ʻeʻe ʻana mai, pono ka mea hoʻohana e koho i ʻōlelo huna hou ma mua o ka hana ʻana i kekahi mea ʻē aʻe. E hoʻohana i kēia inā hāʻawi ʻoe i kekahi i ʻōlelo huna pōkole.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>E koho i kekahi kiʻi e kū nei</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>E kope ʻia ka faila kiʻi o ka mea āu e koho ai i loko o kēia pahu. ʻAʻole e loli ka mea ʻē aʻe.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Ua kope ʻia ke kiʻi o "%name" i loko o kēia pahu.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Kele no kekahi kiʻi</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>ʻImi i nā kiʻi ma ka inoa</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ʻImi</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>E hoʻohana i ke kiʻi o "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>E hoʻohana i kēia kiʻi</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ʻAʻohe kiʻi i kūlike me kāu ʻimi.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ E nānā i ka ʻaoʻao koi no ka ʻike hou aku.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>ʻAʻole i kākau ʻia ka crontab (%reason). E hoʻohui i kēia mau laina i ka crontab o ka mea hoʻohana e holo ana ke kahua ma lalo ona, a i ʻole ʻaʻole e holo ka laina kali, nā lawe mai, nā hoʻolaha a me ka papa kuhi ʻimi:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Hana ʻia ka hoʻouka hou ʻana me ka kickstarter (%file, a laila php bin/php/kickstarter.php run --apply) a i ʻole me kekahi hoʻouka hou loa.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ i kāu moʻokāki.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Ahu hoʻopaʻa lehulehu eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Huna GraphQL (nā pane a me nā papa o ka papahana)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ i kāu moʻokāki.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kope o %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Nā ʻano ʻikepili</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ʻAno ʻikepili %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ kēia hewa. Mai hoʻāʻo e hoʻouna hou i ka uku.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>ʻAʻole hiki ke heluhelu ʻia ke kiʻi SVG, a i ʻole ʻaʻohe mea i loko ona e hiki ke hōʻike ʻia me ka palekana.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>ʻAʻole hiki ke kope i ke kiʻi. E ʻoluʻolu, e hoʻāʻo hou a i ʻole e kāhea aku i ka luna hoʻomalu o ka pūnaewele.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>ʻAʻole i loaʻa ka mea i koho ʻia, a i ʻole ʻaʻole ʻae ʻia ʻoe e heluhelu iā ia.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>ʻAʻohe kiʻi o ka mea i koho ʻia.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>ʻAʻole hiki ke heluhelu i ka faila kiʻi o ka mea i koho ʻia.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Ua ʻoi aku ka nui o ke kiʻi o ka mea i koho ʻia ma mua o ka mea i ʻae ʻia e kēia pahu: %1 paita.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ kēia hewa. Mai hoʻāʻo e hoʻouna hou i ka uku.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Ua hoʻololi ʻia ka inoa o ke kaha hoʻomanaʻo i "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Ua hoʻopio ʻia kēia ʻaoʻao ma kēia siteaccess (%siteaccess). E wehe i ke kaha hoʻomanaʻo ma kekahi siteaccess i loaʻa ai kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>ʻAʻole i hoʻokomo ʻia a ʻaʻole i hoʻā ʻia ka mōkule o kēia ʻaoʻao ma ʻaneʻi.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ʻAʻole i loaʻa hou kēia ʻaoʻao: ʻaʻohe hiʻona pēlā o kona mōkule.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>ʻAʻohe o kou mau kuleana e ʻae iā ʻoe e wehe i kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e hoʻohana i kēia siteaccess.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e heluhelu i ka ʻike i hōʻike ʻia e kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ʻAʻole hiki ke kaha hoʻomanaʻo ʻia kēia ʻano ʻaoʻao: hana wale nō ia ma luna o kekahi palapala hoʻopiha, a i ʻole he ʻaoʻao ia no ka manawa pōkole wale nō.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Ua nalo ka helu ʻaoʻao o kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ʻAʻole hiki ke wehe ʻia kēia ʻaoʻao i kēia manawa.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Ua hōʻole ka lawe leka uila i nā leka %count i ka holo hope loa. E nānā i ke kikowaena leka uila a me site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Ke kali nei nā hanana he %count a ʻaʻohe holo o ka hana cron hoʻolaha i hoʻopaʻa ʻia. E hoʻohui i ka ʻāpana hana cron &quot;frequent&quot; i ka crontab, a i ʻole e holo i ka exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
         <source>Choose another site or section with the node picker</source>
         <translation>Koho i kahua a māhele ʻē aʻe me ka mea koho hīpuʻu</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Na ka luna hoʻomalu ʻōnaehana wale nō e hoʻololi i ka mea nona: e holo i ka ./console exp:content-check --fix-permissions --apply ma ke ʻano he root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
     <message>
         <source>empty</source>
         <translation>ʻaʻohe mea</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Ua ʻoi aku ka makahiki o ke kī pūlima ma mua o hoʻokahi makahiki: e hoʻololi iā ia me ka exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
         <source>Share of page time</source>
         <translation>Ka hapa o ka manawa ʻaoʻao</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>ua noi ʻia kekahi hana piha</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>ʻaʻole i loaʻa ka ʻaoʻao i ke ahu ʻaoʻao (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ʻaʻole i pane mai ke ahu ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Ua hana ʻia</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Ua hana ʻia e ke kernel: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Ua hāʻawi ʻia mai ke ahu ʻaoʻao mai i loko o %ms ms. Ua mālama ʻia ka ʻaoʻao i %stored e kekahi hana o %render ms, %age kekona i hala aku nei.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Hana i kēia manawa</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Hoʻi i ka hiʻona mai ke ahu mai</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Mai ka hana i %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Kēia noi: ua hāʻawi ʻia mai ke ahu ʻaoʻao mai i loko o %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Kōʻike waihona hūnā</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Kēia nānaina</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Ahu nānā</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>no kēlā me kēia mea hoʻohana (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Ke kōʻike waihona hūnā o ka mea hoʻohana: kaʻana like nā mea hoʻohana me ke kōʻike like i nā faila waihona hūnā o nā nānaina</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ʻae</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ʻaʻole</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Inoa ʻeʻe</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Ua komo</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Hālāwai</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Nā ʻāpana o ke kī waihona hūnā o nā nānaina maʻiʻo e pili ana i ka mea hoʻohana, e like pono me ka lawe ʻana a ke kī iā lākou, ma lalo o nā ViewCacheTweaks o kēia ʻaoʻao. Kaʻana like nā mea hoʻohana me ke kōʻike like i nā faila waihona hūnā o nā nānaina, ke ʻokoʻa ʻole nā ʻāpana o ka nānaina ponoʻī (nā makemake, nā kī o nā mea hoʻolohe): he kōʻike ponoʻī ko lākou, no kēia ʻaoʻao wale nō.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Wehewehe pilikino</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Kēia nānaina (piko %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: he mau faila waihona hūnā ponoʻī ko kēlā me kēia mea hoʻohana i komo.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Nā ViewCacheTweaks e hoʻohana ʻia nei: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>ʻĀpana</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Waiwai</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ʻAʻohe ʻāpana e pili ana i ka mea hoʻohana (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>kēia nānaina</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kope ma ke ʻano he kikokikona</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Nā kuleana</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>ʻAʻole hiki ke heluhelu i nā hoʻonohona kuleana.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Helu ID o ke kuleana</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Kuleana</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Palena</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Hāʻawi ʻia iā</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ka mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>pūʻulu %name (mea %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Ua kope ʻia</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>ʻAʻole hiki ke kope.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>haʻalele ʻia e kekahi mea hoʻolohe</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Nā mea kipa inoa ʻole</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>like me kou</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ʻokoʻa</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Ke kōʻike i loaʻa i nā malihini inoa ʻole ma lalo o nā ViewCacheTweaks like, me nā makemake paʻamau, me ka ʻole o nā ʻāpana o ka nānaina: ʻaʻole hiki ke nīnau i kekahi mea hoʻolohe e heluhelu ana i ka hālāwai no lākou.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Nā makemake</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ʻAʻohe ʻano nānaina e pili ana i nā makemake o ka mea hoʻohana (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Nā makemake e pili ai nā nānaina o kēia mau ʻano nānaina (CachedViewPreferences), me ka waiwai o ka mea hoʻohana a i ʻole ka paʻamau. Aia lākou i ke kōʻike ma ke ʻano he userpreferences, nā mea o nā ʻano nānaina a pau i hui pū ʻia.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Ke ʻano nānā</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Makemake</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Paʻamau</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Nā kulekele</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Hōʻike i nā kulekele o nā kuleana (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Hoʻouka ʻia nā kulekele mai ka server mai ke wehe ʻia kēia māhele, hoʻokahi ʻaoʻao i ka manawa, a hiki ke kānana ʻia ma ka mōkule a me ka hana.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Hana</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Nā mōkule a pau</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Nā hana a pau</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Nā palena</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Hōʻike hou aku</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>ʻAʻohe kulekele o kēia mau kuleana.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>ʻAʻohe kulekele i kūlike me ke kānana.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown o %matching kulekele (%total a pau)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Hoʻouka ʻia ke wehe ʻia.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/hana, kuleana, palena</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Huli i nā kulekele</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Hoʻouka hou aku</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Module/hana</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Nā kuleana āpau (%count kulekele)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ʻAʻohe kulekele kūpono.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown o %matched kulekele</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>ʻAʻohe pane</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>hūnā ʻia</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Hōʻike i nā wehewehe</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Hūnā i nā wehewehe</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Wehe</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Wehe i nā mea a pau</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Pani i nā mea a pau</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kī a waiwai paha</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Huli i ka hālāwai</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ʻAno</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count hou aku</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>pili hohonu loa, ʻaʻole hiki ke hōʻike</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>ʻoki ʻia, %count hua i ka huina</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Ua hoʻomaka</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Inoa kuki</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID hālāwai</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Mea lawelawe</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Ala mālama</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Kumu paʻamau PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Wā ola (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuki</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>wā ola %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>ʻO kāu hālāwai PHP ponoʻī, e like me ia i ka wā i wehe ʻia ai ka māhele, ʻaʻole loa he hālāwai ʻē aʻe. Hūnā ʻia nā waiwai o nā kī e like me nā mea huna (nā hōʻailona, nā hash, nā ʻōlelo huna) (debugbar.ini SessionMask[]); hōʻike ʻia nā mea ʻē aʻe a pau e like me ka mālama ʻia ʻana, me nā ʻikepili pilikino pū.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count kī, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>nui</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Hakahaka ka hālāwai.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>ʻAʻohe hālāwai i hoʻomaka ʻia no kēia noi.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Pākuʻi %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kumu nui a me nā mea ʻē aʻe</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>ʻAʻole hōʻike ʻia nā komo a pau: ʻoi aku ka nui o ka hālāwai ma mua o ka mea hiki ke helu ʻia ma ʻaneʻi.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>ʻAʻole i helu ʻia nā kī %count.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Kahua</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Hūnā pū ʻia nā waiwai e like me ka hōʻailona (he JSON Web Token, nā hōʻoia o ke poʻo Authorization, he kī pilikino, he kikokikona hex a kaulike ʻole paha lōʻihi), ʻaʻohe pilikia i ka inoa o ko lākou kī (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Ua like ke kī me ka mea huna (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Ua like ka waiwai me ka hōʻailona.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Ma lalo o kekahi kī i hūnā ʻia.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>ʻO ka hālāwai ma ke ʻano he kikokikona, hūnā ʻia e like me ka papa.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>ʻOi aku ka nui o ka hālāwai ma mua o %size (debugbar.ini SessionWarnBytes): heluhelu kēlā me kēia noi a kēia mea hoʻohana i ka hālāwai holoʻokoʻa, a kākau iā ia ke loli.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>Mālama ʻo PHP i kēia hālāwai i loko o nā faila a laka i ka faila no ka noi holoʻokoʻa: kali nā noi a ka mea hoʻohana hoʻokahi (kekahi mau ʻaoʻao, nā kāhea AJAX) kekahi i kekahi.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Waiho hāmama</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>ʻOi aku ma mua o %size (debugbar.ini SessionWarnBytes): heluhelu kēlā me kēia noi a kēia mea hoʻohana i ka hālāwai holoʻokoʻa.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits o %count i heluhelu ʻia mai ke ahu</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>ʻAʻohe anakuhi i hōʻike ʻia (ʻaʻole hōʻike kekahi ʻike i heluhelu ʻia mai ke ahu ʻike i kekahi).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Nā hāʻawi kuleana</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Nā kuleana a me nā kulekele</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>ʻokoʻa mai nā malihini inoa ʻole</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>like me nā malihini inoa ʻole</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
     <message>
         <source>not sent</source>
         <translation>ʻaʻole i hoʻouna ʻia</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Hoʻopaʻa ka hana cron hoʻolaha i kēlā me kēia holo ʻana ona ma ʻaneʻi. E hoʻohui i ka ʻāpana frequent i ka crontab, a i ʻole e holo i ka exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>E hoʻohana i ka papa kauoha: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ʻAʻole i hoʻokuʻu ʻia kēia kumuhana; ʻaʻole ʻike nā mea heluhelu iā ia.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Nā hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Nā loli i ka hoʻokomo i mālama ʻia ma ke ʻano he mau faila: ko lākou kūlana, nā holo, ka holo ʻana a me ka hoʻihoʻi ʻana.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>E hoʻopuka i kope paʻa o kekahi pūnaewele ma GitHub Pages a i ʻole kekahi mea hoʻokipa git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Hoʻopuka paʻa</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Ma ka loiloi</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>ʻIke nā mea heluhelu i kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Hūnā ʻia mai nā mea heluhelu a hiki i ka wā e hoʻokuʻu ai kekahi iā ia.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Aia ka ʻaoʻao ma ka loiloi i kēia manawa. Hūnā ʻia ia mai nā mea heluhelu a hoʻokuʻu ʻia.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Ua hoʻokuʻu ʻia ka ʻaoʻao: ʻike nā mea heluhelu iā ia i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>He kāmua hou ka ʻaoʻao. Hūnā ʻia ia mai nā mea heluhelu a loiloi ʻia a hoʻokuʻu ʻia.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Hoʻokuʻu i kēia manawa</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>ʻO ka mea hoʻohana wale nō me ke kuleana %role i kākau ʻole i kēia mana ka mea hiki ke hoʻokuʻu iā ia.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Nā kumuhana kōkua e kali ana i ka hoʻokuʻu</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Hūnā ia mai nā mea heluhelu a hoʻokuʻu hou ʻia.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Na ka mea loiloi e nānā ma hope. ʻAʻole ʻike nā mea heluhelu iā ia i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>ʻIke koke nā mea heluhelu iā ia.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Lawe ʻia ia mai ka loiloi no ka hana hou. ʻAʻole ʻike nā mea heluhelu iā ia.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Hūnā i kēia ʻaoʻao mai nā mea heluhelu?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Hoʻihoʻi i kēia ʻaoʻao i ke kāmua?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>ʻAʻole ʻike hou nā mea heluhelu iā %title a hoʻokuʻu hou kekahi iā ia.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>Hoʻi ʻo %title i ke kāmua no ka hana hou. ʻAʻole nō i ʻike nā mea heluhelu iā ia, a pono ia i ka loiloi hou ma mua o ka hoʻokuʻu ʻia.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kāpae</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Aia kēia mau kumuhana ma ka loiloi. ʻIke nā mea heluhelu iā lākou ke hoʻokuʻu ka mea i kākau ʻole i ka mana o kēia manawa iā lākou.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
         <source>None.</source>
         <translation>ʻAʻohe.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>me kekahi noi hōʻoia</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>me kekahi code ma ka leka uila</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>me kekahi code hoʻihoʻi</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>me kekahi kī komo</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>me kekahi moʻokāki o waho</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Nā hana palekana</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Hōʻike ʻia ma ke ʻano he pūnaewele; mālama ʻia ka helu wahi e like me ka ʻōlelo a nā hoʻonohonoho pale ʻikepili o ke kahua.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ʻAʻole i hoʻopaʻa ʻia</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Wahi</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>kokoke</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
         <source>Manage devices</source>
         <translation>Mālama i nā hāmeʻa</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>me kekahi noi hōʻoia</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>me kekahi code ma ka leka uila</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>me kekahi code hoʻihoʻi</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>me kekahi kī komo</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>me kekahi moʻokāki o waho</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Nā hana palekana</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ʻAʻole i hoʻopaʻa ʻia</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Wahi</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>kokoke</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
         <source>View the sessions of this user</source>
         <translation>Nānā i nā kau o kēia mea hoʻohana</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Ua hoʻohana ʻia kāu moʻokāki %login ma %site i kēia manawa e ʻeʻe mai kahi wahi āna i ʻeʻe ʻole ai i kēia mau lā:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Wahi kokoke</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ma %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Hōʻike ʻeʻe</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
         <source>The passkey could not be checked. Please try again.</source>
         <translation>ʻAʻole hiki ke nānā ʻia ke kī komo. E ʻoluʻolu, e hoʻāʻo hou.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>ʻAʻole hiki i nā moʻokāki e ʻeʻe me nā kī komo wale nō ke hoʻohana i ka ʻōlelo huna ma ʻaneʻi: e koho i &quot;ʻEʻe me kahi kī komo&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Nā kī komo o %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Nā kī komo e ʻeʻe ai kēia moʻokāki. E hoʻopau i ka mea e waiho ana ma kahi hāmeʻa i nalowale a i ʻaihue ʻia: ʻaʻole hiki iā ia ke ʻeʻe hou. Na ka mea nona ka moʻokāki e hoʻohui i nā mea hou.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Pono kāu moʻokāki i kahi kī komo</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Hoʻohui i kahi kī komo i kāu moʻokāki</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>E hoʻohui i kahi kī komo e hoʻomau ai. A laila e ʻeʻe ʻoe me ia ma kahi o ka ʻōlelo huna wale nō.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>ʻOi aku ka wikiwiki a me ka palekana o ka ʻeʻe ʻana me kahi kī komo ma mua o ka ʻōlelo huna. E hoʻohui i hoʻokahi i kēia manawa, a i ʻole e hoʻomau me ka ʻole.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ʻAʻole i kēia manawa</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Hoʻopau i ke kī komo &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>ʻAʻole hiki iā ia ke ʻeʻe hou i kēia moʻokāki. Inā ʻo ia ka mea hope loa, e ʻeʻe ka mea nona ka moʻokāki me ka ʻōlelo huna, a i ʻole e hoʻonoho ʻoe i kekahi mea hou.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Hoʻopau i ke kī komo</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Hoʻopau</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>ʻAʻohe kī komo o kēia moʻokāki.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Mea hōʻoia</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>ʻIke ʻole ʻia</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Kāu kī komo hope loa: e hoʻohui i kekahi ʻē aʻe ma mua o kou wehe ʻana iā ia.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>ʻEʻe kēia moʻokāki me nā kī komo wale nō (kulekele kī komo): inā ʻaʻohe i koe, e ʻeʻe hou ia me kāna ʻōlelo huna.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>ʻO kēia kāu kī komo hope loa a ʻaʻole hiki i kāu moʻokāki ke ʻeʻe me ka ʻole. E hoʻohui mua i kekahi kī komo ʻē aʻe.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Ua hoʻopau ʻia ke kī komo &quot;%name&quot;. ʻAʻole hiki iā ia ke ʻeʻe hou i kēia moʻokāki.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
         <source>Code from your authenticator app</source>
         <translation>Code mai kāu noi hōʻoia</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Ke holoi mau loa aku nei ʻoe i ka ʻikepili a i ʻole ke hoʻonele nei i kekahi moʻolelo hana.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Kāu ʻōlelo huna a me kahi kī komo</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Kāu ʻōlelo huna a me kahi code mai kāu noi hōʻoia</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>A i ʻole:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ʻAʻole hiki i kēia polokalamu kele pūnaewele ke hoʻohana i nā kī komo. E hoʻohana i kekahi ala ʻē aʻe, a i ʻole kekahi polokalamu kele ʻē aʻe.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Ke hoʻomau ʻoe, e noi ana kāu polokalamu kele i kekahi o kāu mau kī komo.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Hoʻomau me kahi kī komo</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
     <message>
         <source>Setup</source>
         <translation>Hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Ka hoʻololi ʻana i kāu ʻōlelo huna ponoʻī, ka helu wahi leka uila, nā kī komo, ka ʻeʻe pae ʻelua, nā code hoʻihoʻi a i ʻole nā kī API, a me ka hoʻopau ʻana i ka ʻeʻe ma kāu mau hāmeʻa ʻē aʻe.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Ka hana a hoʻoponopono ʻana i nā mea hoʻohana, kā lākou mau ʻōlelo huna a me nā hāmeʻa, nā hoʻonohonoho moʻokāki, ka ʻae a hōʻole ʻana i nā moʻokāki mea hoʻohana hou, ka hāʻawi ʻana i nā kuleana a me ka hoʻoponopono ʻana i nā kulekele.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Ka holoi ʻana i ka ʻikepili</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Ka hoʻonele ʻana i ka pahu ʻōpala, ka wehe ʻana i nā mea mai loko mai a me ka wehe ʻana i nā mea he nui i ka manawa hoʻokahi.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Ka wehe, hoʻopuka a mālama ʻana i ka ʻike</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Ka wehe ʻana i ka ʻike (i ka pahu ʻōpala nō hoʻi), ka hoʻopuka ʻana a me ka mālama ʻana i kahi kāmua; nīnau ʻia ke hoʻouna ʻia ka palapala. Pio ma ke ʻano maʻamau.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Ma mua o kekahi hana koʻikoʻi, hōʻoia hou ka mea hoʻohana i ʻeʻe ʻia ʻo wai ʻo ia: me kāna ʻōlelo huna a me kahi kī komo, a i ʻole me ka ʻole o ke kī komo me kāna ʻōlelo huna a me ka code o kāna noi hōʻoia. Nīnau wale nā ʻaoʻao pūnaewele: ʻaʻole loa e nīnau ka pilina REST, SOAP, WebDAV, ka ʻeʻe expservices a me ka laina kauoha.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Kahi e pili ai nā hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Nā hoʻonohonoho no</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Kēlā me kēia siteaccess</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>ʻO ka siteaccess %name wale nō</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Wehe</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>ʻO wai ka mea i nīnau ʻia: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>E kaha i nā pūʻulu mea hoʻohana e nīnau wale ai i ko lākou mau lālā (nā mea hoʻoponopono, no ka laʻana). ʻAʻohe i kaha ʻia: kēlā me kēia mea hoʻohana.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Mālama ʻia ma settings/override/site.ini.append.php, no kēlā me kēia siteaccess. Ke mālama ʻoe, e noi ʻia ʻoe e hōʻoia ʻo ʻoe nō.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Mālama ʻia ma settings/siteaccess/%name/site.ini.append.php. Lanakila ka waiwai ma settings/override ma luna ona. Ke mālama ʻoe, e noi ʻia ʻoe e hōʻoia ʻo ʻoe nō.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Pono ʻoe e hoʻololi i ka papa o ka hīpuʻu ma o ka hana hoʻololi.</translati
     <message>
         <source>Open the page</source>
         <translation>Wehe i ka ʻaoʻao</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from a i %to o %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>He inoa komo a i ʻole he ID mea hoʻohana: ka moʻokāki i pili ai ka hanana a i ʻole ka mea hoʻohana nāna i hana.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Moʻokāki</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Hana</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Ma hope</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Nā hopena a pau</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ma mua</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Na wai</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Hoʻomaʻemaʻe</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Ua pau</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Mālama ʻia nā hanana no %days lā.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Mālama ʻia nā hanana a hiki i ka wā e holoi lima ʻia ai.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Nā hanana</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Nā hana a pau</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Nā hanana a pau o kēia moʻokāki</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Hoʻokuʻu i ka papa inoa ma ke ʻano CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ua hāʻule</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Mai</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Hōʻemi i ka papa inoa</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>ʻAʻohe hanana i kūlike.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ma kēlā me kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Ua hoʻopio ʻia ka hoʻopaʻa ʻana ma audit.ini ([UserAuditSettings] UserAudit); hōʻike ka papa inoa i nā mea i hoʻopaʻa ʻia ma mua.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Ua hōʻole ʻia</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Hopena</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hōʻike</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Nalo ka papa o ka moʻolelo nānā loiloi mea hoʻohana. E hana iā ia me php update/common/scripts/6.0/createuseraudittable.php; a hiki i ia manawa, mālama nā faila nānā loiloi i kēlā me kēia hanana.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Pono kēia ʻaoʻao i kahi waihona ʻikepili SQL; ʻaʻole loaʻa ma MongoDB. Mālama nā faila nānā loiloi i kēlā me kēia hanana.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>I</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Moʻolelo nānā loiloi mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Ka manawa</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ka wahi</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ʻO wai ka mea i hoʻololi, hana, hoʻā, hoʻopio, hoʻoneʻe a holoi paha i kēlā a me kēia moʻokāki, ʻo wai ka mea i komo a i hōʻole ʻia paha, a me nā kuleana i hāʻawi ʻia: hoʻokahi laina no kēlā me kēia hanana, me nā kahua ma mua a ma hope. ʻAʻole loa e hoʻopaʻa ʻia nā ʻōlelo huna a me nā mea huna.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>pūʻulu</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>ʻōnaehana</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ʻike ʻole ʻia</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>E hoʻopalekana i kāu moʻokāki</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Ua hoʻohana ʻia kekahi code hoʻihoʻi e ʻeʻe i kāu moʻokāki %login ma %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Ua hoʻohana ʻia kekahi code hoʻihoʻi</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Moʻokāki</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Helu wahi kokoke</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>E noi i ʻōlelo huna hou e ʻeʻe hou ai, a i ʻole e kamaʻilio me nā luna hoʻomalu o ke kahua.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Noi i ʻōlelo huna hou</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Hoʻokahi wale nō hana ʻana o kēlā me kēia code hoʻihoʻi. Inā ua nalowale kāu kelepona, e hoʻonohonoho hou i kāu noi hōʻoia a e mālama i nā code hoʻihoʻi hou ma kahi palekana.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Nā hoʻāʻo ʻeʻe i hāʻule ma kāu moʻokāki</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Mai kēia manawa aku, noi ka ʻeʻe ʻana i kekahi code me kāu ʻōlelo huna. Inā nāu kēia, ʻaʻohe mea āu e hana ai.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Inā ʻo ʻoe ia a ua poina iā ʻoe kāu ʻōlelo huna, e noi i kekahi hou. Inā ʻaʻole, e koho i ʻōlelo huna ikaika aʻe a e hoʻā i ka ʻeʻe pae ʻelua.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Inā ʻaʻole ʻo ʻoe kēia, ua ʻike paha kekahi i kāu ʻōlelo huna: e hoʻololi iā ia i kēia manawa a e nānā i nā wahi i ʻeʻe ʻia ai kāu moʻokāki.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Nā code hoʻihoʻi i koe</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Loiloi i kāu mau hāmeʻa</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Kāhea palekana</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Ua hoʻāʻo kekahi e ʻeʻe i kāu moʻokāki %login ma %site me kekahi ʻōlelo huna hewa he %count manawa ma ka lālani.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Ua loaʻa kekahi hanana palekana ma kāu moʻokāki %login ma %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>He kāhea palekana kēia no kāu moʻokāki. Hoʻouna ʻia ia no kēlā me kēia loli like a ʻaʻole hiki ke hoʻopio ʻia.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Manawa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Ua hoʻopio ʻia ka ʻeʻe pae ʻelua no kāu moʻokāki %login ma %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Ua hoʻopio ʻia ka ʻeʻe pae ʻelua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Ua hoʻā ʻia ka ʻeʻe pae ʻelua no kāu moʻokāki %login ma %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Ua hoʻā ʻia ka ʻeʻe pae ʻelua</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Ua laka ʻia kāu moʻokāki %login ma %site ma hope o nā ʻeʻe i hāʻule he nui loa.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Ua pale ʻia kāu moʻokāki e kāu ʻōlelo huna wale nō i kēia manawa. Inā ʻaʻole nāu kēia, e hoʻā hou i ka ʻeʻe pae ʻelua ma hope o kou hoʻololi ʻana i kāu ʻōlelo huna.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Ua laka ʻia kāu moʻokāki</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Ua hoʻohui ʻia kahi kī komo i kāu moʻokāki %login ma %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Hiki i ka mea e paʻa ana i kēia kī komo ke ʻeʻe i kāu moʻokāki me ka ʻole o kāu ʻōlelo huna. Inā ʻaʻole ʻoe i hoʻohui iā ia, e wehe iā ia ma lalo o Nā kī komo a e hoʻololi i kāu ʻōlelo huna.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Ua wehe ʻia kahi kī komo mai kāu moʻokāki %login ma %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>ʻAʻole hiki iā ia ke ʻeʻe hou i kāu moʻokāki. Inā ʻaʻole ʻoe i wehe iā ia, e nānā i kāu mau kī komo a me nā hāmeʻa.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Ua hoʻohui ʻia kahi kī komo i kāu moʻokāki</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Ua wehe ʻia kahi kī komo mai kāu moʻokāki</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Nā hana palekana</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Nā hana palekana o %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ʻEʻe ʻia</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Hoʻāʻo ʻeʻe i hāʻule</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ua haʻalele</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Ua hoʻohaʻalele ʻia nā hālāwai</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ʻEʻe mai kekahi hāmeʻa hou</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ʻEʻe mai kekahi wahi hou</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Ua hōʻoia ʻia ka ʻike pilikino (&quot;Hōʻoia ʻo ʻoe nō&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ua hāʻule ka hōʻoia ʻike pilikino</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ua ʻeʻe me kekahi kī komo</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Ua hāʻule ka ʻeʻe me ke kī komo</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Ua hōʻole ʻia ka ʻeʻe: ua nele a hewa paha ka code pae ʻelua</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Code pae ʻelua hewa</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Ua laka ʻia ka moʻokāki ma hope o nā ʻeʻe i hāʻule</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Ua wehe ʻia ka laka o ka moʻokāki</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Ua hoʻololi ʻia ka ʻōlelo huna</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Ua hāʻule ka hoʻololi ʻōlelo huna</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Ua hoʻonohonoho hou ʻia ka ʻōlelo huna</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Ua noi ʻia kekahi ʻōlelo huna hou</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Ua hoʻololi ʻia ka helu leka uila</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Ua hoʻololi ʻia ka inoa mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Ua hoʻā ʻia ka ʻeʻe pae ʻelua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Ua hoʻopio ʻia ka ʻeʻe pae ʻelua</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Ua hoʻohana ʻia kekahi code hoʻihoʻi</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nā code hoʻihoʻi hou</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Ua hana ʻia kekahi ʻōlelo huna polokalamu</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Ua hoʻopau ʻia kekahi ʻōlelo huna polokalamu</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Ua hoʻohui ʻia kekahi kī komo</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Ua wehe ʻia kekahi kī komo</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Ua hoʻā ʻia ka moʻokāki</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Ua hoʻopio ʻia ka moʻokāki</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>A pau</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Nā ʻeʻe a me nā hālāwai</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Nā loli moʻokāki</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Pono ka nānā ʻana</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>nāu</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>na ka mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>na %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Ala</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Mea kele</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>ʻŌnaehana hana</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Hāmeʻa</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Kahi</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>ʻĀina</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Nā hālāwai</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>ʻO ka hea</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Ala hoʻouna</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Nā hoʻāʻo i hāʻule</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Nā code i koe</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Mea lawelawe ʻeʻe</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Nā hana palekana</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Nā hana palekana o %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Nā ʻeʻe a me nā loli i ka palekana o kāu moʻokāki. Inā ʻike ʻoe i kekahi mea āu i hana ʻole ai, e hoʻololi i kāu ʻōlelo huna a e hoʻohaʻalele i nā hāmeʻa āu i ʻike ʻole ai.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Nā ʻeʻe a me nā loli i ka palekana o kēia moʻokāki.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Kāu mau hāmeʻa</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Hoʻololi i ka ʻōlelo huna</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Hoʻi i ka moʻokāki</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>ʻAʻole i hoʻopaʻa ʻia nā hana palekana</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Heluhelu ʻia lākou mai ka moʻolelo loiloi mea hoʻohana, ua nele kona pakuhi expuser_audit a i ʻole ʻaʻole i kākoʻo ʻia ma kēia waihona ʻikepili. E holo i ka php update/common/scripts/6.0/createuseraudittable.php, a i ʻole i ka hōʻano hou waihona ʻikepili o 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Nā lā %days i hala</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Nā ʻeʻe i nā lā %days i hala</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Nā hana palekana hou</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hōʻike</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ua hāʻule</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ua hōʻole ʻia</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ʻAʻohe hana palekana i hoʻopaʻa ʻia i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Mālama ʻia nā hanana palekana no nā lā %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Mālama ʻia nā hanana palekana a hiki i ka wā e wehe ai kekahi luna hoʻomalu iā lākou.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Hoʻoiho i kaʻu ʻikepili ʻeʻe</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Kāu mau hālāwai a me nā hanana palekana ma ke ʻano he waihona JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ʻAʻole i hoʻopaʻa ʻia nā wā noho ma kēia pūnaewele, no laila ʻaʻohe hāmeʻa ʻē aʻe i hoʻopau ʻia. E hoʻololi i kāu ʻōlelo huna i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Ua hoʻopau ʻia nā wā noho ʻē aʻe he %count. I kēia manawa e hoʻololi i kāu ʻōlelo huna.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ʻAʻohe hāmeʻa ʻē aʻe i komo. I kēia manawa e hoʻololi i kāu ʻōlelo huna.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Mahalo. Ua kaha ʻia ka hanana he mea nāu.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ʻAʻole pono he pane no ia hanana.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ua pau ka manawa o ka ʻaoʻao. ʻAʻohe mea i hoʻololi ʻia; e ʻoluʻolu, e hoʻāʻo hou.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>E hoʻopalekana i kāu moʻokāki</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Inā ʻaʻole ʻoe kekahi mea ma ʻaneʻi, e hoʻopau i nā hāmeʻa ʻē aʻe a pau, a laila e koho i ʻōlelo huna hou. Hoʻopau pū ʻia nā hāmeʻa i noho komo me E hoʻomanaʻo iaʻu.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Hoʻopau ʻia kēlā me kēia hāmeʻa koe kēia ma kāna noi aʻe. A laila koho ʻoe i ʻōlelo huna hou.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ʻAe, e hoʻopau i nā hāmeʻa ʻē aʻe</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ʻO ʻoe anei kēia?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ʻAe, ʻo wau nō</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ʻAʻole, e hoʻopalekana i kaʻu moʻokāki</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ʻEʻe ʻia</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Hoʻāʻo ʻeʻe i hāʻule</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ua haʻalele</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Ua hoʻohaʻalele ʻia nā hālāwai</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ʻEʻe mai kekahi hāmeʻa hou</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ʻEʻe mai kekahi wahi hou</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Ua hōʻoia ʻia ka ʻike pilikino (&quot;Hōʻoia ʻo ʻoe nō&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ua hāʻule ka hōʻoia ʻike pilikino</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ua ʻeʻe me kekahi kī komo</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Ua hāʻule ka ʻeʻe me ke kī komo</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Ua hōʻole ʻia ka ʻeʻe: ua nele a hewa paha ka code pae ʻelua</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Code pae ʻelua hewa</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Ua laka ʻia ka moʻokāki ma hope o nā ʻeʻe i hāʻule</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Ua wehe ʻia ka laka o ka moʻokāki</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Ua hoʻololi ʻia ka ʻōlelo huna</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Ua hāʻule ka hoʻololi ʻōlelo huna</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Ua hoʻonohonoho hou ʻia ka ʻōlelo huna</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Ua noi ʻia kekahi ʻōlelo huna hou</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Ua hoʻololi ʻia ka helu leka uila</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Ua hoʻololi ʻia ka inoa mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Ua hoʻā ʻia ka ʻeʻe pae ʻelua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Ua hoʻopio ʻia ka ʻeʻe pae ʻelua</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Ua hoʻohana ʻia kekahi code hoʻihoʻi</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nā code hoʻihoʻi hou</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Ua hana ʻia kekahi ʻōlelo huna polokalamu</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Ua hoʻopau ʻia kekahi ʻōlelo huna polokalamu</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Ua hoʻohui ʻia kekahi kī komo</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Ua wehe ʻia kekahi kī komo</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Ua hoʻā ʻia ka moʻokāki</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Ua hoʻopio ʻia ka moʻokāki</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>A pau</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Nā ʻeʻe a me nā hālāwai</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Nā loli moʻokāki</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Pono ka nānā ʻana</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Nā hana palekana</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Nā hana palekana o %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Nā ʻeʻe a me nā loli i ka palekana o kāu moʻokāki. Inā ʻike ʻoe i kekahi mea āu i hana ʻole ai, e hoʻololi i kāu ʻōlelo huna a e hoʻohaʻalele i nā hāmeʻa āu i ʻike ʻole ai.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Kāu mau hāmeʻa</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Hoʻololi i ka ʻōlelo huna</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>ʻAʻole i hoʻopaʻa ʻia nā hana palekana ma kēia kahua i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Nā ʻeʻe i nā lā %days i hala</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Nā hoʻāʻo i hāʻule</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ʻAʻohe hana palekana i hoʻopaʻa ʻia i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Hoʻoiho i kaʻu ʻikepili ʻeʻe</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Kāu mau hālāwai a me nā hanana palekana ma ke ʻano he waihona JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ʻAʻole i hoʻopaʻa ʻia nā wā noho ma kēia pūnaewele, no laila ʻaʻohe hāmeʻa ʻē aʻe i hoʻopau ʻia. E hoʻololi i kāu ʻōlelo huna i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Ua hoʻopau ʻia nā wā noho ʻē aʻe he %count. I kēia manawa e hoʻololi i kāu ʻōlelo huna.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ʻAʻohe hāmeʻa ʻē aʻe i komo. I kēia manawa e hoʻololi i kāu ʻōlelo huna.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Mahalo. Ua kaha ʻia ka hanana he mea nāu.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ʻAʻole pono he pane no ia hanana.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ua pau ka manawa o ka ʻaoʻao. ʻAʻohe mea i hoʻololi ʻia; e ʻoluʻolu, e hoʻāʻo hou.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>E hoʻopalekana i kāu moʻokāki</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Inā ʻaʻole ʻoe kekahi mea ma ʻaneʻi, e hoʻopau i nā hāmeʻa ʻē aʻe a pau, a laila e koho i ʻōlelo huna hou. Hoʻopau pū ʻia nā hāmeʻa i noho komo me E hoʻomanaʻo iaʻu.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Hoʻopau ʻia kēlā me kēia hāmeʻa koe kēia ma kāna noi aʻe. A laila koho ʻoe i ʻōlelo huna hou.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ʻAe, e hoʻopau i nā hāmeʻa ʻē aʻe</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ʻO ʻoe anei kēia?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ʻAe, ʻo wau nō</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ʻAʻole, e hoʻopalekana i kaʻu moʻokāki</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>ʻŌlelo huna</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>ʻŌlelo huna a me ka code pae ʻelua</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Pilina REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Pilina SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>ʻEʻe hoʻokahi</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Ua ʻeʻe ma mua o ka hoʻopaʻa ʻia ʻana o nā hālāwai</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Hōʻike ʻeʻe</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>ʻO wai ka mea i ʻeʻe i ke kahua, pehea ka pinepine o ka ʻeʻe ʻana a me ka hāʻule ʻana o nā moʻokāki, a me ka hoʻohaʻalele ʻana i kekahi mea hoʻohana ma nā wahi a pau. Hana pū ia me kēlā me kēia mea lawelawe hālāwai.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Ua hoʻohaʻalele ʻia ka hālāwai. Pono e ʻeʻe hou ka hāmeʻa.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Ua hoʻohaʻalele ʻia ʻo %login mai nā hālāwai he %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>ʻAʻohe hālāwai e holo ana o %login.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ʻAʻohe moʻokāki me ia ID, inoa mea hoʻohana a helu leka uila paha.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>ʻO kēia ka hālāwai āu e hoʻohana nei. No ka hoʻopau ʻana, e haʻalele.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Ua pau mua ia hālāwai.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ua pau ka manawa o ka ʻaoʻao. ʻAʻohe mea i hoʻololi ʻia; e ʻoluʻolu, e hoʻāʻo hou.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>ʻAʻole i hoʻopaʻa ʻia nā hālāwai ma kēia kahua (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Ua nele ka pakuhi expuser_session</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Hoʻopaʻa ʻia nā hālāwai ke hana ʻia ia: php update/common/scripts/6.0/createusersessiontable.php, a i ʻole ka hōʻano hou waihona ʻikepili o 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>I kēia manawa a me kēia lā</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Nā hālāwai e holo ana</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Nā mea hoʻohana i ʻeʻe ʻia</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Nā ʻeʻe o kēia lā</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Nā hoʻāʻo i hāʻule o kēia lā</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Hoʻohaʻalele i kekahi mea hoʻohana ma nā wahi a pau</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Pau kēlā me kēia hālāwai o ka moʻokāki ma kāna noi aʻe, me nā hālāwai i mālama ʻia e &quot;E hoʻomanaʻo iaʻu&quot;. E hoʻohana i kēia inā aia paha kekahi moʻokāki ma nā lima hewa; a laila e hoʻonohonoho hou i kāna ʻōlelo huna.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID mea hoʻohana, inoa mea hoʻohana a helu leka uila paha</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Haʻalele ma nā wahi a pau</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>ʻEʻe ʻia i kēia manawa</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Hōʻike ʻia nā %limit i hoʻohana hope loa ʻia.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Hāmeʻa</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Helu wahi</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ʻEʻe ʻia</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Hana hope loa</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Nā hana</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Kēia hāmeʻa</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ʻAʻole i hoʻopaʻa ʻia</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Haʻalele</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ʻAʻohe hālāwai i ʻeʻe ʻia.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Nā lā %days i hala</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Helu ʻia nā ʻeʻe a me nā hoʻāʻo i hāʻule mai ka moʻolelo loiloi mea hoʻohana, ʻaʻole naʻe ia ma laila; helu ʻia nō nā hālāwai hou.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Lā</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Nā ʻeʻe</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Nā hoʻāʻo i hāʻule</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Nā hālāwai hou</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Mea lawelawe hālāwai: %handler. Heluhelu ʻia nā hālāwai mai ka pakuhi expuser_session, no laila hana ka hōʻike me kēlā me kēia mea lawelawe.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Nā hana kānalua i nā hola %hours i hala</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Ua hāʻule hoʻokahi pūnaewele i ke komo ʻana i nā moʻokāki %accounts (%count hoʻāʻo)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Ua laka ʻia ka moʻokāki ma hope o nā komo ʻana i hāʻule</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count komo ʻana i hāʻule ma hoʻokahi moʻokāki</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Ua komo mai nā ʻāina %count i ka manawa hoʻokahi</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Nā hana palekana</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Nā wā noho</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Heluhelu ʻia nā komo ʻana i hāʻule mai ka moʻolelo loiloi o nā mea hoʻohana, ʻaʻole i loaʻa ma ʻaneʻi.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>ʻAʻohe mea kānalua: ʻaʻohe moʻokāki me nā komo ʻana i hāʻule pinepine, ʻaʻohe pūnaewele e hoʻāʻo ana i nā moʻokāki he nui, ʻaʻohe moʻokāki i komo mai nā ʻāina he nui.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Kāhea palekana no kāu moʻokāki</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Ua loaʻa kekahi hanana palekana ma kāu moʻokāki %login: %event. Inā ʻaʻole ʻo ʻoe, e hoʻopalekana i kāu moʻokāki ma %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>E noi i ka ʻike o kēia pūnaewele i nā kahua pono wale nō e pono ai kekahi ʻaoʻao, ma ka noi hoʻokahi. Hahai ka papahana i nā papa ʻike; holo kēlā me kēia nīnau me nā kuleana o ka mea hoʻohana nāna i hoʻouna.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>Ua hoʻopio ʻia ka GraphQL API ma kēia Siteaccess. E hoʻā iā ia ma graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>ʻAʻole i hoʻokomo ʻia ka waihona GraphQL (webonyx/graphql-php 15).</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Kiko hope</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Waihona</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Papahana</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count papa ʻike, papahana %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Nīnau</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Nā loli (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Holo</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Pane</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>E holo ana…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>ʻAʻole hiki ke heluhelu ʻia ka pane.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Holo ka nīnau me kou mau kuleana, me ke komo ʻana ma kēia kau.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count i loko o %seconds kek.</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ʻaʻohe palena</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Hohonu</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Paʻakikī</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Nā mea o kēlā me kēia papa inoa</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (paʻamau %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Nā noi o kēlā me kēia mea hoʻohana a kī paha</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Nā noi o kēlā me kēia helu wahi inoa ʻole</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Nā nīnau i mālama ʻia wale nō</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Ka nīnau nui loa</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes paita</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Ka hoʻouka nui loa</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>ʻAʻohe Siteaccess %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Ua hoʻā ʻia nā hoʻololi ma %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Ua hoʻopio ʻia nā hoʻololi ma %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>Ua hoʻā ʻia ka GraphQL API ma %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>Ua hoʻopio ʻia ka GraphQL API ma %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>ʻAʻole hiki ke kākau ʻia nā hoʻonohonoho: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Ua hoʻokaʻawale ʻia ka waihona pane: %count pane i wehe ʻia.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>E kaha i ka pahu ma ka ʻaoʻao o ka nīnau e wehe ai.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>ʻAʻole hiki ke wehe ʻia ka nīnau: wehe ʻia ka nīnau i hoʻouna ʻia i loko o kekahi papa kuhikuhi o PersistedQueryDirectoryList[] me kāna faila.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Ua wehe ʻia ka nīnau i mālama ʻia.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Nā hoʻololi</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ā</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>pio</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Nā Siteaccess</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Kahi e pane ai ka API a me kāna mau hoʻololi. Kākau nā pihi i graphql.ini, e like me ka hana a ./console exp:graphql:enable a me exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Hoʻololi</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Hoʻopio</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Pio nā hoʻololi</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Ā nā hoʻololi</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Hoʻā</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Nā palena</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] o kēia Siteaccess.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Waihona pane</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Nā pane o nā nīnau i mālama ʻia, mālama ʻia e like me nā kuleana o ka mea hoʻohana a pau ko lākou manawa i kēlā me kēia paʻi ʻia ʻana o ka ʻike.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kūlana</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Nā pane i mālama ʻia</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count pane, %bytes paita</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Mālama ʻia a hiki i</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds kek.</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Pau hope loa</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Hoʻokaʻawale i ka waihona pane</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Nā nīnau i mālama ʻia</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Mālama ʻia me ./console exp:graphql:persist, a i ʻole e nā mea kūʻokoʻa (nā nīnau i mālama ʻia me ka ʻakomi); kāhea ʻia ma ka inoa a i ʻole SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nā inoa</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Nui</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ma hea</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Wehe</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>hoʻouna ʻia</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>mālama ʻia</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ʻAe, e wehe i kēia nīnau</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>ʻAʻohe nīnau i mālama ʻia i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Nā kī API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Nā kī API pilikino me ka ʻano graphql:read (nā nīnau) a i ʻole graphql:write (nā hoʻololi). E hana a hoʻopau iā lākou ma ka ʻaoʻao Komo API, a i ʻole me ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Komo API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Nā kī a pau</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Kī</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Inoa</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Mea nona</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Nā ʻano</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Hoʻohana hope loa</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ola</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>pau</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>hoʻopau ʻia</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ʻaʻole loa</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>ʻAʻohe kī API me kekahi ʻano GraphQL i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Ua hoʻopio ʻia ka GraphQL API ma ka Siteaccess %siteaccess, ka mea e hōʻike ana i kēia ʻaoʻao; hōʻike ka papa ma lalo i kahi e pane ai ia.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>No ka Siteaccess %siteaccess, ka mea e hōʻike ana i kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Nā webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Hoʻouna ʻia kēlā me kēia hanana a kekahi kiko hope e noi ai (publish, update, trash, delete, move, hide, reveal, mutation) iā ia, me ka pūlima, e ka ʻāpana cronjob graphqlwebhooks. Hana ʻo ./console exp:graphql:webhooks i ka mea like me kēia māhele.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Nā hanana</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>a pau</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Kēlā me kēia Siteaccess</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>haki</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ʻaʻohe huna</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>E kali ana</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count i haʻalele ʻia</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Hoʻouna hope loa</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Hoʻouna i hoʻāʻo</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ʻAe, e wehe i kēia webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>ʻAʻohe webhook i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Hoʻohui i webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Hoʻohui</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Nā hoʻouna hou</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Manawa</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Hopena</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Nā kau inoa</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Nā hōʻano hou ola no nā client: he kahawai hanana ma /api/graphql/subscribe, a me kekahi WebSocket (graphql-transport-ws) ma Velocity. Hele kēlā me kēia hanana i nā mea kau inoa wale nō i ʻae ʻia e heluhelu i kona ʻike.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Hāmama i kēia manawa</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Ka nui loa hāmama</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total a pau, %user no kēlā me kēia mea hoʻohana, %address no kēlā me kēia helu wahi</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Nā kau inoa inoa ʻole</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Ka lōʻihi o ke kahawai</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ʻAʻole hiki ke hoʻohui ʻia ka webhook: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Ua hoʻololi ʻia ka webhook %name; noho mau kona huna pūlima.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>ʻAʻole hiki ke mālama ʻia ka huna pūlima (Hoʻonohonoho &gt; Nā huna).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Ua hoʻohui ʻia ka webhook %name. ʻO kona huna pūlima, hōʻike ʻia i kēia manawa hoʻokahi wale nō: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ʻAʻohe webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>ʻAʻole i pane mai ka webhook %name: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Ua pane ka webhook %name i %status i loko o %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>E kaha i ka pahu ma ka ʻaoʻao o ka webhook e wehe ai.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Ua wehe ʻia ka webhook %name.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>Ua hoʻopio ʻia ka GraphQL API ma kēia Siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>ʻAʻole i hoʻokomo ʻia ka waihona GraphQL.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>E hoʻohana i ka GET a i ʻole ka POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>ʻAʻole he mea JSON ke kino.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>ʻAʻole he mea JSON ʻo variables.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>ʻAʻole he mea JSON ʻo extensions.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>E hoʻouna i ka nīnau me ka POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>ʻAʻohe nīnau ma ke noi.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Ua ʻoi aku ka lōʻihi o ka nīnau ma mua o %max paita.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Hewa kūloko o ka pūnaewele lawelawe</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>Pono ʻo node i hoʻokahi wale nō o id, remoteId, path a me urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>Pono ʻo content i hoʻokahi wale nō o id a me remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>ʻAʻole na kēia API i hāʻawi i ka kaha kuhikuhi o after.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>ʻAʻohe inoa kapakapa kiʻi %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>ʻO nā nīnau i mālama ʻia wale nō ka mea i ʻae ʻia ma ʻaneʻi: e hoʻouna i ka id o kekahi nīnau i mālama ʻia.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>ʻAʻole he SHA-256 ka hash o ka nīnau i mālama ʻia.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>ʻAʻole kūlike ka hash o ka nīnau i mālama ʻia me ka nīnau.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Nui loa nā noi: %limit ka nui loa i loko o %window kekona. E hoʻāʻo hou ma hope o %reset kekona.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>He %depth pae ka hohonu o ka nīnau; %max ka nui loa i ʻae ʻia.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>He %complexity ka paʻakikī o ka nīnau; %max ka nui loa i ʻae ʻia.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ʻAʻole ʻae ʻia kēia noi e heluhelu i ka papahana (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>Pono ʻo search i kekahi kikokikona a i ʻole kānana (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>ʻAʻole he lā ʻo %argument (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>Pono ʻo tag i hoʻokahi wale nō o id, remoteId a me path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>Pono ʻo layout i hoʻokahi wale nō o id, identifier a me urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>ʻAʻole he noi JSON hoʻokahi ke kahua operations o kekahi noi multipart.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>ʻAʻole he mea JSON ke kahua map o kekahi noi multipart.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>ʻAʻohe faila %field i loko o ka noi multipart.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Pono e hoʻomaka kekahi ala o ka palapala kahua me variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>ʻAʻole i hōʻea piha mai ka faila %name (hewa hoʻouka %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Ua ʻoi aku ka nui o ka faila %name ma mua o %max paita.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>ʻAʻole hiki ke nānā ʻia ka faila %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Ua hoʻopio ʻia nā hoʻololi (mutation) ma kēia Siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>E hoʻouna i ka hoʻololi me ka POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>E komo i mea e hoʻololi ai i ka ʻike.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>ʻAʻohe ʻano %scope o ke kī API.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Pono ka hoʻololi me kekahi kau i ka hōʻailona palapala o ke kau (poʻo X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>Ua hoʻopio ʻia ʻo uploadFromUrl: ʻaʻohe hoʻokipa i helu ʻia ma graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Pono ka helu wahi he helu wahi https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>ʻAʻole ka hoʻokipa %host i loko o graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ʻAʻole hiki ke kiʻi ʻia ka faila.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>He ʻano hoʻokomo wale nō ʻo Upload.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Lawe ka hoʻololi ʻano Upload i kekahi faila o ka noi multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Ua lawe ʻia ka id mamao %remoteId.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Aia nō ka unuhi ma %language o ka ʻike: e hoʻohana i ka updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>E hāʻawi i hoʻokahi kahua ma ka liʻiliʻi loa.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>ʻAʻole hiki ke hana ʻia kekahi mana hou (nui loa nā kāmua o ka ʻike).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ʻAʻole he kāmua ka mana %version.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>Pono ʻo deleteContent i hoʻokahi wale nō o id a me nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ʻAʻole hiki ke hoʻoneʻe ʻia kekahi wahi ma lalo ona iho.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Aia nō kekahi wahi o ka ʻike ma lalo o %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>ʻAʻole hiki ke mālama ʻia ka waiwai o ke kahua %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>ʻAʻohe ʻōlelo ʻike %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>ʻAʻohe papa ʻike %class i loko o ka papahana.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>ʻAʻole i laila ka ʻike, a i ʻole ʻaʻole ʻae ʻia ʻoe e heluhelu.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e hana i kēia i kēia ʻike.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>ʻAʻohe kahua %field hiki ke kākau ʻia o ka papa %class.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Ua hāʻawi ʻia ke kahua %field ʻelua manawa.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Lawe ke kahua %field i faila: e hoʻouna iā ia ma ke ʻano he hoʻouka (he noi multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>ʻAʻole lawe ke kahua %field i faila.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Pono ke kahua %field i kekahi waiwai.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>No nā kahua kikokikona waiwai wale nō ke ʻano %format; lawe ʻo %field i kona waiwai e like me ia (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Koi ʻia ke kahua %field.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>ʻAʻole hiki ke heluhelu ʻia ka HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>Lawe ʻo content i ka version me ka id wale nō.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>ʻAʻole kūpono ka hōʻailona nāmua a i ʻole ua pau kona manawa.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>ʻAʻole he kumu (https://host a i ʻole https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>ʻAʻole he ʻano o ka GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>E hoʻouna i nā kau inoa i /api/graphql/subscribe (he kahawai hanana a i ʻole he WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>ʻAʻole i kapa ka noi i kekahi hana o ka palapala.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Noi ke kau inoa i hoʻokahi kahua wale nō.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Nui loa nā kau inoa hāmama; e hoʻāʻo hou ma hope.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>He %max āu kau inoa hāmama, ka nui loa i ʻae ʻia.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>He %max kau inoa hāmama ko kou helu wahi, ka nui loa i ʻae ʻia.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Ua hoʻopio ʻia nā kau inoa ma kēia Siteaccess.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>E komo i mea e kau inoa ai (he hōʻailona a i ʻole he kī API pilikino).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>E hoʻouna i nā hoʻololi i /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Nā hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ʻAʻole hiki ke heluhelu i ke kūlana: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ʻAʻohe naʻe papa o nā hoʻoneʻe: na ./console exp:upgrade --apply e hana iā lākou.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Ua hāʻule nā hoʻoneʻe he %count</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ke holo nei kekahi holo, i hoʻomaka ʻia e %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Ua laka ʻia ka hoʻokomo: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E kali ana</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ua hāʻule</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Nā keiki makua ʻole</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Holo hope loa</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ʻaʻohe naʻe</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Nā hoʻoneʻe a pau</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Holo hoʻohālike</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Holo hoʻāʻo</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Ua holo nā hoʻoneʻe e kali ana i loko o kahi kālepa i hoʻihoʻi ʻia ma hope: ʻaʻohe mea i mālama ʻia. Aia ma lalo ka mea a kēlā me kēia i hoʻololi ai ma ka waihona ʻikepili.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ka mea a kekahi holo e hana ai i kēia manawa. ʻAʻohe mea e loli: hōʻike kēlā me kēia hoʻoneʻe e kali ana i nā loli āna e hana ai, a hōʻike ka holo i kāna e hana ai ma mua a ma hope.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Hoʻohālike</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Holo</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Ua hāʻule ka holo hoʻāʻo: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Pono ka hoʻohālike i ka PostgreSQL a i ʻole SQLite, hiki ke hoʻihoʻi ʻia ko lāua mau loli schema; ma kēia waihona ʻikepili, hōʻike ka papahana ma lalo i ka mea a kekahi holo e hana ai.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Nā hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kūlana</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ka mea āna e hana ai</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Hoʻohālike: %result i loko o %ms milikekona</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>ʻAʻohe naʻe hoʻoneʻe.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ma mua a ma hope o ka holo</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Kiʻi paʻa ma mua</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>lawe ʻia, a hoʻihoʻi ʻia ke hāʻule kekahi hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>pio</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Kiʻi paʻa ma hope</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>lawe ʻia ke kūleʻa ka holo</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total hoʻoneʻe: %pending e kali ana, %done ua pau, %failed ua hāʻule.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Moʻolelo o nā hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Kēlā me kēia holo me kāna mea hoʻohana, kaiapuni, nā kiʻi paʻa a me nā mea i hoʻopaʻa ʻia, lepili ʻia a hoʻouna ʻia. Hiki ke hoʻomau i kekahi holo i hāʻule a i ʻole i ʻoki ʻia; hiki ke hoʻihoʻi i kekahi holo i lawe ʻia kekahi kiʻi paʻa ma mua ona.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>ʻAʻole hiki ke heluhelu i nā holo: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ʻAʻohe naʻe papa o nā hoʻoneʻe: na ./console exp:upgrade --apply e hana iā lākou.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hōʻike</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>A pau</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Nā holo</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Hoʻomaka ʻia</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Nā kiʻi paʻa</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Waihona</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Nā hana</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ma mua</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ma hope</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>hoʻouna: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Hoʻomau</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Hoʻihoʻi</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>ʻAʻohe holo ma kēia kūlana.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Hoʻomaka ʻia ma ʻaneʻi</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Nā holo, nā hoʻomau a me nā hoʻihoʻi i hoʻomaka ʻia ma kēia mau ʻaoʻao, me ka hōʻike o kēlā me kēia.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>He aha</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Hopena</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Hoʻihoʻi ʻana</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Hoʻihoʻi ʻana iā %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Holo %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ka mea a ka holo i hana ai, kona moʻokāki a me kona moʻolelo hana. Hoʻomau ka holo i hoʻomaka ʻia ma ʻaneʻi ma hope ke pani ʻia kēia ʻaoʻao; e wehe hou i ka ʻaoʻao no ka hahai ʻana iā ia.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Hoʻomau i kēia holo</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Hoʻihoʻi i kēia holo</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>ʻAʻole hiki ke heluhelu i ka moʻokāki: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Holomua</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Hoʻomaka ʻia e %user i ka %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Ke nānā nei i ke code a ke lawe nei i kiʻi paʻa ma mua o ka holo</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Ke holo nei iā %id (%index o %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>Ua pau he %done o %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Ua holo nā hoʻoneʻe; ke hoʻihoʻi nei i ke kiʻi paʻa inā ua hāʻule kekahi</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Ke lawe nei i kiʻi paʻa ma hope o ka holo, ke hoʻopaʻa, ke lepili a ke hoʻouna nei</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Ke hoʻihoʻi nei i ke kiʻi paʻa</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ua pau ka holo. Ke hoʻouka nei i kona hōʻike.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>ʻAʻole hiki ke hahai i ka holomua. E hoʻouka hou i ka ʻaoʻao no ka ʻike ʻana i ke kūlana o ka holo.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Hahai kēia ʻaoʻao i ka holo i kona holo ʻana.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Hoʻouka hou</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Hōʻike</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Lōʻihi</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milikekona</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Nā mea a ka holo i paʻi ai he mau hewa</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Moʻokāki</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Kaiapuni</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ʻaʻohe</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Pau</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Hoʻopaʻa</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Lepili</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Hoʻouna</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Memo</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Nā hoʻoneʻe o kēia holo</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Kumu</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Moʻolelo hana o ka holo</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Ka hope wale nō o ka moʻolelo hana ka mea i hōʻike ʻia.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ke holo nei</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>pau me ka hōʻike ʻole</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>kūleʻa</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>hāʻule</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hōʻole ʻia</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ʻaʻole i loaʻa ka waihona ʻikepili</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>hewa kūloko</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ke holo nei kekahi holo</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind i hoʻomaka ʻia e %user i ka %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Hahai</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Ua laka ʻia ka hoʻokomo</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Na kekahi holo ʻē aʻe ka laka (he hoʻopiʻi a i ʻole he holo ma ka console): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>ua pau</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>e kali ana</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ʻaʻole pono</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ʻaʻole ʻike ʻia</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>hoʻihoʻi ʻia</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>hoʻopili ʻia</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>e hoʻopili ʻia ana</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>lawe hope ʻia</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>e lawe hope ʻia ana</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ʻaʻole i holo</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>e kali ana i kekahi ʻē aʻe</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ua ʻae ʻia ka loli</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>e ʻae ʻia ana ka loli</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>hoʻohālike ʻia</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Nā hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Kūlana</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Moʻolelo</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Lawe hope iā %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Hoʻihoʻi ʻia kekahi holo i ke kiʻi paʻa i lawe ʻia ma mua ona, a hoʻokahi hoʻoneʻe me kona down(). No ka poʻe akamai ka hoʻihoʻi ʻana i kekahi kiʻi paʻa mua. Holo kēlā me kēia ma hope ma kou inoa, ma hope o ke kiʻi paʻa o ke kūlana o kēia manawa.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ʻAʻole hiki ke heluhelu i nā mea hiki ke lawe hope ʻia: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>He holo</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Hoʻokahi hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>He kiʻi paʻa mua</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Wehewehe</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ʻae</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ʻaʻole</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Kiʻi paʻa</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Lepili inoa</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Lawe ʻia</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ʻAno</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Nā ʻāpana e hoʻihoʻi ai</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Ka waihona ʻikepili</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Nā faila mālama (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Nā hoʻonohonoho (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Hoʻihoʻi ka hoʻihoʻi ʻana i ka waihona ʻikepili i ka manawa o ke kiʻi paʻa, me nā kau pū: e noi ʻia paha ʻoe e komo hou ma hope. Nalo nā mea a pau i loli mai ia manawa mai; lawe mua ʻia kekahi kiʻi paʻa o ke kūlana o kēia manawa.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ua ʻike au i ka mea a kēia e hoʻihoʻi ai</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>E kikokiko hou i ka id o ke kiʻi paʻa</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ʻAe, e lawe hope</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kāpae</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Nā holo i lawe ʻia kekahi kiʻi paʻa ma mua o lākou.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Koho</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>ʻAʻohe naʻe holo me ke kiʻi paʻa.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Nā hoʻoneʻe i hoʻopili ʻia e hiki ke lawe hope iā lākou iho (he down() ko lākou).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>ʻAʻohe down() o kekahi hoʻoneʻe i hoʻopili ʻia.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Nā kiʻi paʻa mua (poʻe akamai)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>ʻAʻohe naʻe kiʻi paʻa.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Holo i nā hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Holo ka holo ma hope ma ka inoa o %user, a hōʻike kona ʻaoʻao iā ia i kona holo ʻana. Ma mua o ka hoʻoneʻe mua, lawe ʻia kekahi kiʻi paʻa o ka hoʻokomo; ke hāʻule kekahi hoʻoneʻe, kū ka holo a hoʻihoʻi ʻia ke kiʻi paʻa.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Holo hoʻāʻo mua</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ʻAʻole hiki ke heluhelu i ke kūlana: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Nā hoʻoneʻe e kali ana</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Holo lākou ma kēia kaʻina. E wehe i ka hōʻailona o kekahi no ka waiho ʻana iā ia, a me nā mea e pili ana iā ia, no kekahi holo ma hope.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>E holo</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Hoʻā i ke ʻano mālama ʻōnaehana i kona holo ʻana.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Ua loli ma hope o ka hoʻopili ʻia ʻana</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ʻAʻole kēia mau faila nā mea i hoʻopili ʻia. Hōʻole ka holo iā lākou ke ʻole e ʻae ʻia ka loli me ke kumu; ʻaʻole lākou e holo hou, kākau ʻia ka checksum hou a mālama ʻia ke kumu ma ka moʻolelo loiloi.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>ʻAe i nā loli</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>No ke aha</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ʻO nā koho paʻamau nā mea palekana. Waiho kēlā me kēia pahu i kekahi ʻanuʻu.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>ʻAʻohe kiʻi paʻa</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>ʻAʻohe kiʻi paʻa ma mua a ma hope o ka holo: ʻaʻole hiki ke hoʻihoʻi ʻakomi ʻia kekahi hāʻule.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>ʻAʻohe hoʻihoʻi</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Ma hope o ka hāʻule, e waiho i ka hoʻokomo e like me ka waiho ʻana o ka hāʻule.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Mālama i nā loli i hoʻopaʻa ʻole ʻia</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>E holo ʻoiai he mau loli i hoʻopaʻa ʻole ʻia ko nā hoʻonohonoho, nā hoʻonui a i ʻole nā hoʻolālā; komo lākou i loko o ke kiʻi paʻa.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>ʻAʻohe hoʻopaʻa</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Mai hoʻopaʻa i ka faila kūlana a me ka moʻolelo hana o ka holo (ʻaʻohe lepili a ʻaʻohe hoʻouna pū).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>ʻAʻohe hoʻouna</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Hoʻopaʻa a lepili, akā mai hoʻouna.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ʻAʻohe lepili</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Hoʻopaʻa a hoʻouna, akā mai lepili i ka holo.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ʻAe, e holo i kēia mau hoʻoneʻe i kēia manawa</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ʻAʻohe hoʻoneʻe e kali ana.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Hoʻi i ke kūlana</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Nā loli i kēia hoʻokomo i kākau ʻia hoʻokahi manawa he mau faila (ʻike, nā papa, nā kuleana, nā hoʻonohonoho, schema) a hoʻopili ʻia i kēlā me kēia hoʻokomo o ka pūnaewele ma ke kaʻina like. Lawe mua ka holo i kiʻi paʻa, hoʻihoʻi iā ia ke hāʻule kekahi hoʻoneʻe, a kākau, hoʻopaʻa a hoʻouna i kāna i hana ai.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Holo i nā %count e kali ana</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Nānā ākea</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E kali ana</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Ua pau</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ua hāʻule</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>ʻAʻole pono</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Waihona ʻikepili</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>nā kālepa: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Aia nā hoʻoneʻe o ka pūnaewele ma migrations/, a ko kekahi hoʻonui ma extension/&lt;name&gt;/migrations/. Holo lākou ma ke kaʻina o ko lākou mau inoa a me nā mea a lākou e koi ai.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Holo hope loa</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Ua loli ka faila ma hope o ka hoʻopili ʻia ʻana.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>ʻAʻohe naʻe hoʻoneʻe. Kākau ʻo ./console exp:migration:generate --skeleton &lt;name&gt; --apply i ka mua.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Nā holo hou loa</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Nā holo a pau</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>ʻAʻohe naʻe holo.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Pono ka hoʻohālike ʻana i kekahi holo i ke kulekele migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ke holo nei kekahi holo: e hoʻohālike ke pau ia.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>ʻAʻole ʻo %target he holo, he hoʻoneʻe a he kiʻi paʻa o kēia hoʻokomo.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>E kaha mua iā &quot;ʻAe, e lawe hope&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>No ka poʻe akamai ka hoʻihoʻi ʻana i kekahi kiʻi paʻa mua: e kaha iā &quot;Ua ʻike au i ka mea a kēia e hoʻihoʻi ai&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>E kikokiko hou i ka id o ke kiʻi paʻa: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>E koho i hoʻokahi ʻāpana i ka liʻiliʻi loa e hoʻihoʻi ai.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>ʻAʻohe kiʻi paʻa i lawe ʻia ma mua o kēia holo: e lawe hope i kona mau hoʻoneʻe pākahi, a i ʻole e hoʻihoʻi i kekahi kiʻi paʻa mua.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ʻAʻole hiki i kēia hoʻoneʻe ke lawe hope iā ia iho: ʻaʻole i hoʻopili ʻia, a i ʻole ʻaʻohe ona down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ʻAʻole hiki ke heluhelu i ka palapala.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>E koho i ka holo e hoʻomau ai.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>E kaha mua iā &quot;ʻAe, e holo i kēia mau hoʻoneʻe i kēia manawa&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>E koho i hoʻokahi hoʻoneʻe i ka liʻiliʻi loa.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Ua loli kekahi hoʻoneʻe ma hope o ka hoʻopili ʻia ʻana: e ʻae i ka loli me ke kumu, a i ʻole e hoʻihoʻi i ka faila.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>E hāʻawi i ke kumu e ʻae ʻia ai nā hoʻoneʻe i loli.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>He 500 hua ka nui loa o ke kumu.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Ke holo mau nei kekahi holo i hoʻomaka ʻia ma ʻaneʻi (%detail). E kali a pau ia.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Na kekahi holo ʻē aʻe ka laka o ka hoʻokomo: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Pono ka holo i kekahi mea hoʻohana e ola ana i komo.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>ʻAʻole i loaʻa kekahi polokalamu laina kauoha php. E hoʻonoho iā migration.ini [AdminSettings] PhpCliPath i kona ala piha.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>Ua hoʻopau ʻia ʻo proc_open, no laila ʻaʻole hiki ke hoʻomaka i kekahi holo ma ʻaneʻi. E holo iā ./console exp:migration:migrate --apply ma ke kikowaena.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>ʻAʻole hiki ke kākau i ka waihona o nā holo: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Ua hoʻomaka ʻia ka holo akā ʻaʻole i hōʻike i kona id kaʻina hana. E nānā iā %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>E kapa i ka mea e lawe hope ai.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>ʻAʻole hiki ke hoʻomaka i ka holo.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Hoʻopaʻa i nā loli</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Iā ka hoʻopaʻa ʻana e holo ana, mālama ʻia nā mea āu e hoʻololi ai ma ka hoʻokele a i ʻole ma ka pā ʻaoʻao o ka pūnaewele ma ke ʻano he mau kaʻina o kekahi neʻe ʻana: ka ʻike, nā papa, nā kuleana a me nā kulekele, nā māhele, nā mea hoʻohana a me nā hui, nā inoa ʻē o URL, nā hoʻonohonoho. E hoʻōki iā ia ke pau ʻoe, e nānā i nā mea āna i hopu ai, a e hana i neʻe ʻana mai laila mai.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ʻAʻole hiki ke heluhelu i nā hoʻopaʻa ʻana: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>ʻAʻole i loaʻa nā papa o nā hoʻopaʻa ʻana: e holo mua i ka hoʻokiʻekiʻe (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Ua hoʻopio ʻia ka hoʻopaʻa ʻana ma migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Kaʻu mau loli</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Hoʻopaʻa wale i nā mea āu e hoʻololi ai, ma nā wahi a pau, a hiki i kou hoʻōki ʻana.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Hoʻopaʻa ʻana</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>mai %time mai, %count loli a hiki i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Lepili (koho)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>E hōʻike i nā mea āna i hopu ai</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Hoʻōki i ka hoʻopaʻa ʻana</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>E hoʻomaka i ka hoʻopaʻa ʻana i kaʻu mau loli</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Puka aniani no ka pūnaewele holoʻokoʻa</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Hoʻopaʻa i kēlā me kēia loli o kēlā me kēia mea hoʻohana a me ka papa kauoha a pani ʻia. Ke wehe ʻoe, e noi ʻia ʻoe e hōʻoia ʻo ʻoe nō.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Hāmama</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Pani i ka puka aniani</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Wehe i ka puka aniani no ka pūnaewele holoʻokoʻa</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Nā hoʻopaʻa ʻana</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>ʻAʻole loa e hoʻopaʻa ʻia ka moʻokāki o kekahi mea hoʻohana (inoa komo, leka uila, ʻōlelo huna) a me nā kahua o nā moʻokāki mea hoʻohana.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Nā loli</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Ka pūnaewele holoʻokoʻa</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Nā loli a %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Ua hoʻōki ʻia</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>ʻAʻohe hoʻopaʻa ʻana i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Hoʻopaʻa ʻana %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Nā hoʻopaʻa ʻana a pau</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Ka neʻe ʻana e puka mai ana</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Nā loli i hoʻohui ʻia i hoʻokahi kaʻina no kēlā me kēia mea i loli: ka mea e hana ai ka neʻe ʻana i hana ʻia mai kēia hoʻopaʻa ʻana.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Hiki ke hana i neʻe ʻana mai laila mai ke loaʻa i kēia hoʻonohonoho nā ʻano kaʻina YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Haʻalele ʻia me ka manaʻo: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ʻAʻohe mea i hoʻopaʻa ʻia.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Nā mea āna i hopu ai</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count loli, ma ke kaʻina i hana ʻia ai.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Loli</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Kaʻina</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>E pili ana i</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count hou aku: papa inoa ʻo ./console exp:migration:record:show i nā mea a pau.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Kiola</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Wehe i ka hoʻopaʻa ʻana a me nā mea āna i hopu ai. Noho loli nō ka mea i loli.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ʻAe, kiola i kēia hoʻopaʻa ʻana</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Ke hoʻopaʻa nei…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ke hoʻopaʻa ʻia nei kāu mau loli no kekahi neʻe ʻana.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Ke hoʻopaʻa ʻia nei kēlā me kēia loli ma kēia pūnaewele no kekahi neʻe ʻana (puka aniani no ka pūnaewele holoʻokoʻa).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Ua hoʻomaka ka hoʻopaʻa ʻana o ka pūnaewele holoʻokoʻa: e hoʻopaʻa ʻia kēlā me kēia loli o kēlā me kēia mea hoʻohana a hiki i kou hoʻōki ʻana.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Ua hoʻomaka ka hoʻopaʻa ʻana: e hoʻopaʻa ʻia kāu mau loli a hiki i kou hoʻōki ʻana.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Ua hoʻōki ʻia ka hoʻopaʻa ʻana. E noho nā mea āna i hopu ai a hiki i kou kiola ʻana.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Ua wehe ʻia ka hoʻopaʻa ʻana a me kona mau hanana.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ʻAʻohe hoʻopaʻa ʻana %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>E kaha mua i ka "ʻAe, kiola i kēia hoʻopaʻa ʻana".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>ʻO ka mea hoʻohana nāna i hoʻopaʻa wale nō e hiki ke hoʻōki i ka hoʻopaʻa ʻana kau.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>E koho i ka hoʻopaʻa ʻana e hoʻōki ʻia.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Ke holo nei kekahi hoʻopaʻa ʻana o kēia ʻano.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ʻAʻole hiki ke hoʻololi i ka hoʻopaʻa ʻana: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Hana i ka neʻe</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Ka inoa o ka neʻe (koho)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Ua kākau ʻia ka neʻe %file. ʻO nā loli i hiki ʻole i kekahi ʻanuʻu ke hana, ua helu ʻia ma ka piko o ka faila, e hana lima ʻia.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>ʻAʻohe neʻe i kākau ʻia: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>He holo lōʻihi ma nā ʻāpana</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Mālama nā kahua hakahaka i nā hoʻonohonoho o migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>ʻAʻole ʻoi aku ma mua o kēia nui o nā neʻe</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>ʻAʻohe neʻe hou ma hope o (kekona)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Hoʻomaha ma waena o nā neʻe (kekona)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Ka mea koʻikoʻi haʻahaʻa (1 a 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>He helu piha ke kahua holo lōʻihi mai 1 (ka hoʻomaha: kekona mai 0 a 60, ka mea koʻikoʻi: 1 a 19), a i ʻole hakahaka.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Pani ʻo ia iā ia iho i ka %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Pani iā ia iho ma hope o (minuke, koho)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>He helu piha nā minuke mai 1 a 44640 (31 lā), a i ʻole hakahaka.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Hoʻoneʻe %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Hoʻoneʻe hou</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>He hoʻoneʻe YAML: e kākau iā ia ma ke ʻano he kikokikona a i ʻole e kūkulu i kona mau kaʻina ma ka palapala hoʻopiha, e nānā iā ia, a laila e mālama iā ia i loko o kekahi wahī hoʻoneʻe.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Ua holo mua ʻia kēia hoʻoneʻe, no laila ʻaʻole e mālama hou ʻia: e hōʻole ʻia kekahi waihona i hoʻololi ʻia e ke kiaʻi helu hōʻoia. E hana i ka hoʻololi ma kekahi hoʻoneʻe hou.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ʻAʻole hiki i ke kikowaena pūnaewele ke kākau i ka waihona.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>ʻO nā laina ʻōlelo hoʻākāka ma luna ke poʻo (description, author, requires, environments, engines). Ke hoʻohui ʻia a hoʻololi ʻia paha kekahi kaʻina ma ka palapala hoʻopiha, kākau hou ʻia ka hoʻoneʻe: ʻaʻole mālama ʻia nā ʻōlelo hoʻākāka ma waena o nā kaʻina.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Inoa o ka hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Kahi e hele ai</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Ka pūnaewele</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Kikokikona YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Nānā</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Mālama</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Nā ʻanuʻu</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Nā kī</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Hoʻoponopono</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Hoʻoneʻe i luna</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Hoʻoneʻe i lalo</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Wehe</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>ʻAʻohe naʻe kaʻina: e hoʻohui i hoʻokahi me ka palapala hoʻopiha, a i ʻole e kākau iā lākou ma ke kikokikona.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Hoʻololi i ke kaʻina %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Hoʻohui i kekahi kaʻina</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Hana ʻia ka palapala hoʻopiha o kekahi kaʻina mai kona ʻano kaʻina: kona mau kī, ka mea a kēlā me kēia e lawe ai a me nā ʻano hana āna e pili ai.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>ʻAno kaʻina</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Hōʻike i kona palapala hoʻopiha</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Aia i ke kaʻina nā kī i ʻike ʻole ʻia e kona ʻano; waiho ʻia lākou ke hoʻololi ʻia ke kaʻina: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>ʻAno hana</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Ma</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>ma %modes wale nō</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Paʻamau: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Nā koina, nā kuhikuhi a me ka ʻōlelo hoʻākāka</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Nā pālua inoa=waiwai i hoʻokaʻawale ʻia me nā koma. Nā waiwai o kēia kaʻina: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Laʻana</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Hoʻololi i ke kaʻina</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Hoʻohui i ke kaʻina</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ka mea a exp:migration:check e ʻōlelo ai: ke poʻo, ka palapala a me kēlā me kēia kaʻina i nānā ʻia e kona ʻano kaʻina.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Kūleʻa ka hoʻoneʻe i ka nānā ʻana.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Nānā mua</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Ka YAML e like me ka mea e mālama ʻia ai.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Hōʻike i ka YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Nā hoʻoneʻe YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ua holo</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>ʻAʻohe naʻe hoʻoneʻe YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Mea hoʻoponopono</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>ʻAʻohe hoʻoneʻe YAML %id i loko o nā wahī hoʻoneʻe.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>E koho i kekahi ʻano kaʻina.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Ua hoʻohui ʻia ke kaʻina. E nānā i ka hoʻoneʻe ma mua o kou mālama ʻana.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Ua hoʻololi ʻia ke kaʻina. E nānā i ka hoʻoneʻe ma mua o kou mālama ʻana.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>E koho i kekahi kaʻina.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ʻAʻohe palapala hoʻopiha o kēia kaʻina (he kaʻapuni, a i ʻole he ʻano kaʻina ʻaʻole i loaʻa i kēia hoʻonohonoho): e hoʻololi iā ia ma ke kikokikona.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>E koho i kahi e hele ai ka hoʻoneʻe: ka pūnaewele a i ʻole kekahi hoʻonui e hana ana.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Ua mālama ʻia ʻo %file. E hana i kekahi holo hoʻāʻo ma mua o ka holo ʻana o ka hoʻoneʻe.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>ʻAʻole i mālama ʻia: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Nā hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Nā hoʻokomo ʻē aʻe a kēia e hoʻolako ai i kona mau hoʻoneʻe: hoʻouna ka hoʻolako i nā hoʻoneʻe i nā hoʻokomo mamao i koho ʻia a holo iā lākou ma laila, i ka manawa hoʻokahi a like pū. ʻAʻole loa e paʻa kekahi hoʻokomo mamao i ka mea huna: kapa kona palapala komo i hoʻokahi ma Hoʻonohonoho &gt; Nā mea huna.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Hoʻokomo mamao hou</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Kōkua</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Hoʻāʻo hoʻohui o %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Nā hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>A hiki i %parallel hoʻokomo mamao e hana ʻia ana i ka manawa hoʻokahi; hiki i hoʻokahi wā ke lōʻihi he %timeout kekona ma kēlā me kēia.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Helu ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Palapala komo</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Nā pūʻulu</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>nā hoʻonohonoho e hoʻoponopono ai</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>nā faila wale nō (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Kī SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>ʻŌlelo huna</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ʻaʻohe (ka luna SSH a me nā kī o ka hoʻokipa)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Hoʻāʻo i ka hoʻopili</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Hele ka hoʻolako i kekahi pūʻulu i kēlā me kēia hoʻokomo mamao o ia pūʻulu.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>E hoʻolako i nā hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>ʻAʻohe naʻe hoʻokomo mamao i hoʻonohonoho ʻia.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Hoʻokomo mamao %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>ʻAʻohe mea i hoʻouna ʻia a holo ʻia ma ʻaneʻi: kākau ʻo Mālama i nā hoʻonohonoho i settings/override/migration.ini.append.php. He inoa ka palapala komo; noho kona waiwai ma Hoʻonohonoho &gt; Nā mea huna a i ʻole ma ke kaiapuni.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>E nānā i kēia mau hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Nā hoʻonohonoho e like me ka mea i hoʻokomo ʻia, ʻaʻole naʻe i mālama ʻia.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Nānā hou</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Kūpono nā hoʻonohonoho. E kākau ʻia kēia mau laina:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Lawe</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>he inoa wale nō; noho ka waiwai ma Hoʻonohonoho &gt; Nā mea huna</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Nā laina e kākau ʻia</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Hoʻohui</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Kī o ka hoʻokipa</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Ka hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ʻO ka inoa o ka hoʻokomo mamao a ʻo ke kaiapuni hea ia.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Helu ʻike</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Nā hua palapala, nā huahelu, - a me _, e laʻa me production1. Kapa ʻia ka hoʻokomo mamao me ia ma nā hōʻike a ma ka console (--remotes=production1) a ʻaʻole hiki ke hoʻololi ma hope.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Hele ka hoʻolako ma nā pae ma nā kaiapuni ma kēia kaʻina.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Koho, hoʻokaʻawale ʻia me nā koma, e laʻa me production. Hele ka hoʻolako i kekahi pūʻulu i kēlā me kēia hoʻokomo mamao o ia pūʻulu.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Ka hoʻohui</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Pehea e hiki ai nā faila i laila, a ma hea ka hoʻokomo.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Ma o SSH, ka mea i loli wale nō, hoʻomau ʻia ka hoʻoili i haki. Ke koho maikaʻi loa ma kahi i hoʻokomo ʻia ai ʻo rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH me scp no nā faila.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH me sftp no nā faila.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Nā faila wale nō: hoʻouna ʻia nā hoʻoneʻe a heluhelu hou ʻia, akā ʻaʻole hiki ke holo ma laila.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP ma o TLS; nā faila wale nō.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Kekahi hoʻokomo ʻē aʻe ma kēia kikowaena, i loko o kekahi wahī.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hoʻokipa</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>He inoa hoʻokipa a helu wahi paha, e laʻa me node1.example.com. ʻAʻole no local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Puka</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Hakahaka: 22 no SSH, 21 no FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mea hoʻohana</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Ala</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Ke kumu o ka hoʻokomo ma laila, e laʻa me /var/www/site (no FTP: ke ala i ʻike ʻia e ka moʻokāki FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Laina kauoha PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Ka PHP CLI ma laila: php, a i ʻole he ala piha e like me /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Holo nā palapala kauoha console ma ke ʻano he root ma laila</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Inā he root wale nō ka mea hoʻohana o ka hoʻokomo mamao (holo ʻia lākou me --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Ka palapala komo</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Pehea e komo ai kēia hoʻokomo ma laila. He inoa wale nō ka mea i mālama ʻia.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ʻAʻohe</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Ka luna SSH a me nā kī o ka mea hoʻohana e holo ai kēia hoʻokomo (a mau no local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>He kī pilikino i mālama ʻia ma ke ʻano he mea huna.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>He ʻōlelo huna i mālama ʻia ma ke ʻano he mea huna (komo ʻo FTP me ia).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Inoa o ka mea huna</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>He mea huna o Hoʻonohonoho &gt; Nā mea huna, e laʻa me deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Hoʻonohonoho &gt; Nā mea huna</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>A i ʻole he loli kaiapuni</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Ka loli o ke kaʻina hana kikowaena e paʻa ana iā ia, e laʻa me DEPLOY_KEY (mālama ʻia ma ke ʻano he env:DEPLOY_KEY). Pani ia i ka inoa o ka mea huna.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Ke kī o ka hoʻokipa</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Koho, no SSH, sftp a me rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Māka manamana lima o ke kī o ka hoʻokipa</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... e like me ka paʻi ʻana a ssh-keygen -l. Me ia, pono ka hoʻokipa e hōʻike i kēia kī; me ka ʻole, aʻo ʻia ke kī i ka launa mua ʻana.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Nānā hou</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>E hoʻāʻo i ka hoʻohui me nā hoʻonohonoho ma luna, a laila e nānā hou i nā laina e kākau ʻia ana.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Wehe i kēia hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Lawe ʻia kona mau hoʻonohonoho mai settings/override/migration.ini.append.php. ʻAʻohe mea e loli ma ka hoʻokomo mamao, a noho kona mau hoʻolako ma ka moʻolelo.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ʻAe, e wehe i kēia hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Nā hoʻolako</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Hoʻouna ka hoʻolako i nā hoʻoneʻe o kēia hoʻokomo i nā hoʻokomo mamao i koho ʻia a holo iā lākou ma laila ma ke ʻano he %user, i ka manawa hoʻokahi a like pū: nānā mua ʻia kēlā me kēia hoʻokomo mamao, a inā hāʻule kekahi, lawe hope ʻia kēlā me kēia hoʻokomo mamao i hoʻopili. Holo ia ma hope, a hōʻike kona ʻaoʻao i kēlā me kēia hoʻokomo mamao i kona holo ʻana.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Nā hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>E kaha i nā hoʻokomo mamao, he pūʻulu, a i ʻole ia mau mea ʻelua.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>E hoʻolako iā ia</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Pehea</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Hoʻolako</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Hoʻouna a holo</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Hoʻouna ʻia nā hoʻoneʻe, hōʻoia ʻia a holo ʻia ma kēlā me kēia hoʻokomo mamao me hoʻokahi helu ʻike holo like.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Hoʻoili wale</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Hoʻouna ʻia nā faila a hōʻoia ʻia, ʻaʻohe mea i holo ʻia (ke ala hoʻokahi no kekahi hoʻokomo mamao FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Ma nā pae</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Pae ma hope o ka pae ma ke kaʻina o nā kaiapuni (dev, stage, beta, production ...): hoʻolako ʻia ka pae mua, a laila kali ka ipuka a hiki i ka wā e hoʻāpono ai kekahi i ka pae aʻe. Pau loa a ʻaʻohe i loko o kēlā me kēia pae.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Kēia mau hoʻoneʻe wale nō</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Koho: nā helu ʻike o nā hoʻoneʻe, hoʻokaʻawale ʻia me nā koma. Hakahaka: kēlā me kēia hoʻoneʻe o ka pūnaewele a me kona mau hoʻonui.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Nānā ʻana mua wale nō</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ʻAe, e hoʻolako i kēia manawa</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Nā hoʻolako i hoʻouna a holo i kekahi mea, ka mea hou loa ma mua (ʻaʻohe hōʻike i mālama ʻia e ka nānā ʻana mua).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>hoʻoili wale</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ma nā pae, %stages pae</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ʻaʻole like pū</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>ʻAʻohe naʻe hoʻolako.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Hoʻolako %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Kēlā me kēia hoʻokomo mamao o ka hoʻolako me kona kūlana. Hoʻomau ka hoʻolako i hoʻomaka ʻia ma ʻaneʻi ma hope ke pani ʻia kēia ʻaoʻao; e wehe hou i ka ʻaoʻao e hahai ai.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Nā hoʻolako a pau</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Nānā ʻana mua</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Pae aʻe</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Ke nānā nei i nā hoʻonohonoho a me nā palapala komo</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Nānā ʻana mua: ke heluhelu nei i ke kūlana o kēlā me kēia hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Ke hoʻouna nei i nā faila hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Ke hōʻoia nei i ka mea i hiki mai</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Ke holo nei i nā hoʻoneʻe ma kēlā me kēia hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Ke lawe hope nei i nā hoʻokomo mamao</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Ua pau ka hoʻolako. Ke hoʻouka nei i kona hōʻike.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>ʻAʻole hiki ke hahai i ka holomua. E hoʻouka hou i ka ʻaoʻao e ʻike ai i ke kūlana o ka hoʻolako.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Wā</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Hahai kēia ʻaoʻao i ka hoʻolako i kona holo ʻana.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Like pū</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Nā pae</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>kali ka pae %stage ma kona ipuka</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Ipuka %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>hoʻāpono ʻia e %user i ka %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Pae</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Nā faila i hoʻouna ʻia</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Mana kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>hoʻopili ʻia: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>e hoʻopili ʻia: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Nā wā</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Ipuka: pae %stage o %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Ua hoʻolako ʻia nā pae ma mua ona. E nānā iā lākou, a laila e hoʻāpono i ka pae aʻe: nānā hou ʻia kona mau hoʻokomo mamao a hoʻolako ʻia, pau loa a ʻaʻohe.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Aʻe</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ʻAe, e hoʻolako i ka pae aʻe i kēia manawa</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Hoʻāpono</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Hoʻihoʻi i kēia hoʻolako</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Hoʻi kēlā me kēia hoʻokomo mamao i hoʻopili iā ia (%list) i ke kiʻi paʻa i lawe ʻia ma mua o kona holo, i ka manawa hoʻokahi.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ʻAe, e hoʻihoʻi i kēia hoʻolako i kēia manawa</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>i hoʻolālā ʻia</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ua hoʻoili ʻia</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ua hoʻolako ʻia</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>e kali ana ma kekahi ipuka</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>i koho ʻia</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>i hoʻomākaukau ʻia</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>mākaukau</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>e kali ana i kona pae</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ua hoʻouna ʻia nā faila</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ua hōʻoia ʻia</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ua hāʻule, ua hoʻihoʻi iā ia iho</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ʻaʻole i loli</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ʻaʻole i hoʻolako ʻia</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ʻaʻole hiki ke hōʻea</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Ua pane ka hoʻokomo mamao.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>ʻAʻole hiki ke hoʻohana i ka hoʻokomo mamao i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done ua pau, %pending e kali ana, %failed ua hāʻule</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Laka</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>paʻa kekahi holo i ka laka ma laila</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>wehe</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage o %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>E koho i ka hoʻokomo mamao e hoʻāʻo ai.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>E kaha mua i “ʻAe, e wehe i kēia hoʻokomo mamao”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>ʻAʻole hiki ke wehe i ka hoʻokomo mamao: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>ʻAʻole hiki ke mālama i ka hoʻokomo mamao: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ʻAʻole hiki ke heluhelu i ka faila hoʻonohonoho: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>E koho i hoʻokahi hoʻokomo mamao a pūʻulu paha ma ka liʻiliʻi loa.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>ʻAʻole i loaʻa hou kekahi hoʻokomo mamao i koho ʻia ma nā hoʻonohonoho. E hoʻouka hou i ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>E kaha mua i “ʻAe, e hoʻolako i kēia manawa”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>ʻAʻole hiki i kekahi hoʻokomo mamao FTP ke holo i nā hoʻoneʻe: e koho i “Hoʻoili wale”, a i ʻole e waiho iā ia.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ʻO nā hoʻoneʻe e hoʻolako ai, he mau helu ʻike hoʻoneʻe lākou, hoʻokaʻawale ʻia me nā koma.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Ke holo nei nō ka hoʻolako. E kali a pau.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ʻAʻole kali kēia hoʻolako ma kekahi ipuka.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ʻAʻohe hoʻokomo mamao i hoʻopili i kēia hoʻolako: ʻaʻohe mea e hoʻihoʻi ai.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>E kaha mua i “ʻAe, e hoʻolako i ka pae aʻe i kēia manawa”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>E kaha mua i “ʻAe, e hoʻihoʻi i kēia hoʻolako i kēia manawa”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Aia nō he hoʻokomo mamao me ka helu ʻike %id.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>He helu ka puka mai 1 a 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>He huaʻōlelo ke kaiapuni o nā hua palapala, nā huahelu, - a me _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>He huaʻōlelo ka pūʻulu o nā hua palapala, nā huahelu, - a me _ (ʻaʻole all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>ʻAʻole hiki ke heluhelu i ka palapala komo i kēia manawa: %problem. E mālama iā ia ma Hoʻonohonoho &gt; Nā mea huna (a i ʻole e hoʻonoho i ka loli) ma mua o ka hoʻolako mua.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Loaʻa wale i kekahi hoʻokomo mamao FTP nā faila: he “Hoʻoili wale” ka hoʻolako iā ia, a holo lima ʻia kona mau hoʻoneʻe ma laila.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>ʻAʻole aia ka hoʻokomo mamao %id ma settings/override/migration.ini.append.php; e wehe iā ia ma kahi i hoʻonoho ʻia ai.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Ua komo ma o FTP a heluhelu i index.php. ʻAʻole hiki ke heluhelu i ke kūlana hoʻoneʻe o kekahi hoʻokomo mamao FTP.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Hoʻololi ʻia</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Hana ʻia</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Inoa</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Papa</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Māhele</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Mea hana</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ka ʻike hou</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Ka ʻike i hana ʻia a hoʻololi ʻia ma mua loa o ka pūnaewele holoʻokoʻa, ka mea hou loa ma mua: ka mea a nā malihini i hoʻouna mai ai, ka mea i kāohi ʻia no ka loiloi, nā kāmua e kali ana i ko lākou hoʻopuka ʻia. E koho i nā mea e hoʻokuʻu ai, kāohi, hūnā, hōʻike, wehe a hoʻoneʻe paha i kekahi māhele a kūlana ʻē aʻe.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>ʻAʻole i hiki ke heluhelu i ka papa inoa: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>ʻAʻole i hoʻonohonoho ʻia ke kāohi loiloi, no laila ʻaʻohe mea i kāohi ʻia a ʻaʻole hāʻawi ʻia nā hana kāohi. Na ka ʻanuʻu hoʻopiʻi 6.0.15-review-hold e hoʻonohonoho: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Kānana i ka papa inoa</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Mai</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>A hiki i</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Lā</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Hana ʻia (hoʻopuka mua ʻia)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Nā mea a pau</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Kūlana</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Hoʻopuka ʻia</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Kāmua, ʻaʻole i hoʻopuka ʻia</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>E kali ana (e kali ana i ka ʻae a i kekahi lā)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>I loko o ka pahu ʻōpala</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kāohi ʻia no ka loiloi</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Kāohi ʻia</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>ʻAʻole kāohi ʻia</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Hūnā ʻia</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>ʻIke ʻia</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Hoʻouna ʻia ma</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Kekahi siteaccess</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>ʻO ka mea wale nō i kākau ʻia e ka loiloi moʻokāki.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>I kēia manawa: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>He inoa komo a i ʻole he id mea hoʻohana.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Kānana</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Holoi i nā kānana</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Nā mea</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from a hiki i %to o %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ʻAʻohe mea</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(heluhelu ʻia i loko o %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Nā hana no nā mea i koho ʻia</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Koho i nā mea a pau ma kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count i koho ʻia</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Hana</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Koho i kekahi hana</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Hoʻokuʻu i ke kāohi</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Kāohi no ka loiloi</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Hūnā</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Hōʻike</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Hoʻoneʻe i ka pahu ʻōpala</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Holoi</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Hāʻawi i ka māhele</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Hāʻawi i ke kūlana</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Kumu</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Pono no ke kāohi; mālama ʻia me ke kāohi a ma ka loiloi moʻokāki.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Koho i kekahi māhele</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kūlana mea</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Koho i kekahi kūlana</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Hoʻohana i nā mea i koho ʻia</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Nānā ʻia kēlā me kēia mea e like me kou mau ʻae ponoʻī. Noi ka hoʻoneʻe ʻana i ka pahu ʻōpala a me ka holoi ʻana iā ʻoe e hōʻoia. Holo ma hope ke ʻoi aku ma mua o %count mau mea.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Koho</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Hoʻopuka ʻana</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Hoʻouna ʻia mai</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Koho iā %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ʻaʻole i kēia manawa</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ʻaʻohe inoa)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Kāmua</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E kali ana</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Hūnā ʻia e kona makua</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Kāohi ʻia: hoʻouna hou</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Mana %version e kali ana</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Mana %version e hana ʻia ana</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Kāmua, mana %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Mana %version hoʻopuka ʻia</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Hoʻonohonoho ʻia no %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ʻaʻohe helu wahi</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ʻaʻole i kākau ʻia</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ʻAʻohe mea e kūlike me kēia mau kānana.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hōʻike i nā mea a pau</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>ʻAʻohe ʻike i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ma kēlā me kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Hōʻike i %count mau mea ma kēlā me kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Mai ka papa kuhikuhi loiloi moʻokāki mai ka helu wahi a me ka polokalamu kele pūnaewele o kekahi hoʻouna ʻana, a ʻaʻole loaʻa ia ma ʻaneʻi: ʻōlelo ke kolamu "ʻaʻole i kākau ʻia".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ʻO ka helu wahi a me ka polokalamu kele pūnaewele nā mea i kākau ʻia e ka loiloi moʻokāki no ka mea (kākau mau ke kāohi ʻakomi iā lākou; ka hoʻopuka ʻana a me ka hana ʻana inā hoʻā ʻia wale nō), e like me kā kona mau hoʻonohonoho pilikino e mālama ai.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count mau mea</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Wehe mau loa ka holoi ʻana i nā mea, me ko lākou mau mana a me nā unuhina a pau. ʻAʻole hiki ke hoʻihoʻi ʻia.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Hele nā mea i ka pahu ʻōpala, kahi e hiki ai ke hoʻihoʻi ʻia.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Nānā ʻia kēlā me kēia mea e like me kou mau ʻae ponoʻī; waiho ʻia ka mea me nā mea lalo e like me ia (e wehe iā ia ma ke kūkulu ʻike). E noi ʻia ʻoe e hōʻoia ʻo ʻoe nō kēia.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Holo kēia ma hope: wehe ʻia kona ʻaoʻao holomua, a hōʻike ʻia ka hopena o kēlā me kēia mea ke pau.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Nā mea i koho ʻia</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>a me %count hou aku</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kāpae</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>ʻAʻohe mea i hana ʻia</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Kumu: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Ke holo nei ka hana ma hope.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Kona holomua</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Ua hāʻule ka hana ma hope: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Pau</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hōʻole ʻia</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Hāʻule</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Ma kēlā me kēia mea</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Mea</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Hopena</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>No ke aha</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Hoʻi i ka papa inoa</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>ʻAʻohe mea i pau</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Hōʻoia</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Koho i kekahi hana.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Koho i hoʻokahi mea ma ka liʻiliʻi loa.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Koho i 1000 mau mea ma ka nui loa i ka manawa hoʻokahi.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>E haʻi i ke kumu i kāohi ʻia ai nā mea.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Koho i ka māhele.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Koho i ke kūlana.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ʻAʻole i hiki ke heluhelu i ka palapala.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Papa nānā</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Ka ʻike hou</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>ʻAʻole i hiki ke heluhelu i nā helu: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kāohi ʻia no ka loiloi</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Hou i kēia lā</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ʻAʻole i hoʻonohonoho ʻia ke kāohi loiloi (ka ʻanuʻu hoʻopiʻi 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Ka ʻike hou a pau</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e holo i nā hana kaʻapuni (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>ʻAʻole i piha ka hana kaʻapuni: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Kaʻapuni: %action ma %count mau mea</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done o %total mau mea: %ok pau, %refused hōʻole ʻia, %failed hāʻule</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok pau, %refused hōʻole ʻia, %failed hāʻule</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>ʻAʻole ia i laila hou.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>ʻAʻohe ona wahi (ʻaʻole hoʻopuka ʻia).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e hūnā iā ia (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e hōʻike iā ia (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Ua hūnā ʻia ia.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>ʻAʻole ia i hūnā ʻia.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Hūnā ʻia.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Hōʻike ʻia.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Aia ia i loko o ka pahu ʻōpala: e hoʻonele a hoʻihoʻi paha iā ia ma laila.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ʻAʻole hiki i kekahi kāmua i hoʻopuka ʻole ʻia ke hele i ka pahu ʻōpala: e holoi iā ia.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e holoi iā ia (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Holoi ʻia.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e wehe iā ia (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>He mau mea lalo kona: e wehe iā ia ma ke kūkulu ʻike, kahi i helu ʻia ai lākou.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>ʻAʻole ia i wehe ʻia (ma ke kaʻina hana paha e kāohi ʻia ai ka wehe ʻana).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Hoʻoneʻe ʻia i ka pahu ʻōpala.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>ʻAʻohe māhele pēlā.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Aia ia i kēia māhele.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e hāʻawi i kēia māhele (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>ʻAʻole i hāʻawi ʻia ka māhele.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Hāʻawi ʻia ka māhele.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>ʻAʻohe kūlana pēlā.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Aia ia i kēia kūlana.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e hāʻawi i kēia kūlana (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>ʻAʻole i hāʻawi ʻia ke kūlana (ma ke kaʻina hana paha e kāohi ʻia ai ka hoʻololi).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Hāʻawi ʻia ke kūlana.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>ʻAʻohe hana pēlā.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ʻAʻole i hoʻonohonoho ʻia ke kāohi loiloi (ka ʻanuʻu hoʻopiʻi 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>E haʻi i ke kumu i kāohi ʻia ai.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Ua kāohi ʻia ia.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e kāohi iā ia (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ʻAʻole i kau ʻia ke kāohi (ma ke kaʻina hana paha e kāohi ʻia ai ka hoʻololi).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Kāohi ʻia.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>ʻAʻole ia i kāohi ʻia.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e hoʻokuʻu iā ia (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ʻAʻole i hoʻokuʻu ʻia ke kāohi (ma ke kaʻina hana paha e kāohi ʻia ai ka hoʻololi).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Hoʻokuʻu ʻia; hūnā ʻia nō: ʻaʻole ʻae ʻia ʻoe e hōʻike iā ia (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Hoʻokuʻu ʻia.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Nā pahuhopu a pau</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Hoʻopuka hope loa</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>E hoʻopuka i kope paʻa manuahi o kāu pūnaewele ma GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Nā ʻaoʻao kahiko</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Hoʻopuka paʻa</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Ua pio ka hoʻopuka paʻa.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Pahuhopu</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ʻAʻole hiki ke heluhelu i nā pahuhopu: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ke holo nei kekahi hana</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>kūkulu e nānā ʻia</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>hūnā i kēia</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>hana i pahuhopu</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ʻaʻole loa</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>heluhelu i ke aʻo</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added i hoʻohui ʻia, %changed i hoʻololi ʻia, %removed i wehe ʻia</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes o %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>ʻAʻole i helu ʻia he %count hou aku.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages ʻaoʻao i kākau ʻia</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>He %size ka nui o %path, ʻoi aku ma mua o ka mea a ka mea hoʻokipa e ʻae ai no hoʻokahi faila.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % o ka palena</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds kek.</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>ʻO %tag ka hoʻopuka i loaʻa i ka pūnaewele i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: hana %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repository/ no ka pūnaewele papahana GitHub; waiho hakahaka no ke kāʻei ponoʻī a i ʻole ka pūnaewele mea hoʻohana.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Ka pūnaewele</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Ka mea hoʻokipa</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Ke komo ʻana i ka waihona</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Ka waihona</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Nā loulou a me ke ala kumu</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Kou kāʻei ponoʻī</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Nā mea i loko o ke kūkulu ʻana</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Ka manawa e hoʻopuka ʻia ai</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Nānā a mālama</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Noho ka pūnaewele papahana GitHub ma lalo o /&lt;repository&gt;/; hana nā loulou pili ma laila a ma nā wahi ʻē aʻe.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Kiʻi ke kūkulu ʻana i kēlā me kēia ʻaoʻao o %site e like me ka ʻike ʻana o ka malihini i komo ʻole, kākau hou i nā loulou, kope i nā faila a kākau i ka hopena i ka wahi faila o ka pahuhopu. ʻAʻohe mea e hoʻopuka ʻia a hiki i kou nānā ʻana i ke kūkulu ʻana a kaomi i Hoʻopuka.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>He hōʻike cron, no ka laʻana 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Mālama ʻia ke kī hoʻolaha ma ke ʻano he mea huna %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Hiki i ke kī hoʻolaha ke ʻae i kēia hoʻonohonoho ʻana e hoʻouna i hoʻokahi waihona wale nō ma o SSH, ʻaʻole i kahi ʻē. Noho kona hapa pilikino ma Hoʻonohonoho &gt; Nā mea huna; hōʻike ʻia ka hapa ākea wale nō.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>He kī hoʻolaha i hana ʻia no kēia pahuhopu</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Komo ke kī hoʻolaha ma o SSH: e hoʻololi i ka helu wahi git i ko SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Ke holo nei kekahi hana, hoʻomaka ʻia e %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Ke holo mau nei kekahi hana o kēia pahuhopu (%detail). E kali a pau.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Ke holo mau nei kekahi hana o kēia pahuhopu. E kali a pau.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>E kākau ʻia ka loulou mai ka ʻaoʻao /news/ a i ka ʻaoʻao /about-us/team penei</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Ua hana ʻia he kī hoʻolaha hou. E hoʻohui i kona hapa ākea i ka waihona i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>ʻAʻole loa e hoʻopuka ʻia ka ʻaoʻao e lawe mau ana i ka puka hoʻomaʻemaʻe hewa, ka hōʻailona palapala a i ʻole ka id kau ma hope o ka holoi ʻana.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>No ka poʻe akamai ka hoʻihoʻi ʻana: e kaha i &quot;Ua ʻike au i ka mea e hoʻololi ʻia&quot; a e kikokiko hou i ka inoa o ka lepili.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Hiki i ka pūnaewele ke nui a hiki i %site, hoʻokahi faila a hiki i %file, me kahi 100 GB o ka neʻe ʻikepili i ka mahina. Ma ka papahana manuahi, pono ka waihona e ākea. ʻAʻole no nā hale kūʻai a i ʻole nā kālepa ʻē aʻe ʻo GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ʻO ka pahuhopu, hoʻokahi pūnaewele i hoʻopuka ʻia i hoʻokahi waihona git. ʻAʻohe mea i kūkulu ʻia a hoʻopuka ʻia ma ʻaneʻi: kākau ʻo Mālama i nā hoʻonohonoho i settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ʻO ka pahuhopu, hoʻokahi pūnaewele i hoʻopuka ʻia i hoʻokahi wahi, no ka laʻana kāu pūnaewele ākea ma GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>He hōʻailona komo mai Hoʻonohonoho &gt; Nā mea huna</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Hoʻopuka kekahi kaʻina hana o ka waihona iā ia.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>E hoʻohui i kēia kī ākea i ka waihona me ka ʻae kākau. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, kaha i Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Hoʻohui ʻia</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Kekahi mea hoʻokipa git ʻē aʻe</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Ke hana nei kekahi kaʻina ʻē aʻe ma kēia pahuhopu: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Hoʻi</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Ala kumu</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ma mua</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Ma lalo o ke ala kumu</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Lālā</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Nā loulou haki</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Nā loulou haki i loko o ke kūkulu ʻana</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Kūkulu ʻana</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Kūkulu ʻana %id na %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Kūkulu iā %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Kūkulu i kēia manawa</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Kūkulu e nānā ʻia</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Me ka lima, ma ʻaneʻi</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kāpae</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Hoʻololi</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Hoʻololi ʻia</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Nā hoʻololi</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>E nānā mua</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>E nānā i kēia mau hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>E nānā i nā mea a ke kūkulu ʻana e hoʻololi ai, e nānā iā ia, a laila e hoʻopuka a kiola paha.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>E koho i ka hoʻopuka e hoʻi ai.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>E hiki mai ana ma kekahi hoʻopuka mana hope aku.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Hoʻopaʻa</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Nā hoʻopaʻa</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Hoʻopaʻa i ke kūkulu ʻana, kau lepili a hoʻouna iā ia i %remote. ʻAʻole koi ʻia ka hoʻouna; hiki iā ʻoe ke hoʻi i kekahi hoʻopuka ma hope.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Ke hoʻohālikelike ʻia me ka wahi faila ma mua: %added i hoʻohui ʻia, %changed i hoʻololi ʻia, %removed i wehe ʻia, %unchanged i hoʻololi ʻole ʻia.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Ke hoʻohālikelike ʻia me ka hoʻopuka hope loa.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Palapala komo</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Kāʻei ponoʻī</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Wehe mau ʻia ka puka hoʻomaʻemaʻe hewa, nā hōʻailona palapala, nā id kau a me nā nonce.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Kī hoʻolaha</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Kī hoʻolaha o %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Kiola</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Kiola i ke kūkulu ʻana</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Kāʻei</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Hakahaka: ka helu wahi o ka pūnaewele. A i ʻole, he helu wahi kūloko o ua pūnaewele nei.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Pau</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Hoʻomaka kēlā me kēia loulou me ke ala kumu.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>He hoʻopaʻa kēlā me kēia hoʻopuka me ka lepili static/%id/&lt;n&gt;. Hana ka hoʻi ʻana i hoʻopaʻa hou me nā faila o kekahi hoʻopuka mua: noho ka moʻolelo, ʻaʻohe lepili e neʻe a ʻaʻohe mea i koi ʻia.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Nā faila keu</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Kiʻi i nā ʻaoʻao mai</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faila</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Nā faila</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Nalowale nā faila</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Nā faila o</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Nā faila i hiki ʻole ke hōʻiliʻili ʻia</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Kiʻi manamana lima</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Wahi faila</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>No ka helu wahi SSH. Hana ʻia ke kī ma hope o ka mālama ʻana; nāu e hoʻohui i kona hapa ākea i ka waihona.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>No ka helu wahi https://. GitHub: he hōʻailona komo fine-grained me Contents heluhelu a kākau ma ka waihona.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>No ka poʻe akamai. Loli ka pūnaewele ākea i ka pau ʻana o ka hoʻouna.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Nā palapala</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Hoʻokipa manuahi mai kekahi waihona GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Mai ka lālā</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Helu wahi git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>ʻAe ʻo GitHub Pages i ka pūnaewele o %site a me ka faila o %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Nā palena o GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>Hoʻopuka ʻo GitHub Pages i nā faila e like me ko lākou ʻano (pono no nā faila e hoʻomaka ana me _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>Hāʻawi ʻo GitHub i ka lālā e like me ka hoʻouna ʻia ʻana. Ka maʻamau.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, kou kikowaena ponoʻī: kekahi waihona git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Hoʻi i kekahi hoʻopuka mua</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Kōkua</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Kōkua no ke kupua</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Hūnā iā lākou</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Moʻolelo</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Moʻolelo o %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Mea hoʻokipa</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Pehea e loaʻa ai ke kūkulu ʻana iā GitHub Pages</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Ua nānā au i nā hoʻololi</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ua ʻike au i ka mea e hoʻololi ʻia</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Helu ʻike</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Ua pio: ʻaʻohe mea hiki ke kūkulu ʻia a hoʻā ʻia.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Holo ia ma hope o ke kahua ma ke ʻano ʻo %user; hiki iā ʻoe ke pani i kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Hana %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Mālama ʻia ma ke ʻano he mea huna %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ʻAno</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Hoʻopuka hope loa</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Waiho i kēia mau ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Waiho i kēia mau māhele</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Nā loulou</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Nā loulou i kākau hou ʻia</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Pūnaewele ola</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Nānā i ke kūkulu ʻana</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Nā hua hoʻopiliʻi, nā helu, _ a me -, no ka laʻana github-public. Hāʻawi ia i ka inoa o ka wahi faila a me nā lepili (static/&lt;id&gt;/&lt;n&gt;) a ʻaʻole hiki ke hoʻololi ʻia ma hope.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Hana i kī hou</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Hana i pahuhopu</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Hana i ke kī</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>E hana mua i ka waihona ma ka mea hoʻokipa; maikaʻi ka waihona hakahaka.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Papa inoa faila</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Leka</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Ka hapa nui o nā ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Inoa</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Inoa o ka hōʻailona komo ma Hoʻonohonoho &gt; Nā mea huna</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Pahuhopu hou</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Aʻe</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ʻAʻole</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>ʻAʻohe naʻe hoʻopaʻa.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ʻAʻohe kī i hana ʻia: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>ʻAʻole i loaʻa ka polokalamu laina kauoha php. E hoʻonoho i migration.ini [AdminSettings] PhpCliPath i kona ala piha.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>ʻAʻohe naʻe lepili.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>ʻAʻohe naʻe pahuhopu.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ʻAʻohe</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>ʻAʻole i loko o ke kūkulu ʻana.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>ʻAʻohe mea i hoʻopuka ʻia.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>ʻAʻohe mea i hoʻopuka ʻia: he hou kēlā me kēia faila.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Hoʻolaha</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ma ka papa manawa</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Ma ka papa kauoha</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Ma ke kikowaena: hāʻawi ʻo ./console exp:static:serve %id iā ia ma ke ʻano like.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Hoʻokahi ala no kēlā me kēia laina, kūlike ʻo * me kekahi hapa: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>He inoa wale nō ka mea i mālama ʻia me ka pahuhopu; noho ka hōʻailona komo a i ʻole ke kī ma Hoʻonohonoho &gt; Nā mea huna a ʻaʻole loa e ʻike ʻia ma ka moʻolelo hana.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Nā mea wale nō a nā ʻaoʻao e kuhikuhi ai</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Me ka hōʻailona komo wale nō. Heluhelu ʻo env:NAME i kekahi loli kaiapuni o ke kikowaena ma kahi o ia.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Wehe i ka nānā mua</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Wehe i ke kūkulu ʻana e like me ka hāʻawi ʻana a ka mea hoʻokipa, mai ka wahi faila o ka pahuhopu. Hana ka loulou nou no hoʻokahi hola.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Koho. Hakahaka: ka mea i hoʻopuka ʻia.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Koho. Me ke kāʻei, hāʻawi ʻia ka pūnaewele ma kona kumu.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Puka</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Nā ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Nā ʻaoʻao o ka pahuhopu</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Nā ʻaoʻao i hōʻole ʻia</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Hana ma hope</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Nānā mua</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Nānā mua a hoʻopuka</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Nānā mua a hoʻopuka iā %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Nānā mua i ke kūkulu ʻana</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Holomua</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Helu wahi ākea</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Kī ākea</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Hoʻopuka</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>E hoʻopuka i kope paʻa o kekahi pūnaewele ma GitHub Pages a i ʻole kekahi mea hoʻokipa git: kūkulu iā ia, nānā i nā hoʻololi, hoʻopuka, a hoʻi i kekahi hoʻopuka mua ke pono.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Ka hoʻopuka e hoʻi ai</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Nā hoʻopuka</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Hoʻouna</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Heluhelu i ke aʻo</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Moʻolelo hana</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hōʻole ʻia</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Pili</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Hoʻouka hou</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Wehe ʻia</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Pani i ke kī: pau ka hana ʻana o ke kī kahiko</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Hōʻike</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Hōʻike o ke kūkulu ʻana</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Waihona</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Nānā</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Nānā ka nānā ʻana i kēlā me kēia hoʻonohonoho a hōʻike i nā laina e kākau ʻia. ʻAʻohe naʻe mea i mālama ʻia.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Hoʻihoʻi</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Hoʻihoʻi ʻana</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Mālama</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Papa manawa</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>ʻAoʻao huli</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Nā id māhele, hoʻokaʻawale ʻia me nā koma.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Hoʻouna iā lākou i ka pūnaewele ola</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Koho hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Nā hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Nā hoʻonohonoho o %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Hoʻonohonoho &gt; Nā mea huna</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Hōʻike ʻia ma nā papa inoa, no ka laʻana &quot;Pūnaewele ākea ma GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>E hiki mai ana ke komo me GitHub App me ka hoʻohui GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Pūnaewele</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Pūnaewele e hoʻopuka ai</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Nui</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Nui a me nā palena</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Nui o ke kūkulu ʻana</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Nā ʻaoʻao kahiko</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Hoʻomaka ʻia</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Hoʻomaka ʻia e %user i ka %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kūlana</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Hoʻopuka paʻa</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Ua pio ka hoʻopuka paʻa</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Ua pio ka hoʻopuka paʻa.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Ua pio ka hoʻopuka paʻa. E hoʻā mua iā ia ma Hoʻonohonoho &gt; Hoʻopuka paʻa.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Ua hoʻā ʻia ka hoʻopuka paʻa.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Kaʻina %step o %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Nā kaʻina</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Holoi</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Hoʻopio</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Hoʻā</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Hoʻā i ka hoʻopuka paʻa</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Lepili</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Nā lepili</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Pahuhopu</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Hiki ke hana a hoʻololi i nā pahuhopu, akā ʻaʻohe mea e kūkulu ʻia a hoʻopuka ʻia a hoʻā ʻia.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Haʻi i nā mīkini huli i nā mea e heluhelu ai.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>ʻAʻole hiki ke kiola i ke kūkulu ʻana: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Ua like ke kūkulu ʻana me ka hoʻopuka hope loa: ʻaʻohe mea e hoʻopuka ai.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Ua kiola ʻia ke kūkulu ʻana: paʻa hou ka wahi faila i ka hoʻopuka hope loa.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Kūpono nā koho maʻamau i ka hapa nui o nā pūnaewele.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Paʻa ka wahi faila i kekahi kūkulu ʻana i hoʻopuka ʻole ʻia; na ke kūkulu ʻana hou e pani.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>ʻAʻole hiki ke kākau i ka wahi faila o nā hana: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ʻAʻole hiki ke hoʻomākaukau i ka hana: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ʻAʻole hiki ke hoʻomaka i ka hana.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Ua pau ka hana. Ke hoʻouka nei i kona hōʻike.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Pono ka hana i ka mea hoʻohana i komo.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Ua hoʻomaka ʻia ka hana akā ʻaʻole i hōʻike i kona id kaʻina. E nānā i %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Ke kī</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Ka faila nui loa: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Nā laina e kākau ʻia</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Ka papa inoa o nā ʻaoʻao no nā mīkini huli; pono ka helu wahi ākea.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Kiʻi ʻia nā ʻaoʻao e like me ka ʻike ʻana o ka malihini i komo ʻole. ʻAʻole loa e hāʻawi ʻia nā siteaccess hoʻokele a hoʻoponopono.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>ʻAʻole hiki ke hahai i ka holomua. E hoʻouka hou i ka ʻaoʻao e ʻike ai i ke kūlana o ka hana.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Ka hapa ākea o ke kī:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Ke kumu o ka lālā</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>ʻAʻole i hoʻonohonoho ʻia ka waihona mea huna (hana ʻo ./console exp:upgrade --apply i kona papa), no laila ʻaʻole hiki ke mālama i kekahi kī.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Komo ke kikowaena ma kona iho (kona kī SSH ponoʻī a i ʻole kōkua palapala komo), a i ʻole aia ka waihona ma kēia kikowaena.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>ʻAʻole hiki ke kākau i ka hoʻonohonoho: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Kūpono nā hoʻonohonoho. E kākau ʻia kēia mau laina:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ʻAʻole hiki ke heluhelu i ka faila hoʻonohonoho: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Hoʻi ka pūnaewele i nā faila o ia hoʻopuka; pono e hoʻopuka a kiola mua ʻia ke kūkulu ʻana i hoʻopuka ʻole ʻia.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Ka ʻaoʻao ponoʻī o ka pūnaewele no nā helu wahi i loaʻa ʻole.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ʻAʻole hiki ke mālama i ka pahuhopu: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ʻAʻole naʻe komo ka pahuhopu me kēia kī: e koho i &quot;He kī hoʻolaha i hana ʻia no kēia pahuhopu&quot; ma kona mau hoʻonohonoho.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ʻAʻole hiki ke heluhelu i nā pahuhopu: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>ʻAʻohe naʻe kūkulu ʻana e nānā ai.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ʻAʻohe siteaccess mua o kēia hoʻonohonoho ʻana. ʻAʻole loa e hoʻopuka ʻia nā siteaccess hoʻokele a hoʻoponopono.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Hahai kēia ʻaoʻao i ka hana i kona holo ʻana; hoʻomau ia ma hope o ke kahua ke pani ʻia ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>ʻAʻohe naʻe kī hoʻolaha o kēia pahuhopu.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>ʻAʻole naʻe i kūkulu ʻia kēia pahuhopu ma ʻaneʻi.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Hoʻokahi ko kēia pahuhopu.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Kiola i kēia kūkulu ʻana: paʻa hou ka wahi faila i ka hoʻopuka hope loa. ʻAʻole loli ka pūnaewele ola.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>E kaha mua i &quot;Ua nānā au i nā hoʻololi&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Manawa</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Nā mea hoʻomaka</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>E kikokiko hou i ka inoa o ka lepili</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Hoʻololi ʻole ʻia</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>He aha</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Nā mea e loli ai</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Ke ʻano o kēlā me kēia faila; kākau mau ʻia.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ka mea a ka hana i hana ai a me kona moʻolelo hana. Hoʻomau ka hana i hoʻomaka ʻia ma ʻaneʻi ma hope o ke kahua ke pani ʻia kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ka mea a ka hana i paʻi ai ma ke ʻano he mau hewa</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Nā mea a nā ʻaoʻao e kuhikuhi ai, a me kēlā me kēia kiʻi o ka ʻike i hoʻopuka ʻia</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Ahea</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Ke hāʻule kekahi hoʻopuka</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Ke kūleʻa kekahi hoʻopuka</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Ke hoʻopuka ʻia ka ʻike</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kahi e hele ai nā loulou i nā mea i loaʻa ʻole i ke kope (ka huli, ke komo).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Kahi e hāʻawi ʻia ai ke kope paʻa.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>ʻO ka pūnaewele hea e hoʻopuka ʻia, a me ka inoa o ka pahuhopu.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Hana ma lalo o kekahi ala. Ka maʻamau.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Kākau ʻia i kēlā me kēia manawa i hoʻonoho ʻia ke kāʻei ponoʻī.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ʻAe</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Hiki mau iā ʻoe ke kūkulu a hoʻopuka me ka lima ma ʻaneʻi a ma ka papa kauoha.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>he inoa wale nō; noho ka waiwai ma Hoʻonohonoho &gt; Nā mea huna</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ma lalo o %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>pau me ka hōʻike ʻole</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>keu</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>hāʻule</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>faila</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, a i ʻole main me ka wahi faila docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>mea hoʻokipa git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (me ka hōʻailona komo) a i ʻole git@github.com:owner/repo.git (me ke kī hoʻolaha); ʻaʻole loa he ʻōlelo huna a hōʻailona komo paha i loko.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, no ka palapala ʻāina pūnaewele a me nā loulou kānona.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>kiʻi</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ʻaʻole loa</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ʻaʻole</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ʻaʻohe remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ʻaʻohe: noho nā hoʻopaʻa i ka wahi faila</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ʻaʻohe: ʻaʻohe mea i loli</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ʻaʻole i hoʻouna ʻia</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ʻaʻohe mea i loli</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>kūleʻa</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>Ua hoʻopau ʻia ʻo proc_open, no laila ʻaʻole hiki ke hoʻomaka i ka hana ma ʻaneʻi. E hoʻohana i ./console exp:static:build ma ke kikowaena.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>hoʻopuka</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>hoʻopuka ʻia</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>e kali ana ka hoʻouna</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>hoʻouna ʻia</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hōʻole ʻia</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>pili</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>hoʻihoʻi ʻana</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>hoʻihoʻi ʻia</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>e holo ana</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ka wahi faila wale nō</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: kākau ʻia i ka faila CNAME. E kuhikuhi i ka DNS o ke kāʻei i ka mea hoʻokipa e like me kāna wehewehe; lōʻihi paha ka hoʻomaka ʻana o HTTPS.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ʻae, ʻaʻole naʻe i hoʻopuka ʻia</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>He GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Hoʻopuka kekahi kaʻina hana o ka waihona iā ia. Kākau ke kūkulu ʻana i ka faila kaʻina hana; e waiho hakahaka i ka pūʻulu faila.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Ma hope o ka mālama ʻana i kekahi pahuhopu me kekahi waihona GitHub a me kekahi hōʻailona komo a i ʻole GitHub App, hiki i kēia pae ke hana i ka waihona a hoʻā i GitHub Pages. Inā ʻaʻole, e hana mua i ka waihona ma GitHub; maikaʻi ka waihona hakahaka.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Lālā a i ʻole GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>E nānā i ka DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>E hana i ka waihona inā ʻaʻohe</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>E hana i ka waihona ma GitHub a e hoʻā i GitHub Pages ma kona mau hoʻonohonoho (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Hana i ka waihona %repo inā nalo (ke noi ʻia), hoʻā i GitHub Pages mai ka lālā a i ʻole mai GitHub Actions e like me ka mea i mālama ʻia, a hoʻonoho i ke kāʻei ponoʻī a me HTTPS. Hoʻohana ia i nā hoʻonohonoho i mālama ʻia: e mālama mua i nā loli.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Nā kikoʻī ma GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>E hoʻokomo mua i ke kāʻei ponoʻī.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Nānā mua ʻia kēlā me kēia push me kēia mau palena.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>No ka helu wahi https:// ma GitHub. Komo ka App i hoʻonohonoho ʻia no kēia hoʻokomo ʻana; pono iā ia ka id hoʻokomo.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>Hoʻolako ʻo GitHub Pages i ka waihona pilikino ma ka papahana uku wale nō.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: pono i kahi kāʻei lalo (www.example.com) he moʻolelo CNAME i &lt;owner&gt;.github.io; pono i kahi kāʻei kumu (example.com) nā moʻolelo A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id hoʻokomo o ka GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Ke kūkulu Pages hope loa</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Nā palena a me nā kuleana</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Pono no GitHub Pages ma ka papahana manuahi.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Ma GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Me ka GitHub App wale nō: ka helu ma ka hopena o ka helu wahi o ka hoʻokomo ʻana o ka App ma GitHub. Hoʻonoho ʻia ka App ponoʻī ma staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Pilikino</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Ākea</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>E mālama mua i ka pahuhopu me kekahi waihona GitHub a me kekahi hōʻailona komo a i ʻole GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>E hoʻonoho i kēia mau moʻolelo ma ka mea hoʻolako o ke kāʻei:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Hoʻonohonoho ma GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>ʻAʻole i kuhikuhi ka DNS o %domain iā GitHub Pages i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Kuhikuhi ka DNS o %domain iā GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>ʻAʻole loaʻa ka hoʻohui GitHub ma ʻaneʻi: %problem. Hana nō ka hoʻopuka ʻana i ka lālā; e hoʻā i GitHub Pages ma nā hoʻonohonoho o ka waihona.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>ʻAʻole loaʻa nā pae GitHub no kēia pahuhopu: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Hōʻike ʻia ke kūlana o GitHub Pages me kekahi hōʻailona komo a i ʻole GitHub App i palapala komo.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>E hoʻohana i kou kāʻei ponoʻī</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>ʻO ka mea e koho ai: hōʻailona komo, kī hoʻolaha a i ʻole GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Me kekahi waihona GitHub a me kekahi hōʻailona komo a i ʻole GitHub App, hiki i ke alakaʻi ke hana i ka waihona, hoʻā i GitHub Pages a hoʻonoho i ke kāʻei nou (pae 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ke kūkulu ʻia nei</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ua kūkulu ʻia</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>mai GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>mai ka lālā %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ʻaʻohe i kēia manawa</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ʻaʻole i loaʻa</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>pio</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>pilikino</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ākea</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ma ka laina</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ʻike ʻole ʻia</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count ma nā ʻaoʻao ʻo %pages:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>He .gz (a me .br) ma ka ʻaoʻao o kēlā me kēia waihona kikokikona, no nā hoʻokipa e hāʻawi ana iā lākou.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>He ʻaoʻao liʻiliʻi no kēlā me kēia helu wahi kahiko a me ka inoa ʻē o ka ʻaoʻao, i mau ke hana ʻana o nā loulou kahiko.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Kākau ʻia i kēlā manawa a pau ke hāʻawi ʻo GitHub Actions i ka pūnaewele.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>He id SPDX e like me CC-BY-4.0, a i ʻole ka kikokikona ponoʻī.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Hīnaʻi</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Nā kelepona i ke kikowaena</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Nā manaʻo</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Nā palapala e hōʻiliʻili i ka ʻike</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Emi ka hakahaka a ʻaʻohe manaʻo i nā ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Laikini o ka maʻiʻo</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Komo</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Hōʻemi</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Nā palapala ʻē aʻe</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Hoʻopaʻa mua</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Nā ʻaoʻao hoʻohuli</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Nā ʻaoʻao hoʻohuli: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Huli</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Papa kuhikuhi huli: %pages ʻaoʻao ma %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Nā pepa kāhaka a me nā palapala kuhikuhi i kapa ʻia me ka hash o ko lākou maʻiʻo, i mālama ʻia e nā polokalamu kele.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Nā ʻaoʻao i hoʻololi ʻia, kekahi mau minuke ma hope o ka hoʻololi hope loa (ka ʻāpana cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Ka laikini o ka maʻiʻo, mai ke kahua ma lalo.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>ʻO ka pūnaewele holoʻokoʻa, i nā manawa o ka papa hana (ka ʻāpana cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Pono kēia mau ʻāpana o nā ʻaoʻao i kikowaena; ua loaʻa i kēlā me kēia he mea pani. E nānā iā lākou ma mua o ka hoʻopuka ʻana.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>ʻAʻole hana i ke ʻano paʻa</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>He aha ka waihona, no ka mea e wehe ana ma ka hoʻokipa.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>haʻalele ʻia</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ka kikokikona pani</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>ka wahi hoʻokō palapala o ka pūnaewele ola</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>ka pūnaewele ola</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ka ʻaoʻao huli o ke kope</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ʻAʻole hiki ke hoʻouna ʻia ka palapala.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Mahalo: ua hoʻouna ʻia ka palapala.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ʻAʻole i ʻae ʻia ka palapala: e nānā i kāu i kikokiko ai a hoʻouna hou.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Wehe i nā loulou i nā ʻaoʻao ʻaʻole i loko o ke kope</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Wehe i nā loulou i ka hoʻokele</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Noho mau ko lākou kikokikona. ʻAʻole loa e wehe ʻia nā kiʻi, nā palapala a me nā loulou i nā pūnaewele ʻē aʻe.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Mana</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Nā siteaccess e hoʻopuka ʻia</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Ma ke kumu</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>ʻAʻohe siteaccess ma ke kumu: aia kēlā me kēia i loko o kona waihona, a pili ke kumu iā lākou</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Nā siteaccess</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Kaha i hoʻokahi siteaccess, a i ʻole kekahi mau mea e kaʻana like ana i hoʻokahi mea hoʻokipa ma o ko lākou URI prefix. Lawelawe ʻia ka mea ma ke kumu ma laila, nā mea ʻē aʻe ma ka waihona o ko lākou prefix (/ger/); noho nā loulou ma waena o lākou i loko o ke kope. ʻAʻole loa e hāʻawi ʻia nā siteaccess hoʻokele.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Ua hāʻule ka hoʻopuka paʻa o %target ma %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Ua kūleʻa ka hoʻopuka paʻa o %target ma %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Ua hoʻouna ʻia kēia leka e %site no ka mea ua noi ka pahuhopu hoʻopuka paʻa %target iā ia.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Ua hāʻule ka hoʻolako %deploy ma %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Ke kali nei ka hoʻolako %deploy ma kekahi ʻīpuka ma %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Ua kūleʻa ka hoʻolako %deploy ma %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Ua hoʻouna ʻia kēia leka e %site no ka mea ua noi ʻo migration.ini [RemoteSettings] Notify[] iā ia.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Nā ʻano ʻikepili (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Helu ʻia %time, hou ma hope o %minutes minuke</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Mālama a hoʻoponopono ka ʻano ʻikepili i hoʻokahi ʻano waiwai o kekahi hiʻohiʻona papa: he laina kikokikona, he kiʻi, he pilina. Na ka Kernel ka hapa nui, a hoʻohui nā pākuʻi i nā mea hou aʻe. Eia lākou a pau, ka mea nāna lākou e hāʻawi a me ka nui o ka ʻike e hoʻohana ana iā lākou. ʻO ka ʻano ʻikepili i hoʻohana ʻia e ka waihona ʻikepili akā ʻaʻohe mea e hoʻopaʻa inoa hou iā ia, hōʻino ia i ka ʻike nona ia.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Nā pūʻulu papa</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>E helu hou i kēia manawa ma kahi o ka hoʻohana ʻana i nā helu o nā minuke i hala.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>E helu hou</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Nānā ākea</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Ua kākau inoa ʻia</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Ke hoʻohana ʻia nei</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Hoʻohana ʻole ʻia</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Nā pākuʻi e hāʻawi ana i nā ʻano ʻikepili</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Nā hiʻohiʻona papa</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Nā hiʻohiʻona o ka mea</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>ʻAʻole i hoʻopaʻa inoa ʻia</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Ma ka papa inoa, nalo ka faila</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Hoʻohana ʻia nā ʻano ʻikepili %count akā ʻaʻole i hoʻopaʻa inoa ʻia</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>He ʻano ʻikepili ko %class_attributes hiʻohiʻona papa a me %object_attributes hiʻohiʻona mea i hoʻopaʻa inoa ʻole ʻia e kekahi pākuʻi a hoʻonohonoho paha. ʻAʻole hiki ke hōʻike, hoʻoponopono a hoʻopuka paha i ko lākou mau mea. E hoʻā i ka pākuʻi e hāʻawi ana i ka ʻano ʻikepili, a i ʻole e hoʻololi i ka papa.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>E hōʻike i kēia mau mea wale nō</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>E ʻimi i kekahi ʻano ʻikepili</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Ka mea hōʻike, ka inoa, ka papa PHP a i ʻole ka pākuʻi.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hōʻike</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>A pau</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Hāʻawi ʻia e</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Nā mea a pau</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ʻAʻohe ʻano ʻikepili i kūlike me kēia kānana.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hōʻike i nā mea a pau</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Pākuʻi</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown o nā ʻano ʻikepili %count, %used e hoʻohana ʻia ana</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Aia i ka waihona ʻikepili nā hiʻohiʻona papa a mea paha o kēia mau ʻano ʻikepili, akā ʻaʻohe o lākou ma ka papa inoa o content.ini, a i ʻole ua nalo kona faila.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Nā ʻano ʻikepili o %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ʻAno ʻikepili</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Papa PHP a me ka faila</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Nā papa</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Nā mea</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Nā hōʻailona</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ʻaʻohe</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>ʻAʻohe ʻano ʻikepili i kūlike me ka ʻimi. E holoi i ka ʻimi.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Hōʻike ʻia %shown o nā ʻano ʻikepili %count</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Nā ʻano ʻikepili i hōʻike ʻia: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Hoʻokaʻina ma %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Helu ʻia %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Nā ʻano ʻikepili a pau</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>ʻAoʻao kōkua</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Hoʻohana ʻia kēia ʻano ʻikepili akā ʻaʻole i hoʻopaʻa inoa ʻia</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>ʻAʻole hiki ke hōʻike, hoʻoponopono a hoʻopuka paha i nā mea o nā papa ma lalo nei inā ʻaʻohe pākuʻi e hoʻopaʻa inoa i ka ʻano ʻikepili. E hoʻā i ka pākuʻi e hāʻawi ana iā ia a e hoʻohui iā ia i content.ini [DataTypeSettings] AvailableDataTypes[], a i ʻole e hoʻololi i nā papa.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>Aia kēia ʻano ʻikepili ma ka papa inoa o content.ini, akā ʻaʻohe waihona ʻano ʻikepili i loaʻa kona faila. ʻAʻohe mea e hoʻohana ana iā ia; e wehe iā ia mai AvailableDataTypes[] a i ʻole e hoʻā i kona pākuʻi.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>No kēia ʻano ʻikepili</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Hōʻailona</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Inoa</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Pākuʻi %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ʻaʻohe mea</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP class</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Waihona</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Ma AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ʻae</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ʻaʻole</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Nā kolamu o kona waiwai</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Nā kolamu o nā hoʻonohonoho o kona hiʻohiʻona papa</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Nā pakuhi</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Loaʻa nā kolamu a me nā papa ʻaina ma ka heluhelu ʻana i ke code o ka ʻano ʻikepili: he alakaʻi, ʻaʻole he ʻōlelo hoʻohiki.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Nā anakuhi</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Anakuhi</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Loaʻa ma</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>kēia hoʻokele</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>pūnaewele paʻamau</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Me ka ʻole o nā override: lanakila ka anakuhi override i kūlike me ka papa a i ʻole ka hiʻohiʻona ma luna o kēia mau mea.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Nā papa e hoʻohana ana iā ia (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>ʻAʻohe papa i loaʻa ka hiʻohiʻona o kēia ʻano ʻikepili.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Papa</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Nā hiʻohiʻona</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Nā hiʻohiʻona papa (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Hiʻohiʻona</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Nā hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Koi ʻia</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Hiki ke ʻimi ʻia</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Hiki ke unuhi ʻia</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Hōʻiliʻili i ka ʻike</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Kekahi ʻike e hoʻohana ana iā ia</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Ka mea i hoʻololi hope ʻia ma mua</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Hoʻololi ʻia</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Hīpuʻu %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>He waiwai ponoʻī ko kēlā me kēia unuhina.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Hoʻokomo ka ʻimi i kona mau waiwai i ka papa kuhikuhi.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Hiki iā ia ke hōʻiliʻili i ka ʻike mai nā malihini (nā palapala).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Hiki ke hoʻokaʻina i nā papa inoa ma o ia: kī hoʻokaʻina %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Hiki ke hoʻokaʻina</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Kuhikuhi kona mau waiwai i nā mea ʻē aʻe.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Nā pilina</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Hiki ke hoʻopiha ʻia mai kahi kikokikona maʻalahi (lawe mai, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Mai ke kikokikona</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Hiki ke hoʻopiha ʻia mai kahi faila.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Mai ka faila</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Komo nā hoʻonohonoho o kona hiʻohiʻona papa i nā pūʻolo.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Nā pūʻolo</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>ʻIke (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from a %to o %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Kānana i ka papa inoa</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Nā papa a pau</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Māhele</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Nā ʻōlelo</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Kahu</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Hoʻopuka ʻia</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Hoʻohuli i ke kaʻina</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ʻAʻohe mea</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ma kēlā me kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Hōʻike i nā mea %count ma kēlā ʻaoʻao kēia ʻaoʻao.</translation>
     </message>
 </context>
 </TS>

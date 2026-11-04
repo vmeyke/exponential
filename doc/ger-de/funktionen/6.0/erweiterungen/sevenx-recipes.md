@@ -7,6 +7,21 @@ registrierten Rezeptversionen des Pakets nach und kopiert die Dateien und die Ko
 **Rezept-Slots** in das Projekt: Konfiguration, den Front-Controller, das Setup für den Web-Build, die
 Legacy-Einstellungen und die Installationsskripte.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../../beispiele/webserver/nginx.md), [LiteSpeed](../../../beispiele/webserver/litespeed.md), [Caddy](../../../beispiele/webserver/caddy.md), [IIS](../../../beispiele/webserver/iis.md),
+> [Velocity](../../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../../hilfe/hosting/control-panels/plesk.md), [cPanel](../../../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../../../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../../../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../../anleitungen/seiten-cache-mit-litespeed.md).
+
 Warum das hilft: Ein neues Projekt erhält die funktionierende Konfiguration der Exponential-Plattform (Sicherheit,
 Siteaccess, Legacy-Einstellungen, den Web-Build, das Skript für die Legacy-Links) mit einem einzigen `composer require`,
 statt sie von Hand aus einem Referenzprojekt zu kopieren.
@@ -131,12 +146,12 @@ Werkzeug, das Sie neben dem Klon pflegen), bis das Skript hinzugefügt ist.
     der Bridge ist);
   - Kompatibilität der Konfiguration mit Symfony 7 und Ibexa 5 (`storage_factory_id` statt `storage_id`), die
     bereinigten `1.x`-Slots, Encore-Konfiguration für die React-Builds, `tsconfig.json` und `controllers.json`, der
-    Installationsbefehl, der während `exponential:install` das Schema von Netgen Layouts lädt, und INI-Einstellungen
+    Installationsbefehl, der während `exponential:install` das Schema von Exponential Layouts lädt, und INI-Einstellungen
     der Legacy-Siteaccesses.
 - **13. bis 17. April, kleinere Korrekturen mit für Benutzer sichtbarer Wirkung:**
   - die registrierten Rezeptversionen wurden neu geordnet, damit Flex' `version_compare` `5.0` korrekt auswählt (die
     Reihenfolge der Liste `recipes` in der `index.json` ist für Flex wichtig);
-  - die Routendatei von Netgen Layouts im Slot `5.0` ist `routing.yaml`, nicht `routing.yml`;
+  - die Routendatei von Exponential Layouts im Slot `5.0` ist `routing.yaml`, nicht `routing.yml`;
   - `imagemagick.pre_parameters` und `imagemagick.post_parameters` sind als Container-Parameter deklariert (ein
     undefinierter Parameter stoppt sonst den Aufbau des Containers);
   - das Manifest von `4.6.x-dev` wurde neu erzeugt, nachdem die Dateien der Legacy Bridge daraus entfernt worden waren,

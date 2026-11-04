@@ -27,7 +27,7 @@
  *
  * No database, no kernel: rules read facts and nothing else.
  *
- * @copyright Copyright (C) 7x / Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file.
  * @package tests
  * @group requestrules
@@ -37,6 +37,7 @@ foreach ( array( 'ezprequestcontext', 'ezprequestrule', 'ezprequestruleresult', 
                  'ezprequestruleconditions', 'ezprequestruleactions', 'ezprequestruleengine' ) as $file )
     require_once __DIR__ . '/../../../../../kernel/private/classes/requestrules/' . $file . '.php';
 
+#[\PHPUnit\Framework\Attributes\Group('requestrules')]
 class ezpRequestRuleEngineTest extends PHPUnit\Framework\TestCase
 {
     /** The rule shipped as system_url_full_view_to_alias */

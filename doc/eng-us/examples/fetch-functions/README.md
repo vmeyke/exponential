@@ -18,12 +18,14 @@ Every `fetch( 'module', 'function', hash( ... ) )` the kernel and the bundled ex
 | [audit](audit/README.md) | 6 | `kernel/audit/function_definition.php` |
 | [class](class/README.md) | 5 | `kernel/class/function_definition.php` |
 | [collaboration](collaboration/README.md) | 10 | `kernel/collaboration/function_definition.php` |
-| [content](content/README.md) | 64 | `kernel/content/function_definition.php` |
+| [content](content/README.md) | 65 | `kernel/content/function_definition.php` |
 | [datatable](datatable/README.md) | 5 | `kernel/datatable/function_definition.php` |
 | [exphelp](exphelp/README.md) | 5 | `kernel/exphelp/function_definition.php` |
 | [expimageeditor](expimageeditor/README.md) | 1 | `extension/expimageeditor/modules/expimageeditor/function_definition.php` |
 | [infocollector](infocollector/README.md) | 4 | `kernel/infocollector/function_definition.php` |
 | [layout](layout/README.md) | 1 | `kernel/layout/function_definition.php` |
+| [migration](migration/README.md) | 2 | `kernel/migration/function_definition.php` |
+| [moderation](moderation/README.md) | 1 | `kernel/moderation/function_definition.php` |
 | [notification](notification/README.md) | 6 | `kernel/notification/function_definition.php` |
 | [package](package/README.md) | 15 | `kernel/package/function_definition.php` |
 | [role](role/README.md) | 3 | `kernel/role/function_definition.php` |
@@ -32,6 +34,7 @@ Every `fetch( 'module', 'function', hash( ... ) )` the kernel and the bundled ex
 | [section](section/README.md) | 6 | `kernel/section/function_definition.php` |
 | [setup](setup/README.md) | 14 | `kernel/setup/function_definition.php` |
 | [shop](shop/README.md) | 15 | `kernel/shop/function_definition.php` |
+| [staticpublish](staticpublish/README.md) | 1 | `kernel/staticpublish/function_definition.php` |
 | [switchlanguage](switchlanguage/README.md) | 1 | `kernel/private/modules/switchlanguage/function_definition.php` |
 | [uiswitch](uiswitch/README.md) | 1 | `kernel/uiswitch/function_definition.php` |
 | [url](url/README.md) | 2 | `kernel/url/function_definition.php` |

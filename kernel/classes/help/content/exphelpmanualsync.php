@@ -14,7 +14,7 @@
  *   topics itself), and the view cache is not cleared per object (help topics are shown by exphelp, not content/view;
  *   the help's own cache is cleared once at the end).
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -261,7 +261,7 @@ class expHelpManualSync
         $manualsNode = $manualsFolder instanceof eZContentObject ? $manualsFolder->attribute( 'main_node' ) : null;
         if ( !$manualsNode instanceof eZContentObjectTreeNode )
         {
-            $this->change( 'error', 'the folder Manuals (remote_id ' . expHelpContentSchema::MANUALS . ') does not exist (run exp:help:content install)' );
+            $this->change( 'error', 'the folder Manuals (remote_id ' . expHelpContentSchema::MANUALS . ') does not exist (run exp:help:content install --apply)' );
             return false;
         }
         if ( $this->manual !== null && !isset( $plan['manuals'][$this->manual] ) )
@@ -297,6 +297,28 @@ class expHelpManualSync
     public function close()
     {
         $this->flush();
+        if ( $this->savedSettings !== null )
+        {
+            $ini = eZINI::instance();
+            $ini->setVariable( 'SearchSettings', 'DelayedIndexing', $this->savedSettings['DelayedIndexing'] );
+            $ini->setVariable( 'ContentSettings', 'ViewCaching', $this->savedSettings['ViewCaching'] );
+            $this->savedSettings = null;
+        }
+    }
+
+    /**
+     * Drops the run after its transaction was rolled back by the caller (a content job's batch that met a busy
+     * database): nothing is committed, the writes counted as open are forgotten, what was read of the stored
+     * objects is forgotten (a new instance reads it again), and the run's settings are put back.
+     */
+    public function abandon()
+    {
+        $this->pending = 0;
+        $this->items = null;
+        $this->stored = array();
+        $this->objectIds = array();
+        $this->nodeIds = array();
+        $this->manualsNode = null;
         if ( $this->savedSettings !== null )
         {
             $ini = eZINI::instance();
@@ -497,7 +519,7 @@ class expHelpManualSync
         }
         if ( !isset( $this->classes[$item['class']] ) )
         {
-            $this->change( 'error', "$label: the class {$item['class']} does not exist (run exp:help:content install)" );
+            $this->change( 'error', "$label: the class {$item['class']} does not exist (run exp:help:content install --apply)" );
             return;
         }
         if ( $stored === null )
@@ -572,37 +594,47 @@ class expHelpManualSync
             return null;
         $db = eZDB::instance();
         $db->begin();
-        $object = $class->instantiate( $this->userId, $sectionId, false, $this->language );
-        $object->setAttribute( 'remote_id', $remoteId );
-        $object->store();
-        eZNodeAssignment::create( array( 'contentobject_id' => $object->attribute( 'id' ), 'contentobject_version' => 1, 'parent_node' => $parentNodeId,
-                                         'is_main' => 1, 'sort_field' => $class->attribute( 'sort_field' ), 'sort_order' => $class->attribute( 'sort_order' ) ) )->store();
-        $version = $object->version( 1 );
-        $version->setAttribute( 'modified', time() );
-        $version->setAttribute( 'status', eZContentObjectVersion::STATUS_DRAFT );
-        $version->store();
-        $defaultAttributes = $object->contentObjectAttributes( true, 1, $this->language );
-        foreach ( $defaultAttributes as $attribute )
+        try
         {
-            $identifier = $attribute->attribute( 'contentclass_attribute_identifier' );
-            if ( isset( $attributes[$identifier] ) && !is_array( $attributes[$identifier] ) )
-            {
-                $attribute->fromString( (string)$attributes[$identifier] );
-                $attribute->store();
-            }
-        }
-        foreach ( $translations as $locale => $values )
-        {
+            $object = $class->instantiate( $this->userId, $sectionId, false, $this->language );
+            $object->setAttribute( 'remote_id', $remoteId );
+            $object->store();
+            eZNodeAssignment::create( array( 'contentobject_id' => $object->attribute( 'id' ), 'contentobject_version' => 1, 'parent_node' => $parentNodeId,
+                                             'is_main' => 1, 'sort_field' => $class->attribute( 'sort_field' ), 'sort_order' => $class->attribute( 'sort_order' ) ) )->store();
+            $version = $object->version( 1 );
+            $version->setAttribute( 'modified', time() );
+            $version->setAttribute( 'status', eZContentObjectVersion::STATUS_DRAFT );
+            $version->store();
+            $defaultAttributes = $object->contentObjectAttributes( true, 1, $this->language );
             foreach ( $defaultAttributes as $attribute )
             {
-                $copy = $attribute->cloneContentObjectAttribute( 1, 1, false, $locale );
                 $identifier = $attribute->attribute( 'contentclass_attribute_identifier' );
-                if ( isset( $values[$identifier] ) && $attribute->contentClassAttributeCanTranslate() )
+                if ( isset( $attributes[$identifier] ) && !is_array( $attributes[$identifier] ) )
                 {
-                    $copy->fromString( (string)$values[$identifier] );
-                    $copy->store();
+                    $attribute->fromString( (string)$attributes[$identifier] );
+                    $attribute->store();
                 }
             }
+            foreach ( $translations as $locale => $values )
+            {
+                foreach ( $defaultAttributes as $attribute )
+                {
+                    $copy = $attribute->cloneContentObjectAttribute( 1, 1, false, $locale );
+                    $identifier = $attribute->attribute( 'contentclass_attribute_identifier' );
+                    if ( isset( $values[$identifier] ) && $attribute->contentClassAttributeCanTranslate() )
+                    {
+                        $copy->fromString( (string)$values[$identifier] );
+                        $copy->store();
+                    }
+                }
+            }
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
         $db->commit();
         eZOperationHandler::execute( 'content', 'publish', array( 'object_id' => $object->attribute( 'id' ), 'version' => 1,

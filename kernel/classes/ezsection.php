@@ -2,7 +2,7 @@
 /**
  * File containing the eZSection class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -130,7 +130,10 @@ class eZSection extends eZPersistentObject
             {
                 // the section identifier index refers to the id index object
                 $sectionID = $sectionFetched->attribute( 'id' );
-                if( !isset( $eZContentSectionObjectCache[$sectionID] ) )
+                // the id slot may hold an older row under that id (the identifier changed, or the section
+                // was removed and the id given again): the row just read is the section of this identifier
+                if( !isset( $eZContentSectionObjectCache[$sectionID] )
+                    || (string)$eZContentSectionObjectCache[$sectionID]->attribute( 'identifier' ) !== (string)$sectionIdentifier )
                 {
                     $eZContentSectionObjectCache[$sectionID] = $sectionFetched;
                 }

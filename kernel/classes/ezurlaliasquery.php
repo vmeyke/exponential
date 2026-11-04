@@ -2,7 +2,7 @@
 /**
  * File containing the eZURLAliasFilter class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -289,8 +289,10 @@ class eZURLAliasQuery
                 [ '$match' => $match ],
                 [ '$sort'  => [ $sortField => $sortDir ] ],
                 [ '$skip'  => (int) $this->offset ],
-                [ '$limit' => (int) $this->limit ],
             ];
+            // limit false (or 0): every item, as the SQL branch reads it; $limit takes no 0
+            if ( (int) $this->limit > 0 )
+                $pipeline[] = [ '$limit' => (int) $this->limit ];
             $rows = $db->aggregate( 'ezurlalias_ml', $pipeline );
             $this->items = count( $rows ) > 0 ? eZURLAliasQuery::makeList( $rows ) : [];
             return $this->items;

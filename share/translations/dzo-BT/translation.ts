@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>ཤོག་ལེབ་འདི་རྐྱངམ་གཅིག་འཚོལ་ཞིབ་འབད་ཡོདཔ་ཨིན: %count ལས་ %from ལས་ %to ཚུན།</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ཀེར་ནཱལ་དང་རྒྱ་སྐྱེད་ཚུ་གི་ གནད་སྡུད་རིགས་ཆ་མཉམ་ དེ་ལས་ རིགས་དང་ནང་དོན་ཚུ་གིས་ དེ་ག་དེ་སྦེ་ལག་ལེན་འཐབ་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>གནད་སྡུད་རིགས།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>རིམ་ལུགས་ཤོག་ལེབ་ཚུ་ཡང་དཔེ་རྟགས་བཞག་ཚུགས། ཤོག་ལེབ་འདི་ཁ་ཕྱེ་ཞིནམ་ལས་ (སྒྲིག་བཙུགས་ རྩིས་ཞིབ་ཀྱི་ཤུལ་ ལག་ལེན་པའི་ཐོ་ཡིག ...) དེ་གི་གོང་ལུ་ "ཤོག་ལེབ་འདི་དཔེ་རྟགས་བཞག" སེལ་འཐུ་འབད། དཔེ་རྟགས་དེ་བཟུམ་གྱི་ཚུ་ལུ་འཁོར་ལོའི་ངོ་རྟགས་ཡོད།</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>ཁྱོད་རང་གིས་ཤོག་ལེབ་འདི་ད་ལྟོ་ལས་ནཱ་ལུ་ཁ་ཕྱེ་མི་ཆོགཔ་ཨིན། དཔེ་རྟགས་བཏོན་གཏང་ ཡང་ན་ འཛིན་སྐྱོང་པ་ལུ་འཛུལ་ཞུགས་གི་དོན་ལུ་ཞུ།</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>ཤོག་ལེབ་དང་པོ་ལུ་འགྱོ།</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>གཞན།</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>ཉིན་ ༧ ཧེ་མམ།</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>རང་གིས་གདམ་ཁ་རྐྱབ་མི་དུས་ཚོད།</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>ཚིག་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ཚིག་ག་ཅི་རང་།</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ཚིག་ཚོགས་ཏག་ཏག</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>འབྲེལ་བ་ཡོད་མི།</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>མིང་ A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>མིང་ Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>བསྒྱུར་བཅོས་འབད་ཡོདཔ། གསརཔ་ཧེ་མ།</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>བསྒྱུར་བཅོས་འབད་ཡོདཔ། རྙིངམ་ཧེ་མ།</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>དཔར་བསྐྲུན་འབད་ཡོདཔ། གསརཔ་ཧེ་མ།</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>དཔར་བསྐྲུན་འབད་ཡོདཔ། རྙིངམ་ཧེ་མ།</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>བསྒྱུར་བཅོས་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>འཚག་འདེམས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>འཚག་འདེམས་ཚུ་སྟོན།</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>འཚག་འདེམས་ཚུ་སྦ།</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ལོག་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>ཚིག་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>ནང་དོན་གྱི་དབྱེ་བ།</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>ཧེ་བངས་སྟོན། (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>དེའི་ཁྱད་ཆོས་གཅིག་ནང་འཚོལ་ནིའི་དོན་ལུ་ ནང་དོན་དབྱེ་བ་གཅིག་གདམ་ཁ་རྐྱབ།</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>སྡེ་ཚན།</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ག་ལས།</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ལུ།</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>འགོ་བཙུགས་ཚེས་གྲངས་འདི་ ཚེས་གྲངས་ནུས་ཅན་མེན།</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>མཇུག་གི་ཚེས་གྲངས་འདི་ ཚེས་གྲངས་ནུས་ཅན་མེན།</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>བདག་པོ།</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ལག་ལེན་པའི་ ID ནང་བསྐྱོད་མིང་ ཡང་ན་ གློག་འཕྲིན་ཁ་བྱང་།</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” གི་དོན་ལུ་ ལག་ལེན་པ་མ་ཐོབ།</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>སྐད་ཡིག</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>སྐད་ཡིག་ག་ཅི་རང་།</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>གནས་ཁོངས།</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>གནས་ཁོངས་ %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>ཤོག་ལེབ་རེ་ལུ་གྲུབ་འབྲས།</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” གི་གྲུབ་འབྲས། (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>གྲུབ་འབྲས། (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>འདི་ལྟར་གོ་རིམ་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>གོ་རིམ་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>ཤུགས་ཅན་གྱི་འཚག་འདེམས།</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>འཚག་འདེམས་འདི་བཏོན་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>ཡང་ན་ འཚག་འདེམས་གདམ་ཁ་རྐྱབ་སྟེ་ ལག་ལེན་འཐབ་ཞིནམ་ལས་ མཐུན་པའི་ནང་དོན་ཐོ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>ཚིག་ཡིག་དཔར་རྐྱབ་ཞིནམ་ལས་ འཚག་འདེམས་ཚུ་གིས་ འཚོལ་ཞིབ་ཀྱི་ཁྱབ་ཚད་ཆུང་ཀུ་བཟོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” གི་དོན་ལུ་ གྲུབ་འབྲས་མ་ཐོབ།</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>གྲུབ་འབྲས་མ་ཐོབ།</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>གོང་གི་འཚག་འདེམས་གཅིག་རྩ་བསྐྲད་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ཡིག་སྒྱུར།</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>བྱ་བའི་ཐོ།</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name ཞུན་དག</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ཞུན་དག</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>སྒྲིག་བཙུགས། &gt; Cron ལཱ།</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>ད་ཚུན་ Cron ལཱ་གི་ཡན་ལག་གཅིག་ཡང་གཡོག་བཀོལ་མ་ཚར་བས། ལཱ་གི་གྲལ་རིམ་དང་ ནང་འདྲེན་ཚུ་ བརྡ་ཐོ་ཚུ་ འཚོལ་ཞིབ་ཀྱི་ཟུར་ཐོ་ཚུ་ སྒུག་སྡོད་དེ་ཡོདཔ་ཨིན། php bin/php/installcrontab.php --add --apply གཡོག་བཀོལ་གནང་། ཡང་ན་ --show གིས་སྟོན་མི་གྲལ་ཐིག་ཚུ་ crontab ཡིག་སྣོད་ནང་ཁ་སྐོང་འབད་གནང་།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>ཆོག་ཐམ་གྱིས་དགོ་པའི་ལྟར་ ཐོག་མའི་རྩོམ་པ་པོ་ཚུ་དང་ Exponential དང་གཅིག་ཁར་ཚུད་པའི་ཕྱི་ཕྱོགས་ཀྱི་མཉེན་ཆས་ཀྱི་འདྲ་བཤུས་དབང་ཚད་བརྡ་ཐོ་ཚུ་ འབྱུང་ཁུངས་ཡིག་སྣོད་དང་ LICENSE ཡིག་སྣོད་ནང་ཉར་ཚགས་འབད་ཡོདཔ་ཨིན།</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>གཤམ་གསལ་འདི་ eZ Systems Contributor Licensing Agreement གི་ཆིངས་ཡིག་དང་ཁྲིམས་ཡིག་གི་འོག་ལུ་ རང་གི་ལཱ་འདི་ 7x གིས་ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ཆོག་ཐམ་བྱིན་མི་ Exponential ཕན་འདེབས་པ་ཚུའི་ཐོ་ཡིག་ཨིན། གན་རྒྱ་འདི་གིས་གནང་བ་བྱིན་པ་ལྟར་ 7x གིས་ཕན་འདེབས་རེ་རེ་འདི་ ཕན་འདེབས་དེ་ཚུད་མི་ཡིག་སྣོད་ཀྱི་ཆོག་ཐམ་གཅིག་པའི་འོག་ལུ་ལོག་བགོ་བཤའ་འབདཝ་ཨིན། ཐོ་ཡིག་འདི་ནང་ཕན་འདེབས་པ་རེ་རེའི་མིང་དང་ རང་འདོད་ཀྱི་འབྲེལ་བའི་བརྡ་དོན་ ཁོང་གིས་ཕན་འདེབས་འབད་མི་ཡིག་སྣོད་ཚུ་ཡང་ན་ཕན་འདེབས་འབད་མི་ལཱ་གི་ཡིག་སྣོད་ཚུ་བཀོད་ཡོདཔ་ཨིན།</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential དང་ དེ་ཆགས་ཡོདཔ་ཨིན་པའི་ མཉེན་ཆས་གུ་ ལཱ་འབད་མི་ལུ་ བཀའ་དྲིན་ཞུ་མི་ ཞལ་འདེབས་པ་ཚུ་ དེ་ཚུ་གིས་ཞལ་འདེབས་འབད་མི་ ཡིག་སྣོད་ཚུ་དང་གཅིག་ཁར། འདི་ བཀའ་དྲིན་ཞུ་ནི་ཨིན་ པར་དབང་བརྡ་བསྐུལ་མེན། Exponential ལུ་ ཞལ་འདེབས་ཚུ་ Contributor Licensing Agreement ལྟར་ Exponential Foundation དང་ 7x ལུ་ སྤྲོད་ཨིན།</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition ཚོད་ལྟ་འབད།&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential སྤྱི་ཚོགས་ཀྱི་ཚོགས་མི་ཅིག་འགྱུར་ཞིནམ་ལས་ བརྗེ་སོར་དང་ཕན་གྲོགས་འབད།&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; པར་དབང་ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; དང་གཞན་ཚུ་ལུ་ཡོད།</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; གིས་ སྐུལ་སྤེལ་འབད་ཡོདཔ། གནས་ཚུལ་ཁ་སྐོང་གི་དོན་ལུ་ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ལུ་བལྟ།</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; པར་དབང་ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; དང་གཞན་ཚུ་ལུ་ཡོད།</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> གནས་ཚུལ་ཁ་སྐོང་གི་དོན་ལུ་ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ལུ་བལྟ།</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; པར་དབང་ &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; དང་གཞན་ཚུ་ལུ་ཡོད།</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential (7x ལས།) ཚོད་ལྟ་འབད།&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential སྤྱི་ཚོགས་ཀྱི་ཚོགས་མི་ཅིག་འགྱུར་ཞིནམ་ལས་ རོགས་པ་ཐོབ་ཅི་ཕན་གྲོགས་འབད།&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; པར་དབང་ &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; དང་གཞན་ཚུ་ལུ་ཡོད།</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>རོགས་པའི་ལྟེ་གནས།</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>ནང་དོན།</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>ཡིག་ཆའི་ཤོག་ལེབ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>ལག་ལེན་པ།</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>ནང་དོན་རིགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>འཛིན་སྐྱོང་།</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>ཤོག་ལེབ་ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>གྲུབ་འབྲས་ཆ་མཉམ་བལྟ།</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>འབྲས་བུ་ %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>གྲུབ་འབྲས་གཅིག</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>བསམ་འཆར་ %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>བསམ་འཆར་མེད།</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>བསམ་འཆར་ཚུ་མངོན་གསལ་འབད་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>བསམ་འཆར་ཚུ།</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>གཞི་བཙུགས་འདི་ མི་མང་གི་སྟོན་འབུལ་ཅིག་ཨིན། ཀུན་གྱིས་འཛིན་སྐྱོང་པའི་ཆོག་ཚིག་ཤེས་སྲིད་ལས་ འཛིན་སྐྱོང་པའི་ཆོག་ཚིག་བསྒྱུར་ནི་དང་བསྐྱར་སྒྲིག་འབད་མི་ཚུགས། འདི་ནང་ སྒེརཔ་ཅིག་གང་ཡང་མ་བཙུགས་གནང་།</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ཁྱོད་རང་གི་སྒྲིག་ཆས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>ལམ་སྟོན། འཚོལ་ཞིབ་དང་ འཛོལ་བ་ག་དེ་སྦེ་སྙན་ཞུ་འབད་དགོཔ་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ནང་དོན་གསརཔ།</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>ནང་དོན་གསར་ཤོས་ བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་བཀག་བཞག་མི་ དེ་ལས་སེལ་འཐུ་ཅིག་གུ་བྱ་བ་ཚུ།</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>མཉམ་སྒྲིག</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: དེ་གི་མཇུག་ཚེག་ ས་ཁྲམ་ དེ་ལས་ འདྲི་དཔྱད་ཚུ་བརྟག་དཔྱད་འབད་སའི་ས་གོ།</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>སྤོ་བཤུད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ཡིག་སྣོད་བཟུམ་སྦེ་བཞག་མི་ གཞི་བཙུགས་ཀྱི་བསྒྱུར་བཅོས། དེ་ཚུ་གི་གནས་སྟངས་ གཡོག་བཀོལ་ཚུ་ གཡོག་བཀོལ་དང་ རྒྱབ་ལོག།</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ནང་དོན་གསརཔ།</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>ནང་དོན་གསར་ཤོས་ བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་བཀག་བཞག་མི་ དེ་ལས་སེལ་འཐུ་ཅིག་གུ་བྱ་བ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>དྲྭ་ཚིགས་ཀྱི་བརྟན་པའི་འདྲ་བཤུས་ཅིག་ GitHub Pages ཡང་ན་ git བདག་འཛིན་པ་ག་ཅི་ཨིན་རུང་ཁར་ དཔེ་སྐྲུན་འབད།</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>གནད་སྡུད་རིགས།</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ཀེར་ནཱལ་དང་རྒྱ་སྐྱེད་ཚུ་གི་ གནད་སྡུད་རིགས་ཆ་མཉམ་ དེ་ལས་ རིགས་དང་ནང་དོན་ཚུ་གིས་ དེ་ག་དེ་སྦེ་ལག་ལེན་འཐབ་ཨིན་ན།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>སུ་གིའང་ལག་ལེན་མི་འཐབ་པའི་ ཡང་ན་ བལྟ་དགོ་པའི་རྩིས་ཐོ་ཚུ། དེ་ཚུ་ལག་ལེན་མ་འཐབ་བཅུག་ སྒོ་འབྱེད་ ཡང་ན་ ཕྱིར་གཏང་འབད།</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ལག་ལེན་པའི་རྩིས་ཞིབ་དྲན་ཐོ།</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>རྩིས་ཐོ་རེ་རེ་ལུ་ ག་གིས་བསྒྱུར་བཅོས་འབད་ཡི་ ནང་འཛུལ་འབད་ཡི་ ཡང་ན་ ངོས་ལེན་མ་འབད་ཡི། འཚག་འདེམས་དང་ཕྱིར་གཏང་འབད་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ནང་འཛུལ་གྱི་སྙན་ཞུ།</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ནང་འཛུལ་འབད་ཡོད་མི་ག་ཨིན་ན་ ཉིན་རེའི་ནང་འཛུལ་དང་འཐུས་ཤོར་ཚུ། ལག་ལེན་པ་གཅིག་ས་ཁོངས་ཆ་མཉམ་ལས་ཕྱིར་འཐོན་འབད།</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>ཆུ་ཚོད་ %n གོང་ལུ།</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API གི་ བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད་ཚུ་གི་ལན་དང་ དེ་གི་ས་ཁྲམ་གྱི་ནང་དོན་དབྱེ་རིམ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>བརྟན་པའི་འདྲ་བཤུས་ཅིག་ GitHub Pages ཡང་ན་ git བདག་འཛིན་པ་ག་ཅི་ཨིན་རུང་ཁར་ དཔེ་སྐྲུན་འབད།</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>བརྟན་པའི་ཀེཤ་གིས་ ཤོག་ལེབ་ཚུ་ སར་བར་འདི་ལས་བྱིནམ་ཨིན། དྲྭ་ཚིགས་ཀྱི་བརྟན་པའི་འདྲ་བཤུས་ཅིག་ ས་གནས་གཞན་ཁར་ GitHub Pages ཡང་ན་ git བདག་འཛིན་པ་ག་ཅི་ཨིན་རུང་ཁར་ དཔེ་སྐྲུན་འབད་ནི་ཨིན་པ་ཅིན་ བརྟན་པའི་དཔེ་སྐྲུན་ལག་ལེན་འཐབ།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>མཇུག་གི་གཙང་སྦྲ།</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>འབྲི་མི་ཚུ་གིས་ གནས་སྟངས་ཀྱི་ལྡེ་མིག་ལེན་མ་ཚུགས། (མཇུག་ %date)༔ རེ་རེ་གིས་ བསག་ཡོད་པའི་གྲུབ་འབྲས་ག་ར་ རྙིངམ་བཟོ་ཡི། %file འདི་ ཡིག་ཐོག་ལག་ལེན་འཐབ་མི་ལག་ལེན་པ་རེ་རེ་གིས་ འབྲི་ཚུགསཔ་དགོ། NFS གུ་ NFSv4 ཡང་ན་ lockd དགོ།</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP ལག་ལེན་པ་གི་དུས་ཚོད་ཆད་པའི་ལཱ་ཚོགས་ཚུ་ PHP རང་གིས་ (session.gc_maxlifetime) བཏོནམ་ཨིནམ་ལས་ ཤོག་ལེབ་འདི་ཡང་ན་ session_gc ཀྲོན་ལཱ་གི་ཆ་ཤས་གིས་མེན།</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>ལག་ལེན་པ་ཆ་མཉམ་གྱི་ནང་འཛུལ་འབད་ཡོད་པའི་ལཱ་ཚོགས་ཚུ་ ནང་འཛུལ་གྱི་སྙན་ཞུ་ནང་ཐོ་བཀོད་འབདཝ་ཨིནམ་དང་ དེ་ལས་ཕྱིར་འཐོན་འབད་ཚུགས། དེ་གིས་ལཱ་ཚོགས་སྐྱོང་མཁན་ག་དང་གཅིག་ཁར་ཡང་ལཱ་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>ནང་འཛུལ་གྱི་སྙན་ཞུ་ཁ་ཕྱེ།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>ད་ལྟོ་ཚུན་མེད།</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>ཁྱོད་རང་གི་ཉེ་གནས་ཀྱི་ནང་འཛུལ་དང་ འཐུས་ཤོར་བྱུང་བའི་འབད་རྩོལ་ཚུ་ དེ་ལས་ཆོག་ཚིག་དང་ གློག་འཕྲིན་ཁ་བྱང་ རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་ལུ་འགྱུར་བ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>རྩིས་ཐོ་འདི་གི་ཉེ་གནས་ཀྱི་ནང་འཛུལ་དང་ འཐུས་ཤོར་བྱུང་བའི་འབད་རྩོལ་ཚུ་ ཉེན་སྲུང་གི་འགྱུར་བ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>བྱ་བ་བསྐྱར་ཞིབ།</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>འཐུས་ཤོར་བྱུང་བའི་ནང་འཛུལ་: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>ནང་འཛུལ་འབད་ཚར་བའི་ཤུལ་ལས་ ལག་ལེན་པ་གིས་གཞན་ག་ནི་ཡང་མ་འབད་བའི་ཧེ་མར་ཆོག་ཚིག་གསརཔ་ཅིག་སེལ་འཐུ་འབད་དགོ། མི་ཅིག་ལུ་གནས་སྐབས་ཀྱི་ཆོག་ཚིག་སྤྲོདཔ་ད་འདི་ལག་ལེན་འཐབ་གནང་།</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>ཧེ་མ་ལས་ཡོད་པའི་པར་ཅིག་གདམ།</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>ཁྱོད་ཀྱིས་གདམ་མི་དངོས་པོའི་པར་ཡིག་སྣོད་འདི་ ས་སྒོ་འདི་ནང་འདྲ་བཤུས་རྐྱབ་འོང་། དངོས་པོ་གཞན་འདི་ལུ་འགྱུར་བ་མི་འོང་།</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>«%name» གི་པར་འདི་ ས་སྒོ་འདི་ནང་འདྲ་བཤུས་རྐྱབ་ཡི།</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>པར་ཅིག་བརྡར་འཚོལ་འབད།</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>མིང་ལས་བརྟེན་ཏེ་པར་འཚོལ།</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>འཚོལ།</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>«%name» གི་པར་ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>པར་འདི་ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ཁྱོད་ཀྱི་འཚོལ་ཞིབ་དང་མཐུན་པའི་པར་མིན་འདུག།</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab འབྲི་མ་ཚུགས་པས (%reason)། ཐིག་ཕྲེང་འདི་ཚུ་ དྲྭ་ཚིགས་གཡོག་བཀོལ་མི་ལག་ལེན་པའི་ crontab ནང་ཁ་སྐོང་འབད། དེ་མ་ཐད་ན་ གྲལ་རིམ་ ནང་འཁྱེར་ བརྡ་ཐོ་དང་འཚོལ་ཞིབ་དཀར་ཆག་ཚུ་ནམ་ཡང་གཡོག་མི་བཀོལ།</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>སླར་གཞི་བཙུགས་འདི་ Kickstarter ལག་ལེན་འཐབ་ཏེ་ (%file དེ་ལས་ php bin/php/kickstarter.php run --apply) ཡང་ན་ གཞི་བཙུགས་གསརཔ་གཅིག་གིས་འབདཝ་ཨིན།</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore སྤྱི་སྤྱོད་ཐུམ་སྒྲིལ་པ་ཀེཤ</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL འདྲ་མཛོད། (ལན་དང་ ས་ཁྲམ་གྱི་དབྱེ་རིམ་ཚུ།)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name གི་འདྲ་བཤུས།</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>གནད་སྡུད་རིགས།</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>གནད་སྡུད་རིགས། %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG པར་འདི་ལྷག་མ་ཚུགས་ ཡང་ན་ དེའི་ནང་ག་ཅི་ཡང་ཉེན་མེད་པར་སྟོན་མི་ཚུགས།</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>པར་འདྲ་བཤུས་རྐྱབ་མ་ཚུགས། ཡང་བསྐྱར་ཚོད་ལྟ་འབད་ ཡང་ན་ དྲྭ་ཚིགས་འཛིན་སྐྱོང་པ་དང་འབྲེལ་བ་འཐབ།</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>གདམ་ཡོད་པའི་དངོས་པོ་མེད་ ཡང་ན་ ཁྱོད་ཀྱིས་ལྷག་ནིའི་ཆོག་ཐམ་མེད།</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>གདམ་ཡོད་པའི་དངོས་པོ་ལུ་པར་མེད།</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>གདམ་ཡོད་པའི་དངོས་པོའི་པར་ཡིག་སྣོད་ལྷག་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>གདམ་ཡོད་པའི་དངོས་པོའི་པར་འདི་ ས་སྒོ་འདི་གིས་གནང་བ་ལས་སྦོམ་དྲག་ཡོདཔ་ཨིན: %1 བཱའིཊི།</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>དཔེ་རྟགས་ཀྱི་མིང་འདི་ "%name" ལུ་བསྒྱུར་བཅོས་འབད་ཡི།</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>ཤོག་ལེབ་འདི་ དྲྭ་ཚིགས་འཛུལ་སྒོ་འདི (%siteaccess) ནང་ ལག་ལེན་མ་འཐབ་བཅུག་ཡོདཔ་ཨིན། ཤོག་ལེབ་འདི་ཡོད་མི་ དྲྭ་ཚིགས་འཛུལ་སྒོ་ཅིག་ནང་ དཔེ་རྟགས་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>ཤོག་ལེབ་འདི་གི་ཚན་པ་ ནཱ་ལུ་གཞི་བཙུགས་མ་འབད་ ཡང་ན་ ལག་ལེན་འཐབ་བཅུག་མེདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ཤོག་ལེབ་འདི་ ད་ལྟོ་མེདཔ་ཨིན། དེ་གི་ཚན་པ་ནང་ མཐོང་སྣང་དེ་བཟུམ་མེད།</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>ཁྱོད་རའི་འགན་ཁུར་གང་རུང་གིས་ཡང་ ཤོག་ལེབ་འདི་ཁ་ཕྱེ་ནིའི་གནང་བ་མི་བྱིན།</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>ཁྱོད་རང་གིས་ དྲྭ་ཚིགས་འཛུལ་སྒོ་འདི་ལག་ལེན་འཐབ་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ཁྱོད་རང་གིས་ ཤོག་ལེབ་འདི་གིས་སྟོན་མི་ནང་དོན་ལྷག་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ཤོག་ལེབ་འདི་བཟུམ་ དཔེ་རྟགས་བཞག་མི་ཚུགས། དེ་གིས་ འགེངས་ཤོག་གུ་རྐྱངམ་ཅིག་ལཱ་འབདཝ་ཨིན་ ཡང་ན་ སྐད་ཅིག་གཅིག་གི་ཤོག་ལེབ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>ཤོག་ལེབ་འདི་གི་ཁ་བྱང་མེདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ཤོག་ལེབ་འདི་ད་ལྟ་ཁ་ཕྱེ་མི་ཚུགས།</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>མཇུག་གི་གཡོག་བཀོལ་ནང་ གློག་འཕྲིན་སྐྱེལ་འདྲེན་གྱིས་འཕྲིན་ཡིག་ %count ངོས་ལེན་མ་འབད། གློག་འཕྲིན་སར་བར་དང་ site.ini MailSettings ཞིབ་དཔྱད་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>བྱུང་ལས་ %count སྒུག་སྡོད་དེ་ཡོདཔ་དང་ བརྡ་ཐོའི་ Cron ལཱ་གཡོག་བཀོལ་བའི་དྲན་ཐོ་གཅིག་ཡང་མེད། Cron ལཱ་གི་ཡན་ལག་ &quot;frequent&quot; crontab ཡིག་སྣོད་ནང་ཁ་སྐོང་འབད་གནང་། ཡང་ན་ exp:notification:run --apply གཡོག་བཀོལ་གནང་།</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>མདུད་ཚིག་སེལ་འཐུ་ཆས་ཀྱིས་དྲྭ་ཚིགས་ཡང་ན་སྡེ་ཚན་གཞན་ཅིག་སེལ་འཐུ་འབད།</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>ཇོ་བདག་སོར་ཚུགས་མི་འདི་ རིམ་ལུགས་བདག་སྐྱོང་པ་རྐྱངམ་ཅིག་ཨིན: root སྦེ་ ./console exp:content-check --fix-permissions --apply གཡོག་བཀོལ་གནང་།</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>སྟོངམ།</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>མཚན་རྟགས་ཀྱི་ལྡེ་མིག་འདི་ལོ་གཅིག་ལས་ལྷག་སྟེ་རྙིངམ་ཨིན: exp:audit key rotate --apply གིས་སོར་གནང་།</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>ཤོག་ལེབ་ཀྱི་དུས་ཚོད་ཀྱི་བརྒྱ་ཆ།</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>བཟོ་སྐྲུན་ཆ་ཚང་ཅིག་ཞུ་ཡོདཔ</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>ཤོག་ལེབ་ཀེཤ་ནང་ཤོག་ལེབ་འདི་མིན་འདུག (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ཤོག་ལེབ་ཀེཤ་གིས་ལན་མ་བཏབ</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>བཟོ་ཡོདཔ</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>ཀེར་ནཱལ་གིས་བཟོ་ཡོདཔ: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>ཤོག་ལེབ་ཀེཤ་ལས་ %ms ms ནང་ཞབས་ཏོག་འབད་ཡོདཔ། ཤོག་ལེབ་འདི་ %age s ཧེ་མ་ %stored ལུ་ %render ms གི་བཟོ་སྐྲུན་ཅིག་གིས་སྲུང་བཞག་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>ད་ལྟོ་བཟོ</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>ཀེཤ་ནང་གི་མཐོང་སྣང་ལུ་ཕྱིར་ལོག</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored གི་བཟོ་སྐྲུན་ལས་ (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>ཞུ་བ་འདི: ཤོག་ལེབ་ཀེཤ་ལས་ %ms ms ནང་ཞབས་ཏོག་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ལག་ལེན་པ།</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ལག་ལེན་པའི་ ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>ཀེཤ་ཁ་གསལ</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>མཐོང་སྣང་འདི</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>མཐོང་སྣང་ཀེཤ།</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ལག་ལེན་པ་རེ་རེ་ལུ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>ལག་ལེན་པའི་ཀེཤ་ཁ་གསལ: ཁ་གསལ་གཅིག་པ་ཡོད་མི་ལག་ལེན་པ་ཚུ་གིས་ མཐོང་སྣང་ཀེཤ་ཡིག་སྣོད་ཚུ་མཉམ་སྤྱོད་འབདཝ་ཨིན</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ཨིན།</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>མེན།</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ནང་འཛུལ་མིང་</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>ནང་བསྐྱོད་འབད་ཡི</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>ལཱ་ཚོགས།</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>ནང་དོན་མཐོང་སྣང་ཀེཤ་ལྡེ་མིག་གི་ ལག་ལེན་པ་ལུ་རག་ལས་མི་ཆ་ཤས་ཚུ་ ལྡེ་མིག་གིས་ལེན་དོ་བཟུམ་སྦེ་ ཤོག་ལེབ་འདི་གི་ ViewCacheTweaks འོག་ལུ། ཁ་གསལ་གཅིག་པ་ཡོད་མི་ལག་ལེན་པ་ཚུ་གིས་ མཐོང་སྣང་གི་ཀེཤ་ཡིག་སྣོད་ཚུ་མཉམ་སྤྱོད་འབདཝ་ཨིན་ མཐོང་སྣང་རང་གི་ཆ་ཤས་ཚུ་ (དགའ་འདེམས་ ཉན་མཁན་གྱི་ལྡེ་མིག) མ་འདྲཝ་ཅིན་མ་གཏོགས: དེ་ཚུ་ལུ་ ཤོག་ལེབ་འདི་རྐྱངམ་ཅིག་གི་དོན་ལུ་ རང་སོའི་ཁ་གསལ་ཡོདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>རང་ངོ་སྤྲོད།</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>མཐོང་སྣང་འདི (མཐུད་མཚམས %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: ནང་བསྐྱོད་འབད་མི་ལག་ལེན་པ་རེ་རེ་ལུ་ རང་སོའི་ཀེཤ་ཡིག་སྣོད་ཡོདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ལག་ལེན་འཐབ་དོ་པའི་ ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>ཆ་ཤས།</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>གྲངས་ཐང་།</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ཆ་ཤས་ག་ཅི་ཡང་ ལག་ལེན་པ་ལུ་རག་མ་ལས (ViewCacheTweaks)།</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>མཐོང་སྣང་འདི་</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>ཚིག་ཡིག་སྦེ་འདྲ་བཤུས་རྐྱབ</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>འགན་ཁུར།</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>ལཱ་འགན་བཀོད་སྒྲིག་ག་ཅི་ཡང་ལྷག་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ལཱ་འགན་ ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>འགན་ཁུར།</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>ཚད་བཀག</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>བཀོད་སྒྲིག་འབད་ས</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ལག་ལེན་པ</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>སྡེ་ཚན %name (དངོས་པོ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>འདྲ་བཤུས་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>འདྲ་བཤུས་རྐྱབ་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ཉན་མཁན་གྱིས་བཀོག་ཡོདཔ</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>མིང་མེད་ལྟ་མི།</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ཁྱོད་ཀྱི་དང་གཅིག་པ</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>མ་འདྲཝ</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>མིང་མེད་འཚམས་འདྲི་པ་ཚུ་གིས་ ViewCacheTweaks གཅིག་པའི་འོག་ལུ་ སྔོན་སྒྲིག་དགའ་འདེམས་དང་གཅིག་ཁར་ མཐོང་སྣང་གི་ཆ་ཤས་མེད་པར་ཐོབ་མི་ཁ་གསལ: ལཱ་ཡུན་ལྷག་མི་ཉན་མཁན་ལུ་ དེ་ཚུ་དྲི་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>དགའ་འདེམས་ཚུ</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>མཐོང་སྣང་ཐབས་ལམ་ག་ཅི་ཡང་ ལག་ལེན་པའི་དགའ་འདེམས་ལུ་རག་མ་ལས (site.ini [ContentSettings] CachedViewPreferences)།</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>མཐོང་སྣང་ཐབས་ལམ་འདི་ཚུ་གི་མཐོང་སྣང་ཚུ་རག་ལས་མི་དགའ་འདེམས་ཚུ (CachedViewPreferences) ལག་ལེན་པའི་གནས་གོང་ ཡང་ན་ སྔོན་སྒྲིག་དང་གཅིག་ཁར། དེ་ཚུ་ ཁ་གསལ་ནང་ userpreferences སྦེ་ མཐོང་སྣང་ཐབས་ལམ་ག་ར་གི་མཉམ་དུ་ཡོདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>མཐོང་སྣང་གི་ཐབས་ལམ།</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>དགའ་འདེམས</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>སྔོན་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>སྲིད་བྱུས།</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>ལཱ་འགན་གྱི་སྲིད་བྱུས་ཚུ་སྟོན (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>དབྱེ་ཚན་འདི་ཁ་ཕྱེ་བའི་སྐབས་ སྲིད་བྱུས་ཚུ་ སར་བར་ལས་ ཤོག་ལེབ་རེ་རེ་བཞིན་མངོན་གསལ་འབདཝ་ཨིན་ དེ་ཚུ་ མོ་ཌུལ་དང་ ལས་འགན་གྱི་ཐོག་ལས་ཚགས་མ་བཙག་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ལས་ཀ།</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>ཚན་པ་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>ལས་འགན་ག་ར</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>ཚད་བཀག</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>ཧེང་བཀལ་སྟོན</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>ལཱ་འགན་འདི་ཚུ་ལུ་ སྲིད་བྱུས་མེད།</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>སྲིད་བྱུས་ག་ཅི་ཡང་ ཚགས་མ་དང་མ་མཐུན།</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching སྲིད་བྱུས (བསྡོམས %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>ཁ་ཕྱེ་བའི་སྐབས་ལུ་ མངོན་གསལ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, འགན་ཁུར་, ཚད་བཀག</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>སྲིད་བྱུས་ཚུ་ཚོལ།</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>ཁ་སྐོང་མངོན་གསལ་འབད།</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ཚན་པ།/ལས་ཀ།</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>འགན་ཁུར་ཆ་མཉམ་ (སྲིད་བྱུས་ %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>མཐུན་པའི་སྲིད་བྱུས་མིན་འདུག</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>སྲིད་བྱུས་ %matched ལས་ %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>ལན་མིན་འདུག</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>སྦ་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>འགྲེལ་བཤད་སྟོན།</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>འགྲེལ་བཤད་སྦ།</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>ཆ་མཉམ་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>ཆ་མཉམ་ཁ་བསྡམ།</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>ལྡེ་མིག་ ཡང་ན་ གྲངས་ཐང་།</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>ལཱ་ཚོགས་ནང་ཚོལ།</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>རིགས།</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>ཧེང་བཀལ་ %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>སྟོན་ནིའི་དོན་ལུ་ ནང་ན་ཟབ་དྲགས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>བཏོག་ཡོདཔ་ ཡིག་འབྲུ་ %count ཡོངས་བསྡོམས།</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>འགོ་བཙུགས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>ཀུ་ཀི་གི་མིང་།</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ལཱ་ཚོགས་ཀྱི་ ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>ལེགས་སྐྱོང་པ།</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>སྲུང་བཞག་འགྲུལ་ལམ།</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP སྔོན་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>ཚེ་ཚད། (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>ཀུ་ཀི།</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ཚེ་ཚད་ སྐར་ཆ་ %s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>ཁྱོད་རའི་ PHP ལཱ་ཚོགས་ སྡེ་ཚན་ཁ་ཕྱེ་བའི་སྐབས་ཀྱི་གནས་སྟངས་ ལཱ་ཚོགས་གཞན་ནམ་ཡང་མེན། གསང་བ་བཟུམ་མཐོང་མི་ལྡེ་མིག་ (ཊོ་ཀཱན་ ཧེཤ་ ཆོག་ཡིག) ཚུ་གི་ གྲངས་ཐང་ཚུ་ སྦ་བཞགཔ་ཨིན (debugbar.ini SessionMask[])། གཞན་ཆ་མཉམ་ སྒེར་གྱི་གནས་སྡུད་ཚུ་ཡང་ སྲུང་བཞག་འབད་མི་སྦེ་སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>ལྡེ་མིག་ %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>ཆེཝ།</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>ལཱ་ཚོགས་སྟོངམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>ཞུ་བ་འདི་གི་དོན་ལུ་ ལཱ་ཚོགས་ག་ནི་ཡང་ འགོ་མ་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>རྒྱ་སྐྱེད། %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>ཀར་ནེལ་དང་གཞན།</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>ཐོ་བཀོད་ཆ་མཉམ་མ་སྟོན་པས: ལཱ་ཚོགས་ནང་ ནཱ་ལུ་ཐོ་བཀོད་འབད་ཚུགས་མི་ལས་ལྷག་སྟེ་ཡོད།</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>ལྡེ་མིག་ %count ཐོ་བཀོད་མ་འབད་བས།</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>སྒྲོམ།</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ཊོ་ཀཱན་བཟུམ་མཐོང་མི་ གྲངས་ཐང་ཚུ་ཡང་ (JSON Web Token, Authorization མགོ་ཡིག་གི་ ངོ་སྦྲེལ་ སྒེར་གྱི་ལྡེ་མིག་ ཧེགསི་ ཡང་ན་ གང་བྱུང་ཡིག་ཐོག་རིངམོ) ལྡེ་མིག་གི་མིང་ག་ཅི་ཨིན་རུང་ སྦ་བཞགཔ་ཨིན (debugbar.ini SessionValueMask[])།</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>ལྡེ་མིག་འདི་ གསང་བ་བཟུམ་མཐོང་། (debugbar.ini SessionMask[])</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>གྲངས་ཐང་འདི་ ཊོ་ཀཱན་བཟུམ་མཐོང་།</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>སྦ་བཞག་པའི་ལྡེ་མིག་གི་འོག་ལུ།</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>ཡིག་ཐོག་སྦེ་ ལཱ་ཚོགས་ ཐིག་ཁྲམ་བཟུམ་སྦ་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>ལཱ་ཚོགས་འདི་ %size ལས་ཆེ (debugbar.ini SessionWarnBytes): ལག་ལེན་པ་འདི་གི་ཞུ་བ་རེ་རེ་གིས་ ལཱ་ཚོགས་ཧྲིལ་བུ་ལྷགཔ་ཨིན་ དེ་ལས་ བསྒྱུར་བཅོས་འབྱུང་པ་ཅིན་ བྲིཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP གིས་ ལཱ་ཚོགས་འདི་ ཡིག་སྣོད་ནང་བཞགཔ་ཨིནམ་དང་ ཞུ་བ་ཧྲིལ་བུའི་རིང་ ཡིག་སྣོད་ལྡེ་མིག་བརྒྱབ་བཞགཔ་ཨིན: ལག་ལེན་པ་གཅིག་གི་ཞུ་བ་ཚུ་ (ཤོག་མཆོང་ལེ་ཤ་ AJAX འབོད་བརྡ) ཕན་ཚུན་བསྒུག་དགོཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>ཁ་ཕྱེ་སྡོད།</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size ལས་ཆེ (debugbar.ini SessionWarnBytes): ལག་ལེན་པ་འདི་གི་ཞུ་བ་རེ་རེ་གིས་ ལཱ་ཚོགས་ཧྲིལ་བུ་ལྷགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count ལས་ %hits ཀེཤ་ནང་ལས་ལྷག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>ཊེམ་པ་ལེཊ་ག་ནི་ཡང་ མ་བཏོན་པས། (མཐོང་སྣང་ཀེཤ་ལས་ལྷག་མི་ མཐོང་སྣང་གིས་ ག་ནི་ཡང་མི་བཏོན།)</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>འགན་ཁུར་སྤྲོད་ཐངས།</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>འགན་ཁུར་དང་སྲིད་བྱུས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>མིང་མེད་པའི་ལྟ་བཅམ་པ་ཚུ་དང་མ་འདྲཝ།</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>མིང་མེད་པའི་ལྟ་བཅམ་པ་ཚུ་དང་འདྲཝ།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>མ་གཏང་པའི།</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>བརྡ་ཐོའི་ Cron ལཱ་གིས་ གཡོག་བཀོལ་རེ་རེ་བཞིན་ནཱ་ལུ་དྲན་ཐོ་བཀོདཔ་ཨིན། ཡན་ལག་ frequent crontab ཡིག་སྣོད་ནང་ཁ་སྐོང་འབད་གནང་། ཡང་ན་ exp:notification:run --apply གཡོག་བཀོལ་གནང་།</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>ཚད་འཛིན་ངོས་ལག་ལེན་འཐབ་གནང་: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>བརྗོད་དོན་འདི་དཔེ་སྐྲུན་མ་འབད་བས། ཀློག་མི་ཚུ་གིས་མི་མཐོང་།</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>སྤོ་བཤུད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ཡིག་སྣོད་བཟུམ་སྦེ་བཞག་མི་ གཞི་བཙུགས་ཀྱི་བསྒྱུར་བཅོས། དེ་ཚུ་གི་གནས་སྟངས་ གཡོག་བཀོལ་ཚུ་ གཡོག་བཀོལ་དང་ རྒྱབ་ལོག།</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>དྲྭ་ཚིགས་ཀྱི་བརྟན་པའི་འདྲ་བཤུས་ཅིག་ GitHub Pages ཡང་ན་ git བདག་འཛིན་པ་ག་ཅི་ཨིན་རུང་ཁར་ དཔེ་སྐྲུན་འབད།</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>ཞིབ་བཤེར་ནང་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>ཀློག་མི་ཚུ་གིས་ཤོག་ལེབ་འདི་མཐོང་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>མི་ཅིག་གིས་དཔེ་སྐྲུན་མ་འབད་ཚུན་ཚོད་ཀློག་མི་ཚུ་ལས་སྦ་བཞག་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>ཤོག་ལེབ་དེ་ད་ལྟོ་ཞིབ་བཤེར་ནང་ཡོད། དཔེ་སྐྲུན་མ་འབད་ཚུན་ཚོད་ཀློག་མི་ཚུ་ལས་སྦ་བཞག་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>ཤོག་ལེབ་དེ་དཔེ་སྐྲུན་འབད་ཡོདཔ་ཨིན། ཀློག་མི་ཚུ་གིས་ད་ལྟོ་མཐོང་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>ཤོག་ལེབ་དེ་ལོག་ཟིན་བྲིས་ཅིག་ཨིན། ཞིབ་བཤེར་དང་དཔེ་སྐྲུན་མ་འབད་ཚུན་ཚོད་ཀློག་མི་ཚུ་ལས་སྦ་བཞག་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ད་ལྟོ་དཔེ་སྐྲུན་འབད།</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>འགན་ཁུར་ %role ཡོད་མི་དང་ཐོན་རིམ་འདི་མ་འབྲིས་མི་ལག་ལེན་པ་རྐྱངམ་ཅིག་གིས་དཔེ་སྐྲུན་འབད་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>དཔེ་སྐྲུན་ལུ་སྒུག་སྡོད་པའི་རོགས་པའི་བརྗོད་དོན།</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>ལོག་དཔེ་སྐྲུན་མ་འབད་ཚུན་ཚོད་ཀློག་མི་ཚུ་ལས་སྦ་བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>དེ་ལས་ཞིབ་བཤེར་པ་ཅིག་གིས་བརྟག་ཞིབ་འབདཝ་ཨིན། ཀློག་མི་ཚུ་གིས་ད་ཚུན་མཐོང་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>ཀློག་མི་ཚུ་གིས་དེ་འཕྲོ་ལས་མཐོང་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>ལཱ་ཧེང་བཀལ་འབད་ནིའི་དོན་ལུ་ཞིབ་བཤེར་ལས་ཕྱིར་བཏོནམ་ཨིན། ཀློག་མི་ཚུ་གིས་མཐོང་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ཤོག་ལེབ་འདི་ཀློག་མི་ཚུ་ལས་སྦ་ནི་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ཤོག་ལེབ་འདི་ཟིན་བྲིས་ལུ་ལོག་གཏང་ནི་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>མི་ཅིག་གིས་ལོག་དཔེ་སྐྲུན་མ་འབད་ཚུན་ཚོད་ཀློག་མི་ཚུ་གིས་ %title མཐོང་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title ལཱ་ཧེང་བཀལ་འབད་ནིའི་དོན་ལུ་ཟིན་བྲིས་ལུ་ཕྱིར་ལོག་འགྱོཝ་ཨིན། ཀློག་མི་ཚུ་གིས་ད་ལྟོ་ཡང་མཐོང་མི་ཚུགས། དཔེ་སྐྲུན་མ་འབད་བའི་ཧེ་མ་ཞིབ་བཤེར་གསརཔ་ཅིག་དགོཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ཆ་མེད་གཏང་།</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>བརྗོད་དོན་འདི་ཚུ་ཞིབ་བཤེར་ནང་ཡོད། ད་ལྟོའི་ཐོན་རིམ་མ་འབྲིས་མི་ཅིག་གིས་དཔེ་སྐྲུན་འབད་ཚར་བའི་ཤུལ་ལས་ཀློག་མི་ཚུ་གིས་མཐོང་ཚུགས།</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>མེདཔ།</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>བདེན་དཔང་ཨེཔ་གཅིག་གིས།</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>གློག་འཕྲིན་གྱི་ཐོག་ལས་ཨང་རྟགས་གཅིག་གིས།</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>སླར་གསོའི་ཨང་རྟགས་གཅིག་གིས།</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ནང་འཛུལ་ལྡེ་མིག་གཅིག་གིས།</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ཕྱི་ཁའི་རྩིས་ཐོ་གཅིག་གིས།</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>འདིའི་ཡོངས་འབྲེལ་སྦེ་སྟོནམ་ཨིན། ཁ་བྱང་འདི་ ས་ཁོངས་ཀྱི་གནད་སྡུད་ཉེན་སྲུང་གི་སྒྲིག་བཀོད་ཀྱིས་བཀོད་དོ་བཟུམ་སྦེ་བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>དྲན་ཐོ་མ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>གནས་ཁོངས།</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ཚོད་དཔག</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>ཆས་ཚུ་འཛིན་སྐྱོང་འབད།</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>བདེན་དཔང་ཨེཔ་གཅིག་གིས།</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>གློག་འཕྲིན་གྱི་ཐོག་ལས་ཨང་རྟགས་གཅིག་གིས།</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>སླར་གསོའི་ཨང་རྟགས་གཅིག་གིས།</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ནང་འཛུལ་ལྡེ་མིག་གཅིག་གིས།</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ཕྱི་ཁའི་རྩིས་ཐོ་གཅིག་གིས།</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>དྲན་ཐོ་མ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>གནས་ཁོངས།</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ཚོད་དཔག</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>ལག་ལེན་པ་འདི་གི་ལཱ་ཚོགས་བལྟ།</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site གུ་ཁྱོད་རང་གི་རྩིས་ཐོ་ %login གིས་ ཉེ་ཆར་ནང་འཛུལ་མ་འབད་བའི་ས་གནས་ཅིག་ལས་ ད་ལྟོ་ར་ནང་འཛུལ་འབད་ཡི:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>ཚོད་དཔག་གི་གནས་ཁོངས།</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os གུ་ %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ནང་འཛུལ་གྱི་སྙན་ཞུ།</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>ཆོག་ལྡེ་བརྟག་ཞིབ་འབད་མ་ཚུགས། ཡང་བསྐྱར་ཚོད་ལྟ་འབད་གནང་།</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>ཆོག་ལྡེ་ཁོ་ར་གིས་ནང་འཛུལ་འབད་མི་རྩིས་ཐོ་ཚུ་གིས་ ནཱ་ལུ་ཆོག་ཚིག་ལག་ལེན་འཐབ་མི་ཚུགས། &quot;ཆོག་ལྡེ་དང་བཅསཔ་ནང་འཛུལ།&quot; སེལ་འཐུ་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login གི་ཆོག་ལྡེ།</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>རྩིས་ཐོ་འདི་གིས་ནང་འཛུལ་འབད་མི་ཆོག་ལྡེ་ཚུ། བརླག་སྟོར་ཞུགས་ཡོད་པའམ་རྐུ་ཡོད་པའི་སྒྲིག་ཆས་གུ་ཡོད་མི་ཆོག་ལྡེ་འདི་ཆ་མེད་གཏང་། དེ་གིས་ད་ལས་ཕར་ནང་འཛུལ་འབད་མི་ཚུགས། གསརཔ་ཚུ་བདག་པོ་རང་གིས་ཁ་སྐོང་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>ཁྱོད་རའི་རྩིས་ཐོ་ལུ་ཆོག་ལྡེ་ཅིག་དགོ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>ཁྱོད་རའི་རྩིས་ཐོ་ལུ་ཆོག་ལྡེ་ཅིག་ཁ་སྐོང་འབད།</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>མུ་མཐུད་ནིའི་དོན་ལུ་ཆོག་ལྡེ་ཅིག་ཁ་སྐོང་འབད་གནང་། དེ་ལས་ཁྱོད་ཀྱིས་ཆོག་ཚིག་ཁོ་རའི་ཚབ་ལུ་ དེ་གིས་ནང་འཛུལ་འབད་འོང་།</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>ཆོག་ལྡེ་གིས་ནང་འཛུལ་འབད་ནི་འདི་ ཆོག་ཚིག་ལས་མགྱོགས་དྲགས་དང་ཉེན་སྲུང་ཅན་ཨིན། ད་ལྟོ་གཅིག་ཁ་སྐོང་འབད་གནང་། ཡང་ན་ དེ་མེད་པར་མུ་མཐུད་གནང་།</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ད་ལྟོ་མེན།</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>ཆོག་ལྡེ་ &quot;%name&quot; ཆ་མེད་གཏང་ནི་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>དེ་གིས་རྩིས་ཐོ་འདི་ལུ་ནང་འཛུལ་འབད་མི་ཚུགས། དེ་མཇུག་མ་ཨིན་པ་ཅིན་ བདག་པོ་གིས་ཆོག་ཚིག་གིས་ནང་འཛུལ་འབདཝ་ཨིན། ཡང་ན་ ཁྱོད་ཀྱིས་ཆོག་ཚིག་གསརཔ་ཅིག་གཞི་སྒྲིག་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>ཆོག་ལྡེ་ཆ་མེད་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>ཆ་མེད་གཏང་།</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>རྩིས་ཐོ་འདི་ལུ་ཆོག་ལྡེ་མིན་འདུག</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>བདེན་དཔང་ཆས།</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>ངོས་མ་འཛིན་པའི།</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>ཁྱོད་རའི་ཆོག་ལྡེ་མཇུག་མ། དེ་བཏོན་གཏང་པའི་ཧེ་མ་ གཞན་ཅིག་ཁ་སྐོང་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>རྩིས་ཐོ་འདི་གིས་ཆོག་ལྡེ་ཁོ་ར་གིས་ནང་འཛུལ་འབདཝ་ཨིན། (ཆོག་ལྡེའི་སྲིད་བྱུས།) ཅིག་ཡང་མ་ལུས་པ་ཅིན་ ལོག་སྟེ་རང་གི་ཆོག་ཚིག་གིས་ནང་འཛུལ་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>འདི་ཁྱོད་རའི་ཆོག་ལྡེ་མཇུག་མ་ཨིན་ཏེ་ ཁྱོད་རའི་རྩིས་ཐོ་ཆོག་ལྡེ་མེད་པར་ནང་འཛུལ་འབད་མི་ཚུགས། དང་པ་ཆོག་ལྡེ་གཞན་ཅིག་ཁ་སྐོང་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>ཆོག་ལྡེ་ &quot;%name&quot; ཆ་མེད་གཏང་ཡི། དེ་གིས་རྩིས་ཐོ་འདི་ལུ་ད་ལས་ཕར་ནང་འཛུལ་འབད་མི་ཚུགས།</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>ཁྱོད་རང་གི་བདེན་དཔང་ཨེཔ་ལས་ཀྱི་ཀོཌ།</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>ཁྱོད་ཀྱིས་གནད་སྡུད་རྟག་བརྟན་སྦེ་བཏོན་གཏང་ནི་ ཡང་ན་ དྲན་ཐོ་ཅིག་བཀྲོང་གཏང་ནི་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>ཁྱོད་རའི་ཆོག་ཚིག་དང་ཆོག་ལྡེ་ཅིག</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>ཁྱོད་རའི་ཆོག་ཚིག་དང་བདེན་དཔང་ཨེཔ་ལས་ཀོཌ་ཅིག</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>ཡང་ན།</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>བརའུ་ཟར་འདི་གིས་ཆོག་ལྡེ་ལག་ལེན་འཐབ་མི་ཚུགས། ཐབས་ལམ་གཞན་ ཡང་ན་ བརའུ་ཟར་གཞན་ཅིག་ལག་ལེན་འཐབ་གནང་།</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>ཁྱོད་ཀྱིས་མུ་མཐུད་པའི་སྐབས་ ཁྱོད་རའི་བརའུ་ཟར་གྱིས་ ཁྱོད་རའི་ཆོག་ལྡེ་ཚུ་ལས་གཅིག་ཞུ་འོང་།</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>ཆོག་ལྡེ་དང་བཅས་མུ་མཐུད།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>སྒྲིག་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>རང་ཉིད་ཀྱི་ཆོག་ཚིག་དང་ གློག་འཕྲིན་ཁ་བྱང་། ཆོག་ལྡེ། གོམ་པ་གཉིས་ཀྱི་ནང་འཛུལ། སླར་གསོའི་ཨང་རྟགས་ཡང་ན་ API ལྡེ་མིག་ཚུ་བསྒྱུར་བཅོས་འབད་ནི་དང་ རང་གི་སྒྲིག་ཆས་གཞན་ཚུ་ལས་ཕྱིར་འཐོན་འབད་ནི།</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ལག་ལེན་པ་ཚུ་དང་ ཁོང་གི་ཆོག་ཚིག་དང་སྒྲིག་ཆས་ཚུ་གསར་བཟོ་དང་ཞུན་དག་འབད་ནི། རྩིས་ཐོའི་སྒྲིག་བཀོད། ལག་ལེན་པའི་རྩིས་ཐོ་གསརཔ་ཚུ་ངོས་ལེན་ཡང་ན་ ངོས་ལེན་མ་འབད་ནི། འགན་ཁུར་ཚུ་སྤྲོད་ནི་དང་ སྲིད་བྱུས་ཚུ་ཞུན་དག་འབད་ནི།</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>གནད་སྡུད་བཏོན་གཏང་ནི།</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ཁུག་མ་བཀྲོང་གཏང་ནི་དང་ དེ་ནང་ལས་རྣམ་གྲངས་ཚུ་བཏོན་གཏང་ནི་ དེ་ལས་རྣམ་གྲངས་ལེ་ཤ་ཚར་གཅིག་ལུ་བཏོན་གཏང་ནི།</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>ནང་དོན་བཏོན་གཏང་ནི་དང་ དཔེ་སྐྲུན་དང་སྲུང་བཞག་འབད་ནི།</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>ནང་དོན་བཏོན་གཏང་ནི། (ཁུག་མ་ནང་ལུ་ཡང་) དཔེ་སྐྲུན་དང་ཟིན་བྲིས་སྲུང་བཞག་འབད་ནི། འབྲི་ཤོག་གཏང་བའི་སྐབས་འདྲིཝ་ཨིན། སྔོན་སྒྲིག་གི་ཐོག་ལས་ཁ་བསྡམས་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>ཧ་ལམ་གྱི་བྱ་བ་ཅིག་མ་འབད་བའི་ཧེ་མ་ ནང་འཛུལ་འབད་ཡོད་པའི་ལག་ལེན་པ་གིས་ རང་ཉིད་སུ་ཨིན་ན་ ཡང་བསྐྱར་ངེས་གཏན་བཟོཝ་ཨིན། ཆོག་ཚིག་དང་ཆོག་ལྡེ་གི་ཐོག་ལས་ ཡང་ན་ ཆོག་ལྡེ་མེད་པ་ཅིན་ ཆོག་ཚིག་དང་རང་གི་བདེན་དཔང་ཨེཔ་གི་ཀོཌ་ཐོག་ལས་ཨིན། ཝེབ་ཤོག་ལེབ་ཚུ་གིས་ཁོ་ན་འདྲིཝ་ཨིན། REST ཆ་མཐུད། SOAP། WebDAV། expservices ནང་འཛུལ་དང་ བརྡ་བཀོད་གྲལ་ཐིག་གིས་ནམ་ཡང་མི་འདྲི།</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>སྒྲིག་བཀོད་ཚུ་འཇུག་སའི་ས་གནས།</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>འདི་གི་དོན་ལུ་སྒྲིག་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་ག་ར།</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་ %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>འདྲི་མི། %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>ཁོང་གི་འཐུས་མི་ཁོ་ར་ལུ་འདྲི་ནིའི་དོན་ལུ་ ལག་ལེན་པའི་སྡེ་ཚན་ཚུ་ལུ་རྟགས་བཀལ། (དཔེར་ན་ ཞུན་དག་པ།) ག་ཅི་ལུ་ཡང་རྟགས་མ་བཀལ་བ་ཅིན། ལག་ལེན་པ་ག་ར།</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php ནང་ལུ་སྲུང་བཞག་འབད་ཡི། དྲྭ་ཚིགས་འཛུལ་སྒོ་ག་རའི་དོན་ལུ། སྲུང་བཞག་འབད་བའི་སྐབས་ ཁྱོད་རང་ཨིན་པའི་ངེས་གཏན་འབད་ནི་ལུ་ཞུ་ནི་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php ནང་ལུ་སྲུང་བཞག་འབད་ཡི། settings/override ནང་གི་གནས་གོང་འདི་ གཙོ་རིམ་ཨིན། སྲུང་བཞག་འབད་བའི་སྐབས་ ཁྱོད་རང་ཨིན་པའི་ངེས་གཏན་འབད་ནི་ལུ་ཞུ་ནི་ཨིན།</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>ཤོག་ལེབ་ཁ་ཕྱེ།</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ལས་ %to ཚུན། བསྡོམས་ %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>ནང་འཛུལ་མིང་ ཡང་ན་ ལག་ལེན་པའི་ ID: བྱུང་རིམ་དེ་ག་འདི་གི་སྐོར་ལས་ཨིན་མི་རྩིས་ཐོ་ ཡང་ན་ བྱ་བ་འབད་མི་ལག་ལེན་པ།</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>རྩིས་ཐོ།</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>ཤུལ་མར།</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>གྲུབ་འབྲས་ག་ཅི་རང་ཨིན་རུང་།</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ཧེ་མར།</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>འབད་མི།</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>གཙང་སྦྲ།</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ཚར་ཡི།</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>བྱུང་རིམ་ཚུ་ ཉིན་གྲངས་ %days གི་རིང་ སྲུང་བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>བྱུང་རིམ་ཚུ་ ལག་ཐོག་ལས་ བཏོན་གཏང་ཚུན་ཚོད་ སྲུང་བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>བྱུང་རིམ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>བྱ་བ་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>རྩིས་ཐོ་འདི་གི་བྱུང་རིམ་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>ཐོ་ཡིག་ CSV སྦེ་ ཕྱིར་གཏང་། (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>འཐུས་ཤོར།</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ག་ལས།</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>ཐོ་ཡིག་ཆུང་ཀུ་བཟོ།</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>མཐུན་པའི་བྱུང་རིམ་མིན་འདུག</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ཤོག་ལེབ་རེ་རེ་ལུ།</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini ནང་ ཐོ་བཀོད་ བཀག་ཡོདཔ་ཨིན། ([UserAuditSettings] UserAudit) ཐོ་ཡིག་ནང་ ཧེ་མ་ཐོ་བཀོད་འབད་མི་ཚུ་ སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ངོས་ལེན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>གྲུབ་འབྲས།</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>སྟོན།</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>ལག་ལེན་པའི་རྩིས་ཞིབ་དྲན་ཐོའི་ཐིག་ཁྲམ་མིན་འདུག php update/common/scripts/6.0/createuseraudittable.php གིས་ གསར་བཟོ་འབད་གནང་། དེ་ཚུན་ཚོད་ རྩིས་ཞིབ་ཡིག་སྣོད་ཚུ་གིས་ བྱུང་རིམ་ག་ར་ སྲུང་བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>ཤོག་ལེབ་འདི་ལུ་ SQL གནད་སྡུད་མཛོད་དགོཔ་ཨིན། MongoDB གུ་ མི་ཐོབ། རྩིས་ཞིབ་ཡིག་སྣོད་ཚུ་གིས་ བྱུང་རིམ་ག་ར་ སྲུང་བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ཚུན།</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ལག་ལེན་པའི་རྩིས་ཞིབ་དྲན་ཐོ།</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ལག་ལེན་པ།</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>དུས་ཚོད།</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ས་གནས།</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ག་གིས་ རྩིས་ཐོ་ག་འདི་ བསྒྱུར་བཅོས་ གསར་བཟོ་ ལག་ལེན་འཐབ་བཅུག ལག་ལེན་མ་འཐབ་བཅུག སྤོ་བཤུད་ ཡང་ན་ བཏོན་གཏང་ཡི་ ག་གིས་ ནང་འཛུལ་འབད་ཡི་ ཡང་ན་ ངོས་ལེན་མ་འབད་ཡི་ འགན་ཁུར་ག་ཅི་ཚུ་ བཀོད་ཡི། བྱུང་རིམ་རེ་རེ་ལུ་ གྱལ་རིམ་གཅིག་ ཧེ་མ་དང་ཤུལ་མའི་ས་སྒོ་ཚུ་དང་གཅིག་ཁར། ཆོག་ཚིག་དང་ གསང་བའི་བརྡ་དོན་ཚུ་ ནམ་ཡང་ ཐོ་བཀོད་མི་འབད།</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ཚོགས་སྡེ།</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>རིམ་ལུགས།</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ངོས་མ་འཛིན་པའི།</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>ཁྱོད་རང་གི་རྩིས་ཐོ་ཉེན་སྲུང་འབད།</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site གུ་ཁྱོད་རང་གི་རྩིས་ཐོ་ %login ནང་ལུ་ནང་འཛུལ་འབད་ནིའི་དོན་ལུ་ སླར་གསོའི་ཨང་རྟགས་གཅིག་ལག་ལེན་འཐབ་ཅི།</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>སླར་གསོའི་ཨང་རྟགས་གཅིག་ལག་ལེན་འཐབ་ཅི།</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>རྩིས་ཐོ།</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>ཚོད་དཔག་གི་ཁ་བྱང་།</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>ལོག་སྟེ་ནང་འཛུལ་འབད་ནིའི་དོན་ལུ་ ཆོག་ཚིག་གསརཔ་ཅིག་ཞུ་གནང་། ཡང་ན་ ས་ཁོངས་ཀྱི་བདག་སྐྱོང་པ་ཚུ་དང་འབྲེལ་བ་འཐབ་གནང་།</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>ཆོག་ཚིག་གསརཔ་ཞུ།</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>སླར་གསོའི་ཨང་རྟགས་རེ་རེ་ཚར་གཅིག་ལས་ལཱ་མི་འབད། ཁྱོད་རང་གི་བརྒྱུད་འཕྲིན་བརླག་སྟོར་ཞུགས་པ་ཅིན་ བདེན་དཔང་ཨེཔ་ལོག་སྟེ་གཞི་སྒྲིག་འབད་ཞིནམ་ལས་ སླར་གསོའི་ཨང་རྟགས་གསརཔ་ཚུ་ ཉེན་སྲུང་ཅན་གྱི་ས་གནས་ཅིག་ལུ་བཞག་གནང་།</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>ཁྱོད་རང་གི་རྩིས་ཐོ་ལུ་འཐུས་ཤོར་བྱུང་བའི་ནང་འཛུལ་འབད་རྩོལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>ད་ལས་ཕར་ ནང་འཛུལ་འབད་བའི་སྐབས་ ཆོག་ཚིག་གི་ཁ་སྐོང་ལུ་ཨང་རྟགས་ཅིག་ཡང་ཞུ་འོང་། འདི་ཁྱོད་རང་གིས་འབད་བ་ཅིན་ ག་ནི་ཡང་འབད་དགོཔ་མེད།</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>ཁྱོད་རང་ཨིན་པ་ཅིན་དང་ ཆོག་ཚིག་བརྗེད་ཡོད་པ་ཅིན་ ཆོག་ཚིག་གསརཔ་ཅིག་ཞུ་གནང་། དེ་མིན་པ་ཅིན་ ཆོག་ཚིག་སྙིང་སྟོབས་ཅན་ཅིག་སེལ་འཐུ་འབད་ཞིནམ་ལས་ རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་འགོ་བཙུགས་གནང་།</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>འདི་ཁྱོད་རང་མིན་པ་ཅིན་ མི་ལ་ལུ་ཅིག་གིས་ཁྱོད་རང་གི་ཆོག་ཚིག་ཤེས་འོང་: ད་ལྟོ་ར་སོར་ཞིནམ་ལས་ ཁྱོད་རང་གི་རྩིས་ཐོ་ག་ཏེ་ལུ་ནང་འཛུལ་འབད་དེ་ཡོདཔ་ཨིན་ན་ཞིབ་དཔྱད་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>ལྷག་ལུས་སླར་གསོའི་ཨང་རྟགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>ཁྱོད་རང་གི་སྒྲིག་ཆས་ཚུ་བསྐྱར་ཞིབ།</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>ཉེན་སྲུང་གི་ཉེན་བརྡ།</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>མི་ལ་ལུ་ཅིག་གིས་ %site གུ་ཁྱོད་རང་གི་རྩིས་ཐོ་ %login ནང་ལུ་ ཆོག་ཚིག་ཕྱི་འགྱུར་གྱིས་ ཐེངས་ %count རྒྱུན་ཆད་མེད་པར་ནང་འཛུལ་འབད་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ཅི།</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site གུ་ཁྱོད་རང་གི་རྩིས་ཐོ་ %login ལུ་ཉེན་སྲུང་གི་བྱུང་ལས་ཅིག་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>འདི་ཁྱོད་རང་གི་རྩིས་ཐོའི་སྐོར་ལས་ཉེན་སྲུང་གི་ཉེན་བརྡ་ཅིག་ཨིན། འགྱུར་བ་འདི་བཟུམ་རེ་རེ་ལུ་གཏང་འོང་ནི་དང་ བཀག་ཆ་འབད་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>དུས་ཚོད།</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site གུ་ཁྱོད་རང་གི་རྩིས་ཐོ་ %login གི་དོན་ལུ་ རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་བཀག་ཆ་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་བཀག་ཆ་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site གུ་ཁྱོད་རང་གི་རྩིས་ཐོ་ %login གི་དོན་ལུ་ རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་འགོ་བཙུགས་ཡི།</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་འགོ་བཙུགས་ཡི།</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>ནང་འཛུལ་ལན་གྲངས་མང་རབས་འཐུས་ཤོར་བྱུང་ཞིནམ་ལས་ %site གུ་ཁྱོད་རང་གི་རྩིས་ཐོ་ %login ལུ་ཟྭ་བརྒྱབ་ཡི།</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>ཁྱོད་རང་གི་རྩིས་ཐོ་འདི་ ད་ལྟོ་ཆོག་ཚིག་རྐྱངམ་ཅིག་གིས་ཉེན་སྲུང་འབད་དོ་ཡོདཔ་ཨིན། འདི་ཁྱོད་རང་གིས་མ་འབད་བ་ཅིན་ ཆོག་ཚིག་སོར་ཞིནམ་ལས་ རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་ལོག་སྟེ་འགོ་བཙུགས་གནང་།</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>ཁྱོད་རང་གི་རྩིས་ཐོ་ལུ་ཟྭ་བརྒྱབ་ཡི།</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site གུ་ཁྱོད་རང་གི་རྩིས་ཐོ་ %login ལུ་ཆོག་ལྡེ་ཅིག་ཁ་སྐོང་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>ཆོག་ལྡེ་འདི་ཡོད་མི་ག་གིས་ཡང་ ཁྱོད་རའི་ཆོག་ཚིག་མེད་པར་ ཁྱོད་རའི་རྩིས་ཐོ་ནང་ལུ་ནང་འཛུལ་འབད་ཚུགས། ཁྱོད་ཀྱིས་ཁ་སྐོང་མ་འབད་བ་ཅིན་ ནང་འཛུལ་ལྡེ་མིག་འོག་ལས་བཏོན་གཏང་སྟེ་ ཁྱོད་རའི་ཆོག་ཚིག་སོར་གནང་།</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site གུ་ཁྱོད་རང་གི་རྩིས་ཐོ་ %login ལས་ཆོག་ལྡེ་ཅིག་བཏོན་གཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>དེ་གིས་ཁྱོད་རའི་རྩིས་ཐོ་ནང་ལུ་ད་ལས་ཕར་ནང་འཛུལ་འབད་མི་ཚུགས། ཁྱོད་ཀྱིས་བཏོན་མ་གཏང་བ་ཅིན་ ཁྱོད་རའི་ཆོག་ལྡེ་དང་སྒྲིག་ཆས་ཚུ་ཞིབ་དཔྱད་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>ཁྱོད་རའི་རྩིས་ཐོ་ལུ་ཆོག་ལྡེ་ཅིག་ཁ་སྐོང་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>ཁྱོད་རའི་རྩིས་ཐོ་ལས་ཆོག་ལྡེ་ཅིག་བཏོན་གཏང་ཡི།</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ་: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ནང་འཛུལ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>འཐུས་ཤོར་བྱུང་བའི་ནང་འཛུལ་འབད་རྩོལ།</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ཕྱིར་འཐོན་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ལཱ་ཚོགས་ཚུ་ཕྱིར་འཐོན་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>སྒྲིག་ཆས་གསརཔ་ཅིག་ལས་ནང་འཛུལ།</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>གནས་ཁོངས་གསརཔ་ཅིག་ལས་ནང་འཛུལ།</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ངོ་རྟགས་ངེས་བརྟན་འབད་ཡི། (&quot;ཁྱོད་རང་ཨིན་མི་ངེས་བརྟན་འབད།&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ངོ་རྟགས་ཞིབ་དཔྱད་འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ནང་འཛུལ་ལྡེ་མིག་གིས་ནང་འཛུལ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ནང་འཛུལ་ལྡེ་མིག་གི་ནང་འཛུལ་འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ནང་འཛུལ་ངོས་ལེན་མ་འབད: རིམ་པ་གཉིས་ཀྱི་ཨང་རྟགས་མེདཔ་ཡང་ན་ཕྱི་འགྱུར།</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>རིམ་པ་གཉིས་ཀྱི་ཨང་རྟགས་ཕྱི་འགྱུར།</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ནང་འཛུལ་འཐུས་ཤོར་བྱུང་ཞིནམ་ལས་ རྩིས་ཐོ་ལུ་ཟྭ་བརྒྱབ་ཡི།</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>རྩིས་ཐོའི་ཟྭ་ཕྱེ་ཡི།</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ཆོག་ཚིག་སོར་ཡི།</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ཆོག་ཚིག་སོར་ནི་འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ཆོག་ཚིག་སླར་སྒྲིག་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ཆོག་ཚིག་གསརཔ་ཞུ་ཡི།</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>གློག་འཕྲིན་ཁ་བྱང་སོར་ཡི།</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ལག་ལེན་པའི་མིང་སོར་ཡི།</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་འགོ་བཙུགས་ཡི།</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་བཀག་ཆ་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>སླར་གསོའི་ཨང་རྟགས་ལག་ལེན་འཐབ་ཡི།</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>སླར་གསོའི་ཨང་རྟགས་གསརཔ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ཨེཔ་ཆོག་ཚིག་གསར་བཟོ་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ཨེཔ་ཆོག་ཚིག་ཆ་མེད་བཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ནང་འཛུལ་ལྡེ་མིག་ཁ་སྐོང་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ནང་འཛུལ་ལྡེ་མིག་བཏོན་གཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>རྩིས་ཐོ་ལག་ལེན་འཐབ་ཚུགསཔ་བཟོ་ཡི།</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>རྩིས་ཐོ་ལག་ལེན་འཐབ་མ་ཚུགསཔ་བཟོ་ཡི།</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ནང་འཛུལ་དང་ལཱ་ཚོགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>རྩིས་ཐོའི་འགྱུར་བ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>དོ་སྣང་དགོཔ།</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ཁྱོད་རང་གིས།</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ལག་ལེན་པ་གིས།</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>འབད་མི་: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>ཐབས་ལམ།</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>བརའུ་ཟར།</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>བཀོལ་སྤྱོད་རིམ་ལུགས།</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>སྒྲིག་ཆས།</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>ས་གནས།</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>རྒྱལ་ཁབ།</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ལཱ་ཚོགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>ག་ཅི་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>གཏང་ཐངས།</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>འཐུས་ཤོར་བྱུང་བའི་འབད་རྩོལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>ལྷག་ལུས་ཨང་རྟགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>ནང་འཛུལ་སྐྱོང་མཁན།</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ་: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ཁྱོད་རང་གི་རྩིས་ཐོའི་ནང་འཛུལ་དང་ ཉེན་སྲུང་ལུ་འགྱུར་བ་ཚུ། ཁྱོད་རང་གིས་མ་འབད་བའི་ག་ཅི་ཅིག་མཐོང་པ་ཅིན་ ཆོག་ཚིག་སོར་ཞིནམ་ལས་ ངོས་མ་ཤེས་པའི་སྒྲིག་ཆས་ཚུ་ཕྱིར་འཐོན་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>རྩིས་ཐོ་འདི་གི་ནང་འཛུལ་དང་ ཉེན་སྲུང་ལུ་འགྱུར་བ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ཁྱོད་རང་གི་སྒྲིག་ཆས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ཆོག་ཚིག་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>རྩིས་ཐོ་ལུ་ཕྱིར་ལོག</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ་དྲན་ཐོ་མི་བཀོད།</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>འདི་ ལག་ལེན་པའི་རྩིས་ཞིབ་དྲན་ཐོ་ལས་ལྷགཔ་ཨིན། དེ་གི་ཐིག་ཁྲམ་ expuser_audit མེདཔ་ཡང་ན་ གནད་སྡུད་གཞི་རྟེན་འདི་གུ་རྒྱབ་སྐྱོར་མེད། php update/common/scripts/6.0/createuseraudittable.php གཡོག་བཀོལ་གནང་། ཡང་ན་ 6.0.15 གི་གནད་སྡུད་གཞི་རྟེན་དུས་མཐུན་གཡོག་བཀོལ་གནང་།</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>མཇུག་གི་ཉིནམ་ %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>མཇུག་གི་ཉིནམ་ %days ནང་གི་ནང་འཛུལ།</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>ཉེ་གནས་ཀྱི་ཉེན་སྲུང་གི་བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>སྟོན།</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>འཐུས་ཤོར།</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ངོས་ལེན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ད་ཚུན་ ཉེན་སྲུང་གི་བྱ་བ་དྲན་ཐོ་གཅིག་ཡང་མ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>ཉེན་སྲུང་གི་བྱུང་ལས་ཚུ་ ཉིནམ་ %days གི་རིང་བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>ཉེན་སྲུང་གི་བྱུང་ལས་ཚུ་ བདག་སྐྱོང་པ་ཅིག་གིས་བཏོན་གཏང་ཚུན་ཚོད་བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ངེ་གི་ནང་འཛུལ་གནད་སྡུད་ཌའུན་ལོཌ།</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ཁྱོད་རང་གི་ལཱ་ཚོགས་དང་ཉེན་སྲུང་གི་བྱུང་ལས་ཚུ་ JSON ཡིག་སྣོད་སྦེ།</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ས་ཁོངས་འདི་ནང་ལཱ་ཚོགས་ཚུ་ཐོ་བཀོད་མི་འབད། དེ་འབདཝ་ལས་སྒྲིག་ཆས་གཞན་ག་ཅི་ཡང་ཕྱིར་འཐོན་འབད་མ་ཚུགས། ད་ལྟོ་ར་ཁྱོད་རང་གི་ཆོག་ཚིག་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>ལཱ་ཚོགས་གཞན་ %count ཕྱིར་འཐོན་འབད་ཡི། ད་ཁྱོད་རང་གི་ཆོག་ཚིག་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>སྒྲིག་ཆས་གཞན་ག་ཅི་ཡང་ནང་བསྐྱོད་འབད་དེ་མེད། ད་ཁྱོད་རང་གི་ཆོག་ཚིག་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>བཀའ་དྲིན་ཆེ། བྱུང་ལས་འདི་ཁྱོད་རང་གི་ཨིན་ཟེར་རྟགས་བཀལ་ཡི།</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>བྱུང་ལས་དེ་ལུ་ལན་དགོཔ་མེད།</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ཤོག་ལེབ་དེ་དུས་ཡོལ་སོངམ་ཨིན། ཅི་ཡང་བསྒྱུར་བཅོས་མ་འབད། ཡང་བསྐྱར་ཚོད་ལྟ་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ཁྱོད་རང་གི་རྩིས་ཐོ་ཉེན་སྲུང་འབད།</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ནཱ་ལུ་ག་ཅི་ཨིན་རུང་ཁྱོད་མེན་པ་ཅིན། སྒྲིག་ཆས་གཞན་ཆ་མཉམ་ཕྱིར་འཐོན་འབད་ཞིནམ་ལས་ཆོག་ཚིག་གསརཔ་ཅིག་གདམ་ཁ་རྐྱབ། ང་དྲན་འཛིན་འབད་བརྒྱུད་དེ་ནང་བསྐྱོད་འབད་སྡོད་མི་སྒྲིག་ཆས་ཚུ་ཡང་ཕྱིར་འཐོན་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>འདི་མ་གཏོགས་སྒྲིག་ཆས་རེ་རེ་བཞིན་དེ་གི་ཞུ་བ་ཤུལ་མམ་ནང་ཕྱིར་འཐོན་འགྱོཝ་ཨིན། དེ་ལས་ཁྱོད་ཀྱིས་ཆོག་ཚིག་གསརཔ་ཅིག་གདམ་ཁ་རྐྱབ་ནི་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ཨིན། སྒྲིག་ཆས་གཞན་ཚུ་ཕྱིར་འཐོན་འབད།</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>འདི་ཁྱོད་ཨིན་ན?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ཨིན། ང་ཨིན།</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>མེན། ངེ་གི་རྩིས་ཐོ་ཉེན་སྲུང་འབད།</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ནང་འཛུལ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>འཐུས་ཤོར་བྱུང་བའི་ནང་འཛུལ་འབད་རྩོལ།</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ཕྱིར་འཐོན་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ལཱ་ཚོགས་ཚུ་ཕྱིར་འཐོན་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>སྒྲིག་ཆས་གསརཔ་ཅིག་ལས་ནང་འཛུལ།</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>གནས་ཁོངས་གསརཔ་ཅིག་ལས་ནང་འཛུལ།</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ངོ་རྟགས་ངེས་བརྟན་འབད་ཡི། (&quot;ཁྱོད་རང་ཨིན་མི་ངེས་བརྟན་འབད།&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ངོ་རྟགས་ཞིབ་དཔྱད་འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ནང་འཛུལ་ལྡེ་མིག་གིས་ནང་འཛུལ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ནང་འཛུལ་ལྡེ་མིག་གི་ནང་འཛུལ་འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ནང་འཛུལ་ངོས་ལེན་མ་འབད: རིམ་པ་གཉིས་ཀྱི་ཨང་རྟགས་མེདཔ་ཡང་ན་ཕྱི་འགྱུར།</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>རིམ་པ་གཉིས་ཀྱི་ཨང་རྟགས་ཕྱི་འགྱུར།</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ནང་འཛུལ་འཐུས་ཤོར་བྱུང་ཞིནམ་ལས་ རྩིས་ཐོ་ལུ་ཟྭ་བརྒྱབ་ཡི།</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>རྩིས་ཐོའི་ཟྭ་ཕྱེ་ཡི།</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ཆོག་ཚིག་སོར་ཡི།</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ཆོག་ཚིག་སོར་ནི་འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ཆོག་ཚིག་སླར་སྒྲིག་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ཆོག་ཚིག་གསརཔ་ཞུ་ཡི།</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>གློག་འཕྲིན་ཁ་བྱང་སོར་ཡི།</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ལག་ལེན་པའི་མིང་སོར་ཡི།</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་འགོ་བཙུགས་ཡི།</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>རིམ་པ་གཉིས་ཀྱི་ནང་འཛུལ་བཀག་ཆ་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>སླར་གསོའི་ཨང་རྟགས་ལག་ལེན་འཐབ་ཡི།</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>སླར་གསོའི་ཨང་རྟགས་གསརཔ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ཨེཔ་ཆོག་ཚིག་གསར་བཟོ་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ཨེཔ་ཆོག་ཚིག་ཆ་མེད་བཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ནང་འཛུལ་ལྡེ་མིག་ཁ་སྐོང་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ནང་འཛུལ་ལྡེ་མིག་བཏོན་གཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>རྩིས་ཐོ་ལག་ལེན་འཐབ་ཚུགསཔ་བཟོ་ཡི།</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>རྩིས་ཐོ་ལག་ལེན་འཐབ་མ་ཚུགསཔ་བཟོ་ཡི།</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ནང་འཛུལ་དང་ལཱ་ཚོགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>རྩིས་ཐོའི་འགྱུར་བ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>དོ་སྣང་དགོཔ།</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ་: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ཁྱོད་རང་གི་རྩིས་ཐོའི་ནང་འཛུལ་དང་ ཉེན་སྲུང་ལུ་འགྱུར་བ་ཚུ། ཁྱོད་རང་གིས་མ་འབད་བའི་ག་ཅི་ཅིག་མཐོང་པ་ཅིན་ ཆོག་ཚིག་སོར་ཞིནམ་ལས་ ངོས་མ་ཤེས་པའི་སྒྲིག་ཆས་ཚུ་ཕྱིར་འཐོན་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ཁྱོད་རང་གི་སྒྲིག་ཆས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ཆོག་ཚིག་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>ས་ཁོངས་འདི་གུ་ ཉེན་སྲུང་གི་བྱ་བ་ད་ཚུན་དྲན་ཐོ་མི་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>མཇུག་གི་ཉིནམ་ %days ནང་གི་ནང་འཛུལ།</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>འཐུས་ཤོར་བྱུང་བའི་འབད་རྩོལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ད་ཚུན་ ཉེན་སྲུང་གི་བྱ་བ་དྲན་ཐོ་གཅིག་ཡང་མ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ངེ་གི་ནང་འཛུལ་གནད་སྡུད་ཌའུན་ལོཌ།</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ཁྱོད་རང་གི་ལཱ་ཚོགས་དང་ཉེན་སྲུང་གི་བྱུང་ལས་ཚུ་ JSON ཡིག་སྣོད་སྦེ།</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ས་ཁོངས་འདི་ནང་ལཱ་ཚོགས་ཚུ་ཐོ་བཀོད་མི་འབད། དེ་འབདཝ་ལས་སྒྲིག་ཆས་གཞན་ག་ཅི་ཡང་ཕྱིར་འཐོན་འབད་མ་ཚུགས། ད་ལྟོ་ར་ཁྱོད་རང་གི་ཆོག་ཚིག་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>ལཱ་ཚོགས་གཞན་ %count ཕྱིར་འཐོན་འབད་ཡི། ད་ཁྱོད་རང་གི་ཆོག་ཚིག་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>སྒྲིག་ཆས་གཞན་ག་ཅི་ཡང་ནང་བསྐྱོད་འབད་དེ་མེད། ད་ཁྱོད་རང་གི་ཆོག་ཚིག་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>བཀའ་དྲིན་ཆེ། བྱུང་ལས་འདི་ཁྱོད་རང་གི་ཨིན་ཟེར་རྟགས་བཀལ་ཡི།</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>བྱུང་ལས་དེ་ལུ་ལན་དགོཔ་མེད།</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ཤོག་ལེབ་དེ་དུས་ཡོལ་སོངམ་ཨིན། ཅི་ཡང་བསྒྱུར་བཅོས་མ་འབད། ཡང་བསྐྱར་ཚོད་ལྟ་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ཁྱོད་རང་གི་རྩིས་ཐོ་ཉེན་སྲུང་འབད།</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ནཱ་ལུ་ག་ཅི་ཨིན་རུང་ཁྱོད་མེན་པ་ཅིན། སྒྲིག་ཆས་གཞན་ཆ་མཉམ་ཕྱིར་འཐོན་འབད་ཞིནམ་ལས་ཆོག་ཚིག་གསརཔ་ཅིག་གདམ་ཁ་རྐྱབ། ང་དྲན་འཛིན་འབད་བརྒྱུད་དེ་ནང་བསྐྱོད་འབད་སྡོད་མི་སྒྲིག་ཆས་ཚུ་ཡང་ཕྱིར་འཐོན་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>འདི་མ་གཏོགས་སྒྲིག་ཆས་རེ་རེ་བཞིན་དེ་གི་ཞུ་བ་ཤུལ་མམ་ནང་ཕྱིར་འཐོན་འགྱོཝ་ཨིན། དེ་ལས་ཁྱོད་ཀྱིས་ཆོག་ཚིག་གསརཔ་ཅིག་གདམ་ཁ་རྐྱབ་ནི་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ཨིན། སྒྲིག་ཆས་གཞན་ཚུ་ཕྱིར་འཐོན་འབད།</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>འདི་ཁྱོད་ཨིན་ན?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ཨིན། ང་ཨིན།</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>མེན། ངེ་གི་རྩིས་ཐོ་ཉེན་སྲུང་འབད།</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>ཆོག་ཚིག</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>ཆོག་ཚིག་དང་རིམ་པ་གཉིས་ཀྱི་ཨང་རྟགས།</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST ངོས་འདྲ།</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP ངོས་འདྲ།</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>ཚར་གཅིག་ནང་འཛུལ།</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>ལཱ་ཚོགས་དྲན་ཐོ་མ་བཀོད་པའི་ཧེ་མ་ནང་འཛུལ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ནང་འཛུལ་གྱི་སྙན་ཞུ།</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>ས་ཁོངས་ནང་ནང་འཛུལ་འབད་ཡོད་མི་ག་ཨིན་ན་ རྩིས་ཐོ་ཚུ་གིས་ཚར་ག་དེམ་ཅིག་ནང་འཛུལ་འབདཝ་དང་འཐུས་ཤོར་བྱུངམ་ཨིན་ན་ དེ་ལས་ལག་ལེན་པ་གཅིག་ས་ཁོངས་ཆ་མཉམ་ལས་ཕྱིར་འཐོན་འབད་ནི། འདི་གིས་ལཱ་ཚོགས་སྐྱོང་མཁན་ག་དང་གཅིག་ཁར་ཡང་ལཱ་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>ལཱ་ཚོགས་འདི་ཕྱིར་འཐོན་འབད་ཡི། སྒྲིག་ཆས་འདི་གིས་ལོག་སྟེ་ནང་འཛུལ་འབད་དགོ།</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login འདི་ ལཱ་ཚོགས་ %count ལས་ཕྱིར་འཐོན་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login ལུ་ གཡོག་བཀོལ་བཞིན་པའི་ལཱ་ཚོགས་ཅིག་ཡང་མེདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ID དང་ ལག་ལེན་པའི་མིང་ ཡང་ན་ གློག་འཕྲིན་ཁ་བྱང་འདི་ཡོད་པའི་རྩིས་ཐོ་གཅིག་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>འདི་ཁྱོད་རང་གིས་ལག་ལེན་འཐབ་དོ་ཡོད་པའི་ལཱ་ཚོགས་ཨིན། འདི་མཇུག་བསྡུ་ནིའི་དོན་ལུ་ ཕྱིར་འཐོན་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>ལཱ་ཚོགས་དེ་ཧེ་མ་ལས་རང་མཇུག་བསྡུ་ཚར་ཡི།</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ཤོག་ལེབ་འདི་གི་དུས་ཡུན་རྫོགས་ཚར་ཡི། ག་ནི་ཡང་མ་སོར། ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>ས་ཁོངས་འདི་གུ་ ལཱ་ཚོགས་ཚུ་དྲན་ཐོ་མི་བཀོད། (site.ini [UserSessionSettings] Tracking=disabled)</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>ཐིག་ཁྲམ་ expuser_session མེད།</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>དེ་གསར་བཟོ་འབད་ཚར་ཞིནམ་ལས་ ལཱ་ཚོགས་ཚུ་དྲན་ཐོ་བཀོད་འོང་: php update/common/scripts/6.0/createusersessiontable.php ཡང་ན་ 6.0.15 གི་གནད་སྡུད་གཞི་རྟེན་དུས་མཐུན།</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>ད་ལྟོ་དང་ད་རིས།</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>གཡོག་བཀོལ་བཞིན་པའི་ལཱ་ཚོགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>ནང་འཛུལ་འབད་ཡོད་པའི་ལག་ལེན་པ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>ད་རིས་ཀྱི་ནང་འཛུལ།</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>ད་རིས་ཀྱི་འཐུས་ཤོར་བྱུང་བའི་འབད་རྩོལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ལག་ལེན་པ་གཅིག་ས་ཁོངས་ཆ་མཉམ་ལས་ཕྱིར་འཐོན་འབད།</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>རྩིས་ཐོའི་ལཱ་ཚོགས་རེ་རེ་ ཞུ་བ་ཤུལ་མམ་ལུ་མཇུག་བསྡུཝ་ཨིན། &quot;ང་དྲན་འཛིན་འབད།&quot; གིས་བཞག་ཡོད་མི་ཚུ་ཡང་ཨིན། རྩིས་ཐོ་ཅིག་ ལག་པ་ཕྱི་འགྱུར་ནང་ལུ་ཐོབ་འོང་ནི་ཨིན་པ་ཅིན་ འདི་ལག་ལེན་འཐབ་གནང་། དེ་ལས་ དེ་གི་ཆོག་ཚིག་སླར་སྒྲིག་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ལག་ལེན་པའི་ ID དང་ ལག་ལེན་པའི་མིང་ ཡང་ན་ གློག་འཕྲིན་ཁ་བྱང་།</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>ས་ཁོངས་ཆ་མཉམ་ལས་ཕྱིར་འཐོན།</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>ད་ལྟོ་ནང་འཛུལ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>ཉེ་ཆར་ལག་ལེན་འཐབ་མི་ %limit སྟོན་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ལག་ལེན་པ།</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>སྒྲིག་ཆས།</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ཁ་བྱང་།</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ནང་འཛུལ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>མཇུག་མམ་ལཱ་འབད་མི།</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>བྱ་བའི་ཐོ།</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>སྒྲིག་ཆས་འདི།</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>དྲན་ཐོ་མ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>ཕྱིར་འཐོན།</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ནང་འཛུལ་འབད་ཡོད་པའི་ལཱ་ཚོགས་གཅིག་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>མཇུག་གི་ཉིནམ་ %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>ནང་འཛུལ་དང་ འཐུས་ཤོར་བྱུང་བའི་འབད་རྩོལ་ཚུ་ ལག་ལེན་པའི་རྩིས་ཞིབ་དྲན་ཐོ་ལས་རྩིས་རྐྱབ་ཨིན། དེ་མེད། ལཱ་ཚོགས་གསརཔ་ཚུ་རྩིས་རྐྱབ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>ཉིནམ།</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>ནང་འཛུལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>འཐུས་ཤོར་བྱུང་བའི་འབད་རྩོལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>ལཱ་ཚོགས་གསརཔ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>ལཱ་ཚོགས་སྐྱོང་མཁན་: %handler། ལཱ་ཚོགས་ཚུ་ ཐིག་ཁྲམ་ expuser_session ལས་ལྷགཔ་ཨིན། དེ་འབདཝ་ལས་ སྙན་ཞུ་འདི་གིས་སྐྱོང་མཁན་ག་དང་གཅིག་ཁར་ཡང་ལཱ་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>ཆུ་ཚོད་མཇུག་མ་ %hours ནང་གི་དོགས་པ་ཅན་གྱི་བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>ཡོངས་འབྲེལ་གཅིག་གིས་རྩིས་ཐོ་ %accounts ནང་བསྐྱོད་འབད་མ་ཚུགས། (འབད་རྩོལ་ %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ནང་བསྐྱོད་འཐུས་ཤོར་བྱུང་ཞིནམ་ལས་རྩིས་ཐོ་ལྡེ་མིག་བརྐྱབ་ཡི།</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>རྩིས་ཐོ་གཅིག་གུ་ནང་བསྐྱོད་འཐུས་ཤོར་ %count</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>དུས་ཚོད་གཅིག་ནང་རྒྱལ་ཁབ་ %count ལས་ནང་བསྐྱོད་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ཉེན་སྲུང་གི་བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ལཱ་ཚོགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ནང་བསྐྱོད་འཐུས་ཤོར་ཚུ་ལག་ལེན་པའི་རྩིས་ཞིབ་དྲན་ཐོ་ལས་ལྷག་ཨིན། དེ་ནཱ་ལུ་མེད།</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>དོགས་པ་ཅན་ག་ཅི་ཡང་མེད། ནང་བསྐྱོད་འཐུས་ཤོར་ལོག་ལོག་བྱུང་མི་རྩིས་ཐོ་མེད། རྩིས་ཐོ་ལེ་ཤ་འབད་རྩོལ་འབད་མི་ཡོངས་འབྲེལ་མེད། རྒྱལ་ཁབ་ལེ་ཤ་ལས་ནང་བསྐྱོད་འབད་མི་རྩིས་ཐོ་མེད།</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>ཁྱོད་རང་གི་རྩིས་ཐོའི་དོན་ལུ་ཉེན་སྲུང་གི་ཉེན་བརྡ།</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>ཁྱོད་རང་གི་རྩིས་ཐོ་ %login ལུ་ཉེན་སྲུང་གི་བྱུང་ལས་ཅིག་བྱུང་ཡི: %event། འདི་ཁྱོད་རང་མིན་པ་ཅིན་ %url ལུ་ ཁྱོད་རང་གི་རྩིས་ཐོ་ཉེན་སྲུང་འབད་གནང་།</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>སྒྲིག་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>དྲྭ་ཚིགས་འདི་གི་ནང་དོན་ལས་ ཤོག་ལེབ་ཅིག་ལུ་དགོཔ་ཨིན་པའི་ས་སྒོ་ཚུ་རྐྱངམ་ཅིག་ ཞུ་བ་གཅིག་ནང་ལུ་ཞུ། ས་ཁྲམ་འདི་ ནང་དོན་གྱི་དབྱེ་རིམ་ཚུ་གི་རྗེས་སུ་འབྲངམ་ཨིན། འདྲི་དཔྱད་རེ་རེ་ འདི་གཏང་མི་ལག་ལེན་པ་གི་དབང་ཚད་ཐོག་ལས་ གཡོག་བཀོལཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་འདི་ནང་ GraphQL API ཁ་བསྡམས་ཏེ་འདུག graphql.ini ནང་ཁ་ཕྱེ་: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL དཔེ་མཛོད་ (webonyx/graphql-php 15) གཞི་བཙུགས་མ་འབད་བས།</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>མཇུག་ཚེག</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>དཔེ་མཛོད།</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>ས་ཁྲམ།</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>ནང་དོན་དབྱེ་རིམ་ %count, ས་ཁྲམ་ %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>འདྲི་དཔྱད།</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>འགྱུར་ཅན་ (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>ལན།</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>གཡོག་བཀོལ་དོ…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>ལན་ལྷག་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>འདྲི་དཔྱད་འདི་ ཁྱོད་ཀྱི་དབང་ཚད་ཐོག་ལས་ ལཱ་ཡུན་འདི་གིས་ནང་བསྐྱོད་འབད་དེ་ གཡོག་བཀོལཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>སྐར་ཆ་ %seconds s ནང་ %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ཚད་མེད།</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>གཏིང་ཚད།</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>རྒྱས་སྤྲོས།</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>ཐོ་ཡིག་རེ་ལུ་རྣམ་གྲངས།</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (སྔོན་སྒྲིག་ %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>ལག་ལེན་པ་ ཡང་ན་ ལྡེ་མིག་རེ་ལུ་ཞུ་བ།</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>མིང་མེད་ཁ་བྱང་རེ་ལུ་ཞུ་བ།</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>ནང་ཞིབ།</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད་རྐྱངམ་ཅིག</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>འདྲི་དཔྱད་སྦོམ་ཤོས།</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>བཱའིཊི་ %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>སྐྱེལ་བཙུགས་སྦོམ་ཤོས།</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་ %siteaccess མེད།</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess ནང་ འགྱུར་བཅོས་ཚུ་ ཁ་ཕྱེ་ཡི།</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess ནང་ འགྱུར་བཅོས་ཚུ་ ཁ་བསྡམས་ཡི།</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess ནང་ GraphQL API ཁ་ཕྱེ་ཡི།</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess ནང་ GraphQL API ཁ་བསྡམས་ཡི།</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>སྒྲིག་སྟངས་ཚུ་ འབྲི་མ་ཚུགས: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>ལན་གྱི་འདྲ་མཛོད་ བསལ་ཡི: ལན་ %count བཏོན་ཡི།</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>འདྲི་དཔྱད་བཏོན་ནིའི་དོན་ལུ་ འདི་གི་སྦོ་ལོགས་ཀྱི་སྒྲོམ་ལུ་རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>འདྲི་དཔྱད་བཏོན་མ་ཚུགས: PersistedQueryDirectoryList[] གི་སྣོད་ཐོ་ནང་ བཏང་ཡོད་པའི་འདྲི་དཔྱད་འདི་ ཁོ་རའི་ཡིག་སྣོད་དང་གཅིག་ཁར་བཏོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད་ བཏོན་ཡི།</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>འགྱུར་བཅོས།</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ཁ་བསྡམས།</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API དང་ དེ་གི་འགྱུར་བཅོས་ཚུ་གིས་ ལན་སློག་སའི་ས་གནས། ཨེབ་རྟ་ཚུ་གིས་ ./console exp:graphql:enable དང་ exp:graphql:disable བཟུམ་སྦེ་ graphql.ini འབྲིཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ།</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ཁ་བསྡམས།</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>འགྱུར་བཅོས་ཁ་བསྡམས།</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>འགྱུར་བཅོས་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>ཚད་འཛིན།</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་འདི་གི་ graphql.ini [GraphQLSettings]</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>ལན་གྱི་འདྲ་མཛོད།</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད་ཚུ་གི་ལན། ལག་ལེན་པའི་དབང་ཚད་ལྟར་བཞག་ཡོདཔ་དང་ ནང་དོན་དཔར་བསྐྲུན་འབད་བའི་སྐབས་ དུས་ཡོལ་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>གནས་སྟངས།</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>བཞག་ཡོད་པའི་ལན།</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>ལན་ %count, བཱའིཊི་ %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>མང་མཐའ་བཞག་ཡུན།</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>མཇུག་མཐའི་དུས་ཡོལ།</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ལན་གྱི་འདྲ་མཛོད་བསལ།</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད།</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist གིས་ ཡང་ན་ མཁོ་སྤྲོད་པ་ཚུ་གིས་ བསྐྱལ་བཞག་ཡོདཔ། (རང་བཞིན་གྱིས་བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད) མིང་ ཡང་ན་ SHA-256 གིས་ཀེར་བཀུག་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>མིང་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ཚད།</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ས་གནས།</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>བཏོན།</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>བཏང་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>བསྐྱལ་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ཨིན་ འདྲི་དཔྱད་འདི་བཏོན།</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>ད་ཚུན་ བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད་མེད།</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>ཁྱབ་ཚད་ graphql:read (འདྲི་དཔྱད) ཡང་ན་ graphql:write (འགྱུར་བཅོས) ཡོད་པའི་ རང་དོན་ API ལྡེ་མིག ཤོག་ལེབ་ API འཛུལ་སྤྱོད་ནང་ ཡང་ན་ ./console exp:graphql:keys གིས་ བཟོ་ནི་དང་ ཆ་མེད་གཏང་།</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API འཛུལ་སྤྱོད།</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>ལྡེ་མིག་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>མིང་།</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>བདག་པོ།</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>ཁྱབ་ཚད།</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>མཇུག་མཐའི་ལག་ལེན།</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ཤུགས་ལྡན།</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>དུས་ཡོལ།</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>ཆ་མེད།</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ནམ་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>ད་ཚུན་ GraphQL ཁྱབ་ཚད་ཡོད་པའི་ API ལྡེ་མིག་མེད།</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>ཤོག་ལེབ་འདི་སྟོན་མི་ དྲྭ་ཚིགས་འཛུལ་སྒོ་ %siteaccess ནང་ GraphQL API ཁ་བསྡམས་ཏེ་འདུག འོག་གི་ཐིག་ཁྲམ་གྱིས་ ག་ཏེ་ལན་སློགཔ་ཨིན་ན་སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>ཤོག་ལེབ་འདི་སྟོན་མི་ དྲྭ་ཚིགས་འཛུལ་སྒོ་ %siteaccess གི་དོན་ལུ།</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>ཝེབ་ཧུཀ།</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>མཇུག་ཚེག་ཅིག་གིས་ཞུ་མི་བྱུང་ལས་རེ་རེ་ (publish, update, trash, delete, move, hide, reveal, mutation) cronjob ཆ་ཤས་ graphqlwebhooks གིས་ མིང་རྟགས་བཀོད་དེ་ དེ་ལུ་གཏངམ་ཨིན། ./console exp:graphql:webhooks གིས་ དབྱེ་ཚན་འདི་དང་གཅིག་མཚུངས་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>བྱུང་ལས།</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་ག་ར།</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>ཆག་སྟེ་འདུག</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>གསང་བ་མེད།</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>བསྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>མཇུག་མཐའི་སྤྲོད་ལེན།</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>བརྟག་དཔྱད་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ཨིན་ ཝེབ་ཧུཀ་འདི་བཏོན།</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>ད་ཚུན་ ཝེབ་ཧུཀ་མེད།</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ཝེབ་ཧུཀ་ཅིག་ཁ་སྐོང་།</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>ཁ་སྐོང་།</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>ཉེ་ཆར་གྱི་སྤྲོད་ལེན།</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>དུས་ཚོད།</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>གྲུབ་འབྲས།</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>མཁོ་མངགས།</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>མཁོ་སྤྱོད་པ་ཚུ་གི་དོན་ལུ་ ཐད་ཀར་གསར་བསྒྱུར། /api/graphql/subscribe ནང་ བྱུང་ལས་ཀྱི་རྒྱུན་ཅིག་དང་ Velocity གུ་ WebSocket (graphql-transport-ws) ཅིག། བྱུང་ལས་རེ་རེ་ ནང་དོན་ལྷག་ཆོག་པའི་མཁོ་མངགས་པ་ཚུ་ལུ་རྐྱངམ་ཅིག་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>ད་ལྟོ་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>མང་མཐའ་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>བསྡོམས་ %total, ལག་ལེན་པ་རེ་ལུ་ %user, ཁ་བྱང་རེ་ལུ་ %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>མིང་མེད་མཁོ་མངགས།</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>རྒྱུན་གྱི་རིང་ཚད།</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ཝེབ་ཧུཀ་ ཁ་སྐོང་མ་ཚུགས: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>ཝེབ་ཧུཀ་ %name བསྒྱུར་ཡི། དེ་གི་མིང་རྟགས་གསང་བ་ སྔར་བཞིན་ལུས་ཏེ་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>མིང་རྟགས་གསང་བ་ བསྐྱལ་བཞག་མ་ཚུགས། (སྒྲིག་བཙུགས་ &gt; གསང་བ་)</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>ཝེབ་ཧུཀ་ %name ཁ་སྐོང་ཡི། དེ་གི་མིང་རྟགས་གསང་བ་ ཚར་གཅིག་རྐྱངམ་ཅིག་སྟོནམ་ཨིན: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ཝེབ་ཧུཀ་ %name མེད།</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>ཝེབ་ཧུཀ་ %name གིས་ ལན་མ་བཏབ: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>ཝེབ་ཧུཀ་ %name གིས་ %ms ms ནང་ %status ལན་བཏབ་ཡི།</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ཝེབ་ཧུཀ་བཏོན་ནིའི་དོན་ལུ་ འདི་གི་སྦོ་ལོགས་ཀྱི་སྒྲོམ་ལུ་རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>ཝེབ་ཧུཀ་ %name བཏོན་ཡི།</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་འདི་ནང་ GraphQL API ཁ་བསྡམས་ཏེ་འདུག</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL དཔེ་མཛོད་ གཞི་བཙུགས་མ་འབད་བས།</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET ཡང་ན་ POST ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>ཞུ་བའི་གཟུགས་འདི་ JSON དངོས་པོ་མེན།</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables འདི་ JSON དངོས་པོ་མེན།</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions འདི་ JSON དངོས་པོ་མེན།</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>འདྲི་དཔྱད་འདི་ POST གིས་གཏང་།</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>ཞུ་བ་འདི་ནང་ འདྲི་དཔྱད་མེད།</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>འདྲི་དཔྱད་འདི་ བཱའིཊི་ %max ལས་རིངམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>སར་བར་ནང་འཁོད་ཀྱི་འཛོལ་བ།</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node ལུ་ id, remoteId, path དང་ urlAlias ནང་ལས་ གཅིག་རྐྱངམ་ཅིག་དགོ།</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content ལུ་ id དང་ remoteId ནང་ལས་ གཅིག་རྐྱངམ་ཅིག་དགོ།</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after གི་འོད་རྟགས་འདི་ API འདི་གིས་བྱིན་མི་མེན།</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>གཟུགས་བརྙན་མིང་གཞན་ %alias མེད། (image.ini [AliasSettings] AliasList[])</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>ནཱ་ལུ་ བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད་རྐྱངམ་ཅིག་ངོས་ལེན་འབདཝ་ཨིན། བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད་ཀྱི་ id གཏང་།</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད་ཀྱི་ hash འདི་ SHA-256 མེན།</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>བསྐྱལ་བཞག་ཡོད་པའི་འདྲི་དཔྱད་ཀྱི་ hash འདི་ འདྲི་དཔྱད་དང་མ་མཐུན།</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>ཞུ་བ་ལེ་ཤ་མང་དྲགས་པས། སྐར་ཆ་ %window ནང་ མང་མཐའ་ %limit ཨིན། སྐར་ཆ་ %reset ཤུལ་ལས་ ལོག་འབད་རྩོལ་བསྐྱེད།</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>འདྲི་དཔྱད་འདི་ རིམ་པ་ %depth གཏིང་ཟབ་ཨིན། མང་མཐའ་ %max ལུ་གནང་བ་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>འདྲི་དཔྱད་ལུ་ རྙོག་འཛིང་ %complexity ཡོད། མང་མཐའ་ %max ལུ་གནང་བ་ཡོད།</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ཞུ་བ་འདི་གིས་ ས་ཁྲམ་ལྷག་ནི་མི་ཆོག (introspection)</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search ལུ་ ཚིག་ཡིག་ ཡང་ན་ ཚགས་མ་ཅིག་དགོ། (classes, subtree, sections, publishedAfter, publishedBefore)</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument འདི་ ཚེས་གྲངས་མེན། (ISO 8601, 2026-10-30)</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag ལུ་ id, remoteId དང་ path ནང་ལས་ གཅིག་རྐྱངམ་ཅིག་དགོ།</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout ལུ་ id, identifier དང་ urlAlias ནང་ལས་ གཅིག་རྐྱངམ་ཅིག་དགོ།</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart ཞུ་བའི་ས་སྒོ་ operations འདི་ JSON ཞུ་བ་གཅིག་མེན།</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart ཞུ་བའི་ས་སྒོ་ map འདི་ JSON དངོས་པོ་མེན།</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart ཞུ་བ་འདི་ནང་ ཡིག་སྣོད་ %field མེད།</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>ས་སྒོ་ map གི་འགྲུལ་ལམ་འདི་ variables. ལས་འགོ་བཙུགས་དགོ: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>ཡིག་སྣོད་ %name ཆ་ཚང་མ་འོང་བས། (སྐྱེལ་བཙུགས་འཛོལ་བ་ %error)</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>ཡིག་སྣོད་ %name འདི་ བཱའིཊི་ %max ལས་སྦོམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>ཡིག་སྣོད་ %name ཞིབ་དཔྱད་འབད་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་འདི་ནང་ འགྱུར་བཅོས་ཚུ་ ཁ་བསྡམས་ཏེ་འདུག (graphql.ini [GraphQLSettings] MutationsEnabled)</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>འགྱུར་བཅོས་འདི་ POST གིས་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>ནང་དོན་བསྒྱུར་ནིའི་དོན་ལུ་ ནང་བསྐྱོད་འབད།</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API ལྡེ་མིག་ལུ་ ཁྱབ་ཚད་ %scope མེད།</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>ལཱ་ཡུན་དང་གཅིག་ཁར་ཡོད་པའི་འགྱུར་བཅོས་ལུ་ ལཱ་ཡུན་གྱི་འབྲི་ཤོག་རྟགས་མཚན་དགོ། (མགོ་ཡིག་ X-CSRF-Token)</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ཁ་བསྡམས་ཏེ་འདུག graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ནང་ ཧོསཊི་གཅིག་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>ཁ་བྱང་འདི་ https ཁ་བྱང་ཅིག་ཨིན་དགོ།</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>ཧོསཊི་ %host འདི་ graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ནང་མེད།</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ཡིག་སྣོད་ལེན་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload འདི་ ཨིན་པུཊི་དབྱེ་བ་རྐྱངམ་ཅིག་ཨིན།</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>དབྱེ་བ་ Upload གི་འགྱུར་ཅན་གྱིས་ multipart ཞུ་བའི་ཡིག་སྣོད་ཅིག་ལེནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>ཐག་རིང་ id %remoteId འདི་ ཧེ་མ་ལས་ལག་ལེན་འཐབ་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>ནང་དོན་འདི་ལུ་ %language ནང་ སྐད་བསྒྱུར་ཧེ་མ་ལས་ཡོད། updateContent ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>ཉུང་མཐའ་ས་སྒོ་གཅིག་བྱིན།</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>ཐོན་རིམ་གསརཔ་བཟོ་མ་ཚུགས། (ནང་དོན་འདི་ལུ་ ཟིན་བྲིས་མང་དྲགས་པས)</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ཐོན་རིམ་ %version འདི་ ཟིན་བྲིས་མེན།</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ལུ་ id དང་ nodeId ནང་ལས་ གཅིག་རྐྱངམ་ཅིག་དགོ།</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>གནས་ཁོངས་ཅིག་ རང་གི་འོག་ལུ་སྤོ་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>ནང་དོན་འདི་ལུ་ %parentId གི་འོག་ལུ་ གནས་ཁོངས་ཧེ་མ་ལས་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>ས་སྒོ་ %field གི་གནས་གོང་ བསྐྱལ་བཞག་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>ནང་དོན་སྐད་ཡིག་ %language མེད།</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>ས་ཁྲམ་ནང་ ནང་དོན་དབྱེ་རིམ་ %class མེད།</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>ནང་དོན་འདི་མེད་ ཡང་ན་ ཁྱོད་ཀྱིས་ལྷག་ནི་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>ནང་དོན་འདི་ལུ་ ཁྱོད་ཀྱིས་འདི་འབད་ནི་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>དབྱེ་རིམ་ %class ལུ་ འབྲི་ཚུགས་པའི་ས་སྒོ་ %field མེད།</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>ས་སྒོ་ %field འདི་ ཚར་གཉིས་བྱིན་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>ས་སྒོ་ %field གིས་ ཡིག་སྣོད་ལེནམ་ཨིན། སྐྱེལ་བཙུགས་སྦེ་གཏང་། (multipart ཞུ་བ)</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>ས་སྒོ་ %field གིས་ ཡིག་སྣོད་མི་ལེན།</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>ས་སྒོ་ %field ལུ་ གནས་གོང་དགོ།</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>རྣམ་གཞག་ %format འདི་ ཚིག་ཡིག་ཕྱུགཔོའི་ས་སྒོ་ཚུ་གི་དོན་ལུ་རྐྱངམ་ཅིག་ཨིན། %field གིས་ གནས་གོང་ཡོད་དོ་བཟུམ་སྦེ་ལེནམ་ཨིན། (RAW)</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>ས་སྒོ་ %field དགོཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ལྷག་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content གིས་ version འདི་ id དང་གཅིག་ཁར་རྐྱངམ་ཅིག་ལེནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>སྔོན་ལྟའི་རྟགས་མཚན་འདི་ ནུས་མེད་ཨིན་ ཡང་ན་ དུས་ཡོལ་ཡོདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>འབྱུང་ཁུངས་མེན། (https://host ཡང་ན་ https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API གི་ཁྱབ་ཚད་མེན: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>མཁོ་མངགས་ཚུ་ /api/graphql/subscribe ལུ་གཏང་། (བྱུང་ལས་ཀྱི་རྒྱུན་ ཡང་ན་ WebSocket)</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>ཞུ་བ་འདི་གིས་ ཡིག་ཆའི་ལཱ་གཡོག་ག་ཅི་ཡང་ མིང་མ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>མཁོ་མངགས་ཅིག་གིས་ ས་སྒོ་ གཅིག་རྐྱངམ་ཅིག་ཞུཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>མཁོ་མངགས་ལེ་ཤ་མང་དྲགས་ཏེ་ཁ་ཕྱེ་སྟེ་འདུག ཤུལ་ལས་ ལོག་འབད་རྩོལ་བསྐྱེད།</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>ཁྱོད་ལུ་ མཁོ་མངགས་ %max ཁ་ཕྱེ་སྟེ་འདུག ཆོག་མི་མང་མཐའ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>ཁྱོད་ཀྱི་ཁ་བྱང་ལུ་ མཁོ་མངགས་ %max ཁ་ཕྱེ་སྟེ་འདུག ཆོག་མི་མང་མཐའ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་འདི་ནང་ མཁོ་མངགས་ཚུ་ ཁ་བསྡམས་ཏེ་འདུག</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>མཁོ་མངགས་འབད་ནིའི་དོན་ལུ་ ནང་བསྐྱོད་འབད། (རྟགས་མཚན་ ཡང་ན་ རང་དོན་ API ལྡེ་མིག)</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>འགྱུར་བཅོས་ཚུ་ /api/graphql ལུ་གཏང་།</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>སྤོ་བཤུད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>གནས་སྟངས་ལྷག་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>སྤོ་བཤུད་ཀྱི་ཐིག་ཁྲམ་ད་ལྟོ་ཡང་མེད། ./console exp:upgrade --apply གིས་ བཟོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>སྤོ་བཤུད་ %count འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>གཡོག་བཀོལ་ཅིག་འགྱོ་བཞིན་དུ་ཡོད། %user གིས་ འགོ་བཙུགས་ཡི།</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>གཞི་བཙུགས་ལྡེ་མིག་བརྒྱབ་ཡོདཔ། %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>བསྒུགས་བཞིནམ།</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>འཐུས་ཤོར།</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>ཕ་མ་མེད་པའི་སྤོ་བཤུད།</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>མཇུག་གི་གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ད་ལྟོ་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>སྤོ་བཤུད་ཆ་མཉམ།</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>དཔེ་སྟོན་གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>བརྟག་ཞིབ་གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>བསྒུགས་བཞིན་པའི་སྤོ་བཤུད་ཚུ་ ཤུལ་ལས་རྒྱབ་ལོག་འབད་མི་ འབྲེལ་མཐུད་ཅིག་ནང་ གཡོག་བཀོལ་ཡི། ག་ནི་ཡང་བཞག་མེད། འོག་ལུ་ རེ་རེ་གིས་ གནད་སྡུད་མཛོད་ནང་ ག་ཅི་བསྒྱུར་ཡི་ག་སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>ད་ལྟོ་གཡོག་བཀོལ་ཅིག་གིས་ ག་ཅི་འབད་འོང་ན། ག་ནི་ཡང་མི་བསྒྱུར། བསྒུགས་བཞིན་པའི་སྤོ་བཤུད་རེ་རེ་གིས་ བཟོ་ནིའི་བསྒྱུར་བཅོས་ཚུ་དང་ གཡོག་བཀོལ་གྱིས་ ཧེ་མ་དང་ཤུལ་ལས་ ག་ཅི་འབད་འོང་ན་ ཐོ་བཀོད་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>དཔེ་སྟོན།</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>བརྟག་ཞིབ་གཡོག་བཀོལ་འཐུས་ཤོར་བྱུང་ཡི། %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>དཔེ་སྟོན་ལུ་ PostgreSQL ཡང་ན་ SQLite དགོཔ་ཨིན། དེ་ཚུ་གི་ལས་འཆར་བསྒྱུར་བཅོས་ རྒྱབ་ལོག་འབད་ཚུགས། གནད་སྡུད་མཛོད་འདི་གུ་ འོག་གི་འཆར་གཞི་གིས་ གཡོག་བཀོལ་ཅིག་གིས་ ག་ཅི་འབད་འོང་ན་ སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>སྤོ་བཤུད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>སྤོ་བཤུད།</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>གནས་སྟངས།</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>ག་ཅི་འབད་འོང་ན།</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>དཔེ་སྟོན། %result སྐར་ཆ་སྟོང་ཆ་ %ms ནང་།</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>ད་ལྟོ་ཡང་ སྤོ་བཤུད་མེད།</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>གཡོག་བཀོལ་གྱི་ཧེ་མ་དང་ཤུལ་ལས།</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>ཧེ་མའི་པར་ལེན།</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ལེན་ནི་དང་ སྤོ་བཤུད་འཐུས་ཤོར་བྱུང་པ་ཅིན་ སླར་གསོ་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ཁ་བསྡམས།</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>ཤུལ་མའི་པར་ལེན།</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>གཡོག་བཀོལ་མཐར་འཁྱོལ་བྱུང་པ་ཅིན་ ལེནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>སྤོ་བཤུད་ %total ། བསྒུགས་བཞིནམ་ %pending ། ཚར་ཡི་ %done ། འཐུས་ཤོར་ %failed །</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>སྤོ་བཤུད་ཀྱི་ལོ་རྒྱུས།</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>གཡོག་བཀོལ་རེ་རེ་ ལག་ལེན་པ་ མཐའ་འཁོར་ པར་ལེན་ དེ་ལས་ བཀོད་སྤྲོད་ རྟགས་བཀལ་ འཕུལ་གཏང་འབད་མི་ཚུ་དང་གཅིག་ཁར། འཐུས་ཤོར་ཡང་ན་ བར་ཆད་བྱུང་བའི་གཡོག་བཀོལ་ ཕྱིར་འགོ་བཙུགས་ཚུགས། ཧེ་མ་པར་ལེན་ཡོད་པའི་གཡོག་བཀོལ་ རྒྱབ་ལོག་འབད་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>གཡོག་བཀོལ་ཚུ་ལྷག་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>སྤོ་བཤུད་ཀྱི་ཐིག་ཁྲམ་ད་ལྟོ་ཡང་མེད། ./console exp:upgrade --apply གིས་ བཟོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>སྟོན།</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>གཡོག་བཀོལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>འགོ་བཙུགས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>འབད་མི།</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>པར་ལེན་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>མཛོད་ཁང་།</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>བྱ་བའི་ཐོ།</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ཧེ་མ།</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ཤུལ་ལས།</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>འཕུལ་གཏང་། %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>ཕྱིར་འགོ་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>རྒྱབ་ལོག།</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>གནས་སྟངས་འདི་ནང་ གཡོག་བཀོལ་མེད།</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>ནཱ་ལས་འགོ་བཙུགས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>ཤོག་ལེབ་འདི་ཚུ་གུ་ འགོ་བཙུགས་མི་ གཡོག་བཀོལ་ ཕྱིར་འགོ་བཙུགས་ རྒྱབ་ལོག་ཚུ་ རེ་རེའི་སྙན་ཞུ་དང་གཅིག་ཁར།</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ག་ཅི།</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>གྲུབ་འབྲས།</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>རྒྱབ་ལོག</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target གི་རྒྱབ་ལོག།</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>གཡོག་བཀོལ་ %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>གཡོག་བཀོལ་གྱིས་ ག་ཅི་འབད་ཡི་ག་ དེའི་ཐོ་དང་ དེའི་ཉིན་ཐོ། ནཱ་ལས་འགོ་བཙུགས་མི་གཡོག་བཀོལ་ ཤོག་ལེབ་འདི་ཁ་བསྡམས་རུང་ རྒྱབ་ཁར་འཕྲོ་མཐུད་འགྱོཝ་ཨིན། དེ་ལུ་རྗེས་སུ་འབྲང་ནིའི་དོན་ལུ་ ཤོག་ལེབ་ལོག་སྟེ་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>གཡོག་བཀོལ་འདི་ ཕྱིར་འགོ་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>གཡོག་བཀོལ་འདི་ རྒྱབ་ལོག་འབད།</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>ཐོ་ལྷག་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>འཕེལ་རིམ།</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user གིས་ %time ལུ་ འགོ་བཙུགས་ཡི།</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>ཨང་རྟགས་ཞིབ་དཔྱད་འབད་དེ་ གཡོག་བཀོལ་གྱི་ཧེ་མ་ པར་ལེན་ལེན་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id གཡོག་བཀོལ་བཞིན་དུ། (%total ལས་ %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total ལས་ %done ཚར་ཡི།</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>སྤོ་བཤུད་ཚུ་ གཡོག་བཀོལ་ཚར་ཡི། གལ་སྲིད་ཅིག་འཐུས་ཤོར་བྱུང་པ་ཅིན་ པར་ལེན་སླར་གསོ་འབད་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>གཡོག་བཀོལ་གྱི་ཤུལ་ལས་ པར་ལེན་ལེན་ཏེ་ བཀོད་སྤྲོད་ རྟགས་བཀལ་ འཕུལ་གཏང་འབད་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>པར་ལེན་སླར་གསོ་འབད་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>གཡོག་བཀོལ་མཇུག་བསྡུ་ཡི། དེའི་སྙན་ཞུ་མངོན་གསལ་འབད་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>འཕེལ་རིམ་ལུ་རྗེས་སུ་འབྲང་མ་ཚུགས། གཡོག་བཀོལ་ག་དེ་སྦེ་འགྱོ་དོ་ག་བལྟ་ནིའི་དོན་ལུ་ ཤོག་ལེབ་ལོག་སྟེ་མངོན་གསལ་འབད།</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ཤོག་ལེབ་འདི་གིས་ གཡོག་བཀོལ་འགྱོ་བའི་སྐབས་ རྗེས་སུ་འབྲངམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ལོག་སྟེ་མངོན་གསལ།</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>སྙན་ཞུ།</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>དུས་ཡུན།</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>སྐར་ཆ་སྟོང་ཆ་ %ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>གཡོག་བཀོལ་གྱིས་ འཛོལ་བ་སྦེ་ དཔར་བསྐྲུན་འབད་མི།</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ཐོ།</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>མཐའ་འཁོར།</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>མེདཔ།</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>མཇུག་བསྡུ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>བཀོད་སྤྲོད།</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>འཕུལ་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>འཕྲིན་ཡིག</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>གཡོག་བཀོལ་འདི་གི་སྤོ་བཤུད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>འབྱུང་ཁུངས།</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>གཡོག་བཀོལ་གྱི་ཉིན་ཐོ།</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>ཉིན་ཐོའི་མཇུག་རྐྱངམ་ཅིག་ སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>གཡོག་བཀོལ་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>སྙན་ཞུ་མེད་པར་ མཇུག་བསྡུ་ཡི།</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>མཐར་འཁྱོལ།</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ངོས་ལེན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>གནད་སྡུད་མཛོད་ལུ་ འཛུལ་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>ནང་འཁོད་འཛོལ་བ།</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>གཡོག་བཀོལ་ཅིག་འགྱོ་བཞིན་དུ་ཡོད།</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ། %user གིས་ %time ལུ་ འགོ་བཙུགས་ཡི།</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>རྗེས་སུ་འབྲང་།</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>གཞི་བཙུགས་ལྡེ་མིག་བརྒྱབ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>གཡོག་བཀོལ་གཞན་ཅིག་གིས་ ལྡེ་མིག་འཛིན་ཏེ་ཡོད། (ཡར་དྲག་ཅིག་ ཡང་ན་ ཀོན་སོལ་གུ་གི་གཡོག་བཀོལ་ཅིག) %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>ཚར་ཡི།</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>བསྒུགས་བཞིནམ།</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>དགོས་མཁོ་མེད།</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ངོས་མ་འཛིན་པའི།</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>རྒྱབ་ལོག་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>ལག་ལེན་འཐབ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ལག་ལེན་འཐབ་འོང་།</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>ཕྱིར་བཏོན་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ཕྱིར་བཏོན་འོང་།</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>གཡོག་མ་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>གཞན་ཅིག་ལུ་བསྒུགས་དོ།</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>བསྒྱུར་བཅོས་ངོས་ལེན་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>བསྒྱུར་བཅོས་ངོས་ལེན་འབད་འོང་།</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>དཔེ་སྟོན་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>སྤོ་བཤུད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>གནས་སྟངས།</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ལོ་རྒྱུས།</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target ཕྱིར་བཏོན།</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>གཡོག་བཀོལ་ཅིག་ དེའི་ཧེ་མ་ལེན་མི་པར་ལེན་ལུ་ ཕྱིར་བཏོནམ་ཨིན། སྤོ་བཤུད་རྐྱང་པ་ཅིག་ དེའི་ down() གིས་ཕྱིར་བཏོནམ་ཨིན། ཧེ་མའི་པར་ལེན་སླར་གསོ་འབད་ནི་འདི་ མཁས་མཆོག་ཚུ་གི་དོན་ལུ་ཨིན། རེ་རེ་ ད་ལྟོའི་གནས་སྟངས་ཀྱི་པར་ལེན་གྱི་ཤུལ་ལས་ ཁྱོད་ཀྱི་མིང་ཐོག་ལས་ རྒྱབ་ཁར་གཡོག་བཀོལཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ཕྱིར་བཏོན་ཚུགས་མི་ཚུ་ ལྷག་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>གཡོག་བཀོལ་ཅིག</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>སྤོ་བཤུད་ཅིག</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>ཧེ་མའི་པར་ལེན་ཅིག</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>འགྲེལ་བཤད།</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ཨིན།</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>མེན།</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>པར་ལེན།</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ཁ་ཡིག</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>ལེན་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>རིགས།</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>སླར་གསོ་འབད་ནིའི་ཆ་ཤས།</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>གནད་སྡུད་མཛོད།</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>གསོག་འཇོག་ཡིག་སྣོད་ཚུ། (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>སྒྲིག་བཀོད་ཚུ། (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>སླར་གསོ་གིས་ གནད་སྡུད་མཛོད་ པར་ལེན་གྱི་དུས་ཚོད་ལུ་ ལཱ་ཡུན་ཚུ་དང་གཅིག་ཁར་ ལོག་གཏངམ་ཨིན། ཤུལ་ལས་ ལོག་སྟེ་ནང་བསྐྱོད་འབད་དགོཔ་འོང་། དེ་ལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཆ་མཉམ་ བརླག་འགྱོཝ་ཨིན། ཧེ་མ་ར་ ད་ལྟོའི་གནས་སྟངས་ཀྱི་པར་ལེན་ ལེནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>འདི་གིས་ ག་ཅི་སླར་གསོ་འབད་ནི་ཨིན་ན་ ང་གིས་ཤེས།</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>པར་ལེན་གྱི་ངོ་རྟགས་ ལོག་སྟེ་ཡིག་དཔར་རྐྱབས།</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ཨིན། ཕྱིར་བཏོན།</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ཆ་མེད་གཏང་།</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ཧེ་མ་པར་ལེན་ཡོད་པའི་ གཡོག་བཀོལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>གདམ་ཁ་རྐྱབས།</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>ད་ལྟོ་ཡང་ པར་ལེན་ཡོད་པའི་གཡོག་བཀོལ་མེད།</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>རང་བཞིན་གྱིས་ ཕྱིར་བཏོན་ཚུགས་པའི་ ལག་ལེན་འཐབ་ཡོད་པའི་སྤོ་བཤུད་ཚུ། (དེ་ཚུ་ལུ་ down() ཡོད།)</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>ལག་ལེན་འཐབ་ཡོད་པའི་སྤོ་བཤུད་ག་ལུ་ཡང་ down() མེད།</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>ཧེ་མའི་པར་ལེན་ཚུ། (མཁས་མཆོག)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>ད་ལྟོ་ཡང་ པར་ལེན་མེད།</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>སྤོ་བཤུད་ཚུ་ གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>གཡོག་བཀོལ་ %user སྦེ་ རྒྱབ་ཁར་འགྱོཝ་ཨིནམ་དང་ དེའི་ཤོག་ལེབ་གིས་ འགྱོ་བའི་སྐབས་ སྟོནམ་ཨིན། སྤོ་བཤུད་དང་པ་གི་ཧེ་མ་ གཞི་བཙུགས་ཀྱི་པར་ལེན་ ལེནམ་ཨིན། སྤོ་བཤུད་ཅིག་འཐུས་ཤོར་བྱུང་པ་ཅིན་ གཡོག་བཀོལ་བཀག་ཞིནམ་ལས་ པར་ལེན་སླར་གསོ་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>ཧེ་མ་ར་ བརྟག་ཞིབ་གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>གནས་སྟངས་ལྷག་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>བསྒུགས་བཞིན་པའི་སྤོ་བཤུད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>དེ་ཚུ་ གོ་རིམ་འདི་ནང་ གཡོག་བཀོལཝ་ཨིན། ཤུལ་མའི་གཡོག་བཀོལ་གྱི་དོན་ལུ་ ཅིག་དང་ དེ་ལུ་བརྟེན་མི་ཚུ་ བཞག་ནི་ཨིན་པ་ཅིན་ དེའི་རྟགས་བཏོན།</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>གཡོག་བཀོལ་འབད།</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>གཡོག་བཀོལ་བའི་སྐབས་ ཉམས་སྐྱོང་ཐབས་ལམ་ ཁ་ཕྱེཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>ལག་ལེན་འཐབ་ཞིནམ་ལས་ བསྒྱུར་བཅོས་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ཡིག་སྣོད་འདི་ཚུ་ ལག་ལེན་འཐབ་མི་ཚུ་མེན། བསྒྱུར་བཅོས་འདི་ རྒྱུ་མཚན་དང་གཅིག་ཁར་ ངོས་ལེན་མ་འབད་བར་ གཡོག་བཀོལ་གྱིས་ ངོས་ལེན་མི་འབད། དེ་ཚུ་ ལོག་སྟེ་གཡོག་མི་བཀོལ། ཞིབ་དཔྱད་བསྡོམས་གསརཔ་ ཐོ་བཀོད་འབདཝ་ཨིནམ་དང་ རྒྱུ་མཚན་ རྩིས་ཞིབ་ཉིན་ཐོ་ནང་ བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>བསྒྱུར་བཅོས་ཚུ་ ངོས་ལེན་འབད།</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ག་ཅི་སྦེ།</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>སྔོན་སྒྲིག་ཚུ་ ཉེན་སྲུང་ཅན་ཨིན། སྒྲོམ་རེ་རེ་གིས་ གོ་རིམ་ཅིག་ བཞག་སྟེ་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>པར་ལེན་མེད།</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>གཡོག་བཀོལ་གྱི་ཧེ་མ་དང་ཤུལ་ལས་ པར་ལེན་མེད། འཐུས་ཤོར་ཅིག་ རང་བཞིན་གྱིས་ སླར་གསོ་འབད་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>སླར་གསོ་མེད།</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>འཐུས་ཤོར་གྱི་ཤུལ་ལས་ གཞི་བཙུགས་ འཐུས་ཤོར་གྱིས་ བཞག་མི་བཟུམ་སྦེ་ བཞག།</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>བཀོད་སྤྲོད་མ་འབད་བའི་ བསྒྱུར་བཅོས་ཚུ་ བཞག།</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>སྒྲིག་བཀོད་ རྒྱ་སྐྱེད་ ཡང་ན་ བཀོད་རིས་ཚུ་ལུ་ བཀོད་སྤྲོད་མ་འབད་བའི་བསྒྱུར་བཅོས་ཡོད་རུང་ གཡོག་བཀོལ། དེ་ཚུ་ པར་ལེན་ནང་ཚུདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>བཀོད་སྤྲོད་མེད།</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>གནས་སྟངས་ཡིག་སྣོད་དང་ གཡོག་བཀོལ་གྱི་ཉིན་ཐོ་ བཀོད་སྤྲོད་མ་འབད། (རྟགས་བཀལ་དང་ འཕུལ་གཏང་ཡང་མེད།)</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>འཕུལ་གཏང་མེད།</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>བཀོད་སྤྲོད་དང་ རྟགས་བཀལ་འབད། དེ་འབདཝ་ད་ འཕུལ་གཏང་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>རྟགས་བཀལ་མེད།</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>བཀོད་སྤྲོད་དང་ འཕུལ་གཏང་འབད། དེ་འབདཝ་ད་ གཡོག་བཀོལ་ལུ་ རྟགས་མ་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ཨིན། སྤོ་བཤུད་འདི་ཚུ་ ད་ལྟོ་ར་ གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>བསྒུགས་བཞིན་པའི་སྤོ་བཤུད་མེད།</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>གནས་སྟངས་ལུ་ ལོག།</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>གཞི་བཙུགས་འདི་ལུ་ བསྒྱུར་བཅོས་ཚུ་ ཡིག་སྣོད་སྦེ་ ཚར་གཅིག་འབྲི་སྟེ་ (ནང་དོན་ དབྱེ་རིམ་ ལཱ་འགན་ སྒྲིག་བཀོད་ ལས་འཆར་) ཡིག་ཐོག་ས་ཁོངས་ཀྱི་ གཞི་བཙུགས་རེ་རེ་ལུ་ གོ་རིམ་གཅིག་ནང་ ལག་ལེན་འཐབཝ་ཨིན། གཡོག་བཀོལ་གྱིས་ ཧེ་མ་ར་ པར་ལེན་ལེནམ་ཨིན། སྤོ་བཤུད་འཐུས་ཤོར་བྱུང་པ་ཅིན་ དེ་སླར་གསོ་འབདཝ་ཨིནམ་དང་ ག་ཅི་འབད་ཡི་ག་ ཐོ་བཀོད་ བཀོད་སྤྲོད་ འཕུལ་གཏང་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>བསྒུགས་བཞིན་པ་ %count གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>སྤྱིར་བཏང་མཐོང་སྣང་།</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>བསྒུགས་བཞིནམ།</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ཚར་ཡི།</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>འཐུས་ཤོར།</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>དགོས་མཁོ་མེད།</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>གནད་སྡུད་མཛོད།</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>འབྲེལ་མཐུད། %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>ཡིག་ཐོག་ས་ཁོངས་ཀྱི་སྤོ་བཤུད་ཚུ་ migrations/ ནང་ཡོདཔ་ཨིན། རྒྱ་སྐྱེད་ཀྱི་ཚུ་ extension/&lt;name&gt;/migrations/ ནང་ཡོདཔ་ཨིན། དེ་ཚུ་ མིང་དང་ དགོས་མཁོ་གི་གོ་རིམ་ནང་ གཡོག་བཀོལཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>མཇུག་གི་གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>ཡིག་སྣོད་འདི་ ལག་ལེན་འཐབ་ཞིནམ་ལས་ བསྒྱུར་བཅོས་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>ད་ལྟོ་ཡང་ སྤོ་བཤུད་མེད། ./console exp:migration:generate --skeleton &lt;name&gt; --apply གིས་ དང་པ་འབྲིཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>གསར་ཤོས་ཀྱི་གཡོག་བཀོལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>གཡོག་བཀོལ་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>ད་ལྟོ་ཡང་ གཡོག་བཀོལ་མེད།</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>གཡོག་བཀོལ་དཔེ་སྟོན་འབད་ནི་ལུ་ སྲིད་བྱུས་ migration/run དགོཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>གཡོག་བཀོལ་ཅིག་འགྱོ་བཞིན་དུ་ཡོད། མཇུག་བསྡུ་ཞིནམ་ལས་ དཔེ་སྟོན་འབད།</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>སྒྲིག་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target འདི་ གཞི་བཙུགས་འདི་གི་ གཡོག་བཀོལ་ཡང་མེན་ སྤོ་བཤུད་ཡང་མེན་ པར་ལེན་ཡང་མེན།</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>ཧེ་མ་ར་ &quot;ཨིན། ཕྱིར་བཏོན།&quot; ལུ་ རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>ཧེ་མའི་པར་ལེན་སླར་གསོ་འབད་ནི་འདི་ མཁས་མཆོག་ཚུ་གི་དོན་ལུ་ཨིན། &quot;འདི་གིས་ ག་ཅི་སླར་གསོ་འབད་ནི་ཨིན་ན་ ང་གིས་ཤེས།&quot; ལུ་ རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>པར་ལེན་གྱི་ངོ་རྟགས་ ལོག་སྟེ་ཡིག་དཔར་རྐྱབས། %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>སླར་གསོ་འབད་ནིའི་ཆ་ཤས་ ཉུང་མཐའ་ཅིག་ གདམ་ཁ་རྐྱབས།</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>གཡོག་བཀོལ་འདི་ལུ་ ཧེ་མའི་པར་ལེན་མེད། དེའི་སྤོ་བཤུད་ཚུ་ རེ་རེ་བཞིན་ ཕྱིར་བཏོན་ ཡང་ན་ ཧེ་མའི་པར་ལེན་ཅིག་ སླར་གསོ་འབད།</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>སྤོ་བཤུད་འདི་ རང་བཞིན་གྱིས་ ཕྱིར་བཏོན་མི་ཚུགས། ལག་ལེན་མ་འཐབ་ ཡང་ན་ down() མེད།</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>འབྲི་ཤོག་ ལྷག་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>ཕྱིར་འགོ་བཙུགས་ནིའི་ གཡོག་བཀོལ་ གདམ་ཁ་རྐྱབས།</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>ཧེ་མ་ར་ &quot;ཨིན། སྤོ་བཤུད་འདི་ཚུ་ ད་ལྟོ་ར་ གཡོག་བཀོལ།&quot; ལུ་ རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>སྤོ་བཤུད་ ཉུང་མཐའ་ཅིག་ གདམ་ཁ་རྐྱབས།</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>སྤོ་བཤུད་ཅིག་ ལག་ལེན་འཐབ་ཞིནམ་ལས་ བསྒྱུར་བཅོས་འབད་ཡོདཔ། བསྒྱུར་བཅོས་འདི་ རྒྱུ་མཚན་དང་གཅིག་ཁར་ ངོས་ལེན་འབད་ ཡང་ན་ ཡིག་སྣོད་ ལོག་སྟེ་བཞག།</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>བསྒྱུར་བཅོས་འབད་ཡོད་པའི་སྤོ་བཤུད་ཚུ་ ག་ཅི་སྦེ་ ངོས་ལེན་འབད་ཡི་ག་ རྒྱུ་མཚན་བྲིས།</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>རྒྱུ་མཚན་ ཡིག་འབྲུ་ ༥༠༠ ལས་ མང་མི་ཆོག།</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>ནཱ་ལས་འགོ་བཙུགས་མི་གཡོག་བཀོལ་ཅིག་ ད་ལྟོ་ཡང་ འགྱོ་བཞིན་དུ་ཡོད། (%detail) མཇུག་བསྡུ་ཚུན་ བསྒུག།</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>གཡོག་བཀོལ་གཞན་ཅིག་གིས་ གཞི་བཙུགས་ཀྱི་ལྡེ་མིག་ འཛིན་ཏེ་ཡོད། %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>གཡོག་བཀོལ་ལུ་ ཡོད་པའི་ ནང་བསྐྱོད་འབད་ཡོད་པའི་ལག་ལེན་པ་ཅིག་ དགོཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php བརྡ་བཀོད་གྲལ་ཐིག་གི་ལས་རིམ་ མ་ཐོབ། migration.ini [AdminSettings] PhpCliPath འདི་ དེའི་འགྲུལ་ལམ་ཆ་ཚང་ལུ་ གཞི་སྒྲིག་འབད།</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ལྕོགས་མིན་བཟོ་ཡོདཔ་ལས་ ནཱ་ལུ་ གཡོག་བཀོལ་ འགོ་བཙུགས་མི་ཚུགས། སར་བར་གུ་ ./console exp:migration:migrate --apply གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>གཡོག་བཀོལ་ཚུ་གི་སྣོད་ཐོ་ནང་ འབྲི་མི་ཚུགས། %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>གཡོག་བཀོལ་ འགོ་བཙུགས་ཡི་ དེ་འབདཝ་ད་ དེའི་ལས་སྦྱོར་ངོ་རྟགས་ སྙན་ཞུ་མ་འབད། %detail ཞིབ་དཔྱད་འབད།</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ཕྱིར་བཏོན་ནི་ ག་ཅི་ཨིན་ན་ སྟོན།</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>གཡོག་བཀོལ་ འགོ་བཙུགས་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>འགྱུར་བ་ཚུ་ཐོ་བཀོད་འབད་ནི།</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>ཐོ་བཀོད་འགྱོ་བའི་སྐབས་ བདག་སྐྱོང་ནང་ ཡང་ན་ ཡོངས་འབྲེལ་ས་ཁོངས་ཀྱི་ཟུར་ཕྱོགས་ནང་ ཁྱོད་ཀྱིས་སོར་མི་དེ་ གནས་སྤོའི་གོ་རིམ་ཚུ་བཟུམ་སྦེ་བཞག་འོང་། ནང་དོན་ དབྱེ་རིགས་ འགན་ཁུར་དང་སྲིད་བྱུས་ དབྱེ་ཚན་ ལག་ལེན་པ་དང་སྡེ་ཚན་ URL མིང་གཞན་ སྒྲིག་སྟངས། ཚར་བའི་སྐབས་ བཀག་ནི་ དེ་གིས་ག་ཅི་བཟུང་ཡོད་ག་བལྟ་སྟེ་ དེ་ལས་གནས་སྤོ་གཅིག་བཟོ།</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ཐོ་བཀོད་ཚུ་ལྷག་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>ཐོ་བཀོད་ཀྱི་ཐིག་ཁྲམ་ཚུ་ད་ལྟོ་ཡང་མེད། དང་པ་ཡར་དྲག་གཏང་། (exp:upgrade --apply)</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini ནང་ཐོ་བཀོད་ཁ་བསྡམས་ཡོད། ([RecordingSettings] Recording=disabled)</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>ངའི་འགྱུར་བ།</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>ཁྱོད་ཀྱིས་མ་བཀག་ཚུན་ ཁྱོད་ཀྱིས་སོར་མི་རྐྱངམ་ཅིག་ ག་ཏེ་སོར་རུང་ ཐོ་བཀོད་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ཐོ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time ལས་ད་ལྟོ་ཚུན་ འགྱུར་བ་ %count</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ཁ་ཡིག (གདམ་ཁ)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>དེ་གིས་ག་ཅི་བཟུང་ཡོད་ག་སྟོན།</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ཐོ་བཀོད་བཀག</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>ངའི་འགྱུར་བ་ཐོ་བཀོད་འགོ་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>ཡོངས་འབྲེལ་ས་ཁོངས་ཧྲིལ་པོའི་སྒོ་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>ཁ་མ་བསྡམས་ཚུན་ ལག་ལེན་པ་རེ་རེ་དང་ ཚད་འཛིན་སྒྲོམ་གྱི་འགྱུར་བ་རེ་རེ་ཐོ་བཀོད་འབདཝ་ཨིན། ཁ་ཕྱེ་བའི་སྐབས་ ཁྱོད་རང་ཨིན་ཟེར་ བདེན་དཔྱད་འབད་དགོ།</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ཁ་ཕྱེ་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>སྒོ་སྒྲིག་ཁ་བསྡམས།</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>ཡོངས་འབྲེལ་ས་ཁོངས་ཧྲིལ་པོའི་སྒོ་སྒྲིག་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ཐོ་བཀོད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>ལག་ལེན་པའི་རྩིས་ཐོ། (ནང་བསྐྱོད་མིང་ གློག་འཕྲིན་ ཆོག་ཡིག) དང་ ལག་ལེན་པའི་རྩིས་ཐོའི་ས་སྒོ་ཚུ་ ནམ་ཡང་ཐོ་བཀོད་མི་འབད།</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>འགྱུར་བ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>ཡོངས་འབྲེལ་ས་ཁོངས་ཧྲིལ་པོ།</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name གི་འགྱུར་བ།</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>བཀག་ཡོད།</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>ད་ལྟོ་ཐོ་བཀོད་མེད།</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ཐོ་བཀོད་ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>ཐོ་བཀོད་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>དེ་ལས་ཐོན་འོང་མི་གནས་སྤོ།</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>སོར་ཡོད་པའི་དངོས་པོ་རེ་རེ་ལུ་ གོ་རིམ་གཅིག་ནང་བསྡོམས་ཡོད་པའི་འགྱུར་བ། ཐོ་བཀོད་འདི་ལས་བཟོ་མི་གནས་སྤོ་གིས་ག་ཅི་འབད་ནི་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>གཞི་བཙུགས་འདི་ལུ་ YAML གོ་རིམ་གྱི་དབྱེ་བ་ %types ཡོད་པའི་སྐབས་ དེ་ལས་གནས་སྤོ་བཟོ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ཆེད་དུ་བཞག་ཡོད། %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ག་ནི་ཡང་ཐོ་བཀོད་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>དེ་གིས་ག་ཅི་བཟུང་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>འགྱུར་བ་ %count འབད་མི་གོ་རིམ་བཞིན།</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>འགྱུར་བ།</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>གོ་རིམ།</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>སྐོར།</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>ད་རུང་ %count ./console exp:migration:record:show གིས་ཆ་མཉམ་ཐོ་བཀོད་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>བཀོག</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ཐོ་བཀོད་དང་ དེ་གིས་བཟུང་མི་ཚུ་བཏོན་གཏང་། སོར་ཡོད་མི་ཚུ་ སོར་ཡོད་ཅིག་སྦེ་ལུསཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ཨིན། ཐོ་བཀོད་འདི་བཀོག</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>ཐོ་བཀོད་འབད་དོ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ཁྱོད་ཀྱི་འགྱུར་བ་ཚུ་ གནས་སྤོའི་དོན་ལུ་ཐོ་བཀོད་འབད་དོ།</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>ཡོངས་འབྲེལ་ས་ཁོངས་འདི་གུ་འགྱུར་བ་རེ་རེ་ གནས་སྤོའི་དོན་ལུ་ཐོ་བཀོད་འབད་དོ། (ཡོངས་འབྲེལ་ས་ཁོངས་ཧྲིལ་པོའི་སྒོ་སྒྲིག)</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>ཡོངས་འབྲེལ་ས་ཁོངས་ཧྲིལ་པོའི་ཐོ་བཀོད་འགོ་བཙུགས་ཡོད། ཁྱོད་ཀྱིས་མ་བཀག་ཚུན་ ལག་ལེན་པ་རེ་རེའི་འགྱུར་བ་རེ་རེ་ཐོ་བཀོད་འབད་འོང་།</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ཐོ་བཀོད་འགོ་བཙུགས་ཡོད། ཁྱོད་ཀྱིས་མ་བཀག་ཚུན་ ཁྱོད་ཀྱི་འགྱུར་བ་ཚུ་ཐོ་བཀོད་འབད་འོང་།</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ཐོ་བཀོད་བཀག་ཡོད། དེ་གིས་བཟུང་མི་ཚུ་ ཁྱོད་ཀྱིས་མ་བཀོག་ཚུན་ལུསཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ཐོ་བཀོད་དང་ དེའི་བྱུང་ལས་ཚུ་བཏོན་ཡོད།</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ཐོ་བཀོད་ %id མེད།</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>དང་པ་ "ཨིན། ཐོ་བཀོད་འདི་བཀོག" ལུ་རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>ཐོ་བཀོད་འབད་མི་ལག་ལེན་པ་རྐྱངམ་ཅིག་གིས་ ལཱ་ཡུན་གྱི་ཐོ་བཀོད་བཀག་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>བཀག་དགོ་པའི་ཐོ་བཀོད་གདམ།</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>དབྱེ་བ་འདི་གི་ཐོ་བཀོད་ཧེ་མ་ལས་འགྱོ་དོ།</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ཐོ་བཀོད་སོར་མ་ཚུགས། %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>གནས་སྤོ་བཟོ།</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>གནས་སྤོ་གི་མིང་། (གདམ་ཁ)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>གནས་སྤོ་ %file འབྲི་ཡི། རིམ་པ་གང་གིས་ཡང་འབད་མ་ཚུགས་པའི་བསྒྱུར་བཅོས་ཚུ་ཡིག་སྣོད་ཀྱི་གུ་ལུ་བཀོད་དེ་ཡོད། ལག་ལེན་གྱིས་འབད་དགོ།</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>གནས་སྤོ་ག་ནི་ཡང་མ་འབྲི་བས། %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>ཆ་ཤས་ཐོག་ལུ་ རིང་པོའི་ གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>སྟོངམ་གྱི་ས་ཁོངས་ཚུ་གིས་ migration.ini [RunSettings] གི་སྒྲིག་བཀོད་ཚུ་ བཞག་དོ།</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>སྤོ་སྒྱུར་འདི་ཅམ་ལས་ མི་ལྷག།</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>དེའི་ཤུལ་ལུ་ སྤོ་སྒྱུར་ཅི་ཡང་མིན་འདུག (སྐར་ཆ།)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>སྤོ་སྒྱུར་ཚུ་གི་བར་ན་ ངལ་གསོ། (སྐར་ཆ།)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>གཙོ་རིམ་དམའ་བ། (1 ལས་ 19 ཚུན།)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>རིང་པོའི་གཡོག་བཀོལ་ས་ཁོངས་འདི་ 1 ལས་འགོ་བཙུགས་པའི་ཨང་གྲངས་ཨིན། (ངལ་གསོ: སྐར་ཆ་ 0 ལས་ 60 ཚུན། གཙོ་རིམ: 1 ལས་ 19 ཚུན།) ཡང་ན་ སྟོངམ།</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>དེ་ %time ལུ་ རང་བཞིན་གྱིས་ སྒོ་བསྡམ་འོང་།</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>འདི་ཅམ་གྱི་ཤུལ་ལུ་ རང་བཞིན་གྱིས་སྒོ་བསྡམས། (སྐར་མ། གདམ་ཁ།)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>སྐར་མ་འདི་ 1 ལས་ 44640 (ཉིནམ་ 31) ཚུན་གྱི་ཨང་གྲངས་ཨིན། ཡང་ན་ སྟོངམ།</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>སྤོ་བཤུད་ %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>སྤོ་བཤུད་གསརཔ།</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML སྤོ་བཤུད་ཅིག་ ཡིག་ཚགས་སྦེ་འབྲི་ ཡང་ན་ འབྲི་ཤོག་ནང་ དེའི་གོ་རིམ་ཚུ་བཟོ་ ལྟ་བརྟག་འབད་ཞིནམ་ལས་ སྤོ་བཤུད་ཀྱི་སྣོད་ཐུམ་ཅིག་ནང་ སྲུང་བཞག་འབད།</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>སྤོ་བཤུད་འདི་ ཧེ་མ་ལས་ གཡོག་བཀོལ་ཚར་ཡི། དེ་འབདཝ་ལས་ ལོག་སྟེ་སྲུང་བཞག་མི་འབད། བསྒྱུར་བཅོས་འབད་མི་ཡིག་སྣོད་ཅིག་ ཞིབ་བསྡོམས་སྲུང་སྐྱོབ་ཀྱིས་ ངོས་ལེན་མི་འབད། བསྒྱུར་བཅོས་འདི་ སྤོ་བཤུད་གསརཔ་ཅིག་ནང་འབད།</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ཝེབ་སར་བར་གྱིས་ ཡིག་སྣོད་འདི་ འབྲི་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>གོང་འཁར་གྱི་མཆན་འགྲེལ་ཐིག་ཚུ་ མགོ་ཡིག་ (description, author, requires, environments, engines) ཨིན། འབྲི་ཤོག་ནང་ གོ་རིམ་ཅིག་ཁ་སྐོང་ ཡང་ན་ བསྒྱུར་བཅོས་འབད་བའི་སྐབས་ སྤོ་བཤུད་ལོག་སྟེ་འབྲིཝ་ཨིན། གོ་རིམ་ཚུ་གི་བར་ན་ཡོད་པའི་ མཆན་འགྲེལ་ཚུ་ མི་བཞག</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>སྤོ་བཤུད་ཀྱི་མིང་།</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>ག་ཏེ་འགྱོ་ནི།</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>ཡོངས་འབྲེལ་ས་ཁོངས།</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML ཡིག་ཚགས།</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>ལྟ་བརྟག</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>སྲུང་བཞག</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>རིམ་པ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>ལྡེ་མིག་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ཞུན་དག</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>གོང་ལུ་སྤོ།</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>འོག་ལུ་སྤོ།</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>བཏོན་གཏང་།</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>ད་ལྟོ་ཡང་ གོ་རིམ་མེད། འབྲི་ཤོག་གིས་ གཅིག་ཁ་སྐོང་རྐྱབས་ ཡང་ན་ ཡིག་ཚགས་ནང་ འབྲི།</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>གོ་རིམ་ %number བསྒྱུར་བཅོས་འབད།</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>གོ་རིམ་ཅིག་ ཁ་སྐོང་རྐྱབས།</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>གོ་རིམ་གྱི་འབྲི་ཤོག་འདི་ དེའི་གོ་རིམ་རིགས་ལས་བཟོཝ་ཨིན། དེའི་ལྡེ་མིག་ཚུ་ རེ་རེ་གིས་ག་ཅི་ལེནམ་ཨིན་ན་དང་ དེ་ག་དེ་བཟུམ་གྱི་ཐབས་ལམ་ཚུ་ནང་ཚུདཔ་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>གོ་རིམ་གྱི་རིགས།</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>དེའི་འབྲི་ཤོག་སྟོན།</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>གོ་རིམ་འདི་ནང་ དེའི་རིགས་ཀྱིས་ མ་ཤེས་པའི་ལྡེ་མིག་ཚུ་ཡོད། གོ་རིམ་བསྒྱུར་བཅོས་འབད་བའི་སྐབས་ དེ་ཚུ་བཏོན་གཏངམ་ཨིན: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>ཐབས་ལམ།</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>ནང་།</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes ནང་རྐྱངམ་ཅིག</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>སྔོན་སྒྲིག: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>ཆ་རྐྱེན་ གཞི་བསྟུན་དང་ མཆན་འགྲེལ།</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>མིང་=གནས་གོང་ ཆ་ཚུ་ ཀོ་མ་གིས་ཕྱེ་སྟེ། གོ་རིམ་འདི་གི་གནས་གོང་ཚུ: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>དཔེ།</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>གོ་རིམ་བསྒྱུར་བཅོས།</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>གོ་རིམ་ཁ་སྐོང་།</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check གིས་ག་ཅི་སླབ་ཨིན་ན། མགོ་ཡིག་ ཡིག་ཆ་དང་ གོ་རིམ་རེ་རེ་ དེའི་གོ་རིམ་རིགས་ཀྱིས་ ལྟ་བརྟག་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>སྤོ་བཤུད་འདི་ ལྟ་བརྟག་ནང་ མཐར་འཁྱོལ་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>སྔོན་མཐོང་།</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>སྲུང་བཞག་འབད་འོང་མི་ YAML།</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML སྟོན།</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML སྤོ་བཤུད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>གཡོག་བཀོལ་ཚར་ཡི།</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>ད་ལྟོ་ཡང་ YAML སྤོ་བཤུད་མེད།</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>ཞུན་དག་པ།</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>སྤོ་བཤུད་ཀྱི་སྣོད་ཐུམ་ཚུ་ནང་ YAML སྤོ་བཤུད་ %id མེད།</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>གོ་རིམ་གྱི་རིགས་ གདམ་ཁ་རྐྱབས།</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>གོ་རིམ་ཁ་སྐོང་རྐྱབ་ཡི། སྲུང་བཞག་མ་འབད་བའི་ཧེ་མ་ སྤོ་བཤུད་ལྟ་བརྟག་འབད།</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>གོ་རིམ་བསྒྱུར་བཅོས་འབད་ཡི། སྲུང་བཞག་མ་འབད་བའི་ཧེ་མ་ སྤོ་བཤུད་ལྟ་བརྟག་འབད།</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>གོ་རིམ་ཅིག་ གདམ་ཁ་རྐྱབས།</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>གོ་རིམ་འདི་ལུ་ འབྲི་ཤོག་མེད། (འཁོར་ལམ་ཅིག་ ཡང་ན་ གཞི་བཙུགས་འདི་ནང་མེད་པའི་ གོ་རིམ་རིགས་ཅིག) ཡིག་ཚགས་ནང་ བསྒྱུར་བཅོས་འབད།</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>སྤོ་བཤུད་ག་ཏེ་འགྱོ་ནི་ཨིན་ན་ གདམ་ཁ་རྐྱབས། ཡོངས་འབྲེལ་ས་ཁོངས་ ཡང་ན་ ལག་ལེན་འཐབ་བཞིན་པའི་ རྒྱ་སྐྱེད་ཅིག</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file སྲུང་བཞག་འབད་ཡི། སྤོ་བཤུད་གཡོག་མ་བཀོལ་བའི་ཧེ་མ་ བརྟག་ཞིབ་གཡོག་བཀོལ་ཅིག་འབད།</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>སྲུང་བཞག་མ་འབད: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>གཞི་བཙུགས་འདི་གིས་ དེའི་སྤོ་བཤུད་ཚུ་ བཀྲམ་སྤེལ་འབད་སའི་ གཞི་བཙུགས་གཞན་ཚུ། བཀྲམ་སྤེལ་གྱིས་ སྤོ་བཤུད་ཚུ་ གདམ་ཁ་བརྐྱབ་མི་ཐག་རིང་ས་ཚིགས་ཚུ་ལུ་བཏང་སྟེ་ དེ་ཁར་ ཆ་མཉམ་དུས་མཉམ་དང་ མཉམ་འབྱུང་སྦེ་ གཡོག་བཀོལཝ་ཨིན། ཐག་རིང་ས་ཚིགས་ཀྱིས་ ནམ་ཡང་ གསང་བ་མི་འཆང་། དེའི་ངོ་སྤྲོད་ཡིག་ཆ་གིས་ སྒྲིག་བཙུགས། &gt; གསང་བ། ནང་གི་ གསང་བ་ཅིག་གི་མིང་ སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>ཐག་རིང་ས་ཚིགས་གསརཔ།</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>རོགས་པ།</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id གི་མཐུད་ལམ་བརྟག་ཞིབ།</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ %parallel ཚུན་ དུས་མཉམ་དུ་ ལཱ་འབདཝ་ཨིན། དུས་རིམ་གཅིག་ལུ་ རེ་རེ་གུ་ སྐར་ཆ་ %timeout འགོར་ཆོག</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>ཐག་རིང་ས་ཚིགས།</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ཁ་བྱང་།</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ངོ་སྤྲོད་ཡིག་ཆ།</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>ཚོགས་སྡེ།</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ནོར་བཅོས་འབད་དགོ་པའི་སྒྲིག་བཀོད།</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ཡིག་སྣོད་རྐྱངམ་ཅིག (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>ཆོག་ཚིག</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>མེདཔ། (ཧོསཊ་གི་ SSH ངོ་ཚབ་དང་ ལྡེ་མིག་ཚུ།)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>འབྲེལ་མཐུད་ཚོད་ལྟ་འབད།</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>སྡེ་ཚན་ཅིག་ལུ་ བཀྲམ་སྤེལ་འདི་ དེའི་ཐག་རིང་ས་ཚིགས་ཆ་མཉམ་ལུ་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ཚུ་ལུ་ བཀྲམ་སྤེལ་འབད།</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>ད་ལྟོ་ཡང་ ཐག་རིང་ས་ཚིགས་ སྒྲིག་བཙུགས་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>ནཱ་ལུ་ ག་ནི་ཡང་ མ་བཏང་ མ་གཡོག་བཀོལ། སྲུང་བཞག་གིས་ སྒྲིག་བཀོད་ཚུ་ settings/override/migration.ini.append.php ནང་ འབྲིཝ་ཨིན། ངོ་སྤྲོད་ཡིག་ཆ་འདི་ མིང་ཅིག་ཨིན། དེའི་གནས་གོང་ སྒྲིག་བཙུགས། &gt; གསང་བ། ནང་ ཡང་ན་ མཐའ་འཁོར་ནང་ ལུསཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>སྒྲིག་བཀོད་འདི་ཚུ་བརྟག་ཞིབ་འབད།</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>བཙུགས་མི་ལྟར་གྱི་ སྒྲིག་བཀོད་ཚུ། ད་ལྟོ་ཡང་ སྲུང་བཞག་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ཞིབ་དཔྱད།</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>སྒྲིག་བཀོད་ཚུ་ ནུས་ལྡན་ཨིན། ཐིག་ཕྲེང་འདི་ཚུ་འབྲི་འོང་།</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>བསྐུར་སྟངས།</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>མིང་རྐྱངམ་ཅིག གནས་གོང་འདི་ སྒྲིག་བཙུགས། &gt; གསང་བ། ནང་ལུ་སྡོདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>འབྲི་ནིའི་ཐིག་ཕྲེང་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>འབྲེལ་མཐུད།</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>ཧོསཊ་ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. ཐག་རིང་ས་ཚིགས།</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ལུ་ ག་ཅི་ཟེར་སླབ་ཨིན་ན་དང་ མཐའ་འཁོར་ག་འདི་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ངོ་རྟགས།</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>ཡིག་འབྲུ་དང་ ཨང་ཡིག་ - དང་ _ དཔེར་ན་ production1། དེ་གིས་ སྙན་ཞུ་ཚུ་དང་ ཀོན་སོལ་གུ་ (--remotes=production1) ཐག་རིང་ས་ཚིགས་ཀྱི་མིང་སྟོནམ་ཨིནམ་དང་ ཤུལ་ལས་ བསྒྱུར་བཅོས་འབད་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... སྐབས་རིམ་ཐོག་ལས་ བཀྲམ་སྤེལ་འདི་ མཐའ་འཁོར་ཚུ་ གོ་རིམ་འདི་ལྟར་ བརྒྱུད་དེ་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>གདམ་ཁ། (,) རྟགས་ཀྱིས་ སོ་སོ་འཕྱལ་ཏེ། དཔེར་ན་ production། སྡེ་ཚན་ཅིག་ལུ་ བཀྲམ་སྤེལ་འདི་ དེའི་ཐག་རིང་ས་ཚིགས་ཆ་མཉམ་ལུ་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. མཐུད་ལམ།</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ཡིག་སྣོད་ཚུ་ དེ་ཁར་ ག་དེ་སྦེ་ལྷོད་ག་དང་ གཞི་བཙུགས་ ག་ཏེ་ཡོདཔ་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH བརྒྱུད་དེ་ འགྱུར་བ་བྱུང་མི་རྐྱངམ་ཅིག་ བར་མཚམས་ཆད་པའི་སྤོ་སྐྱེལ་ ཕྱིར་འགོ་བཙུགས་ཏེ། rsync གཞི་བཙུགས་ཡོད་སར་ གདམ་ཁ་ལེགས་ཤོས།</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>ཡིག་སྣོད་ཚུ་གི་དོན་ལུ་ scp དང་གཅིག་ཁར་ SSH</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>ཡིག་སྣོད་ཚུ་གི་དོན་ལུ་ sftp དང་གཅིག་ཁར་ SSH</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>ཡིག་སྣོད་རྐྱངམ་ཅིག སྤོ་བཤུད་ཚུ་ བཏང་སྟེ་ ལོག་ལྷགཔ་ཨིན་རུང་ དེ་ཁར་ གཡོག་བཀོལ་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS གུ་ FTP ཡིག་སྣོད་རྐྱངམ་ཅིག</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>སར་བར་འདི་གུ་ སྣོད་ཐུམ་ཅིག་ནང་ཡོད་པའི་ གཞི་བཙུགས་གཞན་ཅིག</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ཧོསཊ།</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ཧོསཊ་མིང་ ཡང་ན་ ཁ་བྱང་། དཔེར་ན་ node1.example.com། local གི་དོན་ལུ་མེན།</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>སྒོ།</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>སྟོངམ། SSH གི་དོན་ལུ་ 22 དང་ FTP གི་དོན་ལུ་ 21།</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ལག་ལེན་པ།</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>ལམ་ཐིག</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>དེ་ཁའི་གཞི་བཙུགས་ཀྱི་རྩ་བ། དཔེར་ན་ /var/www/site (FTP གི་དོན་ལུ། FTP རྩིས་ཐོ་གིས་མཐོང་མི་ལམ་ཐིག)</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP བཀའ་རྒྱ་གྲལ་ཐིག</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>དེ་ཁའི་ PHP CLI། php ཡང་ན་ /opt/plesk/php/8.4/bin/php བཟུམ་གྱི་ ལམ་ཐིག་ཆ་ཚང་།</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>ཀོན་སོལ་ཡིག་ཚུགས་ཚུ་ དེ་ཁར་ root སྦེ་ གཡོག་བཀོལཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ཀྱི་ལག་ལེན་པ་ root ཨིན་པ་ཅིན་རྐྱངམ་ཅིག (དེ་བསྒང་ དེ་ཚུ་ --allow-root-user དང་གཅིག་ཁར་ གཡོག་བཀོལཝ་ཨིན།)</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. ངོ་སྤྲོད་ཡིག་ཆ།</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>གཞི་བཙུགས་འདི་ དེ་ཁར་ ག་དེ་སྦེ་ནང་བསྐྱོད་འབད་ནི་ཨིན་ན། མིང་རྐྱངམ་ཅིག་ སྲུང་བཞག་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>མེདཔ།</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>གཞི་བཙུགས་འདི་ གཡོག་བཀོལ་མི་ལག་ལེན་པ་གི་ SSH ངོ་ཚབ་དང་ ལྡེ་མིག་ཚུ། (local གི་དོན་ལུ་ ཨ་རྟག་ར།)</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>གསང་བ་སྦེ་བཞག་ཡོད་པའི་ སྒེར་གྱི་ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>གསང་བ་སྦེ་བཞག་ཡོད་པའི་ ཆོག་ཚིག (FTP གིས་ ཆོག་ཚིག་གིས་ ནང་བསྐྱོད་འབདཝ་ཨིན།)</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>གསང་བའི་མིང་།</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>སྒྲིག་བཙུགས། &gt; གསང་བ། ནང་གི་ གསང་བ་ཅིག དཔེར་ན་ deploy_production1།</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>སྒྲིག་བཙུགས། &gt; གསང་བ།</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>ཡང་ན་ མཐའ་འཁོར་འགྱུར་ཅན་ཅིག</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>དེ་འཆང་མི་ སར་བར་ལས་རིམ་གྱི་འགྱུར་ཅན། དཔེར་ན་ DEPLOY_KEY (env:DEPLOY_KEY སྦེ་ སྲུང་བཞག་འབདཝ་ཨིན།) དེ་གིས་ གསང་བའི་མིང་གི་ཚབ་ འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. ཧོསཊ་ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>གདམ་ཁ། SSH དང་ sftp དེ་ལས་ rsync གི་དོན་ལུ།</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>ཧོསཊ་ལྡེ་མིག་གི་མཛུབ་རྗེས།</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l གིས་ དཔར་བསྐྲུན་འབད་དོ་བཟུམ། དེ་ཡོད་པ་ཅིན་ ཧོསཊ་གིས་ ལྡེ་མིག་འདི་ སྟོན་དགོ། དེ་མེད་པ་ཅིན་ འབྲེལ་བ་དང་པ་ཐོག་ལུ་ ལྡེ་མིག་འདི་ ལྷབ་ལེནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. བསྐྱར་ཞིབ།</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>གོང་གི་སྒྲིག་བཀོད་ཚུ་གིས་ མཐུད་ལམ་ བརྟག་ཞིབ་འབད་ཞིནམ་ལས་ འབྲི་འོང་མི་གྲལ་ཐིག་ཚུ་ བསྐྱར་ཞིབ་འབད།</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ཐག་རིང་ས་ཚིགས་འདི་ བཏོན་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>དེའི་སྒྲིག་བཀོད་ཚུ་ settings/override/migration.ini.append.php ནང་ལས་ བཏོན་གཏངམ་ཨིན། ཐག་རིང་ས་ཚིགས་གུ་ ག་ནི་ཡང་མི་འགྱུར་བར་ དེའི་བཀྲམ་སྤེལ་ཚུ་ ལོ་རྒྱུས་ནང་ལུས་འོང་།</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ཨིན། ཐག་རིང་ས་ཚིགས་འདི་ བཏོན་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>བཀྲམ་སྤེལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>བཀྲམ་སྤེལ་གྱིས་ གཞི་བཙུགས་འདི་གི་སྤོ་བཤུད་ཚུ་ གདམ་ཁ་བརྐྱབ་མི་ཐག་རིང་ས་ཚིགས་ཚུ་ལུ་བཏང་སྟེ་ དེ་ཁར་ %user སྦེ་ ཆ་མཉམ་དུས་མཉམ་དང་ མཉམ་འབྱུང་སྦེ་ གཡོག་བཀོལཝ་ཨིན། ཐག་རིང་ས་ཚིགས་རེ་རེ་ ཧེ་མ་ར་ ལྟ་བརྟག་འབདཝ་ཨིནམ་དང་ གཅིག་འཐུས་ཤོར་བྱུང་པ་ཅིན་ ལག་ལེན་འཐབ་ཡོད་པའི་ཐག་རིང་ས་ཚིགས་ཆ་མཉམ་ ཕྱིར་བཏོན་འབདཝ་ཨིན། དེ་ རྒྱབ་ཐག་ནང་ འགྱོ་བཞིན་དུ་ཡོདཔ་དང་ དེའི་ཤོག་ལེབ་ནང་ ཐག་རིང་ས་ཚིགས་རེ་རེ་ འགྱོ་བཞིན་པའི་སྐབས་ སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. ཐག་རིང་ས་ཚིགས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ཚུ་ སྡེ་ཚན་ཅིག་ ཡང་ན་ གཉིས་ཆ་ར་ལུ་ ཐིག་རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>དེ་ལུ་ བཀྲམ་སྤེལ་འབད།</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. ག་དེ་སྦེ།</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>བཀྲམ་སྤེལ།</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>བཏང་ཞིནམ་ལས་ གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>སྤོ་བཤུད་ཚུ་ ཐག་རིང་ས་ཚིགས་རེ་རེ་ལུ་ བཏང་སྟེ་ བདེན་དཔྱད་འབད་དེ་ མཉམ་སྤྱོད་གཡོག་བཀོལ་ ID གཅིག་གིས་ གཡོག་བཀོལཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>སྤོ་སྐྱེལ་རྐྱངམ་ཅིག</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ཡིག་སྣོད་ཚུ་ བཏང་སྟེ་ བདེན་དཔྱད་འབདཝ་ཨིན། ག་ནི་ཡང་ གཡོག་མི་བཀོལ། (FTP ཐག་རིང་ས་ཚིགས་ཀྱི་དོན་ལུ་ ཐབས་ལམ་གཅིག་རྐྱངམ།)</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>སྐབས་རིམ་ཐོག་ལས།</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>མཐའ་འཁོར་ཚུ་གི་གོ་རིམ་ (dev, stage, beta, production ...) ལྟར་ སྐབས་རིམ་རེ་རེ་བཞིན། སྐབས་རིམ་དང་པ་ བཀྲམ་སྤེལ་འབདཝ་ཨིནམ་དང་ དེ་ལས་ ཆ་འཇོག་སྒོ་གིས་ མི་ཅིག་གིས་ ཤུལ་མ་འདི་ ཆ་འཇོག་མ་འབད་ཚུན་ བསྒུགསཔ་ཨིན། སྐབས་རིམ་རེ་རེའི་ནང་ ཆ་མཉམ་ ཡང་ན་ ག་ནི་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>སྤོ་བཤུད་འདི་ཚུ་རྐྱངམ་ཅིག</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>གདམ་ཁ། སྤོ་བཤུད་ ID ཚུ་ (,) རྟགས་ཀྱིས་ སོ་སོ་འཕྱལ་ཏེ། སྟོངམ། ས་ཁོངས་དང་ དེའི་རྒྱ་བསྐྱེད་ཚུ་གི་ སྤོ་བཤུད་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>སྔོན་ལྟ་བརྟག་རྐྱངམ་ཅིག</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ཨིན། ད་ལྟོ་བཀྲམ་སྤེལ་འབད།</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>ག་ཅི་ཅིག་ བཏང་ཡོད་མི་ ཡང་ན་ གཡོག་བཀོལ་ཡོད་མི་ བཀྲམ་སྤེལ་ཚུ་ གསར་ཤོས་ཧེ་མ་ར། (སྔོན་ལྟ་བརྟག་གིས་ སྙན་ཞུ་མི་བཞག)</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>སྤོ་སྐྱེལ་རྐྱངམ་ཅིག</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>སྐབས་རིམ་ཐོག་ལས། སྐབས་རིམ་ %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>མཉམ་འབྱུང་མེད།</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>ད་ལྟོ་ཡང་ བཀྲམ་སྤེལ་མེད།</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>བཀྲམ་སྤེལ་ %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>བཀྲམ་སྤེལ་གྱི་ཐག་རིང་ས་ཚིགས་རེ་རེ་ དེའི་གནས་སྟངས་དང་གཅིག་ཁར། ནཱ་ལས་འགོ་བཙུགས་ཡོད་པའི་བཀྲམ་སྤེལ་འདི་ ཤོག་ལེབ་འདི་ཁ་བསྡམས་རུང་ རྒྱབ་ཐག་ནང་ འཕྲོ་མཐུད་དེ་འགྱོཝ་ཨིན། དེའི་རྗེས་སུ་འབྲང་ནི་ལུ་ ཤོག་ལེབ་ ལོག་སྟེ་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>བཀྲམ་སྤེལ་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>སྔོན་ལྟ་བརྟག</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>སྐབས་རིམ་ཤུལ་མ།</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>སྒྲིག་བཀོད་དང་ ངོ་སྤྲོད་ཡིག་ཆ་ཚུ་ ལྟ་བརྟག་འབད་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>སྔོན་ལྟ་བརྟག ཐག་རིང་ས་ཚིགས་རེ་རེའི་གནས་སྟངས་ ལྷག་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>སྤོ་བཤུད་ཡིག་སྣོད་ཚུ་ བཏང་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>ལྷོད་མི་འདི་ བདེན་དཔྱད་འབད་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>ཐག་རིང་ས་ཚིགས་རེ་རེ་གུ་ སྤོ་བཤུད་ཚུ་ གཡོག་བཀོལ་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ཚུ་ ཕྱིར་བཏོན་འབད་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>བཀྲམ་སྤེལ་ མཇུག་བསྡུ་ཡི། དེའི་སྙན་ཞུ་ མངོན་གསལ་འབད་བཞིན་དུ།</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>འཕེལ་རིམ་ རྗེས་སུ་འབྲང་མ་ཚུགས། བཀྲམ་སྤེལ་ ག་དེ་སྦེ་འགྱོ་དོ་ག་ བལྟ་ནི་ལུ་ ཤོག་ལེབ་ ལོག་སྟེ་མངོན་གསལ་འབད།</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>དུས་རིམ།</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ཤོག་ལེབ་འདི་གིས་ བཀྲམ་སྤེལ་ འགྱོ་བཞིན་པའི་སྐབས་ རྗེས་སུ་འབྲངམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>མཉམ་འབྱུང་།</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>སྐབས་རིམ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>སྐབས་རིམ་ %stage དེའི་ཆ་འཇོག་སྒོ་ཁར་ བསྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>ཆ་འཇོག་སྒོ་ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user གིས་ %time ལུ་ ཆ་འཇོག་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>སྐབས་རིམ།</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>བཏང་ཡོད་པའི་ཡིག་སྣོད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>ཀར་ནེལ་ཐོན་རིམ།</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>ལག་ལེན་འཐབ་ཡོདཔ། %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ལག་ལེན་འཐབ་ནི། %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>དུས་རིམ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>ཆ་འཇོག་སྒོ། %stages ནང་ལས་ སྐབས་རིམ་ %stage</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>དེའི་ཧེ་མའི་སྐབས་རིམ་ཚུ་ བཀྲམ་སྤེལ་འབད་ཡོདཔ་ཨིན། དེ་ཚུ་ ལྟ་བརྟག་འབད་ཞིནམ་ལས་ སྐབས་རིམ་ཤུལ་མ་ ཆ་འཇོག་འབད། དེའི་ཐག་རིང་ས་ཚིགས་ཚུ་ ལོག་སྟེ་ལྟ་བརྟག་འབད་དེ་ བཀྲམ་སྤེལ་འབདཝ་ཨིན། ཆ་མཉམ་ ཡང་ན་ ག་ནི་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>རྗེས་མ།</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ཨིན། སྐབས་རིམ་ཤུལ་མ་ ད་ལྟོ་བཀྲམ་སྤེལ་འབད།</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ཆ་འཇོག་འབད།</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>བཀྲམ་སྤེལ་འདི་ རྒྱབ་ལོག་འབད།</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>དེ་ལག་ལེན་འཐབ་ཡོད་པའི་ཐག་རིང་ས་ཚིགས་རེ་རེ་ (%list) དེའི་གཡོག་བཀོལ་གྱི་ཧེ་མ་ ལེན་ཡོད་པའི་པར་ལེན་ལུ་ ཆ་མཉམ་དུས་མཉམ་དུ་ ལོག་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ཨིན། བཀྲམ་སྤེལ་འདི་ ད་ལྟོ་རྒྱབ་ལོག་འབད།</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>འཆར་གཞི་བཀོད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>སྤོ་སྐྱེལ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>བཀྲམ་སྤེལ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ཆ་འཇོག་སྒོ་ཁར་ བསྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>སེལ་འཐུ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>གྲ་སྒྲིག་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>གྲ་སྒྲིག་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>དེའི་སྐབས་རིམ་ལུ་ བསྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ཡིག་སྣོད་ཚུ་ བཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>བདེན་དཔྱད་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>འཐུས་ཤོར་བྱུང་སྟེ་ རང་སོར་ སླར་གསོ་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>མ་འགྱུར་བར།</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>བཀྲམ་སྤེལ་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>འབྲེལ་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ཀྱིས་ ལན་སླབ་ཡི།</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ ད་ལྟོ་ ལག་ལེན་འཐབ་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done ཚར་ཡི། %pending བསྒུགས་བཞིནམ། %failed འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>ལྡེ་མིག་བརྒྱབ།</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>གཡོག་བཀོལ་ཅིག་གིས་ དེ་ཁར་ ལྡེ་མིག་འཆང་དོ།</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>སྟོངམ།</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages ནང་ལས་ %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>བརྟག་ཞིབ་འབད་ནིའི་ ཐག་རིང་ས་ཚིགས་ གདམ་ཁ་རྐྱབས།</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>ཧེ་མ་ར་ “ཨིན། ཐག་རིང་ས་ཚིགས་འདི་ བཏོན་གཏང་།” ལུ་ ཐིག་རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ བཏོན་གཏང་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ སྲུང་བཞག་འབད་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>སྒྲིག་བཀོད་ཡིག་སྣོད་འདི་ལྷག་མི་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>ཉུང་མཐའ་ ཐག་རིང་ས་ཚིགས་ ཡང་ན་ སྡེ་ཚན་གཅིག་ གདམ་ཁ་རྐྱབས།</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>གདམ་ཁ་བརྐྱབ་ཡོད་པའི་ཐག་རིང་ས་ཚིགས་ཅིག་ སྒྲིག་བཀོད་ནང་ ད་ལས་ཕར་མེད། ཤོག་ལེབ་ ལོག་སྟེ་མངོན་གསལ་འབད།</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>ཧེ་མ་ར་ “ཨིན། ད་ལྟོ་བཀྲམ་སྤེལ་འབད།” ལུ་ ཐིག་རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP ཐག་རིང་ས་ཚིགས་ཀྱིས་ སྤོ་བཤུད་ཚུ་ གཡོག་བཀོལ་མི་ཚུགས། “སྤོ་སྐྱེལ་རྐྱངམ་ཅིག” གདམ་ཁ་རྐྱབས་ ཡང་ན་ དེ་ ཕྱི་ཁར་བཞག</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>བཀྲམ་སྤེལ་འབད་ནིའི་སྤོ་བཤུད་ཚུ་ (,) རྟགས་ཀྱིས་ སོ་སོ་འཕྱལ་བའི་ སྤོ་བཤུད་ ID ཚུ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>བཀྲམ་སྤེལ་ ད་ལྟོ་ཡང་ འགྱོ་བཞིན་དུ་ཡོད། མཇུག་མ་བསྡུ་ཚུན་ བསྒུག</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>བཀྲམ་སྤེལ་འདི་ ཆ་འཇོག་སྒོ་ཁར་ མི་བསྒུག</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ག་གིས་ཡང་ བཀྲམ་སྤེལ་འདི་ ལག་ལེན་མ་འཐབ། རྒྱབ་ལོག་འབད་ནི་ ག་ནི་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>ཧེ་མ་ར་ “ཨིན། སྐབས་རིམ་ཤུལ་མ་ ད་ལྟོ་བཀྲམ་སྤེལ་འབད།” ལུ་ ཐིག་རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>ཧེ་མ་ར་ “ཨིན། བཀྲམ་སྤེལ་འདི་ ད་ལྟོ་རྒྱབ་ལོག་འབད།” ལུ་ ཐིག་རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>ID %id ཡོད་པའི་ཐག་རིང་ས་ཚིགས་ཅིག་ ཧེ་མ་ལས་རང་ ཡོདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>སྒོ་འདི་ 1 ལས་ 65535 ཚུན་གྱི་ ཨང་ཅིག་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>མཐའ་འཁོར་ཟེར་མི་འདི་ ཡིག་འབྲུ་དང་ ཨང་ཡིག་ - དང་ _ ལས་བཟོ་མི་ཚིག་ཅིག་ཨིན། (alpha, dev, stage, beta, production ...)</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>སྡེ་ཚན་ཟེར་མི་འདི་ ཡིག་འབྲུ་དང་ ཨང་ཡིག་ - དང་ _ ལས་བཟོ་མི་ཚིག་ཅིག་ཨིན། (all མེན།): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>ངོ་སྤྲོད་ཡིག་ཆ་ ད་ལྟོ་ ལྷག་མི་ཚུགས། %problem། བཀྲམ་སྤེལ་དང་པ་གི་ཧེ་མ་ དེ་ སྒྲིག་བཙུགས། &gt; གསང་བ། ནང་ སྲུང་བཞག་འབད། (ཡང་ན་ འགྱུར་ཅན་ གཞི་སྒྲིག་འབད།)</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP ཐག་རིང་ས་ཚིགས་ཀྱིས་ ཡིག་སྣོད་རྐྱངམ་ཅིག་ ལེནམ་ཨིན། དེ་ལུ་ བཀྲམ་སྤེལ་འདི་ “སྤོ་སྐྱེལ་རྐྱངམ་ཅིག” ཨིནམ་དང་ དེའི་སྤོ་བཤུད་ཚུ་ དེ་ཁར་ ལག་ཐོག་ལས་ གཡོག་བཀོལཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>ཐག་རིང་ས་ཚིགས་ %id འདི་ settings/override/migration.ini.append.php ནང་མེད། དེ་ གཞི་སྒྲིག་འབད་སའི་ས་ཁར་ བཏོན་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP བརྒྱུད་དེ་ ནང་བསྐྱོད་འབད་དེ་ index.php ལྷག་ཡི། FTP ཐག་རིང་ས་ཚིགས་ཀྱི་ སྤོ་བཤུད་གནས་སྟངས་ ལྷག་མི་ཚུགས།</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>བསྒྱུར་བཅོས་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>གསར་བཟོ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>མིང་།</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>རིགས།</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>སྡེ་ཚན།</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>གསར་བཟོ་འབད་མི།</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ནང་དོན་གསརཔ།</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>དྲྭ་ཚིགས་ཧྲིལ་བུམ་གྱི་ཉེ་ཆར་གསར་བཟོ་དང་བསྒྱུར་བཅོས་འབད་མི་ནང་དོན་ གསར་ཤོས་ཧེ་མ་ལུ། ལྟ་བཟུརཝ་ཚུ་གིས་ཕུལ་མི་ བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་བཀག་བཞག་མི་ དཔེ་སྐྲུན་ལུ་བསྒུག་སྡོད་མི་ཟིན་བྲིས་ཚུ། རྣམ་གྲངས་ཚུ་སེལ་འཐུ་འབད་དེ་ བཀག་བཞག་བཏང་གྲོལ་ བཀག་བཞག་ སྦ་ སྟོན་ ཕྱིར་བཏོན་ ཡང་ན་ སྡེ་ཚན་ཡང་ན་རྣམ་པ་གཞན་ཅིག་ནང་སྤོ།</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>ཐོ་ཡིག་ལྷག་མ་ཚུགས་པས། %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་བཀག་བཞག་ད་ལྟོ་ཡང་སྒྲིག་བཙུགས་མ་འབད་བས་ དེ་འབདཝ་ལས་ག་ནི་ཡང་བཀག་བཞག་མེད་ཅིང་ བཀག་བཞག་གི་བྱ་བ་ཚུ་བྱིན་མི་འདུག ཡར་དྲག་གི་རིམ་པ་ 6.0.15-review-hold གིས་སྒྲིག་བཙུགས་འབདཝ་ཨིན། ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ཐོ་ཡིག་འཚག་འདེམས་འབད།</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ལས།</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ཚུན།</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>ཚེས་གྲངས།</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>གསར་བཟོ་འབད་ཡོདཔ། (དང་པ་དཔེ་སྐྲུན་འབད་མི།)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>གནས་སྟངས།</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>དཔེ་སྐྲུན་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>ཟིན་བྲིས་ ནམ་ཡང་དཔེ་སྐྲུན་མ་འབད་བ།</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>བསྒུགས་བཞིནམ། (ཆོག་ཐམ་ཡང་ན་ཚེས་གྲངས་ལུ་བསྒུག་དོ།)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ཁུག་མའི་ནང་།</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་བཀག་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>བཀག་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>བཀག་བཞག་མེདཔ།</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>སྦ་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>མཐོང་ཚུགསཔ།</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>ཕུལ་མི་ཚེས་གྲངས།</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་ག་ཅི་ཨིན་རུང་།</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>རྩིས་ཞིབ་ཀྱིས་ཐོ་བཀོད་འབད་མི་རྐྱངམ་ཅིག</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>ད་ལྟོ། %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>ནང་བསྐྱོད་མིང་ཡང་ན་ལག་ལེན་པའི་ ID།</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>འཚག་འདེམས།</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>འཚག་འདེམས་ཚུ་བསལ།</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>རྣམ་གྲངས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count ལས་ %from ལས་ %to ཚུན།</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>རྣམ་གྲངས་མེད།</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms ནང་ལྷག་ཡོདཔ།)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>སེལ་འཐུ་འབད་མི་རྣམ་གྲངས་ཚུ་གི་བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>ཤོག་ལེབ་འདི་གུ་ཆ་མཉམ་སེལ་འཐུ།</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count སེལ་འཐུ་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>བྱ་བ།</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>བྱ་བ་ཅིག་གདམ་ཁ་རྐྱབ།</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>བཀག་བཞག་བཏང་གྲོལ།</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་བཀག་བཞག</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>སྦ།</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>སྟོན།</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ཁུག་མ་ནང་སྤོ།</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>བཏོན་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>སྡེ་ཚན་སྤྲོད།</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>རྣམ་པ་སྤྲོད།</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>རྒྱུ་མཚན།</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>བཀག་བཞག་ནིའི་དོན་ལུ་དགོཔ་ཨིན། བཀག་བཞག་དང་མཉམ་དུ་དང་ རྩིས་ཞིབ་ནང་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>སྡེ་ཚན་ཅིག་གདམ་ཁ་རྐྱབ།</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>རྣམ་པ།</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>རྣམ་པ་ཅིག་གདམ་ཁ་རྐྱབ།</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>སེལ་འཐུ་འབད་མི་ལུ་ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>རྣམ་གྲངས་རེ་རེ་ཁྱོད་རའི་གནང་བ་དང་བསྟུན་ཏེ་ཞིབ་དཔྱད་འབདཝ་ཨིན། ཁུག་མ་ནང་སྤོ་ནི་དང་བཏོན་གཏང་ནི་ལུ་ངེས་གཏན་འབད་དགོ %count ལས་ལྷག་པའི་རྣམ་གྲངས་ཚུ་རྒྱབ་ཁ་ལུ་གཡོག་བཀོལཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>སེལ་འཐུ།</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>ཕུལ་མི་ས་གནས།</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name སེལ་འཐུ།</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ད་ལྟོ་མེད།</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(མིང་མེད།)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ཟིན་བྲིས།</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>བསྒུགས་བཞིནམ།</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>དེའི་རྩ་བ་གིས་སྦ་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>བཀག་བཞག་ཡོདཔ། ཕུལ་ཡིག་གསརཔ།</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ཐོན་རིམ་ %version བསྒུགས་བཞིནམ།</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ཐོན་རིམ་ %version ལཱ་འབད་བཞིན་པ།</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>ཟིན་བྲིས་ ཐོན་རིམ་ %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>ཐོན་རིམ་ %version དཔེ་སྐྲུན་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date གི་དོན་ལུ་དུས་ཚོད་བཀོད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ཁ་བྱང་མེད།</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ཐོ་བཀོད་མ་འབད་བ།</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>འཚག་འདེམས་འདི་ཚུ་དང་མཐུན་མི་ག་ནི་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ཆ་མཉམ་སྟོན།</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>ད་ལྟོ་ནང་དོན་མེད།</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ཤོག་ལེབ་རེ་རེ་ལུ།</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ཤོག་ལེབ་རེ་རེ་ལུ་རྣམ་གྲངས་ %count སྟོན།</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>ཕུལ་ཡིག་གི་ཁ་བྱང་དང་བརྡ་འཚོལ་ཆས་འདི་ རྩིས་ཞིབ་ཀྱི་ཟུར་ཐོ་ལས་འོངམ་ཨིན་ དེ་ནི་ནཱ་ལུ་མེད། ཀེར་ཐིག་ནང་ "ཐོ་བཀོད་མ་འབད་བ།" ཟེར་སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ཁ་བྱང་དང་བརྡ་འཚོལ་ཆས་འདི་ རྩིས་ཞིབ་ཀྱིས་རྣམ་གྲངས་དེའི་དོན་ལུ་ཐོ་བཀོད་འབད་མི་ཚུ་ཨིན། (རང་བཞིན་བཀག་བཞག་གིས་ཨ་རྟག་ར་ཐོ་བཀོད་འབདཝ་ཨིན། དཔེ་སྐྲུན་དང་གསར་བཟོ་འདི་ཁ་ཕྱེ་བའི་སྐབས་རྐྱངམ་ཅིག) དེའི་སྒེར་དོན་སྒྲིག་སྟངས་ཀྱིས་བཞག་མི་ལྟར།</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action། རྣམ་གྲངས་ %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>བཏོན་གཏང་ནི་འདི་གིས་ རྣམ་གྲངས་ཚུ་ ཐོན་རིམ་དང་སྐད་བསྒྱུར་ཆ་མཉམ་དང་གཅིག་ཁར་ ཡུན་བརྟན་སྦེ་བཏོན་གཏངམ་ཨིན། ལོག་སྟེ་འབད་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>རྣམ་གྲངས་ཚུ་ཁུག་མ་ནང་འགྱོཝ་ཨིན་ དེ་ལས་སོར་ཆུད་འབད་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>རྣམ་གྲངས་རེ་རེ་ཁྱོད་རའི་གནང་བ་དང་བསྟུན་ཏེ་ཞིབ་དཔྱད་འབདཝ་ཨིན། ཡན་ལག་རྣམ་གྲངས་ཡོད་མི་རྣམ་གྲངས་འདི་ ཡོད་ལུགས་བཞིན་བཞགཔ་ཨིན། (ནང་དོན་གྱི་གཞི་བཀོད་ནང་ཕྱིར་བཏོན།) ཁྱོད་ར་ཨིན་ཟེར་བདེན་དཔྱད་འབད་དགོ</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>འདི་རྒྱབ་ཁ་ལུ་གཡོག་བཀོལཝ་ཨིན། དེའི་ཡར་འཕེལ་ཤོག་ལེབ་ཁ་ཕྱེཝ་ཨིན་ དེ་ལས་ཚར་བའི་སྐབས་ རྣམ་གྲངས་རེ་རེའི་གྲུབ་འབྲས་སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>སེལ་འཐུ་འབད་མི་རྣམ་གྲངས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>དེ་ལས་ %count ལྷག</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ཆ་མེད་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>ག་ནི་ཡང་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>རྒྱུ་མཚན། %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>བྱ་བ་འདི་ད་ལྟོ་ཡང་རྒྱབ་ཁ་ལུ་གཡོག་བཀོལ་དོ།</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>དེའི་ཡར་འཕེལ།</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>རྒྱབ་ཁའི་བྱ་བ་འཐུས་ཤོར་བྱུང་ཡོདཔ། %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ཚར་ཡི།</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ངོས་ལེན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>འཐུས་ཤོར།</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>རྣམ་གྲངས་རེ་རེ་ལུ།</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>རྣམ་གྲངས།</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>གྲུབ་འབྲས།</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ག་ཅི་སྦེ།</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>ཐོ་ཡིག་ལུ་ལོག</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>སྒྲིག་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>ག་ནི་ཡང་འབད་མ་ཚར།</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>ངེས་གཏན།</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>བྱ་བ་ཅིག་གདམ་ཁ་རྐྱབ་གནང་།</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>ཉུང་མཐའ་རྣམ་གྲངས་གཅིག་སེལ་འཐུ་འབད་གནང་།</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>ཚར་གཅིག་ལུ་རྣམ་གྲངས་ 1000 ལས་ལྷག་སྟེ་སེལ་འཐུ་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>རྣམ་གྲངས་ཚུ་ག་ཅི་སྦེ་བཀག་བཞག་ཨིན་ན་སླབ་གནང་།</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>སྡེ་ཚན་གདམ་ཁ་རྐྱབ་གནང་།</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>རྣམ་པ་གདམ་ཁ་རྐྱབ་གནང་།</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>འབྲི་ཤོག་ལྷག་མ་ཚུགས་པས།</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ལཱ་གི་ངོས།</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>ནང་དོན་གསརཔ།</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>གྱངས་ཁ་ཚུ་ལྷག་མ་ཚུགས་པས། %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་བཀག་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>ད་རིས་ཀྱི་གསརཔ།</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་བཀག་བཞག་ད་ལྟོ་ཡང་སྒྲིག་བཙུགས་མ་འབད། (ཡར་དྲག་གི་རིམ་པ་ 6.0.15-review-hold)</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>ནང་དོན་གསརཔ་ཆ་མཉམ།</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>ཁྱོད་ཀྱིས་ བར་འདུམ་གྱི་བྱ་བ་ཚུ་གཡོག་བཀོལ་མི་ཆོག (moderation/act)</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>བར་འདུམ་གྱི་བྱ་བ་མ་ཚང་པས། %errors།</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>བར་འདུམ། དངོས་པོ་ %count གུ་ %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>དངོས་པོ་ %total ལས་ %done། %ok ཚར་ཡི་ %refused ངོས་ལེན་མ་འབད་ %failed འཐུས་ཤོར།</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok ཚར་ཡི་ %refused ངོས་ལེན་མ་འབད་ %failed འཐུས་ཤོར།</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>འདི་ད་ལས་ཕར་མེད།</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>འདི་ལུ་ས་གནས་མེད། (དཔེ་སྐྲུན་མ་འབད་བ།)</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>ཁྱོད་ཀྱིས་འདི་སྦ་མི་ཆོག (content/hide)</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>ཁྱོད་ཀྱིས་འདི་སྟོན་མི་ཆོག (content/hide)</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>འདི་ཧེ་མ་ལས་སྦ་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>འདི་སྦ་བཞག་མེད།</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>སྦ་ཡི།</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>སྟོན་ཡི།</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>འདི་ཁུག་མའི་ནང་ཡོདཔ་ཨིན། ཕར་ས་སྟོངམ་བཟོ་ཡང་ན་སོར་ཆུད་འབད།</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ནམ་ཡང་དཔེ་སྐྲུན་མ་འབད་བའི་ཟིན་བྲིས་ཅིག་ཁུག་མ་ནང་འགྱོ་མི་ཚུགས། དེ་བཏོན་གཏང་།</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>ཁྱོད་ཀྱིས་འདི་བཏོན་གཏང་མི་ཆོག (content/remove)</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>བཏོན་གཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>ཁྱོད་ཀྱིས་འདི་ཕྱིར་བཏོན་འབད་མི་ཆོག (content/remove)</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>འདི་ལུ་ཡན་ལག་རྣམ་གྲངས་ཡོདཔ་ཨིན། དེ་ཚུ་ཐོ་བཀོད་འབད་ཡོད་སའི་ ནང་དོན་གྱི་གཞི་བཀོད་ནང་ཕྱིར་བཏོན།</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>འདི་ཕྱིར་བཏོན་མ་འབད། (ལཱ་གི་རིམ་པ་ཅིག་གིས་ཕྱིར་བཏོན་བཀག་བཞག་འོང་།)</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ཁུག་མ་ནང་སྤོ་ཡི།</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>སྡེ་ཚན་འདི་མེད།</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>འདི་ཧེ་མ་ལས་སྡེ་ཚན་འདི་ནང་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>ཁྱོད་ཀྱིས་སྡེ་ཚན་འདི་སྤྲོད་མི་ཆོག (section/assign)</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>སྡེ་ཚན་སྤྲོད་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>སྡེ་ཚན་སྤྲོད་ཡི།</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>རྣམ་པ་འདི་མེད།</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>འདི་ཧེ་མ་ལས་རྣམ་པ་འདི་ནང་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>ཁྱོད་ཀྱིས་རྣམ་པ་འདི་སྤྲོད་མི་ཆོག (state/assign)</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>རྣམ་པ་སྤྲོད་མ་ཚུགས། (ལཱ་གི་རིམ་པ་ཅིག་གིས་བསྒྱུར་བཅོས་བཀག་བཞག་འོང་།)</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>རྣམ་པ་སྤྲོད་ཡི།</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>བྱ་བ་དེ་བཟུམ་མེད།</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་བཀག་བཞག་སྒྲིག་བཙུགས་མ་འབད། (ཡར་དྲག་གི་རིམ་པ་ 6.0.15-review-hold)</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>འདི་ག་ཅི་སྦེ་བཀག་བཞག་ཨིན་ན་སླབ་གནང་།</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>འདི་ཧེ་མ་ལས་བཀག་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>ཁྱོད་ཀྱིས་འདི་བཀག་བཞག་མི་ཆོག (state/assign)</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>བཀག་བཞག་བཀལ་མ་ཚུགས། (ལཱ་གི་རིམ་པ་ཅིག་གིས་བསྒྱུར་བཅོས་བཀག་བཞག་འོང་།)</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>བཀག་བཞག་ཡི།</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>འདི་བཀག་བཞག་མེད།</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>ཁྱོད་ཀྱིས་འདི་བཏང་གྲོལ་འབད་མི་ཆོག (state/assign)</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>བཀག་བཞག་བཏང་གྲོལ་མ་ཚུགས། (ལཱ་གི་རིམ་པ་ཅིག་གིས་བསྒྱུར་བཅོས་བཀག་བཞག་འོང་།)</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>བཏང་གྲོལ་འབད་ཡི། ད་ལྟོ་ཡང་སྦ་བཞག་ཡོདཔ། ཁྱོད་ཀྱིས་འདི་སྟོན་མི་ཆོག (content/hide)</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>བཏང་གྲོལ་འབད་ཡི།</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>དམིགས་ཡུལ་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>མཇུག་གི་དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>ཁྱོད་རང་གི་དྲྭ་ཚིགས་ཀྱི་བརྟན་པའི་འདྲ་བཤུས་ཅིག་ GitHub Pages ཁར་ རིན་མེད་སྦེ་དཔེ་སྐྲུན་འབད།</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>དུས་ཡོལ་ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན་ཁ་བསྡམས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>དམིགས་ཡུལ།</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>དམིགས་ཡུལ་ཚུ་ལྷག་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ལཱ་ཅིག་འཕྲོ་མཐུད་དེ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>བརྟག་ཞིབ་འབད་ནིའི་བཟོ་བསྐྲུན།</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>འདི་སྦ།</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>དམིགས་ཡུལ་ཅིག་བཟོ།</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ནམ་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>སློབ་སྟོན་ལྷག</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>ཁ་སྐོང་ %added ། བསྒྱུར་ཡོདཔ་ %changed ། བཏོན་ཡོདཔ་ %removed །</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit ལས་ %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>གཞན་ %count ཐོ་ཡིག་ནང་མིན་འདུག</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>ཤོག་ལེབ་ %pages འབྲི་ཡི།</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path འདི་ %size ཨིན། བདག་འཛིན་པ་གིས་ ཡིག་སྣོད་གཅིག་ལུ་ཆོག་མི་ལས་ལྷག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>ཚད་གཞི་གི་ %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>སྐར་ཆ་ %seconds</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag འདི་ དྲྭ་ཚིགས་ལུ་ད་ལྟོ་ཡོད་པའི་དཔེ་སྐྲུན་ཨིན།</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target ལཱ་ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/མཛོད་ཁང་/ འདི་ GitHub ལས་འགུལ་དྲྭ་ཚིགས་ཀྱི་དོན་ལུ། རང་སོའི་ཌོ་མེན་ཡང་ན་ ལག་ལེན་པའི་དྲྭ་ཚིགས་ཀྱི་དོན་ལུ་ སྟོངམ་བཞག</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. དྲྭ་ཚིགས།</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. བདག་འཛིན་པ།</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. མཛོད་ཁང་ནང་ནང་འཛུལ།</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. མཛོད་ཁང་།</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. འབྲེལ་ཐག་དང་གཞི་རྟེན་ལམ་ཐིག</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. ཁྱོད་རང་གི་ཌོ་མེན།</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. བཟོ་བསྐྲུན་ནང་ག་ཅི་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. ནམ་དཔེ་སྐྲུན་འབད་ནི།</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. བསྐྱར་ཞིབ་དང་སྲུང་བཞག</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub ལས་འགུལ་དྲྭ་ཚིགས་ཅིག་ /&lt;repository&gt;/ གི་འོག་ལུ་ཡོདཔ་ཨིན། ཕྱོགས་སྟོན་འབྲེལ་ཐག་ཚུ་ ཕར་དང་ས་གནས་ག་ཏེ་ཡང་ལཱ་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>བཟོ་བསྐྲུན་ཅིག་གིས་ %site གི་ཤོག་ལེབ་རེ་རེ་ ནང་མ་འཛུལ་བའི་འབྱོར་མི་ཅིག་གིས་མཐོང་དོ་བཟུམ་སྦེ་ལེན་ཏེ་ འབྲེལ་ཐག་ཚུ་ལོག་འབྲི་ ཡིག་སྣོད་ཚུ་འདྲ་བཤུས་རྐྱབ་ཞིནམ་ལས་ གྲུབ་འབྲས་འདི་ དམིགས་ཡུལ་གྱི་སྣོད་ཐུམ་ནང་འབྲིཝ་ཨིན། ཁྱོད་ཀྱིས་བཟོ་བསྐྲུན་འདི་བརྟག་ཞིབ་འབད་དེ་ དཔེ་སྐྲུན་ཨེབ་ཚུན་ཚོད་ ག་ནི་ཡང་དཔེ་སྐྲུན་མི་འབད།</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>cron བརྗོད་ཚིག་ཅིག དཔེར་ན་ 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>བཀྲམ་སྤེལ་ལྡེ་མིག་འདི་ གསང་བ་ %secret སྦེ་བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>བཀྲམ་སྤེལ་ལྡེ་མིག་གིས་ གཞི་བཙུགས་འདི་ལུ་ SSH བརྒྱུད་དེ་ མཛོད་ཁང་གཅིག་ལུ་རྐྱངམ་ཅིག་འཕུལ་གཏང་འབད་བཅུགཔ་ཨིན། དེ་གི་སྒེར་གྱི་ཕྱེད་ཀ་འདི་ སྒྲིག་བཙུགས། &gt; གསང་བ། ནང་ལུ་སྡོདཔ་ཨིན། སྤྱི་གི་ཕྱེད་ཀ་རྐྱངམ་ཅིག་སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>དམིགས་ཡུལ་འདི་གི་དོན་ལུ་བཟོ་མི་བཀྲམ་སྤེལ་ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>བཀྲམ་སྤེལ་ལྡེ་མིག་གིས་ SSH བརྒྱུད་དེ་ནང་འཛུལ་འབདཝ་ཨིན། git ཁ་བྱང་འདི་ SSH ཁ་བྱང་ལུ་བསྒྱུར། (git@github.com:owner/repo.git)</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>ལཱ་ཅིག་འཕྲོ་མཐུད་དེ་ཡོདཔ། %user གིས་འགོ་བཙུགས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>དམིགས་ཡུལ་འདི་གི་ལཱ་ཅིག་ ད་ལྟོ་ཡང་འཕྲོ་མཐུད་དེ་ཡོདཔ། (%detail) དེ་མཇུག་མ་བསྡུ་ཚུན་ བསྒུག</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>དམིགས་ཡུལ་འདི་གི་ལཱ་ཅིག་ ད་ལྟོ་ཡང་འཕྲོ་མཐུད་དེ་ཡོདཔ། དེ་མཇུག་མ་བསྡུ་ཚུན་ བསྒུག</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>ཤོག་ལེབ་ /news/ ལས་ ཤོག་ལེབ་ /about-us/team ལུ་འབྲེལ་ཐག་ཅིག་ འདི་བཟུམ་སྦེ་འབྲི་འོང་།</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>བཀྲམ་སྤེལ་ལྡེ་མིག་གསརཔ་ཅིག་བཟོ་ཡི། དེ་གི་སྤྱི་གི་ཕྱེད་ཀ་འདི་ ད་ལྟོ་ར་ མཛོད་ཁང་ནང་ཁ་སྐོང་འབད།</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>གཙང་སྦྲ་བཏང་ཞིནམ་ལས་ཡང་ རྐྱོན་སེལ་ཐོན་འབྲས་ འབྲི་ཤོག་ཊོ་ཀེན་ ཡང་ན་ ལཱ་ཡུན་ ID ཡོད་པའི་ཤོག་ལེབ་ཅིག་ ནམ་ཡང་དཔེ་སྐྲུན་མི་འབད།</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>རྒྱབ་ལོག་འདི་ མཁས་མཆོག་ཚུ་གི་དོན་ལུ་ཨིན། &quot;འདི་གིས་ག་ཅི་བསྒྱུར་ནི་ཨིན་ན་ང་གིས་ཤེས།&quot; ལུ་རྟགས་བཀལ་ཞིནམ་ལས་ རྟགས་བཀལ་གྱི་མིང་འདི་ ལོག་སྟེ་ཡིག་དཔར་རྐྱབ།</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>དྲྭ་ཚིགས་ཅིག་ %site ཚུན་ ཡིག་སྣོད་གཅིག་ %file ཚུན་ཆོགཔ་ཨིན། ཟླཝ་རེ་ལུ་ GB 100 དེ་ཅིག་གི་འགྲུལ་སྐྱོད་ཡོདཔ། རིན་མེད་འཆར་གཞི་ཁར་ མཛོད་ཁང་འདི་ སྤྱི་ཚོགས་ཀྱི་ཨིན་དགོ། GitHub Pages འདི་ ཚོང་ཁང་ཡང་ན་ ཚོང་འབྲེལ་གྱི་ཉོ་ཚོང་གཞན་ཚུ་གི་དོན་ལུ་མེན།</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>དམིགས་ཡུལ་ཅིག་ཟེར་མི་འདི་ git མཛོད་ཁང་གཅིག་ལུ་ དཔེ་སྐྲུན་འབད་མི་དྲྭ་ཚིགས་གཅིག་ཨིན། ནཱ་ལུ་ ག་ནི་ཡང་བཟོ་ནི་དང་དཔེ་སྐྲུན་མི་འབད། སྲུང་བཞག་གིས་ སྒྲིག་བཀོད་ཚུ་ settings/override/staticcache.ini.append.php ནང་འབྲིཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>དམིགས་ཡུལ་ཅིག་ཟེར་མི་འདི་ ས་གནས་གཅིག་ལུ་ དཔེ་སྐྲུན་འབད་མི་དྲྭ་ཚིགས་གཅིག་ཨིན། དཔེར་ན་ GitHub Pages ཁར་ ཁྱོད་རང་གི་སྤྱི་ཚོགས་དྲྭ་ཚིགས།</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>སྒྲིག་བཙུགས། &gt; གསང་བ། ནང་ལས་ ཊོ་ཀེན་ཅིག</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>མཛོད་ཁང་གི་ལཱ་གི་རྒྱུན་རིམ་ཅིག་གིས་ དེ་དཔེ་སྐྲུན་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>སྤྱི་གི་ལྡེ་མིག་འདི་ འབྲི་ནིའི་དབང་ཚད་དང་གཅིག་ཁར་ མཛོད་ཁང་ནང་ཁ་སྐོང་འབད། GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access ལུ་རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>ཁ་སྐོང་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>git བདག་འཛིན་པ་གཞན།</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>ལས་སྦྱོར་གཞན་ཅིག་ དམིགས་ཡུལ་འདི་གུ་ལཱ་འབད་དོ། %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>ཕྱིར་ལོག</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>གཞི་རྟེན་ལམ་ཐིག</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ཧེ་མ།</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>གཞི་རྟེན་ལམ་ཐིག་ཅིག་གི་འོག་ལུ།</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ཡལ་ག</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>ཆད་པའི་འབྲེལ་ཐག</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>བཟོ་བསྐྲུན་ནང་གི་ཆད་པའི་འབྲེལ་ཐག</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>བཟོ་བསྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>%user གི་བཟོ་བསྐྲུན་ %id</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name བཟོ།</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>ད་ལྟོ་བཟོ།</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>བརྟག་ཞིབ་འབད་ནིའི་བཟོ་བསྐྲུན།</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>འབད་མི།</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>ལག་ཐོག་ལས་ ནཱ་ལུ།</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ཆ་མེད་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>བསྒྱུར་བཅོས།</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>བསྒྱུར་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>བསྒྱུར་བཅོས་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>ཧེ་མ་བརྟག་ཞིབ་འབད།</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>སྒྲིག་བཀོད་འདི་ཚུ་བརྟག་ཞིབ་འབད།</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>བཟོ་བསྐྲུན་གྱིས་ག་ཅི་བསྒྱུར་ནི་ཨིན་ན་བརྟག་ཞིབ་འབད་ དེ་ལུ་བལྟ་ཞིནམ་ལས་ དཔེ་སྐྲུན་འབད་ ཡང་ན་ བཀོག</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>ལོག་འགྱོ་ནིའི་དཔེ་སྐྲུན་འདི་གདམ་ཁ་རྐྱབ།</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>ཤུལ་མའི་འགྲེམས་སྤེལ་ཅིག་ནང་འོང་།</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>བཀོད་སྤྲོད།</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>བཀོད་སྤྲོད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>བཟོ་བསྐྲུན་འདི་ བཀོད་སྤྲོད་འབད་ རྟགས་བཀལ་ཞིནམ་ལས་ %remote ལུ་འཕུལ་གཏང་འབདཝ་ཨིན། འཕུལ་གཏང་ནམ་ཡང་ བཙན་ཤེད་མི་འབད། ཤུལ་ལས་ དཔེ་སྐྲུན་ག་ཅི་ཨིན་རུང་ལུ་ ལོག་འགྱོ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>ཧེ་མའི་སྣོད་ཐུམ་དང་བསྡུར་བ། ཁ་སྐོང་ %added ། བསྒྱུར་ཡོདཔ་ %changed ། བཏོན་ཡོདཔ་ %removed ། མ་བསྒྱུར་བ་ %unchanged །</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>མཇུག་གི་དཔེ་སྐྲུན་དང་བསྡུར་བ།</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ངོ་སྤྲོད་ཡིག་ཆ།</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>རང་སོའི་ཌོ་མེན།</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>རྐྱོན་སེལ་ཐོན་འབྲས་ འབྲི་ཤོག་ཊོ་ཀེན་ ལཱ་ཡུན་ ID དང་ nonce ཚུ་ ཨ་རྟག་ར་བཏོན་གཏངམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>བཀྲམ་སྤེལ་ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name གི་བཀྲམ་སྤེལ་ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>བཀོག</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>བཟོ་བསྐྲུན་འདི་བཀོག</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ཌོ་མེན།</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>སྟོངམ། དྲྭ་ཚིགས་ཀྱི་ཁ་བྱང་། དེ་མིན་ དྲྭ་ཚིགས་འདི་ར་གི་ནང་འཁོད་ཁ་བྱང་ཅིག</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>མཇུག་བསྡུ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>འབྲེལ་ཐག་རེ་རེ་ གཞི་རྟེན་ལམ་ཐིག་ལས་འགོ་བཙུགསཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>དཔེ་སྐྲུན་རེ་རེ་ static/%id/&lt;n&gt; རྟགས་བཀལ་ཡོད་པའི་ བཀོད་སྤྲོད་ཅིག་ཨིན། ལོག་འགྱོ་བ་ཅིན་ ཧེ་མའི་དཔེ་སྐྲུན་ཅིག་གི་ཡིག་སྣོད་ཚུ་དང་གཅིག་ཁར་ བཀོད་སྤྲོད་གསརཔ་ཅིག་བཟོཝ་ཨིན། ལོ་རྒྱུས་འདི་སྡོདཔ་ཨིན། རྟགས་བཀལ་ག་ནི་ཡང་མི་སྤོ་ ག་ནི་ཡང་བཙན་ཤེད་མི་འབད།</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>ཁ་སྐོང་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>ཤོག་ལེབ་ཚུ་ འདི་ལས་ལེན།</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ཡིག་སྣོད།</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ཡིག་སྣོད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ཡིག་སྣོད་མེདཔ།</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>འདི་གི་ཡིག་སྣོད།</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>བསྡུ་ལེན་འབད་མ་ཚུགས་པའི་ཡིག་སྣོད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>མཛུབ་རྗེས།</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>སྣོད་ཐུམ།</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH ཁ་བྱང་ཅིག་གི་དོན་ལུ། ལྡེ་མིག་འདི་ སྲུང་བཞག་འབད་ཞིནམ་ལས་བཟོཝ་ཨིན། ཁྱོད་ཀྱིས་ དེ་གི་སྤྱི་གི་ཕྱེད་ཀ་འདི་ མཛོད་ཁང་ནང་ཁ་སྐོང་འབད།</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// ཁ་བྱང་ཅིག་གི་དོན་ལུ། GitHub: མཛོད་ཁང་གུ་ Contents ལྷག་ནི་དང་འབྲི་ནིའི་དབང་ཚད་ཡོད་པའི་ fine-grained ཊོ་ཀེན་ཅིག</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>མཁས་མཆོག་ཚུ་གི་དོན་ལུ། འཕུལ་གཏང་མཇུག་བསྡུ་བའི་སྐབས་ར་ སྤྱི་ཚོགས་དྲྭ་ཚིགས་འདི་བསྒྱུརཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>འབྲི་ཤོག</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub མཛོད་ཁང་ཅིག་ལས་ རིན་མེད་བདག་འཛིན།</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ཡལ་ག་ལས།</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git ཁ་བྱང་།</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages གིས་ %site གི་དྲྭ་ཚིགས་དང་ %file གི་ཡིག་སྣོད་ཆོག་ཨིན།</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages གི་ཚད་གཞི།</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages གིས་ ཡིག་སྣོད་ཚུ་ ག་དེ་སྦེ་ཡོད་མི་བཟུམ་སྦེ་ དཔེ་སྐྲུན་འབདཝ་ཨིན། (_ ལས་འགོ་བཙུགས་མི་ཡིག་སྣོད་ཚུ་གི་དོན་ལུ་དགོ།)</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub གིས་ ཡལ་ག་འདི་ འཕུལ་གཏང་འབད་དོ་བཟུམ་སྦེ་བྱིནམ་ཨིན། སྔོན་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, ཁྱོད་རང་གི་སར་བར། git མཛོད་ཁང་ག་ཅི་ཨིན་རུང་།</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>ཧེ་མའི་དཔེ་སྐྲུན་ཅིག་ལུ་ལོག་འགྱོ།</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>རོགས་པ།</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>ལམ་སྟོན་པ་ལུ་རོགས་པ།</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>དེ་ཚུ་སྦ།</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ལོ་རྒྱུས།</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name གི་ལོ་རྒྱུས།</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>བདག་འཛིན་པ།</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages གིས་ བཟོ་བསྐྲུན་ག་དེ་སྦེ་ལེནམ་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>ང་གིས་བསྒྱུར་བཅོས་ཚུ་བརྟག་ཞིབ་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>འདི་གིས་ག་ཅི་བསྒྱུར་ནི་ཨིན་ན་ང་གིས་ཤེས།</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ངོ་རྟགས།</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>དེ་ཁ་བསྡམས་ཡོདཔ། ཁ་མ་ཕྱེ་ཚུན་ ག་ནི་ཡང་བཟོ་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>དེ་ %user སྦེ་ རྒྱབ་ལྗོངས་ལུ་གཡོག་བཀོལཝ་ཨིན། ཁྱོད་ཀྱིས་ ཤོག་ལེབ་འདི་ཁ་བསྡམས་ཆོག</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ལཱ་ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>གསང་བ་ %secret སྦེ་བཞག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>རིགས།</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>མཇུག་གི་དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ཤོག་ལེབ་འདི་ཚུ་བཀོག</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>སྡེ་ཚན་འདི་ཚུ་བཀོག</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>འབྲེལ་ཐག</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>ལོག་འབྲི་ཡོད་པའི་འབྲེལ་ཐག</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>ཐད་ཀར་དྲྭ་ཚིགས།</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>བཟོ་བསྐྲུན་ལུ་བལྟ།</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>ཡིག་འབྲུ་ཆུང་ ཨང་གྲངས་ _ དང་ - དཔེར་ན་ github-public ། དེ་གིས་ སྣོད་ཐུམ་དང་རྟགས་བཀལ་ཚུ་ (static/&lt;id&gt;/&lt;n&gt;) ལུ་མིང་བཏགསཔ་ཨིན། ཤུལ་ལས་བསྒྱུར་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>ལྡེ་མིག་གསརཔ་ཅིག་བཟོ།</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>དམིགས་ཡུལ་ཅིག་བཟོ།</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>ལྡེ་མིག་བཟོ།</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>ཧེ་མ་ བདག་འཛིན་པ་གུ་ མཛོད་ཁང་བཟོ། སྟོངམ་ཅིག་ཨིན་རུང་ལེགས།</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ཡིག་སྣོད་ཐོ་ཡིག</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>འཕྲིན་ཡིག</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>ཤོག་ལེབ་མང་ཤོས།</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>མིང་།</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>སྒྲིག་བཙུགས། &gt; གསང་བ། ནང་གི་ཊོ་ཀེན་གྱི་མིང་།</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>དམིགས་ཡུལ་གསརཔ།</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>རྗེས་མ།</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>མེན།</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>ད་ལྟོ་ཚུན་ བཀོད་སྤྲོད་མེད།</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ལྡེ་མིག་མ་བཟོ། %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php བརྡ་བཀོད་ཐིག་ཁྲམ་གྱི་ལས་རིམ་མ་ཐོབ། migration.ini [AdminSettings] PhpCliPath འདི་ དེ་གི་ལམ་ཐིག་ཆ་ཚང་ལུ་གཞི་སྒྲིག་འབད།</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>ད་ལྟོ་ཚུན་ རྟགས་བཀལ་མེད།</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>ད་ལྟོ་ཚུན་ དམིགས་ཡུལ་མེད།</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>མེདཔ།</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>བཟོ་བསྐྲུན་ནང་མེད།</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>ད་ལྟོ་ཚུན་ ག་ནི་ཡང་དཔེ་སྐྲུན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>ད་ལྟོ་ཚུན་ ག་ནི་ཡང་དཔེ་སྐྲུན་མ་འབད། ཡིག་སྣོད་རེ་རེ་གསརཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>བརྡ་བསྐུལ།</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>དུས་ཀྱི་རེའུ་མིག་ལྟར།</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>ཀོན་སོལ་གུ།</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>སར་བར་གུ། ./console exp:static:serve %id གིས་ ཐབས་ལམ་འདི་ར་སྦེ་བྱིནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>ཐིག་ཕྲེང་རེ་ལུ་ ལམ་ཐིག་རེ། * གིས་ ཆ་ཤས་ག་ཅི་ཨིན་རུང་དང་མཐུནམ་ཨིན། /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>དམིགས་ཡུལ་དང་གཅིག་ཁར་ མིང་རྐྱངམ་ཅིག་བཞགཔ་ཨིན། ཊོ་ཀེན་ཡང་ན་ལྡེ་མིག་རང་འདི་ སྒྲིག་བཙུགས། &gt; གསང་བ། ནང་ལུ་སྡོད་དེ་ ཐོ་བཀོད་ནང་ནམ་ཡང་མི་སྟོན།</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>ཤོག་ལེབ་ཚུ་གིས་ མིང་བཏགས་མི་རྐྱངམ་ཅིག</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>ཊོ་ཀེན་དང་གཅིག་ཁར་རྐྱངམ་ཅིག env:NAME གིས་ དེ་གི་ཚབ་ལུ་ སར་བར་གྱི་མཐའ་འཁོར་འགྱུར་ཅན་ཅིག་ལྷགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>སྔོན་མཐོང་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>བཟོ་བསྐྲུན་འདི་ བདག་འཛིན་པ་གིས་བྱིན་ནི་བཟུམ་སྦེ་ དམིགས་ཡུལ་གྱི་སྣོད་ཐུམ་ལས་ཁ་ཕྱེཝ་ཨིན། འབྲེལ་ཐག་འདི་ ཁྱོད་ཀྱི་དོན་ལུ་ ཆུ་ཚོད་གཅིག་ལཱ་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>གདམ་ཁ། སྟོངམ། དཔེ་སྐྲུན་འབད་མི་འདི།</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>གདམ་ཁ། ཌོ་མེན་ཅིག་ཡོད་པ་ཅིན་ དྲྭ་ཚིགས་འདི་ དེ་གི་རྩ་བ་ལུ་བྱིནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>ཐོན་འབྲས།</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>དམིགས་ཡུལ་གྱི་ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>ངོས་ལེན་མ་འབད་བའི་ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>ཤུལ་མའི་ལས་སྣོན།</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>སྔོན་མཐོང་།</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>སྔོན་མཐོང་དང་དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name གི་སྔོན་མཐོང་དང་དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>བཟོ་བསྐྲུན་གྱི་སྔོན་མཐོང་།</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>འཕེལ་རིམ།</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>སྤྱི་གི་ཁ་བྱང་།</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>སྤྱི་གི་ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>དྲྭ་ཚིགས་ཀྱི་བརྟན་པའི་འདྲ་བཤུས་ཅིག་ GitHub Pages ཡང་ན་ git བདག་འཛིན་པ་ག་ཅི་ཨིན་རུང་ཁར་ དཔེ་སྐྲུན་འབད། དེ་བཟོ་ བསྒྱུར་བཅོས་ཚུ་བརྟག་ཞིབ་འབད་ དཔེ་སྐྲུན་འབད་ དགོ་པའི་སྐབས་ ཧེ་མའི་དཔེ་སྐྲུན་ཅིག་ལུ་ལོག་འགྱོ།</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>ལོག་འགྱོ་ནིའི་དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>དཔེ་སྐྲུན་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>འཕུལ་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>སློབ་སྟོན་ལྷག</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ཐོ།</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ངོས་ལེན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>ཕྱོགས་སྟོན།</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ལོག་སྟེ་མངོན་གསལ།</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>བཏོན་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>ལྡེ་མིག་ཚབ་བཙུགས། རྙིངམ་འདི་ ལཱ་འབད་ནི་མཚམས་འཇོགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>སྙན་ཞུ།</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>བཟོ་བསྐྲུན་གྱི་སྙན་ཞུ།</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>མཛོད་ཁང་།</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>བསྐྱར་ཞིབ།</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱིས་ སྒྲིག་བཀོད་རེ་རེ་བརྟག་ཞིབ་འབད་དེ་ འབྲི་ནིའི་ཐིག་ཕྲེང་ཚུ་སྟོནམ་ཨིན། ད་ལྟོ་ཚུན་ ག་ནི་ཡང་སྲུང་བཞག་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>རྒྱབ་ལོག།</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>རྒྱབ་ལོག</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>སྲུང་བཞག</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>དུས་ཀྱི་རེའུ་མིག</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>འཚོལ་ཞིབ་ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>སྡེ་ཚན་གྱི་ ID ཚུ་ བར་ཚེག་གིས་ཕྱེ་སྟེ།</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>དེ་ཚུ་ ཐད་ཀར་དྲྭ་ཚིགས་ལུ་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>སྒྲིག་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>སྒྲིག་བཀོད་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name གི་སྒྲིག་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>སྒྲིག་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>སྒྲིག་བཙུགས། &gt; གསང་བ།</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>ཐོ་ཡིག་ནང་སྟོནམ་ཨིན། དཔེར་ན་ &quot;GitHub Pages ཁ་གི་སྤྱི་ཚོགས་དྲྭ་ཚིགས།&quot;</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App དང་གཅིག་ཁར་ནང་འཛུལ་འདི་ GitHub མཉམ་བསྡོམས་དང་གཅིག་ཁར་འོང་།</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>དྲྭ་ཚིགས།</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>དཔེ་སྐྲུན་འབད་ནིའི་དྲྭ་ཚིགས།</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ཚད།</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>ཚད་དང་ཚད་གཞི།</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>བཟོ་བསྐྲུན་གྱི་ཚད།</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>དུས་ཡོལ་ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>འགོ་བཙུགས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user གིས་ %time ལུ་འགོ་བཙུགས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>གནས་སྟངས།</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན་ཁ་བསྡམས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན་ཁ་བསྡམས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན་ཁ་བསྡམས་ཡོདཔ། ཧེ་མ་ སྒྲིག་བཙུགས། &gt; བརྟན་པའི་དཔེ་སྐྲུན། ནང་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན་ཁ་ཕྱེ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>གོམ་པ་ %total ལས་ %step</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>གོམ་པ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>གཙང་སྦྲ།</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ཁ་བསྡམས།</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>བརྟན་པའི་དཔེ་སྐྲུན་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>རྟགས་བཀལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>དམིགས་ཡུལ།</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>དམིགས་ཡུལ་ཚུ་ བཟོ་ནི་དང་བསྒྱུར་ཚུགས། ཨིན་རུང་ ཁ་མ་ཕྱེ་ཚུན་ ག་ནི་ཡང་བཟོ་ནི་དང་དཔེ་སྐྲུན་མི་འབད།</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>འཚོལ་ཞིབ་འཕྲུལ་ཆས་ཚུ་ལུ་ ག་ཅི་ལྷག་དགོཔ་ཨིན་ན་སླབ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>བཟོ་བསྐྲུན་འདི་བཀོག་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>བཟོ་བསྐྲུན་འདི་ མཇུག་གི་དཔེ་སྐྲུན་དང་འདྲཝ་ཨིན། དཔེ་སྐྲུན་འབད་ནི་ག་ནི་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>བཟོ་བསྐྲུན་འདི་བཀོག་ཡི། སྣོད་ཐུམ་ནང་ མཇུག་གི་དཔེ་སྐྲུན་འདི་ལོག་སྟེ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>སྔོན་སྒྲིག་ཚུ་ དྲྭ་ཚིགས་མང་ཤོས་ལུ་འཐདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>སྣོད་ཐུམ་ནང་ ད་ལྟོ་ཚུན་དཔེ་སྐྲུན་མ་འབད་བའི་བཟོ་བསྐྲུན་ཅིག་ཡོདཔ། བཟོ་བསྐྲུན་གསརཔ་ཅིག་གིས་ དེ་གི་ཚབ་བཙུགསཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>ལཱ་ཚུ་གི་སྣོད་ཐུམ་ནང་ འབྲི་མི་ཚུགས། %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ལཱ་འདི་ གྲ་སྒྲིག་འབད་མ་ཚུགས། %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ལཱ་འདི་ འགོ་བཙུགས་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ལཱ་འདི་མཇུག་བསྡུ་ཡི། དེ་གི་སྙན་ཞུ་མངོན་གསལ་འབད་དོ།</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ལཱ་འདི་ལུ་ ནང་འཛུལ་འབད་ཡོད་པའི་ལག་ལེན་པ་ཅིག་དགོ།</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ལཱ་འདི་འགོ་བཙུགས་ཡི་ ཨིན་རུང་ དེ་གི་ལས་སྦྱོར་ ID སྙན་ཞུ་མ་འབད། %detail བརྟག་ཞིབ་འབད།</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>ལྡེ་མིག</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>ཡིག་སྣོད་ཆེ་ཤོས། %path ། %size །</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>འབྲི་ནིའི་ཐིག་ཕྲེང་ཚུ།</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>འཚོལ་ཞིབ་འཕྲུལ་ཆས་ཀྱི་དོན་ལུ་ ཤོག་ལེབ་ཀྱི་ཐོ་ཡིག སྤྱི་གི་ཁ་བྱང་དགོ།</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>ཤོག་ལེབ་ཚུ་ ནང་མ་འཛུལ་བའི་འབྱོར་མི་ཅིག་གིས་མཐོང་དོ་བཟུམ་སྦེ་ལེནམ་ཨིན། བདག་སྐྱོང་དང་ཞུན་དག་གི་དྲྭ་ཚིགས་འཛུལ་སྒོ་ཚུ་ ནམ་ཡང་མི་བྱིན།</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>འཕེལ་རིམ་འདི་ རྗེས་འདེད་འབད་མ་ཚུགས། ལཱ་འདི་ག་དེ་སྦེ་འགྱོ་དོ་ག་བལྟ་ནིའི་དོན་ལུ་ ཤོག་ལེབ་འདི་ལོག་སྟེ་མངོན་གསལ་འབད།</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>ལྡེ་མིག་གི་སྤྱི་གི་ཕྱེད་ཀ།</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ཡལ་ག་གི་རྩ་བ།</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>གསང་བའི་མཛོད་འདི་ ད་ལྟོ་ཚུན་གཞི་སྒྲིག་མ་འབད། (./console exp:upgrade --apply གིས་ དེ་གི་ཐིག་ཁྲམ་བཟོཝ་ཨིན།) དེ་འབདཝ་ལས་ ལྡེ་མིག་བཞག་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>སར་བར་འདི་ རང་གིས་རང་ནང་འཛུལ་འབདཝ་ཨིན། (རང་སོའི་ SSH ལྡེ་མིག་ཡང་ན་ ངོ་སྤྲོད་ཡིག་ཆའི་རོགས་སྐྱོར།) ཡང་ན་ མཛོད་ཁང་འདི་ སར་བར་འདི་གུ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>སྒྲིག་བཀོད་འདི་འབྲི་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>སྒྲིག་བཀོད་ཚུ་ ནུས་ལྡན་ཨིན། ཐིག་ཕྲེང་འདི་ཚུ་འབྲི་འོང་།</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>སྒྲིག་བཀོད་ཡིག་སྣོད་འདི་ལྷག་མི་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>དྲྭ་ཚིགས་འདི་ དཔེ་སྐྲུན་དེ་གི་ཡིག་སྣོད་ཚུ་ལུ་ལོག་འགྱོཝ་ཨིན། ད་ལྟོ་ཚུན་དཔེ་སྐྲུན་མ་འབད་བའི་བཟོ་བསྐྲུན་ཅིག་ ཧེ་མ་དཔེ་སྐྲུན་འབད་དགོ་ ཡང་ན་ བཀོག་དགོ།</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>མེད་པའི་ཁ་བྱང་ཚུ་གི་དོན་ལུ་ དྲྭ་ཚིགས་རང་སོའི་ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>དམིགས་ཡུལ་འདི་ སྲུང་བཞག་འབད་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>དམིགས་ཡུལ་འདི་ ད་ལྟོ་ཚུན་ ལྡེ་མིག་འདི་གིས་ནང་འཛུལ་མི་འབད། དེ་གི་སྒྲིག་བཀོད་ནང་ &quot;དམིགས་ཡུལ་འདི་གི་དོན་ལུ་བཟོ་མི་བཀྲམ་སྤེལ་ལྡེ་མིག&quot; གདམ་ཁ་རྐྱབ།</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>དམིགས་ཡུལ་ཚུ་ལྷག་མ་ཚུགས། %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>ད་ལྟོ་ཚུན་ བརྟག་ཞིབ་འབད་ནིའི་བཟོ་བསྐྲུན་མེད།</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>གཞི་བཙུགས་འདི་ལུ་ མདུན་གྱི་དྲྭ་ཚིགས་འཛུལ་སྒོ་མེད། བདག་སྐྱོང་དང་ཞུན་དག་གི་དྲྭ་ཚིགས་འཛུལ་སྒོ་ཚུ་ ནམ་ཡང་དཔེ་སྐྲུན་མི་འབད།</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ཤོག་ལེབ་འདི་གིས་ ལཱ་འདི་འཕྲོ་མཐུད་དེ་འགྱོ་བའི་སྐབས་ རྗེས་འདེད་འབདཝ་ཨིན། ཤོག་ལེབ་ཁ་བསྡམས་རུང་ ལཱ་འདི་རྒྱབ་ལྗོངས་ལུ་འཕྲོ་མཐུད་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>དམིགས་ཡུལ་འདི་ལུ་ ད་ལྟོ་ཚུན་ བཀྲམ་སྤེལ་ལྡེ་མིག་མེད།</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>དམིགས་ཡུལ་འདི་ ནཱ་ལུ་ ད་ལྟོ་ཚུན་བཟོ་བསྐྲུན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>དམིགས་ཡུལ་འདི་ལུ་ གཅིག་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>བཟོ་བསྐྲུན་འདི་བཀོགཔ་ཨིན། སྣོད་ཐུམ་ནང་ མཇུག་གི་དཔེ་སྐྲུན་འདི་ལོག་སྟེ་ཡོདཔ་ཨིན། ཐད་ཀར་དྲྭ་ཚིགས་འདི་མི་འགྱུར།</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>ཧེ་མ་ &quot;ང་གིས་བསྒྱུར་བཅོས་ཚུ་བརྟག་ཞིབ་འབད་ཡི།&quot; ལུ་རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>དུས་ཚོད།</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>འགོ་བཙུགས་ཐབས།</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>རྟགས་བཀལ་གྱི་མིང་འདི་ ལོག་སྟེ་ཡིག་དཔར་རྐྱབ།</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>མ་བསྒྱུར་བ།</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ཝེབ་ཧུཀ།</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ག་ཅི།</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>ག་ཅི་བསྒྱུར་ནི།</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ཡིག་སྣོད་རེ་རེ་ག་ཅི་ཨིན་ན། ཨ་རྟག་ར་འབྲིཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>ལཱ་འདི་གིས་ག་ཅི་འབད་ཡི་ག་དང་ དེ་གི་ཐོ། ནཱ་ལས་འགོ་བཙུགས་མི་ལཱ་ཅིག་ ཤོག་ལེབ་འདི་ཁ་བསྡམས་རུང་ རྒྱབ་ལྗོངས་ལུ་འཕྲོ་མཐུད་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>ལཱ་འདི་གིས་ འཛོལ་བ་སྦེ་དཔར་བསྐྲུན་འབད་མི།</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>ཤོག་ལེབ་ཚུ་གིས་ མིང་བཏགས་མི་དང་ དཔེ་སྐྲུན་འབད་ཡོད་པའི་ནང་དོན་གྱི་པར་རེ་རེ།</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ནམ།</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>དཔེ་སྐྲུན་ཅིག་འཐུས་ཤོར་བྱུང་པ་ཅིན།</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>དཔེ་སྐྲུན་ཅིག་མཐར་འཁྱོལ་བྱུང་པ་ཅིན།</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>ནང་དོན་དཔེ་སྐྲུན་འབད་བའི་སྐབས།</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>འདྲ་བཤུས་ནང་མེད་མི་ལུ་ (འཚོལ་ཞིབ་ ནང་འཛུལ།) འབྲེལ་ཐག་ཚུ་ ག་ཏེ་ལུ་འགྱོཝ་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>བརྟན་པའི་འདྲ་བཤུས་འདི་ ག་ཏེ་ལས་བྱིནམ་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>དྲྭ་ཚིགས་ག་འདི་དཔེ་སྐྲུན་འབདཝ་ཨིན་ན་དང་ དམིགས་ཡུལ་འདི་ལུ་མིང་ག་ཅི་ཟེརཝ་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>ལམ་ཐིག་ག་ཅི་ཨིན་རུང་གི་འོག་ལུ་ལཱ་འབདཝ་ཨིན། སྔོན་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>རང་སོའི་ཌོ་མེན་ཅིག་གཞི་སྒྲིག་འབད་བའི་སྐབས་ར་ འབྲིཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ཨིན།</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>ཁྱོད་ཀྱིས་ ནཱ་དང་ཀོན་སོལ་གུ་ ཨ་རྟག་ར་ ལག་ཐོག་ལས་བཟོ་ནི་དང་དཔེ་སྐྲུན་འབད་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>མིང་རྐྱངམ་ཅིག གནས་གོང་འདི་ སྒྲིག་བཙུགས། &gt; གསང་བ། ནང་ལུ་སྡོདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path གི་འོག་ལུ།</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>སྙན་ཞུ་མེད་པར་མཇུག་བསྡུ་ཡི།</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ཁ་སྐོང་།</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>འཐུས་ཤོར།</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ཡིག་སྣོད།</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages ཡང་ན་ སྣོད་ཐུམ་ docs དང་གཅིག་ཁར་ main །</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git བདག་འཛིན་པ།</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ཊོ་ཀེན་དང་གཅིག་ཁར་) ཡང་ན་ git@github.com:owner/repo.git (བཀྲམ་སྤེལ་ལྡེ་མིག་དང་གཅིག་ཁར་) དེ་ནང་ ཆོག་ཚིག་ཡང་ན་ཊོ་ཀེན་ནམ་ཡང་མ་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/ དྲྭ་ཚིགས་ས་ཁྲ་དང་ ཚད་ལྡན་འབྲེལ་ཐག་ཚུ་གི་དོན་ལུ།</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>པར།</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ནམ་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>མེན།</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ཐག་རིང་མེད།</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>མེདཔ། བཀོད་སྤྲོད་ཚུ་ སྣོད་ཐུམ་ནང་སྡོདཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>མེདཔ། ག་ནི་ཡང་མ་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>འཕུལ་གཏང་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ག་ནི་ཡང་མ་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>མཐར་འཁྱོལ།</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ལག་ལེན་མ་འཐབ་པའི་སྦེ་ཡོདཔ་ལས་ ནཱ་ལུ་ ལཱ་འགོ་བཙུགས་མི་ཚུགས། སར་བར་གུ་ ./console exp:static:build ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>དཔེ་སྐྲུན།</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>དཔེ་སྐྲུན་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>འཕུལ་གཏང་བསྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>འཕུལ་གཏང་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ངོས་ལེན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>ཕྱོགས་སྟོན།</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>རྒྱབ་ལོག</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>རྒྱབ་ལོག་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>གཡོག་བཀོལ་དོ།</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>སྣོད་ཐུམ་རྐྱངམ་ཅིག</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: ཡིག་སྣོད་ CNAME ནང་འབྲིཝ་ཨིན། ཌོ་མེན་གྱི་ DNS འདི་ བདག་འཛིན་པ་གིས་འགྲེལ་བཤད་བརྐྱབ་དོ་བཟུམ་སྦེ་ དེ་ལུ་ཕྱོགས་སྟོན་འབད། HTTPS འགོ་བཙུགས་ནི་ལུ་ དུས་ཡུན་ཅུང་ཅུང་འགོརཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ཨིན། ད་ལྟོ་ཚུན་དཔེ་སྐྲུན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App ཅིག</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>མཛོད་ཁང་གི་ལཱ་གི་རྒྱུན་རིམ་ཅིག་གིས་ དེ་དཔེ་སྐྲུན་འབདཝ་ཨིན། བཟོ་བསྐྲུན་གྱིས་ ལཱ་གི་རྒྱུན་རིམ་ཡིག་སྣོད་འབྲིཝ་ཨིན། སྣོད་འཛིན་སྟོངམ་སྦེ་བཞག</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub མཛོད་ཁང་དང་ ཊོ་ཀེན་ ཡང་ན་ GitHub App དང་གཅིག་ཁར་ དམིགས་ཡུལ་སྲུང་བཞག་འབད་ཞིནམ་ལས་ རིམ་པ་འདི་གིས་ མཛོད་ཁང་བཟོ་ནི་དང་ GitHub Pages ཁ་ཕྱེ་ཚུགས། དེ་མེན་པ་ཅིན་ ཧེ་མ་ GitHub གུ་ མཛོད་ཁང་བཟོ། སྟོངམ་ཅིག་ཨིན་རུང་ལེགས།</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ཡལ་ག་ ཡང་ན་ GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS བརྟག་ཞིབ་འབད།</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>མཛོད་ཁང་མེད་པ་ཅིན་ བཟོ།</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub གུ་ མཛོད་ཁང་བཟོ་སྟེ་ དེ་གི་སྒྲིག་བཀོད་ནང་ GitHub Pages ཁ་ཕྱེ། (Settings &gt; Pages)</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>མཛོད་ཁང་ %repo མེད་པ་ཅིན་ (ཞུ་བ་འབད་བ་ཅིན་) བཟོཝ་ཨིན། སྲུང་བཞག་འབད་མི་ལྟར་ ཡལ་ག་ལས་ ཡང་ན་ GitHub Actions ལས་ GitHub Pages ཁ་ཕྱེཝ་ཨིན། རང་སོའི་ཌོ་མེན་དང་ HTTPS གཞི་སྒྲིག་འབདཝ་ཨིན། སྲུང་བཞག་འབད་ཡོད་པའི་སྒྲིག་བཀོད་ལག་ལེན་འཐབ་ཨིན། ཧེ་མ་ བསྒྱུར་བཅོས་ཚུ་སྲུང་བཞག་འབད།</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub གུ་ རྒྱས་བཤད།</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>ཧེ་མ་ རང་སོའི་ཌོ་མེན་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>push རེ་རེ་ ཧེ་མ་ ཚད་གཞི་འདི་ཚུ་དང་བསྟུན་ཏེ་ བརྟག་ཞིབ་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub གུ་ https:// ཁ་བྱང་ཅིག་གི་དོན་ལུ། གཞི་བཙུགས་འདི་གི་དོན་ལུ་ སྒྲིག་ཡོད་པའི་ App གིས་ ནང་འཛུལ་འབདཝ་ཨིན། དེ་ལུ་ གཞི་བཙུགས་ id དགོ།</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages གིས་ སྒེར་གྱི་མཛོད་ཁང་ རིན་སྤྲོད་འཆར་གཞི་ནང་རྐྱངམ་ཅིག་ བྱིནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: ཡན་ལག་ཌོ་མེན་ (www.example.com) ལུ་ &lt;owner&gt;.github.io ལུ་ CNAME ཐོ་ཅིག་དགོ། རྩ་བའི་ཌོ་མེན་ (example.com) ལུ་ A ཐོ་ %ips དགོ།</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App གི་ གཞི་བཙུགས་ id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>མཇུག་གི་ Pages བཟོ་བསྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>ཚད་གཞི་དང་ ཆ་རྐྱེན།</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>རིན་མེད་འཆར་གཞི་ནང་ GitHub Pages གི་དོན་ལུ་ དགོཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub གུ།</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App དང་གཅིག་ཁར་རྐྱངམ་ཅིག: GitHub གུ་ App གི་གཞི་བཙུགས་ཀྱི་ཁ་བྱང་མཇུག་ལུ་ཡོད་པའི་ཨང་། App རང་སོ་ staticcache.ini ནང་ གཞི་སྒྲིག་འབདཝ་ཨིན། (GitHubAppId, GitHubAppKey)</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>སྒེར།</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>མང་ཚོགས།</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>ཧེ་མ་ GitHub མཛོད་ཁང་དང་ ཊོ་ཀེན་ ཡང་ན་ GitHub App དང་གཅིག་ཁར་ དམིགས་ཡུལ་སྲུང་བཞག་འབད།</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ཐོ་འདི་ཚུ་ ཌོ་མེན་གྱི་མཁོ་སྒྲུབ་པ་ལུ་ གཞི་སྒྲིག་འབད།</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub གུ་ སྒྲིག་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain གི་ DNS འདི་ ད་ལྟོ་ཡང་ GitHub Pages ལུ་ སྟོན་མི་འདུག</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain གི་ DNS འདི་ GitHub Pages ལུ་ སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub མཉམ་བསྡོམས་ ནཱ་ལུ་ མིན་འདུག: %problem། ཡལ་ག་ལུ་ དཔེ་སྐྲུན་འདི་ ད་རུང་ལཱ་འབདཝ་ཨིན། མཛོད་ཁང་གི་སྒྲིག་བཀོད་ནང་ GitHub Pages ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>དམིགས་ཡུལ་འདི་གི་དོན་ལུ་ GitHub རིམ་པ་ཚུ་ མིན་འདུག: %problem།</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>ངོ་སྤྲོད་ཡིག་ཆ་སྦེ་ ཊོ་ཀེན་ ཡང་ན་ GitHub App ཡོད་པ་ཅིན་ GitHub Pages གི་གནས་སྟངས་སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>ཁྱོད་རང་གི་ཌོ་མེན་ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>ག་འདི་གདམ་ནི: ཊོ་ཀེན་ བཀྲམ་སྤེལ་ལྡེ་མིག་ ཡང་ན་ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub མཛོད་ཁང་དང་ ཊོ་ཀེན་ ཡང་ན་ GitHub App དང་གཅིག་ཁར་ ལམ་སྟོན་པ་གིས་ ཁྱོད་ཀྱི་དོན་ལུ་ མཛོད་ཁང་བཟོ་ནི་ GitHub Pages ཁ་ཕྱེ་ནི་ ཌོ་མེན་གཞི་སྒྲིག་འབད་ནི་ཚུ་ འབད་ཚུགས། (རིམ་པ་ 4)</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>བཟོ་བསྐྲུན་འབད་དོ།</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>བཟོ་བསྐྲུན་འབད་ཚར་ཡི།</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions ལས།</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ཡལ་ག་ %branch ལས།</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ད་ལྟོ་ཚུན་ མེད།</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>མ་ཐོབ།</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ཁ་བསྡམས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>སྒེར།</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>མང་ཚོགས།</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>གྲལ་རིམ་ནང་།</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>མ་ཤེས།</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>ཤོག་ལེབ་ %pages ནང་ %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ཚིག་ཡིག་ཡིག་སྣོད་རེ་རེའི་ཁ་བསྒྲིགས་ལུ་ .gz (དང་ .br) ཡིག་སྣོད་གཅིག དེ་ཚུ་བྱིན་མི་ཧོསཊ་ཚུ་གི་དོན་ལུ།</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>ཤོག་ལེབ་གི་ཁ་བྱང་རྙིང་པ་དང་མིང་གཞན་རེ་རེའི་དོན་ལུ་ཤོག་ལེབ་ཆུ་ཆུ་གཅིག རྙིང་པའི་འབྲེལ་ཐག་ཚུ་ལཱ་འབད་བཞུགས་ནིའི་དོན་ལུ།</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions གིས་དྲྭ་ཚིགས་བྱིན་པའི་སྐབས་ རྒྱུན་དུ་ཡིག་ཚུགས་འབད་དོ།</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 བཟུམ་མའི་ SPDX id ཅིག ཡང་ན་ ཚིག་ཡིག་རང་ཉིད།</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>ཐགས་སྒམ།</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>སར་བར་ལུ་འབོད་བརྡ།</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>བསམ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>ཆ་འཕྲིན་བསྡུ་མི་འབྲི་ཤོག</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions ལས་རིམ།</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>ཤོག་ལེབ་ནང་སྟོངམ་ཉུང་ཚད་དང་བསམ་བཀོད་མེད།</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>ནང་དོན་གྱི་ཆོག་ཐམ།</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ནང་འཛུལ།</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>ཆུང་ཅུང་བཟོ།</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>འབྲི་ཤོག་གཞན།</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>སྔོན་ལས་བསྡུ།</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>བསྐྱར་གཏོང་ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>བསྐྱར་གཏོང་ཤོག་ལེབ། %count།</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>འཚོལ།</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>འཚོལ་ཞིབ་ཐོ་གཞུང་། %languages ནང་ཤོག་ལེབ་ %pages།</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>ནང་དོན་གྱི་ hash གིས་མིང་བཏགས་མི་བཟོ་རྣམ་ཤོག་ལེབ་དང་ཡིག་རྒྱུན། བརྡ་འཚོལ་ཆས་ཚུ་གིས་སྲུང་བཞག་འབད་ཚུགསཔ་ཨིན་ནིའི་དོན་ལུ།</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>འགྱུར་བ་བཏང་མི་ཤོག་ལེབ། མཇུག་གི་འགྱུར་བ་གི་ཐུན་མི་ནི་ཅུང་ཚད་ཅིག་ཤུལ་ལུ། (cronjob ཆ་ཤས་ staticpublish)།</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>ནང་དོན་གྱི་ཆོག་ཐམ། འོག་གི་ཐིག་ལས།</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>དྲྭ་ཚིགས་ཆ་མཉམ། ལས་རིམ་གྱི་ཆུ་ཚོད་ལུ། (cronjob ཆ་ཤས་ staticpublish)།</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>ཤོག་ལེབ་གི་ཆ་ཤས་འདི་ཚུ་ལུ་སར་བར་དགོཔ་ཨིན། རེ་རེ་ལུ་ཚབ་གཅིག་ཐོབ་ཡོདཔ། དཔེ་སྐྲུན་མ་འབད་བའི་ཧེ་མར་ཞིབ་དཔྱད་འབད།</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>ངེས་པར་ལུ་ལཱ་མི་འབད་མི།</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>མཛོད་ཁང་དེ་ག་ཅི་ཨིན་ན། ཧོསཊ་ལུ་ཁ་ཕྱེ་མི་ལུ།</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ཕྱིར་བཞག་ཡོད།</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ཚབ་ཚིག་ཡིག།</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>ཐད་ཀར་དྲྭ་ཚིགས་ཀྱི་འབྲི་ཤོག་མཇུག་ཚད།</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>ཐད་ཀར་དྲྭ་ཚིགས།</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>འདྲ་བཤུས་ཀྱི་འཚོལ་ཞིབ་ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>འབྲི་ཤོག་འདི་གཏང་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>ཐུགས་རྗེ་ཆེ། འབྲི་ཤོག་གཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>འབྲི་ཤོག་འདི་ངོས་ལེན་མ་འབད། ཁྱོད་ཀྱིས་བྲིས་མི་ལུ་ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ལོག་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>འདྲ་བཤུས་ནང་མེད་པའི་ཤོག་ལེབ་ཚུ་ལུ་འབྲེལ་མཐུད་ཚུ་བཏོན་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>བདག་སྐྱོང་ལུ་འགྱོ་མི་འབྲེལ་མཐུད་ཚུ་བཏོན་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>དེ་ཚུ་གི་ཡིག་འབྲུ་ལུས་འོང་། པར་དང་འབྲི་ཤོག་ དེ་ལས་ས་ཁོངས་གཞན་ཚུ་ལུ་འབྲེལ་མཐུད་ཚུ་ནམ་ཡང་མི་བཏོན།</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ཐོན་རིམ།</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>དཔར་བསྐྲུན་འབད་ནི་གི་དྲྭ་ཚིགས་འཛུལ་སྒོ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ།</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>རྩ་བ་ནང་།</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>རྩ་བ་ནང་དྲྭ་ཚིགས་འཛུལ་སྒོ་མེད། རེ་རེ་རང་གི་སྣོད་འཛིན་ནང་ཡོད་ཞིནམ་ལས་ རྩ་བ་གིས་དེ་ཚུ་ལུ་འབྲེལ་མཐུད་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ་གཅིག་ ཡང་ན་ URI སྔོན་ཚིག་ཐོག་ལས་ཧོསཊི་གཅིག་མཉམ་སྤྱོད་འབད་མི་ལེ་ཤ་གདམ་ཁ་རྐྱབ། རྩ་བ་ནང་ཡོད་མི་དེ་ཕར་སྤྲོདཔ་ཨིན། གཞན་ཚུ་རང་གི་སྔོན་ཚིག་གི་སྣོད་འཛིན་ནང་ (/ger/)། དེ་ཚུ་གི་བར་ན་ཡོད་པའི་འབྲེལ་མཐུད་འདྲ་བཤུས་ནང་སྡོདཔ་ཨིན། བདག་སྐྱོང་གི་དྲྭ་ཚིགས་འཛུལ་སྒོ་ནམ་ཡང་མི་བྱིན།</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site གུ་ %target གི་བརྟན་པའི་དཔེ་བསྐྲུན་འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site གུ་ %target གི་བརྟན་པའི་དཔེ་བསྐྲུན་མཐར་འཁྱོལ་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>བརྟན་པའི་དཔེ་བསྐྲུན་གྱི་དམིགས་གཏད་ %target གིས་ཞུ་བ་འབད་མི་ལས་ %site གིས་ཡིག་འཕྲིན་འདི་བཏང་ཡི།</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%site གུ་ བཀྲམ་སྤེལ་ %deploy འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%site གུ་ བཀྲམ་སྤེལ་ %deploy སྒོ་ཁར་སྒུག་སྡོད་དོ།</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%site གུ་ བཀྲམ་སྤེལ་ %deploy མཐར་འཁྱོལ་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>ཡིག་འཕྲིན་འདི་ %site གིས་ བཏང་ཡི། རྒྱུ་མཚན་ migration.ini [RemoteSettings] Notify[] གིས་ དེ་སྦེ་ ཞུ་ནི་ཨིན།</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>གནད་སྡུད་རིགས། (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time ལུ་བརྩིས་ཡོདཔ། སྐར་མ་ %minutes ཤུལ་ལས་ལོག་སྟེ་བརྩི་འོང་།</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>གནད་སྡུད་རིགས་ཅིག་གིས་ རིགས་ཀྱི་ངོ་བོའི་ཁྱད་ཆོས་ཀྱི་གནས་གོང་རིགས་ཅིག་ བསག་འཇོག་དང་ཞུན་དག་འབདཝ་ཨིན། དཔེར་ན་ ཡིག་ཐྲིག་ཅིག་ པར་ཅིག་ འབྲེལ་བ་ཅིག། ཀེར་ནཱལ་གྱིས་ དེ་ཚུ་གི་མང་ཤོས་ཅིག་བྱིནམ་ཨིན། རྒྱ་སྐྱེད་ཚུ་གིས་ ཧེང་བཀལ་ཁ་སྐོང་འབདཝ་ཨིན། ནཱ་ལུ་ དེ་ཚུ་ཆ་མཉམ་ དེ་ཚུ་ག་གིས་བྱིནམ་ཨིན་ན་ དེ་ལས་ ནང་དོན་ག་དེ་ཅིག་གིས་ ལག་ལེན་འཐབ་ཨིན་ན་ཡོདཔ་ཨིན། གནད་སྡུད་གཞི་རྟེན་གྱིས་ལག་ལེན་འཐབ་རུང་ ད་ལས་ཕར་ ག་གིས་ཡང་ཐོ་མ་བཀོད་མི་ གནད་སྡུད་རིགས་ཅིག་གིས་ དེ་ཡོད་པའི་ནང་དོན་ཆ་མེད་བཟོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>རིགས་ཚོགས།</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>སྐར་མ་མཇུག་མའི་གྱངས་ཁ་ལག་ལེན་འཐབ་ནི་གི་ཚབ་ལུ་ ད་ལྟོ་ལོག་སྟེ་བརྩི།</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>ལོག་སྟེ་བརྩི།</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>སྤྱིར་བཏང་མཐོང་སྣང་།</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>ཐོ་བཀོད་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>ལག་ལེན་འཐབ་དོ།</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ལག་ལེན་མ་འཐབ་པས།</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>གནད་སྡུད་རིགས་བྱིན་མི་རྒྱ་སྐྱེད།</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>རིགས་ཀྱི་ངོ་བོའི་ཁྱད་ཆོས།</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>དངོས་པོའི་ངོ་བོའི་ཁྱད་ཆོས།</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>ཐོ་མ་བཀོད་པ།</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>ཐོ་ཡོད། ཡིག་སྣོད་མེད།</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>གནད་སྡུད་རིགས་ %count ལག་ལེན་འཐབ་རུང་ ཐོ་མ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>རིགས་ཀྱི་ངོ་བོའི་ཁྱད་ཆོས་ %class_attributes དང་ དངོས་པོའི་ཁྱད་ཆོས་ %object_attributes ལུ་ རྒྱ་སྐྱེད་ཡང་ན་སྒྲིག་སྟངས་ག་གིས་ཡང་ཐོ་མ་བཀོད་པའི་ གནད་སྡུད་རིགས་ཅིག་ཡོད། དེ་ཚུ་གི་དངོས་པོ་ཚུ་ སྟོན་ནི་ ཞུན་དག་འབད་ནི་ ཡང་ན་ དཔར་བསྐྲུན་འབད་མི་ཚུགས། གནད་སྡུད་རིགས་བྱིན་མི་རྒྱ་སྐྱེད་ཤུགས་ལྡན་བཟོ་ ཡང་ན་ རིགས་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>འདི་ཚུ་རྐྱངམ་ཅིག་སྟོན།</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>གནད་སྡུད་རིགས་འཚོལ།</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>ངོས་འཛིན་ མིང་ PHP རིགས་ ཡང་ན་ རྒྱ་སྐྱེད།</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>སྟོན།</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>བྱིན་མི།</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>ཀེར་ནཱལ།</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ཚགས་མ་འདི་དང་མཐུན་པའི་གནད་སྡུད་རིགས་མེད།</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ཆ་མཉམ་སྟོན།</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>རྒྱ་སྐྱེད།</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>གནད་སྡུད་རིགས་ %count ལས་ %shown། %used ལག་ལེན་ནང་།</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>གནད་སྡུད་གཞི་རྟེན་ནང་ གནད་སྡུད་རིགས་འདི་ཚུ་གི་ རིགས་ཡང་ན་དངོས་པོའི་ཁྱད་ཆོས་ཚུ་ཡོད་རུང་ content.ini གིས་ དེ་ཚུ་ལས་གཅིག་ཡང་ཐོ་མ་བཀོད་ ཡང་ན་ དེའི་ཡིག་སྣོད་མེད།</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider གི་གནད་སྡུད་རིགས།</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>གནད་སྡུད་རིགས།</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP རིགས་དང་ཡིག་སྣོད།</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>རིགས།</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>དངོས་པོ།</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>རྟགས།</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>མེདཔ།</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>འཚོལ་ཞིབ་དང་མཐུན་པའི་གནད་སྡུད་རིགས་མེད། འཚོལ་ཞིབ་བསལ།</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>གནད་སྡུད་རིགས་ %count ལས་ %shown སྟོན་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>སྟོན་ཡོད་པའི་གནད་སྡུད་རིགས། %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column གིས་གོ་རིམ་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time ལུ་བརྩིས་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>གནད་སྡུད་རིགས་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>རོགས་པའི་ཤོག་ལེབ།</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>གནད་སྡུད་རིགས་འདི་ལག་ལེན་འཐབ་རུང་ ཐོ་མ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>རྒྱ་སྐྱེད་ག་གིས་ཡང་ གནད་སྡུད་རིགས་ཐོ་མ་བཀོད་ཚུན་ཚོད་ འོག་གི་རིགས་ཚུ་གི་དངོས་པོ་ཚུ་ སྟོན་ནི་ ཞུན་དག་འབད་ནི་ ཡང་ན་ དཔར་བསྐྲུན་འབད་མི་ཚུགས། དེ་བྱིན་མི་རྒྱ་སྐྱེད་ཤུགས་ལྡན་བཟོ་སྟེ་ content.ini [DataTypeSettings] AvailableDataTypes[] ནང་ཁ་སྐོང་རྐྱབ་ ཡང་ན་ རིགས་ཚུ་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini གིས་ གནད་སྡུད་རིགས་འདི་ཐོ་བཀོད་ཡོད་རུང་ གནད་སྡུད་རིགས་ཀྱི་སྣོད་ཐོ་ག་ནང་ཡང་ དེའི་ཡིག་སྣོད་མེད། དེ་ག་གིས་ཡང་ལག་ལེན་མི་འཐབ། AvailableDataTypes[] ནང་ལས་ རྩ་བསྐྲད་གཏང་ ཡང་ན་ དེའི་རྒྱ་སྐྱེད་ཤུགས་ལྡན་བཟོ།</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>གནད་སྡུད་རིགས་འདི་གི་སྐོར།</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>ངོས་འཛིན་རྟགས།</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>མིང་།</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>རྒྱ་སྐྱེད། %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ག་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP རིགས།</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ཡིག་སྣོད།</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] ནང་།</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ཨིན།</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>མེན།</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>དེའི་གནས་གོང་གི་ཀེ་ལམ།</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>དེའི་རིགས་ཀྱི་ངོ་བོའི་ཁྱད་ཆོས་སྒྲིག་སྟངས་ཀྱི་ཀེ་ལམ།</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>ཐེམ་ཐོ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>ཀེ་ལམ་དང་ཐིག་ཁྲམ་ཚུ་ གནད་སྡུད་རིགས་ཀྱི་ཨང་རྟགས་ལྷག་སྟེ་ཐོབ་ཡོདཔ་ཨིན། ལམ་སྟོན་ཅིག་ཨིན་ ཁས་བླངས་མེན།</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>ཊེམ་པ་ལེཊ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>དྲྭ་ཚིགས་འཛུལ་སྒོ།</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>ཊེམ་པ་ལེཊ།</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>ཡོད་སའི་ས།</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>བདག་སྐྱོང་འདི།</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>སྔོན་སྒྲིག་དྲྭ་ཚིགས།</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ཚབ་བཙུགས་མེད་པར། རིགས་ཡང་ན་ཁྱད་ཆོས་དང་མཐུན་པའི་ ཚབ་བཙུགས་ཊེམ་པ་ལེཊ་ཅིག་ འདི་ཚུ་ལས་གཙོ་རིམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>དེ་ལག་ལེན་འཐབ་མི་རིགས། (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>རིགས་ག་ནང་ཡང་ གནད་སྡུད་རིགས་འདི་གི་ཁྱད་ཆོས་མེད།</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>རིགས།</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>ངོ་བོའི་ཁྱད་ཆོས།</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>རིགས་ཀྱི་ངོ་བོའི་ཁྱད་ཆོས། (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>ངོ་བོའི་ཁྱད་ཆོས།</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>སྒྲིག་བཀོད།</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>ངེས་པར་དགོཔ།</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>འཚོལ་ཚུགསཔ།</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>ཡིག་སྒྱུར་འབད་ཚུགསཔ།</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>བརྡ་དོན་བསྡུ་ཚོགས་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>དེ་ལག་ལེན་འཐབ་མི་ནང་དོན་ལ་ལོ།</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>མཇུག་ལུ་བསྒྱུར་བཅོས་འབད་མི་ཧེ་མ།</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>བསྒྱུར་བཅོས་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>མདུད་ཚིག %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>སྐད་བསྒྱུར་རེ་རེ་ལུ་ རང་སོའི་གནས་གོང་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>འཚོལ་ཞིབ་ཀྱིས་ དེའི་གནས་གོང་ཚུ་ཟུར་ཐོ་བཟོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>དེ་གིས་ ལྟ་བཤལ་པ་ཚུ་ལས་ བརྡ་དོན་བསྡུ་ལེན་འབད་ཚུགས། (འབྲི་ཤོག)</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>ཐོ་ཡིག་ཚུ་ དེ་ལྟར་དུ་རིམ་སྒྲིག་འབད་ཚུགས། རིམ་སྒྲིག་ལྡེ་མིག་ %type།</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>གོ་རིམ་སྒྲིག་ཚུགསཔ།</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>དེའི་གནས་གོང་ཚུ་གིས་ དངོས་པོ་གཞན་ཚུ་ལུ་སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>འབྲེལ་བ།</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>དེ་ ཡིག་རྒྱུན་སྤྱིར་བཏང་ལས་བཀང་ཚུགས། (ནང་འདྲེན། REST)</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>ཡིག་ཆ་ལས།</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>དེ་ ཡིག་སྣོད་ལས་བཀང་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ཡིག་སྣོད་ལས།</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>དེའི་རིགས་ཀྱི་ངོ་བོའི་ཁྱད་ཆོས་སྒྲིག་སྟངས་ཚུ་ ཐུམ་སྒྲིལ་ནང་འགྱོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>ཐུམ་སྒྲིལ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>ནང་དོན། ( %count )</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count ལས་ %from ལས་ %to ཚུན།</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ཐོ་ཡིག་འཚག་འདེམས་འབད།</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>རིགས་ཆ་མཉམ།</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>སྡེ་ཚན།</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>སྐད་ཡིག་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>བདག་པོ།</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>དཔེ་སྐྲུན་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>གོ་རིམ་ལོག་སྒྱུར།</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>རྣམ་གྲངས་མེད།</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ཤོག་ལེབ་རེ་རེ་ལུ།</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ཤོག་ལེབ་རེ་རེ་ལུ་རྣམ་གྲངས་ %count སྟོན།</translation>
     </message>
 </context>
 </TS>

@@ -12,10 +12,25 @@ type: help
 Diese Seite richtet sich an Integratoren, deren Landschaft **mehrere Exponential-Installationen** umfasst, die Inhalte
 teilen müssen: eine Konzernwebsite und die Websites ihrer Mitglieder, ein Portalnetzwerk, ein zentraler Produktkatalog,
 der in mehreren Shops veröffentlicht wird. Die Erweiterung `syndication` (von der `composer.json` im
-Wurzelverzeichnis als `~1.3.10` verlangt) exportiert einen Teil des Inhaltsbaums einer Installation als Feed und lässt
+Wurzelverzeichnis als `~1.3.14` verlangt) exportiert einen Teil des Inhaltsbaums einer Installation als Feed und lässt
 eine andere Installation ihn importieren, per Cron im Gleichschritt gehalten. Die Funktionsseite ist
 [syndication](../../funktionen/6.0/erweiterungen/syndication.md); jede Option steht in der
 [Spezifikation](../../spezifikationen/6.0/syndikation.md).
+
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hosting/control-panels/plesk.md), [cPanel](../hosting/control-panels/cpanel.md), [DirectAdmin](../hosting/control-panels/directadmin.md), [ISPConfig](../hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
 
 ## Inhalt
 
@@ -35,7 +50,7 @@ eine andere Installation ihn importieren, per Cron im Gleichschritt gehalten. Di
    |  cronjob part export_feed                          ^  cronjob part import_feed
    v                                                    |
  cached XML + binary files, one file per object  --->  SOAP request to the main installation
- served through soap.php (EnableSOAP=true)
+ served through index_soap.php (EnableSOAP=true)
 ```
 
 - **Syndizierung in eine Richtung**: gemeinsame Inhalte oder Authentifizierungsdaten zwischen getrennten Datenbanken
@@ -59,6 +74,14 @@ Auf **beiden** Installationen:
    SOAPExtensions[]=syndication
    ```
 
+3. Lassen Sie den SOAP-Server durch den Webserver der exportierenden Seite. Er heißt seit Exponential 6.0.15
+   `index_soap.php` (vorher `soap.php`; dieser Name leitet nur noch weiter): Nehmen Sie in der `.htaccess` das
+   Kommentarzeichen vor `RewriteRule ^index_soap\.php - [L]` weg, oder ergänzen Sie die Zeile im HTTPS-Virtual-Host,
+   oder eine `location = /index_soap.php` in nginx. `curl -i https://<host>/index_soap.php` muss mit „only understand
+   POST methods“ antworten, nicht mit `404` oder einer Seite der Website. Die Zeilen für jeden Server und den
+   vollständigen Test finden Sie unter
+   [Das SOAP-Einstiegsskript heißt jetzt index_soap.php](../../bc/6.0/soap-einstiegsskript-index-soap.md).
+
 Auf der **Hauptinstallation**: Öffnen Sie `/syndication/menu`, wählen Sie **Export**, dann **New Feed** und schließen
 Sie den Assistenten ab. Eine Teilbaumquelle schließt die Wurzel des Teilbaums ein. Planen Sie den Export-Teil ein;
 alle 3 Minuten wird empfohlen:
@@ -68,7 +91,8 @@ php runcronjobs.php export_feed
 ```
 
 Auf der **zweiten Installation**: Öffnen Sie `/syndication/menu`, wählen Sie **Import**, geben Sie die Serveradresse
-des Feeds und den Knoten an, der die Inhalte aufnimmt, und führen Sie den Import-Teil zuerst von Hand aus:
+des Feeds (`https://export.example.com/index_soap.php`, oder `.../soap.php`, wenn die Hauptinstallation 6.0.14 oder
+älter betreibt) und den Knoten an, der die Inhalte aufnimmt, und führen Sie den Import-Teil zuerst von Hand aus:
 
 ```bash
 php runcronjobs.php import_feed
@@ -81,8 +105,8 @@ Prüfen Sie den ersten Import und planen Sie ihn dann ein. Nach dem ersten Lauf 
 Seit 1.2.0 sendet der Import einen Login und ein Passwort, sodass der SOAP-Endpunkt der exportierenden Website hinter
 einer HTTP-Zugriffskontrolle liegen kann. Geben Sie sie in der Serveradresse an (`https://<login>:<password>@<host>/`)
 oder in den Feldern **Login** und **Password** im ersten Schritt des Imports. Der Port ist für `https` standardmäßig
-443. Halten Sie diese Zugangsdaten aus der Versionskontrolle heraus und beschränken Sie `soap.php` am Webserver auf die
-Adressen der importierenden Installationen.
+443. Halten Sie diese Zugangsdaten aus der Versionskontrolle heraus und beschränken Sie `index_soap.php` (und `soap.php`,
+solange ein Import es noch aufruft) am Webserver auf die Adressen der importierenden Installationen.
 
 ## Betreiben
 

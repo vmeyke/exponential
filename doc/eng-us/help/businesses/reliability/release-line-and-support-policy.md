@@ -40,8 +40,8 @@ receive a fix is to upgrade within the line. If you run 5.x or older, plan an up
 
 ## The 6.0.x releases so far
 
-Exponential 6.0.0 was released on 1 January 2024 and 6.0.14 on 7 June 2026; the 6.0.15 line is in development, and
-its changelog says "Not released yet" ([Who is 7x?, the 6.0.x releases](../../who-is-7x.md#the-60x-releases),
+Exponential 6.0.0 was released on 1 January 2024 and 6.0.14 on 7 June 2026; 6.0.15 is the current line, and
+its changelog lists what it contains ([Who is 7x?, the 6.0.x releases](../../who-is-7x.md#the-60x-releases),
 [6.0.15 changelog](../../../../changelogs/6.0/6.0.15.md)).
 
 Releases that matter for planning, from
@@ -49,7 +49,7 @@ Releases that matter for planning, from
 
 | Release | Why it matters |
 |---|---|
-| 6.0.7 | The last release for PHP 7.4 |
+| 6.0.7 | The last release for PHP 7.4 until 6.0.15 |
 | 6.0.8 | Needs PHP 8.1 |
 | 6.0.10 | The first release named Exponential |
 | 6.0.13 | Security fixes and sort column checks |
@@ -83,8 +83,8 @@ From the [README, "What version of PHP is required"](https://github.com/se7enxwe
 
 | PHP | Exponential 6 |
 |---|---|
-| 7.4 | Only up to 6.0.7, deprecated |
-| 8.0 | The oldest supported version, so the stock PHP of Red Hat Enterprise Linux 9 runs it under Apache, PHP-FPM or Exponential Velocity (from its release 0.0.4.54) |
+| 7.4 | Usable without support from 6.0.15, as a bridge (6.0.8 to 6.0.14: no) |
+| 8.0 | Supported, so the stock PHP of Red Hat Enterprise Linux 9 runs it under Apache, PHP-FPM or Exponential Velocity (from its release 0.0.4.54) |
 | 8.1 to 8.5 | Supported, Exponential Velocity included |
 | 8.6 and later | Allowed by the `php` requirement of `composer.json`; the README names "PHP 8.2, 8.3, 8.4, 8.5, 8.6 and beyond php9" as the aim |
 

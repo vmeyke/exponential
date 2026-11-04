@@ -3,15 +3,21 @@ title: "Smarty und die Template-Sprache: die Unterschiede im Detail"
 audience: developer, designer, app-creator
 category: development
 order: 40
-summary: Die Unterschiede, über die Smarty-Benutzer stolpern, jeder auf alpha gezeigt - keine Arithmetik oder Vergleiche in Infixschreibweise, kein PHP in Templates, keine automatische Maskierung, unbekannte Operatoren, die ihre Eingabe durchreichen, strenges def und set, Klammern in CSS und JavaScript, Operatoren als registrierte PHP-Klassen, fetch und Objekte, Overrides statt Vererbung, Namensräume und Leerraum.
+summary: Die Unterschiede, über die Smarty-Benutzer stolpern, jeder auf einer Entwicklungsinstallation gezeigt - keine Arithmetik oder Vergleiche in Infixschreibweise, kein PHP in Templates, keine automatische Maskierung, unbekannte Operatoren, die ihre Eingabe durchreichen, strenges def und set, Klammern in CSS und JavaScript, Operatoren als registrierte PHP-Klassen, fetch und Objekte, Overrides statt Vererbung, Namensräume und Leerraum.
 keywords: Smarty, Unterschiede, Infix, Operatoren, PHP-Tag, Maskierung, wash, def, set, Warnungen, Klammern, CSS, literal, Override, Vererbung, Namensräume, Leerraum, differences, infix, escaping, warnings, braces, inheritance, namespaces, whitespace
 type: help
 ---
 # Smarty und die Template-Sprache: die Unterschiede im Detail
 
 [Die Tabelle nebeneinander](smarty-nebeneinander.md) zeigt, wo die beiden Sprachen übereinstimmen. Diese Seite nimmt sich die Stellen vor, an
-denen sie es nicht tun, erklärt jede aus dem Code der Template-Engine und zeigt, was auf alpha geschieht, wenn eine Gewohnheit aus Smarty auf
+denen sie es nicht tun, erklärt jede aus dem Code der Template-Engine und zeigt, was auf einer Entwicklungsinstallation geschieht, wenn eine Gewohnheit aus Smarty auf
 die Template-Sprache trifft.
+
+> **Exponential führt Smarty-Templates selbst aus:** Ein Design kann Smarty-5-Templates (`.stpl`) neben seinen
+> `.tpl`-Templates enthalten, mit jedem Operator, jeder Fetch-Funktion, jeder Template-Funktion, jeder Override-Regel
+> und jedem Cache des Template-Systems. Wenn Sie lieber weiter Smarty schreiben, lesen Sie
+> [Von .tpl zu .stpl umziehen](von-tpl-zu-stpl-umziehen.md) und (Englisch)
+> [Smarty templates (.stpl) next to .tpl](../../../eng-us/features/6.0/smarty-templates.md); die Konverter wandeln auch in beide Richtungen um.
 
 ## Inhalt
 
@@ -40,7 +46,7 @@ Zeichen, mit denen er nichts anfangen kann, protokolliert einen Parserfehler und
 [{1+2}]
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 [1]
@@ -65,7 +71,7 @@ Mit `$a = 1` würde dasselbe Tag `greater` ausgeben, obwohl 1 nicht größer als
 [{if $a > 1}greater{else}not greater{/if}]
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 [not greater]
@@ -90,7 +96,7 @@ Jede Berechnung und jeder Vergleich ist ein Operator, aufgerufen oder über die 
 [{if and( $a|ge( 0 ), $a|lt( 10 ), not( $a|eq( 5 ) ) )}in range{/if}]
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 [3] [3] [12] [6]
@@ -109,7 +115,7 @@ raw:    {$text}
 washed: {$text|wash}
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 raw:    <script>alert(1)</script> & "quotes"
@@ -130,7 +136,7 @@ stillschweigend nichts, lesen Sie deshalb die Debug-Ausgabe:
 [{'unchanged'|nosuchoperator}]
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 [unchanged]
@@ -154,7 +160,7 @@ weigert sich, eine anzulegen. Beide schreiben eine Warnung, keinen Fehler, die S
 [{$color}]
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 [blue]
@@ -181,7 +187,7 @@ before
 after
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 before
@@ -207,7 +213,7 @@ before
 after
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 before
@@ -224,7 +230,7 @@ Warnung verworfen:
 [{php}echo 1;{/php}]
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 []
@@ -275,6 +281,7 @@ um Ausgabe-Tags wie `{$x}`. Templates können also jede Funktion in eine eigene 
 
 ## Verwandte Seiten
 
+- [Von Exponential-Templates (.tpl) zu Exponential-Smarty-Templates (.stpl) umziehen](von-tpl-zu-stpl-umziehen.md): Smarty-Templates, von Exponential selbst ausgeführt
 - Zurück: [Smarty und die Template-Sprache nebeneinander](smarty-nebeneinander.md)
 - Weiter: [Ein Template von Smarty umziehen](ein-template-von-smarty-umziehen.md)
 - [Häufige Fehler in Templates](../designer/vorlagen/haeufige-template-fehler.md)

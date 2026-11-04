@@ -2,7 +2,7 @@
 /**
  * File containing the eZNotificationEvent class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -268,12 +268,22 @@ class eZNotificationEvent extends eZPersistentObject
         if ( !$dryRun && $result['ids'] )
         {
             $db->begin();
-            foreach ( array_chunk( $result['ids'], 100 ) as $chunk )
+            try
             {
-                $list = implode( ',', array_map( 'intval', $chunk ) );
-                $db->query( "DELETE FROM eznotificationcollection_item WHERE event_id IN ( $list )" );
-                $db->query( "DELETE FROM eznotificationcollection WHERE event_id IN ( $list )" );
-                $db->query( "DELETE FROM eznotificationevent WHERE id IN ( $list )" );
+                foreach ( array_chunk( $result['ids'], 100 ) as $chunk )
+                {
+                    $list = implode( ',', array_map( 'intval', $chunk ) );
+                    $db->query( "DELETE FROM eznotificationcollection_item WHERE event_id IN ( $list )" );
+                    $db->query( "DELETE FROM eznotificationcollection WHERE event_id IN ( $list )" );
+                    $db->query( "DELETE FROM eznotificationevent WHERE id IN ( $list )" );
+                }
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
             }
             $db->commit();
         }

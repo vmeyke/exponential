@@ -52,8 +52,8 @@ ließ, sagt die Seite das.
 - **7x ist ihr wichtigster Mitwirkender.** Die Foundation nennt 7x „the current leader in contributions both financial,
   code, extension development, new features, infrastructure, maintenance and much much more back to the project“
   (<https://foundation.exponential.earth/>).
-- **Sie teilt sich das Urheberrecht.** Der Copyright-Vermerk des Kernels lautet „Copyright (C) 1998 - 2026 7x &
-  Exponential Foundation“ ([COPYRIGHT.md](https://github.com/se7enxweb/exponential/blob/main/COPYRIGHT.md)).
+- **Sie teilt sich das Urheberrecht.** Der Copyright-Vermerk des Kernels lautet
+  „Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.“ ([COPYRIGHT.md](https://github.com/se7enxweb/exponential/blob/main/COPYRIGHT.md)).
 - **Alles ist freie Software.** Der Code steht unter der GPL v2 oder später, die Dokumentation unter der GFDL 1.3 oder
   später ([Die Lizenz dieser Dokumentation](../README-LIZENZ.md), [CONTRIBUTING.md](https://github.com/se7enxweb/exponential/blob/main/CONTRIBUTING.md)).
 
@@ -98,7 +98,7 @@ Die Foundation und 7x sind zwei Organisationen mit einem Projekt:
 | Was sie ist | Ein Unternehmen: „a responsive North American web design, support, development and website hosting company“ (<https://se7enx.com/about>) | Eine gemeinnützige Körperschaft (<https://foundation.exponential.earth/>) |
 | Rolle | Führt Entwicklung, Support, Hosting und Dienstleistungen; „the current leader in contributions“ zum Projekt | Betreibt das Projekt; finanziert und steuert es |
 | Sponsorenseite | <https://github.com/sponsors/se7enxweb> | <https://github.com/sponsors/exponentialcms> |
-| Urheberrecht | „7x & Exponential Foundation“, gemeinsam, in COPYRIGHT.md, LICENSE und den Dateiköpfen | |
+| Urheberrecht | „Exponential Foundation and 7x“, gemeinsam, in COPYRIGHT.md, LICENSE und den Dateiköpfen | |
 | Website | <https://se7enx.com/> | <https://foundation.exponential.earth/>, <https://exponential.earth/> |
 
 „The Exponential Open Source Project is funded by donations of time and resources by 7x (and Exponential Sponsors)“
@@ -127,13 +127,13 @@ Die Spalte „Stand“ gibt den Stand vom 18. Oktober 2026 mit seiner Quelle an.
 
 | Produkt | Was es ist | Für wen | Stand |
 |---|---|---|---|
-| [Exponential 6](#exponential-6-der-kernel) | Der CMS-, CMF- und Shop-Kernel, auf dem diese Installation läuft | Alle, die damit eine Site bauen oder betreiben | 6.0.14 veröffentlicht am 7. Juni 2026; 6.0.15 in Entwicklung ([Release-Übersicht](../../eng-us/release-overview)) |
+| [Exponential 6](#exponential-6-der-kernel) | Der CMS-, CMF- und Shop-Kernel, auf dem diese Installation läuft | Alle, die damit eine Site bauen oder betreiben | 6.0.14 veröffentlicht am 7. Juni 2026; 6.0.15 ist die aktuelle Linie ([Release-Übersicht](../../eng-us/release-overview)) |
 | [Exponential Basic](#exponential-basic) | Das einfache CMS der Linie eZ Publish 2 | Bildung, private Nutzung, kleine Sites | v2.4.0.3 (Beschreibung des Repositorys) |
 | [Exponential Platform 3.2.9](#exponential-platform-329) | Reines Symfony-CMS aus der letzten freien eZ Platform | Teams auf dem Stack von eZ Platform 3 | 3.2.9 (Beschreibung des Repositorys) |
 | [Exponential Platform Legacy](#exponential-platform-legacy) | Symfony-Plattform plus Exponential 6 (Dual-Kernel) | Sites, die Exponential 6 behalten und Symfony ergänzen | Linien 2.5.x bis 5.0.x (README) |
-| [Exponential Platform Nexus](#exponential-platform-nexus) | Plattform plus Exponential 6, Netgen Layouts und Media Site, mit Demo-Inhalten | Agenturen und Teams, die schnell eine vollständige Site wollen | Linien 1.0.0.x bis 1.3.0.x (README) |
+| [Exponential Platform Nexus](#exponential-platform-nexus) | Plattform plus Exponential 6, Exponential Layouts und Media Site, mit Demo-Inhalten | Agenturen und Teams, die schnell eine vollständige Site wollen | Linien 1.0.0.x bis 1.3.0.x (README) |
 | [Exponential Platform DXP](#exponential-platform-dxp) | Reines Symfony-DXP-Metapaket, die freiheitlich weitergeführte Fortsetzung von Ibexa DXP OSS | Neue Symfony-Projekte | „Stable; Open Source“ (seine composer.json) |
-| [Exponential Velocity](#exponential-velocity) | Ein in PHP geschriebener Web- und Anwendungsserver | Alle, die Exponential und andere PHP-Anwendungen ausliefern | Erforderlich als `~0.0.4.55` (README; seit dem Release 0.0.4.54 läuft es unter PHP 8.0) |
+| [Exponential Velocity](#exponential-velocity) | Ein in PHP geschriebener Web- und Anwendungsserver | Alle, die Exponential und andere PHP-Anwendungen ausliefern | Erforderlich als `~0.0.4.57` (README; seit dem Release 0.0.4.54 läuft es unter PHP 8.0) |
 | [Exponential Intelligence](#exponential-intelligence) | Ein Schreibassistent in der Administration | Redakteure und ihre Vorgesetzten | Seit 6.0.15 Pflicht, `~0.0.1.18` in composer.json |
 | [Exponential Layouts](#exponential-layouts) | Ein visueller Seitenbaukasten: Layouts, Zonen, Blöcke und Regeln | Redakteure und Designer | Seit 6.0.15 Pflicht, `~1.4.43` in composer.json |
 | [AdminUI](#adminui) | Eine alternative Administrationsoberfläche | Redakteure, die sie bevorzugen | Seit 6.0.15 Pflicht, `~1.0.0.50` in composer.json |
@@ -158,9 +158,9 @@ Plugin-API.
 **Für wen es ist.** Organisationen, die strukturierte Inhalte, mehrere Sites oder mehrere Sprachen aus einer
 Installation betreiben, und Entwickler, die Anwendungen auf seinem Framework bauen.
 
-**Wo es steht.** 6.0.14 ist der neueste Tag (7. Juni 2026). Die Linie 6.0.15 bringt neben vielem anderen Velocity,
+**Wo es steht.** Die Linie 6.0.15 ist die aktuelle Linie; sie folgt auf 6.0.14 (7. Juni 2026). Die Linie 6.0.15 bringt neben vielem anderen Velocity,
 das Design admin4, ein Audit-Protokoll, Exponential Layouts, Exponential Intelligence, Inhalts-Jobs, Pakete von Anfang
-bis Ende, 219 Locales nach der Zählung des README, die LoveStack-Funktionen von Mugo Web und dieses Hilfesystem
+bis Ende, mehr als 360 Locales nach der Zählung des README, die LoveStack-Funktionen von Mugo Web und dieses Hilfesystem
 ([Changelog 6.0.15](../../changelogs/6.0/6.0.15.md), README „Recent improvements“). Die Geschichte jeder Änderung
 seit Dezember 2023 steht in [der Geschichte](../geschichte/README.md).
 
@@ -242,7 +242,7 @@ production“ (README, „Engines“). FrankenPHP ist „the production-ready al
 Vorgabe für die Entwicklung.
 
 **Wo es steht.** Erste Commits im Juli 2026, erstes Release `v0.0.1` im September 2026, seit dem 22. September 2026
-Teil von Exponential ([Velocity-Chronik](../geschichte/velocity/README.md)); das README nennt es als erforderlich in `~0.0.4.55`; seit dem Release 0.0.4.54 läuft es unter PHP 8.0.
+Teil von Exponential ([Velocity-Chronik](../geschichte/velocity/README.md)); das README nennt es als erforderlich in `~0.0.4.57`; seit dem Release 0.0.4.54 läuft es unter PHP 8.0.
 
 ### Exponential Intelligence
 
@@ -260,7 +260,7 @@ Beschreibung des Repositorys).
 
 ### Exponential Layouts
 
-**Was es ist.** „A visual page builder for Exponential. It brings the Netgen Layouts concept to the Exponential
+**Was es ist.** „A visual page builder for Exponential. It brings the concept of the upstream layouts packages to the Exponential
 kernel: a layout is a saved arrangement of blocks in zones, and a rule decides which pages get it“ (README). Pakete
 `se7enxweb/explayouts` und die Familie `explayouts-*`.
 
@@ -323,8 +323,8 @@ genannten Stelle schriftlich festgehalten; zusammen beschreiben sie, wie sich da
 
 | PHP | Exponential 6 | Quelle |
 |---|---|---|
-| 7.4 | Nur bis 6.0.7 („PHP 7 Support is deprecated but still available from our older stable and usable past releases up to version 6.0.7“) | README |
-| 8.0 | Die älteste unterstützte Version, sodass das mitgelieferte PHP von Red Hat Enterprise Linux 9 es ausführt, ab dem Velocity-Release 0.0.4.54 auch unter Velocity (bis dahin brauchte Velocity 8.1) | README, [Unterstützung für PHP 8.0](../bc/6.0/php-8.0-unterstuetzung.md) |
+| 7.4 | Bis 6.0.7 und wieder ab 6.0.15 („PHP 7.4 is usable again from 6.0.15, without support, as a bridge for organizations that cannot change the PHP of their servers yet“); siehe [Warum Exponential PHP 7.4 unterstützt](warum-exponential-php-7-4-unterstuetzt.md) | README |
+| 8.0 | Unterstützt, sodass das mitgelieferte PHP von Red Hat Enterprise Linux 9 es ausführt, ab dem Velocity-Release 0.0.4.54 auch unter Velocity (bis dahin brauchte Velocity 8.1) | README, [Unterstützung für PHP 8.0](../bc/6.0/php-8.0-unterstuetzung.md) |
 | 8.1 bis 8.5 | Unterstützt, auch für Velocity | README |
 | 8.6 und neuer | Durch die `php`-Anforderung in `composer.json` zugelassen (bis 8.8); das Projekt zielt auf „PHP 8.2, 8.3, 8.4, 8.5, 8.6 and beyond php9“ | composer.json, README |
 
@@ -365,7 +365,7 @@ jedem Push auf `main` und bei jedem Pull-Request ([CI](../bc/6.0/ci.md)).
 
 ### Sprachen und Barrierefreiheit
 
-- 268 Locale-Dateien, 40 davon von rechts nach links, und Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite [Sprachen in Exponential](../sprachen.md))
+- 368 Locale-Dateien, 43 davon von rechts nach links, und Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite [Sprachen in Exponential](../sprachen.md))
   ([Sprachen](../sprachen.md)); `dir="rtl"` in Inhalten und Administration ([Von rechts nach links](../funktionen/6.0/rechts-nach-links.md)).
 - Das Design admin4 folgt WCAG-Regeln, die Tests prüfen: ein Kontrasttest der Farb-Tokens im hellen und dunklen Modus
   und Zielgrößen von mindestens 24 mal 24 Pixeln ([Gestaltung der Administration](../bc/6.0/admin4-gestaltung.md)).
@@ -396,7 +396,7 @@ clones with their full history“ (README, „Installation“; [Mit Git entwicke
   [mugoweb](https://github.com/mugoweb) und anderen (`git log --grep="Merge pull request"`). Davor haben Hunderte von
   Menschen eZ Publish gebaut ([Wer ist 7x?](wer-ist-7x.md#mitwirkende-und-freunde-des-projekts)).
 - **Die Arbeit anderer Projekte, mit Nennung.** Die LoveStack-Verbesserungen von Mugo Web wurden „with full credit to
-  Mugo Web“ nachgebaut (README); Exponential Layouts portiert das Konzept von Netgen Layouts (README).
+  Mugo Web“ nachgebaut (README); Exponential Layouts portiert das Konzept der Upstream-Layouts-Pakete (README).
 
 ### Orte der Community
 
@@ -420,7 +420,7 @@ In den für diese Seite verwendeten Quellen sind keine Veranstaltungen (Konferen
 | Composer und Packagist | Installation des Kernels und jeder Erweiterung | 219 von se7enxweb veröffentlichte Pakete | composer.json, Packagist |
 | Zeta Components | Die Bibliotheken des Kernels (Cache, Datenbank, Feeds, Bildkonvertierung ...) | „Forked and patched 47+ Zeta Components repos“; „14 security PRs submitted upstream to zetacomponents“ | composer.json, se7enxweb-Profil-README |
 | Symfony, Twig, Doctrine | Die Plattform-Linie | Gepflegte Forks für PHP 8.4 und 8.5 | [Ökosystem](../geschichte/oekosystem.md) |
-| Netgen Layouts, Media Site, Site API | Exponential Layouts und Nexus | Portierungen auf den Exponential-Kernel; ein Fork von layouts-core | README, [Ökosystem](../geschichte/oekosystem.md) |
+| Upstream-Layouts-Pakete, Media Site, Site API | Exponential Layouts und Nexus | Portierungen auf den Exponential-Kernel; ein Fork von layouts-core | README, [Ökosystem](../geschichte/oekosystem.md) |
 | Qbix-Webserver | Die Engine von Velocity | Ein darauf gebauter Produktionsserver | Velocity-README |
 | AdminNeo | Der Datenbank-Quelltexteditor | | [sevenx_dse](../funktionen/6.0/erweiterungen/sevenx_dse.md) |
 | jQuery, TinyMCE, Bootstrap Icons | Skripte, Editor und Symbole der Administration | | [Oktober 2026](../geschichte/2026/2026-10.md) |
@@ -429,7 +429,7 @@ In den für diese Seite verwendeten Quellen sind keine Veranstaltungen (Konferen
 
 | Wann | Was geschah | Quelle |
 |---|---|---|
-| 1998 | Erstes Jahr des Copyright-Vermerks von 7x und der Exponential Foundation | COPYRIGHT.md |
+| 1998 | Erstes Jahr des Copyright-Vermerks von der Exponential Foundation und 7x | COPYRIGHT.md |
 | 1999 bis 2014 | Die Copyright-Jahre von eZ Systems AS im Code | COPYRIGHT.md |
 | 2006 | eZpedia startet | <https://ezpedia.exponential.earth/> |
 | 2014 | Die erste Idee von 7x: Die Domain se7enx.com wird still registriert und der Fork des gesamten Ökosystems vorbereitet | Darstellung von 7x (Inhaber, 18. Oktober 2026); [Wer ist 7x?](wer-ist-7x.md#von-brookins-consulting-zu-7x-in-drei-stufen) |
@@ -471,7 +471,7 @@ In den für diese Seite verwendeten Quellen sind keine Veranstaltungen (Konferen
 | **Legacy** | Der Exponential-6-Kernel, wenn er neben einer Symfony-Plattform läuft („Referred to as `legacy` in Exponential Platform 5.x and Ibexa OSS“, README) |
 | **Exponential Platform** | Die Symfony-basierte Linie, die von eZ Platform abstammt |
 | **Dual-Kernel** | Eine Distribution, die die Symfony-Plattform und Exponential 6 zusammen betreibt (Legacy, Nexus) |
-| **Nexus** | Die Distribution von Exponential Platform mit Netgen Layouts, Media Site und Exponential 6 |
+| **Nexus** | Die Distribution von Exponential Platform mit Exponential Layouts, Media Site und Exponential 6 |
 | **DXP** | Digital Experience Platform; hier das reine Symfony-Produkt Exponential Platform DXP |
 | **Exponential Basic** | Das einfache CMS der Linie eZ Publish 2 |
 | **Velocity** | Der eigene PHP-Web- und Anwendungsserver von Exponential (`vc`) |
@@ -529,3 +529,11 @@ und entwickeln die Produkte mit uns, und so wächst Exponential. Eine Partner-We
 Sie mit [Partner: hier beginnen](partner/partner-hier-beginnen.md) und
 [Wie Sie sich bewerben](partner/wie-sie-sich-bewerben.md).
 <!-- exp-partner-block:end -->
+
+## Urheberrecht und Copyleft
+
+Seit dem 29. Oktober 2026 halten die Exponential Foundation und 7x das Copyright an Exponential gemeinsam, die
+Foundation zuerst genannt: „Exponential Copyright © 1998-2026 Exponential Foundation and 7x“, in Dateien
+„Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.“ Wer es hält und warum, was die
+GPL Ihnen erlaubt, welche Hinweise Dritter bleiben und wie der Hinweis in neue Dateien und Erweiterungen kommt:
+[Urheberrecht und Copyleft](urheberrecht-und-copyleft.md).

@@ -2,7 +2,7 @@
 /**
  * File containing the expMongoDB class.
  *
- * @copyright Copyright (C) 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * Portions derived from LoveStack (mugoweb/ezpublish-legacy, commit 3d18f47551), Copyright (C) Mugo Web, GPL v2
  * @version //autogentag//
@@ -614,7 +614,7 @@ class expMongoDB extends eZDBInterface
             $i++;
             if ( $keyword === 'IN' )
             {
-                $values = $this->parseWhereValueList( $tokens, $i );
+                $values = $this->parseWhereValueList( $tokens, $i, $column );
                 return $values === false ? false
                     : $this->withDeclaredDefault( $column, array( '$nin' => $values ), 'NOT IN', $values );
             }
@@ -630,7 +630,7 @@ class expMongoDB extends eZDBInterface
         if ( $token['type'] === 'keyword' && $token['value'] === 'IN' )
         {
             $i++;
-            $values = $this->parseWhereValueList( $tokens, $i );
+            $values = $this->parseWhereValueList( $tokens, $i, $column );
             return $values === false ? false
                 : $this->withDeclaredDefault( $column, array( '$in' => $values ), 'IN', $values );
         }
@@ -879,8 +879,17 @@ class expMongoDB extends eZDBInterface
         return false;
     }
 
-    protected function parseWhereValueList( array $tokens, &$i )
+    protected function parseWhereValueList( array $tokens, &$i, $column = null )
     {
+        // a quoted number in the list of a text column stays text, as "column = '123'" does: object_id IN ('200000')
+        // on expaudit_event (varchar) found nothing, the list being read as integers
+        $text = false;
+        if ( $column !== null && $this->WhereTable !== null )
+        {
+            $declared = self::declaredColumns( $this->WhereTable );
+            $numeric = self::numericColumns( $this->WhereTable );
+            $text = isset( $declared[$column] ) && !isset( $numeric[$column] );
+        }
         if ( $i >= count( $tokens ) || $tokens[$i]['type'] !== '(' )
             return false;
         $i++;
@@ -895,7 +904,7 @@ class expMongoDB extends eZDBInterface
             }
             if ( !in_array( $tokens[$i]['type'], array( 'number', 'string' ), true ) )
                 return false;
-            $values[] = self::whereValue( $tokens[$i] );
+            $values[] = $text && $tokens[$i]['type'] === 'string' ? (string)$tokens[$i]['value'] : self::whereValue( $tokens[$i] );
             $i++;
         }
 
@@ -1294,6 +1303,55 @@ class expMongoDB extends eZDBInterface
             return true;
         }
 
+        // --- INSERT INTO table ( cols ) SELECT col|literal, ... FROM source ---
+        // eZContentObjectState::store() gives a new state of a group to every object at once this way (the
+        // 6.0.15-review-hold upgrade step and every new state group): unhandled, no object got the state
+        if ( preg_match( '/^\s*INSERT\s+INTO\s+(\w+)\s*\(([^)]*)\)\s*SELECT\s+(.+?)\s+FROM\s+(\w+)\s*;?\s*$/is', $sql, $m ) )
+        {
+            $plan = self::insertSelectPlan( array_map( 'trim', explode( ',', $m[2] ) ), self::splitSqlList( $m[3] ) );
+            if ( $plan === false )
+            {
+                $this->logError( 'expMongoDB::query INSERT ... SELECT with a select list it cannot copy: ' . substr( $sql, 0, 200 ) );
+                return false;
+            }
+            $table = trim( $m[1] );
+            $project = array( '_id' => 0 );
+            foreach ( $plan as $column => $source )
+            {
+                if ( $source['field'] !== null )
+                    $project[$source['field']] = 1;
+            }
+            try
+            {
+                $rows = $this->aggregate( trim( $m[4] ), array( array( '$project' => $project ) ) );
+                if ( $rows === false )
+                    return false;
+                $documents = array();
+                foreach ( $rows as $row )
+                {
+                    $document = array();
+                    foreach ( $plan as $column => $source )
+                        $document[$column] = $source['field'] !== null
+                            ? ( isset( $row[$source['field']] ) ? $row[$source['field']] : null )
+                            : self::castSqlLiteralForColumn( $source['literal'], $table, $column );
+                    $documents[] = $document;
+                }
+                if ( $documents )
+                {
+                    $collection = $this->getClient()->selectCollection( $this->DB, $table );
+                    foreach ( array_chunk( $documents, 1000 ) as $chunk )
+                        $collection->insertMany( self::toBsonSafe( $this->applyAutoIncrementBatch( $table, $chunk ) ) );
+                }
+            }
+            catch ( Exception $e )
+            {
+                $this->recordDriverError( $e );
+                $this->logError( 'expMongoDB::query INSERT ... SELECT failed: ' . $e->getMessage() . ' SQL: ' . substr( $sql, 0, 200 ) );
+                return false;
+            }
+            return true;
+        }
+
         // --- DELETE FROM table WHERE conditions ---
         if ( preg_match( '/^\s*DELETE\s+FROM\s+([\w]+)\s+WHERE\s+(.+)$/is', $sql, $m ) )
         {
@@ -1538,16 +1596,30 @@ class expMongoDB extends eZDBInterface
 
             // Build projection from SELECT list (skip * and COUNT(*))
             $projection = [ '_id' => 0 ];
+            // "column AS name": the column is projected and the row answers to the name, as on the SQL engines
+            // (the projection used to ask for a field called "column AS name", so the row came back without it)
+            $aliases = array();
+            $selectedColumns = array();
             if ( $selectClause !== '*' && stripos( $selectClause, 'COUNT(' ) === false )
             {
                 foreach ( preg_split( '/\s*,\s*/', $selectClause ) as $col )
                 {
                     $col = trim( $col );
+                    $alias = null;
+                    if ( preg_match( '/^([\w.]+)\s+AS\s+(\w+)$/i', $col, $am ) )
+                    {
+                        $col = $am[1];
+                        $alias = $am[2];
+                    }
                     // strip table.col prefix if present
                     if ( strpos( $col, '.' ) !== false )
                         $col = substr( $col, strrpos( $col, '.' ) + 1 );
                     if ( $col !== '' )
                         $projection[$col] = 1;
+                    if ( $alias !== null && $col !== '' && $alias !== $col )
+                        $aliases[$alias] = $col;
+                    else if ( $col !== '' )
+                        $selectedColumns[] = $col;
                 }
             }
             else
@@ -1589,6 +1661,8 @@ class expMongoDB extends eZDBInterface
                     $field = $parts[0];
                     if ( strpos( $field, '.' ) !== false )
                         $field = substr( $field, strrpos( $field, '.' ) + 1 );
+                    if ( isset( $aliases[$field] ) )
+                        $field = $aliases[$field];
                     $sort[$field] = ( isset( $parts[1] ) && strtoupper( $parts[1] ) === 'DESC' ) ? -1 : 1;
                 }
                 if ( $sort )
@@ -1623,6 +1697,12 @@ class expMongoDB extends eZDBInterface
                     {
                         if ( !array_key_exists( $column, $row ) )
                             $row[$column] = $default;
+                    }
+                    foreach ( $aliases as $alias => $column )
+                    {
+                        $row[$alias] = array_key_exists( $column, $row ) ? $row[$column] : null;
+                        if ( !in_array( $column, $selectedColumns, true ) )
+                            unset( $row[$column] );
                     }
                     $result[] = $row;
                 }
@@ -3011,6 +3091,35 @@ class expMongoDB extends eZDBInterface
         }
 
         return $tuples;
+    }
+
+    /**
+     * What an INSERT ... SELECT copies into each column: a field of the source rows (a column name, also with its
+     * table or an alias) or a literal (a number or a quoted string). Anything else, or a count that differs from the
+     * columns, gives false: the statement is refused rather than half copied.
+     *
+     * @param string[] $columns the columns of the INSERT
+     * @param string[] $selectList the expressions of the SELECT (splitSqlList())
+     * @return array|false column => array( 'field' => name or null, 'literal' => SQL literal or null )
+     */
+    static function insertSelectPlan( array $columns, array $selectList )
+    {
+        if ( count( $columns ) !== count( $selectList ) || !$columns )
+            return false;
+        $plan = array();
+        foreach ( array_values( $columns ) as $index => $column )
+        {
+            $expression = trim( preg_replace( '/\s+AS\s+\w+$/i', '', trim( $selectList[$index] ) ) );
+            if ( !preg_match( '/^\w+$/', $column ) )
+                return false;
+            if ( preg_match( '/^-?\d+(\.\d+)?$/', $expression ) || preg_match( "/^'(?:[^']|'')*'$/", $expression ) )
+                $plan[$column] = array( 'field' => null, 'literal' => $expression );
+            else if ( preg_match( '/^(?:\w+\.)?([A-Za-z_]\w*)$/', $expression, $m ) && strtoupper( $m[1] ) !== 'NULL' )
+                $plan[$column] = array( 'field' => $m[1], 'literal' => null );
+            else
+                return false;
+        }
+        return $plan;
     }
 
     /**

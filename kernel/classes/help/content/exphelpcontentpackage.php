@@ -15,7 +15,7 @@
  * ids of the installation and are made, idempotently, by ./console exp:help:content install, which also completes
  * classes a package installed.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -120,7 +120,7 @@ class expHelpContentPackage
                 $missing[] = $identifier;
         }
         if ( $missing )
-            throw new RuntimeException( 'Missing classes ' . implode( ', ', $missing ) . ': run ./console exp:help:content classes -s <siteaccess> first' );
+            throw new RuntimeException( 'Missing classes ' . implode( ', ', $missing ) . ': run ./console exp:help:content classes --apply -s <siteaccess> first' );
 
         if ( !is_dir( $dir ) && !eZDir::mkdir( $dir, false, true ) )
             throw new RuntimeException( "Cannot create the directory $dir" );

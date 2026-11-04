@@ -7,6 +7,20 @@ upgrade companion of the [chronicle for the period](../../history/2026/2026-09b.
 [chronicle of 1 to 15 September](../../history/2026/2026-09a.md), the next in
 [behaviour changes of October 2026](behaviour-changes-2026-10.md).
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../examples/web-servers/nginx.md), [LiteSpeed](../../examples/web-servers/litespeed.md),
+> [Caddy](../../examples/web-servers/caddy.md), [IIS](../../examples/web-servers/iis.md), [Velocity](../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../help/hosting/panels/plesk.md), [cPanel](../../help/hosting/panels/cpanel.md), [DirectAdmin](../../help/hosting/panels/directadmin.md), [ISPConfig](../../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## Deploy order
 
 Do these first, in this order, on every site you take the changes to:
@@ -51,7 +65,7 @@ The three changes most sites must act on:
 | The kickstarter and the setup wizard default to SQLite. | `kickstart.ini [database_choice] Type` | Name your engine explicitly. |
 | Kickstart no longer ends with a guessable administrator password. | `var/log/initial-admin-password` | Read it once after the install and delete the file. |
 | `DatabaseImplementation` is taken from the live `site.ini`, not from `Type`. | `settings/override/site.ini.append.php` | When you install onto another engine set it first (see [install page](../../features/6.0/install-in-one-command.md)). |
-| `./console exp:install` installs in one command. | `exp:install --help` | New; nothing to migrate. |
+| `./console exp:install --apply` installs in one command. | `exp:install --help` | New; nothing to migrate. |
 | Maintenance mode wraps installations. | `var/maintenance.json` | If a run failed, end it with `php bin/php/maintenance.php off`. See [maintenance mode](../../features/6.0/maintenance-mode.md). |
 | A default installation converts images with GD first. | `image.ini [ImageConverterSettings] ImageConverters[]` (shipped order `GD`, `ImageMagick`) | Put ImageMagick first in `settings/override/image.ini.append.php` if you need its filters. |
 | New installations start with the folders Configuration and Archives and class group Configuration; Setup has the alias `x-setup`. | seed data | Existing installations are not touched. See [seed data](../../specifications/6.0/installer-logs-and-seed-data.md). |

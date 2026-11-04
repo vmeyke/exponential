@@ -5,10 +5,24 @@ Each page says who it is for, what the feature does and how to use it. The legac
 an index of their own: [Extensions, themes and packages](extensions/README.md). Every change, with its date, is in the
 [6.0.15 changelog](../../../changelogs/6.0/6.0.15.md).
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../examples/web-servers/nginx.md), [LiteSpeed](../../examples/web-servers/litespeed.md),
+> [Caddy](../../examples/web-servers/caddy.md), [IIS](../../examples/web-servers/iis.md), [Velocity](../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../help/hosting/panels/plesk.md), [cPanel](../../help/hosting/panels/cpanel.md), [DirectAdmin](../../help/hosting/panels/directadmin.md), [ISPConfig](../../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## Start here: Velocity is part of Exponential 6.0.15
 
 As of 6.0.15 the Velocity Internet / Web Application Server is part of Exponential: the root `composer.json` requires
-`se7enxweb/exponential-velocity ~0.0.4.55`, so every installation has it, on PHP 8.0 and later. It marks a turning
+`se7enxweb/exponential-velocity ~0.0.4.57` (through `se7enxweb/exponential-php-floor`, on PHP 8.0 and later), so every installation has it, on PHP 8.0 and later. It marks a turning
 point, a cornerstone and a capstone for the project: a new level of application system integration, with even greater
 features out of the box in the core product, by default. Exponential is one working stack (server, rapid application
 development platform, CMS, digital experience and e-commerce), not just a framework. Read
@@ -38,7 +52,9 @@ nginx with PHP-FPM keep working as before.
 
 - [Installing Exponential in one command](install-in-one-command.md)
 - [Kickstarter: install a whole site from one file](kickstarter-cli.md)
+- [Console commands for .htaccess and config.php](setup-files-and-config-php-commands.md)
 - [What a new installation comes with: the default extension distribution](default-extension-distribution.md)
+- [Extensions of a new installation (6.0.15)](extensions-of-a-new-installation.md): bundled, installed, activated by default, their tables
 - [A clean installation that fits shared hosting and says Exponential](clean-install-defaults.md)
 - [The setup wizard's new look, and the editor siteaccess](setup-wizard-and-editor-siteaccess.md)
 - [Settings per environment (EXP_ENV)](environment-settings.md)
@@ -48,12 +64,14 @@ nginx with PHP-FPM keep working as before.
 - [The system card: exp:expfetch, exp:info and exp:about](system-card.md)
 - [Benchmark: `exp:benchmark`](benchmark.md)
 - [Maintenance mode](maintenance-mode.md)
+- [Migrations in the kernel](migrations.md) (recipes, audience pages and FAQ: [Migrations](../../help/migrations/README.md))
 - [Repair a broken installation from the browser](repair-from-the-browser.md)
 - [File consistency check and the release file list](file-consistency-check.md)
 - [Quality checks: git hooks, file manifest, code style and PHPStan](quality-checks.md)
 - [Cache clears that move directories aside](cache-clear-rename-aside.md)
 - [Keep the content and INI caches in Redis or Valkey](valkey-cache-hooks.md)
 - [Static cache generator](static-cache-generator.md)
+- [Static publishing: a static copy of a site for GitHub Pages and any static host](static-publishing.md)
 - [Cronjobs console](cronjobs-console.md), [Pausing cronjob parts](cronjob-pause.md),
   [Leaving out a cronjob part](cronjob-part-filter.md)
 - [Log rotation and pruning](log-rotation.md), [The log viewer](log-viewer.md),
@@ -79,13 +97,55 @@ nginx with PHP-FPM keep working as before.
 - [Access and view cache filters for extensions](access-and-cache-filters.md)
 - [Content policy limitations of extensions](content-limitation-handlers.md)
 - [Icon themes that live in your extension](icon-themes-in-extensions.md)
+- [The website sidebar (expwt) in place of the website toolbar (ezwt)](website-sidebar.md): the move with
+  `exp:wt:migrate-from-ezwt` and the upgrade step 6.0.15-expwt-enable
+- [Pagelayout hooks: one place at the end of every page for extensions](pagelayout-hooks.md)
 - [Remote services: the whole admin as an HTTP API (expservices)](remote-services-expservices.md)
+- [The GraphQL API: ask the content for exactly the fields a page needs](graphql.md): `/api/graphql`, a schema
+  generated from the content classes, policies always applied, Setup > GraphQL with a playground,
+  `exp:graphql:status`, `exp:graphql:schema` and `exp:graphql:query`
 - [Request rules: decide what happens to a request before its view runs](request-rules.md)
 - [Role and policy checks in templates](role-and-policy-template-operators.md)
 - [PHP string functions as template operators](string-template-operators.md)
 - [Template editor: create, order and edit overrides without touching INI files](template-editor-overrides.md)
 - [Design > Templates: drag and drop override order](template-override-ordering.md)
 - [Template path comments: see which template wrote which markup](template-path-comments.md)
+- [Smarty templates (.stpl) next to .tpl, with a converter for whole designs](smarty-templates.md); the guides:
+  [a first .stpl, step by step](../../guides/smarty-templates-tutorial.md),
+  [writing and running .stpl templates](../../guides/smarty-templates.md),
+  [operators and fetch functions](../../guides/smarty-templates-operators.md),
+  [operator reference](../../guides/smarty-templates-operator-reference.md),
+  [template functions and blocks](../../guides/smarty-templates-functions.md),
+  [caching and performance](../../guides/smarty-templates-caching.md),
+  [performance (Speed)](../../guides/smarty-templates-performance.md),
+  [moving from .tpl to .stpl](../../help/template-language/moving-from-tpl-to-stpl.md),
+  [the converter](../../guides/smarty-templates-converter.md),
+  [migrating a design](../../guides/smarty-templates-migrating.md),
+  [troubleshooting and FAQ](../../guides/smarty-templates-troubleshooting.md),
+  [writing operators and functions](../../guides/smarty-templates-plugins.md),
+  [security and escaping](../../guides/smarty-templates-security.md)
+- [Twig templates (.twig) next to .tpl and .stpl, with converters in every direction](twig-templates.md); the guides:
+  [a first .twig, step by step](../../guides/twig-templates-tutorial.md),
+  [writing and running .twig templates](../../guides/twig-templates.md),
+  [operators and fetch functions](../../guides/twig-templates-operators.md),
+  [operator reference](../../guides/twig-templates-operator-reference.md),
+  [template functions and tags](../../guides/twig-templates-functions.md),
+  [caching](../../guides/twig-templates-caching.md),
+  [performance (Speed)](../../guides/twig-templates-performance.md),
+  [moving from .tpl to .twig](../../help/template-language/moving-from-tpl-to-twig.md),
+  [the converter](../../guides/twig-templates-converter.md),
+  [migrating a design](../../guides/twig-templates-migrating.md),
+  [troubleshooting and FAQ](../../guides/twig-templates-troubleshooting.md),
+  [writing operators and functions](../../guides/twig-templates-plugins.md),
+  [security and escaping](../../guides/twig-templates-security.md),
+  [writing Twig-native templates](../../guides/twig-templates-native.md),
+  [recipes](../../guides/twig-templates-recipes.md),
+  [debugging](../../guides/twig-templates-debugging.md),
+  [Twig in your editor](../../guides/twig-templates-editors.md),
+  [versions, upgrades and compatibility](../../guides/twig-templates-compatibility.md),
+  [speed of the three template engines](../../guides/template-engines-speed.md),
+  [templates side by side](../../help/template-language/tpl-twig-smarty-side-by-side.md),
+  [the three template engines compared](../../guides/template-engines.md)
 - [Debug output you can read at a glance and style](debug-output-improvements.md)
 - [The Exp Debug bar](exp-debug-bar.md)
 
@@ -150,20 +210,28 @@ nginx with PHP-FPM keep working as before.
 - [Store dashboard and order statuses](store-dashboard.md)
 - [Permanent order receipts](order-receipts.md)
 - [Sort the order list by any column](order-list-sorting.md)
+- [Which siteaccess an order came from](order-siteaccess.md)
 
 ## Users, permissions and security
 
 - [The audit trail: who did what, and proof that nobody changed the record](audit-trail.md)
 - [The secret store: passwords and keys of the tools, encrypted, by name](secret-store.md)
+- [Preview links: a draft for a reviewer without an account, signed, expiring and revocable](preview-links.md)
 - [Content Security Policy](content-security-policy.md)
+- [Review hold: no editing or publishing of a page until a reviewer releases it](review-hold.md), and the auto-hold of visitors' submissions
+- [Recent content: the newest content, held submissions and actions on a selection](moderation.md)
 - [Safe redirects and "back to where you came from"](safe-redirects.md)
+- [Fixes from the Opencontent and Mugo Web forks: limits, one-line logs and safer defaults](legacy-fork-fixes.md):
+  `MaxPathDepth`, one-line `eZLog` entries, REST listeners, the upload blacklist, the subtree `HardLimit`
 - ["This form has expired": form token refusals](form-expired-page.md)
 - [SOAP calls over HTTPS: certificates of an internal CA](soap-client-tls.md)
 - [Changing your password](modern-password-change.md)
 - [Change password at next sign-in](password-change-at-next-sign-in.md)
 - [Second step on the other sign-in paths: REST, WebDAV, SOAP, expservices; app passwords](second-factor-on-other-sign-in-paths.md)
 - [Reset a user password from the command line](reset-user-password.md)
+- [User management from the console: the exp:user commands for accounts, groups, roles, sessions, import and export](user-management-from-the-console.md)
 - [Check user accounts](user-hygiene.md)
+- [User audit log: who changed, signed in or was refused, per account](user-audit.md)
 - [Your devices: signed-in sessions per user, signed out for good, an e-mail about a new device](user-sessions.md)
 - [Signed links in the "New user registered" mail](registration-admin-links.md)
 - [Administrators approve new editor accounts](editor-account-approval.md)

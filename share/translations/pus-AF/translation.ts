@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>یوازې دغه پاڼه لټول کېږي: %from تر %to له %count څخه.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>د کرنل او غځونو هر د ډېټا ډول، او کلاسونه او منځپانګه یې څنګه کاروي.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>د ډېټا ډولونه</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>سیستمي پاڼې هم نښو ته زیاتېدای شي: پاڼه پرانیزئ (جوړونه، د پلټنې رېکارډ، د کارنانو لېست ...) او له هغې پورته «دا پاڼه نښو ته زیاتول» وټاکئ. داسې نښې د ګیئر نښان لري.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>تاسو نور دا پاڼه دلته نشئ پرانیستلای. نښه لرې کړئ، یا له یوه مدیر څخه د لاسرسي غوښتنه وکړئ.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>لومړۍ پاڼه پرانیستل</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>نور</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>وروستۍ 7 ورځې</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>ځانګړې موده</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>ټولې کلمې</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>هره کلمه</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>دقیقه جمله</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>اړوندتیا</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>نوم A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>نوم Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>بدل شوی، نوي لومړی</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>بدل شوی، زاړه لومړی</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>خپور شوی، نوي لومړی</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>خپور شوی، زاړه لومړی</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>بدل شوی</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>فلټرونه</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>فلټرونه ښودل</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>فلټرونه پټول</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>بېرته تنظیمول</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>پلي کول</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>کلمې</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>د منځپانګې ډول</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>نور ښودل (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>د منځپانګې یو ډول وټاکئ ترڅو د هغه په یوه ځانګړنه کې ولټوئ.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>برخه</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>له</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تر</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>د پیل نېټه سمه نېټه نه ده.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>د پای نېټه سمه نېټه نه ده.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>خاوند</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>د کارن ID، د ننوتلو نوم یا برېښنالیک پته.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>د «%input» لپاره هېڅ کارن ونه موندل شو.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ژبه</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>هره ژبه</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ځای</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count ځایونه</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>په هره پاڼه کې پایلې</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>د «%text» پایلې (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>پایلې (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>اوډل د</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>اوډل</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>فعال فلټرونه</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>دا فلټر لرې کول</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>یا فلټرونه وټاکئ او پلي یې کړئ ترڅو برابره منځپانګه لېست شي.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>کله چې کلمې ولیکئ، فلټرونه لټون محدودوي.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>د «%text» لپاره هېڅ پایله ونه موندل شوه.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>هېڅ پایله ونه موندل شوه.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>پورته یو فلټر لرې کړئ.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ژباړې</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>کړنې</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name سمول</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>سمول</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>جوړونه &gt; مهالوېشلې دندې</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>تر اوسه د مهالوېشلو دندو هېڅ برخه نه ده چلېدلې: د دندو کتار، واردول، خبرتیاوې او د لټون لړلیک په تمه دي. php bin/php/installcrontab.php --add --apply وچلوئ، یا د --show کرښې crontab ته زیاتې کړئ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>د اصلي لیکوالانو او د هغو درېیمو اړخونو د سافټویر د کاپي حق خبرتیاوې چې له Exponential سره شاملې دي، لکه څنګه چې جواز غوښتنه کوي، په سرچینه دوتنو او د LICENSE په دوتنه کې ساتل کېږي.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>لاندې د Exponential د هغو مرسته کوونکو لېست دی چې خپل کار یې د eZ Systems Contributor Licensing Agreement د شرایطو له مخې د 7x د کارونې لپاره جواز کړی دی. لکه څنګه چې دغه تړون اجازه ورکوي، 7x هره ونډه د هماغه جواز لاندې بیا وېشي چې هغه دوتنه یې لري په کومه کې چې ونډه شامله ده. لېست هر مرسته کوونکی، اختیاري د اړیکې معلومات او هغه دوتنې نوموي چې دوی جوړې کړې یا یې پکې ونډه اخیستې ده.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>هغه ونډه وال چې په Exponential او هغه سافټویر کې د کار لپاره ستایل کېږي چې له هغه څخه راوتلی، د هغو فایلونو سره چې دوی پکې ونډه اخیستې. دا ستاینه ده، د کاپي حق خبرتیا نه ده: Exponential ته ونډې د Contributor Licensing Agreement له مخې Exponential Foundation او 7x ته سپارل کېږي.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;د Exponential Enterprise Edition ارزونه&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;د Exponential ټولنې غړي شئ، نظرونه شریک کړئ او ونډه واخلئ&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; د چاپ حق &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; او نور.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>د &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt; په مرسته چلېږي. د نورو معلوماتو لپاره &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; وګورئ.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; د چاپ حق &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; او نور.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> د نورو معلوماتو لپاره &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; وګورئ.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; د چاپ حق &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; او نور.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;د Exponential ارزونه (د 7x له خوا)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;د Exponential ټولنې غړي شئ، ملاتړ ترلاسه کړئ او ونډه واخلئ&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; د چاپ حق &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; او نور.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>د مرستې مرکز</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>منځپانګه</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>د سند پاڼې</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>کارنان</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>د منځپانګې کلاسونه</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>مدیریت</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>پاڼه %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>ټولې پایلې وګورئ</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count پایلې</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>یوه پایله</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count وړاندیزونه</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>هېڅ وړاندیز نشته</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>وړاندیزونه پورته نه شول.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>وړاندیزونه</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>دا نصب یو عمومي ډیمو دی: هر څوک کېدای شي د مدیر پټنوم یې وپېژني، او د مدیرانو پټنومونه نه بدلېدای شي او نه بېرته تنظیمېدای شي. دلته هېڅ شخصي شی مه لیکئ.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ستاسو وسایل</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>امنیتي فعالیت</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>لارښودونه، لټون او د تېروتنې د راپور ورکولو لاره.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>وروستۍ منځپانګه</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>تر ټولو نوې منځپانګه، هغه څه چې د بیاکتنې لپاره ساتل شوي، او پر یوې ټاکنې کړنې.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>همغږۍ</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>د GraphQL API: د هغه پای ټکی، سکیما او د پوښتنو د ازمویلو ځای.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>په نصب کې بدلونونه چې د فایلونو په توګه ساتل کېږي: د هغوی حالت، اجراوې، اجرا کول او بېرته ګرځول.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>وروستۍ منځپانګه</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>تر ټولو نوې منځپانګه، هغه څه چې د بیاکتنې لپاره ساتل شوي، او پر یوې ټاکنې کړنې.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>د یوه سایټ ثابته کاپي GitHub Pages یا هر git کوربه ته خپره کړئ.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ثابته خپرونه</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>د ډېټا ډولونه</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>د کرنل او غځونو هر د ډېټا ډول، او کلاسونه او منځپانګه یې څنګه کاروي.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>هغه حسابونه چې څوک یې نه کاروي یا کتنه غواړي؛ هغه غیرفعال کړئ، خلاص یې کړئ یا یې صادر کړئ.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>د کارنانو د پلټنې لاګ</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>چا بدلون راوست، ننوت یا رد شو، د هر حساب له مخې؛ فلټر او صادرول.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>د ننوتلو راپور</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>څوک ننوتی دی، په هره ورځ ننوتل او ناکامۍ؛ یو کارن له هر ځایه ایستل.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n ساعته مخکې</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>د GraphQL API د خوندي شویو پوښتنو ځوابونه، او د هغې د سکیما د منځپانګې کلاسونه.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>ثابته کاپي GitHub Pages یا هر git کوربه ته خپره کړئ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ثابته خپرونه</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>ثابت کش له دې سرور څخه پاڼې وړاندې کوي. د دې لپاره چې د یوه سایټ ثابته کاپي بل ځای، په GitHub Pages یا هر git کوربه کې خپره کړئ، ثابته خپرونه وکاروئ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>وروستی پاکول</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>لیکنو د حالت قلف ونشو اخیستلای (وروستی ځل %date): هرې یوې ټولې ساتل شوې پایلې زړې کړې. %file باید د هر هغه کارن لپاره د لیکلو وړ وي چې سایټ یې په نوم چلېږي؛ په NFS کې NFSv4 یا lockd ته اړتیا لري.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>د PHP چلوونکي د وخت تېرې ناستې پخپله PHP لرې کوي (session.gc_maxlifetime)، نه دغه پاڼه او نه د session_gc مهالوېشلې دندې برخه.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>د ټولو کارنانو ننوتې ناستې د ننوتلو په راپور کې لېست کېږي او ایستل کېږي؛ دا راپور د ناستې له هر چلوونکي سره کار کوي.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>د ننوتلو راپور پرانیستل</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>تر اوسه هېڅ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>امنیتي فعالیت</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>ستاسو وروستي ننوتل، ناکامې هڅې او ستاسو په پټنوم، برېښنالیک پته او دوه‌ګامه ننوتلو کې بدلونونه.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>د دې حساب وروستي ننوتل، ناکامې هڅې او امنیتي بدلونونه.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>د فعالیت کتل</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count ناکام ننوتل</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>له ننوتلو وروسته، کارن باید له هر بل کار مخکې نوی پټنوم وټاکي. دا هغه وخت وکاروئ چې یو چا ته لنډمهاله پټنوم ورکوئ.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>یو موجود انځور وټاکئ</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>د هغه څیز د انځور دوتنه چې تاسو یې ټاکئ په دې ساحه کې کاپي کېږي. بل څیز نه بدلېږي.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>د "%name" انځور په دې ساحه کې کاپي شو.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>د انځور لپاره لټول</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>انځورونه د نوم له مخې ولټوئ</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>لټون</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>د "%name" انځور وکاروئ</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>دا انځور وکاروئ</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>هېڅ انځور ستاسو له لټون سره سمون نه خوري.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab ونه لیکل شو (%reason). دا کرښې د هغه کارن crontab ته زیاتې کړئ چې سایټ یې په نوم چلېږي، کنه کتار، واردول، خبرتیاوې او د لټون لړلیک به هېڅکله ونه چلېږي:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>بیا نصبول د kickstarter په واسطه کېږي (%file، بیا php bin/php/kickstarter.php run --apply) یا د یو نوي نصب په واسطه.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>د eZJSCore د عامه بسته کوونکي کش</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>د GraphQL کېش (ځوابونه او د سکیما کلاسونه)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>د %class_name کاپي</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>د ډېټا ډولونه</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>د ډېټا ډول %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>د SVG انځور ونه لوستل شو، یا په هغه کې هېڅ شی په خوندي ډول نه شي ښودل کېدای.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>انځور کاپي نه شو. مهرباني وکړئ بیا هڅه وکړئ یا د سایټ له مدیر سره اړیکه ونیسئ.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>ټاکل شوی څیز شتون نه لري یا تاسو د لوستلو اجازه نه لرئ.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>ټاکل شوی څیز انځور نه لري.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>د ټاکل شوي څیز د انځور دوتنه ونه لوستل شوه.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>د ټاکل شوي څیز انځور له هغه څه لوی دی چې دا ساحه یې اجازه ورکوي: %1 بایټه.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ your account.</source>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>د نښې نوم &quot;%name&quot; ته بدل شو.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>دا پاڼه په دې د سایټ لاسرسي (%siteaccess) کې بنده ده. نښه په داسې د سایټ لاسرسي کې پرانیزئ چې دا پاڼه لري.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>د دې پاڼې ماډیول دلته نه دی نصب شوی یا نه دی فعال شوی.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>دا پاڼه نور شتون نه لري: د هغې ماډیول داسې لید نه لري.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>ستاسو هېڅ رول تاسو ته د دې پاڼې د پرانیستلو اجازه نه درکوي.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>تاسو د دې د سایټ لاسرسي د کارولو اجازه نه لرئ.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>تاسو د هغې منځپانګې د لوستلو اجازه نه لرئ چې دا پاڼه یې ښيي.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>دا ډول پاڼه په نښو کې نشي زیاتېدای: دا یوازې په یوه فورمه عمل کوي، یا د یوې شېبې پاڼه ده.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>د دې پاڼې پته نشته.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>دا پاڼه اوس نشي پرانیستل کېدای.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>د برېښنالیک د لېږد سیستم په وروستي چلول کې %count پیغامونه رد کړل. د برېښنالیک سرور او site.ini MailSettings وګورئ.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count پېښې په تمه دي او د خبرتیاوو د مهالوېشلې دندې هېڅ چلول نه دي ثبت شوي. د مهالوېشلې دندې برخه &quot;frequent&quot; crontab ته زیاته کړئ، یا exp:notification:run --apply وچلوئ.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>د غوټې د ټاکونکي په وسیله بل سایټ یا برخه ټاکل</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>یوازې د سیستم مدیر کولی شي خاوند بدل کړي: ./console exp:content-check --fix-permissions --apply د root په توګه وچلوئ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>تش</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>د لاسلیک کیلي له یو کال څخه زړه ده: هغه د exp:audit key rotate --apply په واسطه بدله کړئ.</translation>
     </message>
 </context>
 <context>
@@ -66972,6 +67475,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>د پاڼې د وخت ونډه</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>د بشپړ جوړولو غوښتنه وشوه</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>د پاڼو کش دغه پاڼه نه درلوده (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>د پاڼو کش ځواب ورنه کړ</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>جوړ شوی</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>د کرنل لخوا جوړ شوی: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>په %ms ms کې د پاڼو له کش څخه وړاندې شوه. پاڼه په %stored کې د %render ms جوړولو لخوا خوندي شوې وه، %age ثانیې مخکې.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>اوس جوړول</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>د کش شوي لید ته بېرته تګ</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>په %stored کې له جوړولو څخه (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>دغه غوښتنه: په %ms ms کې د پاڼو له کش څخه وړاندې شوه.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>کارن</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>د کارن پېژند</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>د کیش پروفایل</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>دا لید</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>د لید کش</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>د هر کارن لپاره (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>د کارن د کیش پروفایل: هغه کارنان چې ورته پروفایل لري د لید کیش فایلونه شریکوي</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>هو</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نه</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>کارن‌نوم</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>ننوتی</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>ناسته</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>د منځپانګې د لید د کیش کیلي هغه برخې چې په کارن پورې اړه لري، سم هغسې لکه کیلي یې چې اخلي، د دې پاڼې د ViewCacheTweaks لاندې. هغه کارنان چې ورته پروفایل لري د لیدونو د کیش فایلونه شریکوي، مګر دا چې د لید خپلې برخې (غوره توبونه، د listener کیلي ګانې) توپیر ولري: هغوی خپل پروفایل لري، یوازې د دې پاڼې لپاره.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>پروفایل</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>دا لید (نوډ %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: هر ننوتی کارن خپل د کیش فایلونه لري.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>فعال ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>برخه</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ارزښت</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>هیڅ برخه په کارن پورې اړه نه لري (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>دا لید</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>د متن په توګه کاپي کړئ</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>رولونه</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>د رول هیڅ ټاکنه ونه لوستل شوه.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>د رول ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>رول</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>محدودیت</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>ټاکل شوی</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>کارن</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ډله %name (څیز %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>کاپي شو</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>کاپي نه شو.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>د listener له خوا پرېښودل شوی</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>ناپېژندل شوي لیدونکي</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ستاسو په څېر</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>توپیر لري</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>هغه پروفایل چې ناپېژندل شوي لیدونکي یې د ورته ViewCacheTweaks لاندې، د ډیفالټ غوره توبونو سره، د لید له برخو پرته ترلاسه کوي: له هغه listener څخه چې ناسته لولي دا نه شي پوښتل کېدای.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>غوره توبونه</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>هیڅ د لید حالت د کارن په غوره توبونو پورې اړه نه لري (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>هغه غوره توبونه چې د دې لید حالتونو لیدونه پرې اړه لري (CachedViewPreferences)، د کارن له ارزښت یا ډیفالټ سره. دوی په پروفایل کې د userpreferences په توګه دي، د ټولو لید حالتونو یوځای.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>د لید حالت</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>غوره توب</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>تلواله</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>تګلارې</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>د رولونو پالیسۍ وښایاست (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>پالیسۍ له سرور څخه هغه وخت پورته کېږي چې دا برخه پرانیستل شي، یو وار یوه پاڼه، او د ماډیول او فنکشن له مخې فلټر کېدای شي.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>فنکشن</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>ټول ماډیولونه</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>ټول فنکشنونه</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>محدودیتونه</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>نور وښایاست</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>دا رولونه هیڅ پالیسي نه لري.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>هیڅ پالیسي له فلټر سره سمون نه خوري.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>له %matching پالیسیو څخه %shown (ټول %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>د پرانیستلو پر مهال بارېږي.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function، رول، محدودیت</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>په پالیسیو کې لټون</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>نور بار کړئ</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ماډیول/فنکشن</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>ټول رولونه (%count پالیسۍ)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>هیڅ پالیسي نه برابرېږي.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>له %matched پالیسیو څخه %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>هیڅ ځواب نشته</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>پټ شوی</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>تشریحات ښکاره کړئ</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>تشریحات پټ کړئ</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>پرانیستل</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>ټول پرانیستل</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>ټول تړل</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>کیلي یا ارزښت</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>په ناسته کې لټون</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ډول</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>نور %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>د ښودلو لپاره ډېر ژور ځای پر ځای شوی</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>لنډ شوی، ټول %count توري</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>پیل شو</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>د کوکي نوم</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>د ناستې ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>چلوونکی</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>د خوندي کولو لاره</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>د PHP تلواله</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>عمر (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>کوکي</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>عمر %s ثانیې</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>ستاسو خپله PHP ناسته، لکه څنګه چې د برخې د پرانیستلو پر مهال وه، هېڅکله بله نه. د هغو کیليو ارزښتونه چې د رازونو په څېر ښکاري (ټوکنونه، هشونه، پټنومونه) پټ شوي دي (debugbar.ini SessionMask[])؛ نور هر څه لکه څنګه چې زېرمه شوي ښودل کېږي، شخصي معلومات هم.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count کیلي، %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>لویه</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>ناسته تشه ده.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>د دې غوښتنې لپاره هېڅ ناسته پیل نه شوه.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>غځونه %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>کرنل او نور</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>ټول ننوتي نه دي ښودل شوي: ناسته تر هغه ډېر لري چې دلته لېست کېدای شي.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count کیلي نه دي لېست شوي.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>چوکاټ</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>هغه ارزښتونه چې د ټوکن په څېر ښکاري (یو JSON Web Token، د Authorization سرلیک اعتبارلیکونه، یوه شخصي کیلي، یو اوږد هېکس یا تصادفي متن) هم پټېږي، که د هغوی کیلي هر نوم ولري (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>کیلي د راز په څېر ښکاري (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>ارزښت د ټوکن په څېر ښکاري.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>د یوې پټې کیلي لاندې.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>ناسته د متن په توګه، د جدول په څېر پټه شوې.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>ناسته تر %size لویه ده (debugbar.ini SessionWarnBytes): د دې کارن هره غوښتنه ټوله ناسته لولي، او کله چې بدله شي هغه لیکي.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP دا ناسته په فایلونو کې ساتي او د ټولې غوښتنې په اوږدو کې فایل قلفوي: د ورته کارن غوښتنې (څو ټبونه، AJAX غوښتنې) یو بل ته انتظار باسي.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>پرانیستې ساتل</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>تر %size لویه (debugbar.ini SessionWarnBytes): د دې کارن هره غوښتنه ټوله ناسته لولي.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits له %count څخه له کش څخه لوستل شوي</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>هېڅ کېنډۍ ونه انځورل شوه (هغه لید چې د لید له کش څخه لوستل شوی وي هېڅ نه انځوروي).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>د رول ګمارنې</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>رولونه او تګلارې</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>له بې نومه لیدونکو سره توپير لري</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>د بې نومه لیدونکو په څېر</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -68852,6 +69835,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>نه دی لېږل شوی</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>د خبرتیاوو مهالوېشلې دنده خپل هر چلول دلته ثبتوي. د frequent برخه crontab ته زیاته کړئ، یا exp:notification:run --apply وچلوئ.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>کنسول وکاروئ: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -74570,6 +75561,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>دا موضوع نه ده خپره شوې؛ لوستونکي یې نه ویني.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>په نصب کې بدلونونه چې د فایلونو په توګه ساتل کېږي: د هغوی حالت، اجراوې، اجرا کول او بېرته ګرځول.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>د یوه سایټ ثابته کاپي GitHub Pages یا هر git کوربه ته خپره کړئ.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ثابته خپرونه</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>په بیاکتنه کې</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>لوستونکي دا پاڼه ویني.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>تر هغه چې څوک یې خپره کړي، له لوستونکو پټه ده.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>پاڼه اوس په بیاکتنه کې ده. تر خپرېدو پورې له لوستونکو پټه ده.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>پاڼه خپره شوه: لوستونکي یې اوس ویني.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>پاڼه بیا مسوده ده. تر بیاکتنې او خپرېدو پورې له لوستونکو پټه ده.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>اوس یې خپره کړئ</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>یوازې هغه کارن چې د %role رول لري او دا نسخه یې نه وي لیکلې، کولی شي دا خپره کړي.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>د مرستې موضوعګانې چې د خپرېدو په تمه دي</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>تر هغه چې بیا خپره شي، له لوستونکو یې پټوي.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>بیا یو بیاکتونکی یې ګوري. لوستونکي یې لا نه ویني.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>لوستونکي یې سمدستي ویني.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>د نورو کار لپاره یې له بیاکتنې باسي. لوستونکي یې نه ویني.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>دا پاڼه له لوستونکو پټه کړئ؟</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>دا پاڼه بېرته مسودې ته واستوئ؟</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>تر هغه چې څوک یې بیا خپره کړي، لوستونکي نور %title نه ویني.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title د نورو کار لپاره بېرته مسودې ته ځي. لوستونکي یې لا هم نه ویني، او له خپرېدو مخکې نوې بیاکتنې ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>لغوه کول</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>دا موضوعګانې په بیاکتنه کې دي. کله چې څوک چې اوسنۍ نسخه یې نه وي لیکلې دا خپرې کړي، لوستونکي یې ویني.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/secrets</name>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>هېڅ.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>د تصدیق اپلیکېشن سره</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>د برېښنالیک له لارې د کوډ سره</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>د بیا رغونې کوډ سره</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>د پاس‌کي سره</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>د بهرني حساب سره</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>امنیتي فعالیت</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>د هغې د شبکې په توګه ښودل کېږي؛ پته هماغسې ساتل کېږي لکه څنګه چې د سایټ د معلوماتو د ساتنې تنظیمات وايي.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>نه دی ثبت شوی</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>موقعیت</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>نږدې</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>د وسیلو مدیریت</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>د تصدیق اپلیکېشن سره</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>د برېښنالیک له لارې د کوډ سره</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>د بیا رغونې کوډ سره</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>د پاس‌کي سره</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>د بهرني حساب سره</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>امنیتي فعالیت</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>نه دی ثبت شوی</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>موقعیت</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>نږدې</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>د دغه کارن ناستې کتل</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>ستاسو حساب %login په %site کې همدا اوس له داسې ځایه د ننوتلو لپاره وکارول شو چې پر دې وروستیو کې ترې نه و ننوتی:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>نږدې موقعیت</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser په %os کې</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>د ننوتلو راپور</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>پاس‌کي ونه کتل شو. مهرباني وکړئ بیا هڅه وکړئ.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>هغه حسابونه چې یوازې د پاس‌کيو په مرسته ننوځي دلته پټنوم نه شي کارولی: «د پاس‌کي په مرسته ننوتل» وټاکئ.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>د %login پاس‌کي</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>هغه پاس‌کي چې دا حساب پرې ننوځي. هغه پاس‌کي بېرته واخلئ چې په ورکه شوې یا غلا شوې وسیله کې دی: هغه به نور ننوتلی نه شي. نوي یې د حساب خاوند پخپله زیاتوي.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>ستاسو حساب یو پاس‌کي ته اړتیا لري</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>خپل حساب ته یو پاس‌کي زیات کړئ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>د دوام لپاره یو پاس‌کي زیات کړئ. بیا به تاسو یوازې د پټنوم پر ځای د هغه په مرسته ننوځئ.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>د پاس‌کي په مرسته ننوتل له پټنوم څخه چټک او خوندي دي. همدا اوس یو زیات کړئ، یا پرته له هغه دوام ورکړئ.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>اوس نه</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>پاس‌کي &quot;%name&quot; بېرته واخیستل شي؟</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>هغه به نور دې حساب ته ننوتلی نه شي. که دا وروستی و، خاوند به په پټنوم ننوځي، یا تاسو نوی پټنوم وټاکئ.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>پاس‌کي بېرته اخیستل</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>بېرته اخیستل</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>دا حساب هېڅ پاس‌کي نه لري.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>تصدیق کوونکی</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>نامعلوم</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>ستاسو وروستی پاس‌کي: د لرې کولو مخکې یو بل زیات کړئ.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>دا حساب یوازې د پاس‌کيو په مرسته ننوځي (د پاس‌کي تګلاره): کله چې هېڅ پاتې نه شي، بیا په خپل پټنوم ننوځي.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>دا ستاسو وروستی پاس‌کي دی او ستاسو حساب پرته له هغه ننوتلی نه شي. لومړی بل پاس‌کي زیات کړئ.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>پاس‌کي &quot;%name&quot; بېرته واخیستل شو. هغه نور دې حساب ته ننوتلی نه شي.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>ستاسو د تصدیق له اپ څخه کوډ</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>تاسو د دې په درشل کې یاست چې معلومات د تل لپاره ړنګ کړئ یا یو لاګ پاک کړئ.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>ستاسو پټنوم او یو پاس‌کي</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>ستاسو پټنوم او ستاسو د تصدیق له اپ څخه یو کوډ</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>یا:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>دا براوزر پاس‌کي نه شي کارولی. بله لاره یا بل براوزر وکاروئ.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>کله چې تاسو دوام ورکړئ، ستاسو براوزر به ستاسو له پاس‌کيو څخه یو وغواړي.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>د پاس‌کي په مرسته دوام ورکول</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>جوړونه</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>د خپل پټنوم، برېښنالیک پتې، پاس‌کيو، دوه‌ګامه ننوتلو، د بیا رغونې کوډونو یا API کیلیو بدلول، او له خپلو نورو وسیلو وتل.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>د کارنانو، د هغوی د پټنومونو او وسیلو، د حساب امستنو جوړول او سمول، د نویو کارن حسابونو منل یا ردول، د رولونو ټاکل او د تګلارو سمول.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>د معلوماتو ړنګول</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>د کثافت‌دانۍ تشول، له هغې څخه د توکو لرې کول او په یو ځل د څو توکو لرې کول.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>د منځپانګې لرې کول، خپرول او خوندي کول</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>د منځپانګې لرې کول (کثافت‌دانۍ ته هم)، خپرول او د مسودې خوندي کول؛ د فورمې د لېږلو پر مهال پوښتل کېږي. په ډیفالټ ډول بند.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>د یوې حساسې کړنې مخکې، ننوتلی کارن بیا تایید کوي چې څوک دی: په خپل پټنوم او یو پاس‌کي، یا پرته له پاس‌کي په خپل پټنوم او د خپل تصدیق اپ په کوډ. یوازې ویب پاڼې پوښتنه کوي: د REST انټرفېس، SOAP، WebDAV، د expservices ننوتل او کمانډ لاین هېڅکله نه پوښتي.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>امستنې چېرې پلي کېږي</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>امستنې د دې لپاره</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>د سایټ هر لاسرسی</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>د سایټ لاسرسی %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>پرانیستل</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>څوک پوښتل کېږي: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>د کارنانو ډلې په نښه کړئ چې یوازې د هغوی غړي وپوښتل شي (د بېلګې په توګه سمونګر). هېڅ په نښه نه وي: هر کارن.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>د سایټ د هر لاسرسي لپاره په settings/override/site.ini.append.php کې خوندي شو. د خوندي کولو پر مهال له تاسو غوښتل کېږي چې تایید کړئ دا تاسو یاست.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>په settings/siteaccess/%name/site.ini.append.php کې خوندي شو. په settings/override کې ارزښت پر دې لومړیتوب لري. د خوندي کولو پر مهال له تاسو غوښتل کېږي چې تایید کړئ دا تاسو یاست.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>پاڼه پرانیستل</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>له %count څخه %from تر %to</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>کارن‌نوم یا د کارن ID: هغه حساب چې پېښه یې په اړه وه یا هغه کارن چې کړنه یې وکړه.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>حساب</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>کړنه</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>وروسته</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>هره پایله</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>مخکې</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ترسره کوونکی</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>پاکول</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ترسره شو</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>پېښې د %days ورځو لپاره ساتل کېږي.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>پېښې تر هغه ساتل کېږي چې په لاس لرې شي.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>پېښې</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>هره کړنه</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>د دې حساب ټولې پېښې</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>د لېست صادرول د CSV په بڼه (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>له</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>لېست محدودول</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>هېڅ پېښه سمون نه خوري.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>په هره پاڼه کې</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>ثبتول په audit.ini کې بند دي ([UserAuditSettings] UserAudit)؛ لېست هغه څه ښيي چې مخکې ثبت شوي.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>رد شوی</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>پایله</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ښودل</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>د کارنانو د پلټنې لاګ جدول نشته. هغه د php update/common/scripts/6.0/createuseraudittable.php په مرسته جوړ کړئ؛ تر هغه وخته د پلټنې دوتنې هره پېښه ساتي.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>دې پاڼې ته SQL ډېټابېس اړین دی؛ په MongoDB کې شتون نه لري. د پلټنې دوتنې هره پېښه ساتي.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تر</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>د کارنانو د پلټنې لاګ</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>کارن</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>کله</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>چېرته</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>چا کوم حساب بدل کړ، جوړ کړ، فعال کړ، غیرفعال کړ، ولېږداوه یا لرې کړ، څوک ننوت یا رد شو، او کوم رولونه وټاکل شول: د هرې پېښې لپاره یوه کرښه، د ساحو له مخکې او وروسته ارزښتونو سره. پټنومونه او رازونه هېڅکله نه ثبتېږي.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ډله</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>سیستم</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نامعلوم</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>خپل حساب خوندي کړئ</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>په %site کې ستاسو حساب %login ته د ننوتلو لپاره د بیا رغونې یو کوډ وکارول شو.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>د بیا رغونې یو کوډ وکارول شو</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>حساب</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>نږدې پته</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>د بیا ننوتلو لپاره نوی پټنوم وغواړئ، یا د سایټ له مدیرانو سره اړیکه ونیسئ.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>د نوي پټنوم غوښتل</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>د بیا رغونې هر کوډ یو ځل کار کوي. که مو خپل تلیفون ورک کړی وي، خپل د تصدیق اپلیکېشن بیا تنظیم کړئ او د بیا رغونې نوي کوډونه په یو خوندي ځای کې وساتئ.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>ستاسو حساب ته د ننوتلو ناکامې هڅې</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>له اوس وروسته، ننوتل ستاسو له پټنوم سربېره یو کوډ هم غواړي. که دا کار تاسو کړی وي، هېڅ کار ته اړتیا نشته.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>که تاسو وئ او خپل پټنوم مو هېر کړی وي، نوی پټنوم وغواړئ. که نه، یو پیاوړی پټنوم وټاکئ او دوه‌ګامه ننوتل فعال کړئ.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>که دا تاسو نه وئ، ښايي څوک ستاسو پټنوم پېژني: همدا اوس یې بدل کړئ او وګورئ چې ستاسو حساب چېرې ننوتی دی.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>د بیا رغونې پاتې کوډونه</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>خپل وسایل وګورئ</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>امنیتي خبرداری</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>یو چا هڅه وکړه چې په %site کې ستاسو حساب %login ته په پرله پسې ډول %count ځله د غلط پټنوم سره ننوځي.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>په %site کې ستاسو په حساب %login کې یوه امنیتي پېښه رامنځته شوه.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>دا ستاسو د حساب په اړه امنیتي خبرداری دی. د هر داسې بدلون لپاره لېږل کېږي او بندېدای نه شي.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وخت</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>په %site کې ستاسو د حساب %login لپاره دوه‌ګامه ننوتل بند شول.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>دوه‌ګامه ننوتل بند شول</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>په %site کې ستاسو د حساب %login لپاره دوه‌ګامه ننوتل فعال شول.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>دوه‌ګامه ننوتل فعال شول</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>په %site کې ستاسو حساب %login د ډېرو ناکامو ننوتلو وروسته قلف شو.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>ستاسو حساب اوس یوازې ستاسو د پټنوم په واسطه خوندي دی. که دا کار تاسو نه وي کړی، د خپل پټنوم له بدلولو وروسته دوه‌ګامه ننوتل بیا فعال کړئ.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>ستاسو حساب قلف شو</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>ستاسو حساب %login ته په %site کې یو پاس‌کي زیات شو.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>هر څوک چې دا پاس‌کي ولري، کولی شي پرته له ستاسو پټنوم ستاسو حساب ته ننوځي. که تاسو دا نه وي زیات کړی، د پاس‌کي لاندې یې لرې کړئ او خپل پټنوم بدل کړئ.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>ستاسو له حساب %login څخه په %site کې یو پاس‌کي لرې شو.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>هغه نور ستاسو حساب ته ننوتلی نه شي. که تاسو دا نه وي لرې کړی، خپل پاس‌کي او وسیلې وګورئ.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>ستاسو حساب ته یو پاس‌کي زیات شو</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>ستاسو له حساب څخه یو پاس‌کي لرې شو</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>امنیتي فعالیت</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>د %name امنیتي فعالیت</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ننوتی</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>د ننوتلو ناکامه هڅه</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>وتلی</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ناستې وایستل شوې</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>له نوې وسیلې ننوتل</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>له نوي موقعیت ننوتل</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>هویت تایید شو («هویت تایید کړئ»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>د هویت تایید ناکام شو</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>د پاس‌کي سره ننوتی</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>د پاس‌کي سره ننوتل ناکام شول</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ننوتل رد شول: د دوه‌ګامه ننوتلو کوډ نشته یا غلط دی</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>د دوه‌ګامه ننوتلو غلط کوډ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>حساب د ناکامو ننوتلو وروسته قلف شو</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>د حساب قلف خلاص شو</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>پټنوم بدل شو</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>د پټنوم بدلول ناکام شول</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>پټنوم بیا تنظیم شو</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>نوی پټنوم وغوښتل شو</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>برېښنالیک پته بدله شوه</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>کارن‌نوم بدل شو</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>دوه‌ګامه ننوتل فعال شول</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>دوه‌ګامه ننوتل بند شول</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>د بیا رغونې کوډ وکارول شو</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>د بیا رغونې نوي کوډونه</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>د اپلیکېشن پټنوم جوړ شو</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>د اپلیکېشن پټنوم لغوه شو</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>پاس‌کي زیات شو</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>پاس‌کي لرې شو</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>حساب فعال شو</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>حساب غیر فعال شو</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ټول</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ننوتل او ناستې</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>د حساب بدلونونه</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>پاملرنې ته اړتیا لري</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ستاسو له خوا</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>د کارن له خوا</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>د %login له خوا</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>طریقه</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>براوزر</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>عملیاتي سیستم</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>وسیله</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>ځای</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>هېواد</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ناستې</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>کومې</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>چینل</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ناکامې هڅې</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>پاتې کوډونه</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>د ننوتلو چلوونکی</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>امنیتي فعالیت</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>د %name امنیتي فعالیت</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ستاسو د حساب په امنیت کې ننوتل او بدلونونه. که داسې څه وینئ چې تاسو نه وي کړي، خپل پټنوم بدل کړئ او هغه وسایل وباسئ چې نه یې پېژنئ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>د دې حساب په امنیت کې ننوتل او بدلونونه.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ستاسو وسایل</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>پټنوم بدلول</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>حساب ته بیرته</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>امنیتي فعالیت نه ثبتېږي</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>دا د کارنانو د پلټنې له لاګ څخه لوستل کېږي، چې جدول یې expuser_audit نشته یا په دې ډېټابېس کې نه ملاتړ کېږي. php update/common/scripts/6.0/createuseraudittable.php یا د 6.0.15 د ډېټابېس تازه کول وچلوئ.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>وروستۍ %days ورځې</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>په وروستیو %days ورځو کې ننوتل</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>وروستی امنیتي فعالیت</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ښودل</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>رد شوی</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>تر اوسه هېڅ امنیتي فعالیت نه دی ثبت شوی.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>امنیتي پېښې %days ورځې ساتل کېږي.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>امنیتي پېښې تر هغه ساتل کېږي چې یو مدیر یې لرې کړي.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>زما د ننوتلو معلومات ښکته کول</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ستاسو ناستې او امنیتي پېښې د JSON دوتنې په توګه.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>په دې سایټ کې ناستې نه ثبتېږي، نو هېڅ بله وسیله ونه ایستل شوه. اوس خپل پټنوم بدل کړئ.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>نورې %count ناستې وایستل شوې. اوس خپل پټنوم بدل کړئ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>بله هېڅ وسیله ننوتې نه وه. اوس خپل پټنوم بدل کړئ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>مننه. پېښه ستاسو په توګه نښه شوه.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>هغه پېښه ځواب ته اړتیا نه لري.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>د پاڼې وخت ختم شوی و. هېڅ شی بدل نه شو؛ مهرباني وکړئ بیا هڅه وکړئ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>خپل حساب خوندي کړئ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>که دلته څه ستاسو له خوا نه وو، نو له نورو ټولو وسیلو ووځئ، بیا نوی پټنوم وټاکئ. هغه وسیلې چې د “ما په یاد ولرئ” له لارې ننوتې پاتې دي هم ایستل کېږي.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>پرته له دې څخه هره وسیله په خپله راتلونکې غوښتنه کې ایستل کېږي. بیا تاسو نوی پټنوم ټاکئ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>هو، نورې وسیلې وباسئ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>دا تاسو وئ؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>هو، زه وم</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>نه، زما حساب خوندي کړئ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ننوتی</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>د ننوتلو ناکامه هڅه</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>وتلی</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ناستې وایستل شوې</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>له نوې وسیلې ننوتل</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>له نوي موقعیت ننوتل</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>هویت تایید شو («هویت تایید کړئ»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>د هویت تایید ناکام شو</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>د پاس‌کي سره ننوتی</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>د پاس‌کي سره ننوتل ناکام شول</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ننوتل رد شول: د دوه‌ګامه ننوتلو کوډ نشته یا غلط دی</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>د دوه‌ګامه ننوتلو غلط کوډ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>حساب د ناکامو ننوتلو وروسته قلف شو</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>د حساب قلف خلاص شو</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>پټنوم بدل شو</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>د پټنوم بدلول ناکام شول</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>پټنوم بیا تنظیم شو</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>نوی پټنوم وغوښتل شو</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>برېښنالیک پته بدله شوه</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>کارن‌نوم بدل شو</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>دوه‌ګامه ننوتل فعال شول</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>دوه‌ګامه ننوتل بند شول</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>د بیا رغونې کوډ وکارول شو</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>د بیا رغونې نوي کوډونه</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>د اپلیکېشن پټنوم جوړ شو</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>د اپلیکېشن پټنوم لغوه شو</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>پاس‌کي زیات شو</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>پاس‌کي لرې شو</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>حساب فعال شو</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>حساب غیر فعال شو</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ټول</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ننوتل او ناستې</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>د حساب بدلونونه</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>پاملرنې ته اړتیا لري</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>امنیتي فعالیت</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>د %name امنیتي فعالیت</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ستاسو د حساب په امنیت کې ننوتل او بدلونونه. که داسې څه وینئ چې تاسو نه وي کړي، خپل پټنوم بدل کړئ او هغه وسایل وباسئ چې نه یې پېژنئ.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ستاسو وسایل</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>پټنوم بدلول</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>امنیتي فعالیت تر اوسه په دې سایټ کې نه ثبتېږي.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>په وروستیو %days ورځو کې ننوتل</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ناکامې هڅې</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>تر اوسه هېڅ امنیتي فعالیت نه دی ثبت شوی.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>زما د ننوتلو معلومات ښکته کول</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ستاسو ناستې او امنیتي پېښې د JSON دوتنې په توګه.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>په دې سایټ کې ناستې نه ثبتېږي، نو هېڅ بله وسیله ونه ایستل شوه. اوس خپل پټنوم بدل کړئ.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>نورې %count ناستې وایستل شوې. اوس خپل پټنوم بدل کړئ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>بله هېڅ وسیله ننوتې نه وه. اوس خپل پټنوم بدل کړئ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>مننه. پېښه ستاسو په توګه نښه شوه.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>هغه پېښه ځواب ته اړتیا نه لري.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>د پاڼې وخت ختم شوی و. هېڅ شی بدل نه شو؛ مهرباني وکړئ بیا هڅه وکړئ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>خپل حساب خوندي کړئ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>که دلته څه ستاسو له خوا نه وو، نو له نورو ټولو وسیلو ووځئ، بیا نوی پټنوم وټاکئ. هغه وسیلې چې د “ما په یاد ولرئ” له لارې ننوتې پاتې دي هم ایستل کېږي.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>پرته له دې څخه هره وسیله په خپله راتلونکې غوښتنه کې ایستل کېږي. بیا تاسو نوی پټنوم ټاکئ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>هو، نورې وسیلې وباسئ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>دا تاسو وئ؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>هو، زه وم</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>نه، زما حساب خوندي کړئ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>پټنوم</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>پټنوم او د دوه‌ګامه ننوتلو کوډ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>د REST انټرفېس</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>د SOAP انټرفېس</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>یو ځلي ننوتل</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>د ناستو له ثبتولو مخکې ننوتی</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>د ننوتلو راپور</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>څوک په سایټ کې ننوتی دی، حسابونه څو ځله ننوځي او پاتې راځي، او یو کارن له هر ځایه ایستل. د ناستې له هر چلوونکي سره کار کوي.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>ناسته وایستل شوه. وسیله باید بیا ننوځي.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login له %count ناستو وایستل شو.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login هېڅ روانه ناسته نه درلوده.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>هېڅ حساب دا پېژند، کارن‌نوم یا برېښنالیک پته نه لري.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>دا هغه ناسته ده چې تاسو یې کاروئ. د پای ته رسولو لپاره یې ووځئ.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>هغه ناسته دمخه پای ته رسېدلې وه.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>د پاڼې موده پای ته رسېدلې وه. هېڅ شی بدل نه شو؛ مهرباني وکړئ بیا هڅه وکړئ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>په دې سایټ کې ناستې نه ثبتېږي (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>جدول expuser_session نشته</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>ناستې هغه وخت ثبتېږي چې دا جوړ شي: php update/common/scripts/6.0/createusersessiontable.php، یا د 6.0.15 د ډېټابېس تازه کول.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>اوس او نن</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>روانې ناستې</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>ننوتي کارنان</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>نن ننوتل</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>نن ناکامې هڅې</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>یو کارن له هر ځایه ایستل</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>د حساب هره ناسته په خپلې راتلونکې غوښتنې پای ته رسېږي، هغه هم چې د «ما په یاد ولرئ» په واسطه ساتل شوې. دا هغه وخت وکاروئ چې یو حساب ښايي په غلطو لاسونو کې وي؛ بیا یې پټنوم بیا تنظیم کړئ.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>د کارن پېژند، کارن‌نوم یا برېښنالیک پته</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>له هر ځایه وتل</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>اوس ننوتي</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>وروستي %limit کارول شوې ښودل کېږي.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>کارن</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>وسیله</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پته</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ننوتی</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>وروستی فعال</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>کړنې</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>دا وسیله</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>نه دی ثبت شوی</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>وتل</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>هېڅ ناسته ننوتې نه ده.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>وروستۍ %days ورځې</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>ننوتل او ناکامې هڅې د کارنانو د پلټنې له لاګ څخه شمېرل کېږي، چې نشته؛ نوې ناستې شمېرل کېږي.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>ورځ</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>ننوتل</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ناکامې هڅې</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>نوې ناستې</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>د ناستې چلوونکی: %handler. ناستې د expuser_session له جدول څخه لوستل کېږي، نو راپور د هر چلوونکي سره کار کوي.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>په تېرو %hours ساعتونو کې شکمن فعالیت</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>یوه شبکه ونه توانېده چې %accounts حسابونو ته ننوځي (%count هڅې)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>حساب د ناکامو ننوتنو وروسته قلف شو</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>په یوه حساب کې %count ناکامې ننوتنې</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>په یو وخت کې له %count هېوادونو څخه ننوتل</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>امنیتي فعالیت</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ناستې</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ناکامې ننوتنې د کارن د پلټنې له لاګ څخه لوستل کېږي، چې دلته شتون نه لري.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>هېڅ شکمن شی نشته: داسې حساب نشته چې بیا بیا ناکامې ننوتنې ولري، داسې شبکه نشته چې څو حسابونه هڅه کړي، داسې حساب نشته چې له څو هېوادونو ننوتی وي.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>ستاسو د حساب لپاره امنیتي خبرداری</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>ستاسو په حساب %login کې یوه امنیتي پېښه رامنځته شوه: %event. که دا تاسو نه وئ، خپل حساب په %url کې خوندي کړئ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>جوړونه</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>د دې سایټ له منځپانګې څخه په یوه غوښتنه کې هماغه ساحې وغواړئ چې یوه پاڼه ورته اړتیا لري. سکیما د منځپانګې کلاسونه تعقیبوي؛ هره پوښتنه د هغه کارن په حقونو چلېږي چې یې لېږي.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>د GraphQL API په دې سایټ لاسرسي کې بند دی. په graphql.ini کې یې چالان کړئ: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>د GraphQL کتابتون (webonyx/graphql-php 15) نه دی نصب شوی.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>پای ټکی</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>کتابتون</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>سکیما</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count د منځپانګې کلاسونه، سکیما %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>پوښتنه</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>متغیرونه (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>چلول</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>ځواب</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>چلېږي…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>ځواب ونه لوستل شو.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>پوښتنه ستاسو په حقونو چلېږي، د همدې ناستې په ننوتلو سره.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>په %seconds ث کې %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>بې حده</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>ژوروالی</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>پېچلتیا</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>په هر لست کې توکي</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (تلواله %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>د هر کارن یا کیلي غوښتنې</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>د هرې ناپېژاندې پتې غوښتنې</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>ځان پلټنه</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>یوازې خوندي شوې پوښتنې</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>تر ټولو لویه پوښتنه</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes بایټه</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>تر ټولو لوی پورته کول</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>سایټ لاسرسی %siteaccess نشته.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>په %siteaccess کې میوټېشنونه چالان دي.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>په %siteaccess کې میوټېشنونه بند دي.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>په %siteaccess کې GraphQL API چالان دی.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>په %siteaccess کې GraphQL API بند دی.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>امستنې ونه شوې لیکل کېدای: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>د ځوابونو زېرمه پاکه شوه: %count ځوابونه لرې شول.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>د پوښتنې د لرې کولو لپاره د هغې څنګ ته بکس په نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>پوښتنه ونه شوه لرې کېدای: هغه پوښتنه چې د PersistedQueryDirectoryList[] په یوه لارښود کې راغلې د خپل فایل سره لرې کېږي.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>خوندي شوې پوښتنه لرې شوه.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>میوټېشنونه</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>چالان</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>بند</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>سایټ لاسرسي</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API او د هغې میوټېشنونه چېرته ځواب ورکوي. تڼۍ graphql.ini لیکي، لکه څنګه چې ./console exp:graphql:enable او exp:graphql:disable کوي.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>سایټ لاسرسی</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>بدلول</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>بندول</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>میوټېشنونه بند</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>میوټېشنونه چالان</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>چالانول</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>حدونه</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>د دې سایټ لاسرسي graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>د ځوابونو زېرمه</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>د خوندي شوو پوښتنو ځوابونه، د کارن د حقونو له مخې ساتل کېږي او هرکله چې منځپانګه خپره شي موده یې پای ته رسېږي.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>ساتل شوي ځوابونه</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count ځوابونه، %bytes بایټه</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>تر ټولو ډېر ساتل</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ث</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>وروستی پای ته رسېدل</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>د ځوابونو زېرمه پاکول</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>خوندي شوې پوښتنې</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>د ./console exp:graphql:persist سره، یا د پېرېدونکو لخوا خوندي شوې (اتومات خوندي شوې پوښتنې)؛ په نوم یا SHA-256 بلل کېږي.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>نومونه</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>اندازه</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>چېرته</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>لرې کول</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>راغلې</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>خوندي شوې</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>هو، دا پوښتنه لرې کړئ</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>تر اوسه هېڅ خوندي شوې پوښتنه نشته.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>د API کیلي</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>شخصي API کیلي د graphql:read (پوښتنې) یا graphql:write (میوټېشنونه) ساحې سره. هغه د API لاسرسي په پاڼه کې، یا د ./console exp:graphql:keys سره جوړې او لغوه کړئ.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>د API لاسرسی</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>ټولې کیلي</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>کیلي</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نوم</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>خاوند</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>ساحې</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>وروستی کارول</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>فعاله</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>موده یې تېره</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>لغوه شوې</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>هېڅکله</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>تر اوسه د GraphQL ساحې سره هېڅ API کیلي نشته.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>د GraphQL API په هغه سایټ لاسرسي %siteaccess کې بند دی چې دا پاڼه ښيي؛ لاندې جدول ښيي چې چېرته ځواب ورکوي.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>د هغه سایټ لاسرسي %siteaccess لپاره چې دا پاڼه ښيي.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>وېب هوکونه</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>هره پېښه چې یو پای ټکی یې غواړي (publish, update, trash, delete, move, hide, reveal, mutation)، د cronjob برخه graphqlwebhooks یې لاسلیک شوې ورته لېږي. ./console exp:graphql:webhooks هم د دې برخې په څېر همدا کار کوي.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>پېښې</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ټولې</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>هر سایټ لاسرسی</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>مات</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>راز نشته</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>په تمه</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count پرېښودل شوې</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>وروستی سپارل</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>یوه ازمېښت ولېږئ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>هو، دا وېب هوک لرې کړئ</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>تر اوسه هېڅ وېب هوک نشته.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>یو وېب هوک زیات کړئ</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>زیاتول</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>وروستي سپارنې</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وخت</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>پایله</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>ګډونونه</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>د پېرودونکو لپاره ژوندي تازه کول: په /api/graphql/subscribe کې د پېښو جریان، او په Velocity کې یو WebSocket (graphql-transport-ws). هره پېښه یوازې هغو ګډونوالو ته ځي چې د هغې منځپانګه لوستلای شي.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>اوس پرانیستي</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>تر ټولو ډېر پرانیستي</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>ټول %total، په هر کارن %user، په هر پته %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>بې نومه ګډونونه</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>د جریان موده</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>وېب هوک زیات نه شو کړای: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>وېب هوک %name بدل شو؛ د لاسلیک راز یې پاتې کېږي.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>د لاسلیک راز خوندي نه شو کړای (جوړونه &gt; رازونه).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>وېب هوک %name زیات شو. د لاسلیک راز یې، یوازې همدا یو ځل ښودل کېږي: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>وېب هوک %name نشته.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>وېب هوک %name ځواب ورنه کړ: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>وېب هوک %name په %ms ms کې %status ځواب ورکړ.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>د وېب هوک د لرې کولو لپاره د هغه څنګ ته بکس په نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>وېب هوک %name لرې شو.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>د GraphQL API په دې سایټ لاسرسي کې بند دی.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>د GraphQL کتابتون نه دی نصب شوی.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET یا POST وکاروئ.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>د غوښتنې بدنه د JSON څیز نه دی.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables د JSON څیز نه دی.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions د JSON څیز نه دی.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>پوښتنه د POST له لارې ولېږئ.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>په غوښتنه کې هېڅ پوښتنه نشته.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>پوښتنه له %max بایټه اوږده ده.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>د سرور دننۍ تېروتنه</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node له id, remoteId, path او urlAlias څخه دقیقاً یو ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content له id او remoteId څخه دقیقاً یو ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>د after کرسر هغه نه دی چې دې API ورکړی وي.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>د %alias په نوم د انځور مستعار نوم نشته (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>دلته یوازې خوندي شوې پوښتنې منل کېږي: په سرور کې د خوندي شوې پوښتنې id ولېږئ.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>د خوندي شوې پوښتنې هش SHA-256 نه دی.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>د خوندي شوې پوښتنې هش له پوښتنې سره سمون نه خوري.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>ډېرې زیاتې غوښتنې: په %window ثانیو کې تر ټولو ډېر %limit. له %reset ثانیو وروسته بیا هڅه وکړئ.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>پوښتنه %depth کچې ژوره ده؛ تر ټولو ډېر %max اجازه لري.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>د پوښتنې پېچلتیا %complexity ده؛ تر ټولو ډېر %max اجازه لري.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>دا غوښتنه سکیما نه شي لوستلی (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search متن یا فلټر ته اړتیا لري (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument نېټه نه ده (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag له id, remoteId او path څخه دقیقاً یو ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout له id, identifier او urlAlias څخه دقیقاً یو ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>د multipart غوښتنې operations ډګر یوه JSON غوښتنه نه ده.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>د multipart غوښتنې map ډګر JSON څیز نه دی.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>په multipart غوښتنه کې %field فایل نشته.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>د ډګرونو د نقشې یوه لار باید په variables. پیل شي: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>فایل %name بشپړ ونه رسېد (د پورته کولو تېروتنه %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>فایل %name له %max بایټه لوی دی.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>فایل %name ونه شو کتل کېدای.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>په دې سایټ لاسرسي کې میوټېشنونه بند دي (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>میوټېشن د POST سره ولېږئ.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>د منځپانګې د بدلولو لپاره ننوځئ.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>د API کیلي %scope ساحه نه لري.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>د ناستې سره میوټېشن د ناستې فورم ټوکن ته اړتیا لري (سرلیک X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl بند دی: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] هېڅ کوربه نه یادوي.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>پته باید https پته وي.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>کوربه %host په graphql.ini [GraphQLSettings] UploadFromUrlHostList[] کې نشته.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>فایل ونه شو راوړل کېدای.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload یوازې د ننوتو ډول دی.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>د Upload ډول متغیر د multipart غوښتنې فایل اخلي.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>لرې پېژند %remoteId دمخه نیول شوی.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>منځپانګه دمخه په %language کې ژباړه لري: updateContent وکاروئ.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>لږ تر لږه یو ډګر ورکړئ.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>نوې نسخه ونه شوه جوړېدای (منځپانګه ډېرې مسودې لري).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>نسخه %version مسوده نه ده.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent د id او nodeId څخه یوازې یوه ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>یو ځای د ځان لاندې نه شي لېږدول کېدای.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>منځپانګه دمخه د %parentId لاندې ځای لري.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>د %field ډګر ارزښت ونه شو ساتل کېدای.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>د منځپانګې ژبه %language نشته.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>په سکیما کې د منځپانګې ټولګی %class نشته.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>منځپانګه نشته، یا تاسو یې نه شئ لوستلای.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>تاسو له دې منځپانګې سره دا کار نه شئ کولای.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>ټولګی %class د لیکلو وړ ډګر %field نه لري.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>ډګر %field دوه ځله ورکړل شوی.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>ډګر %field فایل اخلي: د پورته کولو په توګه یې ولېږئ (multipart غوښتنه).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>ډګر %field فایل نه اخلي.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>ډګر %field ارزښت ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>بڼه %format یوازې د بډایه متن ډګرونو لپاره ده؛ %field خپل ارزښت هماغسې اخلي (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>ډګر %field اړین دی.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ونه شو لوستل کېدای.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content یوازې د id سره version اخلي.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>د مخکتنې ټوکن سم نه دی یا یې موده پای ته رسېدلې.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>origin نه دی (https://host یا https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>د GraphQL API ساحه نه ده: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>ګډونونه /api/graphql/subscribe ته ولېږئ (د پېښو جریان یا WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>غوښتنه د سند هېڅ عملیات نه نوموي.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>یو ګډون سم یو ډګر غواړي.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>ډېر زیات ګډونونه پرانیستي دي؛ وروسته بیا هڅه وکړئ.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>تاسو %max ګډونونه پرانیستي لرئ، چې تر ټولو ډېر اجازه لرونکي دي.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>ستاسو پته %max ګډونونه پرانیستي لري، چې تر ټولو ډېر اجازه لرونکي دي.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>په دې سایټ لاسرسي کې ګډونونه بند دي.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>د ګډون لپاره ننوځئ (یو ټوکن یا شخصي API کیلي).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>میوټېشنونه /api/graphql ته ولېږئ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>حالت ونه لوستل شو: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>د مهاجرتونو جدولونه لا نشته: ./console exp:upgrade --apply یې جوړوي.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count مهاجرتونه ناکام شول</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>یو اجرا روانه ده، چې %user پیل کړې</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>نصب قلف شوی دی: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>په تمه کې</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>یتیم</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>وروستۍ اجرا</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>لا هیڅ نه</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>ټول مهاجرتونه</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>شبیه‌سازي شوې اجرا</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>آزمایښتي اجرا</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>په تمه کې مهاجرتونه په یوه معامله کې اجرا شول چې وروسته بېرته وګرځول شوه: هیڅ ونه ساتل شول. لاندې هغه څه دي چې هر یوه په ډېټابېس کې بدل کړل.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>یوه اجرا به اوس څه وکړي. هیڅ نه بدلېږي: هر په تمه کې مهاجرت هغه بدلونونه ښيي چې کول به یې، او اجرا هغه څه چې مخکې او وروسته به یې کول.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>شبیه‌سازي</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>اجرا کول</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>آزمایښتي اجرا ناکامه شوه: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>شبیه‌سازي PostgreSQL یا SQLite ته اړتیا لري، چې د سکیما بدلونونه یې بېرته ګرځول کېدای شي؛ په دې ډېټابېس کې لاندې پلان ښيي چې یوه اجرا به څه وکړي.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>مهاجرت</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>څه به وکړي</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>شبیه‌سازي: %result په %ms ملي‌ثانیو کې</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>لا هیڅ مهاجرت نشته.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>له اجرا مخکې او وروسته</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>مخکینی انځور</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>اخیستل کېږي، او کله چې مهاجرت ناکام شي بېرته راګرځول کېږي</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>بند</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>وروستنی انځور</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>اخیستل کېږي کله چې اجرا بریالۍ شي</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total مهاجرتونه: %pending په تمه کې، %done بشپړ، %failed ناکام.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>د مهاجرتونو تاریخچه</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>هره اجرا له کارن، چاپېریال، انځورونو او هغه څه سره چې ثبت، نښه او ولېږل شول. ناکامه یا پرې شوې اجرا بیا پیلېدای شي؛ هغه اجرا چې مخکې ترې انځور اخیستل شوی وي بېرته اخیستل کېدای شي.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>اجراوې ونه لوستل شوې: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>د مهاجرتونو جدولونه لا نشته: ./console exp:upgrade --apply یې جوړوي.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ښودل</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ټول</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>اجراوې</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>پیل شوې</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>له خوا</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>انځورونه</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>زېرمتون</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>کړنې</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>مخکې</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>وروسته</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>لېږل: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>بیا پیلول</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>بېرته ګرځول</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>په دې حالت کې هیڅ اجرا نشته.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>دلته پیل شوې</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>هغه اجراوې، بیا پیلونې او بېرته ګرځونې چې په دې پاڼو کې پیل شوې، د هر یوه له راپور سره.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>څه</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>پایله</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>بېرته ګرځونه</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>د %target بېرته ګرځونه</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>اجرا %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>اجرا څه وکړل، د هغې ثبت او لاګ. هغه اجرا چې دلته پیل شوې وي، د دې پاڼې له تړلو وروسته په شالید کې روانه وي؛ د تعقیب لپاره پاڼه بیا پرانیزئ.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>دا اجرا بیا پیل کړئ</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>دا اجرا بېرته وګرځوئ</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>ثبت ونه لوستل شو: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>پرمختګ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>د %user له خوا په %time پیل شوې.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>کوډ کتل کېږي او له اجرا مخکې انځور اخیستل کېږي</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id اجرا کېږي (%index له %total څخه)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done له %total څخه بشپړ</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>مهاجرتونه اجرا شول؛ که یو ناکام شوی وي انځور بېرته راګرځول کېږي</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>له اجرا وروسته انځور اخیستل، ثبتول، نښه کول او لېږل</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>انځور بېرته راګرځول کېږي</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>اجرا پای ته ورسېده. راپور یې پورته کېږي.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>پرمختګ تعقیب نه شو. پاڼه بیا پورته کړئ ترڅو وګورئ چې اجرا څنګه روانه ده.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>دا پاڼه اجرا د روانېدو پر مهال تعقیبوي.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>بیا پورته کول</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>راپور</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>موده</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ملي‌ثانیې</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>هغه څه چې اجرا د تېروتنو په توګه چاپ کړل</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ثبت</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>چاپېریال</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>هیڅ</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>پای ته رسېدلې</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ثبتول</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>نښه</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>لېږل</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>پیغام</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>د دې اجرا مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>سرچینه</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>د اجرا لاګ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>یوازې د لاګ پای ښودل کېږي.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>روانه</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>بې راپوره پای ته ورسېده</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>بریالۍ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناکامه</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>رد شوې</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ډېټابېس ته لاسرسی نه و</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>داخلي تېروتنه</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>یوه اجرا روانه ده</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind د %user له خوا په %time پیل شوه.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>تعقیبول</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>نصب قلف شوی دی</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>بله اجرا قلف لري (یو لوړول یا په کنسول کې اجرا): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>بشپړ</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>په تمه کې</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>اړین نه دی</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نامعلوم</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>بېرته ګرځول شوی</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>پلي شوی</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>پلي به شي</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>بېرته اخیستل شوی</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>بېرته به واخیستل شي</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>نه دی اجرا شوی</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>د بل په تمه دی</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>بدلون ومنل شو</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>بدلون به ومنل شي</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>شبیه‌سازي شوی</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاریخچه</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target بېرته واخلئ</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>یوه اجرا هغه انځور ته بېرته ګرځي چې مخکې ترې اخیستل شوی، یو مهاجرت د خپل down() په واسطه. د پخواني انځور بېرته راګرځول د متخصصینو لپاره دي. هر یو ستاسو په نوم په شالید کې اجرا کېږي، د اوسني حالت له انځور وروسته.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>هغه څه چې بېرته اخیستل کېدای شي ونه لوستل شول: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>یوه اجرا</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>یو مهاجرت</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>پخوانی انځور</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>تشریح</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>هو</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نه</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>انځور</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>لیبل</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>اخیستل شوی</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ډول</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>د بېرته راګرځولو برخې</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>ډېټابېس</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>د ذخیرې فایلونه (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>تنظیمات (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>د ډېټابېس بېرته راګرځول یې د انځور وخت ته بیايي، ناستې هم پکې شاملې دي: وروسته ښايي بیا ننوتو ته اړتیا ولرئ. هر هغه څه چې له هغه وخته بدل شوي له منځه ځي؛ لومړی د اوسني حالت انځور اخیستل کېږي.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>زه پوهېږم چې دا څه بېرته راګرځوي</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>د انځور پېژندنه بیا ولیکئ</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>هو، بېرته یې واخلئ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>لغوه کول</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>هغه اجراوې چې مخکې ترې انځور اخیستل شوی.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>ټاکل</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>لا هیڅ اجرا له انځور سره نشته.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>پلي شوي مهاجرتونه چې ځان بېرته اخیستلای شي (down() لري).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>هیڅ پلي شوی مهاجرت down() نه لري.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>پخواني انځورونه (متخصصین)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>لا هیڅ انځور نشته.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>مهاجرتونه اجرا کړئ</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>اجرا د %user په توګه په شالید کې روانه وي، او پاڼه یې د روانېدو پر مهال ښيي. له لومړي مهاجرت مخکې د نصب انځور اخیستل کېږي؛ کله چې مهاجرت ناکام شي اجرا دریږي او انځور بېرته راګرځول کېږي.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>لومړی آزمایښتي اجرا</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>حالت ونه لوستل شو: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>په تمه کې مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>دوی په دې ترتیب اجرا کېږي. د یوه نښه لرې کړئ ترڅو هغه او هغه چې ورته اړتیا لري د وروستۍ اجرا لپاره پاتې شي.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>اجرا یې کړئ</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>د اجرا پر مهال د ساتنې حالت فعالوي.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>له پلي کېدو وروسته بدل شوي</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>دا فایلونه هغه نه دي چې پلي شوي وو. اجرا یې ردوي مګر دا چې بدلون له دلیل سره ومنل شي؛ بیا نه اجرا کېږي، نوی چېک‌سم ثبتېږي او دلیل د پلټنې په لاګ کې ساتل کېږي.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>بدلونونه ومنئ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ولې</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>تلواله ارزښتونه خوندي دي. هره خونه یو ګام پرېږدي.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>بې انځوره</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>له اجرا مخکې او وروسته انځور نشته: ناکامي په خپلکاره ډول نه شي بېرته راګرځول کېدای.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>بې بېرته راګرځونې</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>له ناکامۍ وروسته، نصب هماغسې پرېږدئ لکه ناکامۍ چې پرې اېښی.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>نا ثبت شوي بدلونونه وساتئ</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>اجرا کړئ که څه هم تنظیمات، توسیعات یا ډیزاینونه نا ثبت شوي بدلونونه لري؛ دوی انځور ته ځي.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>بې ثبتوله</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>د حالت فایل او د اجرا لاګ مه ثبتوئ (نه نښه او نه لېږل).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>بې لېږلو</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>ثبت او نښه یې کړئ، خو مه یې لېږئ.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>بې نښې</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>ثبت او ویې لېږئ، خو اجرا ته نښه مه ورکوئ.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>هو، دا مهاجرتونه اوس اجرا کړئ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>هیڅ مهاجرت په تمه کې نه دی.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>حالت ته بېرته</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>د دې نصب بدلونونه چې یو ځل د فایلونو په توګه لیکل شوي (منځپانګه، ټولګي، رولونه، تنظیمات، سکیما) او د سایټ په هر نصب کې په ورته ترتیب پلي کېږي. اجرا لومړی انځور اخلي، کله چې مهاجرت ناکام شي بېرته یې راګرځوي، او هغه څه چې یې کړي ثبتوي، کمېټوي او لېږي.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count په تمه کې اجرا کړئ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>عمومي کتنه</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>په تمه کې</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>بشپړ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>اړین نه دي</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>ډېټابېس</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>معاملې: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>د سایټ مهاجرتونه په migrations/ کې دي، د یوه توسیع هغه په extension/&lt;name&gt;/migrations/ کې. دوی د خپلو نومونو او اړتیاوو په ترتیب اجرا کېږي.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>وروستۍ اجرا</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>فایل له پلي کېدو وروسته بدل شوی.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>لا هیڅ مهاجرت نشته. ./console exp:migration:generate --skeleton &lt;name&gt; --apply لومړی لیکي.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>وروستۍ اجراوې</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>ټولې اجراوې</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>لا هیڅ اجرا نشته.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>د اجرا شبیه‌سازي د migration/run پالیسۍ ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>یوه اجرا روانه ده: کله چې پای ته ورسېږي شبیه‌سازي وکړئ.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>جوړونه</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target د دې نصب نه اجرا ده، نه مهاجرت او نه انځور.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>لومړی «هو، بېرته یې واخلئ» نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>د پخواني انځور بېرته راګرځول د متخصصینو لپاره دي: «زه پوهېږم چې دا څه بېرته راګرځوي» نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>د انځور پېژندنه بیا ولیکئ: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>لږ تر لږه د بېرته راګرځولو یوه برخه وټاکئ.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>دا اجرا مخکینی انځور نه لري: مهاجرتونه یې یو په یو بېرته واخلئ، یا پخوانی انځور بېرته راوګرځوئ.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>دا مهاجرت پخپله نه شي بېرته اخیستل کېدای: پلي شوی نه دی، یا down() نه لري.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>فورمه ونه لوستل شوه.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>هغه اجرا وټاکئ چې بیا پیل شي.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>لومړی «هو، دا مهاجرتونه اوس اجرا کړئ» نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>لږ تر لږه یو مهاجرت وټاکئ.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>یو مهاجرت له پلي کېدو وروسته بدل شوی: بدلون له دلیل سره ومنئ، یا فایل بېرته خپل ځای ته راوګرځوئ.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>دلیل ووایاست چې بدل شوي مهاجرتونه ولې منل کېږي.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>دلیل تر ټولو ډېر ۵۰۰ توري دی.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>هغه اجرا چې دلته پیل شوې لا روانه ده (%detail). انتظار وکړئ چې پای ته ورسېږي.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>بله اجرا د نصب قلف لري: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>اجرا یو ننوتي کارن ته اړتیا لري چې شتون ولري.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>د php د کمانډ لاین پروګرام ونه موندل شو. په migration.ini [AdminSettings] PhpCliPath کې یې بشپړه لار وټاکئ.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open غیرفعال دی، نو دلته اجرا نه شي پیلېدای. په سرور کې ./console exp:migration:migrate --apply اجرا کړئ.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>د اجراوو په فولډر کې نه شي لیکل کېدای: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>اجرا پیل شوه خو د خپلې پروسې پېژندنه یې راپور نه کړه. %detail وګورئ.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ووایاست چې څه بېرته واخیستل شي.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>اجرا پیل نه شوه.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>د بدلونونو ثبتول</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>تر هغه چې ثبت روان وي، هغه څه چې تاسو په اداره یا د سایټ په څنګ پټه کې بدلوئ د یوې کډونې د ګامونو په توګه ساتل کېږي: منځپانګه، ټولګي، رولونه او پالیسۍ، برخې، کاروونکي او ډلې، د URL مستعار نومونه، امستنې. کله چې کار مو پای ته ورسېد ودروئ یې، وګورئ چې څه یې نیولي او له هغه یوه کډونه جوړه کړئ.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ثبتونه ونه لوستل شول: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>د ثبتونو جدولونه لا نشته: لومړی لوړونه وچلوئ (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>ثبتول په migration.ini کې بند دي ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>زما بدلونونه</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>یوازې هغه څه ثبتوي چې تاسو یې بدلوئ، هر چېرې چې یې بدل کړئ، تر هغه چې ودروئ یې.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ثبت</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>له %time راهیسې، تر اوسه %count بدلونونه.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>لیبل (اختیاري)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>وښایه چې څه یې نیولي</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ثبت ودروئ</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>زما د بدلونونو ثبت پیل کړئ</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>د ټول سایټ کړکۍ</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>د هر کاروونکي او کنسول هر بدلون ثبتوي تر هغه چې وتړل شي. د پرانیستلو پر مهال به ستاسو له تاسو وغوښتل شي چې تایید کړئ دا تاسو یاست.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>پرانیستې</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>کړکۍ وتړئ</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>د ټول سایټ کړکۍ پرانیزئ</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ثبتونه</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>د کاروونکي حساب (د ننوتلو نوم، برېښلیک، پټنوم) او د کاروونکو حسابونو ساحې هېڅکله نه ثبتېږي.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>بدلونونه</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>ټول سایټ</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>د %name بدلونونه</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>درول شوی</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>تر اوسه هېڅ ثبت نشته.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ثبت %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>ټول ثبتونه</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>هغه کډونه چې ترې جوړېږي</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>بدلونونه د هر بدل شوي شي لپاره په یوه ګام کې یوځای شوي: هغه څه چې له دې ثبت جوړه شوې کډونه به یې کوي.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>کله چې دا نصب د YAML ګام ډولونه %types ولري، ترې کډونه جوړېدای شي.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>په قصد پرېښودل شوي: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>هېڅ ونه ثبت شول.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>څه یې نیولي</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count بدلونونه، په هغه ترتیب چې شوي.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>بدلون</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ګام</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>اړوند</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>نور %count: ./console exp:migration:record:show ټول لېست کوي.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>لرې کول</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ثبت او هغه څه چې یې نیولي لرې کوي. هغه څه چې بدل شوي بدل پاتې کېږي.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>هو، دا ثبت لرې کړئ</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>ثبتېږي…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ستاسو بدلونونه د یوې کډونې لپاره ثبتېږي.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>په دې سایټ کې هر بدلون د یوې کډونې لپاره ثبتېږي (د ټول سایټ کړکۍ).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>د ټول سایټ ثبت پیل شو: د هر کاروونکي هر بدلون ثبتېږي تر هغه چې ودروئ یې.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ثبت پیل شو: ستاسو بدلونونه ثبتېږي تر هغه چې ودروئ یې.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ثبت ودرول شو. هغه څه چې یې نیولي پاتې کېږي تر هغه چې لرې یې کړئ.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ثبت او پېښې یې لرې شوې.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>هېڅ ثبت %id نشته.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>لومړی «هو، دا ثبت لرې کړئ» په نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>د غونډې ثبت یوازې هغه کاروونکی درولی شي چې ثبت یې کړی.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>هغه ثبت وټاکئ چې باید ودرول شي.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>د دې ډول یو ثبت دمخه روان دی.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ثبت بدل نشو: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>کډوال جوړ کړئ</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>د کډوال نوم (اختیاري)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>کډوال %file ولیکل شو. هغه بدلونونه چې هېڅ ګام یې نشي کولی د فایل په سر کې نومول شوي، په لاس باید وشي.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>هېڅ کډوال ونه لیکل شو: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>په برخو کې اوږد چلول</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>تش ساحې د migration.ini [RunSettings] ترتیبات ساتي.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>تر ټولو ډېر دومره مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>له دې وروسته نور مهاجرت نشته (ثانیې)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>د مهاجرتونو ترمنځ وقفه (ثانیې)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>ټيټه لومړیتوب (له 1 څخه تر 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>د اوږد چلولو ساحه له 1 څخه بشپړ عدد دی (وقفه: له 0 څخه تر 60 ثانیې، لومړیتوب: له 1 څخه تر 19)، یا تش.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>دا په %time کې پخپله تړل کېږي.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>له دې وروسته پخپله وتړه (دقیقې، اختیاري)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>دقیقې له 1 څخه تر 44640 (31 ورځې) بشپړ عدد دی، یا تش.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>مهاجرت %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>نوی مهاجرت</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>یو YAML مهاجرت: هغه د متن په توګه ولیکئ یا یې ګامونه په فورمه کې جوړ کړئ، وې ګورئ، بیا یې د مهاجرتونو په یوه فولډر کې خوندي کړئ.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>دا مهاجرت مخکې اجرا شوی، نو بیا نه خوندي کېږي: بدله شوې دوتنه به د کنټرولي مجموعې ساتونکي له خوا رد شي. بدلون په یو نوي مهاجرت کې وکړئ.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ویب سرور دا دوتنه نشي لیکلی.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>په سر کې د تبصرې کرښې سرلیک دی (description, author, requires, environments, engines). کله چې په فورمه کې یو ګام زیات یا بدل شي، مهاجرت بیا لیکل کېږي: د ګامونو ترمنځ تبصرې نه ساتل کېږي.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>د مهاجرت نوم</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>چېرته ځي</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>سایټ</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML متن</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>کتل</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>خوندي کول</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ګامونه</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>کیلي</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>سمول</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>پورته وړل</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>ښکته وړل</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>لرې کول</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>لا هیڅ ګام نشته: یو یې په فورمه زیات کړئ، یا یې په متن کې ولیکئ.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>ګام %number بدلول</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>یو ګام زیاتول</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>د یو ګام فورمه د هغه د ګام له ډول څخه جوړېږي: د هغه کیلي، هره یوه څه مني او هغه موډونه چې دی ورپورې اړه لري.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>د ګام ډول</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>د هغه فورمه ښودل</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>ګام داسې کیلي لري چې ډول یې نه پېژني؛ کله چې ګام بدل شي هغه پرېښودل کېږي: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>موډ</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>په</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>یوازې په %modes کې</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>تلواله: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>شرطونه، حوالې او تبصره</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>نوم=ارزښت جوړې چې په کامو بېلې شوې دي. د دې ګام ارزښتونه: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>بېلګه</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ګام بدلول</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>ګام زیاتول</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>هغه څه چې exp:migration:check یې وایي: سرلیک، سند او هر ګام چې د خپل ګام ډول له خوا کتل شوی.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>مهاجرت له کتنې بریالی تېرېږي.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>مخکتنه</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML لکه څنګه چې به خوندي شي.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML ښودل</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>اجرا شوی</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>لا هیڅ YAML مهاجرت نشته.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>اډیټر</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>د مهاجرت په فولډرونو کې هیڅ YAML مهاجرت %id نشته.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>د ګام ډول وټاکئ.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>ګام زیات شو. مخکې له دې چې مهاجرت خوندي کړئ، وې ګورئ.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>ګام بدل شو. مخکې له دې چې مهاجرت خوندي کړئ، وې ګورئ.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>یو ګام وټاکئ.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>دا ګام فورمه نه لري (یوه لوپ، یا د ګام داسې ډول چې دا نصب یې نه لري): هغه په متن کې بدل کړئ.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>وټاکئ چې مهاجرت چېرته ځي: سایټ یا یو فعال توسیع.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file خوندي شو. مخکې له دې چې مهاجرت اجرا شي، یوه آزمایښتي اجرا وکړئ.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>خوندي نه شو: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>لرې سیستمونه</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>نور نصبونه چې دا نصب خپل مهاجرتونه ورته ګوماري: ګومارنه مهاجرتونه ټاکل شویو لرې سیستمونو ته لېږي او هلته یې اجرا کوي، ټول په یو وخت او همغږي. لرې سیستم هیڅکله راز نه ساتي: د ننوتلو اسناد یې په جوړونه &gt; رازونه کې یو راز نوموي.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>نوی لرې سیستم</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>مرسته</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>د %id د نښلون ازموینه</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>دا لرې سیستمونه</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>تر %parallel پورې لرې سیستمونه په یو وخت کار کېږي؛ یوه مرحله په هر یوه کې %timeout ثانیې وخت نیولی شي.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>لرې سیستم</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پته</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>د ننوتلو اسناد</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>ډلې</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>د سمولو امستنې</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>یوازې فایلونه (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH کیلي</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>پټنوم</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>هیڅ (د کوربه SSH اجنټ او کیلي)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>نښلون ازمویل</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>یوې ډلې ته ګومارنه د هغې هر لرې سیستم ته ځي.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>لرې سیستمونو ته ګومارل</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>لا هیڅ لرې سیستم نه دی جوړ شوی.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>لرې سیستم %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>دلته هیڅ نه لېږل کېږي او نه اجرا کېږي: خوندي کول امستنې settings/override/migration.ini.append.php ته لیکي. د ننوتلو اسناد یو نوم دی؛ ارزښت یې په جوړونه &gt; رازونه یا په چاپېریال کې پاتې کېږي.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>دا امستنې وګورئ</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>امستنې لکه څنګه چې ورکړل شوې، لا نه دي خوندي شوې.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>بیاکتنه</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>امستنې سمې دي. دا کرښې به ولیکل شي:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ټرانسپورټ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>یوازې یو نوم؛ ارزښت په جوړونه &gt; رازونه کې پاتې کېږي</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>هغه کرښې چې لیکل کېږي</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>نښلون</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>د کوربه کیلي</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. لرې سیستم</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>لرې سیستم څه نومېږي او کوم چاپېریال دی.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>پېژند</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>توري، عددونه، - او _، د بېلګې په توګه production1. دا په راپورونو او کنسول کې (--remotes=production1) لرې سیستم نوموي او وروسته نشي بدلېدای.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... پړاوي ګومارنه په همدې ترتیب له چاپېریالونو تېرېږي.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>اختیاري، په کامو بېل شوي، د بېلګې په توګه production. یوې ډلې ته ګومارنه د هغې هر لرې سیستم ته ځي.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. نښلون</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>فایلونه څنګه هلته رسېږي، او نصب چېرته دی.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>د SSH له لارې، یوازې هغه څه چې بدل شوي، مات شوی لېږد بیا پیلېږي. غوره انتخاب چېرې چې rsync نصب وي.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH د فایلونو لپاره له scp سره.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH د فایلونو لپاره له sftp سره.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>یوازې فایلونه: مهاجرتونه لېږل کېږي او بېرته لوستل کېږي، خو هلته نشي اجرا کېدای.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP د TLS له لارې؛ یوازې فایلونه.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>په دې سرور کې بل نصب، په یوه فولډر کې.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>کوربه (Host)</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>د کوربه نوم یا پته، د بېلګې په توګه node1.example.com. د local لپاره نه.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>پورټ</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>تش: د SSH لپاره 22، د FTP لپاره 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>کارن</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>مسیر</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>هلته د نصب ریښه، د بېلګې په توګه /var/www/site (د FTP لپاره: هغه مسیر چې FTP حساب یې ویني).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>د PHP کمانډ کرښه</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>هلته د PHP CLI: php، یا بشپړ مسیر لکه /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>د کنسول سکریپټونه هلته د root په توګه چلېږي</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>یوازې کله چې د لرې سیستم کارن root وي (بیا د --allow-root-user سره اجرا کېږي).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. د ننوتلو اسناد</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>دا نصب څنګه هلته ننوځي. یوازې یو نوم خوندي کېږي.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>هېڅ</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>د هغه کارن SSH اجنټ او کیلي چې دا نصب د هغه په توګه چلېږي (او تل د local لپاره).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>یوه شخصي کیلي چې د راز په توګه ساتل کېږي.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>یو پټنوم چې د راز په توګه ساتل کېږي (FTP پرې ننوځي).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>د راز نوم</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>د جوړونه &gt; رازونه یو راز، د بېلګې په توګه deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>جوړونه &gt; رازونه</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>یا د چاپېریال متغیر</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>د سرور د پروسې هغه متغیر چې دا ساتي، د بېلګې په توګه DEPLOY_KEY (د env:DEPLOY_KEY په توګه خوندي کېږي). دا د راز د نوم ځای نیسي.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. د کوربه کیلي</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>اختیاري، د SSH، sftp او rsync لپاره.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>د کوربه کیلي ګوتنښه</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... لکه څنګه چې ssh-keygen -l یې چاپوي. د دې سره، کوربه باید دا کیلي وښيي؛ له دې پرته، کیلي په لومړي تماس کې زده کېږي.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. بیاکتنه</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>نښلون د پورته امستنو سره وازمویئ، بیا هغه کرښې بیا وګورئ چې لیکل کېږي.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>دا لرې سیستم لرې کړئ</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>امستنې یې له settings/override/migration.ini.append.php څخه لرې کېږي. په لرې سیستم کې هیڅ نه بدلېږي، او ګومارنې یې په تاریخچه کې پاتې کېږي.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>هو، دا لرې سیستم لرې کړئ</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ګومارنې</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ګومارنه د دې نصب مهاجرتونه ټاکل شویو لرې سیستمونو ته لېږي او هلته یې د %user په توګه اجرا کوي، ټول په یو وخت او همغږي: هر لرې سیستم لومړی کتل کېږي، او کله چې یو ناکام شي، هر هغه لرې سیستم چې پلي کړي وي بېرته اخیستل کېږي. دا په شالید کې روانه وي، او پاڼه یې هر لرې سیستم ښيي څنګه چې پرمخ ځي.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. لرې سیستمونه</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>لرې سیستمونه، یوه ډله، یا دواړه نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>هغه ته ګومارل</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. څنګه</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ګومارل</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>لېږل او اجرا کول</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>مهاجرتونه هر لرې سیستم ته لېږل کېږي، تاییدېږي او د یوه ګډ اجرا پېژند سره اجرا کېږي.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>یوازې لېږدول</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>فایلونه لېږل کېږي او تاییدېږي، هیڅ نه اجرا کېږي (د FTP لرې سیستم لپاره یوازینۍ لار).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>پړاوي</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>پړاو په پړاو د چاپېریالونو په ترتیب (dev, stage, beta, production ...): لومړی پړاو ګومارل کېږي، بیا یوه دروازه انتظار کوي تر هغه چې څوک بل منظور کړي. په هر پړاو کې ټول یا هیڅ.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>یوازې دا مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>اختیاري: د مهاجرتونو پېژندونه، په کامو بېل شوي. تش: د سایټ او د هغې د غځونو هر مهاجرت.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>یوازې مخکینۍ کتنه</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>هو، اوس وګومارئ</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>هغه ګومارنې چې څه یې لېږلي یا اجرا کړي، نوې لومړی (مخکینۍ کتنه هیڅ راپور نه ساتي).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>یوازې لېږد</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>پړاوي، %stages پړاوونه</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>همغږي نه دی</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>لا هیڅ ګومارنه نشته.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ګومارنه %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>د ګومارنې هر لرې سیستم له خپل حالت سره. دلته پیل شوې ګومارنه په شالید کې روانه پاتې کېږي کله چې دا پاڼه وتړل شي؛ د تعقیبولو لپاره پاڼه بیا پرانیزئ.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>ټولې ګومارنې</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>مخکینۍ کتنه</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>بل پړاو</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>امستنې او د ننوتلو اسناد کتل کېږي</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>مخکینۍ کتنه: د هر لرې سیستم حالت لوستل کېږي</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>د مهاجرت فایلونه لېږل کېږي</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>هغه څه تاییدېږي چې رسېدلي</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>مهاجرتونه په هر لرې سیستم کې اجرا کېږي</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>لرې سیستمونه بېرته اخیستل کېږي</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ګومارنه پای ته ورسېده. راپور یې پورته کېږي.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>پرمختګ ونه تعقیبول شو. پاڼه بیا پورته کړئ ترڅو وګورئ چې ګومارنه څنګه روانه ده.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>مرحله</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>دا پاڼه ګومارنه تعقیبوي څنګه چې پرمخ ځي.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>همغږي</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>پړاوونه</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>پړاو %stage په خپله دروازه کې انتظار کوي</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>دروازه %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>د %user له خوا په %time منظور شو</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>پړاو</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>لېږل شوي فایلونه</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>د کرنل نسخه</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>پلي شوي: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>د پلي کولو لپاره: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>مرحلې</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>دروازه: پړاو %stage له %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>له دې مخکې پړاوونه ګومارل شوي. هغه وګورئ، بیا بل پړاو منظور کړئ: د هغه لرې سیستمونه بیا کتل کېږي او ګومارل کېږي، ټول یا هیڅ.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>بل</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>هو، بل پړاو اوس وګومارئ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>منظورول</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>دا ګومارنه بېرته وګرځوئ</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>هر هغه لرې سیستم چې دا یې پلي کړې (%list) هغه انځور ته بېرته ګرځي چې د خپلې اجرا مخکې اخیستل شوی و، ټول په یو وخت.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>هو، دا ګومارنه اوس بېرته وګرځوئ</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>پلان شوی</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>لېږدول شوی</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ګومارل شوی</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>په دروازه کې انتظار کوي</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ټاکل شوي</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>چمتو شوی</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>چمتو</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>د خپل پړاو په تمه دی</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>فایلونه ولېږل شول</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>تایید شوی</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ناکام، خپل ځان یې بېرته جوړ کړ</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>نه دی بدل شوی</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>نه دی ګومارل شوی</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>د لاسرسي وړ نه دی</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>لرې سیستم ځواب ورکړ.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>لرې سیستم اوس نشي کارول کېدای.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done بشپړ، %pending په تمه کې، %failed ناکام</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>قلف</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>یوه اجرا هلته قلف لري</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>خالي</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage له %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>هغه لرې سیستم وټاکئ چې ازمویل کېږي.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>لومړی «هو، دا لرې سیستم لرې کړئ» نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>لرې سیستم لرې نشو: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>لرې سیستم خوندي نشو: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>د امستنو دوتنه نه لوستل کېږي: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>لږ تر لږه یو لرې سیستم یا ډله وټاکئ.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>یو ټاکل شوی لرې سیستم نور په امستنو کې نشته. پاڼه بیا پورته کړئ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>لومړی «هو، اوس وګومارئ» نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP لرې سیستم مهاجرتونه نشي اجرا کولی: «یوازې لېږدول» وټاکئ، یا یې پرېږدئ.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>د ګومارلو مهاجرتونه د مهاجرتونو پېژندونه دي، په کامو بېل شوي.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ګومارنه لا روانه ده. انتظار وکړئ چې پای ته ورسېږي.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>دا ګومارنه په دروازه کې انتظار نه کوي.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>هیڅ لرې سیستم دا ګومارنه نه ده پلي کړې: د بېرته ګرځولو لپاره هیڅ نشته.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>لومړی «هو، بل پړاو اوس وګومارئ» نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>لومړی «هو، دا ګومارنه اوس بېرته وګرځوئ» نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>د %id پېژند سره لرې سیستم لا شته.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>پورټ له 1 څخه تر 65535 پورې یو عدد دی.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>چاپېریال یوه کلمه ده له تورو، عددونو، - او _ څخه (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>ډله یوه کلمه ده له تورو، عددونو، - او _ څخه (نه all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>د ننوتلو اسناد اوس نشي لوستل کېدای: %problem. له لومړۍ ګومارنې مخکې یې په جوړونه &gt; رازونه کې خوندي کړئ (یا متغیر وټاکئ).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP لرې سیستم یوازې فایلونه ترلاسه کوي: هغه ته ګومارنه «یوازې لېږدول» ده، او مهاجرتونه یې هلته په لاس اجرا کېږي.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>لرې سیستم %id په settings/override/migration.ini.append.php کې نشته؛ هلته یې لرې کړئ چېرې چې ټاکل شوی.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>د FTP له لارې ننوتل او index.php ولوستل شو. د FTP لرې سیستم د مهاجرت حالت نشي لوستل کېدای.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>بدل شوی</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>جوړ شوی</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نوم</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>کلاس</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>برخه</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>جوړونکی</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>وروستۍ منځپانګه</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>د ټول سایټ تر ټولو وروستۍ جوړه شوې او بدله شوې منځپانګه، نوې لومړی: هغه څه چې لیدونکو استولي، هغه څه چې د بیاکتنې لپاره ساتل شوي، او هغه مسودې چې د خپرېدو په تمه دي. توکي وټاکئ ترڅو یې خوشې کړئ، وساتئ، پټ یې کړئ، ښکاره یې کړئ، لرې یې کړئ یا یې بلې برخې یا حالت ته ولېږدوئ.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>لېست ونه لوستل شو: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>د بیاکتنې ساتنه لا نه ده جوړه شوې، نو هېڅ شی نه ساتل کېږي او د ساتنې کړنې نه وړاندې کېږي. د لوړونې ګام 6.0.15-review-hold یې جوړوي: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>لېست فلټر کړئ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>له</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تر</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>نېټه</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>جوړ شوی (لومړۍ خپرونه)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ټول</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>خپور شوی</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>مسوده، هېڅکله نه ده خپره شوې</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>په تمه کې (د تایید یا یوې نېټې په تمه)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>په کثافت‌دانۍ کې</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>د بیاکتنې لپاره ساتل شوی</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>ساتل شوی</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>نه دی ساتل شوی</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>پټ</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>ښکاره</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>د استولو نېټه</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>هر د سایټ لاسرسی</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>یوازې هغه څه چې پلټنې ثبت کړي.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>اوس: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>د ننوتو نوم یا د کارن پېژند.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>فلټر</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>فلټرونه پاک کړئ</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>توکي</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>له %count څخه %from تر %to</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>هېڅ توکی نشته</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(په %ms ملي ثانیو کې لوستل شوی)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>پر ټاکل شویو توکو کړنې</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>په دې پاڼه کې ټول ټاکل</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ټاکل شوي</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>کړنه</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>یوه کړنه وټاکئ</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>ساتنه لرې کړئ</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>د بیاکتنې لپاره وساتئ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>پټول</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>ښکاره کول</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>کثافت‌دانۍ ته لېږدول</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>ړنګول</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>برخه ټاکل</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>حالت ټاکل</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>دلیل</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>د ساتلو لپاره اړین؛ له ساتنې سره او په پلټنه کې ساتل کېږي.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>یوه برخه وټاکئ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>یو حالت وټاکئ</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>پر ټاکل شویو یې پلي کړئ</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>هر توکی ستاسو د خپلو اجازو پر وړاندې کتل کېږي. کثافت‌دانۍ ته لېږدول او ړنګول ستاسو تایید غواړي. له %count څخه ډېر توکي په شالید کې چلېږي.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>ټاکل</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>خپرونه</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>له دې ځایه استول شوی</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name وټاکئ</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>لا نه</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(بې نومه)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>پېژند %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>مسوده</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>په تمه کې</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>د خپل مور توکي له امله پټ</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>ساتل شوی: نوې استونه</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>نسخه %version په تمه کې</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>نسخه %version د سمون په حال کې</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>مسوده، نسخه %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>نسخه %version خپره شوه</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>د %date لپاره ټاکل شوی</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>پته نشته</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>نه دی ثبت شوی</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>له دې فلټرونو سره هېڅ شی سمون نه خوري.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ټول وښایئ</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>لا هېڅ منځپانګه نشته.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>په هره پاڼه کې</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>په هره پاڼه کې %count توکي وښایئ.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>د یوې استونې پته او براوزر د پلټنې له لړلیک څخه راځي، چې دلته شتون نه لري: ستنه &quot;نه دی ثبت شوی&quot; ښيي.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>پته او براوزر هغه دي چې پلټنې د دې توکي لپاره ثبت کړي (اتومات ساتنه یې تل ثبتوي؛ خپرول او جوړول یوازې هلته چې فعال وي)، لکه څنګه چې د هغې د محرمیت امستنې یې ساتي.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count توکي</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>ړنګول توکي د تل لپاره له خپلو ټولو نسخو او ژباړو سره لرې کوي. بېرته نه راګرځول کېږي.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>توکي کثافت‌دانۍ ته ځي، له کومه ځایه چې بېرته راګرځول کېدای شي.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>هر توکی ستاسو د خپلو اجازو پر وړاندې کتل کېږي؛ هغه توکی چې فرعي توکي لري لکه څنګه چې دی پرېښودل کېږي (هغه د منځپانګې په جوړښت کې لرې کړئ). له تاسو به وغوښتل شي چې تایید کړئ چې تاسو یاست.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>دا په شالید کې چلېږي: د پرمختګ پاڼه یې پرانیستل کېږي، او کله چې بشپړ شي د هر توکي پایله ښودل کېږي.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>ټاکل شوي توکي</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>او %count نور</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>لغوه کول</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>هېڅ کار ونه شو</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>دلیل: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>کړنه لا هم په شالید کې روانه ده.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>پرمختګ یې</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>د شالید کړنه ناکامه شوه: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>بشپړ شو</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>رد شو</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>د هر توکي لپاره</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>توکی</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>پایله</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ولې</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>لېست ته بېرته</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>جوړونه</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>هېڅ ونه شول</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>تاییدول</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>یوه کړنه وټاکئ.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>لږ تر لږه یو توکی وټاکئ.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>په یو وار کې تر 1000 توکو ډېر مه ټاکئ.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ووایئ چې توکي ولې ساتل کېږي.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>برخه وټاکئ.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>حالت وټاکئ.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>فورمه ونه لوستل شوه.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ډشبورډ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>وروستۍ منځپانګه</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>شمېرې ونه لوستل شوې: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>د بیاکتنې لپاره ساتل شوي</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>نن نوي</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>د بیاکتنې ساتنه لا نه ده جوړه شوې (د لوړونې ګام 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>ټوله وروستۍ منځپانګه</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>تاسو د څارنې کړنې نه شئ چلولی (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>د څارنې کړنه بشپړه نه ده: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>څارنه: پر %count شیانو %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>له %total شیانو %done: %ok بشپړ، %refused رد، %failed ناکام</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok بشپړ، %refused رد، %failed ناکام</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>دا نور شتون نه لري.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>ځای نه لري (نه دی خپور شوی).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>تاسو یې نه شئ پټولی (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>تاسو یې نه شئ ښکاره کولی (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>دا دمخه پټ دی.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>دا پټ نه دی.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>پټ شو.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>ښکاره شو.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>دا په کثافت‌دانۍ کې دی: هلته یې تش کړئ یا بېرته راوګرځوئ.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>هغه مسوده چې هېڅکله نه ده خپره شوې کثافت‌دانۍ ته نه شي تلای: ړنګه یې کړئ.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>تاسو یې نه شئ ړنګولی (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>ړنګ شو.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>تاسو یې نه شئ لرې کولی (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>فرعي توکي لري: د منځپانګې په جوړښت کې یې لرې کړئ، چېرته چې هغوی لېست شوي.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>لرې نه شو (کېدای شي یو کاري بهیر لرې کول ساتلي وي).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>کثافت‌دانۍ ته ولېږدول شو.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>برخه شتون نه لري.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>دا دمخه په دې برخه کې دی.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>تاسو دا برخه نه شئ ټاکلی (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>برخه ونه ټاکل شوه.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>برخه وټاکل شوه.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>حالت شتون نه لري.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>دا دمخه په دې حالت کې دی.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>تاسو دا حالت نه شئ ټاکلی (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>حالت ونه ټاکل شو (کېدای شي یو کاري بهیر بدلون ساتلی وي).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>حالت وټاکل شو.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>داسې کړنه نشته.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>د بیاکتنې ساتنه نه ده جوړه شوې (د لوړونې ګام 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ووایئ چې ولې ساتل کېږي.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>دا دمخه ساتل شوی.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>تاسو یې نه شئ ساتلی (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ساتنه ونه لګول شوه (کېدای شي یو کاري بهیر بدلون ساتلی وي).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>وساتل شو.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>دا ساتل شوی نه دی.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>تاسو یې نه شئ خوشې کولی (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ساتنه لرې نه شوه (کېدای شي یو کاري بهیر بدلون ساتلی وي).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>خوشې شو؛ لا هم پټ دی: تاسو یې نه شئ ښکاره کولی (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>خوشې شو.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>ټولې موخې</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>وروستۍ خپرونه</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>د خپل سایټ وړیا ثابته کاپي په GitHub Pages کې خپره کړئ:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>زړې پاڼې</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ثابته خپرونه</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ثابته خپرونه بنده ده.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>موخه</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>موخې ونه لوستل شوې: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>یوه دنده روانه ده</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>د کتلو لپاره جوړښت</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>دا پټ کړئ</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>موخه جوړه کړئ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>هېڅکله</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>لارښود ولولئ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added اضافه شوې، %changed بدلې شوې، %removed لرې شوې</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes له %limit څخه (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>نور %count نه دي لېست شوي.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages پاڼې ولیکل شوې</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path %size دی، له هغه ډېر چې کوربه یوې دوتنې ته اجازه ورکوي.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>د حد %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ثانیې</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag هغه خپرونه ده چې سایټ یې اوس لري.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: دنده %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/زېرمتون/ د GitHub پروژې سایټ لپاره؛ د ځانګړي ډومېن یا کارن سایټ لپاره تش.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. سایټ</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. کوربه</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. زېرمتون ته ننوتل</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. زېرمتون</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. لینکونه او اساسي لار</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. ستاسو خپل ډومېن</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. جوړښت څه لري</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. کله چې خپرېږي</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. بیاکتنه او خوندي کول</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>د GitHub پروژې سایټ د /&lt;repository&gt;/ لاندې دی؛ نسبي لینکونه هلته او هر بل ځای کار کوي.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>یو جوړښت د %site هره پاڼه هغسې راوړي لکه څنګه یې یو نه ننوتلی لیدونکی ویني، لینکونه بیا لیکي، دوتنې کاپي کوي او پایله د موخې فولډر ته لیکي. تر هغه چې تاسو جوړښت ونه ګورئ او خپرول کېکاږئ، هیڅ نه خپرېږي.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>د cron افاده، د بېلګې په توګه 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>د ډیپلای کیلي د %secret راز په توګه ساتل کېږي.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>د ډیپلای کیلي دې نصب ته اجازه ورکوي چې د SSH له لارې یوازې یوه زېرمتون ته ولېږي او بل هیڅ ځای ته نه. خصوصي نیمایي یې په جوړونه &gt; رازونه کې پاتې کېږي؛ یوازې عامه نیمایي یې ښودل کېږي.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>د دې موخې لپاره جوړه شوې ډیپلای کیلي</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>د ډیپلای کیلي د SSH له لارې ننوځي: git پته د SSH پتې ته بدله کړئ (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>یوه دنده روانه ده، د %user له خوا پیل شوې</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>د دې موخې یوه دنده لا روانه ده (%detail). انتظار وکړئ چې پای ته ورسېږي.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>د دې موخې یوه دنده لا روانه ده. انتظار وکړئ چې پای ته ورسېږي.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>د /news/ پاڼې څخه /about-us/team پاڼې ته لینک به داسې ولیکل شي</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>نوې ډیپلای کیلي جوړه شوه. اوس یې عامه نیمایي زېرمتون ته ورزیاته کړئ.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>هغه پاڼه چې له پاکولو وروسته لا هم د ډیبګ محصول، د فورم ټوکن یا د ناستې پېژند ولري هېڅکله نه خپرېږي.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>بېرته ګرځونه د ماهرانو لپاره ده: &quot;زه پوهېږم چې دا څه بدلوي&quot; نښه کړئ او د نښې نوم بیا ولیکئ.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>یو سایټ تر %site پورې کېدای شي، یوه دوتنه تر %file پورې، په میاشت کې د شاوخوا 100 GB ترافیک سره. په وړیا پلان کې زېرمتون باید عامه وي. GitHub Pages د هټیو یا نورو سوداګریزو راکړو ورکړو لپاره نه دی.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>موخه یو سایټ دی چې یوه git زېرمتون ته خپرېږي. دلته هیڅ نه جوړېږي او نه خپرېږي: خوندي کول امستنې settings/override/staticcache.ini.append.php ته لیکي.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>موخه یو سایټ دی چې یوه ځای ته خپرېږي، د بېلګې په توګه ستاسو عامه سایټ په GitHub Pages کې.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>له جوړونه &gt; رازونه څخه یو ټوکن</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>د زېرمتون یو کاري بهیر یې خپروي.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>دا عامه کیلي زېرمتون ته د لیکلو له اجازې سره ورزیاته کړئ. GitHub: Settings &gt; Deploy keys &gt; Add deploy key، Allow write access نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>اضافه شوې</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>بل git کوربه</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>بله پروسه په دې موخه کار کوي: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>شاته</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>اساسي لار</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>مخکې</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>د اساسي لارې لاندې</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>څانګه</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>مات لینکونه</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>په جوړښت کې مات لینکونه</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>جوړښت</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>جوړښت %id د %user له خوا</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>د %name جوړول</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>اوس جوړ کړئ</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>د کتلو لپاره جوړښت</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>له خوا</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>په لاس، دلته</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>لغوه کول</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>بدلول</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>بدل شوي</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>بدلونونه</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>لومړی یې وګورئ</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>دا امستنې وګورئ</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>وګورئ چې جوړښت څه بدلوي، ورته وګورئ، بیا یې خپور کړئ یا یې لرې وغورځوئ.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>هغه خپرونه وټاکئ چې بېرته ورته ګرځئ.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>په راتلونکې نسخه کې راځي.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ثبتول</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>ثبتونه</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>جوړښت ثبتوي، نښه یې کوي او %remote ته یې لېږي. لېږل هېڅکله په زور نه کېږي؛ تاسو وروسته هرې خپرونې ته بېرته ګرځېدای شئ.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>له پخواني فولډر سره پرتله: %added اضافه شوې، %changed بدلې شوې، %removed لرې شوې، %unchanged نه بدلې شوې.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>له وروستۍ خپرونې سره پرتله.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>د ننوتلو اسناد</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>ځانګړی ډومېن</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>د ډیبګ محصول، د فورم ټوکنونه، د ناستې پېژندونه او nonce تل لرې کېږي.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>ډیپلای کیلي</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>د %name ډیپلای کیلي</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>لرې غورځول</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>جوړښت لرې وغورځوئ</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ډومېن</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>تش: د سایټ پته. که نه، د همدې سایټ یوه داخلي پته.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>پای ته رسېدلې</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>هر لینک په اساسي لار پیلېږي.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>هره خپرونه یو ثبت دی چې static/%id/&lt;n&gt; نښه لري. بېرته ګرځېدل د پخوانۍ خپرونې له دوتنو سره نوی ثبت جوړوي: تاریخچه پاتې کېږي، هیڅ نښه نه خوځېږي او هیڅ په زور نه کېږي.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>اضافي</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>پاڼې راوړئ له</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>دوتنه</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>دوتنې</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ورکې دوتنې</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>دوتنې د</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>هغه دوتنې چې راټولې نه شوې</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ګوتنښه</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>فولډر</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>د SSH پتې لپاره. کیلي له خوندي کولو وروسته جوړېږي؛ تاسو یې عامه نیمایي زېرمتون ته ورزیاتوئ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>د https:// پتې لپاره. GitHub: یو fine-grained ټوکن چې په زېرمتون د Contents لوستل او لیکل ولري.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>د ماهرانو لپاره. عامه سایټ هماغه وخت بدلېږي چې لېږل بشپړ شي.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فورمې</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>له GitHub زېرمتون څخه وړیا کوربه توب.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>له څانګې</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>git پته</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages د %site سایټ او د %file دوتنې ته اجازه ورکوي.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>د GitHub Pages حدونه</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages دوتنې هماغسې خپروي لکه څنګه چې دي (د هغو دوتنو لپاره اړین چې په _ پیلېږي).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub څانګه هماغسې وړاندې کوي لکه څنګه چې لېږل شوې. ډیفالټ.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab، Gitea، ستاسو خپل سرور: هر git زېرمتون.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>پخوانۍ خپرونې ته بېرته ګرځئ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>مرسته</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>له ویزارډ سره مرسته</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>پټ یې کړئ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاریخچه</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>د %name تاریخچه</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>کوربه</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages جوړښت څنګه ترلاسه کوي</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>ما بدلونونه کتلي دي</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>زه پوهېږم چې دا څه بدلوي</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>پېژند</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>بنده ده: تر هغه چې چالانه نه شي هیڅ نه جوړېږي.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>په شاليد کې د %user په توګه چلېږي؛ تاسو دا پاڼه تړلی شئ.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>دنده %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>د %secret راز په توګه ساتل کېږي.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ډول</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>وروستۍ خپرونه</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>دا پاڼې پرېږدئ</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>دا برخې پرېږدئ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>لینکونه</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>بیا لیکل شوي لینکونه</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>ژوندی سایټ</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>جوړښت ته وګورئ</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>کوچني توري، شمېرې، _ او -، د بېلګې په توګه github-public. دا فولډر او نښې (static/&lt;id&gt;/&lt;n&gt;) نوموي او وروسته نه شي بدلېدای.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>نوې کیلي جوړه کړئ</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>موخه جوړه کړئ</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>کیلي جوړه کړئ</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>لومړی په کوربه کې زېرمتون جوړ کړئ؛ تش زېرمتون هم سم دی.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>د دوتنو لړلیک</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>پیغام</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>ډېرې پاڼې</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نوم</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>په جوړونه &gt; رازونه کې د ټوکن نوم</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>نوې موخه</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>بل</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>نه</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>لا هیڅ ثبت نشته.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>هیڅ کیلي جوړه نه شوه: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>د php د کمانډ لاین باینري ونه موندل شوه. migration.ini [AdminSettings] PhpCliPath د هغې بشپړې لارې ته وټاکئ.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>لا هیڅ نښه نشته.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>لا هیڅ موخه نشته.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>هېڅ</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>په جوړښت کې نشته.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>لا هیڅ نه دي خپاره شوي.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>لا هیڅ نه دي خپاره شوي: هره دوتنه نوې ده.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>خبرول</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>د مهالوېش له مخې</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>په کنسول کې</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>په سرور کې: ./console exp:static:serve %id یې په همدې ډول وړاندې کوي.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>په هره کرښه کې یوه لار، * د هرې برخې سره سمون لري: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>له موخې سره یوازې یو نوم ساتل کېږي؛ ټوکن یا کیلي پخپله په جوړونه &gt; رازونه کې پاتې کېږي او هېڅکله په لاګ کې نه ښکاري.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>یوازې هغه څه چې پاڼې یې نوموي</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>یوازې د ټوکن سره. env:NAME پر ځای یې د سرور د چاپېریال یو متغیر لولي.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>مخکتنه پرانیزئ</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>جوړښت هغسې پرانیزي لکه څنګه چې کوربه به یې وړاندې کړي، د موخې له فولډر څخه. لینک ستاسو لپاره یو ساعت کار کوي.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>اختیاري. تش: هغه څه چې خپاره شوي.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>اختیاري. د ډومېن سره سایټ د هغه په ریښه کې وړاندې کېږي.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>محصول</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>پاڼې</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>د موخې پاڼې</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>رد شوې پاڼې</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>وروسته پروسس</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>مخکتنه</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>مخکتنه او خپرول</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>د %name مخکتنه او خپرول</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>د جوړښت مخکتنه</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>پرمختګ</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>عامه پته</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>عامه کیلي</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>خپرول</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>د یوه سایټ ثابته کاپي GitHub Pages یا هر git کوربه ته خپره کړئ: جوړ یې کړئ، بدلونونه وګورئ، خپره یې کړئ، او کله چې اړتیا وي پخوانۍ خپرونې ته بېرته وګرځئ.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>هغه خپرونه چې بېرته ورته ګرځئ</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>خپرونې</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>لېږل</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>لارښود ولولئ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>لاګ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>رد شوي</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>نسبي</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>بیا پورته کول</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>لرې شوي</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>کیلي بدله کړئ: زړه کیلي کار پرېږدي</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>راپور</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>د جوړښت راپور</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>زېرمتون</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>بیاکتنه</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>بیاکتنه هره امستنه ګوري او هغه کرښې ښيي چې لیکل کېږي. لا هیڅ نه دي خوندي شوي.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>بېرته ګرځول</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>بېرته ګرځونه</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>خوندي کول</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>مهالوېش</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>د لټون پاڼه</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>د برخو پېژندونه، په کامو جلا شوي.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>ژوندي سایټ ته یې ولېږئ</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>امستنه</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>امستنې</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>د %name امستنې</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>جوړونه</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>جوړونه &gt; رازونه</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>په لېستونو کې ښودل کېږي، د بېلګې په توګه &quot;په GitHub Pages کې عامه سایټ&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>د GitHub App سره ننوتل د GitHub له یوځای کېدو سره راځي.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>سایټ</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>د خپرولو سایټ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>اندازه</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>اندازه او حدونه</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>د جوړښت اندازه</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>زړې پاڼې</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>پیل شوې</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>د %user له خوا په %time پیل شوې.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ثابته خپرونه</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>ثابته خپرونه بنده ده</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ثابته خپرونه بنده ده.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>ثابته خپرونه بنده ده. لومړی یې په جوړونه &gt; ثابته خپرونه کې چالانه کړئ.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>ثابته خپرونه چالانه ده.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>ګام %step له %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ګامونه</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>پاکول</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>بندول</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>چالانول</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>ثابته خپرونه چالانه کړئ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>نښه</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>نښې</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>موخه</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>موخې جوړېدای او بدلېدای شي، خو تر هغه چې چالانه نه شي هیڅ نه جوړېږي او نه خپرېږي.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>لټون ماشینونو ته وايي چې څه ولولي.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>جوړښت لرې ونه غورځول شو: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>جوړښت له وروستۍ خپرونې سره یو شان دی: د خپرولو لپاره هیڅ نشته.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>جوړښت لرې وغورځول شو: فولډر بیا وروستۍ خپرونه لري.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ډیفالټ امستنې د ډېرو سایټونو لپاره مناسبې دي.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>فولډر یو جوړښت لري چې لا نه دی خپور شوی؛ نوی جوړښت یې ځای نیسي.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>د دندو فولډر نه لیکل کېږي: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>دنده چمتو نه شوه: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>دنده پیل نه شوه.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>دنده پای ته ورسېده. راپور یې پورته کېږي.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>دندې ته یو ننوتلي کارن اړتیا ده.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>دنده پیل شوه خو د خپلې پروسې پېژند یې راپور نه کړ. %detail وګورئ.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>کیلي</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>تر ټولو لویه دوتنه: %path، %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>هغه کرښې چې لیکل کېږي</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>د لټون ماشینونو لپاره د پاڼو لېست؛ عامه پتې ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>پاڼې هغسې راوړل کېږي لکه څنګه یې یو نه ننوتلی لیدونکی ویني. د ادارې او سمون siteaccess هېڅکله نه وړاندې کېږي.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>پرمختګ تعقیب نه شو. پاڼه بیا پورته کړئ ترڅو وګورئ چې دنده څنګه روانه ده.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>د کیلي عامه نیمایي:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>د څانګې ریښه</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>د رازونو زېرمه لا نه ده جوړه شوې (./console exp:upgrade --apply یې جدول جوړوي)، نو هیڅ کیلي نه شي ساتل کېدای.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>سرور پخپله ننوځي (په خپله SSH کیلي یا credential helper)، یا زېرمتون په همدې سرور کې دی.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>امستنه ونه لیکل شوه: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>امستنې سمې دي. دا کرښې به ولیکل شي:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>د امستنو دوتنه نه لوستل کېږي: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>سایټ د هغې خپرونې دوتنو ته بېرته ګرځي؛ هغه جوړښت چې لا نه دی خپور شوی باید لومړی خپور یا لرې وغورځول شي.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>د سایټ خپله پاڼه د هغو پتو لپاره چې شتون نه لري.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>موخه خوندي نه شوه: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>موخه لا په دې کیلي نه ننوځي: په امستنو کې یې &quot;د دې موخې لپاره جوړه شوې ډیپلای کیلي&quot; وټاکئ.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>موخې ونه لوستل شوې: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>لا د کتلو لپاره هیڅ جوړښت نشته.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>دا نصب هیڅ مخکینی siteaccess نه لري. د ادارې او سمون siteaccess هېڅکله نه خپرېږي.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>دا پاڼه دنده د هغې د پرمختګ سره تعقیبوي؛ کله چې پاڼه وتړل شي دنده په شاليد کې روانه وي.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>دا موخه لا ډیپلای کیلي نه لري.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>دا موخه لا دلته نه ده جوړه شوې.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>دا موخه یوه لري.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>دا جوړښت لرې غورځوي: فولډر بیا وروستۍ خپرونه لري. ژوندی سایټ نه بدلېږي.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>لومړی &quot;ما بدلونونه کتلي دي&quot; نښه کړئ.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وخت</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>پیلوونکي</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>د نښې نوم بیا ولیکئ</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>نه بدل شوي</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ویبهوک</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>څه</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>څه بدلېږي</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>هره دوتنه څه ده؛ تل لیکل کېږي.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>دندې څه وکړل او د هغې لاګ. هغه دنده چې دلته پیل شوې، کله چې دا پاڼه وتړل شي په شاليد کې روانه وي.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>دندې د تېروتنو په توګه څه چاپ کړل</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>هغه څه چې پاڼې یې نوموي، او د خپرې شوې منځپانګې هر انځور</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>کله</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>کله چې خپرونه ناکامه شي</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>کله چې خپرونه بریالۍ شي</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>کله چې منځپانګه خپره شي</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>هغه لینکونه چې کاپي یې نه لري چېرته ځي (لټون، ننوتل).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>ثابته کاپي له کوم ځای وړاندې کېږي.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>کوم سایټ خپرېږي، او موخه څه نومېږي.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>د هرې لارې لاندې کار کوي. ډیفالټ.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>هر کله چې ځانګړی ډومېن وټاکل شي لیکل کېږي.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>هو</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>تاسو تل کولی شئ دلته او په کنسول کې په لاس جوړ او خپور کړئ.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>یوازې یو نوم؛ ارزښت په جوړونه &gt; رازونه کې پاتې کېږي</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>د %path لاندې</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>پرته له راپوره پای ته ورسېده</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>اضافي</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>دوتنه</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages، یا main د docs فولډر سره.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git کوربه</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (د ټوکن سره) یا git@github.com:owner/repo.git (د ډیپلای کیلي سره)؛ هېڅکله پکې پټنوم یا ټوکن نه.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/، د سایټ نقشې او کانونیکل لینکونو لپاره.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>انځور</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>هېڅکله</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نه</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>لرې زېرمتون نشته</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>هېڅ: ثبتونه په فولډر کې پاتې کېږي</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>هېڅ: هیڅ بدل نه شول</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>نه دی لېږل شوی</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>هیڅ بدل نه شول</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>پاڼه</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>بریالی</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open غیر فعال دی، نو دلته دنده نه شي پیلېدای. په سرور کې ./console exp:static:build وکاروئ.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>خپرونه</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>خپور شوی</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>لېږل په تمه کې</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>لېږل شوی</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>رد شوی</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>نسبي</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>بېرته ګرځونه</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>بېرته ګرځول شوی</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>روان</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>یوازې فولډر</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: د CNAME دوتنې ته لیکل کېږي. د ډومېن DNS کوربه ته هغسې واړوئ لکه څنګه چې هغه تشریح کوي؛ HTTPS ممکن د پیل لپاره یو څه وخت ونیسي.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>هو، لا نه دی خپور شوی</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>یو GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>د زېرمتون یو کاري بهیر یې خپروي. جوړونه د کاري بهیر فایل لیکي؛ فولډر تش پرېږدئ.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>د GitHub زېرمتون او ټوکن یا GitHub App سره د موخې له ساتلو وروسته، دا ګام کولی شي زېرمتون جوړ کړي او GitHub Pages چالان کړي. که نه، لومړی په GitHub کې زېرمتون جوړ کړئ؛ تش هم سم دی.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>څانګه که GitHub Actions؟</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS وڅېړئ</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>که زېرمتون نه وي، جوړ یې کړئ</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>په GitHub کې زېرمتون جوړ کړئ او د هغه په امستنو کې GitHub Pages چالان کړئ (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>زېرمتون %repo جوړوي کله چې نه وي (کله چې وغوښتل شي)، GitHub Pages له څانګې یا له GitHub Actions څخه لکه څنګه چې ساتل شوی چالانوي، او ځانګړی ډومېن او HTTPS ټاکي. ساتلې امستنې کاروي: لومړی بدلونونه وساتئ.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>په GitHub کې جزییات</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>لومړی ځانګړی ډومېن ولیکئ.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>هر پش لومړی د دې حدونو پر وړاندې څېړل کېږي.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>په GitHub کې د https:// پتې لپاره. د دې نصب لپاره جوړ شوی App ننوځي؛ هغه د نصب id ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages شخصي زېرمتون یوازې په تادیه شوي پلان کې وړاندې کوي.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: فرعي ډومېن (www.example.com) ته د &lt;owner&gt;.github.io په لور CNAME ریکارډ اړین دی؛ اصلي ډومېن (example.com) ته A ریکارډونه %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>د GitHub App د نصب id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>د Pages وروستۍ جوړونه</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>حدونه او شرطونه</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>په وړیا پلان کې د GitHub Pages لپاره اړین.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>په GitHub کې</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>یوازې د GitHub App سره: په GitHub کې د App د نصب د پتې په پای کې شمېره. App پخپله په staticcache.ini کې ټاکل کېږي (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>شخصي</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>عامه</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>لومړی موخه د GitHub زېرمتون او ټوکن یا GitHub App سره وساتئ.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>دا ریکارډونه د ډومېن له برابرونکي سره وټاکئ:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>په GitHub کې جوړول</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>د %domain DNS لا تر اوسه GitHub Pages ته اشاره نه کوي.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>د %domain DNS GitHub Pages ته اشاره کوي.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>د GitHub یوځای کېدل دلته شتون نه لري: %problem. څانګې ته خپرول بیا هم کار کوي؛ د زېرمتون په امستنو کې GitHub Pages چالان کړئ.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>د دې موخې لپاره د GitHub ګامونه شتون نه لري: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>د GitHub Pages حالت هغه وخت ښودل کېږي چې ټوکن یا GitHub App د ننوتلو اسناد وي.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>خپل ډومېن وکاروئ</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>کوم یو وټاکئ: ټوکن، ډیپلای کیلي یا GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>د GitHub زېرمتون او ټوکن یا GitHub App سره، ویزارډ کولی شي ستاسو لپاره زېرمتون جوړ کړي، GitHub Pages چالان کړي او ډومېن وټاکي (ګام 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>جوړېږي</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>جوړ شو</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>له GitHub Actions څخه</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>له څانګې %branch څخه</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>تر اوسه هېڅ</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ونه موندل شو</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>بند</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>شخصي</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>عامه</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>په کتار کې</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نامعلوم</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>له %pages پاڼو څخه %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>د هرې متن فایل ترڅنګ یو .gz (او .br)، د هغو کوربانو لپاره چې دوی وړاندې کوي.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>د پاڼې د هرې زړې پتې او نوم لپاره یوه کوچنۍ پاڼه، څو زاړه لینکونه کار وکړي.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>تل لیکل کیږي کله چې GitHub Actions سایټ وسپاري.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>یو SPDX پېژند لکه CC-BY-4.0، یا پخپله متن.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>ټوکرۍ</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>سرور ته غوښتنې</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>نظرونه</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>هغه فورمې چې معلومات راټولوي</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>د GitHub Actions کاري بهیر</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>په پاڼو کې لږ تش ځای او هېڅ نظر نشته.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>د منځپانګې جواز</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ننوتل</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>کوچنی کړئ</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>نورې فورمې</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>مخکې فشار کړئ</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>ریډایرکټ پاڼې</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>ریډایرکټ پاڼې: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>لټون</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>د لټون فهرست: په %languages کې %pages پاڼې.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>سټایل شیټونه او سکریپټونه چې د خپلې منځپانګې په هش نومول شوي، څو براوزرونه یې وساتي.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>بدلې شوې پاڼې، د وروستي بدلون څو دقیقې وروسته (د cronjob برخه staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>د منځپانګې جواز، له لاندې ساحې څخه.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>ټوله سایټ، د مهالوېش په وختونو کې (د cronjob برخه staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>د پاڼو دا برخې سرور ته اړتیا لري؛ هره یوه بدیل ترلاسه کړ. مخکې له خپرولو یې وګورئ.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>هغه څه چې په ثابت ډول کار نه کوي</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ذخیره څه ده، د هغه چا لپاره چې په کوربه یې پرانیزي.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>پرېښودل شوی</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>بدیل متن</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>د ژوندي سایټ د فورمې پای ټکی</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>ژوندی سایټ</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>د کاپي د لټون پاڼه</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>فورمه ونه لېږل شوه.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>مننه: فورمه ولېږل شوه.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>فورمه ونه منل شوه: هغه څه وګورئ چې ټایپ کړي مو دي او بیا یې ولېږئ.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>هغو پاڼو ته لینکونه لرې کړئ چې په کاپي کې نشته</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>مدیریت ته لینکونه لرې کړئ</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>د هغوی متن پاتې کېږي. انځورونه، فورمې او نورو سایټونو ته لینکونه هېڅکله نه لرې کېږي.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>نسخه</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>د خپرولو لپاره د سایټ لاسرسي</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>د سایټ لاسرسی</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>په ریښه کې</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>په ریښه کې هېڅ سایټ لاسرسی نشته: هر یو په خپل فولډر کې دی، او ریښه هغوی ته لینک ورکوي</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>د سایټ لاسرسي</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>یو سایټ لاسرسی، یا څو چې د خپل URI مختاړي له لارې یو کوربه شریکوي وټاکئ. هغه چې په ریښه کې دی هلته وړاندې کېږي، نور د خپل مختاړي په فولډر کې (/ger/)؛ د هغوی ترمنځ لینکونه په کاپي کې پاتې کېږي. د ادارې لاسرسي هېڅکله نه وړاندې کېږي.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>په %site کې د %target ثابته خپرونه ناکامه شوه</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>په %site کې د %target ثابته خپرونه بریالۍ شوه</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>دا برېښلیک %site لېږلی دی ځکه چې د ثابتې خپرونې موخه %target یې غوښتنه کوي.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>ګومارل %deploy په %site کې ناکام شو</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>ګومارل %deploy په %site کې په یوه دروازه کې انتظار باسي</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>ګومارل %deploy په %site کې بریالی شو</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>دا برېښلیک %site لېږلی دی، ځکه چې migration.ini [RemoteSettings] Notify[] یې غوښتنه کوي.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>د ډېټا ډولونه (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>په %time وشمېرل شول، له %minutes دقیقو وروسته بیا</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>د ډېټا ډول د کلاس د ځانګړنې یو ډول ارزښت ساتي او سموي: د متن یوه کرښه، یو انځور، یوه اړیکه. ډېری یې کرنل راوړي، غځونې نور ورزیاتوي. دلته ټول دي، څوک یې برابروي او څومره منځپانګه یې کاروي. هغه د ډېټا ډول چې ډېټابیس یې کاروي خو نور یې هیڅ شی نه ثبتوي، هغه منځپانګه ماتوي چې دا لري.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>د کلاسونو ډلې</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>د تېرو دقیقو د شمېرو پر ځای همدا اوس بیا وشمېره.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>بیا وشمېره</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>عمومي کتنه</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>نوم لیکل شوی</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>کارول کېږي</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>نه دی کارول شوی</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>هغه غځونې چې د ډېټا ډولونه برابروي</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>د کلاس ځانګړنې</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>د څیز ځانګړنې</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>نه دی ثبت شوی</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>په لېست کې، دوتنه نشته</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count د ډېټا ډولونه کارول کېږي خو ثبت شوي نه دي</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes د کلاس ځانګړنې او %object_attributes د څیز ځانګړنې داسې د ډېټا ډول لري چې هیڅ غځونه یا امستنه یې نه ثبتوي. د دوی څیزونه نه ښودل کېدای، نه سمېدای او نه خپرېدای شي. هغه غځونه فعاله کړئ چې د ډېټا ډول برابروي، یا کلاس بدل کړئ.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>یوازې دا وښایه</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>د ډېټا ډول ولټوه</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>پېژند، نوم، PHP کلاس یا غځونه.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ښودل</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ټول</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>برابروونکی</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>هرڅوک</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>کرنل</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>هیڅ د ډېټا ډول له دې چاڼ سره سمون نه خوري.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ټول ښودل</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>غځونه</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>له %count د ډېټا ډولونو %shown، %used کارېږي</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>ډېټابیس د دې ډېټا ډولونو د کلاس یا څیز ځانګړنې لري، خو content.ini یو هم نه لېست کوي، یا یې دوتنه نشته.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>د %provider د ډېټا ډولونه</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>د ډېټا ډول</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP کلاس او دوتنه</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>کلاسونه</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>څیزونه</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>نښانونه</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>هېڅ</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>هیڅ د ډېټا ډول له لټون سره سمون نه خوري. لټون پاک کړئ.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>له %count د ډېټا ډولونو %shown ښودل شوي</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>ښودل شوي د ډېټا ډولونه: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>د %column له مخې اوډل</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>په %time وشمېرل شول</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>ټول د ډېټا ډولونه</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>د مرستې پاڼه</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>دا د ډېټا ډول کارېږي خو ثبت شوی نه دی</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>تر هغه چې هیڅ غځونه دا د ډېټا ډول نه ثبتوي، د لاندې کلاسونو څیزونه نه ښودل کېدای، نه سمېدای او نه خپرېدای شي. هغه غځونه فعاله کړئ چې دا برابروي او content.ini [DataTypeSettings] AvailableDataTypes[] ته یې ور زیات کړئ، یا کلاسونه بدل کړئ.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini دا د ډېټا ډول لېست کوي، خو د ډېټا ډول په هیڅ پوښۍ کې یې دوتنه نشته. هیڅ شی یې نه کاروي؛ له AvailableDataTypes[] څخه یې لرې کړئ یا یې غځونه فعاله کړئ.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>د دې ډېټا ډول په اړه</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>پېژندونکی</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نوم</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>غځونه %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>هیڅوک</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP کلاس</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>دوتنه</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>په AvailableDataTypes[] کې</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>هو</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نه</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>د ارزښت یې ستنې</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>د کلاس ځانګړنې د امستنو یې ستنې</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>جدولونه</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>ستنې او جدولونه د ډېټا ډول د کوډ په لوستلو موندل کېږي: لارښود، نه ژمنه.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>کېنډۍ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>د سایټ لاسرسی</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>کېنډۍ</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>موندل شوی په</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>دا اداره</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>تلواله سایټ</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>له override پرته: هغه override کېنډۍ چې د کلاس یا ځانګړنې له مخې سمون خوري، پر دې غوره ده.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>هغه کلاسونه چې دا کاروي (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>هیڅ کلاس د دې ډېټا ډول ځانګړنه نه لري.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>کلاس</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>ځانګړنې</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>د کلاس ځانګړنې (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>ځانګړنه</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>امستنې</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>پېژند %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>اړین</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>د لټون وړ</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>د ژباړې وړ</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>معلومات راټولوي</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>ځینې منځپانګه چې دا کاروي</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>وروستي بدل شوي لومړی</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>بدل شوی</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>غوټه %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>هره ژباړه خپل ارزښت لري.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>لټون یې ارزښتونه فهرست کوي.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>دا کولی شي له لیدونکو معلومات راټول کړي (فورمې).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>لېستونه یې پر بنسټ ترتیبېدای شي: د ترتیب کیلي %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>د اوډلو وړ</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>ارزښتونه یې نورو څیزونو ته اشاره کوي.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>اړیکې</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>له ساده متن څخه ډکېدای شي (واردول، REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>له متن څخه</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>له دوتنې څخه ډکېدای شي.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>له دوتنې څخه</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>د کلاس ځانګړنې امستنې یې په کڅوړو کې ځي.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>بستې</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>منځپانګه (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from تر %to له %count څخه</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>لېست فلټر کړئ</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>ټول کلاسونه</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>برخه</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ژبې</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>خاوند</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>خپور شوی</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ترتیب اړول</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>هېڅ توکی نشته</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>په هره پاڼه کې</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>په هره پاڼه کې %count توکي ښودل.</translation>
     </message>
 </context>
 </TS>

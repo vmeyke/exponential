@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2313,6 +2321,10 @@
     </message>
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4967,6 +4979,210 @@
 <context>
     <name>design/admin/content/search</name>
     <message>
+        <source>Other</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Update attributes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7465,7 +7681,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add, or add the lines of --show to the crontab.</source>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8055,7 +8271,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -13872,15 +14088,7 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -13888,15 +14096,11 @@ Note: The packages will not be uninstalled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -13905,6 +14109,61 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Help center</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -14374,6 +14633,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14662,6 +14929,14 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Guides, search and how to report an error.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -15121,6 +15396,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15284,6 +15599,22 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -22101,6 +22432,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25641,6 +25988,10 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>last purge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -33590,6 +33941,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37911,6 +38270,26 @@ your account.</source>
     </message>
     <message>
         <source>None yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -44074,6 +44453,42 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -50835,7 +51250,7 @@ See the requirements page for more information.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php) or with a fresh installation.</source>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -54748,6 +55163,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54833,6 +55252,14 @@ your account.</source>
     </message>
     <message>
         <source>Copy of %class_name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -55655,6 +56082,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56185,6 +56632,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56589,7 +57072,7 @@ You will need to change the class of the node by using the swap functionality.</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run.</source>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -62432,7 +62915,7 @@ You will need to change the class of the node by using the swap functionality.</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions as root.</source>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -63486,7 +63969,7 @@ You will need to change the class of the node by using the swap functionality.</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The signing key is over a year old: rotate it with exp:audit key rotate.</source>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -67123,6 +67606,22 @@ You will need to change the class of the node by using the swap functionality.</
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>%hits of %count read from the cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Keep open on reload</source>
         <translation type="unfinished"></translation>
     </message>
@@ -68272,6 +68771,470 @@ You will need to change the class of the node by using the swap functionality.</
     </message>
     <message>
         <source>Share of page time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -70092,7 +71055,7 @@ You will need to change the class of the node by using the swap functionality.</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run.</source>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -70104,7 +71067,7 @@ You will need to change the class of the node by using the swap functionality.</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Use the console: ./console exp:notification:run</source>
+        <source>Use the console: ./console exp:notification:run --apply</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -75872,6 +76835,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76327,6 +77382,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76570,6 +77665,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76649,6 +77780,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76686,6 +77825,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -76895,6 +78038,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -76994,6 +78213,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77083,6 +78330,70 @@ You will need to change the class of the node by using the swap functionality.</
     </message>
     <message>
         <source>Setup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -77185,6 +78496,6822 @@ You will need to change the class of the node by using the swap functionality.</
     </message>
     <message>
         <source>Open the page</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

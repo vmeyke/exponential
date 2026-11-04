@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Csak ez az oldal kerül keresésre: %from–%to / %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>A kernel és a bővítmények minden adattípusa, és hogyan használják az osztályok és a tartalom.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Adattípusok</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Rendszeroldalakat is felvehet a könyvjelzők közé: nyissa meg az oldalt (Rendszer, az auditnapló, egy felhasználólista ...), és válassza felette az „Oldal hozzáadása a könyvjelzőkhöz” lehetőséget. Az ilyen könyvjelzőket fogaskerék ikon jelöli.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ezt az oldalt itt már nem nyithatja meg. Távolítsa el a könyvjelzőt, vagy kérjen hozzáférést egy rendszergazdától.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Ugrás az első oldalra</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Egyéb</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Utolsó 7 nap</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Egyéni időszak</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Minden szó</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Bármely szó</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Pontos kifejezés</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevancia</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Név A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Név Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Módosítva, legújabb elöl</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Módosítva, legrégebbi elöl</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Közzétéve, legújabb elöl</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Közzétéve, legrégebbi elöl</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Módosítva</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Szűrők</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Szűrők megjelenítése</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Szűrők elrejtése</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Alaphelyzetbe állítás</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Alkalmazás</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Szavak</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Tartalomtípus</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Több megjelenítése (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Válasszon ki egy tartalomtípust, hogy annak egyik attribútumában keressen.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Szakasz</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ettől</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Eddig</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>A kezdő dátum nem érvényes dátum.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>A záró dátum nem érvényes dátum.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Tulajdonos</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Felhasználói azonosító, bejelentkezési név vagy e-mail-cím.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Nem található felhasználó a következőhöz: „%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Nyelv</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Bármely nyelv</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Hely</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count hely</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Találat oldalanként</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Találatok erre: „%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Találatok (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Rendezés:</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Rendezés</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktív szűrők</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>A szűrő eltávolítása</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Vagy válasszon szűrőket, és alkalmazza őket az egyező tartalom listázásához.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>A szűrők a szavak beírása után szűkítik a keresést.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Nincs találat erre: „%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Nincs találat.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Távolítson el egy szűrőt fent.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Fordítások</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Műveletek</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name szerkesztése</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Szerkesztés</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Az eredeti szerzők és az Exponential rendszerrel terjesztett, külső gyártótól származó szoftverek szerzői jogi nyilatkozatai a licenc előírásainak megfelelően megmaradnak a forrásfájlokban és a LICENSE fájlban.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Az alábbi lista azokat az Exponential-közreműködőket tartalmazza, akik az eZ Systems Contributor Licensing Agreement feltételei szerint engedélyezték munkájuk használatát a 7x számára. A megállapodás által megengedett módon a 7x minden hozzájárulást ugyanazon licenc alatt terjeszt tovább, mint azt a fájlt, amelyben a hozzájárulás szerepel. A lista minden közreműködőnél feltünteti a nevet, a nem kötelező elérhetőséget és azokat a fájlokat, amelyekhez hozzájárult.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Közreműködők, akiket az Exponentialon és azon a szoftveren végzett munkájukért említünk, amelyből kinőtt, azokkal a fájlokkal együtt, amelyekhez hozzájárultak. Ez elismerés, nem szerzői jogi közlemény: az Exponentialhoz adott hozzájárulások a Contributor Licensing Agreement alapján az Exponential Foundationre és a 7x-re szállnak át.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Megjegyzés: a csomagok telepítése nem lesz visszavonva.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Az Exponential Enterprise Edition kipróbálása&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Csatlakozzon az Exponential közösséghez, cseréljen tapasztalatot, és járuljon hozzá a fejlesztéshez&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; és mások.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Működteti: &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. További információ: &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; és mások.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> További információ: &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; és mások.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Az Exponential kipróbálása (a 7x-től)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Csatlakozzon az Exponential közösséghez, kapjon támogatást, és járuljon hozzá a fejlesztéshez&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; és mások.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Megjegyzés: a csomagok telepítése nem lesz visszavonva.</translation>
     <message>
         <source>Help center</source>
         <translation>Súgóközpont</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Tartalom</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Dokumentumoldalak</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Felhasználók</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Tartalomosztályok</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Adminisztráció</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>%number. oldal</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Összes találat megtekintése</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count találat</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Egy találat</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count javaslat</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Nincsenek javaslatok</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>A javaslatokat nem sikerült betölteni.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Javaslatok</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Megjegyzés: a csomagok telepítése nem lesz visszavonva.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Ez a telepítés nyilvános bemutató: a rendszergazdai jelszót bárki ismerheti, és a rendszergazdai jelszavak nem módosíthatók és nem állíthatók vissza. Ne adjon meg itt semmilyen személyes adatot.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Saját eszközök</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Biztonsági tevékenység</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Megjegyzés: a csomagok telepítése nem lesz visszavonva.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Útmutatók, keresés és hibabejelentés módja.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Friss tartalom</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>A legújabb tartalom, az ellenőrzésre visszatartott tartalom és műveletek a kijelölésen.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Megjegyzés: a csomagok telepítése nem lesz visszavonva.</translation>
         <source>Synchronisations</source>
         <translation>Szinkronizálások</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>A GraphQL API: a végpontja, a séma és egy kísérleti felület lekérdezések kipróbálásához.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrációk</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>A telepítés fájlokban tárolt módosításai: állapotuk, a futtatások, futtatás és visszavonás.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Friss tartalom</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>A legújabb tartalom, az ellenőrzésre visszatartott tartalom és műveletek a kijelölésen.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Egy webhely statikus másolatának közzététele a GitHub Pages szolgáltatáson vagy bármely git-tárhelyen.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statikus közzététel</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Adattípusok</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>A kernel és a bővítmények minden adattípusa, és hogyan használják az osztályok és a tartalom.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Megjegyzés: a csomagok telepítése nem lesz visszavonva.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Fiókok, amelyeket senki sem használ, vagy amelyeket érdemes megnézni; letiltásuk, zárolásuk feloldása vagy exportálásuk.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Felhasználói auditnapló</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Ki módosított, jelentkezett be vagy kapott elutasítást, fiókonként; szűrés és exportálás.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Bejelentkezési jelentés</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Ki van bejelentkezve, bejelentkezések és sikertelen kísérletek naponta; egy felhasználó kijelentkeztetése mindenhonnan.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Megjegyzés: a csomagok telepítése nem lesz visszavonva.</translation>
         <source>%n hours ago</source>
         <translation>%n órája</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>A GraphQL API tárolt lekérdezéseinek válaszai és sémájának tartalomosztályai.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Statikus másolat közzététele a GitHub Pages szolgáltatáson vagy bármely git-tárhelyen</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statikus közzététel</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>A statikus gyorsítótár erről a szerverről szolgálja ki az oldalakat. Ha egy webhely statikus másolatát máshol szeretné közzétenni, a GitHub Pages szolgáltatáson vagy bármely git-tárhelyen, használja a statikus közzétételt.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Megjegyzés: a csomagok telepítése nem lesz visszavonva.</translation>
     <message>
         <source>last purge</source>
         <translation>utolsó törlés</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Az írások nem tudták megszerezni az állapot zárolását (legutóbb %date): mindegyik elavulttá tette az összes gyorsítótárazott eredményt. A(z) %file fájlnak írhatónak kell lennie minden felhasználó számára, akiként a webhely fut; NFS-en NFSv4 vagy lockd kell hozzá.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Megjegyzés: a csomagok telepítése nem lesz visszavonva.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>A PHP-kezelő lejárt munkameneteit maga a PHP távolítja el (session.gc_maxlifetime), nem ez az oldal, és nem a session_gc cron-feladatrész.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Az összes felhasználó bejelentkezett munkamenetei a bejelentkezési jelentésben láthatók, és ott ki is jelentkeztethetők; a jelentés minden munkamenet-kezelővel működik.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Bejelentkezési jelentés megnyitása</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ a fiókja aktiválásához.</translation>
     <message>
         <source>None yet</source>
         <translation>Még nincs</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Biztonsági tevékenység</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Az Ön legutóbbi bejelentkezései, sikertelen kísérletei, valamint a jelszavát, e-mail-címét és kétlépéses bejelentkezését érintő változások.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>A fiók legutóbbi bejelentkezései, sikertelen kísérletei és biztonsági változásai.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Tevékenység áttekintése</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Sikertelen bejelentkezések: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Ha megjegyzést szeretne küldeni a jóváhagyónak, vagy meg szeretné tekinten
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Bejelentkezés után a felhasználónak új jelszót kell választania, mielőtt bármi mást tenne. Akkor használja, ha ideiglenes jelszót ad valakinek.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Meglévő kép kiválasztása</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>A kiválasztott objektum képfájlja ebbe a mezőbe másolódik. A másik objektum nem változik.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>A(z) „%name” képe ebbe a mezőbe lett másolva.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Kép tallózása</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Képek keresése név alapján</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Keresés</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>A(z) „%name” képének használata</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Ennek a képnek a használata</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Nincs a keresésnek megfelelő kép.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ További információt a követelményeket ismertető oldalon talál.</translati
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>A crontab fájl nem lett megírva (%reason). Vegye fel ezeket a sorokat annak a felhasználónak a crontab fájljába, akinek a nevében a webhely fut, különben a várólista, az importálások, az értesítések és a keresési index soha nem fut le:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Az újratelepítés a kickstarterrel (%file, majd php bin/php/kickstarter.php run --apply) vagy egy új telepítéssel történik.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ a fiókja aktiválásához.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore nyilvános tömörítő gyorsítótára</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL gyorsítótár (válaszok és a séma osztályai)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ a fiókja aktiválásához.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Másolat – %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Adattípusok</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>%string adattípus</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ a fiókja aktiválásához.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Az SVG-kép nem olvasható, vagy semmi sem jeleníthető meg belőle biztonságosan.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>A képet nem sikerült átmásolni. Próbálja újra, vagy forduljon a webhely adminisztrátorához.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>A kiválasztott objektum nem létezik, vagy nincs joga olvasni.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>A kiválasztott objektumnak nincs képe.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>A kiválasztott objektum képfájlját nem sikerült beolvasni.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>A kiválasztott objektum képe nagyobb, mint amit ez a mező megenged: %1 bájt.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ a fiókja aktiválásához.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>A könyvjelző új neve: „%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Ez az oldal le van tiltva ebben a webhely-hozzáférésben (%siteaccess). Nyissa meg a könyvjelzőt egy olyan webhely-hozzáférésben, amelyben elérhető.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Az oldal modulja itt nincs telepítve vagy nincs engedélyezve.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Ez az oldal már nem létezik: a moduljának nincs ilyen nézete.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Egyik szerepköre sem engedi meg, hogy megnyissa ezt az oldalt.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ezt a webhely-hozzáférést nem használhatja.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Nem olvashatja az oldalon megjelenített tartalmat.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Az ilyen oldal nem vehető fel a könyvjelzők közé: csak egy űrlapon végez műveletet, vagy csupán egy pillanatra szóló oldal.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Az oldal címe hiányzik.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Az oldal most nem nyitható meg.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>A levélküldési mód az utolsó futás során %count üzenetet elutasított. Ellenőrizze a levelezőkiszolgálót és a site.ini MailSettings beállításait.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count esemény várakozik, és az értesítési cron-feladat egyetlen futása sincs rögzítve. Vegye fel a „frequent” cron-feladatrészt a crontabba, vagy futtassa az exp:notification:run --apply parancsot.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Másik webhely vagy szakasz kiválasztása a csomópontválasztóval</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Csak a rendszergazda módosíthatja a tulajdonost: futtassa root felhasználóként a ./console exp:content-check --fix-permissions --apply parancsot.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
     <message>
         <source>empty</source>
         <translation>üres</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Az aláírókulcs több mint egyéves: cserélje le az exp:audit key rotate --apply paranccsal.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
         <source>Share of page time</source>
         <translation>Az oldalidő aránya</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>teljes megjelenítést kértek</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>az oldal-gyorsítótárban nem volt meg az oldal (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>az oldal-gyorsítótár nem válaszolt</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Megjelenítve</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>A kernel jelenítette meg: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Kiszolgálva az oldal-gyorsítótárból %ms ms alatt. Az oldalt egy %render ms időtartamú megjelenítés mentette %stored időpontban, %age mp ezelőtt.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Megjelenítés most</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Vissza a gyorsítótárazott nézethez</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>A %stored időpontú megjelenítésből (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Ez a kérés: kiszolgálva az oldal-gyorsítótárból %ms ms alatt.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Felhasználó</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Felhasználóazonosító</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Gyorsítótár-profil</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Ez a nézet</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Nézet-gyorsítótár</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>felhasználónként (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>A felhasználó gyorsítótár-profilja: az azonos profilú felhasználók közösen használják a nézet-gyorsítótár fájljait</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>igen</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nem</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Bejelentkezési név</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Bejelentkezve</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Munkamenet</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>A tartalomnézet-gyorsítótár kulcsának felhasználótól függő részei, pontosan úgy, ahogy a kulcs felveszi őket, az oldal ViewCacheTweaks beállításai mellett. Az azonos profilú felhasználók közösen használják a nézetek gyorsítótár-fájljait, kivéve ha maga a nézet részei eltérnek (beállítások, figyelők kulcsai): ezeknek saját profiljuk van, csak erre az oldalra.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Ez a nézet (csomópont: %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: minden bejelentkezett felhasználónak saját gyorsítótár-fájljai vannak.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Érvényes ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Rész</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Érték</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Egyik rész sem függ a felhasználótól (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ez a nézet</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Másolás szövegként</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Szerepkörök</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Egyetlen szerepkör-hozzárendelés sem olvasható.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Szerepkör-azonosító</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Szerepkör</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Korlátozás</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Hozzárendelve</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>a felhasználóhoz</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>csoport: %name (objektum: %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Másolva</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>A másolás nem sikerült.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>egy figyelő kihagyta</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Névtelen látogatók</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>megegyezik az önével</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>eltérő</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Az a profil, amelyet a névtelen látogatók kapnak ugyanazon ViewCacheTweaks mellett, alapértelmezett beállításokkal, a nézet részei nélkül: a munkamenetet olvasó figyelő ezekről nem kérdezhető.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Beállítások</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Egyik nézetmód sem függ a felhasználói beállításoktól (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Azok a beállítások, amelyektől e nézetmódok nézetei függenek (CachedViewPreferences), a felhasználó értékével vagy az alapértelmezettel. A profilban userpreferences néven szerepelnek, az összes nézetmódé együtt.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Megtekintési mód</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Beállítás</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Alapértelmezett</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Házirendek</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>A szerepkörök házirendjeinek megjelenítése (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>A házirendek a szakasz megnyitásakor töltődnek be a szerverről, oldalanként, és modul és funkció szerint szűrhetők.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funkció</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Minden modul</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Minden funkció</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Korlátozások</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Továbbiak</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Ezeknek a szerepköröknek nincs házirendjük.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Egyetlen házirend sem felel meg a szűrőnek.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching házirend (összesen %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Megnyitáskor töltődik be.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>modul/funkció, szerepkör, korlátozás</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Keresés a szabályzatokban</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Továbbiak betöltése</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/funkció</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Minden szerepkör (%count szabályzat)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Nincs egyező szabályzat.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown / %matched szabályzat</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Nincs válasz</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>maszkolva</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Magyarázatok megjelenítése</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Magyarázatok elrejtése</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Megnyitás</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Az összes kibontása</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Az összes összecsukása</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kulcs vagy érték</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Keresés a munkamenetben</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Típus</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>még %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>túl mélyen beágyazva a megjelenítéshez</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>levágva, összesen %count karakter</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Elindítva</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Süti neve</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Munkamenet-azonosító</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Kezelő</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Mentési útvonal</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP alapértelmezés</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Élettartam (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Süti</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>élettartam %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Az Ön saját PHP-munkamenete, úgy, ahogy a szakasz megnyitásakor volt, soha nem egy másik. A titoknak látszó kulcsok (tokenek, hash-ek, jelszavak) értékei maszkolva vannak (debugbar.ini SessionMask[]); minden más úgy jelenik meg, ahogy tárolva van, a személyes adatok is.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count kulcs, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>nagy</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>A munkamenet üres.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Ehhez a kéréshez nem indult munkamenet.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Bővítmény: %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Rendszermag és egyebek</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Nem minden bejegyzés látható: a munkamenet többet tartalmaz, mint amennyi itt felsorolható.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count kulcs nincs felsorolva.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Keret</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>A tokennek látszó értékek (JSON Web Token, egy Authorization fejléc hitelesítő adatai, privát kulcs, hosszú hexadecimális vagy véletlenszerű szöveg) szintén maszkolva vannak, bárhogy is hívják a kulcsukat (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>A kulcs titoknak látszik (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Az érték tokennek látszik.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Egy maszkolt kulcs alatt.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>A munkamenet szövegként, a táblázathoz hasonlóan maszkolva.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>A munkamenet nagyobb, mint %size (debugbar.ini SessionWarnBytes): ennek a felhasználónak minden kérése beolvassa a teljes munkamenetet, és kiírja, ha megváltozott.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>A PHP ezt a munkamenetet fájlokban tárolja, és a teljes kérés idejére zárolja a fájlt: ugyanannak a felhasználónak a kérései (több lap, AJAX-hívások) egymásra várnak.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Nyitva tartás</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Nagyobb, mint %size (debugbar.ini SessionWarnBytes): ennek a felhasználónak minden kérése beolvassa a teljes munkamenetet.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count közül %hits beolvasva a gyorsítótárból</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Nem jelent meg sablon (a nézet-gyorsítótárból beolvasott nézet egyet sem jelenít meg).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Szerepkör-hozzárendelések</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Szerepkörök és házirendek</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>eltér a névtelen látogatókétól</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>ugyanaz, mint a névtelen látogatóknál</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
     <message>
         <source>not sent</source>
         <translation>nincs elküldve</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Az értesítési cron-feladat itt rögzíti minden futását. Vegye fel a frequent részt a crontabba, vagy futtassa az exp:notification:run --apply parancsot.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Használja a konzolt: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Ez a témakör nincs kiadva; az olvasók nem látják.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrációk</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>A telepítés fájlokban tárolt módosításai: állapotuk, a futtatások, futtatás és visszavonás.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Egy webhely statikus másolatának közzététele a GitHub Pages szolgáltatáson vagy bármely git-tárhelyen.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statikus közzététel</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Felülvizsgálat alatt</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Az olvasók látják ezt az oldalt.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Rejtve az olvasók elől, amíg valaki ki nem adja.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Az oldal most felülvizsgálat alatt van. Rejtve marad az olvasók elől, amíg ki nem adják.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Az oldal kiadva: az olvasók most már látják.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Az oldal ismét piszkozat. Rejtve marad az olvasók elől, amíg felül nem vizsgálják és ki nem adják.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Kiadás most</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Csak %role szerepkörű felhasználó adhatja ki, aki nem ennek a verziónak a szerzője.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Kiadásra váró súgótémakörök</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Elrejti az olvasók elől, amíg újra ki nem adják.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Ezután egy felülvizsgáló ellenőrzi. Az olvasók még nem látják.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Az olvasók azonnal látják.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Kiveszi a felülvizsgálatból további munkára. Az olvasók nem látják.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Elrejti ezt az oldalt az olvasók elől?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Visszaküldi ezt az oldalt piszkozatba?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Az olvasók nem látják többé a(z) %title elemet, amíg valaki újra ki nem adja.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>A(z) %title további munkára visszakerül piszkozatba. Az olvasók továbbra sem látják, és kiadás előtt új felülvizsgálat szükséges.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Mégse</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Ezek a témakörök felülvizsgálat alatt állnak. Az olvasók akkor látják őket, amikor valaki, aki nem az aktuális verzió szerzője, kiadja őket.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Rendszer &gt; Cron-feladatok</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Még egyetlen cron-feladatrész sem futott: a feladatsor, az importálások, az értesítések és a keresési index várakoznak. Futtassa a php bin/php/installcrontab.php --add --apply parancsot, vagy vegye fel a --show által kiírt sorokat a crontabba.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
         <source>None.</source>
         <translation>Nincs.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>hitelesítő alkalmazással</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>e-mailben kapott kóddal</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>helyreállító kóddal</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>hozzáférési kulccsal</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>külső fiókkal</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Biztonsági tevékenység</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>A hálózata látható; a címet a webhely adatvédelmi beállításai szerint tároljuk.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nincs rögzítve</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Hely</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>hozzávetőleges</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
         <source>Manage devices</source>
         <translation>Eszközök kezelése</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>hitelesítő alkalmazással</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>e-mailben kapott kóddal</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>helyreállító kóddal</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>hozzáférési kulccsal</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>külső fiókkal</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Biztonsági tevékenység</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nincs rögzítve</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Hely</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>hozzávetőleges</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
         <source>View the sessions of this user</source>
         <translation>A felhasználó munkameneteinek megtekintése</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Az Ön %login fiókjával a(z) %site webhelyen az imént olyan helyről jelentkeztek be, ahonnan mostanában nem történt bejelentkezés:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Hozzávetőleges hely</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser, %os rendszeren</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Bejelentkezési jelentés</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>A hozzáférési kulcsot nem sikerült ellenőrizni. Próbálja újra.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>A csak hozzáférési kulccsal bejelentkező fiókok itt nem használhatnak jelszót: válassza a „Bejelentkezés hozzáférési kulccsal” lehetőséget.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login hozzáférési kulcsai</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>A hozzáférési kulcsok, amelyekkel ez a fiók bejelentkezik. Vonja vissza azt, amelyik egy elveszett vagy ellopott eszközön van: azzal többé nem lehet bejelentkezni. Újakat a tulajdonos maga ad hozzá.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>A fiókjához hozzáférési kulcs szükséges</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Hozzáférési kulcs hozzáadása a fiókjához</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>A folytatáshoz adjon hozzá egy hozzáférési kulcsot. Ezután azzal jelentkezik be, nem csupán jelszóval.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>A hozzáférési kulccsal történő bejelentkezés gyorsabb és biztonságosabb, mint a jelszó. Adjon hozzá egyet most, vagy folytassa nélküle.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Most nem</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Visszavonja a(z) „%name” hozzáférési kulcsot?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Azzal többé nem lehet bejelentkezni ebbe a fiókba. Ha ez volt az utolsó, a tulajdonos a jelszóval jelentkezik be, vagy Ön állít be újat.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Hozzáférési kulcs visszavonása</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Visszavonás</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Ennek a fióknak nincs hozzáférési kulcsa.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Hitelesítő</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Ismeretlen</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Az utolsó hozzáférési kulcsa: adjon hozzá egy másikat, mielőtt eltávolítja.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Ez a fiók csak hozzáférési kulccsal jelentkezik be (hozzáférésikulcs-házirend): ha egy sem marad, ismét a jelszavával jelentkezik be.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Ez az utolsó hozzáférési kulcsa, és a fiókja nem tud nélküle bejelentkezni. Előbb adjon hozzá egy másik hozzáférési kulcsot.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>A(z) „%name” hozzáférési kulcs visszavonva. Azzal többé nem lehet bejelentkezni ebbe a fiókba.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kód a hitelesítő alkalmazásból</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Adatokat készül végleg törölni vagy egy naplót kiüríteni.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Az Ön jelszava és egy hozzáférési kulcs</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Az Ön jelszava és egy kód a hitelesítő alkalmazásából</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Vagy:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Ez a böngésző nem tud hozzáférési kulcsokat használni. Válasszon másik módot vagy másik böngészőt.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Ha folytatja, a böngészője az egyik hozzáférési kulcsát kéri.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Folytatás hozzáférési kulccsal</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
     <message>
         <source>Setup</source>
         <translation>Rendszer</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>A saját jelszó, e-mail-cím, hozzáférési kulcsok, kétlépéses bejelentkezés, helyreállítási kódok vagy API-kulcsok módosítása, valamint a saját többi eszköz kijelentkeztetése.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Felhasználók létrehozása és szerkesztése, jelszavaik és eszközeik, fiókbeállítások, új felhasználói fiókok jóváhagyása vagy elutasítása, szerepkörök hozzárendelése és házirendek szerkesztése.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Adatok törlése</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>A Lomtár kiürítése, elemek eltávolítása belőle és több elem egyszerre történő eltávolítása.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Tartalom eltávolítása, közzététele és mentése</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Tartalom eltávolítása (a Lomtárba is), közzététele és piszkozat mentése; az űrlap elküldésekor kérdezi. Alapértelmezés szerint ki van kapcsolva.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Egy érzékeny művelet előtt a bejelentkezett felhasználó ismét megerősíti, hogy ki ő: a jelszavával és egy hozzáférési kulccsal, vagy hozzáférési kulcs nélkül a jelszavával és a hitelesítő alkalmazása kódjával. Csak a weboldalak kérdeznek: a REST-felület, a SOAP, a WebDAV, az expservices-bejelentkezés és a parancssor soha.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Ahol a beállítások érvényesek</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Beállítások ehhez:</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Minden webhely-hozzáférés</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Csak a(z) %name webhely-hozzáférés</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Megnyitás</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Kit kérdez: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Jelöljön be felhasználócsoportokat, hogy csak azok tagjait kérdezze (például a szerkesztőket). Nincs bejelölve: minden felhasználót.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Mentve a settings/override/site.ini.append.php fájlba, minden webhely-hozzáféréshez. Mentéskor meg kell erősítenie, hogy Ön az.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Mentve a settings/siteaccess/%name/site.ini.append.php fájlba. A settings/override egy értéke elsőbbséget élvez vele szemben. Mentéskor meg kell erősítenie, hogy Ön az.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ A csomópont osztályát a csere funkcióval kell módosítania.</translation>
     <message>
         <source>Open the page</source>
         <translation>Oldal megnyitása</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, összesen: %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Bejelentkezési név vagy felhasználói azonosító: a fiók, amelyre az esemény vonatkozott, vagy a felhasználó, aki a műveletet végezte.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Fiók</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Művelet</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Utána</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Bármely eredmény</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Előtte</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Végrehajtó</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Törlés</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Sikeres</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Az események megőrzési ideje %days nap.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Az események addig maradnak meg, amíg kézzel el nem távolítják őket.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Események</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Minden művelet</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>A fiók összes eseménye</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>A lista exportálása CSV formátumban (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Sikertelen</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ettől</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>A lista szűkítése</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Nincs egyező esemény.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Oldalanként</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>A rögzítés ki van kapcsolva az audit.ini fájlban ([UserAuditSettings] UserAudit); a lista a korábban rögzítetteket mutatja.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Elutasítva</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Eredmény</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Megjelenítés</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>A felhasználói auditnapló táblája hiányzik. Hozza létre a következő paranccsal: php update/common/scripts/6.0/createuseraudittable.php; addig az auditfájlok minden eseményt megőriznek.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Ehhez az oldalhoz SQL-adatbázis szükséges; MongoDB esetén nem érhető el. Az auditfájlok minden eseményt megőriznek.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Eddig</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Felhasználói auditnapló</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Felhasználó</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Időpont</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Hely</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Ki melyik fiókot módosította, hozta létre, engedélyezte, tiltotta le, helyezte át vagy távolította el, ki jelentkezett be vagy kapott elutasítást, és milyen szerepköröket rendeltek hozzá: eseményenként egy sor, a mezők előtte és utána. A jelszavakat és a titkos adatokat a rendszer soha nem rögzíti.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>csoport</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>rendszer</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ismeretlen</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Fiók védelme</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Az Ön %login fiókjába a(z) %site webhelyen egy helyreállító kóddal jelentkeztek be.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Helyreállító kódot használtak</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Fiók</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Hozzávetőleges cím</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Kérjen új jelszót az ismételt bejelentkezéshez, vagy forduljon a webhely rendszergazdáihoz.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Új jelszó kérése</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Minden helyreállító kód egyszer használható. Ha elvesztette a telefonját, állítsa be újra a hitelesítő alkalmazást, és tartsa biztonságos helyen az új helyreállító kódokat.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Sikertelen bejelentkezési kísérletek a fiókjában</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Mostantól a bejelentkezés a jelszó mellett egy kódot is kér. Ha Ön végezte ezt a módosítást, nincs teendője.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ha Ön volt az, és elfelejtette a jelszavát, kérjen újat. Ha nem, válasszon erősebb jelszót, és kapcsolja be a kétlépéses bejelentkezést.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ha nem Ön volt az, lehet, hogy valaki ismeri a jelszavát: változtassa meg most, és ellenőrizze, hol van bejelentkezve a fiókja.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Megmaradt helyreállító kódok</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Eszközök áttekintése</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Biztonsági figyelmeztetés</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Valaki egymás után %count alkalommal próbált meg hibás jelszóval bejelentkezni az Ön %login fiókjába a(z) %site webhelyen.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Biztonsági esemény történt az Ön %login fiókjában a(z) %site webhelyen.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Ez egy biztonsági figyelmeztetés az Ön fiókjáról. Minden ilyen változáskor elküldjük, és nem kapcsolható ki.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Időpont</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>A kétlépéses bejelentkezés ki lett kapcsolva az Ön %login fiókjában a(z) %site webhelyen.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>A kétlépéses bejelentkezés ki lett kapcsolva</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>A kétlépéses bejelentkezés be lett kapcsolva az Ön %login fiókjában a(z) %site webhelyen.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>A kétlépéses bejelentkezés be lett kapcsolva</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Az Ön %login fiókját a(z) %site webhelyen túl sok sikertelen bejelentkezés után zároltuk.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>A fiókját mostantól csak a jelszava védi. Ha nem Ön tette ezt, a jelszava megváltoztatása után kapcsolja be újra a kétlépéses bejelentkezést.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>A fiókját zároltuk</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Egy hozzáférési kulcsot adtak hozzá az Ön %login fiókjához a(z) %site webhelyen.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Aki birtokolja ezt a hozzáférési kulcsot, a jelszava nélkül bejelentkezhet a fiókjába. Ha nem Ön adta hozzá, távolítsa el a Hozzáférési kulcsok alatt, és változtassa meg a jelszavát.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Egy hozzáférési kulcsot eltávolítottak az Ön %login fiókjából a(z) %site webhelyen.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Azzal többé nem lehet bejelentkezni a fiókjába. Ha nem Ön távolította el, ellenőrizze a hozzáférési kulcsait és eszközeit.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Egy hozzáférési kulcsot adtak hozzá a fiókjához</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Egy hozzáférési kulcsot eltávolítottak a fiókjából</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Biztonsági tevékenység</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Biztonsági tevékenység – %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Bejelentkezve</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Sikertelen bejelentkezési kísérlet</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Kijelentkezve</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Munkamenetek kijelentkeztetve</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Bejelentkezés új eszközről</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Bejelentkezés új helyről</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Személyazonosság megerősítve („Személyazonosság megerősítése”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>A személyazonosság ellenőrzése sikertelen</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Bejelentkezés hozzáférési kulccsal</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Sikertelen bejelentkezés hozzáférési kulccsal</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Bejelentkezés elutasítva: a kétlépéses kód hiányzik vagy hibás</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Hibás kétlépéses kód</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Fiók zárolva sikertelen bejelentkezések után</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Fiók zárolása feloldva</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Jelszó módosítva</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Sikertelen jelszómódosítás</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Jelszó visszaállítva</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Új jelszó kérve</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-mail-cím módosítva</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Felhasználónév módosítva</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kétlépéses bejelentkezés bekapcsolva</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kétlépéses bejelentkezés kikapcsolva</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Helyreállító kód felhasználva</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Új helyreállító kódok</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Alkalmazásjelszó létrehozva</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Alkalmazásjelszó visszavonva</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Hozzáférési kulcs hozzáadva</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Hozzáférési kulcs eltávolítva</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Fiók engedélyezve</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Fiók letiltva</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Összes</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Bejelentkezések és munkamenetek</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Fiókváltozások</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Figyelmet igényel</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>Ön által</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>a felhasználó által</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>végrehajtó: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Módszer</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Böngésző</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Operációs rendszer</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Eszköz</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Hely</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Ország</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Munkamenetek</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Melyek</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Csatorna</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Sikertelen kísérletek</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Megmaradt kódok</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Bejelentkezéskezelő</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Biztonsági tevékenység</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Biztonsági tevékenység – %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>A fiókja bejelentkezései és biztonsági változásai. Ha olyasmit lát, amit nem Ön tett, változtassa meg a jelszavát, és jelentkeztesse ki azokat az eszközöket, amelyeket nem ismer fel.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>A fiók bejelentkezései és biztonsági változásai.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Saját eszközök</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Jelszó módosítása</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Vissza a fiókhoz</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>A biztonsági tevékenység rögzítése nem történik</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Az adatok a felhasználói auditnaplóból származnak, amelynek expuser_audit táblája hiányzik, vagy ez az adatbázis nem támogatja. Futtassa a php update/common/scripts/6.0/createuseraudittable.php parancsot vagy a 6.0.15-ös verzió adatbázis-frissítését.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Az elmúlt napok: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Bejelentkezések az elmúlt napokban (%days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Legutóbbi biztonsági tevékenység</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Megjelenítés</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>sikertelen</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>elutasítva</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Még nincs rögzített biztonsági tevékenység.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>A biztonsági események megőrzési ideje: %days nap.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>A biztonsági eseményeket addig őrizzük, amíg egy rendszergazda el nem távolítja őket.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Bejelentkezési adataim letöltése</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Munkamenetei és biztonsági eseményei JSON-fájlként.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Ez a webhely nem rögzíti a munkameneteket, így más eszközt nem lehetett kijelentkeztetni. Változtassa meg most a jelszavát.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count másik munkamenet kijelentkeztetve. Most változtassa meg a jelszavát.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Más eszköz nem volt bejelentkezve. Most változtassa meg a jelszavát.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Köszönjük. Az eseményt sajátjaként jelöltük meg.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ez az esemény nem igényel választ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Az oldal lejárt. Semmi sem változott; próbálja meg újra.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Fiók védelme</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ha valami itt nem Ön volt, jelentkeztessen ki minden más eszközt, majd válasszon új jelszót. Az Emlékezzen rám funkcióval bejelentkezve tartott eszközök is kijelentkeznek.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Ezen kívül minden eszköz a következő kérésénél kijelentkezik. Ezután új jelszót választ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Igen, a többi eszköz kijelentkeztetése</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ön volt az?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Igen, én voltam</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nem, védje a fiókomat</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Bejelentkezve</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Sikertelen bejelentkezési kísérlet</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Kijelentkezve</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Munkamenetek kijelentkeztetve</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Bejelentkezés új eszközről</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Bejelentkezés új helyről</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Személyazonosság megerősítve („Személyazonosság megerősítése”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>A személyazonosság ellenőrzése sikertelen</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Bejelentkezés hozzáférési kulccsal</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Sikertelen bejelentkezés hozzáférési kulccsal</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Bejelentkezés elutasítva: a kétlépéses kód hiányzik vagy hibás</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Hibás kétlépéses kód</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Fiók zárolva sikertelen bejelentkezések után</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Fiók zárolása feloldva</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Jelszó módosítva</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Sikertelen jelszómódosítás</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Jelszó visszaállítva</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Új jelszó kérve</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-mail-cím módosítva</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Felhasználónév módosítva</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kétlépéses bejelentkezés bekapcsolva</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kétlépéses bejelentkezés kikapcsolva</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Helyreállító kód felhasználva</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Új helyreállító kódok</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Alkalmazásjelszó létrehozva</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Alkalmazásjelszó visszavonva</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Hozzáférési kulcs hozzáadva</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Hozzáférési kulcs eltávolítva</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Fiók engedélyezve</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Fiók letiltva</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Összes</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Bejelentkezések és munkamenetek</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Fiókváltozások</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Figyelmet igényel</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Biztonsági tevékenység</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Biztonsági tevékenység – %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>A fiókja bejelentkezései és biztonsági változásai. Ha olyasmit lát, amit nem Ön tett, változtassa meg a jelszavát, és jelentkeztesse ki azokat az eszközöket, amelyeket nem ismer fel.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Saját eszközök</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Jelszó módosítása</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Ezen a webhelyen még nem történik a biztonsági tevékenység rögzítése.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Bejelentkezések az elmúlt napokban (%days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Sikertelen kísérletek</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Még nincs rögzített biztonsági tevékenység.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Bejelentkezési adataim letöltése</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Munkamenetei és biztonsági eseményei JSON-fájlként.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Ez a webhely nem rögzíti a munkameneteket, így más eszközt nem lehetett kijelentkeztetni. Változtassa meg most a jelszavát.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count másik munkamenet kijelentkeztetve. Most változtassa meg a jelszavát.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Más eszköz nem volt bejelentkezve. Most változtassa meg a jelszavát.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Köszönjük. Az eseményt sajátjaként jelöltük meg.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ez az esemény nem igényel választ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Az oldal lejárt. Semmi sem változott; próbálja meg újra.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Fiók védelme</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ha valami itt nem Ön volt, jelentkeztessen ki minden más eszközt, majd válasszon új jelszót. Az Emlékezzen rám funkcióval bejelentkezve tartott eszközök is kijelentkeznek.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Ezen kívül minden eszköz a következő kérésénél kijelentkezik. Ezután új jelszót választ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Igen, a többi eszköz kijelentkeztetése</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ön volt az?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Igen, én voltam</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nem, védje a fiókomat</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Jelszó</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Jelszó és kétlépéses kód</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-felület</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-felület</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Egyszeri bejelentkezés</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>A munkamenetek rögzítése előtt jelentkezett be</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Bejelentkezési jelentés</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Ki van bejelentkezve a webhelyre, milyen gyakran jelentkeznek be a fiókok, és milyen gyakran sikertelenül, valamint egy felhasználó kijelentkeztetése mindenhonnan. Minden munkamenet-kezelővel működik.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>A munkamenet kijelentkeztetve. Az eszköznek újra be kell jelentkeznie.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login kijelentkeztetve a munkamenetekből (%count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login felhasználónak nem volt futó munkamenete.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Egyik fióknak sincs ilyen azonosítója, felhasználóneve vagy e-mail-címe.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Ez az Ön által használt munkamenet. A befejezéséhez jelentkezzen ki.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Ez a munkamenet már véget ért.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Az oldal lejárt. Semmi sem változott; próbálja meg újra.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Ezen a webhelyen nem történik a munkamenetek rögzítése (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Az expuser_session tábla hiányzik</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>A munkamenetek rögzítése a tábla létrehozása után kezdődik: php update/common/scripts/6.0/createusersessiontable.php vagy a 6.0.15-ös verzió adatbázis-frissítése.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Most és ma</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Futó munkamenetek</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Bejelentkezett felhasználók</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Mai bejelentkezések</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Mai sikertelen kísérletek</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Felhasználó kijelentkeztetése mindenhonnan</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>A fiók minden munkamenete a következő kérésénél véget ér, az „Emlékezzen rám” által megtartottak is. Akkor használja, ha egy fiók rossz kezekbe kerülhetett; utána állítsa vissza a jelszavát.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Felhasználói azonosító, felhasználónév vagy e-mail-cím</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Kijelentkeztetés mindenhonnan</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Most bejelentkezve</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>A legutóbb használtak láthatók, legfeljebb %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Felhasználó</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Eszköz</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cím</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Bejelentkezve</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Utoljára aktív</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Műveletek</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Ez az eszköz</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nincs rögzítve</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Kijelentkeztetés</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Nincs bejelentkezett munkamenet.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Az elmúlt napok: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>A bejelentkezések és a sikertelen kísérletek számát a felhasználói auditnaplóból számoljuk, amely nem létezik; az új munkameneteket számoljuk.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Nap</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Bejelentkezések</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Sikertelen kísérletek</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Új munkamenetek</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Munkamenet-kezelő: %handler. A munkamenetek az expuser_session táblából olvashatók ki, így a jelentés minden kezelővel működik.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Gyanús tevékenység az elmúlt %hours órában</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Egy hálózat nem tudott bejelentkezni %accounts fiókba (%count kísérlet)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Fiók zárolva sikertelen bejelentkezések után</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count sikertelen bejelentkezés egy fiókba</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Egyszerre %count országból bejelentkezve</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Biztonsági tevékenység</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Munkamenetek</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>A sikertelen bejelentkezések a felhasználói naplóból olvashatók ki, amely itt nem érhető el.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nincs semmi gyanús: nincs ismételten sikertelen bejelentkezésű fiók, nincs több fiókot próbálgató hálózat, nincs több országból bejelentkezett fiók.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Biztonsági figyelmeztetés a fiókjáról</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Biztonsági esemény történt az Ön %login fiókjában: %event. Ha nem Ön volt az, védje meg fiókját itt: %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Rendszer</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Kérje le a webhely tartalmából egyetlen kéréssel pontosan azokat a mezőket, amelyekre egy oldalnak szüksége van. A séma a tartalomosztályokat követi; minden lekérdezés a küldő felhasználó jogosultságaival fut.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>A GraphQL API ki van kapcsolva ebben a webhely-hozzáférésben. Kapcsolja be a graphql.ini fájlban: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>A GraphQL könyvtár (webonyx/graphql-php 15) nincs telepítve.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Végpont</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Könyvtár</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Séma</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Tartalomosztályok: %count, séma %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Lekérdezés</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Változók (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Futtatás</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Válasz</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Fut…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>A választ nem sikerült beolvasni.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>A lekérdezés az Ön jogosultságaival fut, ebben a bejelentkezett munkamenetben.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count / %seconds mp</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>nincs korlát</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Mélység</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Összetettség</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elemek listánként</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (alapértelmezés: %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Kérések felhasználónként vagy kulcsonként</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Kérések névtelen címenként</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspekció</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Csak tárolt lekérdezések</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Legnagyobb lekérdezés</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bájt</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Legnagyobb feltöltés</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nincs %siteaccess webhely-hozzáférés.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>A mutációk be vannak kapcsolva itt: %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>A mutációk ki vannak kapcsolva itt: %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>A GraphQL API be van kapcsolva itt: %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>A GraphQL API ki van kapcsolva itt: %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>A beállításokat nem sikerült kiírni: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>A válasz-gyorsítótár kiürítve: %count válasz eltávolítva.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Jelölje be a lekérdezés melletti négyzetet az eltávolításhoz.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>A lekérdezést nem sikerült eltávolítani: a PersistedQueryDirectoryList[] egy könyvtárában szállított lekérdezés a fájljával együtt távolítható el.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>A tárolt lekérdezés eltávolítva.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutációk</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>be</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ki</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Webhely-hozzáférések</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Ahol az API és a mutációi válaszolnak. A gombok a graphql.ini fájlt írják, ahogy a ./console exp:graphql:enable és az exp:graphql:disable is.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Webhely-hozzáférés</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Módosítás</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Kikapcsolás</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutációk ki</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutációk be</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Bekapcsolás</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Korlátok</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>E webhely-hozzáférés graphql.ini [GraphQLSettings] beállításai.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Válasz-gyorsítótár</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>A tárolt lekérdezések válaszai, felhasználói jogonként megőrizve, és minden tartalomközzétételkor lejárnak.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Állapot</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Megőrzött válaszok</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count válasz, %bytes bájt</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Legfeljebb megőrzés</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds mp</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Utolsó lejáratás</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Válasz-gyorsítótár ürítése</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Tárolt lekérdezések</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Tárolva a ./console exp:graphql:persist paranccsal vagy kliensek által (automatikus tárolt lekérdezések); név vagy SHA-256 alapján hívható.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nevek</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Méret</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Hely</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eltávolítás</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>szállított</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>tárolt</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Igen, a lekérdezés eltávolítása</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Még nincs tárolt lekérdezés.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-kulcsok</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Személyes API-kulcsok graphql:read (lekérdezések) vagy graphql:write (mutációk) hatókörrel. Létrehozni és visszavonni az API-hozzáférés oldalon vagy a ./console exp:graphql:keys paranccsal lehet.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API-hozzáférés</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Összes kulcs</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Kulcs</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Név</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Tulajdonos</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Hatókörök</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Utoljára használva</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktív</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>lejárt</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>visszavont</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>soha</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Még nincs GraphQL-hatókörű API-kulcs.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>A GraphQL API ki van kapcsolva az ezt az oldalt megjelenítő webhely-hozzáférésben (%siteaccess); az alábbi táblázat mutatja, hol válaszol.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Az ezt az oldalt megjelenítő webhely-hozzáféréshez: %siteaccess.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhookok</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Minden eseményt, amelyet egy végpont kér (publish, update, trash, delete, move, hide, reveal, mutation), aláírva elküld neki a graphqlwebhooks cronjob-rész. A ./console exp:graphql:webhooks ugyanazt teszi, mint ez a szakasz.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Események</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>mind</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Minden webhely-hozzáférés</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>hibás</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>nincs titok</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Várakozik</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count feladva</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Utolsó kézbesítés</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Teszt küldése</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Igen, a webhook eltávolítása</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Még nincs webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Webhook hozzáadása</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Hozzáadás</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Legutóbbi kézbesítések</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Idő</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Eredmény</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Feliratkozások</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Élő frissítések az ügyfeleknek: eseményfolyam a /api/graphql/subscribe címen, és egy WebSocket (graphql-transport-ws) a Velocityn. Minden esemény csak azokhoz a feliratkozókhoz jut el, akik olvashatják a tartalmát.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Most nyitva</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Legfeljebb nyitva</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>összesen %total, felhasználónként %user, címenként %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Névtelen feliratkozások</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Folyam hossza</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>A webhookot nem sikerült hozzáadni: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>A(z) %name webhook módosult; az aláírási titka megmarad.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Az aláírási titkot nem sikerült tárolni (Rendszer &gt; Titkok).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>A(z) %name webhook hozzáadva. Az aláírási titka, csak most az egyszer megjelenítve: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Nincs %name webhook.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>A(z) %name webhook nem válaszolt: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>A(z) %name webhook %status választ adott %ms ms alatt.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Jelölje be a webhook melletti négyzetet az eltávolításhoz.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>A(z) %name webhook eltávolítva.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>A GraphQL API ki van kapcsolva ebben a webhely-hozzáférésben.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>A GraphQL könyvtár nincs telepítve.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Használjon GET vagy POST kérést.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>A törzs nem JSON-objektum.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>A variables nem JSON-objektum.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>Az extensions nem JSON-objektum.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Küldje el a lekérdezést POST kéréssel.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>A kérés nem tartalmaz lekérdezést.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>A lekérdezés hosszabb %max bájtnál.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Belső kiszolgálóhiba</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>A node pontosan egyet igényel ezek közül: id, remoteId, path és urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>A content pontosan egyet igényel ezek közül: id és remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Az after kurzorát nem ez az API adta ki.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Nincs %alias nevű képalias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Itt csak tárolt lekérdezések fogadhatók el: küldje el egy tárolt lekérdezés azonosítóját (id).</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>A tárolt lekérdezés hash-e nem SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>A tárolt lekérdezés hash-e nem egyezik a lekérdezéssel.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Túl sok kérés: legfeljebb %limit %window másodperc alatt. Próbálja újra %reset másodperc múlva.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>A lekérdezés %depth szint mély; legfeljebb %max megengedett.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>A lekérdezés összetettsége %complexity; legfeljebb %max megengedett.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Ez a kérés nem olvashatja a sémát (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>A search szöveget vagy szűrőt igényel (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>A(z) %argument nem dátum (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>A tag pontosan egyet igényel ezek közül: id, remoteId és path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>A layout pontosan egyet igényel ezek közül: id, identifier és urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>A multipart kérés operations mezője nem egyetlen JSON-kérés.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>A multipart kérés map mezője nem JSON-objektum.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>A multipart kérésben nincs %field fájl.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>A mezőleképezés egy útvonalának variables. előtaggal kell kezdődnie: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>A(z) %name fájl nem érkezett meg hiánytalanul (feltöltési hiba: %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>A(z) %name fájl nagyobb, mint %max bájt.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>A(z) %name fájlt nem sikerült ellenőrizni.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>A mutációk ki vannak kapcsolva ebben a webhely-hozzáférésben (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>A mutációt POST kéréssel küldje.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Jelentkezzen be a tartalom módosításához.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Az API-kulcsnak nincs %scope hatóköre.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>A munkamenettel küldött mutációhoz a munkamenet űrlaptokenje szükséges (X-CSRF-Token fejléc).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>Az uploadFromUrl ki van kapcsolva: a graphql.ini [GraphQLSettings] UploadFromUrlHostList[] egyetlen gazdagépet sem nevez meg.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>A címnek https címnek kell lennie.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>A(z) %host gazdagép nem szerepel a graphql.ini [GraphQLSettings] UploadFromUrlHostList[] listájában.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>A fájlt nem sikerült letölteni.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Az Upload csak bemeneti típus.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Az Upload típusú változó egy multipart kérés fájlját veszi át.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>A(z) %remoteId távoli azonosító már foglalt.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>A tartalomnak már van %language fordítása: használja az updateContent mutációt.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Adjon meg legalább egy mezőt.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Nem sikerült új verziót létrehozni (a tartalomnak túl sok piszkozata van).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>A(z) %version verzió nem piszkozat.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>A deleteContent pontosan egyet kér az id és a nodeId közül.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Egy hely nem helyezhető át önmaga alá.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>A tartalomnak már van helye a(z) %parentId alatt.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>A(z) %field mező értékét nem sikerült tárolni.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Nincs %language tartalomnyelv.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>A sémában nincs %class tartalomosztály.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>A tartalom nem létezik, vagy nem olvashatja.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Ezt nem teheti meg ezzel a tartalommal.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>A(z) %class osztálynak nincs írható %field mezője.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>A(z) %field mező kétszer van megadva.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>A(z) %field mező fájlt fogad: küldje feltöltésként (multipart kéréssel).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>A(z) %field mező nem fogad fájlt.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>A(z) %field mezőnek érték kell.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>A(z) %format formátum csak formázott szöveges mezőkhöz való; a(z) %field az értékét változatlanul veszi át (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>A(z) %field mező kötelező.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>A HTML-t nem sikerült beolvasni.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>A content csak az id mellett fogadja el a version argumentumot.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Az előnézeti token érvénytelen vagy lejárt.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Nem origin (https://host vagy https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Nem a GraphQL API hatóköre: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>A feliratkozásokat a /api/graphql/subscribe címre küldje (eseményfolyam vagy WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>A kérés nem nevezi meg a dokumentum egyetlen műveletét sem.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Egy feliratkozás pontosan egy mezőt kér.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Túl sok feliratkozás van nyitva; próbálja újra később.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>%max nyitott feliratkozása van, ez a megengedett legtöbb.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>A címének %max nyitott feliratkozása van, ez a megengedett legtöbb.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>A feliratkozások ki vannak kapcsolva ebben a webhely-hozzáférésben.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Jelentkezzen be a feliratkozáshoz (token vagy személyes API-kulcs).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>A mutációkat a /api/graphql címre küldje.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrációk</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Az állapot nem olvasható: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>A migrációk táblái még nem léteznek: a ./console exp:upgrade --apply létrehozza őket.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migráció sikertelen</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Egy futtatás folyamatban van, indította: %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>A telepítés zárolva van: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Függőben</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Sikertelen</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Árvák</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Utolsó futtatás</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>még nincs</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Összes migráció</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Szimulált futtatás</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Próbafuttatás</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>A függő migrációk egy tranzakcióban futottak, amelyet utána visszagörgettünk: semmi sem maradt meg. Alább látható, mit változtatott mindegyik az adatbázisban.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Mit tenne most egy futtatás. Semmi sem változik: minden függő migráció felsorolja a módosításait, a futtatás pedig azt, mit tenne előtte és utána.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Szimulálás</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Futtatás</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>A próbafuttatás sikertelen: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>A szimulációhoz PostgreSQL vagy SQLite kell, amelyeknél a sémamódosítások visszagörgethetők; ezen az adatbázison az alábbi terv mutatja, mit tenne egy futtatás.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>A migrációk</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migráció</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Állapot</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Mit tenne</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Szimuláció: %result, %ms ezredmásodperc alatt</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Még nincs migráció.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>A futtatás előtt és után</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Pillanatkép előtte</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>elkészül, és visszaállítódik, ha egy migráció sikertelen</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ki</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Pillanatkép utána</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>elkészül, ha a futtatás sikeres volt</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migráció: %pending függőben, %done kész, %failed sikertelen.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Migrációs előzmények</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Minden futtatás a felhasználójával, környezetével, pillanatképeivel, és azzal, amit véglegesítettek, címkéztek és feltöltöttek. Egy sikertelen vagy megszakadt futtatás folytatható; egy futtatás, amely előtt pillanatkép készült, visszavonható.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>A futtatások nem olvashatók: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>A migrációk táblái még nem léteznek: a ./console exp:upgrade --apply létrehozza őket.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Megjelenítés</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Mind</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Futtatások</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Indítva</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Indította</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Pillanatképek</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Tároló</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Műveletek</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>előtte</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>utána</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>feltöltés: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Folytatás</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Visszavonás</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Nincs futtatás ebben az állapotban.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Itt indítva</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Ezeken az oldalakon indított futtatások, folytatások és visszavonások, mindegyik jelentésével.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Mi</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Eredmény</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Visszavonás</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target visszavonása</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>%run futtatás</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Mit tett a futtatás, a bejegyzése és a naplója. Az itt indított futtatás a háttérben folytatódik, ha bezárja ezt az oldalt; nyissa meg újra az oldalt a követéséhez.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Futtatás folytatása</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Futtatás visszavonása</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>A bejegyzés nem olvasható: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Haladás</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Indította: %user, időpont: %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>A kód ellenőrzése és pillanatkép készítése a futtatás előtt</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id fut (%index / %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done / %total kész</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>A migrációk lefutottak; a pillanatkép visszaállítása, ha valamelyik sikertelen volt</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Pillanatkép a futtatás után, véglegesítés, címkézés és feltöltés</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>A pillanatkép visszaállítása</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>A futtatás véget ért. A jelentés betöltése.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>A haladás nem követhető. Töltse újra az oldalt, hogy lássa, hol tart a futtatás.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ez az oldal menet közben követi a futtatást.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Újratöltés</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Jelentés</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Időtartam</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ezredmásodperc</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Amit a futtatás hibaként kiírt</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Bejegyzés</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Környezet</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nincs</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Befejezve</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Véglegesítés</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Címke</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Feltöltés</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Üzenet</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>A futtatás migrációi</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Forrás</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Futtatási napló</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Csak a napló vége látható.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>fut</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>jelentés nélkül ért véget</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>sikeres</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>sikertelen</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>elutasítva</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>az adatbázis nem volt elérhető</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>belső hiba</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Egy futtatás folyamatban van</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, indította: %user, időpont: %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Követés</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>A telepítés zárolva van</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Egy másik futtatás tartja a zárat (egy frissítés vagy egy konzolos futtatás): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>kész</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>függőben</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>nem szükséges</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ismeretlen</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>visszagörgetve</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>alkalmazva</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>alkalmazva lenne</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>visszavonva</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>visszavonva lenne</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>nem futott</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>egy másikra vár</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>módosítás elfogadva</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>a módosítás elfogadva lenne</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>szimulálva</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrációk</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Állapot</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Előzmények</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target visszavonása</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Egy futtatás az előtte készült pillanatképre vonható vissza, egy migráció a saját down() metódusával. Egy korábbi pillanatkép visszaállítása szakértőknek való. Mindegyik a háttérben fut az Ön nevében, a jelenlegi állapotról készült pillanatkép után.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Nem olvasható, mi vonható vissza: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Egy futtatás</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Egy migráció</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Egy korábbi pillanatkép</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Leírás</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>igen</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nem</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Pillanatkép</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Megnevezés</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Készült</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Fajta</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Visszaállítandó részek</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Az adatbázis</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>A tárolt fájlok (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>A beállítások (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Az adatbázis visszaállítása a pillanatkép időpontjára állítja vissza, a munkamenetekkel együtt: utána lehet, hogy újra be kell jelentkeznie. Minden azóta történt módosítás elvész; előbb pillanatkép készül a jelenlegi állapotról.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Tudom, mit állít vissza</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Írja be újra a pillanatkép azonosítóját</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Igen, visszavonom</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Mégse</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>A futtatások, amelyek előtt pillanatkép készült.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Kiválasztás</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Még nincs pillanatképpel rendelkező futtatás.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Az alkalmazott migrációk, amelyek visszavonhatják magukat (van down() metódusuk).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Egyik alkalmazott migrációnak sincs down() metódusa.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Korábbi pillanatképek (szakértőknek)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Még nincs pillanatkép.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>A migrációk futtatása</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>A futtatás a háttérben zajlik %user nevében, és az oldala menet közben mutatja. Az első migráció előtt pillanatkép készül a telepítésről; ha egy migráció sikertelen, a futtatás leáll, és a pillanatkép visszaállítódik.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Előbb próbafuttatás</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Az állapot nem olvasható: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Függő migrációk</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ebben a sorrendben futnak. Vegye ki a pipát egy migráció mellől, hogy azt és a tőle függőket egy későbbi futtatásra hagyja.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Futtatás</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Futás közben bekapcsolja a karbantartási módot.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Alkalmazásuk után módosultak</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Ezek a fájlok nem azok, amelyeket alkalmaztak. A futtatás elutasítja őket, hacsak a módosítást indoklással el nem fogadják; nem futnak újra, az új ellenőrzőösszeg rögzítésre kerül, az indoklás pedig az auditnaplóba.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>A módosítások elfogadása</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Miért</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Az alapértelmezések a biztonságosak. Minden jelölőnégyzet kihagy egy lépést.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Nincs pillanatkép</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Nincs pillanatkép a futtatás előtt és után: hiba esetén nincs automatikus visszaállítás.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Nincs visszaállítás</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Hiba után a telepítés úgy marad, ahogy a hiba hagyta.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Nem véglegesített módosítások megtartása</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Futtatás akkor is, ha a beállításokban, bővítményekben vagy dizájnokban nem véglegesített módosítások vannak; ezek bekerülnek a pillanatképbe.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Nincs véglegesítés</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Az állapotfájl és a futtatási napló ne legyen véglegesítve (címke és feltöltés sem).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Nincs feltöltés</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Véglegesítés és címkézés, de feltöltés nélkül.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Nincs címke</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Véglegesítés és feltöltés, de a futtatás címkézése nélkül.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Igen, futtassa most ezeket a migrációkat</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nincs függő migráció.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Vissza az állapothoz</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>A telepítés módosításai, egyszer fájlokként megírva (tartalom, osztályok, szerepkörök, beállítások, séma), és a webhely minden telepítésén ugyanabban a sorrendben alkalmazva. Egy futtatás először pillanatképet készít, visszaállítja, ha egy migráció sikertelen, majd rögzíti, véglegesíti és feltölti, amit tett.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count függő futtatása</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Áttekintés</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Függőben</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kész</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Sikertelen</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Nem szükséges</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Adatbázis</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>tranzakciók: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>A webhely migrációi a migrations/ mappában vannak, egy bővítményéi az extension/&lt;name&gt;/migrations/ mappában. A nevük sorrendjében és függőségeik szerint futnak.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Utolsó futtatás</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>A fájl az alkalmazása után módosult.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Még nincs migráció. A ./console exp:migration:generate --skeleton &lt;name&gt; --apply megírja az elsőt.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>A legutóbbi futtatások</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Összes futtatás</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Még nincs futtatás.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>A futtatás szimulálásához a migration/run házirend szükséges.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Egy futtatás folyamatban van: szimuláljon, ha véget ért.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Rendszer</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target nem futtatása, nem migrációja és nem pillanatképe ennek a telepítésnek.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Előbb jelölje be: „Igen, visszavonom”.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Egy korábbi pillanatkép visszaállítása szakértőknek való: jelölje be: „Tudom, mit állít vissza”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Írja be újra a pillanatkép azonosítóját: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Válasszon legalább egy visszaállítandó részt.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ehhez a futtatáshoz nem készült előtte pillanatkép: vonja vissza a migrációit egyenként, vagy állítson vissza egy korábbi pillanatképet.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Ez a migráció nem vonhatja vissza önmagát: nincs alkalmazva, vagy nincs down() metódusa.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Az űrlap nem olvasható.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Válassza ki a folytatandó futtatást.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Előbb jelölje be: „Igen, futtassa most ezeket a migrációkat”.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Válasszon legalább egy migrációt.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Egy migráció az alkalmazása után módosult: fogadja el a módosítást indoklással, vagy állítsa vissza a fájlt.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Adja meg, miért fogadja el a módosult migrációkat.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Az indoklás legfeljebb 500 karakter lehet.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Egy itt indított futtatás még folyamatban van (%detail). Várja meg, amíg véget ér.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Egy másik futtatás tartja a telepítés zárát: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>A futtatáshoz létező, bejelentkezett felhasználó szükséges.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nem található php parancssori program. Állítsa a migration.ini [AdminSettings] PhpCliPath értékét a teljes elérési útjára.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>A proc_open le van tiltva, ezért itt nem indítható futtatás. Futtassa a ./console exp:migration:migrate --apply parancsot a szerveren.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>A futtatások mappája nem írható: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>A futtatás elindult, de nem jelentette a folyamatazonosítóját. Ellenőrizze: %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Adja meg, mit kell visszavonni.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>A futtatás nem indítható el.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Változások rögzítése</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Amíg egy rögzítés fut, amit az adminisztrációban vagy a webhely oldalsávjában megváltoztat, azt egy migráció lépéseiként megőrzi: tartalom, osztályok, szerepkörök és házirendek, szekciók, felhasználók és csoportok, URL-aliasok, beállítások. Ha végzett, állítsa le, nézze meg, mit rögzített, és hozzon létre belőle migrációt.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>A rögzítéseket nem sikerült beolvasni: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>A rögzítések táblái még nem léteznek: először futtassa a frissítést (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>A rögzítés ki van kapcsolva a migration.ini fájlban ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Saját változásaim</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Csak azt rögzíti, amit Ön változtat, bárhol is változtatja, amíg le nem állítja.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Rögzítés</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time óta, eddig %count változás.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Címke (nem kötelező)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Mutassa, mit rögzített</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Rögzítés leállítása</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Saját változásaim rögzítésének indítása</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Az egész webhely ablaka</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Minden felhasználó és a konzol minden változását rögzíti, amíg be nem zárják. Megnyitáskor meg kell erősítenie, hogy Ön az.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Nyitva</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Ablak bezárása</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Az egész webhely ablakának megnyitása</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Rögzítések</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>A felhasználói fiók (felhasználónév, e-mail, jelszó) és a felhasználói fiókok mezői soha nem kerülnek rögzítésre.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Változások</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Egész webhely</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name változásai</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Leállítva</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Még nincs rögzítés.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Rögzítés: %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Összes rögzítés</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>A migráció, amely ebből lenne</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>A változások megváltoztatott elemenként egy lépésbe összevonva: amit egy ebből a rögzítésből létrehozott migráció tenne.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Migráció akkor hozható létre belőle, amikor ennek a telepítésnek megvannak a(z) %types YAML-lépéstípusai.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Szándékosan kihagyva: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Semmi sem lett rögzítve.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Amit rögzített</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count változás, abban a sorrendben, ahogy történtek.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Változás</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Lépés</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Érinti</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Még %count: a ./console exp:migration:record:show mindet felsorolja.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Elvetés</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Eltávolítja a rögzítést és azt, amit rögzített. Ami megváltozott, az megváltozva marad.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Igen, ezt a rögzítést elvetem</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Rögzítés folyamatban…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>A változásait egy migrációhoz rögzítjük.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Ezen a webhelyen minden változást egy migrációhoz rögzítünk (az egész webhely ablaka).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Az egész webhely rögzítése elindult: minden felhasználó minden változását rögzítjük, amíg le nem állítja.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>A rögzítés elindult: a változásait rögzítjük, amíg le nem állítja.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Rögzítés leállítva. Amit rögzített, megmarad, amíg el nem veti.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>A rögzítés és eseményei eltávolítva.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Nincs %id rögzítés.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Először jelölje be: „Igen, ezt a rögzítést elvetem”.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Munkamenet-rögzítést csak az a felhasználó állíthat le, aki rögzített.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Válassza ki a leállítandó rögzítést.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Ilyen fajta rögzítés már fut.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>A rögzítést nem sikerült módosítani: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Migráció létrehozása</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>A migráció neve (nem kötelező)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>A(z) %file migráció elkészült. Azok a változások, amelyeket egyetlen lépés sem tud elvégezni, a fájl elején szerepelnek, kézzel kell elvégezni őket.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Nem készült migráció: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Hosszú futtatás részletekben</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Az üres mezők megtartják a migration.ini [RunSettings] beállításait.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Legfeljebb ennyi migráció</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Nincs további migráció ennyi idő után (másodperc)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Szünet a migrációk között (másodperc)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Alacsonyabb prioritás (1–19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>A hosszú futtatás mezője 1-től induló egész szám (a szünet: 0–60 másodperc, a prioritás: 1–19), vagy üres.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Magától bezárul ekkor: %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Magától bezár ennyi idő után (perc, nem kötelező)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>A percek 1 és 44640 (31 nap) közötti egész számok, vagy üres.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migráció: %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Új migráció</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML-migráció: írja meg szövegként, vagy állítsa össze a lépéseit az űrlapon, ellenőrizze, majd mentse egy migrációs mappába.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Ez a migráció már lefutott, ezért nem kerül újra mentésre: az ellenőrzőösszeg-védelem elutasítana egy módosított fájlt. A módosítást egy új migrációban végezze el.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>A webkiszolgáló nem tudja írni a fájlt.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>A kezdő megjegyzéssorok alkotják a fejlécet (description, author, requires, environments, engines). Ha az űrlapon lépést ad hozzá vagy módosít, a migráció újra kiírásra kerül: a lépések közötti megjegyzések nem maradnak meg.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>A migráció neve</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Hová kerül</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>A webhely</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-szöveg</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Ellenőrzés</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Mentés</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Lépések</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Kulcsok</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Szerkesztés</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Mozgatás felfelé</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Mozgatás lefelé</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eltávolítás</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Még nincsenek lépések: adjon hozzá egyet az űrlappal, vagy írja be őket a szövegbe.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>%number. lépés módosítása</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Egy lépés hozzáadása</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Egy lépés űrlapja a lépéstípusából készül: a kulcsaiból, abból, hogy mindegyik mit fogad, és azokból a módokból, amelyekhez tartozik.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Lépéstípus</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Űrlap megjelenítése</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>A lépésnek olyan kulcsai vannak, amelyeket a típusa nem ismer; ezek a lépés módosításakor kimaradnak: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Mód</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Hely</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>csak ezekben a módokban: %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Alapértelmezett: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Feltételek, hivatkozások és megjegyzés</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Név=érték párok vesszővel elválasztva. A lépés értékei: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Példa</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Lépés módosítása</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Lépés hozzáadása</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Amit az exp:migration:check mond: a fejléc, a dokumentum és minden lépés, a saját lépéstípusa szerint ellenőrizve.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>A migráció megfelel az ellenőrzésen.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Előnézet</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>A YAML-szöveg úgy, ahogyan mentésre kerül.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>A YAML megjelenítése</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-migrációk</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>lefutott</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Még nincsenek YAML-migrációk.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Szerkesztői felület</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>A migrációs mappákban nincs %id nevű YAML-migráció.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Válasszon lépéstípust.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>A lépés hozzáadva. Mentés előtt ellenőrizze a migrációt.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>A lépés módosítva. Mentés előtt ellenőrizze a migrációt.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Válasszon lépést.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Ennek a lépésnek nincs űrlapja (ciklus, vagy olyan lépéstípus, amely ebben a telepítésben nincs meg): módosítsa a szövegben.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Válassza ki, hová kerüljön a migráció: a webhelyre vagy egy aktív bővítménybe.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Mentve: %file. Végezzen próbafuttatást, mielőtt a migráció lefut.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Nincs mentve: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Távoli rendszerek</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Azok a további telepítések, amelyekre ez a telepítés kihelyezi a migrációit: a kihelyezés elküldi a migrációkat a kiválasztott távoli rendszerekre, és ott futtatja őket, egyszerre és szinkronban. Egy távoli rendszer soha nem tárol titkos értéket: a hitelesítési adata egyet nevez meg a Rendszer &gt; Titkos értékek menüben.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Új távoli rendszer</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Súgó</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id kapcsolatának tesztelése</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>A távoli rendszerek</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Legfeljebb %parallel távoli rendszeren folyik egyszerre a munka; egy fázis mindegyiken %timeout másodpercig tarthat.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Távoli rendszer</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cím</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Hitelesítés</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Csoportok</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>javítandó beállítások</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>csak fájlok (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-kulcs</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Jelszó</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>nincs (a gazdagép SSH-ügynöke és kulcsai)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Kapcsolat tesztelése</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Egy csoportba irányuló kihelyezés a csoport minden távoli rendszerére eljut.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Kihelyezés távoli rendszerekre</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Még nincs beállított távoli rendszer.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Távoli rendszer: %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Itt semmi sem kerül elküldésre vagy futtatásra: a Mentés a beállításokat a settings/override/migration.ini.append.php fájlba írja. A hitelesítési adat egy név; az értéke a Rendszer &gt; Titkos értékek menüben vagy a környezetben marad.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Ellenőrizze ezeket a beállításokat</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>A beállítások a megadott formában, még nincsenek mentve.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Áttekintés</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>A beállítások érvényesek. A következő sorok lesznek kiírva:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Levélküldési mód</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>csak egy név; az érték a Rendszer &gt; Titkos értékek alatt marad</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>A kiírandó sorok</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Kapcsolat</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Gazdagépkulcs</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. A távoli rendszer</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Hogyan hívják a távoli rendszert, és melyik környezet.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Azonosító</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Betűk, számjegyek, - és _, például production1. Ez nevezi meg a távoli rendszert a jelentésekben és a konzolon (--remotes=production1), és később nem módosítható.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... A szakaszos kihelyezés ebben a sorrendben halad végig a környezeteken.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Nem kötelező, vesszővel elválasztva, például production. Egy csoportba irányuló kihelyezés a csoport minden távoli rendszerére eljut.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. A kapcsolat</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Hogyan jutnak oda a fájlok, és hol van a telepítés.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH-n keresztül, csak ami változott, a megszakadt átvitel folytatódik. A legjobb választás, ahol az rsync telepítve van.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH, scp-vel a fájlokhoz.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH, sftp-vel a fájlokhoz.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Csak fájlok: a migrációk elküldésre és visszaolvasásra kerülnek, de ott nem futtathatók.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP TLS-en keresztül; csak fájlok.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Egy másik telepítés ezen a szerveren, egy mappában.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Gazdagép</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Egy gazdagépnév vagy cím, például node1.example.com. A local esetén nem.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Üresen: SSH esetén 22, FTP esetén 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Felhasználó</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Elérési út</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>A telepítés ottani gyökérkönyvtára, például /var/www/site (FTP esetén: az az elérési út, amelyet az FTP-fiók lát).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP parancssor</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Az ottani PHP CLI: php, vagy egy teljes elérési út, például /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>A konzolszkriptek ott rootként futnak</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Csak ha a távoli rendszer felhasználója root (ekkor --allow-root-user kapcsolóval futnak).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. A hitelesítés</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Hogyan jelentkezik be oda ez a telepítés. Csak egy név kerül mentésre.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nincs</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Annak a felhasználónak az SSH-ügynöke és kulcsai, akiként ez a telepítés fut (local esetén mindig).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Titkos értékként tárolt privát kulcs.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Titkos értékként tárolt jelszó (az FTP ezzel jelentkezik be).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Titkos érték neve</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Egy titkos érték a Rendszer &gt; Titkos értékek menüből, például deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Rendszer &gt; Titkos értékek</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Vagy egy környezeti változó</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>A szerverfolyamat azon változója, amely tartalmazza, például DEPLOY_KEY (env:DEPLOY_KEY formában mentve). A titkos érték nevének helyébe lép.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. A gazdagépkulcs</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Nem kötelező, SSH, sftp és rsync esetén.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>A gazdagépkulcs ujjlenyomata</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ahogy az ssh-keygen -l kiírja. Ha meg van adva, a gazdagépnek ezt a kulcsot kell mutatnia; ha nincs, a kulcs az első kapcsolatkor rögzül.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Áttekintés</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Tesztelje a kapcsolatot a fenti beállításokkal, majd tekintse át a kiírandó sorokat.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>A távoli rendszer eltávolítása</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>A beállításai törlődnek a settings/override/migration.ini.append.php fájlból. A távoli rendszeren semmi sem változik, és a kihelyezései megmaradnak az előzményekben.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Igen, a távoli rendszer eltávolítása</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Kihelyezések</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>A kihelyezés elküldi ennek a telepítésnek a migrációit a kiválasztott távoli rendszerekre, és ott %user felhasználóként futtatja őket, egyszerre és szinkronban: először minden távoli rendszer ellenőrzésre kerül, és ha az egyik sikertelen, minden olyan távoli rendszer visszavonásra kerül, amely alkalmazta őket. A háttérben fut, és az oldala menet közben minden távoli rendszert mutat.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. A távoli rendszerek</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Jelöljön be távoli rendszereket, egy csoportot vagy mindkettőt.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Kihelyezés ide</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Hogyan</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Kihelyezés</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Küldés és futtatás</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>A migrációk minden távoli rendszerre elküldésre, ellenőrzésre és futtatásra kerülnek egy közös futtatásazonosítóval.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Csak átvitel</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>A fájlok elküldésre és ellenőrzésre kerülnek, semmi sem fut (egy FTP-s távoli rendszer esetén ez az egyetlen mód).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Szakaszos</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Szakaszról szakaszra a környezetek sorrendjében (dev, stage, beta, production ...): az első szakasz kihelyezésre kerül, majd egy kapu vár, amíg valaki jóvá nem hagyja a következőt. Minden szakaszon belül mindent vagy semmit.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Csak ezek a migrációk</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Nem kötelező: migrációazonosítók, vesszővel elválasztva. Üresen: a webhely és bővítményei összes migrációja.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Csak előzetes ellenőrzés</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Igen, kihelyezés most</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Azok a kihelyezések, amelyek küldtek vagy futtattak valamit, a legújabb elöl (az előzetes ellenőrzés nem őriz jelentést).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>csak átvitel</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>szakaszos, %stages szakasz</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>nincs szinkronban</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Még nincs kihelyezés.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Kihelyezés %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>A kihelyezés minden távoli rendszere az állapotával. Az itt indított kihelyezés a háttérben folytatódik, ha bezárja ezt az oldalt; nyissa meg újra az oldalt a követéséhez.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Összes kihelyezés</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Előzetes ellenőrzés</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Következő szakasz</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>A beállítások és a hitelesítési adatok ellenőrzése</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Előzetes ellenőrzés: minden távoli rendszer állapotának beolvasása</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>A migrációs fájlok küldése</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>A megérkezett fájlok ellenőrzése</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>A migrációk futtatása minden távoli rendszeren</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>A távoli rendszerek visszavonása</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>A kihelyezés véget ért. A jelentés betöltése.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>A haladás nem volt követhető. Töltse újra az oldalt, hogy lássa, hol tart a kihelyezés.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fázis</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ez az oldal menet közben követi a kihelyezést.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Szinkronban</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Szakaszok</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>a(z) %stage. szakasz a kapujánál vár</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>%stage. kapu</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>jóváhagyta: %user, %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Szakasz</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Elküldött fájlok</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kernelverzió</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>alkalmazva: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>alkalmazandó: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fázisok</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Kapu: %stage. szakasz (összesen %stages)</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Az előző szakaszok ki vannak helyezve. Ellenőrizze őket, majd hagyja jóvá a következő szakaszt: annak távoli rendszerei újra ellenőrzésre és kihelyezésre kerülnek, mindent vagy semmit.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Következő</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Igen, a következő szakasz kihelyezése most</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Jóváhagyás</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>A kihelyezés visszavonása</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Minden távoli rendszer, amely alkalmazta (%list), egyszerre visszatér a futtatása előtt készült pillanatképhez.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Igen, a kihelyezés visszavonása most</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>tervezett</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>átvive</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>kihelyezve</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>kapunál vár</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>kijelölve</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>előkészítve</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>kész</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>a szakaszára vár</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>fájlok elküldve</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ellenőrizve</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>sikertelen, önmagát visszaállította</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>változatlan</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>nincs kihelyezve</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>nem elérhető</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>A távoli rendszer válaszolt.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>A távoli rendszer most nem használható.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done kész, %pending függőben, %failed sikertelen</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Zárolás</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>egy futtatás tartja ott a zárolást</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>szabad</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage / %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Válassza ki a tesztelendő távoli rendszert.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Előbb jelölje be az „Igen, a távoli rendszer eltávolítása” lehetőséget.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>A távoli rendszert nem sikerült eltávolítani: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>A távoli rendszert nem sikerült menteni: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>A beállításfájl nem olvasható: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Válasszon legalább egy távoli rendszert vagy csoportot.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Egy kiválasztott távoli rendszer már nem szerepel a beállításokban. Töltse újra az oldalt.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Előbb jelölje be az „Igen, kihelyezés most” lehetőséget.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Egy FTP-s távoli rendszer nem tud migrációkat futtatni: válassza a „Csak átvitel” lehetőséget, vagy hagyja ki.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>A kihelyezendő migrációk migrációazonosítók, vesszővel elválasztva.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>A kihelyezés még folyamatban van. Várja meg, amíg véget ér.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Ez a kihelyezés nem vár kapunál.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Egyetlen távoli rendszer sem alkalmazta ezt a kihelyezést: nincs mit visszavonni.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Előbb jelölje be az „Igen, a következő szakasz kihelyezése most” lehetőséget.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Előbb jelölje be az „Igen, a kihelyezés visszavonása most” lehetőséget.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Már létezik %id azonosítójú távoli rendszer.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>A port egy 1 és 65535 közötti szám.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>A környezet betűkből, számjegyekből, - és _ jelekből álló szó (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>A csoport betűkből, számjegyekből, - és _ jelekből álló szó (nem all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>A hitelesítési adat most nem olvasható: %problem. Mentse a Rendszer &gt; Titkos értékek menüben (vagy állítsa be a változót) az első kihelyezés előtt.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Egy FTP-s távoli rendszer csak fájlokat fogad: a kihelyezés oda „Csak átvitel”, és a migrációit ott kézzel kell futtatni.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>A(z) %id távoli rendszer nem szerepel a settings/override/migration.ini.append.php fájlban; ott távolítsa el, ahol be van állítva.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Bejelentkezve FTP-n keresztül, és az index.php beolvasva. Egy FTP-s távoli rendszer migrációs állapota nem olvasható.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Módosítva</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Létrehozva</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Név</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Osztály</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Szakasz</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Létrehozó</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Friss tartalom</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>A teljes webhely legutóbb létrehozott és módosított tartalma, a legújabbal kezdve: amit a látogatók beküldtek, ami ellenőrzésre visszatartva vár, és a közzétételre váró piszkozatok. Jelöljön ki elemeket, hogy feloldja, visszatartsa, elrejtse, felfedje, eltávolítsa őket, vagy másik szakaszba vagy állapotba helyezze őket.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>A lista nem olvasható be: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Az ellenőrzésre visszatartás még nincs beállítva, ezért semmi sincs visszatartva, és a visszatartási műveletek nem érhetők el. A 6.0.15-review-hold frissítési lépés állítja be: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>A lista szűrése</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ettől</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Eddig</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dátum</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Létrehozva (első közzététel)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Mind</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Állapot</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Közzétéve</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Piszkozat, sosem tették közzé</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Függőben (jóváhagyásra vagy időpontra vár)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>A lomtárban</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ellenőrzésre visszatartva</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Visszatartva</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Nincs visszatartva</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Rejtett</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Látható</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Beküldés webhely-hozzáférése</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Bármely webhely-hozzáférés</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Csak amit a napló rögzített.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Most: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Felhasználónév vagy felhasználóazonosító.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Szűrés</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Szűrők törlése</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elemek</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to / %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nincs elem</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(beolvasva %ms ms alatt)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Műveletek a kijelölt elemeken</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Az oldal összes elemének kijelölése</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count kijelölve</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Művelet</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Válasszon műveletet</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Visszatartás feloldása</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Visszatartás ellenőrzésre</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Elrejtés</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Felfedés</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Áthelyezés a lomtárba</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Törlés</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Szakasz hozzárendelése</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Állapot hozzárendelése</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Indok</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>A visszatartáshoz szükséges; a visszatartással és a naplóban együtt megőrződik.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Válasszon szakaszt</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Állapot</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Válasszon állapotot</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Alkalmazás a kijelöltekre</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Minden elemet a saját jogosultságai alapján ellenőrzünk. A lomtárba helyezés és a törlés megerősítést kér. %count elemnél többet a háttérben dolgozunk fel.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Kijelölés</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Közzététel</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Beküldés címe</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name kijelölése</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>még nem</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(nincs név)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Azonosító: %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Piszkozat</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Függőben</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>A szülője miatt rejtett</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Visszatartva: új beküldés</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>%version. verzió függőben</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>%version. verzió szerkesztés alatt</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Piszkozat, %version. verzió</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>%version. verzió közzétéve</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Ütemezve: %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>nincs cím</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>nincs rögzítve</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Semmi sem felel meg ezeknek a szűrőknek.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Összes megjelenítése</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Még nincs tartalom.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Oldalanként</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>%count elem megjelenítése oldalanként.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>A beküldés címe és böngészője a naplóindexből származik, amely itt nem érhető el: az oszlopban „nincs rögzítve” áll.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>A cím és a böngésző az, amit a napló az elemről rögzített (az automatikus visszatartás mindig rögzíti; a közzététel és a létrehozás csak ott, ahol be van kapcsolva), az adatvédelmi beállításai szerint megőrizve.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count elem</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>A törlés véglegesen eltávolítja az elemeket, az összes verziójukkal és fordításukkal együtt. Nem vonható vissza.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Az elemek a lomtárba kerülnek, ahonnan visszaállíthatók.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Minden elemet a saját jogosultságai alapján ellenőrzünk; az alelemekkel rendelkező elem változatlan marad (távolítsa el a tartalomstruktúrában). Meg kell erősítenie, hogy Ön az.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Ez a háttérben fut: megnyílik a folyamatoldala, és ha elkészült, elemenként megjelenik az eredmény.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>A kijelölt elemek</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>és még %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Mégse</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Nem történt semmi</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Indok: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>A művelet még fut a háttérben.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>A folyamata</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>A háttérművelet sikertelen: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kész</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Elutasítva</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Sikertelen</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Elemenként</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Elem</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Eredmény</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Miért</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Vissza a listához</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Rendszer</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Nem történt semmi</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Megerősítés</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Válasszon műveletet.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Jelöljön ki legalább egy elemet.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Egyszerre legfeljebb 1000 elemet jelöljön ki.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Adja meg, miért tartja vissza az elemeket.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Válassza ki a szakaszt.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Válassza ki az állapotot.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Az űrlap nem olvasható be.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Irányítópult</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Friss tartalom</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>A darabszámok nem olvashatók be: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ellenőrzésre visszatartva</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Mai újak</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Az ellenőrzésre visszatartás még nincs beállítva (a 6.0.15-review-hold frissítési lépés).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Minden friss tartalom</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Nem futtathat moderálási műveleteket (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>A moderálási művelet nem teljes: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderálás: %action %count objektumon</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done / %total objektum: %ok kész, %refused elutasítva, %failed sikertelen</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok kész, %refused elutasítva, %failed sikertelen</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Már nem létezik.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Nincs helye (nincs közzétéve).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Nem rejtheti el (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Nem fedheti fel (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Már rejtett.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Nem rejtett.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Elrejtve.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Felfedve.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>A lomtárban van: ott ürítse ki vagy állítsa vissza.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Egy sosem közzétett piszkozat nem helyezhető a lomtárba: törölje.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Nem törölheti (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Törölve.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Nem távolíthatja el (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Alelemei vannak: távolítsa el a tartalomstruktúrában, ahol fel vannak sorolva.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Nem lett eltávolítva (egy munkafolyamat visszatarthatja az eltávolítást).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Áthelyezve a lomtárba.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>A szakasz nem létezik.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Már ebben a szakaszban van.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Nem rendelheti hozzá ezt a szakaszt (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>A szakasz nem lett hozzárendelve.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Szakasz hozzárendelve.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Az állapot nem létezik.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Már ebben az állapotban van.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Nem rendelheti hozzá ezt az állapotot (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Az állapot nem lett hozzárendelve (egy munkafolyamat visszatarthatja a változtatást).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Állapot hozzárendelve.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Nincs ilyen művelet.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Az ellenőrzésre visszatartás nincs beállítva (a 6.0.15-review-hold frissítési lépés).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Adja meg, miért tartja vissza.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Már vissza van tartva.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Nem tarthatja vissza (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>A visszatartás nem lett beállítva (egy munkafolyamat visszatarthatja a változtatást).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Visszatartva.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Nincs visszatartva.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Nem oldhatja fel (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>A visszatartás nem lett feloldva (egy munkafolyamat visszatarthatja a változtatást).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Feloldva; továbbra is rejtett: nem fedheti fel (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Feloldva.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Minden cél</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Utolsó közzététel</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Tegye közzé webhelye ingyenes statikus másolatát a GitHub Pages szolgáltatáson:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Elavult oldalak</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statikus közzététel</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>A statikus közzététel ki van kapcsolva.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Cél</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>A célok nem olvashatók be: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>egy feladat folyamatban van</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ellenőrzendő összeállítás</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>elrejtés</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>cél létrehozása</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>soha</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>az útmutató elolvasása</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added hozzáadva, %changed módosítva, %removed eltávolítva</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes / %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>További %count nincs felsorolva.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages oldal kiírva</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path mérete %size, ez több, mint amennyit a tárhely egy fájlnak megenged.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>a korlát %percent %-a</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds mp</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag a webhely jelenlegi közzététele.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: feladat %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/tároló/ egy GitHub-projektwebhelyhez; egyéni domainhez vagy felhasználói webhelyhez üres.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. A webhely</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. A tárhely</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Bejelentkezés a tárolóba</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. A tároló</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Hivatkozások és alapútvonal</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Saját domain</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Mit tartalmaz az összeállítás</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Mikor történik a közzététel</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Áttekintés és mentés</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Egy GitHub-projektwebhely a /&lt;repository&gt;/ alatt található; a relatív hivatkozások ott és bárhol máshol is működnek.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Az összeállítás a(z) %site minden oldalát úgy tölti le, ahogy egy be nem jelentkezett látogató látja, átírja a hivatkozásokat, átmásolja a fájlokat, és az eredményt a cél mappájába írja. Semmi sem kerül közzétételre, amíg Ön nem ellenőrzi az összeállítást, és meg nem nyomja a Közzététel gombot.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron-kifejezés, például 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>A telepítési kulcs %secret titkos értékként van tárolva.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>A telepítési kulcs lehetővé teszi, hogy ez a telepítés SSH-n keresztül egyetlen tárolóba töltsön fel, és sehová máshová. Privát fele a Rendszer &gt; Titkos értékek alatt marad; csak a nyilvános fele látható.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Ehhez a célhoz készült telepítési kulcs</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>A telepítési kulcs SSH-n keresztül jelentkezik be: módosítsa a git-címet SSH-címre (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Egy feladat folyamatban van, indította: %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Ennek a célnak egy feladata még folyamatban van (%detail). Várja meg, amíg befejeződik.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Ennek a célnak egy feladata még folyamatban van. Várja meg, amíg befejeződik.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>A /news/ oldalról az /about-us/team oldalra mutató hivatkozás így lesz kiírva:</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Új telepítési kulcs készült. Adja hozzá most a nyilvános felét a tárolóhoz.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Az az oldal, amely a tisztítás után is hibakeresési kimenetet, űrlaptokent vagy munkamenet-azonosítót tartalmaz, soha nem kerül közzétételre.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>A visszavonás szakértőknek való: jelölje be a „Tudom, mit változtat ez” lehetőséget, és írja be újra a címke nevét.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Egy webhely legfeljebb %site, egy fájl legfeljebb %file méretű lehet, havonta nagyjából 100 GB forgalommal. Ingyenes csomagban a tárolónak nyilvánosnak kell lennie. A GitHub Pages nem webáruházaknak vagy más kereskedelmi tranzakcióknak készült.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Egy cél egy webhely, amely egy git-tárolóba kerül közzétételre. Itt semmi sem készül el és semmi sem kerül közzétételre: a Mentés a beállításokat a settings/override/staticcache.ini.append.php fájlba írja.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Egy cél egy webhely, amely egy helyre kerül közzétételre, például a nyilvános webhelye a GitHub Pages szolgáltatáson.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token a Rendszer &gt; Titkos értékek közül</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>A tároló egy munkafolyamata teszi közzé.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Adja hozzá ezt a nyilvános kulcsot írási joggal a tárolóhoz. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, jelölje be az Allow write access lehetőséget.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Hozzáadva</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Más git-tárhely</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Egy másik folyamat dolgozik ezen a célon: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Vissza</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Alapútvonal</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Előtte</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Egy alapútvonal alatt</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Ág</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Hibás hivatkozások</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Hibás hivatkozások az összeállításban</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Összeállítás</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Összeállítás %id, készítette: %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name összeállítása</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Összeállítás most</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Ellenőrzendő összeállítás</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Indította</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Kézzel, itt</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Mégse</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Módosítás</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Módosítva</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Változások</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Előbb ellenőrizze</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Ellenőrizze ezeket a beállításokat</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Ellenőrizze, mit változtat az összeállítás, nézze meg, majd tegye közzé vagy vesse el.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Válassza ki a közzétételt, amelyre vissza szeretne térni.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Egy későbbi kiadásban érkezik.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Véglegesítés</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Véglegesítések</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Véglegesíti az összeállítást, címkével látja el és feltölti ide: %remote. A feltöltés soha nem kényszerített; később bármely közzétételre visszatérhet.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>A mappa korábbi állapotához képest: %added hozzáadva, %changed módosítva, %removed eltávolítva, %unchanged változatlan.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Az utolsó közzétételhez képest.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Hitelesítés</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Egyéni domain</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>A hibakeresési kimenet, az űrlaptokenek, a munkamenet-azonosítók és a nonce-ok mindig eltávolításra kerülnek.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Telepítési kulcs</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name telepítési kulcsa</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Elvetés</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Az összeállítás elvetése</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domainnév</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Üres: a webhely címe. Egyébként ugyanannak a webhelynek egy belső címe.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Befejezve</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Minden hivatkozás az alapútvonallal kezdődik.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Minden közzététel egy véglegesítés static/%id/&lt;n&gt; címkével. A visszatérés új véglegesítést készít egy korábbi közzététel fájljaival: az előzmények megmaradnak, egyetlen címke sem mozdul el, és semmi sem kényszerített.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Kiegészítők</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Az oldalak letöltése innen</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fájl</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fájlok</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Hiányzó fájlok</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Fájlok innen:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Fájlok, amelyeket nem sikerült összegyűjteni</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Ujjlenyomat</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Mappa</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH-címhez. A kulcs a mentés után készül el; a nyilvános felét Ön adja hozzá a tárolóhoz.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// címhez. GitHub: finomhangolt (fine-grained) token Contents olvasási és írási joggal a tárolón.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Szakértőknek. A nyilvános webhely azonnal megváltozik, amint a feltöltés lezajlott.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Űrlapok</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Ingyenes tárhely egy GitHub-tárolóból.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Az ágból</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-cím</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>A GitHub Pages legfeljebb %site méretű webhelyet és %file méretű fájlt enged meg.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>A GitHub Pages korlátai</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>A GitHub Pages a fájlokat változatlanul teszi közzé (a _ karakterrel kezdődő fájlokhoz szükséges).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>A GitHub az ágat úgy szolgálja ki, ahogy fel lett töltve. Ez az alapértelmezés.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, saját szerver: bármely git-tároló.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Visszatérés egy korábbi közzétételre</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Súgó</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Súgó a varázslóhoz</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Elrejtés</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Előzmények</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name előzményei</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Tárhely</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Hogyan kapja meg a GitHub Pages az összeállítást</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Ellenőriztem a változásokat</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Tudom, mit változtat ez</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Azonosító</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Ki van kapcsolva: amíg nincs bekapcsolva, semmi sem állítható össze.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>A háttérben fut %user nevében; ezt az oldalt bezárhatja.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Feladat: %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>%secret titkos értékként tárolva.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Típus</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Utolsó közzététel</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Ezek az oldalak kimaradnak</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Ezek a szekciók kimaradnak</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Hivatkozások</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Átírt hivatkozások</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Élő webhely</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Az összeállítás megtekintése</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Kisbetűk, számjegyek, _ és -, például github-public. Ez adja a mappa és a címkék nevét (static/&lt;id&gt;/&lt;n&gt;), és később nem módosítható.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Új kulcs készítése</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Cél létrehozása</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>A kulcs elkészítése</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Előbb hozza létre a tárolót a tárhelyen; egy üres is megfelel.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Jegyzék</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Üzenet</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>A legtöbb oldal</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Név</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>A token neve a Rendszer &gt; Titkos értékek alatt</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Új cél</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Tovább</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nem</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Még nincs véglegesítés.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Nem készült kulcs: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nem található php parancssori program. Állítsa be a migration.ini [AdminSettings] PhpCliPath értékét a teljes elérési útjára.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Még nincs címke.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Még nincs cél.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nincs</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Nincs az összeállításban.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Még semmi sem került közzétételre.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Még semmi sem került közzétételre: minden fájl új.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Értesítés</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ütemezetten</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>A konzolon</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>A szerveren: a ./console exp:static:serve %id ugyanígy szolgálja ki.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Soronként egy útvonal, a * bármely részre illeszkedik: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>A céllal csak egy név van tárolva; maga a token vagy kulcs a Rendszer &gt; Titkos értékek alatt marad, és soha nem jelenik meg naplóban.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Csak amit az oldalak megneveznek</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Csak tokennel. Az env:NAME helyette a szerver egy környezeti változóját olvassa.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Az előnézet megnyitása</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Megnyitja az összeállítást úgy, ahogy a tárhely ki fogja szolgálni, a cél mappájából. A hivatkozás egy óráig működik az Ön számára.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Nem kötelező. Üres: ami közzé lett téve.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Nem kötelező. Domainnel a webhely annak gyökerében érhető el.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Kimenet</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Oldalak</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>A cél oldalai</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Elutasított oldalak</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Utófeldolgozás</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Előnézet</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Előnézet és közzététel</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name előnézete és közzététele</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Az összeállítás előnézete</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Haladás</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Nyilvános cím</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Nyilvános kulcs</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Közzététel</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Egy webhely statikus másolatának közzététele a GitHub Pages szolgáltatáson vagy bármely git-tárhelyen: állítsa össze, ellenőrizze a változásokat, tegye közzé, és szükség esetén térjen vissza egy korábbi közzétételre.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Közzététel, amelyre visszatér</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Közzétételek</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Feltöltés</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Az útmutató elolvasása</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Bejegyzés</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Elutasítva</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relatív</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Újratöltés</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Eltávolítva</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>A kulcs cseréje: a régi nem működik tovább</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Jelentés</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Az összeállítás jelentése</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Tároló</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Áttekintés</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Az áttekintés minden beállítást ellenőriz, és megmutatja a kiírandó sorokat. Még semmi sincs mentve.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Visszavonás</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Visszavonás</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Mentés</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Ütemezés</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Keresőoldal</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Szekcióazonosítók, vesszővel elválasztva.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Átirányítás az élő webhelyre</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Beállítás</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Beállítások</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name beállításai</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Rendszer</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Rendszer &gt; Titkos értékek</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Listákban jelenik meg, például „Nyilvános webhely a GitHub Pages szolgáltatáson”.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>A GitHub App segítségével történő bejelentkezés a GitHub-integrációval érkezik.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Webhely</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Közzéteendő webhely</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Méret</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Méret és korlátok</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Az összeállítás mérete</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Elavult oldalak</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Indítva</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Indította: %user, időpont: %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Állapot</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statikus közzététel</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>A statikus közzététel ki van kapcsolva</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>A statikus közzététel ki van kapcsolva.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>A statikus közzététel ki van kapcsolva. Előbb kapcsolja be itt: Rendszer &gt; Statikus közzététel.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>A statikus közzététel be van kapcsolva.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%step. lépés (összesen %total)</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Lépések</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Tisztítás</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Kikapcsolás</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Bekapcsolás</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>A statikus közzététel bekapcsolása</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Címke</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Címkék</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Cél</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Célok létrehozhatók és módosíthatók, de amíg nincs bekapcsolva, semmi sem kerül összeállításra vagy közzétételre.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Megmondja a keresőmotoroknak, mit olvassanak.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Az összeállítást nem sikerült elvetni: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Az összeállítás megegyezik az utolsó közzététellel: nincs mit közzétenni.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Az összeállítás elvetve: a mappa ismét az utolsó közzétételt tartalmazza.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Az alapértelmezések a legtöbb webhelynek megfelelnek.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>A mappa egy még közzé nem tett összeállítást tartalmaz; egy új összeállítás felváltja.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>A feladatok mappája nem írható: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>A feladatot nem sikerült előkészíteni: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>A feladatot nem sikerült elindítani.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>A feladat befejeződött. A jelentés betöltése folyamatban.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>A feladathoz bejelentkezett felhasználó szükséges.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>A feladat elindult, de nem jelentette a folyamatazonosítóját. Ellenőrizze: %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>A kulcs</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>A legnagyobb fájl: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>A kiírandó sorok</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Az oldalak listája a keresőmotorok számára; a nyilvános cím szükséges hozzá.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Az oldalak letöltése úgy történik, ahogy egy be nem jelentkezett látogató látja őket. Adminisztrációs és szerkesztői siteaccessek soha nem kerülnek felajánlásra.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>A haladás nem követhető. Töltse újra az oldalt, hogy lássa, hol tart a feladat.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>A kulcs nyilvános fele:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Az ág gyökere</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>A titkos értékek tárolója még nincs beállítva (a ./console exp:upgrade --apply létrehozza a tábláját), így kulcs nem tárolható.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>A szerver magától jelentkezik be (saját SSH-kulcsával vagy hitelesítési segédprogrammal), vagy a tároló ezen a szerveren van.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>A beállítást nem sikerült kiírni: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>A beállítások érvényesek. A következő sorok lesznek kiírva:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>A beállításfájl nem olvasható: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>A webhely visszatér annak a közzétételnek a fájljaihoz; egy még közzé nem tett összeállítást előbb közzé kell tenni vagy el kell vetni.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>A webhely saját oldala a nem létező címekhez.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>A célt nem sikerült menteni: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>A cél még nem ezzel a kulccsal jelentkezik be: válassza az „Ehhez a célhoz készült telepítési kulcs” lehetőséget a beállításaiban.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>A célok nem olvashatók be: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Még nincs ellenőrzendő összeállítás.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Ennek a telepítésnek nincs nyilvános siteaccesse. Adminisztrációs és szerkesztői siteaccessek soha nem kerülnek közzétételre.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Ez az oldal követi a feladat haladását; az oldal bezárásakor a feladat a háttérben folytatódik.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Ennek a célnak még nincs telepítési kulcsa.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Ez a cél itt még nem lett összeállítva.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Ennek a célnak van ilyen.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Elveti ezt az összeállítást: a mappa ismét az utolsó közzétételt tartalmazza. Az élő webhely nem változik.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Előbb jelölje be az „Ellenőriztem a változásokat” lehetőséget.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Időtartam</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Eseményindítók</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Írja be újra a címke nevét</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Változatlan</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Mi</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Mi változik</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Mi az egyes fájlok szerepe; mindig kiírásra kerül.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Mit végzett a feladat, és annak bejegyzése. Az itt indított feladat az oldal bezárásakor a háttérben folytatódik.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Amit a feladat hibaként kiírt</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Amit az oldalak megneveznek, valamint a közzétett tartalom minden képe</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Mikor</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Ha egy közzététel sikertelen</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Ha egy közzététel sikeres</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Amikor tartalom kerül közzétételre</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Hová mutassanak a hivatkozások arra, ami nincs a másolatban (keresés, bejelentkezés).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Honnan szolgálják ki a statikus másolatot.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Melyik webhely kerül közzétételre, és mi a cél neve.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Bármely útvonal alatt működik. Ez az alapértelmezés.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Mindig kiírásra kerül, ha egyéni domain van beállítva.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Igen</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Itt és a konzolon mindig kézzel is összeállíthat és közzétehet.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>csak egy név; az érték a Rendszer &gt; Titkos értékek alatt marad</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path alatt</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>jelentés nélkül ért véget</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>kiegészítő</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>sikertelen</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fájl</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, vagy main a docs mappával.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-tárhely</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (tokennel) vagy git@github.com:owner/repo.git (telepítési kulccsal); soha ne legyen benne jelszó vagy token.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, az oldaltérképhez és a kanonikus hivatkozásokhoz.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>kép</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>soha</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nem</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>nincs távoli tároló</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>nincs: a véglegesítések a mappában maradnak</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>nincs: semmi sem változott</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>nincs feltöltve</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>semmi sem változott</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>oldal</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>sikeres</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>A proc_open le van tiltva, így itt nem indítható feladat. Használja a szerveren a ./console exp:static:build parancsot.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>közzététel</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>közzétéve</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>feltöltésre vár</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>feltöltve</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>elutasítva</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relatív</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>visszavonás</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>visszagörgetve</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>fut</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>csak a mappa</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: a CNAME fájlba kerül. Irányítsa a domain DNS-ét a tárhelyre a tárhely leírása szerint; a HTTPS elindulása eltarthat egy ideig.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>igen, még nincs közzétéve</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Egy GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>A tároló egy munkafolyamata teszi közzé. Az összeállítás megírja a munkafolyamat-fájlt; hagyja üresen a mappát.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Ha a célt GitHub-tárolóval és tokennel vagy GitHub App-pal mentette, ez a lépés létre tudja hozni a tárolót és be tudja kapcsolni a GitHub Pages szolgáltatást. Ellenkező esetben előbb hozza létre a tárolót a GitHubon; egy üres is megfelel.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Ág vagy GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS ellenőrzése</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>A tároló létrehozása, ha nem létezik</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Hozza létre a tárolót a GitHubon, és kapcsolja be a GitHub Pages szolgáltatást a beállításaiban (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Létrehozza a(z) %repo tárolót, ha hiányzik (kérésre), a mentett beállítás szerint bekapcsolja a GitHub Pages szolgáltatást az ágból vagy a GitHub Actionsből, és beállítja az egyéni domaint és a HTTPS-t. A mentett beállításokat használja: előbb mentse a módosításokat.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Részletek a GitHubon</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Előbb adja meg az egyéni domaint.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Minden push először ezekkel a korlátokkal lesz összevetve.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHubon lévő https:// címhez. Az ehhez a telepítéshez beállított App jelentkezik be; ehhez kell a telepítés azonosítója.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>A GitHub Pages privát tárolót csak fizetős csomagban szolgál ki.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: egy aldomainhez (www.example.com) CNAME-rekord kell a(z) &lt;owner&gt;.github.io címre; egy fődomainhez (example.com) a(z) %ips A-rekordok.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>A GitHub App telepítési azonosítója</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Utolsó Pages-összeállítás</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Korlátok és feltételek</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Ingyenes csomagban szükséges a GitHub Pages használatához.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>A GitHubon</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Csak GitHub App esetén: az App GitHubon lévő telepítése címének végén álló szám. Magát az Appot a staticcache.ini állítja be (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privát</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Nyilvános</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Előbb mentse a célt GitHub-tárolóval és tokennel vagy GitHub App-pal.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Állítsa be ezeket a rekordokat a domain szolgáltatójánál:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Beállítás a GitHubon</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>A(z) %domain DNS-e még nem mutat a GitHub Pagesre.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>A(z) %domain DNS-e a GitHub Pagesre mutat.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>A GitHub-integráció itt nem érhető el: %problem. Az ágba való közzététel ettől még működik; kapcsolja be a GitHub Pages szolgáltatást a tároló beállításaiban.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>A GitHub-lépések nem érhetők el ehhez a célhoz: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>A GitHub Pages állapota akkor látható, ha a hitelesítés token vagy GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Saját domain használata</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Melyiket válassza: token, telepítési kulcs vagy GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub-tárolóval és tokennel vagy GitHub App-pal a varázsló létre tudja hozni a tárolót, be tudja kapcsolni a GitHub Pages szolgáltatást, és be tudja állítani a domaint Ön helyett (4. lépés).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>összeállítás alatt</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>összeállítva</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actionsből</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>a(z) %branch ágból</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>még nincs</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>nem található</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>kikapcsolva</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privát</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>nyilvános</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>sorban áll</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ismeretlen</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages oldalból %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Minden szövegfájl mellett egy .gz (és .br), az ezeket kiszolgáló tárhelyekhez.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Egy kis oldal egy oldal minden régi címéhez és álnevéhez, hogy a régi hivatkozások továbbra is működjenek.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Mindig megírásra kerül, amikor a GitHub Actions kézbesíti a webhelyet.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX-azonosító, például CC-BY-4.0, vagy maga a szöveg.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Kosár</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Hívások a szerverhez</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Megjegyzések</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Információt gyűjtő űrlapok</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions munkafolyamat</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Kevesebb szóköz és nincsenek megjegyzések az oldalakban.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>A tartalom licence</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Bejelentkezés</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minimalizálás</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Egyéb űrlapok</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Előtömörítés</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Átirányítóoldalak</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Átirányítóoldalak: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Keresés</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Keresési index: %pages oldal %languages nyelven.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>A tartalmuk hash-e alapján elnevezett stíluslapok és szkriptek, hogy a böngészők megtarthassák őket.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>A módosított oldalak, néhány perccel az utolsó módosítás után (a cronjob staticpublish része).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>A tartalom licence, az alábbi mezőből.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>A teljes webhely, az ütemezés időpontjaiban (a cronjob staticpublish része).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Az oldalak ezen részeihez szerver kell; mindegyik kapott egy tartalékot. Ellenőrizze őket közzététel előtt.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ami statikusan nem működik</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Mi a tároló, annak, aki a tárhelyen megnyitja.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>kihagyva</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>a tartalék szöveg</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>az élő webhely űrlapvégpontja</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>az élő webhely</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>a másolat keresőoldala</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Az űrlapot nem sikerült elküldeni.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Köszönjük: az űrlap elküldve.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Az űrlap nem lett elfogadva: ellenőrizze a megadottakat, és küldje el újra.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>A másolatban nem szereplő oldalakra mutató hivatkozások eltávolítása</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Az adminisztrációba mutató hivatkozások eltávolítása</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>A szövegük megmarad. A képek, űrlapok és más webhelyekre mutató hivatkozások soha nem kerülnek eltávolításra.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verzió</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Közzéteendő webhely-hozzáférések</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Webhely-hozzáférés</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>A gyökérben</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Nincs webhely-hozzáférés a gyökérben: mindegyik a saját mappájában van, a gyökér pedig hivatkozik rájuk</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Webhely-hozzáférések</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Jelöljön be egy webhely-hozzáférést, vagy többet, amelyek URI-előtagjuk révén egy kiszolgálón osztoznak. A gyökérben lévőt ott szolgálja ki, a többit előtagjuk mappájában (/ger/); a köztük lévő hivatkozások a másolatban maradnak. Adminisztrációs hozzáférések soha nem jelennek meg.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>A(z) %target statikus közzététele sikertelen volt itt: %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>A(z) %target statikus közzététele sikeres volt itt: %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Ezt a levelet a(z) %site küldte, mert a(z) %target statikus közzétételi cél kéri.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>A(z) %deploy kihelyezés sikertelen volt itt: %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>A(z) %deploy kihelyezés egy kapunál várakozik itt: %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>A(z) %deploy kihelyezés sikeres volt itt: %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Ezt a levelet a(z) %site küldte, mert a migration.ini [RemoteSettings] Notify[] ezt kéri.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Adattípusok (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Megszámolva: %time, újra %minutes perc múlva</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Egy adattípus egy osztályattribútum egyféle értékét tárolja és szerkeszti: egy szövegsort, egy képet, egy kapcsolatot. A legtöbbet a kernel adja, a bővítmények továbbiakat adnak hozzá. Itt látható mindegyik, ki biztosítja őket, és a tartalom mekkora része használja őket. Az az adattípus, amelyet az adatbázis használ, de már semmi sem regisztrál, tönkreteszi az azt tartalmazó tartalmat.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Osztálycsoportok</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Újraszámolás most az elmúlt percek számai helyett.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Újraszámolás</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Áttekintés</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Regisztrálva</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Használatban</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Nincs használatban</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Adattípusokat biztosító bővítmények</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Osztályattribútumok</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objektumattribútumok</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Nincs regisztrálva</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Felsorolva, a fájl hiányzik</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count adattípus használatban van, de nincs regisztrálva</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes osztályattribútum és %object_attributes objektumattribútum olyan adattípusú, amelyet egyetlen bővítmény vagy beállítás sem regisztrál. Az objektumaik nem jeleníthetők meg, nem szerkeszthetők és nem tehetők közzé. Aktiválja az adattípust biztosító bővítményt, vagy módosítsa az osztályt.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Csak ezek megjelenítése</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Adattípus keresése</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Azonosító, név, PHP-osztály vagy bővítmény.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Megjelenítés</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Összes</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Biztosítja</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Mindenki</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Egyetlen adattípus sem felel meg ennek a szűrőnek.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Az összes megjelenítése</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Bővítmény</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown / %count adattípus, %used használatban</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Az adatbázisban vannak ilyen adattípusú osztály- vagy objektumattribútumok, de a content.ini egyiket sem sorolja fel, vagy a fájljuk hiányzik.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider adattípusai</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Adattípus</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-osztály és fájl</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Osztályok</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objektumok</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Jelzők</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nincs</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Egyetlen adattípus sem felel meg a keresésnek. Törölje a keresést.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown / %count adattípus látható</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Megjelenített adattípusok: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Rendezés ez alapján: %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Megszámolva: %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Minden adattípus</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Súgóoldal</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Ez az adattípus használatban van, de nincs regisztrálva</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Az alábbi osztályok objektumai nem jeleníthetők meg, nem szerkeszthetők és nem tehetők közzé, amíg egyetlen bővítmény sem regisztrálja az adattípust. Aktiválja az azt biztosító bővítményt, és vegye fel a content.ini [DataTypeSettings] AvailableDataTypes[] listájába, vagy módosítsa az osztályokat.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>A content.ini felsorolja ezt az adattípust, de egyik adattípus-könyvtárban sincs meg a fájlja. Semmi sem használja; távolítsa el az AvailableDataTypes[] listából, vagy aktiválja a bővítményét.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Az adattípusról</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Azonosító</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Név</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Bővítmény: %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>senki</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-osztály</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fájl</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Az AvailableDataTypes[] listában</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>igen</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nem</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Az értékének oszlopai</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Az osztályattribútum-beállításainak oszlopai</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Táblák</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Az oszlopokat és táblákat az adattípus kódjának beolvasásával találjuk meg: tájékoztatás, nem garancia.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Sablonok</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Webhely-hozzáférés</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Sablon</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Hely</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ez az adminisztráció</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>alapértelmezett webhely</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Felülírások nélkül: az osztály vagy attribútum alapján illeszkedő felülíró sablon elsőbbséget élvez ezekkel szemben.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Ezt használó osztályok (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Egyetlen osztálynak sincs ilyen adattípusú attribútuma.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Osztály</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Attribútumok</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Osztályattribútumok (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attribútum</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Beállítások</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Azonosító: %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Kötelező</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Kereshető</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Fordítható</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Információt gyűjt</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Néhány ezt használó tartalom</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Legutóbb módosított elöl</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Módosítva</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Csomópont: %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Minden fordításnak saját értéke van.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>A keresés indexeli az értékeit.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Információt gyűjthet a látogatóktól (űrlapok).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>A listák rendezhetők szerinte: rendezési kulcs %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Rendezhető</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Az értékei más objektumokra mutatnak.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Kapcsolatok</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Kitölthető egyszerű karakterláncból (importálás, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Szövegből</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Kitölthető fájlból.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Fájlból</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Az osztályattribútum-beállításai bekerülnek a csomagokba.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Csomagok</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Tartalom (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to / %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>A lista szűrése</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Az összes osztály</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Szakasz</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Nyelvek</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Tulajdonos</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Közzétéve</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Sorrend megfordítása</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nincs elem</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Oldalanként</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>%count elem megjelenítése oldalanként.</translation>
     </message>
 </context>
 </TS>

@@ -6,13 +6,15 @@
  *     which counted as an entry of its own in error.log, warning.log and notice.log)
  *   - a debug message after a timing point still has it before it in debug.log
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group lib
  * @group ezutils
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezutils')]
 class eZDebugTimingPointLogTest extends PHPUnit\Framework\TestCase
 {
     const GLOBAL_KEYS = array( 'eZDebugGlobalInstance', 'eZDebugEnabled', 'eZDebugLogOnly', 'eZDebugAlwaysLog', 'eZDebugLogFileEnabled',

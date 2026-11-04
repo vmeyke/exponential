@@ -2,7 +2,7 @@
 /**
  * File containing the ezpKernelWeb class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -135,6 +135,12 @@ class ezpKernelWeb implements ezpWebBasedKernelHandler
         if ( !class_exists( 'expKernelServiceScope' ) )
             require_once __DIR__ . '/../../classes/expkernelservicescope.php';
         expKernelServiceScope::resetRequest();
+
+        // The debug bar's full-render switch, the view parameter (exp_render)/full: taken out of the address before
+        // anything reads it, so no URL alias, view parameter, cache key or link ever sees it (expRenderSwitch).
+        if ( !class_exists( 'expRenderSwitch' ) )
+            require_once __DIR__ . '/httpcache/exprenderswitch.php';
+        expRenderSwitch::apply();
 
         if ( isset( $settings['injected-settings'] ) )
         {
@@ -346,8 +352,17 @@ class ezpKernelWeb implements ezpWebBasedKernelHandler
                 {
                     // The site's own error page, with a reference that is
                     // also written to the error log beside the fatal error.
-                    $reference = eZExecution::errorReference();
                     $last = error_get_last();
+                    // The browser went away (a closed tab during a server-sent event stream or a long
+                    // download) and PHP ended the script there: nothing failed, and there is nobody left
+                    // to show an error page to. Only a notice, no "Fatal error" line without a cause.
+                    $fatal = E_ERROR | E_PARSE | E_CORE_ERROR | E_COMPILE_ERROR | E_USER_ERROR | E_RECOVERABLE_ERROR;
+                    if ( connection_aborted() && !( $last && ( $last['type'] & $fatal ) ) )
+                    {
+                        eZDebug::writeNotice( 'The client closed the connection before the request ended', 'ezpKernelWeb' );
+                        return;
+                    }
+                    $reference = eZExecution::errorReference();
                     eZLog::write( 'Fatal error ' . $reference . ( $last ? ': ' . $last['message'] . ' in ' . $last['file'] . ' on line ' . $last['line'] : '' ), 'error.log' );
                     eZExecution::renderErrorPage( 500, $reference,
                         ( eZDebug::isDebugEnabled() && $last ) ? $last['message'] . ' in ' . $last['file'] . ' on line ' . $last['line'] : '' );
@@ -497,6 +512,10 @@ class ezpKernelWeb implements ezpWebBasedKernelHandler
         }
         catch ( Throwable $e )
         {
+            // What the module left open when it threw is rolled back: never committed later, and the cleanup
+            // handlers of shutdown() (the session) do not write inside it
+            if ( class_exists( 'eZDB' ) )
+                eZDB::rollbackOpenTransaction( 'the request ended with ' . get_class( $e ) . ': ' . $e->getMessage() );
             if ( $e instanceof Exception )
                 $this->shutdown();
             // Close our buffer (a persistent worker never ends the request to do it); flushed,
@@ -1034,6 +1053,11 @@ class ezpKernelWeb implements ezpWebBasedKernelHandler
                         // siteaccess ([PasswordChangeRequiredSettings] ExemptViews[] stay open)
                         if ( $moduleResult === null && class_exists( 'expPasswordChangeRequired' ) )
                             $moduleResult = expPasswordChangeRequired::moduleResult( $this->module, $functionName );
+
+                        // The passkey policy ([PasskeySettings] Policy, doc/eng-us/guides/passkeys.md): an account that
+                        // must have a passkey adds one first; "preferred" suggests it once per session
+                        if ( $moduleResult === null && class_exists( 'expPasskeyPolicy' ) )
+                            $moduleResult = expPasskeyPolicy::moduleResult( $this->module, $functionName );
 
                         // "Verify it's you" before a sensitive action ([ReauthSettings]; doc/eng-us/guides/verify-its-you.md):
                         // only here, on the web pages, never on REST, SOAP, WebDAV or the command line
@@ -1829,6 +1853,11 @@ class ezpKernelWeb implements ezpWebBasedKernelHandler
          * @uses eZUser::instance() So needs to be executed after eZSession::start()|lazyStart()
          */
         eZDebug::checkDebugByUser();
+
+        // without debug output: the statistics of this request for a user of site.ini [DebugSettings]
+        // CollectStatsPolicyList[] (a worker that loaded an older expRenderStats has no such method)
+        if ( class_exists( 'expRenderStats' ) && method_exists( 'expRenderStats', 'checkCollectByPolicy' ) )
+            expRenderStats::checkCollectByPolicy();
     }
 
     /**

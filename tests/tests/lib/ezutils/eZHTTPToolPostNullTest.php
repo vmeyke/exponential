@@ -3,7 +3,7 @@
  * eZHTTPTool with $_POST set to null, the case of LoveStack (mugoweb/ezpublish-legacy) commit 75cbb1daa2:
  * array_keys( null ) is a TypeError from PHP 8, so the first eZHTTPTool::instance() of a request ended it.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group lib
@@ -11,6 +11,9 @@
  * @group php8
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezutils')]
+#[\PHPUnit\Framework\Attributes\Group('php8')]
 class eZHTTPToolPostNullTest extends PHPUnit\Framework\TestCase
 {
     private $savedPost;

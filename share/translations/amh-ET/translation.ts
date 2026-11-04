@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>የሚፈለገው ይህ ገጽ ብቻ ነው፦ ከ%count ውስጥ ከ%from እስከ %to።</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>የkernel እና የቅጥያዎቹ እያንዳንዱ የውሂብ ዓይነት፣ እና ክፍሎቹ እና ይዘቱ እንዴት እንደሚጠቀሙበት።</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>የውሂብ ዓይነቶች</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>የስርዓት ገጾችም በዕልባት ሊያዙ ይችላሉ፦ ገጹን ይክፈቱ (ዝግጅት፣ የኦዲት መዝገብ፣ የተጠቃሚዎች ዝርዝር ...) እና ከላዩ «ይህን ገጽ በዕልባት ያዝ»ን ይምረጡ። እንደዚህ ያሉ ዕልባቶች የማርሽ አዶ አላቸው።</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>ይህን ገጽ ከአሁን በኋላ እዚህ መክፈት አይችሉም። ዕልባቱን ያስወግዱ፣ ወይም አስተዳዳሪን መዳረሻ ይጠይቁ።</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>ወደ መጀመሪያው ገጽ ሂድ</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>ሌላ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>ባለፉት 7 ቀናት</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>ብጁ የጊዜ ክልል</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>ሁሉም ቃላት</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ማንኛውም ቃል</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ትክክለኛ ሐረግ</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>ተገቢነት</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>ስም A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>ስም Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>የተሻሻለ፣ አዲሱ መጀመሪያ</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>የተሻሻለ፣ የቆየው መጀመሪያ</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>የታተመ፣ አዲሱ መጀመሪያ</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>የታተመ፣ የቆየው መጀመሪያ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>የተሻሻለ</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>ማጣሪያዎች</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>ማጣሪያዎችን አሳይ</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>ማጣሪያዎችን ደብቅ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>እንደገና አስጀምር</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>ተግብር</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>ቃላት</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>የይዘት አይነት</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>ተጨማሪ አሳይ (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>ከባህሪያቱ በአንዱ ውስጥ ለመፈለግ አንድ የይዘት አይነት ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ክፍል</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ከ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>እስከ</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>የመጀመሪያው ቀን ትክክለኛ ቀን አይደለም።</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>የመጨረሻው ቀን ትክክለኛ ቀን አይደለም።</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ባለቤት</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>የተጠቃሚ መለያ፣ የመግቢያ ስም ወይም የኢሜይል አድራሻ።</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>ለ«%input» ምንም ተጠቃሚ አልተገኘም።</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ቋንቋ</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>ማንኛውም ቋንቋ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>አካባቢ</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count አካባቢዎች</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>ውጤቶች በገጽ</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>ለ«%text» ውጤቶች (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ውጤቶች (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>ደርድር በ</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>ደርድር</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>ንቁ ማጣሪያዎች</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>ይህን ማጣሪያ አስወግድ</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>ወይም ማጣሪያዎችን ይምረጡ እና የሚዛመደውን ይዘት ለመዘርዘር ይተግብሯቸው።</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>ቃላትን ከተየቡ በኋላ ማጣሪያዎቹ ፍለጋውን ያጠባሉ።</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>ለ«%text» ምንም ውጤት አልተገኘም።</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ምንም ውጤት አልተገኘም።</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>ከላይ ያለ አንድ ማጣሪያ ያስወግዱ።</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ትርጉሞች</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>እርምጃዎች</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name አርትዕ</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>አርትዕ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>ዝግጅት &gt; Cronjobs</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>እስካሁን ምንም የክሮን ሥራ (cronjob) ክፍል አልሄደም፦ የሥራ ወረፋው፣ ማስመጣቶቹ፣ ማሳወቂያዎቹ እና የፍለጋ ማውጫው በመጠበቅ ላይ ናቸው። php bin/php/installcrontab.php --add --apply ያሂዱ፣ ወይም የ --show መስመሮችን ወደ crontab ያክሉ።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>የዋናዎቹ ደራሲዎች እና ከExponential ጋር የተካተቱ የሶስተኛ ወገን ሶፍትዌሮች የቅጂ መብት ማሳሰቢያዎች ፈቃዱ እንደሚጠይቀው በምንጭ ፋይሎች እና በLICENSE ፋይል ውስጥ ተጠብቀዋል።</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>የሚከተለው ሥራቸውን በeZ Systems የአስተዋጽዖ አድራጊዎች ፈቃድ ስምምነት ውሎች እና ሁኔታዎች መሠረት ለ7x አጠቃቀም ፈቃድ የሰጡ የExponential አስተዋጽዖ አድራጊዎች ዝርዝር ነው። ይህ ስምምነት በሚፈቅደው መሠረት፣ 7x እያንዳንዱን አስተዋጽዖ አስተዋጽዖው በተካተተበት ፋይል ፈቃድ ሥር እንደገና ያሰራጫል። ዝርዝሩ እያንዳንዱን አስተዋጽዖ አድራጊ፣ አማራጭ የመገኛ መረጃ እና ያበረከቱትን ወይም ሥራ ያበረከቱባቸውን ፋይሎች ይጠቅሳል።</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>ለ Exponential እና ከተገኘበት ሶፍትዌር ላበረከቱት ሥራ የሚመሰገኑ አስተዋጽዖ አበርካቾች፣ ካበረከቱባቸው ፋይሎች ጋር። ይህ ምስጋና ነው እንጂ የቅጂ መብት ማሳወቂያ አይደለም፤ ለ Exponential የሚደረጉ አስተዋጽዖዎች በ Contributor Licensing Agreement መሠረት ለ Exponential Foundation እና ለ 7x ይተላለፋሉ።</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition ይገምግሙ&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;የExponential ማኅበረሰብ አባል ይሁኑ፣ ይለዋወጡ እና ያበርክቱ&lt;/a&gt;። &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; የቅጂ መብት &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; እና ሌሎች።</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>በ&lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt; የተሰራ። ለተጨማሪ መረጃ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ይመልከቱ።</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; የቅጂ መብት &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; እና ሌሎች።</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> ለተጨማሪ መረጃ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ይመልከቱ።</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; የቅጂ መብት &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; እና ሌሎች።</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential (ከ7x) ይገምግሙ&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;የExponential ማኅበረሰብ አባል ይሁኑ፣ ድጋፍ ያግኙ እና ያበርክቱ&lt;/a&gt;።</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; የቅጂ መብት &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; እና ሌሎች።</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>የእገዛ ማዕከል</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>ይዘት</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>የሰነድ ገጾች</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>ተጠቃሚዎች</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>የይዘት ክፍሎች</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>አስተዳደር</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>ገጽ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>ሁሉንም ውጤቶች ይመልከቱ</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count ውጤቶች</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>አንድ ውጤት</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count ጥቆማዎች</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>ምንም ጥቆማ የለም</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>ጥቆማዎቹን መጫን አልተቻለም።</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>ጥቆማዎች</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ይህ ጭነት ይፋዊ የሙከራ ማሳያ ነው፤ ማንኛውም ሰው የአስተዳዳሪውን የይለፍ ቃል ሊያውቅ ይችላል፣ እንዲሁም የአስተዳዳሪ የይለፍ ቃሎች ሊቀየሩ ወይም ዳግም ሊቀናበሩ አይችሉም። እዚህ ምንም የግል መረጃ አያስገቡ።</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>መሣሪያዎችዎ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>የደህንነት እንቅስቃሴ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>መመሪያዎች፣ ፍለጋ እና ስህተትን እንዴት ሪፖርት እንደሚያደርጉ።</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>አዲስ ይዘት</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>አዲሱ ይዘት፣ ለግምገማ የተያዘው፣ እና በምርጫ ላይ ያሉ እርምጃዎች።</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>ማመሳሰያዎች</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API፦ መድረሻ ነጥቡ፣ መዋቅሩ እና ጥያቄዎችን የሚሞክሩበት መጫወቻ ቦታ።</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ፍልሰቶች</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>እንደ ፋይሎች የተቀመጡ የጭነቱ ለውጦች፦ ሁኔታቸው፣ አፈጻጸሞቹ፣ ማስኬድ እና መመለስ።</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>አዲስ ይዘት</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>አዲሱ ይዘት፣ ለግምገማ የተያዘው፣ እና በምርጫ ላይ ያሉ እርምጃዎች።</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>የጣቢያን የማይለዋወጥ ቅጂ ወደ GitHub Pages ወይም ወደ ማንኛውም የ git አስተናጋጅ ያትሙ።</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>የማይለዋወጥ ሕትመት</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>የውሂብ ዓይነቶች</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>የkernel እና የቅጥያዎቹ እያንዳንዱ የውሂብ ዓይነት፣ እና ክፍሎቹ እና ይዘቱ እንዴት እንደሚጠቀሙበት።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>ማንም የማይጠቀምባቸው ወይም ትኩረት የሚያስፈልጋቸው መለያዎች፤ ያሰናክሏቸው፣ ይክፈቱ ወይም ይላኳቸው።</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>የተጠቃሚ ኦዲት ምዝግብ</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ማን እንደቀየረ፣ እንደገባ ወይም ውድቅ እንደተደረገ በእያንዳንዱ መለያ፤ ማጣራት እና መላክ።</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>የመግቢያ ሪፖርት</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ማን እንደገባ፣ በየቀኑ የተደረጉ መግቢያዎች እና ውድቀቶች፤ ተጠቃሚን ከሁሉም ቦታ ያስወጡ።</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>ከ%n ሰዓታት በፊት</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>የGraphQL API የተቀመጡ መጠይቆች መልሶች፣ እና የመዋቅሩ የይዘት ክፍሎች።</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>የማይለዋወጥ ቅጂ ወደ GitHub Pages ወይም ወደ ማንኛውም የ git አስተናጋጅ ያትሙ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>የማይለዋወጥ ሕትመት</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>የማይለዋወጥ መሸጎጫው ገጾችን ከዚህ አገልጋይ ያቀርባል። የጣቢያን የማይለዋወጥ ቅጂ በሌላ ቦታ፣ በ GitHub Pages ወይም በማንኛውም የ git አስተናጋጅ ላይ ለማተም የማይለዋወጥ ሕትመትን ይጠቀሙ።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>የመጨረሻው ማጽዳት</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>ጽሑፎች የሁኔታውን መቆለፊያ መያዝ አልቻሉም (መጨረሻ %date)፦ እያንዳንዳቸው ሁሉንም የተሸጎጡ ውጤቶች ጊዜ ያለፈባቸው አድርገዋል። %file ጣቢያው በሚሠራበት በእያንዳንዱ ተጠቃሚ ሊጻፍበት የሚችል መሆን አለበት፤ በNFS ላይ NFSv4 ወይም lockd ያስፈልገዋል።</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>የPHP ማስተናገጃ ጊዜያቸው ያለፈ ክፍለ ጊዜዎች የሚወገዱት በPHP ራሱ (session.gc_maxlifetime) ነው፤ በዚህ ገጽ ወይም በsession_gc cronjob ክፍል አይደለም።</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>የሁሉም ተጠቃሚዎች የገቡ ክፍለ ጊዜዎች በመግቢያ ሪፖርቱ ላይ ይዘረዘራሉ፣ ይወጣሉም፤ ሪፖርቱ ከማንኛውም የክፍለ ጊዜ ተቆጣጣሪ ጋር ይሠራል።</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>የመግቢያ ሪፖርቱን ክፈት</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>እስካሁን የለም</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>የደህንነት እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>የቅርብ ጊዜ መግቢያዎችዎ፣ ያልተሳኩ ሙከራዎች እና በይለፍ ቃልዎ፣ በኢሜይል አድራሻዎ እና በባለሁለት ደረጃ መግቢያ ላይ የተደረጉ ለውጦች።</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>የዚህ መለያ የቅርብ ጊዜ መግቢያዎች፣ ያልተሳኩ ሙከራዎች እና የደህንነት ለውጦች።</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>እንቅስቃሴውን ገምግም</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>ያልተሳኩ መግቢያዎች፦ %count</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>ከገቡ በኋላ ተጠቃሚው ሌላ ማንኛውንም ነገር ከማድረጉ በፊት አዲስ የይለፍ ቃል መምረጥ አለበት። ለአንድ ሰው ጊዜያዊ የይለፍ ቃል ሲሰጡ ይህንን ይጠቀሙ።</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>ያለ ምስል ይምረጡ</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>የሚመርጡት ነገር የምስል ፋይል ወደዚህ መስክ ይቀዳል። ሌላኛው ነገር አይቀየርም።</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>የ«%name» ምስል ወደዚህ መስክ ተቀድቷል።</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>ምስል ያስሱ</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>ምስሎችን በስም ይፈልጉ</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ፈልግ</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>የ«%name»ን ምስል ይጠቀሙ</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ይህን ምስል ይጠቀሙ</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ከፍለጋዎ ጋር የሚዛመድ ምስል የለም።</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab አልተጻፈም (%reason)። እነዚህን መስመሮች ጣቢያው በሚሰራበት ተጠቃሚ crontab ውስጥ ያክሉ፣ አለበለዚያ ወረፋው፣ ማስመጣቶቹ፣ ማሳወቂያዎቹ እና የፍለጋ ማውጫው በጭራሽ አይሰሩም፦</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>ዳግም መጫን የሚደረገው በKickstarter (%file፣ ከዚያም php bin/php/kickstarter.php run --apply) ወይም በአዲስ ጭነት ነው።</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>የeZJSCore Public Packer መሸጎጫ</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL መሸጎጫ (መልሶች እና የመዋቅር ክፍሎች)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>የ%class_name ቅጂ</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>የውሂብ ዓይነቶች</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>የውሂብ ዓይነት %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>የSVG ምስሉን ማንበብ አልተቻለም፣ ወይም በውስጡ ያለ ምንም ነገር በደህንነት ሊታይ አይችልም።</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>ምስሉን መቅዳት አልተቻለም። እባክዎ እንደገና ይሞክሩ ወይም የጣቢያውን አስተዳዳሪ ያነጋግሩ።</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>የተመረጠው ነገር የለም ወይም እንዲያነቡት አልተፈቀደልዎትም።</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>የተመረጠው ነገር ምስል የለውም።</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>የተመረጠውን ነገር የምስል ፋይል ማንበብ አልተቻለም።</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>የተመረጠው ነገር ምስል ይህ መስክ ከሚፈቅደው በላይ ነው፦ %1 ባይት።</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ your account.</source>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>ዕልባቱ ወደ «%name» ዳግም ተሰይሟል።</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>ይህ ገጽ በዚህ የጣቢያ መዳረሻ (%siteaccess) ውስጥ ተሰናክሏል። ዕልባቱን ገጹ ባለበት የጣቢያ መዳረሻ ውስጥ ይክፈቱ።</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>የዚህ ገጽ ሞጁል እዚህ አልተጫነም ወይም አልነቃም።</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ይህ ገጽ ከአሁን በኋላ የለም፦ ሞጁሉ እንደዚህ ያለ እይታ የለውም።</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>ከሚናዎችዎ አንዳቸውም ይህን ገጽ እንዲከፍቱ አይፈቅዱልዎትም።</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>ይህን የጣቢያ መዳረሻ መጠቀም አይችሉም።</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ይህ ገጽ የሚያሳየውን ይዘት ማንበብ አይችሉም።</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>እንዲህ ያለ ገጽ በዕልባት ሊያዝ አይችልም፦ በቅጽ ላይ ብቻ ይሠራል፣ ወይም የአንድ ቅጽበት ገጽ ነው።</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>የዚህ ገጽ አድራሻ ጠፍቷል።</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ይህ ገጽ አሁን ሊከፈት አይችልም።</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>የደብዳቤ ማስተላለፊያው ባለፈው ሩጫ %count መልዕክቶችን ውድቅ አድርጓል። የደብዳቤ አገልጋዩን እና site.ini MailSettings ን ይፈትሹ።</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count ክስተቶች በመጠበቅ ላይ ናቸው፣ የማሳወቂያው የክሮን ሥራ ምንም ሩጫ አልተመዘገበም። የክሮን ሥራ ክፍሉን «frequent» ወደ crontab ያክሉ፣ ወይም exp:notification:run --apply ያሂዱ።</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>በመስቀለኛ ነጥብ መራጭ ሌላ ጣቢያ ወይም ክፍል ይምረጡ</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>ባለቤቱን መቀየር የሚችለው የሥርዓቱ አስተዳዳሪ ብቻ ነው፦ ./console exp:content-check --fix-permissions --apply እንደ root ያሂዱ።</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>ባዶ</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>የመፈረሚያ ቁልፉ ከአንድ ዓመት በላይ ሆኖታል፦ በ exp:audit key rotate --apply ይቀይሩት።</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>የገጽ ጊዜ ድርሻ</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>ሙሉ በሙሉ እንዲሰራ ተጠይቋል</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>የገጽ መሸጎጫው ገጹን አልያዘም (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>የገጽ መሸጎጫው ምላሽ አልሰጠም</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>የተሰራ</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>በከርነሉ የተሰራ፦ %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>ከገጽ መሸጎጫው በ %ms ms ውስጥ የቀረበ። ገጹ %render ms በፈጀ አሰራር %stored ላይ ተከማችቷል፣ ከ %age s በፊት።</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>አሁን ስራ</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>ወደ መሸጎጫው እይታ ተመለስ</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored ላይ ከተሰራው (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>ይህ ጥያቄ፦ ከገጽ መሸጎጫው በ %ms ms ውስጥ የቀረበ።</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ተጠቃሚ</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>የተጠቃሚ መታወቂያ</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>የመሸጎጫ መገለጫ</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ይህ እይታ</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>የእይታ መሸጎጫ</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>በተጠቃሚ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>የተጠቃሚው የመሸጎጫ መገለጫ፦ ተመሳሳይ መገለጫ ያላቸው ተጠቃሚዎች የእይታ መሸጎጫ ፋይሎችን ይጋራሉ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>አዎ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>አይ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>መግቢያ</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>ገብቷል</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>ክፍለ ጊዜ</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>በዚህ ገጽ ViewCacheTweaks ስር በተጠቃሚው ላይ የሚመሰረቱ የይዘት እይታ መሸጎጫ ቁልፍ ክፍሎች፣ ቁልፉ በሚወስዳቸው መልኩ። ተመሳሳይ መገለጫ ያላቸው ተጠቃሚዎች የእይታዎችን መሸጎጫ ፋይሎች ይጋራሉ፣ የአንድ እይታ ራሱ ክፍሎች ካልተለያዩ በስተቀር (ምርጫዎች፣ የአድማጮች ቁልፎች)፦ እነዚያ ለዚህ ገጽ ብቻ የራሳቸው መገለጫ አላቸው።</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>መገለጫ</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ይህ እይታ (መስቀለኛ %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user፦ እያንዳንዱ የገባ ተጠቃሚ የራሱ የመሸጎጫ ፋይሎች አሉት።</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ተግባራዊ ViewCacheTweaks፦ %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>ክፍል</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>እሴት</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>በተጠቃሚው ላይ የሚመሰረት ክፍል የለም (ViewCacheTweaks)።</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ይህ እይታ</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>እንደ ጽሑፍ ቅዳ</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ሚናዎች</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>ምንም የሚና ምደባዎች ሊነበቡ አልቻሉም።</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>የሚና መለያ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ሚና</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>ገደብ</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>የተመደበለት</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ተጠቃሚው</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ቡድን %name (ነገር %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>ተቀድቷል</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>መቅዳት አልተቻለም።</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>በአድማጭ የተተወ</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>ስም-አልባ ጎብኚዎች</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ከእርስዎ ጋር ተመሳሳይ</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>የተለየ</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>ስም-አልባ ጎብኚዎች በተመሳሳይ ViewCacheTweaks ስር የሚያገኙት መገለጫ፣ በነባሪ ምርጫዎች፣ ያለ እይታው ክፍሎች፦ ክፍለ-ጊዜውን የሚያነብ አድማጭ ስለእነሱ ሊጠየቅ አይችልም።</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>ምርጫዎች</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ምንም የእይታ ሁነታ በተጠቃሚ ምርጫዎች ላይ አይመሰረትም (site.ini [ContentSettings] CachedViewPreferences)።</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>የእነዚህ የእይታ ሁነታዎች እይታዎች የሚመሰረቱባቸው ምርጫዎች (CachedViewPreferences)፣ ከተጠቃሚው እሴት ወይም ከነባሪው ጋር። በመገለጫው ውስጥ እንደ userpreferences ይገኛሉ፣ የሁሉም የእይታ ሁነታዎች በአንድ ላይ።</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>የእይታ ሁነታ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>ምርጫ</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>ነባሪ</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>ፖሊሲዎች</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>የሚናዎቹን ፖሊሲዎች አሳይ (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>ፖሊሲዎቹ ይህ ክፍል ሲከፈት ከአገልጋዩ ይጫናሉ፣ አንድ ገጽ በአንድ ጊዜ፣ እና በሞጁል እና በተግባር ሊጣሩ ይችላሉ።</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ተግባር</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>ሁሉም ሞጁሎች</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>ሁሉም ተግባራት</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>ገደቦች</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>ተጨማሪ አሳይ</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>እነዚህ ሚናዎች ፖሊሲዎች የላቸውም።</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>ከማጣሪያው ጋር የሚዛመድ ፖሊሲ የለም።</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown ከ %matching ፖሊሲዎች (በአጠቃላይ %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>ሲከፈት ይጫናል።</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function፣ ሚና፣ ገደብ</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>ፖሊሲዎችን ፈልግ</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>ተጨማሪ ጫን</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ሞጁል/ተግባር</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>ሁሉም ሚናዎች (%count ፖሊሲዎች)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ምንም የሚዛመድ ፖሊሲ የለም።</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown ከ%matched ፖሊሲዎች</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>ምንም ምላሽ የለም</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>ተደብቋል</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>ማብራሪያዎችን አሳይ</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>ማብራሪያዎችን ደብቅ</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ክፈት</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>ሁሉንም ክፈት</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>ሁሉንም ዝጋ</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>ቁልፍ ወይም እሴት</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>ክፍለ ጊዜውን ፈልግ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ዓይነት</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count ተጨማሪ</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ለማሳየት በጣም ጥልቅ ሆኖ የተካተተ</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>ተቆርጧል፣ በአጠቃላይ %count ቁምፊዎች</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ተጀምሯል</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>የኩኪ ስም</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>የክፍለ ጊዜ መታወቂያ</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>ተቆጣጣሪ</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>የማስቀመጫ ዱካ</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>የPHP ነባሪ</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>የሕይወት ዘመን (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>ኩኪ</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>የሕይወት ዘመን %s ሰ</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>የእርስዎ የራስዎ የPHP ክፍለ ጊዜ፣ ክፍሉ በተከፈተበት ጊዜ እንደነበረው፣ በጭራሽ የሌላ ሰው አይደለም። ሚስጥር የሚመስሉ ቁልፎች (ቶከኖች፣ ሃሾች፣ የይለፍ ቃላት) እሴቶች ተደብቀዋል (debugbar.ini SessionMask[])፤ የቀረው ሁሉ እንደተቀመጠው ይታያል፣ የግል መረጃም ጭምር።</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count ቁልፎች፣ %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>ትልቅ</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>ክፍለ ጊዜው ባዶ ነው።</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>ለዚህ ጥያቄ ምንም ክፍለ ጊዜ አልተጀመረም።</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ቅጥያ %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>ከርነል እና ሌሎች</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>ሁሉም ግቤቶች አልታዩም፦ ክፍለ ጊዜው እዚህ ሊዘረዘር ከሚችለው በላይ ይዟል።</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count ቁልፎች አልተዘረዘሩም።</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>ማዕቀፍ</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ቶከን የሚመስሉ እሴቶች (JSON Web Token፣ የAuthorization ራስጌ ምስክርነቶች፣ የግል ቁልፍ፣ ረጅም hex ወይም የዘፈቀደ ጽሑፍ) ቁልፋቸው ምንም ቢባል እንዲሁ ተደብቀዋል (debugbar.ini SessionValueMask[])።</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>ቁልፉ ሚስጥር ይመስላል (debugbar.ini SessionMask[])።</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>እሴቱ ቶከን ይመስላል።</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>በተደበቀ ቁልፍ ስር።</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>ክፍለ ጊዜው እንደ ጽሑፍ፣ እንደ ሰንጠረዡ ተደብቆ።</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>ክፍለ ጊዜው ከ%size ይበልጣል (debugbar.ini SessionWarnBytes)፦ የዚህ ተጠቃሚ እያንዳንዱ ጥያቄ ሙሉውን ክፍለ ጊዜ ያነባል፣ ሲቀየርም ይጽፈዋል።</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ይህን ክፍለ ጊዜ በፋይሎች ውስጥ ያስቀምጣል እና ፋይሉን ለሙሉ ጥያቄው ይቆልፋል፦ የአንድ ተጠቃሚ ጥያቄዎች (በርካታ ትሮች፣ የAJAX ጥሪዎች) እርስ በርሳቸው ይጠባበቃሉ።</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>ክፍት አድርገው ያቆዩ</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>ከ%size ይበልጣል (debugbar.ini SessionWarnBytes)፦ የዚህ ተጠቃሚ እያንዳንዱ ጥያቄ ሙሉውን ክፍለ ጊዜ ያነባል።</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>ከ%count ውስጥ %hits ከመሸጎጫ ተነበዋል</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>ምንም አብነት አልተሰራም (ከእይታ መሸጎጫ የተነበበ እይታ ምንም አብነት አያሰራም)።</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>የሚና ምደባዎች</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ሚናዎች እና ፖሊሲዎች</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>ከስም-አልባ ጎብኚዎች የተለየ</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>ከስም-አልባ ጎብኚዎች ጋር አንድ ዓይነት</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ያልተላከ</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>የማሳወቂያው የክሮን ሥራ እያንዳንዱን ሩጫውን እዚህ ይመዘግባል። ክፍሉን frequent ወደ crontab ያክሉ፣ ወይም exp:notification:run --apply ያሂዱ።</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>ኮንሶሉን ይጠቀሙ፦ ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ይህ ርዕስ አልተለቀቀም፤ አንባቢዎች አያዩትም።</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ፍልሰቶች</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>እንደ ፋይሎች የተቀመጡ የጭነቱ ለውጦች፦ ሁኔታቸው፣ አፈጻጸሞቹ፣ ማስኬድ እና መመለስ።</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>የጣቢያን የማይለዋወጥ ቅጂ ወደ GitHub Pages ወይም ወደ ማንኛውም የ git አስተናጋጅ ያትሙ።</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>የማይለዋወጥ ሕትመት</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>በግምገማ ላይ</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>አንባቢዎች ይህን ገጽ ያያሉ።</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>አንድ ሰው እስኪለቀው ድረስ ከአንባቢዎች ተደብቋል።</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>ገጹ አሁን በግምገማ ላይ ነው። እስኪለቀቅ ድረስ ከአንባቢዎች ተደብቋል።</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>ገጹ ተለቋል፦ አንባቢዎች አሁን ያዩታል።</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>ገጹ እንደገና ረቂቅ ሆኗል። ተገምግሞ እስኪለቀቅ ድረስ ከአንባቢዎች ተደብቋል።</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>አሁን ልቀቅ</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>ይህን ስሪት ያልጻፈ እና የ%role ሚና ያለው ተጠቃሚ ብቻ ሊለቀው ይችላል።</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>ለመለቀቅ የሚጠባበቁ የእገዛ ርዕሶች</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>እንደገና እስኪለቀቅ ድረስ ከአንባቢዎች ይደብቀዋል።</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>በመቀጠል ገምጋሚ ይፈትሸዋል። አንባቢዎች ገና አያዩትም።</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>አንባቢዎች ወዲያውኑ ያዩታል።</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>ለተጨማሪ ስራ ከግምገማ ያወጣዋል። አንባቢዎች አያዩትም።</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ይህን ገጽ ከአንባቢዎች ይደብቁ?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ይህን ገጽ ወደ ረቂቅ ይመልሱ?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>አንድ ሰው እንደገና እስኪለቀው ድረስ አንባቢዎች %title አያዩም።</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title ለተጨማሪ ስራ ወደ ረቂቅ ይመለሳል። አንባቢዎች አሁንም አያዩትም፣ እና ከመለቀቁ በፊት አዲስ ግምገማ ያስፈልገዋል።</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ሰርዝ</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>እነዚህ ርዕሶች በግምገማ ላይ ናቸው። የአሁኑን ስሪት ያልጻፈ ሰው ሲለቃቸው አንባቢዎች ያዩአቸዋል።</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>ምንም።</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>በማረጋገጫ መተግበሪያ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>በኢሜይል በተላከ ኮድ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>በመልሶ ማግኛ ኮድ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>በይለፍ ቁልፍ (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>በውጫዊ መለያ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>የደህንነት እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>እንደ አውታረ መረቡ ይታያል፤ አድራሻው የሚቀመጠው የጣቢያው የውሂብ ጥበቃ ቅንብሮች እንደሚሉት ነው።</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>አልተመዘገበም</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>አካባቢ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>በግምት</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>መሣሪያዎችን አስተዳድር</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>በማረጋገጫ መተግበሪያ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>በኢሜይል በተላከ ኮድ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>በመልሶ ማግኛ ኮድ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>በይለፍ ቁልፍ (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>በውጫዊ መለያ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>የደህንነት እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>አልተመዘገበም</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>አካባቢ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>በግምት</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>የዚህን ተጠቃሚ ክፍለ ጊዜዎች አሳይ</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>በ %site ላይ ያለው መለያዎ %login በቅርቡ ካልገባበት ቦታ ለመግባት አሁን ጥቅም ላይ ውሏል፦</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>ግምታዊ አካባቢ</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser በ %os ላይ</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>የመግቢያ ሪፖርት</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>የይለፍ ቁልፉ ሊረጋገጥ አልቻለም። እባክዎ እንደገና ይሞክሩ።</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>በይለፍ ቁልፎች ብቻ የሚገቡ መለያዎች እዚህ የይለፍ ቃል መጠቀም አይችሉም፦ «በይለፍ ቁልፍ ግባ»ን ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>የ%login የይለፍ ቁልፎች</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>ይህ መለያ የሚገባባቸው የይለፍ ቁልፎች። በጠፋ ወይም በተሰረቀ መሣሪያ ላይ ያለውን ይሻሩ፦ ከዚያ በኋላ መግባት አይችልም። ባለቤቱ አዳዲሶችን ራሱ ያክላል።</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>መለያዎ የይለፍ ቁልፍ ያስፈልገዋል</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>ለመለያዎ የይለፍ ቁልፍ ያክሉ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>ለመቀጠል የይለፍ ቁልፍ ያክሉ። ከዚያ በይለፍ ቃል ብቻ ሳይሆን በእሱ ይገባሉ።</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>በይለፍ ቁልፍ መግባት ከይለፍ ቃል ይበልጥ ፈጣን እና ደህንነቱ የተጠበቀ ነው። አሁን አንዱን ያክሉ ወይም ያለ እሱ ይቀጥሉ።</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>አሁን አይደለም</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>የይለፍ ቁልፉ «%name» ይሻር?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>ከዚህ በኋላ ወደዚህ መለያ መግባት አይችልም። የመጨረሻው ከነበረ ባለቤቱ በይለፍ ቃሉ ይገባል፣ ወይም እርስዎ አዲስ የይለፍ ቃል ያዘጋጃሉ።</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>የይለፍ ቁልፉን ሻር</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>ሻር</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>ይህ መለያ ምንም የይለፍ ቁልፍ የለውም።</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>አረጋጋጭ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>ያልታወቀ</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>የመጨረሻው የይለፍ ቁልፍዎ፦ ከማስወገድዎ በፊት ሌላ ያክሉ።</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>ይህ መለያ በይለፍ ቁልፎች ብቻ ይገባል (የይለፍ ቁልፍ ፖሊሲ)፦ ምንም ካልቀረ እንደገና በይለፍ ቃሉ ይገባል።</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>ይህ የመጨረሻው የይለፍ ቁልፍዎ ነው፣ እና መለያዎ ያለ የይለፍ ቁልፍ መግባት አይችልም። መጀመሪያ ሌላ የይለፍ ቁልፍ ያክሉ።</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>የይለፍ ቁልፉ «%name» ተሽሯል። ከዚህ በኋላ ወደዚህ መለያ መግባት አይችልም።</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>ከማረጋገጫ መተግበሪያዎ የሚገኝ ኮድ</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>ውሂብን እስከመጨረሻው ሊሰርዙ ወይም የምዝግብ ማስታወሻን ባዶ ሊያደርጉ ነው።</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>የይለፍ ቃልዎ እና የይለፍ ቁልፍ</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>የይለፍ ቃልዎ እና ከማረጋገጫ መተግበሪያዎ የሚገኝ ኮድ</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>ወይም፦</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ይህ አሳሽ የይለፍ ቁልፎችን መጠቀም አይችልም። ሌላ መንገድ ወይም ሌላ አሳሽ ይጠቀሙ።</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>ሲቀጥሉ አሳሽዎ ከይለፍ ቁልፎችዎ አንዱን ይጠይቃል።</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>በይለፍ ቁልፍ ቀጥል</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>ዝግጅት</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>የራስን የይለፍ ቃል፣ የኢሜይል አድራሻ፣ የይለፍ ቁልፎች፣ ባለሁለት ደረጃ መግቢያ፣ የመልሶ ማግኛ ኮዶች ወይም የAPI ቁልፎች መቀየር፣ እና ከራስ ሌሎች መሣሪያዎች መውጣት።</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ተጠቃሚዎችን፣ የይለፍ ቃሎቻቸውን እና መሣሪያዎቻቸውን መፍጠር እና ማርትዕ፣ የመለያ ቅንብሮች፣ አዲስ የተጠቃሚ መለያዎችን ማጽደቅ ወይም ውድቅ ማድረግ፣ ሚናዎችን መመደብ እና ፖሊሲዎችን ማርትዕ።</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>ውሂብን መሰረዝ</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ቆሻሻውን ባዶ ማድረግ፣ ንጥሎችን ከእሱ ማስወገድ እና ብዙ ንጥሎችን በአንድ ጊዜ ማስወገድ።</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>ይዘትን ማስወገድ፣ ማተም እና ማስቀመጥ</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>ይዘትን ማስወገድ (ወደ ቆሻሻም ጭምር)፣ ማተም እና ረቂቅ ማስቀመጥ፤ ቅጹ ሲላክ ይጠየቃል። በነባሪ ጠፍቷል።</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>ከስሱ ድርጊት በፊት የገባ ተጠቃሚ ማንነቱን እንደገና ያረጋግጣል፦ በይለፍ ቃሉ እና በይለፍ ቁልፍ፣ ወይም የይለፍ ቁልፍ ከሌለ በይለፍ ቃሉ እና በማረጋገጫ መተግበሪያው ኮድ። የሚጠይቁት የድር ገጾቹ ብቻ ናቸው፦ የREST በይነገጽ፣ SOAP፣ WebDAV፣ የexpservices መግቢያ እና የትዕዛዝ መስመሩ በጭራሽ አይጠይቁም።</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>ቅንብሮቹ የሚተገበሩበት ቦታ</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>ቅንብሮች ለ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>እያንዳንዱ የጣቢያ መዳረሻ</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>የጣቢያ መዳረሻ %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ክፈት</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>የሚጠየቁት፦ %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>አባላቶቻቸውን ብቻ ለመጠየቅ የተጠቃሚ ቡድኖችን ምልክት ያድርጉ (ለምሳሌ አርታኢዎች)። ምንም ምልክት ካልተደረገ፦ እያንዳንዱ ተጠቃሚ።</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>ወደ settings/override/site.ini.append.php ተቀምጧል፣ ለእያንዳንዱ የጣቢያ መዳረሻ። ማስቀመጥ እርስዎ መሆንዎን እንዲያረጋግጡ ይጠይቃል።</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>ወደ settings/siteaccess/%name/site.ini.append.php ተቀምጧል። በsettings/override ውስጥ ያለ እሴት ቅድሚያ ይወስዳል። ማስቀመጥ እርስዎ መሆንዎን እንዲያረጋግጡ ይጠይቃል።</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>ገጹን ክፈት</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from እስከ %to ከ %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>የተጠቃሚ ስም ወይም የተጠቃሚ መታወቂያ፦ ክስተቱ የሚመለከተው መለያ ወይም እርምጃውን የወሰደው ተጠቃሚ።</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>መለያ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>እርምጃ</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>በኋላ</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>ማንኛውም ውጤት</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>በፊት</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ፈጻሚ</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>አጽዳ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ተከናውኗል</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>ክስተቶች ለ %days ቀናት ይቀመጣሉ።</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>ክስተቶች በእጅ እስኪወገዱ ድረስ ይቀመጣሉ።</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ክስተቶች</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>ማንኛውም እርምጃ</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>የዚህ መለያ ሁሉም ክስተቶች</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>ዝርዝሩን እንደ CSV ላክ (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>አልተሳካም</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ከ</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>ዝርዝሩን አጥብብ</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>ምንም ተዛማጅ ክስተት የለም።</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>በአንድ ገጽ</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>መመዝገብ በ audit.ini ውስጥ ጠፍቷል ([UserAuditSettings] UserAudit)፤ ዝርዝሩ ከዚህ በፊት የተመዘገበውን ያሳያል።</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ውድቅ ተደርጓል</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ውጤት</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>አሳይ</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>የተጠቃሚ ኦዲት ምዝግብ ሰንጠረዥ የለም። በ php update/common/scripts/6.0/createuseraudittable.php ይፍጠሩት፤ እስከዚያ ድረስ የኦዲት ፋይሎቹ እያንዳንዱን ክስተት ይይዛሉ።</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>ይህ ገጽ የ SQL የውሂብ ጎታ ያስፈልገዋል፤ በ MongoDB ላይ አይገኝም። የኦዲት ፋይሎቹ እያንዳንዱን ክስተት ይይዛሉ።</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>እስከ</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>የተጠቃሚ ኦዲት ምዝግብ</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ተጠቃሚ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>መቼ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>የት</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ማን የትኛውን መለያ እንደቀየረ፣ እንደፈጠረ፣ እንዳነቃ፣ እንዳሰናከለ፣ እንዳዛወረ ወይም እንዳስወገደ፣ ማን እንደገባ ወይም ውድቅ እንደተደረገ፣ እና የትኞቹ ሚናዎች እንደተመደቡ፦ ለእያንዳንዱ ክስተት አንድ መስመር፣ ከለውጡ በፊት እና በኋላ ካሉት መስኮች ጋር። የይለፍ ቃላት እና ሚስጥሮች በጭራሽ አይመዘገቡም።</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ቡድን</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>ሲስተም</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ያልታወቀ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>መለያዎን ይጠብቁ</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>በ %site ላይ ወዳለው መለያዎ %login ለመግባት የመልሶ ማግኛ ኮድ ጥቅም ላይ ውሏል።</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>የመልሶ ማግኛ ኮድ ጥቅም ላይ ውሏል</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>መለያ</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>ግምታዊ አድራሻ</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>እንደገና ለመግባት አዲስ የይለፍ ቃል ይጠይቁ፣ ወይም የጣቢያውን አስተዳዳሪዎች ያግኙ።</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>አዲስ የይለፍ ቃል ጠይቅ</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>እያንዳንዱ የመልሶ ማግኛ ኮድ የሚሠራው አንድ ጊዜ ብቻ ነው። ስልክዎ ከጠፋብዎ፣ የማረጋገጫ መተግበሪያዎን እንደገና ያዋቅሩ እና አዲሶቹን የመልሶ ማግኛ ኮዶች ደህንነቱ በተጠበቀ ቦታ ያስቀምጡ።</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>በመለያዎ ላይ ያልተሳኩ የመግቢያ ሙከራዎች</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>ከአሁን ጀምሮ፣ መግባት ከይለፍ ቃልዎ በተጨማሪ ኮድ ይጠይቃል። ይህን ያደረጉት እርስዎ ከሆኑ፣ ምንም ማድረግ አያስፈልግዎትም።</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>እርስዎ ከሆኑ እና የይለፍ ቃልዎን ከረሱ፣ አዲስ ይጠይቁ። ካልሆነ፣ ይበልጥ ጠንካራ የይለፍ ቃል ይምረጡ እና ባለሁለት ደረጃ መግቢያን ያብሩ።</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>ይህ እርስዎ ካልሆኑ፣ አንድ ሰው የይለፍ ቃልዎን ሊያውቅ ይችላል፦ አሁኑኑ ይቀይሩት እና መለያዎ የት እንደገባ ያረጋግጡ።</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>የቀሩ የመልሶ ማግኛ ኮዶች</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>መሣሪያዎችዎን ገምግም</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>የደህንነት ማስጠንቀቂያ</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>አንድ ሰው በ %site ላይ ወዳለው መለያዎ %login በተሳሳተ የይለፍ ቃል በተከታታይ %count ጊዜ ለመግባት ሞክሯል።</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>በ %site ላይ ባለው መለያዎ %login ላይ የደህንነት ክስተት ተከስቷል።</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>ይህ ስለ መለያዎ የደህንነት ማስጠንቀቂያ ነው። ለእያንዳንዱ እንደዚህ ያለ ለውጥ ይላካል፣ ሊጠፋም አይችልም።</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ሰዓት</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>በ %site ላይ ላለው መለያዎ %login ባለሁለት ደረጃ መግቢያ ጠፍቷል።</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>ባለሁለት ደረጃ መግቢያ ጠፍቷል</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>በ %site ላይ ላለው መለያዎ %login ባለሁለት ደረጃ መግቢያ በርቷል።</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>ባለሁለት ደረጃ መግቢያ በርቷል</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>በ %site ላይ ያለው መለያዎ %login ከብዙ ያልተሳኩ መግቢያዎች በኋላ ተቆልፏል።</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>መለያዎ አሁን የሚጠበቀው በይለፍ ቃልዎ ብቻ ነው። ይህን ያደረጉት እርስዎ ካልሆኑ፣ የይለፍ ቃልዎን ከቀየሩ በኋላ ባለሁለት ደረጃ መግቢያን እንደገና ያብሩ።</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>መለያዎ ተቆልፏል</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>በ%site ላይ ባለው መለያዎ %login የይለፍ ቁልፍ ታክሏል።</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>ይህን የይለፍ ቁልፍ የያዘ ማንኛውም ሰው ያለ የይለፍ ቃልዎ ወደ መለያዎ መግባት ይችላል። እርስዎ ካላከሉት በየይለፍ ቁልፎች ስር ያስወግዱት እና የይለፍ ቃልዎን ይቀይሩ።</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>በ%site ላይ ካለው መለያዎ %login የይለፍ ቁልፍ ተወግዷል።</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>ከዚህ በኋላ ወደ መለያዎ መግባት አይችልም። እርስዎ ካላስወገዱት የይለፍ ቁልፎችዎን እና መሣሪያዎችዎን ያረጋግጡ።</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>ለመለያዎ የይለፍ ቁልፍ ታክሏል</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>ከመለያዎ የይለፍ ቁልፍ ተወግዷል</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>የደህንነት እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>የ %name የደህንነት እንቅስቃሴ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ገብቷል</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ያልተሳካ የመግቢያ ሙከራ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ወጥቷል</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ክፍለ ጊዜዎች ወጥተዋል</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ከአዲስ መሣሪያ መግባት</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ከአዲስ አካባቢ መግባት</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ማንነት ተረጋግጧል («እርስዎ መሆንዎን ያረጋግጡ»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>የማንነት ማረጋገጫ አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>በይለፍ ቁልፍ ገብቷል</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>በይለፍ ቁልፍ መግባት አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>መግባት ተከልክሏል፦ የሁለተኛው ደረጃ ኮድ የለም ወይም የተሳሳተ ነው</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>የተሳሳተ የሁለተኛ ደረጃ ኮድ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ከያልተሳኩ መግቢያዎች በኋላ መለያው ተቆልፏል</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>መለያው ተከፍቷል</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>የይለፍ ቃል ተቀይሯል</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>የይለፍ ቃል መቀየር አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>የይለፍ ቃል ዳግም ተቀናብሯል</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>አዲስ የይለፍ ቃል ተጠይቋል</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>የኢሜይል አድራሻ ተቀይሯል</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>የተጠቃሚ ስም ተቀይሯል</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ባለሁለት ደረጃ መግቢያ በርቷል</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ባለሁለት ደረጃ መግቢያ ጠፍቷል</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>የመልሶ ማግኛ ኮድ ጥቅም ላይ ውሏል</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>አዲስ የመልሶ ማግኛ ኮዶች</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>የመተግበሪያ የይለፍ ቃል ተፈጥሯል</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>የመተግበሪያ የይለፍ ቃል ተሽሯል</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>የይለፍ ቁልፍ ታክሏል</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>የይለፍ ቁልፍ ተወግዷል</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>መለያው ነቅቷል</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>መለያው ተሰናክሏል</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ሁሉም</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>መግቢያዎች እና ክፍለ ጊዜዎች</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>የመለያ ለውጦች</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ትኩረት ይፈልጋል</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>በእርስዎ</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>በተጠቃሚው</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>በ %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>ዘዴ</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>አሳሽ</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>ስርዓተ ክወና</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>መሣሪያ</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>ቦታ</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>ሀገር</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ክፍለ ጊዜዎች</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>የትኞቹ</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>የመላኪያ መንገድ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ያልተሳኩ ሙከራዎች</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>የቀሩ ኮዶች</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>የመግቢያ ተቆጣጣሪ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>የደህንነት እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>የ %name የደህንነት እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>መግቢያዎች እና በመለያዎ ደህንነት ላይ የተደረጉ ለውጦች። ያላደረጉት ነገር ካዩ፣ የይለፍ ቃልዎን ይቀይሩ እና የማያውቋቸውን መሣሪያዎች ያስወጡ።</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>መግቢያዎች እና በዚህ መለያ ደህንነት ላይ የተደረጉ ለውጦች።</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>መሣሪያዎችዎ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>የይለፍ ቃል ቀይር</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>ወደ መለያው ተመለስ</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>የደህንነት እንቅስቃሴው አይመዘገብም</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>የሚነበበው ከተጠቃሚ ኦዲት ምዝግብ ማስታወሻ ነው፤ ሠንጠረዡ expuser_audit የለም ወይም በዚህ የውሂብ ጎታ ላይ አይደገፍም። php update/common/scripts/6.0/createuseraudittable.php ያሂዱ፣ ወይም የ6.0.15 የውሂብ ጎታ ማዘመኛን ያሂዱ።</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>ያለፉት %days ቀናት</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ባለፉት %days ቀናት የተደረጉ መግቢያዎች</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>የቅርብ ጊዜ የደህንነት እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>አሳይ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>አልተሳካም</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ተከልክሏል</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>እስካሁን ምንም የደህንነት እንቅስቃሴ አልተመዘገበም።</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>የደህንነት ክስተቶች ለ %days ቀናት ይቀመጣሉ።</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>የደህንነት ክስተቶች አንድ አስተዳዳሪ እስኪያስወግዳቸው ድረስ ይቀመጣሉ።</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>የመግቢያ ውሂቤን አውርድ</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ክፍለ ጊዜዎችዎ እና የደህንነት ክስተቶችዎ እንደ JSON ፋይል።</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>በዚህ ጣቢያ ላይ ክፍለ ጊዜዎች አይመዘገቡም፣ ስለዚህ ማንኛውንም ሌላ መሣሪያ ማስወጣት አልተቻለም። አሁኑኑ የይለፍ ቃልዎን ይቀይሩ።</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count ሌሎች ክፍለ ጊዜዎች ወጥተዋል። አሁን የይለፍ ቃልዎን ይቀይሩ።</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ሌላ የገባ መሣሪያ አልነበረም። አሁን የይለፍ ቃልዎን ይቀይሩ።</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>እናመሰግናለን። ክስተቱ የእርስዎ እንደሆነ ምልክት ተደርጎበታል።</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ያ ክስተት መልስ አያስፈልገውም።</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>የገጹ ጊዜ አልፎ ነበር። ምንም አልተለወጠም፤ እባክዎ እንደገና ይሞክሩ።</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>መለያዎን ይጠብቁ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>እዚህ ያለ ነገር እርስዎ ካልሆኑ፣ ሁሉንም ሌሎች መሣሪያዎች ያስወጡ፣ ከዚያም አዲስ የይለፍ ቃል ይምረጡ። በ«አስታውሰኝ» እንደገቡ የቆዩ መሣሪያዎችም ይወጣሉ።</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ከዚህኛው በስተቀር እያንዳንዱ መሣሪያ በሚቀጥለው ጥያቄው ይወጣል። ከዚያም አዲስ የይለፍ ቃል ይመርጣሉ።</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>አዎ፣ ሌሎቹን መሣሪያዎች አስወጣ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ይህ እርስዎ ነበሩ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>አዎ፣ እኔ ነበርኩ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>አይ፣ መለያዬን ጠብቅ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ገብቷል</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ያልተሳካ የመግቢያ ሙከራ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ወጥቷል</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ክፍለ ጊዜዎች ወጥተዋል</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ከአዲስ መሣሪያ መግባት</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ከአዲስ አካባቢ መግባት</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ማንነት ተረጋግጧል («እርስዎ መሆንዎን ያረጋግጡ»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>የማንነት ማረጋገጫ አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>በይለፍ ቁልፍ ገብቷል</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>በይለፍ ቁልፍ መግባት አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>መግባት ተከልክሏል፦ የሁለተኛው ደረጃ ኮድ የለም ወይም የተሳሳተ ነው</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>የተሳሳተ የሁለተኛ ደረጃ ኮድ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ከያልተሳኩ መግቢያዎች በኋላ መለያው ተቆልፏል</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>መለያው ተከፍቷል</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>የይለፍ ቃል ተቀይሯል</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>የይለፍ ቃል መቀየር አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>የይለፍ ቃል ዳግም ተቀናብሯል</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>አዲስ የይለፍ ቃል ተጠይቋል</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>የኢሜይል አድራሻ ተቀይሯል</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>የተጠቃሚ ስም ተቀይሯል</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ባለሁለት ደረጃ መግቢያ በርቷል</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ባለሁለት ደረጃ መግቢያ ጠፍቷል</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>የመልሶ ማግኛ ኮድ ጥቅም ላይ ውሏል</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>አዲስ የመልሶ ማግኛ ኮዶች</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>የመተግበሪያ የይለፍ ቃል ተፈጥሯል</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>የመተግበሪያ የይለፍ ቃል ተሽሯል</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>የይለፍ ቁልፍ ታክሏል</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>የይለፍ ቁልፍ ተወግዷል</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>መለያው ነቅቷል</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>መለያው ተሰናክሏል</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ሁሉም</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>መግቢያዎች እና ክፍለ ጊዜዎች</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>የመለያ ለውጦች</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ትኩረት ይፈልጋል</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>የደህንነት እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>የ %name የደህንነት እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>መግቢያዎች እና በመለያዎ ደህንነት ላይ የተደረጉ ለውጦች። ያላደረጉት ነገር ካዩ፣ የይለፍ ቃልዎን ይቀይሩ እና የማያውቋቸውን መሣሪያዎች ያስወጡ።</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>መሣሪያዎችዎ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>የይለፍ ቃል ቀይር</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>በዚህ ጣቢያ ላይ የደህንነት እንቅስቃሴ እስካሁን አይመዘገብም።</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ባለፉት %days ቀናት የተደረጉ መግቢያዎች</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ያልተሳኩ ሙከራዎች</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>እስካሁን ምንም የደህንነት እንቅስቃሴ አልተመዘገበም።</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>የመግቢያ ውሂቤን አውርድ</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ክፍለ ጊዜዎችዎ እና የደህንነት ክስተቶችዎ እንደ JSON ፋይል።</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>በዚህ ጣቢያ ላይ ክፍለ ጊዜዎች አይመዘገቡም፣ ስለዚህ ማንኛውንም ሌላ መሣሪያ ማስወጣት አልተቻለም። አሁኑኑ የይለፍ ቃልዎን ይቀይሩ።</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count ሌሎች ክፍለ ጊዜዎች ወጥተዋል። አሁን የይለፍ ቃልዎን ይቀይሩ።</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ሌላ የገባ መሣሪያ አልነበረም። አሁን የይለፍ ቃልዎን ይቀይሩ።</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>እናመሰግናለን። ክስተቱ የእርስዎ እንደሆነ ምልክት ተደርጎበታል።</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ያ ክስተት መልስ አያስፈልገውም።</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>የገጹ ጊዜ አልፎ ነበር። ምንም አልተለወጠም፤ እባክዎ እንደገና ይሞክሩ።</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>መለያዎን ይጠብቁ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>እዚህ ያለ ነገር እርስዎ ካልሆኑ፣ ሁሉንም ሌሎች መሣሪያዎች ያስወጡ፣ ከዚያም አዲስ የይለፍ ቃል ይምረጡ። በ«አስታውሰኝ» እንደገቡ የቆዩ መሣሪያዎችም ይወጣሉ።</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ከዚህኛው በስተቀር እያንዳንዱ መሣሪያ በሚቀጥለው ጥያቄው ይወጣል። ከዚያም አዲስ የይለፍ ቃል ይመርጣሉ።</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>አዎ፣ ሌሎቹን መሣሪያዎች አስወጣ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ይህ እርስዎ ነበሩ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>አዎ፣ እኔ ነበርኩ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>አይ፣ መለያዬን ጠብቅ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>የይለፍ ቃል</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>የይለፍ ቃል እና የሁለተኛ ደረጃ ኮድ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>የREST በይነገጽ</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>የSOAP በይነገጽ</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>ነጠላ መግቢያ (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>ክፍለ ጊዜዎች መመዝገብ ከመጀመራቸው በፊት ገብቷል</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>የመግቢያ ሪፖርት</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>በጣቢያው ላይ ማን እንደገባ፣ መለያዎች ምን ያህል ጊዜ እንደሚገቡ እና እንደሚወድቁ፣ እና ተጠቃሚን ከሁሉም ቦታ ማስወጣት። ከማንኛውም የክፍለ ጊዜ ተቆጣጣሪ ጋር ይሠራል።</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>ክፍለ ጊዜው ወጥቷል። መሣሪያው እንደገና መግባት አለበት።</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ከ %count ክፍለ ጊዜዎች ወጥቷል።</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login የሚሄድ ክፍለ ጊዜ አልነበረውም።</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ያ መታወቂያ (ID)፣ የተጠቃሚ ስም ወይም የኢሜይል አድራሻ ያለው መለያ የለም።</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>ይህ እርስዎ እየተጠቀሙበት ያለው ክፍለ ጊዜ ነው። ለመጨረስ፣ ይውጡ።</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>ያ ክፍለ ጊዜ አስቀድሞ አብቅቶ ነበር።</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>የገጹ ጊዜ አልፎ ነበር። ምንም አልተቀየረም፤ እባክዎ እንደገና ይሞክሩ።</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>በዚህ ጣቢያ ላይ ክፍለ ጊዜዎች አይመዘገቡም (site.ini [UserSessionSettings] Tracking=disabled)።</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>ሠንጠረዡ expuser_session የለም</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>ሠንጠረዡ ከተፈጠረ በኋላ ክፍለ ጊዜዎች ይመዘገባሉ፦ php update/common/scripts/6.0/createusersessiontable.php፣ ወይም የ6.0.15 የውሂብ ጎታ ማዘመኛ።</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>አሁን እና ዛሬ</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>የሚሄዱ ክፍለ ጊዜዎች</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>የገቡ ተጠቃሚዎች</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>የዛሬ መግቢያዎች</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>የዛሬ ያልተሳኩ ሙከራዎች</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ተጠቃሚን ከሁሉም ቦታ ያስወጡ</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>እያንዳንዱ የመለያው ክፍለ ጊዜ በሚቀጥለው ጥያቄው ላይ ያበቃል፣ በ«አስታውሰኝ» የተያዙትም ጭምር። መለያው በተሳሳተ እጅ ሊሆን ሲችል ይህን ይጠቀሙ፤ ከዚያም የይለፍ ቃሉን ዳግም ያቀናብሩ።</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>የተጠቃሚ መታወቂያ (ID)፣ የተጠቃሚ ስም ወይም የኢሜይል አድራሻ</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>ከሁሉም ቦታ አስወጣ</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>አሁን የገባ</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>በቅርቡ ጥቅም ላይ የዋሉት %limit ይታያሉ።</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ተጠቃሚ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>መሣሪያ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>አድራሻ</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ገብቷል</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>መጨረሻ የነቃበት</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>እርምጃዎች</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ይህ መሣሪያ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>አልተመዘገበም</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>አስወጣ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ምንም የገባ ክፍለ ጊዜ የለም።</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>ያለፉት %days ቀናት</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>መግቢያዎች እና ያልተሳኩ ሙከራዎች የሚቆጠሩት ከሌለው የተጠቃሚ ኦዲት ምዝግብ ማስታወሻ ነው፤ የሚቆጠሩት አዲሶቹ ክፍለ ጊዜዎች ናቸው።</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>ቀን</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>መግቢያዎች</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ያልተሳኩ ሙከራዎች</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>አዲስ ክፍለ ጊዜዎች</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>የክፍለ ጊዜ ተቆጣጣሪ፦ %handler። ክፍለ ጊዜዎቹ የሚነበቡት ከሠንጠረዡ expuser_session ስለሆነ ሪፖርቱ ከማንኛውም ተቆጣጣሪ ጋር ይሠራል።</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>ባለፉት %hours ሰዓታት ውስጥ አጠራጣሪ እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>አንድ አውታረ መረብ ወደ %accounts መለያዎች መግባት አልቻለም (%count ሙከራዎች)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ካልተሳኩ መግቢያዎች በኋላ መለያው ተቆልፏል</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>በአንድ መለያ ላይ %count ያልተሳኩ መግቢያዎች</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>በአንድ ጊዜ ከ%count አገሮች ገብቷል</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>የደህንነት እንቅስቃሴ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ክፍለ ጊዜዎች</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ያልተሳኩ መግቢያዎች የሚነበቡት ከተጠቃሚ ኦዲት ምዝግብ ነው፣ ይህም እዚህ አይገኝም።</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>ምንም አጠራጣሪ ነገር የለም፦ ተደጋጋሚ ያልተሳኩ መግቢያዎች ያሉት መለያ የለም፣ ብዙ መለያዎችን የሚሞክር አውታረ መረብ የለም፣ ከብዙ አገሮች የገባ መለያ የለም።</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>ለመለያዎ የደህንነት ማስጠንቀቂያ</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>በመለያዎ %login ላይ የደህንነት ክስተት ተከስቷል፦ %event። ይህ እርስዎ ካልሆኑ፣ መለያዎን በ %url ይጠብቁ።</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ዝግጅት</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>የዚህን ጣቢያ ይዘት አንድ ገጽ የሚፈልጋቸውን መስኮች ብቻ በአንድ ጥያቄ ይጠይቁ። መዋቅሩ የይዘት ክፍሎችን ይከተላል፤ እያንዳንዱ ጥያቄ በላከው ተጠቃሚ መብቶች ይሄዳል።</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API በዚህ የጣቢያ መዳረሻ ውስጥ ጠፍቷል። በ graphql.ini ውስጥ ያብሩት፦ [GraphQLSettings] Enabled=enabled።</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>የGraphQL ቤተ-መጻሕፍት (webonyx/graphql-php 15) አልተጫነም።</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>መድረሻ ነጥብ</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>ቤተ-መጻሕፍት</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>መዋቅር</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count የይዘት ክፍሎች፣ መዋቅር %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>ጥያቄ</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>ተለዋዋጮች (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>አሂድ</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>መልስ</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>በማሄድ ላይ…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>መልሱ ሊነበብ አልቻለም።</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>ጥያቄው በዚህ ክፍለ ጊዜ በገቡበት በእርስዎ መብቶች ይሄዳል።</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count በ%seconds ሰ</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ገደብ የለም</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>ጥልቀት</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>ውስብስብነት</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>ንጥሎች በዝርዝር</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ነባሪ %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>ጥያቄዎች በተጠቃሚ ወይም በቁልፍ</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>ጥያቄዎች በስም-አልባ አድራሻ</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>የተቀመጡ መጠይቆች ብቻ</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>ትልቁ መጠይቅ</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes ባይት</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>ትልቁ ጭነት</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>የጣቢያ መዳረሻ %siteaccess የለም።</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>ሚውቴሽኖቹ በ%siteaccess ውስጥ በርተዋል።</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>ሚውቴሽኖቹ በ%siteaccess ውስጥ ጠፍተዋል።</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API በ%siteaccess ውስጥ በርቷል።</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API በ%siteaccess ውስጥ ጠፍቷል።</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>ቅንብሮቹ ሊጻፉ አልቻሉም፦ %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>የምላሽ መሸጎጫው ጸድቷል፦ %count መልሶች ተወግደዋል።</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>መጠይቁን ለማስወገድ ከጎኑ ያለውን ሳጥን ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>መጠይቁ ሊወገድ አልቻለም፦ በPersistedQueryDirectoryList[] ማውጫ ውስጥ አብሮ የመጣ መጠይቅ ከፋይሉ ጋር ይወገዳል።</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>የተቀመጠው መጠይቅ ተወግዷል።</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>ሚውቴሽኖች</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>በርቷል</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ጠፍቷል</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>የጣቢያ መዳረሻዎች</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API እና ሚውቴሽኖቹ የሚመልሱበት ቦታ። አዝራሮቹ graphql.iniን ይጽፋሉ፣ ልክ ./console exp:graphql:enable እና exp:graphql:disable እንደሚያደርጉት።</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>የጣቢያ መዳረሻ</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ቀይር</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>አጥፋ</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>ሚውቴሽኖችን አጥፋ</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>ሚውቴሽኖችን አብራ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>አብራ</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>ገደቦች</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>የዚህ የጣቢያ መዳረሻ graphql.ini [GraphQLSettings]።</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>የምላሽ መሸጎጫ</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>የተቀመጡ መጠይቆች መልሶች፣ በተጠቃሚ መብቶች የሚቀመጡ እና ይዘት በታተመ ቁጥር ጊዜያቸው የሚያልፍ።</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ሁኔታ</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>የተቀመጡ መልሶች</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count መልሶች፣ %bytes ባይት</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>ቢበዛ የሚቀመጥበት</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ሰ</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>ለመጨረሻ ጊዜ ያለፈበት</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>የምላሽ መሸጎጫውን አጽዳ</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>የተቀመጡ መጠይቆች</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>በ./console exp:graphql:persist ወይም በደንበኞች የተቀመጡ (automatic persisted queries)፤ በስም ወይም በSHA-256 ይጠራሉ።</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>ስሞች</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>መጠን</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ቦታ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>አስወግድ</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>አብሮ የመጣ</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>የተቀመጠ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>አዎ፣ ይህን መጠይቅ አስወግድ</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>እስካሁን የተቀመጠ መጠይቅ የለም።</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>የAPI ቁልፎች</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>ወሰን graphql:read (መጠይቆች) ወይም graphql:write (ሚውቴሽኖች) ያላቸው የግል የAPI ቁልፎች። በገጹ የAPI መዳረሻ ላይ ወይም በ./console exp:graphql:keys ይፍጠሩ እና ይሻሩ።</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>የAPI መዳረሻ</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>ሁሉም ቁልፎች</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>ቁልፍ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ስም</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ባለቤት</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>ወሰኖች</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>ለመጨረሻ ጊዜ የተጠቀመበት</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ንቁ</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ጊዜው ያለፈ</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>የተሻረ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>በጭራሽ</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>እስካሁን የGraphQL ወሰን ያለው የAPI ቁልፍ የለም።</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>ይህን ገጽ በሚያሳየው የጣቢያ መዳረሻ %siteaccess ውስጥ GraphQL API ጠፍቷል፤ ከታች ያለው ሰንጠረዥ የት እንደሚመልስ ያሳያል።</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>ይህን ገጽ ለሚያሳየው የጣቢያ መዳረሻ %siteaccess።</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>ዌብሁኮች</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>አንድ መድረሻ ነጥብ የሚጠይቀው እያንዳንዱ ክስተት (publish, update, trash, delete, move, hide, reveal, mutation) በcronjob ክፍሉ graphqlwebhooks ተፈርሞ ይላክለታል። ./console exp:graphql:webhooks ይህ ክፍል የሚያደርገውን ያደርጋል።</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ክስተቶች</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ሁሉም</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>እያንዳንዱ የጣቢያ መዳረሻ</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>የተበላሸ</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ሚስጥር የለም</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>በመጠባበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count ተትተዋል</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>የመጨረሻ ማድረስ</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ሙከራ ላክ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>አዎ፣ ይህን ዌብሁክ አስወግድ</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>እስካሁን ዌብሁክ የለም።</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ዌብሁክ አክል</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>አክል</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>የቅርብ ጊዜ ማድረሶች</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ጊዜ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ውጤት</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>ምዝገባዎች</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>ለደንበኞች የቀጥታ ዝማኔዎች፦ በ/api/graphql/subscribe የክስተት ዥረት፣ እና በVelocity ላይ WebSocket (graphql-transport-ws)። እያንዳንዱ ክስተት ይዘቱን ማንበብ ለሚችሉ ተመዝጋቢዎች ብቻ ይሄዳል።</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>አሁን ክፍት</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>ከፍተኛው ክፍት</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>በአጠቃላይ %total፣ በተጠቃሚ %user፣ በአድራሻ %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>ስም-አልባ ምዝገባዎች</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>የዥረት ርዝመት</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ዌብሁኩ ሊታከል አልቻለም፦ %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>ዌብሁክ %name ተቀይሯል፤ የመፈረሚያ ሚስጥሩ እንዳለ ይቆያል።</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>የመፈረሚያ ሚስጥሩ ሊቀመጥ አልቻለም (ዝግጅት &gt; ሚስጥሮች)።</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>ዌብሁክ %name ታክሏል። የመፈረሚያ ሚስጥሩ፣ አሁን አንድ ጊዜ ብቻ የሚታየው፦ %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ዌብሁክ %name የለም።</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>ዌብሁክ %name አልመለሰም፦ %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>ዌብሁክ %name በ%ms ms ውስጥ %status መለሰ።</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ዌብሁኩን ለማስወገድ ከጎኑ ያለውን ሳጥን ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>ዌብሁክ %name ተወግዷል።</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API በዚህ የጣቢያ መዳረሻ ውስጥ ጠፍቷል።</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>የGraphQL ቤተ-መጻሕፍት አልተጫነም።</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET ወይም POST ይጠቀሙ።</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>የጥያቄው አካል የJSON ነገር አይደለም።</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables የJSON ነገር አይደለም።</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions የJSON ነገር አይደለም።</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>መጠይቁን በPOST ይላኩ።</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>ጥያቄው መጠይቅ የለውም።</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>መጠይቁ ከ%max ባይት ይረዝማል።</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>የውስጥ አገልጋይ ስህተት</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node ከ id፣ remoteId፣ path እና urlAlias ውስጥ በትክክል አንዱን ይፈልጋል።</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content ከ id እና remoteId ውስጥ በትክክል አንዱን ይፈልጋል።</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>የ after ጠቋሚ ይህ API የሰጠው አይደለም።</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>የምስል ቅጽል %alias የለም (image.ini [AliasSettings] AliasList[])።</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>እዚህ የሚቀበሉት በአገልጋዩ ላይ የተቀመጡ መጠይቆች ብቻ ናቸው፦ የተቀመጠ መጠይቅ id ይላኩ።</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>የተቀመጠው መጠይቅ hash SHA-256 አይደለም።</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>የተቀመጠው መጠይቅ hash ከመጠይቁ ጋር አይዛመድም።</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>በጣም ብዙ ጥያቄዎች፦ በ%window ሰከንዶች ውስጥ ቢበዛ %limit። ከ%reset ሰከንዶች በኋላ እንደገና ይሞክሩ።</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>መጠይቁ %depth ደረጃዎች ጥልቀት አለው፤ ቢበዛ %max ይፈቀዳሉ።</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>መጠይቁ %complexity ውስብስብነት አለው፤ ቢበዛ %max ይፈቀዳል።</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ይህ ጥያቄ መዋቅሩን ማንበብ አይፈቀድለትም (introspection)።</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search ጽሑፍ ወይም ማጣሪያ ይፈልጋል (classes, subtree, sections, publishedAfter, publishedBefore)።</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ቀን አይደለም (ISO 8601, 2026-10-30)።</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag ከ id፣ remoteId እና path ውስጥ በትክክል አንዱን ይፈልጋል።</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout ከ id፣ identifier እና urlAlias ውስጥ በትክክል አንዱን ይፈልጋል።</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>የmultipart ጥያቄ መስክ operations አንድ የJSON ጥያቄ አይደለም።</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>የmultipart ጥያቄ መስክ map የJSON ነገር አይደለም።</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>የmultipart ጥያቄው ፋይል %field የለውም።</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>የmap መስክ መንገድ በ variables. መጀመር አለበት፦ %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>ፋይሉ %name ሙሉ በሙሉ አልደረሰም (የመስቀል ስህተት %error)።</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>ፋይሉ %name ከ%max ባይት ይበልጣል።</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>ፋይሉ %name ሊፈተሽ አልቻለም።</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>ሚውቴሽኖች በዚህ የጣቢያ መዳረሻ ውስጥ ጠፍተዋል (graphql.ini [GraphQLSettings] MutationsEnabled)።</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>ሚውቴሽንን በPOST ይላኩ።</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>ይዘትን ለመቀየር ይግቡ።</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>የAPI ቁልፉ ወሰን %scope የለውም።</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>ክፍለ ጊዜ ያለው ሚውቴሽን የክፍለ ጊዜውን የቅጽ ቶከን ይፈልጋል (ራስጌ X-CSRF-Token)።</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ጠፍቷል፦ graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ምንም አስተናጋጅ አይጠቅስም።</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>አድራሻው የhttps አድራሻ መሆን አለበት።</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>አስተናጋጁ %host በgraphql.ini [GraphQLSettings] UploadFromUrlHostList[] ውስጥ የለም።</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ፋይሉ ሊመጣ አልቻለም።</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload የግብዓት አይነት ብቻ ነው።</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>የUpload አይነት ተለዋዋጭ የmultipart ጥያቄ ፋይል ይቀበላል።</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>የremote id %remoteId ቀድሞ ተይዟል።</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>ይዘቱ በ%language ትርጉም አስቀድሞ አለው፦ updateContent ይጠቀሙ።</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>ቢያንስ አንድ መስክ ይስጡ።</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>አዲስ ስሪት ሊፈጠር አልቻለም (ይዘቱ በጣም ብዙ ረቂቆች አሉት)።</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ስሪት %version ረቂቅ አይደለም።</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ከ id እና nodeId ውስጥ በትክክል አንዱን ይፈልጋል።</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>አንድ ቦታ ከራሱ በታች ሊንቀሳቀስ አይችልም።</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>ይዘቱ ከ%parentId በታች ቦታ አስቀድሞ አለው።</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>የመስኩ %field እሴት ሊቀመጥ አልቻለም።</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>የይዘት ቋንቋ %language የለም።</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>በመዋቅሩ ውስጥ የይዘት ክፍል %class የለም።</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>ይዘቱ የለም፣ ወይም እንዲያነቡት አልተፈቀደልዎትም።</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>ይህን በዚህ ይዘት ላይ ማድረግ አልተፈቀደልዎትም።</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>ክፍሉ %class ሊጻፍበት የሚችል መስክ %field የለውም።</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>መስኩ %field ሁለት ጊዜ ተሰጥቷል።</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>መስኩ %field ፋይል ይቀበላል፦ እንደ upload ይላኩት (የmultipart ጥያቄ)።</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>መስኩ %field ፋይል አይቀበልም።</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>መስኩ %field እሴት ይፈልጋል።</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>ቅርጸቱ %format ለባለ ቅርጸት ጽሑፍ መስኮች ብቻ ነው፤ %field እሴቱን እንዳለ ይቀበላል (RAW)።</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>መስኩ %field ያስፈልጋል።</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ሊነበብ አልቻለም።</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content version የሚቀበለው ከ id ጋር ብቻ ነው።</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>የቅድመ እይታ ቶከኑ ልክ አይደለም ወይም ጊዜው አልፏል።</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>መነሻ አይደለም (https://host ወይም https://host:port)፦ %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>የGraphQL API ወሰን አይደለም፦ %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>ምዝገባዎችን ወደ /api/graphql/subscribe ይላኩ (የክስተት ዥረት ወይም WebSocket)።</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>ጥያቄው የሰነዱን ምንም ክዋኔ አይጠቅስም።</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>ምዝገባ በትክክል አንድ መስክ ይጠይቃል።</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>በጣም ብዙ ምዝገባዎች ክፍት ናቸው፤ ቆይተው እንደገና ይሞክሩ።</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>%max ምዝገባዎች ክፍት አለዎት፣ ይህም የተፈቀደው ከፍተኛ ነው።</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>አድራሻዎ %max ምዝገባዎች ክፍት አሉት፣ ይህም የተፈቀደው ከፍተኛ ነው።</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>ምዝገባዎች በዚህ የጣቢያ መዳረሻ ውስጥ ጠፍተዋል።</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>ለመመዝገብ ይግቡ (ቶከን ወይም የግል የAPI ቁልፍ)።</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>ሚውቴሽኖችን ወደ /api/graphql ይላኩ።</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>ፍልሰቶች</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ሁኔታው ሊነበብ አልቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>የፍልሰቶቹ ሰንጠረዦች ገና የሉም፦ ./console exp:upgrade --apply ይፈጥራቸዋል።</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count ፍልሰቶች አልተሳኩም</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>አፈጻጸም በሂደት ላይ ነው፣ በ%user የተጀመረ</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ጭነቱ ተቆልፏል፦ %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>በመጠባበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ያልተሳኩ</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>ወላጅ አልባ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>የመጨረሻው አፈጻጸም</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>እስካሁን የለም</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>ሁሉም ፍልሰቶች</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>የተመሰለ አፈጻጸም</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>የሙከራ አፈጻጸም</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>በመጠባበቅ ላይ ያሉት ፍልሰቶች ከዚያ በኋላ በተመለሰ ግብይት ውስጥ ተካሂደዋል፦ ምንም አልተቀመጠም። ከታች እያንዳንዱ በውሂብ ጎታው ውስጥ የቀየረው ይታያል።</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>አፈጻጸም አሁን የሚያደርገው። ምንም አይቀየርም፦ እያንዳንዱ በመጠባበቅ ላይ ያለ ፍልሰት የሚያደርጋቸውን ለውጦች፣ አፈጻጸሙም በፊትና በኋላ የሚያደርገውን ይዘረዝራል።</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>አስመስል</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>አስኪድ</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>የሙከራ አፈጻጸሙ አልተሳካም፦ %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>ማስመሰል የንድፍ ለውጦቻቸው ሊመለሱ የሚችሉ PostgreSQL ወይም SQLite ያስፈልገዋል፤ በዚህ የውሂብ ጎታ ላይ ከታች ያለው ዕቅድ አፈጻጸም የሚያደርገውን ያሳያል።</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>ፍልሰቶቹ</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>ፍልሰት</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ሁኔታ</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>የሚያደርገው</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>ማስመሰል፦ %result በ%ms ሚሴ</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>እስካሁን ምንም ፍልሰት የለም።</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>ከአፈጻጸሙ በፊትና በኋላ</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>የቀደመ ቅጽበታዊ ቅጂ</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ይወሰዳል፣ ፍልሰት ካልተሳካ ይመለሳል</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ጠፍቷል</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>የኋላ ቅጽበታዊ ቅጂ</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>አፈጻጸሙ ሲሳካ ይወሰዳል</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total ፍልሰቶች፦ %pending በመጠባበቅ ላይ፣ %done ተጠናቀዋል፣ %failed አልተሳኩም።</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>የፍልሰት ታሪክ</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>እያንዳንዱ አፈጻጸም ከተጠቃሚው፣ ከአካባቢው፣ ከቅጽበታዊ ቅጂዎቹ እና ኮሚት፣ መለያ እና ፑሽ ከተደረገው ጋር። ያልተሳካ ወይም የተቋረጠ አፈጻጸም መቀጠል ይችላል፤ ከሱ በፊት ቅጽበታዊ ቅጂ የተወሰደለት አፈጻጸም ሊመለስ ይችላል።</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>አፈጻጸሞቹ ሊነበቡ አልቻሉም፦ %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>የፍልሰቶቹ ሰንጠረዦች ገና የሉም፦ ./console exp:upgrade --apply ይፈጥራቸዋል።</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>አሳይ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ሁሉም</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>አፈጻጸሞች</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>የተጀመረ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>በ</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>ቅጽበታዊ ቅጂዎች</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ማከማቻ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>እርምጃዎች</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>በፊት</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>በኋላ</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ፑሽ፦ %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>ቀጥል</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>መልስ</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>በዚህ ሁኔታ ውስጥ ምንም አፈጻጸም የለም።</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>እዚህ የተጀመሩ</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>በእነዚህ ገጾች ላይ የተጀመሩ አፈጻጸሞች፣ ቀጣይነቶች እና መመለሻዎች፣ ከእያንዳንዱ ሪፖርት ጋር።</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ምን</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ውጤት</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>መመለሻ</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>የ%target መመለሻ</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>አፈጻጸም %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>አፈጻጸሙ ያደረገው፣ መዝገቡ እና ምዝግብ ማስታወሻው። እዚህ የተጀመረ አፈጻጸም ይህ ገጽ ሲዘጋ ከበስተጀርባ ይቀጥላል፤ ለመከታተል ገጹን እንደገና ይክፈቱ።</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>ይህን አፈጻጸም ቀጥል</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>ይህን አፈጻጸም መልስ</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>መዝገቡ ሊነበብ አልቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>እድገት</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>በ%user በ%time ተጀምሯል።</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>ኮዱን በማረጋገጥ እና ከአፈጻጸሙ በፊት ቅጽበታዊ ቅጂ በመውሰድ ላይ</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id በመካሄድ ላይ (%index ከ%total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>ከ%total %done ተጠናቀዋል</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>ፍልሰቶቹ ተካሂደዋል፤ አንዱ ካልተሳካ ቅጽበታዊ ቅጂው በመመለስ ላይ</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>ከአፈጻጸሙ በኋላ ቅጽበታዊ ቅጂ በመውሰድ፣ ኮሚት፣ መለያ እና ፑሽ በማድረግ ላይ</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>ቅጽበታዊ ቅጂውን በመመለስ ላይ</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>አፈጻጸሙ አብቅቷል። ሪፖርቱ በመጫን ላይ።</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>እድገቱን መከታተል አልተቻለም። አፈጻጸሙ እንዴት እንደሆነ ለማየት ገጹን እንደገና ይጫኑ።</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ይህ ገጽ አፈጻጸሙን በሂደቱ ይከታተላል።</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>እንደገና ጫን</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ሪፖርት</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>የቆይታ ጊዜ</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ሚሴ</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>አፈጻጸሙ እንደ ስህተት ያወጣው</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>መዝገብ</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>አካባቢ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>የለም</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ያበቃበት</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ኮሚት</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>መለያ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ፑሽ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>መልዕክት</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>የዚህ አፈጻጸም ፍልሰቶች</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ምንጭ</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>የአፈጻጸም ምዝግብ ማስታወሻ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>የምዝግብ ማስታወሻው መጨረሻ ብቻ ይታያል።</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>በመካሄድ ላይ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ያለ ሪፖርት አብቅቷል</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ተሳክቷል</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>አልተሳካም</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ተከልክሏል</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>የውሂብ ጎታው ሊደረስበት አልቻለም</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>የውስጥ ስህተት</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>አፈጻጸም በሂደት ላይ ነው</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind በ%user በ%time ተጀምሯል።</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>ተከታተል</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ጭነቱ ተቆልፏል</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>ሌላ አፈጻጸም መቆለፊያውን ይዟል (ማሻሻያ ወይም በኮንሶል ላይ ያለ አፈጻጸም)፦ %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>ተጠናቋል</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>በመጠባበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>አያስፈልግም</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ያልታወቀ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ተመልሷል</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>ተተግብሯል</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ይተገበር ነበር</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>ተመልሷል</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ይመለስ ነበር</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>አልተካሄደም</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ሌላውን ይጠብቃል</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ለውጡ ተቀባይነት አግኝቷል</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ለውጡ ተቀባይነት ያገኝ ነበር</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>ተመስሏል</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ፍልሰቶች</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ሁኔታ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ታሪክ</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target መልስ</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>አፈጻጸም ከሱ በፊት ወደተወሰደው ቅጽበታዊ ቅጂ ይመለሳል፣ አንድ ፍልሰት ደግሞ በራሱ down()። የቀደመ ቅጽበታዊ ቅጂን መመለስ ለባለሙያዎች ነው። እያንዳንዱ የአሁኑን ሁኔታ ቅጽበታዊ ቅጂ ከወሰደ በኋላ በእርስዎ ስም ከበስተጀርባ ይካሄዳል።</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ሊመለስ የሚችለው ሊነበብ አልቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>አንድ አፈጻጸም</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>አንድ ፍልሰት</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>የቀደመ ቅጽበታዊ ቅጂ</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>መግለጫ</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>አዎ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>አይ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ቅጽበታዊ ቅጂ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>መሰየሚያ</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>የተወሰደበት</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ዓይነት</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>የሚመለሱ ክፍሎች</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>የውሂብ ጎታው</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>የማከማቻ ፋይሎቹ (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>ቅንብሮቹ (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>የውሂብ ጎታውን መመለስ ክፍለ-ጊዜዎችን ጨምሮ ወደ ቅጽበታዊ ቅጂው ጊዜ ይመልሰዋል፦ ከዚያ በኋላ እንደገና እንዲገቡ ሊጠየቁ ይችላሉ። ከዚያ ወዲህ የተቀየረው ሁሉ ይጠፋል፤ በመጀመሪያ የአሁኑ ሁኔታ ቅጽበታዊ ቅጂ ይወሰዳል።</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>ይህ ምን እንደሚመልስ አውቃለሁ</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>የቅጽበታዊ ቅጂውን መለያ ቁጥር እንደገና ይጻፉ</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>አዎ፣ መልስ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ሰርዝ</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ከነሱ በፊት ቅጽበታዊ ቅጂ የተወሰደላቸው አፈጻጸሞች።</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>ምረጥ</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>እስካሁን ቅጽበታዊ ቅጂ ያለው አፈጻጸም የለም።</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>ራሳቸውን መመለስ የሚችሉ የተተገበሩ ፍልሰቶች (down() አላቸው)።</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>ምንም የተተገበረ ፍልሰት down() የለውም።</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>የቀደሙ ቅጽበታዊ ቅጂዎች (ባለሙያዎች)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>እስካሁን ቅጽበታዊ ቅጂ የለም።</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>ፍልሰቶቹን አስኪድ</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>አፈጻጸሙ እንደ %user ከበስተጀርባ ይካሄዳል፣ ገጹም በሂደቱ ያሳየዋል። ከመጀመሪያው ፍልሰት በፊት የጭነቱ ቅጽበታዊ ቅጂ ይወሰዳል፤ ፍልሰት ሳይሳካ ሲቀር አፈጻጸሙ ይቆማል ቅጽበታዊ ቅጂውም ይመለሳል።</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>በመጀመሪያ የሙከራ አፈጻጸም</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ሁኔታው ሊነበብ አልቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>በመጠባበቅ ላይ ያሉ ፍልሰቶች</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>በዚህ ቅደም ተከተል ይካሄዳሉ። አንዱን እና የሚያስፈልጉትን ለኋላ አፈጻጸም ለመተው ምልክቱን ያንሱ።</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>አስኪደው</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>በሚካሄድበት ጊዜ የጥገና ሁነታን ያበራል።</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>ከተተገበሩ በኋላ የተቀየሩ</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>እነዚህ ፋይሎች የተተገበሩት አይደሉም። ለውጡ ከምክንያት ጋር ተቀባይነት ካላገኘ አፈጻጸም ይከለክላቸዋል፤ እንደገና አይካሄዱም፣ አዲሱ ቼክሰም ይመዘገባል ምክንያቱም በኦዲት ምዝግብ ማስታወሻ ውስጥ ይቀመጣል።</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>ለውጦቹን ተቀበል</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ለምን</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ነባሪዎቹ ደህንነታቸው የተጠበቀ ናቸው። እያንዳንዱ ሳጥን አንድ እርምጃ ይተዋል።</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>ቅጽበታዊ ቅጂ የለም</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>ከአፈጻጸሙ በፊትና በኋላ ቅጽበታዊ ቅጂ የለም፦ አለመሳካት በራስ-ሰር ሊመለስ አይችልም።</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>መመለስ የለም</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>ከአለመሳካት በኋላ ጭነቱን አለመሳካቱ እንደተወው ተው።</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>ኮሚት ያልተደረጉ ለውጦችን አቆይ</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>ቅንብሮች፣ ቅጥያዎች ወይም ንድፎች ኮሚት ያልተደረጉ ለውጦች ቢኖራቸውም አስኪድ፤ ወደ ቅጽበታዊ ቅጂው ይገባሉ።</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>ኮሚት የለም</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>የሁኔታ ፋይሉን እና የአፈጻጸም ምዝግብ ማስታወሻውን ኮሚት አታድርግ (መለያም ፑሽም የለም)።</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>ፑሽ የለም</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>ኮሚት እና መለያ አድርግ፣ ግን ፑሽ አታድርግ።</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>መለያ የለም</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>ኮሚት እና ፑሽ አድርግ፣ ግን አፈጻጸሙን መለያ አትስጥ።</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>አዎ፣ እነዚህን ፍልሰቶች አሁን አስኪድ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>በመጠባበቅ ላይ ያለ ፍልሰት የለም።</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>ወደ ሁኔታው ተመለስ</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>አንድ ጊዜ እንደ ፋይሎች የተጻፉ (ይዘት፣ ክፍሎች፣ ሚናዎች፣ ቅንብሮች፣ ንድፍ) እና በተመሳሳይ ቅደም ተከተል ለእያንዳንዱ የጣቢያው ጭነት የሚተገበሩ የዚህ ጭነት ለውጦች። አፈጻጸም በመጀመሪያ ቅጽበታዊ ቅጂ ይወስዳል፣ ፍልሰት ሳይሳካ ሲቀር ይመልሰዋል፣ ያደረገውንም ይመዘግባል፣ ኮሚት እና ፑሽ ያደርጋል።</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count በመጠባበቅ ላይ ያሉትን አስኪድ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>አጠቃላይ እይታ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>በመጠባበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ተጠናቋል</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>አያስፈልግም</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>የውሂብ ጎታ</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ግብይቶች፦ %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>የጣቢያ ፍልሰቶች በ migrations/ ውስጥ፣ የቅጥያ ፍልሰቶች ደግሞ በ extension/&lt;name&gt;/migrations/ ውስጥ ናቸው። በስሞቻቸው እና በሚያስፈልጓቸው ቅደም ተከተል ይካሄዳሉ።</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>የመጨረሻው አፈጻጸም</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>ፋይሉ ከተተገበረ በኋላ ተቀይሯል።</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>እስካሁን ምንም ፍልሰት የለም። ./console exp:migration:generate --skeleton &lt;name&gt; --apply የመጀመሪያውን ይጽፋል።</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>የቅርብ ጊዜ አፈጻጸሞች</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>ሁሉም አፈጻጸሞች</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>እስካሁን ምንም አፈጻጸም የለም።</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>አፈጻጸምን ማስመሰል የ migration/run ፖሊሲ ያስፈልገዋል።</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>አፈጻጸም በሂደት ላይ ነው፦ ሲያበቃ ያስመስሉ።</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ዝግጅት</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target የዚህ ጭነት አፈጻጸም፣ ፍልሰት ወይም ቅጽበታዊ ቅጂ አይደለም።</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>በመጀመሪያ «አዎ፣ መልስ» ላይ ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>የቀደመ ቅጽበታዊ ቅጂን መመለስ ለባለሙያዎች ነው፦ «ይህ ምን እንደሚመልስ አውቃለሁ» ላይ ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>የቅጽበታዊ ቅጂውን መለያ ቁጥር እንደገና ይጻፉ፦ %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>ለመመለስ ቢያንስ አንድ ክፍል ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>ይህ አፈጻጸም ከሱ በፊት የተወሰደ ቅጽበታዊ ቅጂ የለውም፦ ፍልሰቶቹን አንድ በአንድ ይመልሱ ወይም የቀደመ ቅጽበታዊ ቅጂ ይመልሱ።</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ይህ ፍልሰት ራሱን መመለስ አይችልም፦ አልተተገበረም ወይም down() የለውም።</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ቅጹ ሊነበብ አልቻለም።</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>የሚቀጥለውን አፈጻጸም ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>በመጀመሪያ «አዎ፣ እነዚህን ፍልሰቶች አሁን አስኪድ» ላይ ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>ቢያንስ አንድ ፍልሰት ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>አንድ ፍልሰት ከተተገበረ በኋላ ተቀይሯል፦ ለውጡን ከምክንያት ጋር ይቀበሉ ወይም ፋይሉን ይመልሱ።</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>የተቀየሩት ፍልሰቶች ለምን ተቀባይነት እንዳገኙ ምክንያቱን ይስጡ።</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>ምክንያቱ ቢበዛ 500 ቁምፊዎች ነው።</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>እዚህ የተጀመረ አፈጻጸም አሁንም በሂደት ላይ ነው (%detail)። እስኪያበቃ ይጠብቁ።</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>ሌላ አፈጻጸም የጭነቱን መቆለፊያ ይዟል፦ %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>አፈጻጸሙ ያለ እና የገባ ተጠቃሚ ያስፈልገዋል።</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>የ php የትዕዛዝ መስመር ፕሮግራም አልተገኘም። migration.ini [AdminSettings] PhpCliPath ን ወደ ሙሉ ዱካው ያቀናብሩ።</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ተሰናክሏል፣ ስለዚህ እዚህ አፈጻጸም ሊጀመር አይችልም። በአገልጋዩ ላይ ./console exp:migration:migrate --apply ን ያስኪዱ።</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>የአፈጻጸሞቹ አቃፊ ሊጻፍበት አይችልም፦ %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>አፈጻጸሙ ተጀምሯል ግን የሂደት መለያ ቁጥሩን አላሳወቀም። %detail ን ያረጋግጡ።</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>የሚመለሰውን ይጥቀሱ።</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>አፈጻጸሙ ሊጀመር አልቻለም።</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>ለውጦችን መቅዳት</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>ቅጂ በሚካሄድበት ጊዜ በአስተዳደሩ ወይም በጣቢያው የጎን አሞሌ ላይ የሚቀይሩት እንደ ፍልሰት ደረጃዎች ይቀመጣል፦ ይዘት፣ ክፍሎች፣ ሚናዎችና ፖሊሲዎች፣ ክፍልፋዮች፣ ተጠቃሚዎችና ቡድኖች፣ የURL ተለዋጭ ስሞች፣ ቅንብሮች። ሲጨርሱ ያቁሙት፣ የያዘውን ይመልከቱ፣ ከእሱም ፍልሰት ይፍጠሩ።</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ቅጂዎቹን ማንበብ አልተቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>የቅጂዎቹ ሰንጠረዦች ገና የሉም፦ መጀመሪያ ማሻሻያውን ያሂዱ (exp:upgrade --apply)።</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>መቅዳት በmigration.ini ውስጥ ጠፍቷል ([RecordingSettings] Recording=disabled)።</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>የእኔ ለውጦች</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>እስኪያቆሙት ድረስ እርስዎ የሚቀይሩትን ብቻ፣ የትም ቢቀይሩት፣ ይቀዳል።</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ቅጂ</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>ከ%time ጀምሮ፣ እስካሁን %count ለውጦች።</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>መለያ (አማራጭ)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>የያዘውን አሳይ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>መቅዳቱን አቁም</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>የእኔን ለውጦች መቅዳት ጀምር</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>የመላው ጣቢያ መስኮት</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>እስኪዘጋ ድረስ የእያንዳንዱን ተጠቃሚና የኮንሶሉን እያንዳንዱን ለውጥ ይቀዳል። ሲከፍቱት እርስዎ መሆንዎን እንዲያረጋግጡ ይጠየቃሉ።</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ክፍት</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>መስኮቱን ዝጋ</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>የመላው ጣቢያ መስኮት ክፈት</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ቅጂዎች</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>የተጠቃሚ መለያ (የመግቢያ ስም፣ ኢሜይል፣ የይለፍ ቃል) እና የተጠቃሚ መለያዎች መስኮች በፍጹም አይቀዱም።</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ለውጦች</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>መላው ጣቢያ</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>የ%name ለውጦች</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ቆሟል</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>እስካሁን ምንም ቅጂ የለም።</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ቅጂ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>ሁሉም ቅጂዎች</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>የሚፈጥረው ፍልሰት</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>ለእያንዳንዱ የተቀየረ ነገር በአንድ ደረጃ የተሰበሰቡ ለውጦች፦ ከዚህ ቅጂ የሚፈጠር ፍልሰት የሚያደርገው።</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>ይህ ጭነት የYAML ደረጃ ዓይነቶች %types ሲኖሩት ከእሱ ፍልሰት መፍጠር ይቻላል።</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ሆን ተብሎ የቀረ፦ %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ምንም አልተቀዳም።</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>የያዘው</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count ለውጦች፣ በተደረጉበት ቅደም ተከተል።</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ለውጥ</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ደረጃ</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>የሚመለከተው</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>ተጨማሪ %count፦ ./console exp:migration:record:show ሁሉንም ይዘረዝራል።</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ጣል</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ቅጂውንና የያዘውን ያስወግዳል። የተቀየረው እንደተቀየረ ይቆያል።</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>አዎ፣ ይህን ቅጂ ጣል</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>እየተቀዳ ነው…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ለውጦችዎ ለፍልሰት እየተቀዱ ነው።</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>በዚህ ጣቢያ ላይ ያለ እያንዳንዱ ለውጥ ለፍልሰት እየተቀዳ ነው (የመላው ጣቢያ መስኮት)።</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>የመላው ጣቢያ ቅጂ ጀምሯል፦ እስኪያቆሙት ድረስ የእያንዳንዱ ተጠቃሚ እያንዳንዱ ለውጥ ይቀዳል።</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ቅጂ ጀምሯል፦ እስኪያቆሙት ድረስ ለውጦችዎ ይቀዳሉ።</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ቅጂው ቆሟል። የያዘው እስኪጥሉት ድረስ ይቆያል።</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ቅጂውና ክስተቶቹ ተወግደዋል።</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ቅጂ %id የለም።</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>መጀመሪያ «አዎ፣ ይህን ቅጂ ጣል» የሚለውን ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>የክፍለ ጊዜ ቅጂን ማቆም የሚችለው የቀዳው ተጠቃሚ ብቻ ነው።</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>የሚቆመውን ቅጂ ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>የዚህ ዓይነት ቅጂ አስቀድሞ እየተካሄደ ነው።</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ቅጂውን መቀየር አልተቻለም፦ %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>ፍልሰት ፍጠር</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>የፍልሰቱ ስም (አማራጭ)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>ፍልሰቱ %file ተጽፏል። ምንም እርምጃ ሊያደርጋቸው የማይችሉ ለውጦች በፋይሉ አናት ላይ ተዘርዝረዋል፤ በእጅ መደረግ አለባቸው።</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>ምንም ፍልሰት አልተጻፈም፦ %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>በክፍሎች የተከፈለ ረጅም ሂደት</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ባዶ መስኮች የmigration.ini [RunSettings] ቅንብሮችን ይጠብቃሉ።</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>ቢበዛ ይህን ያህል ፍልሰቶች</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>ከዚህ በኋላ ተጨማሪ ፍልሰት የለም (ሰከንዶች)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>በፍልሰቶች መካከል እረፍት (ሰከንዶች)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>ዝቅተኛ ቅድሚያ (ከ1 እስከ 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>የረጅም ሂደት መስክ ከ1 ጀምሮ ሙሉ ቁጥር ነው (እረፍት፦ ከ0 እስከ 60 ሰከንዶች፣ ቅድሚያ፦ ከ1 እስከ 19) ወይም ባዶ።</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>በ%time በራሱ ይዘጋል።</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>ከዚህ በኋላ በራሱ ይዘጋ (ደቂቃዎች፣ አማራጭ)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>ደቂቃዎቹ ከ1 እስከ 44640 (31 ቀናት) ሙሉ ቁጥር ናቸው ወይም ባዶ።</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>ፍልሰት %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>አዲስ ፍልሰት</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>የYAML ፍልሰት፦ እንደ ጽሑፍ ይጻፉት ወይም ደረጃዎቹን በቅጹ ውስጥ ይገንቡ፣ ይፈትሹት፣ ከዚያም በፍልሰቶች አቃፊ ውስጥ ያስቀምጡት።</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ይህ ፍልሰት አስቀድሞ ተካሂዷል፣ ስለዚህ እንደገና አይቀመጥም፦ የተቀየረ ፋይል በቼክሰም ጠባቂው ውድቅ ይደረጋል። ለውጡን በአዲስ ፍልሰት ውስጥ ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>የድር አገልጋዩ ፋይሉን መጻፍ አይችልም።</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>ከላይ ያሉት የአስተያየት መስመሮች ራስጌው ናቸው (description, author, requires, environments, engines)። ደረጃ በቅጹ ውስጥ ሲታከል ወይም ሲቀየር ፍልሰቱ እንደገና ይጻፋል፦ በደረጃዎቹ መካከል ያሉ አስተያየቶች አይጠበቁም።</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>የፍልሰቱ ስም</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>የሚሄድበት</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>ጣቢያው</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>የYAML ጽሑፍ</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>ፈትሽ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>አስቀምጥ</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ደረጃዎች</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>ቁልፎች</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>አርትዕ</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>ወደ ላይ ውሰድ</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>ወደ ታች ውሰድ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>አስወግድ</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>እስካሁን ምንም ደረጃ የለም፦ በቅጹ አንዱን ያክሉ ወይም በጽሑፉ ውስጥ ይጻፏቸው።</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>ደረጃ %number ቀይር</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>አንድ ደረጃ አክል</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>የደረጃ ቅጽ ከደረጃ ዓይነቱ ይሠራል፦ ቁልፎቹ፣ እያንዳንዱ የሚቀበለው እና የሚገባባቸው ሁነታዎች።</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>የደረጃ ዓይነት</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>ቅጹን አሳይ</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>ደረጃው ዓይነቱ የማያውቃቸው ቁልፎች አሉት፤ ደረጃው ሲቀየር ይተዋሉ፦ %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>ሁነታ</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>በ</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>በ%modes ብቻ</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ነባሪ፦ %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>ሁኔታዎች፣ ማጣቀሻዎች እና አስተያየት</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>በኮማ የተለዩ ስም=እሴት ጥንዶች። የዚህ ደረጃ እሴቶች፦ %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>ምሳሌ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ደረጃ ቀይር</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>ደረጃ አክል</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check የሚለው፦ ራስጌው፣ ሰነዱ እና በደረጃ ዓይነቱ የተፈተሸ እያንዳንዱ ደረጃ።</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>ፍልሰቱ ፍተሻውን አልፏል።</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ቅድመ እይታ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAMLው እንደሚቀመጠው።</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAMLን አሳይ</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>የYAML ፍልሰቶች</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ተካሂዷል</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>እስካሁን ምንም የYAML ፍልሰቶች የሉም።</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>አርታዒ</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>በፍልሰት አቃፊዎቹ ውስጥ የYAML ፍልሰት %id የለም።</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>የደረጃ ዓይነት ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>ደረጃው ታክሏል። ከማስቀመጥዎ በፊት ፍልሰቱን ይፈትሹ።</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>ደረጃው ተቀይሯል። ከማስቀመጥዎ በፊት ፍልሰቱን ይፈትሹ።</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>ደረጃ ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ይህ ደረጃ ቅጽ የለውም (ዙር፣ ወይም ይህ ጭነት የሌለው የደረጃ ዓይነት)፦ በጽሑፉ ውስጥ ይቀይሩት።</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>ፍልሰቱ የት እንደሚሄድ ይምረጡ፦ ጣቢያው ወይም ንቁ ቅጥያ።</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file ተቀምጧል። ፍልሰቱ ከመካሄዱ በፊት የሙከራ አፈጻጸም ያካሂዱ።</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>አልተቀመጠም፦ %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>የርቀት አገልጋዮች</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ይህ ጭነት ፍልሰቶቹን የሚያሰማራባቸው ሌሎች ጭነቶች፦ ማሰማራት ፍልሰቶቹን ወደ ተመረጡት የርቀት አገልጋዮች ይልካል እና እዚያ ያስኪዳቸዋል፣ ሁሉንም በአንድ ጊዜ እና ተመሳስሎ። የርቀት አገልጋይ ምስጢር በፍጹም አይይዝም፦ የመግቢያ ማስረጃው በዝግጅት &gt; ምስጢሮች ውስጥ ያለን አንዱን ይሰይማል።</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>አዲስ የርቀት አገልጋይ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>እገዛ</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>የ%id ግንኙነት ሙከራ</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>የርቀት አገልጋዮቹ</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>እስከ %parallel የርቀት አገልጋዮች በአንድ ጊዜ ይሠራባቸዋል፤ አንድ ዙር በእያንዳንዱ ላይ %timeout ሰከንድ ሊወስድ ይችላል።</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>የርቀት አገልጋይ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>አድራሻ</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>የመግቢያ ማስረጃ</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>ቡድኖች</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>የሚስተካከሉ ቅንብሮች</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ፋይሎች ብቻ (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>የSSH ቁልፍ</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>የይለፍ ቃል</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>የለም (የአስተናጋጁ SSH ወኪል እና ቁልፎች)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>ግንኙነቱን ሞክር</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>ወደ ቡድን የሚደረግ ማሰማራት ወደ እያንዳንዱ የቡድኑ የርቀት አገልጋይ ይሄዳል።</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>ወደ የርቀት አገልጋዮች አሰማራ</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>እስካሁን ምንም የርቀት አገልጋይ አልተዘጋጀም።</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>የርቀት አገልጋይ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>እዚህ ምንም አይላክም ወይም አይካሄድም፦ «አስቀምጥ» ቅንብሮቹን ወደ settings/override/migration.ini.append.php ይጽፋል። የመግቢያ ማስረጃው ስም ነው፤ እሴቱ በዝግጅት &gt; ምስጢሮች ወይም በአካባቢው ውስጥ ይቆያል።</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>እነዚህን ቅንብሮች ይፈትሹ</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ቅንብሮቹ እንደገቡት፣ ገና አልተቀመጡም።</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ግምገማ</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ቅንብሮቹ ትክክል ናቸው። እነዚህ መስመሮች ይጻፋሉ፦</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ማስተላለፊያ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ስም ብቻ፤ እሴቱ በ ዝግጅት &gt; ምስጢሮች ውስጥ ይቀራል</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>የሚጻፉት መስመሮች</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>ግንኙነት</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>የአስተናጋጅ ቁልፍ</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. የርቀት አገልጋዩ</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>የርቀት አገልጋዩ ስም እና የትኛው አካባቢ እንደሆነ።</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>መታወቂያ</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>ፊደላት፣ አሃዞች፣ - እና _፣ ለምሳሌ production1። የርቀት አገልጋዩን በሪፖርቶች እና በኮንሶል (--remotes=production1) ላይ ይሰይማል፣ በኋላም ሊቀየር አይችልም።</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... በምዕራፎች የሚደረግ ማሰማራት አካባቢዎቹን በዚህ ቅደም ተከተል ያልፋል።</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>አማራጭ፣ በኮማ የተለዩ፣ ለምሳሌ production። ወደ ቡድን የሚደረግ ማሰማራት ወደ እያንዳንዱ የቡድኑ የርቀት አገልጋይ ይሄዳል።</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. ግንኙነቱ</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ፋይሎቹ እንዴት እዚያ እንደሚደርሱ እና ጭነቱ የት እንዳለ።</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>በSSH ላይ፣ የተቀየረው ብቻ፣ የተቋረጠ ማስተላለፍ ይቀጥላል። rsync በተጫነበት ምርጡ ምርጫ።</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH ከscp ጋር ለፋይሎቹ።</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH ከsftp ጋር ለፋይሎቹ።</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>ፋይሎች ብቻ፦ ፍልሰቶቹ ይላካሉ እና መልሰው ይነበባሉ፣ ነገር ግን እዚያ ሊካሄዱ አይችሉም።</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP በTLS ላይ፤ ፋይሎች ብቻ።</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>በዚህ አገልጋይ ላይ በአንድ አቃፊ ውስጥ ያለ ሌላ ጭነት።</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>አስተናጋጅ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>የአስተናጋጅ ስም ወይም አድራሻ፣ ለምሳሌ node1.example.com። ለlocal አይደለም።</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>ወደብ</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>ባዶ፦ ለSSH 22፣ ለFTP 21።</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ተጠቃሚ</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>ዱካ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>እዚያ ያለው የጭነቱ ስር ማውጫ፣ ለምሳሌ /var/www/site (ለFTP፦ የFTP መለያው የሚያየው ዱካ)።</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>የPHP ትዕዛዝ መስመር</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>እዚያ ያለው PHP CLI፦ php፣ ወይም እንደ /opt/plesk/php/8.4/bin/php ያለ ሙሉ ዱካ።</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>የኮንሶል ስክሪፕቶቹ እዚያ እንደ root ይካሄዳሉ</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>የርቀት አገልጋዩ ተጠቃሚ root ሲሆን ብቻ (ያኔ በ--allow-root-user ይካሄዳሉ)።</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. የመግቢያ ማስረጃው</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ይህ ጭነት እዚያ እንዴት እንደሚገባ። የሚቀመጠው ስም ብቻ ነው።</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ምንም</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>ይህ ጭነት የሚሠራበት ተጠቃሚ SSH ወኪል እና ቁልፎች (ለlocal ሁልጊዜ)።</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>እንደ ምስጢር የተቀመጠ የግል ቁልፍ።</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>እንደ ምስጢር የተቀመጠ የይለፍ ቃል (FTP በእሱ ይገባል)።</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>የምስጢሩ ስም</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>ከዝግጅት &gt; ምስጢሮች የሆነ ምስጢር፣ ለምሳሌ deploy_production1።</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ዝግጅት &gt; ምስጢሮች</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>ወይም የአካባቢ ተለዋዋጭ</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>የሚይዘው የአገልጋይ ሂደት ተለዋዋጭ፣ ለምሳሌ DEPLOY_KEY (እንደ env:DEPLOY_KEY ይቀመጣል)። የምስጢሩን ስም ቦታ ይወስዳል።</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. የአስተናጋጅ ቁልፉ</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>አማራጭ፣ ለSSH፣ sftp እና rsync።</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>የአስተናጋጅ ቁልፍ አሻራ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l እንደሚያሳየው። ካለ፣ አስተናጋጁ ይህን ቁልፍ ማሳየት አለበት፤ ከሌለ፣ ቁልፉ በመጀመሪያው ግንኙነት ይማራል።</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. ግምገማ</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>ከላይ ባሉት ቅንብሮች ግንኙነቱን ይሞክሩ፣ ከዚያም የሚጻፉትን መስመሮች ይገምግሙ።</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ይህን የርቀት አገልጋይ አስወግድ</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>ቅንብሮቹ ከsettings/override/migration.ini.append.php ይወገዳሉ። በርቀት አገልጋዩ ላይ ምንም አይቀየርም፣ ማሰማራቶቹም በታሪክ ውስጥ ይቆያሉ።</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>አዎ፣ ይህን የርቀት አገልጋይ አስወግድ</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ማሰማራቶች</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ማሰማራት የዚህን ጭነት ፍልሰቶች ወደ ተመረጡት የርቀት አገልጋዮች ይልካል እና እዚያ እንደ %user ያስኪዳቸዋል፣ ሁሉንም በአንድ ጊዜ እና ተመሳስሎ፦ እያንዳንዱ የርቀት አገልጋይ በመጀመሪያ ይፈተሻል፣ አንዱ ካልተሳካ ደግሞ የተገበረው እያንዳንዱ የርቀት አገልጋይ ይመለሳል። ከበስተጀርባ ይካሄዳል፣ ገጹም እያንዳንዱን የርቀት አገልጋይ በሂደቱ ያሳያል።</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. የርቀት አገልጋዮቹ</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>የርቀት አገልጋዮችን፣ ቡድንን ወይም ሁለቱንም ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>ወደዚያ አሰማራ</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. እንዴት</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>አሰማራ</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>ላክ እና አስኪድ</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>ፍልሰቶቹ ወደ እያንዳንዱ የርቀት አገልጋይ ይላካሉ፣ ይረጋገጣሉ እና በአንድ የጋራ የአፈጻጸም መታወቂያ ይካሄዳሉ።</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>ማስተላለፍ ብቻ</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ፋይሎቹ ይላካሉ እና ይረጋገጣሉ፣ ምንም አይካሄድም (ለFTP የርቀት አገልጋይ ብቸኛው መንገድ)።</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>በምዕራፎች</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>ምዕራፍ በምዕራፍ በአካባቢዎቹ ቅደም ተከተል (dev, stage, beta, production ...)፦ የመጀመሪያው ምዕራፍ ይሰማራል፣ ከዚያም አንድ ሰው ቀጣዩን እስኪያጸድቅ ድረስ በር ይጠብቃል። በእያንዳንዱ ምዕራፍ ውስጥ ሁሉም ወይም ምንም።</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>እነዚህ ፍልሰቶች ብቻ</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>አማራጭ፦ የፍልሰት መታወቂያዎች፣ በኮማ የተለዩ። ባዶ፦ የጣቢያው እና የቅጥያዎቹ እያንዳንዱ ፍልሰት።</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>ቅድመ ፍተሻ ብቻ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>አዎ፣ አሁን አሰማራ</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>አንድ ነገር የላኩ ወይም ያስኬዱ ማሰማራቶች፣ አዲሱ በመጀመሪያ (ቅድመ ፍተሻ ሪፖርት አያስቀምጥም)።</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>ማስተላለፍ ብቻ</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>በምዕራፎች፣ %stages ምዕራፎች</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>አልተመሳሰለም</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>እስካሁን ምንም ማሰማራት የለም።</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ማሰማራት %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>እያንዳንዱ የማሰማራቱ የርቀት አገልጋይ ከሁኔታው ጋር። እዚህ የተጀመረ ማሰማራት ይህ ገጽ ሲዘጋ ከበስተጀርባ ይቀጥላል፤ ለመከታተል ገጹን እንደገና ይክፈቱ።</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>ሁሉም ማሰማራቶች</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>ቅድመ ፍተሻ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ቀጣዩ ምዕራፍ</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>ቅንብሮቹና የመግቢያ ማስረጃዎቹ እየተፈተሹ ነው</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>ቅድመ ፍተሻ፦ የእያንዳንዱ የርቀት አገልጋይ ሁኔታ እየተነበበ ነው</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>የፍልሰት ፋይሎቹ እየተላኩ ነው</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>የደረሰው እየተረጋገጠ ነው</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>ፍልሰቶቹ በእያንዳንዱ የርቀት አገልጋይ ላይ እየተካሄዱ ነው</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>የርቀት አገልጋዮቹ እየተመለሱ ነው</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ማሰማራቱ አብቅቷል። ሪፖርቱ እየተጫነ ነው።</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>እድገቱን መከታተል አልተቻለም። ማሰማራቱ እንዴት እንደሆነ ለማየት ገጹን እንደገና ይጫኑ።</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>ዙር</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ይህ ገጽ ማሰማራቱን በሂደቱ ይከታተላል።</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>ተመሳስሎ</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>ምዕራፎች</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ምዕራፍ %stage በበሩ ላይ ይጠብቃል</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>በር %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>በ%user በ%time ጸድቋል</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>ምዕራፍ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>የተላኩ ፋይሎች</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>የከርነል ስሪት</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>ተተግብሯል፦ %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>የሚተገበሩ፦ %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>ዙሮች</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>በር፦ ምዕራፍ %stage ከ%stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>ከእሱ በፊት ያሉት ምዕራፎች ተሰማርተዋል። ይፈትሿቸው፣ ከዚያም ቀጣዩን ምዕራፍ ያጽድቁ፦ የርቀት አገልጋዮቹ እንደገና ይፈተሻሉ እና ይሰማራሉ፣ ሁሉም ወይም ምንም።</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ቀጣይ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>አዎ፣ ቀጣዩን ምዕራፍ አሁን አሰማራ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>አጽድቅ</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ይህን ማሰማራት መልስ</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>ይህን የተገበረው እያንዳንዱ የርቀት አገልጋይ (%list) ከአፈጻጸሙ በፊት ወደተወሰደው ቅጽበታዊ ቅጂ ይመለሳል፣ ሁሉም በአንድ ጊዜ።</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>አዎ፣ ይህን ማሰማራት አሁን መልስ</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>የታቀደ</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ተላልፏል</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ተሰማርቷል</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>በበር ላይ ይጠብቃል</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ተመርጧል</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>የተዘጋጀ</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>ዝግጁ</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ምዕራፉን ይጠብቃል</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ፋይሎች ተልከዋል</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ተረጋግጧል</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>አልተሳካም፣ ራሱን መልሷል</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>አልተቀየረም</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>አልተሰማራም</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ሊደረስበት አይችልም</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>የርቀት አገልጋዩ መልስ ሰጥቷል።</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>የርቀት አገልጋዩ አሁን ጥቅም ላይ ሊውል አይችልም።</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done ተጠናቋል፣ %pending በመጠባበቅ ላይ፣ %failed አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>መቆለፊያ</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>አንድ አፈጻጸም እዚያ መቆለፊያውን ይዟል</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ነጻ</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage ከ%stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>የሚሞከረውን የርቀት አገልጋይ ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>በመጀመሪያ «አዎ፣ ይህን የርቀት አገልጋይ አስወግድ»ን ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>የርቀት አገልጋዩ ሊወገድ አልቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>የርቀት አገልጋዩ ሊቀመጥ አልቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>የቅንብሮች ፋይሉ ሊነበብ አይችልም፦ %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>ቢያንስ አንድ የርቀት አገልጋይ ወይም ቡድን ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>የተመረጠ የርቀት አገልጋይ ከአሁን በኋላ በቅንብሮቹ ውስጥ የለም። ገጹን እንደገና ይጫኑ።</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>በመጀመሪያ «አዎ፣ አሁን አሰማራ»ን ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>የFTP የርቀት አገልጋይ ፍልሰቶችን ማስኪድ አይችልም፦ «ማስተላለፍ ብቻ»ን ይምረጡ ወይም ይተዉት።</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>የሚሰማሩት ፍልሰቶች በኮማ የተለዩ የፍልሰት መታወቂያዎች ናቸው።</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ማሰማራቱ አሁንም በሂደት ላይ ነው። እስኪያበቃ ይጠብቁ።</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ይህ ማሰማራት በበር ላይ አይጠብቅም።</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ይህን ማሰማራት የተገበረ የርቀት አገልጋይ የለም፦ የሚመለስ ነገር የለም።</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>በመጀመሪያ «አዎ፣ ቀጣዩን ምዕራፍ አሁን አሰማራ»ን ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>በመጀመሪያ «አዎ፣ ይህን ማሰማራት አሁን መልስ»ን ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id መታወቂያ ያለው የርቀት አገልጋይ አስቀድሞ አለ።</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>ወደቡ ከ1 እስከ 65535 ያለ ቁጥር ነው።</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>አካባቢው ከፊደላት፣ ከአሃዞች፣ ከ- እና ከ_ የተሠራ ቃል ነው (alpha, dev, stage, beta, production ...)።</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>ቡድን ከፊደላት፣ ከአሃዞች፣ ከ- እና ከ_ የተሠራ ቃል ነው (all አይሆንም)፦ %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>የመግቢያ ማስረጃው አሁን ሊነበብ አይችልም፦ %problem። ከመጀመሪያው ማሰማራት በፊት በዝግጅት &gt; ምስጢሮች ውስጥ ያስቀምጡት (ወይም ተለዋዋጩን ያዘጋጁ)።</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>የFTP የርቀት አገልጋይ ፋይሎችን ብቻ ይቀበላል፦ ወደ እሱ የሚደረግ ማሰማራት «ማስተላለፍ ብቻ» ነው፣ ፍልሰቶቹም እዚያ በእጅ ይካሄዳሉ።</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>የርቀት አገልጋዩ %id በsettings/override/migration.ini.append.php ውስጥ የለም፤ በተዘጋጀበት ቦታ ያስወግዱት።</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>በFTP ተገብቶ index.php ተነቧል። የFTP የርቀት አገልጋይ የፍልሰት ሁኔታ ሊነበብ አይችልም።</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>የተሻሻለ</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>የተፈጠረ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ስም</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>መደብ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ክፍል</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>ፈጣሪ</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>አዲስ ይዘት</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>በመላው ጣቢያ በቅርቡ የተፈጠረ እና የተሻሻለ ይዘት፣ አዲሱ መጀመሪያ፦ ጎብኚዎች ያስገቡት፣ ለግምገማ የተያዘው፣ ለመታተም የሚጠባበቁ ረቂቆች። ለመልቀቅ፣ ለመያዝ፣ ለመደበቅ፣ ለማሳየት፣ ለማስወገድ ወይም ወደ ሌላ ክፍል ወይም ሁኔታ ለማዛወር ንጥሎችን ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>ዝርዝሩ ሊነበብ አልቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>የግምገማ ይዞታው ገና አልተዘጋጀም፣ ስለዚህ ምንም አልተያዘም እና የይዞታ እርምጃዎቹ አልቀረቡም። የማሻሻያ ደረጃው 6.0.15-review-hold ያዘጋጀዋል፦ ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ዝርዝሩን አጣራ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ከ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>እስከ</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>ቀን</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>የተፈጠረ (መጀመሪያ የታተመ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ሁሉም</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ሁኔታ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>የታተመ</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>ረቂቅ፣ ፈጽሞ ያልታተመ</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>በመጠባበቅ ላይ (ፈቃድ ወይም ቀን በመጠባበቅ ላይ)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>በቆሻሻ ውስጥ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ለግምገማ የተያዘ</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>የተያዘ</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>ያልተያዘ</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>የተደበቀ</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>የሚታይ</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>የገባበት ቀን</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>ማንኛውም የጣቢያ መዳረሻ</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>ኦዲቱ የመዘገበው ብቻ።</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>አሁን፦ %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>የመግቢያ ስም ወይም የተጠቃሚ መለያ።</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>አጣራ</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ማጣሪያዎችን አጽዳ</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>ንጥሎች</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from እስከ %to ከ %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ምንም ንጥል የለም</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(በ %ms ms ውስጥ ተነቧል)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>በተመረጡት ንጥሎች ላይ ያሉ እርምጃዎች</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>በዚህ ገጽ ላይ ሁሉንም ምረጥ</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ተመርጠዋል</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>እርምጃ</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>እርምጃ ይምረጡ</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>ይዞታውን ልቀቅ</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ለግምገማ ያዝ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>ደብቅ</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>አሳይ</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ወደ ቆሻሻ አዛውር</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>ሰርዝ</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>ክፍል መድብ</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>ሁኔታ መድብ</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>ምክንያት</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>ለመያዝ ያስፈልጋል፤ ከይዞታው ጋር እና በኦዲቱ ውስጥ ይቀመጣል።</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>ክፍል ይምረጡ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>የነገር ሁኔታ</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>ሁኔታ ይምረጡ</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>በተመረጡት ላይ ተግብር</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>እያንዳንዱ ንጥል ከራስዎ ፈቃዶች ጋር ይመረመራል። ወደ ቆሻሻ ማዛወር እና መሰረዝ እንዲያረጋግጡ ይጠይቃሉ። ከ %count በላይ ንጥሎች ከበስተጀርባ ይሰራሉ።</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>ምረጥ</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>ሕትመት</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>የገባበት ቦታ</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name ምረጥ</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ገና</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ስም የለውም)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>መለያ %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ረቂቅ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>በመጠባበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>በወላጁ የተደበቀ</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>የተያዘ፦ አዲስ ግቤት</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ስሪት %version በመጠባበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ስሪት %version በሂደት ላይ</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>ረቂቅ፣ ስሪት %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>ስሪት %version ታትሟል</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>ለ %date የታቀደ</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>አድራሻ የለም</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>አልተመዘገበም</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ከእነዚህ ማጣሪያዎች ጋር የሚዛመድ ምንም የለም።</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ሁሉንም አሳይ</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>እስካሁን ምንም ይዘት የለም።</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>በገጽ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>በገጽ %count ንጥሎችን አሳይ።</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>የአንድ ግቤት አድራሻ እና አሳሽ ከኦዲት ማውጫው ይመጣሉ፣ እሱም እዚህ አይገኝም፦ ዓምዱ &quot;አልተመዘገበም&quot; ይላል።</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>አድራሻው እና አሳሹ ኦዲቱ ለንጥሉ የመዘገባቸው ናቸው (ራስ-ሰር ይዞታው ሁልጊዜ ይመዘግባቸዋል፤ ማተም እና መፍጠር ሲበራ ብቻ)፣ የግላዊነት ቅንብሮቹ እንደሚያቆዩአቸው።</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action፦ %count ንጥሎች</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>መሰረዝ ንጥሎቹን ከሁሉም ስሪቶቻቸው እና ትርጉሞቻቸው ጋር ለዘለቄታው ያስወግዳል። ሊቀለበስ አይችልም።</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>ንጥሎቹ ወደ ቆሻሻ ይሄዳሉ፣ ከዚያም ሊመለሱ ይችላሉ።</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>እያንዳንዱ ንጥል ከራስዎ ፈቃዶች ጋር ይመረመራል፤ ንዑስ ንጥሎች ያሉት ንጥል እንዳለ ይቀራል (በይዘት መዋቅሩ ውስጥ ያስወግዱት)። እርስዎ መሆንዎን እንዲያረጋግጡ ይጠየቃሉ።</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>ይህ ከበስተጀርባ ይሰራል፦ የሂደቱ ገጽ ይከፈታል፣ ሲጠናቀቅም የእያንዳንዱ ንጥል ውጤት ይታያል።</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>የተመረጡት ንጥሎች</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>እና %count ተጨማሪ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ተው</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>ምንም አልተደረገም</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ምክንያት፦ %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>እርምጃው አሁንም ከበስተጀርባ እየሰራ ነው።</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>ሂደቱ</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>የበስተጀርባ እርምጃው አልተሳካም፦ %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ተጠናቋል</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ተከልክሏል</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>በንጥል</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>ንጥል</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ውጤት</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ለምን</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>ወደ ዝርዝሩ ተመለስ</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ዝግጅት</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>ምንም አልተከናወነም</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>አረጋግጥ</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>እርምጃ ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>ቢያንስ አንድ ንጥል ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>በአንድ ጊዜ ቢበዛ 1000 ንጥሎችን ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ንጥሎቹ ለምን እንደተያዙ ይግለጹ።</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>ክፍሉን ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>ሁኔታውን ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ቅጹ ሊነበብ አልቻለም።</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ዳሽቦርድ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>አዲስ ይዘት</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>ቁጥሮቹ ሊነበቡ አልቻሉም፦ %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ለግምገማ የተያዘ</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>ዛሬ አዲስ</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>የግምገማ ይዞታው ገና አልተዘጋጀም (የማሻሻያ ደረጃው 6.0.15-review-hold)።</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>ሁሉም አዲስ ይዘት</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>የቁጥጥር እርምጃዎችን ማስኬድ አይፈቀድልዎትም (moderation/act)።</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>የቁጥጥር እርምጃው አልተጠናቀቀም፦ %errors።</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>ቁጥጥር፦ %action በ %count ነገሮች ላይ</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done ከ %total ነገሮች፦ %ok ተጠናቋል፣ %refused ተከልክሏል፣ %failed አልተሳካም</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok ተጠናቋል፣ %refused ተከልክሏል፣ %failed አልተሳካም</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>ከእንግዲህ አይገኝም።</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>ቦታ የለውም (አልታተመም)።</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>ሊደብቁት አይፈቀድልዎትም (content/hide)።</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>ሊያሳዩት አይፈቀድልዎትም (content/hide)።</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>አስቀድሞ ተደብቋል።</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>አልተደበቀም።</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>ተደብቋል።</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>ታይቷል።</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>በቆሻሻ ውስጥ ነው፦ እዚያ ያጽዱት ወይም ይመልሱት።</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ፈጽሞ ያልታተመ ረቂቅ ወደ ቆሻሻ መሄድ አይችልም፦ ይሰርዙት።</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>ሊሰርዙት አይፈቀድልዎትም (content/remove)።</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>ተሰርዟል።</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>ሊያስወግዱት አይፈቀድልዎትም (content/remove)።</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>ንዑስ ንጥሎች አሉት፦ በተዘረዘሩበት በይዘት መዋቅሩ ውስጥ ያስወግዱት።</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>አልተወገደም (የሥራ ፍሰት ማስወገዱን ይዞት ሊሆን ይችላል)።</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ወደ ቆሻሻ ተዛውሯል።</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>ክፍሉ የለም።</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>አስቀድሞ በዚህ ክፍል ውስጥ ነው።</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>ይህንን ክፍል ሊመድቡ አይፈቀድልዎትም (section/assign)።</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>ክፍሉ አልተመደበም።</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>ክፍሉ ተመድቧል።</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>ሁኔታው የለም።</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>አስቀድሞ በዚህ ሁኔታ ውስጥ ነው።</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>ይህንን ሁኔታ ሊመድቡ አይፈቀድልዎትም (state/assign)።</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>ሁኔታው አልተመደበም (የሥራ ፍሰት ለውጡን ይዞት ሊሆን ይችላል)።</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>ሁኔታው ተመድቧል።</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>እንደዚህ ያለ እርምጃ የለም።</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>የግምገማ ይዞታው አልተዘጋጀም (የማሻሻያ ደረጃው 6.0.15-review-hold)።</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ለምን እንደተያዘ ይግለጹ።</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>አስቀድሞ ተይዟል።</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>ሊይዙት አይፈቀድልዎትም (state/assign)።</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ይዞታው አልተቀመጠም (የሥራ ፍሰት ለውጡን ይዞት ሊሆን ይችላል)።</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>ተይዟል።</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>አልተያዘም።</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>ሊለቁት አይፈቀድልዎትም (state/assign)።</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ይዞታው አልተለቀቀም (የሥራ ፍሰት ለውጡን ይዞት ሊሆን ይችላል)።</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>ተለቋል፤ አሁንም ተደብቋል፦ ሊያሳዩት አይፈቀድልዎትም (content/hide)።</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>ተለቋል።</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>ሁሉም ዒላማዎች</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>የመጨረሻው ሕትመት</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>የጣቢያዎን ነጻ የማይለዋወጥ ቅጂ በ GitHub Pages ላይ ያትሙ፦</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ጊዜ ያለፈባቸው ገጾች</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>የማይለዋወጥ ሕትመት</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>የማይለዋወጥ ሕትመት ጠፍቷል።</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ዒላማ</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ዒላማዎቹ ሊነበቡ አልቻሉም፦ %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ሥራ በሂደት ላይ ነው</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>የሚፈተሽ ግንባታ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ይህን ደብቅ</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ዒላማ ፍጠር</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>በጭራሽ</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>መማሪያውን ያንብቡ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ታክለዋል፣ %changed ተቀይረዋል፣ %removed ተወግደዋል</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes ከ %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>ሌሎች %count አልተዘረዘሩም።</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages ገጾች ተጽፈዋል</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path መጠኑ %size ነው፤ አስተናጋጁ ለአንድ ፋይል ከሚፈቅደው በላይ።</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>ከገደቡ %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ሰ</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ጣቢያው አሁን ያለው ሕትመት ነው።</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target፦ ሥራ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/ማከማቻ/ ለ GitHub የፕሮጀክት ጣቢያ፤ ለራስ ጎራ ወይም ለተጠቃሚ ጣቢያ ባዶ።</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. ጣቢያው</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. አስተናጋጁ</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. ወደ ማከማቻው መግባት</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. ማከማቻው</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. አገናኞች እና መሠረታዊ ዱካ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. የራስዎ ጎራ</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. ግንባታው የሚይዘው</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. መቼ እንደሚታተም</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. ይገምግሙ እና ያስቀምጡ</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>የ GitHub የፕሮጀክት ጣቢያ የሚገኘው በ /&lt;repository&gt;/ ስር ነው፤ አንጻራዊ አገናኞች እዚያም በሌላ ቦታም ይሰራሉ።</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>ግንባታ እያንዳንዱን የ %site ገጽ ያልገባ ጎብኚ በሚያየው መልኩ ያመጣል፣ አገናኞቹን እንደገና ይጽፋል፣ ፋይሎቹን ይቀዳል እና ውጤቱን ወደ ዒላማው አቃፊ ይጽፋል። ግንባታውን እስኪፈትሹና አትም እስኪጫኑ ድረስ ምንም አይታተምም።</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>የ cron አገላለጽ፣ ለምሳሌ 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>የማሰማሪያ ቁልፍ እንደ ምስጢር %secret ይቀመጣል።</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>የማሰማሪያ ቁልፍ ይህ ጭነት በ SSH ወደ አንድ ማከማቻ ብቻ ፑሽ እንዲያደርግ ያስችለዋል። የግል ግማሹ በ ዝግጅት &gt; ምስጢሮች ውስጥ ይቀራል፤ የሚታየው የሕዝብ ግማሹ ብቻ ነው።</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>ለዚህ ዒላማ የተሰራ የማሰማሪያ ቁልፍ</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>የማሰማሪያ ቁልፍ በ SSH ይገባል፦ የ git አድራሻውን ወደ SSH አድራሻው ይቀይሩ (git@github.com:owner/repo.git)።</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>ሥራ በሂደት ላይ ነው፣ የጀመረው %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>የዚህ ዒላማ ሥራ አሁንም በሂደት ላይ ነው (%detail)። እስኪያልቅ ይጠብቁ።</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>የዚህ ዒላማ ሥራ አሁንም በሂደት ላይ ነው። እስኪያልቅ ይጠብቁ።</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>ከገጽ /news/ ወደ ገጽ /about-us/team የሚወስድ አገናኝ እንዲህ ይጻፋል</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>አዲስ የማሰማሪያ ቁልፍ ተሰርቷል። የሕዝብ ግማሹን አሁን ወደ ማከማቻው ያክሉ።</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>ከማጽዳቱ በኋላ አሁንም የማረሚያ ውጤት፣ የቅጽ ቶከን ወይም የክፍለ ጊዜ መታወቂያ የያዘ ገጽ በጭራሽ አይታተምም።</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>መመለሻ ለባለሙያዎች ነው፦ &quot;ይህ ምን እንደሚቀይር አውቃለሁ&quot; የሚለውን ምልክት ያድርጉ እና የመለያውን ስም እንደገና ይተይቡ።</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>ጣቢያ እስከ %site፣ አንድ ፋይል እስከ %file ሊሆን ይችላል፣ በወር ወደ 100 GB ትራፊክ። በነጻ እቅድ ማከማቻው ሕዝባዊ መሆን አለበት። GitHub Pages ለሱቆች ወይም ለሌሎች የንግድ ግብይቶች የታሰበ አይደለም።</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ዒላማ ወደ አንድ የ git ማከማቻ የሚታተም አንድ ጣቢያ ነው። እዚህ ምንም አይገነባም ወይም አይታተምም፦ አስቀምጥ ቅንብሮቹን ወደ settings/override/staticcache.ini.append.php ይጽፋል።</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ዒላማ ወደ አንድ ቦታ የሚታተም አንድ ጣቢያ ነው፣ ለምሳሌ በ GitHub Pages ላይ ያለው የሕዝብ ጣቢያዎ።</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>ከ ዝግጅት &gt; ምስጢሮች የመጣ ቶከን</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>የማከማቻው የሥራ ፍሰት ያትመዋል።</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>ይህን የሕዝብ ቁልፍ በመጻፍ ፈቃድ ወደ ማከማቻው ያክሉ። GitHub፦ Settings &gt; Deploy keys &gt; Add deploy key፣ Allow write access ላይ ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>ታክሏል</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>ሌላ የ git አስተናጋጅ</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>ሌላ ሂደት በዚህ ዒላማ ላይ እየሰራ ነው፦ %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>ተመለስ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>መሠረታዊ ዱካ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>በፊት</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>በመሠረታዊ ዱካ ስር</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ቅርንጫፍ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>የተሰበሩ አገናኞች</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>በግንባታው ውስጥ ያሉ የተሰበሩ አገናኞች</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>ግንባታ</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>ግንባታ %id በ %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name ገንባ</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>አሁን ገንባ</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>የሚፈተሽ ግንባታ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>በ</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>በእጅ፣ እዚህ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ሰርዝ</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ቀይር</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>ተቀይሯል</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ለውጦች</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>መጀመሪያ ይፈትሹት</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>እነዚህን ቅንብሮች ይፈትሹ</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>ግንባታው የሚቀይረውን ይፈትሹ፣ ይመልከቱት፣ ከዚያ ያትሙት ወይም ያስወግዱት።</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>የሚመለሱበትን ሕትመት ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>በኋለኛው ልቀት ይመጣል።</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ኮሚት</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>ኮሚቶች</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>ግንባታውን ኮሚት ያደርጋል፣ መለያ ይሰጠዋል እና ወደ %remote ፑሽ ያደርገዋል። ፑሽ በጭራሽ አይገደድም፤ በኋላ ወደ ማንኛውም ሕትመት መመለስ ይችላሉ።</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>ከቀደመው አቃፊ ጋር ሲነጻጸር፦ %added ታክለዋል፣ %changed ተቀይረዋል፣ %removed ተወግደዋል፣ %unchanged አልተቀየሩም።</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>ከመጨረሻው ሕትመት ጋር ሲነጻጸር።</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>የመግቢያ ማስረጃ</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>የራስ ጎራ</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>የማረሚያ ውጤት፣ የቅጽ ቶከኖች፣ የክፍለ ጊዜ መታወቂያዎች እና nonce ሁልጊዜ ይወገዳሉ።</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>የማሰማሪያ ቁልፍ</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>የ %name የማሰማሪያ ቁልፍ</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>አስወግድ</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>ግንባታውን አስወግድ</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ጎራ</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>ባዶ፦ የጣቢያው አድራሻ። አለበለዚያ የዚያው ጣቢያ ውስጣዊ አድራሻ።</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>አብቅቷል</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>እያንዳንዱ አገናኝ በመሠረታዊ ዱካው ይጀምራል።</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>እያንዳንዱ ሕትመት static/%id/&lt;n&gt; መለያ ያለው ኮሚት ነው። መመለስ ከቀደመ ሕትመት ፋይሎች ጋር አዲስ ኮሚት ይሰራል፦ ታሪኩ ይቀራል፣ ምንም መለያ አይንቀሳቀስም እና ምንም አይገደድም።</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>ተጨማሪዎች</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>ገጾቹን ከዚህ አምጣ</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ፋይል</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ፋይሎች</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>የጎደሉ ፋይሎች</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>ፋይሎች ከ</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>ሊሰበሰቡ ያልቻሉ ፋይሎች</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>የጣት አሻራ</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>አቃፊ</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>ለ SSH አድራሻ። ቁልፉ ከማስቀመጥ በኋላ ይሰራል፤ የሕዝብ ግማሹን እርስዎ ወደ ማከማቻው ያክላሉ።</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>ለ https:// አድራሻ። GitHub፦ በማከማቻው ላይ Contents የማንበብና የመጻፍ ፈቃድ ያለው ዝርዝር ፈቃድ ቶከን።</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>ለባለሙያዎች። ፑሹ እንደተጠናቀቀ የሕዝብ ጣቢያው ይቀየራል።</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ቅጾች</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>ከ GitHub ማከማቻ ነጻ ማስተናገጃ።</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ከቅርንጫፉ</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>የ git አድራሻ</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages የ %site ጣቢያ እና የ %file ፋይል ይፈቅዳል።</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>የ GitHub Pages ገደቦች</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ፋይሎቹን እንዳሉ ያትማቸዋል (በ _ ለሚጀምሩ ፋይሎች ያስፈልጋል)።</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ቅርንጫፉን ፑሽ እንደተደረገ ያቀርበዋል። ነባሪው።</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab፣ Gitea፣ የራስዎ አገልጋይ፦ ማንኛውም የ git ማከማቻ።</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>ወደ ቀደመ ሕትመት ተመለስ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>እገዛ</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>በአዋቂው ላይ እገዛ</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>ደብቃቸው</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ታሪክ</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>የ %name ታሪክ</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>አስተናጋጅ</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages ግንባታውን እንዴት እንደሚቀበል</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>ለውጦቹን ፈትሻለሁ</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>ይህ ምን እንደሚቀይር አውቃለሁ</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>መታወቂያ</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>ጠፍቷል፦ እስኪበራ ድረስ ምንም ሊገነባ አይችልም።</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>በጀርባ እንደ %user ይሰራል፤ ይህን ገጽ መዝጋት ይችላሉ።</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ሥራ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>እንደ ምስጢር %secret ተቀምጧል።</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ዓይነት</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>የመጨረሻው ሕትመት</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>እነዚህን ገጾች ተዋቸው</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>እነዚህን ክፍሎች ተዋቸው</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>አገናኞች</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>እንደገና የተጻፉ አገናኞች</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>ቀጥታ ጣቢያ</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>ግንባታውን ይመልከቱ</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>ትንንሽ ፊደላት፣ አሃዞች፣ _ እና -፣ ለምሳሌ github-public። አቃፊውንና መለያዎቹን (static/&lt;id&gt;/&lt;n&gt;) ይሰይማል፤ በኋላ ሊቀየር አይችልም።</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>አዲስ ቁልፍ ስራ</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ዒላማ ፍጠር</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>ቁልፉን ስራ</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>መጀመሪያ ማከማቻውን በአስተናጋጁ ላይ ይፍጠሩ፤ ባዶ ቢሆንም ችግር የለውም።</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ማኒፌስት</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>መልዕክት</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>አብዛኞቹ ገጾች</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ስም</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>በ ዝግጅት &gt; ምስጢሮች ውስጥ ያለው የቶከኑ ስም</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>አዲስ ዒላማ</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ቀጣይ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>አይ</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>እስካሁን ምንም ኮሚት የለም።</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ምንም ቁልፍ አልተሰራም፦ %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>የ php የትዕዛዝ መስመር ፕሮግራም አልተገኘም። migration.ini [AdminSettings] PhpCliPath ን ወደ ሙሉ ዱካው ያቀናብሩ።</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>እስካሁን ምንም መለያ የለም።</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>እስካሁን ምንም ዒላማ የለም።</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ምንም</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>በግንባታው ውስጥ የለም።</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>እስካሁን ምንም አልታተመም።</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>እስካሁን ምንም አልታተመም፦ እያንዳንዱ ፋይል አዲስ ነው።</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>አሳውቅ</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>በመርሐ ግብር</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>በኮንሶሉ ላይ</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>በአገልጋዩ ላይ፦ ./console exp:static:serve %id በተመሳሳይ መንገድ ያቀርበዋል።</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>በአንድ መስመር አንድ ዱካ፤ * ማንኛውንም ክፍል ይዛመዳል፦ /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>ከዒላማው ጋር የሚቀመጠው ስም ብቻ ነው፤ ቶከኑ ወይም ቁልፉ ራሱ በ ዝግጅት &gt; ምስጢሮች ውስጥ ይቀራል እና በምዝግብ ማስታወሻ ውስጥ በጭራሽ አይታይም።</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>ገጾቹ የሚጠቅሱትን ብቻ</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>በቶከን ብቻ። env:NAME በምትኩ የአገልጋዩን የአካባቢ ተለዋዋጭ ያነባል።</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>ቅድመ እይታውን ክፈት</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>ግንባታውን አስተናጋጁ በሚያቀርበው መልኩ ከዒላማው አቃፊ ይከፍታል። አገናኙ ለእርስዎ ለአንድ ሰዓት ይሰራል።</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>አማራጭ። ባዶ፦ የታተመው።</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>አማራጭ። በጎራ ጣቢያው በስሩ ላይ ይቀርባል።</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>ውጤት</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>ገጾች</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>የዒላማው ገጾች</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>ውድቅ የተደረጉ ገጾች</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>ድህረ-ሂደት</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ቅድመ እይታ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>ቅድመ እይታ እና ሕትመት</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name ቅድመ እይታ እና ሕትመት</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>የግንባታው ቅድመ እይታ</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ሂደት</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>የሕዝብ አድራሻ</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>የሕዝብ ቁልፍ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>አትም</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>የጣቢያን የማይለዋወጥ ቅጂ ወደ GitHub Pages ወይም ወደ ማንኛውም የ git አስተናጋጅ ያትሙ፦ ይገንቡት፣ ለውጦቹን ይፈትሹ፣ ያትሙ፣ ሲያስፈልግም ወደ ቀደመ ሕትመት ይመለሱ።</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>የሚመለሱበት ሕትመት</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>ሕትመቶች</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ፑሽ</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>መማሪያውን ያንብቡ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>መዝገብ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ውድቅ ተደርጓል</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>አንጻራዊ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>እንደገና ጫን</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>ተወግዷል</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>ቁልፉን ተካ፦ አሮጌው መስራት ያቆማል</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ሪፖርት</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>የግንባታው ሪፖርት</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ማከማቻ</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ግምገማ</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>ግምገማ እያንዳንዱን ቅንብር ይፈትሻል እና የሚጻፉትን መስመሮች ያሳያል። እስካሁን ምንም አልተቀመጠም።</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>መልስ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>መመለሻ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>አስቀምጥ</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>መርሐ ግብር</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>የፍለጋ ገጽ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>የክፍል መታወቂያዎች፣ በኮማ የተለዩ።</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>ወደ ቀጥታ ጣቢያው ላካቸው</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>ቅንብር</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ቅንብሮች</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>የ %name ቅንብሮች</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ዝግጅት</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ዝግጅት &gt; ምስጢሮች</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>በዝርዝሮች ውስጥ ይታያል፣ ለምሳሌ &quot;በ GitHub Pages ላይ ያለ የሕዝብ ጣቢያ&quot;።</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>በ GitHub App መግባት ከ GitHub ውህደት ጋር ይመጣል።</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>ጣቢያ</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>የሚታተም ጣቢያ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>መጠን</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>መጠን እና ገደቦች</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>የግንባታው መጠን</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ጊዜ ያለፈባቸው ገጾች</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>የተጀመረ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>በ %user በ %time ተጀምሯል።</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ሁኔታ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>የማይለዋወጥ ሕትመት</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>የማይለዋወጥ ሕትመት ጠፍቷል</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>የማይለዋወጥ ሕትመት ጠፍቷል።</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>የማይለዋወጥ ሕትመት ጠፍቷል። መጀመሪያ በ ዝግጅት &gt; የማይለዋወጥ ሕትመት ውስጥ ያብሩት።</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>የማይለዋወጥ ሕትመት በርቷል።</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>ደረጃ %step ከ %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ደረጃዎች</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>ማጽዳት</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>አጥፋ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>አብራ</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>የማይለዋወጥ ሕትመትን አብራ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>መለያ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>መለያዎች</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ዒላማ</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ዒላማዎች ሊፈጠሩና ሊቀየሩ ይችላሉ፤ ነገር ግን እስኪበራ ድረስ ምንም አይገነባም ወይም አይታተምም።</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>ለፍለጋ ሞተሮች ምን እንደሚያነቡ ይነግራል።</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>ግንባታው ሊወገድ አልቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>ግንባታው ከመጨረሻው ሕትመት ጋር አንድ ነው፦ የሚታተም ነገር የለም።</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>ግንባታው ተወግዷል፦ አቃፊው እንደገና የመጨረሻውን ሕትመት ይዟል።</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ነባሪዎቹ ለአብዛኞቹ ጣቢያዎች ይስማማሉ።</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>አቃፊው ገና ያልታተመ ግንባታ ይዟል፤ አዲስ ግንባታ ይተካዋል።</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>የሥራዎቹ አቃፊ ሊጻፍበት አይችልም፦ %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ሥራው ሊዘጋጅ አልቻለም፦ %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ሥራው ሊጀመር አልቻለም።</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ሥራው አብቅቷል። ሪፖርቱ በመጫን ላይ ነው።</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ሥራው የገባ ተጠቃሚ ያስፈልገዋል።</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ሥራው ተጀምሯል ነገር ግን የሂደት መታወቂያውን አላሳወቀም። %detail ን ይፈትሹ።</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>ቁልፉ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>ትልቁ ፋይል፦ %path፣ %size።</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>የሚጻፉት መስመሮች</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>ለፍለጋ ሞተሮች የገጾች ዝርዝር፤ የሕዝብ አድራሻውን ይፈልጋል።</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>ገጾቹ ያልገባ ጎብኚ በሚያያቸው መልኩ ይመጣሉ። የአስተዳደርና የአርትዖት የጣቢያ መዳረሻዎች በጭራሽ አይቀርቡም።</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>ሂደቱን መከታተል አልተቻለም። ሥራው እንዴት እንደሆነ ለማየት ገጹን እንደገና ይጫኑ።</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>የቁልፉ የሕዝብ ግማሽ፦</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>የቅርንጫፉ ስር</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>የምስጢር ማከማቻው ገና አልተዘጋጀም (./console exp:upgrade --apply ሰንጠረዡን ይፈጥራል)፤ ስለዚህ ምንም ቁልፍ ሊቀመጥ አይችልም።</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>አገልጋዩ በራሱ ይገባል (በራሱ የ SSH ቁልፍ ወይም በማስረጃ ረዳት)፣ ወይም ማከማቻው በዚህ አገልጋይ ላይ ነው።</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>ቅንብሩ ሊጻፍ አልቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ቅንብሮቹ ትክክል ናቸው። እነዚህ መስመሮች ይጻፋሉ፦</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>የቅንብሮች ፋይሉ ሊነበብ አይችልም፦ %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>ጣቢያው ወደዚያ ሕትመት ፋይሎች ይመለሳል፤ ገና ያልታተመ ግንባታ መጀመሪያ መታተም ወይም መወገድ አለበት።</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>የጣቢያው የራሱ ገጽ ለሌሉ አድራሻዎች።</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ዒላማው ሊቀመጥ አልቻለም፦ %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ዒላማው እስካሁን በዚህ ቁልፍ አይገባም፦ በቅንብሮቹ ውስጥ &quot;ለዚህ ዒላማ የተሰራ የማሰማሪያ ቁልፍ&quot; ን ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ዒላማዎቹ ሊነበቡ አልቻሉም፦ %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>እስካሁን የሚፈተሽ ግንባታ የለም።</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ይህ ጭነት የፊት የጣቢያ መዳረሻ የለውም። የአስተዳደርና የአርትዖት የጣቢያ መዳረሻዎች በጭራሽ አይታተሙም።</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ይህ ገጽ ሥራውን በሂደቱ ይከታተላል፤ ገጹ ሲዘጋ ሥራው በጀርባ ይቀጥላል።</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>ይህ ዒላማ እስካሁን የማሰማሪያ ቁልፍ የለውም።</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>ይህ ዒላማ እስካሁን እዚህ አልተገነባም።</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>ይህ ዒላማ አንድ አለው።</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>ይህን ግንባታ ያስወግዳል፦ አቃፊው እንደገና የመጨረሻውን ሕትመት ይይዛል። ቀጥታ ጣቢያው አይቀየርም።</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>መጀመሪያ &quot;ለውጦቹን ፈትሻለሁ&quot; ላይ ምልክት ያድርጉ።</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ሰዓት</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ቀስቃሾች</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>የመለያውን ስም እንደገና ይተይቡ</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>ያልተቀየረ</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ዌብሁክ</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ምን</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>የሚቀየረው</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>እያንዳንዱ ፋይል ምን እንደሆነ፤ ሁልጊዜ ይጻፋል።</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>ሥራው ያደረገው እና መዝገቡ። እዚህ የተጀመረ ሥራ ይህ ገጽ ሲዘጋ በጀርባ ይቀጥላል።</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>ሥራው እንደ ስህተት ያተመው</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>ገጾቹ የሚጠቅሱት እና እያንዳንዱ የታተመ ይዘት ምስል</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>መቼ</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>ሕትመት ሳይሳካ ሲቀር</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>ሕትመት ሲሳካ</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>ይዘት ሲታተም</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>ቅጂው ወደማይይዘው የሚወስዱ አገናኞች የሚሄዱበት (ፍለጋው፣ መግቢያው)።</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>የማይለዋወጥ ቅጂው የሚቀርብበት ቦታ።</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>የትኛው ጣቢያ እንደሚታተም እና ዒላማው ምን እንደሚባል።</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>በማንኛውም ዱካ ስር ይሰራል። ነባሪው።</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>የራስ ጎራ በተቀናበረ ቁጥር ይጻፋል።</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>አዎ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>እዚህም በኮንሶሉ ላይም ሁልጊዜ በእጅ መገንባትና ማተም ይችላሉ።</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ስም ብቻ፤ እሴቱ በ ዝግጅት &gt; ምስጢሮች ውስጥ ይቀራል</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ከ %path በታች</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ያለ ሪፖርት አብቅቷል</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ተጨማሪ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>አልተሳካም</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ፋይል</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages፣ ወይም main ከአቃፊ docs ጋር።</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>የ git አስተናጋጅ</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ከቶከን ጋር) ወይም git@github.com:owner/repo.git (ከማሰማሪያ ቁልፍ ጋር)፤ በውስጡ የይለፍ ቃል ወይም ቶከን በጭራሽ።</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/፣ ለጣቢያ ካርታው እና ለቀኖናዊ አገናኞች።</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>ምስል</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>በጭራሽ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>አይ</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>የርቀት ማከማቻ የለም</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ምንም፦ ኮሚቶች በአቃፊው ውስጥ ይቀራሉ</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ምንም፦ ምንም አልተቀየረም</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ፑሽ አልተደረገም</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ምንም አልተቀየረም</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ገጽ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ተሳክቷል</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ተሰናክሏል፤ ስለዚህ እዚህ ሥራ ሊጀመር አይችልም። በአገልጋዩ ላይ ./console exp:static:build ይጠቀሙ።</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ሕትመት</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>ታትሟል</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ፑሽ በመጠባበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>ፑሽ ተደርጓል</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ውድቅ ተደርጓል</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>አንጻራዊ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>መመለሻ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ተመልሷል</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>በመስራት ላይ</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>አቃፊው ብቻ</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com፦ ወደ ፋይሉ CNAME ይጻፋል። የጎራውን DNS አስተናጋጁ እንደሚያብራራው ወደ አስተናጋጁ ያመልክቱ፤ HTTPS ለመጀመር ትንሽ ጊዜ ሊወስድ ይችላል።</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>አዎ፣ ገና አልታተመም</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>የ GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>የማከማቻው የሥራ ፍሰት ያትመዋል። ግንባታው የሥራ ፍሰት ፋይሉን ይጽፋል፤ አቃፊውን ባዶ ይተዉት።</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>ዒላማን ከ GitHub ማከማቻ እና ከቶከን ወይም GitHub App ጋር ካስቀመጡ በኋላ ይህ ደረጃ ማከማቻውን መፍጠር እና GitHub Pagesን ማብራት ይችላል። ያለበለዚያ መጀመሪያ ማከማቻውን በ GitHub ላይ ይፍጠሩ፤ ባዶ ማከማቻ ይበቃል።</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ቅርንጫፍ ወይስ GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNSን ያረጋግጡ</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>ማከማቻው ከሌለ ይፍጠሩት</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>ማከማቻውን በ GitHub ላይ ይፍጠሩ እና በቅንብሮቹ ውስጥ GitHub Pagesን ያብሩ (Settings &gt; Pages)።</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>ማከማቻውን %repo ከሌለ ይፈጥራል (ከተጠየቀ)፣ GitHub Pagesን እንደተቀመጠው ከቅርንጫፉ ወይም ከ GitHub Actions ያበራል፣ እንዲሁም የራስ ጎራውን እና HTTPSን ያዘጋጃል። የተቀመጡትን ቅንብሮች ይጠቀማል፤ መጀመሪያ ለውጦቹን ያስቀምጡ።</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>ዝርዝሮች በ GitHub ላይ</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>መጀመሪያ የራስ ጎራውን ያስገቡ።</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>እያንዳንዱ push መጀመሪያ ከእነዚህ ገደቦች ጋር ይፈተሻል።</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>በ GitHub ላይ ላለ https:// አድራሻ። ለዚህ ጭነት የተዘጋጀው App ይገባል፤ የጭነቱን መለያ ቁጥር ይፈልጋል።</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages የግል ማከማቻን የሚያገለግለው በሚከፈልበት ዕቅድ ብቻ ነው።</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: ንዑስ ጎራ (www.example.com) ወደ &lt;owner&gt;.github.io የሚያመለክት CNAME መዝገብ ይፈልጋል፤ ዋና ጎራ (example.com) ደግሞ የ A መዝገቦቹን %ips።</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>የ GitHub App ጭነት መለያ ቁጥር</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>የመጨረሻው የ Pages ግንባታ</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>ገደቦች እና ውሎች</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>በነጻ ዕቅድ ላይ ለ GitHub Pages ያስፈልጋል።</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>በ GitHub ላይ</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>በ GitHub App ብቻ: በ GitHub ላይ ያለው የ App ጭነት አድራሻ መጨረሻ ላይ ያለው ቁጥር። App ራሱ በ staticcache.ini ውስጥ ይዘጋጃል (GitHubAppId, GitHubAppKey)።</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>የግል</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>የሕዝብ</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>መጀመሪያ ዒላማውን ከ GitHub ማከማቻ እና ከቶከን ወይም GitHub App ጋር ያስቀምጡ።</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>እነዚህን መዝገቦች በጎራው አቅራቢ ላይ ያዘጋጁ፦</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>በ GitHub ላይ አዘጋጅ</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>የ %domain DNS ገና ወደ GitHub Pages አያመለክትም።</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>የ %domain DNS ወደ GitHub Pages ያመለክታል።</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>የ GitHub ውህደት እዚህ አይገኝም: %problem። ወደ ቅርንጫፉ ማተም ግን ይሠራል፤ GitHub Pagesን በማከማቻው ቅንብሮች ውስጥ ያብሩ።</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>የ GitHub ደረጃዎች ለዚህ ዒላማ አይገኙም: %problem።</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>የ GitHub Pages ሁኔታ የሚታየው ቶከን ወይም GitHub App የመግቢያ ማስረጃ ሲሆን ነው።</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>የራስዎን ጎራ ይጠቀሙ</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>የትኛውን መምረጥ: ቶከን፣ የማሰማሪያ ቁልፍ ወይስ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>በ GitHub ማከማቻ እና በቶከን ወይም GitHub App አዋቂው ማከማቻውን መፍጠር፣ GitHub Pagesን ማብራት እና ጎራውን ሊያዘጋጅልዎ ይችላል (ደረጃ 4)።</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>በመገንባት ላይ</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ተገንብቷል</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>ከ GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ከቅርንጫፉ %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>እስካሁን የለም</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>አልተገኘም</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ጠፍቷል</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>የግል</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>የሕዝብ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>በወረፋ ላይ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ያልታወቀ</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count በ%pages ገጽ(ገጾች)፦</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ጽሑፍ ፋይል ሁሉ አጠገብ .gz (እና .br) ፋይል፣ ለሚያቀርቡ አስተናጋጆች።</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>ለእያንዳንዱ የድሮ አድራሻና የገጽ ተለዋጭ ስም ትንሽ ገጽ፣ የድሮ አገናኞች እንዲሠሩ።</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions ጣቢያውን ሲያቀርብ ሁልጊዜ ይጻፋል።</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>እንደ CC-BY-4.0 ያለ SPDX መለያ፣ ወይም ጽሑፉ ራሱ።</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>ቅርጫት</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>ወደ አገልጋዩ የሚደረጉ ጥሪዎች</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>አስተያየቶች</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>መረጃ የሚሰበስቡ ቅጾች</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>የGitHub Actions የሥራ ፍሰት</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>በገጾቹ ውስጥ ያነሰ ባዶ ቦታ እና አስተያየት የለም።</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>የይዘቱ ፈቃድ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ግባ</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>አሳንስ</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>ሌሎች ቅጾች</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>አስቀድመህ ጭመቅ</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>የማዘዋወሪያ ገጾች</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>የማዘዋወሪያ ገጾች፦ %count።</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ፈልግ</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>የፍለጋ ማውጫ፦ %pages ገጽ(ገጾች) በ%languages።</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>በይዘታቸው ሃሽ የተሰየሙ የቅጥ ሉሆችና ስክሪፕቶች፣ አሳሾች እንዲያስቀምጧቸው።</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>የተቀየሩት ገጾች፣ ከመጨረሻው ለውጥ ከጥቂት ደቂቃዎች በኋላ (የcronjob ክፍል staticpublish)።</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>የይዘቱ ፈቃድ፣ ከታች ካለው መስክ።</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>መላው ጣቢያ፣ በጊዜ ሰሌዳው ጊዜያት (የcronjob ክፍል staticpublish)።</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>እነዚህ የገጾቹ ክፍሎች አገልጋይ ይፈልጋሉ፤ እያንዳንዳቸው መተኪያ አላቸው። ከማተምህ በፊት ፈትሻቸው።</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>በስታቲክ የማይሠራው</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ማከማቻው ምን እንደሆነ፣ በአስተናጋጁ ላይ ለሚከፍተው።</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ተትቷል</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>የመተኪያ ጽሑፍ</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>የቀጥታ ጣቢያው የቅጽ መቀበያ</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>የቀጥታ ጣቢያው</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>የቅጂው የፍለጋ ገጽ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ቅጹን መላክ አልተቻለም።</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>አመሰግናለሁ፦ ቅጹ ተልኳል።</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ቅጹ አልተቀበለም፦ ያስገባኸውን ፈትሸህ እንደገና ላክ።</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>ቅጂው ወደማይይዛቸው ገጾች የሚወስዱ አገናኞችን አስወግድ</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>ወደ አስተዳደሩ የሚወስዱ አገናኞችን አስወግድ</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>ጽሑፋቸው ይቀራል። ምስሎች፣ ቅጾች እና ወደ ሌሎች ጣቢያዎች የሚወስዱ አገናኞች በፍጹም አይወገዱም።</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ስሪት</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>የሚታተሙ የጣቢያ መዳረሻዎች</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>የጣቢያ መዳረሻ</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>በስሩ</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>በስሩ ምንም የጣቢያ መዳረሻ የለም፤ እያንዳንዱ በአቃፊው ውስጥ ነው፣ ስሩም ወደ እነሱ ያገናኛል</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>የጣቢያ መዳረሻዎች</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>አንድ የጣቢያ መዳረሻ ወይም በURI ቅድመ ቅጥያቸው አንድ አስተናጋጅ የሚጋሩ ብዙዎችን ምልክት ያድርጉ። በስሩ ያለው እዚያ ይቀርባል፣ ሌሎቹ በቅድመ ቅጥያቸው አቃፊ (/ger/) ውስጥ፤ በመካከላቸው ያሉ አገናኞች በቅጂው ውስጥ ይቆያሉ። የአስተዳደር የጣቢያ መዳረሻዎች በፍጹም አይቀርቡም።</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>የ%target ቋሚ ህትመት በ%site ላይ አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>የ%target ቋሚ ህትመት በ%site ላይ ተሳክቷል</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>ይህ ኢሜይል በ%site የተላከው የቋሚ ህትመት ዒላማ %target ስለጠየቀው ነው።</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>ማሰማራት %deploy በ %site ላይ አልተሳካም</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>ማሰማራት %deploy በ %site ላይ በአንድ በር እየጠበቀ ነው</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>ማሰማራት %deploy በ %site ላይ ተሳክቷል</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>ይህ ኢሜይል በ %site የተላከው migration.ini [RemoteSettings] Notify[] ስለሚጠይቀው ነው።</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>የውሂብ ዓይነቶች (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>የተቆጠረው %time፣ እንደገና ከ%minutes ደቂቃ በኋላ</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>የውሂብ ዓይነት የአንድ ክፍል ባህሪ አንድ ዓይነት እሴት ያከማቻል እና ያርትዓል፦ የጽሑፍ መስመር፣ ምስል፣ ግንኙነት። Kernel አብዛኞቹን ያመጣል፣ ቅጥያዎች ተጨማሪ ያክላሉ። እዚህ ሁሉም አሉ፣ ማን እንደሚያቀርባቸው እና ምን ያህል ይዘት እንደሚጠቀማቸው። የውሂብ ጎታው የሚጠቀመው ግን ከዚህ በኋላ ማንም የማያስመዘግበው የውሂብ ዓይነት ያለውን ይዘት ይሰብራል።</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>የክፍል ቡድኖች</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>ያለፉትን ደቂቃዎች ቆጠራ ከመጠቀም ይልቅ አሁን እንደገና ቁጠር።</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>እንደገና ቁጠር</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>አጠቃላይ እይታ</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>የተመዘገቡበት</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>ጥቅም ላይ ያለ</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ጥቅም ላይ አልዋለም</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>የውሂብ ዓይነቶችን የሚያቀርቡ ቅጥያዎች</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>የክፍል ባህሪያት</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>የነገር ባህሪያት</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>አልተመዘገበም</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>ተዘርዝሯል፣ ፋይሉ የለም</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count የውሂብ ዓይነቶች ጥቅም ላይ ውለዋል ግን አልተመዘገቡም</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes የክፍል ባህሪያት እና %object_attributes የነገር ባህሪያት ምንም ቅጥያ ወይም ቅንብር የማያስመዘግበው የውሂብ ዓይነት አላቸው። ነገሮቻቸው ሊታዩ፣ ሊስተካከሉ ወይም ሊታተሙ አይችሉም። የውሂብ ዓይነቱን የሚያቀርበውን ቅጥያ ያግብሩ፣ ወይም ክፍሉን ይቀይሩ።</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>እነዚህን ብቻ አሳይ</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>የውሂብ ዓይነት ፈልግ</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>መለያ፣ ስም፣ PHP ክፍል ወይም ቅጥያ።</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>አሳይ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ሁሉም</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>ያቀረበው</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>ሁሉም ሰው</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ከዚህ ማጣሪያ ጋር የሚዛመድ የውሂብ ዓይነት የለም።</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ሁሉንም አሳይ</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>ቅጥያ</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>ከ%count የውሂብ ዓይነቶች %shown፣ %used በጥቅም ላይ</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>የውሂብ ጎታው የእነዚህ የውሂብ ዓይነቶች የክፍል ወይም የነገር ባህሪያት አሉት፣ ግን content.ini አንዳቸውንም አይዘረዝርም፣ ወይም ፋይላቸው የለም።</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>የ%provider የውሂብ ዓይነቶች</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>የውሂብ ዓይነት</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP ክፍል እና ፋይል</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>ክፍሎች</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>ነገሮች</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ባንዲራዎች</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ምንም</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>ከፍለጋው ጋር የሚዛመድ የውሂብ ዓይነት የለም። ፍለጋውን አጽዳ።</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>ከ%count የውሂብ ዓይነቶች %shown ታይተዋል</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>የታዩ የውሂብ ዓይነቶች፦ %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>በ%column ደርድር</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>የተቆጠረው %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>ሁሉም የውሂብ ዓይነቶች</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>የእገዛ ገጽ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ይህ የውሂብ ዓይነት ጥቅም ላይ ውሏል ግን አልተመዘገበም</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>ምንም ቅጥያ የውሂብ ዓይነቱን እስካላስመዘገበ ድረስ ከዚህ በታች ያሉት ክፍሎች ነገሮች ሊታዩ፣ ሊስተካከሉ ወይም ሊታተሙ አይችሉም። የሚያቀርበውን ቅጥያ ያግብሩ እና ወደ content.ini [DataTypeSettings] AvailableDataTypes[] ያክሉት፣ ወይም ክፍሎቹን ይቀይሩ።</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ይህን የውሂብ ዓይነት ይዘረዝራል፣ ግን የትኛውም የውሂብ ዓይነት ማውጫ ፋይሉን አልያዘም። ምንም አይጠቀመውም፤ ከAvailableDataTypes[] ያስወግዱት ወይም ቅጥያውን ያግብሩ።</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>ስለዚህ የውሂብ ዓይነት</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>መለያ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ስም</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ቅጥያ %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ማንም</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>የPHP ክፍል</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ፋይል</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>በAvailableDataTypes[] ውስጥ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>አዎ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>አይ</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>የእሴቱ አምዶች</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>የክፍል ባህሪ ቅንብሮቹ አምዶች</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>ሰንጠረዦች</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>አምዶቹ እና ሰንጠረዦቹ የውሂብ ዓይነቱን ኮድ በማንበብ ይገኛሉ፦ መመሪያ እንጂ ቃል ኪዳን አይደለም።</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>አብነቶች</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>የጣቢያ መዳረሻ</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>አብነት</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>የተገኘው በ</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ይህ አስተዳደር</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ነባሪ ጣቢያ</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ያለ override፦ በክፍል ወይም በባህሪ የሚዛመድ የoverride አብነት ከእነዚህ ይቀድማል።</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>የሚጠቀሙት ክፍሎች (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>የዚህ የውሂብ ዓይነት ባህሪ ያለው ክፍል የለም።</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ክፍል</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>ባህሪዎች</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>የክፍል ባህሪያት (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>ባህሪ</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ቅንብሮች</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>መታወቂያ %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>ያስፈልጋል</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>ሊፈለግ የሚችል</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>ሊተረጎም የሚችል</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>መረጃ ይሰበስባል</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>የሚጠቀሙት አንዳንድ ይዘቶች</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>መጨረሻ የተቀየረው መጀመሪያ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>የተሻሻለ</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>መስቀለኛ ነጥብ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>እያንዳንዱ ትርጉም የራሱ እሴት አለው።</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>ፍለጋው እሴቶቹን ይጠቁማል።</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>ከጎብኚዎች መረጃ መሰብሰብ ይችላል (ቅጾች)።</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>ዝርዝሮች በእሱ ሊደረደሩ ይችላሉ፦ የመደርደሪያ ቁልፍ %type።</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>ሊደረደር የሚችል</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>እሴቶቹ ወደ ሌሎች ነገሮች ያመለክታሉ።</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>ግንኙነቶች</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>ከቀላል ጽሑፍ ሊሞላ ይችላል (ማስገባት፣ REST)።</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>ከጽሑፍ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>ከፋይል ሊሞላ ይችላል።</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ከፋይል</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>የክፍል ባህሪ ቅንብሮቹ ወደ ጥቅሎች ይገባሉ።</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>ጥቅሎች</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>ይዘት (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from እስከ %to ከ%count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ዝርዝሩን አጣራ</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>ሁሉም የይዘት ክፍሎች</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ክፍል</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ቋንቋዎች</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ባለቤት</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>የታተመ</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ቅደም ተከተሉን ገልብጥ</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ምንም ንጥል የለም</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>በአንድ ገጽ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>በአንድ ገጽ %count ንጥሎችን አሳይ።</translation>
     </message>
 </context>
 </TS>

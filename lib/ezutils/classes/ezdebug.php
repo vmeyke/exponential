@@ -2,7 +2,7 @@
 /**
  * File containing the eZDebug class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * Portions derived from LoveStack (mugoweb/ezpublish-legacy, commits fbbd333a85, e20570a7ad, b7832d110e, e39dde30ff), Copyright (C) Mugo Web, GPL v2
  * Portions derived from LoveStack (mugoweb/ezpublish-legacy, commit 4065ed16b3), Copyright (C) Mugo Web, GPL v2
@@ -1313,6 +1313,20 @@ class eZDebug
         return false;
     }
 
+    /**
+     * Whether this request's statistics are collected: the accumulators (page time, SQL statements and their time)
+     * and the render statistics (expRenderStats: view cache, cache-blocks, the template tree). True with debug output
+     * on, and also without it for a user one of site.ini [DebugSettings] CollectStatsPolicyList[] matches
+     * (expRenderStats::checkCollectByPolicy()), for a tool of theirs to show; nothing is printed then and no message
+     * is kept.
+     *
+     * @return bool
+     */
+    static function isCollecting()
+    {
+        return !empty( $GLOBALS['eZDebugEnabled'] ) || !empty( $GLOBALS['eZDebugCollect'] );
+    }
+
     /*!
      \static
      \return true if there should only be logging of debug strings to file.
@@ -1454,6 +1468,14 @@ class eZDebug
 
         $GLOBALS['eZDebugAllowed'] = $GLOBALS['eZDebugAllowedByIP'];
         $GLOBALS['eZDebugEnabled'] = $settings['debug-enabled'] && $GLOBALS['eZDebugAllowedByIP'];
+        // collecting without output is decided per request, after the user is known (expRenderStats::checkCollectByPolicy())
+        $GLOBALS['eZDebugCollect'] = false;
+
+        // A page a static publishing build fetches from this server, with its signed header (expStaticBuildSignature):
+        // no debug output, as a visitor outside DebugIPList[] sees it. It only ever turns debug output off.
+        // class_exists: a Velocity worker started before the class was added keeps the debug settings as they are.
+        if ( class_exists( 'expStaticBuildSignature' ) && expStaticBuildSignature::noDebugRequested() )
+            expStaticBuildSignature::applyNoDebug();
 
         eZDebug::setHandleType( $oldHandleType );
     }
@@ -1602,7 +1624,7 @@ class eZDebug
     */
     static function createAccumulatorGroup( $key, $name = false )
     {
-        if ( !eZDebug::isDebugEnabled() )
+        if ( !eZDebug::isCollecting() )
             return;
         if ( $name == '' or
              $name === false )
@@ -1621,7 +1643,7 @@ class eZDebug
     */
     static function createAccumulator( $key, $inGroup = false, $name = false )
     {
-        if ( !eZDebug::isDebugEnabled() )
+        if ( !eZDebug::isCollecting() )
             return;
         if ( $name == '' or
              $name === false )
@@ -1649,7 +1671,7 @@ class eZDebug
     */
     static function accumulatorStart( $key, $inGroup = false, $name = false, $recursive = false )
     {
-        if ( !eZDebug::isDebugEnabled() )
+        if ( !eZDebug::isCollecting() )
             return;
         $startTime = microtime( true );
         $debug = eZDebug::instance();
@@ -1677,7 +1699,7 @@ class eZDebug
     */
     static function accumulatorStop( $key, $recursive = false )
     {
-        if ( !eZDebug::isDebugEnabled() )
+        if ( !eZDebug::isCollecting() )
             return;
         $stopTime = microtime( true );
         $debug = eZDebug::instance();
@@ -2266,6 +2288,11 @@ class eZDebug
     {
         $ipAddresIPV4Pattern = "/^(([0-9]+)\.([0-9]+)\.([0-9]+)\.([0-9]+))(\/([0-9]+)$|$)/";
         $ipAddressIPV6Pattern = "/^((([0-9A-Fa-f]{1,4}:){7}[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){6}:[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){5}:([0-9A-Fa-f]{1,4}:)?[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){4}:([0-9A-Fa-f]{1,4}:){0,2}[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){3}:([0-9A-Fa-f]{1,4}:){0,3}[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){2}:([0-9A-Fa-f]{1,4}:){0,4}[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){6}((\b((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\b)\.){3}(\b((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\b))|(([0-9A-Fa-f]{1,4}:){0,5}:((\b((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\b)\.){3}(\b((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\b))|(::([0-9A-Fa-f]{1,4}:){0,5}((\b((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\b)\.){3}(\b((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\b))|([0-9A-Fa-f]{1,4}::([0-9A-Fa-f]{1,4}:){0,5}[0-9A-Fa-f]{1,4})|(::([0-9A-Fa-f]{1,4}:){0,6}[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){1,7}:))(\/([0-9]+)$|$)$/";
+
+        // A request that asks for no debug report (X-Exp-Debug: off, sent by exp:benchmark) gets none, so it is
+        // measured as a visitor sees the page, cacheable. It can only switch the report off, never on.
+        if ( isset( $_SERVER['HTTP_X_EXP_DEBUG'] ) && strtolower( trim( (string)$_SERVER['HTTP_X_EXP_DEBUG'] ) ) === 'off' )
+            return false;
 
         $ipAddress = eZSys::clientIP();
         $allowedIpList = is_array( $allowedIpList ) ? $allowedIpList : array();

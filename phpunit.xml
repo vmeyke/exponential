@@ -34,6 +34,13 @@
             <directory suffix="Test.php">tests/tests/kernel/classes/security</directory>
         </testsuite>
 
+        <!-- run by the verification after an upgrade (exp:upgrade:verify with after): fast, no database, no network -->
+        <testsuite name="upgrade-smoke">
+            <directory suffix="Test.php">tests/tests/kernel/classes/upgrade</directory>
+            <file>tests/tests/kernel/classes/help/expHelpSearchContractTest.php</file>
+            <file>tests/tests/kernel/classes/httpcache/ezpHttpCacheContractTest.php</file>
+        </testsuite>
+
         <testsuite name="kernel-classes">
             <directory suffix="Test.php">tests/tests/kernel/classes</directory>
             <!-- the template operators of kernel/common, called directly; no database -->
@@ -41,6 +48,10 @@
             <!-- the error module's view (kernel/error): headers of error pages; no database -->
             <directory suffix="Test.php">tests/tests/kernel/error</directory>
             <exclude>tests/tests/kernel/classes/security</exclude>
+            <!-- in the suite upgrade-smoke; a file can be in one suite only -->
+            <exclude>tests/tests/kernel/classes/upgrade</exclude>
+            <exclude>tests/tests/kernel/classes/help/expHelpSearchContractTest.php</exclude>
+            <exclude>tests/tests/kernel/classes/httpcache/ezpHttpCacheContractTest.php</exclude>
         </testsuite>
 
         <testsuite name="kernel-content">
@@ -99,6 +110,7 @@
         <testsuite name="mongodb">
             <file>tests/tests/lib/ezdb/mongodb/expMongoDBAdapterTest.php</file>
             <file>tests/tests/lib/ezdb/mongodb/expMongoDBDeclaredDefaultTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMongoDBColumnAliasAndCollectionsTest.php</file>
         </testsuite>
 
         <!--
@@ -107,6 +119,22 @@
         -->
         <testsuite name="mongodb-live">
             <file>tests/tests/lib/ezdb/mongodb/expMongoDBIntegrationTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationRecordMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationRunnerMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationUpgradeSourceMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationCaptionMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationCommandMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationRecordingMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationYamlMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationContentStepsMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationStructureStepsMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expModerationMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationTagAliasTrashFileStepsMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationCacheSearchAutoloadStepsMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationLayoutHttpMailCommandStepsMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationSqlSettingsStepsMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationGraphqlMongoDBTest.php</file>
+            <file>tests/tests/lib/ezdb/mongodb/expMigrationPerformanceMongoDBTest.php</file>
         </testsuite>
 
         <!--

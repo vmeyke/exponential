@@ -7,7 +7,7 @@
  *
  * Every test builds its own folders below the class's throwaway root; the base class removes all of it again.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
@@ -15,6 +15,7 @@
 
 require_once __DIR__ . '/expContentModelLiveTestCase.php';
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class eZContentOperationsLiveTest extends expContentModelLiveTestCase
 {
     private function node( $nodeID )

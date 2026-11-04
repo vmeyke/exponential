@@ -3,6 +3,20 @@
 This page is for administrators of servers where nobody has a shell, or where a shell is not the way you want to work.
 `git_manager` gives two tools in the web admin:
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../../examples/web-servers/nginx.md), [LiteSpeed](../../../examples/web-servers/litespeed.md),
+> [Caddy](../../../examples/web-servers/caddy.md), [IIS](../../../examples/web-servers/iis.md), [Velocity](../../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../../help/hosting/panels/plesk.md), [cPanel](../../../help/hosting/panels/cpanel.md), [DirectAdmin](../../../help/hosting/panels/directadmin.md), [ISPConfig](../../../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../../guides/litespeed-page-cache.md).
+
 - a **git dashboard** (**Setup**, `/git_manager/dashboard`): see where the installation stands against its branch on
   the remote, switch branches, check out a commit, pull, push, manage remotes and submodules;
 - a **backup manager** (`/git_manager/backup`): timestamped backups ("captions") of the database and files, optional
@@ -12,7 +26,7 @@ The extension was released as 2.0.1 on 21 June 2026 (backup manager) and reached
 
 ## Requirements
 
-Exponential 6, PHP 8.1 or later, a git binary the web server's user can run, GnuPG (`/usr/bin/gpg`) for encrypted
+Exponential 6, PHP 8.0 or later (PHP 7.4 usable without support), a git binary the web server's user can run, GnuPG (`/usr/bin/gpg`) for encrypted
 backups, and `mysqldump` for database backups.
 
 ## Quick start: make a backup before a change

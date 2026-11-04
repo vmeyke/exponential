@@ -24,7 +24,7 @@ Gespräch auf ihren Seiten zu Einwänden, zum Beispiel [„Lebt es noch?“](../
 ### 1. „Es ist tot; eZ Publish endete 2021.“
 
 Die Produktlinie eZ Publish endete, die Codebasis nicht. 7x veröffentlichte 6.0.0 am 1. Januar 2024 und vierzehn
-weitere Releases bis zum 7. Juni 2026; 6.0.15 ist in Entwicklung ([Die 6.0.x-Releases auf einen Blick](die-6-0-x-releases-auf-einen-blick.md)).
+weitere Releases bis zum 7. Juni 2026; 6.0.15 ist die aktuelle Linie ([Die 6.0.x-Releases auf einen Blick](die-6-0-x-releases-auf-einen-blick.md)).
 Die README: „Exponential has made it beyond it's end of life in 2021 and survived“.
 
 ### 2. „Es ist ein Produkt von Ibexa.“
@@ -34,7 +34,7 @@ Die README: „Exponential has made it beyond it's end of life in 2021 and survi
 
 ### 3. „Es läuft nur auf altem PHP.“
 
-Es unterstützt PHP 8.0 bis 8.5; Websites mit PHP 7.4 bleiben auf 6.0.7 ([Thema: aktuelles PHP](thema-aktuelles-php.md)).
+Es unterstützt PHP 7.4 bis 8.5; Websites mit PHP 7.4 können 6.0.15 ebenfalls betreiben, ohne Support ([Thema: aktuelles PHP](thema-aktuelles-php.md)).
 
 ### 4. „Die KI schreibt und veröffentlicht Ihre Website.“
 
@@ -69,7 +69,7 @@ Die Codebasis wird seit 1999 entwickelt; der Name stammt vom August 2025 ([Zeitl
 
 ### 10. „7x gehört es, und 7x kann es schließen.“
 
-7x und die Exponential Foundation halten das Urheberrecht gemeinsam, und der Code steht unter der GPL, die es jedem
+Die Exponential Foundation und 7x halten das Urheberrecht gemeinsam, und der Code steht unter der GPL, die es jedem
 erlaubt, ihn zu behalten und weiterzuführen ([Lizenzen für Reporter erklärt](lizenzen-fuer-reporter-erklaert.md)).
 
 ## Warum es die Mythen gibt

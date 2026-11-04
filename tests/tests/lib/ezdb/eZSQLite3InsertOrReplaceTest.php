@@ -12,7 +12,7 @@
  *
  * Database: SQLite in memory.
  *
- * @copyright Copyright (C) 7x / Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file.
  * @package tests
  */
@@ -71,6 +71,7 @@ class eZSQLite3InsertOrReplaceTest extends PHPUnit\Framework\TestCase
     /**
      * @testdox insertOrReplaceIsSafe() is true only where every unique key holds all of the keys
      */
+    #[\PHPUnit\Framework\Attributes\TestDox('insertOrReplaceIsSafe() is true only where every unique key holds all of the keys')]
     public function testInsertOrReplaceIsSafe(): void
     {
         $db = $this->db();
@@ -84,6 +85,7 @@ class eZSQLite3InsertOrReplaceTest extends PHPUnit\Framework\TestCase
     /**
      * @testdox Storing version 2 of an attribute keeps version 1, or fails, but never deletes it
      */
+    #[\PHPUnit\Framework\Attributes\TestDox('Storing version 2 of an attribute keeps version 1, or fails, but never deletes it')]
     public function testStoringANewVersionKeepsThePublishedOne(): void
     {
         $db = $this->db();

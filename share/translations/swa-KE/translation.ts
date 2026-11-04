@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Ukurasa huu tu ndio unaotafutwa: %from hadi %to kati ya %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kila aina ya data ya kiini cha mfumo na viendelezi, na jinsi madarasa na maudhui yanavyoitumia.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Aina za data</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Kurasa za mfumo pia zinaweza kuwekewa alamisho: fungua ukurasa (Usanidi, kumbukumbu za ukaguzi, orodha ya watumiaji ...) na uchague Weka alamisho kwa ukurasa huu juu yake. Alamisho hizo zina aikoni ya gia.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Huwezi tena kufungua ukurasa huu hapa. Ondoa alamisho, au mwombe msimamizi akupe ufikiaji.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Nenda kwenye ukurasa wa kwanza</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Nyingine</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Siku 7 zilizopita</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Kipindi maalum</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Maneno yote</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Neno lolote</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Kifungu kamili</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Umuhimu</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Jina A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Jina Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Imebadilishwa, mpya kwanza</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Imebadilishwa, za zamani kwanza</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Imechapishwa, mpya kwanza</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Imechapishwa, za zamani kwanza</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Imebadilishwa</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Vichujio</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Onyesha vichujio</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Ficha vichujio</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Weka upya</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Tumia</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Maneno</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Aina ya maudhui</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Onyesha zaidi (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Chagua aina moja ya maudhui ili kutafuta katika mojawapo ya sifa zake.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sehemu</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kutoka</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hadi</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Tarehe ya kuanzia si tarehe sahihi.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Tarehe ya mwisho si tarehe sahihi.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Mmiliki</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Kitambulisho cha mtumiaji, jina la kuingia au anwani ya barua pepe.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Hakuna mtumiaji aliyepatikana kwa “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lugha</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Lugha yoyote</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Eneo</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Maeneo %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Matokeo kwa kila ukurasa</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Matokeo ya “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Matokeo (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Panga kwa</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Panga</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Vichujio amilifu</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Ondoa kichujio hiki</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Au chagua vichujio na uvitumie ili kuorodhesha maudhui yanayolingana navyo.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Vichujio hupunguza utafutaji baada ya kuandika maneno.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Hakuna matokeo yaliyopatikana kwa “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Hakuna matokeo yaliyopatikana.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Ondoa kichujio kimoja hapo juu.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tafsiri</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Vitendo</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Hariri %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Hariri</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Usanidi &gt; Kazi zilizoratibiwa</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Hakuna sehemu ya kazi iliyoratibiwa (cronjob) iliyoendeshwa bado: foleni ya kazi, uletaji, arifa na faharasa ya utafutaji vinasubiri. Endesha php bin/php/installcrontab.php --add --apply, au ongeza mistari ya --show kwenye crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>Ilani za hakimiliki za waandishi wa awali na za programu za wahusika wengine zilizojumuishwa pamoja na Exponential zimehifadhiwa katika faili za chanzo na katika faili LICENSE, kama leseni inavyotaka.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Ifuatayo ni orodha ya wachangiaji wa Exponential ambao wamelipa 7x leseni ya kutumia kazi yao chini ya masharti na vigezo vya eZ Systems Contributor Licensing Agreement. Kama mkataba huu unavyoruhusu, 7x husambaza upya kila mchango chini ya leseni ile ile ya faili ambamo mchango umejumuishwa. Orodha inamtaja kila mchangiaji, taarifa za mawasiliano zisizo za lazima na faili walizochangia au kuchangia kazi ndani yake.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Wachangiaji wanaotambuliwa kwa kazi yao kwenye Exponential na kwenye programu iliyozaa, pamoja na faili walizochangia. Huu ni utambuzi, si notisi ya hakimiliki: michango kwa Exponential hukabidhiwa Exponential Foundation na 7x chini ya Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Kumbuka: Usakinishaji wa vifurushi hautaondolewa.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Jaribu Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Kuwa mwanachama wa Jumuiya ya Exponential, badilishana na uchangie&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Hakimiliki &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; na wengine.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Inaendeshwa na &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Kwa maelezo zaidi tazama &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Hakimiliki &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; na wengine.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Kwa maelezo zaidi tazama &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Hakimiliki &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; na wengine.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Jaribu Exponential (kutoka 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Kuwa mwanachama wa Jumuiya ya Exponential, pata usaidizi na uchangie&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Hakimiliki &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; na wengine.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Kumbuka: Usakinishaji wa vifurushi hautaondolewa.</translation>
     <message>
         <source>Help center</source>
         <translation>Kituo cha usaidizi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Maudhui</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Kurasa za hati</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Watumiaji</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Madarasa ya maudhui</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Usimamizi</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Ukurasa %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Tazama matokeo yote</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Matokeo %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Tokeo moja</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Mapendekezo %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Hakuna mapendekezo</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Mapendekezo hayakuweza kupakiwa.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Mapendekezo</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Kumbuka: Usakinishaji wa vifurushi hautaondolewa.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Usakinishaji huu ni wa maonyesho ya umma: mtu yeyote anaweza kujua nenosiri lake la msimamizi, na manenosiri ya msimamizi hayawezi kubadilishwa wala kuwekwa upya. Usiweke chochote cha faragha hapa.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Vifaa vyako</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Shughuli za usalama</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Kumbuka: Usakinishaji wa vifurushi hautaondolewa.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Miongozo, utafutaji na jinsi ya kuripoti hitilafu.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Maudhui mapya</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Maudhui mapya kabisa, yale yaliyozuiliwa kwa ukaguzi, na vitendo kwa uteuzi.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Kumbuka: Usakinishaji wa vifurushi hautaondolewa.</translation>
         <source>Synchronisations</source>
         <translation>Usawazishaji</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: sehemu yake ya mwisho, skima na uwanja wa kujaribu hoja.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Uhamishaji</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Mabadiliko ya usakinishaji yaliyohifadhiwa kama faili: hali yake, utekelezaji, tekeleza na rudisha nyuma.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Maudhui mapya</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Maudhui mapya kabisa, yale yaliyozuiliwa kwa ukaguzi, na vitendo kwa uteuzi.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Chapisha nakala tuli ya tovuti kwenye GitHub Pages au mwenyeji wowote wa git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Uchapishaji tuli</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Aina za data</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kila aina ya data ya kiini cha mfumo na viendelezi, na jinsi madarasa na maudhui yanavyoitumia.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Kumbuka: Usakinishaji wa vifurushi hautaondolewa.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Akaunti zisizotumiwa na mtu yeyote au zinazohitaji kuangaliwa; zizime, zifungue au zihamishe.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Kumbukumbu za ukaguzi wa watumiaji</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Nani alibadilisha, aliingia au alikataliwa, kwa kila akaunti; chuja na uhamishe.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ripoti ya kuingia</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Nani ameingia, kuingia na kushindwa kwa kila siku; mtoe mtumiaji kila mahali.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Kumbuka: Usakinishaji wa vifurushi hautaondolewa.</translation>
         <source>%n hours ago</source>
         <translation>saa %n zilizopita</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Majibu ya hoja zilizohifadhiwa za GraphQL API, na madarasa ya maudhui ya skima yake.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Chapisha nakala tuli kwenye GitHub Pages au mwenyeji wowote wa git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Uchapishaji tuli</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Akiba tuli inahudumia kurasa kutoka seva hii. Ili kuchapisha nakala tuli ya tovuti mahali pengine, kwenye GitHub Pages au mwenyeji wowote wa git, tumia uchapishaji tuli.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Kumbuka: Usakinishaji wa vifurushi hautaondolewa.</translation>
     <message>
         <source>last purge</source>
         <translation>uondoaji wa mwisho</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Maandishi hayakuweza kuchukua kufuli ya hali (mara ya mwisho %date): kila moja ilifanya matokeo yote yaliyohifadhiwa kuwa ya zamani. %file lazima iweze kuandikwa na kila mtumiaji ambaye tovuti inaendeshwa kama yeye; kwenye NFS inahitaji NFSv4 au lockd.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Kumbuka: Usakinishaji wa vifurushi hautaondolewa.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Vipindi vilivyoisha muda vya kishughulikiaji cha PHP huondolewa na PHP yenyewe (session.gc_maxlifetime), si na ukurasa huu wala sehemu ya kazi iliyoratibiwa session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Vipindi vilivyoingia vya kila mtumiaji vinaorodheshwa, na kutolewa, kwenye ripoti ya kuingia, ambayo hufanya kazi na kila kishughulikiaji cha vipindi.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Fungua ripoti ya kuingia</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ akaunti yako.</translation>
     <message>
         <source>None yet</source>
         <translation>Bado hakuna</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Shughuli za usalama</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Kuingia kwako kwa hivi karibuni, majaribio yaliyoshindwa na mabadiliko ya nenosiri lako, anwani ya barua pepe na kuingia kwa hatua mbili.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Kuingia kwa hivi karibuni, majaribio yaliyoshindwa na mabadiliko ya usalama ya akaunti hii.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Kagua shughuli</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Majaribio %count ya kuingia yaliyoshindwa</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ Ikiwa unataka kutuma maoni kwa mwidhinishaji au kutazama hali, tumia URL iliyo h
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Baada ya kuingia, mtumiaji lazima achague nenosiri jipya kabla ya kufanya kitu kingine chochote. Tumia hili unapompa mtu nenosiri la muda.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Chagua picha iliyopo</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Faili ya picha ya kitu utakachochagua inanakiliwa kwenye sehemu hii. Kitu kingine hakibadiliki.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Picha ya “%name” imenakiliwa kwenye sehemu hii.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Vinjari ili kupata picha</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Tafuta picha kwa jina</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Tafuta</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Tumia picha ya “%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Tumia picha hii</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Hakuna picha inayolingana na utafutaji wako.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ Tazama ukurasa wa mahitaji kwa taarifa zaidi.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab haikuandikwa (%reason). Ongeza mistari hii kwenye crontab ya mtumiaji ambaye tovuti inaendeshwa kama yeye, la sivyo foleni, uletaji, arifa na faharasa ya utafutaji havitaendeshwa kamwe:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Kusakinisha upya hufanywa kwa Kickstarter (%file, kisha php bin/php/kickstarter.php run --apply) au kwa usakinishaji mpya.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ akaunti yako.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Akiba ya Public Packer ya eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Akiba ya GraphQL (majibu na madarasa ya skima)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ akaunti yako.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Nakala ya %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Aina za data</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Aina ya data %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ akaunti yako.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Picha ya SVG haikuweza kusomwa, au hakuna kitu ndani yake kinachoweza kuonyeshwa kwa usalama.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Picha haikuweza kunakiliwa. Tafadhali jaribu tena au wasiliana na msimamizi wa tovuti.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Kitu kilichochaguliwa hakipo au huruhusiwi kukisoma.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Kitu kilichochaguliwa hakina picha.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Faili ya picha ya kitu kilichochaguliwa haikuweza kusomwa.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Picha ya kitu kilichochaguliwa ni kubwa kuliko sehemu hii inavyoruhusu: baiti %1.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ akaunti yako.</translation>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>Alamisho imebadilishwa jina kuwa &quot;%name&quot;.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Ukurasa huu umezimwa katika siteaccess hii (%siteaccess). Fungua alamisho katika siteaccess ambayo ina ukurasa huu.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Moduli ya ukurasa huu haijasakinishwa au haijawezeshwa hapa.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Ukurasa huu haupo tena: moduli yake haina mwonekano kama huo.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Hakuna jukumu lako hata moja linalokuruhusu kufungua ukurasa huu.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Huna ruhusa ya kutumia siteaccess hii.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Huna ruhusa ya kusoma maudhui ambayo ukurasa huu unaonyesha.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Aina hii ya ukurasa haiwezi kuwekewa alamisho: inashughulikia fomu tu, au ni ukurasa wa muda mfupi tu.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Anwani ya ukurasa huu haipo.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Ukurasa huu hauwezi kufunguliwa sasa.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Usafirishaji wa barua pepe ulikataa ujumbe katika uendeshaji wa mwisho, idadi: %count. Kagua seva ya barua pepe na site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Matukio %count yanasubiri na hakuna uendeshaji wa kazi iliyoratibiwa ya arifa uliorekodiwa. Ongeza sehemu ya cronjob &quot;frequent&quot; kwenye crontab, au endesha exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
         <source>Choose another site or section with the node picker</source>
         <translation>Chagua tovuti au sehemu nyingine kwa kichaguzi cha nodi</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Msimamizi wa mfumo pekee ndiye anayeweza kubadilisha mmiliki: endesha ./console exp:content-check --fix-permissions --apply kama root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
     <message>
         <source>empty</source>
         <translation>tupu</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Ufunguo wa kutia sahihi una umri wa zaidi ya mwaka mmoja: ubadilishe kwa exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
         <source>Share of page time</source>
         <translation>Sehemu ya muda wa ukurasa</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>uonyeshaji kamili uliombwa</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>akiba ya kurasa haikuwa na ukurasa huu (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>akiba ya kurasa haikujibu</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Imeonyeshwa</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Imeonyeshwa na kernel: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Imehudumiwa kutoka kwenye akiba ya kurasa kwa %ms ms. Ukurasa ulihifadhiwa saa %stored na uonyeshaji wa %render ms, %age s zilizopita.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Onyesha sasa</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Rudi kwenye mwonekano wa akiba</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Kutoka kwenye uonyeshaji wa saa %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Ombi hili: limehudumiwa kutoka kwenye akiba ya kurasa kwa %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mtumiaji</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Kitambulisho cha mtumiaji</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Wasifu wa akiba</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Mwonekano huu</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Akiba ya mwonekano</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>kwa kila mtumiaji (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Wasifu wa akiba wa mtumiaji: watumiaji wenye wasifu sawa hushiriki faili za akiba ya mwonekano</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ndiyo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>hapana</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Jina la kuingia</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Ameingia</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Kipindi</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Sehemu za ufunguo wa akiba ya mwonekano wa maudhui zinazotegemea mtumiaji, kama ufunguo unavyozichukua hasa, chini ya ViewCacheTweaks za ukurasa huu. Watumiaji wenye wasifu sawa hushiriki faili za akiba za mionekano, isipokuwa sehemu za mwonekano wenyewe zikitofautiana (mapendeleo, funguo za wasikilizaji): hizo zina wasifu wao wenyewe, kwa ukurasa huu tu.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Wasifu</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Mwonekano huu (nodi %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: kila mtumiaji aliyeingia ana faili zake za akiba.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks zinazotumika: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Sehemu</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Thamani</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Hakuna sehemu inayotegemea mtumiaji (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>mwonekano huu</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Nakili kama maandishi</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Majukumu</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Hakuna ugawaji wa majukumu ulioweza kusomwa.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Kitambulisho cha jukumu</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Jukumu</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Kizuizi</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Imegawiwa kwa</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>mtumiaji</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>kikundi %name (kitu %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Imenakiliwa</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Imeshindwa kunakili.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>imeachwa na msikilizaji</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Wageni wasiojulikana</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>sawa na yako</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>tofauti</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Wasifu wanaopata wageni wasiojulikana chini ya ViewCacheTweaks hizo hizo, wakiwa na mapendeleo chaguomsingi, bila sehemu za mwonekano: msikilizaji anayesoma kipindi hawezi kuulizwa kuzihusu.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Mapendeleo</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Hakuna hali ya mwonekano inayotegemea mapendeleo ya mtumiaji (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Mapendeleo ambayo mionekano ya hali hizi za mwonekano inategemea (CachedViewPreferences), pamoja na thamani ya mtumiaji au chaguomsingi. Yamo katika wasifu kama userpreferences, ya hali zote za mwonekano kwa pamoja.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Hali ya mwonekano</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Pendeleo</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Chaguomsingi</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Sera</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Onyesha sera za majukumu (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Sera hupakiwa kutoka kwa seva sehemu hii inapofunguliwa, ukurasa mmoja kwa wakati, na zinaweza kuchujwa kwa moduli na kitendakazi.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Kitendakazi</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Moduli zote</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Vitendakazi vyote</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Vizuizi</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Onyesha zaidi</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Majukumu haya hayana sera.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Hakuna sera inayolingana na kichujio.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown kati ya sera %matching (%total kwa jumla)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Hupakiwa inapofunguliwa.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>moduli/kitendakazi, jukumu, kikomo</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Tafuta sera</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Pakia zaidi</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Moduli/kitendakazi</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Majukumu yote (sera %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Hakuna sera inayolingana.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>Sera %shown kati ya %matched</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Hakuna jibu</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>imefichwa</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Onyesha maelezo</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Ficha maelezo</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Fungua</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Fungua zote</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Funga zote</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Ufunguo au thamani</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Tafuta katika kipindi</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Aina</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count zaidi</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>imefungamana kwa kina mno kuonyeshwa</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>imekatwa, herufi %count kwa jumla</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Imeanzishwa</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Jina la kidakuzi</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Kitambulisho cha kipindi</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Kishughulikiaji</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Njia ya kuhifadhi</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Chaguo-msingi la PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Muda wa kuishi (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kidakuzi</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>muda wa kuishi %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Kipindi chako mwenyewe cha PHP, kama kilivyokuwa sehemu hii ilipofunguliwa, kamwe si kingine. Thamani za funguo zinazoonekana kama siri (tokeni, hashi, nywila) zimefichwa (debugbar.ini SessionMask[]); kila kitu kingine kinaonyeshwa kama kilivyohifadhiwa, data binafsi pia.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>funguo %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>kubwa</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Kipindi ni tupu.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Hakuna kipindi kilichoanzishwa kwa ombi hili.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Kiendelezi %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kiini na vingine</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Si kila ingizo linaloonyeshwa: kipindi kina zaidi ya kinachoweza kuorodheshwa hapa.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Funguo %count hazijaorodheshwa.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Fremu</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Thamani zinazoonekana kama tokeni (JSON Web Token, vitambulisho vya kichwa cha Authorization, ufunguo wa faragha, maandishi marefu ya heksadesimali au ya nasibu) pia zimefichwa, bila kujali ufunguo wake unaitwaje (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Ufunguo unaonekana kama siri (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Thamani inaonekana kama tokeni.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Chini ya ufunguo uliofichwa.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Kipindi kama maandishi, kimefichwa kama jedwali.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Kipindi ni kikubwa kuliko %size (debugbar.ini SessionWarnBytes): kila ombi la mtumiaji huyu husoma kipindi kizima, na hukiandika kinapobadilika.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP huhifadhi kipindi hiki katika faili na hufunga faili kwa ombi zima: maombi ya mtumiaji yuleyule (vichupo kadhaa, miito ya AJAX) husubiriana.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Acha wazi</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Kikubwa kuliko %size (debugbar.ini SessionWarnBytes): kila ombi la mtumiaji huyu husoma kipindi kizima.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits kati ya %count zimesomwa kutoka kwenye akiba</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Hakuna kiolezo kilichotolewa (mwonekano uliosomwa kutoka kwenye akiba ya mionekano hautoi chochote).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Ukabidhi wa majukumu</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Majukumu na sera</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>tofauti na wa wageni wasiojulikana</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>sawa na wa wageni wasiojulikana</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
     <message>
         <source>not sent</source>
         <translation>haujatumwa</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Kazi iliyoratibiwa ya arifa hurekodi hapa kila uendeshaji wake. Ongeza sehemu frequent kwenye crontab, au endesha exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Tumia konsoli: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Mada hii haijatolewa; wasomaji hawaioni.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Uhamishaji</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Mabadiliko ya usakinishaji yaliyohifadhiwa kama faili: hali yake, utekelezaji, tekeleza na rudisha nyuma.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Chapisha nakala tuli ya tovuti kwenye GitHub Pages au mwenyeji wowote wa git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Uchapishaji tuli</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Kwenye ukaguzi</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Wasomaji wanaona ukurasa huu.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Umefichwa kwa wasomaji hadi mtu autoe.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Ukurasa sasa uko kwenye ukaguzi. Umefichwa kwa wasomaji hadi utolewe.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Ukurasa umetolewa: wasomaji wanauona sasa.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Ukurasa ni rasimu tena. Umefichwa kwa wasomaji hadi ukaguliwe na utolewe.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Toa sasa</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Ni mtumiaji mwenye jukumu la %role ambaye hakuandika toleo hili pekee anayeweza kulitoa.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Mada za msaada zinazosubiri kutolewa</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Huuficha kwa wasomaji hadi utolewe tena.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Mkaguzi ataukagua baadaye. Wasomaji bado hawauoni.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Wasomaji wanauona mara moja.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Huuondoa kwenye ukaguzi kwa kazi zaidi. Wasomaji hawauoni.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Ficha ukurasa huu kwa wasomaji?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Rudisha ukurasa huu kwenye rasimu?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Wasomaji hawaoni tena %title hadi mtu autoe tena.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title unarudi kwenye rasimu kwa kazi zaidi. Wasomaji bado hawauoni, na unahitaji ukaguzi mpya kabla ya kutolewa.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ghairi</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Mada hizi ziko kwenye ukaguzi. Wasomaji wanaziona mara tu mtu ambaye hakuandika toleo la sasa anapozitoa.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
         <source>None.</source>
         <translation>Hakuna.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>kwa programu ya uthibitishaji</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>kwa msimbo kupitia barua pepe</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>kwa msimbo wa kurejesha</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>kwa ufunguo wa siri (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>kwa akaunti ya nje</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Shughuli za usalama</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Inaonyeshwa kama mtandao wake; anwani huhifadhiwa kama mipangilio ya ulinzi wa data ya tovuti inavyoelekeza.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Haijarekodiwa</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Eneo</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>takriban</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
         <source>Manage devices</source>
         <translation>Simamia vifaa</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>kwa programu ya uthibitishaji</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>kwa msimbo kupitia barua pepe</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>kwa msimbo wa kurejesha</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>kwa ufunguo wa siri (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>kwa akaunti ya nje</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Shughuli za usalama</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Haijarekodiwa</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Eneo</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>takriban</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
         <source>View the sessions of this user</source>
         <translation>Tazama vipindi vya mtumiaji huyu</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Akaunti yako %login kwenye %site imetumika hivi punde kuingia kutoka mahali ambapo haijaingia kutoka hivi karibuni:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Eneo la takriban</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser kwenye %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ripoti ya kuingia</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Ufunguo wa siri haukuweza kukaguliwa. Tafadhali jaribu tena.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Akaunti zinazoingia kwa funguo za siri pekee haziwezi kutumia nenosiri hapa: chagua &quot;Ingia kwa ufunguo wa siri&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Funguo za siri za %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Funguo za siri ambazo akaunti hii huingia nazo. Batilisha ule ulio kwenye kifaa kilichopotea au kuibwa: hautaweza kuingia tena. Mmiliki huongeza mipya mwenyewe.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Akaunti yako inahitaji ufunguo wa siri</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Ongeza ufunguo wa siri kwenye akaunti yako</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Ongeza ufunguo wa siri ili kuendelea. Kisha utaingia nao badala ya nenosiri pekee.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Kuingia kwa ufunguo wa siri ni haraka na salama zaidi kuliko nenosiri. Ongeza mmoja sasa, au endelea bila huo.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Si sasa</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Batilisha ufunguo wa siri &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Hauwezi tena kuingia kwenye akaunti hii. Ikiwa ulikuwa wa mwisho, mmiliki ataingia kwa nenosiri, au utaweka jipya.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Batilisha ufunguo wa siri</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Batilisha</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Akaunti hii haina ufunguo wa siri.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Kithibitishaji</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Haijulikani</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Ufunguo wako wa mwisho wa siri: ongeza mwingine kabla ya kuuondoa.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Akaunti hii huingia kwa funguo za siri pekee (sera ya funguo za siri): zisipobaki zozote, itaingia tena kwa nenosiri lake.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Huu ni ufunguo wako wa mwisho wa siri na akaunti yako haiwezi kuingia bila mmoja. Ongeza ufunguo mwingine wa siri kwanza.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Ufunguo wa siri &quot;%name&quot; umebatilishwa. Hauwezi tena kuingia kwenye akaunti hii.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
         <source>Code from your authenticator app</source>
         <translation>Msimbo kutoka programu yako ya uthibitishaji</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Unakaribia kufuta data kabisa au kufuta kumbukumbu.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Nenosiri lako na ufunguo wa siri</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Nenosiri lako na msimbo kutoka programu yako ya uthibitishaji</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Au:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Kivinjari hiki hakiwezi kutumia funguo za siri. Tumia njia nyingine, au kivinjari kingine.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Ukiendelea, kivinjari chako kitaomba mojawapo ya funguo zako za siri.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Endelea kwa ufunguo wa siri</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
     <message>
         <source>Setup</source>
         <translation>Usanidi</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Kubadilisha nenosiri lako mwenyewe, anwani ya barua pepe, funguo za siri, kuingia kwa hatua mbili, misimbo ya kurejesha au funguo za API, na kutoka kwenye vifaa vyako vingine.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Kuunda na kuhariri watumiaji, manenosiri na vifaa vyao, mipangilio ya akaunti, kuidhinisha au kukataa akaunti mpya za watumiaji, kugawa majukumu na kuhariri sera.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Kufuta data</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Kumwaga pipa la taka, kuondoa vipengee ndani yake na kuondoa vipengee kadhaa kwa wakati mmoja.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Kuondoa, kuchapisha na kuhifadhi maudhui</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Kuondoa maudhui (pia kwenye pipa la taka), kuchapisha na kuhifadhi rasimu, huulizwa fomu inapotumwa. Imezimwa kwa chaguo-msingi.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Kabla ya kitendo nyeti, mtumiaji aliyeingia huthibitisha tena yeye ni nani: kwa nenosiri lake na ufunguo wa siri, au bila ufunguo wa siri kwa nenosiri lake na msimbo wa programu yake ya uthibitishaji. Kurasa za wavuti pekee ndizo huuliza: kiolesura cha REST, SOAP, WebDAV, kuingia kwa expservices na mstari wa amri kamwe.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Mahali mipangilio inapotumika</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Mipangilio ya</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Kila Siteaccess</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Siteaccess ya %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Fungua</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Nani anaulizwa: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Weka alama kwenye makundi ya watumiaji ili kuuliza wanachama wao pekee (kwa mfano wahariri). Hakuna lililowekwa alama: kila mtumiaji.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Huhifadhiwa katika settings/override/site.ini.append.php, kwa kila Siteaccess. Kuhifadhi kunakuomba uthibitishe kuwa ni wewe.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Huhifadhiwa katika settings/siteaccess/%name/site.ini.append.php. Thamani iliyo katika settings/override inatangulia. Kuhifadhi kunakuomba uthibitishe kuwa ni wewe.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ Utahitaji kubadilisha darasa la nodi kwa kutumia utendaji wa kubadilisha nafasi.
     <message>
         <source>Open the page</source>
         <translation>Fungua ukurasa</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from hadi %to kati ya %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Jina la kuingia au kitambulisho cha mtumiaji: akaunti iliyohusika na tukio au mtumiaji aliyetenda.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akaunti</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Kitendo</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Baadaye</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Matokeo yoyote</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Kabla</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Mtendaji</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Futa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Imefanikiwa</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Matukio huhifadhiwa kwa siku %days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Matukio huhifadhiwa hadi yaondolewe kwa mkono.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Matukio</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Kila kitendo</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Matukio yote ya akaunti hii</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Hamisha orodha kama CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Imeshindikana</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kutoka</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Punguza orodha</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Hakuna tukio linalolingana.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Kwa kila ukurasa</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Kurekodi kumezimwa katika audit.ini ([UserAuditSettings] UserAudit); orodha inaonyesha kilichorekodiwa awali.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Imekataliwa</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Matokeo</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Onyesha</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Jedwali la kumbukumbu za ukaguzi wa watumiaji halipo. Liunde kwa php update/common/scripts/6.0/createuseraudittable.php; hadi wakati huo faili za ukaguzi huhifadhi kila tukio.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Ukurasa huu unahitaji hifadhidata ya SQL; haupatikani kwenye MongoDB. Faili za ukaguzi huhifadhi kila tukio.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hadi</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Kumbukumbu za ukaguzi wa watumiaji</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mtumiaji</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Lini</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Wapi</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Nani alibadilisha, aliunda, aliwezesha, alizima, alihamisha au aliondoa akaunti gani, nani aliingia au alikataliwa, na majukumu gani yalikabidhiwa: mstari mmoja kwa kila tukio, pamoja na sehemu za data kabla na baada. Manenosiri na siri hayarekodiwi kamwe.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>kundi</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>mfumo</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>haijulikani</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Linda akaunti yako</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Msimbo wa kurejesha ulitumika kuingia kwenye akaunti yako %login kwenye %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Msimbo wa kurejesha ulitumika</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akaunti</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Anwani ya takriban</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Omba nenosiri jipya ili uingie tena, au wasiliana na wasimamizi wa tovuti.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Omba nenosiri jipya</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Kila msimbo wa kurejesha hufanya kazi mara moja tu. Ikiwa umepoteza simu yako, sanidi tena programu yako ya uthibitishaji na uhifadhi misimbo mipya ya kurejesha mahali salama.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Majaribio ya kuingia yaliyoshindwa kwenye akaunti yako</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Kuanzia sasa, kuingia kunaomba msimbo pamoja na nenosiri lako. Ikiwa ni wewe uliyefanya hivi, huhitaji kufanya chochote.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ikiwa ni wewe na umesahau nenosiri lako, omba jipya. Ikiwa sivyo, chagua nenosiri lenye nguvu zaidi na uwashe kuingia kwa hatua mbili.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ikiwa si wewe, huenda mtu anajua nenosiri lako: libadilishe sasa na ukague mahali ambapo akaunti yako imeingia.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Misimbo ya kurejesha iliyobaki</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Kagua vifaa vyako</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Tahadhari ya usalama</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Mtu alijaribu kuingia kwenye akaunti yako %login kwenye %site kwa nenosiri lisilo sahihi mara %count mfululizo.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Kulikuwa na tukio la usalama kwenye akaunti yako %login kwenye %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Hii ni tahadhari ya usalama kuhusu akaunti yako. Hutumwa kwa kila badiliko la aina hii na haiwezi kuzimwa.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Wakati</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Kuingia kwa hatua mbili kulizimwa kwa akaunti yako %login kwenye %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Kuingia kwa hatua mbili kulizimwa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Kuingia kwa hatua mbili kuliwashwa kwa akaunti yako %login kwenye %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Kuingia kwa hatua mbili kuliwashwa</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Akaunti yako %login kwenye %site ilifungwa baada ya majaribio mengi mno ya kuingia yaliyoshindwa.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Akaunti yako sasa inalindwa na nenosiri lako pekee. Ikiwa si wewe uliyefanya hivi, washa tena kuingia kwa hatua mbili baada ya kubadilisha nenosiri lako.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Akaunti yako ilifungwa</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Ufunguo wa siri umeongezwa kwenye akaunti yako %login kwenye %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Yeyote aliye na ufunguo huu wa siri anaweza kuingia kwenye akaunti yako bila nenosiri lako. Ikiwa hukuuongeza, uondoe chini ya Funguo za siri na ubadilishe nenosiri lako.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Ufunguo wa siri umeondolewa kwenye akaunti yako %login kwenye %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Hauwezi tena kuingia kwenye akaunti yako. Ikiwa hukuuondoa, kagua funguo zako za siri na vifaa vyako.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Ufunguo wa siri umeongezwa kwenye akaunti yako</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Ufunguo wa siri umeondolewa kwenye akaunti yako</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Shughuli za usalama</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Shughuli za usalama za %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Aliingia</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Jaribio la kuingia lililoshindwa</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Alitoka</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Vipindi vimetolewa</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Kuingia kutoka kifaa kipya</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Kuingia kutoka eneo jipya</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Utambulisho umethibitishwa (&quot;Thibitisha kwamba ni wewe&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ukaguzi wa utambulisho umeshindikana</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Aliingia kwa ufunguo wa siri (passkey)</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Kuingia kwa ufunguo wa siri kumeshindikana</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Kuingia kumekataliwa: msimbo wa hatua mbili haupo au si sahihi</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Msimbo wa hatua mbili si sahihi</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akaunti imefungwa baada ya kuingia kulikoshindwa</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Akaunti imefunguliwa</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Nenosiri limebadilishwa</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Kubadilisha nenosiri kumeshindikana</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Nenosiri limewekwa upya</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nenosiri jipya limeombwa</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Anwani ya barua pepe imebadilishwa</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Jina la mtumiaji limebadilishwa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kuingia kwa hatua mbili kumewashwa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kuingia kwa hatua mbili kumezimwa</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Msimbo wa kurejesha umetumika</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Misimbo mipya ya kurejesha</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Nenosiri la programu limeundwa</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Nenosiri la programu limebatilishwa</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Ufunguo wa siri umeongezwa</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Ufunguo wa siri umeondolewa</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Akaunti imewezeshwa</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Akaunti imezimwa</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Zote</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Kuingia na vipindi</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Mabadiliko ya akaunti</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Inahitaji uangalifu</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>na wewe</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>na mtumiaji</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>na %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Mbinu</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Kivinjari</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Mfumo wa uendeshaji</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Kifaa</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Mahali</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Nchi</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Vipindi</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Vipi hasa</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Njia ya kutuma</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Majaribio yaliyoshindwa</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Misimbo iliyobaki</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Kishughulikiaji cha kuingia</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Shughuli za usalama</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Shughuli za usalama za %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Kuingia na mabadiliko ya usalama wa akaunti yako. Ukiona kitu ambacho hukufanya, badilisha nenosiri lako na utoe vifaa usivyovitambua.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Kuingia na mabadiliko ya usalama wa akaunti hii.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Vifaa vyako</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Badilisha nenosiri</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Rudi kwenye akaunti</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Shughuli za usalama hazirekodiwi</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Husomwa kutoka kumbukumbu za ukaguzi wa watumiaji, ambazo jedwali lake expuser_audit halipo au halitumiki kwenye hifadhidata hii. Endesha php update/common/scripts/6.0/createuseraudittable.php, au sasisho la hifadhidata la 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Siku %days zilizopita</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Kuingia katika siku %days zilizopita</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Shughuli za usalama za hivi karibuni</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Onyesha</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>imeshindikana</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>imekataliwa</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Bado hakuna shughuli za usalama zilizorekodiwa.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Matukio ya usalama huhifadhiwa kwa siku %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Matukio ya usalama huhifadhiwa hadi msimamizi ayaondoe.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Pakua data yangu ya kuingia</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Vipindi vyako na matukio ya usalama kama faili ya JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Vipindi havirekodiwi kwenye tovuti hii, kwa hivyo hakuna kifaa kingine kilichoweza kutolewa. Badilisha nenosiri lako sasa hivi.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Vipindi vingine %count vimetolewa. Sasa badilisha nenosiri lako.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Hakuna kifaa kingine kilichokuwa kimeingia. Sasa badilisha nenosiri lako.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Asante. Tukio limewekwa alama kuwa lako.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Tukio hilo halihitaji jibu.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Muda wa ukurasa ulikuwa umeisha. Hakuna kilichobadilishwa; tafadhali jaribu tena.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Linda akaunti yako</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ikiwa kitu hapa hakikuwa wewe, toa vifaa vingine vyote, kisha uchague nenosiri jipya. Vifaa vilivyobaki vimeingia kupitia Nikumbuke vinatolewa pia.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Kila kifaa isipokuwa hiki kinatolewa katika ombi lake linalofuata. Kisha unachagua nenosiri jipya.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ndiyo, toa vifaa vingine</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Je, huyu alikuwa wewe?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ndiyo, nilikuwa mimi</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Hapana, linda akaunti yangu</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Aliingia</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Jaribio la kuingia lililoshindwa</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Alitoka</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Vipindi vimetolewa</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Kuingia kutoka kifaa kipya</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Kuingia kutoka eneo jipya</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Utambulisho umethibitishwa (&quot;Thibitisha kwamba ni wewe&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ukaguzi wa utambulisho umeshindikana</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Aliingia kwa ufunguo wa siri (passkey)</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Kuingia kwa ufunguo wa siri kumeshindikana</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Kuingia kumekataliwa: msimbo wa hatua mbili haupo au si sahihi</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Msimbo wa hatua mbili si sahihi</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akaunti imefungwa baada ya kuingia kulikoshindwa</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Akaunti imefunguliwa</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Nenosiri limebadilishwa</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Kubadilisha nenosiri kumeshindikana</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Nenosiri limewekwa upya</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nenosiri jipya limeombwa</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Anwani ya barua pepe imebadilishwa</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Jina la mtumiaji limebadilishwa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kuingia kwa hatua mbili kumewashwa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kuingia kwa hatua mbili kumezimwa</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Msimbo wa kurejesha umetumika</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Misimbo mipya ya kurejesha</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Nenosiri la programu limeundwa</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Nenosiri la programu limebatilishwa</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Ufunguo wa siri umeongezwa</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Ufunguo wa siri umeondolewa</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Akaunti imewezeshwa</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Akaunti imezimwa</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Zote</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Kuingia na vipindi</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Mabadiliko ya akaunti</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Inahitaji uangalifu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Shughuli za usalama</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Shughuli za usalama za %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Kuingia na mabadiliko ya usalama wa akaunti yako. Ukiona kitu ambacho hukufanya, badilisha nenosiri lako na utoe vifaa usivyovitambua.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Vifaa vyako</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Badilisha nenosiri</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Shughuli za usalama bado hazirekodiwi kwenye tovuti hii.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Kuingia katika siku %days zilizopita</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Majaribio yaliyoshindwa</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Bado hakuna shughuli za usalama zilizorekodiwa.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Pakua data yangu ya kuingia</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Vipindi vyako na matukio ya usalama kama faili ya JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Vipindi havirekodiwi kwenye tovuti hii, kwa hivyo hakuna kifaa kingine kilichoweza kutolewa. Badilisha nenosiri lako sasa hivi.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Vipindi vingine %count vimetolewa. Sasa badilisha nenosiri lako.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Hakuna kifaa kingine kilichokuwa kimeingia. Sasa badilisha nenosiri lako.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Asante. Tukio limewekwa alama kuwa lako.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Tukio hilo halihitaji jibu.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Muda wa ukurasa ulikuwa umeisha. Hakuna kilichobadilishwa; tafadhali jaribu tena.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Linda akaunti yako</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ikiwa kitu hapa hakikuwa wewe, toa vifaa vingine vyote, kisha uchague nenosiri jipya. Vifaa vilivyobaki vimeingia kupitia Nikumbuke vinatolewa pia.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Kila kifaa isipokuwa hiki kinatolewa katika ombi lake linalofuata. Kisha unachagua nenosiri jipya.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ndiyo, toa vifaa vingine</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Je, huyu alikuwa wewe?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ndiyo, nilikuwa mimi</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Hapana, linda akaunti yangu</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Nenosiri</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Nenosiri na msimbo wa hatua mbili</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Kiolesura cha REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Kiolesura cha SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Kuingia mara moja (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Aliingia kabla vipindi havijaanza kurekodiwa</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ripoti ya kuingia</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Nani ameingia kwenye tovuti, akaunti huingia na kushindwa mara ngapi, na kumtoa mtumiaji kila mahali. Hufanya kazi na kila kishughulikiaji cha vipindi.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Kipindi kimetolewa. Kifaa kinapaswa kuingia tena.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ametolewa kwenye vipindi %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login hakuwa na kipindi kinachoendelea.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Hakuna akaunti yenye ID, jina la mtumiaji au anwani hiyo ya barua pepe.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Hiki ndicho kipindi unachotumia. Ili kukimaliza, toka.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Kipindi hicho kilikuwa kimeshaisha.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Muda wa ukurasa ulikuwa umekwisha. Hakuna kilichobadilishwa; tafadhali jaribu tena.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Vipindi havirekodiwi kwenye tovuti hii (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Jedwali expuser_session halipo</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Vipindi hurekodiwa mara tu linapoundwa: php update/common/scripts/6.0/createusersessiontable.php, au sasisho la hifadhidata la 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Sasa na leo</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Vipindi vinavyoendelea</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Watumiaji walioingia</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Kuingia leo</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Majaribio yaliyoshindwa leo</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Mtoe mtumiaji kila mahali</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Kila kipindi cha akaunti huisha katika ombi lake linalofuata, pamoja na vile vinavyodumishwa na Nikumbuke. Tumia hii wakati akaunti huenda iko mikononi isiyo sahihi; kisha weka upya nenosiri lake.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID ya mtumiaji, jina la mtumiaji au anwani ya barua pepe</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Toa kila mahali</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Ameingia sasa</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Vilivyotumika hivi karibuni zaidi %limit vinaonyeshwa.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mtumiaji</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Kifaa</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Anwani</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Aliingia</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Shughuli ya mwisho</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Vitendo</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Kifaa hiki</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Haijarekodiwa</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Toa</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Hakuna kipindi kilichoingia.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Siku %days zilizopita</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Kuingia na majaribio yaliyoshindwa huhesabiwa kutoka kumbukumbu za ukaguzi wa watumiaji, ambazo hazipo; vipindi vipya vinahesabiwa.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Siku</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Kuingia</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Majaribio yaliyoshindwa</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Vipindi vipya</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Kishughulikiaji cha vipindi: %handler. Vipindi husomwa kutoka jedwali expuser_session, kwa hivyo ripoti hufanya kazi na kila kishughulikiaji.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Shughuli za kutiliwa shaka katika saa %hours zilizopita</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Mtandao mmoja ulishindwa kuingia kwenye akaunti %accounts (majaribio %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akaunti imefungwa baada ya kuingia kushindwa</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Kuingia kulikoshindwa mara %count kwenye akaunti moja</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Imeingia kutoka nchi %count kwa wakati mmoja</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Shughuli za usalama</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Vipindi</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Kuingia kulikoshindwa kunasomwa kutoka kwenye kumbukumbu ya ukaguzi wa watumiaji, ambayo haipatikani hapa.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Hakuna cha kutiliwa shaka: hakuna akaunti yenye kuingia kulikoshindwa mara kwa mara, hakuna mtandao unaojaribu akaunti kadhaa, hakuna akaunti iliyoingia kutoka nchi kadhaa.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Tahadhari ya usalama kwa akaunti yako</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Kulikuwa na tukio la usalama kwenye akaunti yako %login: %event. Ikiwa si wewe, linda akaunti yako kwenye %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Usanidi</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Uliza maudhui ya tovuti hii sehemu hasa ambazo ukurasa unahitaji, kwa ombi moja. Skima inafuata madarasa ya maudhui; kila hoja inaendeshwa kwa haki za mtumiaji aliyeituma.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API imezimwa katika siteaccess hii. Iwashe katika graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Maktaba ya GraphQL (webonyx/graphql-php 15) haijasakinishwa.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Sehemu ya mwisho</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Maktaba</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skima</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Madarasa ya maudhui %count, skima %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Hoja</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Vigezo (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Endesha</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Jibu</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Inaendeshwa…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Jibu halikuweza kusomwa.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Hoja inaendeshwa kwa haki zako, ukiwa umeingia kwa kipindi hiki.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count katika sek %seconds</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>hakuna kikomo</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Kina</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Uchangamano</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Vipengee kwa kila orodha</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (chaguo-msingi %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Maombi kwa kila mtumiaji au ufunguo</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Maombi kwa kila anwani isiyojulikana</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Hoja zilizohifadhiwa pekee</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Hoja kubwa zaidi</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>baiti %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Upakiaji mkubwa zaidi</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Hakuna siteaccess %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mabadiliko (mutations) yamewashwa katika %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mabadiliko (mutations) yamezimwa katika %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API imewashwa katika %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API imezimwa katika %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Mipangilio haikuweza kuandikwa: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Akiba ya majibu imesafishwa: majibu %count yameondolewa.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Weka alama kwenye kisanduku kando ya hoja ili kuiondoa.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Hoja haikuweza kuondolewa: hoja iliyosafirishwa katika saraka ya PersistedQueryDirectoryList[] huondolewa pamoja na faili yake.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Hoja iliyohifadhiwa imeondolewa.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mabadiliko (mutations)</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>imewashwa</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>imezimwa</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Mahali API na mabadiliko yake yanapojibu. Vitufe huandika graphql.ini, kama ./console exp:graphql:enable na exp:graphql:disable zinavyofanya.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Badilisha</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Zima</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mabadiliko yamezimwa</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mabadiliko yamewashwa</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Washa</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Vikomo</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ya siteaccess hii.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Akiba ya majibu</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Majibu ya hoja zilizohifadhiwa, yanayowekwa kulingana na haki za mtumiaji na kuisha muda kila maudhui yanapochapishwa.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Majibu yaliyowekwa</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>majibu %count, baiti %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Huwekwa kwa muda usiozidi</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>sek %seconds</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Iliisha muda mara ya mwisho</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Safisha akiba ya majibu</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Hoja zilizohifadhiwa</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Zimehifadhiwa kwa ./console exp:graphql:persist, au na wateja (hoja zinazohifadhiwa kiotomatiki); huitwa kwa jina au SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Majina</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ukubwa</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Mahali</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ondoa</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>imesafirishwa</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>imehifadhiwa</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ndiyo, ondoa hoja hii</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Bado hakuna hoja iliyohifadhiwa.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Funguo za API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Funguo binafsi za API zenye wigo graphql:read (hoja) au graphql:write (mabadiliko). Ziunde na uzibatilishe kwenye ukurasa Ufikiaji wa API, au kwa ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Ufikiaji wa API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Funguo zote</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Ufunguo</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jina</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Mmiliki</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Wigo</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Ilitumika mwisho</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>hai</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>imekwisha muda</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>imebatilishwa</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>kamwe</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Bado hakuna ufunguo wa API wenye wigo wa GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API imezimwa katika siteaccess %siteaccess, inayoonyesha ukurasa huu; jedwali lililo hapa chini linaonyesha mahali inapojibu.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Kwa siteaccess %siteaccess, inayoonyesha ukurasa huu.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Kila tukio ambalo sehemu ya mwisho inaliomba (publish, update, trash, delete, move, hide, reveal, mutation) hutumwa kwake, likiwa limetiwa sahihi, na sehemu ya cronjob graphqlwebhooks. ./console exp:graphql:webhooks hufanya kazi ileile kama sehemu hii.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Matukio</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>yote</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Kila siteaccess</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>imeharibika</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>hakuna siri</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Zinasubiri</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count zimeachwa</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Uwasilishaji wa mwisho</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Tuma jaribio</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ndiyo, ondoa webhook hii</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Bado hakuna webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Ongeza webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Ongeza</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Uwasilishaji wa hivi karibuni</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Muda</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Matokeo</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Usajili</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Masasisho ya moja kwa moja kwa wateja: mtiririko wa matukio kwenye /api/graphql/subscribe, na WebSocket (graphql-transport-ws) kwenye Velocity. Kila tukio huenda tu kwa waliojisajili wanaoruhusiwa kusoma maudhui yake.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Zilizo wazi sasa</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Kiwango cha juu wazi</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total kwa jumla, %user kwa kila mtumiaji, %address kwa kila anwani</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Usajili bila jina</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Muda wa mtiririko</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook haikuweza kuongezwa: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name imebadilishwa; siri yake ya kutia sahihi inabaki.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Siri ya kutia sahihi haikuweza kuhifadhiwa (Usanidi &gt; Siri).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name imeongezwa. Siri yake ya kutia sahihi, inayoonyeshwa mara hii tu: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Hakuna webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name haikujibu: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name ilijibu %status ndani ya %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Weka alama kwenye kisanduku kando ya webhook ili kuiondoa.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name imeondolewa.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API imezimwa katika siteaccess hii.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Maktaba ya GraphQL haijasakinishwa.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Tumia GET au POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Mwili wa ombi si kitu cha JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables si kitu cha JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions si kitu cha JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Tuma hoja kwa POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Ombi halina hoja.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Hoja ni ndefu kuliko baiti %max.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Hitilafu ya ndani ya seva</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node inahitaji kimoja tu kati ya id, remoteId, path na urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content inahitaji kimoja tu kati ya id na remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Kielekezi cha after hakikutolewa na API hii.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Hakuna lakabu ya picha %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Hoja zilizohifadhiwa pekee ndizo zinazokubaliwa hapa: tuma id ya hoja iliyohifadhiwa.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hashi ya hoja iliyohifadhiwa si SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hashi ya hoja iliyohifadhiwa hailingani na hoja.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Maombi mengi mno: si zaidi ya %limit katika sekunde %window. Jaribu tena baada ya sekunde %reset.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Hoja ina kina cha viwango %depth; si zaidi ya %max vinavyoruhusiwa.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Hoja ina utata wa %complexity; si zaidi ya %max unaoruhusiwa.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Ombi hili haliruhusiwi kusoma skima (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search inahitaji maandishi au kichujio (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument si tarehe (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag inahitaji kimoja tu kati ya id, remoteId na path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout inahitaji kimoja tu kati ya id, identifier na urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Sehemu operations ya ombi la multipart si ombi moja la JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Sehemu map ya ombi la multipart si kitu cha JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Ombi la multipart halina faili %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Njia ya sehemu map lazima ianze na variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Faili %name haikufika kamili (hitilafu ya kupakia %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Faili %name ni kubwa kuliko baiti %max.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Faili %name haikuweza kukaguliwa.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mabadiliko (mutations) yamezimwa katika siteaccess hii (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Tuma badiliko (mutation) kwa POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Ingia ili kubadilisha maudhui.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Ufunguo wa API hauna wigo %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Badiliko lenye kipindi linahitaji tokeni ya fomu ya kipindi hicho (kichwa X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl imezimwa: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] haitaji seva yoyote.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Anwani lazima iwe anwani ya https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Seva %host haimo katika graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Faili haikuweza kuletwa.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ni aina ya ingizo pekee.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Kigezo cha aina Upload kinapokea faili ya ombi la multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Remote id %remoteId tayari imechukuliwa.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Maudhui tayari yana tafsiri katika %language: tumia updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Toa angalau sehemu moja.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Toleo jipya halikuweza kuundwa (maudhui yana rasimu nyingi mno).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Toleo %version si rasimu.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent inahitaji hasa kimoja kati ya id na nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Eneo haliwezi kuhamishwa chini yake lenyewe.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Maudhui tayari yana eneo chini ya %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Thamani ya sehemu %field haikuweza kuhifadhiwa.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Hakuna lugha ya maudhui %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Hakuna darasa la maudhui %class katika skima.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Maudhui hayapo, au huruhusiwi kuyasoma.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Huruhusiwi kufanya hivi kwa maudhui haya.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Darasa %class halina sehemu %field inayoruhusiwa kuandikwa.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Sehemu %field imetolewa mara mbili.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Sehemu %field inapokea faili: itume kama upakiaji (ombi la multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Sehemu %field haipokei faili.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Sehemu %field inahitaji thamani.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Muundo %format ni kwa sehemu za maandishi tajiri pekee; %field inapokea thamani yake kama ilivyo (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Sehemu %field inahitajika.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML haikuweza kusomwa.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content inapokea version pamoja na id pekee.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Tokeni ya onyesho la awali si halali au imekwisha muda.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Si asili (https://host au https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Si wigo wa GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Tuma usajili kwa /api/graphql/subscribe (mtiririko wa matukio au WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Ombi halitaji operesheni yoyote ya hati.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Usajili huomba sehemu moja tu.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Usajili mwingi mno uko wazi; jaribu tena baadaye.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Una usajili %max ulio wazi, kiwango cha juu kinachoruhusiwa.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Anwani yako ina usajili %max ulio wazi, kiwango cha juu kinachoruhusiwa.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Usajili umezimwa katika siteaccess hii.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Ingia ili kujisajili (tokeni au ufunguo wa API wa kibinafsi).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Tuma mabadiliko (mutations) kwa /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Uhamishaji</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Hali haikuweza kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Majedwali ya uhamishaji bado hayapo: ./console exp:upgrade --apply huyaunda.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Uhamishaji %count umeshindwa</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Utekelezaji unaendelea, ulioanzishwa na %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Usakinishaji umefungwa: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Inasubiri</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Imeshindwa</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Yatima</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Utekelezaji wa mwisho</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>hakuna bado</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Uhamishaji wote</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Utekelezaji wa kuiga</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Jaribio kavu</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Uhamishaji unaosubiri ulitekelezwa ndani ya muamala uliorudishwa nyuma baadaye: hakuna kilichohifadhiwa. Hapa chini ni kile kila mmoja ulichobadilisha kwenye hifadhidata.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Kile ambacho utekelezaji ungefanya sasa. Hakuna kinachobadilishwa: kila uhamishaji unaosubiri unaorodhesha mabadiliko ambayo ungefanya, na utekelezaji kile ambacho ungefanya kabla na baada.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Iga</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Tekeleza</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Jaribio kavu limeshindwa: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Uigaji unahitaji PostgreSQL au SQLite, ambazo mabadiliko yao ya muundo yanaweza kurudishwa nyuma; kwenye hifadhidata hii mpango ulio hapa chini ndio ambao utekelezaji ungefanya.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Uhamishaji</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Uhamishaji mmoja</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ungefanya nini</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Uigaji: %result kwa ms %ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Hakuna uhamishaji bado.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Kabla na baada ya utekelezaji</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Picha ya hali kabla</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>inachukuliwa, na kurejeshwa uhamishaji ukishindwa</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>imezimwa</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Picha ya hali baada</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>inachukuliwa utekelezaji ukifaulu</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Uhamishaji %total: %pending unasubiri, %done umekamilika, %failed umeshindwa.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Historia ya uhamishaji</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Kila utekelezaji pamoja na mtumiaji wake, mazingira, picha za hali na kilichohifadhiwa, kuwekwa lebo na kutumwa. Utekelezaji ulioshindwa au kukatizwa unaweza kuendelezwa; utekelezaji wenye picha ya hali iliyochukuliwa kabla yake unaweza kutenduliwa.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Utekelezaji haukuweza kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Majedwali ya uhamishaji bado hayapo: ./console exp:upgrade --apply huyaunda.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Onyesha</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Yote</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Utekelezaji</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Ilianza</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Picha za hali</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Hazina</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Vitendo</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>kabla</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>baada</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>kutuma: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Endelea</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Tendua</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Hakuna utekelezaji katika hali hii.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Ulioanzishwa hapa</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Utekelezaji, uendelezaji na urudishaji nyuma ulioanzishwa kwenye kurasa hizi, pamoja na ripoti ya kila mmoja.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Nini</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Matokeo</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Urudishaji nyuma</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Urudishaji nyuma wa %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Utekelezaji %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Kile utekelezaji ulichofanya, rekodi yake na kumbukumbu yake. Utekelezaji ulioanzishwa hapa unaendelea chinichini ukurasa huu ukifungwa; fungua ukurasa tena kuufuatilia.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Endeleza utekelezaji huu</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Tendua utekelezaji huu</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Rekodi haikuweza kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Maendeleo</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Ilianzishwa na %user saa %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Inakagua msimbo na kuchukua picha ya hali kabla ya utekelezaji</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Inatekeleza %id (%index kati ya %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done kati ya %total imekamilika</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Uhamishaji umetekelezwa; inarejesha picha ya hali ikiwa mmoja umeshindwa</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Inachukua picha ya hali baada ya utekelezaji, inahifadhi, inaweka lebo na kutuma</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Inarejesha picha ya hali</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Utekelezaji umekwisha. Inapakia ripoti yake.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Maendeleo hayakuweza kufuatiliwa. Pakia upya ukurasa kuona jinsi utekelezaji unavyoendelea.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ukurasa huu unafuatilia utekelezaji unapoendelea.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Pakia upya</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Ripoti</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Muda</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>milisekunde %ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Kile utekelezaji ulichochapisha kama makosa</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Rekodi</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Mazingira</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>hakuna</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Ilimalizika</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Hifadhi (commit)</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Lebo</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Kutuma</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ujumbe</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Uhamishaji wa utekelezaji huu</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Chanzo</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Kumbukumbu ya utekelezaji</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Ni mwisho wa kumbukumbu pekee unaoonyeshwa.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>unaendelea</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ulimalizika bila ripoti</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>umefaulu</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>umeshindwa</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>umekataliwa</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>hifadhidata haikufikika</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>hitilafu ya ndani</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Utekelezaji unaendelea</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ulioanzishwa na %user saa %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Ufuatilie</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Usakinishaji umefungwa</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Utekelezaji mwingine unashikilia kufuli (uboreshaji au utekelezaji kwenye konsoli): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>umekamilika</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>unasubiri</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>hauhitajiki</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>haijulikani</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>umerudishwa nyuma</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>umetumika</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ungetumika</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>umetenduliwa</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ungetenduliwa</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>haujatekelezwa</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>unasubiri mwingine</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>badiliko limekubaliwa</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>badiliko lingekubaliwa</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>umeigwa</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Uhamishaji</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Tendua %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Utekelezaji hutenduliwa hadi picha ya hali iliyochukuliwa kabla yake, uhamishaji mmoja kwa down() yake. Kurejesha picha ya hali ya awali ni kwa wataalamu. Kila kimoja hufanyika chinichini kama wewe, baada ya picha ya hali ya sasa.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Kile kinachoweza kutenduliwa hakikuweza kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Utekelezaji</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Uhamishaji mmoja tu</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Picha ya hali ya awali</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Maelezo</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ndiyo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>hapana</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Picha ya hali</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Kichwa</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Ilichukuliwa</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Aina</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Sehemu za kurejesha</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Hifadhidata</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Faili za hifadhi (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Mipangilio (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Kurejesha hifadhidata kunairudisha hadi wakati wa picha ya hali, pamoja na vipindi: huenda ukaombwa kuingia tena baadaye. Kila kilichobadilika tangu hapo kinapotea; picha ya hali ya sasa huchukuliwa kwanza.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ninajua hiki kinarejesha nini</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Andika tena kitambulisho cha picha ya hali</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ndiyo, tendua</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ghairi</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Utekelezaji wenye picha ya hali iliyochukuliwa kabla yake.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Chagua</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Hakuna utekelezaji wenye picha ya hali bado.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Uhamishaji uliotumika unaoweza kujitendua wenyewe (una down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Hakuna uhamishaji uliotumika wenye down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Picha za hali za awali (wataalamu)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Hakuna picha ya hali bado.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Tekeleza uhamishaji</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Utekelezaji unaendelea chinichini kama %user, na ukurasa wake unauonyesha unapoendelea. Kabla ya uhamishaji wa kwanza picha ya hali ya usakinishaji huchukuliwa; uhamishaji ukishindwa utekelezaji husimama na picha ya hali hurejeshwa.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Jaribio kavu kwanza</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Hali haikuweza kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Uhamishaji unaosubiri</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Hutekelezwa kwa mpangilio huu. Ondoa alama kwenye mmoja kuuacha, pamoja na ile inayouhitaji, kwa utekelezaji wa baadaye.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Uutekeleze</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Huwasha hali ya matengenezo wakati unatekelezwa.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Imebadilishwa baada ya kutumika</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Faili hizi si zile zilizotumika. Utekelezaji huzikataa isipokuwa badiliko likubaliwe kwa sababu; hazitekelezwi tena, checksum mpya hurekodiwa na sababu huhifadhiwa kwenye kumbukumbu ya ukaguzi.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Kubali mabadiliko</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Sababu</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Chaguo-msingi ndizo salama. Kila kisanduku kinaruka hatua moja.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Bila picha ya hali</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Hakuna picha ya hali kabla na baada ya utekelezaji: kushindwa hakuwezi kurejeshwa kiotomatiki.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Bila kurejesha</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Baada ya kushindwa, acha usakinishaji kama kushindwa kulivyouacha.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Weka mabadiliko ambayo hayajahifadhiwa</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Tekeleza ingawa mipangilio, viendelezi au miundo ina mabadiliko ambayo hayajahifadhiwa; yanaingia kwenye picha ya hali.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Bila kuhifadhi</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Usihifadhi faili ya hali na kumbukumbu ya utekelezaji (wala lebo wala kutuma).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Bila kutuma</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Hifadhi na weka lebo, lakini usitume.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Bila lebo</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Hifadhi na utume, lakini usiweke lebo kwenye utekelezaji.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ndiyo, tekeleza uhamishaji huu sasa</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Hakuna uhamishaji unaosubiri.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Rudi kwenye hali</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Mabadiliko ya usakinishaji huu yaliyoandikwa mara moja kama faili (maudhui, madarasa, majukumu, mipangilio, muundo) na kutumika kwa kila usakinishaji wa tovuti kwa mpangilio uleule. Utekelezaji huchukua picha ya hali kwanza, huirejesha uhamishaji ukishindwa, na hurekodi, huhifadhi na kutuma kile ulichofanya.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Tekeleza %count inayosubiri</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Muhtasari</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Inasubiri</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Imekamilika</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Imeshindwa</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Haihitajiki</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Hifadhidata</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>miamala: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Uhamishaji wa tovuti uko katika migrations/, ule wa kiendelezi katika extension/&lt;name&gt;/migrations/. Hutekelezwa kwa mpangilio wa majina yao na kile wanachohitaji.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Utekelezaji wa mwisho</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Faili ilibadilika baada ya kutumika.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Hakuna uhamishaji bado. ./console exp:migration:generate --skeleton &lt;name&gt; --apply huandika wa kwanza.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Utekelezaji wa hivi karibuni</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Kila utekelezaji</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Hakuna utekelezaji bado.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Kuiga utekelezaji kunahitaji sera migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Utekelezaji unaendelea: iga ukishamalizika.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Usanidi</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target si utekelezaji, si uhamishaji wala si picha ya hali ya usakinishaji huu.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Weka alama kwanza kwenye &quot;Ndiyo, tendua&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Kurejesha picha ya hali ya awali ni kwa wataalamu: weka alama kwenye &quot;Ninajua hiki kinarejesha nini&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Andika tena kitambulisho cha picha ya hali: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Chagua angalau sehemu moja ya kurejesha.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Utekelezaji huu hauna picha ya hali iliyochukuliwa kabla yake: tendua uhamishaji wake mmoja mmoja, au rejesha picha ya hali ya awali.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Uhamishaji huu hauwezi kujitendua wenyewe: haujatumika, au hauna down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Fomu haikuweza kusomwa.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Chagua utekelezaji wa kuendeleza.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Weka alama kwanza kwenye &quot;Ndiyo, tekeleza uhamishaji huu sasa&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Chagua angalau uhamishaji mmoja.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Uhamishaji ulibadilika baada ya kutumika: kubali badiliko kwa sababu, au rudisha faili.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Toa sababu kwa nini uhamishaji uliobadilishwa unakubaliwa.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Sababu ni herufi 500 kwa zaidi.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Utekelezaji ulioanzishwa hapa bado unaendelea (%detail). Subiri umalizike.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Utekelezaji mwingine unashikilia kufuli ya usakinishaji: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Utekelezaji unahitaji mtumiaji aliyeingia ambaye yupo.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Hakuna programu ya php ya mstari wa amri iliyopatikana. Weka njia yake kamili katika migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open imezimwa, kwa hivyo utekelezaji hauwezi kuanzishwa hapa. Endesha ./console exp:migration:migrate --apply kwenye seva.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Folda ya utekelezaji haiwezi kuandikiwa: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Utekelezaji ulianzishwa lakini haukuripoti kitambulisho cha mchakato wake. Kagua %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Taja kile cha kutendua.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Utekelezaji haukuweza kuanzishwa.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Kurekodi mabadiliko</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Wakati rekodi inaendelea, unachobadilisha katika usimamizi au katika upau wa pembeni wa tovuti huhifadhiwa kama hatua za uhamishaji: maudhui, madarasa, majukumu na sera, sehemu, watumiaji na vikundi, majina mbadala ya URL, mipangilio. Isimamishe ukimaliza, angalia ilichonasa, na utengeneze uhamishaji kutoka kwake.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Rekodi hazikuweza kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Majedwali ya rekodi bado hayapo: endesha kwanza usasishaji (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Kurekodi kumezimwa katika migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Mabadiliko yangu</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Hurekodi tu unachobadilisha, popote unapokibadilisha, hadi uisimamishe.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Rekodi</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>tangu %time, mabadiliko %count hadi sasa.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Lebo (si lazima)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Onyesha ilichonasa</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Simamisha kurekodi</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Anza kurekodi mabadiliko yangu</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Dirisha la tovuti nzima</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Hurekodi kila badiliko la kila mtumiaji na la koni hadi lifungwe. Unapolifungua, unaombwa kuthibitisha kuwa ni wewe.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Wazi</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Funga dirisha</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Fungua dirisha la tovuti nzima</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Rekodi zote</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Akaunti ya mtumiaji (jina la kuingia, barua pepe, nenosiri) na sehemu za akaunti za watumiaji hazirekodiwi kamwe.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Mabadiliko</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Tovuti nzima</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Mabadiliko ya %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Imesimamishwa</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Bado hakuna rekodi.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Rekodi %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Rekodi zote zilizopo</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Uhamishaji ambao ingetengeneza</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Mabadiliko yaliyounganishwa kuwa hatua moja kwa kila kitu kilichobadilishwa: kile ambacho uhamishaji uliotengenezwa kutoka rekodi hii ungefanya.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Uhamishaji unaweza kutengenezwa kutoka kwake mara usakinishaji huu utakapokuwa na aina za hatua za YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Imeachwa kwa makusudi: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Hakuna kilichorekodiwa.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ilichonasa</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Mabadiliko %count, kwa mpangilio yalivyofanywa.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Badiliko</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Hatua</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Kuhusu</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count zaidi: ./console exp:migration:record:show huorodhesha zote.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tupa</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Huondoa rekodi na ilichonasa. Kilichobadilishwa hubaki kimebadilishwa.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ndiyo, tupa rekodi hii</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Inarekodi…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Mabadiliko yako yanarekodiwa kwa ajili ya uhamishaji.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Kila badiliko kwenye tovuti hii linarekodiwa kwa ajili ya uhamishaji (dirisha la tovuti nzima).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Rekodi ya tovuti nzima imeanza: kila badiliko la kila mtumiaji linarekodiwa hadi uisimamishe.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Kurekodi kumeanza: mabadiliko yako yanarekodiwa hadi uisimamishe.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Kurekodi kumesimamishwa. Ilichonasa hubaki hadi uitupe.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Rekodi na matukio yake yameondolewa.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Hakuna rekodi %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Weka alama kwanza kwenye "Ndiyo, tupa rekodi hii".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Ni mtumiaji aliyerekodi pekee anayeweza kusimamisha rekodi ya kipindi.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Chagua rekodi ya kusimamisha.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Rekodi ya aina hii tayari inaendelea.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Rekodi haikuweza kubadilishwa: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Tengeneza uhamishaji</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Jina la uhamishaji (si lazima)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Uhamishaji %file umeandikwa. Mabadiliko ambayo hakuna hatua inayoweza kufanya yametajwa juu ya faili, yafanywe kwa mkono.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Hakuna uhamishaji ulioandikwa: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Uendeshaji mrefu kwa sehemu</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Sehemu tupu huhifadhi mipangilio ya migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Uhamishaji usiozidi idadi hii</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Hakuna uhamishaji zaidi baada ya (sekunde)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Mapumziko kati ya uhamishaji (sekunde)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Kipaumbele cha chini (1 hadi 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Sehemu ya uendeshaji mrefu ni nambari kamili kuanzia 1 (mapumziko: sekunde kutoka 0 hadi 60, kipaumbele: 1 hadi 19), au tupu.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Hujifunga yenyewe saa %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Jifunge yenyewe baada ya (dakika, si lazima)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Dakika ni nambari kamili kutoka 1 hadi 44640 (siku 31), au tupu.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Uhamishaji %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Uhamishaji mpya</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Uhamishaji wa YAML: uandike kama maandishi au ujenge hatua zake kwenye fomu, uukague, kisha uuhifadhi katika folda ya uhamishaji.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Uhamishaji huu umeshatekelezwa, kwa hiyo hauhifadhiwi tena: faili iliyobadilishwa ingekataliwa na mlinzi wa checksum. Fanya badiliko katika uhamishaji mpya.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Seva ya wavuti haiwezi kuandika faili.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Mistari ya maoni iliyo juu ni kichwa (description, author, requires, environments, engines). Hatua inapoongezwa au kubadilishwa kwenye fomu, uhamishaji huandikwa upya: maoni kati ya hatua hayahifadhiwi.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Jina la uhamishaji</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Unakwenda wapi</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Tovuti</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Maandishi ya YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kagua</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Hifadhi</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Hatua</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Funguo</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Hariri</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Sogeza juu</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Sogeza chini</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ondoa</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Bado hakuna hatua: ongeza moja kwa fomu, au uziandike katika maandishi.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Badilisha hatua %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Ongeza hatua moja</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Fomu ya hatua hutengenezwa kutokana na aina yake ya hatua: funguo zake, kile ambacho kila moja hupokea na modi ambazo hatua ni sehemu yake.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Aina ya hatua</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Onyesha fomu yake</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Hatua ina funguo ambazo aina yake haizijui; huachwa nje hatua inapobadilishwa: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modi</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Katika</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>katika %modes pekee</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Chaguo-msingi: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Masharti, marejeleo na maoni</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Jozi za Jina=thamani zilizotenganishwa kwa koma. Thamani za hatua hii: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Mfano</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Badilisha hatua</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Ongeza hatua</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Kile exp:migration:check inasema: kichwa, hati na kila hatua iliyokaguliwa na aina yake ya hatua.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Uhamishaji unapita ukaguzi.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Hakiki</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML kama itakavyohifadhiwa.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Onyesha YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Uhamishaji wa YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>umetekelezwa</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Bado hakuna uhamishaji wa YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Uhariri</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Hakuna uhamishaji wa YAML %id katika folda za uhamishaji.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Chagua aina ya hatua.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Hatua imeongezwa. Kagua uhamishaji kabla ya kuuhifadhi.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Hatua imebadilishwa. Kagua uhamishaji kabla ya kuuhifadhi.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Chagua hatua.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Hatua hii haina fomu (kitanzi, au aina ya hatua ambayo usakinishaji huu hauna): ibadilishe katika maandishi.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Chagua uhamishaji unakwenda wapi: tovuti au kiendelezi kinachotumika.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file imehifadhiwa. Endesha jaribio kavu kabla uhamishaji haujatekelezwa.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Haukuhifadhiwa: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Vituo vya mbali</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Usakinishaji mwingine ambao huu husambaza uhamishaji wake kwao: usambazaji hutuma uhamishaji kwa vituo vya mbali vilivyochaguliwa na kuutekeleza huko, wote kwa wakati mmoja na kwa ulinganifu. Kituo cha mbali hakishiki siri kamwe: kitambulisho chake cha kuingia kinataja moja katika Usanidi &gt; Siri.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Kituo kipya cha mbali</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Msaada</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Jaribio la muunganisho la %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Vituo vya mbali vyote</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Hadi vituo %parallel vya mbali vinashughulikiwa kwa wakati mmoja; kipindi kimoja kinaweza kuchukua sekunde %timeout kwa kila kimoja.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Kituo cha mbali</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Anwani</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kitambulisho cha kuingia</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Makundi</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>mipangilio ya kurekebisha</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>faili tu (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Ufunguo wa SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Nenosiri</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>hakuna (wakala wa SSH na funguo za mwenyeji)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Jaribu muunganisho</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Usambazaji kwa kundi huenda kwa kila kituo cha mbali cha kundi hilo.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Sambaza kwa vituo vya mbali</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Hakuna kituo cha mbali kilichowekwa bado.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Kituo cha mbali %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Hakuna kinachotumwa wala kutekelezwa hapa: Hifadhi huandika mipangilio kwenye settings/override/migration.ini.append.php. Kitambulisho cha kuingia ni jina; thamani yake inabaki katika Usanidi &gt; Siri au katika mazingira.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kagua mipangilio hii</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Mipangilio kama ilivyoingizwa, bado haijahifadhiwa.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Mapitio</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Mipangilio ni halali. Mistari hii itaandikwa:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Njia ya usafirishaji</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>jina tu; thamani inabaki katika Usanidi &gt; Siri</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Mistari itakayoandikwa</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Muunganisho</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Ufunguo wa mwenyeji</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Kituo cha mbali</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Kituo cha mbali kinaitwaje na ni mazingira gani.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Kitambulisho</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Herufi, tarakimu, - na _, kwa mfano production1. Linataja kituo cha mbali katika ripoti na kwenye konsoli (--remotes=production1) na haliwezi kubadilishwa baadaye.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Usambazaji kwa awamu hupitia mazingira kwa mpangilio huu.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Si lazima, vikitenganishwa kwa koma, kwa mfano production. Usambazaji kwa kundi huenda kwa kila kituo cha mbali cha kundi hilo.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Muunganisho</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Jinsi faili zinavyofika huko, na usakinishaji ulipo.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Kupitia SSH, kilichobadilika tu, usafirishaji uliokatika unaendelezwa. Chaguo bora pale rsync imesakinishwa.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH pamoja na scp kwa faili.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH pamoja na sftp kwa faili.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Faili tu: uhamishaji hutumwa na kusomwa tena, lakini hauwezi kutekelezwa huko.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP kupitia TLS; faili tu.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Usakinishaji mwingine kwenye seva hii, ndani ya folda.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Mwenyeji (host)</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Jina la mwenyeji au anwani, kwa mfano node1.example.com. Si kwa local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Mlango (port)</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Tupu: 22 kwa SSH, 21 kwa FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mtumiaji</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Njia</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Mzizi wa usakinishaji huko, kwa mfano /var/www/site (kwa FTP: njia ambayo akaunti ya FTP inaiona).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Mstari wa amri wa PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI huko: php, au njia kamili kama /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Hati za konsoli zinatekelezwa kama root huko</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Ikiwa tu mtumiaji wa kituo cha mbali ni root (basi hutekelezwa kwa --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Kitambulisho cha kuingia</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Jinsi usakinishaji huu unavyoingia huko. Jina tu ndilo linalohifadhiwa.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Hakuna</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Wakala wa SSH na funguo za mtumiaji ambaye usakinishaji huu unaendeshwa kama yeye (na daima kwa local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Ufunguo binafsi uliohifadhiwa kama siri.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Nenosiri lililohifadhiwa kama siri (FTP huingia nalo).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Jina la siri</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Siri ya Usanidi &gt; Siri, kwa mfano deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Usanidi &gt; Siri</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Au kigeu cha mazingira</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Kigeu cha mchakato wa seva kinachoishikilia, kwa mfano DEPLOY_KEY (kimehifadhiwa kama env:DEPLOY_KEY). Kinachukua nafasi ya jina la siri.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Ufunguo wa mwenyeji</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Si lazima, kwa SSH, sftp na rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Alama ya kidole ya ufunguo wa mwenyeji</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... kama ssh-keygen -l inavyouchapisha. Ukiwepo, mwenyeji lazima aonyeshe ufunguo huu; usipokuwepo, ufunguo hujifunzwa katika mawasiliano ya kwanza.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Mapitio</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Jaribu muunganisho kwa mipangilio iliyo hapo juu, kisha pitia mistari itakayoandikwa.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Ondoa kituo hiki cha mbali</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Mipangilio yake inaondolewa kutoka settings/override/migration.ini.append.php. Hakuna kinachobadilika kwenye kituo cha mbali, na usambazaji wake unabaki katika historia.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ndiyo, ondoa kituo hiki cha mbali</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Usambazaji</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Usambazaji hutuma uhamishaji wa usakinishaji huu kwa vituo vya mbali vilivyochaguliwa na kuutekeleza huko kama %user, wote kwa wakati mmoja na kwa ulinganifu: kila kituo cha mbali hukaguliwa kwanza, na kimoja kikishindwa, kila kituo cha mbali kilichoutumia hurejeshwa nyuma. Unaendelea chinichini, na ukurasa wake unaonyesha kila kituo cha mbali unapoendelea.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Vituo vya mbali</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Weka alama kwenye vituo vya mbali, kundi, au vyote viwili.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Sambaza kwake</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Jinsi gani</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Sambaza</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Tuma na utekeleze</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Uhamishaji hutumwa, huthibitishwa na kutekelezwa kwenye kila kituo cha mbali kwa kitambulisho kimoja cha pamoja cha utekelezaji.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Usafirishaji tu</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Faili hutumwa na kuthibitishwa, hakuna kinachotekelezwa (njia pekee kwa kituo cha mbali cha FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Kwa awamu</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Awamu kwa awamu kwa mpangilio wa mazingira (dev, stage, beta, production ...): awamu ya kwanza inasambazwa, kisha lango linasubiri hadi mtu aidhinishe inayofuata. Yote au hakuna ndani ya kila awamu.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Uhamishaji huu tu</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Si lazima: vitambulisho vya uhamishaji, vikitenganishwa kwa koma. Tupu: kila uhamishaji wa tovuti na viendelezi vyake.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Ukaguzi wa awali tu</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ndiyo, sambaza sasa</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Usambazaji uliotuma au kutekeleza kitu, wa karibuni zaidi kwanza (ukaguzi wa awali hauhifadhi ripoti).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>usafirishaji tu</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>kwa awamu, awamu %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>si kwa ulinganifu</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Hakuna usambazaji bado.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Usambazaji %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Kila kituo cha mbali cha usambazaji pamoja na hali yake. Usambazaji ulioanzishwa hapa unaendelea chinichini ukurasa huu ukifungwa; fungua ukurasa tena ili kuufuatilia.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Usambazaji wote</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Ukaguzi wa awali</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Awamu inayofuata</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Inakagua mipangilio na vitambulisho vya kuingia</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Ukaguzi wa awali: inasoma hali ya kila kituo cha mbali</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Inatuma faili za uhamishaji</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Inathibitisha kilichofika</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Inatekeleza uhamishaji kwenye kila kituo cha mbali</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Inarejesha nyuma vituo vya mbali</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Usambazaji umemalizika. Inapakia ripoti yake.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Maendeleo hayakuweza kufuatiliwa. Pakia ukurasa upya ili kuona usambazaji unavyoendelea.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Kipindi</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ukurasa huu unafuatilia usambazaji unapoendelea.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Kwa ulinganifu</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Awamu zote</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>awamu %stage inasubiri kwenye lango lake</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Lango %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>imeidhinishwa na %user saa %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Awamu</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Faili zilizotumwa</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Toleo la kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>umetumika: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ya kutumika: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Vipindi</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Lango: awamu %stage kati ya %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Awamu zilizotangulia zimesambazwa. Zikague, kisha idhinisha awamu inayofuata: vituo vyake vya mbali vinakaguliwa tena na kusambaziwa, yote au hakuna.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Ifuatayo</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ndiyo, sambaza awamu inayofuata sasa</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Idhinisha</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Tendua usambazaji huu</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Kila kituo cha mbali kilichoutumia (%list) kinarudi kwenye picha ya hali iliyochukuliwa kabla ya utekelezaji wake, vyote kwa wakati mmoja.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ndiyo, tendua usambazaji huu sasa</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>imepangwa</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>imesafirishwa</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>umesambazwa</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>inasubiri kwenye lango</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>zimechaguliwa</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>imeandaliwa</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>tayari</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>inasubiri awamu yake</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>faili zimetumwa</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>imethibitishwa</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>umeshindwa, umejirejesha wenyewe</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>haijabadilika</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>haujasambazwa</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>haifikiki</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Kituo cha mbali kimejibu.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Kituo cha mbali hakiwezi kutumika sasa.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done imekamilika, %pending inasubiri, %failed imeshindwa</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Kufuli</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>utekelezaji unashikilia kufuli huko</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>huru</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage kati ya %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Chagua kituo cha mbali cha kujaribu.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Weka alama kwenye “Ndiyo, ondoa kituo hiki cha mbali” kwanza.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Kituo cha mbali hakikuweza kuondolewa: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Kituo cha mbali hakikuweza kuhifadhiwa: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Faili ya mipangilio haiwezi kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Chagua angalau kituo kimoja cha mbali au kundi.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Kituo cha mbali kilichochaguliwa hakipo tena katika mipangilio. Pakia ukurasa upya.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Weka alama kwenye “Ndiyo, sambaza sasa” kwanza.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Kituo cha mbali cha FTP hakiwezi kutekeleza uhamishaji: chagua “Usafirishaji tu”, au kiache nje.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Uhamishaji wa kusambaza ni vitambulisho vya uhamishaji, vikitenganishwa kwa koma.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Usambazaji bado unaendelea. Subiri umalizike.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Usambazaji huu hausubiri kwenye lango.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Hakuna kituo cha mbali kilichotumia usambazaji huu: hakuna cha kutendua.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Weka alama kwenye “Ndiyo, sambaza awamu inayofuata sasa” kwanza.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Weka alama kwenye “Ndiyo, tendua usambazaji huu sasa” kwanza.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Kituo cha mbali chenye kitambulisho %id kipo tayari.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Mlango ni nambari kutoka 1 hadi 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Mazingira ni neno la herufi, tarakimu, - na _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Kundi ni neno la herufi, tarakimu, - na _ (si all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Kitambulisho cha kuingia hakiwezi kusomwa sasa: %problem. Kihifadhi katika Usanidi &gt; Siri (au weka kigeu) kabla ya usambazaji wa kwanza.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Kituo cha mbali cha FTP hupokea faili tu: usambazaji kwake ni “Usafirishaji tu”, na uhamishaji wake hutekelezwa huko kwa mkono.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Kituo cha mbali %id hakimo katika settings/override/migration.ini.append.php; kiondoe pale kilipowekwa.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Imeingia kupitia FTP na kusoma index.php. Hali ya uhamishaji ya kituo cha mbali cha FTP haiwezi kusomwa.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Imebadilishwa</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Imeundwa</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jina</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Darasa</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sehemu</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Muundaji</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Maudhui mapya</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Maudhui yaliyoundwa na kubadilishwa hivi karibuni katika tovuti nzima, mapya kwanza: yale ambayo wageni waliwasilisha, yale yaliyozuiliwa kwa ukaguzi, rasimu zinazosubiri kuchapishwa. Chagua vipengee ili kuachilia, kuzuia, kuficha, kufunua, kuondoa au kuvihamishia sehemu au hali nyingine.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Orodha haikuweza kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Uzuiaji kwa ukaguzi bado haujasanidiwa, kwa hivyo hakuna kinachozuiliwa na vitendo vya kuzuia havitolewi. Hatua ya usasishaji 6.0.15-review-hold huusanidi: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Chuja orodha</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kutoka</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hadi</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Tarehe</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Imeundwa (ilipochapishwa mara ya kwanza)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Zote</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Imechapishwa</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Rasimu, haijawahi kuchapishwa</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Inasubiri (idhini au tarehe)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Kwenye pipa la taka</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Imezuiliwa kwa ukaguzi</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Imezuiliwa</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Haijazuiliwa</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Imefichwa</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Inaonekana</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Iliwasilishwa kupitia</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Siteaccess yoyote</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Kile tu ambacho ukaguzi ulirekodi.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Sasa: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Jina la kuingia au kitambulisho cha mtumiaji.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Chuja</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Futa vichujio</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Vipengee</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from hadi %to kati ya %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Hakuna kipengee</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(kimesomwa kwa ms %ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Vitendo kwa vipengee vilivyochaguliwa</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Chagua vyote kwenye ukurasa huu</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count vimechaguliwa</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Kitendo</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Chagua kitendo</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Achilia uzuiaji</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Zuia kwa ukaguzi</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Ficha</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Funua</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Hamishia kwenye pipa la taka</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Futa</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Kabidhi sehemu</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Kabidhi hali</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Sababu</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Inahitajika ili kuzuia; huhifadhiwa pamoja na uzuiaji na katika ukaguzi.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Chagua sehemu</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Chagua hali</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Tumia kwa vilivyochaguliwa</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Kila kipengee hukaguliwa dhidi ya ruhusa zako mwenyewe. Kuhamishia kwenye pipa la taka na kufuta kunakuomba uthibitishe. Zaidi ya vipengee %count hufanyika chinichini.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Chagua</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Uchapishaji</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Kimewasilishwa kutoka</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Chagua %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>bado</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(hakuna jina)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Kitambulisho %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Rasimu</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Inasubiri</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Imefichwa na kilicho juu yake</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Imezuiliwa: uwasilishaji mpya</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Toleo %version linasubiri</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Toleo %version linaendelea kuandaliwa</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Rasimu, toleo %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Toleo %version limechapishwa</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Imepangwa kwa %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>hakuna anwani</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>haijarekodiwa</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Hakuna kinacholingana na vichujio hivi.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Onyesha zote</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Bado hakuna maudhui.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Kwa kila ukurasa</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Onyesha vipengee %count kwa kila ukurasa.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Anwani na kivinjari cha uwasilishaji hutoka kwenye faharasa ya ukaguzi, ambayo haipatikani hapa: safu inasema &quot;haijarekodiwa&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Anwani na kivinjari ni vile ambavyo ukaguzi ulirekodi kwa kipengee (uzuiaji wa kiotomatiki huvirekodi kila mara; kuchapisha na kuunda tu pale ambapo kumewashwa), kama mipangilio yake ya faragha inavyovihifadhi.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: vipengee %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Kufuta huondoa vipengee kabisa, pamoja na matoleo yake yote na tafsiri zake. Hakuwezi kutenduliwa.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Vipengee vinaenda kwenye pipa la taka, ambapo vinaweza kurejeshwa.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Kila kipengee hukaguliwa dhidi ya ruhusa zako mwenyewe; kipengee chenye vipengee vidogo kinaachwa kama kilivyo (kiondoe katika muundo wa maudhui). Utaombwa kuthibitisha kuwa ni wewe.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Hiki kinafanyika chinichini: ukurasa wake wa maendeleo unafunguka, na matokeo ya kila kipengee yanaonyeshwa kitakapokamilika.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Vipengee vilivyochaguliwa</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>na %count zaidi</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ghairi</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Hakuna kilichofanyika</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sababu: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Kitendo bado kinaendelea chinichini.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Maendeleo yake</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Kitendo cha chinichini kimeshindikana: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Imekamilika</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Imekataliwa</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Imeshindikana</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Kwa kila kipengee</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Kipengee</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Matokeo</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Kwa nini</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Rudi kwenye orodha</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Usanidi</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Hakuna kilichofanyika</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Thibitisha</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Chagua kitendo.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Chagua angalau kipengee kimoja.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Chagua vipengee visivyozidi 1000 kwa wakati mmoja.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Eleza kwa nini vipengee vinazuiliwa.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Chagua sehemu.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Chagua hali.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Fomu haikuweza kusomwa.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Dashibodi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Maudhui mapya</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Hesabu hazikuweza kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Imezuiliwa kwa ukaguzi</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Mapya leo</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Uzuiaji kwa ukaguzi bado haujasanidiwa (hatua ya usasishaji 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Maudhui yote mapya</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Huruhusiwi kuendesha vitendo vya udhibiti (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Kitendo cha udhibiti hakijakamilika: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Udhibiti: %action kwa vitu %count</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>Vitu %done kati ya %total: %ok vimekamilika, %refused vimekataliwa, %failed vimeshindikana</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok vimekamilika, %refused vimekataliwa, %failed vimeshindikana</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Hakipo tena.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Hakina mahali (hakijachapishwa).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Huruhusiwi kukificha (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Huruhusiwi kukifunua (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Kimeshafichwa.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Hakijafichwa.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Kimefichwa.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Kimefunuliwa.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Kiko kwenye pipa la taka: kifute au kirejeshe huko.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Rasimu ambayo haijawahi kuchapishwa haiwezi kwenda kwenye pipa la taka: ifute.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Huruhusiwi kukifuta (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Kimefutwa.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Huruhusiwi kukiondoa (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Kina vipengee vidogo: kiondoe katika muundo wa maudhui, ambapo vimeorodheshwa.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Hakikuondolewa (huenda mtiririko wa kazi unazuia uondoaji).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Kimehamishiwa kwenye pipa la taka.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Sehemu haipo.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Tayari kiko katika sehemu hii.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Huruhusiwi kukabidhi sehemu hii (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Sehemu haikukabidhiwa.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Sehemu imekabidhiwa.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Hali haipo.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Tayari kiko katika hali hii.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Huruhusiwi kukabidhi hali hii (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Hali haikukabidhiwa (huenda mtiririko wa kazi unazuia mabadiliko).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Hali imekabidhiwa.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Hakuna kitendo kama hicho.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Uzuiaji kwa ukaguzi haujasanidiwa (hatua ya usasishaji 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Eleza kwa nini kinazuiliwa.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Kimeshazuiliwa.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Huruhusiwi kukizuia (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Uzuiaji haukuwekwa (huenda mtiririko wa kazi unazuia mabadiliko).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Kimezuiliwa.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Hakijazuiliwa.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Huruhusiwi kukiachilia (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Uzuiaji haukuachiliwa (huenda mtiririko wa kazi unazuia mabadiliko).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Kimeachiliwa; bado kimefichwa: huruhusiwi kukifunua (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Kimeachiliwa.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Malengo yote</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Chapisho la mwisho</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Chapisha nakala tuli ya bure ya tovuti yako kwenye GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Kurasa zilizopitwa na wakati</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Uchapishaji tuli</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Uchapishaji tuli umezimwa.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Lengo</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Malengo hayakuweza kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>kazi inaendelea</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>muundo wa kukaguliwa</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ficha hii</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>unda lengo</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>kamwe</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>soma mafunzo</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added zimeongezwa, %changed zimebadilishwa, %removed zimeondolewa</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes kati ya %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count zaidi hazijaorodheshwa.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Kurasa %pages zimeandikwa</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ina %size, zaidi ya mwenyeji anavyoruhusu kwa faili moja.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ya kikomo</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>sekunde %seconds</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ni chapisho ambalo tovuti inalo sasa.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: kazi %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/hazina/ kwa tovuti ya mradi wa GitHub; tupu kwa kikoa maalum au tovuti ya mtumiaji.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Tovuti</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Mwenyeji</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Kuingia kwenye hazina</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Hazina</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Viungo na njia ya msingi</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Kikoa chako mwenyewe</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Muundo una nini</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Linapochapishwa</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Mapitio na kuhifadhi</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Tovuti ya mradi wa GitHub iko chini ya /&lt;repository&gt;/; viungo vya jamaa vinafanya kazi huko na kwingineko popote.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Muundo huleta kila ukurasa wa %site kama anavyouona mgeni ambaye hajaingia, huandika upya viungo, hunakili faili na huandika matokeo kwenye folda ya lengo. Hakuna kinachochapishwa hadi ukague muundo na ubonyeze Chapisha.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Usemi wa cron, kwa mfano 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Ufunguo wa kusambaza umehifadhiwa kama siri %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Ufunguo wa kusambaza unaruhusu usakinishaji huu kutuma kwenye hazina moja kupitia SSH na si mahali pengine popote. Nusu yake ya faragha inabaki katika Usanidi &gt; Siri; nusu ya umma pekee ndiyo inayoonyeshwa.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Ufunguo wa kusambaza ulioundwa kwa lengo hili</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Ufunguo wa kusambaza huingia kupitia SSH: badilisha anwani ya git iwe ile ya SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Kazi inaendelea, imeanzishwa na %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Kazi ya lengo hili bado inaendelea (%detail). Subiri iishe.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Kazi ya lengo hili bado inaendelea. Subiri iishe.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Kiungo kutoka ukurasa /news/ kwenda ukurasa /about-us/team kitaandikwa kama</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Ufunguo mpya wa kusambaza umeundwa. Ongeza nusu yake ya umma kwenye hazina sasa.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Ukurasa ambao bado una matokeo ya utatuzi, tokeni ya fomu au kitambulisho cha kipindi baada ya kusafishwa hauchapishwi kamwe.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Urudishaji nyuma ni kwa wataalamu: weka alama kwenye &quot;Ninajua hii inabadilisha nini&quot; na uandike tena jina la lebo.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Tovuti inaweza kuwa hadi %site, faili moja hadi %file, na trafiki ya takriban 100 GB kwa mwezi. Kwenye mpango wa bure hazina lazima iwe ya umma. GitHub Pages haikusudiwi kwa maduka au miamala mingine ya kibiashara.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Lengo ni tovuti moja iliyochapishwa kwenye hazina moja ya git. Hapa hakuna kinachoundwa wala kuchapishwa: Hifadhi inaandika mipangilio kwenye settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Lengo ni tovuti moja iliyochapishwa mahali pamoja, kwa mfano tovuti yako ya umma kwenye GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Tokeni kutoka Usanidi &gt; Siri</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Mtiririko wa kazi (workflow) wa hazina unaichapisha.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Ongeza ufunguo huu wa umma kwenye hazina ukiwa na ruhusa ya kuandika. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, weka alama kwenye Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Zilizoongezwa</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Mwenyeji mwingine wa git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Mchakato mwingine unafanya kazi kwenye lengo hili: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Nyuma</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Njia ya msingi</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Kabla</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Chini ya njia ya msingi</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Tawi</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Viungo vilivyovunjika</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Viungo vilivyovunjika kwenye muundo</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Muundo</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Muundo %id na %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Muundo %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Unda sasa</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Muundo wa kukaguliwa</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Kwa mkono, hapa</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ghairi</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Badilisha</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Zilizobadilishwa</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Mabadiliko</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Ikague kwanza</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kagua mipangilio hii</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Kagua muundo unabadilisha nini, uutazame, kisha uuchapishe au uutupe.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Chagua chapisho la kurudi kwake.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Inakuja na toleo la baadaye.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Hifadhi (commit)</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Uhifadhi (commits)</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Huhifadhi (commit) muundo, huuwekea lebo na kuutuma kwa %remote. Kutuma hakulazimishwi kamwe; unaweza kurudi kwa chapisho lolote baadaye.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Ikilinganishwa na folda ilivyokuwa: %added zimeongezwa, %changed zimebadilishwa, %removed zimeondolewa, %unchanged hazijabadilika.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Ikilinganishwa na chapisho la mwisho.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kitambulisho cha kuingia</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Kikoa maalum</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Matokeo ya utatuzi, tokeni za fomu, vitambulisho vya vipindi na nonce huondolewa kila wakati.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Ufunguo wa kusambaza</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Ufunguo wa kusambaza wa %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tupa</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Tupa muundo</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Kikoa</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Tupu: anwani ya tovuti. Vinginevyo, anwani ya ndani ya tovuti hiyo hiyo.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Imeisha</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Kila kiungo kinaanza na njia ya msingi.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Kila chapisho ni uhifadhi (commit) wenye lebo static/%id/&lt;n&gt;. Kurudi nyuma huunda uhifadhi mpya wenye faili za chapisho la awali: historia inabaki, hakuna lebo inayohamishwa na hakuna kinacholazimishwa.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Ziada</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Leta kurasa kutoka</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faili</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Faili zote</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Faili zinakosekana</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Faili za</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Faili ambazo hazikuweza kukusanywa</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Alama ya kidole</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Folda</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Kwa anwani ya SSH. Ufunguo huundwa baada ya kuhifadhi; wewe unaongeza nusu yake ya umma kwenye hazina.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Kwa anwani ya https://. GitHub: tokeni ya kina (fine-grained) yenye Contents ya kusoma na kuandika kwenye hazina.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Kwa wataalamu. Tovuti ya umma hubadilika mara tu kutuma kunapokamilika.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Fomu</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Upangishaji bure kutoka hazina ya GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Kutoka tawi</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Anwani ya git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages inaruhusu tovuti ya %site na faili ya %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Vikomo vya GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages huchapisha faili jinsi zilivyo (inahitajika kwa faili zinazoanza na _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub huhudumia tawi jinsi lilivyotumwa. Chaguo-msingi.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, seva yako mwenyewe: hazina yoyote ya git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Rudi kwa chapisho la awali</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Msaada</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Msaada kuhusu mchawi</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Zifiche</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Historia ya %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Mwenyeji</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Jinsi GitHub Pages inavyopokea muundo</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Nimekagua mabadiliko</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ninajua hii inabadilisha nini</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Kitambulisho</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Imezimwa: hakuna kinachoweza kuundwa hadi iwashwe.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Inaendeshwa chinichini kama %user; unaweza kufunga ukurasa huu.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Kazi %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Imehifadhiwa kama siri %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Aina</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Chapisho la mwisho</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Acha kurasa hizi nje</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Acha sehemu hizi nje</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Viungo</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Viungo vilivyoandikwa upya</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Tovuti hai</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Tazama muundo</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Herufi ndogo, tarakimu, _ na -, kwa mfano github-public. Inapatia jina folda na lebo (static/&lt;id&gt;/&lt;n&gt;) na haiwezi kubadilishwa baadaye.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Unda ufunguo mpya</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Unda lengo</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Unda ufunguo</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Unda hazina kwa mwenyeji kwanza; tupu ni sawa.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Orodha ya faili</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ujumbe</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Kurasa nyingi</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jina</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Jina la tokeni katika Usanidi &gt; Siri</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Lengo jipya</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Ifuatayo</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Hapana</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Bado hakuna uhifadhi.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Hakuna ufunguo ulioundwa: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Hakuna programu ya mstari wa amri ya php iliyopatikana. Weka migration.ini [AdminSettings] PhpCliPath kwa njia yake kamili.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Bado hakuna lebo.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Bado hakuna lengo.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Hakuna</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Haiko kwenye muundo.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Bado hakuna kilichochapishwa.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Bado hakuna kilichochapishwa: kila faili ni mpya.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Arifu</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Kwa ratiba</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Kwenye konsoli</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Kwenye seva: ./console exp:static:serve %id inauhudumia kwa njia ile ile.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Njia moja kwa kila mstari, * inalingana na sehemu yoyote: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Jina pekee ndilo huhifadhiwa pamoja na lengo; tokeni au ufunguo wenyewe unabaki katika Usanidi &gt; Siri na hauonekani kamwe kwenye kumbukumbu.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Kile tu kurasa zinachotaja</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Kwa tokeni tu. env:NAME badala yake inasoma kigezo cha mazingira cha seva.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Fungua uhakiki</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Hufungua muundo jinsi mwenyeji atakavyouhudumia, kutoka folda ya lengo. Kiungo kinakufanyia kazi kwa saa moja.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Hiari. Tupu: kilichochapishwa.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Hiari. Ukiwa na kikoa, tovuti huhudumiwa kwenye mzizi wake.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Matokeo</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Kurasa</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Kurasa za lengo</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Kurasa zilizokataliwa</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Uchakataji wa baadaye</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Hakiki</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Hakiki na chapisha</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Hakiki na chapisha %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Hakiki muundo</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Maendeleo</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Anwani ya umma</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Ufunguo wa umma</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Chapisha</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Chapisha nakala tuli ya tovuti kwenye GitHub Pages au mwenyeji wowote wa git: iunde, kagua mabadiliko, chapisha, na urudi kwa chapisho la awali unapohitaji.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Chapisho la kurudi kwake</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Machapisho</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Kutuma</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Soma mafunzo</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Kumbukumbu</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Imekataliwa</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Viungo vya kuhusiana</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Pakia upya</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Zilizoondolewa</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Badilisha ufunguo: wa zamani unaacha kufanya kazi</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Ripoti</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Ripoti ya muundo</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Hazina</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Mapitio</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Mapitio hukagua kila mpangilio na huonyesha mistari itakayoandikwa. Bado hakuna kilichohifadhiwa.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Tendua</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Urudishaji nyuma</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Hifadhi</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Ratiba</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Ukurasa wa utafutaji</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Vitambulisho vya sehemu, vikitenganishwa kwa koma.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Vipeleke kwenye tovuti hai</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Mpangilio</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Mipangilio</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Mipangilio ya %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Usanidi</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Usanidi &gt; Siri</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Huonyeshwa katika orodha, kwa mfano &quot;Tovuti ya umma kwenye GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Kuingia kwa GitHub App kunakuja na muunganisho wa GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Tovuti</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Tovuti ya kuchapisha</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ukubwa</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Ukubwa na vikomo</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Ukubwa wa muundo</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Kurasa zilizopitwa na wakati</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Imeanza</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Imeanzishwa na %user saa %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Uchapishaji tuli</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Uchapishaji tuli umezimwa</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Uchapishaji tuli umezimwa.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Uchapishaji tuli umezimwa. Uwashe kwanza katika Usanidi &gt; Uchapishaji tuli.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Uchapishaji tuli umewashwa.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Hatua %step kati ya %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Hatua</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Usafishaji</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Zima</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Washa</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Washa uchapishaji tuli</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Lebo</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Lebo zote</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Lengo</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Malengo yanaweza kuundwa na kubadilishwa, lakini hakuna kinachoundwa wala kuchapishwa hadi uchapishaji uwashwe.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Huambia injini za utafutaji nini cha kusoma.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Muundo haukuweza kutupwa: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Muundo ni sawa na chapisho la mwisho: hakuna cha kuchapisha.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Muundo umetupwa: folda ina chapisho la mwisho tena.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Chaguo-msingi zinafaa tovuti nyingi.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Folda ina muundo ambao bado haujachapishwa; muundo mpya unaubadilisha.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Folda ya kazi haiwezi kuandikiwa: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Kazi haikuweza kuandaliwa: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Kazi haikuweza kuanzishwa.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Kazi imeisha. Inapakia ripoti yake.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Kazi inahitaji mtumiaji aliyeingia.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Kazi ilianzishwa lakini haikuripoti kitambulisho cha mchakato wake. Kagua %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Ufunguo</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Faili kubwa zaidi: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Mistari itakayoandikwa</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Orodha ya kurasa kwa injini za utafutaji; inahitaji anwani ya umma.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Kurasa huletwa kama anavyoziona mgeni ambaye hajaingia. Ufikiaji wa usimamizi na uhariri hautolewi kamwe.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Maendeleo hayakuweza kufuatiliwa. Pakia upya ukurasa ili uone jinsi kazi inavyoendelea.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Nusu ya umma ya ufunguo:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Mzizi wa tawi</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Hifadhi ya siri bado haijasanidiwa (./console exp:upgrade --apply huunda jedwali lake), kwa hivyo hakuna ufunguo unaoweza kuhifadhiwa.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Seva huingia yenyewe (kwa ufunguo wake wa SSH au msaidizi wa vitambulisho), au hazina iko kwenye seva hii.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Mpangilio haukuweza kuandikwa: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Mipangilio ni halali. Mistari hii itaandikwa:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Faili ya mipangilio haiwezi kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Tovuti inarudi kwenye faili za chapisho hilo; muundo ambao bado haujachapishwa lazima uchapishwe au utupwe kwanza.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Ukurasa wa tovuti yenyewe kwa anwani ambazo hazipo.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Lengo halikuweza kuhifadhiwa: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Lengo bado haliingii kwa ufunguo huu: chagua &quot;Ufunguo wa kusambaza ulioundwa kwa lengo hili&quot; katika mipangilio yake.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Malengo hayakuweza kusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Bado hakuna muundo wa kukagua.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Usakinishaji huu hauna ufikiaji wa tovuti ya umma. Ufikiaji wa usimamizi na uhariri hauchapishwi kamwe.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Ukurasa huu unafuatilia kazi inapoendelea; inaendelea chinichini ukurasa ukifungwa.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Lengo hili bado halina ufunguo wa kusambaza.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Lengo hili bado halijaundwa hapa.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Lengo hili linao.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Hutupa muundo huu: folda ina chapisho la mwisho tena. Tovuti hai haibadiliki.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Weka alama kwanza kwenye &quot;Nimekagua mabadiliko&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Muda</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Vichochezi</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Andika tena jina la lebo</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Hazijabadilika</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Mwito wa wavuti (webhook)</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Nini</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Kinachobadilika</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Kila faili ni nini; huandikwa kila wakati.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Kazi ilifanya nini na kumbukumbu yake. Kazi iliyoanzishwa hapa inaendelea chinichini ukurasa huu ukifungwa.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Kile kazi ilichoandika kama makosa</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Kile kurasa zinachotaja, na kila picha ya maudhui yaliyochapishwa</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Lini</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Chapisho linaposhindikana</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Chapisho linapofaulu</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Maudhui yanapochapishwa</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Mahali viungo vya kile ambacho nakala haina vinapoelekea (utafutaji, kuingia).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Mahali nakala tuli inapohudumiwa kutoka.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Tovuti ipi inachapishwa, na lengo linaitwaje.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Hufanya kazi chini ya njia yoyote. Chaguo-msingi.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Huandikwa kila kikoa maalum kinapowekwa.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ndiyo</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Unaweza kila wakati kuunda na kuchapisha kwa mkono hapa na kwenye konsoli.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>jina tu; thamani inabaki katika Usanidi &gt; Siri</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>chini ya %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>imeisha bila ripoti</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ziada</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>imeshindikana</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>faili</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, au main na folda docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>mwenyeji wa git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (kwa tokeni) au git@github.com:owner/repo.git (kwa ufunguo wa kusambaza); kamwe nenosiri au tokeni ndani yake.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, kwa ramani ya tovuti na viungo rasmi.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>picha</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>kamwe</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>hapana</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>hakuna hazina ya mbali</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>hakuna: uhifadhi unabaki kwenye folda</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>hakuna: hakuna kilichobadilika</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>haijatumwa</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>hakuna kilichobadilika</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ukurasa</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>imefaulu</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open imezimwa, kwa hivyo kazi haiwezi kuanzishwa hapa. Tumia ./console exp:static:build kwenye seva.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>chapisho</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>imechapishwa</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>kutuma kunasubiri</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>imetumwa</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>imekataliwa</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>viungo vya kuhusiana</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>urudishaji nyuma</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>imerudishwa nyuma</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>inaendelea</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>folda pekee</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: huandikwa kwenye faili CNAME. Elekeza DNS ya kikoa kwa mwenyeji kama anavyoeleza; HTTPS inaweza kuchukua muda kuanza.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ndiyo, bado haijachapishwa</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App moja</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Mtiririko wa kazi (workflow) wa hazina unaichapisha. Muundo huandika faili ya mtiririko wa kazi; acha folda tupu.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Baada ya kuhifadhi lengo lenye hazina ya GitHub na tokeni au GitHub App, hatua hii inaweza kuunda hazina na kuwasha GitHub Pages. Vinginevyo unda hazina kwenye GitHub kwanza; tupu ni sawa.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Tawi au GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Kagua DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Unda hazina ikiwa haipo</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Unda hazina kwenye GitHub na uwashe GitHub Pages katika mipangilio yake (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Huunda hazina %repo ikiwa haipo (ukiomba), huwasha GitHub Pages kutoka tawi au kutoka GitHub Actions kama ilivyohifadhiwa, na huweka kikoa maalum na HTTPS. Hutumia mipangilio iliyohifadhiwa: hifadhi mabadiliko kwanza.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Maelezo kwenye GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Weka kikoa maalum kwanza.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Kila push hukaguliwa kwanza dhidi ya vikomo hivi.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Kwa anwani ya https:// kwenye GitHub. App iliyowekwa kwa usakinishaji huu ndiyo huingia; inahitaji id ya usakinishaji.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages hutoa hazina ya faragha kwenye mpango wa kulipia tu.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: kikoa kidogo (www.example.com) kinahitaji rekodi ya CNAME kwenda &lt;owner&gt;.github.io; kikoa kikuu (example.com) rekodi za A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id ya usakinishaji wa GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Muundo wa mwisho wa Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Vikomo na masharti</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Inahitajika kwa GitHub Pages kwenye mpango wa bure.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Kwenye GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Kwa GitHub App tu: nambari iliyo mwishoni mwa anwani ya usakinishaji wa App kwenye GitHub. App yenyewe huwekwa katika staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Faragha</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Umma</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Hifadhi lengo lenye hazina ya GitHub na tokeni au GitHub App kwanza.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Weka rekodi hizi kwa mtoa huduma wa kikoa:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Sanidi kwenye GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS ya %domain bado haielekezi kwa GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS ya %domain inaelekeza kwa GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Muunganisho wa GitHub haupatikani hapa: %problem. Kuchapisha kwenye tawi bado kunafanya kazi; washa GitHub Pages katika mipangilio ya hazina.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Hatua za GitHub hazipatikani kwa lengo hili: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Hali ya GitHub Pages huonyeshwa kitambulisho cha kuingia kikiwa tokeni au GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Tumia kikoa chako mwenyewe</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Uchague nini: tokeni, ufunguo wa kusambaza au GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Ukiwa na hazina ya GitHub na tokeni au GitHub App, mchawi anaweza kuunda hazina, kuwasha GitHub Pages na kuweka kikoa kwa ajili yako (hatua ya 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>inaundwa</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>imeundwa</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>kutoka GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>kutoka tawi %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>bado hakuna</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>haikupatikana</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>imezimwa</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>faragha</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>umma</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>kwenye foleni</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>haijulikani</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count kwenye kurasa %pages:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Faili ya .gz (na .br) kando ya kila faili la maandishi, kwa wapangishi wanaozitoa.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Ukurasa mdogo kwa kila anwani ya zamani na jina mbadala la ukurasa, ili viungo vya zamani viendelee kufanya kazi.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Huandikwa kila wakati GitHub Actions inapowasilisha tovuti.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Kitambulisho cha SPDX kama CC-BY-4.0, au maandishi yenyewe.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Kapu</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Miito kwa seva</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Maoni</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Fomu zinazokusanya taarifa</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Mtiririko wa kazi wa GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Nafasi tupu chache na bila maoni kwenye kurasa.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Leseni ya maudhui</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Ingia</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Fomu nyingine</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Kurasa za uelekezaji</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Kurasa za uelekezaji: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Tafuta</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Faharasa ya utafutaji: kurasa %pages katika %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Laha za mtindo na hati zilizopewa majina kwa hash ya maudhui yake, ili vivinjari viweze kuzihifadhi.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Kurasa zilizobadilika, dakika chache baada ya mabadiliko ya mwisho (sehemu ya cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Leseni ya maudhui, kutoka sehemu ya chini.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Tovuti nzima, kwa nyakati za ratiba (sehemu ya cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Sehemu hizi za kurasa zinahitaji seva; kila moja imepewa mbadala. Zikague kabla ya kuchapisha.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Kisichofanya kazi kwa njia tuli</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Hazina ni nini, kwa yeyote anayeifungua kwenye mpangishi.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>imeachwa</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>maandishi mbadala</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>kituo cha fomu cha tovuti hai</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>tovuti hai</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ukurasa wa utafutaji wa nakala</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Fomu haikuweza kutumwa.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Asante: fomu imetumwa.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Fomu haikukubaliwa: angalia ulichoweka kisha uitume tena.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Ondoa viungo vya kurasa ambazo nakala haina</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Ondoa viungo vya kwenda kwenye usimamizi</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Maandishi yake yanabaki. Picha, fomu na viungo vya tovuti nyingine haviondolewi kamwe.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Toleo</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Siteaccess za kuchapisha</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Kwenye mzizi</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Hakuna siteaccess kwenye mzizi: kila moja iko kwenye folda yake, na mzizi unaziunganisha</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Weka alama kwenye siteaccess moja, au kadhaa zinazoshiriki seva moja kwa kiambishi chao cha URI. Iliyo kwenye mzizi hutolewa hapo, zingine kwenye folda ya kiambishi chao (/ger/); viungo kati yao hubaki kwenye nakala. Siteaccess za usimamizi hazitolewi kamwe.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Uchapishaji tuli wa %target umeshindwa kwenye %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Uchapishaji tuli wa %target umefanikiwa kwenye %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Barua pepe hii imetumwa na %site kwa sababu lengo la uchapishaji tuli %target linaiomba.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Usambazaji %deploy umeshindwa kwenye %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Usambazaji %deploy unasubiri langoni kwenye %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Usambazaji %deploy umefaulu kwenye %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Barua hii ilitumwa na %site kwa sababu migration.ini [RemoteSettings] Notify[] inaiomba.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Aina za data (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Imehesabiwa %time, tena baada ya dakika %minutes</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Aina ya data huhifadhi na kuhariri aina moja ya thamani ya sifa ya darasa: mstari wa maandishi, picha, uhusiano. Kiini cha mfumo (kernel) huleta nyingi, viendelezi huongeza zaidi. Hapa ziko zote, nani anazitoa na kiasi gani cha maudhui kinazitumia. Aina ya data ambayo hifadhidata inatumia lakini hakuna kinachoisajili tena huvunja maudhui yaliyo nayo.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Makundi ya madarasa</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Hesabu tena sasa badala ya kutumia hesabu za dakika zilizopita.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Hesabu tena</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Muhtasari</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Amesajiliwa</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Inatumika</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Haitumiki</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Viendelezi vinavyotoa aina za data</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Sifa za darasa</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Sifa za kitu</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Haijasajiliwa</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Imeorodheshwa, faili haipo</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Aina %count za data zinatumika lakini hazijasajiliwa</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Sifa za darasa %class_attributes na sifa za vitu %object_attributes zina aina ya data ambayo hakuna kiendelezi wala mpangilio unaoisajili. Vitu vyake haviwezi kuonyeshwa, kuhaririwa wala kuchapishwa. Washa kiendelezi kinachotoa aina hiyo ya data, au badilisha darasa.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Onyesha hizi tu</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Tafuta aina ya data</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Kitambulisho, jina, darasa la PHP au kiendelezi.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Onyesha</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Zote</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Imetolewa na</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Kila mtu</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kiini cha mfumo (kernel)</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Hakuna aina ya data inayolingana na kichujio hiki.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Onyesha zote</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Kiendelezi</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown kati ya aina %count za data, %used zinatumika</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Hifadhidata ina sifa za darasa au za vitu za aina hizi za data, lakini content.ini haiorodheshi yoyote, au faili yake haipo.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Aina za data za %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Aina ya data</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Darasa la PHP na faili</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Madarasa</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Vitu</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Alama</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>hakuna</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Hakuna aina ya data inayolingana na utafutaji. Futa utafutaji.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown kati ya aina %count za data zimeonyeshwa</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Aina za data zilizoonyeshwa: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Panga kwa %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Imehesabiwa %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Aina zote za data</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Ukurasa wa msaada</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Aina hii ya data inatumika lakini haijasajiliwa</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Vitu vya madarasa yaliyo hapa chini haviwezi kuonyeshwa, kuhaririwa wala kuchapishwa wakati hakuna kiendelezi kinachosajili aina hii ya data. Washa kiendelezi kinachoitoa na uiongeze kwenye content.ini [DataTypeSettings] AvailableDataTypes[], au badilisha madarasa.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini inaorodhesha aina hii ya data, lakini hakuna saraka ya aina za data yenye faili yake. Hakuna kinachoitumia; iondoe kwenye AvailableDataTypes[] au washa kiendelezi chake.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Kuhusu aina hii ya data</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Kitambulisho</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jina</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Kiendelezi %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>hakuna</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Darasa la PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faili</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Katika AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ndiyo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>hapana</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Safu za thamani yake</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Safu za mipangilio ya sifa yake ya darasa</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Majedwali</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Safu na majedwali hupatikana kwa kusoma msimbo wa aina ya data: ni mwongozo, si ahadi.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Violezo</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Kiolezo</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Imepatikana katika</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>usimamizi huu</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>tovuti chaguo-msingi</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Bila mabadiliko ya kiolezo (override): kiolezo cha override kinacholingana na darasa au sifa hushinda hivi.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Madarasa yanayoitumia (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Hakuna darasa lenye sifa ya aina hii ya data.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Darasa</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Sifa</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Sifa za darasa (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Sifa</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Mipangilio</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Inahitajika</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Inatafutika</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Inaweza kutafsiriwa</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Hukusanya taarifa</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Baadhi ya maudhui yanayoitumia</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Iliyobadilishwa mwisho kwanza</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Imebadilishwa</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nodi %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Kila tafsiri ina thamani yake.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Utafutaji huorodhesha thamani zake.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Inaweza kukusanya taarifa kutoka kwa wageni (fomu).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Orodha zinaweza kupangwa kwayo: ufunguo wa kupanga %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Inaweza kupangwa</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Thamani zake zinaelekeza kwa vitu vingine.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Mahusiano</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Inaweza kujazwa kutoka maandishi matupu (uingizaji, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Kutoka maandishi</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Inaweza kujazwa kutoka faili.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Kutoka faili</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Mipangilio ya sifa yake ya darasa huingia kwenye vifurushi.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Vifurushi</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Maudhui (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from hadi %to kati ya %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Chuja orodha</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Madarasa yote</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sehemu</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Lugha</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Mmiliki</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Imechapishwa</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Geuza mpangilio</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Hakuna kipengee</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Kwa kila ukurasa</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Onyesha vipengee %count kwa kila ukurasa.</translation>
     </message>
 </context>
 </TS>

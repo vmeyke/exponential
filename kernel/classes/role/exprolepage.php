@@ -2,7 +2,7 @@
 /**
  * File containing the expRolePage class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -523,12 +523,22 @@ class expRolePage
             return 0;
         $db = eZDB::instance();
         $db->begin();
-        $made = 0;
-        foreach ( $steps as $step )
+        try
         {
-            if ( !$draft->movePolicy( $step[0], $step[1] ) )
-                break;
-            $made++;
+            $made = 0;
+            foreach ( $steps as $step )
+            {
+                if ( !$draft->movePolicy( $step[0], $step[1] ) )
+                    break;
+                $made++;
+            }
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
         $db->commit();
         return $made;

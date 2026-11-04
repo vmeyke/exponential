@@ -2,7 +2,7 @@
 /**
  * File containing the eZURLWildcardTest class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -15,6 +15,9 @@
  * @group urlWildcard
  * @group database
  */
+#[\PHPUnit\Framework\Attributes\Group('urlWildcard')]
+#[\PHPUnit\Framework\Attributes\Group('database')]
+#[\PHPUnit\Framework\Attributes\CoversClass(eZURLWildcard::class)]
 class eZURLWildcardTest extends ezpDatabaseTestCase
 {
     /**
@@ -174,6 +177,7 @@ class eZURLWildcardTest extends ezpDatabaseTestCase
      *
      * @depends testFetch
      */
+    #[PHPUnit\Framework\Attributes\Depends( 'testFetch' )]
     public function testCleanup()
     {
         eZURLWildcard::cleanup( 'testPair/0' );
@@ -188,6 +192,7 @@ class eZURLWildcardTest extends ezpDatabaseTestCase
      *
      * @depends testFetch
      */
+    #[PHPUnit\Framework\Attributes\Depends( 'testFetch' )]
     public function testRemoveByIDs()
     {
         // Removing odd wildcards
@@ -251,6 +256,7 @@ class eZURLWildcardTest extends ezpDatabaseTestCase
      *
      * @depends testFetchListCount
      */
+    #[PHPUnit\Framework\Attributes\Depends( 'testFetchListCount' )]
     public function testRemoveAll()
     {
         eZURLWildcard::removeAll();

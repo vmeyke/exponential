@@ -67,12 +67,12 @@ It also invites companies to [become partners](https://exponential.earth/partner
 
 The roadmap names Exponential 6.0.10 as the current stable release. The repository has moved on since: 6.0.11 was
 tagged on 30 December 2025, 6.0.12 on 10 February 2026, 6.0.13 on 18 April 2026 and 6.0.14 on 7 June 2026
-(`git tag`), and 6.0.15 is in development. So read the roadmap's version numbers as a snapshot of when it was
+(`git tag`), and 6.0.15 is the current line. So read the roadmap's version numbers as a snapshot of when it was
 written. Several of its items are visible in the repository today:
 
 | Roadmap item | What the repository shows |
 |---|---|
-| PHP 8.4 and 8.5 support | Exponential 6.0.15 runs on PHP 8.0 to 8.5 ([Requirements](../../install/02-requirements.md)) |
+| PHP 8.4 and 8.5 support | Exponential 6.0.15 runs on PHP 8.0 to 8.5 (PHP 7.4 usable without support) ([Requirements](../../install/02-requirements.md)) |
 | PHP 8.6 | `composer.json` already allows PHP up to 8.8 and the README names 8.6 as a goal; the roadmap's estimate was 2026/Q3 |
 | Documentation consolidated | The documentation now lives in `doc/` of the repository and this help shows it in the administration ([Help system](../../features/6.0/help-system.md)), under the GNU FDL |
 | Composer-based package management in the administration | **Setup > Updates and packages**, from the `ezupdate` extension, finds, checks and installs Composer packages from package servers ([Update with Git: Updates and packages](../update-with-git.md#b4-update-the-extensions-with-updates-and-packages)) |

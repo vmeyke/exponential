@@ -14,6 +14,20 @@ to HTTPS (and serves certificate challenge files), port 443 serves the site over
 rules of `.htaccess_root` sit in the virtual host itself. Apache then reads no `.htaccess` at all
 (`AllowOverride None`), which saves a file lookup per directory on every request. The file keeps its historical name.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](nginx.md), [LiteSpeed](litespeed.md),
+> [Caddy](caddy.md), [IIS](iis.md), [Velocity](velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../help/hosting/panels/plesk.md), [cPanel](../../help/hosting/panels/cpanel.md), [DirectAdmin](../../help/hosting/panels/directadmin.md), [ISPConfig](../../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## Install it
 
 1. Load the modules: `rewrite`, `proxy`, `proxy_fcgi`, `ssl`, `headers`, `expires`, and `http2` for HTTP/2
@@ -35,6 +49,13 @@ rules of `.htaccess_root` sit in the virtual host itself. Apache then reads no `
 
 Using a hosting panel such as Plesk? It writes the virtual host itself: do not edit its files; keep `.htaccess` instead
 ([Apache .htaccess](apache-htaccess.md)) and see [chapter 8, section 8.5.3](../../install/08-serving-the-site.md#853-plesk).
+There, `./console exp:setup:htaccess --apply` puts `.htaccess_root` into place as `.htaccess`
+([Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md)).
+
+With this virtual host (`AllowOverride None`) a `.htaccess` in the root is not read, but copying it does no harm and
+keeps the rules in force should the tree ever be served with `AllowOverride All`. After an upgrade, `./console
+exp:setup:htaccess` shows the diff between your `.htaccess` and the new `.htaccess_root`, which is also the list of
+rules to carry over into this virtual host.
 
 ## The file
 
@@ -143,6 +164,9 @@ them is free documentation (GFDL 1.3 or later), like this page.
         # REST API
         RewriteRule ^/api/ /index_rest.php [L]
         RewriteRule ^/index_rest\.php - [L]
+        # SOAP server (soap.ini EnableSOAP=true): index_soap.php since
+        # Exponential 6.0.15, soap.php only forwards to it. Uncomment with SOAP on:
+        #RewriteRule ^/index_soap\.php - [L]
         RewriteRule ^/([^/]+/)?content/treemenu.* /index_treemenu.php [L]
         RewriteRule ^/var/([^/]+/)?storage/images(-versioned)?/.* - [L]
         # The stored files of PDF exports generated once (Setup > PDF export)
@@ -239,6 +263,9 @@ And one consequence: `[L]` ends the processing here, so `/content/treemenu/...` 
 Everything not on the asset list, `settings/`, `var/log/`, `vendor/`, `kernel/`, `composer.json` included, is rewritten
 to `/index.php` and never sent. The `<FilesMatch "\.php$">` handler hands `/index.php`, `/index_rest.php` and
 `/index_treemenu.php` to PHP-FPM; no other script is ever reached, because the rules send nothing else to a `.php`.
+With SOAP on, uncomment the `index_soap.php` line: the SOAP server is `index_soap.php` since Exponential 6.0.15
+(`soap.php` before, now a shim that forwards to it). What to change and how to test it:
+[the SOAP entry script is now index_soap.php](../../bc/6.0/soap-entry-script-index-soap.md).
 
 ## Headers and caching
 
@@ -255,6 +282,15 @@ When TLS ends at a proxy, keep only the port 80 host (without its redirect, with
 the 443 host), let the proxy send `X-Forwarded-Proto` and the original `Host`, and list the proxy's address in
 `site.ini [HTTPHeaderSettings] TrustedProxies[]`. See
 [chapter 8, section 8.8](../../install/08-serving-the-site.md#88-behind-a-reverse-proxy).
+
+## WebDAV
+
+This virtual host does not route WebDAV (off by default). To serve it, add `RewriteRule ^index_webdav\.php - [L]`
+inside the `<Directory>` block, before the catch-all, in the **HTTPS** host (the port 80 host only redirects), or a
+virtual host of its own (`webdav.example.com`) with `RewriteRule . /index_webdav.php [L]`. Since 6.0.15 the script
+is `index_webdav.php`; rules written for `webdav.php` keep working through a forwarding shim until a later major
+version. Before/after and the test (`curl -X PROPFIND -H 'Depth: 1'`, expect `207 Multi-Status`):
+[The WebDAV entry script is now index_webdav.php](../../bc/6.0/webdav-entry-script-index-webdav.md#apache-the-virtual-hosts-http-and-https).
 
 ## Check it
 

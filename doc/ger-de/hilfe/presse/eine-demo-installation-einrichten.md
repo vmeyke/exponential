@@ -32,12 +32,12 @@ selbst aus, bevor Sie aufnehmen; tippen Sie sie nicht zum ersten Mal vor der Kam
 
 | Sie möchten zeigen | Was Sie brauchen | Sagen Sie vor der Kamera |
 |---|---|---|
-| Das neueste Release | Den Tag `v6.0.14` (7. Juni 2026) | „Exponential 6.0.14“ |
-| Was diese Hilfe beschreibt: das Design admin4, `exp:install`, Velocity, Exponential Intelligence in der Distribution, den aktuellen Layout-Editor | Die Entwicklungslinie, Zweig `main` | „Die Entwicklungslinie 6.0.15, kein Release, Stand <Datum>“ |
+| Ein veröffentlichtes Release | Den neuesten Tag aus `git tag -l 'v6.0.*' --sort=version:refname`, zum Beispiel `v6.0.14` (7. Juni 2026) | „Exponential <Version des Tags>“ |
+| Was diese Hilfe beschreibt: das Design admin4, `exp:install`, Velocity, Exponential Intelligence in der Distribution, den aktuellen Layout-Editor | Die Linie 6.0.15: den Tag `v6.0.15`, sobald er veröffentlicht ist, oder den Zweig `main` | „Exponential 6.0.15“ für den Tag, sonst „die Linie 6.0.15, Zweig `main`, Stand <Datum>“ |
 
-Die meisten Bildschirme in der Hilfe gehören zur Produktlinie 6.0.15, deren Changelog mit „Not released yet“ beginnt
+Die meisten Bildschirme in der Hilfe gehören zur Produktlinie 6.0.15
 ([Changelog von 6.0.15](../../../changelogs/6.0/6.0.15.md)). `exp:install`, Velocity und das Design admin4 sind dort als in
-dieser Linie hinzugefügt aufgeführt. Nennen Sie für 6.0.15 nie ein Erscheinungsdatum.
+dieser Linie hinzugefügt aufgeführt. Nennen Sie für 6.0.15 ein Erscheinungsdatum nur mit dem Tag `v6.0.15`.
 
 ## Den Code holen
 
@@ -55,15 +55,15 @@ composer install
 
 ## Mit einem Befehl installieren
 
-Auf der Entwicklungslinie installiert ein Befehl das Multisite-Paket auf SQLite in `eng-US`, ohne Datenbankserver
+In der Linie 6.0.15 installiert ein Befehl das Multisite-Paket auf SQLite in `eng-US`, ohne Datenbankserver
 ([Exponential mit einem Befehl installieren](../../funktionen/6.0/installation-mit-einem-befehl.md)):
 
 ```bash
 php bin/php/console exp:install --dry-run    # checks the configuration, installs nothing
-php bin/php/console exp:install              # installs
+php bin/php/console exp:install --apply              # installs
 ```
 
-- Viele Installationen legen die Abkürzung `ln -s bin/php/console console` an, danach ist `./console exp:install`
+- Viele Installationen legen die Abkürzung `ln -s bin/php/console console` an, danach ist `./console exp:install --apply`
   derselbe Befehl; die Abkürzung wird nicht mitgeliefert ([Die Installation über die Konsole](../../installation/07-installation-ueber-die-konsole.md)).
 - Ohne Optionen ist der Administrator `admin` mit einem erzeugten Passwort aus 24 Zeichen, das in der Zusammenfassung
   ausgegeben und in `var/log/initial-admin-password` geschrieben wird. **Nehmen Sie diese Zusammenfassung nicht auf**:
@@ -75,7 +75,7 @@ php bin/php/console exp:install              # installs
 ## Die Website ausliefern
 
 `exp:install` startet keinen Webserver. Liefern Sie das Wurzelverzeichnis der Installation mit Ihrem üblichen Webserver
-aus ([Die Website ausliefern](../../installation/08-die-website-ausliefern.md)) oder, auf der Entwicklungslinie, mit Velocity:
+aus ([Die Website ausliefern](../../installation/08-die-website-ausliefern.md)) oder, in der Linie 6.0.15, mit Velocity:
 
 ```bash
 php bin/php/console exp:velocity start
@@ -136,7 +136,7 @@ der Umgebungsvariablen `EXP_DEMO_MODE=1`.
   erzeugen (beliebige Länge, auch `publish`; ein leeres wird abgelehnt):
 
   ```bash
-  EXP_DEMO_MODE=1 php bin/php/console exp:install --password='<the password you publish>'
+  EXP_DEMO_MODE=1 php bin/php/console exp:install --apply --password='<the password you publish>'
   ```
 
 - Behalten Sie die Variable danach für das PHP, die Cronjobs und die Konsole der Website. Solange sie gesetzt ist, kann

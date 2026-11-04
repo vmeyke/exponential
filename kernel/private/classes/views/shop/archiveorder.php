@@ -7,7 +7,7 @@
  * The original header of kernel/shop/archiveorder.php:
  *
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -34,9 +34,19 @@ class Archiveorder extends \Exponential\Runnable\ModuleView
 
         $db = \eZDB::instance();
         $db->begin();
-        foreach ( $archiveIDArray as $archiveID )
+        try
         {
-            \eZOrder::archiveOrder( $archiveID );
+            foreach ( $archiveIDArray as $archiveID )
+            {
+                \eZOrder::archiveOrder( $archiveID );
+            }
+        }
+        catch ( \Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
         $db->commit();
         $Module->redirectTo( '/shop/orderlist/' );

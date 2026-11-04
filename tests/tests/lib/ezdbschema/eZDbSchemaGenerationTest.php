@@ -14,13 +14,15 @@
  *
  * No database: the handlers are created without an instance. The lint checker reads settings/dbschema.ini.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group lib
  * @group ezdbschema
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezdbschema')]
 class eZDbSchemaGenerationTest extends PHPUnit\Framework\TestCase
 {
     protected function setUp(): void

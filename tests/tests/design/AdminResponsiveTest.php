@@ -17,7 +17,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/design/AdminResponsiveTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -89,7 +89,7 @@ class AdminResponsiveTest extends PHPUnit\Framework\TestCase
         $small = AdminBaseStylesheetsTest::rules( self::media( self::css( 'admin4.css' ), 'screen and (min-width: 1024px) and (max-width: 1279.98px)' ) );
         // html body:has(...) outweighs pagelayout.css's body:has(.sidebar.right.show) margin
         $this->assertSame( '0', $small['html body:has(.sidebar.right.show)']['margin-inline-end'] );
-        $this->assertStringContainsString( "body:has(.sidebar.right.show) {\n        margin-inline-end: calc(15rem + 0.5rem);", self::css( 'pagelayout.css' ) );
+        $this->assertStringContainsString( "body:has(.sidebar.right.show) {\n        margin-inline-end: calc(15rem + 0.5rem);", self::css( 'base.css' ) );
     }
 
     public function testTheContentColumnStopsGrowing()
@@ -130,13 +130,14 @@ class AdminResponsiveTest extends PHPUnit\Framework\TestCase
 
     public function testLongWordsBreakBetweenSyllables()
     {
-        $pagelayout = AdminBaseStylesheetsTest::rules( self::css( 'pagelayout.css' ) );
+        $pagelayout = AdminBaseStylesheetsTest::rules( self::css( 'base.css' ) );
         $tree = $pagelayout['div#contentstructure ul#content_tree_menu li'];
         $this->assertSame( 'break-word', $tree['overflow-wrap'], '"anywhere" broke words mid-syllable' );
         $this->assertSame( 'auto', $tree['hyphens'] );
-        $this->assertStringContainsString( '<table class="list a4-search-results"', self::file( 'design/admin4/templates/content/searchresult.tpl' ) );
-        $phone = AdminBaseStylesheetsTest::rules( self::media( self::css( 'admin4.css' ), 'screen and (max-width: 575.98px)' ) );
-        $this->assertSame( 'anywhere', $phone['table.a4-search-results td a']['overflow-wrap'] );
+        // the search results (content/searchresult.tpl, styled in modules/search.css): a long name breaks
+        $this->assertStringContainsString( '<table class="a4-table is-compact a4-search-table">', self::file( 'design/admin/templates/content/searchresult.tpl' ) );
+        $rules = AdminBaseStylesheetsTest::rules( preg_replace( '#/\*.*?\*/#s', '', self::file( 'design/standard/stylesheets/modules/search.css' ) ) );
+        $this->assertSame( 'anywhere', $rules['.a4-search-table .a4-search-name > a']['overflow-wrap'] );
     }
 
     public function testAFactsNoteStandsUnderItsValue()
@@ -183,7 +184,7 @@ class AdminResponsiveTest extends PHPUnit\Framework\TestCase
         $css = self::css( 'admin4.css' );
         // nothing moves a tab, at any width and whether its column is open or not: no translate or transform, and
         // an inset only of 0 (pagelayout.css sets inset-inline-start/end: 0 from 1024px)
-        foreach ( array( 'admin4.css', 'pagelayout.css' ) as $file )
+        foreach ( array( 'admin4.css', 'base.css' ) as $file )
         {
             foreach ( AdminBaseStylesheetsTest::rules( self::css( $file ) ) as $selector => $declarations )
             {
@@ -222,18 +223,16 @@ class AdminResponsiveTest extends PHPUnit\Framework\TestCase
 
     public function testSearchResultsShowTypeAndPathOnAPhone()
     {
-        $template = self::file( 'design/admin4/templates/content/searchresult.tpl' );
-        $this->assertStringContainsString( '<div class="a4-meta a4-search-path">{foreach $SearchResult.item.path as $path_node}<bdi>{$path_node.name|wash}</bdi>', $template, 'the path under the name' );
-        // drawn as a grid on a phone: the roles keep it a table for assistive technology
-        $this->assertStringContainsString( 'role="table"', $template );
-        $this->assertSame( 2, substr_count( $template, 'role="row"' ) );
-        $this->assertSame( 3, substr_count( $template, 'role="columnheader"' ) );
-        $this->assertSame( 3, substr_count( $template, 'role="cell"' ) );
-        $phone = AdminBaseStylesheetsTest::rules( self::media( self::css( 'admin4.css' ), 'screen and (max-width: 575.98px)' ) );
-        $this->assertSame( 'grid', $phone['table.a4-search-results tr']['display'], 'the type stacks under the name instead of leaving the screen' );
-        $this->assertSame( '2', $phone['table.a4-search-results tr > :nth-child(3)']['grid-column'] );
-        $rules = AdminBaseStylesheetsTest::rules( self::css( 'admin4.css' ) );
-        $this->assertSame( 'anywhere', $rules['.a4-search-path']['overflow-wrap'] );
+        $template = self::file( 'design/admin/templates/content/searchresult.tpl' );
+        $this->assertStringContainsString( '<div class="a4-meta a4-search-path">{foreach $result.path as $path_node}<bdi>{$path_node.name|wash}</bdi>', $template, 'the path under the name' );
+        $this->assertStringContainsString( '<thead>', $template, 'a real table: head and body, no grid rows' );
+        $this->assertStringNotContainsString( 'role="row"', $template );
+        // on a narrow page the modified date and the translations give way, the name and the type stay
+        $css = preg_replace( '#/\*.*?\*/#s', '', self::file( 'design/standard/stylesheets/modules/search.css' ) );
+        $this->assertStringContainsString( '@container (max-width: 700px)', $css );
+        $this->assertMatchesRegularExpression( '#\.a4-search-table th:nth-child\(4\), \.a4-search-table td:nth-child\(4\),\s*\.a4-search-table th:nth-child\(6\), \.a4-search-table td:nth-child\(6\) \{ display: none; \}#', $css );
+        $rules = AdminBaseStylesheetsTest::rules( $css );
+        $this->assertSame( 'anywhere', $rules['.a4-search-table .a4-search-path']['overflow-wrap'] );
     }
 
     public function testTreeArrowsAndTheLanguageChoiceAreLargeEnoughToTouch()

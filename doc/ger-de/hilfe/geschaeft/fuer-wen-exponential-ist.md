@@ -14,6 +14,21 @@ die prüfen, ob ein Projekt zum Produkt passt. Sie beantwortet: Für welche Arte
 Menschen ist Exponential laut seinen eigenen Quellen gemacht; welches Produkt der Exponential-Familie passt jeweils;
 und an welchen Fragen erkennen Sie, ob ein Interessent gut passt.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hosting/control-panels/plesk.md), [cPanel](../hosting/control-panels/cpanel.md), [DirectAdmin](../hosting/control-panels/directadmin.md), [ISPConfig](../hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 Die Quellen beschreiben ihre Zielgruppen in allgemeinen Worten. Sie veröffentlichen **keine** Kundenlisten,
 Marktanteile oder Statistiken darüber, wer das Produkt einsetzt, und diese Seite tut es ebenfalls nicht. Die Personas
 unten sind Arbeitsmodelle, gebildet aus dem, was das Produkt laut den Quellen leistet und wem es laut ihnen dient.
@@ -60,7 +75,7 @@ nennt keine Kunden.
 | **Intranets** | Angemeldete Benutzer, fein abgestufte Rechte je Abteilung, Suche | Rollenbasierte Berechtigungen mit Einschränkungen auf Sektionen und Teilbäume; eingebaute Suchmaschine | [Rollen, Richtlinien und nicht aktivierte Benutzer](../../anleitungen/rollen-und-richtlinien.md), [Sektionen](../../anleitungen/sektionen.md), [Suchen](../suchen.md) |
 | **Extranets** (Partner, Mitglieder, Kunden) | Registrierung, Freigabe von Konten, getrennte Bereiche | Benutzerregistrierung mit Freigabe durch einen Administrator; Sektionen; Siteaccesses | [Rollen, Richtlinien und nicht aktivierte Benutzer](../../anleitungen/rollen-und-richtlinien.md), [Siteaccess-Zuordnung nach Host und Sprache](../../funktionen/6.0/siteaccess-zuordnung-nach-host-und-sprache.md) |
 | **E-Commerce** | Produkte, Warenkörbe, Bestellungen, Mehrwertsteuer, Währungen, Zahlungen | „Advanced e-Commerce Stores (Built in)“; PayPal über `ezpaypal` | [Bestellbestätigungen](../../funktionen/6.0/bestellbelege.md), [Shop-Dashboard](../../funktionen/6.0/shop-dashboard.md), [Wer ist 7x?](../wer-ist-7x.md#cms-cmf-und-shop-in-einem) |
-| **Organisationen mit mehreren Marken und Ländern** | Mehrere Sites, mehrere Sprachen, gemeinsam genutzte Inhalte | Multisite aus einer Installation; 268 Locale-Dateien; Schreibrichtung von rechts nach links | [Multisite- und mehrsprachige Projekte planen](../fuehrung/multisite-und-mehrsprachigkeit-planen.md), [Sprachen in Exponential](../../sprachen.md) |
+| **Organisationen mit mehreren Marken und Ländern** | Mehrere Sites, mehrere Sprachen, gemeinsam genutzte Inhalte | Multisite aus einer Installation; 368 Locale-Dateien; Schreibrichtung von rechts nach links | [Multisite- und mehrsprachige Projekte planen](../fuehrung/multisite-und-mehrsprachigkeit-planen.md), [Sprachen in Exponential](../../sprachen.md) |
 | **Verbände, Bildung, Behörden** | Langlebige Sites, viele Redakteure, Barrierefreiheit, Fragen des Datenschutzes | Rollen und Workflows; das Design admin4 mit geprüften Kontrasten und Zielgrößen; Audit-Protokoll | [Checklisten für Barrierefreiheit, Sicherheit und Compliance](../fuehrung/checklisten-barrierefreiheit-sicherheit-und-compliance.md) |
 | **Agenturen und Integratoren** | Eine Plattform, auf der sich viele Kunden-Sites ohne Lizenzgebühren bauen lassen | GPL-Lizenz; Erweiterungen; Git-Klone; die Distribution Nexus mit Demo-Inhalten und Layouts | [Mit Git entwickeln](../mit-git-entwickeln.md), [Wer ist die Exponential Foundation?](../wer-ist-die-exponential-foundation.md#exponential-platform-nexus) |
 | **Individuelle Webanwendungen** | Ein Framework, in dem Inhalte, Benutzer und Berechtigungen schon gebaut sind | MVC, Module und Views, Templates, REST-API, Kommandozeilenskripte | [Templates und Design](../../anleitungen/templates-und-design.md), [REST-API v1 und v2](../../anleitungen/rest-api-v1-und-v2.md) |
@@ -95,7 +110,7 @@ realer Personen.
 | **Rolle** | Leitung Digital, Web oder Kommunikation |
 | **Situation** | Betreibt eine oder mehrere Websites; Redakteure warten auf Entwickler; Sprachen und Marken werden immer mehr |
 | **Was ihnen wichtig ist** | Tempo bei Änderungen, Unabhängigkeit der Redakteure, viele Sites und Sprachen, Gesamtkosten |
-| **Einstieg mit** | Redakteure bauen Seiten mit Exponential Layouts; mehrere Sites und 268 Locales aus einer Installation; keine Lizenzgebühr |
+| **Einstieg mit** | Redakteure bauen Seiten mit Exponential Layouts; mehrere Sites und 368 Locales aus einer Installation; keine Lizenzgebühr |
 | **Zeigen** | [Demo-Drehbücher](demo-drehbuecher.md), das 15-Minuten-Drehbuch: Dashboard, Bearbeiten, Layout-Editor, Sprachen |
 | **Schicken** | [Funktionshighlights, den Bedürfnissen der Kunden zugeordnet](funktionshighlights-fuer-kunden.md), [Positionierung und Nutzenversprechen](positionierung-und-nutzenversprechen.md) |
 
@@ -179,7 +194,7 @@ wo Sie als Nächstes nachsehen.
 | Wer ändert heute Seiten, und wie lange dauert das? | Redakteure warten auf Entwickler | [Der Layout-Editor](../layout-editor.md) |
 | Verkaufen Sie online, oder planen Sie es? | Ja, nah an den Inhalten | [Funktionshighlights](funktionshighlights-fuer-kunden.md) |
 | Wo muss die Site laufen: auf eigenen Servern, in einer Cloud, bei einem Hosting-Partner? | Sie wollen die Wahl haben oder haben einen festen Standard | [Hosting, Datenbank und Betriebssystem auswählen](../fuehrung/hosting-datenbank-und-betriebssystem-waehlen.md) |
-| Welche Datenbank und welches Betriebssystem betreibt Ihre IT? | Eine der sechs Datenbanken; ein Betriebssystem mit PHP 8.0 oder später | [Unterstützte Datenbanken](../datenbankunterstuetzung.md), [Unterstützte Betriebssysteme](../betriebssystemunterstuetzung.md) |
+| Welche Datenbank und welches Betriebssystem betreibt Ihre IT? | Eine der sechs Datenbanken; ein Betriebssystem mit PHP 8.0 oder später (PHP 7.4 ohne Support nutzbar) | [Unterstützte Datenbanken](../datenbankunterstuetzung.md), [Unterstützte Betriebssysteme](../betriebssystemunterstuetzung.md) |
 | Wie wichtig sind Lizenzkosten und die Freiheit, den Anbieter zu wechseln? | Wichtig | [Lizenzen für Käufer erklärt](lizenzen-fuer-kaeufer.md) |
 | Betreiben Sie eine Site, die gebaut wurde, als die Software noch eZ Publish hieß, oder eine auf eZ Platform oder Ibexa? | Ja | [Upgrade](../../anleitungen/aktualisieren.md), Migrationskapitel 14 bis 16 |
 | Wer betreibt die Site nach dem Start: Ihre IT, eine Agentur, ein Hosting-Unternehmen? | Es ist jemand benannt | [Zusammenarbeiten](../fuehrung/zusammenarbeiten.md) |
@@ -198,7 +213,7 @@ nicht aus; sie bedeuten, dass die Frage geklärt sein muss, bevor Sie etwas vers
 | „Wir brauchen die Funktionen X, Y und Z“, die keine Hilfeseite beschreibt | Nichts Undokumentiertes darf versprochen werden | Geben Sie es als Frage zum Projektumfang an den Projektleiter weiter ([Aufwand schätzen und Umfang festlegen mit Erweiterungen](../fuehrung/schaetzen-und-abgrenzen-mit-erweiterungen.md)) |
 | „Wir brauchen eine Zertifizierung oder eine garantierte Support-Zeit.“ | Die Quellen nennen keine Zertifizierungen; `SECURITY.md` verspricht nur eine erste Antwort auf Sicherheitsmeldungen innerhalb eines Werktags | Sagen Sie, was die Quellen sagen; Service-Level sind Sache Ihres eigenen Vertrags |
 | „Wir brauchen Microsoft SQL Server.“ | Es „ist bekanntermaßen mit zusätzlichem Aufwand möglich“, wird heute aber nicht unterstützt (`README.md`) | Lesen Sie [Unterstützte Datenbanken](../datenbankunterstuetzung.md) gemeinsam mit der IT des Kunden |
-| „Unsere Site läuft auf PHP 7.“ | PHP 7.4 wird nur bis 6.0.7 unterstützt (`README.md`) | Planen Sie das PHP-Upgrade als Teil des Projekts ein |
+| „Unsere Site läuft auf PHP 7.“ | PHP 7.4 ist ab 6.0.15 wieder nutzbar, ohne Support und ohne die Funktionen, die PHP 8 brauchen | Planen Sie das PHP-Upgrade als Teil des Projekts ein |
 | „Wir wollen einen reinen Symfony-Stack.“ | Der Kernel von Exponential 6 ist kein Symfony | Sehen Sie sich Exponential Platform DXP an ([Welches Produkt der Familie passt](#welches-produkt-der-familie-passt)) |
 
 ## Eine Persona-Karte zum Kopieren

@@ -17,17 +17,21 @@ Jedes Cronjob-Skript des Kernels und der mitgelieferten Erweiterungen und die Te
 | Teil | Skripte | Ausführen |
 |---|---|---|
 | (Standard) | [unpublish.php](unpublish.md), [rssimport.php](rssimport.md), [indexcontent.php](indexcontent.md), [hide.php](hide.md), [internal_drafts_cleanup.php](internal_drafts_cleanup.md) | `php runcronjobs.php` |
-| `infrequent` | [basket_cleanup.php](basket_cleanup.md), [linkcheck.php](linkcheck.md), [mailpreferences.php](mailpreferences.md), [usersessions.php](usersessions.md), [exphelp.php](exphelp.md) | `php runcronjobs.php infrequent` |
-| `frequent` | [notification.php](notification.md), [workflow.php](workflow.md), [contentjobs.php](contentjobs.md), [datatablesync.php](datatablesync.md), [audit.php](audit.md), [mailbounces.php](mailbounces.md) | `php runcronjobs.php frequent` |
+| `infrequent` | [basket_cleanup.php](basket_cleanup.md), [linkcheck.php](linkcheck.md), [mailpreferences.php](mailpreferences.md), [usersessions.php](usersessions.md), [useraudit.php](useraudit.md), [exphelp.php](exphelp.md) | `php runcronjobs.php infrequent` |
+| `frequent` | [notification.php](notification.md), [workflow.php](workflow.md), [contentjobs.php](contentjobs.md), [datatablesync.php](datatablesync.md), [audit.php](audit.md), [mailbounces.php](mailbounces.md), [graphqlwebhooks.php](graphqlwebhooks.md) | `php runcronjobs.php frequent` |
 | `contentcheck` | [contentcheck.php](contentcheck.md) | `php runcronjobs.php contentcheck` |
 | `contentjobs` | [contentjobs.php](contentjobs.md) | `php runcronjobs.php contentjobs` |
 | `datatable` | [datatablesync.php](datatablesync.md) | `php runcronjobs.php datatable` |
 | `audit` | [audit.php](audit.md) | `php runcronjobs.php audit` |
+| `graphqlwebhooks` | [graphqlwebhooks.php](graphqlwebhooks.md) | `php runcronjobs.php graphqlwebhooks` |
 | `logs` | [explogrotate.php](explogrotate.md) | `php runcronjobs.php logs` |
 | `notification` | [notification.php](notification.md) | `php runcronjobs.php notification` |
 | `mailpreferences` | [mailpreferences.php](mailpreferences.md) | `php runcronjobs.php mailpreferences` |
+| `migrationpush` | [migrationpush.php](migrationpush.md) | `php runcronjobs.php migrationpush` |
+| `staticpublish` | [staticpublish.php](staticpublish.md) | `php runcronjobs.php staticpublish` |
 | `mailbounces` | [mailbounces.php](mailbounces.md) | `php runcronjobs.php mailbounces` |
 | `usersessions` | [usersessions.php](usersessions.md) | `php runcronjobs.php usersessions` |
+| `useraudit` | [useraudit.php](useraudit.md) | `php runcronjobs.php useraudit` |
 | `exphelp` | [exphelp.php](exphelp.md) | `php runcronjobs.php exphelp` |
 | `unlock` | [unlock.php](unlock.md) | `php runcronjobs.php unlock` |
 | `cluster_maintenance` | [clusterpurge.php](clusterpurge.md) | `php runcronjobs.php cluster_maintenance` |
@@ -45,9 +49,10 @@ Jedes Cronjob-Skript des Kernels und der mitgelieferten Erweiterungen und die Te
 | [clusterpurge.php](clusterpurge.md) | Löscht abgelaufene Einträge des Cluster-Speichers aus dem Datenbank-Backend | cluster_maintenance |
 | [contentcheck.php](contentcheck.md) | Baut den Referenzindex der Inhaltsprüfungen (ungenutzte Assets) für Installationen, in denen eine Seite ihn nicht bauen darf (contentcheck.ini BuildOnRequest=false) | contentcheck |
 | [contentjobs.php](contentjobs.md) | Setzt Inhaltsaufträge fort, deren Worker gestorben ist, und startet wartende Aufträge, die niemand gestartet hat | frequent, contentjobs |
-| [datatablesync.php](datatablesync.md) | Start the data table synchronisations that are due (scheduled and live, by their interval) | frequent, datatable |
-| [exphelp.php](exphelp.md) | Help maintained as content: removes old answers to "Was this helpful?" and records the DITA export of the help in git when exphelp.ini [ContentSettings] DitaHistoryDirectory is set | infrequent, exphelp |
+| [datatablesync.php](datatablesync.md) | Startet die fälligen Synchronisationen der Datentabellen (geplante und Live-Synchronisationen, nach ihrem Intervall) | frequent, datatable |
+| [exphelp.php](exphelp.md) | Als Inhalt gepflegte Hilfe: entfernt alte Antworten auf "War das hilfreich?" und hält den DITA-Export der Hilfe in Git fest, wenn exphelp.ini [ContentSettings] DitaHistoryDirectory gesetzt ist | infrequent, exphelp |
 | [explogrotate.php](explogrotate.md) | Logs: rotiert die Logs über ihrer MaxSize, bereinigt und komprimiert ihre Archive (aus, solange kein Teil ihn ausführt) | logs |
+| [graphqlwebhooks.php](graphqlwebhooks.md) | GraphQL-Webhooks: die Ereignisse des Journals an die Endpunkte senden, die sie haben wollen, mit Wiederholungen | frequent, graphqlwebhooks |
 | [hide.php](hide.md) | Führt geplante Aktionen zum Verbergen und Anzeigen von Inhaltsobjekten aus | (Standard) |
 | [httpcache_cleanup.php](httpcache_cleanup.md) | Entfernt abgelaufene, gelöschte und verwaiste Einträge aus dem rollenbewussten HTTP-Cache | cache_cleanup |
 | [indexcontent.php](indexcontent.md) | Indiziert anstehende Inhaltsänderungen in der Suchmaschine | (Standard) |
@@ -55,18 +60,21 @@ Jedes Cronjob-Skript des Kernels und der mitgelieferten Erweiterungen und die Te
 | [linkcheck.php](linkcheck.md) | Prüft alle internen und externen Links in veröffentlichten Inhalten auf defekte URLs | infrequent |
 | [mailbounces.php](mailbounces.md) | Das Postfach für Rückläufer: Hard Bounces und Spam-Beschwerden kommen auf die Sperrliste (mailpreferences.ini [BounceSettings]) | frequent, mailbounces |
 | [mailpreferences.php](mailpreferences.md) | Aufbewahrung der E-Mail-Einstellungen: Zeilen des Einwilligungsprotokolls von Personen, die nicht mehr da sind, abgelaufene Bestätigungen, alte Einträge der Sperrliste | infrequent, mailpreferences |
+| [migrationpush.php](migrationpush.md) | Migrationen: die Aufzeichnung der Läufe, deren Push gescheitert ist, erneut zum Remote des Migrations-Repositorys pushen | migrationpush |
 | [notification.php](notification.md) | Verarbeitet anstehende Benachrichtigungsereignisse und verschickt sie an die Abonnenten | frequent, notification |
 | [old_drafts_cleanup.php](old_drafts_cleanup.md) | Entfernt Entwürfe von Benutzern, die die konfigurierte Altersgrenze überschreiten |  |
 | [querycache_cleanup.php](querycache_cleanup.md) | Entfernt die Ergebnisdateien des SQL-Abfrage-Caches, die älter als MaxAge sind oder von vor dem letzten Leeren stammen | cache_cleanup |
 | [rssimport.php](rssimport.md) | Holt die konfigurierten RSS-Feeds und importiert sie in den Inhaltsbaum | (Standard) |
 | [session_gc.php](session_gc.md) | Räumt abgelaufene Benutzersitzungen aus dem Sitzungsspeicher |  |
 | [staticcache_cleanup.php](staticcache_cleanup.md) | Entfernt abgelaufene und veraltete Einträge aus dem statischen Seiten-Cache |  |
+| [staticpublish.php](staticpublish.md) | Statisches Veröffentlichen: erneut pushen, was nicht gepusht werden konnte, die durch eine Veröffentlichung von Inhalten geänderten Seiten veröffentlichen (gebündelt) und die Ziele, deren Zeitplan fällig ist | staticpublish |
 | [subtreeexpirycleanup.php](subtreeexpirycleanup.md) | Räumt Einträge zum Ablauf von Teilbäumen aus den URL-Cache-Tabellen |  |
 | [trashpurge.php](trashpurge.md) | Löscht Objekte im Papierkorb endgültig (alle oder so alte, wie [TrashSettings] KeepItemsForDays sagt) |  |
 | [unlock.php](unlock.md) | Gibt Inhaltsobjekte frei, die in einem gesperrten Bearbeitungszustand hängen | unlock |
 | [unpublish.php](unpublish.md) | Führt geplante Aktionen zum Zurückziehen von Inhaltsobjekten aus | (Standard) |
-| [updateviewcount.php](updateviewcount.md) | Schreibt den Puffer der Aufrufzähler aus dem Speicher in die Datenbank |  |
-| [usersessions.php](usersessions.md) | Signed-in sessions ("Your devices"): ends the sessions not used for [Session] SessionTimeout, removes ended ones after [UserSessionSettings] RetentionDays | infrequent, usersessions |
+| [updateviewcount.php](updateviewcount.md) | Zählt die Seitenaufrufe aus den Zugriffsprotokollen des Webservers in den Aufrufzähler (ezview_counter) |  |
+| [useraudit.php](useraudit.md) | Benutzer-Audit-Log: entfernt die Zeilen von expuser_audit, die älter sind als audit.ini [UserAuditSettings] RetentionDays | infrequent, useraudit |
+| [usersessions.php](usersessions.md) | Angemeldete Sitzungen ("Ihre Geräte"): beendet die Sitzungen, die für [Session] SessionTimeout nicht benutzt wurden, und entfernt beendete nach [UserSessionSettings] RetentionDays | infrequent, usersessions |
 | [workflow.php](workflow.md) | Verarbeitet anstehende Workflow-Ereignisse und bringt hängende Workflows weiter | frequent |
 
 - [Alle Beispiele](../README.md)

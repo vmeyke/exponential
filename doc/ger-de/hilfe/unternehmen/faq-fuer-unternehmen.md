@@ -12,6 +12,21 @@ type: help
 Kurze Antworten auf die Fragen, die Inhaber und Führungskräfte am häufigsten stellen. Jede Antwort nennt ihre Quelle
 und verweist auf die Seite mit den Einzelheiten.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hosting/control-panels/plesk.md), [cPanel](../hosting/control-panels/cpanel.md), [DirectAdmin](../hosting/control-panels/directadmin.md), [ISPConfig](../hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Inhalt
 
 1. [Kosten und Lizenz](#kosten-und-lizenz)
@@ -44,7 +59,7 @@ verkaufen. Einzelheiten und die Fragen, die Sie mit einem Rechtsberater klären 
 ## Betrieb
 
 **Was braucht ein Server?**
-PHP 8.0 oder neuer auf fast jedem Betriebssystem; einen Webserver (Apache, Nginx und die anderen oder das
+PHP 8.0 oder neuer (PHP 7.4 ohne Support nutzbar) auf fast jedem Betriebssystem; einen Webserver (Apache, Nginx und die anderen oder das
 mitgelieferte Velocity); und eine Datenbank, wobei SQLite 3, die Standardwahl, keinen Datenbankserver braucht
 (`README.md`, „Requirements“; [Anforderungen auf einen Blick](../hosting/grundlagen/anforderungen-auf-einen-blick.md)).
 
@@ -82,7 +97,7 @@ Ja, über die REST API („A headless CRUD REST API“, `README.md`), die diesel
 responsiven Website. Siehe [Mobil und headless](mobil-und-headless/README.md).
 
 **Wie viele Sprachen?**
-268 Locale-Dateien lassen sich als Inhaltssprachen und Siteaccess-Locales wählen, 40 davon werden von rechts nach
+368 Locale-Dateien lassen sich als Inhaltssprachen und Siteaccess-Locales wählen, 43 davon werden von rechts nach
 links geschrieben; die Administration hat viele Übersetzungen (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen)
 ([Sprachen in Exponential](../../sprachen.md)). Siehe [Mehrsprachige Unternehmen](mehrsprachig/README.md).
 
@@ -162,3 +177,11 @@ und entwickeln die Produkte mit uns, und so wächst Exponential. Eine Partner-We
 Sie mit [Partner: hier beginnen](../partner/partner-hier-beginnen.md) und
 [Wie Sie sich bewerben](../partner/wie-sie-sich-bewerben.md).
 <!-- exp-partner-block:end -->
+
+## Urheberrecht und Copyleft
+
+Seit dem 29. Oktober 2026 halten die Exponential Foundation und 7x das Copyright an Exponential gemeinsam, die
+Foundation zuerst genannt: „Exponential Copyright © 1998-2026 Exponential Foundation and 7x“, in Dateien
+„Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.“ Wer es hält und warum, was die
+GPL Ihnen erlaubt, welche Hinweise Dritter bleiben und wie der Hinweis in neue Dateien und Erweiterungen kommt:
+[Urheberrecht und Copyleft](../urheberrecht-und-copyleft.md).

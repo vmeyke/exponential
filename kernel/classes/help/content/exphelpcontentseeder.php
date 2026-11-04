@@ -7,7 +7,7 @@
  *
  * Changes are recorded as in expHelpContentInstaller: array( step, action, what ).
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -196,7 +196,7 @@ class expHelpContentSeeder
             return null;
         if ( !$parentNode instanceof eZContentObjectTreeNode )
         {
-            $this->change( 'error', "$label: its folder does not exist (run exp:help:content install first)" );
+            $this->change( 'error', "$label: its folder does not exist (run exp:help:content install --apply first)" );
             return null;
         }
         $object = eZContentFunctions::createAndPublishObject( array(

@@ -30,6 +30,10 @@ Bearbeiten Sie `extension/ezjscore/settings/ezjscore.ini` nie selbst: Ein Update
 > <root>/ezjscore/call/expdebugbar::cache    (action=list; POST action=clear by=tag|id|all|node|velocity|opcache)  
 > <root>/ezjscore/call/expdebugbar::iptest   (address, list)  
 > <root>/ezjscore/call/expdebugbar::log, expdebugbar::summary  
+> <root>/ezjscore/call/expdebugbar::policies::<role>::<offset>::<search>  (im Pfad: Rollen-ID oder -, Versatz,  
+>   base64url der Suche oder -; die Richtlinien der Rollen des Benutzers, seitenweise; setup/setup)  
+> <root>/ezjscore/call/expdebugbar::session  (POST, angemeldet mit ezxform\_token, nie zwischengespeichert: die eigene PHP-  
+>   Session des Requests für die Registerkarte Benutzer, Geheimnisse maskiert; setup/setup oder ein anonymer Besucher mit Debug-Ausgabe)  
 > <root>/ezjscore/call/expdebugbar::panelheight  (POST Höhe in Pixeln oder 0, ezxform\_token: Benutzereinstellung  
 >   expdebugbar\_panel\_height, die Höhe des geöffneten Panels)  
 > Jede Funktion prüft selbst: Lesen braucht die Debug-Ausgabe für die Anfrage oder setup/setup oder  

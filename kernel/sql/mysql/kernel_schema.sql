@@ -298,9 +298,13 @@ CREATE TABLE expbookmark_folder (
 CREATE TABLE expbookmark_view (
   bookmark_id int(11) NOT NULL default '0',
   created int(11) NOT NULL default '0',
+  module_name varchar(100) NOT NULL default '',
   module_uri longtext,
   user_id int(11) NOT NULL default '0',
+  view_name varchar(100) NOT NULL default '',
+  view_parameters longtext,
   PRIMARY KEY  (bookmark_id),
+  KEY expbookmark_view_module (module_name, view_name),
   KEY expbookmark_view_user (user_id)
 ) ENGINE=InnoDB;
 
@@ -441,6 +445,7 @@ CREATE TABLE ezcontentobject (
   KEY ezcontentobject_classid (contentclass_id),
   KEY ezcontentobject_currentversion (current_version),
   KEY ezcontentobject_lmask (language_mask),
+  KEY ezcontentobject_modified (modified),
   KEY ezcontentobject_owner (owner_id),
   KEY ezcontentobject_pub (published),
   UNIQUE KEY ezcontentobject_remote_id (remote_id),
@@ -980,6 +985,7 @@ CREATE TABLE ezorder (
   is_temporary int(11) NOT NULL default '1',
   order_nr int(11) NOT NULL default '0',
   productcollection_id int(11) NOT NULL default '0',
+  siteaccess varchar(255) NOT NULL default '',
   status_id int(11) default '0',
   status_modified int(11) default '0',
   status_modifier_id int(11) default '0',
@@ -1080,11 +1086,13 @@ CREATE TABLE ezpdf_export (
   creator_id int(11) default NULL,
   export_classes varchar(255) default NULL,
   export_structure varchar(255) default NULL,
+  footer_text varchar(255) NOT NULL default '',
   id int(11) NOT NULL auto_increment,
   intro_text longtext,
   modified int(11) default NULL,
   modifier_id int(11) default NULL,
   pdf_filename varchar(255) default NULL,
+  show_footer int(11) NOT NULL default '1',
   show_frontpage int(11) default NULL,
   site_access varchar(255) default NULL,
   source_node_id int(11) default NULL,
@@ -1449,6 +1457,217 @@ CREATE TABLE expuser_session (
   UNIQUE KEY expuser_session_token (token_hash),
   KEY expuser_session_user (user_id,ended),
   KEY expuser_session_active (ended,last_active)
+) ENGINE=InnoDB;
+
+
+
+
+
+CREATE TABLE expuser_session_info (
+  auth_detail varchar(32) NOT NULL default '',
+  country varchar(2) NOT NULL default '',
+  host varchar(255) NOT NULL default '',
+  location varchar(128) NOT NULL default '',
+  session_id int(11) NOT NULL default '0',
+  user_id int(11) NOT NULL default '0',
+  PRIMARY KEY  (session_id),
+  KEY expuser_session_info_user (user_id)
+) ENGINE=InnoDB;
+
+
+
+
+
+CREATE TABLE expuser_audit (
+  actor_id int(11) NOT NULL default '0',
+  actor_login varchar(150) NOT NULL default '',
+  client_ip varchar(64) NOT NULL default '',
+  created int(11) NOT NULL default '0',
+  event_id varchar(26) NOT NULL default '',
+  event_name varchar(128) NOT NULL default '',
+  host varchar(255) NOT NULL default '',
+  id int(11) NOT NULL auto_increment,
+  module_view varchar(128) NOT NULL default '',
+  reason varchar(64) NOT NULL default '',
+  request_id varchar(40) NOT NULL default '',
+  result varchar(16) NOT NULL default '',
+  siteaccess varchar(64) NOT NULL default '',
+  target_id int(11) NOT NULL default '0',
+  target_login varchar(150) NOT NULL default '',
+  target_type varchar(16) NOT NULL default '',
+  time_ms bigint(20) NOT NULL default '0',
+  value_after longtext,
+  value_before longtext,
+  PRIMARY KEY  (id),
+  UNIQUE KEY expuser_audit_event (event_id),
+  KEY expuser_audit_target (target_id,created),
+  KEY expuser_audit_actor (actor_id,created),
+  KEY expuser_audit_name (event_name,created),
+  KEY expuser_audit_created (created)
+) ENGINE=InnoDB;
+
+
+
+
+
+CREATE TABLE exp_migration (
+  caption_id varchar(150) NOT NULL default '',
+  checksum varchar(64) NOT NULL default '',
+  duration_ms int(11) NOT NULL default '0',
+  engine varchar(30) NOT NULL default '',
+  environment varchar(50) NOT NULL default '',
+  file_path varchar(255) NOT NULL default '',
+  finished_at int(11) NOT NULL default '0',
+  message varchar(1000) NOT NULL default '',
+  migration_id varchar(150) NOT NULL default '',
+  revision varchar(64) NOT NULL default '',
+  run_by varchar(150) NOT NULL default '',
+  run_id varchar(64) NOT NULL default '',
+  source varchar(100) NOT NULL default '',
+  stage varchar(20) NOT NULL default '',
+  started_at int(11) NOT NULL default '0',
+  state varchar(20) NOT NULL default '',
+  version varchar(30) NOT NULL default '',
+  PRIMARY KEY  (source,migration_id),
+  KEY exp_migration_run_id (run_id)
+) ENGINE=InnoDB;
+
+
+
+
+
+CREATE TABLE exp_static_page (
+  built_at int(11) NOT NULL default '0',
+  hash varchar(64) NOT NULL default '',
+  node_id int(11) NOT NULL default '0',
+  page_bytes int(11) NOT NULL default '0',
+  path varchar(255) NOT NULL default '',
+  stale int(11) NOT NULL default '0',
+  target varchar(50) NOT NULL default '',
+  PRIMARY KEY  (target,path),
+  KEY exp_static_page_node (node_id)
+) ENGINE=InnoDB;
+
+
+
+
+
+CREATE TABLE exp_static_run (
+  added int(11) NOT NULL default '0',
+  bytes int(11) NOT NULL default '0',
+  changed int(11) NOT NULL default '0',
+  commit_id varchar(64) NOT NULL default '',
+  files int(11) NOT NULL default '0',
+  finished_at int(11) NOT NULL default '0',
+  kind varchar(20) NOT NULL default '',
+  message varchar(1000) NOT NULL default '',
+  pages int(11) NOT NULL default '0',
+  push_state varchar(20) NOT NULL default '',
+  removed int(11) NOT NULL default '0',
+  run_by varchar(150) NOT NULL default '',
+  run_id varchar(64) NOT NULL default '',
+  started_at int(11) NOT NULL default '0',
+  state varchar(20) NOT NULL default '',
+  tag_name varchar(150) NOT NULL default '',
+  target varchar(50) NOT NULL default '',
+  PRIMARY KEY  (run_id),
+  KEY exp_static_run_target (target,started_at)
+) ENGINE=InnoDB;
+
+
+
+
+
+CREATE TABLE exp_migration_run (
+  caption_post varchar(150) NOT NULL default '',
+  caption_pre varchar(150) NOT NULL default '',
+  commit_id varchar(64) NOT NULL default '',
+  environment varchar(50) NOT NULL default '',
+  finished_at int(11) NOT NULL default '0',
+  log_file varchar(255) NOT NULL default '',
+  message varchar(1000) NOT NULL default '',
+  push_state varchar(20) NOT NULL default '',
+  run_by varchar(150) NOT NULL default '',
+  run_id varchar(64) NOT NULL default '',
+  started_at int(11) NOT NULL default '0',
+  state varchar(20) NOT NULL default '',
+  tag_name varchar(150) NOT NULL default '',
+  PRIMARY KEY  (run_id),
+  KEY exp_migration_run_started (started_at)
+) ENGINE=InnoDB;
+
+
+
+
+
+CREATE TABLE exp_migration_recording (
+  environment varchar(50) NOT NULL default '',
+  event_count int(11) NOT NULL default '0',
+  kind varchar(20) NOT NULL default '',
+  label varchar(255) NOT NULL default '',
+  message varchar(1000) NOT NULL default '',
+  recording_id varchar(64) NOT NULL default '',
+  started_at int(11) NOT NULL default '0',
+  state varchar(20) NOT NULL default '',
+  stopped_at int(11) NOT NULL default '0',
+  user_id int(11) NOT NULL default '0',
+  PRIMARY KEY  (recording_id),
+  KEY exp_migration_recording_state (state)
+) ENGINE=InnoDB;
+
+
+
+
+
+CREATE TABLE exp_migration_recording_event (
+  actor_id int(11) NOT NULL default '0',
+  audit_name varchar(100) NOT NULL default '',
+  event_id varchar(32) NOT NULL default '',
+  payload longtext,
+  recorded_at int(11) NOT NULL default '0',
+  recording_id varchar(64) NOT NULL default '',
+  step_mode varchar(20) NOT NULL default '',
+  step_type varchar(50) NOT NULL default '',
+  subject varchar(255) NOT NULL default '',
+  PRIMARY KEY  (recording_id,event_id)
+) ENGINE=InnoDB;
+
+
+
+
+
+CREATE TABLE exp_migration_deploy (
+  deploy_id varchar(64) NOT NULL default '',
+  finished_at int(11) NOT NULL default '0',
+  in_sync int(11) NOT NULL default '0',
+  message varchar(1000) NOT NULL default '',
+  mode varchar(20) NOT NULL default '',
+  next_stage int(11) NOT NULL default '0',
+  run_by varchar(150) NOT NULL default '',
+  stages int(11) NOT NULL default '0',
+  started_at int(11) NOT NULL default '0',
+  state varchar(20) NOT NULL default '',
+  PRIMARY KEY  (deploy_id),
+  KEY exp_migration_deploy_started (started_at)
+) ENGINE=InnoDB;
+
+
+
+
+
+CREATE TABLE exp_migration_deploy_host (
+  address varchar(255) NOT NULL default '',
+  applied int(11) NOT NULL default '0',
+  caption varchar(150) NOT NULL default '',
+  deploy_id varchar(64) NOT NULL default '',
+  environment varchar(50) NOT NULL default '',
+  message varchar(1000) NOT NULL default '',
+  remote_id varchar(64) NOT NULL default '',
+  stage int(11) NOT NULL default '0',
+  state varchar(20) NOT NULL default '',
+  transport varchar(20) NOT NULL default '',
+  PRIMARY KEY  (deploy_id,remote_id),
+  KEY exp_migration_deploy_host_remote (remote_id)
 ) ENGINE=InnoDB;
 
 

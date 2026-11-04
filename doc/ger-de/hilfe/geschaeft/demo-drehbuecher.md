@@ -37,7 +37,7 @@ Siteaccesses `site` und `admin` ([Exponential mit einem Befehl installieren](../
 
 ```bash
 ./console exp:install --dry-run    # checks the configuration and installs nothing
-./console exp:install              # installs the multisite package on SQLite
+./console exp:install --apply              # installs the multisite package on SQLite
 ```
 
 - Der Administrator ist `admin` mit einem erzeugten Passwort, das in der Zusammenfassung ausgegeben und in
@@ -91,7 +91,7 @@ und dass die Hilfe eingebaut ist.
 | 0:40 | Einen Ordner im Baum öffnen, **Bearbeiten** drücken | „Jede Bearbeitung beginnt mit einem Entwurf. Die Site zeigt weiter die veröffentlichte Version, bis Sie veröffentlichen.“ |
 | 1:20 | Den **Short name** ändern, **Vorschau** drücken, die Schaltfläche für die Telefonbreite drücken | „Vor dem Veröffentlichen sehen Sie die Seite in der Breite eines Telefons, eines Tablets und eines Desktops.“ |
 | 2:00 | **Zurück zur Bearbeitung**, **Zur Veröffentlichung schicken** | „Beim Veröffentlichen bleibt die frühere Version erhalten. Sie können jederzeit zurück.“ |
-| 2:30 | Tab **Layouts**, **Layouts**, **Öffnen** bei einem Layout | „Hier ordnen Redakteure Seiten an: Zonen und darin Blöcke. Exponential Layouts bringt das Konzept von Netgen Layouts zu Exponential.“ (`README.md`) |
+| 2:30 | Tab **Layouts**, **Layouts**, **Öffnen** bei einem Layout | „Hier ordnen Redakteure Seiten an: Zonen und darin Blöcke. Exponential Layouts bringt das Konzept der Upstream-Layouts-Pakete zu Exponential.“ (`README.md`) |
 | 3:10 | Einen Block anklicken | „Seine Einstellungen stehen rechts: was er zeigt und wie er aussieht.“ |
 | 3:40 | **Discard**, bestätigen | „Das war ein Entwurf. Wenn Sie ihn verwerfen, bleibt die veröffentlichte Seite genau so, wie sie war.“ |
 | 4:10 | Die Schaltfläche **Hilfe** in der Kopfzeile drücken | „Die Hilfe ist eingebaut. Die Schaltfläche Hilfe öffnet die Seite, die zu dem Bildschirm gehört, auf dem Sie gerade sind.“ ([Hilfesystem](../../funktionen/6.0/hilfesystem.md)) |
@@ -154,7 +154,7 @@ Inhaltstyp oder ein Siteaccess.“ ([Welche Seiten ein Layout verwenden](../layo
    rechts.“ ([Von rechts nach links](../../funktionen/6.0/rechts-nach-links.md))
 5. Wechseln Sie zurück zu Englisch.
 
-Gesprächsleitfaden: „268 Locale-Dateien lassen sich als Inhaltssprachen verwenden; es gibt Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen).“ ([Sprachen in Exponential](../../sprachen.md))
+Gesprächsleitfaden: „368 Locale-Dateien lassen sich als Inhaltssprachen verwenden; es gibt Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen).“ ([Sprachen in Exponential](../../sprachen.md))
 
 ### Teil 4: Hilfe und Nachweis (4 Minuten)
 

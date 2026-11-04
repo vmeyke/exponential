@@ -8,7 +8,7 @@ answers cached pages in well under a millisecond of CPU and renders uncached pag
 warm file caches and a warm opcode cache.
 
 **As of 6.0.15 Velocity is part of Exponential.** `composer.json` requires `se7enxweb/exponential-velocity
-~0.0.4.55`, so `composer install` installs the server with the rest of the product, on PHP 8.0 and later. Nothing has
+~0.0.4.57`, so `composer install` installs the server with the rest of the product, on PHP 8.0 and later. Nothing has
 to be added before the first start, and nothing switches engines on its own: the shipped `velocity.ini` starts PHP's
 built-in server until `[ServerSettings] Engine=qbix` is set. Why this is a turning point, a cornerstone and a capstone
 for the project, and what it means for each kind of reader:
@@ -102,7 +102,7 @@ before it builds the server configuration, so a change is read at the next
 | `[ServerSettings]` | `HTTP2` | `enabled` | HTTP/2 for HTTPS connections. |
 | `[ServerSettings]` | `ResponseHeaders[]` | four security headers | Headers added to static files, error pages, redirects and 304 answers. |
 | `[ServerSettings]` | `ResponseHeadersOnScripts` | `enabled` | Same headers on answers of `index.php`, `index_rest.php` and `index_treemenu.php`, only where the script did not send them. |
-| `[HTTPSSettings]` | `HSTSMaxAge`, `HSTSIncludeSubDomains`, `HSTSPreload` | `300`, `disabled`, `disabled` | `Strict-Transport-Security` on every HTTPS answer, never on plain HTTP. `0` writes nothing. |
+| `[HTTPSSettings]` | `HSTSMaxAge`, `HSTSIncludeSubDomains`, `HSTSPreload` | `0`, `disabled`, `disabled` | `Strict-Transport-Security` on every HTTPS answer, never on plain HTTP. `0` writes nothing. |
 | `[CacheSettings]` | `Enabled` | `enabled` | The server's own response cache. `disabled` really switches it off (since 28 September; before, a disabled value fell back to the server default). |
 | `[PHPSettings]` | `IniOptions[]` | opcache and APCu options | PHP options handed to the server process, one per line, as after `-d`. Shipped: `opcache.enable_cli=1`, `opcache.memory_consumption=256`, `opcache.max_accelerated_files=20000`, `opcache.interned_strings_buffer=32`, `opcache.revalidate_freq=0`, `opcache.file_update_protection=0`, `apc.shm_size=256M` (read the full list and the reasons in `settings/velocity.ini`). |
 
@@ -132,8 +132,8 @@ Change and read settings with the command instead of editing by hand:
 ```bash
 ./console exp:velocity config list ServerSettings
 ./console exp:velocity config get ServerSettings Workers
-./console exp:velocity config set ServerSettings Workers 8
-./console exp:velocity config unset ServerSettings Workers
+./console exp:velocity config set --apply ServerSettings Workers 8
+./console exp:velocity config unset --apply ServerSettings Workers
 ./console exp:velocity config paths      # which of the three look-alike files is the real one
 ```
 
@@ -165,7 +165,7 @@ two). `status` says which caches get APCu and why.
 Clear every cache after a template or stylesheet change:
 
 ```bash
-./console exp:velocity cache clear
+./console exp:velocity cache clear --apply
 ```
 
 For the Setup > Caches buttons from the command line see
@@ -263,6 +263,7 @@ the request, as under PHP-FPM.
 
 ## Related pages
 
+- [Smarty templates: performance (Speed)](../../guides/smarty-templates-performance.md): `.stpl` pages on Velocity and PHP-FPM, measured
 - Guides: [Velocity engines](../../bc/6.0/velocity-engines.md), [HTTP/2 and cache warming](../../bc/6.0/http2-and-cache-warming.md), [response cache and navigation cache](../../bc/6.0/response-cache-and-navigation.md), [HTTP cache](../../bc/6.0/httpcache.md), [SQL query cache](../../bc/6.0/sql-query-cache.md)
 - Features: [Velocity web server](velocity-web-server.md), [Velocity response cache](velocity-response-cache.md), [opcode cache and profile](velocity-opcode-cache-and-profile.md), [server control commands](web-server-and-solr-commands.md), [maintenance mode](maintenance-mode.md) (Velocity pauses its caches while it is on)
 - Specifications: [Velocity worker pool](../../specifications/6.0/velocity-worker-pool.md), [Velocity engine settings](../../specifications/6.0/velocity-engine-settings.md), [security defaults of September 2026](../../specifications/6.0/security-defaults-2026-09.md)

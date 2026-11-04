@@ -42,7 +42,7 @@ Packagist, and its current line is **Exponential 6.0.x**. A content management s
 ### For decision makers: one stack, and the server is in it
 
 As of 6.0.15 the Velocity Internet / Web Application Server is part of Exponential: the root `composer.json` requires
-`se7enxweb/exponential-velocity ~0.0.4.55`, so every installation has it, on PHP 8.0 and later. The project calls this
+`se7enxweb/exponential-velocity ~0.0.4.57` (through `se7enxweb/exponential-php-floor`, on PHP 8.0 and later), so every installation has it, on PHP 8.0 and later. The project calls this
 a turning point, a cornerstone and a capstone: a new level of application system integration that provides even
 greater features out of the box in the core product, by default. What that means when you decide:
 
@@ -58,8 +58,8 @@ The whole story: [Velocity is part of Exponential 6.0.15](../velocity-is-part-of
 
 ## Where it comes from
 
-- **Nearly thirty years of one code base.** The copyright notice reads "Copyright (C) 1998 - 2026 7x & Exponential
-  Foundation" next to "Copyright (C) 1999 - 2014 eZ Systems AS" (`COPYRIGHT.md`). The oldest commit in the repository
+- **Nearly thirty years of one code base.** The copyright notice reads "Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved."
+  next to "Copyright (C) 1999 - 2014 eZ Systems AS" (`COPYRIGHT.md`). The oldest commit in the repository
   is from 2 September 2002 ([Who is 7x?](../who-is-7x.md#7x-in-numbers)).
 - **A continuation, not a fork for its own sake.** Exponential continues the code base of eZ Publish, a product its
   creator discontinued after almost 18 years. 7x took over leadership of the project in 2023, released 6.0.0 on
@@ -98,7 +98,7 @@ What that means for a project, with the page that explains each part:
 | Page building | Exponential Layouts: layouts, zones, blocks and rules | [The layouts editor](../layouts-editor.md) |
 | Writing assistance | Exponential Intelligence: drafts only, never publishes on its own | [Exponential Intelligence](../../features/6.0/extensions/expai.md) |
 | Multisite | Several sites from one installation, each a siteaccess | [Planning multisite and multilingual projects](multisite-and-multilingual-planning.md) |
-| Languages | 268 locale files as content languages; administration translations (the current totals are at the top of the languages page) | [Languages in Exponential](../../languages.md) |
+| Languages | 368 locale files as content languages; administration translations (the current totals are at the top of the languages page) | [Languages in Exponential](../../languages.md) |
 | E-commerce | Products, baskets, orders, VAT, currencies, PayPal | [Who is 7x?](../who-is-7x.md#a-cms-a-cmf-and-a-shop-in-one) |
 | Integration | REST API v1 and v2 | [REST API v1 and v2](../../guides/rest-api-v1-and-v2.md) |
 | Security and audit | Content Security Policy, two-step sign-in, a tamper-evident audit trail | [Security hardening](../security-hardening.md), [Audit trail](../../features/6.0/audit-trail.md) |
@@ -116,7 +116,7 @@ state of each product, are on
 | **Exponential 6** | The CMS, CMF and shop kernel this installation runs | Organizations with structured content, several sites or several languages; developers who build on its framework |
 | **Exponential Platform 3.2.9** | Symfony-only CMS from the last free eZ Platform | Teams on the eZ Platform 3 stack who want current PHP |
 | **Exponential Platform Legacy** | The Symfony platform plus Exponential 6 ("dual kernel") | Existing sites that keep Exponential 6 and add Symfony beside it |
-| **Exponential Platform Nexus** | Platform plus Exponential 6, Netgen Layouts and Media Site, with demo content | Agencies and teams who want a complete site fast |
+| **Exponential Platform Nexus** | Platform plus Exponential 6, Exponential Layouts and Media Site, with demo content | Agencies and teams who want a complete site fast |
 | **Exponential Platform DXP** | A Symfony-only digital experience platform, the continuation of the Ibexa DXP OSS line | New Symfony projects |
 | **Exponential Basic** | The simple CMS of the eZ Publish 2 line | Education, personal use, small sites |
 | **Exponential Velocity** | A web and application server written in PHP | Anyone who serves Exponential |
@@ -152,7 +152,7 @@ leadership pages are written for Exponential 6, the kernel this help belongs to.
 
 | Layer | Facts | Read |
 |---|---|---|
-| PHP | 8.0 to 8.5, Velocity included (from its release 0.0.4.54); 7.4 only up to 6.0.7 | [The support commitment](../who-is-the-exponential-foundation.md#php-versions) |
+| PHP | 8.0 to 8.5, Velocity included (from its release 0.0.4.54); 7.4 usable without support from 6.0.15 | [The support commitment](../who-is-the-exponential-foundation.md#php-versions) |
 | Database | In order of preference: SQLite 3 (the default), PostgreSQL, MongoDB, MariaDB, Oracle, MySQL | [Database support](../database-support.md) |
 | Operating system | "almost any that runs PHP 8.0 or later", sorted into four tiers | [Operating system support](../os-support.md) |
 | Web server | Exponential Velocity (recommended; part of Exponential and installed with it as of 6.0.15), FrankenPHP (production-ready alternative), Apache or nginx with PHP-FPM, and others | [Chapter 8: Serving the site](../../install/08-serving-the-site.md) |
@@ -163,8 +163,8 @@ The decision between them is the subject of
 
 ## Languages and accessibility
 
-- **268 locale files** (261 languages and countries, the test language Lorem Ipsum and 6 variations), in 32 scripts,
-  40 of them written right to left, can be chosen as content languages; **administration translations** exist (the current totals are at the top of the languages page) ([Languages in Exponential](../../languages.md)).
+- **368 locale files** (361 languages and countries, the test language Lorem Ipsum and 6 variations),
+  43 of them written right to left, can be chosen as content languages; **administration translations** exist (the current totals are at the top of the languages page) ([Languages in Exponential](../../languages.md)).
 - One installation holds at most 62 content languages at a time on 64-bit PHP
   ([Languages](../../languages.md#11-the-limit-of-62-content-languages)).
 - The administration turns around for right-to-left interface languages, and content in a right-to-left language is
@@ -212,7 +212,7 @@ Use these as a starting point. Each sentence is built only from the sources abov
 
 > Exponential is an open source PHP content management system with a content model you define yourself, versions,
 > approval workflows, multisite, many languages and a built-in shop. It is licensed under the GPL v2 or later, installs
-> with Composer or as Git clones, and runs on PHP 8.0 to 8.5 with six supported databases, SQLite first. The company 7x
+> with Composer or as Git clones, and runs on PHP 8.0 to 8.5 (PHP 7.4 usable without support) with six supported databases, SQLite first. The company 7x
 > leads its development and the nonprofit Exponential Foundation operates the project.
 
 **For a steering committee.** Add, from this page: the product family table, the database order, the support

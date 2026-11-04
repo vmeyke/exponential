@@ -8,6 +8,20 @@ tuning it for speed, managing extensions and their order, and adding languages. 
 mechanism does, gives the commands with the settings they read, and ends with a way to check the result. Work
 through it once in order after the install; afterwards it serves as a reference.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../examples/web-servers/nginx.md), [LiteSpeed](../examples/web-servers/litespeed.md),
+> [Caddy](../examples/web-servers/caddy.md), [IIS](../examples/web-servers/iis.md), [Velocity](../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../help/hosting/panels/plesk.md), [cPanel](../help/hosting/panels/cpanel.md), [DirectAdmin](../help/hosting/panels/directadmin.md), [ISPConfig](../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../guides/litespeed-page-cache.md).
+
 [Contents](README.md) · Previous: [9. Databases](09-databases.md) · Next: [11. Upgrading](11-upgrading.md)
 
 ## Contents
@@ -99,7 +113,7 @@ The rules live in `site.ini [SiteAccessSettings]`:
 | `URIMatchType`, `URIMatchElement` | `element`, `1` | With `uri`: the first path element names the siteaccess (`/admin/...`). |
 | `HostMatchType`, `HostMatchMapItems[]` | `map` | With `host`: a host name maps to a siteaccess, `HostMatchMapItems[]=www.example.com;site`. |
 | `RelatedSiteAccessList[]` | | Siteaccesses that share one database. |
-| `ForceVirtualHost` | `false` | `true` when the web server rewrites every address to `index.php`, which the shipped rules do. |
+| `ForceVirtualHost` | `false` | `true` when the web server rewrites every address to `index.php`, which the shipped rules and Velocity do. Every installation (setup wizard, kickstarter, `exp:install`, any site package) writes `true` to `settings/override/site.ini.append.php` when the server rewrites, so no generated link carries `/index.php`. Set it back to `false` only on a server without rewrite rules. |
 | `RemoveSiteAccessIfDefaultAccess` | `disabled` | `enabled` leaves the default siteaccess's name out of generated links. |
 | `RequireUserLogin` | `true` in `site.ini` | Overridden per siteaccess; a public site sets it to `false`. |
 
@@ -452,7 +466,7 @@ php bin/php/cache.php opcache status --allow-root-user
 After a template or stylesheet change clear it (no restart needed):
 
 ```bash
-php bin/php/console exp:velocity cache clear --allow-root-user
+php bin/php/console exp:velocity cache clear --apply --allow-root-user
 php bin/php/console exp:velocity cache stats --allow-root-user
 ```
 
@@ -669,6 +683,17 @@ define( 'EZPUBLISH_LOG_ROTATE_FILES', 10 );          // keep ten; 0 switches bui
 define( 'CUSTOM_LOG_MAX_FILE_SIZE', 10485760 );       // logs written through eZLog
 define( 'CUSTOM_LOG_ROTATE_FILES', 10 );
 ```
+
+Without an editor, the console writes the same lines (a backup of `config.php` first, a `php -l` check before it
+lands); `./console exp:setup:config --apply` creates `config.php` from the template when there is none yet:
+
+```bash
+./console exp:config:set EZPUBLISH_LOG_MAX_FILE_SIZE 10485760 --apply
+./console exp:config:set EZPUBLISH_LOG_ROTATE_FILES 10 --apply
+./console exp:config:list --only-set
+```
+
+See [Setting up .htaccess and config.php from the console](../guides/setup-files-from-the-console.md).
 
 **System rotation.** Files the kernel does not write itself (your `cron-*.log` files) need the system's logrotate.
 If you switch the built-in rotation off, logrotate takes over the kernel's logs as well:
@@ -905,7 +930,7 @@ and after a change to a `.ts` file clear `--clear-tag=i18n`. See
 5. A backup was taken **and restored** on another machine.
 6. `var/log/error.log` holds nothing you cannot explain.
 7. A benchmark baseline is saved in `var/benchmark/`.
-8. Logs rotate (built-in limits in `config.php`, logrotate for cron logs).
+8. Logs rotate (built-in limits in `config.php`, see `./console exp:config:list --only-set`; logrotate for cron logs).
 9. Behind a proxy on another machine: its address is in `TrustedProxies[]`, and HTTPS pages link to `https://`.
 10. `./console exp:expfetch --allow-root-user` shows the expected versions and engine, and its Hints block has no
     `error` ([The system card](../features/6.0/system-card.md)).
@@ -955,7 +980,7 @@ In this repository:
 - [Benchmark](../features/6.0/benchmark.md), [Maintenance mode](../features/6.0/maintenance-mode.md),
   [Reset a user password](../features/6.0/reset-user-password.md), [Changing your password](../features/6.0/modern-password-change.md),
   [Audit trail](../features/6.0/audit-trail.md).
-- [Trusted proxies](../bc/6.0/trusted-proxies.md), [exp:ini](../features/6.0/exp-ini-command.md), [Extension loading order](../features/6.0/extension-loading-order.md),
+- [Trusted proxies](../bc/6.0/trusted-proxies.md), [exp:ini](../features/6.0/exp-ini-command.md), [Setting up .htaccess and config.php from the console](../guides/setup-files-from-the-console.md), [Extension loading order](../features/6.0/extension-loading-order.md),
   [Additional extension directories](../bc/6.0/AdditionalExtensionDirectories.md),
   [Per-site settings inside extensions](../features/6.0/multi-site-ini-overrides.md),
   [Translations and languages](../features/6.0/translations-and-languages.md).

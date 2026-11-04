@@ -17,7 +17,7 @@
  *
  * Portions derived from LoveStack (mugoweb/ezpublish-legacy, commit 0bb0bac618), Copyright (C) Mugo Web, GPL v2
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group lib
@@ -158,6 +158,7 @@ class eZTemplateOperatorDefaultWarningTest extends PHPUnit\Framework\TestCase
     /**
      * @testdox interpreted: the warning names operator and parameter, once however often the operator runs
      */
+    #[\PHPUnit\Framework\Attributes\TestDox('interpreted: the warning names operator and parameter, once however often the operator runs')]
     public function testInterpretedWarnsOncePerOperatorAndParameter(): void
     {
         $this->mode( false );
@@ -174,6 +175,7 @@ class eZTemplateOperatorDefaultWarningTest extends PHPUnit\Framework\TestCase
     /**
      * @testdox interpreted: a parameter that is given or has a default value warns nothing
      */
+    #[\PHPUnit\Framework\Attributes\TestDox('interpreted: a parameter that is given or has a default value warns nothing')]
     public function testGivenParametersAndDefaultsWarnNothing(): void
     {
         $this->mode( false );
@@ -187,6 +189,7 @@ class eZTemplateOperatorDefaultWarningTest extends PHPUnit\Framework\TestCase
     /**
      * @testdox interpreted: the next request, and reset(), warn again
      */
+    #[\PHPUnit\Framework\Attributes\TestDox('interpreted: the next request, and reset(), warn again')]
     public function testNextRequestAndResetWarnAgain(): void
     {
         $this->mode( false );
@@ -214,6 +217,7 @@ class eZTemplateOperatorDefaultWarningTest extends PHPUnit\Framework\TestCase
     /**
      * @testdox compiled: warned once when the template is compiled, not when the compiled template runs
      */
+    #[\PHPUnit\Framework\Attributes\TestDox('compiled: warned once when the template is compiled, not when the compiled template runs')]
     public function testCompiledWarnsOncePerCompile(): void
     {
         $this->mode( true );
@@ -239,6 +243,7 @@ class eZTemplateOperatorDefaultWarningTest extends PHPUnit\Framework\TestCase
     /**
      * @testdox operatorParametersWithoutDefault() lists only the left-out parameters without a default
      */
+    #[\PHPUnit\Framework\Attributes\TestDox('operatorParametersWithoutDefault() lists only the left-out parameters without a default')]
     public function testOperatorParametersWithoutDefault(): void
     {
         $tpl = $this->template();

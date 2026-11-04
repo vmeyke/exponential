@@ -2,7 +2,7 @@
 /**
  * File containing the eZURIRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -48,6 +48,7 @@ class eZURIRegression extends ezpTestCase
      * @link http://issues.ez.no/13186
      * @group ezuri_regression
      */
+    #[\PHPUnit\Framework\Attributes\Group('ezuri_regression')]
     public function testUserParameters()
     {
         self::assertEquals( array( "ole" => "a", "dull" => "boy" ), eZURI::instance()->userParameters() );
@@ -60,6 +61,8 @@ class eZURIRegression extends ezpTestCase
      * @group issue18449
      * @group ezuri_regression
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue18449')]
+    #[\PHPUnit\Framework\Attributes\Group('ezuri_regression')]
     public function testQueryString()
     {
         self::assertEquals( $this->queryString, eZURI::instance()->attribute( "query_string" ) );
@@ -70,6 +73,7 @@ class eZURIRegression extends ezpTestCase
      * @dataProvider providerKeepSlashesUserParameters
      * @link https://jira.ez.no/browse/EZP-21325
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerKeepSlashesUserParameters')]
     public function testKeepSlashesUserParameters( $url, $userParameters )
     {
         $uri = new eZURI( $url );

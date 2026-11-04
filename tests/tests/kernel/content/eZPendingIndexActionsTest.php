@@ -19,7 +19,7 @@
  *
  * The database is a driver that records the statements it is given; the search engines are recorders.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  */
@@ -447,6 +447,6 @@ class eZPendingIndexActionsTest extends PHPUnit\Framework\TestCase
         $source = $this->source( 'kernel/private/classes/cronjobs/indexcontent.php' );
         $this->assertStringContainsString( "WHERE action = 'index_object' OR action = 'index_moved_node' GROUP BY param, action ORDER BY min(created)", $source );
         $this->assertStringContainsString( "[ '\$match'   => [ 'action' => [ '\$in' => [ 'index_object', 'index_moved_node' ] ] ] ]", $source );
-        $this->assertMatchesRegularExpression( "/if \\( \\\$action == 'index_moved_node' \\).{0,2000}subTreeCount/s", $source );
+        $this->assertMatchesRegularExpression( "/if \\( \\\$object && \\\$action == 'index_moved_node' \\).{0,2000}subTreeCount/s", $source );
     }
 }

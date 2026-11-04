@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>僅搜尋此頁面：第 %from 至 %to 個，共 %count 個。</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>核心和擴充功能的每個資料類型，以及類別和內容如何使用它。</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>資料類型</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>系統頁面也可以加入書籤：開啟該頁面（設定、稽核記錄、使用者清單等），然後選擇其上方的「將此頁面加入書籤」。這類書籤會顯示齒輪圖示。</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>您已無權在此開啟此頁面。請移除書籤，或向系統管理員要求存取權。</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>移至第一頁</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>其他</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>最近 7 天</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>自訂範圍</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>所有字詞</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>任一字詞</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>完全相符的詞組</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>相關性</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>名稱 A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>名稱 Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>修改時間，最新的在前</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>修改時間，最舊的在前</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>發布時間，最新的在前</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>發布時間，最舊的在前</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>修改時間</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>篩選條件</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>顯示篩選條件</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>隱藏篩選條件</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>重設</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>套用</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>字詞</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>內容類型</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>顯示更多（%count）</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>請選擇一個內容類型，以便在其某個屬性中搜尋。</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>區段</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>從</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>至</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>開始日期不是有效的日期。</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>結束日期不是有效的日期。</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>擁有者</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>使用者 ID、登入名稱或電子郵件地址。</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>找不到符合「%input」的使用者。</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>語言</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>任何語言</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count 個位置</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>每頁結果數</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>「%text」的結果（%count）</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>結果（%count）</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>排序依據</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>排序</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>使用中的篩選條件</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>移除此篩選條件</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>或選擇篩選條件並套用，以列出符合的內容。</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>輸入字詞後，篩選條件會縮小搜尋範圍。</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>找不到「%text」的結果。</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>找不到結果。</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>請移除上方的一個篩選條件。</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>翻譯</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>動作</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>編輯 %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>編輯</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>設定 &gt; cron 工作</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>尚未執行任何 cron 工作部分：工作佇列、匯入、通知和搜尋索引都在等候。請執行 php bin/php/installcrontab.php --add --apply，或將 --show 輸出的各行加入 crontab。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>依授權規定，原作者與隨 Exponential 附帶的協力廠商軟體的著作權聲明，均保留在原始碼檔案和 LICENSE 檔案中。</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>以下是依 eZ Systems Contributor Licensing Agreement 的條款，將其作品授權給 7x 使用的 Exponential 貢獻者清單。依此協議允許，7x 會以與貢獻所在檔案相同的授權重新散佈每項貢獻。清單列出每位貢獻者、可選的聯絡資訊，以及他們所貢獻的檔案或參與貢獻的檔案。</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>因參與 Exponential 及其前身軟體的工作而獲致謝的貢獻者，以及他們參與貢獻的檔案。這是致謝，而非版權聲明：對 Exponential 的貢獻依據 Contributor Licensing Agreement 轉讓給 Exponential Foundation 和 7x。</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;試用 Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;成為 Exponential 社群的一員，交流並參與貢獻&lt;/a&gt;。&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; 著作權所有 &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; 及其他人。</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>由 &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt; 提供技術支援。如需詳細資訊，請參閱 &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;。</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; 著作權所有 &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; 及其他人。</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> 如需詳細資訊，請參閱 &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;。</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; 著作權所有 &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; 及其他人。</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;試用 Exponential（由 7x 提供）&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;成為 Exponential 社群的一員，取得支援並參與貢獻&lt;/a&gt;。</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; 著作權所有 &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; 及其他人。</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>說明中心</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>內容</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>文件頁面</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>使用者</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>內容類別</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>管理</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>第 %number 頁</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>檢視所有結果</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count 個結果</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>1 個結果</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count 個建議</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>沒有建議</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>無法載入建議。</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>建議</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>此安裝為公開示範站台：任何人都可能知道其系統管理員密碼，且系統管理員密碼無法變更或重設。請勿在此輸入任何私人資料。</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>您的裝置</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>安全性活動</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>指南、搜尋，以及如何回報錯誤。</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>最新內容</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>最新的內容、暫扣待審的內容，以及對所選內容的操作。</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>同步</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API：其端點、結構描述以及試用查詢的測試環境。</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>遷移</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>以檔案形式保存的安裝變更：其狀態、執行紀錄、執行與回復。</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>最新內容</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>最新的內容、暫扣待審的內容，以及對所選內容的操作。</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>將網站的靜態副本發佈到 GitHub Pages 或任何 git 主機。</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>靜態發佈</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>資料類型</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>核心和擴充功能的每個資料類型，以及類別和內容如何使用它。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>無人使用或需要留意的帳號；可停用、解除鎖定或匯出。</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>使用者稽核日誌</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>依帳號查看誰做了變更、誰登入或遭拒絕；可篩選及匯出。</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>登入報告</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>目前登入的使用者、每日登入和失敗次數；讓使用者從所有裝置登出。</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n 小時前</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API 持久化查詢的回應，以及其結構描述的內容類別。</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>將靜態副本發佈到 GitHub Pages 或任何 git 主機</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>靜態發佈</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>靜態快取由本伺服器提供頁面。若要將網站的靜態副本發佈到其他地方（GitHub Pages 或任何 git 主機），請使用靜態發佈。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>上次清除</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>寫入無法取得狀態鎖（最近一次 %date）：每次寫入都使所有快取結果失效。%file 必須對執行網站的每個使用者可寫；在 NFS 上需要 NFSv4 或 lockd。</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP 處理常式的已逾時工作階段由 PHP 自行移除（session.gc_maxlifetime），而非由此頁面或 session_gc cron 工作部分移除。</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>所有使用者的已登入工作階段都列在登入報告中，也可以在那裡將其登出；該報告適用於任何工作階段處理常式。</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>開啟登入報告</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>尚無</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>安全性活動</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>您最近的登入、失敗的嘗試，以及密碼、電子郵件地址和兩步驟驗證的變更。</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>此帳號最近的登入、失敗的嘗試和安全性變更。</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>檢視活動</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count 次登入失敗</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>使用者登入後，必須先選擇新密碼才能進行其他操作。為他人設定暫時密碼時請使用此選項。</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>選擇現有圖片</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>您所選物件的圖片檔案會複製到此欄位中。另一個物件不會變更。</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>已將「%name」的圖片複製到此欄位中。</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>瀏覽以選擇圖片</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>依名稱搜尋圖片</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>搜尋</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>使用「%name」的圖片</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>使用此圖片</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>沒有符合搜尋的圖片。</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>未寫入 crontab（%reason）。請將以下各行加入執行網站之使用者的 crontab，否則佇列、匯入、通知和搜尋索引永遠不會執行：</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>重新安裝可透過 Kickstarter（%file，然後執行 php bin/php/kickstarter.php run --apply）或全新安裝完成。</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore 公開封裝程式快取</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL 快取（回應與結構描述類別）</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name 的複本</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>資料類型</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>資料類型 %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>無法讀取此 SVG 圖片，或其中沒有可安全顯示的內容。</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>無法複製圖片。請再試一次，或聯絡網站管理員。</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>所選物件不存在，或您沒有讀取權限。</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>所選物件沒有圖片。</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>無法讀取所選物件的圖片檔案。</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>所選物件的圖片超過此欄位允許的大小：%1 位元組。</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ your account.</source>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>書籤已重新命名為「%name」。</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>此頁面在此網站存取（%siteaccess）中已停用。請在含有此頁面的網站存取中開啟書籤。</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>此頁面的模組未在此安裝或啟用。</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>此頁面已不存在：其模組沒有這樣的檢視。</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>您的任何角色都不允許您開啟此頁面。</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>您無權使用此網站存取。</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>您無權讀取此頁面顯示的內容。</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>此類頁面無法加入書籤：它只對表單執行動作，或是僅存在於某一時刻的頁面。</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>此頁面的位址遺失。</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>目前無法開啟此頁面。</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>上次執行時，郵件傳輸方式拒絕了 %count 則郵件。請檢查郵件伺服器和 site.ini MailSettings。</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>有 %count 個事件正在等候，且沒有通知 cron 工作的執行記錄。請將 cron 工作部分「frequent」加入 crontab，或執行 exp:notification:run --apply。</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>使用節點選擇器選擇其他網站或區段</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>只有系統管理員可以變更擁有者：請以 root 身分執行 ./console exp:content-check --fix-permissions --apply。</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>空白</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>簽章金鑰已使用超過一年：請使用 exp:audit key rotate --apply 輪替金鑰。</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>佔頁面時間的比例</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>已要求完整轉譯</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>頁面快取中沒有此頁面（%reason）</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>頁面快取未回應</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>已轉譯</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>由核心轉譯：%why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>已在 %ms ms 內由頁面快取提供。此頁面於 %stored 由一次耗時 %render ms 的轉譯儲存，即 %age 秒前。</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>立即轉譯</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>返回快取的檢視</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>來自 %stored 的轉譯（%render ms）</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>本次要求：已在 %ms ms 內由頁面快取提供。</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>使用者</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>使用者 ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>快取設定檔</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>此檢視</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>檢視快取</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>每位使用者 (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>使用者的快取設定檔：設定檔相同的使用者共用檢視快取檔案</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>是</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>否</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>使用者名稱</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>已登入</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>工作階段</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>內容檢視快取鍵中取決於使用者的部分，完全依照快取鍵採用的形式，並依此頁面的 ViewCacheTweaks。設定檔相同的使用者共用各檢視的快取檔案，除非檢視本身的部分不同（偏好設定、監聽器的鍵）：這些檢視有自己的設定檔，僅限此頁面。</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>個人資料</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>此檢視（節點 %node）</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user：每位已登入的使用者都有自己的快取檔案。</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>生效的 ViewCacheTweaks：%tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>部分</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>值</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>沒有任何部分取決於使用者 (ViewCacheTweaks)。</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>此檢視</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>複製為文字</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>角色</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>無法讀取角色指派。</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>角色 ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>角色</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>限制</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>指派給</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>使用者</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>群組 %name（物件 %id）</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>已複製</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>無法複製。</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>被監聽器略過</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>匿名訪客</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>與您的相同</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>不同</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>匿名訪客在相同 ViewCacheTweaks 下取得的設定檔，使用預設偏好設定，不含檢視的部分：無法向讀取工作階段的監聽器詢問這些部分。</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>偏好設定</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>沒有任何檢視模式取決於使用者偏好設定 (site.ini [ContentSettings] CachedViewPreferences)。</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>這些檢視模式的檢視所依賴的偏好設定 (CachedViewPreferences)，含使用者的值或預設值。它們以 userpreferences 納入設定檔，所有檢視模式合併在一起。</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>檢視模式</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>偏好項目</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>原則</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>顯示角色的策略 (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>開啟此區段時，策略會從伺服器逐頁載入，並可依模組與功能篩選。</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>功能</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>所有模組</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>所有功能</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>限制</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>顯示更多</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>這些角色沒有策略。</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>沒有符合篩選條件的策略。</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching 條策略（共 %total 條）</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>開啟時載入。</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function、角色、限制</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>搜尋政策</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>載入更多</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>模組/功能</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>所有角色（%count 項政策）</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>沒有符合的政策。</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched 項政策中的 %shown 項</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>沒有回應</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>已遮罩</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>顯示說明</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>隱藏說明</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開啟</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>全部開啟</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>全部關閉</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>索引鍵或值</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>搜尋工作階段</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>類型</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>還有 %count 個</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>巢狀層級太深，無法顯示</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>已截斷，共 %count 個字元</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>開始時間</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Cookie 名稱</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>工作階段 ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>處理常式</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>儲存路徑</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP 預設值</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>存留期（gc_maxlifetime）</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>存留期 %s 秒</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>您自己的 PHP 工作階段，為開啟此區段時的狀態，絕不會是其他人的。看起來像機密的索引鍵（權杖、雜湊、密碼），其值會被遮罩（debugbar.ini SessionMask[]）；其他一切都依儲存的原樣顯示，個人資料也一樣。</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count 個索引鍵，%size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>大</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>工作階段是空的。</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>此要求未啟動任何工作階段。</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>擴充功能 %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>核心與其他</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>未顯示所有項目：工作階段的內容超過此處可列出的數量。</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>有 %count 個索引鍵未列出。</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>框架</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>看起來像權杖的值（JSON Web Token、Authorization 標頭的認證、私密金鑰、長的十六進位或隨機文字）也會被遮罩，無論其索引鍵名稱為何（debugbar.ini SessionValueMask[]）。</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>此索引鍵看起來像機密（debugbar.ini SessionMask[]）。</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>此值看起來像權杖。</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>位於已遮罩的索引鍵之下。</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>以文字呈現的工作階段，遮罩方式與表格相同。</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>工作階段大於 %size（debugbar.ini SessionWarnBytes）：此使用者的每個要求都會讀取整個工作階段，並在其變更時寫入。</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP 將此工作階段保存在檔案中，並在整個要求期間鎖定該檔案：同一使用者的要求（多個分頁、AJAX 呼叫）會互相等待。</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>保持開啟</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>大於 %size（debugbar.ini SessionWarnBytes）：此使用者的每個要求都會讀取整個工作階段。</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count 個中有 %hits 個從快取讀取</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>未轉譯任何範本（從檢視快取讀取的檢視不會轉譯範本）。</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>角色指派</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>角色和原則</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>與匿名訪客不同</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>與匿名訪客相同</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>未寄出</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>通知 cron 工作會在這裡記錄每次執行。請將 frequent 部分加入 crontab，或執行 exp:notification:run --apply。</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>請使用主控台：./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>此主題尚未發佈；讀者看不到它。</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>遷移</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>以檔案形式保存的安裝變更：其狀態、執行紀錄、執行與回復。</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>將網站的靜態副本發佈到 GitHub Pages 或任何 git 主機。</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>靜態發佈</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>檢閱中</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>讀者可以看到此頁面。</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>在有人發佈之前對讀者隱藏。</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>此頁面目前處於檢閱階段。在發佈之前對讀者隱藏。</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>此頁面已發佈：讀者現在可以看到它。</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>此頁面已再次成為草稿。在檢閱並發佈之前對讀者隱藏。</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>立即發佈</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>只有具有 %role 角色且未撰寫此版本的使用者才能發佈它。</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>等待發佈的說明主題</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>在再次發佈之前對讀者隱藏。</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>接下來由檢閱者檢查。讀者暫時看不到。</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>讀者會立即看到。</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>將其撤出檢閱以繼續修改。讀者看不到。</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>要對讀者隱藏此頁面嗎？</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>要將此頁面退回草稿嗎？</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>在有人再次發佈之前，讀者將不再看到 %title。</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title 退回草稿以繼續修改。讀者仍然看不到它，發佈前需要重新檢閱。</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>這些主題正在檢閱中。一旦未撰寫目前版本的人發佈它們，讀者即可看到。</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>無。</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>使用驗證器應用程式</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>使用電子郵件驗證碼</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>使用復原碼</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>使用密碼金鑰</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>使用外部帳號</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>安全性活動</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>顯示為其所在網路；位址依網站的資料保護設定保存。</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>未記錄</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>大約</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>管理裝置</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>使用驗證器應用程式</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>使用電子郵件驗證碼</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>使用復原碼</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>使用密碼金鑰</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>使用外部帳號</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>安全性活動</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>未記錄</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>大約</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>檢視此使用者的工作階段</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>您在 %site 上的帳號 %login 剛剛從一個最近未曾登入過的位置登入：</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>大約位置</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os 上的 %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>登入報告</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>無法驗證此密碼金鑰。請再試一次。</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>僅使用密碼金鑰登入的帳號無法在此使用密碼：請選擇「使用密碼金鑰登入」。</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login 的密碼金鑰</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>此帳號用於登入的密碼金鑰。請撤銷位於遺失或遭竊裝置上的密碼金鑰：它將無法再登入。新的密碼金鑰由擁有者自行新增。</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>您的帳號需要密碼金鑰</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>為您的帳號新增密碼金鑰</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>請新增密碼金鑰以繼續。之後您將使用它登入，而不只是使用密碼。</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>使用密碼金鑰登入比使用密碼更快、更安全。立即新增一個，或不新增直接繼續。</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>稍後再說</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>要撤銷密碼金鑰「%name」嗎？</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>它將無法再登入此帳號。如果這是最後一個，擁有者將使用密碼登入，或由您設定新密碼。</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>撤銷密碼金鑰</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>撤銷</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>此帳號沒有密碼金鑰。</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>驗證器</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>未知</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>這是您的最後一個密碼金鑰：請先新增另一個，再將其移除。</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>此帳號僅使用密碼金鑰登入（密碼金鑰原則）：如果一個都不剩，將再次使用密碼登入。</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>這是您的最後一個密碼金鑰，沒有密碼金鑰您的帳號將無法登入。請先新增另一個密碼金鑰。</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>密碼金鑰「%name」已撤銷。它無法再登入此帳號。</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>驗證器應用程式中的代碼</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>您即將永久刪除資料或清除日誌。</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>您的密碼和密碼金鑰</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>您的密碼和驗證器應用程式中的代碼</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>或者：</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>此瀏覽器無法使用密碼金鑰。請使用其他方式或其他瀏覽器。</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>繼續後，瀏覽器會要求您提供其中一個密碼金鑰。</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>使用密碼金鑰繼續</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>設定</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>變更自己的密碼、電子郵件地址、密碼金鑰、兩步驟登入、復原碼或 API 金鑰，以及從自己的其他裝置登出。</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>建立和編輯使用者及其密碼和裝置、帳號設定、核准或拒絕新的使用者帳號、指派角色，以及編輯原則。</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>刪除資料</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>清空垃圾桶、從中移除項目，以及一次移除多個項目。</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>移除、發佈和儲存內容</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>移除內容（包括移至垃圾桶）、發佈和儲存草稿，在送出表單時詢問。預設為關閉。</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>在執行敏感動作之前，已登入的使用者必須再次確認身分：使用密碼和密碼金鑰；若沒有密碼金鑰，則使用密碼和驗證器應用程式中的代碼。只有網頁會詢問：REST 介面、SOAP、WebDAV、expservices 登入和命令列一律不會詢問。</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>設定的適用範圍</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>設定對象</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>所有網站存取</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>網站存取 %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開啟</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>詢問對象：%group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>勾選使用者群組，僅詢問其成員（例如編輯）。未勾選任何群組：詢問所有使用者。</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>儲存至 settings/override/site.ini.append.php，適用於所有網站存取。儲存時會要求您確認是您本人。</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>儲存至 settings/siteaccess/%name/site.ini.append.php。settings/override 中的值優先於此處。儲存時會要求您確認是您本人。</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>開啟頁面</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>第 %from–%to 筆，共 %count 筆</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>使用者名稱或使用者 ID：事件所涉及的帳號，或執行動作的使用者。</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>帳號</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>動作</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>之後</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>所有結果</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>之前</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>執行者</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>清除</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>已完成</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>事件保留 %days 天。</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>事件會一直保留，直到手動移除為止。</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>事件</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>所有動作</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>此帳號的所有事件</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>將清單匯出為 CSV（%count）</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>從</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>縮小清單範圍</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>沒有符合的事件。</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>每頁</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>已在 audit.ini 中關閉記錄（[UserAuditSettings] UserAudit）；清單顯示的是先前記錄的內容。</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>已拒絕</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>顯示</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>使用者稽核日誌的資料表不存在。請使用 php update/common/scripts/6.0/createuseraudittable.php 建立；在此之前，稽核檔案會保留每個事件。</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>此頁面需要 SQL 資料庫，在 MongoDB 上無法使用。稽核檔案會保留每個事件。</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>至</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>使用者稽核日誌</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>使用者</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>時間</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>誰變更、建立、啟用、停用、移動或移除了哪個帳號，誰登入或遭拒絕，以及指派了哪些角色：每個事件一行，並列出變更前後的欄位。密碼與祕密絕不會被記錄。</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>群組</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>系統</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>未知</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>保護您的帳號</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>有人使用復原碼登入了您在 %site 上的帳號 %login。</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>已使用復原碼</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>帳號</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>大約位址</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>請申請新密碼以重新登入，或聯絡網站的系統管理員。</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>申請新密碼</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>每個復原碼只能使用一次。如果您遺失了手機，請重新設定驗證器應用程式，並將新的復原碼保存在安全的地方。</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>您的帳號有登入失敗的嘗試</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>從現在起，登入時除了密碼之外還需要輸入驗證碼。如果這是您本人的操作，則無需採取任何動作。</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>如果是您本人且忘記了密碼，請申請新密碼。如果不是，請選擇更強的密碼並開啟兩步驟驗證。</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>如果這不是您本人的操作，可能有人知道您的密碼：請立即變更密碼，並檢查您的帳號在哪些地方已登入。</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>剩餘的復原碼</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>檢視您的裝置</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>安全性警示</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>有人嘗試使用錯誤的密碼連續 %count 次登入您在 %site 上的帳號 %login。</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>您在 %site 上的帳號 %login 發生了一個安全性事件。</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>這是一則關於您帳號的安全性警示。每次發生此類變更時都會傳送，且無法關閉。</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>時間</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>已為您在 %site 上的帳號 %login 關閉兩步驟驗證。</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>已關閉兩步驟驗證</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>已為您在 %site 上的帳號 %login 開啟兩步驟驗證。</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>已開啟兩步驟驗證</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>您在 %site 上的帳號 %login 因登入失敗次數過多已鎖定。</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>您的帳號現在僅受密碼保護。如果這不是您本人的操作，請在變更密碼後重新開啟兩步驟驗證。</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>您的帳號已鎖定</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>您在 %site 上的帳號 %login 已新增一個密碼金鑰。</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>持有此密碼金鑰的任何人都能在不使用您密碼的情況下登入您的帳號。如果不是您新增的，請在「密碼金鑰」中將其移除並變更密碼。</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>您在 %site 上的帳號 %login 已移除一個密碼金鑰。</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>它無法再登入您的帳號。如果不是您移除的，請檢查您的密碼金鑰和裝置。</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>您的帳號已新增一個密碼金鑰</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>您的帳號已移除一個密碼金鑰</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>安全性活動</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name 的安全性活動</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>已登入</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>登入嘗試失敗</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>已登出</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>工作階段已登出</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>從新裝置登入</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>從新位置登入</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>身分已確認（「驗證是您本人」）</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>身分確認失敗</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>已使用密碼金鑰登入</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>密碼金鑰登入失敗</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>已拒絕登入：兩步驟驗證碼遺漏或錯誤</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>兩步驟驗證碼錯誤</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>帳號因登入失敗已鎖定</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>帳號已解除鎖定</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>密碼已變更</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>密碼變更失敗</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>密碼已重設</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>已申請新密碼</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>電子郵件地址已變更</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>使用者名稱已變更</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>兩步驟驗證已開啟</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>兩步驟驗證已關閉</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>已使用復原碼</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>已產生新的復原碼</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>已建立應用程式密碼</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>已撤銷應用程式密碼</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>已新增密碼金鑰</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>已移除密碼金鑰</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>帳號已啟用</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>帳號已停用</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>登入和工作階段</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>帳號變更</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>需要注意</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>由您</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>由該使用者</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>由 %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>方式</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>瀏覽器</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>作業系統</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>裝置</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>地點</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>國家/地區</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>工作階段</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>哪些</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>傳送管道</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>失敗的嘗試</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>剩餘代碼</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>登入處理常式</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>安全性活動</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name 的安全性活動</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>您帳號的登入和安全性變更。如果您發現有不是您本人進行的操作，請變更密碼，並將您不認得的裝置登出。</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>此帳號的登入和安全性變更。</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>您的裝置</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>變更密碼</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>返回帳號</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>未記錄安全性活動</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>安全性活動是從使用者稽核日誌讀取的，但其資料表 expuser_audit 不存在或此資料庫不支援。請執行 php update/common/scripts/6.0/createuseraudittable.php，或執行 6.0.15 的資料庫更新。</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>最近 %days 天</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>最近 %days 天的登入</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>最近的安全性活動</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>顯示</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>已拒絕</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>尚未記錄任何安全性活動。</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>安全性事件會保留 %days 天。</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>安全性事件會一直保留，直到系統管理員將其移除。</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>下載我的登入資料</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>您的工作階段和安全性事件，以 JSON 檔案形式提供。</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>本網站不記錄工作階段，因此無法將任何其他裝置登出。請立即變更您的密碼。</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>已登出 %count 個其他工作階段。現在請變更您的密碼。</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>沒有其他已登入的裝置。現在請變更您的密碼。</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>謝謝。此事件已標記為您本人的操作。</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>此事件不需要回覆。</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>頁面已過期。未變更任何內容；請再試一次。</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>保護您的帳號</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>如果這裡有任何操作不是您本人所為，請登出所有其他裝置，然後選擇新密碼。透過「記住我」保持登入的裝置也會被登出。</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>除了這台裝置以外，每台裝置都會在其下一次請求時被登出。接著您選擇新密碼。</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>是，登出其他裝置</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>這是您本人嗎？</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>是，是我本人</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>不是，保護我的帳號</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>已登入</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>登入嘗試失敗</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>已登出</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>工作階段已登出</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>從新裝置登入</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>從新位置登入</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>身分已確認（「驗證是您本人」）</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>身分確認失敗</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>已使用密碼金鑰登入</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>密碼金鑰登入失敗</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>已拒絕登入：兩步驟驗證碼遺漏或錯誤</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>兩步驟驗證碼錯誤</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>帳號因登入失敗已鎖定</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>帳號已解除鎖定</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>密碼已變更</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>密碼變更失敗</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>密碼已重設</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>已申請新密碼</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>電子郵件地址已變更</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>使用者名稱已變更</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>兩步驟驗證已開啟</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>兩步驟驗證已關閉</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>已使用復原碼</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>已產生新的復原碼</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>已建立應用程式密碼</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>已撤銷應用程式密碼</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>已新增密碼金鑰</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>已移除密碼金鑰</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>帳號已啟用</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>帳號已停用</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>登入和工作階段</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>帳號變更</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>需要注意</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>安全性活動</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name 的安全性活動</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>您帳號的登入和安全性變更。如果您發現有不是您本人進行的操作，請變更密碼，並將您不認得的裝置登出。</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>您的裝置</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>變更密碼</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>此網站尚未記錄安全性活動。</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>最近 %days 天的登入</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>失敗的嘗試</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>尚未記錄任何安全性活動。</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>下載我的登入資料</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>您的工作階段和安全性事件，以 JSON 檔案形式提供。</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>本網站不記錄工作階段，因此無法將任何其他裝置登出。請立即變更您的密碼。</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>已登出 %count 個其他工作階段。現在請變更您的密碼。</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>沒有其他已登入的裝置。現在請變更您的密碼。</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>謝謝。此事件已標記為您本人的操作。</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>此事件不需要回覆。</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>頁面已過期。未變更任何內容；請再試一次。</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>保護您的帳號</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>如果這裡有任何操作不是您本人所為，請登出所有其他裝置，然後選擇新密碼。透過「記住我」保持登入的裝置也會被登出。</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>除了這台裝置以外，每台裝置都會在其下一次請求時被登出。接著您選擇新密碼。</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>是，登出其他裝置</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>這是您本人嗎？</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>是，是我本人</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>不是，保護我的帳號</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>密碼</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>密碼和兩步驟驗證碼</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST 介面</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP 介面</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>單一登入</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>在開始記錄工作階段之前登入</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>登入報告</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>誰已登入網站、帳號登入及登入失敗的頻率，以及讓使用者從所有裝置登出。適用於任何工作階段處理常式。</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>該工作階段已登出。該裝置必須重新登入。</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>已將 %login 從 %count 個工作階段登出。</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login 沒有執行中的工作階段。</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>沒有帳號使用此 ID、使用者名稱或電子郵件地址。</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>這是您正在使用的工作階段。若要結束，請登出。</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>該工作階段已經結束。</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>頁面已過期。未進行任何變更；請再試一次。</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>此網站不記錄工作階段（site.ini [UserSessionSettings] Tracking=disabled）。</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>資料表 expuser_session 不存在</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>建立該資料表後即開始記錄工作階段：php update/common/scripts/6.0/createusersessiontable.php，或 6.0.15 的資料庫更新。</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>目前和今天</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>執行中的工作階段</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>已登入的使用者</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>今日登入次數</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>今日失敗嘗試次數</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>讓使用者從所有裝置登出</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>該帳號的每個工作階段都會在下一次要求時結束，包括透過「記住我」保持的工作階段。當帳號可能落入他人之手時使用此功能，然後重設其密碼。</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>使用者 ID、使用者名稱或電子郵件地址</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>從所有裝置登出</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>目前已登入</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>顯示最近使用的 %limit 個。</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>使用者</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>裝置</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>位址</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>已登入</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>上次活動</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>動作</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>此裝置</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>未記錄</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>登出</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>沒有已登入的工作階段。</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>最近 %days 天</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>登入和失敗嘗試次數是從使用者稽核日誌統計的，但該日誌不存在；新工作階段仍會統計。</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>日期</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>登入次數</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>失敗的嘗試</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>新工作階段</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>工作階段處理常式：%handler。工作階段是從資料表 expuser_session 讀取的，因此該報告適用於任何處理常式。</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>過去 %hours 小時內的可疑活動</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>一個網路登入 %accounts 個帳號失敗（%count 次嘗試）</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>帳號因登入失敗而遭鎖定</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>一個帳號登入失敗 %count 次</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>同時從 %count 個國家/地區登入</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>安全性活動</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>工作階段</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>登入失敗記錄讀取自使用者稽核日誌，而此處無法使用該日誌。</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>沒有可疑情況：沒有重複登入失敗的帳號，沒有嘗試多個帳號的網路，也沒有從多個國家/地區登入的帳號。</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>您帳號的安全性警示</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>您的帳號 %login 發生了一個安全性事件：%event。如果不是您本人，請在 %url 保護您的帳號。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>在一次請求中，從本網站內容精確取得頁面所需的欄位。結構描述依循內容類別；每個查詢都以送出它的使用者權限執行。</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>此網站存取已關閉 GraphQL API。請在 graphql.ini 中開啟：[GraphQLSettings] Enabled=enabled。</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>尚未安裝 GraphQL 程式庫（webonyx/graphql-php 15）。</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>端點</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>程式庫</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>結構描述</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count 個內容類別，結構描述 %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>查詢</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>變數（JSON）</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>執行</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>回應</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>執行中…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>無法讀取回應。</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>查詢以您的權限執行，使用目前的工作階段登入。</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds 秒內 %count 個</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>無限制</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>深度</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>複雜度</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>每個清單的項目數</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max（預設 %default）</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>每個使用者或金鑰的請求數</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>每個匿名位址的請求數</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>自我檢查（Introspection）</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>僅限持久化查詢</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>最大查詢</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes 位元組</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>最大上傳</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>不存在網站存取 %siteaccess。</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess 已開啟變更。</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess 已關閉變更。</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess 已開啟 GraphQL API。</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess 已關閉 GraphQL API。</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>無法寫入設定：%error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>回應快取已清除：移除了 %count 個回應。</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>勾選查詢旁的方塊以移除它。</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>無法移除此查詢：隨 PersistedQueryDirectoryList[] 中某個目錄提供的查詢須連同其檔案一併移除。</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>持久化查詢已移除。</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>變更</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>開啟</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>網站存取</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API 及其變更在何處回應。這些按鈕會寫入 graphql.ini，與 ./console exp:graphql:enable 和 exp:graphql:disable 的作用相同。</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>網站存取</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>變更設定</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>關閉變更</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>開啟變更</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>開啟</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>限制</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>此網站存取的 graphql.ini [GraphQLSettings]。</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>回應快取</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>持久化查詢的回應，依使用者權限保存，並在每次發布內容時過期。</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>已保存的回應</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count 個回應，%bytes 位元組</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>最長保存</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds 秒</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>上次過期</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>清除回應快取</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>持久化查詢</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>透過 ./console exp:graphql:persist 或由用戶端儲存（自動持久化查詢）；以名稱或 SHA-256 呼叫。</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>名稱</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>移除</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>隨附</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>已儲存</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>是，移除此查詢</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>尚無持久化查詢。</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API 金鑰</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>具有 graphql:read（查詢）或 graphql:write（變更）範圍的個人 API 金鑰。可在「API 存取」頁面或使用 ./console exp:graphql:keys 建立和撤銷。</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API 存取</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>所有金鑰</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>金鑰</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名稱</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>擁有者</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>範圍</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>上次使用</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>有效</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>已過期</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>已撤銷</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>從未</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>尚無具有 GraphQL 範圍的 API 金鑰。</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>顯示此頁面的網站存取 %siteaccess 已關閉 GraphQL API；下表列出它在何處回應。</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>適用於顯示此頁面的網站存取 %siteaccess。</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>端點所要求的每個事件（publish, update, trash, delete, move, hide, reveal, mutation）都由 cronjob 部分 graphqlwebhooks 簽署後送給它。./console exp:graphql:webhooks 的作用與本節相同。</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>事件</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>所有網站存取</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>故障</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>無密鑰</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>等待中</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>已放棄 %count 個</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>最近一次傳遞</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>傳送測試</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>是，移除此 Webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>尚無 Webhook。</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>新增 Webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>新增</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>最近的傳遞</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>時間</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>訂閱</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>提供給用戶端的即時更新：/api/graphql/subscribe 上的事件串流，以及 Velocity 上的 WebSocket（graphql-transport-ws）。每個事件只會送給有權讀取其內容的訂閱者。</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>目前開啟</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>最多開啟</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>總計 %total，每位使用者 %user，每個位址 %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>匿名訂閱</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>串流時長</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>無法新增 Webhook：%error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name 已變更；其簽署密鑰維持不變。</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>無法儲存簽署密鑰（設定 &gt; 密鑰）。</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name 已新增。其簽署密鑰僅顯示這一次：%secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>沒有 Webhook %name。</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name 沒有回應：%error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name 在 %ms ms 內回應了 %status。</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>勾選 Webhook 旁的方塊以移除它。</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name 已移除。</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>此網站存取已關閉 GraphQL API。</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>尚未安裝 GraphQL 程式庫。</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>請使用 GET 或 POST。</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>請求本文不是 JSON 物件。</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables 不是 JSON 物件。</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions 不是 JSON 物件。</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>請以 POST 送出查詢。</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>請求中沒有查詢。</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>查詢長度超過 %max 位元組。</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>伺服器內部錯誤</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node 需要 id、remoteId、path 和 urlAlias 其中恰好一個。</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content 需要 id 和 remoteId 其中恰好一個。</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after 的游標並非此 API 所提供。</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>沒有圖片別名 %alias（image.ini [AliasSettings] AliasList[]）。</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>此處只接受持久化查詢：請送出儲存在伺服器上的查詢的 id。</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>持久化查詢的雜湊不是 SHA-256。</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>持久化查詢的雜湊與查詢不符。</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>請求過多：%window 秒內最多 %limit 個。請在 %reset 秒後再試。</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>查詢深度為 %depth 層；最多允許 %max 層。</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>查詢複雜度為 %complexity；最多允許 %max。</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>此請求不得讀取結構描述（introspection）。</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search 需要文字或篩選條件（classes、subtree、sections、publishedAfter、publishedBefore）。</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument 不是日期（ISO 8601，2026-10-30）。</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag 需要 id、remoteId 和 path 其中恰好一個。</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout 需要 id、identifier 和 urlAlias 其中恰好一個。</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart 請求的 operations 欄位不是一個 JSON 請求。</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart 請求的 map 欄位不是 JSON 物件。</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart 請求中沒有檔案 %field。</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map 欄位中的路徑必須以 variables. 開頭：%path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>檔案 %name 未完整送達（上傳錯誤 %error）。</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>檔案 %name 大於 %max 位元組。</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>無法檢查檔案 %name。</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>此網站存取已關閉變更（graphql.ini [GraphQLSettings] MutationsEnabled）。</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>請用 POST 送出變更。</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>請登入後再修改內容。</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>此 API 金鑰沒有範圍 %scope。</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>使用工作階段的變更需要該工作階段的表單權杖（標頭 X-CSRF-Token）。</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl 已關閉：graphql.ini [GraphQLSettings] UploadFromUrlHostList[] 未列出任何主機。</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>位址必須是 https 位址。</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>主機 %host 不在 graphql.ini [GraphQLSettings] UploadFromUrlHostList[] 中。</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>無法取得該檔案。</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload 只能作為輸入型別。</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>型別為 Upload 的變數接收 multipart 請求中的檔案。</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>遠端 id %remoteId 已被使用。</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>此內容已有 %language 翻譯：請使用 updateContent。</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>請至少提供一個欄位。</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>無法建立新版本（此內容的草稿過多）。</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>版本 %version 不是草稿。</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent 需要 id 和 nodeId 中的恰好一個。</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>位置不能移到其自身之下。</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>此內容在 %parentId 之下已有位置。</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>無法儲存欄位 %field 的值。</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>不存在內容語言 %language。</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>結構描述中不存在內容類別 %class。</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>此內容不存在，或您無權讀取。</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>您無權對此內容執行此操作。</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>類別 %class 沒有可寫入的欄位 %field。</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>欄位 %field 被提供了兩次。</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>欄位 %field 接收檔案：請以上傳方式送出（multipart 請求）。</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>欄位 %field 不接收檔案。</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>欄位 %field 需要一個值。</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>格式 %format 僅適用於 RTF 欄位；%field 依原樣接收其值(RAW)。</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>欄位 %field 為必填。</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>無法讀取此 HTML。</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content 只有在提供 id 時才接受 version。</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>預覽權杖無效或已過期。</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>不是有效的來源（https://host 或 https://host:port）：%origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>不是 GraphQL API 的範圍：%scope（graphql:read、graphql:write）</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>請將訂閱送到 /api/graphql/subscribe（事件串流或 WebSocket）。</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>請求沒有指定文件中的任何操作。</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>一個訂閱只能要求恰好一個欄位。</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>開啟的訂閱過多；請稍後再試。</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>您已開啟 %max 個訂閱，已達允許的上限。</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>您的位址已開啟 %max 個訂閱，已達允許的上限。</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>此網站存取已關閉訂閱。</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>請登入後再訂閱（權杖或個人 API 金鑰）。</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>請將變更送到 /api/graphql。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>遷移</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>無法讀取狀態：%problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>遷移資料表尚不存在：./console exp:upgrade --apply 會建立它們。</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count 個遷移失敗</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>有一次執行正在進行，由 %user 啟動</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>安裝已鎖定：%holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>待處理</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>孤立項目</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>上次執行</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>尚無</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>所有遷移</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>模擬執行</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>試執行</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>待處理的遷移在一個交易中執行，之後該交易已被回復：未保留任何內容。以下是每個遷移在資料庫中所做的變更。</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>現在執行將會進行的動作。不會變更任何內容：每個待處理的遷移列出它將做的變更，執行本身列出它在之前與之後將做的事。</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>模擬</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>執行</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>試執行失敗：%problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>模擬需要 PostgreSQL 或 SQLite，它們的結構變更可以回復；在此資料庫上，下方的計畫就是執行將會進行的動作。</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>遷移清單</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>遷移</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>將進行的動作</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>模擬：%result，耗時 %ms 毫秒</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>尚無遷移。</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>執行之前與之後</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>執行前快照</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>會建立，並在遷移失敗時還原</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>執行後快照</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>執行成功時建立</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total 個遷移：%pending 個待處理，%done 個已完成，%failed 個失敗。</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>遷移歷程記錄</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>每次執行及其使用者、環境、快照，以及已提交、加上標籤與推送的內容。失敗或中斷的執行可以繼續；執行前有快照的執行可以撤銷。</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>無法讀取執行紀錄：%problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>遷移資料表尚不存在：./console exp:upgrade --apply 會建立它們。</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>顯示</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>執行紀錄</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>開始時間</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>啟動者</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>快照</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>儲存庫</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>動作</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>之前</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>之後</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>推送：%state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>繼續</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>回復</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>沒有處於此狀態的執行。</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>在此啟動</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>在這些頁面上啟動的執行、繼續與回復，以及各自的報告。</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>內容</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>回復</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>回復 %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>執行 %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>執行所做的動作、其紀錄與記錄檔。在此啟動的執行在關閉此頁面後會於背景繼續；重新開啟此頁面即可追蹤。</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>繼續此執行</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>回復此執行</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>無法讀取紀錄：%problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>進度</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>由 %user 於 %time 啟動。</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>正在檢查程式碼並於執行前建立快照</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>正在執行 %id（第 %index 個，共 %total 個）</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>已完成 %done / %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>遷移已執行；如有失敗則還原快照</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>執行後建立快照、提交、加上標籤並推送</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>正在還原快照</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>執行已結束。正在載入其報告。</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>無法追蹤進度。請重新載入頁面以查看執行情況。</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>此頁面會即時追蹤執行過程。</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>重新載入</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>報告</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>耗時</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms 毫秒</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>執行輸出的錯誤訊息</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>紀錄</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>環境</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>結束時間</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>提交</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>標籤</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>推送</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>訊息</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>此執行的遷移</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>來源</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>執行記錄檔</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>僅顯示記錄檔的結尾部分。</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>執行中</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>已結束但無報告</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>已拒絕</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>無法連線至資料庫</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>內部錯誤</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>有一次執行正在進行</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind 由 %user 於 %time 啟動。</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>追蹤</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>安裝已鎖定</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>另一個執行持有鎖定（升級或主控台上的執行）：%holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>已完成</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>待處理</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>無需執行</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>未知</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>已回復</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>已套用</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>將被套用</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>已撤銷</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>將被撤銷</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>未執行</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>等待其他遷移</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>已接受變更</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>將接受變更</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>已模擬</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>遷移</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>歷程記錄</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>撤銷 %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>執行會撤銷至其之前建立的快照，單一遷移則透過其 down() 撤銷。還原較早的快照僅供專家使用。每項撤銷都會在為目前狀態建立快照之後，以您的身分於背景執行。</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>無法讀取可撤銷的內容：%problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>一次執行</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>一個遷移</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>較早的快照</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>描述</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>是</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>否</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>快照</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>標示</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>建立時間</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>類型</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>要還原的部分</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>資料庫</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>儲存檔案（var/）</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>設定（settings/override）</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>還原資料庫會將其回到快照當時的狀態，包括工作階段：之後您可能需要重新登入。此後的所有變更都將遺失；系統會先為目前狀態建立快照。</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>我了解此動作會還原什麼</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>請再次輸入快照的 ID</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>是的，撤銷</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>執行前有快照的執行。</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>選擇</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>尚無附快照的執行。</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>可自行撤銷的已套用遷移（它們有 down()）。</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>沒有已套用的遷移具有 down()。</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>較早的快照（專家）</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>尚無快照。</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>執行遷移</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>執行以 %user 的身分於背景進行，其頁面會即時顯示進度。在第一個遷移之前會為安裝建立快照；若某個遷移失敗，執行將停止並還原快照。</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>先試執行</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>無法讀取狀態：%problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>待處理的遷移</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>它們依此順序執行。取消勾選某個遷移，即可將它及依賴它的遷移留待之後執行。</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>執行</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>執行期間開啟維護模式。</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>套用後已變更</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>這些檔案與已套用的檔案不同。除非附上理由接受變更，否則執行會拒絕它們；它們不會再次執行，新的總和檢查碼會被記錄，理由保存在稽核記錄檔中。</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>接受變更</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>理由</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>預設值是安全的。每個核取方塊都會略過一個步驟。</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>不建立快照</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>執行前後不建立快照：失敗後無法自動還原。</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>不還原</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>失敗後，保持安裝在失敗後的狀態。</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>保留未提交的變更</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>即使設定、擴充功能或設計有未提交的變更也執行；這些變更會包含在快照中。</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>不提交</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>不提交狀態檔案與執行記錄檔（也不加標籤、不推送）。</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>不推送</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>提交並加上標籤，但不推送。</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>不加標籤</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>提交並推送，但不為執行加上標籤。</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>是的，立即執行這些遷移</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>沒有待處理的遷移。</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>返回狀態</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>對此安裝的變更以檔案形式撰寫一次（內容、類別、角色、設定、結構），並依相同順序套用到網站的每個安裝。執行會先建立快照，在遷移失敗時還原它，並記錄、提交與推送所做的動作。</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>執行 %count 個待處理遷移</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>概觀</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>待處理</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>已完成</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>無需執行</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>資料庫</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>交易：%mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>網站遷移位於 migrations/，擴充功能的遷移位於 extension/&lt;name&gt;/migrations/。它們依名稱順序及相依關係執行。</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>上次執行</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>此檔案在套用後已變更。</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>尚無遷移。./console exp:migration:generate --skeleton &lt;name&gt; --apply 可撰寫第一個遷移。</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>最近的執行</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>所有執行</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>尚無執行。</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>模擬執行需要 migration/run 原則。</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>有一次執行正在進行：請在其結束後再模擬。</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target 不是此安裝的執行、遷移或快照。</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>請先勾選「是的，撤銷」。</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>還原較早的快照僅供專家使用：請勾選「我了解此動作會還原什麼」。</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>請再次輸入快照的 ID：%target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>請至少選擇一個要還原的部分。</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>此執行之前沒有快照：請逐一撤銷其遷移，或還原較早的快照。</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>此遷移無法自行撤銷：它未被套用，或沒有 down()。</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>無法讀取表單。</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>請選擇要繼續的執行。</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>請先勾選「是的，立即執行這些遷移」。</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>請至少選擇一個遷移。</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>某個遷移在套用後已變更：請附上理由接受變更，或還原該檔案。</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>請說明接受已變更遷移的理由。</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>理由最多 500 個字元。</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>在此啟動的執行仍在進行（%detail）。請等待其結束。</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>另一個執行持有安裝鎖定：%detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>執行需要一個存在且已登入的使用者。</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>找不到 php 命令列程式。請將 migration.ini [AdminSettings] PhpCliPath 設為其完整路徑。</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open 已停用，因此無法在此啟動執行。請在伺服器上執行 ./console exp:migration:migrate --apply。</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>無法寫入執行資料夾：%detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>執行已啟動，但未回報其處理程序 ID。請檢查 %detail。</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>請指明要撤銷的內容。</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>無法啟動執行。</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>記錄變更</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>記錄進行期間，您在管理介面或網站側邊欄中的變更會作為遷移的步驟保存：內容、類別、角色和政策、區段、使用者和群組、URL 別名、設定。完成後停止記錄，檢視它擷取了什麼，再由它產生遷移。</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>無法讀取記錄：%problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>記錄資料表尚不存在：請先執行升級 (exp:upgrade --apply)。</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini 中已關閉記錄 ([RecordingSettings] Recording=disabled)。</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>我的變更</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>只記錄您所做的變更，無論在哪裡變更，直到您停止。</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>記錄</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>自 %time 起，目前共 %count 項變更。</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>標籤（選填）</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>檢視擷取的內容</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>停止記錄</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>開始記錄我的變更</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>全站視窗</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>記錄每位使用者和主控台的每項變更，直到視窗關閉。開啟時需要驗證是您本人。</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>已開啟</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>關閉視窗</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>開啟全站視窗</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>記錄清單</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>使用者的帳號（登入名稱、電子郵件、密碼）和使用者帳號的欄位一律不記錄。</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>變更數</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>全站</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name 的變更</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>已停止</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>尚無記錄。</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>記錄 %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>所有記錄</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>將產生的遷移</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>依每個被變更的項目合併為一個步驟的變更：由此記錄產生的遷移會做的事。</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>一旦此安裝具備 YAML 步驟類型 %types，即可由它產生遷移。</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>刻意省略：%list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>未記錄任何內容。</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>擷取的內容</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count 項變更，依發生順序排列。</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>變更</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>步驟</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>對象</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>另有 %count 項：./console exp:migration:record:show 會全部列出。</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>捨棄</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>刪除記錄及其擷取的內容。已變更的內容維持變更。</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>是的，捨棄此記錄</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>正在記錄…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>您的變更正在為遷移而記錄。</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>本站的每項變更都在為遷移而記錄（全站視窗）。</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>全站記錄已開始：每位使用者的每項變更都會被記錄，直到您停止。</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>記錄已開始：您的變更會被記錄，直到您停止。</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>記錄已停止。擷取的內容會保留，直到您捨棄它。</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>記錄及其事件已刪除。</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>沒有記錄 %id。</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>請先勾選「是的，捨棄此記錄」。</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>只有進行記錄的使用者才能停止工作階段記錄。</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>請選擇要停止的記錄。</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>此類記錄已在進行中。</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>無法變更記錄：%reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>產生遷移</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>遷移名稱(選填)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>已寫入遷移 %file。任何步驟都無法完成的變更列在檔案頂端,需要手動完成。</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>未寫入遷移:%reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>分段長時間執行</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>留空的欄位保留 migration.ini [RunSettings] 中的設定。</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>最多這麼多個遷移</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>在此之後不再啟動遷移（秒）</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>遷移之間的暫停（秒）</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>較低優先順序（1 到 19）</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>長時間執行欄位是從 1 開始的整數（暫停：0 到 60 秒，優先順序：1 到 19），或留空。</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>它將在 %time 自動關閉。</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>在此之後自動關閉（分鐘，選填）</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>分鐘數為 1 到 44640（31 天）的整數，或留空。</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>遷移 %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>新遷移</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML 遷移：以文字撰寫，或在表單中建立其步驟，檢查後再儲存到遷移資料夾中。</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>此遷移已執行過，因此不會再次儲存：變更後的檔案會被校驗和防護拒絕。請在新的遷移中進行變更。</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>網頁伺服器無法寫入此檔案。</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>頂端的註解行是標頭（description, author, requires, environments, engines）。在表單中新增或變更步驟時，遷移會重新寫入：步驟之間的註解不會保留。</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>遷移名稱</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>存放位置</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>網站</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML 文字</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>檢查</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>步驟</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>金鑰</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>編輯</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>上移</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>下移</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>移除</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>尚無步驟：請用表單新增一個，或在文字中撰寫。</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>變更步驟 %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>新增一個步驟</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>步驟的表單由其步驟類型產生：其鍵、每個鍵接受的內容，以及所屬的模式。</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>步驟類型</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>顯示其表單</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>此步驟含有其類型不認得的鍵；變更步驟時會略去：%keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>模式</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>位於</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>僅限 %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>預設值：%value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>條件、參照與註解</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>以逗號分隔的「名稱=值」組合。此步驟的值：%values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>範例</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>變更步驟</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>新增步驟</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check 的結果：標頭、文件，以及由其步驟類型檢查的每個步驟。</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>遷移通過檢查。</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>預覽</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>將要儲存的 YAML。</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>顯示 YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML 遷移</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>已執行</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>尚無 YAML 遷移。</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>編輯者</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>遷移資料夾中沒有 YAML 遷移 %id。</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>請選擇步驟類型。</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>已新增步驟。儲存之前請先檢查遷移。</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>已變更步驟。儲存之前請先檢查遷移。</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>請選擇步驟。</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>此步驟沒有表單（迴圈，或此安裝沒有的步驟類型）：請在文字中變更。</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>請選擇遷移的存放位置：網站或已啟用的擴充功能。</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>已儲存 %file。請在遷移執行之前先試執行。</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>未儲存：%reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>遠端</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>此安裝會將其遷移部署到的其他安裝：部署會將遷移傳送到所選的遠端並在那裡執行，全部同時且同步進行。遠端從不保存祕密：其憑證指向 設定 &gt; 祕密 中的一個祕密。</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>新遠端</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>說明</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id 的連線測試</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>遠端清單</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>最多同時處理 %parallel 個遠端；每個遠端上的單一環節最多可花 %timeout 秒。</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>遠端</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>位址</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>憑證</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>群組</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>設定需修正</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>僅限檔案（FTP）</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH 金鑰</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>密碼</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>無（主機的 SSH 代理程式與金鑰）</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>測試連線</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>部署到群組時，會送到該群組的每個遠端。</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>部署到遠端</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>尚未設定任何遠端。</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>遠端 %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>此處不會傳送或執行任何內容：按下儲存會將設定寫入 settings/override/migration.ini.append.php。憑證是一個名稱；其值保留在 設定 &gt; 祕密 或環境中。</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>請檢查這些設定</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>依輸入內容顯示的設定，尚未儲存。</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>檢閱</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>設定有效。將寫入以下各行：</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>傳輸方式</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>僅名稱；值保留在「設定 &gt; 祕密」中</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>將寫入的行</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>連線</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>主機金鑰</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. 遠端</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>遠端的名稱及其所屬環境。</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>字母、數字、- 和 _，例如 production1。它在報告與主控台中用來稱呼此遠端（--remotes=production1），之後無法變更。</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha、dev、stage、beta、production ... 分階段部署會依此順序經過各環境。</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>選填，以逗號分隔，例如 production。部署到群組時，會送到該群組的每個遠端。</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. 連線</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>檔案如何送達，以及安裝位於何處。</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>透過 SSH，只傳送變更的部分，中斷的傳輸會接續進行。已安裝 rsync 時的最佳選擇。</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH，以 scp 傳送檔案。</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH，以 sftp 傳送檔案。</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>僅限檔案：遷移會被傳送並讀回，但無法在那裡執行。</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>透過 TLS 的 FTP；僅限檔案。</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>此伺服器上另一個位於資料夾中的安裝。</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>主機</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>主機名稱或位址，例如 node1.example.com。不適用於 local。</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>連接埠</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>留空：SSH 為 22，FTP 為 21。</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>使用者</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>路徑</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>安裝在那裡的根目錄，例如 /var/www/site（FTP：FTP 帳號所見的路徑）。</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP 命令列</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>那裡的 PHP CLI：php，或完整路徑，例如 /opt/plesk/php/8.4/bin/php。</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>主控台指令碼在那裡以 root 身分執行</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>僅當遠端的使用者為 root 時（屆時會以 --allow-root-user 執行）。</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. 憑證</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>此安裝在那裡如何登入。只會儲存名稱。</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>此安裝執行身分之使用者的 SSH 代理程式與金鑰（local 一律使用此方式）。</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>以祕密保存的私密金鑰。</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>以祕密保存的密碼（FTP 以此登入）。</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>祕密名稱</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>設定 &gt; 祕密 中的一個祕密，例如 deploy_production1。</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>設定 &gt; 祕密</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>或環境變數</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>伺服器處理程序中保存它的變數，例如 DEPLOY_KEY（儲存為 env:DEPLOY_KEY）。它取代祕密名稱。</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. 主機金鑰</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>選填，適用於 SSH、sftp 與 rsync。</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>主機金鑰指紋</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:...，即 ssh-keygen -l 所顯示的格式。填寫時，主機必須出示此金鑰；未填寫時，會在首次連線時記住金鑰。</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. 檢閱</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>以上方的設定測試連線，然後檢閱將要寫入的內容行。</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>移除此遠端</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>其設定會從 settings/override/migration.ini.append.php 中移除。遠端不會有任何變更，其部署仍保留在歷程記錄中。</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>是的，移除此遠端</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>部署紀錄</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>部署會將此安裝的遷移傳送到所選的遠端，並在那裡以 %user 身分執行，全部同時且同步進行：每個遠端都會先經過檢查，若有一個失敗，所有已套用的遠端都會被撤銷。部署在背景進行，其頁面會隨進度顯示每個遠端。</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. 遠端清單</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>請勾選遠端、群組，或兩者。</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>部署到此處</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. 方式</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>部署</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>傳送並執行</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>遷移會以同一個共用的執行 ID 傳送到每個遠端、驗證並執行。</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>僅傳輸</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>檔案會被傳送並驗證，不執行任何內容（FTP 遠端唯一的方式）。</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>分階段</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>依環境順序逐階段進行（dev、stage、beta、production ...）：先部署第一個階段，接著關卡會等待，直到有人核准下一個階段。每個階段內全部成功或全部不執行。</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>僅這些遷移</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>選填：遷移 ID，以逗號分隔。留空：網站及其擴充功能的所有遷移。</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>僅預檢</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>是的，立即部署</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>曾傳送或執行內容的部署，最新的在前（預檢不保留報告）。</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>僅傳輸</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>分階段，共 %stages 個階段</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>未同步</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>尚無部署。</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>部署 %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>部署的每個遠端及其狀態。在此啟動的部署於關閉此頁面後仍會在背景繼續；再次開啟此頁面即可追蹤。</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>所有部署</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>預檢</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>下一階段</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>正在檢查設定與憑證</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>預檢：正在讀取每個遠端的狀態</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>正在傳送遷移檔案</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>正在驗證送達的內容</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>正在每個遠端執行遷移</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>正在撤銷遠端</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>部署已結束。正在載入其報告。</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>無法追蹤進度。請重新載入頁面以查看部署的狀況。</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>環節</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>此頁面會隨進度追蹤部署。</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>已同步</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>各階段</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>第 %stage 階段在其關卡等待</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>關卡 %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>由 %user 於 %time 核准</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>階段</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>已傳送的檔案</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>核心版本</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>已套用：%list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>待套用：%list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>各環節</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>關卡：第 %stage 階段，共 %stages 階段</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>之前的階段已部署。請檢查它們，然後核准下一階段：其遠端會再次檢查並部署，全部成功或全部不執行。</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>下一頁</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>是的，立即部署下一階段</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>核准</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>回復此部署</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>每個已套用的遠端（%list）都會同時回到其執行前建立的快照。</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>是的，立即回復此部署</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>已規劃</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>已傳輸</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>已部署</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>在關卡等待</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>已選取</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>已準備</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>就緒</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>等待其階段</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>已傳送檔案</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>已驗證</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>失敗，已自行還原</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>未變更</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>未部署</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>無法連線</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>遠端已回應。</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>目前無法使用此遠端。</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done 已完成，%pending 待處理，%failed 失敗</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>鎖定</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>那裡有一次執行持有鎖定</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>可用</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>第 %stage 階段，共 %stages 階段</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>請選擇要測試的遠端。</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>請先勾選「是的，移除此遠端」。</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>無法移除遠端：%problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>無法儲存遠端：%problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>無法讀取設定檔：%problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>請至少選擇一個遠端或群組。</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>所選的某個遠端已不在設定中。請重新載入頁面。</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>請先勾選「是的，立即部署」。</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP 遠端無法執行遷移：請選擇「僅傳輸」，或將其排除。</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>要部署的遷移為遷移 ID，以逗號分隔。</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>部署仍在進行中。請等待其結束。</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>此部署不會在關卡等待。</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>沒有遠端套用此部署：沒有可回復的內容。</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>請先勾選「是的，立即部署下一階段」。</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>請先勾選「是的，立即回復此部署」。</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>ID 為 %id 的遠端已存在。</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>連接埠是 1 到 65535 之間的數字。</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>環境是由字母、數字、- 和 _ 組成的一個詞（alpha、dev、stage、beta、production ...）。</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>群組是由字母、數字、- 和 _ 組成的一個詞（不可為 all）：%group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>目前無法讀取憑證：%problem。請在第一次部署前將其儲存在 設定 &gt; 祕密 中（或設定該變數）。</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP 遠端只接收檔案：部署到該處即為「僅傳輸」，其遷移須在那裡手動執行。</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>遠端 %id 不在 settings/override/migration.ini.append.php 中；請在設定它的地方移除。</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>已透過 FTP 登入並讀取 index.php。無法讀取 FTP 遠端的遷移狀態。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>修改時間</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>建立時間</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名稱</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>類別</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>區段</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>建立者</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>最新內容</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>整個網站最近建立和修改的內容，最新的在前：訪客提交的內容、暫扣待審的內容、等待發佈的草稿。選取項目以解除暫扣、暫扣、隱藏、顯示、移除，或將其移到另一個區段或狀態。</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>無法讀取清單：%problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>審核暫扣尚未設定，因此沒有任何內容被暫扣，也不提供暫扣操作。升級步驟 6.0.15-review-hold 會設定它：./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>篩選清單</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>從</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>到</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>日期</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>建立時間（首次發佈）</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>已發佈</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>草稿，從未發佈</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>待處理（等待核准或日期）</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>在垃圾桶中</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>暫扣待審</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>已暫扣</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>未暫扣</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>隱藏</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>可見</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>提交於</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>任何網站存取</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>僅限稽核記錄的內容。</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>目前：%name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>登入名稱或使用者 ID。</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>篩選</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>清除篩選條件</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>項目</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>第 %from 至 %to 筆，共 %count 筆</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>沒有項目</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>（讀取耗時 %ms 毫秒）</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>對所選項目的操作</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>全選此頁</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>已選取 %count 個</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>選擇操作</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>解除暫扣</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>暫扣待審</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>隱藏</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>顯示</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>移到垃圾桶</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>刪除</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>指派區段</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>指派狀態</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>原因</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>暫扣時必填；隨暫扣一起保存並記入稽核。</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>選擇區段</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>選擇狀態</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>套用至所選項目</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>每個項目都會依照您自己的權限進行檢查。移到垃圾桶和刪除需要您確認。超過 %count 個項目時將在背景執行。</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>選取</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>發佈</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>提交來源</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>選取 %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>尚未</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>（無名稱）</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>草稿</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>待處理</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>因上層節點而隱藏</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>已暫扣：新提交</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>版本 %version 待處理</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>版本 %version 編輯中</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>草稿，版本 %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>版本 %version 已發佈</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>排定於 %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>無位址</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>未記錄</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>沒有符合這些篩選條件的內容。</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>顯示全部</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>尚無內容。</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>每頁</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>每頁顯示 %count 個項目。</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>提交的位址和瀏覽器來自稽核索引，而此處無法使用該索引：該欄顯示「未記錄」。</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>位址和瀏覽器是稽核為該項目記錄的資訊（自動暫扣一律會記錄；發佈和建立僅在開啟時記錄），並依其隱私設定保留。</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action：%count 個項目</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>刪除會永久移除這些項目及其所有版本和翻譯。此操作無法復原。</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>這些項目將進入垃圾桶，可從那裡還原。</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>每個項目都會依照您自己的權限進行檢查；帶有子項目的項目將保持原樣（請在內容結構中移除它）。系統會要求您驗證身分。</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>此操作在背景執行：將開啟其進度頁面，完成後會顯示每個項目的結果。</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>所選項目</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>以及另外 %count 個</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>未執行任何操作</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action（%extra）</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>原因：%reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>該操作仍在背景執行。</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>其進度</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>背景操作失敗：%error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>完成</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>已拒絕</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>依項目</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>項目</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>原因</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>返回清單</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>未執行任何操作</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>確認</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>請選擇一個操作。</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>請至少選取一個項目。</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>每次最多選取 1000 個項目。</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>請說明暫扣這些項目的原因。</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>請選擇區段。</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>請選擇狀態。</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>無法讀取表單。</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>儀表板</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>最新內容</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>無法讀取計數：%problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>暫扣待審</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>今日新增</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>審核暫扣尚未設定（升級步驟 6.0.15-review-hold）。</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>所有最新內容</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>您不能執行審核操作（moderation/act）。</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>審核操作未完成：%errors。</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>審核：對 %count 個物件執行 %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done / %total 個物件：%ok 個完成，%refused 個被拒絕，%failed 個失敗</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok 個完成，%refused 個被拒絕，%failed 個失敗</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>它已不存在。</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>它沒有位置（未發佈）。</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>您不能隱藏它（content/hide）。</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>您不能顯示它（content/hide）。</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>它已經被隱藏。</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>它未被隱藏。</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>已隱藏。</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>已顯示。</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>它在垃圾桶中：請在那裡清空或還原它。</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>從未發佈的草稿不能移到垃圾桶：請刪除它。</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>您不能刪除它（content/remove）。</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>已刪除。</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>您不能移除它（content/remove）。</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>它有子項目：請在列出子項目的內容結構中移除它。</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>它未被移除（可能有工作流程暫緩了移除）。</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>已移到垃圾桶。</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>該區段不存在。</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>它已在此區段中。</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>您不能指派此區段（section/assign）。</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>未指派區段。</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>已指派區段。</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>該狀態不存在。</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>它已處於此狀態。</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>您不能指派此狀態（state/assign）。</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>未指派狀態（可能有工作流程暫緩了此變更）。</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>已指派狀態。</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>沒有此操作。</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>審核暫扣尚未設定（升級步驟 6.0.15-review-hold）。</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>請說明暫扣的原因。</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>它已被暫扣。</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>您不能暫扣它（state/assign）。</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>未能暫扣（可能有工作流程暫緩了此變更）。</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>已暫扣。</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>它未被暫扣。</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>您不能解除暫扣（state/assign）。</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>未能解除暫扣（可能有工作流程暫緩了此變更）。</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>已解除暫扣；仍處於隱藏狀態：您不能顯示它（content/hide）。</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>已解除暫扣。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>所有目標</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>最近一次發佈</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>在 GitHub Pages 上免費發佈網站的靜態副本：</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>過時頁面</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>靜態發佈</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>靜態發佈已關閉。</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>目標</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>無法讀取目標：%problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>有工作正在進行</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>待檢查的建置</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>隱藏此項</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>建立目標</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>從未</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>閱讀教學</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>新增 %added 個，變更 %changed 個，移除 %removed 個</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes / %limit（%percent %）</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>另有 %count 項未列出。</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>已寫入 %pages 個頁面</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path 大小為 %size，超過主機允許的單一檔案大小。</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>已達上限的 %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds 秒</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag 是網站目前的發佈版本。</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target：工作 %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub 專案網站填寫 /儲存庫/；自訂網域或使用者網站則留空。</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. 網站</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. 主機</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. 登入儲存庫</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. 儲存庫</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. 連結與基礎路徑</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. 您自己的網域</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. 建置包含的內容</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. 何時發佈</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. 檢查並儲存</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub 專案網站位於 /&lt;repository&gt;/ 之下；相對連結在那裡及其他任何地方都能使用。</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>建置會以未登入訪客看到的樣子擷取 %site 的每個頁面，改寫連結，複製檔案，並將結果寫入目標的資料夾。在您檢查建置並按下「發佈」之前，不會發佈任何內容。</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>cron 運算式，例如 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>部署金鑰儲存為祕密 %secret。</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>部署金鑰讓本安裝透過 SSH 推送到一個儲存庫，且僅限於此。其私密部分保留在「設定 &gt; 祕密」中；只會顯示公開部分。</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>為此目標建立的部署金鑰</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>部署金鑰透過 SSH 登入：請將 git 位址改為 SSH 位址（git@github.com:owner/repo.git）。</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>有工作正在進行，由 %user 啟動</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>此目標的一個工作仍在進行（%detail）。請等待它結束。</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>此目標的一個工作仍在進行。請等待它結束。</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>從頁面 /news/ 到頁面 /about-us/team 的連結將寫成</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>已建立新的部署金鑰。請立即將其公開部分加入儲存庫。</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>清理後仍帶有除錯輸出、表單權杖或工作階段 ID 的頁面絕不會被發佈。</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>回復僅供專家使用：勾選「我知道這會變更什麼」，並再次輸入標籤名稱。</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>網站最大可為 %site，單一檔案最大 %file，每月流量約 100 GB。使用免費方案時儲存庫必須為公開。GitHub Pages 不適用於商店或其他商業交易。</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>一個目標就是發佈到一個 git 儲存庫的一個網站。這裡不會建置或發佈任何內容：「儲存」會將設定寫入 settings/override/staticcache.ini.append.php。</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>一個目標就是發佈到一個位置的一個網站，例如 GitHub Pages 上的公開網站。</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>來自「設定 &gt; 祕密」的權杖</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>由儲存庫的工作流程發佈。</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>將此公開金鑰加入儲存庫並授予寫入權限。GitHub：Settings &gt; Deploy keys &gt; Add deploy key，勾選 Allow write access。</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>已新增</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>其他 git 主機</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>另一個程序正在處理此目標：%detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>返回</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>基礎路徑</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>之前</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>位於基礎路徑之下</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>分支</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>失效連結</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>建置中的失效連結</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>建置</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>建置 %id，由 %user 建立</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>建置 %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>立即建置</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>待檢查的建置</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>啟動者</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>在此手動</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>變更</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>已變更</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>變更內容</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>先檢查</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>請檢查這些設定</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>檢查建置所做的變更並查看它，然後發佈或捨棄。</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>選擇要回到的發佈版本。</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>將在後續版本中提供。</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>提交</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>提交紀錄</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>提交建置、加上標籤並推送到 %remote。推送絕不會強制執行；之後您可以回到任何發佈版本。</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>與之前的資料夾相比：新增 %added 個，變更 %changed 個，移除 %removed 個，未變更 %unchanged 個。</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>與最近一次發佈相比。</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>憑證</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>自訂網域</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>除錯輸出、表單權杖、工作階段 ID 與 nonce 一律會被移除。</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>部署金鑰</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name 的部署金鑰</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>捨棄</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>捨棄此建置</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>網域</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>留空：網站的位址。否則填寫同一網站的內部位址。</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>結束時間</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>每個連結都以基礎路徑開頭。</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>每次發佈都是一個帶有標籤 static/%id/&lt;n&gt; 的提交。回到先前的發佈會以該次發佈的檔案建立新的提交：歷程保留，標籤不會移動，也不會強制執行任何動作。</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>額外檔案</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>頁面擷取位址</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>檔案</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>檔案</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>缺少的檔案</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>檔案來源</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>無法收集的檔案</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>指紋</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>資料夾</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>用於 SSH 位址。金鑰會在儲存後建立；您需要將其公開部分加入儲存庫。</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>用於 https:// 位址。GitHub：一個對該儲存庫具有 Contents 讀寫權限的細粒度權杖。</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>僅供專家使用。推送完成後，公開網站會立即變更。</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>表單</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>由 GitHub 儲存庫提供的免費代管。</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>從分支</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git 位址</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages 允許網站最大 %site，單一檔案最大 %file。</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages 限制</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages 依原樣發佈檔案（以 _ 開頭的檔案需要此項）。</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub 依推送的原樣提供分支。預設選項。</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab、Gitea、您自己的伺服器：任何 git 儲存庫。</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>回到先前的發佈版本</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>說明</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>精靈說明</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>隱藏它們</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>歷程記錄</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name 的歷程記錄</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>主機</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages 如何接收建置</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>我已檢查這些變更</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>我知道這會變更什麼</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>它已關閉：開啟之前無法建置任何內容。</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>它以 %user 身分在背景執行；您可以關閉此頁面。</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>工作 %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>儲存為祕密 %secret。</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>類型</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>最近一次發佈</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>排除這些頁面</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>排除這些區段</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>連結</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>已改寫的連結</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>線上網站</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>查看建置</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>小寫字母、數字、_ 與 -，例如 github-public。它用於命名資料夾與標籤（static/&lt;id&gt;/&lt;n&gt;），之後無法變更。</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>建立新金鑰</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>建立目標</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>建立金鑰</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>請先在主機上建立儲存庫；空的儲存庫即可。</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>清單</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>訊息</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>大多數頁面</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名稱</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>「設定 &gt; 祕密」中的權杖名稱</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>新增目標</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>下一步</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>否</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>尚無提交。</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>未建立金鑰：%problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>找不到 php 命令列程式。請將 migration.ini [AdminSettings] PhpCliPath 設為其完整路徑。</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>尚無標籤。</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>尚無目標。</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>不在建置中。</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>尚未發佈任何內容。</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>尚未發佈任何內容：每個檔案都是新的。</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>依排程</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>在主控台上</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>在伺服器上：./console exp:static:serve %id 會以相同方式提供它。</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>每行一個路徑，* 符合任意部分：/members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>目標只儲存一個名稱；權杖或金鑰本身保留在「設定 &gt; 祕密」中，絕不會出現在記錄中。</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>僅頁面引用的檔案</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>僅適用於權杖。env:NAME 改為讀取伺服器的環境變數。</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>開啟預覽</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>從目標的資料夾，依主機提供的方式開啟建置。此連結對您有效一小時。</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>選填。留空：已發佈的版本。</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>選填。設定網域後，網站會在其根目錄提供。</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>輸出</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>頁面</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>目標的頁面</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>被拒絕的頁面</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>後處理</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>預覽</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>預覽並發佈</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>預覽並發佈 %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>預覽建置</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>進度</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>公開位址</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>公開金鑰</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>發佈</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>將網站的靜態副本發佈到 GitHub Pages 或任何 git 主機：建置、檢查變更、發佈，並在需要時回到先前的發佈版本。</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>要回到的發佈版本</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>發佈紀錄</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>推送</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>閱讀教學</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>紀錄</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>已拒絕</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>相對</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>重新載入</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>已移除</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>更換金鑰：舊金鑰將失效</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>報告</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>建置報告</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>儲存庫</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>檢查</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>檢查會核對每項設定，並顯示將寫入的行。尚未儲存任何內容。</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>回復</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>回復</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>排程</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>搜尋頁面</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>區段 ID，以逗號分隔。</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>將它們導向線上網站</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>設定項目</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name 的設定</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>設定 &gt; 祕密</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>顯示在清單中，例如「GitHub Pages 上的公開網站」。</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>使用 GitHub App 登入將隨 GitHub 整合一起提供。</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>網站</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>要發佈的網站</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>大小與限制</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>建置大小</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>過時頁面</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>開始時間</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>由 %user 於 %time 啟動。</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>靜態發佈</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>靜態發佈已關閉</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>靜態發佈已關閉。</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>靜態發佈已關閉。請先在「設定 &gt; 靜態發佈」中開啟。</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>靜態發佈已開啟。</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>第 %step 步，共 %total 步</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>步驟</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>清理</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>開啟</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>開啟靜態發佈</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>標籤</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>標籤</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>目標</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>可以建立與變更目標，但在開啟之前不會建置或發佈任何內容。</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>告訴搜尋引擎要讀取什麼。</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>無法捨棄此建置：%problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>此建置與最近一次發佈相同：沒有可發佈的內容。</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>建置已捨棄：資料夾再次保存最近一次發佈。</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>預設值適合大多數網站。</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>資料夾中有一個尚未發佈的建置；新的建置將取代它。</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>無法寫入工作資料夾：%detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>無法準備工作：%detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>無法啟動工作。</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>工作已結束。正在載入其報告。</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>工作需要已登入的使用者。</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>工作已啟動，但未回報其程序 ID。請檢查 %detail。</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>金鑰</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>最大的檔案：%path，%size。</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>將寫入的行</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>供搜尋引擎使用的頁面清單；需要公開位址。</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>頁面以未登入訪客看到的樣子擷取。管理與編輯網站存取絕不會提供。</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>無法追蹤進度。請重新載入頁面以查看工作的狀態。</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>金鑰的公開部分：</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>分支的根目錄</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>祕密儲存區尚未設定（./console exp:upgrade --apply 會建立其資料表），因此無法保存金鑰。</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>伺服器自行登入（使用其本身的 SSH 金鑰或憑證輔助程式），或儲存庫就在本伺服器上。</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>無法寫入設定：%problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>設定有效。將寫入以下各行：</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>無法讀取設定檔：%problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>網站會回到該次發佈的檔案；尚未發佈的建置必須先發佈或捨棄。</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>網站本身用於不存在位址的頁面。</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>無法儲存目標：%problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>目標尚未使用此金鑰登入：請在其設定中選擇「為此目標建立的部署金鑰」。</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>無法讀取目標：%problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>尚無待檢查的建置。</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>此安裝沒有前台網站存取。管理與編輯網站存取絕不會發佈。</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>此頁面會追蹤工作的進展；關閉頁面後工作仍會在背景繼續。</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>此目標尚無部署金鑰。</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>此目標尚未在此建置過。</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>此目標已有一個。</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>捨棄此建置：資料夾再次保存最近一次發佈。線上網站不會變更。</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>請先勾選「我已檢查這些變更」。</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>時間</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>觸發條件</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>再次輸入標籤名稱</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>未變更</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>內容</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>會變更什麼</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>每個檔案是什麼；一律寫入。</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>工作做了什麼及其紀錄。在此啟動的工作在關閉此頁面後仍會在背景繼續。</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>工作輸出的錯誤</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>頁面引用的檔案，以及已發佈內容的所有圖片</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>何時</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>發佈失敗時</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>發佈成功時</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>內容發佈時</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>指向副本中不包含之內容（搜尋、登入）的連結導向何處。</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>靜態副本的提供位置。</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>發佈哪個網站，以及目標的名稱。</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>可在任何路徑下使用。預設選項。</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>設定自訂網域時一律寫入。</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>是</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>您隨時可以在此處及主控台上手動建置與發佈。</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>僅名稱；值保留在「設定 &gt; 祕密」中</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>位於 %path 之下</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>結束但沒有報告</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>額外</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>檔案</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages，或 main 搭配 docs 資料夾。</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git 主機</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git（使用權杖）或 git@github.com:owner/repo.git（使用部署金鑰）；其中絕不能包含密碼或權杖。</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/，用於網站地圖與標準連結。</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>圖片</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>從未</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>否</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>無遠端</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>無：提交保留在資料夾中</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>無：沒有變更</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>未推送</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>沒有變更</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>頁面</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>通過</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open 已停用，因此無法在此啟動工作。請在伺服器上使用 ./console exp:static:build。</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>發佈</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>已發佈</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>等待推送</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>已推送</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>已拒絕</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>相對</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>回復</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>已回復</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>執行中</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>僅資料夾</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com：寫入 CNAME 檔案。依主機的說明將網域的 DNS 指向主機；HTTPS 可能需要一段時間才會生效。</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>是，尚未發佈</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>一個 GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>由儲存庫的工作流程發佈。建置會寫入工作流程檔案；請將資料夾留空。</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>以 GitHub 儲存庫及權杖或 GitHub App 儲存目標後，此步驟可以建立儲存庫並開啟 GitHub Pages。否則請先在 GitHub 上建立儲存庫；空的也可以。</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>分支還是 GitHub Actions？</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>檢查 DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>若儲存庫不存在則建立</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>在 GitHub 上建立儲存庫，並在其設定中開啟 GitHub Pages（Settings &gt; Pages）。</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>在儲存庫 %repo 不存在時建立它（若有要求），依儲存的設定從分支或從 GitHub Actions 開啟 GitHub Pages，並設定自訂網域與 HTTPS。它使用已儲存的設定：請先儲存變更。</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub 上的詳細資料</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>請先輸入自訂網域。</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>每次 push 都會先依這些限制檢查。</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>用於 GitHub 上的 https:// 位址。由為此安裝設定的 App 登入；需要安裝 ID。</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages 僅在付費方案中提供私人儲存庫的網站。</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages：子網域（www.example.com）需要指向 &lt;owner&gt;.github.io 的 CNAME 記錄；頂層網域（example.com）需要 A 記錄 %ips。</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App 的安裝 ID</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>最近一次 Pages 建置</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>限制與條款</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>在免費方案中使用 GitHub Pages 時必須如此。</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>在 GitHub 上</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>僅限 GitHub App：GitHub 上該 App 安裝位址結尾的數字。App 本身在 staticcache.ini 中設定（GitHubAppId、GitHubAppKey）。</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>私人</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>公開</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>請先以 GitHub 儲存庫及權杖或 GitHub App 儲存目標。</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>在網域供應商處設定以下記錄：</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>在 GitHub 上設定</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain 的 DNS 尚未指向 GitHub Pages。</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain 的 DNS 已指向 GitHub Pages。</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>此處無法使用 GitHub 整合：%problem。發佈到分支仍然可行；請在儲存庫的設定中開啟 GitHub Pages。</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>此目標無法使用 GitHub 步驟：%problem。</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>以權杖或 GitHub App 作為憑證時，會顯示 GitHub Pages 的狀態。</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>使用自己的網域</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>如何選擇：權杖、部署金鑰或 GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>有了 GitHub 儲存庫及權杖或 GitHub App，精靈可以為您建立儲存庫、開啟 GitHub Pages 並設定網域（步驟 4）。</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>建置中</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>已建置</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>來自 GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>來自分支 %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>尚無</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>找不到</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>私人</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>公開</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>排隊中</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>未知</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count，共 %pages 頁：</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>每個文字檔旁邊的 .gz（和 .br）檔案，供提供這些檔案的主機使用。</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>為頁面的每個舊位址和別名產生一個小頁面，讓舊連結繼續有效。</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions 交付網站時一律寫入。</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX 識別碼，如 CC-BY-4.0，或文字本身。</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>購物籃</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>對伺服器的呼叫</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>留言</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>收集資訊的表單</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions 工作流程</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>頁面中更少的空白，且沒有註解。</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>內容授權</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>登入</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>壓縮精簡</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>其他表單</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>預先壓縮</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>重新導向頁面</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>重新導向頁面：%count。</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>搜尋</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>搜尋索引：%languages 中的 %pages 頁。</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>依內容雜湊值命名的樣式表和指令碼，讓瀏覽器可以長期快取。</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>已變更的頁面，在最後一次變更幾分鐘後（cronjob 部分 staticpublish）。</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>內容授權，來自下方欄位。</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>整個網站，依排程的時間（cronjob 部分 staticpublish）。</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>頁面的這些部分需要伺服器；每個都有備援方案。發佈前請檢查。</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>靜態方式下無法運作的內容</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>儲存庫是什麼，供在主機上開啟它的人閱讀。</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>省略</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>備援文字</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>線上網站的表單端點</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>線上網站</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>副本的搜尋頁面</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>無法傳送表單。</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>謝謝：表單已傳送。</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>表單未被接受：請檢查您輸入的內容並重新傳送。</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>移除指向副本中沒有的頁面的連結</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>移除指向管理介面的連結</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>連結文字保留。圖片、表單和指向其他網站的連結絕不移除。</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>版本</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>要發布的網站存取</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>網站存取</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>在根目錄</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>根目錄沒有網站存取：每個都在自己的資料夾中，根目錄連結到它們</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>網站存取</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>勾選一個網站存取，或多個透過 URI 前綴共用同一主機的網站存取。根目錄的那個在根目錄提供，其他的在其前綴的資料夾中 (/ger/)；它們之間的連結保留在副本中。從不提供管理網站存取。</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%target 在 %site 上的靜態發布失敗</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%target 在 %site 上的靜態發布成功</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>此郵件由 %site 寄出，因為靜態發布目標 %target 要求寄送。</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>部署 %deploy 在 %site 上失敗</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>部署 %deploy 在 %site 上正於關卡等待</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>部署 %deploy 在 %site 上成功</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>此郵件由 %site 寄出，因為 migration.ini [RemoteSettings] Notify[] 要求寄送。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>資料類型（%count）</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>統計於 %time，%minutes 分鐘後重新統計</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>資料類型儲存並編輯類別屬性的一種值：一行文字、一張圖片、一個關聯。大多數由核心提供，擴充功能再加入更多。這裡列出全部資料類型、提供者，以及有多少內容在使用它們。資料庫仍在使用但已無任何地方註冊的資料類型，會使含有它的內容損壞。</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>類別群組</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>立即重新統計，而不使用最近幾分鐘的統計結果。</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>重新統計</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>概覽</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>註冊時間</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>使用中</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>未使用</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>提供資料類型的擴充功能</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>類別屬性</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>物件屬性</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>未註冊</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>已列出，檔案遺失</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count 個資料類型正在使用但未註冊</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes 個類別屬性和 %object_attributes 個物件屬性的資料類型未被任何擴充功能或設定註冊。它們的物件無法顯示、編輯或發布。請啟用提供該資料類型的擴充功能，或變更該類別。</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>只顯示這些</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>尋找資料類型</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>識別碼、名稱、PHP 類別或擴充功能。</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>顯示</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>提供者</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>所有人</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>核心</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>沒有符合此篩選條件的資料類型。</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>顯示全部</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>擴充功能</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count 個資料類型中的 %shown 個，%used 個使用中</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>資料庫中有這些資料類型的類別屬性或物件屬性，但 content.ini 未列出其中任何一個，或其檔案遺失。</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider 的資料類型</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>資料類型</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP 類別和檔案</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>類別</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>物件</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>旗標</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>沒有符合搜尋的資料類型。請清除搜尋。</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>已顯示 %count 個資料類型中的 %shown 個</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>已顯示的資料類型：%count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>依 %column 排序</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>統計於 %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>所有資料類型</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>說明頁面</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>此資料類型正在使用但未註冊</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>在沒有擴充功能註冊該資料類型之前，下列類別的物件無法顯示、編輯或發布。請啟用提供它的擴充功能，並將其加入 content.ini [DataTypeSettings] AvailableDataTypes[]，或變更這些類別。</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini 列出了此資料類型，但沒有任何資料類型目錄含有它的檔案。沒有內容使用它；請將其從 AvailableDataTypes[] 中移除，或啟用它的擴充功能。</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>關於此資料類型</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>識別碼</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名稱</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>擴充功能 %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP 類別</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>檔案</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>在 AvailableDataTypes[] 中</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>是</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>否</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>其值的欄位</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>其類別屬性設定的欄位</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>資料表</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>這些欄位和資料表是透過讀取資料類型的程式碼得出的：僅供參考，不作保證。</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>範本</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>網站存取</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>範本</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>位於</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>本管理介面</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>預設網站</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>不含覆寫：依類別或屬性比對的覆寫範本優先於這些範本。</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>使用它的類別（%count）</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>沒有類別具有此資料類型的屬性。</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>類別</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>屬性</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>類別屬性（%count）</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>屬性</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>必填</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>可搜尋</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>可翻譯</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>收集資訊</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>部分使用它的內容</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>最近修改的在前</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>修改時間</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>節點 %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>每個翻譯都有自己的值。</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>搜尋會為其值建立索引。</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>它可以收集訪客的資訊（表單）。</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>清單可以依它排序：排序鍵 %type。</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>可排序</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>它的值指向其他物件。</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>關聯</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>可以從純文字字串填入（匯入、REST）。</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>來自文字</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>可以從檔案填入。</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>來自檔案</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>其類別屬性設定會包含在套件中。</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>套件</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>內容（%count）</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>第 %from 至 %to 個，共 %count 個</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>篩選清單</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>所有類別</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>區段</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>語言</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>擁有者</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>已發佈</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>反轉順序</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>沒有項目</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>每頁</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>每頁顯示 %count 個項目。</translation>
     </message>
 </context>
 </TS>

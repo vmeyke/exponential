@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>מען זוכט נאָר אויף דעם בלאַט: %from ביז %to פֿון %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>יעדער דאַטן־טיפּ פֿונעם קערן און די פֿאַרברייטערונגען, און ווי די קלאַסן און דער אינהאַלט נוצן אים.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>דאַטן־טיפּן</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>מען קען אויך צוגעבן סיסטעם־בלעטער צו די בוכצייכנס: עפֿנט דעם בלאַט (אייַנריכטונג, דער קאָנטראָל־זשורנאַל, אַ רשימה פֿון באַניצער ...) און קלייַבט אויס „צוגעבן דעם בלאַט צו בוכצייכנס“ אויבן. אַזעלכע בוכצייכנס האָבן אַ רעדל־בילדל.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>איר מעגט מער ניט עפֿענען דעם בלאַט דאָ. נעמט אַוועק דעם בוכצייכן, אָדער בעט אַן אַדמיניסטראַטאָר וועגן צוטריט.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>גיין צום ערשטן בלאַט</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>אַנדערע</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>לעצטע 7 טעג</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>אייגענער צייטראַם</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>אַלע ווערטער</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>סײַ וועלכע וואָרט</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>גענויע פֿראַזע</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>רעלעוואַנץ</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>נאָמען א–ת</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>נאָמען ת–א</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>געענדערט, נײַסטע ערשט</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>געענדערט, עלטסטע ערשט</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>פֿאַרעפֿנטלעכט, נײַסטע ערשט</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>פֿאַרעפֿנטלעכט, עלטסטע ערשט</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>געענדערט</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>פֿילטערס</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>ווײַזן פֿילטערס</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>באַהאַלטן פֿילטערס</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>צוריקשטעלן</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>צולייגן</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>ווערטער</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>אינהאַלט־טיפּ</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>ווײַזן מער (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>קלײַבט אויס איין אינהאַלט־טיפּ כּדי צו זוכן אין איינעם פֿון זײַנע אַטריבוטן.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>אָפּטייל</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>פֿון</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ביז</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>די אָנהייב־דאַטע איז נישט קיין גילטיקע דאַטע.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>די סוף־דאַטע איז נישט קיין גילטיקע דאַטע.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>באַזיצער</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>באַניצער־ID, לאָגין אָדער בליצפּאָסט־אַדרעס.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>קיין באַניצער נישט געפֿונען פֿאַר „%input“.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>שפּראַך</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>סײַ וועלכע שפּראַך</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>אָרט</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count ערטער</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>רעזולטאַטן פּער זײַט</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>רעזולטאַטן פֿאַר „%text“ (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>רעזולטאַטן (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>סאָרטירן לויט</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>סאָרטירן</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>אַקטיווע פֿילטערס</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>אַוועקנעמען דעם פֿילטער</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>אָדער קלײַבט אויס פֿילטערס און לייגט זיי צו כּדי צו ווײַזן דעם פּאַסיקן אינהאַלט.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>די פֿילטערס פֿאַרשמעלערן דאָס זוכן ווען איר האָט אַרײַנגעשריבן ווערטער.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>קיין רעזולטאַטן נישט געפֿונען פֿאַר „%text“.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>קיין רעזולטאַטן נישט געפֿונען.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>נעמט אַוועק אַ פֿילטער אויבן.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>איבערזעצונגען</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>אַקציעס</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>רעדאַגירן %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>רעדאַגירן</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>אייַנריכטונג &gt; cron־אויפֿגאַבעס</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>קיין טייל פֿון די cron־אויפֿגאַבעס איז נאָך ניט געלאָפֿן: די ריי פֿון אויפֿגאַבעס, די אימפּאָרטן, די אָנזאָגן און דער זוך־אינדעקס וואַרטן. פֿירט אויס php bin/php/installcrontab.php --add --apply, אָדער לייגט צו די שורות פֿון --show צו דער crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>די מחבר־רעכט־אָנזאָגן פֿון די אָריגינעלע מחברים און פֿון דער ווייכווואַרג פֿון דריטע צדדים וואָס קומט מיט Exponential ווערן אָפּגעהיט אין די קוואַל־טעקעס און אין דער LICENSE־טעקע, ווי די ליצענץ פֿאָדערט.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>וואָס פֿאָלגט איז אַ רשימה פֿון Exponential־מיטאַרבעטער וואָס האָבן ליצענצירט זייער אַרבעט פֿאַר 7x לויט די באַדינגונגען פֿונעם eZ Systems Contributor Licensing Agreement. ווי דער אָפּמאַך דערלויבט, פֿאַרשפּרייט 7x ווייַטער יעדן בייַטראָג אונטער דער זעלבער ליצענץ ווי די טעקע אין וועלכער דער בייַטראָג איז אַרייַנגערעכנט. די רשימה נעמט אָן יעדן מיטאַרבעטער, אַ קאָנטאַקט־אינפֿאָרמאַציע אויב פֿאַראַן, און די טעקעס צו וועלכע ער האָט בייַגעטראָגן.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>מיטאַרבעטער וואָס ווערן דערמאָנט פֿאַר זייער אַרבעט אויף Exponential און אויף דער ווייכווארג פֿון וועלכער עס איז אויסגעוואַקסן, מיט די טעקעס צו וועלכע זיי האָבן בײַגעשטײַערט. דאָס איז אַ דאַנק, נישט קיין קאָפּירעכט־מעלדונג: בײַשטײַערונגען צו Exponential ווערן איבערגעגעבן דער Exponential Foundation און 7x לויט דעם Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;אויספּרוּוון Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;ווערן אַ מיטגליד פֿון דער Exponential־קהילה, זיך בייַטן און בייַשטייַערן&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; קאָפּירייַט &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; און אַנדערע.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>געטריבן פֿון &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. פֿאַר מער אינפֿאָרמאַציע זעט &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; קאָפּירייַט &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; און אַנדערע.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> פֿאַר מער אינפֿאָרמאַציע זעט &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; קאָפּירייַט &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; און אַנדערע.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;אויספּרוּוון Exponential (פֿון 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;ווערן אַ מיטגליד פֿון דער Exponential־קהילה, באַקומען הילף און בייַשטייַערן&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; קאָפּירייַט &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; און אַנדערע.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>הילף־צענטער</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>אינהאַלט</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>דאָקומענט־זײַטן</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>באַניצער</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>אינהאַלט־קלאַסן</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>אַדמיניסטראַציע</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>זײַט %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>זען אַלע רעזולטאַטן</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count רעזולטאַטן</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>איין רעזולטאַט</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count פֿאָרשלאָגן</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>קיין פֿאָרשלאָגן</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>מען האָט נישט געקענט לאָדן די פֿאָרשלאָגן.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>פֿאָרשלאָגן</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>די אינסטאַלאַציע איז אַן עפֿנטלעכע דעמאָ: יעדער קען וויסן איר אַדמיניסטראַטאָר־פּאַראָל, און מען קען ניט ענדערן אָדער צוריקשטעלן די אַדמיניסטראַטאָר־פּאַראָלן. גיט דאָ ניט אַרייַן גאָרנישט פּריוואַטס.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>אייַערע מכשירים</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>זיכערהייט־אַקטיוויטעט</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>וועגווייַזערס, זוכן און ווי צו מעלדן אַ טעות.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>לעצטער אינהאַלט</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>דער נייַסטער אינהאַלט, וואָס ווערט אָפּגעהאַלטן צו דורכקוקן, און אַקציעס אויף אַן אויסקלייַב.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>סינכראָניזאַציעס</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>די GraphQL API: איר ענדפּונקט, די סכעמע און אַ שפּילפּלאַץ צו פּרובירן אָנפֿרעגן.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ענדערונגען אין דער אינסטאַלאַציע געהאַלטן ווי טעקעס: זייער סטאַטוס, די לויפֿן, אויספֿירן און צוריקדרייען.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>לעצטער אינהאַלט</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>דער נייַסטער אינהאַלט, וואָס ווערט אָפּגעהאַלטן צו דורכקוקן, און אַקציעס אויף אַן אויסקלייַב.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>פֿאַרעפֿנטלעכן אַ סטאַטישע קאָפּיע פֿון אַ וועבזײַטל אויף GitHub Pages אָדער סײַ וועלכן git־האָסט.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>סטאַטיש פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>דאַטן־טיפּן</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>יעדער דאַטן־טיפּ פֿונעם קערן און די פֿאַרברייטערונגען, און ווי די קלאַסן און דער אינהאַלט נוצן אים.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>קאָנטעס וואָס קיינער ניצט ניט אָדער וואָס דאַרפֿן אַ קוק; דעאַקטיווירן, אויפֿשליסן אָדער עקספּאָרטירן זיי.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>באַניצער־רעוויזיע־שפּור</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ווער האָט געענדערט, זיך אַרייַנלאָגירט אָדער איז אָפּגעוואָרפֿן געוואָרן, לויט קאָנטע; פֿילטרירן און עקספּאָרטירן.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>אַרייַנלאָגיר־באַריכט</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ווער איז אַרייַנלאָגירט, אַרייַנלאָגירונגען און דורכפֿאַלן פּער טאָג; אַרויסלאָגירן אַ באַניצער אומעטום.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>מיט %n שעה צוריק</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>ענטפֿערס פֿון די אָפּגעהיטע אָנפֿרעגן פֿון דער GraphQL API, און די אינהאַלט־קלאַסן פֿון איר סכעמע.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>פֿאַרעפֿנטלעכן אַ סטאַטישע קאָפּיע אויף GitHub Pages אָדער סײַ וועלכן git־האָסט</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>סטאַטיש פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>דער סטאַטישער קאַש באַדינט זײַטן פֿון דעם סערווער. כּדי צו פֿאַרעפֿנטלעכן אַ סטאַטישע קאָפּיע פֿון אַ וועבזײַטל ערגעץ אַנדערש, אויף GitHub Pages אָדער סײַ וועלכן git־האָסט, ניצט סטאַטיש פֿאַרעפֿנטלעכן.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>לעצטע אויסליידיקונג</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>שרײַבונגען האָבן ניט געקענט נעמען דעם צושטאַנד־שלאָס (לעצטנס %date): יעדע האָט געמאַכט אַלע געקעשטע רעזולטאַטן פֿאַרעלטערט. %file מוז זײַן שרײַבלעך פֿאַר יעדן באַניצער אונטער וועמען דער זײַטל לויפֿט; אויף NFS דאַרף עס NFSv4 אָדער lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>אויסגעלאָפֿענע סעסיעס פֿונעם PHP־באַהאַנדלער נעמט אַוועק PHP אַליין (session.gc_maxlifetime), ניט די זייַט און ניט דער טייל session_gc פֿון דער cron־אויפֿגאַבע.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>די אַרייַנלאָגירטע סעסיעס פֿון אַלע באַניצער ווערן אויסגערעכנט, און אַרויסלאָגירט, אינעם אַרייַנלאָגיר־באַריכט, וואָס אַרבעט מיט יעדן סעסיע־באַהאַנדלער.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>עפֿענען דעם אַרייַנלאָגיר־באַריכט</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>נאָך קיינער ניט</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>זיכערהייט־אַקטיוויטעט</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>אייַערע לעצטע אַרייַנלאָגירונגען, דורכגעפֿאַלענע פּרוּוון און ענדערונגען אין אייַער פּאַראָל, בליצפּאָסט־אַדרעס און צוויי־שטאַפּלדיקער אַרייַנלאָגירונג.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>די לעצטע אַרייַנלאָגירונגען, דורכגעפֿאַלענע פּרוּוון און זיכערהייט־ענדערונגען פֿון דער דאָזיקער קאָנטע.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>איבערקוקן די אַקטיוויטעט</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count דורכגעפֿאַלענע אַרייַנלאָגירונגען</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>נאָכן אַרייַנלאָגירן מוז דער באַניצער אויסקלייַבן אַ נייַ פּאַראָל איידער ער טוט עפּעס אַנדערש. ניצט דאָס ווען איר גיט עמעצן אַ צייַטווייַליק פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>קלײַבט אויס אַ בילד וואָס עקזיסטירט שוין</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>די בילד־טעקע פֿון דעם אָביעקט וואָס איר קלײַבט אויס ווערט קאָפּירט אין דעם פֿעלד. דער אַנדערער אָביעקט ענדערט זיך נישט.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>דאָס בילד פֿון „%name“ איז קאָפּירט געוואָרן אין דעם פֿעלד.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>דורכבלעטערן נאָך אַ בילד</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>זוכן בילדער לויטן נאָמען</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>זוכן</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>באַנוצן דאָס בילד פֿון „%name“</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>באַנוצן דאָס דאָזיקע בילד</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>קיין בילד שטימט נישט מיט אײַער זוכונג.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>דער crontab איז ניט געשריבן געוואָרן (%reason). לייגט צו די דאָזיקע שורות צום crontab פֿון דעם באַניצער אונטער וועלכן דאָס וועבזייַטל לויפֿט, אַנדערש וועלן די ריי, די אימפּאָרטן, די אָנזאָגן און דער זוך־אינדעקס קיין מאָל ניט לויפֿן:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>איבער־אינסטאַלירן טוט מען מיטן kickstarter (%file, דערנאָך php bin/php/kickstarter.php run --apply) אָדער מיט אַ נייַער אינסטאַלאַציע.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>קאַש פֿונעם עפֿנטלעכן eZJSCore־פּאַקער</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL קעש (ענטפֿערס און סכעמע־קלאַסן)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>קאָפּיע פֿון %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>דאַטן־טיפּן</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>דאַטן־טיפּ %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>מען האָט ניט געקענט לייענען דאָס SVG־בילד, אָדער גאָרניט דערין קען מען זיכער ווייַזן.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>מען האָט נישט געקענט קאָפּירן דאָס בילד. ביטע פּרובירט נאָכאַמאָל אָדער ווענדט זיך צום אַדמיניסטראַטאָר פֿונעם זײַטל.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>דער אויסגעקליבענער אָביעקט עקזיסטירט נישט אָדער איר טאָרט אים נישט לייענען.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>דער אויסגעקליבענער אָביעקט האָט נישט קיין בילד.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>מען האָט נישט געקענט לייענען די בילד־טעקע פֿונעם אויסגעקליבענעם אָביעקט.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>דאָס בילד פֿונעם אויסגעקליבענעם אָביעקט איז גרעסער ווי דאָס פֿעלד דערלויבט: %1 בייטן.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>דער בוכצייכן איז איבערגערופֿן געוואָרן „%name“.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>דער בלאַט איז דעאַקטיווירט אין דעם וועבזייַטל־צוטריט (%siteaccess). עפֿנט דעם בוכצייכן אין אַ וועבזייַטל־צוטריט וואָס האָט אים.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>דער מאָדול פֿון דעם בלאַט איז דאָ ניט אינסטאַלירט אָדער ניט אַקטיווירט.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>דער בלאַט עקזיסטירט מער ניט: זייַן מאָדול האָט ניט אַזאַ אָנבליק.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>קיין איינע פֿון אייַערע ראָלעס דערלויבט אייַך ניט צו עפֿענען דעם בלאַט.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>איר מעגט ניט ניצן דעם וועבזייַטל־צוטריט.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>איר מעגט ניט לייענען דעם אינהאַלט וואָס דער בלאַט ווייַזט.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>אַזאַ מין בלאַט קען מען ניט צולייגן צו די בוכצייכנס: ער אַרבעט נאָר אויף אַ פֿאָרמולאַר, אָדער איז אַ בלאַט פֿון איין מאָמענט.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>דער אַדרעס פֿון דעם בלאַט פֿעלט.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>מען קען איצט ניט עפֿענען דעם בלאַט.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>דער בליצפּאָסט־טראַנספּאָרט האָט אָפּגעזאָגט %count מעלדונגען אינעם לעצטן לויף. קאָנטראָלירט דעם בליצפּאָסט־סערווער און site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count געשעענישן וואַרטן און קיין לויף פֿון דער אָנזאָג־cron־אויפֿגאַבע איז ניט פֿאַרשריבן. לייגט צו דעם טייל &quot;frequent&quot; פֿון די cron־אויפֿגאַבעס צו דער crontab, אָדער פֿירט אויס exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>אויסקלייַבן אַן אַנדער וועבזייַטל אָדער אָפּטייל מיטן קנופּ־אויסקלייַבער</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>נאָר דער סיסטעם־אַדמיניסטראַטאָר קען ענדערן דעם באַזיצער: פֿירט אויס ./console exp:content-check --fix-permissions --apply ווי root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>ליידיק</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>דער חתימה־שליסל איז עלטער ווי אַ יאָר: בייַט אים מיט exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>חלק פֿון דער בלאַט־צייַט</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>אַ פֿולע רענדערירונג איז געבעטן געוואָרן</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>דער בלאַט־קאַש האָט ניט געהאַט דעם בלאַט (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>דער בלאַט־קאַש האָט ניט געענטפֿערט</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>געמאַכט</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>געמאַכט פֿונעם קערן: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>באַדינט פֿונעם בלאַט־קאַש אין %ms ms. דער בלאַט איז אויפֿגעהיט געוואָרן בייַ %stored פֿון אַ רענדערירונג פֿון %render ms, מיט %age סעק. צוריק.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>רענדערירן איצט</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>צוריקגיין צום אָנבליק פֿונעם קאַש</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>פֿון דער רענדערירונג בייַ %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>די בקשה: באַדינט פֿונעם בלאַט־קאַש אין %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>באַניצער</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>באַניצער־ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>קעש־פּראָפֿיל</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>די דאָזיקע אָנזיכט</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>אָנבליק־קאַש</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>פֿאַר יעדן באַניצער (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>קעש־פּראָפֿיל פֿונעם באַניצער: באַניצער מיטן זעלביקן פּראָפֿיל טיילן זיך מיט די טעקעס פֿונעם אָנזיכט־קעש</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>יאָ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ניין</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>באַניצער־נאָמען</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>אַרײַנלאָגירט</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>סעסיע</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>די טיילן פֿונעם שליסל פֿונעם אינהאַלט־אָנזיכט־קעש וואָס הענגען אָפּ פֿונעם באַניצער, פּונקט ווי דער שליסל נעמט זיי, אונטער די ViewCacheTweaks פֿון דעם דאָזיקן בלאַט. באַניצער מיטן זעלביקן פּראָפֿיל טיילן זיך מיט די קעש־טעקעס פֿון די אָנזיכטן, סײַדן די טיילן פֿון אַן אָנזיכט אַליין זענען אַנדערש (פּרעפֿערענצן, שליסלען פֿון ליסנערס): יענע האָבן אַן אייגענעם פּראָפֿיל, נאָר פֿאַר דעם דאָזיקן בלאַט.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>פּראָפֿיל</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>די דאָזיקע אָנזיכט (קנופּ %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: יעדער אַרײַנלאָגירטער באַניצער האָט אייגענע קעש־טעקעס.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks אין קראַפֿט: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>טייל</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ווערט</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>קיין טייל הענגט ניט אָפּ פֿונעם באַניצער (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>די דאָזיקע אָנזיכט</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>קאָפּירן ווי טעקסט</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ראָלעס</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>מע האָט ניט געקענט לייענען קיין ראָלע־צוטיילונגען.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID פֿון דער ראָלע</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ראָלע</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>באַגרענעצונג</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>צוגעטיילט צו</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>דעם באַניצער</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>גרופּע %name (אָביעקט %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>קאָפּירט</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>מע האָט ניט געקענט קאָפּירן.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>אויסגעלאָזט דורך אַ ליסנער</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>אַנאָנימע באַזוכער</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>דאָס זעלבע ווי אײַערס</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>אַנדערש</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>דער פּראָפֿיל וואָס אַנאָנימע באַזוכער באַקומען אונטער די זעלבע ViewCacheTweaks, מיט די פֿאָרגעשטעלטע פּרעפֿערענצן, אָן די טיילן פֿון דער אָנזיכט: מע קען ניט פֿרעגן אַ ליסנער וואָס לייענט די סעסיע וועגן זיי.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>פּרעפֿערענצן</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>קיין אָנזיכט־מאָדע הענגט ניט אָפּ פֿון באַניצער־פּרעפֿערענצן (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>די פּרעפֿערענצן פֿון וועלכע די אָנזיכטן פֿון די דאָזיקע אָנזיכט־מאָדעס הענגען אָפּ (CachedViewPreferences), מיטן באַניצערס ווערט אָדער דעם פֿאָרגעשטעלטן. זיי זענען אינעם פּראָפֿיל ווי userpreferences, די פֿון אַלע אָנזיכט־מאָדעס צוזאַמען.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>אָנבליק־מאָדע</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>פּרעפֿערענץ</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>סטאַנדאַרט</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>פּאָליטיקן</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>ווײַזן די פּאָליסיס פֿון די ראָלעס (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>די פּאָליסיס ווערן אָנגעלאָדן פֿונעם סערווער ווען מע עפֿנט די דאָזיקע אָפּטיילונג, איין בלאַט אויף אַ מאָל, און מע קען זיי פֿילטרירן לויט מאָדול און פֿונקציע.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>פֿונקציע</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>אַלע מאָדולן</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>אַלע פֿונקציעס</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>באַגרענעצונגען</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>ווײַזן מער</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>די דאָזיקע ראָלעס האָבן ניט קיין פּאָליסיס.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>קיין פּאָליסי שטימט ניט מיטן פֿילטער.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown פֿון %matching פּאָליסיס (%total אין גאַנצן)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>ווערט געלאָדן ווען מען עפֿנט.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>מאָדול/פֿונקציע, ראָלע, באַגרענעצונג</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>זוכן אין די פּאָליטיקן</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>לאָדן מער</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>מאָדול/פֿונקציע</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>אַלע ראָלעס (%count פּאָליטיקן)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>קיין פּאָליטיק שטימט נישט.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown פֿון %matched פּאָליטיקן</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>קיין ענטפֿער</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>פֿאַרמאַסקירט</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>ווײַזן דערקלערונגען</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>באַהאַלטן דערקלערונגען</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>עפֿענען</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>עפֿענען אַלע</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>פֿאַרמאַכן אַלע</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>שליסל אָדער ווערט</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>זוכן אין דער סעסיע</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>טיפּ</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>נאָך %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>צו טיף אײַנגעשאַכטלט צו ווײַזן</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>אָפּגעשניטן, %count צייכנס אין גאַנצן</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>אָנגעהויבן</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>קיכל־נאָמען</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>סעסיע־ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>באַהאַנדלער</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>שפּייכלער־וועג</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP־סטאַנדאַרט</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>לעבנסצײַט (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>קיכל</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>לעבנסצײַט %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>אײַער אייגענע PHP־סעסיע, אַזוי ווי זי איז געווען ווען דער אָפּטייל איז געעפֿנט געוואָרן, קיינמאָל נישט קיין אַנדערע. ווערטן פֿון שליסלען וואָס זעען אויס ווי סודות (טאָקענס, האַשן, פּאַראָלן) ווערן פֿאַרמאַסקירט (debugbar.ini SessionMask[]); אַלץ אַנדערש ווערט געוויזן ווי עס איז געשפּייכלט, פּערזענלעכע דאַטן אויך.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count שליסלען, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>גרויס</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>די סעסיע איז ליידיק.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>קיין סעסיע איז נישט אָנגעהויבן געוואָרן פֿאַר דער בקשה.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>פֿאַרברייטערונג %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>קערן און אַנדערע</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>נישט יעדער אַרײַנטראָג ווערט געוויזן: די סעסיע האָט מער ווי מע קען דאָ אויסרעכענען.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count שליסלען זענען נישט אויסגערעכנט.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>ראַם</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ווערטן וואָס זעען אויס ווי אַ טאָקען (אַ JSON Web Token, די באַגלייביקונגען פֿון אַן Authorization־קאָפּ, אַ פּריוואַטער שליסל, אַ לאַנגער העקס־ אָדער צופֿעליקער טעקסט) ווערן אויך פֿאַרמאַסקירט, ווי אַזוי זייער שליסל זאָל נישט הייסן (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>דער שליסל זעט אויס ווי אַ סוד (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>דער ווערט זעט אויס ווי אַ טאָקען.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>אונטער אַ פֿאַרמאַסקירטן שליסל.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>די סעסיע ווי טעקסט, פֿאַרמאַסקירט ווי די טאַבעלע.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>די סעסיע איז גרעסער ווי %size (debugbar.ini SessionWarnBytes): יעדע בקשה פֿון דעם באַניצער לייענט די גאַנצע סעסיע, און שרײַבט זי ווען זי האָט זיך געביטן.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP האַלט די סעסיע אין טעקעס און פֿאַרשליסט די טעקע פֿאַר דער גאַנצער בקשה: בקשות פֿון דעם זעלבן באַניצער (עטלעכע טאַבן, AJAX־רופֿן) וואַרטן איינע אויף דער אַנדערער.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>האַלטן אָפֿן</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>גרעסער ווי %size (debugbar.ini SessionWarnBytes): יעדע בקשה פֿון דעם באַניצער לייענט די גאַנצע סעסיע.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits פֿון %count געלייענט פֿונעם קאַש</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>קיין מוסטער איז נישט רענדערט געוואָרן (אַן אָנבליק געלייענט פֿונעם אָנבליק־קאַש רענדערט קיינעם נישט).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>ראָלע־צוטיילונגען</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ראָלעס און פּאָליטיקן</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>אַנדערש ווי ביי אַנאָנימע באַזוכער</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>ווי ביי אַנאָנימע באַזוכער</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ניט געשיקט</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>די אָנזאָג־cron־אויפֿגאַבע פֿאַרשרייַבט דאָ יעדן לויף אירן. לייגט צו דעם טייל frequent צו דער crontab, אָדער פֿירט אויס exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>ניצט די קאָנסאָל: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>די דאָזיקע טעמע איז ניט אַרויסגעגעבן; לייענערס זעען זי ניט.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ענדערונגען אין דער אינסטאַלאַציע געהאַלטן ווי טעקעס: זייער סטאַטוס, די לויפֿן, אויספֿירן און צוריקדרייען.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>פֿאַרעפֿנטלעכן אַ סטאַטישע קאָפּיע פֿון אַ וועבזײַטל אויף GitHub Pages אָדער סײַ וועלכן git־האָסט.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>סטאַטיש פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>אין איבערקוקונג</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>לייענערס זעען דעם בלאַט.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>באַהאַלטן פֿון לייענערס ביז עמעצער גיט אים אַרויס.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>דער בלאַט איז איצט אין איבערקוקונג. ער איז באַהאַלטן פֿון לייענערס ביז מע גיט אים אַרויס.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>דער בלאַט איז אַרויסגעגעבן: לייענערס זעען אים איצט.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>דער בלאַט איז ווידער אַ שׂרטוט. ער איז באַהאַלטן פֿון לייענערס ביז מע קוקט אים איבער און גיט אים אַרויס.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>אַרויסגעבן איצט</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>נאָר אַ באַניצער מיט דער ראָלע %role וואָס האָט נישט געשריבן די ווערסיע קען זי אַרויסגעבן.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>הילף־טעמעס וואָס וואַרטן אויף אַרויסגעבן</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>באַהאַלט אים פֿון לייענערס ביז מע גיט אים ווידער אַרויס.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>דערנאָך קוקט אים איבער אַן איבערקוקער. לייענערס זעען אים נאָך נישט.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>לייענערס זעען אים גלייך.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>נעמט אים אַרויס פֿון איבערקוקונג פֿאַר מער אַרבעט. לייענערס זעען אים נישט.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>באַהאַלטן דעם בלאַט פֿון לייענערס?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>שיקן דעם בלאַט צוריק צום שׂרטוט?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>לייענערס זעען מער נישט %title ביז עמעצער גיט עס ווידער אַרויס.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title גייט צוריק צום שׂרטוט פֿאַר מער אַרבעט. לייענערס זעען עס נאָך אַלץ נישט, און עס דאַרף אַ נײַע איבערקוקונג איידער מע גיט עס אַרויס.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>אַנולירן</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>די טעמעס זײַנען אין איבערקוקונג. לייענערס זעען זיי ווען עמעצער וואָס האָט נישט געשריבן די איצטיקע ווערסיע גיט זיי אַרויס.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>קיינער.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>מיט אַן אויטענטיפֿיקאַציע־אַפּליקאַציע</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>מיט אַ קאָד דורך בליצפּאָסט</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>מיט אַ צוריקשטעל־קאָד</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>מיט אַ צוטריט־שליסל</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>מיט אַ דרויסנדיקער קאָנטע</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>זיכערהייט־אַקטיוויטעט</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>געוויזן ווי זייַן נעץ; די אַדרעס ווערט געהאַלטן אַזוי ווי די דאַטן־שוץ־באַשטימונגען פֿונעם וועבזייַטל זאָגן.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ניט פֿאַרצייכנט</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>אָרט</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>בערך</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>פֿאַרוואַלטן מכשירים</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>מיט אַן אויטענטיפֿיקאַציע־אַפּליקאַציע</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>מיט אַ קאָד דורך בליצפּאָסט</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>מיט אַ צוריקשטעל־קאָד</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>מיט אַ צוטריט־שליסל</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>מיט אַ דרויסנדיקער קאָנטע</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>זיכערהייט־אַקטיוויטעט</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ניט פֿאַרצייכנט</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>אָרט</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>בערך</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>ווייַזן די סעסיעס פֿון דעם דאָזיקן באַניצער</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>אייַער קאָנטע %login אויף %site איז אָט געניצט געוואָרן צו זיך אַרייַנלאָגירן פֿון אַן אָרט פֿון וואַנעט זי האָט זיך די לעצטע צייַט ניט אַרייַנלאָגירט:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>בערך־אָרט</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser אויף %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>אַרייַנלאָגיר־באַריכט</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>מען האָט ניט געקענט קאָנטראָלירן דעם צוטריט־שליסל. ביטע פּרוּווט נאָך אַ מאָל.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>קאָנטעס וואָס לאָגירן זיך אַרייַן נאָר מיט צוטריט־שליסלען קענען דאָ ניט ניצן קיין פּאַראָל: קלייַבט אויס „אַרייַנלאָגירן מיט אַ צוטריט־שליסל“.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>צוטריט־שליסלען פֿון %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>די צוטריט־שליסלען מיט וועלכע די קאָנטע לאָגירט זיך אַרייַן. רופֿט צוריק איינעם וואָס איז אויף אַ פֿאַרלוירענער אָדער געגנבֿעטער מכשיר: מען קען מיט אים מער ניט אַרייַנלאָגירן. נייַע לייגט דער בעל־הבית אַליין צו.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>אייַער קאָנטע דאַרף אַ צוטריט־שליסל</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>לייגט צו אַ צוטריט־שליסל צו אייַער קאָנטע</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>לייגט צו אַ צוטריט־שליסל כּדי ווייַטער צו גיין. דערנאָך לאָגירט איר זיך אַרייַן מיט אים אַנשטאָט נאָר מיט אַ פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>אַרייַנלאָגירן מיט אַ צוטריט־שליסל איז גיכער און זיכערער ווי אַ פּאַראָל. לייגט צו איינעם איצט, אָדער גייט ווייַטער אָן אים.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ניט איצט</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>צוריקרופֿן דעם צוטריט־שליסל „%name“?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>מען קען מיט אים מער ניט אַרייַנלאָגירן אין דער קאָנטע. אויב ער איז געווען דער לעצטער, לאָגירט זיך דער בעל־הבית אַרייַן מיטן פּאַראָל, אָדער איר שטעלט אַ נייַעם.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>צוריקרופֿן דעם צוטריט־שליסל</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>צוריקרופֿן</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>די קאָנטע האָט ניט קיין צוטריט־שליסל.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>אויטענטיפֿיקאַטאָר</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>אומבאַקאַנט</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>אייַער לעצטער צוטריט־שליסל: לייגט צו נאָך איינעם איידער איר נעמט אים אַוועק.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>די קאָנטע לאָגירט זיך אַרייַן נאָר מיט צוטריט־שליסלען (צוטריט־שליסל־פּאָליטיק): ווען קיינער בלייבט ניט, לאָגירט זי זיך ווידער אַרייַן מיט איר פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>דאָס איז אייַער לעצטער צוטריט־שליסל, און אייַער קאָנטע קען זיך ניט אַרייַנלאָגירן אָן איינעם. לייגט צו פֿריִער נאָך אַ צוטריט־שליסל.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>דער צוטריט־שליסל „%name“ איז צוריקגערופֿן. מען קען מיט אים מער ניט אַרייַנלאָגירן אין דער קאָנטע.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>קאָד פֿון אייַער אויטענטיפֿיקאַטאָר־אַפּליקאַציע</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>איר גרייט זיך אויף שטענדיק אויסמעקן דאַטן אָדער אויסליידיקן אַ זשורנאַל.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>אייַער פּאַראָל און אַ צוטריט־שליסל</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>אייַער פּאַראָל און אַ קאָד פֿון אייַער אויטענטיפֿיקאַטאָר־אַפּליקאַציע</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>אָדער:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>דער בלעטערער קען ניט ניצן קיין צוטריט־שליסלען. ניצט אַן אַנדער וועג אָדער אַן אַנדער בלעטערער.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>ווען איר גייט ווייַטער, בעט אייַער בלעטערער איינעם פֿון אייַערע צוטריט־שליסלען.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>ווייַטער מיט אַ צוטריט־שליסל</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>אייַנריכטונג</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>טוישן דאָס אייגענע פּאַראָל, בליצפּאָסט־אַדרעס, צוטריט־שליסלען, צוויי־שטאַפּלדיקע אַרייַנלאָגירונג, צוריקשטעל־קאָדן אָדער API־שליסלען, און אַרויסלאָגירן די אייגענע אַנדערע מכשירים.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>שאַפֿן און רעדאַקטירן באַניצער, זייערע פּאַראָלן און מכשירים, קאָנטע־אייַנשטעלונגען, באַשטעטיקן אָדער אָפּוואַרפֿן נייַע באַניצער־קאָנטעס, צוטיילן ראָלעס און רעדאַקטירן פּאָליטיקן.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>אויסמעקן דאַטן</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>אויסליידיקן דעם מיסטקאַסטן, אַוועקנעמען זאַכן פֿון אים און אַוועקנעמען עטלעכע זאַכן מיט אַ מאָל.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>אַוועקנעמען, אַרויסגעבן און אָפּהיטן אינהאַלט</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>אַוועקנעמען אינהאַלט (אויך אין מיסטקאַסטן), אַרויסגעבן און אָפּהיטן אַ פּראָיעקט, געפֿרעגט ווען דער פֿאָרמולאַר ווערט געשיקט. לויט דעפֿאָלט אויסגעשאַלטן.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>פֿאַר אַ שפּירעוודיקער פֿעולה באַשטעטיקט אַן אַרייַנגעלאָגירטער באַניצער נאָך אַ מאָל ווער ער איז: מיט זייַן פּאַראָל און אַ צוטריט־שליסל, אָדער אָן אַ צוטריט־שליסל מיט זייַן פּאַראָל און דעם קאָד פֿון זייַן אויטענטיפֿיקאַטאָר־אַפּליקאַציע. נאָר די וועבבלעטער פֿרעגן: דער REST־אינטערפֿייס, SOAP, WebDAV, די expservices־אַרייַנלאָגירונג און די באַפֿעל־שורה קיין מאָל ניט.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>וווּ די אייַנשטעלונגען גילטן</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>אייַנשטעלונגען פֿאַר</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>יעדער וועבזייַטל־צוטריט</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>וועבזייַטל־צוטריט %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>עפֿענען</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>ווער ווערט געפֿרעגט: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>צייכנט אָן באַניצער־גרופּעס כּדי צו פֿרעגן נאָר זייערע מיטגלידער (למשל רעדאַקטאָרן). קיינע ניט אָנגעצייכנט: יעדער באַניצער.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>אָפּגעהיט אין settings/override/site.ini.append.php, פֿאַר יעדן וועבזייַטל־צוטריט. דאָס אָפּהיטן בעט איר זאָלט באַשטעטיקן אַז דאָס זענט איר.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>אָפּגעהיט אין settings/siteaccess/%name/site.ini.append.php. אַ ווערט אין settings/override האָט פֿאָרהאַנט. דאָס אָפּהיטן בעט איר זאָלט באַשטעטיקן אַז דאָס זענט איר.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>עפֿענען דעם בלאַט</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ביז %to פֿון %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>אַ באַניצער־נאָמען אָדער אַ באַניצער־ID: די קאָנטע וועגן וועלכער עס איז געווען די געשעעניש, אָדער דער באַניצער וואָס האָט געטאָן די אַקציע.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>קאָנטע</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>אַקציע</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>נאָך</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>יעדער רעזולטאַט</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>פֿאַר</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>דורך</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>אויסמעקן</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>געטאָן</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>געשעענישן ווערן אויפֿגעהיט %days טעג.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>געשעענישן ווערן אויפֿגעהיט ביז מען נעמט זיי אַוועק מיט דער האַנט.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>געשעענישן</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>יעדע אַקציע</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>אַלע געשעענישן פֿון דער קאָנטע</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>עקספּאָרטירן די רשימה ווי CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>פֿון</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>פֿאַרענגערן די רשימה</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>קיין געשעעניש פּאַסט ניט.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>פּער בלאַט</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>דאָס רעקאָרדירן איז אויסגעשאַלטן אין audit.ini ([UserAuditSettings] UserAudit); די רשימה ווייַזט וואָס איז פֿריִער רעקאָרדירט געוואָרן.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>אָפּגעוואָרפֿן</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>רעזולטאַט</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ווייַזן</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>די טאַבעלע פֿונעם באַניצער־רעוויזיע־שפּור פֿעלט. שאַפֿט זי מיט php update/common/scripts/6.0/createuseraudittable.php; ביז דעמאָלט היטן די רעוויזיע־טעקעס אויף יעדע געשעעניש.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>דער בלאַט דאַרף אַן SQL־דאַטנבאַזע; אויף MongoDB איז ער ניט צוטריטלעך. די רעוויזיע־טעקעס היטן אויף יעדע געשעעניש.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ביז</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>באַניצער־רעוויזיע־שפּור</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>באַניצער</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ווען</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>וווּ</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ווער האָט געענדערט, געשאַפֿן, אַקטיווירט, דעאַקטיווירט, אַריבערגעפֿירט אָדער אַוועקגענומען וועלכע קאָנטע, ווער האָט זיך אַרייַנלאָגירט אָדער איז אָפּגעוואָרפֿן געוואָרן, און וועלכע ראָלעס זענען צוגעטיילט געוואָרן: איין שורה פּער געשעעניש, מיט די פֿעלדער פֿאַר און נאָך. פּאַראָלן און סודות ווערן קיינמאָל ניט רעקאָרדירט.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>גרופּע</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>סיסטעם</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>אומבאַקאַנט</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>פֿאַרזיכערן אייַער קאָנטע</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>מען האָט געניצט אַ צוריקשטעל־קאָד צו זיך אַרייַנלאָגירן אין אייַער קאָנטע %login אויף %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>מען האָט געניצט אַ צוריקשטעל־קאָד</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>קאָנטע</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>בערך־אַדרעס</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>בעט אַ נייַ פּאַראָל כּדי זיך ווידער אַרייַנצולאָגירן, אָדער ווענדט זיך צו די אַדמיניסטראַטאָרן פֿונעם וועבזייַטל.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>בעטן אַ נייַ פּאַראָל</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>יעדער צוריקשטעל־קאָד אַרבעט איין מאָל. אויב איר האָט פֿאַרלוירן אייַער טעלעפֿאָן, שטעלט ווידער אייַן אייַער אויטענטיפֿיקאַציע־אַפּליקאַציע און היט אויף די נייַע צוריקשטעל־קאָדן אויף אַ זיכער אָרט.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>דורכגעפֿאַלענע פּרוּוון זיך אַרייַנצולאָגירן אין אייַער קאָנטע</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>פֿון איצט אָן בעט די אַרייַנלאָגירונג אַ קאָד אַחוץ אייַער פּאַראָל. אויב איר האָט דאָס געטאָן, דאַרפֿט איר גאָרנישט טאָן.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>אויב דאָס זענט איר געווען און איר האָט פֿאַרגעסן אייַער פּאַראָל, בעט אַ נייַ. אויב ניט, קלייַבט אויס אַ שטאַרקער פּאַראָל און צינדט אָן די צוויי־שטאַפּלדיקע אַרייַנלאָגירונג.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>אויב דאָס זענט ניט איר געווען, קען עמעצער וויסן אייַער פּאַראָל: ענדערט עס תּיכף און קאָנטראָלירט וווּ אייַער קאָנטע איז אַרייַנלאָגירט.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>איבערגעבליבענע צוריקשטעל־קאָדן</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>איבערקוקן אייַערע מכשירים</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>זיכערהייט־וואָרענונג</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>עמעצער האָט פּרוּווט זיך אַרייַנלאָגירן אין אייַער קאָנטע %login אויף %site מיט אַ פֿאַלשן פּאַראָל %count מאָל נאָך אַנאַנד.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>עס איז געווען אַ זיכערהייט־געשעעניש אין אייַער קאָנטע %login אויף %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>דאָס איז אַ זיכערהייט־וואָרענונג וועגן אייַער קאָנטע. זי ווערט געשיקט בייַ יעדער אַזאַ ענדערונג און מען קען זי ניט אויסלעשן.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>צייַט</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>די צוויי־שטאַפּלדיקע אַרייַנלאָגירונג איז אויסגעלאָשן געוואָרן פֿאַר אייַער קאָנטע %login אויף %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>די צוויי־שטאַפּלדיקע אַרייַנלאָגירונג איז אויסגעלאָשן געוואָרן</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>די צוויי־שטאַפּלדיקע אַרייַנלאָגירונג איז אָנגעצונדן געוואָרן פֿאַר אייַער קאָנטע %login אויף %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>די צוויי־שטאַפּלדיקע אַרייַנלאָגירונג איז אָנגעצונדן געוואָרן</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>אייַער קאָנטע %login אויף %site איז פֿאַרשלאָסן געוואָרן נאָך צו פֿיל דורכגעפֿאַלענע אַרייַנלאָגירונגען.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>אייַער קאָנטע איז איצט באַשיצט נאָר מיט אייַער פּאַראָל. אויב איר האָט דאָס ניט געטאָן, צינדט ווידער אָן די צוויי־שטאַפּלדיקע אַרייַנלאָגירונג נאָכדעם ווי איר האָט געענדערט אייַער פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>אייַער קאָנטע איז פֿאַרשלאָסן געוואָרן</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>אַ צוטריט־שליסל איז צוגעגעבן געוואָרן צו אייַער קאָנטע %login אויף %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>ווער עס האָט דעם צוטריט־שליסל קען זיך אַרייַנלאָגירן אין אייַער קאָנטע אָן אייַער פּאַראָל. אויב איר האָט אים ניט צוגעגעבן, נעמט אים אַוועק אונטער צוטריט־שליסלען און טוישט אייַער פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>אַ צוטריט־שליסל איז אַוועקגענומען געוואָרן פֿון אייַער קאָנטע %login אויף %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>מען קען מיט אים מער ניט אַרייַנלאָגירן אין אייַער קאָנטע. אויב איר האָט אים ניט אַוועקגענומען, קאָנטראָלירט אייַערע צוטריט־שליסלען און מכשירים.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>אַ צוטריט־שליסל איז צוגעגעבן געוואָרן צו אייַער קאָנטע</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>אַ צוטריט־שליסל איז אַוועקגענומען געוואָרן פֿון אייַער קאָנטע</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>זיכערהייט־אַקטיוויטעט</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>זיכערהייט־אַקטיוויטעט פֿון %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>אַרייַנלאָגירט</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>דורכגעפֿאַלענער אַרייַנלאָגיר־פּרוּוו</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>אַרויסלאָגירט</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>סעסיעס אַרויסלאָגירט</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>אַרייַנלאָגירונג פֿון אַ נייַעם מכשיר</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>אַרייַנלאָגירונג פֿון אַ נייַעם אָרט</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>אידענטיטעט באַשטעטיקט („באַשטעטיקט אַז דאָס זענט איר“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>אידענטיטעט־קאָנטראָל דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>אַרייַנלאָגירט מיט אַ צוטריט־שליסל</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>אַרייַנלאָגירונג מיט אַ צוטריט־שליסל דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>אַרייַנלאָגירונג אָפּגעוואָרפֿן: קאָד פֿון דער צוויי־שטאַפּלדיקער אַרייַנלאָגירונג פֿעלט אָדער איז פֿאַלש</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>פֿאַלשער קאָד פֿון דער צוויי־שטאַפּלדיקער אַרייַנלאָגירונג</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>קאָנטע פֿאַרשלאָסן נאָך דורכגעפֿאַלענע אַרייַנלאָגירונגען</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>קאָנטע אויפֿגעשלאָסן</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>פּאַראָל געענדערט</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ענדערן דאָס פּאַראָל דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>פּאַראָל צוריקגעשטעלט</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>נייַ פּאַראָל געבעטן</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>בליצפּאָסט־אַדרעס געענדערט</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>באַניצער־נאָמען געענדערט</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>צוויי־שטאַפּלדיקע אַרייַנלאָגירונג אָנגעצונדן</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>צוויי־שטאַפּלדיקע אַרייַנלאָגירונג אויסגעלאָשן</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>צוריקשטעל־קאָד געניצט</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>נייַע צוריקשטעל־קאָדן</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>אַפּליקאַציע־פּאַראָל געשאַפֿן</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>אַפּליקאַציע־פּאַראָל אָפּגערופֿן</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>צוטריט־שליסל צוגעגעבן</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>צוטריט־שליסל אַוועקגענומען</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>קאָנטע אַקטיווירט</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>קאָנטע דעאַקטיווירט</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>אַלע</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>אַרייַנלאָגירונגען און סעסיעס</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>קאָנטע־ענדערונגען</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>פֿאָדערט אויפֿמערקזאַמקייט</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>פֿון אייַך</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>פֿונעם באַניצער</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>פֿון %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>מעטאָד</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>בלעטערער</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>אָפּערירסיסטעם</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>מכשיר</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>אָרט</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>לאַנד</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>סעסיעס</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>וועלכע</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>קאַנאַל</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>דורכגעפֿאַלענע פּרוּוון</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>איבערגעבליבענע קאָדן</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>אַרייַנלאָגיר־באַהאַנדלער</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>זיכערהייט־אַקטיוויטעט</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>זיכערהייט־אַקטיוויטעט פֿון %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>אַרייַנלאָגירונגען און ענדערונגען אין דער זיכערהייט פֿון אייַער קאָנטע. אויב איר זעט עפּעס וואָס איר האָט ניט געטאָן, ענדערט אייַער פּאַראָל און לאָגירט אויס די מכשירים וואָס איר דערקענט ניט.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>אַרייַנלאָגירונגען און ענדערונגען אין דער זיכערהייט פֿון דער דאָזיקער קאָנטע.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>אייַערע מכשירים</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ענדערן דאָס פּאַראָל</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>צוריק צו דער קאָנטע</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>די זיכערהייט־אַקטיוויטעט ווערט ניט פֿאַרשריבן</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>זי ווערט געלייענט פֿונעם באַניצער־רעוויזיע־זשורנאַל, וועמענס טאַבעלע expuser_audit פֿעלט אָדער ווערט ניט געשטיצט אויף דער דאָזיקער דאַטנבאַזע. פֿירט אויס php update/common/scripts/6.0/createuseraudittable.php, אָדער די דאַטנבאַזע־דערהייַנטיקונג פֿון 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>די לעצטע %days טעג</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>אַרייַנלאָגירונגען אין די לעצטע %days טעג</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>לעצטע זיכערהייט־אַקטיוויטעט</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ווייַזן</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>אָפּגעוואָרפֿן</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>נאָך קיין זיכערהייט־אַקטיוויטעט ניט פֿאַרשריבן.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>זיכערהייט־געשעענישן ווערן געהאַלטן %days טעג.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>זיכערהייט־געשעענישן ווערן געהאַלטן ביז אַן אַדמיניסטראַטאָר נעמט זיי אַוועק.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>אַראָפּלאָדן מייַנע אַרייַנלאָגיר־דאַטן</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>אייַערע סעסיעס און זיכערהייט־געשעענישן ווי אַ JSON־טעקע.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>סעסיעס ווערן נישט רעקאָרדירט אויף דעם זייטל, דערפֿאַר האָט מען נישט געקענט אַרויסלאָגירן קיין אַנדער מכשיר. ענדערט אייַער פּאַראָל גלייך.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count אַנדערע סעסיעס זענען אַרויסלאָגירט געוואָרן. איצט ענדערט אייַער פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>קיין אַנדער מכשיר איז נישט געווען אַרייַנלאָגירט. איצט ענדערט אייַער פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>אַ דאַנק. די געשעעניש איז באַצייכנט ווי אייַערע.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>יענע געשעעניש דאַרף קיין ענטפֿער נישט.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>דער בלאַט איז אויסגעגאַנגען. גאָרנישט איז געענדערט געוואָרן; ביטע פּרוּווט נאָך אַ מאָל.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>פֿאַרזיכערן אייַער קאָנטע</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>אויב עפּעס דאָ זענט נישט געווען איר, לאָגירט אַרויס אַלע אַנדערע מכשירים, דערנאָך קלייַבט אויס אַ נייַע פּאַראָל. מכשירים וואָס בלייַבן אַרייַנלאָגירט מיט געדענקט מיך ווערן אויך אַרויסלאָגירט.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>יעדער מכשיר אַחוץ דעם ווערט אַרויסלאָגירט בייַ זייַן קומעדיקער בקשה. דערנאָך קלייַבט איר אויס אַ נייַע פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>יאָ, לאָגירט אַרויס די אַנדערע מכשירים</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>זענט דאָס געווען איר?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>יאָ, דאָס בין איך געווען</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ניין, פֿאַרזיכערט מייַן קאָנטע</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>אַרייַנלאָגירט</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>דורכגעפֿאַלענער אַרייַנלאָגיר־פּרוּוו</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>אַרויסלאָגירט</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>סעסיעס אַרויסלאָגירט</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>אַרייַנלאָגירונג פֿון אַ נייַעם מכשיר</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>אַרייַנלאָגירונג פֿון אַ נייַעם אָרט</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>אידענטיטעט באַשטעטיקט („באַשטעטיקט אַז דאָס זענט איר“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>אידענטיטעט־קאָנטראָל דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>אַרייַנלאָגירט מיט אַ צוטריט־שליסל</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>אַרייַנלאָגירונג מיט אַ צוטריט־שליסל דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>אַרייַנלאָגירונג אָפּגעוואָרפֿן: קאָד פֿון דער צוויי־שטאַפּלדיקער אַרייַנלאָגירונג פֿעלט אָדער איז פֿאַלש</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>פֿאַלשער קאָד פֿון דער צוויי־שטאַפּלדיקער אַרייַנלאָגירונג</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>קאָנטע פֿאַרשלאָסן נאָך דורכגעפֿאַלענע אַרייַנלאָגירונגען</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>קאָנטע אויפֿגעשלאָסן</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>פּאַראָל געענדערט</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ענדערן דאָס פּאַראָל דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>פּאַראָל צוריקגעשטעלט</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>נייַ פּאַראָל געבעטן</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>בליצפּאָסט־אַדרעס געענדערט</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>באַניצער־נאָמען געענדערט</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>צוויי־שטאַפּלדיקע אַרייַנלאָגירונג אָנגעצונדן</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>צוויי־שטאַפּלדיקע אַרייַנלאָגירונג אויסגעלאָשן</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>צוריקשטעל־קאָד געניצט</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>נייַע צוריקשטעל־קאָדן</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>אַפּליקאַציע־פּאַראָל געשאַפֿן</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>אַפּליקאַציע־פּאַראָל אָפּגערופֿן</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>צוטריט־שליסל צוגעגעבן</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>צוטריט־שליסל אַוועקגענומען</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>קאָנטע אַקטיווירט</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>קאָנטע דעאַקטיווירט</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>אַלע</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>אַרייַנלאָגירונגען און סעסיעס</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>קאָנטע־ענדערונגען</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>פֿאָדערט אויפֿמערקזאַמקייט</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>זיכערהייט־אַקטיוויטעט</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>זיכערהייט־אַקטיוויטעט פֿון %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>אַרייַנלאָגירונגען און ענדערונגען אין דער זיכערהייט פֿון אייַער קאָנטע. אויב איר זעט עפּעס וואָס איר האָט ניט געטאָן, ענדערט אייַער פּאַראָל און לאָגירט אויס די מכשירים וואָס איר דערקענט ניט.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>אייַערע מכשירים</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ענדערן דאָס פּאַראָל</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>די זיכערהייט־אַקטיוויטעט ווערט נאָך ניט פֿאַרשריבן אויף דעם וועבזייַטל.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>אַרייַנלאָגירונגען אין די לעצטע %days טעג</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>דורכגעפֿאַלענע פּרוּוון</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>נאָך קיין זיכערהייט־אַקטיוויטעט ניט פֿאַרשריבן.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>אַראָפּלאָדן מייַנע אַרייַנלאָגיר־דאַטן</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>אייַערע סעסיעס און זיכערהייט־געשעענישן ווי אַ JSON־טעקע.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>סעסיעס ווערן נישט רעקאָרדירט אויף דעם זייטל, דערפֿאַר האָט מען נישט געקענט אַרויסלאָגירן קיין אַנדער מכשיר. ענדערט אייַער פּאַראָל גלייך.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count אַנדערע סעסיעס זענען אַרויסלאָגירט געוואָרן. איצט ענדערט אייַער פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>קיין אַנדער מכשיר איז נישט געווען אַרייַנלאָגירט. איצט ענדערט אייַער פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>אַ דאַנק. די געשעעניש איז באַצייכנט ווי אייַערע.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>יענע געשעעניש דאַרף קיין ענטפֿער נישט.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>דער בלאַט איז אויסגעגאַנגען. גאָרנישט איז געענדערט געוואָרן; ביטע פּרוּווט נאָך אַ מאָל.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>פֿאַרזיכערן אייַער קאָנטע</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>אויב עפּעס דאָ זענט נישט געווען איר, לאָגירט אַרויס אַלע אַנדערע מכשירים, דערנאָך קלייַבט אויס אַ נייַע פּאַראָל. מכשירים וואָס בלייַבן אַרייַנלאָגירט מיט געדענקט מיך ווערן אויך אַרויסלאָגירט.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>יעדער מכשיר אַחוץ דעם ווערט אַרויסלאָגירט בייַ זייַן קומעדיקער בקשה. דערנאָך קלייַבט איר אויס אַ נייַע פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>יאָ, לאָגירט אַרויס די אַנדערע מכשירים</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>זענט דאָס געווען איר?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>יאָ, דאָס בין איך געווען</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ניין, פֿאַרזיכערט מייַן קאָנטע</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>פּאַראָל</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>פּאַראָל און קאָד פֿון דער צוויי־שטאַפּלדיקער אַרייַנלאָגירונג</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST־אינטערפֿייס</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP־אינטערפֿייס</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>איינמאָליקע אַרייַנלאָגירונג</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>אַרייַנלאָגירט איידער סעסיעס זענען פֿאַרשריבן געוואָרן</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>אַרייַנלאָגיר־באַריכט</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>ווער איז אַרייַנלאָגירט אויפֿן וועבזייַטל, ווי אָפֿט קאָנטעס לאָגירן זיך אַרייַן און פֿאַלן דורך, און אַרויסלאָגירן אַ באַניצער אומעטום. אַרבעט מיט יעדן סעסיע־באַהאַנדלער.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>די סעסיע איז אַרויסלאָגירט געוואָרן. דער מכשיר מוז זיך ווידער אַרייַנלאָגירן.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login איז אַרויסלאָגירט געוואָרן פֿון %count סעסיעס.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login האָט ניט געהאַט קיין לויפֿנדיקע סעסיע.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>קיין קאָנטע האָט ניט אָט דעם ID, באַניצער־נאָמען אָדער בליצפּאָסט־אַדרעס.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>דאָס איז די סעסיע וואָס איר ניצט. כּדי זי צו ענדיקן, לאָגירט זיך אויס.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>יענע סעסיע האָט זיך שוין געענדיקט.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>דער בלאַט איז אויסגעלאָפֿן. גאָרנישט איז געענדערט געוואָרן; פּרוּווט נאָך אַ מאָל.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>סעסיעס ווערן ניט פֿאַרשריבן אויף דעם וועבזייַטל (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>די טאַבעלע expuser_session פֿעלט</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>סעסיעס ווערן פֿאַרשריבן ווי נאָר זי איז געשאַפֿן: php update/common/scripts/6.0/createusersessiontable.php, אָדער די דאַטנבאַזע־דערהייַנטיקונג פֿון 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>איצט און הייַנט</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>לויפֿנדיקע סעסיעס</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>אַרייַנלאָגירטע באַניצער</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>אַרייַנלאָגירונגען הייַנט</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>דורכגעפֿאַלענע פּרוּוון הייַנט</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>אַרויסלאָגירן אַ באַניצער אומעטום</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>יעדע סעסיע פֿון דער קאָנטע ענדיקט זיך בייַ איר נעקסטער בקשה, אויך די וואָס ווערן געהאַלטן דורך „געדענקט מיך“. ניצט עס ווען אַ קאָנטע קען זייַן אין פֿאַלשע הענט; דערנאָך שטעלט צוריק איר פּאַראָל.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>באַניצער־ID, באַניצער־נאָמען אָדער בליצפּאָסט־אַדרעס</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>אַרויסלאָגירן אומעטום</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>איצט אַרייַנלאָגירט</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>די %limit לעצט געניצטע ווערן געוויזן.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>באַניצער</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>מכשיר</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>אַדרעס</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>אַרייַנלאָגירט</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>לעצט אַקטיוו</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>אַקציעס</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>דער דאָזיקער מכשיר</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ניט פֿאַרצייכנט</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>אַרויסלאָגירן</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>קיין סעסיע איז ניט אַרייַנלאָגירט.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>די לעצטע %days טעג</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>אַרייַנלאָגירונגען און דורכגעפֿאַלענע פּרוּוון ווערן געציילט פֿונעם באַניצער־רעוויזיע־זשורנאַל, וואָס איז ניטאָ; די נייַע סעסיעס יאָ.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>טאָג</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>אַרייַנלאָגירונגען</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>דורכגעפֿאַלענע פּרוּוון</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>נייַע סעסיעס</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>סעסיע־באַהאַנדלער: %handler. די סעסיעס ווערן געלייענט פֿון דער טאַבעלע expuser_session, דערפֿאַר אַרבעט דער באַריכט מיט יעדן באַהאַנדלער.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>חשודע אַקטיוויטעט אין די לעצטע %hours שעה</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>איין נעץ האָט נישט געקענט אַרייַנלאָגירן אין %accounts קאָנטעס (%count פּרוּוון)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>קאָנטע פֿאַרשלאָסן נאָך דורכגעפֿאַלענע אַרייַנלאָגירונגען</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count דורכגעפֿאַלענע אַרייַנלאָגירונגען אויף איין קאָנטע</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>אַרייַנלאָגירט פֿון %count לענדער אין איינעם</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>זיכערהייט־אַקטיוויטעט</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>סעסיעס</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>דורכגעפֿאַלענע אַרייַנלאָגירונגען ווערן געלייענט פֿון דעם באַניצער־אויפֿזיכט־לאָג, וואָס איז דאָ נישט פֿאַראַן.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>גאָרנישט חשודיק: קיין קאָנטע מיט איבערגע׳חזרטע דורכגעפֿאַלענע אַרייַנלאָגירונגען, קיין נעץ וואָס פּרוּווט עטלעכע קאָנטעס, קיין קאָנטע אַרייַנלאָגירט פֿון עטלעכע לענדער.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>זיכערהייט־וואָרענונג וועגן אייַער קאָנטע</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>עס איז געווען אַ זיכערהייט־געשעעניש אין אייַער קאָנטע %login: %event. אויב דאָס זענט ניט איר געווען, פֿאַרזיכערט אייַער קאָנטע אויף %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>אייַנריכטונג</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>בעט בייַם אינהאַלט פֿון דעם וועבזייַטל פּונקט די פֿעלדער וואָס אַ בלאַט דאַרף, אין איין בקשה. די סכעמע גייט נאָך די אינהאַלט־קלאַסן; יעדע אָנפֿרעג ווערט אויסגעפֿירט מיט די רעכט פֿון דעם באַניצער וואָס שיקט זי.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>די GraphQL API איז אויסגעלאָשן אין דעם וועבזייַטל־צוטריט. צינדט זי אָן אין graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>די GraphQL ביבליאָטעק (webonyx/graphql-php 15) איז נישט אינסטאַלירט.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>ענדפּונקט</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>ביבליאָטעק</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>סכעמע</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count אינהאַלט־קלאַסן, סכעמע %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>אָנפֿרעג</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>וואַריאַבלען (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>אויספֿירן</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>ענטפֿער</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>ווערט אויסגעפֿירט…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>דער ענטפֿער האָט נישט געקענט געלייענט ווערן.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>די אָנפֿרעג ווערט אויסגעפֿירט מיט אייַערע רעכט, אייַנגעשריבן מיט דער דאָזיקער סעסיע.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count אין %seconds סעק.</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>קיין גרענעץ</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>טיפֿקייט</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>קאָמפּליצירטקייט</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>עלעמענטן פּער רשימה</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (פֿאַרויסגעשטעלט %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>בקשות פּער באַניצער אָדער שליסל</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>בקשות פּער אַנאָנימער אַדרעס</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>אינטראָספּעקציע</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>בלויז אָפּגעהיטע אָנפֿרעגן</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>גרעסטער אָנפֿרעג</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes בייטן</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>גרעסטער אַרויפֿלאָד</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>עס איז נישטאָ קיין וועבזייַטל־צוטריט %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>די מוטאַציעס זענען אָנגעצונדן אין %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>די מוטאַציעס זענען אויסגעלאָשן אין %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>די GraphQL API איז אָנגעצונדן אין %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>די GraphQL API איז אויסגעלאָשן אין %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>מע האָט נישט געקענט שרייַבן די אייַנשטעלונגען: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>דער ענטפֿער־קאַש איז אויסגעליידיקט: %count ענטפֿערס אַוועקגענומען.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>צייכנט אָן דאָס קעסטל לעבן דעם אָנפֿרעג כּדי אים אַוועקצונעמען.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>מע האָט נישט געקענט אַוועקנעמען דעם אָנפֿרעג: אַן אָנפֿרעג וואָס קומט אין אַ טעקל פֿון PersistedQueryDirectoryList[] ווערט אַוועקגענומען צוזאַמען מיט זייַן טעקע.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>דער אָפּגעהיטער אָנפֿרעג איז אַוועקגענומען.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>מוטאַציעס</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>אָן</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>אויס</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>וועבזייַטל־צוטריטן</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>וווּ די API און אירע מוטאַציעס ענטפֿערן. די קנעפּלעך שרייַבן graphql.ini, אַזוי ווי ./console exp:graphql:enable און exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>וועבזייַטל־צוטריט</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ענדערן</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>אויסלעשן</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>מוטאַציעס אויס</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>מוטאַציעס אָן</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>אָנצינדן</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>גרענעצן</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] פֿון דעם וועבזייַטל־צוטריט.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>ענטפֿער־קאַש</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>די ענטפֿערס פֿון אָפּגעהיטע אָנפֿרעגן, געהאַלטן לויט די באַניצער־רעכט און אויסגעגאַנגען ווען אינהאַלט ווערט פֿאַרעפֿנטלעכט.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>צושטאַנד</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>געהאַלטענע ענטפֿערס</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count ענטפֿערס, %bytes בייטן</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>מאַקסימום געהאַלטן</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds סעק.</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>לעצטנס אויסגעגאַנגען</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ליידיקט אויס דעם ענטפֿער־קאַש</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>אָפּגעהיטע אָנפֿרעגן</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>אָפּגעהיט מיט ./console exp:graphql:persist, אָדער דורך קליענטן (אויטאָמאַטישע אָפּגעהיטע אָנפֿרעגן); גערופֿן לויטן נאָמען אָדער SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>נעמען</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>גרייס</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>וווּ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>אַוועקנעמען</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>מיטגעשיקט</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>אָפּגעהיט</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>יאָ, נעמט אַוועק דעם אָנפֿרעג</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>נאָך קיין אָפּגעהיטער אָנפֿרעג.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API־שליסלען</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>פּערזענלעכע API־שליסלען מיטן פֿאַרנעם graphql:read (אָנפֿרעגן) אָדער graphql:write (מוטאַציעס). מאַכט זיי און רופֿט זיי צוריק אויפֿן בלאַט API־צוטריט, אָדער מיט ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API־צוטריט</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>אַלע שליסלען</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>שליסל</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>נאָמען</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>באַזיצער</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>פֿאַרנעמען</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>לעצטנס געניצט</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>אַקטיוו</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>אויסגעגאַנגען</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>צוריקגערופֿן</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>קיין מאָל ניט</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>נאָך קיין API־שליסל מיט אַ GraphQL פֿאַרנעם.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>די GraphQL API איז אויסגעלאָשן אין דעם וועבזייַטל־צוטריט %siteaccess, וואָס ווייַזט דעם בלאַט; די טאַבעלע אונטן ווייַזט וווּ זי ענטפֿערט.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>פֿאַר דעם וועבזייַטל־צוטריט %siteaccess, וואָס ווייַזט דעם בלאַט.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>וועבהוקס</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>יעדע געשעעניש וואָס אַן ענדפּונקט בעט (publish, update, trash, delete, move, hide, reveal, mutation) ווערט אים געשיקט, אונטערגעשריבן, דורך דעם cronjob־טייל graphqlwebhooks. ./console exp:graphql:webhooks טוט דאָס זעלבע ווי דער אָפּטייל.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>געשעענישן</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>אַלע</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>יעדער וועבזייַטל־צוטריט</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>צעבראָכן</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>קיין סוד</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>וואַרטנדיק</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count אויפֿגעגעבן</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>לעצטע איבערגעבונג</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>שיקט אַ פּראָבע</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>יאָ, נעמט אַוועק דעם וועבהוק</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>נאָך קיין וועבהוק.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>לייגט צו אַ וועבהוק</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>צולייגן</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>לעצטע איבערגעבונגען</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>צייַט</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>רעזולטאַט</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>אַבאָנעמענטן</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>לעבעדיקע דערהייַנטיקונגען פֿאַר קליענטן: אַ שטראָם געשעענישן בייַ /api/graphql/subscribe, און אַ WebSocket (graphql-transport-ws) אויף Velocity. יעדע געשעעניש גייט נאָר צו אַבאָנענטן וואָס מעגן לייענען איר אינהאַלט.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>איצט אָפֿן</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>מאַקסימום אָפֿן</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total אין גאַנצן, %user פּער באַניצער, %address פּער אַדרעס</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>אַנאָנימע אַבאָנעמענטן</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>לענג פֿונעם שטראָם</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>מע האָט נישט געקענט צולייגן דעם וועבהוק: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>דער וועבהוק %name איז געענדערט; זייַן אונטערשרייב־סוד בלייבט.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>מע האָט נישט געקענט אָפּהיטן דעם אונטערשרייב־סוד (אייַנריכטונג &gt; סודות).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>דער וועבהוק %name איז צוגעלייגט. זייַן אונטערשרייב־סוד, געוויזן נאָר דאָס מאָל: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>עס איז נישטאָ קיין וועבהוק %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>דער וועבהוק %name האָט נישט געענטפֿערט: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>דער וועבהוק %name האָט געענטפֿערט %status אין %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>צייכנט אָן דאָס קעסטל לעבן דעם וועבהוק כּדי אים אַוועקצונעמען.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>דער וועבהוק %name איז אַוועקגענומען.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>די GraphQL API איז אויסגעלאָשן אין דעם וועבזייַטל־צוטריט.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>די GraphQL ביבליאָטעק איז נישט אינסטאַלירט.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>ניצט GET אָדער POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>דער גוף פֿון דער בקשה איז נישט קיין JSON אָביעקט.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables איז נישט קיין JSON אָביעקט.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions איז נישט קיין JSON אָביעקט.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>שיקט דעם אָנפֿרעג מיט POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>די בקשה האָט נישט קיין אָנפֿרעג.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>דער אָנפֿרעג איז לענגער ווי %max בייטן.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>אינערלעכער סערווער־פֿעלער</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node דאַרף פּונקט איינס פֿון id, remoteId, path און urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content דאַרף פּונקט איינס פֿון id און remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>דער קורסאָר פֿון after איז נישט געגעבן געוואָרן פֿון דער API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>עס איז נישטאָ קיין בילד־אַליאַס %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>דאָ ווערן אָנגענומען בלויז אָפּגעהיטע אָנפֿרעגן: שיקט די id פֿון אַן אָפּגעהיטן אָנפֿרעג.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>דער hash פֿון דעם אָפּגעהיטן אָנפֿרעג איז נישט קיין SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>דער hash פֿון דעם אָפּגעהיטן אָנפֿרעג שטימט נישט מיט דעם אָנפֿרעג.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>צו פֿיל בקשות: מאַקסימום %limit אין %window סעקונדעס. פּרוּווט ווידער אין %reset סעקונדעס.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>דער אָנפֿרעג איז %depth שיכטן טיף; מאַקסימום %max זענען דערלויבט.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>דער אָנפֿרעג האָט אַ קאָמפּליצירטקייט פֿון %complexity; מאַקסימום %max איז דערלויבט.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>די בקשה טאָר נישט לייענען די סכעמע (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search דאַרף אַ טעקסט אָדער אַ פֿילטער (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument איז נישט קיין דאַטע (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag דאַרף פּונקט איינס פֿון id, remoteId און path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout דאַרף פּונקט איינס פֿון id, identifier און urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>דאָס פֿעלד operations פֿון אַ מערטייליקער בקשה איז נישט קיין איין JSON בקשה.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>דאָס פֿעלד map פֿון אַ מערטייליקער בקשה איז נישט קיין JSON אָביעקט.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>די מערטייליקע בקשה האָט נישט קיין טעקע %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>אַ וועג אין פֿעלד map מוז זיך אָנהייבן מיט variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>די טעקע %name איז נישט אָנגעקומען אין גאַנצן (אַרויפֿלאָד־גרייז %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>די טעקע %name איז גרעסער ווי %max בייטן.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>מע האָט נישט געקענט קאָנטראָלירן די טעקע %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>מוטאַציעס זענען אויסגעלאָשן אין דעם וועבזייַטל־צוטריט (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>שיקט אַ מוטאַציע מיט POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>שרייבט זיך אייַן כּדי צו ענדערן אינהאַלט.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>דער API־שליסל האָט נישט קיין פֿאַרנעם %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>אַ מוטאַציע מיט אַ סעסיע דאַרף דעם פֿאָרעם־טאָקען פֿון דער סעסיע (קעפּל X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl איז אויסגעלאָשן: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] נעמט נישט קיין האָסט.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>די אַדרעס מוז זייַן אַן https אַדרעס.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>דער האָסט %host איז נישט אין graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>מע האָט נישט געקענט ברענגען די טעקע.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload איז בלויז אַן אייַנגאַב־טיפּ.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>אַ וואַריאַבל פֿון טיפּ Upload נעמט אַ טעקע פֿון אַ מערטייליקער בקשה.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>די ווייַטע id %remoteId איז שוין פֿאַרנומען.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>דער אינהאַלט האָט שוין אַן איבערזעצונג אויף %language: ניצט updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>גיט כאָטש איין פֿעלד.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>מע האָט נישט געקענט מאַכן קיין נייַע ווערסיע (דער אינהאַלט האָט צו פֿיל פּראָיעקטן).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ווערסיע %version איז נישט קיין פּראָיעקט.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent דאַרף פּונקט איינס פֿון id און nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>אַן אָרט קען נישט אַריבערגעפֿירט ווערן אונטער זיך אַליין.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>דער אינהאַלט האָט שוין אַן אָרט אונטער %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>מע האָט נישט געקענט אָפּהיטן דעם ווערט פֿון פֿעלד %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>עס איז נישטאָ קיין אינהאַלט־שפּראַך %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>עס איז נישטאָ קיין אינהאַלט־קלאַס %class אין דער סכעמע.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>דער אינהאַלט איז נישטאָ, אָדער איר טאָרט אים נישט לייענען.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>איר טאָרט דאָס נישט טאָן מיט דעם אינהאַלט.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>דער קלאַס %class האָט נישט קיין שרייַבלעך פֿעלד %field.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>דאָס פֿעלד %field איז געגעבן צוויי מאָל.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>דאָס פֿעלד %field נעמט אַ טעקע: שיקט זי ווי upload (אַ מערטייליקע בקשה).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>דאָס פֿעלד %field נעמט נישט קיין טעקע.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>דאָס פֿעלד %field דאַרף אַ ווערט.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>דער פֿאָרמאַט %format איז נאָר פֿאַר רייַך־טעקסט פֿעלדער; %field נעמט זייַן ווערט ווי ער איז (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>דאָס פֿעלד %field איז נייטיק.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>מע האָט נישט געקענט לייענען דעם HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content נעמט version נאָר מיט id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>דער פֿאָרויסקוק־טאָקען איז נישט גילטיק אָדער איז אויסגעגאַנגען.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>נישט קיין אָריגין (https://host אָדער https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>נישט קיין פֿאַרנעם פֿון דער GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>שיקט אַבאָנעמענטן צו /api/graphql/subscribe (אַ שטראָם געשעענישן אָדער אַ WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>די בקשה נעמט נישט אָן קיין אָפּעראַציע פֿונעם דאָקומענט.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>אַן אַבאָנעמענט בעט פּונקט איין פֿעלד.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>צו פֿיל אַבאָנעמענטן זענען אָפֿן; פּרובירט ווידער שפּעטער.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>איר האָט %max אָפֿענע אַבאָנעמענטן, דער מאַקסימום וואָס איז דערלויבט.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>אייַער אַדרעס האָט %max אָפֿענע אַבאָנעמענטן, דער מאַקסימום וואָס איז דערלויבט.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>אַבאָנעמענטן זענען אויסגעלאָשן אין דעם וועבזייַטל־צוטריט.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>שרייבט זיך אייַן כּדי צו אַבאָנירן (אַ טאָקען אָדער אַ פּערזענלעכער API־שליסל).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>שיקט מוטאַציעס צו /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>מע האָט ניט געקענט לייענען דעם סטאַטוס: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>די טאַבעלעס פֿון די מיגראַציעס עקזיסטירן נאָך ניט: ./console exp:upgrade --apply שאַפֿט זיי.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count מיגראַציעס זײַנען דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>א לויף גייט איצט, אָנגעהויבן פֿון %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>די אינסטאַלאַציע איז פֿאַרשלאָסן: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>וואַרטנדיק</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>יתומים</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>לעצטער לויף</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>נאָך קיינער ניט</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>אַלע מיגראַציעס</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>סימולירטער לויף</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>פּראָבע־לויף</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>די וואַרטנדיקע מיגראַציעס זײַנען געלאָפֿן אין א טראַנזאַקציע וואָס איז נאָכדעם צוריקגעדרייט געוואָרן: גאָרנישט איז ניט אָפּגעהיט געוואָרן. אונטן איז וואָס יעדע האָט געביטן אין דער דאַטנבאַזע.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>וואָס א לויף וואָלט איצט געטאָן. גאָרנישט ווערט געביטן: יעדע וואַרטנדיקע מיגראַציע ווײַזט די ענדערונגען וואָס זי וואָלט געמאַכט, און דער לויף וואָס ער וואָלט געטאָן פֿריִער און נאָכדעם.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>סימולירן</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>אויספֿירן</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>דער פּראָבע־לויף איז דורכגעפֿאַלן: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>א סימולאַציע דאַרף PostgreSQL אָדער SQLite, וועמענס סכעמע־ענדערונגען קען מען צוריקדרייען; אויף דער דאַטנבאַזע איז דער פּלאַן אונטן וואָס א לויף וואָלט געטאָן.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>די מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>מיגראַציע</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>מצב</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>וואָס זי וואָלט געטאָן</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>סימולאַציע: %result אין %ms מיליסעקונדעס</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>נאָך קיין מיגראַציע ניטאָ.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>פֿאַר און נאָך דעם לויף</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>אָפּבילד פֿריִער</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>גענומען, און צוריקגעשטעלט ווען א מיגראַציע פֿאַלט דורך</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>אויסגעשאַלטן</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>אָפּבילד נאָכדעם</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>גענומען ווען דער לויף איז געלונגען</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total מיגראַציעס: %pending וואַרטנדיק, %done פֿאַרטיק, %failed דורכגעפֿאַלן.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>מיגראַציע־געשיכטע</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>יעדער לויף מיט זײַן באַניצער, סבֿיבֿה, אָפּבילדער און וואָס איז קאָמיטירט, באַצייכנט און אַרויפֿגעשטופּט געוואָרן. א דורכגעפֿאַלענעם אָדער איבערגעריסענעם לויף קען מען ווײַטערפֿירן; א לויף מיט אן אָפּבילד גענומען פֿאַר אים קען מען צוריקנעמען.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>מע האָט ניט געקענט לייענען די לויפֿן: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>די טאַבעלעס פֿון די מיגראַציעס עקזיסטירן נאָך ניט: ./console exp:upgrade --apply שאַפֿט זיי.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ווײַזן</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>אַלע</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>לויפֿן</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>אָנגעהויבן</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>פֿון</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>אָפּבילדער</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>רעפּאָזיטאָריע</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>אַקציעס</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>פֿריִער</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>נאָכדעם</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>אַרויפֿשטופּן: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>ווײַטערפֿירן</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>צוריקדרייען</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>קיין לויף אין דעם מצב.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>אָנגעהויבן דאָ</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>לויפֿן, ווײַטערפֿירונגען און צוריקדרייונגען אָנגעהויבן אויף די זײַטן, מיט דעם באַריכט פֿון יעדן.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>וואָס</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>רעזולטאַט</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>צוריקדרייונג</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>צוריקדרייונג פֿון %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>לויף %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>וואָס דער לויף האָט געטאָן, זײַן רעקאָרד און זײַן זשורנאַל. א לויף אָנגעהויבן דאָ גייט ווײַטער אין הינטערגרונט ווען די זײַט ווערט פֿאַרמאַכט; עפֿנט ווידער די זײַט כּדי אים צו נאָכפֿאָלגן.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>ווײַטערפֿירן דעם לויף</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>צוריקדרייען דעם לויף</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>מע האָט ניט געקענט לייענען דעם רעקאָרד: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>פֿאָרשריט</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>אָנגעהויבן פֿון %user אום %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>מע קאָנטראָלירט דעם קאָד און נעמט אן אָפּבילד פֿאַר דעם לויף</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>מע פֿירט אויס %id (%index פֿון %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done פֿון %total פֿאַרטיק</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>די מיגראַציעס זײַנען געלאָפֿן; מע שטעלט צוריק דעם אָפּבילד אויב איינע איז דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>מע נעמט אן אָפּבילד נאָך דעם לויף, קאָמיטירט, באַצייכנט און שטופּט אַרויף</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>מע שטעלט צוריק דעם אָפּבילד</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>דער לויף האָט זיך געענדיקט. מע לאָדט זײַן באַריכט.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>מע האָט ניט געקענט נאָכפֿאָלגן דעם פֿאָרשריט. לאָדט איבער די זײַט כּדי צו זען ווי עס גייט מיטן לויף.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>די זײַט פֿאָלגט נאָך דעם לויף בשעת ער גייט.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>איבערלאָדן</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>באַריכט</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>צײַט</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms מיליסעקונדעס</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>וואָס דער לויף האָט אויסגעדרוקט ווי טעותים</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>רעקאָרד</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>סבֿיבֿה</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>קיינער</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>פֿאַרענדיקט</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>קאָמיט</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>צייכן</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>אַרויפֿשטופּן</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>מעלדונג</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>מיגראַציעס פֿון דעם לויף</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>מקור</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>לויף־זשורנאַל</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>בלויז דער סוף פֿונעם זשורנאַל ווערט געוויזן.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>לויפֿט</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>געענדיקט אָן א באַריכט</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>געלונגען</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>אָפּגעזאָגט</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>די דאַטנבאַזע איז ניט געווען דערגרייכבאַר</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>אינערלעכער טעות</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>א לויף גייט איצט</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind אָנגעהויבן פֿון %user אום %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>פֿאָלגט אים נאָך</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>די אינסטאַלאַציע איז פֿאַרשלאָסן</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>אן אַנדער לויף האַלט דעם שלאָס (אן אַפּגרייד אָדער א לויף אויף דער קאָנסאָל): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>פֿאַרטיק</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>וואַרטנדיק</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ניט נייטיק</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>אומבאַקאַנט</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>צוריקגעדרייט</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>צוגעלייגט</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>וואָלט געווען צוגעלייגט</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>צוריקגענומען</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>וואָלט געווען צוריקגענומען</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ניט אויסגעפֿירט</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>וואַרט אויף אן אַנדערער</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ענדערונג אָנגענומען</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ענדערונג וואָלט געווען אָנגענומען</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>סימולירט</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>סטאַטוס</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>געשיכטע</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>צוריקנעמען %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>א לויף ווערט צוריקגענומען צום אָפּבילד וואָס מע האָט גענומען פֿאַר אים, איין מיגראַציע מיט איר down(). צוריקשטעלן אן פֿריִערדיקן אָפּבילד איז פֿאַר מומחים. יעדעס לויפֿט אין הינטערגרונט ווי איר, נאָך אן אָפּבילד פֿונעם איצטיקן מצב.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>מע האָט ניט געקענט לייענען וואָס מע קען צוריקנעמען: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>א לויף</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>איין מיגראַציע</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>א פֿריִערדיקער אָפּבילד</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>באַשרײַבונג</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>יאָ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ניין</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>אָפּבילד</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>באַצייכענונג</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>גענומען</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>סאָרט</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>טיילן צו צוריקשטעלן</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>די דאַטנבאַזע</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>די שפּײַכלער־טעקעס (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>די באַשטימונגען (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>צוריקשטעלן די דאַטנבאַזע ברענגט זי צוריק צו דער צײַט פֿונעם אָפּבילד, אַרײַנגערעכנט די סעסיעס: מע קען אײַך נאָכדעם בעטן זיך ווידער אַרײַנצולאָגירן. אַלץ וואָס איז זינט דעמאָלט געביטן געוואָרן גייט פֿאַרלוירן; פֿריִער ווערט גענומען אן אָפּבילד פֿונעם איצטיקן מצב.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>איך ווייס וואָס דאָס שטעלט צוריק</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>שרײַבט ווידער אַרײַן די id פֿונעם אָפּבילד</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>יאָ, נעמט עס צוריק</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>אַנולירן</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>די לויפֿן מיט אן אָפּבילד גענומען פֿאַר זיי.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>אויסקלײַבן</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>נאָך קיין לויף מיט אן אָפּבילד ניטאָ.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>די צוגעלייגטע מיגראַציעס וואָס קענען זיך אַליין צוריקנעמען (זיי האָבן א down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>קיין צוגעלייגטע מיגראַציע האָט ניט קיין down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>פֿריִערדיקע אָפּבילדער (מומחים)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>נאָך קיין אָפּבילד ניטאָ.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>אויספֿירן די מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>דער לויף גייט אין הינטערגרונט ווי %user, און זײַן זײַט ווײַזט אים בשעת ער גייט. פֿאַר דער ערשטער מיגראַציע ווערט גענומען אן אָפּבילד פֿון דער אינסטאַלאַציע; ווען א מיגראַציע פֿאַלט דורך, שטעלט זיך אָפּ דער לויף און דער אָפּבילד ווערט צוריקגעשטעלט.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>פֿריִער א פּראָבע־לויף</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>מע האָט ניט געקענט לייענען דעם סטאַטוס: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>וואַרטנדיקע מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>זיי לויפֿן אין דער סדר. נעמט אַראָפּ דאָס צייכן פֿון איינער כּדי זי איבערצולאָזן, מיט די וואָס דאַרפֿן זי, אויף א שפּעטערדיקן לויף.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>פֿירט עס אויס</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>שאַלט אײַן דעם אויפֿהאַלטונג־מאָדוס בשעת עס לויפֿט.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>געביטן נאָכן צולייגן</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>די טעקעס זײַנען ניט די וואָס מע האָט צוגעלייגט. א לויף זאָגט זיי אָפּ סײַדן די ענדערונג ווערט אָנגענומען מיט א סיבה; זיי ווערן ניט ווידער אויסגעפֿירט, די נײַע קאָנטראָל־סומע ווערט פֿאַרשריבן און די סיבה אָפּגעהיט אינעם רעוויזיע־זשורנאַל.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>אָננעמען די ענדערונגען</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>פֿאַר וואָס</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>די פֿאָרויסגעשטעלטע זײַנען די זיכערע. יעדער קעסטל לאָזט איבער א שריט.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>קיין אָפּבילד</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>קיין אָפּבילד פֿאַר און נאָך דעם לויף: א דורכפֿאַל קען מען ניט אויטאָמאַטיש צוריקשטעלן.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>קיין צוריקשטעלן</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>נאָך א דורכפֿאַל, לאָזט די אינסטאַלאַציע אַזוי ווי דער דורכפֿאַל האָט זי איבערגעלאָזט.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>האַלטן ענדערונגען וואָס זײַנען ניט קאָמיטירט</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>אויספֿירן כאָטש באַשטימונגען, פֿאַרברייטערונגען אָדער דיזײַנען האָבן ענדערונגען וואָס זײַנען ניט קאָמיטירט; זיי גייען אַרײַן אינעם אָפּבילד.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>קיין קאָמיט</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>ניט קאָמיטירן די סטאַטוס־טעקע און דעם לויף־זשורנאַל (אויך קיין צייכן און קיין אַרויפֿשטופּן).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>קיין אַרויפֿשטופּן</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>קאָמיטירן און באַצייכענען, אָבער ניט אַרויפֿשטופּן.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>קיין צייכן</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>קאָמיטירן און אַרויפֿשטופּן, אָבער ניט באַצייכענען דעם לויף.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>יאָ, פֿירט איצט אויס די מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>קיין מיגראַציע וואַרט ניט.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>צוריק צום סטאַטוס</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>ענדערונגען אין דער אינסטאַלאַציע איין מאָל געשריבן ווי טעקעס (אינהאַלט, קלאַסן, ראָלעס, באַשטימונגען, סכעמע) און צוגעלייגט צו יעדער אינסטאַלאַציע פֿונעם זײַטל אין דער זעלביקער סדר. א לויף נעמט פֿריִער אן אָפּבילד, שטעלט אים צוריק ווען א מיגראַציע פֿאַלט דורך, און פֿאַרשרײַבט, קאָמיטירט און שטופּט אַרויף וואָס ער האָט געטאָן.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>אויספֿירן %count וואַרטנדיקע</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>איבערבליק</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>וואַרטנדיק</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>פֿאַרטיק</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>ניט נייטיק</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>דאַטנבאַזע</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>טראַנזאַקציעס: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>זײַטל־מיגראַציעס זײַנען אין migrations/, די פֿון א פֿאַרברייטערונג אין extension/&lt;name&gt;/migrations/. זיי לויפֿן לויט דער סדר פֿון זייערע נעמען און וואָס זיי דאַרפֿן.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>לעצטער לויף</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>די טעקע האָט זיך געביטן נאָכן צולייגן.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>נאָך קיין מיגראַציע ניטאָ. ./console exp:migration:generate --skeleton &lt;name&gt; --apply שרײַבט די ערשטע.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>די לעצטע לויפֿן</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>יעדער לויף</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>נאָך קיין לויף ניטאָ.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>סימולירן א לויף דאַרף די פּאָליטיק migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>א לויף גייט איצט: סימולירט ווען ער האָט זיך געענדיקט.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>אײַנריכטונג</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target איז ניט קיין לויף, ניט קיין מיגראַציע און ניט קיין אָפּבילד פֿון דער אינסטאַלאַציע.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>צייכנט פֿריִער אָן &quot;יאָ, נעמט עס צוריק&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>צוריקשטעלן א פֿריִערדיקן אָפּבילד איז פֿאַר מומחים: צייכנט אָן &quot;איך ווייס וואָס דאָס שטעלט צוריק&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>שרײַבט ווידער אַרײַן די id פֿונעם אָפּבילד: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>קלײַבט אויס כאָטש איין טייל צו צוריקשטעלן.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>דער לויף האָט ניט קיין אָפּבילד גענומען פֿאַר אים: נעמט צוריק זײַנע מיגראַציעס איינע נאָך דער אַנדערער, אָדער שטעלט צוריק א פֿריִערדיקן אָפּבילד.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>די מיגראַציע קען מען ניט צוריקנעמען אַליין: זי איז ניט צוגעלייגט, אָדער זי האָט ניט קיין down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>מע האָט ניט געקענט לייענען דעם פֿאָרמולאַר.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>קלײַבט אויס דעם לויף צו ווײַטערפֿירן.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>צייכנט פֿריִער אָן &quot;יאָ, פֿירט איצט אויס די מיגראַציעס&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>קלײַבט אויס כאָטש איין מיגראַציע.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>א מיגראַציע האָט זיך געביטן נאָכן צולייגן: נעמט אָן די ענדערונג מיט א סיבה, אָדער שטעלט צוריק די טעקע.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>גיט די סיבה פֿאַר וואָס די געביטענע מיגראַציעס ווערן אָנגענומען.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>די סיבה איז מאַקסימום 500 צייכנס.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>א לויף אָנגעהויבן דאָ גייט נאָך (%detail). וואַרט ביז ער ענדיקט זיך.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>אן אַנדער לויף האַלט דעם שלאָס פֿון דער אינסטאַלאַציע: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>דער לויף דאַרף אן אַרײַנלאָגירטן באַניצער וואָס עקזיסטירט.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>מע האָט ניט געפֿונען קיין php באַפֿעל־שורה פּראָגראַם. שטעלט migration.ini [AdminSettings] PhpCliPath אויף איר פֿולן וועג.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open איז אויסגעשאַלטן, דערפֿאַר קען מען דאָ ניט אָנהייבן קיין לויף. פֿירט אויס ./console exp:migration:migrate --apply אויפֿן סערווער.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>מע קען ניט שרײַבן אין דעם אָרדנער פֿון די לויפֿן: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>דער לויף איז אָנגעהויבן געוואָרן אָבער האָט ניט געמאָלדן זײַן פּראָצעס־id. קאָנטראָלירט %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>באַצייכנט וואָס צוריקצונעמען.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>מע האָט ניט געקענט אָנהייבן דעם לויף.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>רעקאָרדירן ענדערונגען</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>בשעת אַ רעקאָרדירונג לויפֿט, ווערט דאָס וואָס איר ענדערט אין דער אַדמיניסטראַציע אָדער אין דער זײַט־פּאַס פֿון דעם וועבזײַטל געהאַלטן ווי טריט פֿון אַ מיגראַציע: אינהאַלט, קלאַסן, ראָלעס און פּאָליסעס, אָפּטיילן, באַניצערס און גרופּעס, URL־צונעמען, באַשטימונגען. שטעלט זי אָפּ ווען איר זײַט פֿאַרטיק, קוקט וואָס זי האָט געכאַפּט, און שאַפֿט פֿון איר אַ מיגראַציע.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>מע האָט נישט געקענט לייענען די רעקאָרדירונגען: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>די טאַבעלעס פֿון די רעקאָרדירונגען עקזיסטירן נאָך נישט: לאָזט פֿריִער די אַפּגרייד (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>רעקאָרדירן איז אויסגעלאָשן אין migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>מײַנע ענדערונגען</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>רעקאָרדירט נאָר דאָס וואָס איר ענדערט, וווּ נאָר איר ענדערט עס, ביז איר שטעלט זי אָפּ.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>רעקאָרדירונג</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>זינט %time, ביז איצט %count ענדערונג(ען).</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>עטיקעט (אויף ברירה)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>ווײַזן וואָס זי האָט געכאַפּט</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>אָפּשטעלן די רעקאָרדירונג</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>אָנהייבן רעקאָרדירן מײַנע ענדערונגען</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>פֿענצטער פֿאַרן גאַנצן וועבזײַטל</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>רעקאָרדירט יעדע ענדערונג פֿון יעדן באַניצער און פֿון דער קאָנסאָל ביז מע מאַכט עס צו. בײַם עפֿענען ווערט איר געבעטן באַשטעטיקן אַז דאָס זײַט איר.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>אָפֿן</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>צומאַכן דעם פֿענצטער</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>עפֿענען דעם פֿענצטער פֿאַרן גאַנצן וועבזײַטל</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>רעקאָרדירונגען</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>דער קאָנטע פֿון אַ באַניצער (לאָגין, בליצפּאָסט, פּאַראָל) און די פֿעלדער פֿון באַניצער־קאָנטעס ווערן קיינמאָל נישט רעקאָרדירט.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ענדערונגען</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>גאַנצער וועבזײַטל</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>ענדערונגען פֿון %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>אָפּגעשטעלט</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>נאָך קיין רעקאָרדירונג.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>רעקאָרדירונג %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>אַלע רעקאָרדירונגען</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>די מיגראַציע וואָס וואָלט דערפֿון געוואָרן</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>די ענדערונגען צונויפֿגעשטעלט אין איין טריט פֿאַר יעדער געענדערטער זאַך: וואָס אַ מיגראַציע געשאַפֿן פֿון דער רעקאָרדירונג וואָלט געטאָן.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>מע וועט קענען שאַפֿן דערפֿון אַ מיגראַציע ווען די דאָזיקע אינסטאַלאַציע וועט האָבן די YAML־טריט־טיפּן %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>בכּיוון אויסגעלאָזט: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>גאָרנישט איז נישט רעקאָרדירט געוואָרן.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>וואָס זי האָט געכאַפּט</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count ענדערונג(ען), אין דער סדר ווי זיי זענען געמאַכט געוואָרן.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ענדערונג</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>טריט</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>שייך צו</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>נאָך %count: ‎./console exp:migration:record:show ווײַזט זיי אַלע.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>אַוועקוואַרפֿן</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>נעמט אַוועק די רעקאָרדירונג און דאָס וואָס זי האָט געכאַפּט. וואָס איז געענדערט געוואָרן, בלײַבט געענדערט.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>יאָ, אַוועקוואַרפֿן די דאָזיקע רעקאָרדירונג</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>רעקאָרדירט…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>אײַערע ענדערונגען ווערן רעקאָרדירט פֿאַר אַ מיגראַציע.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>יעדע ענדערונג אויף דעם וועבזײַטל ווערט רעקאָרדירט פֿאַר אַ מיגראַציע (פֿענצטער פֿאַרן גאַנצן וועבזײַטל).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>די רעקאָרדירונג פֿאַרן גאַנצן וועבזײַטל האָט זיך אָנגעהויבן: יעדע ענדערונג פֿון יעדן באַניצער ווערט רעקאָרדירט ביז איר שטעלט זי אָפּ.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>די רעקאָרדירונג האָט זיך אָנגעהויבן: אײַערע ענדערונגען ווערן רעקאָרדירט ביז איר שטעלט זי אָפּ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>רעקאָרדירונג אָפּגעשטעלט. וואָס זי האָט געכאַפּט בלײַבט ביז איר וואַרפֿט זי אַוועק.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>די רעקאָרדירונג און אירע געשעענישן זענען אַוועקגענומען.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>עס איז נישטאָ קיין רעקאָרדירונג %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>צייכנט פֿריִער אָן „יאָ, אַוועקוואַרפֿן די דאָזיקע רעקאָרדירונג“.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>נאָר דער באַניצער וואָס האָט רעקאָרדירט מעג אָפּשטעלן אַ סעסיע־רעקאָרדירונג.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>קלײַבט אויס די רעקאָרדירונג צו אָפּשטעלן.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>אַ רעקאָרדירונג פֿון דעם מין לויפֿט שוין.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>מע האָט נישט געקענט ענדערן די רעקאָרדירונג: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>שאַפֿן אַ מיגראַציע</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>נאָמען פֿון דער מיגראַציע (אויף ברירה)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>די מיגראַציע %file איז געשריבן. ענדערונגען וואָס קיין שריט קען נישט מאַכן זענען דערמאָנט אויבן אין דער טעקע, צו מאַכן מיט דער האַנט.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>קיין מיגראַציע איז נישט געשריבן: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>א לאנגער לויף אין טיילן</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ליידיקע פעלדער האלטן די סעטינגס פון migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>העכסטנס אזוי פיל מיגראציעס</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>קיין ווײַטערדיקע מיגראציע נאך (סעקונדעס)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>פויזע צווישן מיגראציעס (סעקונדעס)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>נידעריקערע פרייאריטעט (1 ביז 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>א פעלד פאר א לאנגן לויף איז א גאנצע צאל פון 1 (די פויזע: סעקונדעס פון 0 ביז 60, די פרייאריטעט: 1 ביז 19), אדער ליידיק.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>עס פארמאכט זיך אליין ביי %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>פארמאכן זיך אליין נאך (מינוטן, אפציאנעל)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>די מינוטן זענען א גאנצע צאל פון 1 ביז 44640 (31 טעג), אדער ליידיק.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>מיגראַציע %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>נײַע מיגראַציע</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>אַ YAML־מיגראַציע: שרײַבט זי ווי טעקסט אָדער בויט אירע טריט אין פֿאָרמולאַר, קאָנטראָלירט זי, און דערנאָך היט זי אויף אין אַ מיגראַציע־מאַפּע.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>די מיגראַציע איז שוין געלאָפֿן, דערפֿאַר ווערט זי נישט ווידער אויפֿגעהיט: אַ געענדערטע טעקע וואָלט אָפּגעוואָרפֿן געוואָרן פֿון דעם קאָנטראָלסומע־וועכטער. מאַכט די ענדערונג אין אַ נײַער מיגראַציע.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>דער וועבסערווער קען נישט שרײַבן די טעקע.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>די קאָמענטאַר־שורות אויבן זענען דער קאָפּ (description, author, requires, environments, engines). ווען מע לייגט צו אָדער מע ענדערט אַ טריט אין פֿאָרמולאַר, ווערט די מיגראַציע איבערגעשריבן: קאָמענטאַרן צווישן די טריט ווערן נישט אָפּגעהיט.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>נאָמען פֿון דער מיגראַציע</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>וווּהין זי גייט</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>דער וועבזײַטל</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML־טעקסט</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>קאָנטראָלירן</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>אויפֿהיטן</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>טריט</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>שליסלען</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>רעדאַגירן</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>אַריבערפֿירן אַרויף</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>אַריבערפֿירן אַראָפּ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>אַוועקנעמען</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>נאָך קיין טריט: לייגט צו איינעם מיט דעם פֿאָרמולאַר, אָדער שרײַבט זיי אין טעקסט.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>ענדערן טריט %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>צולייגן אַ טריט</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>דער פֿאָרמולאַר פֿון אַ טריט ווערט געמאַכט פֿון זײַן טריט־טיפּ: זײַנע שליסלען, וואָס יעדער נעמט אָן און די מאָדוסן צו וועלכע ער געהערט.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>טריט־טיפּ</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>ווײַזן איר פֿאָרמולאַר</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>דער טריט האָט שליסלען וואָס זײַן טיפּ קען נישט; זיי ווערן אויסגעלאָזט ווען מע ענדערט דעם טריט: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>מאָדוס</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>אין</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>נאָר אין %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>סטאַנדאַרט: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>באַדינגונגען, רעפֿערענצן און קאָמענטאַר</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>פּאָרן נאָמען=ווערט, אָפּגעטיילט מיט קאָמעס. די ווערטן פֿון דעם טריט: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>בייַשפּיל</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ענדערן דעם טריט</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>צולייגן טריט</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>וואָס exp:migration:check זאָגט: דער קאָפּ, דער דאָקומענט און יעדער טריט, קאָנטראָלירט פֿון זײַן טריט־טיפּ.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>די מיגראַציע שטייט אויס די קאָנטראָל.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>פֿאָרויסבליק</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>דער YAML ווי ער וועט ווערן אויפֿגעהיט.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>ווײַזן דעם YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML־מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>איז געלאָפֿן</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>עס זענען נאָך נישטאָ קיין YAML־מיגראַציעס.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>רעדאַקציע</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>אין די מיגראַציע־מאַפּעס איז נישטאָ קיין YAML־מיגראַציע %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>קלײַבט אויס אַ טריט־טיפּ.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>דער טריט איז צוגעלייגט. קאָנטראָלירט די מיגראַציע איידער איר היט זי אויף.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>דער טריט איז געענדערט. קאָנטראָלירט די מיגראַציע איידער איר היט זי אויף.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>קלײַבט אויס אַ טריט.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>דער טריט האָט נישט קיין פֿאָרמולאַר (אַ שלייף, אָדער אַ טריט־טיפּ וואָס די אינסטאַלאַציע האָט נישט): ענדערט אים אין טעקסט.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>קלײַבט אויס וווּהין די מיגראַציע גייט: דער וועבזײַטל אָדער אַן אַקטיווע פֿאַרברייטערונג.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file אויפֿגעהיט. מאַכט אַ פּראָבע־לויף איידער די מיגראַציע לויפֿט.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>נישט אויפֿגעהיט: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>ווײַט־סיסטעמען</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>די אַנדערע אינסטאַלאַציעס וווּהין די דאָזיקע ליפֿערט אויס אירע מיגראַציעס: אַן אויסליפֿערונג שיקט די מיגראַציעס צו די אויסגעקליבענע ווײַט־סיסטעמען און פֿירט זיי דאָרט אויס, אַלע אויף איין מאָל און סינכראָניזירט. אַ ווײַט־סיסטעם האַלט קיינמאָל ניט קיין סוד: איר צוטריט־באַווײַז באַצייכנט איינעם אין אייַנריכטונג &gt; סודות.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>נײַע ווײַט־סיסטעם</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>הילף</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>פֿאַרבינדונג־פּראָבע פֿון %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>די ווײַט־סיסטעמען</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>ביז %parallel ווײַט־סיסטעמען ווערן באַאַרבעט אין דער זעלבער צײַט; איין פֿאַזע מעג דויערן %timeout סעקונדעס אויף יעדער.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>ווײַט־סיסטעם</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>אַדרעס</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>צוטריט־באַווײַז</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>גרופּעס</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>באַשטימונגען צו פֿאַרריכטן</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>בלויז טעקעס (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH־שליסל</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>פּאַראָל</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>קיינער (דער SSH־אַגענט און די שליסלען פֿונעם האָסט)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>אויספּרובירן די פֿאַרבינדונג</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>אַן אויסליפֿערונג צו אַ גרופּע גייט צו יעדער ווײַט־סיסטעם פֿון איר.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>אויסליפֿערן צו ווײַט־סיסטעמען</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>נאָך קיין ווײַט־סיסטעם ניט אײַנגעריכט.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>ווײַט־סיסטעם %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>דאָ ווערט גאָרנישט געשיקט אָדער אויסגעפֿירט: אויפֿהיטן שרײַבט די באַשטימונגען אין settings/override/migration.ini.append.php. דער צוטריט־באַווײַז איז אַ נאָמען; זײַן ווערט בלײַבט אין אייַנריכטונג &gt; סודות אָדער אין דער סבֿיבֿה.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>קאָנטראָלירט די באַשטימונגען</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>די באַשטימונגען ווי אַרײַנגעשריבן, נאָך ניט אויפֿגעהיט.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>איבערקוקן</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>די באַשטימונגען זײַנען גילטיק. די דאָזיקע שורות וועלן געשריבן ווערן:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>טראַנספּאָרט</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>נאָר אַ נאָמען; דער ווערט בלײַבט אין אייַנריכטונג &gt; סודות</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>די שורות וואָס וועלן געשריבן ווערן</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>פֿאַרבינדונג</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>האָסט־שליסל</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. די ווײַט־סיסטעם</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ווי די ווײַט־סיסטעם הייסט און וועלכע סבֿיבֿה זי איז.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>אותיות, ציפֿערן, - און _, למשל production1. עס באַצייכנט די ווײַט־סיסטעם אין באַריכטן און אויף דער קאָנסאָל (--remotes=production1) און מע קען עס שפּעטער ניט ענדערן.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... אַן אויסליפֿערונג אין עטאַפּן גייט דורך די סבֿיבֿות אין דער סדר.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>אויף ברירה, צעטיילט מיט קאָמעס, למשל production. אַן אויסליפֿערונג צו אַ גרופּע גייט צו יעדער ווײַט־סיסטעם פֿון איר.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. די פֿאַרבינדונג</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ווי די טעקעס קומען אַהין, און וווּ די אינסטאַלאַציע געפֿינט זיך.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>איבער SSH, בלויז וואָס האָט זיך געענדערט, און אַן איבערגעריסענע איבערפֿירונג גייט ווײַטער. די בעסטע ברירה וווּ rsync איז אינסטאַלירט.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH מיט scp פֿאַר די טעקעס.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH מיט sftp פֿאַר די טעקעס.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>בלויז טעקעס: די מיגראַציעס ווערן געשיקט און צוריקגעלייענט, נאָר מע קען זיי דאָרט ניט אויספֿירן.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP איבער TLS; בלויז טעקעס.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>אַן אַנדער אינסטאַלאַציע אויף דעם סערווער, אין אַ מאַפּע.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>האָסט</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>אַ האָסט־נאָמען אָדער אַן אַדרעס, למשל node1.example.com. ניט פֿאַר local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>פּאָרט</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>ליידיק: 22 פֿאַר SSH, 21 פֿאַר FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>באַניצער</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>וועג</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>דער וואָרצל פֿון דער אינסטאַלאַציע דאָרט, למשל /var/www/site (פֿאַר FTP: דער וועג וואָס דער FTP־חשבון זעט).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP־באַפֿעלשורה</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>דער PHP CLI דאָרט: php, אָדער אַ פֿולער וועג ווי /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>די קאָנסאָל־סקריפּטן לויפֿן דאָרט ווי root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>בלויז ווען דער באַניצער פֿון דער ווײַט־סיסטעם איז root (זיי ווערן דעמאָלט אויסגעפֿירט מיט --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. דער צוטריט־באַווײַז</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ווי די דאָזיקע אינסטאַלאַציע לאָגירט זיך דאָרט אַרײַן. מע היט אויף בלויז אַ נאָמען.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>קיינער</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>דער SSH־אַגענט און די שליסלען פֿונעם באַניצער אונטער וועמען די דאָזיקע אינסטאַלאַציע לויפֿט (און שטענדיק פֿאַר local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>אַ פּריוואַטער שליסל, אָפּגעהיט ווי אַ סוד.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>אַ פּאַראָל, אָפּגעהיט ווי אַ סוד (FTP לאָגירט זיך אַרײַן דערמיט).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>נאָמען פֿונעם סוד</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>אַ סוד פֿון אייַנריכטונג &gt; סודות, למשל deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>אייַנריכטונג &gt; סודות</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>אָדער אַ סבֿיבֿה־וואַריאַבל</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>די וואַריאַבל פֿונעם סערווער־פּראָצעס וואָס האַלט עס, למשל DEPLOY_KEY (אויפֿגעהיט ווי env:DEPLOY_KEY). זי פֿאַרנעמט דעם אָרט פֿונעם סוד־נאָמען.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. דער האָסט־שליסל</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>אויף ברירה, פֿאַר SSH, sftp און rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>פֿינגערדרוק פֿונעם האָסט־שליסל</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ווי ssh-keygen -l דרוקט עס אויס. מיט אים מוז דער האָסט ווײַזן דעם דאָזיקן שליסל; אָן אים ווערט דער שליסל געלערנט בײַם ערשטן קאָנטאַקט.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. איבערקוקן</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>פּרובירט אויס די פֿאַרבינדונג מיט די באַשטימונגען אויבן, דערנאָך קוקט איבער די שורות וואָס וועלן געשריבן ווערן.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>אַוועקנעמען די דאָזיקע ווײַט־סיסטעם</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>אירע באַשטימונגען ווערן אַרויסגענומען פֿון settings/override/migration.ini.append.php. אויף דער ווײַט־סיסטעם ענדערט זיך גאָרנישט, און אירע אויסליפֿערונגען בלײַבן אין דער געשיכטע.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>יאָ, אַוועקנעמען די דאָזיקע ווײַט־סיסטעם</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>אויסליפֿערונגען</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>אַן אויסליפֿערונג שיקט די מיגראַציעס פֿון דער אינסטאַלאַציע צו די אויסגעקליבענע ווײַט־סיסטעמען און פֿירט זיי דאָרט אויס ווי %user, אַלע אויף איין מאָל און סינכראָניזירט: יעדע ווײַט־סיסטעם ווערט קודם קאָנטראָלירט, און ווען איינע פֿאַלט דורך, ווערט יעדע וואָס האָט זיי צוגעלייגט צוריקגענומען. זי גייט אין הינטערגרונט, און איר בלאַט ווײַזט יעדע ווײַט־סיסטעם בשעת זי גייט.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. די ווײַט־סיסטעמען</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>צייכנט אָן ווײַט־סיסטעמען, אַ גרופּע, אָדער ביידע.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>אויסליפֿערן אַהין</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. ווי</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>אויסליפֿערן</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>שיקן און אויספֿירן</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>די מיגראַציעס ווערן געשיקט, קאָנטראָלירט און אויסגעפֿירט אויף יעדער ווײַט־סיסטעם מיט איין געמיינזאַמער לויף־ID.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>בלויז איבערפֿירן</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>די טעקעס ווערן געשיקט און קאָנטראָלירט, גאָרנישט ווערט אויסגעפֿירט (דער איינציקער וועג פֿאַר אַ FTP־ווײַט־סיסטעם).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>אין עטאַפּן</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>עטאַפּ נאָך עטאַפּ אין דער סדר פֿון די סבֿיבֿות (dev, stage, beta, production ...): דער ערשטער עטאַפּ ווערט אויסגעליפֿערט, דערנאָך וואַרט אַ טויער ביז עמעצער באַשטעטיקט דעם ווײַטערדיקן. אַלץ אָדער גאָרנישט אין יעדן עטאַפּ.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>בלויז די דאָזיקע מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>אויף ברירה: מיגראַציע־IDs, צעטיילט מיט קאָמעס. ליידיק: יעדע מיגראַציע פֿון דעם וועבזײַטל און זײַנע עקסטענשאַנס.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>בלויז פֿאָרקאָנטראָל</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>יאָ, אויסליפֿערן איצט</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>די אויסליפֿערונגען וואָס האָבן עפּעס געשיקט אָדער אויסגעפֿירט, די נײַסטע ערשט (אַ פֿאָרקאָנטראָל היט ניט אויף קיין באַריכט).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>בלויז איבערפֿירן</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>אין עטאַפּן, %stages עטאַפּן</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ניט סינכראָניזירט</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>נאָך קיין אויסליפֿערונג ניטאָ.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>אויסליפֿערונג %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>יעדע ווײַט־סיסטעם פֿון דער אויסליפֿערונג מיט איר מצב. אַן אויסליפֿערונג וואָס איז דאָ אָנגעהויבן גייט ווײַטער אין הינטערגרונט ווען מע פֿאַרמאַכט דעם בלאַט; עפֿנט ווידער דעם בלאַט כּדי זי נאָכצופֿאָלגן.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>אַלע אויסליפֿערונגען</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>פֿאָרקאָנטראָל</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ווײַטערדיקער עטאַפּ</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>מע קאָנטראָלירט די באַשטימונגען און די צוטריט־באַווײַזן</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>פֿאָרקאָנטראָל: מע לייענט דעם מצב פֿון יעדער ווײַט־סיסטעם</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>מע שיקט די מיגראַציע־טעקעס</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>מע קאָנטראָלירט וואָס איז אָנגעקומען</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>מע פֿירט אויס די מיגראַציעס אויף יעדער ווײַט־סיסטעם</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>מע נעמט צוריק די ווײַט־סיסטעמען</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>די אויסליפֿערונג האָט זיך געענדיקט. מע לאָדט איר באַריכט.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>מע האָט ניט געקענט נאָכפֿאָלגן דעם פֿאָרשריט. לאָדט איבער דעם בלאַט כּדי צו זען ווי די אויסליפֿערונג שטייט.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>פֿאַזע</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>דער דאָזיקער בלאַט פֿאָלגט נאָך די אויסליפֿערונג בשעת זי גייט.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>סינכראָניזירט</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>עטאַפּן</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>עטאַפּ %stage וואַרט בײַ זײַן טויער</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>טויער %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>באַשטעטיקט פֿון %user אום %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>עטאַפּ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>געשיקטע טעקעס</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>קערנל־ווערסיע</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>צוגעלייגט: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>צו צולייגן: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>פֿאַזעס</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>טויער: עטאַפּ %stage פֿון %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>די עטאַפּן פֿאַר אים זענען אויסגעליפֿערט. קאָנטראָלירט זיי, דערנאָך באַשטעטיקט דעם ווײַטערדיקן עטאַפּ: זײַנע ווײַט־סיסטעמען ווערן ווידער קאָנטראָלירט און אויסגעליפֿערט, אַלץ אָדער גאָרנישט.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ווייַטער</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>יאָ, אויסליפֿערן איצט דעם ווײַטערדיקן עטאַפּ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>באַשטעטיקן</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>צוריקדרייען די דאָזיקע אויסליפֿערונג</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>יעדע ווײַט־סיסטעם וואָס האָט זי צוגעלייגט (%list) קערט זיך אום צום אָפּבילד וואָס איז גענומען געוואָרן פֿאַר איר לויף, אַלע אויף איין מאָל.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>יאָ, צוריקדרייען איצט די דאָזיקע אויסליפֿערונג</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>פּלאַנירט</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>איבערגעפֿירט</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>אויסגעליפֿערט</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>וואַרט בײַ אַ טויער</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>אויסגעקליבן</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>צוגעגרייט</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>גרייט</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>וואַרט אויף זײַן עטאַפּ</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>טעקעס געשיקט</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>קאָנטראָלירט</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>דורכגעפֿאַלן, האָט זיך אַליין צוריקגעשטעלט</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>אומגעענדערט</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ניט אויסגעליפֿערט</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ניט דערגרייכבאַר</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>די ווײַט־סיסטעם האָט געענטפֿערט.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>מע קען איצט ניט באַניצן די ווײַט־סיסטעם.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done פֿאַרטיק, %pending וואַרטנדיק, %failed דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>שלאָס</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>אַ לויף האַלט דאָרט דעם שלאָס</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>פֿרייַ</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage פֿון %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>קלײַבט אויס די ווײַט־סיסטעם צו אויספּרובירן.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>צייכנט קודם אָן „יאָ, אַוועקנעמען די דאָזיקע ווײַט־סיסטעם“.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>מע האָט ניט געקענט אַוועקנעמען די ווײַט־סיסטעם: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>מע האָט ניט געקענט אויפֿהיטן די ווײַט־סיסטעם: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>מע קען ניט לייענען די באַשטימונגען־טעקע: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>קלײַבט אויס כאָטש איין ווײַט־סיסטעם אָדער גרופּע.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>אַן אויסגעקליבענע ווײַט־סיסטעם איז מער ניט אין די באַשטימונגען. לאָדט איבער דעם בלאַט.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>צייכנט קודם אָן „יאָ, אויסליפֿערן איצט“.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>אַ FTP־ווײַט־סיסטעם קען ניט אויספֿירן קיין מיגראַציעס: קלײַבט אויס „בלויז איבערפֿירן“, אָדער לאָזט זי אויס.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>די מיגראַציעס צו אויסליפֿערן זענען מיגראַציע־IDs, צעטיילט מיט קאָמעס.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>די אויסליפֿערונג גייט נאָך. וואַרט ביז זי ענדיקט זיך.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>די דאָזיקע אויסליפֿערונג וואַרט ניט בײַ קיין טויער.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>קיין ווײַט־סיסטעם האָט ניט צוגעלייגט די דאָזיקע אויסליפֿערונג: עס איז גאָרנישט צו צוריקדרייען.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>צייכנט קודם אָן „יאָ, אויסליפֿערן איצט דעם ווײַטערדיקן עטאַפּ“.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>צייכנט קודם אָן „יאָ, צוריקדרייען איצט די דאָזיקע אויסליפֿערונג“.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>אַ ווײַט־סיסטעם מיט דער ID %id איז שוין פֿאַראַן.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>דער פּאָרט איז אַ נומער פֿון 1 ביז 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>די סבֿיבֿה איז אַ וואָרט פֿון אותיות, ציפֿערן, - און _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>אַ גרופּע איז אַ וואָרט פֿון אותיות, ציפֿערן, - און _ (ניט all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>מע קען איצט ניט לייענען דעם צוטריט־באַווײַז: %problem. היט אים אויף אין אייַנריכטונג &gt; סודות (אָדער שטעלט אײַן די וואַריאַבל) פֿאַר דער ערשטער אויסליפֿערונג.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>אַ FTP־ווײַט־סיסטעם באַקומט בלויז טעקעס: אַן אויסליפֿערונג צו איר איז „בלויז איבערפֿירן“, און אירע מיגראַציעס ווערן דאָרט אויסגעפֿירט מיט דער האַנט.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>די ווײַט־סיסטעם %id איז ניט אין settings/override/migration.ini.append.php; נעמט זי אַוועק דאָרט וווּ זי איז באַשטימט.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>אַרײַנלאָגירט איבער FTP און געלייענט index.php. דעם מיגראַציע־מצב פֿון אַ FTP־ווײַט־סיסטעם קען מען ניט לייענען.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>געענדערט</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>געשאַפֿן</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>נאָמען</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>קלאַס</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>אָפּטייל</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>שאַפֿער</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>לעצטער אינהאַלט</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>דער לעצט געשאַפֿענער און געענדערטער אינהאַלט פֿונעם גאַנצן וועבזייַטל, דער נייַסטער ערשט: וואָס באַזוכער האָבן אייַנגעשיקט, וואָס ווערט אָפּגעהאַלטן צו דורכקוקן, שׂרטוטים וואָס וואַרטן אויף זייער פֿאַרעפֿנטלעכונג. קלייַבט אויס עלעמענטן כּדי זיי באַפֿרייַען, אָפּהאַלטן, באַהאַלטן, ווייַזן, אַוועקנעמען אָדער אַריבערפֿירן אין אַן אַנדער אָפּטייל אָדער צושטאַנד.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>מען האָט ניט געקענט לייענען די רשימה: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>דאָס אָפּהאַלטן צו דורכקוקן איז נאָך ניט אייַנגעשטעלט, דערפֿאַר ווערט גאָרנישט אָפּגעהאַלטן און די אָפּהאַלט־אַקציעס ווערן ניט אָנגעבאָטן. דער דערהייַנטיקונג־שריט 6.0.15-review-hold שטעלט עס אייַן: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>פֿילטרירן די רשימה</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>פֿון</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ביז</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>דאַטע</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>געשאַפֿן (ערשטע פֿאַרעפֿנטלעכונג)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>אַלע</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>סטאַטוס</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>פֿאַרעפֿנטלעכט</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>שׂרטוט, קיינמאָל ניט פֿאַרעפֿנטלעכט</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>וואַרטנדיק (וואַרט אויף אַ באַשטעטיקונג אָדער אַ דאַטע)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>אין מיסטקאַסטן</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>אָפּגעהאַלטן צו דורכקוקן</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>אָפּגעהאַלטן</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>ניט אָפּגעהאַלטן</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>באַהאַלטן</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>קענטיק</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>אייַנגעשיקט דעם</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>יעדער וועבזייַטל־צוטריט</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>נאָר וואָס דער אויפֿזיכט־זשורנאַל האָט פֿאַרשריבן.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>איצט: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>אַ לאָגין אָדער אַ באַניצער־נומער.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>פֿילטער</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>אויסמעקן די פֿילטערס</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>עלעמענטן</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ביז %to פֿון %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>קיין עלעמענט</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(געלייענט אין %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>אַקציעס אויף די אויסגעקליבענע עלעמענטן</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>אויסקלייַבן אַלץ אויף דעם בלאַט</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count אויסגעקליבן</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>אַקציע</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>קלייַבט אויס אַן אַקציע</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>באַפֿרייַען פֿונעם אָפּהאַלט</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>אָפּהאַלטן צו דורכקוקן</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>באַהאַלטן</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>ווייַזן</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>אַרייַנלייגן אין מיסטקאַסטן</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>אויסמעקן</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>צוטיילן אַן אָפּטייל</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>צוטיילן אַ צושטאַנד</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>סיבה</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>נייטיק צום אָפּהאַלטן; ווערט אָפּגעהיט מיטן אָפּהאַלט און אינעם אויפֿזיכט־זשורנאַל.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>קלייַבט אויס אַן אָפּטייל</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>צושטאַנד</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>קלייַבט אויס אַ צושטאַנד</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>צולייגן צו די אויסגעקליבענע</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>יעדער עלעמענט ווערט געפּרוּווט לויט אייַערע אייגענע רעכט. אַרייַנלייגן אין מיסטקאַסטן און אויסמעקן בעטן אייַך צו באַשטעטיקן. מער ווי %count עלעמענטן לויפֿן אין הינטערגרונט.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>אויסקלייַבן</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>פֿאַרעפֿנטלעכונג</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>אייַנגעשיקט פֿון</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>אויסקלייַבן %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>נאָך ניט</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(אָן נאָמען)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>נומער %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>שׂרטוט</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>וואַרטנדיק</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>באַהאַלטן דורך זייַן עלטערן־עלעמענט</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>אָפּגעהאַלטן: נייַע אייַנשיקונג</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ווערסיע %version וואַרט</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ווערסיע %version אין אַרבעט</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>שׂרטוט, ווערסיע %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>ווערסיע %version פֿאַרעפֿנטלעכט</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>פּלאַנירט אויף %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>קיין אַדרעס</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ניט פֿאַרשריבן</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>גאָרנישט פּאַסט צו די פֿילטערס.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ווייַזן אַלץ</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>עס איז נאָך ניטאָ קיין אינהאַלט.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>פּער בלאַט</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ווייַזן %count עלעמענטן פּער בלאַט.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>דער אַדרעס און דער בלעטערער פֿון אַן אייַנשיקונג קומען פֿונעם אינדעקס פֿונעם אויפֿזיכט־זשורנאַל, וואָס איז דאָ ניט צוטריטלעך: די קאָלאָנע זאָגט „ניט פֿאַרשריבן“.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>דער אַדרעס און דער בלעטערער זענען די וואָס דער אויפֿזיכט־זשורנאַל האָט פֿאַרשריבן פֿאַרן עלעמענט (דאָס אויטאָמאַטישע אָפּהאַלטן פֿאַרשרייבט זיי שטענדיק; פֿאַרעפֿנטלעכן און שאַפֿן נאָר וווּ עס איז אייַנגעשאַלטן), אַזוי ווי זייַנע פּריוואַטקייט־אייַנשטעלונגען היטן זיי אָפּ.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count עלעמענטן</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>אויסמעקן נעמט אַוועק די עלעמענטן אויף אייביק, מיט אַלע זייערע ווערסיעס און איבערזעצונגען. מען קען עס ניט צוריקמאַכן.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>די עלעמענטן גייען אין מיסטקאַסטן, פֿון וואַנעט מען קען זיי צוריקשטעלן.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>יעדער עלעמענט ווערט געפּרוּווט לויט אייַערע אייגענע רעכט; אַן עלעמענט מיט אונטער־עלעמענטן בלייַבט ווי ער איז (נעמט אים אַוועק אין דער אינהאַלט־סטרוקטור). מען וועט אייַך בעטן באַשטעטיקן אַז דאָס זענט איר.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>דאָס לויפֿט אין הינטערגרונט: זייַן פֿאָרשריט־בלאַט עפֿנט זיך, און דער רעזולטאַט פֿאַר יעדן עלעמענט ווערט געוויזן ווען עס איז פֿאַרטיק.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>די אויסגעקליבענע עלעמענטן</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>און נאָך %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>אַנולירן</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>גאָרנישט איז געטאָן געוואָרן</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>סיבה: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>די אַקציע לויפֿט נאָך אין הינטערגרונט.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>איר פֿאָרשריט</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>די הינטערגרונט־אַקציע איז דורכגעפֿאַלן: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>פֿאַרטיק</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>אָפּגעוואָרפֿן</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>פֿאַר יעדן עלעמענט</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>עלעמענט</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>רעזולטאַט</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>פֿאַר וואָס</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>צוריק צו דער רשימה</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>אייַנריכטונג</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>גאָרנישט געטאָן</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>באַשטעטיקן</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>קלייַבט אויס אַן אַקציע.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>קלייַבט אויס כאָטש איין עלעמענט.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>קלייַבט אויס מאַקסימום 1000 עלעמענטן אויף אַ מאָל.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>זאָגט פֿאַר וואָס די עלעמענטן ווערן אָפּגעהאַלטן.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>קלייַבט אויס דעם אָפּטייל.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>קלייַבט אויס דעם צושטאַנד.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>מען האָט ניט געקענט לייענען דעם פֿאָרמולאַר.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>קאָנטראָל־ברעט</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>לעצטער אינהאַלט</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>מען האָט ניט געקענט לייענען די צאָלן: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>אָפּגעהאַלטן צו דורכקוקן</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>נייַ הייַנט</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>דאָס אָפּהאַלטן צו דורכקוקן איז נאָך ניט אייַנגעשטעלט (דער דערהייַנטיקונג־שריט 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>דער גאַנצער לעצטער אינהאַלט</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>איר טאָרט ניט דורכפֿירן מאָדעראַציע־אַקציעס (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>די מאָדעראַציע־אַקציע איז ניט פֿאַרענדיקט: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>מאָדעראַציע: %action אויף %count אָביעקטן</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done פֿון %total אָביעקטן: %ok געטאָן, %refused אָפּגעוואָרפֿן, %failed דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok געטאָן, %refused אָפּגעוואָרפֿן, %failed דורכגעפֿאַלן</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>עס עקזיסטירט מער ניט.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>עס האָט ניט קיין אָרט (ניט פֿאַרעפֿנטלעכט).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>איר טאָרט עס ניט באַהאַלטן (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>איר טאָרט עס ניט ווייַזן (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>עס איז שוין באַהאַלטן.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>עס איז ניט באַהאַלטן.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>באַהאַלטן.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>געוויזן.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>עס איז אין מיסטקאַסטן: ליידיקט אים אויס אָדער שטעלט עס דאָרט צוריק.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>אַ שׂרטוט וואָס איז קיינמאָל ניט פֿאַרעפֿנטלעכט געוואָרן קען ניט גיין אין מיסטקאַסטן: מעקט אים אויס.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>איר טאָרט עס ניט אויסמעקן (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>אויסגעמעקט.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>איר טאָרט עס ניט אַוועקנעמען (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>עס האָט אונטער־עלעמענטן: נעמט עס אַוועק אין דער אינהאַלט־סטרוקטור, וווּ זיי זענען אויסגערעכנט.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>עס איז ניט אַוועקגענומען געוואָרן (אַ אַרבעטס־גאַנג קען אָפּהאַלטן דאָס אַוועקנעמען).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>אַרייַנגעלייגט אין מיסטקאַסטן.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>דער אָפּטייל עקזיסטירט ניט.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>עס איז שוין אין דעם אָפּטייל.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>איר טאָרט ניט צוטיילן דעם אָפּטייל (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>דער אָפּטייל איז ניט צוגעטיילט געוואָרן.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>אָפּטייל צוגעטיילט.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>דער צושטאַנד עקזיסטירט ניט.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>עס איז שוין אין דעם צושטאַנד.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>איר טאָרט ניט צוטיילן דעם צושטאַנד (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>דער צושטאַנד איז ניט צוגעטיילט געוואָרן (אַ אַרבעטס־גאַנג קען אָפּהאַלטן די ענדערונג).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>צושטאַנד צוגעטיילט.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>אַזאַ אַקציע איז ניטאָ.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>דאָס אָפּהאַלטן צו דורכקוקן איז ניט אייַנגעשטעלט (דער דערהייַנטיקונג־שריט 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>זאָגט פֿאַר וואָס עס ווערט אָפּגעהאַלטן.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>עס איז שוין אָפּגעהאַלטן.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>איר טאָרט עס ניט אָפּהאַלטן (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>דער אָפּהאַלט איז ניט געשטעלט געוואָרן (אַ אַרבעטס־גאַנג קען אָפּהאַלטן די ענדערונג).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>אָפּגעהאַלטן.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>עס איז ניט אָפּגעהאַלטן.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>איר טאָרט עס ניט באַפֿרייַען (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>דער אָפּהאַלט איז ניט אָפּגעשאַפֿן געוואָרן (אַ אַרבעטס־גאַנג קען אָפּהאַלטן די ענדערונג).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>באַפֿרייַט; נאָך אַלץ באַהאַלטן: איר טאָרט עס ניט ווייַזן (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>באַפֿרייַט.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>אַלע צילן</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>לעצטע פֿאַרעפֿנטלעכונג</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>פֿאַרעפֿנטלעכט אומזיסט אַ סטאַטישע קאָפּיע פֿון אײַער וועבזײַטל אויף GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>פֿאַרעלטערטע זײַטן</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>סטאַטיש פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>סטאַטיש פֿאַרעפֿנטלעכן איז אויסגעשאַלטן.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ציל</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>מע האָט ניט געקענט לייענען די צילן: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>אַן אויפֿגאַבע לויפֿט</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>אויפֿבוי צו קאָנטראָלירן</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>באַהאַלטן דאָס</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>שאַפֿן אַ ציל</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>קיינמאָל</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>לייענען די אָנלערנונג</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added צוגעגעבן, %changed געביטן, %removed אַוועקגענומען</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes פֿון %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>נאָך %count ווערן ניט אויסגערעכנט.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages זײַטן געשריבן</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path איז %size, מער ווי דער האָסט דערלויבט פֿאַר איין טעקע.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % פֿון דער גרענעץ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds סעק.</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag איז די פֿאַרעפֿנטלעכונג וואָס דאָס וועבזײַטל האָט איצט.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: אויפֿגאַבע %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repository/ פֿאַר אַ GitHub־פּראָיעקט־וועבזײַטל; ליידיק פֿאַר אַן אייגענעם דאָמען אָדער אַ באַניצער־וועבזײַטל.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. דאָס וועבזײַטל</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. דער האָסט</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. אַרײַנלאָגירן אין דער רעפּאָזיטאָריע</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. די רעפּאָזיטאָריע</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. לינקען און באַזע־וועג</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. אײַער אייגענער דאָמען</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. וואָס דער אויפֿבוי אַנטהאַלט</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. ווען עס ווערט פֿאַרעפֿנטלעכט</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. איבערקוקן און אויפֿהיטן</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>אַ GitHub־פּראָיעקט־וועבזײַטל געפֿינט זיך אונטער /&lt;repository&gt;/; רעלאַטיווע לינקען אַרבעטן דאָרט און אומעטום אַנדערש.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>אַן אויפֿבוי ברענגט יעדע זײַט פֿון %site אַזוי ווי אַ באַזוכער וואָס איז ניט אַרײַנגעלאָגירט זעט זי, שרײַבט איבער די לינקען, קאָפּירט די טעקעס און שרײַבט דעם רעזולטאַט אין דער מאַפּע פֿונעם ציל. גאָרנישט ווערט פֿאַרעפֿנטלעכט ביז איר קאָנטראָלירט דעם אויפֿבוי און דריקט פֿאַרעפֿנטלעכן.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>אַ cron־אויסדרוק, למשל 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>אַ דיפּלוי־שליסל ווערט אָפּגעהיט ווי דער סוד %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>אַ דיפּלוי־שליסל לאָזט די דאָזיקע אינסטאַלאַציע אַרויפֿשטופּן צו איין רעפּאָזיטאָריע איבער SSH און ערגעץ ניט אַנדערש. זײַן פּריוואַטע העלפֿט בלײַבט אין אייַנריכטונג &gt; סודות; נאָר די עפֿנטלעכע העלפֿט ווערט געוויזן.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>אַ דיפּלוי־שליסל געמאַכט פֿאַר דעם ציל</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>אַ דיפּלוי־שליסל לאָגירט זיך אַרײַן איבער SSH: בײַט די git־אַדרעס אויף דער SSH־אַדרעס (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>אַן אויפֿגאַבע לויפֿט, אָנגעהויבן פֿון %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>אַן אויפֿגאַבע פֿון דעם ציל לויפֿט נאָך (%detail). וואַרט ביז זי ענדיקט זיך.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>אַן אויפֿגאַבע פֿון דעם ציל לויפֿט נאָך. וואַרט ביז זי ענדיקט זיך.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>אַ לינק פֿון דער זײַט /news/ צו דער זײַט /about-us/team וועט געשריבן ווערן ווי</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>מע האָט געמאַכט אַ נײַעם דיפּלוי־שליסל. לייגט צו זײַן עפֿנטלעכע העלפֿט צו דער רעפּאָזיטאָריע איצט.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>אַ זײַט וואָס טראָגט נאָך דעם אָפּשיילן נאָך אַלץ דיבאַג־אויסגאַבע, אַ פֿאָרמע־טאָקען אָדער אַ סעסיע־ID ווערט קיינמאָל ניט פֿאַרעפֿנטלעכט.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>אַ צוריקדרייונג איז פֿאַר מומחים: צייכנט אָן &quot;איך ווייס וואָס דאָס ענדערט&quot; און שרײַבט נאָך אַ מאָל דעם נאָמען פֿונעם צייכן.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>אַ וועבזײַטל מעג זײַן ביז %site, איין טעקע ביז %file, מיט אַרום 100 GB טראַפֿיק אַ חודש. אויף אַן אומזיסטן פּלאַן מוז די רעפּאָזיטאָריע זײַן עפֿנטלעך. GitHub Pages איז ניט באַשטימט פֿאַר קראָמען אָדער אַנדערע קאָמערציעלע טראַנזאַקציעס.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>אַ ציל איז איין וועבזײַטל פֿאַרעפֿנטלעכט אין איין git־רעפּאָזיטאָריע. דאָ ווערט גאָרנישט אויפֿגעבויט אָדער פֿאַרעפֿנטלעכט: אויפֿהיטן שרײַבט די באַשטימונגען אין settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>אַ ציל איז איין וועבזײַטל פֿאַרעפֿנטלעכט אויף איין אָרט, למשל אײַער עפֿנטלעך וועבזײַטל אויף GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>אַ טאָקען פֿון אייַנריכטונג &gt; סודות</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>אַן אַרבעטס־גאַנג (workflow) פֿון דער רעפּאָזיטאָריע פֿאַרעפֿנטלעכט עס.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>לייגט צו דעם עפֿנטלעכן שליסל צו דער רעפּאָזיטאָריע מיט שרײַב־רעכט. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, צייכנט אָן Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>צוגעגעבן</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>אַן אַנדער git־האָסט</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>אַן אַנדער פּראָצעס אַרבעט אויף דעם ציל: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>צוריק</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>באַזע־וועג</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>פֿריִער</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>אונטער אַ באַזע־וועג</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>צווײַג</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>צעבראָכענע לינקען</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>צעבראָכענע לינקען אינעם אויפֿבוי</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>אויפֿבוי</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>אויפֿבוי %id פֿון %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>אויפֿבויען %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>אויפֿבויען איצט</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>אויפֿבוי צו קאָנטראָלירן</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>פֿון</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>מיט דער האַנט, דאָ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>אַנולירן</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ענדערן</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>געביטן</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ענדערונגען</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>קאָנטראָלירט עס פֿריִער</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>קאָנטראָלירט די באַשטימונגען</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>קאָנטראָלירט וואָס דער אויפֿבוי ענדערט, קוקט אים אָן, דערנאָך פֿאַרעפֿנטלעכט אים אָדער וואַרפֿט אים אַוועק.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>קלײַבט אויס די פֿאַרעפֿנטלעכונג צו וועלכער צוריקצוגיין.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>קומט מיט אַ שפּעטערדיקער אויסגאַבע.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>קאָמיט</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>קאָמיטן</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>מאַכט אַ קאָמיט פֿונעם אויפֿבוי, באַצייכנט אים און שטופּט אים אַרויף צו %remote. אַ שטופּ ווערט קיינמאָל ניט געצוווּנגען; איר קענט שפּעטער צוריקגיין צו סײַ וועלכער פֿאַרעפֿנטלעכונג.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>פֿאַרגליכן מיט דער מאַפּע פֿריִער: %added צוגעגעבן, %changed געביטן, %removed אַוועקגענומען, %unchanged ניט געביטן.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>פֿאַרגליכן מיט דער לעצטער פֿאַרעפֿנטלעכונג.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>צוטריט־באַווײַז</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>אייגענער דאָמען</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>דיבאַג־אויסגאַבע, פֿאָרמע־טאָקענס, סעסיע־IDs און nonces ווערן שטענדיק אַרויסגענומען.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>דיפּלוי־שליסל</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>דיפּלוי־שליסל פֿון %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>אַוועקוואַרפֿן</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>אַוועקוואַרפֿן דעם אויפֿבוי</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>דאָמען</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>ליידיק: די אַדרעס פֿונעם וועבזײַטל. אַנדערש, אַן אינערלעכע אַדרעס פֿון דעם זעלביקן וועבזײַטל.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>געענדיקט</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>יעדער לינק הייבט זיך אָן מיטן באַזע־וועג.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>יעדע פֿאַרעפֿנטלעכונג איז אַ קאָמיט מיט אַ צייכן static/%id/&lt;n&gt;. צוריקגיין מאַכט אַ נײַעם קאָמיט מיט די טעקעס פֿון אַ פֿריִערדיקער פֿאַרעפֿנטלעכונג: די געשיכטע בלײַבט, קיין צייכן רירט זיך ניט און גאָרנישט ווערט געצוווּנגען.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>עקסטראַס</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>ברענגען די זײַטן פֿון</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>טעקע</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>טעקעס</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>פֿעלנדיקע טעקעס</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>טעקעס פֿון</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>טעקעס וואָס מע האָט ניט געקענט זאַמלען</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>פֿינגערדרוק</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>מאַפּע</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>פֿאַר אַן SSH־אַדרעס. דער שליסל ווערט געמאַכט נאָכן אויפֿהיטן; איר לייגט צו זײַן עפֿנטלעכע העלפֿט צו דער רעפּאָזיטאָריע.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>פֿאַר אַן https://־אַדרעס. GitHub: אַ fine-grained טאָקען מיט Contents לייענען און שרײַבן אויף דער רעפּאָזיטאָריע.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>פֿאַר מומחים. דאָס עפֿנטלעכע וועבזײַטל ענדערט זיך ווי נאָר דער שטופּ איז דורך.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>פֿאָרמעס</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>אומזיסטע האָסטינג פֿון אַ GitHub־רעפּאָזיטאָריע.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>פֿון דער צווײַג</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>git־אַדרעס</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages דערלויבט אַ וועבזײַטל פֿון %site און אַ טעקע פֿון %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>גרענעצן פֿון GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages פֿאַרעפֿנטלעכט די טעקעס ווי זיי זײַנען (נייטיק פֿאַר טעקעס וואָס הייבן זיך אָן מיט _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub באַדינט די צווײַג ווי זי איז אַרויפֿגעשטופּט. דער סטאַנדאַרט.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, אײַער אייגענער סערווער: סײַ וועלכע git־רעפּאָזיטאָריע.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>צוריקגיין צו אַ פֿריִערדיקער פֿאַרעפֿנטלעכונג</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>הילף</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>הילף מיטן וויזאַרד</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>באַהאַלטן זיי</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>געשיכטע</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>געשיכטע פֿון %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>האָסט</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>ווי GitHub Pages באַקומט דעם אויפֿבוי</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>איך האָב קאָנטראָלירט די ענדערונגען</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>איך ווייס וואָס דאָס ענדערט</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>עס איז אויסגעשאַלטן: גאָרנישט קען ווערן אויפֿגעבויט ביז עס איז אײַנגעשאַלטן.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>עס לויפֿט אין הינטערגרונט ווי %user; איר קענט פֿאַרמאַכן די זײַט.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>אויפֿגאַבע %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>אָפּגעהיט ווי דער סוד %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>סאָרט</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>לעצטע פֿאַרעפֿנטלעכונג</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>אויסלאָזן די זײַטן</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>אויסלאָזן די אָפּטיילן</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>לינקען</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>איבערגעשריבענע לינקען</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>לעבעדיק וועבזײַטל</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>אָנקוקן דעם אויפֿבוי</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>קליינע אותיות, ציפֿערן, _ און -, למשל github-public. עס גיט אַ נאָמען דער מאַפּע און די צייכנס (static/&lt;id&gt;/&lt;n&gt;) און קען שפּעטער ניט געביטן ווערן.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>מאַכן אַ נײַעם שליסל</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>שאַפֿן אַ ציל</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>מאַכן דעם שליסל</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>שאַפֿט פֿריִער די רעפּאָזיטאָריע אויפֿן האָסט; אַ ליידיקע איז גוט.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>מאַניפֿעסט</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>מעלדונג</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>רובֿ זײַטן</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>נאָמען</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>נאָמען פֿונעם טאָקען אין אייַנריכטונג &gt; סודות</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>נײַער ציל</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ווייַטער</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ניין</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>נאָך קיין קאָמיט ניטאָ.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>קיין שליסל איז ניט געמאַכט געוואָרן: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>מע האָט ניט געפֿונען קיין php באַפֿעל־שורה פּראָגראַם. שטעלט migration.ini [AdminSettings] PhpCliPath אויף זײַן פֿולן וועג.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>נאָך קיין צייכן ניטאָ.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>נאָך קיין ציל ניטאָ.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>קיינער</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>ניט אינעם אויפֿבוי.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>גאָרנישט איז נאָך ניט פֿאַרעפֿנטלעכט געוואָרן.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>גאָרנישט איז נאָך ניט פֿאַרעפֿנטלעכט געוואָרן: יעדע טעקע איז נײַ.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>אָנזאָגן</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>לויט אַ פּלאַן</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>אויף דער קאָנסאָל</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>אויפֿן סערווער: ./console exp:static:serve %id באַדינט עס אויף דעם זעלביקן אופֿן.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>איין וועג אויף אַ שורה, * פּאַסט צו סײַ וועלכן טייל: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>נאָר אַ נאָמען ווערט אָפּגעהיט מיטן ציל; דער טאָקען אָדער שליסל אַליין בלײַבט אין אייַנריכטונג &gt; סודות און באַווײַזט זיך קיינמאָל ניט אין אַ לאָג.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>נאָר וואָס די זײַטן דערמאָנען</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>נאָר מיט אַ טאָקען. env:NAME לייענט אַנשטאָט דעם אַ סבֿיבֿה־בײַטעוודיקע פֿונעם סערווער.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>עפֿענען דעם פֿאָרויסבליק</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>עפֿנט דעם אויפֿבוי ווי דער האָסט וועט אים באַדינען, פֿון דער מאַפּע פֿונעם ציל. דער לינק אַרבעט פֿאַר אײַך אַ שעה.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>אָפּציאָנעל. ליידיק: וואָס איז פֿאַרעפֿנטלעכט געוואָרן.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>אָפּציאָנעל. מיט אַ דאָמען ווערט דאָס וועבזײַטל באַדינט בײַ זײַן וואָרצל.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>אויסגאַבע</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>זײַטן</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>זײַטן פֿונעם ציל</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>אָפּגעוואָרפֿענע זײַטן</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>נאָכבאַאַרבעטונג</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>פֿאָרויסבליק</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>פֿאָרויסבליק און פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>פֿאָרויסבליק און פֿאַרעפֿנטלעכן %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>פֿאָרויסבליק פֿונעם אויפֿבוי</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>פֿאָרשריט</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>עפֿנטלעכע אַדרעס</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>עפֿנטלעכער שליסל</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>פֿאַרעפֿנטלעכט אַ סטאַטישע קאָפּיע פֿון אַ וועבזײַטל אויף GitHub Pages אָדער סײַ וועלכן git־האָסט: בויט עס אויף, קאָנטראָלירט די ענדערונגען, פֿאַרעפֿנטלעכט, און גייט צוריק צו אַ פֿריִערדיקער פֿאַרעפֿנטלעכונג ווען איר דאַרפֿט.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>פֿאַרעפֿנטלעכונג צו וועלכער צוריקצוגיין</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>פֿאַרעפֿנטלעכונגען</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>אַרויפֿשטופּן</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>לייענט די אָנלערנונג</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>פּראָטאָקאָל</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>אָפּגעוואָרפֿן</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>רעלאַטיוו</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>איבערלאָדן</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>אַוועקגענומען</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>פֿאַרבײַטן דעם שליסל: דער אַלטער הערט אויף צו אַרבעטן</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>באַריכט</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>באַריכט פֿונעם אויפֿבוי</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>רעפּאָזיטאָריע</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>איבערקוקן</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>איבערקוקן קאָנטראָלירט יעדע באַשטימונג און ווײַזט די שורות וואָס וועלן געשריבן ווערן. גאָרנישט איז נאָך ניט אָפּגעהיט.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>צוריקדרייען</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>צוריקדרייונג</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>אויפֿהיטן</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>פּלאַן</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>זוך־זײַט</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>אָפּטייל־IDs, אָפּגעטיילט מיט קאָמעס.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>שיקן זיי צום לעבעדיקן וועבזײַטל</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>באַשטימונג</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>באַשטימונגען</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>באַשטימונגען פֿון %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>אייַנריכטונג</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>אייַנריכטונג &gt; סודות</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>געוויזן אין רשימות, למשל &quot;עפֿנטלעך וועבזײַטל אויף GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>אַרײַנלאָגירן מיט אַ GitHub App קומט מיט דער GitHub־אינטעגראַציע.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>וועבזײַטל</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>וועבזײַטל צו פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>גרייס</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>גרייס און גרענעצן</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>גרייס פֿונעם אויפֿבוי</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>פֿאַרעלטערטע זײַטן</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>אָנגעהויבן</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>אָנגעהויבן פֿון %user אום %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>מצב</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>סטאַטיש פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>סטאַטיש פֿאַרעפֿנטלעכן איז אויסגעשאַלטן</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>סטאַטיש פֿאַרעפֿנטלעכן איז אויסגעשאַלטן.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>סטאַטיש פֿאַרעפֿנטלעכן איז אויסגעשאַלטן. שאַלט עס פֿריִער אײַן אין אייַנריכטונג &gt; סטאַטיש פֿאַרעפֿנטלעכן.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>סטאַטיש פֿאַרעפֿנטלעכן איז אײַנגעשאַלטן.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>טריט %step פֿון %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>טריט</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>אָפּשיילן</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>אויסשאַלטן</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>אײַנשאַלטן</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>אײַנשאַלטן סטאַטיש פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>צייכן</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>צייכנס</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ציל</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>מע קען שאַפֿן און ענדערן צילן, אָבער גאָרנישט ווערט אויפֿגעבויט אָדער פֿאַרעפֿנטלעכט ביז עס איז אײַנגעשאַלטן.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>זאָגט זוכמאַשינען וואָס צו לייענען.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>מע האָט ניט געקענט אַוועקוואַרפֿן דעם אויפֿבוי: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>דער אויפֿבוי איז דער זעלביקער ווי די לעצטע פֿאַרעפֿנטלעכונג: ס&apos;איז ניטאָ וואָס צו פֿאַרעפֿנטלעכן.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>דער אויפֿבוי איז אַוועקגעוואָרפֿן געוואָרן: די מאַפּע האַלט ווידער די לעצטע פֿאַרעפֿנטלעכונג.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>די פֿאָרשטעלונגען פּאַסן פֿאַר רובֿ וועבזײַטלעך.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>די מאַפּע האַלט אַן אויפֿבוי וואָס איז נאָך ניט פֿאַרעפֿנטלעכט; אַ נײַער אויפֿבוי פֿאַרבײַט אים.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>מע קען ניט שרײַבן אין דער מאַפּע פֿון די אויפֿגאַבעס: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>מע האָט ניט געקענט צוגרייטן די אויפֿגאַבע: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>מע האָט ניט געקענט אָנהייבן די אויפֿגאַבע.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>די אויפֿגאַבע האָט זיך געענדיקט. מע לאָדט איר באַריכט.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>די אויפֿגאַבע דאַרף אַן אַרײַנגעלאָגירטן באַניצער.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>די אויפֿגאַבע איז אָנגעהויבן געוואָרן אָבער האָט ניט געמאָלדן איר פּראָצעס־ID. קאָנטראָלירט %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>דער שליסל</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>די גרעסטע טעקע: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>די שורות וואָס וועלן געשריבן ווערן</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>די רשימה פֿון זײַטן פֿאַר זוכמאַשינען; דאַרף די עפֿנטלעכע אַדרעס.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>די זײַטן ווערן געבראַכט אַזוי ווי אַ באַזוכער וואָס איז ניט אַרײַנגעלאָגירט זעט זיי. אַדמיניסטראַציע־ און רעדאַקטירונג־siteaccesses ווערן קיינמאָל ניט אָנגעבאָטן.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>מע האָט ניט געקענט נאָכגיין דעם פֿאָרשריט. לאָדט איבער די זײַט צו זען ווי די אויפֿגאַבע גייט.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>די עפֿנטלעכע העלפֿט פֿונעם שליסל:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>דער וואָרצל פֿון דער צווײַג</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>דער סודות־שפּײַכלער איז נאָך ניט אײַנגעריכט (./console exp:upgrade --apply שאַפֿט זײַן טאַבעלע), דערפֿאַר קען מען ניט אָפּהיטן קיין שליסל.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>דער סערווער לאָגירט זיך אַרײַן אַליין (מיט זײַן אייגענעם SSH־שליסל אָדער צוטריט־העלפֿער), אָדער די רעפּאָזיטאָריע איז אויף דעם סערווער.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>מע האָט ניט געקענט שרײַבן די באַשטימונג: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>די באַשטימונגען זײַנען גילטיק. די דאָזיקע שורות וועלן געשריבן ווערן:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>מע קען ניט לייענען די באַשטימונגען־טעקע: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>דאָס וועבזײַטל גייט צוריק צו די טעקעס פֿון יענער פֿאַרעפֿנטלעכונג; אַן אויפֿבוי וואָס איז נאָך ניט פֿאַרעפֿנטלעכט מוז פֿריִער פֿאַרעפֿנטלעכט אָדער אַוועקגעוואָרפֿן ווערן.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>דעם וועבזײַטלס אייגענע זײַט פֿאַר אַדרעסן וואָס עקזיסטירן ניט.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>מע האָט ניט געקענט אויפֿהיטן דעם ציל: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>דער ציל לאָגירט זיך נאָך ניט אַרײַן מיט דעם שליסל: קלײַבט אויס &quot;אַ דיפּלוי־שליסל געמאַכט פֿאַר דעם ציל&quot; אין זײַנע באַשטימונגען.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>מע האָט ניט געקענט לייענען די צילן: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>ס&apos;איז נאָך ניטאָ קיין אויפֿבוי צו קאָנטראָלירן.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>די דאָזיקע אינסטאַלאַציע האָט ניט קיין פֿראָנט־siteaccess. אַדמיניסטראַציע־ און רעדאַקטירונג־siteaccesses ווערן קיינמאָל ניט פֿאַרעפֿנטלעכט.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>די זײַט גייט נאָך דער אויפֿגאַבע בשעת זי לויפֿט; זי לויפֿט ווײַטער אין הינטערגרונט ווען די זײַט ווערט פֿאַרמאַכט.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>דער ציל האָט נאָך ניט קיין דיפּלוי־שליסל.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>דער ציל איז דאָ נאָך ניט אויפֿגעבויט געוואָרן.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>דער ציל האָט איינעם.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>וואַרפֿט אַוועק דעם אויפֿבוי: די מאַפּע האַלט ווידער די לעצטע פֿאַרעפֿנטלעכונג. דאָס לעבעדיקע וועבזײַטל ענדערט זיך ניט.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>צייכנט פֿריִער אָן &quot;איך האָב קאָנטראָלירט די ענדערונגען&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>צײַט</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>אויסלייזער</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>שרײַבט נאָך אַ מאָל דעם נאָמען פֿונעם צייכן</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>ניט געביטן</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>וועבהוק</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>וואָס</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>וואָס ענדערט זיך</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>וואָס יעדע טעקע איז; שטענדיק געשריבן.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>וואָס די אויפֿגאַבע האָט געטאָן און איר פּראָטאָקאָל. אַן אויפֿגאַבע וואָס איז דאָ אָנגעהויבן געוואָרן לויפֿט ווײַטער אין הינטערגרונט ווען די זײַט ווערט פֿאַרמאַכט.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>וואָס די אויפֿגאַבע האָט אויסגעדרוקט ווי גרײַזן</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>וואָס די זײַטן דערמאָנען, און יעדעס בילד פֿון פֿאַרעפֿנטלעכטן אינהאַלט</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ווען</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>ווען אַ פֿאַרעפֿנטלעכונג פֿאַלט דורך</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>ווען אַ פֿאַרעפֿנטלעכונג געלינגט</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>ווען אינהאַלט ווערט פֿאַרעפֿנטלעכט</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>וווּהין לינקען צו וואָס די קאָפּיע האַלט ניט פֿירן (דאָס זוכן, דאָס אַרײַנלאָגירן).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>פֿון וואַנען די סטאַטישע קאָפּיע ווערט באַדינט.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>וועלכעס וועבזײַטל ווערט פֿאַרעפֿנטלעכט, און ווי דער ציל הייסט.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>אַרבעט אונטער סײַ וועלכן וועג. דער סטאַנדאַרט.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>געשריבן ווען אַן אייגענער דאָמען איז באַשטימט.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>יאָ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>איר קענט שטענדיק אויפֿבויען און פֿאַרעפֿנטלעכן מיט דער האַנט דאָ און אויף דער קאָנסאָל.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>נאָר אַ נאָמען; דער ווערט בלײַבט אין אייַנריכטונג &gt; סודות</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>אונטער %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>געענדיקט אָן אַ באַריכט</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>עקסטרע</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>טעקע</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, אָדער main מיט דער מאַפּע docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git־האָסט</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (מיט אַ טאָקען) אָדער git@github.com:owner/repo.git (מיט אַ דיפּלוי־שליסל); קיינמאָל ניט קיין פּאַראָל אָדער טאָקען דערין.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, פֿאַר דער זײַטן־מאַפּע און די קאַנאָנישע לינקען.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>בילד</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>קיינמאָל</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ניין</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>קיין דרויסנדיקע רעפּאָזיטאָריע</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>גאָרנישט: די קאָמיטן בלײַבן אין דער מאַפּע</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>גאָרנישט: גאָרנישט האָט זיך געביטן</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ניט אַרויפֿגעשטופּט</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>גאָרנישט האָט זיך געביטן</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>זײַט</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>דורכגעגאַנגען</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open איז אויסגעשאַלטן, דערפֿאַר קען מען דאָ ניט אָנהייבן קיין אויפֿגאַבע. ניצט ./console exp:static:build אויפֿן סערווער.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>פֿאַרעפֿנטלעכונג</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>פֿאַרעפֿנטלעכט</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>אַרויפֿשטופּן וואַרט</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>אַרויפֿגעשטופּט</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>אָפּגעוואָרפֿן</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>רעלאַטיוו</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>צוריקדרייונג</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>צוריקגעדרייט</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>לויפֿט</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>נאָר די מאַפּע</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: געשריבן אין דער טעקע CNAME. ווײַזט די DNS פֿונעם דאָמען אויפֿן האָסט ווי ער דערקלערט; HTTPS קען נעמען אַ ווײַלע ביז עס הייבט זיך אָן.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>יאָ, נאָך ניט פֿאַרעפֿנטלעכט</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>אַ GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>אַ וואָרקפֿלאָו פֿון דער רעפּאָזיטאָריע פֿאַרעפֿנטלעכט עס. דער בוי שרייבט דעם וואָרקפֿלאָו־טעקע; לאָזט דעם אָרדנער ליידיק.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>נאָכן אָפּהיטן אַ ציל מיט אַ GitHub־רעפּאָזיטאָריע און אַ טאָקען אָדער GitHub App, קען דער שריט שאַפֿן די רעפּאָזיטאָריע און אָנצינדן GitHub Pages. אַניט, שאַפֿט קודם די רעפּאָזיטאָריע אויף GitHub; אַ ליידיקע איז גוט.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>צווײַג אָדער GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>קאָנטראָלירט דעם DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>שאַפֿט די רעפּאָזיטאָריע אויב זי עקזיסטירט ניט</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>שאַפֿט די רעפּאָזיטאָריע אויף GitHub און צינדט אָן GitHub Pages אין אירע אײַנשטעלונגען (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>שאַפֿט די רעפּאָזיטאָריע %repo ווען זי פֿעלט (ווען מען בעט), צינדט אָן GitHub Pages פֿון דער צווײַג אָדער פֿון GitHub Actions ווי אָפּגעהיט, און שטעלט אײַן דעם אייגענעם דאָמען און HTTPS. ניצט די אָפּגעהיטע אײַנשטעלונגען: היט קודם אָפּ די ענדערונגען.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>פּרטים אויף GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>גיט קודם אַרײַן דעם אייגענעם דאָמען.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>יעדער אַרויפֿשטופּ ווערט קודם קאָנטראָלירט קעגן די גרענעצן.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>פֿאַר אַ https:// אַדרעס אויף GitHub. דער App וואָס איז אײַנגעשטעלט פֿאַר דער אינסטאַלאַציע לאָגירט זיך אַרײַן; ער דאַרף דעם אינסטאַלאַציע־id.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages באַדינט אַ פּריוואַטע רעפּאָזיטאָריע נאָר מיט אַ באַצאָלטן פּלאַן.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: אַ סובדאָמען (www.example.com) דאַרף אַ CNAME־רעקאָרד צו &lt;owner&gt;.github.io; אַ הויפּט־דאָמען (example.com) די A־רעקאָרדן %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>אינסטאַלאַציע־id פֿון דעם GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>לעצטער Pages־בוי</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>גרענעצן און באַדינגונגען</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>נייטיק פֿאַר GitHub Pages מיט אַן אומזיסטן פּלאַן.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>אויף GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>נאָר מיט אַ GitHub App: די נומער אינעם סוף פֿונעם אַדרעס פֿון דעם App׳ס אינסטאַלאַציע אויף GitHub. דער App אַליין ווערט באַשטימט אין staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>פּריוואַט</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>עפֿנטלעך</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>היט קודם אָפּ דעם ציל מיט אַ GitHub־רעפּאָזיטאָריע און אַ טאָקען אָדער GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>שטעלט אײַן די רעקאָרדן בײַם צושטעלער פֿונעם דאָמען:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>אײַנשטעלן אויף GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>דער DNS פֿון %domain ווײַזט נאָך ניט אויף GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>דער DNS פֿון %domain ווײַזט אויף GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>די GitHub־אינטעגראַציע איז ניט פֿאַראַן דאָ: %problem. פֿאַרעפֿנטלעכן אין דער צווײַג אַרבעט סײַ ווי; צינדט אָן GitHub Pages אין די אײַנשטעלונגען פֿון דער רעפּאָזיטאָריע.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>די GitHub־שריט זענען ניט פֿאַראַן פֿאַר דעם ציל: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>דער מצב פֿון GitHub Pages ווערט געוויזן מיט אַ טאָקען אָדער GitHub App ווי דער צוטריט־באַווײַז.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>ניצט אײַער אייגענעם דאָמען</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>וואָס צו קלײַבן: טאָקען, דיפּלוי־שליסל אָדער GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>מיט אַ GitHub־רעפּאָזיטאָריע און אַ טאָקען אָדער GitHub App קען דער וויזאַרד פֿאַר אײַך שאַפֿן די רעפּאָזיטאָריע, אָנצינדן GitHub Pages און אײַנשטעלן דעם דאָמען (שריט 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ווערט געבויט</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>געבויט</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>פֿון GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>פֿון דער צווײַג %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>נאָך קיינער ניט</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ניט געפֿונען</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>אויסגעלאָשן</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>פּריוואַט</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>עפֿנטלעך</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>אין ריי</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>אומבאַקאַנט</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count אויף %pages בלעטער:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>אַ .gz (און .br) לעבן יעדער טעקסט־טעקע, פֿאַר האָסטס וואָס באַדינען זיי.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>אַ קליין בלאַט פֿאַר יעדע אַלטע אַדרעס און צונעמען פֿון אַ בלאַט, כּדי אַלטע לינקס זאָלן ווײַטער אַרבעטן.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>ווערט תּמיד געשריבן ווען GitHub Actions ליפֿערט די וועבזײַטל.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>אַ SPDX־ID ווי CC-BY-4.0, אָדער דער טעקסט אַליין.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>קאָרב</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>רופֿן צום סערווער</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>הערות</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>פֿאָרמעס וואָס זאַמלען אינפֿאָרמאַציע</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions אַרבעטס־לויף</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>ווייניקער ליידיקע ערטער און קיין הערות אין די בלעטער.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>לייסענס פֿון דעם אינהאַלט</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>אַרײַנלאָגירן</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>אַנדערע פֿאָרמעס</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>ווײַטערפֿירן־בלעטער</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>ווײַטערפֿירן־בלעטער: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>זוך</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>זוך־אינדעקס: %pages בלעטער אין %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>סטיל־בלעטער און סקריפּטן מיט נעמען לויט דער האַש פֿון זייער אינהאַלט, כּדי בראַוזערס זאָלן זיי האַלטן.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>די געביטענע בלעטער, עטלעכע מינוטן נאָך דער לעצטער ענדערונג (דער cronjob טייל staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>דער לייסענס פֿון דעם אינהאַלט, פֿון דעם פֿעלד אונטן.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>די גאַנצע וועבזײַטל, אין די צײַטן פֿון דעם פּלאַן (דער cronjob טייל staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>די טיילן פֿון די בלעטער דאַרפֿן אַ סערווער; יעדער האָט באַקומען אַן אַלטערנאַטיוו. קאָנטראָלירט זיי איידער איר פֿאַרעפֿנטלעכט.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>וואָס אַרבעט נישט סטאַטיש</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>וואָס דער רעפּאָזיטאָריע איז, פֿאַר ווער עס עפֿנט עס אויפֿן האָסט.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>אַרויסגעלאָזט</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>דער רעזערוו־טעקסט</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>דער פֿאָרם־ענדפּוינט פֿון דער לעבעדיקער וועבזײַטל</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>די לעבעדיקע וועבזײַטל</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>די זוך־בלאַט פֿון דער קאָפּיע</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>די פֿאָרם האָט נישט געקענט ווערן געשיקט.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>דאַנק: די פֿאָרם איז געשיקט געוואָרן.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>די פֿאָרם איז נישט אָנגענומען געוואָרן: קאָנטראָלירט וואָס איר האָט אַרײַנגעשריבן און שיקט נאָך אַ מאָל.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>אַוועקנעמען לינקען צו זײַטן וואָס די קאָפּיע האָט נישט</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>אַוועקנעמען לינקען אין דער אַדמיניסטראַציע</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>זייער טעקסט בלײַבט. בילדער, פֿאָרמען און לינקען צו אַנדערע זײַטלעך ווערן קיינמאָל נישט אַוועקגענומען.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ווערסיע</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>וועבזייַטל־צוטריטן צו פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>וועבזייַטל־צוטריט</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>בײַם וואָרצל</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>קיין צוטריט בײַם וואָרצל: יעדער איז אין זײַן טעקע, און דער וואָרצל פֿאַרבינדט צו זיי</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>וועבזייַטל־צוטריטן</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>צייכנט אָן איין וועבזייַטל־צוטריט, אָדער עטלעכע וואָס טיילן איין באַלעבאָס דורך זייער URI־פּרעפֿיקס. דער בײַם וואָרצל ווערט דאָרט סערווירט, די אַנדערע אין דער טעקע פֿון זייער פּרעפֿיקס (/ger/); לינקען צווישן זיי בלײַבן אין דער קאָפּיע. אַדמיניסטראַציע־צוטריטן ווערן קיינמאָל נישט פֿאָרגעלייגט.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>סטאַטישע פּובליקירונג פֿון %target אויף %site איז דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>סטאַטישע פּובליקירונג פֿון %target אויף %site איז געלונגען</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>דער בריוו איז געשיקט געוואָרן פֿון %site ווײַל דער ציל פֿון סטאַטישער פּובליקירונג %target בעט עס.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>די אויסליפֿערונג %deploy איז דורכגעפֿאַלן אויף %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>די אויסליפֿערונג %deploy וואַרט ביי אַ טויער אויף %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>די אויסליפֿערונג %deploy איז געלונגען אויף %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>דער בריוו איז געשיקט געוואָרן פֿון %site, ווײַל migration.ini [RemoteSettings] Notify[] פֿאָדערט עס.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>דאַטן־טיפּן (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>געציילט %time, ווידער נאָך %minutes מינוט</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>אַ דאַטן־טיפּ היט און רעדאַקטירט איין מין ווערט פֿון אַ קלאַס־אַטריבוט: אַ שורה טעקסט, אַ בילד, אַ פֿאַרבינדונג. דער קערן ברענגט רובֿ פֿון זיי, פֿאַרברייטערונגען לייגן צו מער. דאָ זענען אַלע, ווער עס גיט זיי און וויפֿל פֿונעם אינהאַלט נוצט זיי. אַ דאַטן־טיפּ וואָס די דאַטנבאַזע נוצט אָבער גאָרנישט רעגיסטרירט אים מער, צעברעכט דעם אינהאַלט וואָס האָט אים.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>קלאַסן־גרופּעס</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>ציילן ווידער איצט אַנשטאָט נוצן די ציילונגען פֿון די לעצטע מינוט.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>ציילן ווידער</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>איבערבליק</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>פֿאַרשריבן</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>אין באַנוץ</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ניט געניצט</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>פֿאַרברייטערונגען וואָס געבן דאַטן־טיפּן</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>קלאַס־אַטריבוטן</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>אָביעקט־אַטריבוטן</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>נישט רעגיסטרירט</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>אויף דער רשימה, טעקע פֿעלט</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count דאַטן־טיפּן ווערן גענוצט אָבער זענען נישט רעגיסטרירט</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes קלאַס־אַטריבוטן און %object_attributes אָביעקט־אַטריבוטן האָבן אַ דאַטן־טיפּ וואָס קיין פֿאַרברייטערונג אָדער באַשטעלונג רעגיסטרירט נישט. זייערע אָביעקטן קען מען נישט ווייַזן, רעדאַקטירן אָדער פּובליקירן. אַקטיווירט די פֿאַרברייטערונג וואָס גיט דעם דאַטן־טיפּ, אָדער ענדערט דעם קלאַס.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>ווייַזן נאָר די</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>געפֿינען אַ דאַטן־טיפּ</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>אידענטיפֿיקאַטאָר, נאָמען, PHP קלאַס אָדער פֿאַרברייטערונג.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ווייַזן</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>אַלע</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>געגעבן פֿון</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>יעדער איינער</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>קערן</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>קיין דאַטן־טיפּ פּאַסט נישט צו דעם פֿילטער.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ווייַזן אַלץ</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>פֿאַרברייטערונג</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown פֿון %count דאַטן־טיפּן, %used אין באַנוץ</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>די דאַטנבאַזע האָט קלאַס־ אָדער אָביעקט־אַטריבוטן פֿון די דאַטן־טיפּן, אָבער content.ini רעכנט נישט אויס קיין איינעם פֿון זיי, אָדער זייַן טעקע פֿעלט.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>דאַטן־טיפּן פֿון %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>דאַטן־טיפּ</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP קלאַס און טעקע</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>קלאַסן</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>אָביעקטן</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>סימנים</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>קיינער</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>קיין דאַטן־טיפּ פּאַסט נישט צום זוכן. מעקט אויס דאָס זוכן.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown פֿון %count דאַטן־טיפּן געוויזן</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>געוויזענע דאַטן־טיפּן: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>סאָרטירן לויט %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>געציילט %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>אַלע דאַטן־טיפּן</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>הילף־בלאַט</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>דער דאַטן־טיפּ ווערט גענוצט אָבער איז נישט רעגיסטרירט</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>די אָביעקטן פֿון די קלאַסן אונטן קען מען נישט ווייַזן, רעדאַקטירן אָדער פּובליקירן ווי לאַנג קיין פֿאַרברייטערונג רעגיסטרירט נישט דעם דאַטן־טיפּ. אַקטיווירט די פֿאַרברייטערונג וואָס גיט אים און לייגט אים צו צו content.ini [DataTypeSettings] AvailableDataTypes[], אָדער ענדערט די קלאַסן.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini רעכנט אויס דעם דאַטן־טיפּ, אָבער קיין דאַטן־טיפּ־טעקע־אָרדנער האָט נישט זייַן טעקע. גאָרנישט נוצט אים; נעמט אים אַראָפּ פֿון AvailableDataTypes[] אָדער אַקטיווירט זייַן פֿאַרברייטערונג.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>וועגן דעם דאַטן־טיפּ</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>אידענטיפֿיקאַטאָר</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>נאָמען</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>פֿאַרברייטערונג %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>קיינער</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP־קלאַס</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>טעקע</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>אין AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>יאָ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ניין</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>שפּאַלטן פֿון זייַן ווערט</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>שפּאַלטן פֿון זייַנע קלאַס־אַטריבוט באַשטעלונגען</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>טאַבעלעס</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>די שפּאַלטן און טאַבעלעס געפֿינט מען דורכן לייענען דעם קאָד פֿונעם דאַטן־טיפּ: אַ אָנווייַזער, נישט קיין צוזאָג.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>מוסטערן</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>וועבזייַטל־צוטריט</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>מוסטער</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>געפֿונען אין</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>די דאָזיקע אַדמיניסטראַציע</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>גרונט־וועבזייַטל</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>אָן איבערשרייבונגען: אַ איבערשרייב־מוסטער וואָס פּאַסט לויט קלאַס אָדער אַטריבוט גייט פֿאָר די.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>קלאַסן וואָס נוצן אים (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>קיין קלאַס האָט נישט קיין אַטריבוט פֿון דעם דאַטן־טיפּ.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>קלאַס</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>אַטריבוטן</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>קלאַס־אַטריבוטן (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>אַטריבוט</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>באַשטימונגען</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>פֿאַרלאַנגט</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>זוכעוודיק</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>איבערזעצבאַר</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>זאַמלט אינפֿאָרמאַציע</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>אַ ביסל אינהאַלט וואָס נוצט אים</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>לעצט געענדערט ערשט</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>געענדערט</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>קנופּ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>יעדע איבערזעצונג האָט איר אייגענעם ווערט.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>דאָס זוכן אינדעקסירט זייַנע ווערטן.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>ער קען זאַמלען אינפֿאָרמאַציע פֿון באַזוכער (פֿאָרמען).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>רשימות קען מען סאָרטירן לויט אים: סאָרטיר־שליסל %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>סאָרטירבאַר</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>זייַנע ווערטן ווייַזן אויף אַנדערע אָביעקטן.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>פֿאַרבינדונגען</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>מען קען אים אָנפֿילן פֿון אַ פּשוטן טעקסט (אימפּאָרט, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>פֿון טעקסט</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>מען קען אים אָנפֿילן פֿון אַ טעקע.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>פֿון טעקע</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>זייַנע קלאַס־אַטריבוט באַשטעלונגען גייען אַרייַן אין פּעקלעך.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>פּעקלעך</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>אינהאַלט (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ביז %to פֿון %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>פֿילטרירן די רשימה</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>אַלע קלאַסן</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>אָפּטייל</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>שפּראַכן</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>באַזיצער</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>פֿאַרעפֿנטלעכט</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>איבערקערן דעם סדר</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>קיין עלעמענט</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>פּער בלאַט</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ווייַזן %count עלעמענטן אויף אַ בלאַט.</translation>
     </message>
 </context>
 </TS>

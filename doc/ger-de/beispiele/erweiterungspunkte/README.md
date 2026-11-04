@@ -17,26 +17,31 @@ Wo eine Erweiterung sich über Einstellungen in den Kernel einklinkt: INI-Einste
 | [expservices.ini](expservices-expservices.md) | expservices | 7 | ForumClass, ForumContainerClass, TopicClass, ReplyClass, CommentClass, PollClass ... |
 | [ezjscore.ini](ezjscore-ezjscore.md) | ezjscore | 7 | Class, Class, Class, Class, Class, Class ... |
 | [ezoe.ini](ezoe-ezoe.md) | ezoe | 3 | UploadExtensionCheck, Plugins, ExternalPlugins |
+| [admininterface.ini](admininterface.md) | Kernel | 1 | PageHitClasses |
 | [audit.ini](audit.md) | Kernel | 25 | Sinks, Sinks, Sinks, Sinks, Sinks, Classes ... |
 | [binaryfile.ini](binaryfile.md) | Kernel | 2 | Repositories, ExtensionRepositories |
+| [bookmark.ini](bookmark.md) | Kernel | 1 | TypeClass |
 | [browse.ini](browse.md) | Kernel | 3 | Class, Class, Class |
 | [collaboration.ini](collaboration.md) | Kernel | 1 | Repositories |
-| [content.ini](content.md) | Kernel | 33 | VersionHistoryClass, ExtensionDirectories, ExtensionDirectories, ExtensionDirectories, AvailableClasses, AvailableClasses ... |
+| [content.ini](content.md) | Kernel | 34 | VersionHistoryClass, ExtensionDirectories, ExtensionDirectories, ExtensionDirectories, AvailableClasses, AvailableClasses ... |
 | [contentcheck.ini](contentcheck.md) | Kernel | 3 | AssetClassList, StorageParentClassList, Handlers |
 | [contentstructuremenu.ini](contentstructuremenu.md) | Kernel | 2 | ShowClasses, ChapterClasses |
 | [cronjob.ini](cronjob.md) | Kernel | 1 | ExtensionDirectories |
 | [datatable.ini](datatable.md) | Kernel | 1 | IgnoreClasses |
 | [dbschema.ini](dbschema.md) | Kernel | 1 | SchemaHandlerClasses |
+| [editorpolicies.ini](editorpolicies.md) | Kernel | 1 | Classes |
 | [error.ini](error.md) | Kernel | 3 | DefaultErrorHandler, ErrorHandler, ErrorHandler |
 | [exphelp.ini](exphelp.md) | Kernel | 2 | Providers, BookChecks |
 | [ezxml.ini](ezxml.md) | Kernel | 4 | HandlerClass, AliasClasses, HandlerClass, AliasClasses |
 | [file.ini](file.md) | Kernel | 5 | Handler, SystemUserCheck, Handlers, FileHandler, Listener |
+| [graphql.ini](graphql.md) | Kernel | 2 | ClassList, ExcludedClassList |
 | [image.ini](image.md) | Kernel | 15 | Filters, Filters, Filters, Filters, Filters, Filters ... |
 | [ini.ini](ini.md) | Kernel | 1 | ScopeProviders |
 | [kernelservices.ini](kernelservices.md) | Kernel | 25 | Class, Factory, Class, Factory, Class, Factory ... |
 | [ldap.ini](ldap.md) | Kernel | 2 | LDAPSearchFilters, LDAPGroupClass |
 | [mailpreferences.ini](mailpreferences.md) | Kernel | 11 | HandlerClass, HandlerClass, HandlerClass, HandlerClass, HandlerClass, HandlerClass ... |
 | [membermanagement.ini](membermanagement.md) | Kernel | 1 | GuardedClasses |
+| [migration.ini](migration.md) | Kernel | 3 | ExtensionDirectory, PhpCheck, ExtensionCheck |
 | [module.ini](module.md) | Kernel | 2 | ModuleRepositories, ExtensionRepositories |
 | [notification.ini](notification.md) | Kernel | 5 | IncludeClasses, ExtensionDirectories, ExtensionDirectories, ExtensionDirectories, DefaultTransport |
 | [package.ini](package.md) | Kernel | 3 | ExtensionDirectories, HandlerList, HandlerList |
@@ -46,10 +51,12 @@ Wo eine Erweiterung sich über Einstellungen in den Kernel einklinkt: INI-Einste
 | [setup.ini](setup.md) | Kernel | 1 | TestClass |
 | [shop.ini](shop.md) | Kernel | 7 | MathHandler, ExchangeRatesUpdateHandler, ExtensionDirectories, ExtensionDirectories, Handler, ExtensionDirectories ... |
 | [shopaccount.ini](shopaccount.md) | Kernel | 4 | Repositories, ExtensionRepositories, Handler, Handler |
-| [site.ini](site.md) | Kernel | 28 | purgeClass, purgeClass, DatabaseImplementation, Listeners, Implementation, Listeners ... |
+| [site.ini](site.md) | Kernel | 31 | purgeClass, purgeClass, DatabaseImplementation, Listeners, Implementation, Listeners ... |
+| [smarty.ini](smarty.md) | Kernel | 2 | CompileCheck, SecurityStaticClassList |
 | [subitemscolumns.ini](subitemscolumns.md) | Kernel | 112 | Class, Class, Class, Class, Class, Class ... |
 | [syscard.ini](syscard.md) | Kernel | 1 | ProviderClasses |
 | [template.ini](template.md) | Kernel | 2 | DefaultFormatter, OutputFormatter |
+| [twig.ini](twig.md) | Kernel | 1 | SecurityAllowedFilterList |
 | [uiswitch.ini](uiswitch.md) | Kernel | 2 | Class, Class |
 | [upload.ini](upload.md) | Kernel | 2 | ClassList, DefaultClass |
 | [webdav.ini](webdav.md) | Kernel | 2 | FolderClasses, FolderClass |

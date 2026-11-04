@@ -12,6 +12,21 @@ type: help
 Diese Seite richtet sich an PHP-Entwickler, die eine schnelle Antwort möchten. Jede Antwort verweist auf die Seite mit
 den Einzelheiten.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hosting/control-panels/plesk.md), [cPanel](../hosting/control-panels/cpanel.md), [DirectAdmin](../hosting/control-panels/directadmin.md), [ISPConfig](../hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Inhalt
 
 1. [Plattform und Sprache](#plattform-und-sprache)
@@ -24,7 +39,7 @@ den Einzelheiten.
 ## Plattform und Sprache
 
 **Welche PHP-Versionen muss mein Code unterstützen?**
-PHP 8.0 bis 8.5. PHP 8.0 ist die älteste, weil es das Standard-PHP von RHEL 9 ist
+PHP 8.0 bis 8.5 (PHP 7.4 ohne Support nutzbar). PHP 8.0 ist die älteste, weil es das Standard-PHP von RHEL 9 ist
 ([Unterstützte PHP-Versionen: 8.0 bis 8.5](unterstuetzte-php-versionen.md)).
 
 **Darf ich Enums, readonly-Eigenschaften oder `foo(...)` verwenden?**
@@ -59,6 +74,17 @@ Führen Sie `php bin/php/ezpgenerateautoloads.php -e` aus; unter Velocity starte
 **Ich habe eine Einstellung geändert, und nichts ist passiert.**
 Leeren Sie den INI-Cache mit `--clear-tag=ini` (nicht `--clear-id=ini`), prüfen Sie mit `exp:ini where`, welche Schicht
 gewinnt, und starten Sie die Worker von Velocity neu ([Einstellungen mit eZINI lesen](einstellungen-mit-ezini-lesen.md)).
+
+**Wie lege ich `.htaccess` und `config.php` an?**
+`./console exp:setup:htaccess --apply` und `./console exp:setup:config --apply` kopieren sie aus `.htaccess_root` und
+`config.php-RECOMMENDED`; eine vorhandene, abweichende Datei wird als Diff gezeigt und ohne `--force` behalten
+([.htaccess und config.php von der Konsole aus einrichten](../../anleitungen/setup-dateien-von-der-konsole.md)).
+
+**Wie ändere ich eine Einstellung in `config.php` ohne Editor?**
+`./console exp:config:set <NAME> <value> [--type=bool|int|octal|float|string|null] --apply`. Die Datei wird als
+PHP-Tokens gelesen, nie ausgeführt; nur der Wert dieses einen `define()` ändert sich, und das Ergebnis muss `php -l`
+bestehen. Eine Konstante Ihrer eigenen Extension braucht `--allow-unknown`. Unter Velocity starten Sie danach die
+Worker neu ([.htaccess und config.php von der Konsole aus einrichten](../../anleitungen/setup-dateien-von-der-konsole.md)).
 
 **Sollte ich `eZContentObject` und die anderen `eZ`-Klassen umbenennen?**
 Niemals. Es sind echte Bezeichner, die jede Erweiterung verwendet; neuer Code verwendet `exp` oder Ihr eigenes Präfix.
@@ -126,8 +152,8 @@ Reihenfolge ist [Der Lesepfad für PHP-Entwickler](lesepfad-fuer-php-entwickler.
 
 - [PHP-Entwickler: hier beginnen](php-entwickler-hier-beginnen.md)
 - [Anwendungsentwickler: häufig gestellte Fragen](../ersteller/anwendungsentwickler/faq-fuer-anwendungsentwickler.md)
-- [Software-Ingenieure: hier beginnen](../../../eng-us/help/software-engineers/software-engineers-start-here.md),
-  [Web-Framework-Entwickler: hier beginnen](../../../eng-us/help/web-framework-developers/web-framework-developers-start-here.md),
+- [Software-Ingenieure: hier beginnen](../softwareingenieure/softwareingenieure-hier-beginnen.md),
+  [Web-Framework-Entwickler: hier beginnen](../web-framework-entwickler/web-framework-entwickler-hier-beginnen.md),
   [das Buch für Erweiterungsentwickler](../erweiterungsentwicklung/README.md)
 - [Glossar für PHP-Entwickler](glossar-fuer-php-entwickler.md)
 - [Freie Dokumentation](../freie-dokumentation.md): diese Seite darf unter der GNU FDL 1.3 frei kopiert, übersetzt und verbessert werden.

@@ -15,6 +15,10 @@ Block, Schlüssel, Standard, Geltungsbereich) und endet mit „Verwandte Seiten�
 | [Befehle, Cronjob-Teile und Modul-Views als Klassen](ausfuehrbare-befehle-cronjobs-ansichten.md) | Die ausführbaren Klassen, Einstiegspunkte, Ereignisse, Neuimplementierung und Listener |
 | [INI-Override-Verzeichnisse und Platzierungen](ini-override-platzierungen.md) | Wie `eZINI` Einstellungsdateien ordnet; Einstellungen je Siteaccess innerhalb von Extensions |
 | [Audit-Ereignismodell](audit-ereignismodell.md) | Ereignisnamen, Datensätze, Kanäle, Hash-Ketten, `audit.ini`, Erweiterungspunkte |
+| [Das Build-Format des statischen Veröffentlichens](statisches-veroeffentlichen-build-format.md) | Die Ordner, wohin Seiten und Dateien kommen, was herausgenommen wird, was eine Seite ablehnen lässt, das Umschreiben der Links, die Zusatzdateien, das Manifest `exp-static-manifest/1`, `exp-static/1`, die Linkprüfung |
+| [Das Manifest des statischen Veröffentlichens](statisches-veroeffentlichen-manifest.md) | `exp-static-manifest/1` im Detail: Dateien, Kodierung, Pfade, der Dateieintrag, wie Diff, Anwenden, Teil-Builds, Prüfen, die Seiten einer Veröffentlichung und die Rücknahme es nutzen |
+| [Der Formular-Endpunkt des statischen Veröffentlichens](statisches-veroeffentlichen-formular-endpunkt.md) | Der Endpunkt `staticpublish/form`, an den Formulare einer statischen Kopie senden: Herkunft, signiertes Token, Ratenbegrenzung |
+| [Das Migrationsdateiformat](migrationsdateiformat.md) | Dateinamen, der Kopf, die PHP-Klasse, die Prüfsumme, Reihenfolge, Zustände, die Aufzeichnungstabellen, die Statusdatei, das Laufprotokoll, `exp-migration/1` |
 | [Metadaten von Extensions](extension-metadaten.md) | `ezinfo.php`, `extension.xml`, `expInfo`, die Release-Regel |
 | [Installer-Protokolle und Startdaten](installer-protokolle-und-startdaten.md) | Startdatendateien, der Inhaltsbaum einer neuen Installation, Installer-Protokolle |
 | [Benachrichtigungen](benachrichtigungen.md) | Ereignisse, Handler, Regeln, Sammelbenachrichtigung, der Service, Sperre und Laufprotokoll, Views, Templates |
@@ -22,9 +26,12 @@ Block, Schlüssel, Standard, Geltungsbereich) und endet mit „Verwandte Seiten�
 | [Benachrichtigungsbefehle](benachrichtigungen-cli.md) | `exp:notification:status`, `run`, `events`, `subscriptions`: Optionen, Exit-Codes, Beispielausgaben |
 | [E-Mail-Einstellungen und Einwilligung](mail-einstellungen.md) | Kategorien, Einstellungen, das Einwilligungsprotokoll, Sperrung, das Mail-Gate, Links, Tabellen, Abläufe, Einstellungen |
 | [Befehle für die E-Mail-Einstellungen](mail-einstellungen-cli.md) | `exp:mail:status`, `preferences`, `suppression`, `consent`, `gate`: Aktionen, Optionen, Exit-Codes, Beispielausgaben |
+| [JSON-Ausgabe und Exit-Codes von exp:user](exp-user-json-ausgabe.md) | Das Schema `exp-user/1` der Befehle der Benutzerverwaltung: gemeinsame Schlüssel, die Schlüssel jedes Befehls, die Exit-Codes, der dauerhafte Vertrag |
 | [E-Mail-Einstellungen: die Checkliste zu den Gesetzen](mail-einstellungen-compliance.md) | CAN-SPAM, DSGVO und ePrivacy, CCPA/CPRA, CASL, RFC 8058, abgebildet auf Code und Tests; die Lücken |
 | [Hilfesystem](hilfesystem.md) | Hilfe und Handbücher als Inhalte: DITA-Themenklassen, Sektionen, Objektzustände, Rollen, Validator, Web, Kontexthilfe und Auslieferung als E-Book |
 | [Leitfaden für Hilfethemen](hilfe-stilrichtlinien.md) | Redaktionelle Regeln für Hilfethemen: Thementypen mit Vorlagen, Schritte, Hinweise, Abbildungen, `help_id`, Felder, Terminologie |
+| [Hilfestandards](hilfestandards.md) | DITA 1.3, IEC/IEEE 82079-1, ISO/IEC/IEEE 26514, ISO 3864-2, EPUB Accessibility 1.1, WCAG 2.2 AA: was die Hilfe übernimmt, was sie anders macht und wie weit |
+| [Die Hilfeklassen als Paket](hilfeklassen-als-paket.md) | Das Paket `exp_help_classes`: Inhalt, was es weglässt, Bauen, Prüfen, Version, Übergabe an den Paketserver |
 
 ## Datenbanken
 

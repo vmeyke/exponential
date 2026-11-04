@@ -2,7 +2,7 @@
 /**
  * File containing the eZURLAlias class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -383,10 +383,11 @@ class eZURLAliasML extends eZPersistentObject
                   'lang_mask' => [ '$bitsAnySet' => $languageID ] ],
                 [ '$set' => [ 'lang_mask' => $newMask ] ]
             );
-            // Delete entries with zero effective lang_mask (no languages remaining)
+            // Delete entries with zero effective lang_mask (no languages remaining): 0 or the always-available bit
+            // alone (a bitmask of $bitsAllClear must not be negative, so ~1 matched nothing)
             $db->deleteWhere( 'ezurlalias_ml',
                 [ 'parent' => $parentID, 'text_md5' => $textMD5,
-                  'lang_mask' => [ '$bitsAllClear' => ~1 ] ]
+                  'lang_mask' => [ '$in' => [ 0, 1 ] ] ]
             );
             return;
         }
@@ -526,7 +527,11 @@ class eZURLAliasML extends eZPersistentObject
                         $languageName = false, $linkID = false, $alwaysAvailable = false, $rootID = false,
                         $cleanupElements = true, $autoAdjustName = false, $reportErrors = true, $aliasRedirects = true )
     {
-        $path = eZURLAliasML::cleanURL( $path );
+        // An absolute URL pasted as the alias (https://www.example.com/news) is stored as its path (news), not as the
+        // elements "https", "noname2", "www-example-com" and "news". One without a path stays as it was: the empty
+        // path is the root node's entry, never something a pasted address may replace.
+        $pathOfURL = eZURLAliasML::cleanURL( eZURLAliasML::stripURLOrigin( $path ) );
+        $path = $pathOfURL !== '' ? $pathOfURL : eZURLAliasML::cleanURL( $path );
         if ( $languageName === false )
         {
             $languageName = eZContentLanguage::topPriorityLanguage();
@@ -547,6 +552,9 @@ class eZURLAliasML extends eZPersistentObject
             $languageMask |= 1;
         // Set before the MongoDB branch, which stores new entries with it too
         $alwaysMask = $alwaysAvailable ? 1 : 0;
+        // The action type (eznode of eznode:59) of the entries the MongoDB branch stores; that branch runs before the
+        // action is checked below, and stored null as action_type when an existing entry was made the original
+        $actionName = preg_match( "#^(.+):(.+)$#", (string)$action, $actionMatches ) ? $actionMatches[1] : '';
 
         $path = eZURLAliasML::cleanURL( $path );
         $elements = explode( '/', $path );
@@ -833,8 +841,10 @@ class eZURLAliasML extends eZPersistentObject
                             'text'        => $newText,
                             'action'      => $action,
                             'action_type' => $actionName,
-                            'is_alias'    => $aliasRedirects ? 1 : 0,
+                            // an alias as the SQL branch stores it: always an alias, which redirects or not
+                            'is_alias'    => 1,
                             'is_original' => 1,
+                            'alias_redirects' => $aliasRedirects ? 1 : 0,
                         ] ]
                     );
                     $newElementID = $curElementID;
@@ -849,8 +859,9 @@ class eZURLAliasML extends eZPersistentObject
                         'lang_mask' => $languageID | $alwaysMask,
                         'action'    => $action,
                     ) );
-                    if ( $aliasRedirects )
-                        $element->IsAlias = 1;
+                    // always an alias (one that does not redirect was stored as a history entry of the name)
+                    $element->IsAlias = 1;
+                    $element->AliasRedirects = $aliasRedirects ? 1 : 0;
                     $element->store();
                     $newElementID   = (int)$element->attribute( 'id' );
                     $createdElement = $element;
@@ -1649,6 +1660,57 @@ class eZURLAliasML extends eZPersistentObject
             eZDebug::writeError( "Action values array must not be empty", __METHOD__ );
             return null;
         }
+        list( $actionMap, $objects ) = self::loadActionRows( $actionName, $actionValues );
+        return self::composePathByActionList( $actionName, $actionValues, $actionMap, $objects, $locale );
+    }
+
+    /**
+     * Fills the per-request memo of fetchPathByActionList() for the URL aliases of several nodes at once (a page of
+     * a list): the alias rows and the objects of every node on their paths are read in two queries, instead of two
+     * per node, and each path is then made exactly as fetchPathByActionList() makes it. eZContentObjectTreeNode::
+     * urlAlias() of these nodes then reads from memory.
+     *
+     * @param eZContentObjectTreeNode[] $nodes
+     * @return int how many paths were made
+     */
+    static public function primePathsForNodes( array $nodes )
+    {
+        $contentRootID = (int)eZINI::instance( 'content.ini' )->variable( 'NodeSettings', 'RootNode' );
+        $lists = array();
+        $union = array();
+        foreach ( $nodes as $node )
+        {
+            if ( !$node instanceof eZContentObjectTreeNode || (int)$node->attribute( 'node_id' ) === $contentRootID )
+                continue;
+            $pathArray = $node->pathArray();
+            array_shift( $pathArray );
+            if ( !$pathArray )
+                continue;
+            $locale = $node->CurrentLanguage;
+            $memoKey = 'eznode|' . (string)$locale . '|' . implode( ',', $pathArray );
+            if ( array_key_exists( $memoKey, self::$PathByActionListCache ) || isset( $lists[$memoKey] ) )
+                continue;
+            $lists[$memoKey] = array( $pathArray, $locale );
+            foreach ( $pathArray as $value )
+                $union[(string)$value] = $value;
+        }
+        if ( !$lists )
+            return 0;
+        list( $actionMap, $objects ) = self::loadActionRows( 'eznode', array_values( $union ) );
+        foreach ( $lists as $memoKey => $list )
+            self::$PathByActionListCache[$memoKey] = self::composePathByActionList( 'eznode', $list[0], $actionMap, $objects, $list[1] );
+        return count( $lists );
+    }
+
+    /**
+     * The alias rows of the actions (grouped by action) and the objects of the nodes they name.
+     *
+     * @param string $actionName
+     * @param array $actionValues
+     * @return array array( action => rows, node id => eZContentObject )
+     */
+    static protected function loadActionRows( $actionName, array $actionValues )
+    {
         $db = eZDB::instance();
         $actionList = array();
         foreach ( $actionValues as $i => $value )
@@ -1704,7 +1766,21 @@ class eZURLAliasML extends eZPersistentObject
                 $actionMap[$action] = array();
             $actionMap[$action][] = $row;
         }
+        return array( $actionMap, $objects );
+    }
 
+    /**
+     * The path of the actions from the rows of loadActionRows() (which may hold the rows of other actions too).
+     *
+     * @param string $actionName
+     * @param array $actionValues
+     * @param array $actionMap
+     * @param array $objects
+     * @param string|null $locale
+     * @return string|null
+     */
+    static protected function composePathByActionList( $actionName, array $actionValues, array $actionMap, $objects, $locale = null )
+    {
         if ( $locale !== null && is_string( $locale ) && !empty( $locale ) )
         {
             $selectedLanguage = eZContentLanguage::fetchByLocale( $locale );
@@ -1934,12 +2010,15 @@ class eZURLAliasML extends eZPersistentObject
     {
         $uriString = eZURLAliasML::cleanURL( $uriString );
 
-        $db = eZDB::instance();
         if ( $uriString == '' && $glob !== false )
             $elements = array();
         else
             $elements = explode( '/', $uriString );
         $len      = count( $elements );
+        // One self-join per element: a path deeper than any alias can be is not looked up at all
+        if ( $len + ( $glob !== false ? 1 : 0 ) > self::maxPathDepth() )
+            return array();
+        $db = eZDB::instance();
         $i = 0;
         $selects = array();
         $tables  = array();
@@ -2093,6 +2172,19 @@ class eZURLAliasML extends eZPersistentObject
         return $nodeID;
     }
 
+    /**
+     * The deepest path translate() and fetchByPath() look up: site.ini [URLTranslator] MaxPathDepth (default 30, at
+     * least 1). Each element of a path is one self-join of ezurlalias_ml.
+     *
+     * @return int
+     */
+    static public function maxPathDepth()
+    {
+        $ini = eZINI::instance();
+        $depth = $ini->hasVariable( 'URLTranslator', 'MaxPathDepth' ) ? (int)$ini->variable( 'URLTranslator', 'MaxPathDepth' ) : 30;
+        return $depth > 0 ? $depth : 30;
+    }
+
     /*!
      \static
      Transforms the URI if there exists an alias for it, the new URI is replaced in $uri.
@@ -2228,6 +2320,11 @@ class eZURLAliasML extends eZPersistentObject
                 }
             }
         }
+
+        // One self-join per element: a request for /a/b/c/... deeper than any alias can be is not an alias, and the
+        // query for it is not run (a crawler with endless paths kept the database busy with joins of dozens of tables)
+        if ( substr_count( $internalURIString, '/' ) + 1 > self::maxPathDepth() )
+            return false;
 
         $db = eZDB::instance();
 
@@ -3019,6 +3116,24 @@ class eZURLAliasML extends eZPersistentObject
     static public function cleanURL( $url )
     {
         return trim( $url, '/ ' );
+    }
+
+    /**
+     * The path of an absolute URL: "https://www.example.com:8443/news/item?x=1#top" gives "/news/item". The scheme,
+     * the host, the port, the query and the fragment are not part of a URL alias. Anything that does not start with
+     * a scheme and "://" is returned as it is, so a relative path such as "news/item" or "a:b/c" is unchanged.
+     *
+     * @param string $url
+     * @return string
+     */
+    static public function stripURLOrigin( $url )
+    {
+        $url = (string)$url;
+        if ( preg_match( '#^\s*[a-z][a-z0-9+.\-]*://[^/?\#]*([^?\#]*)#i', $url, $match ) )
+        {
+            return $match[1];
+        }
+        return $url;
     }
 
     /*!

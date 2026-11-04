@@ -8,6 +8,21 @@ ergreifende Maßnahme; längere Erklärungen sind verlinkt. Dies ist der Begleit
 [Chronik vom 1. bis 15. September](../../geschichte/2026/2026-09a.md), der nächste in den
 [Verhaltensänderungen vom Oktober 2026](verhaltensaenderungen-2026-10.md).
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../hilfe/hosting/control-panels/plesk.md), [cPanel](../../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Reihenfolge beim Bereitstellen
 
 Erledigen Sie zuerst Folgendes, in dieser Reihenfolge, auf jeder Website, in die Sie die Änderungen übernehmen:
@@ -53,7 +68,7 @@ Die drei Änderungen, bei denen die meisten Websites handeln müssen:
 | Der Kickstarter und der Setup-Assistent verwenden standardmäßig SQLite. | `kickstart.ini [database_choice] Type` | Nennen Sie Ihre Engine ausdrücklich. |
 | Kickstart endet nicht mehr mit einem erratbaren Administratorpasswort. | `var/log/initial-admin-password` | Lesen Sie es nach der Installation einmal und löschen Sie die Datei. |
 | `DatabaseImplementation` wird aus der laufenden `site.ini` übernommen, nicht aus `Type`. | `settings/override/site.ini.append.php` | Wenn Sie auf eine andere Engine installieren, setzen Sie es zuerst (siehe [Seite zur Installation](../../funktionen/6.0/installation-mit-einem-befehl.md)). |
-| `./console exp:install` installiert mit einem Befehl. | `exp:install --help` | Neu; nichts zu migrieren. |
+| `./console exp:install --apply` installiert mit einem Befehl. | `exp:install --help` | Neu; nichts zu migrieren. |
 | Der Wartungsmodus umschließt Installationen. | `var/maintenance.json` | Ist ein Lauf fehlgeschlagen, beenden Sie ihn mit `php bin/php/maintenance.php off`. Siehe [Wartungsmodus](../../funktionen/6.0/wartungsmodus.md). |
 | Eine Standardinstallation konvertiert Bilder zuerst mit GD. | `image.ini [ImageConverterSettings] ImageConverters[]` (ausgelieferte Reihenfolge `GD`, `ImageMagick`) | Stellen Sie ImageMagick in `settings/override/image.ini.append.php` an die erste Stelle, wenn Sie seine Filter brauchen. |
 | Neue Installationen beginnen mit den Ordnern Konfiguration und Archive und der Klassengruppe Konfiguration; Setup hat den Alias `x-setup`. | Seed-Daten | Bestehende Installationen werden nicht angefasst. Siehe [Seed-Daten](../../spezifikationen/6.0/installer-protokolle-und-startdaten.md). |

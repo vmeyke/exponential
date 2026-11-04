@@ -1067,6 +1067,14 @@
         <source>Class groups [%group_count]</source>
         <translation type="obsolete">Grupos de clases [%group_count]</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Todos los tipos de datos del núcleo y de las extensiones, y cómo los usan las clases y el contenido.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipo de dato</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2475,6 +2483,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>También puedes añadir páginas del sistema a favoritos: abre la página (Configuración, el registro de auditoría, una lista de usuarios...) y elige "Añadir a favoritos" arriba de ella. Esos favoritos llevan un ícono de engrane.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ya no puedes abrir esta página aquí. Elimina el favorito o pide acceso a un administrador.</translation>
     </message>
 </context>
 <context>
@@ -5647,6 +5659,210 @@
     <message>
         <source>Fewer keywords gives more results, try reducing keywords until you get a result.</source>
         <translation type="obsolete">Menos palabras clave ofrecen más resultados. Intenta reducir las palabras clave hasta que obtengas un resultado.</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Otro</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Últimos 7 días</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Rango personalizado</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Todas las palabras</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Cualquier palabra</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Frase exacta</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevancia</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Nombre A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Nombre Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Modificado, más recientes primero</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Modificado, más antiguos primero</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Publicado, más recientes primero</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Publicado, más antiguos primero</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modificado</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtros</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Mostrar filtros</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Ocultar filtros</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Reiniciar</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Aplicar</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Palabras</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Tipo de contenido</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Mostrar más (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Elige un tipo de contenido para buscar en uno de sus atributos.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sección</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>De</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Para</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>La fecha de inicio no es una fecha válida.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>La fecha de fin no es una fecha válida.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Propietario</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID de usuario, nombre de usuario o correo electrónico.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>No se encontró ningún usuario para “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Idioma</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Cualquier idioma</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ubicación</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count ubicaciones</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Resultados por página</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Resultados para “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Resultados (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Ordenado por</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Ordenar</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Filtros activos</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Quitar este filtro</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>O elige filtros y aplícalos para mostrar el contenido que coincida con ellos.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Los filtros acotan la búsqueda una vez que escriba palabras.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>No se encontraron resultados para “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>No se encontraron resultados.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Quita uno de los filtros de arriba.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traducciones</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Acciones</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Editar %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editar</translation>
     </message>
 </context>
 <context>
@@ -8958,8 +9174,8 @@
         <translation>Los avisos de copyright de los autores originales y del software de terceros incluido con Exponential se conservan en los archivos fuente y en el archivo LICENSE, como exige la licencia.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>A continuación se muestra una lista de los colaboradores de Exponential que han licenciado su trabajo para que 7x lo use según los términos y condiciones del eZ Systems Contributor Licensing Agreement. Como lo permite este acuerdo, 7x redistribuye cada contribución bajo la misma licencia que el archivo en el que está incluida. La lista indica cada colaborador, sus datos de contacto opcionales y los archivos que aportó o en los que colaboró.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Colaboradores reconocidos por su trabajo en Exponential y en el software del que surgió, con los archivos en los que colaboraron. Esto es un reconocimiento, no un aviso de copyright: las contribuciones a Exponential se ceden a la Exponential Foundation y a 7x conforme al Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -15231,32 +15447,20 @@ Nota: los paquetes no serán desinstalados.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluar Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Hazte miembro de la comunidad de Exponential, comparte y contribuye&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; y otros.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Desarrollado con &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Para más información, consulta &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; y otros.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Para más información, consulta &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; y otros.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluar Exponential (de 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Hazte miembro de la comunidad de Exponential, obtén soporte y contribuye&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; y otros.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -15265,6 +15469,61 @@ Nota: los paquetes no serán desinstalados.</translation>
     <message>
         <source>Help center</source>
         <translation>Centro de ayuda</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Contenido</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Páginas de documentos</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Usuarios</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Clases de contenido</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administración</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Página %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Ver todos los resultados</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count resultados</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Un resultado</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count sugerencias</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>No hay sugerencias</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>No se pudieron cargar las sugerencias.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Sugerencias</translation>
     </message>
 </context>
 <context>
@@ -15793,6 +16052,14 @@ Nota: los paquetes no serán desinstalados.</translation>
         <source>Nothing new</source>
         <translation>Nada nuevo</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Tus dispositivos</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Actividad de seguridad</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -16110,6 +16377,14 @@ Nota: los paquetes no serán desinstalados.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Guías, búsqueda y cómo reportar un error.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Contenido reciente</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>El contenido más nuevo, lo que está retenido para revisión y acciones sobre una selección.</translation>
     </message>
 </context>
 <context>
@@ -16572,6 +16847,46 @@ Nota: los paquetes no serán desinstalados.</translation>
         <source>Synchronisations</source>
         <translation>Sincronizaciones</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>La API GraphQL: su punto final, el esquema y un entorno de pruebas para probar consultas.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraciones</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Cambios en la instalación guardados como archivos: su estado, las ejecuciones, ejecutar y revertir.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Contenido reciente</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>El contenido más nuevo, lo que está retenido para revisión y acciones sobre una selección.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publica una copia estática de un sitio en GitHub Pages o en cualquier servidor git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicación estática</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipo de dato</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Todos los tipos de datos del núcleo y de las extensiones, y cómo los usan las clases y el contenido.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -16740,6 +17055,22 @@ Nota: los paquetes no serán desinstalados.</translation>
     <message>
         <source>Manage permission settings.</source>
         <translation type="obsolete">Administrar las configuraciones de permisos.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Registro de auditoría de usuarios</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Quién hizo cambios, inició sesión o fue rechazado, por cuenta; filtrar y exportar.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Reporte de inicios de sesión</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Quién inició sesión, inicios de sesión y fallas por día; desconectar a un usuario en todas partes.</translation>
     </message>
 </context>
 <context>
@@ -23888,6 +24219,22 @@ Nota: los paquetes no serán desinstalados.</translation>
         <source>This operation will regenerate all the static content caches that are configured. This action can take quite some time depending on the specifications of the server and the number of locations that are configured to be statically cached. If you encounter time-out problems, please use the &amp;quot;bin/php/makestaticcache.php&amp;quot; shell script.</source>
         <translation type="obsolete">Esta operación va a generar todas las cachés estáticas de contenido configuradas. Esta operación puede tardar bastante, dependiendo de las especificaciones del servidor y del número de ubicaciones que estan configuradas para estar cachéadas de forma estática. Si aparecen unos problemas de tiempo agotado (time-out), por favor usa el script shell &amp;quot;bin/php/makestaticcache.php&amp;quot;.</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Respuestas de las consultas persistentes de la API GraphQL y las clases de contenido de su esquema.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Publica una copia estática en GitHub Pages o en cualquier servidor git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicación estática</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>La caché estática sirve páginas desde este servidor. Para publicar una copia estática de un sitio en otro lugar, en GitHub Pages o en cualquier servidor git, usa la publicación estática.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -27483,6 +27830,10 @@ Nota: los paquetes no serán desinstalados.</translation>
     <message>
         <source>Exponential was unable to extract information from the webserver.</source>
         <translation type="obsolete">Exponential no pudo extraer la información desde el servidor web.</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Las escrituras no pudieron tomar el bloqueo del estado (última vez %date): cada una dejó obsoletos todos los resultados en caché. %file debe poder escribirse por cada usuario con el que se ejecuta el sitio; en NFS necesita NFSv4 o lockd.</translation>
     </message>
 </context>
 <context>
@@ -35451,6 +35802,14 @@ Nota: los paquetes no serán desinstalados.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Las sesiones caducadas del manejador de PHP las elimina el propio PHP (session.gc_maxlifetime), no esta página ni la parte de tareas programadas session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Las sesiones iniciadas de todos los usuarios se muestran, y se cierran, en el reporte de inicios de sesión, que funciona con cualquier gestor de sesiones.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Abrir el reporte de inicios de sesión</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -39967,6 +40326,26 @@ tu cuenta.</translation>
     <message>
         <source>None yet</source>
         <translation>Ninguna todavía</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Actividad de seguridad</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Tus inicios de sesión recientes, los intentos fallidos y los cambios en tu contraseña, tu dirección de correo electrónico y la conexión en dos pasos.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Los inicios de sesión recientes, los intentos fallidos y los cambios de seguridad de esta cuenta.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Revisar la actividad</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Inicios de sesión fallidos: %count</translation>
     </message>
 </context>
 <context>
@@ -46550,6 +46929,42 @@ Si quieres enviar comentarios al encargado de aprobar el contenido o ver el esta
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Después de iniciar sesión, el usuario debe elegir una contraseña nueva antes de hacer cualquier otra cosa. Úsalo cuando le des a alguien una contraseña temporal.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Elegir una imagen existente</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>El archivo de imagen del objeto que elijas se copia en este campo. El otro objeto no cambia.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>La imagen de “%name” se copió en este campo.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Explorar para buscar una imagen</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Buscar imágenes por nombre</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Buscar</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Usar la imagen de “%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Usar esta imagen</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ninguna imagen coincide con tu búsqueda.</translation>
     </message>
 </context>
 <context>
@@ -54342,6 +54757,10 @@ Esta funcionalidad queda también disponible más adelante desde la interfaz de 
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>No se escribió el crontab (%reason). Añade estas líneas al crontab del usuario con el que se ejecuta el sitio; si no, la cola, las importaciones, las notificaciones y el índice de búsqueda nunca se ejecutarán:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>La reinstalación se hace con el kickstarter (%file y después php bin/php/kickstarter.php run --apply) o con una instalación nueva.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -58425,6 +58844,10 @@ tu cuenta.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Caché del empaquetador público de eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Caché de GraphQL (respuestas y clases del esquema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -58519,6 +58942,14 @@ tu cuenta.</translation>
     <message>
         <source>Classes</source>
         <translation type="obsolete">Clases</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipo de dato</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Tipo de datos %string</translation>
     </message>
 </context>
 <context>
@@ -59388,6 +59819,26 @@ si se elegió la opción &quot;%3&quot; desde &quot;%4&quot; </translation>
         <translation type="obsolete">No puedes elegir el valor &quot;%1&quot; desde &quot;%2&quot; para la opción  
 si has elegido la opción &quot;%3&quot; desde &quot;%4&quot; </translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>No se pudo copiar la imagen. Inténtalo de nuevo o comunícate con el administrador del sitio.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>El objeto seleccionado no existe o no puedes leerlo.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>El objeto seleccionado no tiene imagen.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>No se pudo leer el archivo de imagen del objeto seleccionado.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>La imagen del objeto seleccionado es más grande de lo que permite este campo: %1 bytes.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -59938,6 +60389,42 @@ si has elegido la opción &quot;%3&quot; desde &quot;%4&quot; </translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>El favorito ahora se llama "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Esta página está desactivada en este acceso al sitio (%siteaccess). Abre el favorito en un acceso al sitio que la tenga.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>El módulo de esta página no está instalado o no está activado aquí.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Esta página ya no existe: su módulo no tiene esa vista.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ninguno de tus roles te permite abrir esta página.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>No puedes usar este acceso al sitio.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>No puedes leer el contenido que muestra esta página.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Este tipo de página no se puede añadir a favoritos: solo actúa sobre un formulario o es una página de un momento.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Falta la dirección de esta página.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>En este momento no se puede abrir esta página.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -60437,6 +60924,10 @@ Tendrás que cambiar la clase del nudo con la función de intercambio.</translat
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>El transporte de correo rechazó %count mensajes en la última ejecución. Revisa el servidor de correo y site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Eventos en espera: %count, y no hay registro de ninguna ejecución de la tarea programada de notificaciones. Agrega la parte de tarea programada &quot;frequent&quot; a la crontab o ejecuta exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -66749,6 +67240,10 @@ Tendrás que cambiar la clase del nudo con la función de intercambio.</translat
         <source>Choose another site or section with the node picker</source>
         <translation>Elegir otro sitio o sección con el selector de nudos</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Solo el administrador del sistema puede cambiar el propietario: ejecuta ./console exp:content-check --fix-permissions --apply como root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -68282,6 +68777,10 @@ Tendrás que cambiar la clase del nudo con la función de intercambio.</translat
     <message>
         <source>empty</source>
         <translation>vacía</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>La clave de firma tiene más de un año: renuévala con exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -70662,6 +71161,486 @@ Tendrás que cambiar la clase del nudo con la función de intercambio.</translat
         <source>Share of page time</source>
         <translation>Parte del tiempo de la página</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>se solicitó un renderizado completo</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>el caché de páginas no tenía la página (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>el caché de páginas no respondió</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Renderizado</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Renderizado por el núcleo: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Servido desde el caché de páginas en %ms ms. La página se guardó a las %stored con un renderizado de %render ms, hace %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Renderizar ahora</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Volver a la vista del caché</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Del renderizado de las %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Esta solicitud: servida desde el caché de páginas en %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Usuario</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID de usuario</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Perfil de caché</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Esta vista</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Caché de vista</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>por usuario (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Perfil de caché del usuario: los usuarios con el mismo perfil comparten los archivos de caché de vistas</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>sí</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no tiene</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Conectar</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Sesión iniciada</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sesión</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Las partes de la clave de caché de vistas de contenido que dependen del usuario, tal como las toma la clave, según los ViewCacheTweaks de esta página. Los usuarios con el mismo perfil comparten los archivos de caché de las vistas, a menos que difieran las partes propias de una vista (preferencias, claves de oyentes): esas tienen un perfil propio, solo para esta página.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Perfil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Esta vista (nodo %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: cada usuario con sesión iniciada tiene sus propios archivos de caché.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks vigentes: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Parte</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Valor</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ninguna parte depende del usuario (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>esta vista</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Copiar como texto</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Roles</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>No se pudieron leer las asignaciones de roles.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID del rol</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Limitación</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Asignado a</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>el usuario</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grupo %name (objeto %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Copiado</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>No se pudo copiar.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>omitido por un oyente</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Visitantes anónimos</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>igual al tuyo</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>diferente</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>El perfil que obtienen los visitantes anónimos con los mismos ViewCacheTweaks, con las preferencias predeterminadas, sin las partes de la vista: a un oyente que lee la sesión no se le pueden pedir.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Preferencias</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ningún modo de vista depende de las preferencias del usuario (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Las preferencias de las que dependen las vistas de estos modos de vista (CachedViewPreferences), con el valor del usuario o el predeterminado. Están en el perfil como userpreferences, las de todos los modos de vista juntas.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Tipo de vista</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Preferencia</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Predeterminado</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Políticas</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Mostrar las políticas de los roles (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Las políticas se cargan del servidor al abrir esta sección, una página a la vez, y se pueden filtrar por módulo y función.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Función</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Todos los módulos</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Todas las funciones</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Limitaciones</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Mostrar más</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Estos roles no tienen políticas.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ninguna política coincide con el filtro.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown de %matching políticas (%total en total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Se carga al abrir.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rol, limitación</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Buscar en las políticas</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Cargar más</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Módulo/función</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Todos los roles (%count políticas)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ninguna política coincide.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown de %matched políticas</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Sin respuesta</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>enmascarado</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Mostrar explicaciones</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Ocultar explicaciones</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Abrir</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Abrir todo</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Cerrar todo</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Clave o valor</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Buscar en la sesión</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count más</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>anidado a demasiada profundidad para mostrarse</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>recortado, %count caracteres en total</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Iniciada</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Nombre de la cookie</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID de sesión</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Manejador</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Ruta de guardado</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Valor predeterminado de PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Duración (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>duración %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Su propia sesión de PHP, tal como estaba cuando se abrió la sección, nunca otra. Los valores de las claves que parecen secretos (tokens, hashes, contraseñas) se enmascaran (debugbar.ini SessionMask[]); todo lo demás se muestra tal como está almacenado, también los datos personales.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count claves, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>grande</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>La sesión está vacía.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>No se inició ninguna sesión para esta solicitud.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extensión %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel y otros</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>No se muestran todas las entradas: la sesión contiene más de lo que se puede listar aquí.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count claves no se listan.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Marco</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Los valores que parecen un token (un JSON Web Token, las credenciales de un encabezado Authorization, una clave privada, un texto hexadecimal o aleatorio largo) también se enmascaran, sin importar cómo se llame su clave (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>La clave parece un secreto (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>El valor parece un token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Debajo de una clave enmascarada.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>La sesión como texto, enmascarada igual que la tabla.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>La sesión es mayor que %size (debugbar.ini SessionWarnBytes): cada solicitud de este usuario lee la sesión completa y la escribe cuando cambia.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP guarda esta sesión en archivos y bloquea el archivo durante toda la solicitud: las solicitudes del mismo usuario (varias pestañas, llamadas AJAX) se esperan unas a otras.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Mantener abierto</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Mayor que %size (debugbar.ini SessionWarnBytes): cada solicitud de este usuario lee la sesión completa.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits de %count leídos de la caché</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>No se renderizó ninguna plantilla (una vista leída de la caché de vistas no renderiza ninguna).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Asignaciones de rol</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Roles y políticas</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>distinto al de los visitantes anónimos</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>igual que para los visitantes anónimos</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -72542,6 +73521,14 @@ Tendrás que cambiar la clase del nudo con la función de intercambio.</translat
     <message>
         <source>not sent</source>
         <translation>no enviado</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>La tarea programada de notificaciones registra aquí cada una de sus ejecuciones. Agrega la parte frequent a la crontab o ejecuta exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Usa la consola: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -78525,6 +79512,98 @@ Gracias por la retroalimentación</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Este tema no está publicado; los lectores no lo ven.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraciones</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Cambios en la instalación guardados como archivos: su estado, las ejecuciones, ejecutar y revertir.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publica una copia estática de un sitio en GitHub Pages o en cualquier servidor git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicación estática</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>En revisión</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Los lectores ven esta página.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Oculta para los lectores hasta que alguien la publique.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>La página está ahora en revisión. Está oculta para los lectores hasta que se publique.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>La página está publicada: los lectores ya la ven.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>La página vuelve a ser un borrador. Está oculta para los lectores hasta que se revise y se publique.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Publicar ahora</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Solo puede publicarla un usuario con el rol %role que no haya escrito esta versión.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Temas de ayuda pendientes de publicación</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>La oculta a los lectores hasta que se vuelva a publicar.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Después la revisa un revisor. Los lectores todavía no la ven.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Los lectores la ven de inmediato.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>La saca de revisión para seguir trabajando en ella. Los lectores no la ven.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>¿Ocultar esta página a los lectores?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>¿Regresar esta página a borrador?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Los lectores ya no verán %title hasta que alguien la vuelva a publicar.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title regresa a borrador para seguir trabajando en ella. Los lectores siguen sin verla y necesita una nueva revisión antes de publicarse.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancelar</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Estos temas están en revisión. Los lectores los verán en cuanto alguien que no haya escrito la versión actual los publique.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/languages</name>
@@ -80366,6 +81445,10 @@ Gracias por la retroalimentación</translation>
         <source>Setup &gt; Cronjobs</source>
         <translation>Configuración &gt; Tareas programadas</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Todavía no se ejecutó ninguna parte de las tareas programadas: la cola de tareas, las importaciones, las notificaciones y el índice de búsqueda están esperando. Ejecuta php bin/php/installcrontab.php --add --apply o agrega las líneas de --show a la crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/workflow/eventtype/expuserapprove</name>
@@ -80704,6 +81787,46 @@ Gracias por la retroalimentación</translation>
         <source>None.</source>
         <translation>Ninguna.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>con una app de autenticación</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>con un código por correo electrónico</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>con un código de recuperación</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>con una llave de acceso</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>con una cuenta externa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Actividad de seguridad</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Se muestra como su red; la dirección se guarda según lo indique la configuración de protección de datos del sitio.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>No registrado</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lugar</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>aproximado</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -80947,6 +82070,42 @@ Gracias por la retroalimentación</translation>
         <source>Manage devices</source>
         <translation>Administrar dispositivos</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>con una app de autenticación</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>con un código por correo electrónico</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>con un código de recuperación</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>con una llave de acceso</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>con una cuenta externa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Actividad de seguridad</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>No registrado</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lugar</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>aproximado</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -81026,6 +82185,14 @@ Gracias por la retroalimentación</translation>
         <source>View the sessions of this user</source>
         <translation>Ver las sesiones de este usuario</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Tu cuenta %login en %site se acaba de usar para iniciar sesión desde un lugar desde el que no lo había hecho últimamente:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Lugar aproximado</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -81064,6 +82231,10 @@ Gracias por la retroalimentación</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser en %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Reporte de inicios de sesión</translation>
     </message>
 </context>
 <context>
@@ -81272,6 +82443,82 @@ Gracias por la retroalimentación</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>No se pudo comprobar la llave de acceso. Vuelve a intentarlo.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Las cuentas que inician sesión solo con llaves de acceso no pueden usar aquí una contraseña: elige &quot;Iniciar sesión con una llave de acceso&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Llaves de acceso de %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Las llaves de acceso con las que inicia sesión esta cuenta. Revoca la que esté en un dispositivo perdido o robado: ya no podrá iniciar sesión. El propietario agrega las nuevas él mismo.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Tu cuenta necesita una llave de acceso</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Agrega una llave de acceso a tu cuenta</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Agrega una llave de acceso para continuar. Después iniciarás sesión con ella en lugar de solo con una contraseña.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Iniciar sesión con una llave de acceso es más rápido y seguro que con una contraseña. Agrega una ahora o continúa sin ella.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ahora no</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>¿Revocar la llave de acceso &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ya no podrá iniciar sesión en esta cuenta. Si era la última, el propietario inicia sesión con la contraseña, o tú estableces una nueva.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Revocar la llave de acceso</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Revocar</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Esta cuenta no tiene ninguna llave de acceso.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Autenticador</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Desconocido</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Tu última llave de acceso: agrega otra antes de eliminarla.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Esta cuenta inicia sesión solo con llaves de acceso (política de llaves de acceso): si no le queda ninguna, vuelve a iniciar sesión con su contraseña.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Esta es tu última llave de acceso y tu cuenta no puede iniciar sesión sin una. Agrega primero otra llave de acceso.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Se revocó la llave de acceso &quot;%name&quot;. Ya no puede iniciar sesión en esta cuenta.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -81371,6 +82618,34 @@ Gracias por la retroalimentación</translation>
         <source>Code from your authenticator app</source>
         <translation>Código de tu app de autenticación</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Estás a punto de borrar datos definitivamente o de vaciar un registro.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Tu contraseña y una llave de acceso</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Tu contraseña y un código de tu app de autenticación</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>O bien:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Este navegador no puede usar llaves de acceso. Usa otro método u otro navegador.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Al continuar, el navegador te pedirá una de tus llaves de acceso.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Continuar con una llave de acceso</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -81461,6 +82736,70 @@ Gracias por la retroalimentación</translation>
     <message>
         <source>Setup</source>
         <translation>Configuración</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Cambiar la propia contraseña, la dirección de correo electrónico, las llaves de acceso, la conexión en dos pasos, los códigos de recuperación o las claves de API, y cerrar la sesión en los demás dispositivos propios.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Crear y editar usuarios, sus contraseñas y dispositivos, la configuración de la cuenta, aprobar o rechazar cuentas de usuario nuevas, asignar roles y editar políticas.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Borrar datos</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Vaciar la papelera, quitar elementos de ella y quitar varios elementos a la vez.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Eliminar, publicar y guardar contenido</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Eliminar contenido (también a la papelera), publicar y guardar un borrador; se pregunta al enviar el formulario. Desactivado de forma predeterminada.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Antes de una acción delicada, un usuario conectado vuelve a confirmar quién es: con su contraseña y una llave de acceso o, sin llave de acceso, con su contraseña y el código de su app de autenticación. Solo preguntan las páginas web: la interfaz REST, SOAP, WebDAV, el inicio de sesión de expservices y la línea de comandos nunca lo hacen.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Dónde se aplica la configuración</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Configuración para</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Todos los accesos al sitio</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Acceso al sitio %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Abrir</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>A quién se pregunta: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Marca grupos de usuarios para preguntar solo a sus miembros (por ejemplo, a los editores). Ninguno marcado: a todos los usuarios.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Se guarda en settings/override/site.ini.append.php, para todos los accesos al sitio. Al guardar se te pide que confirmes que eres tú.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Se guarda en settings/siteaccess/%name/site.ini.append.php. Un valor en settings/override tiene prioridad sobre él. Al guardar se te pide que confirmes que eres tú.</translation>
     </message>
 </context>
 <context>
@@ -81595,6 +82934,6822 @@ Gracias por la retroalimentación</translation>
     <message>
         <source>Open the page</source>
         <translation>Abrir la página</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from a %to de %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Un nombre de usuario o un ID de usuario: la cuenta a la que se refería el evento o el usuario que actuó.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Cuenta</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Acción</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Después</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Cualquier resultado</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Antes</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Por</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Borrar</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Completado</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Los eventos se conservan durante %days días.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Los eventos se conservan hasta que se eliminan manualmente.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Eventos</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Todas las acciones</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Todos los eventos de esta cuenta</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Exportar la lista como CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fallido</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Desde</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Acotar la lista</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Ningún evento coincide.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Por página</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>El registro está desactivado en audit.ini ([UserAuditSettings] UserAudit); la lista muestra lo que se registró antes.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Rechazado</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultado</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mostrar</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Falta la tabla del registro de auditoría de usuarios. Créala con php update/common/scripts/6.0/createuseraudittable.php; mientras tanto, los archivos de auditoría conservan todos los eventos.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Esta página necesita una base de datos SQL; no está disponible con MongoDB. Los archivos de auditoría conservan todos los eventos.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hasta</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Registro de auditoría de usuarios</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Usuario</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Cuándo</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Dónde</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Quién modificó, creó, activó, desactivó, movió o eliminó qué cuenta, quién inició sesión o fue rechazado y qué roles se asignaron: una línea por evento, con los campos antes y después. Las contraseñas y los secretos nunca se registran.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>grupo</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistema</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>desconocido</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Proteger tu cuenta</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Se usó un código de recuperación para iniciar sesión en tu cuenta %login en %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Se usó un código de recuperación</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Cuenta</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Dirección aproximada</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Solicita una contraseña nueva para volver a iniciar sesión o comunícate con los administradores del sitio.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Solicitar una contraseña nueva</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Cada código de recuperación sirve una sola vez. Si perdiste tu celular, vuelve a configurar tu app de autenticación y guarda los nuevos códigos de recuperación en un lugar seguro.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Intentos fallidos de iniciar sesión en tu cuenta</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>A partir de ahora, al iniciar sesión se pedirá un código además de tu contraseña. Si lo hiciste tú, no tienes que hacer nada.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Si fuiste tú y olvidaste tu contraseña, solicita una nueva. Si no, elige una contraseña más segura y activa la conexión en dos pasos.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Si no fuiste tú, es posible que alguien conozca tu contraseña: cámbiala ahora y revisa dónde está iniciada la sesión de tu cuenta.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Códigos de recuperación restantes</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Revisar tus dispositivos</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Alerta de seguridad</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Alguien intentó iniciar sesión en tu cuenta %login en %site con una contraseña incorrecta %count veces seguidas.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Ocurrió un evento de seguridad en tu cuenta %login en %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Esta es una alerta de seguridad sobre tu cuenta. Se envía con cada cambio de este tipo y no se puede desactivar.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Hora</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Se desactivó la conexión en dos pasos de tu cuenta %login en %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Se desactivó la conexión en dos pasos</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Se activó la conexión en dos pasos de tu cuenta %login en %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Se activó la conexión en dos pasos</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Tu cuenta %login en %site se bloqueó después de demasiados inicios de sesión fallidos.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Ahora tu cuenta está protegida solo por tu contraseña. Si no lo hiciste tú, vuelve a activar la conexión en dos pasos después de cambiar tu contraseña.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Tu cuenta se bloqueó</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Se agregó una llave de acceso a tu cuenta %login en %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Quien tenga esta llave de acceso puede iniciar sesión en tu cuenta sin tu contraseña. Si no la agregaste tú, elimínala en Llaves de acceso y cambia tu contraseña.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Se eliminó una llave de acceso de tu cuenta %login en %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ya no puede iniciar sesión en tu cuenta. Si no la eliminaste tú, revisa tus llaves de acceso y dispositivos.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Se agregó una llave de acceso a tu cuenta</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Se eliminó una llave de acceso de tu cuenta</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Actividad de seguridad</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Actividad de seguridad de %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Sesión iniciada</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Intento fallido de inicio de sesión</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Sesión cerrada</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesiones cerradas</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Inicio de sesión desde un dispositivo nuevo</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Inicio de sesión desde un lugar nuevo</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identidad confirmada (&quot;Confirma que eres tú&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Falló la comprobación de identidad</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Sesión iniciada con una llave de acceso</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Falló el inicio de sesión con llave de acceso</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Inicio de sesión rechazado: falta el código de la conexión en dos pasos o es incorrecto</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Código de la conexión en dos pasos incorrecto</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cuenta bloqueada después de inicios de sesión fallidos</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Cuenta desbloqueada</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Contraseña cambiada</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Falló el cambio de contraseña</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Contraseña restablecida</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Contraseña nueva solicitada</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Dirección de correo electrónico cambiada</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Nombre de usuario cambiado</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Conexión en dos pasos activada</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Conexión en dos pasos desactivada</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Código de recuperación usado</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nuevos códigos de recuperación</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Contraseña de aplicación creada</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Contraseña de aplicación revocada</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Llave de acceso agregada</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Llave de acceso quitada</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Cuenta activada</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Cuenta desactivada</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Todo</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Inicios de sesión y sesiones</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Cambios en la cuenta</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Requiere atención</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>por ti</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>por el usuario</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>por %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Método</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Navegador</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistema</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Dispositivo</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Lugar</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>País</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiones</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Cuáles</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Canal de envío</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Intentos fallidos</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Códigos restantes</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Gestor de inicio de sesión</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Actividad de seguridad</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Actividad de seguridad de %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Inicios de sesión y cambios en la seguridad de tu cuenta. Si ves algo que no hiciste tú, cambia tu contraseña y desconecta los dispositivos que no reconozcas.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Inicios de sesión y cambios en la seguridad de esta cuenta.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Tus dispositivos</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Cambiar contraseña</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Regresar a la cuenta</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>No se registra la actividad de seguridad</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Se lee del registro de auditoría de usuarios, cuya tabla expuser_audit falta o no es compatible con esta base de datos. Ejecuta php update/common/scripts/6.0/createuseraudittable.php o la actualización de la base de datos de la versión 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Los últimos %days días</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Inicios de sesión de los últimos %days días</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Actividad de seguridad reciente</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mostrar</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>fallido</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>rechazado</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Todavía no se registra ninguna actividad de seguridad.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Los eventos de seguridad se conservan %days días.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Los eventos de seguridad se conservan hasta que un administrador los elimina.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Descargar mis datos de inicio de sesión</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Tus sesiones y eventos de seguridad en un archivo JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Este sitio no registra las sesiones, así que no se pudo cerrar la sesión de ningún otro dispositivo. Cambia tu contraseña ahora.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Se cerraron %count sesiones más. Ahora cambia tu contraseña.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>No había ningún otro dispositivo con la sesión iniciada. Ahora cambia tu contraseña.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Gracias. El evento se marcó como tuyo.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ese evento no necesita respuesta.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>La página había caducado. No se cambió nada; vuelve a intentarlo.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Proteger tu cuenta</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Si algo de aquí no lo hiciste tú, cierra la sesión de todos los demás dispositivos y después elige una contraseña nueva. También se cierra la sesión de los dispositivos que la mantenían abierta con “Recuérdame”.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>La sesión de cada dispositivo excepto este se cierra en su próxima solicitud. Después eliges una contraseña nueva.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Sí, cerrar la sesión de los demás dispositivos</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>¿Fuiste tú?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Sí, fui yo</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>No, proteger mi cuenta</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Sesión iniciada</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Intento fallido de inicio de sesión</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Sesión cerrada</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesiones cerradas</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Inicio de sesión desde un dispositivo nuevo</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Inicio de sesión desde un lugar nuevo</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identidad confirmada (&quot;Confirma que eres tú&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Falló la comprobación de identidad</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Sesión iniciada con una llave de acceso</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Falló el inicio de sesión con llave de acceso</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Inicio de sesión rechazado: falta el código de la conexión en dos pasos o es incorrecto</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Código de la conexión en dos pasos incorrecto</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cuenta bloqueada después de inicios de sesión fallidos</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Cuenta desbloqueada</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Contraseña cambiada</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Falló el cambio de contraseña</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Contraseña restablecida</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Contraseña nueva solicitada</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Dirección de correo electrónico cambiada</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Nombre de usuario cambiado</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Conexión en dos pasos activada</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Conexión en dos pasos desactivada</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Código de recuperación usado</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nuevos códigos de recuperación</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Contraseña de aplicación creada</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Contraseña de aplicación revocada</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Llave de acceso agregada</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Llave de acceso quitada</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Cuenta activada</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Cuenta desactivada</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Todo</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Inicios de sesión y sesiones</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Cambios en la cuenta</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Requiere atención</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Actividad de seguridad</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Actividad de seguridad de %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Inicios de sesión y cambios en la seguridad de tu cuenta. Si ves algo que no hiciste tú, cambia tu contraseña y desconecta los dispositivos que no reconozcas.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Tus dispositivos</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Cambiar contraseña</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>La actividad de seguridad todavía no se registra en este sitio.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Inicios de sesión de los últimos %days días</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Intentos fallidos</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Todavía no se registra ninguna actividad de seguridad.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Descargar mis datos de inicio de sesión</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Tus sesiones y eventos de seguridad en un archivo JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Este sitio no registra las sesiones, así que no se pudo cerrar la sesión de ningún otro dispositivo. Cambia tu contraseña ahora.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Se cerraron %count sesiones más. Ahora cambia tu contraseña.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>No había ningún otro dispositivo con la sesión iniciada. Ahora cambia tu contraseña.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Gracias. El evento se marcó como tuyo.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ese evento no necesita respuesta.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>La página había caducado. No se cambió nada; vuelve a intentarlo.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Proteger tu cuenta</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Si algo de aquí no lo hiciste tú, cierra la sesión de todos los demás dispositivos y después elige una contraseña nueva. También se cierra la sesión de los dispositivos que la mantenían abierta con “Recuérdame”.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>La sesión de cada dispositivo excepto este se cierra en su próxima solicitud. Después eliges una contraseña nueva.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Sí, cerrar la sesión de los demás dispositivos</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>¿Fuiste tú?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Sí, fui yo</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>No, proteger mi cuenta</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Contraseña</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Contraseña y código de la conexión en dos pasos</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Interfaz REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Interfaz SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Inicio de sesión único</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Sesión iniciada antes de que se registraran las sesiones</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Reporte de inicios de sesión</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Quién inició sesión en el sitio, con qué frecuencia inician sesión las cuentas o fallan al hacerlo, y desconectar a un usuario en todas partes. Funciona con cualquier gestor de sesiones.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Se cerró la sesión. El dispositivo tiene que volver a iniciar sesión.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Se cerró la sesión de %login en %count sesiones.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login no tenía ninguna sesión activa.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ninguna cuenta tiene ese ID, nombre de usuario o dirección de correo electrónico.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Esta es la sesión que estás usando. Para terminarla, cierra la sesión.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Esa sesión ya había terminado.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>La página había caducado. No se cambió nada; vuelve a intentarlo.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Las sesiones no se registran en este sitio (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Falta la tabla expuser_session</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Las sesiones se registran en cuanto se crea: php update/common/scripts/6.0/createusersessiontable.php o la actualización de la base de datos de la versión 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Ahora y hoy</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sesiones activas</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Usuarios conectados</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Inicios de sesión hoy</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Intentos fallidos hoy</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Desconectar a un usuario en todas partes</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Cada sesión de la cuenta termina en su siguiente solicitud, también las que mantiene &quot;Recuérdame&quot;. Úsalo cuando una cuenta pueda estar en malas manos; después restablece su contraseña.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID de usuario, nombre de usuario o dirección de correo electrónico</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Desconectar en todas partes</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Conectados ahora</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Se muestran las %limit usadas más recientemente.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Usuario</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Dispositivo</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Dirección</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Sesión iniciada</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Última actividad</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Acciones</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Este dispositivo</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>No registrado</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Desconectar</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>No hay ninguna sesión iniciada.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Los últimos %days días</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Los inicios de sesión y los intentos fallidos se cuentan a partir del registro de auditoría de usuarios, que no existe; las sesiones nuevas sí se cuentan.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Día</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Inicios de sesión</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Intentos fallidos</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Sesiones nuevas</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Gestor de sesiones: %handler. Las sesiones se leen de la tabla expuser_session, por lo que el reporte funciona con cualquier gestor.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Actividad sospechosa en las últimas %hours horas</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Una red no pudo iniciar sesión en %accounts cuentas (%count intentos)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cuenta bloqueada después de inicios de sesión fallidos</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count inicios de sesión fallidos en una cuenta</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Sesión iniciada desde %count países al mismo tiempo</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Actividad de seguridad</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiones</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Los inicios de sesión fallidos se leen del registro de auditoría de usuarios, que no está disponible aquí.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nada sospechoso: ninguna cuenta con inicios de sesión fallidos repetidos, ninguna red probando varias cuentas, ninguna cuenta con sesión iniciada desde varios países.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Alerta de seguridad sobre tu cuenta</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Ocurrió un evento de seguridad en tu cuenta %login: %event. Si no fuiste tú, protege tu cuenta en %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuración</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Pide al contenido de este sitio exactamente los campos que necesita una página, en una sola solicitud. El esquema sigue las clases de contenido; cada consulta se ejecuta con los permisos del usuario que la envía.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>La API GraphQL está desactivada en este acceso al sitio. Actívala en graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>La biblioteca GraphQL (webonyx/graphql-php 15) no está instalada.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Punto final</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Biblioteca</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Esquema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count clases de contenido, esquema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Consulta</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variables (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ejecutar</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Respuesta</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Ejecutando…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>No se pudo leer la respuesta.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>La consulta se ejecuta con tus permisos, con la sesión que tienes iniciada.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count en %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>sin límite</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Profundidad</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Complejidad</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elementos por lista</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (predeterminado %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Solicitudes por usuario o clave</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Solicitudes por dirección anónima</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspección</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Solo consultas persistentes</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Consulta más grande</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Carga más grande</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>No existe el acceso al sitio %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Las mutaciones están activadas en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Las mutaciones están desactivadas en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>La API GraphQL está activada en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>La API GraphQL está desactivada en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>No se pudo escribir la configuración: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Se vació la caché de respuestas: %count respuestas eliminadas.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Marca la casilla junto a la consulta para eliminarla.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>No se pudo eliminar la consulta: una consulta incluida en un directorio de PersistedQueryDirectoryList[] se elimina junto con su archivo.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Se eliminó la consulta persistente.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutaciones</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>activada</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>desactivada</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Accesos al sitio</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Dónde responden la API y sus mutaciones. Los botones escriben graphql.ini, igual que ./console exp:graphql:enable y exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Acceso al sitio</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Cambiar</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Desactivar</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Desactivar mutaciones</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Activar mutaciones</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Activar</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Límites</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] de este acceso al sitio.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Caché de respuestas</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Las respuestas de las consultas persistentes, guardadas según los permisos del usuario y caducadas cada vez que se publica contenido.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Respuestas guardadas</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count respuestas, %bytes bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Se guardan como máximo</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Última caducidad</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Borrar la caché de respuestas</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Consultas persistentes</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Guardadas con ./console exp:graphql:persist o por los clientes (consultas persistentes automáticas); se llaman por nombre o por SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nombres</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Tamaño</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ubicación</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eliminar</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>incluida</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>guardada</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Sí, eliminar esta consulta</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Aún no hay ninguna consulta persistente.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Claves de API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Claves de API personales con el ámbito graphql:read (consultas) o graphql:write (mutaciones). Créalas y revócalas en la página Acceso a la API o con ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Acceso a la API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Todas las claves</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Clave</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nombre</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Propietario</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Ámbitos</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Último uso</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>activa</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>caducada</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>revocada</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nunca</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Aún no hay ninguna clave de API con un ámbito GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>La API GraphQL está desactivada en el acceso al sitio %siteaccess, que muestra esta página; la tabla de abajo muestra dónde responde.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Para el acceso al sitio %siteaccess, que muestra esta página.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooks</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Cada evento que solicita un punto final (publish, update, trash, delete, move, hide, reveal, mutation) se le envía, firmado, mediante la parte de cronjob graphqlwebhooks. ./console exp:graphql:webhooks hace lo mismo que esta sección.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Eventos</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>todos</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Todos los accesos al sitio</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>roto</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>sin secreto</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>En espera</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count abandonadas</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Última entrega</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Enviar una prueba</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Sí, eliminar este webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Aún no hay ningún webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Agregar un webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Agregar</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Entregas recientes</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Hora</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultado</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Suscripciones</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Actualizaciones en vivo para los clientes: un flujo de eventos en /api/graphql/subscribe y un WebSocket (graphql-transport-ws) en Velocity. Cada evento llega solo a los suscriptores que pueden leer su contenido.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Abiertas ahora</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Máximo abiertas</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total en total, %user por usuario, %address por dirección</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Suscripciones anónimas</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Duración del flujo</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>No se pudo agregar el webhook: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Se cambió el webhook %name; su secreto de firma se mantiene.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>No se pudo guardar el secreto de firma (Configuración &gt; Secretos).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Se agregó el webhook %name. Su secreto de firma, que se muestra solo esta vez: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>No existe el webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>El webhook %name no respondió: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>El webhook %name respondió %status en %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Marca la casilla junto al webhook para eliminarlo.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Se eliminó el webhook %name.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>La API GraphQL está desactivada en este acceso al sitio.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>La biblioteca GraphQL no está instalada.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Usa GET o POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>El cuerpo no es un objeto JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables no es un objeto JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions no es un objeto JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Envía la consulta con POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>La solicitud no contiene ninguna consulta.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>La consulta ocupa más de %max bytes.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Error interno del servidor</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node necesita exactamente uno de id, remoteId, path y urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content necesita exactamente uno de id y remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>El cursor de after no proviene de esta API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>No existe el alias de imagen %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Aquí solo se aceptan consultas persistentes: envía el id de una consulta guardada.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>El hash de la consulta persistente no es un SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>El hash de la consulta persistente no coincide con la consulta.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Demasiadas solicitudes: como máximo %limit en %window segundos. Vuelve a intentarlo en %reset segundos.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>La consulta tiene %depth niveles de profundidad; se permiten como máximo %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>La consulta tiene una complejidad de %complexity; se permite como máximo %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Esta solicitud no puede leer el esquema (introspección).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search necesita un texto o un filtro (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument no es una fecha (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag necesita exactamente uno de id, remoteId y path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout necesita exactamente uno de id, identifier y urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>El campo operations de una solicitud multipart no es una única solicitud JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>El campo map de una solicitud multipart no es un objeto JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>La solicitud multipart no contiene el archivo %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Una ruta del campo map debe empezar por variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>El archivo %name no llegó completo (error de carga %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>El archivo %name ocupa más de %max bytes.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>No se pudo comprobar el archivo %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Las mutaciones están desactivadas en este acceso al sitio (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Envía la mutación con POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Inicia sesión para modificar contenido.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>La clave de API no tiene el ámbito %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Una mutación con sesión necesita el token de formulario de la sesión (cabecera X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl está desactivado: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] no indica ningún host.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>La dirección debe ser una dirección https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>El host %host no está en graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>No se pudo obtener el archivo.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload es solo un tipo de entrada.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Una variable de tipo Upload recibe un archivo de una solicitud multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>El id remoto %remoteId ya está en uso.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>El contenido ya tiene una traducción en %language: usa updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Indica al menos un campo.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>No se pudo crear una nueva versión (el contenido tiene demasiados borradores).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>La versión %version no es un borrador.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent necesita exactamente uno de id y nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Una ubicación no se puede mover debajo de sí misma.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>El contenido ya tiene una ubicación debajo de %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>No se pudo guardar el valor del campo %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>No existe el idioma de contenido %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>No existe la clase de contenido %class en el esquema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>El contenido no existe o no tienes permiso para leerlo.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>No tienes permiso para hacer esto con este contenido.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>La clase %class no tiene ningún campo %field que se pueda escribir.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>El campo %field se indicó dos veces.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>El campo %field recibe un archivo: envíalo como carga (una solicitud multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>El campo %field no admite archivos.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>El campo %field necesita un valor.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>El formato %format es solo para campos de texto enriquecido; %field toma su valor tal cual (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>El campo %field es obligatorio.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>No se pudo leer el HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content solo admite version junto con id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>El token de vista previa no es válido o ha caducado.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>No es un origen (https://host o https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>No es un ámbito de la API GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Envía las suscripciones a /api/graphql/subscribe (un flujo de eventos o un WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>La solicitud no nombra ninguna operación del documento.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Una suscripción solicita exactamente un campo.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Hay demasiadas suscripciones abiertas; vuelve a intentarlo más tarde.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Tienes %max suscripciones abiertas, el máximo permitido.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Tu dirección tiene %max suscripciones abiertas, el máximo permitido.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Las suscripciones están desactivadas en este acceso al sitio.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Inicia sesión para suscribirte (un token o una clave de API personal).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Envía las mutaciones a /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraciones</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>No se pudo leer el estado: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Las tablas de las migraciones todavía no existen: ./console exp:upgrade --apply las crea.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migraciones fallaron</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Hay una ejecución en curso, iniciada por %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>La instalación está bloqueada: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendientes</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fallidas</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Huérfanas</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Última ejecución</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ninguna todavía</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Todas las migraciones</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Ejecución simulada</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Ejecución de prueba</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Las migraciones pendientes se ejecutaron en una transacción que después se revirtió: no se conservó nada. Abajo aparece lo que cada una cambió en la base de datos.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Lo que haría ahora una ejecución. No se cambia nada: cada migración pendiente enumera los cambios que haría, y la ejecución lo que haría antes y después.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simular</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ejecutar</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>La ejecución de prueba falló: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Una simulación necesita PostgreSQL o SQLite, cuyos cambios de esquema se pueden revertir; en esta base de datos, el plan de abajo muestra lo que haría una ejecución.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Las migraciones</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migración</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Lo que haría</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulación: %result en %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Todavía no hay ninguna migración.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Antes y después de la ejecución</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Captura previa</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>se toma y se restaura si falla una migración</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>desactivada</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Captura posterior</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>se toma si la ejecución salió bien</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migraciones: %pending pendientes, %done hechas, %failed fallidas.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Historial de migraciones</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Cada ejecución con su usuario, entorno, capturas y lo que se confirmó, etiquetó y envió. Una ejecución fallida o interrumpida se puede reanudar; una ejecución con una captura previa se puede deshacer.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>No se pudieron leer las ejecuciones: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Las tablas de las migraciones todavía no existen: ./console exp:upgrade --apply las crea.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mostrar</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Todas</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ejecuciones</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Inicio</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Por</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Capturas</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repositorio</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Acciones</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>antes</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>después</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>envío: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Reanudar</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Revertir</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>No hay ninguna ejecución en este estado.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Iniciadas aquí</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Ejecuciones, reanudaciones y reversiones iniciadas en estas páginas, con el informe de cada una.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Qué</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultado</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Reversión</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Reversión de %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ejecución %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Lo que hizo la ejecución, su registro y su bitácora. Una ejecución iniciada aquí continúa en segundo plano si se cierra esta página; vuelva a abrir la página para seguirla.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Reanudar esta ejecución</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Revertir esta ejecución</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>No se pudo leer el registro: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progreso</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Iniciada por %user a las %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Revisando el código y tomando una captura antes de la ejecución</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Ejecutando %id (%index de %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done de %total hechas</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Las migraciones ya se ejecutaron; restaurando la captura si alguna falló</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Tomando una captura después de la ejecución, confirmando, etiquetando y enviando</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Restaurando la captura</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>La ejecución terminó. Cargando su informe.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>No se pudo seguir el progreso. Recargue la página para ver cómo va la ejecución.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Esta página sigue la ejecución mientras avanza.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Recargar</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Informe</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Duración</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisegundos</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Lo que la ejecución mostró como errores</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Registro</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Entorno</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ninguno</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Fin</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Confirmación</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Envío</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensaje</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migraciones de esta ejecución</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Origen</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Bitácora de la ejecución</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Solo se muestra el final de la bitácora.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>en curso</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>terminó sin informe</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>correcta</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>fallida</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>rechazada</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>no se pudo acceder a la base de datos</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>error interno</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Hay una ejecución en curso</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind iniciada por %user a las %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Seguirla</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>La instalación está bloqueada</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Otra ejecución tiene el bloqueo (una actualización o una ejecución en la consola): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>hecha</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>pendiente</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>no necesaria</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>desconocido</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>revertida</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>aplicada</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>se aplicaría</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>deshecha</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>se desharía</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>no ejecutada</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>espera a otra</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>cambio aceptado</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>el cambio se aceptaría</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulada</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraciones</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historial</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Deshacer %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Una ejecución se deshace regresando a la captura tomada antes de ella; una sola migración, con su down(). Restaurar una captura anterior es cosa de expertos. Cada una se ejecuta en segundo plano con su usuario, después de una captura del estado actual.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>No se pudo leer lo que se puede deshacer: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Una ejecución</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Una migración</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Una captura anterior</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Descripción</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>sí</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no tiene</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Captura</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Tomada</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Partes por restaurar</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>La base de datos</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Los archivos almacenados (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>La configuración (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Restaurar la base de datos la regresa al momento de la captura, sesiones incluidas: es posible que después tenga que volver a iniciar sesión. Todo lo que cambió desde entonces se pierde; antes se toma una captura del estado actual.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Sé lo que esto restaura</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Escribe otra vez el identificador de la captura</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Sí, deshacer</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancelar</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Las ejecuciones con una captura previa.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Elegir</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Todavía no hay ninguna ejecución con captura.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Las migraciones aplicadas que pueden deshacerse por sí mismas (tienen un down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ninguna migración aplicada tiene un down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Capturas anteriores (expertos)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Todavía no hay ninguna captura.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Ejecutar las migraciones</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>La ejecución continúa en segundo plano como %user, y su página la muestra mientras avanza. Antes de la primera migración se toma una captura de la instalación; si falla una migración, la ejecución se detiene y se restaura la captura.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Primero una ejecución de prueba</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>No se pudo leer el estado: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Migraciones pendientes</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Se ejecutan en este orden. Desmarque una para dejarla, junto con las que dependen de ella, para una ejecución posterior.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Ejecutarla</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Activa el modo de mantenimiento mientras se ejecuta.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Cambiadas después de aplicarse</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Estos archivos no son los que se aplicaron. Una ejecución los rechaza a menos que el cambio se acepte con un motivo; no se vuelven a ejecutar, se registra la nueva suma de verificación y el motivo se guarda en el registro de auditoría.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Aceptar los cambios</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Motivo</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Los valores predeterminados son los seguros. Cada casilla omite un paso.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Sin captura</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Sin captura antes y después de la ejecución: una falla no se puede restaurar automáticamente.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Sin restauración</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Después de una falla, dejar la instalación como la dejó la falla.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Conservar los cambios sin confirmar</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Ejecutar aunque la configuración, las extensiones o los diseños tengan cambios sin confirmar; estos entran en la captura.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Sin confirmación</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>No confirmar el archivo de estado ni la bitácora de la ejecución (tampoco etiquetar ni enviar).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Sin envío</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Confirmar y etiquetar, pero no enviar.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Sin etiqueta</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Confirmar y enviar, pero no etiquetar la ejecución.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Sí, ejecutar ahora estas migraciones</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>No hay ninguna migración pendiente.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Regresar al estado</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Cambios en esta instalación escritos una sola vez como archivos (contenido, clases, roles, configuración, esquema) y aplicados a cada instalación del sitio en el mismo orden. Una ejecución toma primero una captura, la restaura si falla una migración, y registra, confirma y envía lo que hizo.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Ejecutar %count pendientes</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Vista general</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendientes</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Hechas</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fallidas</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>No necesarias</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Base de datos</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transacciones: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Las migraciones del sitio están en migrations/; las de una extensión, en extension/&lt;name&gt;/migrations/. Se ejecutan en el orden de sus nombres y de lo que requieren.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Última ejecución</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>El archivo cambió después de aplicarse.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Todavía no hay ninguna migración. ./console exp:migration:generate --skeleton &lt;name&gt; --apply escribe la primera.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Las últimas ejecuciones</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Todas las ejecuciones</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Todavía no hay ninguna ejecución.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Simular una ejecución requiere la política migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Hay una ejecución en curso: simule cuando haya terminado.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuración</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target no es una ejecución, una migración ni una captura de esta instalación.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Marque primero &quot;Sí, deshacer&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Restaurar una captura anterior es cosa de expertos: marque &quot;Sé lo que esto restaura&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Escribe otra vez el identificador de la captura: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Elige al menos una parte por restaurar.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Esta ejecución no tiene captura previa: deshaga sus migraciones una por una o restaure una captura anterior.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Esta migración no se puede deshacer por sí misma: no está aplicada o no tiene down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>No se pudo leer el formulario.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Elige la ejecución por reanudar.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Marque primero &quot;Sí, ejecutar ahora estas migraciones&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Elige al menos una migración.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Una migración cambió después de aplicarse: acepte el cambio con un motivo o restaure el archivo.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Indica el motivo por el que se aceptan las migraciones modificadas.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>El motivo tiene como máximo 500 caracteres.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Una ejecución iniciada aquí sigue en curso (%detail). Espera a que termine.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Otra ejecución tiene el bloqueo de la instalación: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>La ejecución necesita un usuario con sesión iniciada que exista.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>No se encontró ningún ejecutable de línea de comandos de php. Indica su ruta completa en migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open está desactivado, así que aquí no se puede iniciar una ejecución. Ejecute ./console exp:migration:migrate --apply en el servidor.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>No se puede escribir en la carpeta de las ejecuciones: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>La ejecución se inició, pero no informó su identificador de proceso. Revisa %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Indica qué hay que deshacer.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>No se pudo iniciar la ejecución.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Grabar cambios</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Mientras una grabación está en curso, lo que cambias en la administración o en la barra lateral del sitio se guarda como pasos de una migración: contenido, clases, roles y políticas, secciones, usuarios y grupos, alias de URL, configuración. Detenla cuando termines, revisa lo que capturó y genera una migración a partir de ella.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>No se pudieron leer las grabaciones: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Las tablas de las grabaciones todavía no existen: ejecuta primero la actualización (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>La grabación está desactivada en migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Mis cambios</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Graba solo lo que tú cambias, dondequiera que lo cambies, hasta que la detengas.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Grabación</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>desde %time, %count cambio(s) hasta ahora.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etiqueta (opcional)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Ver lo que capturó</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Detener la grabación</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Empezar a grabar mis cambios</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Ventana para todo el sitio</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Graba cada cambio de cada usuario y de la consola hasta que se cierre. Al abrirla se te pide que verifiques que eres tú.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Abierta</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Cerrar la ventana</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Abrir la ventana para todo el sitio</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Grabaciones</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>La cuenta de un usuario (nombre de usuario, correo electrónico, contraseña) y los campos de las cuentas de usuario nunca se graban.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Cambios</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Todo el sitio</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Cambios de %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Detenida</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Todavía no hay ninguna grabación.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Grabación %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Todas las grabaciones</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>La migración que generaría</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Los cambios agrupados en un paso por cada elemento cambiado: lo que haría una migración generada a partir de esta grabación.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Se podrá generar una migración a partir de ella cuando esta instalación tenga los tipos de paso YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Omitido a propósito: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>No se grabó nada.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Lo que capturó</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count cambio(s), en el orden en que se hicieron.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Cambio</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Paso</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Afecta a</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count más: ./console exp:migration:record:show los muestra todos.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Descartar</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Elimina la grabación y lo que capturó. Lo que se cambió sigue cambiado.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Sí, descartar esta grabación</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Grabando…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Tus cambios se graban para una migración.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Cada cambio en este sitio se graba para una migración (ventana para todo el sitio).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>La grabación de todo el sitio comenzó: cada cambio de cada usuario se graba hasta que la detengas.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>La grabación comenzó: tus cambios se graban hasta que la detengas.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Grabación detenida. Lo que capturó se conserva hasta que la descartes.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Se eliminaron la grabación y sus eventos.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>No existe la grabación %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Marca primero «Sí, descartar esta grabación».</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Solo el usuario que grabó puede detener una grabación de sesión.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Elige la grabación que quieres detener.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Ya hay una grabación de este tipo en curso.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>No se pudo cambiar la grabación: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Generar migración</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Nombre de la migración (opcional)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Se escribió la migración %file. Los cambios que ningún paso puede hacer se nombran al principio del archivo, para hacerlos a mano.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>No se escribió ninguna migración: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Una ejecución larga por partes</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Los campos vacíos conservan los ajustes de migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Como máximo esta cantidad de migraciones</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Ninguna migración más después de (segundos)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Pausa entre migraciones (segundos)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Prioridad más baja (1 a 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Un campo de ejecución larga es un número entero desde 1 (la pausa: segundos de 0 a 60, la prioridad: 1 a 19), o vacío.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Se cierra solo a las %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Cerrar solo después de (minutos, opcional)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Los minutos son un número entero de 1 a 44640 (31 días), o vacío.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migración %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nueva migración</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Una migración YAML: escríbela como texto o arma sus pasos en el formulario, revísala y luego guárdala en una carpeta de migraciones.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Esta migración ya se ejecutó, así que no se vuelve a guardar: la protección por suma de verificación rechazaría un archivo modificado. Haz el cambio en una nueva migración.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>El servidor web no puede escribir el archivo.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Las líneas de comentario del inicio son el encabezado (description, author, requires, environments, engines). Cuando se agrega o se cambia un paso en el formulario, la migración se vuelve a escribir: los comentarios entre los pasos no se conservan.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Nombre de la migración</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>A dónde va</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>El sitio</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Texto YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Revisar</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Guardar</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Pasos</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Claves</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editar</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Mover hacia arriba</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Mover  hacia abajo</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eliminar</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Todavía no hay pasos: agrega uno con el formulario o escríbelos en el texto.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Cambiar el paso %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Agregar un paso</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>El formulario de un paso se forma a partir de su tipo de paso: sus claves, lo que acepta cada una y los modos a los que pertenece.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Tipo de paso</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Mostrar su formulario</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>El paso tiene claves que su tipo no conoce; se omiten cuando se cambia el paso: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modo</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>En</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>solo en %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Predeterminado: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Condiciones, referencias y comentario</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Pares Nombre=valor separados por comas. Los valores de este paso: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Ejemplo</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Cambiar paso</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Agregar paso</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Lo que dice exp:migration:check: el encabezado, el documento y cada paso revisado por su tipo de paso.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>La migración pasa la revisión.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Vista previa</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>El YAML tal como se guardará.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Mostrar el YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Migraciones YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ya se ejecutó</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Todavía no hay migraciones YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Edición</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>No hay ninguna migración YAML %id en las carpetas de migraciones.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Elige un tipo de paso.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Se agregó el paso. Revisa la migración antes de guardarla.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Se cambió el paso. Revisa la migración antes de guardarla.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Elige un paso.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Este paso no tiene formulario (un ciclo o un tipo de paso que esta instalación no tiene): cámbialo en el texto.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Elige a dónde va la migración: al sitio o a una extensión activa.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Se guardó %file. Haz una ejecución de prueba antes de que se ejecute la migración.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>No se guardó: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Remotos</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Las otras instalaciones en las que esta despliega sus migraciones: un despliegue envía las migraciones a los remotos elegidos y las ejecuta allí, todos a la vez y sincronizados. Un remoto nunca guarda un secreto: su credencial nombra uno en Configuración &gt; Secretos.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Nuevo remoto</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ayuda</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Probar la conexión de %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Los remotos</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Se trabaja en hasta %parallel remotos al mismo tiempo; una fase puede tardar %timeout segundos en cada uno.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Remoto</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Dirección</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Credencial</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Grupos</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>configuración por corregir</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>solo archivos (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Clave SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Contraseña</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ninguna (el agente SSH y las claves del servidor)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Probar la conexión</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Un despliegue a un grupo va a todos sus remotos.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Desplegar en remotos</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Todavía no hay ningún remoto configurado.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Remoto %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Aquí no se envía ni se ejecuta nada: Guardar escribe la configuración en settings/override/migration.ini.append.php. La credencial es un nombre; su valor queda en Configuración &gt; Secretos o en el entorno.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Revisa esta configuración</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>La configuración tal como se ingresó, todavía sin guardar.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Revisión</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>La configuración es válida. Se escribirán estas líneas:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transporte</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>solo un nombre; el valor se queda en Configuración &gt; Secretos</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Las líneas que se escribirán</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Conexión</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Clave del servidor</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. El remoto</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Cómo se llama el remoto y qué entorno es.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Id</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Letras, dígitos, - y _, por ejemplo production1. Nombra al remoto en los informes y en la consola (--remotes=production1) y no se puede cambiar después.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Un despliegue por etapas recorre los entornos en este orden.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Opcional, separados por comas, por ejemplo production. Un despliegue a un grupo va a todos sus remotos.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. La conexión</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Cómo llegan los archivos allí y dónde está la instalación.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Por SSH, solo lo que cambió, y una transferencia interrumpida se reanuda. La mejor opción donde rsync está instalado.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH con scp para los archivos.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH con sftp para los archivos.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Solo archivos: las migraciones se envían y se vuelven a leer, pero no se pueden ejecutar allí.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP sobre TLS; solo archivos.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Otra instalación en este servidor, en una carpeta.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Servidor</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Un nombre de servidor o una dirección, por ejemplo node1.example.com. No aplica para local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Puerto</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Vacío: 22 para SSH, 21 para FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Usuario</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Ruta</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>La raíz de la instalación allí, por ejemplo /var/www/site (para FTP: la ruta que ve la cuenta FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Línea de comandos de PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>El CLI de PHP allí: php, o una ruta completa como /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Los scripts de consola se ejecutan allí como root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Solo si el usuario del remoto es root (entonces se ejecutan con --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. La credencial</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Cómo inicia sesión allí esta instalación. Solo se guarda un nombre.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ninguno</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>El agente SSH y las claves del usuario con el que se ejecuta esta instalación (y siempre para local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Una clave privada guardada como secreto.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Una contraseña guardada como secreto (FTP inicia sesión con una).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Nombre del secreto</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Un secreto de Configuración &gt; Secretos, por ejemplo deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Configuración &gt; Secretos</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>O una variable de entorno</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>La variable del proceso del servidor que lo contiene, por ejemplo DEPLOY_KEY (se guarda como env:DEPLOY_KEY). Ocupa el lugar del nombre del secreto.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. La clave del servidor</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Opcional, para SSH, sftp y rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Huella de la clave del servidor</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... tal como lo muestra ssh-keygen -l. Con ella, el servidor debe presentar esta clave; sin ella, la clave se aprende en el primer contacto.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Revisión</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Prueba la conexión con la configuración de arriba y luego revisa las líneas que se escribirán.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Eliminar este remoto</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Su configuración se quita de settings/override/migration.ini.append.php. Nada cambia en el remoto y sus despliegues permanecen en el historial.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Sí, eliminar este remoto</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Despliegues</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Un despliegue envía las migraciones de esta instalación a los remotos elegidos y las ejecuta allí como %user, todos a la vez y sincronizados: primero se revisa cada remoto y, si uno falla, se deshacen todos los remotos que las aplicaron. Continúa en segundo plano y su página muestra cada remoto conforme avanza.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Los remotos</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Marca remotos, un grupo o ambos.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Desplegar en él</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Cómo</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Desplegar</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Enviar y ejecutar</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Las migraciones se envían, se verifican y se ejecutan en cada remoto con un mismo id de ejecución compartido.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Solo transferencia</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Los archivos se envían y se verifican, no se ejecuta nada (la única forma para un remoto FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Por etapas</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Etapa por etapa en el orden de los entornos (dev, stage, beta, production ...): se despliega la primera etapa y luego una compuerta espera hasta que alguien apruebe la siguiente. Todo o nada dentro de cada etapa.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Solo estas migraciones</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Opcional: ids de migraciones, separados por comas. Vacío: todas las migraciones del sitio y de sus extensiones.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Solo verificación previa</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Sí, desplegar ahora</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Los despliegues que enviaron o ejecutaron algo, los más recientes primero (una verificación previa no guarda informe).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>solo transferencia</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>por etapas, %stages etapas</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>desincronizado</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Todavía no hay ningún despliegue.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Despliegue %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Cada remoto del despliegue con su estado. Un despliegue iniciado aquí continúa en segundo plano cuando se cierra esta página; vuelve a abrirla para seguirlo.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Todos los despliegues</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Verificación previa</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Siguiente etapa</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Revisando la configuración y las credenciales</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Verificación previa: leyendo el estado de cada remoto</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Enviando los archivos de migración</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Verificando lo que llegó</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Ejecutando las migraciones en cada remoto</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Revirtiendo los remotos</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>El despliegue terminó. Cargando su informe.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>No se pudo seguir el progreso. Recarga la página para ver cómo va el despliegue.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fase</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Esta página sigue el despliegue conforme avanza.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Sincronizado</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Etapas</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>la etapa %stage espera en su compuerta</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Compuerta %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>aprobado por %user a las %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Etapa</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Archivos enviados</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Versión del kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>aplicadas: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>por aplicar: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fases</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Compuerta: etapa %stage de %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Las etapas anteriores ya están desplegadas. Revísalas y luego aprueba la siguiente etapa: sus remotos se revisan otra vez y se despliegan, todo o nada.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Siguiente</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Sí, desplegar la siguiente etapa ahora</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aprobar</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Revertir este despliegue</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Cada remoto que lo aplicó (%list) regresa a la captura tomada antes de su ejecución, todos a la vez.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Sí, revertir este despliegue ahora</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>planeado</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>transferido</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>desplegado</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>espera en una compuerta</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>seleccionados</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>preparado</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>listo</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>espera su etapa</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>archivos enviados</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>verificado</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>falló, se restauró solo</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>sin cambios</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>no desplegado</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>inaccesible</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>El remoto respondió.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>El remoto no se puede usar ahora.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done hechas, %pending pendientes, %failed fallidas</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Bloqueo</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>una ejecución tiene el bloqueo allí</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>libre</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage de %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Elige el remoto por probar.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Marca primero “Sí, eliminar este remoto”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>No se pudo eliminar el remoto: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>No se pudo guardar el remoto: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>No se puede leer el archivo de configuración: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Elige al menos un remoto o un grupo.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Un remoto elegido ya no está en la configuración. Recarga la página.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Marca primero “Sí, desplegar ahora”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Un remoto FTP no puede ejecutar migraciones: elige “Solo transferencia” o déjalo fuera.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Las migraciones por desplegar son ids de migraciones, separados por comas.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>El despliegue sigue en curso. Espera a que termine.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Este despliegue no espera en ninguna compuerta.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ningún remoto aplicó este despliegue: no hay nada que revertir.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Marca primero “Sí, desplegar la siguiente etapa ahora”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Marca primero “Sí, revertir este despliegue ahora”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Ya existe un remoto con el id %id.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>El puerto es un número del 1 al 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>El entorno es una palabra de letras, dígitos, - y _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Un grupo es una palabra de letras, dígitos, - y _ (no solo - y _): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>La credencial no se puede leer ahora: %problem. Guárdala en Configuración &gt; Secretos (o define la variable) antes del primer despliegue.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Un remoto FTP solo recibe archivos: un despliegue a él es “Solo transferencia” y sus migraciones se ejecutan allí a mano.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>El remoto %id no está en settings/override/migration.ini.append.php; quítalo donde esté definido.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Inició sesión por FTP y leyó index.php. El estado de migración de un remoto FTP no se puede leer.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Modificado</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Creado</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nombre</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Clase</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sección</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Creado por</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Contenido reciente</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>El contenido creado y modificado más recientemente de todo el sitio, lo más nuevo primero: lo que enviaron los visitantes, lo que está retenido para revisión, los borradores que esperan su publicación. Selecciona elementos para liberarlos, retenerlos, ocultarlos, revelarlos, quitarlos o moverlos a otra sección o estado.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>No se pudo leer la lista: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>La retención para revisión aún no está configurada, así que no hay nada retenido y no se ofrecen las acciones de retención. El paso de actualización 6.0.15-review-hold la configura: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrar la lista</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Desde</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hasta</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Creado (primera publicación)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Todos</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Situación</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publicado</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Borrador, nunca publicado</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Pendiente (esperando aprobación o una fecha)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>En la papelera</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Retenido para revisión</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Retenido</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>No retenido</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Oculto</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Visible</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Enviado el</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Cualquier acceso al sitio</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Solo lo que registró la auditoría.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Ahora: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Un nombre de usuario o un ID de usuario.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtrar</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Borrar filtros</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elementos</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from a %to de %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ningún elemento</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(leído en %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Acciones sobre los elementos seleccionados</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Seleccionar todo en esta página</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count seleccionados</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Acción</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Elige una acción</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Liberar la retención</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Retener para revisión</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Ocultar</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Revelar</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Mover a la papelera</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Borrar</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Asignar sección</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Asignar estado</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Motivo</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Necesario para retener; se guarda con la retención y en la auditoría.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Elige una sección</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Elige un estado</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Aplicar a los seleccionados</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Cada elemento se comprueba con tus propios permisos. Mover a la papelera y borrar te piden confirmación. Más de %count elementos se procesan en segundo plano.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Seleccionar</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publicación</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Enviado desde</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Seleccionar %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>todavía no</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(sin nombre)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Borrador</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendiente</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Oculto por su padre</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Retenido: nuevo envío</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versión %version pendiente</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versión %version en curso</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Borrador, versión %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versión %version publicada</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Programado para el %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>sin dirección</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>no registrado</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Nada coincide con estos filtros.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Mostrar todo</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Todavía no hay contenido.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Por página</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Mostrar %count elementos por página.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>La dirección y el navegador de un envío proceden del índice de auditoría, que no está disponible aquí: la columna dice &quot;no registrado&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>La dirección y el navegador son los que la auditoría registró para el elemento (la retención automática siempre los registra; la publicación y la creación solo donde está activado), tal como los conservan sus ajustes de privacidad.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count elementos</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Borrar elimina los elementos definitivamente, con todas sus versiones y traducciones. No se puede deshacer.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Los elementos van a la papelera, desde donde se pueden restaurar.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Cada elemento se comprueba con tus propios permisos; un elemento con subelementos se deja como está (quítalo en la estructura de contenido). Se te pedirá que verifiques que eres tú.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Esto se ejecuta en segundo plano: se abre su página de progreso y el resultado de cada elemento se muestra cuando termina.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Los elementos seleccionados</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>y %count más</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancelar</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>No se hizo nada</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Motivo: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>La acción sigue ejecutándose en segundo plano.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Su progreso</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>La acción en segundo plano falló: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Hecho</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Rechazado</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fallido</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Por elemento</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Elemento</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultado</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Por qué</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Volver a la lista</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuración</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Nada hecho</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Confirmar</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Elige una acción.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Selecciona al menos un elemento.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Selecciona como máximo 1000 elementos a la vez.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Indica por qué se retienen los elementos.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Elige la sección.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Elige el estado.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>No se pudo leer el formulario.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Tablero</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Contenido reciente</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>No se pudieron leer los recuentos: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Retenido para revisión</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Nuevo hoy</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>La retención para revisión aún no está configurada (el paso de actualización 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Todo el contenido reciente</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>No puedes ejecutar acciones de moderación (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>La acción de moderación no está completa: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderación: %action en %count objetos</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done de %total objetos: %ok hechos, %refused rechazados, %failed fallidos</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok hechos, %refused rechazados, %failed fallidos</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Ya no existe.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>No tiene ubicación (no publicado).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>No puedes ocultarlo (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>No puedes revelarlo (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Ya está oculto.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>No está oculto.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Ocultado.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Revelado.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Está en la papelera: vacíala o restáuralo allí.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Un borrador que nunca se publicó no puede ir a la papelera: bórralo.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>No puedes borrarlo (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Borrado.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>No puedes quitarlo (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Tiene subelementos: quítalo en la estructura de contenido, donde aparecen.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>No se quitó (un flujo de trabajo puede retener la eliminación).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Movido a la papelera.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>La sección no existe.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Ya está en esta sección.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>No puedes asignar esta sección (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>No se asignó la sección.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Sección asignada.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>El estado no existe.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Ya está en este estado.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>No puedes asignar este estado (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>No se asignó el estado (un flujo de trabajo puede retener el cambio).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Estado asignado.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>No existe esa acción.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>La retención para revisión no está configurada (el paso de actualización 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Indica por qué se retiene.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Ya está retenido.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>No puedes retenerlo (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>No se aplicó la retención (un flujo de trabajo puede retener el cambio).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Retenido.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>No está retenido.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>No puedes liberarlo (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>No se liberó la retención (un flujo de trabajo puede retener el cambio).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Liberado; sigue oculto: no puedes revelarlo (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Liberado.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Todos los destinos</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Última publicación</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publica gratis una copia estática de tu sitio en GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Páginas desactualizadas</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicación estática</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>La publicación estática está desactivada.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Destino</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>No se pudieron leer los destinos: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>hay una tarea en curso</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>compilación por revisar</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ocultar esto</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>crear un destino</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nunca</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>leer el tutorial</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added agregados, %changed cambiados, %removed eliminados</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes de %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Hay %count más que no se muestran.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages páginas escritas</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path mide %size, más de lo que el servidor permite por archivo.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % del límite</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag es la publicación que tiene ahora el sitio.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: tarea %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repositorio/ para un sitio de proyecto de GitHub; vacío para un dominio propio o un sitio de usuario.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. El sitio</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. El servidor</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Acceso al repositorio</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. El repositorio</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Enlaces y ruta base</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Tu propio dominio</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Qué contiene la compilación</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Cuándo se publica</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Revisar y guardar</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Un sitio de proyecto de GitHub vive bajo /&lt;repository&gt;/; los enlaces relativos funcionan ahí y en cualquier otro lugar.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Una compilación obtiene cada página de %site tal como la ve un visitante sin sesión iniciada, reescribe los enlaces, copia los archivos y escribe el resultado en la carpeta del destino. No se publica nada hasta que revises la compilación y pulses Publicar.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Una expresión cron, por ejemplo 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>La clave de despliegue se guarda como el secreto %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Una clave de despliegue permite a esta instalación enviar a un solo repositorio por SSH y a ningún otro lugar. Su mitad privada se queda en Configuración &gt; Secretos; solo se muestra la mitad pública.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Una clave de despliegue creada para este destino</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Una clave de despliegue accede por SSH: cambia la dirección git por la de SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Hay una tarea en curso, iniciada por %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Todavía hay una tarea de este destino en curso (%detail). Espera a que termine.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Todavía hay una tarea de este destino en curso. Espera a que termine.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Un enlace de la página /news/ a la página /about-us/team se escribirá como</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Se creó una nueva clave de despliegue. Agrega ahora su mitad pública al repositorio.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Una página que después de la limpieza todavía contiene salida de depuración, un token de formulario o un id de sesión nunca se publica.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Una reversión es para expertos: marca &quot;Sé lo que esto cambia&quot; y vuelve a escribir el nombre de la etiqueta.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Un sitio puede ocupar hasta %site, un archivo hasta %file, con unos 100 GB de tráfico al mes. En un plan gratuito el repositorio debe ser público. GitHub Pages no está pensado para tiendas ni otras transacciones comerciales.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Un destino es un sitio publicado en un repositorio git. Aquí no se compila ni se publica nada: Guardar escribe la configuración en settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Un destino es un sitio publicado en un lugar, por ejemplo tu sitio público en GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Un token de Configuración &gt; Secretos</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Un flujo de trabajo del repositorio lo publica.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Agrega esta clave pública al repositorio con acceso de escritura. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, marca Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Agregados</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Otro servidor git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Otro proceso está trabajando en este destino: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Atrás</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Ruta base</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Antes</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Bajo una ruta base</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Rama</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Enlaces rotos</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Enlaces rotos en la compilación</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Compilación</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Compilación %id de %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Compilar %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Compilar ahora</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Compilación por revisar</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Por</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>A mano, aquí</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancelar</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Cambiar</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Cambiados</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Cambios</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Revísala primero</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Revisa esta configuración</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Revisa lo que cambia la compilación, mírala y luego publícala o descártala.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Elige la publicación a la que quieres volver.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Llegará en una versión posterior.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Confirmación</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Confirmaciones</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Confirma la compilación, la etiqueta y la envía a %remote. Un envío nunca se fuerza; puedes volver a cualquier publicación más adelante.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Comparado con la carpeta anterior: %added agregados, %changed cambiados, %removed eliminados, %unchanged sin cambios.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Comparado con la última publicación.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Credencial</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Dominio propio</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>La salida de depuración, los tokens de formulario, los ids de sesión y los nonces siempre se quitan.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Clave de despliegue</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Clave de despliegue de %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Descartar</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Descartar la compilación</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Dominio</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Vacío: la dirección del sitio. Si no, una dirección interna del mismo sitio.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Terminada</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Cada enlace empieza con la ruta base.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Cada publicación es una confirmación con una etiqueta static/%id/&lt;n&gt;. Volver atrás crea una nueva confirmación con los archivos de una publicación anterior: el historial se conserva, ninguna etiqueta se mueve y nada se fuerza.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Extras</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Obtener las páginas de</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Archivo</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Archivos</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Archivos faltantes</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Archivos de</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Archivos que no se pudieron recopilar</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Huella digital</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Carpeta</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Para una dirección SSH. La clave se crea después de guardar; tú agregas su mitad pública al repositorio.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Para una dirección https://. GitHub: un token de acceso detallado con Contents de lectura y escritura en el repositorio.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Para expertos. El sitio público cambia en cuanto termina el envío.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularios</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Alojamiento gratuito desde un repositorio de GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Desde la rama</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Dirección git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages permite un sitio de %site y un archivo de %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Límites de GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages publica los archivos tal como están (necesario para archivos que empiezan con _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub sirve la rama tal como se envía. Es la opción predeterminada.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, tu propio servidor: cualquier repositorio git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Volver a una publicación anterior</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ayuda</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Ayuda con el asistente</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Ocultarlos</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historial</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Historial de %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Servidor</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Cómo recibe GitHub Pages la compilación</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Revisé los cambios</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Sé lo que esto cambia</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Id</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Está desactivada: no se puede compilar nada hasta que se active.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Se ejecuta en segundo plano como %user; puedes cerrar esta página.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Tarea %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Se guarda como el secreto %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Última publicación</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Excluir estas páginas</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Excluir estas secciones</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Enlaces</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Enlaces reescritos</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Sitio en vivo</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Ver la compilación</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Letras minúsculas, dígitos, _ y -, por ejemplo github-public. Da nombre a la carpeta y a las etiquetas (static/&lt;id&gt;/&lt;n&gt;) y no se puede cambiar después.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Crear una nueva clave</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Crear un destino</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Crear la clave</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Primero crea el repositorio en el servidor; puede estar vacío.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifiesto</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensaje</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>La mayoría de las páginas</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nombre</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Nombre del token en Configuración &gt; Secretos</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Nuevo destino</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Siguiente</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Todavía no hay ninguna confirmación.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>No se creó ninguna clave: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>No se encontró ningún binario de línea de comandos de php. Configura migration.ini [AdminSettings] PhpCliPath con su ruta completa.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Todavía no hay ninguna etiqueta.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Todavía no hay ningún destino.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ninguno</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>No está en la compilación.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Todavía no se ha publicado nada.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Todavía no se ha publicado nada: todos los archivos son nuevos.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Notificar</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Según una programación</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>En la consola</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>En el servidor: ./console exp:static:serve %id la sirve de la misma manera.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Una ruta por línea, * coincide con cualquier parte: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Con el destino solo se guarda un nombre; el token o la clave se quedan en Configuración &gt; Secretos y nunca aparecen en un registro.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Solo lo que nombran las páginas</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Solo con un token. env:NAME lee en su lugar una variable de entorno del servidor.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Abrir la vista previa</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Abre la compilación tal como la servirá el servidor, desde la carpeta del destino. El enlace funciona para ti durante una hora.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Opcional. Vacío: lo que se publicó.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Opcional. Con un dominio, el sitio se sirve en su raíz.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Salida</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Páginas</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Páginas del destino</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Páginas rechazadas</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Posprocesamiento</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Vista previa</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Vista previa y publicación</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Vista previa y publicación de %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Vista previa de la compilación</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progreso</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Dirección pública</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Clave pública</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publicar</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Publica una copia estática de un sitio en GitHub Pages o en cualquier servidor git: compílala, revisa los cambios, publica y vuelve a una publicación anterior cuando lo necesites.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publicación a la que volver</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publicaciones</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Envío</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Leer el tutorial</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Registro</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Rechazadas</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relativos</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Recargar</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Eliminados</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Reemplazar la clave: la anterior deja de funcionar</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Informe</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Informe de la compilación</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repositorio</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Revisión</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>La revisión comprueba cada ajuste y muestra las líneas que se escribirán. Todavía no se guarda nada.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Revertir</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Reversión</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Guardar</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Programación</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Página de búsqueda</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Ids de sección, separados por comas.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Enviarlos al sitio en vivo</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Ajuste</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Configuración</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Configuración de %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuración</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Configuración &gt; Secretos</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Se muestra en las listas, por ejemplo &quot;Sitio público en GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>El acceso con una GitHub App llegará con la integración de GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Sitio</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Sitio que se publica</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Tamaño</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Tamaño y límites</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Tamaño de la compilación</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Páginas desactualizadas</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Inicio</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Iniciada por %user a las %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicación estática</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>La publicación estática está desactivada</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>La publicación estática está desactivada.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>La publicación estática está desactivada. Actívala primero en Configuración &gt; Publicación estática.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>La publicación estática está activada.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Paso %step de %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Pasos</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Limpieza</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Desactivar</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Activar</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Activar la publicación estática</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Etiquetas</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Destino</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Los destinos se pueden crear y cambiar, pero no se compila ni se publica nada hasta que se active.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Indica a los buscadores qué leer.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>No se pudo descartar la compilación: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>La compilación es igual a la última publicación: no hay nada que publicar.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Se descartó la compilación: la carpeta vuelve a contener la última publicación.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Los valores predeterminados sirven para la mayoría de los sitios.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>La carpeta contiene una compilación que todavía no se ha publicado; una nueva compilación la reemplaza.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>No se puede escribir en la carpeta de las tareas: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>No se pudo preparar la tarea: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>No se pudo iniciar la tarea.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>La tarea terminó. Cargando su informe.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>La tarea necesita un usuario con sesión iniciada.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>La tarea se inició, pero no informó su id de proceso. Revisa %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>La clave</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>El archivo más grande: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Las líneas que se escribirán</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>La lista de páginas para los buscadores; necesita la dirección pública.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Las páginas se obtienen tal como las ve un visitante sin sesión iniciada. Nunca se ofrecen los siteaccess de administración y edición.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>No se pudo seguir el progreso. Recarga la página para ver cómo va la tarea.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>La mitad pública de la clave:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>La raíz de la rama</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>El almacén de secretos todavía no está configurado (./console exp:upgrade --apply crea su tabla), así que no se puede guardar ninguna clave.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>El servidor accede por sí mismo (su propia clave SSH o ayudante de credenciales), o el repositorio está en este servidor.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>No se pudo escribir el ajuste: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>La configuración es válida. Se escribirán estas líneas:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>No se puede leer el archivo de configuración: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>El sitio vuelve a los archivos de esa publicación; una compilación todavía no publicada debe publicarse o descartarse primero.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>La página propia del sitio para direcciones que no existen.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>No se pudo guardar el destino: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>El destino todavía no accede con esta clave: elige &quot;Una clave de despliegue creada para este destino&quot; en su configuración.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>No se pudieron leer los destinos: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Todavía no hay ninguna compilación por revisar.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Esta instalación no tiene ningún siteaccess público. Los siteaccess de administración y edición nunca se publican.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Esta página sigue la tarea mientras avanza; la tarea continúa en segundo plano si se cierra la página.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Este destino todavía no tiene clave de despliegue.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Este destino todavía no se ha compilado aquí.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Este destino ya tiene una.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Descarta esta compilación: la carpeta vuelve a contener la última publicación. El sitio en vivo no cambia.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Marca primero &quot;Revisé los cambios&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Hora</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Disparadores</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Vuelve a escribir el nombre de la etiqueta</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Sin cambios</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Qué</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Qué cambia</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Qué es cada archivo; siempre se escribe.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Lo que hizo la tarea y su registro. Una tarea iniciada aquí continúa en segundo plano si se cierra esta página.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Lo que la tarea imprimió como errores</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Lo que nombran las páginas, y cada imagen del contenido publicado</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Cuándo</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Cuando una publicación falla</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Cuando una publicación sale bien</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Cuando se publica contenido</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>A dónde van los enlaces a lo que la copia no contiene (la búsqueda, el inicio de sesión).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Desde dónde se sirve la copia estática.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Qué sitio se publica y cómo se llama el destino.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Funcionan bajo cualquier ruta. Es la opción predeterminada.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Se escribe siempre que hay un dominio propio.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Sí</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Siempre puedes compilar y publicar a mano aquí y en la consola.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>solo un nombre; el valor se queda en Configuración &gt; Secretos</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>bajo %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>terminó sin informe</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>extra</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>falló</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>archivo</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, o main con la carpeta docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>servidor git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (con un token) o git@github.com:owner/repo.git (con una clave de despliegue); nunca con una contraseña ni un token dentro.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, para el mapa del sitio y los enlaces canónicos.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>imagen</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nunca</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>sin remoto</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ninguno: las confirmaciones se quedan en la carpeta</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ninguno: no cambió nada</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>no enviado</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>no cambió nada</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>página</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>correcto</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open está desactivado, así que aquí no se puede iniciar una tarea. Usa ./console exp:static:build en el servidor.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>publicación</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>publicado</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>envío pendiente</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>enviado</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>rechazado</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relativos</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>reversión</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>revertido</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>en curso</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>solo la carpeta</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: se escribe en el archivo CNAME. Apunta el DNS del dominio al servidor según sus instrucciones; HTTPS puede tardar un rato en activarse.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>sí, todavía no publicado</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Una GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Lo publica un workflow del repositorio. La compilación escribe el archivo del workflow; deja la carpeta vacía.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Después de guardar un destino con un repositorio de GitHub y un token o una GitHub App, este paso puede crear el repositorio y activar GitHub Pages. Si no, crea primero el repositorio en GitHub; puede estar vacío.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>¿Rama o GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Verificar el DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Crear el repositorio si no existe</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Crea el repositorio en GitHub y activa GitHub Pages en su configuración (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Crea el repositorio %repo si no existe (si se solicita), activa GitHub Pages desde la rama o desde GitHub Actions según lo guardado y configura el dominio propio y HTTPS. Usa la configuración guardada: guarda primero los cambios.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Detalles en GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Ingresa primero el dominio propio.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Cada push se revisa primero contra estos límites.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Para una dirección https:// en GitHub. Inicia sesión la App configurada para esta instalación; necesita el id de instalación.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages solo sirve un repositorio privado con un plan de pago.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: un subdominio (www.example.com) necesita un registro CNAME hacia &lt;owner&gt;.github.io; un dominio raíz (example.com), los registros A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id de instalación de la GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Última compilación de Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Límites y condiciones</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Necesario para GitHub Pages con un plan gratuito.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>En GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Solo con una GitHub App: el número al final de la dirección de la instalación de la App en GitHub. La App misma se define en staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privado</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Público</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Guarda primero el destino con un repositorio de GitHub y un token o una GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Configura estos registros con el proveedor del dominio:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Configurar en GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>El DNS de %domain todavía no apunta a GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>El DNS de %domain apunta a GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>La integración con GitHub no está disponible aquí: %problem. Publicar en la rama funciona de todos modos; activa GitHub Pages en la configuración del repositorio.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Los pasos de GitHub no están disponibles para este destino: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>El estado de GitHub Pages se muestra con un token o una GitHub App como credencial.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Usar tu propio dominio</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Qué elegir: token, clave de despliegue o GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Con un repositorio de GitHub y un token o una GitHub App, el asistente puede crear el repositorio, activar GitHub Pages y configurar el dominio por ti (paso 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>compilando</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>compilado</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>desde GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>desde la rama %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ninguno todavía</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>no encontrado</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>desactivado</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privado</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>público</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>en cola</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>desconocido</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count en %pages página(s):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Un archivo .gz (y .br) junto a cada archivo de texto, para los hosts que los sirven.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Una página pequeña para cada dirección antigua y alias de una página, para que los enlaces antiguos sigan funcionando.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Se escribe siempre cuando GitHub Actions entrega el sitio.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Un id SPDX como CC-BY-4.0, o el propio texto.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Canasta</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Llamadas al servidor</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Comentarios</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formularios que recopilan información</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Flujo de trabajo de GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Menos espacios en blanco y sin comentarios en las páginas.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Licencia del contenido</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Iniciar sesión</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minimizar</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Otros formularios</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precomprimir</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Páginas de redirección</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Páginas de redirección: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Buscar</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Índice de búsqueda: %pages página(s) en %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Hojas de estilo y scripts nombrados por el hash de su contenido, para que los navegadores puedan conservarlos.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Las páginas modificadas, unos minutos después del último cambio (la parte de cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>La licencia del contenido, del campo de abajo.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Todo el sitio, en los horarios de la programación (la parte de cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Estas partes de las páginas necesitan un servidor; cada una tiene una alternativa. Revísalas antes de publicar.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Lo que no funciona de forma estática</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Qué es el repositorio, para quien lo abre en el host.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>omitido</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>el texto alternativo</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>el punto final de formularios del sitio en vivo</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>el sitio en vivo</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>la página de búsqueda de la copia</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>No se pudo enviar el formulario.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Gracias: el formulario se envió.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>No se aceptó el formulario: revisa lo que escribiste y vuelve a enviarlo.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Quitar los enlaces a páginas que la copia no contiene</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Quitar los enlaces a la administración</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Su texto se mantiene. Las imágenes, los formularios y los enlaces a otros sitios nunca se quitan.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versión</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Accesos al sitio que publicar</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Acceso al sitio</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>En la raíz</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Ningún acceso en la raíz: cada uno está en su carpeta, y la raíz enlaza con ellos</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Accesos al sitio</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Marca un acceso al sitio, o varios que comparten un host por su prefijo de URI. El de la raíz se sirve ahí, los demás en la carpeta de su prefijo (/ger/); los enlaces entre ellos se quedan en la copia. Nunca se ofrecen los accesos de administración.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>La publicación estática de %target falló en %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>La publicación estática de %target se completó en %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site envió este correo porque el destino de publicación estática %target lo solicita.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>El despliegue %deploy falló en %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>El despliegue %deploy espera en una compuerta en %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>El despliegue %deploy se completó con éxito en %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Este correo lo envió %site porque migration.ini [RemoteSettings] Notify[] lo solicita.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Tipos de datos (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Contado %time, de nuevo en %minutes minutos</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Un tipo de datos guarda y edita un tipo de valor de un atributo de la clase: una línea de texto, una imagen, una relación. El núcleo aporta la mayoría y las extensiones agregan más. Aquí están todos, quién los proporciona y cuánto contenido los usa. Un tipo de datos que la base de datos usa pero que ya nada registra rompe el contenido que lo tiene.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Grupos de clases</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Volver a contar ahora en lugar de usar los conteos de los últimos minutos.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Volver a contar</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Vista general</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Registrado</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>En uso</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>No se usa</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Extensiones que proporcionan tipos de datos</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Atributos de la clase</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Atributos del objeto</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>No registrado</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>En la lista, falta el archivo</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count tipos de datos se usan pero no están registrados</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes atributos de la clase y %object_attributes atributos de objeto tienen un tipo de datos que ninguna extensión ni configuración registra. Sus objetos no se pueden mostrar, editar ni publicar. Active la extensión que proporciona el tipo de datos o cambie la clase.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Mostrar solo estos</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Buscar un tipo de datos</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identificador, nombre, clase PHP o extensión.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mostrar</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Todo</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Proporcionado por</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Todos</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Núcleo</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ningún tipo de datos coincide con este filtro.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Mostrar todo</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Extensión</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown de %count tipos de datos, %used en uso</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>La base de datos tiene atributos de clase o de objeto de estos tipos de datos, pero content.ini no incluye ninguno, o falta su archivo.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Tipos de datos de %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Tipo de datos</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Clase PHP y archivo</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Clases</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objetos</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Parámetros</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ninguna</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ningún tipo de datos coincide con la búsqueda. Borre la búsqueda.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown de %count tipos de datos mostrados</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Tipos de datos mostrados: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Ordenar por %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Contado %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Todos los tipos de datos</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Página de ayuda</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Este tipo de datos se usa pero no está registrado</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Los objetos de las clases siguientes no se pueden mostrar, editar ni publicar mientras ninguna extensión registre el tipo de datos. Active la extensión que lo proporciona y agréguelo a content.ini [DataTypeSettings] AvailableDataTypes[], o cambie las clases.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini incluye este tipo de datos, pero ningún directorio de tipos de datos tiene su archivo. Nada lo usa; quítelo de AvailableDataTypes[] o active su extensión.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Acerca de este tipo de datos</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identificador</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nombre</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extensión %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>nadie</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Clase PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Archivo</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>En AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>sí</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Columnas de su valor</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Columnas de la configuración de su atributo de clase</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tablas</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Las columnas y tablas se obtienen leyendo el código del tipo de datos: una referencia, no una garantía.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Plantillas</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Acceso al sitio</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Plantilla</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Encontrado en</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>esta administración</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>sitio predeterminado</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Sin overrides: una plantilla override que coincida por clase o atributo tiene prioridad sobre estas.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Clases que lo usan (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ninguna clase tiene un atributo de este tipo de datos.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Clase</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atributos</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Atributos de la clase (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atributo</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Configuraciones</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Obligatorio</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Incluye en la búsqueda</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Traducible</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Recolecta información</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Parte del contenido que lo usa</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Modificados recientemente primero</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modificado</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nudo %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Cada traducción tiene su propio valor.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>La búsqueda indexa sus valores.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Puede recopilar información de los visitantes (formularios).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Las listas se pueden ordenar por él: clave de ordenamiento %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Ordenable</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Sus valores apuntan a otros objetos.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Relaciones</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Se puede llenar a partir de una cadena simple (importación, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Desde texto</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Se puede llenar a partir de un archivo.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Desde archivo</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>La configuración de su atributo de clase se incluye en los paquetes.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paquetes</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Contenido (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from a %to de %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrar la lista</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Todas las clases</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sección</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Idiomas</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Propietario</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publicado</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Invertir el orden</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ningún elemento</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Por página</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Mostrar %count elementos por página.</translation>
     </message>
 </context>
 </TS>

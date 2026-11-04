@@ -6,22 +6,26 @@
  * there yet (the update was not run), the tests are skipped.
  *
  *  BV-L1 createNew(): a bookmark row with node_id 0 and the address in expbookmark_view, without the siteaccess; the
- *        same address again updates the name and the folder instead of adding a second bookmark
+ *        same address again updates the name and the folder instead of adding a second bookmark; the parsed address
+ *        (module_name, view_name, view_parameters) is written with it once the table has those columns
  *  BV-L2 the flat list of the browse page (fetchListForUser()) has node bookmarks only, unless asked for both; the
  *        tree and the rows have both, the rows with kind, uri and can_open (decorateRows())
  *  BV-L3 rename(): only the user's own system page bookmarks, never a node bookmark, never to an empty name
  *  BV-L4 remove(): the address goes with the bookmark; removing a folder with its bookmarks removes their addresses;
  *        removeByNodeID( 0 ) removes nothing
  *  BV-L5 folders and order work for both kinds: move, shift, place
+ *  BV-L8 a view of the module definition ('bookmarkable' => false) or of bookmark.ini cannot be bookmarked; a
+ *        greyed bookmark carries its reason, its icon and its kind
  *  BV-L6 moduleURI() accepts module views only and drops a leading siteaccess; pageState() of a module view
  *  BV-L7 handleAction(): add refuses an address that is not a module view and one the user may not open; rename
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group bookmarks
  */
 
+#[\PHPUnit\Framework\Attributes\Group('bookmarks')]
 class BookmarkViewsTest extends PHPUnit\Framework\TestCase
 {
     private static $installation;
@@ -91,6 +95,11 @@ class BookmarkViewsTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 'setup/info', $b->attribute( 'module_uri' ) );
         $this->assertNull( $b->attribute( 'node' ) );
         $this->assertSame( array( 'user_id' => (string)$this->user, 'module_uri' => 'setup/info' ), array_map( 'strval', $this->uriRow( $id ) ) );
+        if ( expBookmarkView::hasParsedColumns( true ) )
+        {
+            $row = eZDB::instance()->arrayQuery( 'SELECT module_name, view_name, view_parameters FROM expbookmark_view WHERE bookmark_id = ' . (int)$id );
+            $this->assertSame( expBookmarkView::parsedFields( 'setup/info' ), array_map( 'strval', $row[0] ), 'the parsed address is written with it' );
+        }
 
         $again = $this->view( 'setup/info', 'Info renamed', 0 );
         $this->assertSame( $id, $again, 'one bookmark per address' );
@@ -185,6 +194,50 @@ class BookmarkViewsTest extends PHPUnit\Framework\TestCase
         $this->assertFalse( expBookmarkView::moduleURI( 'no_such_module_bmvtest/view' ) );
         $this->assertFalse( expBookmarkView::moduleURI( 'Media/Images' ), 'a URL alias is not a module view' );
         $this->assertFalse( expBookmarkView::moduleURI( 'https://example.org/setup/info' ) );
+        $this->assertSame( 'content/search?SearchText=news&SectionID=1', expBookmarkView::moduleURI( '/content/search?SectionID=1&SearchText=news&x=y' ),
+                           'a search keeps its search text and section, sorted' );
+        $this->assertSame( 'setup/info', expBookmarkView::moduleURI( 'setup/info?SearchText=x' ), 'a view that keeps no query string' );
+        // the stored address of a saved search keeps its search text, reduced and sorted
+        $search = expBookmarkView::createNew( $this->user, 'content/search?x=1&SearchText=news', 'BMVTEST search', 0 );
+        $this->assertNotFalse( $search );
+        $this->assertSame( 'content/search?SearchText=news', expBookmarkView::urisForUser( $this->user, true )[(int)$search->attribute( 'id' )] );
+        $this->assertSame( (int)$search->attribute( 'id' ), (int)expBookmarkView::findForUser( $this->user, 'content/search?SearchText=news' )->attribute( 'id' ) );
+        $again = expBookmarkView::createNew( $this->user, 'content/search?SearchText=news', 'BMVTEST search 2', false );
+        $this->assertSame( (int)$search->attribute( 'id' ), (int)$again->attribute( 'id' ), 'the same search is one bookmark' );
+    }
+
+    /** BV-L8 */
+    public function testNotBookmarkableAndReasons()
+    {
+        $this->assertFalse( expBookmarkView::bookmarkable( 'user/logout', array() )['result'], 'the module definition says bookmarkable => false' );
+        $this->assertFalse( expBookmarkView::bookmarkable( 'content/action' )['result'], 'bookmark.ini lists it' );
+        $this->assertTrue( expBookmarkView::bookmarkable( 'setup/info' )['result'] );
+        $this->assertFalse( expBookmarkView::pageState( 'content/action', array(), '' )['available'], 'no button on a view that cannot be bookmarked' );
+        $bookmark = expBookmarkView::createNew( $this->user, 'role/bmvtest_no_such_view', 'BMVTEST gone view', 0 );
+        $this->assertNotFalse( $bookmark );
+        // asked as the administrator, so the reason is the view, not a missing policy
+        $previous = eZUser::currentUser();
+        eZUser::setCurrentlyLoggedInUser( eZUser::fetch( $this->user ), $this->user, eZUser::NO_SESSION_REGENERATE );
+        expBookmarkView::reset();
+        try
+        {
+            $rows = expBookmarkView::decorateRows( eZContentBrowseBookmarkFolder::fetchRowsForUser( $this->user ), $this->user );
+        }
+        finally
+        {
+            eZUser::setCurrentlyLoggedInUser( $previous, $previous->attribute( 'contentobject_id' ), eZUser::NO_SESSION_REGENERATE );
+        }
+        $found = null;
+        foreach ( $rows as $row )
+            if ( $row['type'] === 'bookmark' && (int)$row['id'] === (int)$bookmark->attribute( 'id' ) )
+                $found = $row;
+        $this->assertNotNull( $found );
+        $this->assertFalse( $found['can_open'] );
+        $this->assertSame( 'no-view', $found['reason'] );
+        $this->assertSame( expBookmarkView::reasonText( 'no-view' ), $found['reason_text'] );
+        $this->assertSame( 'shield-lock', $found['icon'], 'the icon of its module' );
+        $this->assertSame( 'view', $found['bookmark_type'], 'its kind; type stays bookmark' );
+        $this->assertSame( 'bookmark', $found['type'] );
     }
 
     /** BV-L7 */

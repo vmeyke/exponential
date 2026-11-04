@@ -53,7 +53,7 @@ Budget and timeline
 | Welche Datenbanken? | SQLite 3 (die Voreinstellung), PostgreSQL, MongoDB, MariaDB, Oracle, MySQL, in dieser Reihenfolge der Präferenz | [Datenbankunterstützung](../../datenbankunterstuetzung.md) |
 | Welche PHP-Versionen? | 8.0 bis 8.5 | [Anforderungen auf einen Blick](../../hosting/grundlagen/anforderungen-auf-einen-blick.md) |
 | Können wir mehrere Websites haben? | Ja, als Siteaccesses auf einer Installation, die sich Inhalte und Benutzer teilen, wo gewünscht | [Multisite-Angebote](../angebote/multisite-angebote.md) |
-| Welche Sprachen? | 268 Locale-Dateien für Inhalte; Übersetzungen der Administration in drei Unterstützungsstufen; Schreibrichtung von rechts nach links unterstützt | [Mehrsprachige Angebote](../angebote/mehrsprachige-angebote.md) |
+| Welche Sprachen? | 368 Locale-Dateien für Inhalte; Übersetzungen der Administration in drei Unterstützungsstufen; Schreibrichtung von rechts nach links unterstützt | [Mehrsprachige Angebote](../angebote/mehrsprachige-angebote.md) |
 | Können wir online verkaufen? | Ja, ein Shop ist eingebaut; einiges (Lagerbestand, Gutscheine, Versandetiketten) ist nicht enthalten | [E-Commerce-Angebote](../angebote/e-commerce-angebote.md) |
 | Wie wird mit Sicherheit umgegangen? | Vertrauliche Meldungen an security@se7enx.com mit einer ersten Antwort innerhalb eines Werktags; Fehlerbehebungen im nächsten Release 6.0.x; Leitfaden zur Härtung | `SECURITY.md`, [Sicherheitshärtung](../../sicherheitshaertung.md) |
 | Können sich Redakteure in zwei Schritten anmelden? | Ja, die Anmeldung in zwei Schritten gibt es | [Anmeldung in zwei Schritten](../../../anleitungen/zwei-faktor-anmeldung.md) |
@@ -61,7 +61,7 @@ Budget and timeline
 | Ist es barrierefrei? | Die Administration wird gegen WCAG 2.2 AA geprüft, mit dem Status „Teilweise erfüllt“; Ihr öffentliches Design muss geprüft werden | [Standards für Barrierefreiheit](../../../standards/barrierefreiheit.md) |
 | Wer hält es aktuell? | Wir, im Rahmen des Wartungsvertrags; das Projekt veröffentlicht Versionen 6.0.x und keinen Release-Kalender | [Kunden aktuell halten](../kunden/kunden-aktuell-halten.md) |
 | Gibt es ein SLA des Projekts? | Nein; das Projekt veröffentlicht kein SLA. Unser Vertrag gibt Ihnen unseres | [Service-Levels gestalten](../angebote/service-levels-gestalten.md) |
-| Wird es noch gepflegt? | Ja: fünfzehn Releases 6.0.x vom 1. Januar 2024 bis zum 7. Juni 2026, 6.0.15 in Entwicklung | [Einwandbehandlung](../../geschaeft/einwandbehandlung.md) |
+| Wird es noch gepflegt? | Ja: fünfzehn Releases 6.0.x vom 1. Januar 2024 bis zum 7. Juni 2026, 6.0.15 als aktuelle Linie | [Einwandbehandlung](../../geschaeft/einwandbehandlung.md) |
 | Ist das das alte Produkt unter neuem Namen? | Exponential führt die alte Codebasis fort, ein Produkt, das sein Hersteller nach fast 18 Jahren eingestellt hat; es wird heute von 7x und der Exponential Foundation gepflegt | [Wer ist 7x?](../../wer-ist-7x.md) |
 
 Antworten Sie nie mit einer Funktion, die Sie nicht in der Version geprüft haben, die Sie liefern werden. Die

@@ -2,7 +2,7 @@
 /**
  * File containing the eZTemplateFileResource class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -79,6 +79,9 @@ class eZTemplateFileResource
     */
     function cacheKey( $keyData, $res, $templatePath, &$extraParameters )
     {
+        // a template of another engine (.stpl, .twig, .html.twig) is compiled as its stub, under a key of its own
+        if ( expTemplateEngines::engineFor( (string)$keyData ) !== null || expTemplateEngines::engineFor( (string)$templatePath ) !== null )
+            return expTemplateEngines::cacheKey( $keyData, $templatePath );
         $key = md5( $keyData );
         return $key;
     }
@@ -212,8 +215,12 @@ class eZTemplateFileResource
 
             if ( is_readable( $path ) )
             {
-                $text = file_get_contents( $path );
-                $text = preg_replace( "/\n|\r\n|\r/", "\n", $text );
+                // A template of another engine (.stpl Smarty, .twig Twig): the template system parses a stub that has
+                // the engine's renderer render the file (expTemplateEngines, lib/templatebridge).
+                if ( expTemplateEngines::engineFor( $path ) !== null )
+                    $text = expTemplateEngines::stubFor( $path );
+                else
+                    $text = preg_replace( "/\n|\r\n|\r/", "\n", file_get_contents( $path ) );
                 $tplINI = $tpl->ini();
                 $charset = $tplINI->variable( 'CharsetSettings', 'DefaultTemplateCharset' );
                 $locales = array();

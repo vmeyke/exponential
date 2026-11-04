@@ -2,7 +2,7 @@
 /**
  * File containing the oauthadmin/action view definition
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -64,9 +64,19 @@ if ( $module->isCurrentAction( 'DeleteApplicationList' ) )
             {
                 $clientID = $db->escapeString( (string)$application->client_id );
                 $db->begin();
-                $db->query( 'DELETE FROM ezprest_authorized_clients WHERE rest_client_id = ' . (int)$application->id );
-                $db->query( "DELETE FROM ezprest_token WHERE client_id = '$clientID'" );
-                $db->query( "DELETE FROM ezprest_authcode WHERE client_id = '$clientID'" );
+                try
+                {
+                    $db->query( 'DELETE FROM ezprest_authorized_clients WHERE rest_client_id = ' . (int)$application->id );
+                    $db->query( "DELETE FROM ezprest_token WHERE client_id = '$clientID'" );
+                    $db->query( "DELETE FROM ezprest_authcode WHERE client_id = '$clientID'" );
+                }
+                catch ( Throwable $e )
+                {
+                    // nothing of a transaction that failed half way is committed by a later commit()
+                    if ( $db->transactionCounter() > 0 )
+                        $db->rollback();
+                    throw $e;
+                }
                 $db->commit();
             }
             $session->delete( $application );

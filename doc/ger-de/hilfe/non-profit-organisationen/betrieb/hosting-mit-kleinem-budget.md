@@ -13,6 +13,21 @@ Diese Seite richtet sich an Geschäftsführung, Schatzmeister und technisch vers
 auswählen. Sie nennt keine Preise: Vergleichen Sie aktuelle Angebote selbst und tragen Sie das Ergebnis in das
 [Arbeitsblatt Förderbudget](../vorlagen/arbeitsblatt-foerderbudget.md) ein.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../../beispiele/webserver/nginx.md), [LiteSpeed](../../../beispiele/webserver/litespeed.md), [Caddy](../../../beispiele/webserver/caddy.md), [IIS](../../../beispiele/webserver/iis.md),
+> [Velocity](../../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../hosting/control-panels/plesk.md), [cPanel](../../hosting/control-panels/cpanel.md), [DirectAdmin](../../hosting/control-panels/directadmin.md), [ISPConfig](../../hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Inhalt
 
 1. [Was jeder Hoster bieten muss](#was-jeder-hoster-bieten-muss)
@@ -53,7 +68,7 @@ Ausführlicher Vergleich: [Ein Hosting-Modell wählen](../../hosting/modelle/ein
 
 ## Zuerst kostenlos ausprobieren
 
-`./console exp:install` „installs the multisite package on **SQLite**, in `eng-US`“, installiert also das
+`./console exp:install --apply` „installs the multisite package on **SQLite**, in `eng-US`“, installiert also das
 Multisite-Paket auf **SQLite** in `eng-US`, mit einer Website und einer Administrationsoberfläche
 ([Exponential mit einem Befehl installieren](../../../funktionen/6.0/installation-mit-einem-befehl.md)). Ehrenamtliche können
 das ganze Produkt auf einem Laptop ausprobieren, bevor etwas gekauft wird, und es dem Vorstand zeigen.

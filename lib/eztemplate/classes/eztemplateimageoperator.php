@@ -2,7 +2,7 @@
 /**
  * File containing the eZTemplateImageOperator class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -113,6 +113,8 @@ class eZTemplateImageOperator
 
         if ( $operatorName == 'texttoimage' )
         {
+            // null or a number from the template: htmlspecialchars() and the text layer want a string
+            $inputValue = (string)$inputValue;
             $class = $namedParameters['class'];
 
             $family = $this->Family;

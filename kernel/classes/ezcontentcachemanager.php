@@ -2,7 +2,7 @@
 /**
  * File containing the eZContentCacheManager class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * Portions derived from LoveStack (mugoweb/ezpublish-legacy, commit f9691221a3), Copyright (C) Mugo Web, GPL v2
@@ -808,9 +808,17 @@ class eZContentCacheManager
             $staticCacheHandler->generateNodeListCache( $nodeList );
         }
 
+        // Static publishing: the pages of these nodes are stale for the targets that publish on content publish
+        // (nothing is read or written while static publishing is off or no target has Triggers[]=publish)
+        if ( class_exists( 'expStaticPublishQueue' ) ) // a worker started before this class was deployed has no autoload entry for it
+            expStaticPublishQueue::nodes( $nodeList );
+
         eZDebug::accumulatorStart( 'node_cleanup', '', 'Node cleanup' );
 
         eZContentObject::expireComplexViewModeCache();
+        // The answers of the GraphQL API's persisted queries (a file stamp; nothing when the API was never used)
+        if ( class_exists( 'expGraphQLResponseCache' ) ) // a worker started before this class was deployed has no autoload entry for it
+            expGraphQLResponseCache::expireIfAvailable();
         $cleanupValue = eZContentCache::calculateCleanupValue( count( $nodeList ) );
 
         if ( eZContentCache::inCleanupThresholdRange( $cleanupValue ) )
@@ -1178,6 +1186,8 @@ class eZContentCacheManager
         {
             // view cache and/or ordinary template block cache
             eZContentObject::expireAllCache();
+            if ( class_exists( 'expGraphQLResponseCache' ) )
+                expGraphQLResponseCache::expireIfAvailable();
 
             ezpEvent::getInstance()->notify( 'content/cache/all' );
 

@@ -29,7 +29,7 @@ story, when it fits, and what not to promise.
 "With SQLite, a complete Exponential site runs from one file on disk, with no database server to install, configure
 or secure" ([SQLite database support](../../features/6.0/sqlite-database.md)). It arrived with the first months of the
 6.0 line in January 2024 and became the default: of the setup wizard in September 2026 and of the one-command
-installer (`./console exp:install`), which installs on SQLite unless told otherwise
+installer (`./console exp:install --apply`), which installs on SQLite unless told otherwise
 ([Install in one command](../../features/6.0/install-in-one-command.md)). The README calls it "an incredible
 improvement to the kernel" ([README, Recent improvements](https://github.com/se7enxweb/exponential/blob/main/README.md#recent-improvements-to-exponential)).
 
@@ -42,7 +42,8 @@ improvement to the kernel" ([README, Recent improvements](https://github.com/se7
 | SQLite is the setup wizard's default; one-command install on SQLite | 16 to 30 September 2026 | [6.0.15 changelog](../../../changelogs/6.0/6.0.15.md#16-to-30-september-2026) |
 | A write queue: concurrent publishes wait their turn instead of failing with "database is locked" | 1 and 2 October 2026 | [6.0.15 changelog](../../../changelogs/6.0/6.0.15.md#1-and-2-october-2026) |
 
-The 2026 changes are in the 6.0.15 development line, which is not released.
+The 2026 changes are in the 6.0.15 line, the current release line of Exponential 6.0; their dates are dates of the
+changes, not a release date.
 
 ## Facts you can print
 

@@ -11,12 +11,13 @@
  *   - every locale with TextDirection=rtl is a right-to-left language by its own script, and the Arabic and Hebrew
  *     translations' locales are right to left
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group design
  */
 
+#[\PHPUnit\Framework\Attributes\Group('design')]
 class AdminRightToLeftTest extends PHPUnit\Framework\TestCase
 {
     /** the scripts written right to left (CLDR's characterOrder right-to-left) */
@@ -90,7 +91,7 @@ class AdminRightToLeftTest extends PHPUnit\Framework\TestCase
         $css = self::read( 'design/admin4/stylesheets/admin4.css' );
         $this->assertMatchesRegularExpression( '/\.a4-dash-facts dd \{[^}]*unicode-bidi: plaintext/', $css, 'a fact takes the direction of its own text' );
         $this->assertMatchesRegularExpression( '/\[dir="rtl"\]\)? \.a4-dash-facts dd \{[^}]*text-align: right/', $css, 'and stays beside its label' );
-        $content = self::read( 'design/admin4/stylesheets/content.css' );
+        $content = self::read( 'design/admin4/stylesheets/base.css' );
         $this->assertMatchesRegularExpression( '/#ez-version\s*\{[^}]*direction: ltr;[^}]*unicode-bidi: isolate/', $content );
         $this->assertMatchesRegularExpression( '/#debug \.exp-debug-chip \{[^}]*unicode-bidi: plaintext/', self::read( 'design/standard/stylesheets/expdebugbar.css' ) );
         $this->assertMatchesRegularExpression( '/\.exp-debug-chip-text \{[^}]*unicode-bidi: plaintext/', self::read( 'design/standard/stylesheets/expdebugbar-toolbar.css' ) );

@@ -51,7 +51,7 @@ COURSE: <name>                          DATES: <dates>               TRAINER: <n
 Release:            v6.0.<n>            (git describe --tags)
 Site package:       sevenx_multisite | sevenx_multisite_clean
 Lab design:         one installation per learner | shared site <address>
-Install command:    php bin/php/console exp:install --url=http://127.0.0.1:8087 ...
+Install command:    php bin/php/console exp:install --apply --url=http://127.0.0.1:8087 ...
 Serve command:      php bin/php/console exp:velocity start
 Learner accounts:   learner01 .. learnerNN @example.invalid, group <group>, role <role>
 Reset routine:      <golden copy | reinstall>, takes <minutes>
@@ -66,7 +66,7 @@ Subject: Preparing for "<course>" on <date>
 Hello,
 
 To start on time, please check before the course:
-  1. PHP 8.1 or later:   php -v
+  1. PHP 8.0 or later (PHP 7.4 usable without support):   php -v
   2. These PHP extensions are listed by php -m: intl, xsl, mbstring, iconv, dom, zlib, sqlite3, gd
   3. Composer and Git:   composer --version ; git --version
 If anything is missing, reply to this message and we will help, or use a prepared machine.
@@ -123,3 +123,11 @@ und entwickeln die Produkte mit uns, und so wächst Exponential. Eine Partner-We
 Sie mit [Partner: hier beginnen](../partner/partner-hier-beginnen.md) und
 [Wie Sie sich bewerben](../partner/wie-sie-sich-bewerben.md).
 <!-- exp-partner-block:end -->
+
+## Urheberrecht und Copyleft
+
+Seit dem 29. Oktober 2026 halten die Exponential Foundation und 7x das Copyright an Exponential gemeinsam, die
+Foundation zuerst genannt: „Exponential Copyright © 1998-2026 Exponential Foundation and 7x“, in Dateien
+„Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.“ Wer es hält und warum, was die
+GPL Ihnen erlaubt, welche Hinweise Dritter bleiben und wie der Hinweis in neue Dateien und Erweiterungen kommt:
+[Urheberrecht und Copyleft](../urheberrecht-und-copyleft.md).

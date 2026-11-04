@@ -2,7 +2,7 @@
 /**
  * File containing the ezpRestDefaultRegexpPrefixFilter class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -82,6 +82,25 @@ class ezpRestDefaultRegexpPrefixFilter extends ezpRestPrefixFilterInterface
             self::$version = $this->parseVersionValue();
             self::$apiProvider = empty( $this->apiProviderToken ) ? null : $this->apiProviderToken;
         }
+        // The address of a provider alone, without a slash after it (/api/graphql): the provider, when rest.ini
+        // [ApiProvider] ProviderClass[] registers one by that name. Any other single element stays as before (the
+        // default provider's route, such as /api/fatal).
+        else if ( preg_match( "@^{$this->apiPart}/(?P<provider>[^/]+)$@", $this->request->uri, $tokenMatches )
+                  && self::isRegisteredProvider( $tokenMatches['provider'] ) )
+        {
+            $this->apiProviderToken = $tokenMatches['provider'];
+            self::$apiProvider = $this->apiProviderToken;
+        }
+    }
+
+    /**
+     * @param string $name
+     * @return bool rest.ini [ApiProvider] ProviderClass[] has a provider of this name
+     */
+    protected static function isRegisteredProvider( $name )
+    {
+        $providers = eZINI::instance( 'rest.ini' )->variable( 'ApiProvider', 'ProviderClass' );
+        return is_array( $providers ) && isset( $providers[$name] ) && $providers[$name] !== '';
     }
 
 

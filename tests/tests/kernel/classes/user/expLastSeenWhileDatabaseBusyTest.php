@@ -12,7 +12,7 @@
  *  LSB-02  eZUser::updateLastVisit() does not stand still or fail behind a held lock, and writes when it is free
  *  LSB-03  the session tracker's touch does not stand still or fail behind a held lock, and writes when it is free
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -84,7 +84,7 @@ class expLastSeenWhileDatabaseBusyTest extends PHPUnit\Framework\TestCase
         else
             unset( $GLOBALS['eZDBGlobalInstance'] );
         expUserSessionTracker::reset();
-        foreach ( array( '', '-wal', '-shm', '.writer-lock' ) as $suffix )
+        foreach ( array( '', '-wal', '-shm', '.writer-lock', '.writer-queue' ) as $suffix )
         {
             if ( $this->file && file_exists( $this->file . $suffix ) )
                 unlink( $this->file . $suffix );

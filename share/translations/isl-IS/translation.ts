@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Aðeins er leitað á þessari síðu: %from til %to af %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Allar gagnagerðir kerfiskjarnans og viðbótanna, og hvernig klasarnir og efnið nota þær.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Gagnagerðir</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Einnig má setja kerfissíður í bókamerki: opnaðu síðuna (Uppsetning, úttektarslóðin, listi yfir notendur ...) og veldu „Setja síðuna í bókamerki“ fyrir ofan hana. Slík bókamerki eru með tannhjólstákni.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Þú mátt ekki lengur opna þessa síðu hér. Fjarlægðu bókamerkið eða biddu kerfisstjóra um aðgang.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Fara á fyrstu síðu</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Annað</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Síðustu 7 dagar</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Sérsniðið tímabil</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Öll orð</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Hvaða orð sem er</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Nákvæm setning</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Mikilvægi</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Nafn A–Ö</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Nafn Ö–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Breytt, nýjast fyrst</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Breytt, elst fyrst</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Birt, nýjast fyrst</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Birt, elst fyrst</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Breytt</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Síur</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Sýna síur</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Fela síur</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Endurstilla</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Nota</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Orð</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Efnistegund</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Sýna fleiri (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Veldu eina efnistegund til að leita í einum af eiginleikum hennar.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Hluti</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Úr</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Til</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Upphafsdagsetningin er ekki gild dagsetning.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Lokadagsetningin er ekki gild dagsetning.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eigandi</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Notandaauðkenni, notandanafn eða netfang.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Enginn notandi fannst fyrir „%input“.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Tungumál</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Hvaða tungumál sem er</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Staðsetning</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count staðsetningar</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Niðurstöður á síðu</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Niðurstöður fyrir „%text“ (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Niðurstöður (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Raða eftir</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Röðun</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Virkar síur</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Fjarlægja þessa síu</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Eða veldu síur og notaðu þær til að birta efnið sem passar við þær.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Síurnar þrengja leitina þegar þú hefur slegið inn orð.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Engar niðurstöður fundust fyrir „%text“.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Engar niðurstöður fundust.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Fjarlægðu síu hér að ofan.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Þýðingar</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Aðgerðir</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Breyta %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Breyta</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Höfundarréttartilkynningar upphaflegu höfundanna og hugbúnaðar frá þriðja aðila sem fylgir Exponential eru varðveittar í frumkóðaskránum og í skránni LICENSE, eins og leyfið krefst.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Hér á eftir fer listi yfir þátttakendur í Exponential sem hafa veitt 7x leyfi til að nota verk sín samkvæmt skilmálum eZ Systems Contributor Licensing Agreement. Eins og samkomulagið heimilar dreifir 7x hverju framlagi með sama leyfi og skráin sem framlagið er í. Á listanum kemur fram hver þátttakandi, valfrjálsar samskiptaupplýsingar og skrárnar sem viðkomandi hefur lagt til eða lagt vinnu í.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Framlagsaðilar sem eru nefndir fyrir vinnu sína við Exponential og hugbúnaðinn sem það spratt af, ásamt skránum sem þeir lögðu til. Þetta er viðurkenning, ekki höfundarréttartilkynning: framlög til Exponential eru framseld til Exponential Foundation og 7x samkvæmt Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Athugaðu: uppsetning pakkanna verður ekki fjarlægð.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Prófa Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Gerast meðlimur í Exponential-samfélaginu, skiptast á og leggja sitt af mörkum&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Höfundarréttur &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; og aðrir.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Keyrt á &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Nánari upplýsingar eru á &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Höfundarréttur &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; og aðrir.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Nánari upplýsingar eru á &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Höfundarréttur &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; og aðrir.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Prófa Exponential (frá 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Gerast meðlimur í Exponential-samfélaginu, fá aðstoð og leggja sitt af mörkum&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Höfundarréttur &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; og aðrir.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Athugaðu: uppsetning pakkanna verður ekki fjarlægð.</translation>
     <message>
         <source>Help center</source>
         <translation>Hjálparmiðstöð</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Efni</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Skjalasíður</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Notendur</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Efnisklasar</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Stjórnun</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Síða %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Skoða allar niðurstöður</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Niðurstöður: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Ein niðurstaða</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count tillögur</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Engar tillögur</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Ekki tókst að hlaða tillögunum.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Tillögur</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Athugaðu: uppsetning pakkanna verður ekki fjarlægð.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Þessi uppsetning er opin kynningarútgáfa: hver sem er getur vitað aðgangsorð kerfisstjórans og ekki er hægt að breyta eða endurstilla aðgangsorð kerfisstjóra. Sláðu ekki inn neitt einkamál hér.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Tækin þín</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Öryggisvirkni</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Athugaðu: uppsetning pakkanna verður ekki fjarlægð.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Leiðbeiningar, leit og hvernig á að tilkynna villu.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nýlegt efni</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Nýjasta efnið, það sem er haldið til yfirferðar og aðgerðir á vali.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Athugaðu: uppsetning pakkanna verður ekki fjarlægð.</translation>
         <source>Synchronisations</source>
         <translation>Samstillingar</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL-forritaskilin: endapunktur þeirra, skemað og prufusvæði til að prófa fyrirspurnir.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Flutningar</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Breytingar á uppsetningunni geymdar sem skrár: staða þeirra, keyrslurnar, keyra og afturkalla.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nýlegt efni</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Nýjasta efnið, það sem er haldið til yfirferðar og aðgerðir á vali.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Birtu kyrrstætt afrit af vef á GitHub Pages eða hvaða git-hýsingu sem er.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Kyrrstæð birting</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Gagnagerðir</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Allar gagnagerðir kerfiskjarnans og viðbótanna, og hvernig klasarnir og efnið nota þær.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Athugaðu: uppsetning pakkanna verður ekki fjarlægð.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Reikningar sem enginn notar eða þarf að skoða; gera óvirka, aflæsa eða flytja út.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Endurskoðunarskrá notenda</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Hver breytti, skráði sig inn eða var hafnað, eftir reikningum; sía og flytja út.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Innskráningaskýrsla</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Hver er innskráður, innskráningar og mistök á dag; skrá notanda út alls staðar.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Athugaðu: uppsetning pakkanna verður ekki fjarlægð.</translation>
         <source>%n hours ago</source>
         <translation>fyrir %n klst.</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Svör vistaðra fyrirspurna GraphQL-forritaskilanna og efnisflokkar skema þeirra.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Birtu kyrrstætt afrit á GitHub Pages eða hvaða git-hýsingu sem er</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Kyrrstæð birting</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Kyrrstæða skyndiminnið birtir síður frá þessum netþjóni. Til að birta kyrrstætt afrit af vef annars staðar, á GitHub Pages eða hvaða git-hýsingu sem er, notaðu kyrrstæða birtingu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Athugaðu: uppsetning pakkanna verður ekki fjarlægð.</translation>
     <message>
         <source>last purge</source>
         <translation>síðasta hreinsun</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Skrif gátu ekki tekið stöðulásinn (síðast %date): hvert þeirra gerði allar skyndiminnisniðurstöður úreltar. %file verður að vera skrifanleg fyrir hvern notanda sem vefurinn keyrir sem; á NFS þarf NFSv4 eða lockd.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Athugaðu: uppsetning pakkanna verður ekki fjarlægð.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Útrunnar setur PHP-meðhöndlarans eru fjarlægðar af PHP sjálfu (session.gc_maxlifetime), ekki af þessari síðu eða cron-verkhlutanum session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Innskráðar setur allra notenda eru birtar og skráðar út í innskráningaskýrslunni, sem virkar með öllum setumeðhöndlurum.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Opna innskráningaskýrsluna</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ reikninginn þinn.</translation>
     <message>
         <source>None yet</source>
         <translation>Enginn enn</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Öryggisvirkni</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Nýlegar innskráningar þínar, misheppnaðar tilraunir og breytingar á aðgangsorði, netfangi og tveggja þrepa innskráningu.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Nýlegar innskráningar, misheppnaðar tilraunir og öryggisbreytingar þessa reiknings.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Fara yfir virkni</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Misheppnaðar innskráningar: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Ef þú vilt senda samþykkjandanum athugasemdir eða skoða stöðuna skaltu no
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Eftir innskráningu verður notandinn að velja nýtt aðgangsorð áður en hann gerir nokkuð annað. Notaðu þetta þegar þú lætur einhvern fá tímabundið aðgangsorð.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Velja fyrirliggjandi mynd</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Myndaskrá hlutarins sem þú velur er afrituð í þennan reit. Hinn hluturinn breytist ekki.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Mynd „%name“ var afrituð í þennan reit.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Fletta eftir mynd</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Leita að myndum eftir nafni</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Leita</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Nota mynd „%name“</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Nota þessa mynd</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Engin mynd samsvarar leitinni.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ Nánari upplýsingar eru á síðunni um kerfiskröfur.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab var ekki skrifað (%reason). Bættu þessum línum við crontab notandans sem vefsvæðið keyrir sem, annars keyra biðröðin, innflutningarnir, tilkynningarnar og leitarskráin aldrei:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Enduruppsetning fer fram með kickstarter (%file, síðan php bin/php/kickstarter.php run --apply) eða með nýrri uppsetningu.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ reikninginn þinn.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Skyndiminni eZJSCore Public Packer</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL-skyndiminni (svör og flokkar skemans)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ reikninginn þinn.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Afrit af %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Gagnagerðir</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Gagnagerð %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ reikninginn þinn.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Ekki tókst að lesa SVG-myndina, eða ekkert í henni er hægt að sýna á öruggan hátt.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Ekki tókst að afrita myndina. Reyndu aftur eða hafðu samband við vefstjóra.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Valinn hlutur er ekki til eða þú hefur ekki heimild til að lesa hann.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Valinn hlutur hefur enga mynd.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Ekki tókst að lesa myndaskrá valins hlutar.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Mynd valins hlutar er stærri en þessi reitur leyfir: %1 bæti.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ reikninginn þinn.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Bókamerkið var endurnefnt í „%name“.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Þessi síða er óvirk í þessum vefaðgangi (%siteaccess). Opnaðu bókamerkið í vefaðgangi sem hefur hana.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Eining þessarar síðu er ekki uppsett eða ekki virk hér.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Þessi síða er ekki lengur til: eining hennar hefur enga slíka sýn.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ekkert hlutverka þinna leyfir þér að opna þessa síðu.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Þú mátt ekki nota þennan vefaðgang.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Þú mátt ekki lesa efnið sem þessi síða sýnir.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Ekki er hægt að setja síðu af þessu tagi í bókamerki: hún vinnur aðeins á eyðublaði eða er aðeins til eitt augnablik.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Vistfang þessarar síðu vantar.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Ekki er hægt að opna þessa síðu núna.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Póstflutningurinn hafnaði skilaboðum í síðustu keyrslu: %count. Athugaðu póstþjóninn og site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Atburðir í bið: %count, og engin keyrsla tilkynninga-cron-verksins er skráð. Bættu verkhlutanum „frequent“ við crontab eða keyrðu exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>Velja annan vef eða hluta með hnútavalinu</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Aðeins kerfisstjórinn getur breytt eigandanum: keyrðu ./console exp:content-check --fix-permissions --apply sem root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>tómt</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Undirritunarlykillinn er eldri en eins árs: skiptu um hann með exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>Hlutdeild í tíma síðu</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>beðið var um fulla myndun</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>síðuskyndiminnið var ekki með síðuna (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>síðuskyndiminnið svaraði ekki</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Myndað</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Myndað af kerfiskjarnanum: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Afgreitt úr síðuskyndiminninu á %ms ms. Síðan var vistuð kl. %stored af myndun sem tók %render ms, fyrir %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Mynda núna</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Aftur í sýnina úr skyndiminninu</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Úr mynduninni kl. %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Þessi beiðni: afgreidd úr síðuskyndiminninu á %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Notandi</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Kenni notanda</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Skyndiminnissnið</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Þessi birting</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Skyndiminni sýna</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>fyrir hvern notanda (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Skyndiminnissnið notandans: notendur með sama snið deila skyndiminnisskrám birtinga</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>já</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nei</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Notandanafn</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Innskráður</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Seta</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Hlutar skyndiminnislykils efnisbirtingar sem ráðast af notandanum, nákvæmlega eins og lykillinn tekur þá, samkvæmt ViewCacheTweaks þessarar síðu. Notendur með sama snið deila skyndiminnisskrám birtinganna, nema hlutar birtingarinnar sjálfrar séu ólíkir (stillingar, lyklar hlustenda): þær hafa eigið snið, aðeins fyrir þessa síðu.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Prófíll</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Þessi birting (hnútur %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: hver innskráður notandi hefur eigin skyndiminnisskrár.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Virk ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Verkhluti</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Gildi</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Enginn hluti ræðst af notandanum (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>þessi birting</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Afrita sem texta</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Hlutverk</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Ekki tókst að lesa neinar hlutverkaúthlutanir.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Auðkenni hlutverks</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Hlutverk</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Takmörkun</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Úthlutað til</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>notandans</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>hópur %name (hlutur %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Afritað</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Ekki tókst að afrita.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>hlustandi sleppti</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Nafnlausir gestir</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>sama og þitt</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ólíkt</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Sniðið sem nafnlausir gestir fá með sömu ViewCacheTweaks, með sjálfgefnum stillingum, án hluta birtingarinnar: ekki er hægt að spyrja hlustanda sem les lotuna um þá.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Stillingar</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Enginn birtingarhamur ræðst af stillingum notanda (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Stillingarnar sem birtingar þessara birtingarhama ráðast af (CachedViewPreferences), með gildi notandans eða sjálfgefnu gildi. Þær eru í sniðinu sem userpreferences, allra birtingarhama saman.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Sýnarhamur</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Stilling</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Sjálfgefið</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Stefnur</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Sýna reglur hlutverkanna (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Reglurnar eru sóttar á þjóninn þegar þessi hluti er opnaður, ein síða í einu, og hægt er að sía þær eftir einingu og falli.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Aðgerð</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Allar einingar</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Öll föll</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Takmarkanir</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Sýna meira</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Þessi hlutverk hafa engar reglur.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Engin regla passar við síuna.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown af %matching reglum (%total alls)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Hlaðið þegar opnað er.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, hlutverk, takmörkun</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Leita í reglum</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Hlaða meira</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Eining/aðgerð</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Öll hlutverk (%count reglur)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Engin regla passar.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown af %matched reglum</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Ekkert svar</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>falið</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Sýna skýringar</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Fela skýringar</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Opna</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Opna allt</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Loka öllu</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Lykill eða gildi</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Leita í setunni</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Gerð</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count í viðbót</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>of djúpt hreiðrað til að sýna</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>stytt, %count stafir alls</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Hafið</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Heiti vefkökunnar</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Auðkenni setu</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Meðhöndlari</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Vistunarslóð</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Sjálfgefið í PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Líftími (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Vefkaka</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>líftími %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Þín eigin PHP-seta, eins og hún var þegar hlutinn var opnaður, aldrei önnur. Gildi lykla sem líta út eins og leyndarmál (tókar, tætigildi, lykilorð) eru falin (debugbar.ini SessionMask[]); allt annað er sýnt eins og það er vistað, persónuupplýsingar líka.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count lyklar, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>stór</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Setan er tóm.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Engin seta var hafin fyrir þessa beiðni.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Viðbót: %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kjarni og annað</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Ekki eru allar færslur sýndar: setan inniheldur fleiri en hægt er að telja upp hér.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count lyklar eru ekki taldir upp.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Rammi</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Gildi sem líta út eins og tóki (JSON Web Token, auðkenni Authorization-hauss, einkalykill, langur sextánundar- eða slembitexti) eru líka falin, hvað sem lykill þeirra heitir (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Lykillinn lítur út eins og leyndarmál (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Gildið lítur út eins og tóki.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Undir földum lykli.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Setan sem texti, falin eins og taflan.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Setan er stærri en %size (debugbar.ini SessionWarnBytes): hver beiðni þessa notanda les alla setuna og skrifar hana þegar hún hefur breyst.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP geymir þessa setu í skrám og læsir skránni alla beiðnina: beiðnir sama notanda (margir flipar, AJAX-köll) bíða hver eftir annarri.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Hafa opið</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Stærri en %size (debugbar.ini SessionWarnBytes): hver beiðni þessa notanda les alla setuna.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits af %count lesnir úr skyndiminninu</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ekkert sniðmát var myndað (sýn sem lesin er úr sýnaskyndiminninu myndar ekkert).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Úthlutanir hlutverka</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Hlutverk og stefnur</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>frábrugðið nafnlausum gestum</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>sama og hjá nafnlausum gestum</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ekki sent</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Tilkynninga-cron-verkið skráir hér hverja keyrslu sína. Bættu verkhlutanum frequent við crontab eða keyrðu exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Notaðu skipanalínuna: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Þetta efnisatriði er ekki Gefið út; lesendur sjá það ekki.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Flutningar</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Breytingar á uppsetningunni geymdar sem skrár: staða þeirra, keyrslurnar, keyra og afturkalla.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Birtu kyrrstætt afrit af vef á GitHub Pages eða hvaða git-hýsingu sem er.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Kyrrstæð birting</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Í yfirferð</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Lesendur sjá þessa síðu.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Falin lesendum þar til einhver gefur hana út.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Síðan er nú í Yfirferð. Hún er falin lesendum þar til hún er gefin út.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Síðan er Gefin út: lesendur sjá hana núna.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Síðan er aftur Drög. Hún er falin lesendum þar til hún hefur verið yfirfarin og gefin út.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Gefa út núna</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Aðeins notandi með hlutverkið %role sem skrifaði ekki þessa útgáfu getur gefið hana út.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Hjálparefni sem bíða útgáfu</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Felur hana fyrir lesendum þar til hún er gefin út aftur.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Yfirlesari fer næst yfir hana. Lesendur sjá hana ekki enn.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Lesendur sjá hana strax.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Tekur hana úr yfirferð til frekari vinnslu. Lesendur sjá hana ekki.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Fela þessa síðu fyrir lesendum?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Senda þessa síðu aftur í Drög?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Lesendur sjá %title ekki lengur fyrr en einhver gefur það út aftur.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title fer aftur í Drög til frekari vinnslu. Lesendur sjá það enn ekki og það þarf nýja yfirferð áður en það er gefið út.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Hætta við</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Þessi efni eru í Yfirferð. Lesendur sjá þau um leið og einhver sem skrifaði ekki núverandi útgáfu gefur þau út.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Uppsetning &gt; Cron-verk</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Enginn cron-verkhluti hefur keyrt enn: verkbiðröðin, innflutningurinn, tilkynningarnar og leitarskráin bíða. Keyrðu php bin/php/installcrontab.php --add --apply eða bættu línunum úr --show við crontab.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>Engar.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>með auðkenningarforriti</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>með kóða í tölvupósti</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>með endurheimtarkóða</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>með aðgangslykli</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>með ytri reikningi</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Öryggisvirkni</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Birt sem netkerfi þess; vistfangið er geymt eins og persónuverndarstillingar vefsvæðisins segja til um.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ekki skráð</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Staðsetning</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>áætluð</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>Stjórna tækjum</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>með auðkenningarforriti</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>með kóða í tölvupósti</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>með endurheimtarkóða</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>með aðgangslykli</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>með ytri reikningi</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Öryggisvirkni</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ekki skráð</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Staðsetning</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>áætluð</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>Skoða setur þessa notanda</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Reikningurinn þinn %login á %site var rétt í þessu notaður til að skrá inn frá stað sem ekki hefur verið skráð inn frá nýlega:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Áætluð staðsetning</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser á %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Innskráningaskýrsla</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Ekki tókst að athuga aðgangslykilinn. Reyndu aftur.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Reikningar sem skrá sig aðeins inn með aðgangslyklum geta ekki notað aðgangsorð hér: veldu „Skrá inn með aðgangslykli“.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Aðgangslyklar %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Aðgangslyklarnir sem þessi reikningur skráir sig inn með. Afturkallaðu lykil sem er á týndu eða stolnu tæki: hann getur þá ekki lengur skráð sig inn. Eigandinn bætir sjálfur við nýjum.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Reikningurinn þinn þarf aðgangslykil</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Bættu aðgangslykli við reikninginn þinn</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Bættu við aðgangslykli til að halda áfram. Þá skráir þú þig inn með honum í stað aðgangsorðs eingöngu.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Innskráning með aðgangslykli er fljótlegri og öruggari en með aðgangsorði. Bættu einum við núna eða haltu áfram án hans.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ekki núna</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Afturkalla aðgangslykilinn „%name“?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Hann getur ekki lengur skráð sig inn á þennan reikning. Ef hann var sá síðasti skráir eigandinn sig inn með aðgangsorðinu, eða þú setur nýtt.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Afturkalla aðgangslykilinn</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Afturkalla</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Þessi reikningur er ekki með neinn aðgangslykil.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Auðkenningarbúnaður</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Óþekkt</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Síðasti aðgangslykillinn þinn: bættu öðrum við áður en þú fjarlægir hann.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Þessi reikningur skráir sig aðeins inn með aðgangslyklum (stefna um aðgangslykla): ef enginn er eftir skráir hann sig aftur inn með aðgangsorðinu sínu.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Þetta er síðasti aðgangslykillinn þinn og reikningurinn þinn getur ekki skráð sig inn án hans. Bættu fyrst öðrum aðgangslykli við.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Aðgangslykillinn „%name“ hefur verið afturkallaður. Hann getur ekki lengur skráð sig inn á þennan reikning.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>Kóði úr auðkenningarforritinu þínu</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Þú ert að fara að eyða gögnum endanlega eða tæma annál.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Aðgangsorðið þitt og aðgangslykill</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Aðgangsorðið þitt og kóði úr auðkenningarforritinu þínu</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Eða:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Þessi vafri getur ekki notað aðgangslykla. Notaðu aðra leið eða annan vafra.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Þegar þú heldur áfram biður vafrinn þinn um einn af aðgangslyklunum þínum.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Halda áfram með aðgangslykli</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>Uppsetning</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Að breyta eigin aðgangsorði, netfangi, aðgangslyklum, tveggja þrepa innskráningu, endurheimtarkóðum eða API-lyklum og að skrá eigin önnur tæki út.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Að stofna og breyta notendum, aðgangsorðum þeirra og tækjum, reikningsstillingum, að samþykkja eða hafna nýjum notendareikningum, að úthluta hlutverkum og breyta stefnum.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Eyðing gagna</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Að tæma ruslafötuna, fjarlægja atriði úr henni og fjarlægja mörg atriði í einu.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Fjarlæging, birting og vistun efnis</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Að fjarlægja efni (líka í ruslafötuna), birta og vista drög; spurt þegar eyðublaðið er sent. Sjálfgefið slökkt.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Fyrir viðkvæma aðgerð staðfestir innskráður notandi aftur hver hann er: með aðgangsorðinu sínu og aðgangslykli, eða án aðgangslykils með aðgangsorðinu sínu og kóðanum úr auðkenningarforritinu sínu. Aðeins vefsíðurnar spyrja: REST-viðmótið, SOAP, WebDAV, expservices-innskráningin og skipanalínan gera það aldrei.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Hvar stillingarnar gilda</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Stillingar fyrir</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Hver vefaðgangur</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Aðeins vefaðgangurinn %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Opna</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Hver er spurður: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Hakaðu við notendahópa til að spyrja aðeins meðlimi þeirra (til dæmis ritstjóra). Ekkert hakað: hver notandi.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Vistað í settings/override/site.ini.append.php, fyrir hvern vefaðgang. Við vistun ertu beðinn að staðfesta að þetta sért þú.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Vistað í settings/siteaccess/%name/site.ini.append.php. Gildi í settings/override gengur framar því. Við vistun ertu beðinn að staðfesta að þetta sért þú.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>Opna síðuna</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from til %to af %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Innskráningarnafn eða notandaauðkenni: reikningurinn sem atburðurinn varðaði eða notandinn sem framkvæmdi aðgerðina.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Reikningur</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Aðgerð</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Á eftir</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Allar niðurstöður</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Á undan</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Framkvæmt af</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Hreinsa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Lokið</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Atburðir eru geymdir í %days daga.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Atburðir eru geymdir þar til þeir eru fjarlægðir handvirkt.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Atburðir</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Allar aðgerðir</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Allir atburðir þessa reiknings</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Flytja listann út sem CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mistókst</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Frá</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Þrengja listann</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Enginn atburður passar.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Á síðu</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Skráning er óvirk í audit.ini ([UserAuditSettings] UserAudit); listinn sýnir það sem var skráð áður.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hafnað</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Niðurstaða</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Sýna</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Töflu endurskoðunarskrár notenda vantar. Búðu hana til með php update/common/scripts/6.0/createuseraudittable.php; þangað til geyma endurskoðunarskrárnar alla atburði.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Þessi síða þarf SQL-gagnagrunn; hún er ekki í boði með MongoDB. Endurskoðunarskrárnar geyma alla atburði.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Til</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Endurskoðunarskrá notenda</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Notandi</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Hvenær</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Hvar</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Hver breytti, stofnaði, virkjaði, gerði óvirkan, færði eða fjarlægði hvaða reikning, hver skráði sig inn eða var hafnað og hvaða hlutverkum var úthlutað: ein lína fyrir hvern atburð, með reitunum á undan og á eftir. Lykilorð og leyndarmál eru aldrei skráð.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>hópur</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>kerfið</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>óþekkt</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Tryggja reikninginn</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Endurheimtarkóði var notaður til að skrá inn á reikninginn þinn %login á %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Endurheimtarkóði var notaður</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Reikningur</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Áætlað vistfang</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Biddu um nýtt aðgangsorð til að skrá þig inn aftur eða hafðu samband við stjórnendur vefsvæðisins.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Biðja um nýtt aðgangsorð</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Hver endurheimtarkóði virkar einu sinni. Ef þú týndir símanum skaltu setja auðkenningarforritið upp aftur og geyma nýju endurheimtarkóðana á öruggum stað.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Misheppnaðar innskráningartilraunir á reikninginn þinn</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Héðan í frá biður innskráningin um kóða til viðbótar við aðgangsorðið þitt. Ef þú gerðir þetta þarftu ekki að gera neitt.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ef þetta varst þú og þú gleymdir aðgangsorðinu skaltu biðja um nýtt. Ef ekki skaltu velja sterkara aðgangsorð og kveikja á tveggja þrepa innskráningu.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ef þetta varst ekki þú gæti einhver vitað aðgangsorðið þitt: breyttu því strax og athugaðu hvar reikningurinn þinn er innskráður.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Endurheimtarkóðar eftir</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Fara yfir tækin þín</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Öryggisviðvörun</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Einhver reyndi að skrá sig inn á reikninginn þinn %login á %site með röngu aðgangsorði mörgum sinnum í röð (tilraunir: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Öryggisatburður átti sér stað á reikningnum þínum %login á %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Þetta er öryggisviðvörun um reikninginn þinn. Hún er send við hverja slíka breytingu og ekki er hægt að slökkva á henni.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tími</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Slökkt var á tveggja þrepa innskráningu fyrir reikninginn þinn %login á %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Slökkt var á tveggja þrepa innskráningu</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Kveikt var á tveggja þrepa innskráningu fyrir reikninginn þinn %login á %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Kveikt var á tveggja þrepa innskráningu</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Reikningnum þínum %login á %site var læst eftir of margar misheppnaðar innskráningar.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Reikningurinn þinn er nú aðeins varinn með aðgangsorðinu. Ef þú gerðir þetta ekki skaltu kveikja aftur á tveggja þrepa innskráningu eftir að þú hefur breytt aðgangsorðinu.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Reikningnum þínum var læst</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Aðgangslykli var bætt við reikninginn þinn %login á %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Hver sem hefur þennan aðgangslykil getur skráð sig inn á reikninginn þinn án aðgangsorðsins þíns. Ef þú bættir honum ekki við skaltu fjarlægja hann undir Aðgangslyklar og breyta aðgangsorðinu þínu.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Aðgangslykill var fjarlægður af reikningnum þínum %login á %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Hann getur ekki lengur skráð sig inn á reikninginn þinn. Ef þú fjarlægðir hann ekki skaltu athuga aðgangslyklana þína og tækin.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Aðgangslykli var bætt við reikninginn þinn</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Aðgangslykill var fjarlægður af reikningnum þínum</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Öryggisvirkni</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Öryggisvirkni notandans %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Innskráð</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Misheppnuð innskráningartilraun</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Skráð út</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Setur skráðar út</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Innskráning úr nýju tæki</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Innskráning frá nýjum stað</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Auðkenni staðfest („Staðfestu að þetta sért þú“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Auðkennisathugun mistókst</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Innskráð með aðgangslykli</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Innskráning með aðgangslykli mistókst</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Innskráningu hafnað: tveggja þrepa kóða vantar eða hann er rangur</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Rangur tveggja þrepa kóði</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Reikningi læst eftir misheppnaðar innskráningar</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Reikningur opnaður</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Aðgangsorði breytt</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Breyting aðgangsorðs mistókst</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Aðgangsorð endurstillt</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Beðið um nýtt aðgangsorð</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Netfangi breytt</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Notandanafni breytt</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kveikt á tveggja þrepa innskráningu</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Slökkt á tveggja þrepa innskráningu</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Endurheimtarkóði notaður</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nýir endurheimtarkóðar</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Forritsaðgangsorð búið til</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Forritsaðgangsorð afturkallað</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Aðgangslykli bætt við</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Aðgangslykill fjarlægður</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Reikningur virkur</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Reikningur óvirkur</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Allt</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Innskráningar og setur</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Breytingar á reikningi</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Þarfnast athygli</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>af þér</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>af notandanum</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>af %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Aðferð</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Vafri</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Stýrikerfi</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Tæki</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Staður</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Land</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Setur</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Hverjar</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Rás</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Misheppnaðar tilraunir</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kóðar eftir</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Innskráningarmeðhöndlari</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Öryggisvirkni</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Öryggisvirkni notandans %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Innskráningar og breytingar á öryggi reikningsins þíns. Ef þú sérð eitthvað sem þú gerðir ekki skaltu breyta aðgangsorðinu og skrá út þau tæki sem þú þekkir ekki.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Innskráningar og breytingar á öryggi þessa reiknings.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Tækin þín</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Breyta aðgangsorði</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Aftur í reikninginn</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Öryggisvirknin er ekki skráð</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Hún er lesin úr endurskoðunarskrá notenda, en töfluna expuser_audit vantar eða hún er ekki studd í þessum gagnagrunni. Keyrðu php update/common/scripts/6.0/createuseraudittable.php eða gagnagrunnsuppfærslu 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Síðustu dagar: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Innskráningar síðustu daga (dagar: %days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Nýleg öryggisvirkni</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Sýna</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>mistókst</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hafnað</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Engin öryggisvirkni skráð enn.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Öryggisatburðir eru geymdir í takmarkaðan tíma (dagar: %days).</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Öryggisatburðir eru geymdir þar til kerfisstjóri fjarlægir þá.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Sækja innskráningargögnin mín</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Seturnar þínar og öryggisatburðir sem JSON-skrá.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Setur eru ekki skráðar á þessum vef, svo ekki var hægt að skrá neitt annað tæki út. Breyttu aðgangsorðinu þínu núna.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count aðrar setur voru skráðar út. Breyttu nú aðgangsorðinu þínu.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ekkert annað tæki var innskráð. Breyttu nú aðgangsorðinu þínu.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Takk fyrir. Atburðurinn er merktur sem þinn.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Þessi atburður þarfnast ekki svars.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Síðan var útrunnin. Engu var breytt; reyndu aftur.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Tryggja reikninginn</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ef eitthvað hér varst ekki þú, skráðu þá öll önnur tæki út og veldu síðan nýtt aðgangsorð. Tæki sem haldið er innskráðum með Muna eftir mér eru líka skráð út.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Öll tæki nema þetta eru skráð út við næstu beiðni sína. Síðan velur þú nýtt aðgangsorð.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Já, skrá hin tækin út</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Varst þetta þú?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Já, þetta var ég</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nei, tryggja reikninginn minn</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Innskráð</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Misheppnuð innskráningartilraun</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Skráð út</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Setur skráðar út</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Innskráning úr nýju tæki</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Innskráning frá nýjum stað</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Auðkenni staðfest („Staðfestu að þetta sért þú“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Auðkennisathugun mistókst</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Innskráð með aðgangslykli</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Innskráning með aðgangslykli mistókst</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Innskráningu hafnað: tveggja þrepa kóða vantar eða hann er rangur</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Rangur tveggja þrepa kóði</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Reikningi læst eftir misheppnaðar innskráningar</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Reikningur opnaður</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Aðgangsorði breytt</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Breyting aðgangsorðs mistókst</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Aðgangsorð endurstillt</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Beðið um nýtt aðgangsorð</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Netfangi breytt</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Notandanafni breytt</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kveikt á tveggja þrepa innskráningu</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Slökkt á tveggja þrepa innskráningu</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Endurheimtarkóði notaður</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nýir endurheimtarkóðar</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Forritsaðgangsorð búið til</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Forritsaðgangsorð afturkallað</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Aðgangslykli bætt við</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Aðgangslykill fjarlægður</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Reikningur virkur</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Reikningur óvirkur</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Allt</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Innskráningar og setur</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Breytingar á reikningi</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Þarfnast athygli</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Öryggisvirkni</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Öryggisvirkni notandans %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Innskráningar og breytingar á öryggi reikningsins þíns. Ef þú sérð eitthvað sem þú gerðir ekki skaltu breyta aðgangsorðinu og skrá út þau tæki sem þú þekkir ekki.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Tækin þín</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Breyta aðgangsorði</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Öryggisvirkni er ekki enn skráð á þessu vefsvæði.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Innskráningar síðustu daga (dagar: %days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Misheppnaðar tilraunir</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Engin öryggisvirkni skráð enn.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Sækja innskráningargögnin mín</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Seturnar þínar og öryggisatburðir sem JSON-skrá.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Setur eru ekki skráðar á þessum vef, svo ekki var hægt að skrá neitt annað tæki út. Breyttu aðgangsorðinu þínu núna.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count aðrar setur voru skráðar út. Breyttu nú aðgangsorðinu þínu.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ekkert annað tæki var innskráð. Breyttu nú aðgangsorðinu þínu.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Takk fyrir. Atburðurinn er merktur sem þinn.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Þessi atburður þarfnast ekki svars.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Síðan var útrunnin. Engu var breytt; reyndu aftur.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Tryggja reikninginn</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ef eitthvað hér varst ekki þú, skráðu þá öll önnur tæki út og veldu síðan nýtt aðgangsorð. Tæki sem haldið er innskráðum með Muna eftir mér eru líka skráð út.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Öll tæki nema þetta eru skráð út við næstu beiðni sína. Síðan velur þú nýtt aðgangsorð.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Já, skrá hin tækin út</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Varst þetta þú?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Já, þetta var ég</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nei, tryggja reikninginn minn</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Aðgangsorð</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Aðgangsorð og tveggja þrepa kóði</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-viðmót</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-viðmót</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Einföld innskráning</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Innskráð áður en farið var að skrá setur</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Innskráningaskýrsla</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Hver er innskráður á vefsvæðið, hversu oft reikningar skrá sig inn og mistekst það, og útskráning notanda alls staðar. Virkar með öllum setumeðhöndlurum.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Setan var skráð út. Tækið þarf að skrá sig inn aftur.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Notandinn %login var skráður út úr setum (fjöldi: %count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Notandinn %login var ekki með neina virka setu.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Enginn reikningur er með þetta auðkenni, notandanafn eða netfang.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Þetta er setan sem þú ert að nota. Skráðu þig út til að ljúka henni.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Þeirri setu var þegar lokið.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Síðan var útrunnin. Engu var breytt; reyndu aftur.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Setur eru ekki skráðar á þessu vefsvæði (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Töfluna expuser_session vantar</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Setur eru skráðar þegar hún hefur verið stofnuð: php update/common/scripts/6.0/createusersessiontable.php, eða gagnagrunnsuppfærsla 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Núna og í dag</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Virkar setur</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Innskráðir notendur</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Innskráningar í dag</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Misheppnaðar tilraunir í dag</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Skrá notanda út alls staðar</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Hver seta reikningsins lýkur við næstu beiðni sína, einnig þær sem „Muna eftir mér“ heldur við. Notaðu þetta þegar reikningur gæti verið í röngum höndum; endurstilltu síðan aðgangsorð hans.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Auðkenni notanda, notandanafn eða netfang</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Skrá út alls staðar</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Innskráð núna</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Sýndar eru þær sem síðast voru notaðar (hámark: %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Notandi</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Tæki</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Vistfang</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Innskráð</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Síðast virkt</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Aðgerðir</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Þetta tæki</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ekki skráð</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Skrá út</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Engin seta er innskráð.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Síðustu dagar: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Innskráningar og misheppnaðar tilraunir eru taldar úr endurskoðunarskrá notenda, sem er ekki til staðar; nýju seturnar eru taldar.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dagur</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Innskráningar</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Misheppnaðar tilraunir</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Nýjar setur</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Setumeðhöndlari: %handler. Seturnar eru lesnar úr töflunni expuser_session, svo skýrslan virkar með öllum meðhöndlurum.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Grunsamleg virkni síðustu %hours klukkustundir</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Eitt net gat ekki skráð sig inn á %accounts reikninga (%count tilraunir)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Reikningi læst eftir misheppnaðar innskráningar</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count misheppnaðar innskráningar á einn reikning</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Innskráð frá %count löndum samtímis</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Öryggisvirkni</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Setur</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Misheppnaðar innskráningar eru lesnar úr endurskoðunarskrá notenda, sem er ekki tiltæk hér.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ekkert grunsamlegt: enginn reikningur með endurteknar misheppnaðar innskráningar, ekkert net sem reynir nokkra reikninga, enginn reikningur innskráður frá nokkrum löndum.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Öryggisviðvörun um reikninginn þinn</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Öryggisatburður átti sér stað á reikningnum þínum %login: %event. Ef þetta varst ekki þú skaltu tryggja reikninginn þinn á %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Uppsetning</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Biddu efni þessa vefs um nákvæmlega þá reiti sem síða þarf, í einni beiðni. Skemað fylgir efnisflokkunum; hver fyrirspurn keyrir með réttindum notandans sem sendir hana.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL-forritaskilin eru óvirk í þessum vefaðgangi. Virkjaðu þau í graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL-safnið (webonyx/graphql-php 15) er ekki uppsett.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Endapunktur</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Safn</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count efnisflokkar, skema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Fyrirspurn</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Breytur (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Keyra</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Svar</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Keyrir…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Ekki tókst að lesa svarið.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Fyrirspurnin keyrir með þínum réttindum, í þessari innskráðu lotu.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count á %seconds sek.</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>engin takmörk</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Dýpt</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Flækjustig</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Atriði í lista</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (sjálfgefið %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Beiðnir á notanda eða lykil</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Beiðnir á nafnlaust vistfang</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Sjálfsskoðun (introspection)</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Aðeins vistaðar fyrirspurnir</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Stærsta fyrirspurn</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bæti</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Stærsta upphleðsla</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Enginn vefaðgangur %siteaccess er til.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Kveikt er á breytingaaðgerðum í %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Slökkt er á breytingaaðgerðum í %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>Kveikt er á GraphQL-forritaskilunum í %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>Slökkt er á GraphQL-forritaskilunum í %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Ekki tókst að skrifa stillingarnar: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Svarskyndiminnið var hreinsað: %count svörum eytt.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Hakaðu í reitinn við fyrirspurnina til að fjarlægja hana.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Ekki tókst að fjarlægja fyrirspurnina: fyrirspurn sem fylgir í möppu í PersistedQueryDirectoryList[] er fjarlægð með skránni sinni.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Vistaða fyrirspurnin var fjarlægð.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Breytingaaðgerðir</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>kveikt</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>slökkt</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Vefaðgangar</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Hvar forritaskilin og breytingaaðgerðir þeirra svara. Hnapparnir skrifa graphql.ini, eins og ./console exp:graphql:enable og exp:graphql:disable gera.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Vefaðgangur</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL-forritaskil</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Breyta</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Slökkva</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Slökkt á breytingaaðgerðum</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Kveikt á breytingaaðgerðum</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Kveikja</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Takmörk</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] þessa vefaðgangs.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Svarskyndiminni</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Svör vistaðra fyrirspurna, geymd eftir notendaréttindum og ógilt í hvert sinn sem efni er birt.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staða</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Geymd svör</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count svör, %bytes bæti</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Geymt í mesta lagi</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds sek.</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Síðast ógilt</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Hreinsa svarskyndiminnið</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Vistaðar fyrirspurnir</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Vistaðar með ./console exp:graphql:persist, eða af biðlurum (automatic persisted queries); kallaðar eftir nafni eða SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nöfn</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Stærð</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Hvar</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Fjarlægja</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>meðfylgjandi</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>vistuð</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Já, fjarlægja þessa fyrirspurn</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Engin vistuð fyrirspurn enn.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-lyklar</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Persónulegir API-lyklar með umfangið graphql:read (fyrirspurnir) eða graphql:write (breytingaaðgerðir). Búðu þá til og afturkallaðu á síðunni API-aðgangur, eða með ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API-aðgangur</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Allir lyklar</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Lykill</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nafn</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eigandi</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Umfang</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Síðast notaður</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>virkur</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>útrunninn</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>afturkallaður</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>aldrei</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Enginn API-lykill með GraphQL-umfang enn.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Slökkt er á GraphQL-forritaskilunum í vefaðganginum %siteaccess, sem birtir þessa síðu; taflan hér fyrir neðan sýnir hvar þau svara.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Fyrir vefaðganginn %siteaccess, sem birtir þessa síðu.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Vefkrókar</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Hver atburður sem endapunktur biður um (publish, update, trash, delete, move, hide, reveal, mutation) er sendur til hans, undirritaður, af cronjob-hlutanum graphqlwebhooks. ./console exp:graphql:webhooks gerir það sama og þessi hluti.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Atburðir</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>allir</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Allir vefaðgangar</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>bilaður</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ekkert leyndarmál</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Í bið</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count hætt við</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Síðasta sending</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Senda prófun</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Já, fjarlægja þennan vefkrók</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Enginn vefkrókur enn.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Bæta við vefkrók</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Bæta við</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Nýlegar sendingar</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tími</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Niðurstaða</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Áskriftir</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Lifandi uppfærslur fyrir biðlara: atburðastraumur á /api/graphql/subscribe og WebSocket (graphql-transport-ws) á Velocity. Hver atburður fer aðeins til áskrifenda sem mega lesa efni hans.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Opnar núna</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Hámark opinna</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total alls, %user á hvern notanda, %address á hvert vistfang</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Nafnlausar áskriftir</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Lengd straums</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Ekki tókst að bæta vefkróknum við: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Vefkróknum %name var breytt; undirritunarleyndarmál hans helst óbreytt.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Ekki tókst að vista undirritunarleyndarmálið (Uppsetning &gt; Leyndarmál).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Vefkróknum %name var bætt við. Undirritunarleyndarmál hans, sýnt í þetta eina skipti: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Enginn vefkrókur %name er til.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Vefkrókurinn %name svaraði ekki: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Vefkrókurinn %name svaraði %status á %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Hakaðu í reitinn við vefkrókinn til að fjarlægja hann.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Vefkrókurinn %name var fjarlægður.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL-forritaskilin eru óvirk í þessum vefaðgangi.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL-safnið er ekki uppsett.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Notaðu GET eða POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Meginmál beiðninnar er ekki JSON-hlutur.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables er ekki JSON-hlutur.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions er ekki JSON-hlutur.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Sendu fyrirspurnina með POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Beiðnin inniheldur enga fyrirspurn.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Fyrirspurnin er lengri en %max bæti.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Innri villa í þjóni</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node þarf nákvæmlega eitt af id, remoteId, path og urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content þarf nákvæmlega eitt af id og remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Bendillinn í after kemur ekki frá þessum forritaskilum.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Myndsamnefnið %alias er ekki til (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Hér eru aðeins vistaðar fyrirspurnir samþykktar: sendu id vistaðrar fyrirspurnar.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Tætigildi vistuðu fyrirspurnarinnar er ekki SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Tætigildi vistuðu fyrirspurnarinnar passar ekki við fyrirspurnina.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Of margar beiðnir: í mesta lagi %limit á %window sekúndum. Reyndu aftur eftir %reset sekúndur.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Fyrirspurnin er %depth stig á dýpt; í mesta lagi %max eru leyfð.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Fyrirspurnin hefur flækjustigið %complexity; í mesta lagi %max er leyft.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Þessi beiðni má ekki lesa skemað (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search þarf texta eða síu (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument er ekki dagsetning (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag þarf nákvæmlega eitt af id, remoteId og path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout þarf nákvæmlega eitt af id, identifier og urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Reiturinn operations í multipart-beiðni er ekki ein JSON-beiðni.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Reiturinn map í multipart-beiðni er ekki JSON-hlutur.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Multipart-beiðnin hefur enga skrá %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Slóð í reitavörpuninni verður að byrja á variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Skráin %name barst ekki heil (upphleðsluvilla %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Skráin %name er stærri en %max bæti.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Ekki tókst að athuga skrána %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Breytingaaðgerðir eru óvirkar í þessum vefaðgangi (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Sendu breytingaaðgerð með POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Skráðu þig inn til að breyta efni.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API-lykillinn hefur ekki umfangið %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Breytingaaðgerð með lotu þarf eyðublaðstóka lotunnar (haus X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl er óvirkt: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] tilgreinir engan hýsil.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Vistfangið verður að vera https-vistfang.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Hýsillinn %host er ekki í graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Ekki tókst að sækja skrána.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload er aðeins inntakstegund.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Breyta af tegundinni Upload tekur við skrá úr multipart-beiðni.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Fjarauðkennið %remoteId er þegar í notkun.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Efnið hefur þegar þýðingu á %language: notaðu updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Gefðu upp að minnsta kosti einn reit.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Ekki tókst að búa til nýja útgáfu (efnið hefur of mörg drög).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Útgáfa %version er ekki drög.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent þarf nákvæmlega eitt af id og nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Ekki er hægt að færa staðsetningu undir sjálfa sig.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Efnið hefur þegar staðsetningu undir %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Ekki tókst að vista gildi reitsins %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Ekkert efnistungumál %language er til.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Enginn efnisflokkur %class er í skemanu.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Efnið er ekki til, eða þú mátt ekki lesa það.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Þú mátt ekki gera þetta við þetta efni.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Flokkurinn %class hefur engan skrifanlegan reit %field.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Reiturinn %field er gefinn tvisvar.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Reiturinn %field tekur við skrá: sendu hana sem upphleðslu (multipart-beiðni).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Reiturinn %field tekur ekki við skrá.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Reiturinn %field þarf gildi.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Sniðið %format er aðeins fyrir sniðinn texta; %field tekur gildið eins og það er (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Reiturinn %field er nauðsynlegur.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Ekki tókst að lesa HTML-ið.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content tekur aðeins við version ásamt id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Forskoðunartókinn er ógildur eða útrunninn.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ekki uppruni (https://host eða https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ekki umfang GraphQL-forritaskilanna: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Sendu áskriftir á /api/graphql/subscribe (atburðastraum eða WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Beiðnin nefnir enga aðgerð skjalsins.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Áskrift biður um nákvæmlega einn reit.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Of margar áskriftir eru opnar; reyndu aftur síðar.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Þú ert með %max opnar áskriftir, mesta leyfilega fjölda.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Vistfangið þitt er með %max opnar áskriftir, mesta leyfilega fjölda.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Slökkt er á áskriftum í þessum vefaðgangi.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Skráðu þig inn til að gerast áskrifandi (tóki eða persónulegur API-lykill).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Sendu breytingaaðgerðir á /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Flutningar</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Ekki tókst að lesa stöðuna: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Töflur flutninganna eru ekki til enn: ./console exp:upgrade --apply býr þær til.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count flutningar mistókust</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Keyrsla er í gangi, ræst af %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Uppsetningin er læst: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Í bið</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mistókust</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Munaðarlausir</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Síðasta keyrsla</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>engin enn</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Allir flutningar</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Hermd keyrsla</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Prufukeyrsla</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Flutningarnir í bið keyrðu í færslu sem var afturkölluð á eftir: ekkert var geymt. Hér fyrir neðan er það sem hver þeirra breytti í gagnagrunninum.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Það sem keyrsla myndi gera núna. Engu er breytt: hver flutningur í bið telur upp breytingarnar sem hann myndi gera, og keyrslan það sem hún myndi gera fyrir og eftir.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Herma</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Keyra</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Prufukeyrslan mistókst: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Hermun krefst PostgreSQL eða SQLite, þar sem hægt er að afturkalla breytingar á skema; á þessum gagnagrunni sýnir áætlunin hér fyrir neðan hvað keyrsla myndi gera.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Flutningarnir</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Flutningur</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ástand</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Hvað hann myndi gera</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Hermun: %result á %ms millisek.</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Enginn flutningur enn.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Fyrir og eftir keyrsluna</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Skyndimynd fyrir</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>tekin, og endurheimt ef flutningur mistekst</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>slökkt</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Skyndimynd eftir</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>tekin þegar keyrslan tókst</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total flutningar: %pending í bið, %done lokið, %failed mistókust.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Saga flutninga</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Hver keyrsla með notanda, umhverfi, skyndimyndum og því sem var commit-að, merkt og push-að. Hægt er að halda áfram með keyrslu sem mistókst eða var rofin; keyrslu með skyndimynd tekinni á undan má afturkalla.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Ekki tókst að lesa keyrslurnar: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Töflur flutninganna eru ekki til enn: ./console exp:upgrade --apply býr þær til.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Sýna</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Allar</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Keyrslur</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Ræst</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Af</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Skyndimyndir</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Hugbúnaðarsafn</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Aðgerðir</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>fyrir</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>eftir</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ýting: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Halda áfram</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Afturkalla</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Engin keyrsla í þessu ástandi.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Ræst hér</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Keyrslur, framhöld og afturkallanir ræstar á þessum síðum, með skýrslu hverrar.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Hvað</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Niðurstaða</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Afturköllun</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Afturköllun á %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Keyrsla %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Það sem keyrslan gerði, færsla hennar og annáll. Keyrsla ræst hér heldur áfram í bakgrunni þegar þessari síðu er lokað; opnaðu síðuna aftur til að fylgjast með henni.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Halda áfram með þessa keyrslu</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Afturkalla þessa keyrslu</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Ekki tókst að lesa færsluna: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Framvinda</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Ræst af %user kl. %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kóðinn er athugaður og skyndimynd tekin fyrir keyrsluna</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Keyrir %id (%index af %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done af %total lokið</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Flutningarnir hafa keyrt; skyndimyndin er endurheimt ef einn mistókst</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Skyndimynd tekin eftir keyrsluna, commit, merking og push</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Skyndimyndin er endurheimt</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Keyrslunni er lokið. Skýrslan er hlaðin.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Ekki tókst að fylgjast með framvindunni. Endurhlaðið síðuna til að sjá hvernig keyrslunni gengur.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Þessi síða fylgist með keyrslunni meðan hún gengur.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Endurhlaða</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Skýrsla</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tímalengd</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisek.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Það sem keyrslan skrifaði út sem villur</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Færsla</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Umhverfi</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ekkert</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Lokið</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commit-færsla</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Merki</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ýting</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Skilaboð</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Flutningar þessarar keyrslu</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Uppruni</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Annáll keyrslunnar</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Aðeins endir annálsins er sýndur.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>í gangi</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>lauk án skýrslu</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>tókst</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>mistókst</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hafnað</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ekki náðist í gagnagrunninn</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>innri villa</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Keyrsla er í gangi</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ræst af %user kl. %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Fylgjast með</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Uppsetningin er læst</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Önnur keyrsla heldur læsingunni (uppfærsla eða keyrsla á skipanalínu): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>lokið</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>í bið</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ekki þörf</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>óþekkt</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>afturkallaður</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>beittur</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>yrði beitt</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>tekinn til baka</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>yrði tekinn til baka</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ekki keyrður</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>bíður eftir öðrum</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>breyting samþykkt</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>breyting yrði samþykkt</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>hermt</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Flutningar</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Staða</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Saga</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Afturkalla %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Keyrsla er afturkölluð í skyndimyndina sem tekin var á undan henni, stakur flutningur með down() sínu. Endurheimt eldri skyndimyndar er fyrir sérfræðinga. Hvert um sig keyrir í bakgrunni sem þú, eftir skyndimynd af núverandi stöðu.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Ekki tókst að lesa hvað má afturkalla: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Keyrsla</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Einn flutningur</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Eldri skyndimynd</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Lýsing</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>já</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nei</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Skyndimynd</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Heiti</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Tekin</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Tegund</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Hlutar til að endurheimta</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Gagnagrunnurinn</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Geymdu skrárnar (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Stillingarnar (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Endurheimt færir gagnagrunninn aftur til tíma skyndimyndarinnar, að lotum meðtöldum: þú gætir þurft að skrá þig inn aftur á eftir. Allt sem hefur breyst síðan glatast; fyrst er tekin skyndimynd af núverandi stöðu.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ég veit hvað þetta endurheimtir</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Sláðu auðkenni skyndimyndarinnar inn aftur</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Já, afturkalla</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Hætta við</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Keyrslurnar með skyndimynd tekinni á undan.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Velja</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Engin keyrsla með skyndimynd enn.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Beittu flutningarnir sem geta afturkallað sig sjálfir (þeir hafa down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Enginn beittur flutningur hefur down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Eldri skyndimyndir (sérfræðingar)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Engin skyndimynd enn.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Keyra flutningana</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Keyrslan gengur í bakgrunni sem %user og síða hennar sýnir hana jafnóðum. Fyrir fyrsta flutninginn er tekin skyndimynd af uppsetningunni; ef flutningur mistekst stöðvast keyrslan og skyndimyndin er endurheimt.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Prufukeyrsla fyrst</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Ekki tókst að lesa stöðuna: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Flutningar í bið</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Þeir keyra í þessari röð. Taktu hakið af einum til að geyma hann, og þá sem þarfnast hans, til síðari keyrslu.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Keyra</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Kveikir á viðhaldsham meðan keyrt er.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Breyttir eftir að þeim var beitt</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Þessar skrár eru ekki þær sem var beitt. Keyrsla hafnar þeim nema breytingin sé samþykkt með rökstuðningi; þær eru ekki keyrðar aftur, nýja gátsumman er skráð og rökstuðningurinn geymdur í endurskoðunarannálnum.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Samþykkja breytingarnar</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Ástæða</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Sjálfgefnu gildin eru þau öruggu. Hver reitur sleppir einu skrefi.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Engin skyndimynd</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Engin skyndimynd fyrir og eftir keyrsluna: ekki er hægt að endurheimta sjálfkrafa eftir villu.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Engin endurheimt</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Eftir villu, skilja uppsetninguna eftir eins og villan skildi hana eftir.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Halda breytingum sem eru ekki commit-aðar</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Keyra þótt stillingar, viðbætur eða útlit hafi breytingar sem eru ekki commit-aðar; þær fara í skyndimyndina.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Ekkert commit</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ekki commit-a stöðuskrána og annál keyrslunnar (hvorki merki né push heldur).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Ekkert push</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Commit-a og merkja, en ekki push-a.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Ekkert merki</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Commit-a og push-a, en ekki merkja keyrsluna.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Já, keyra þessa flutninga núna</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Enginn flutningur er í bið.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Aftur í stöðuna</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Breytingar á þessari uppsetningu skrifaðar einu sinni sem skrár (efni, klasar, hlutverk, stillingar, skema) og beitt á hverja uppsetningu vefsins í sömu röð. Keyrsla tekur fyrst skyndimynd, endurheimtir hana ef flutningur mistekst, og skráir, commit-ar og push-ar það sem hún gerði.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Keyra %count í bið</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Yfirlit</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Í bið</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Lokið</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mistókust</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ekki þörf</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Gagnagrunnur</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>færslur: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Flutningar vefsins eru í migrations/, flutningar viðbótar í extension/&lt;name&gt;/migrations/. Þeir keyra í röð nafna sinna og þess sem þeir þarfnast.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Síðasta keyrsla</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Skránni var breytt eftir að henni var beitt.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Enginn flutningur enn. ./console exp:migration:generate --skeleton &lt;name&gt; --apply skrifar þann fyrsta.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Nýjustu keyrslurnar</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Allar keyrslur</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Engin keyrsla enn.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Hermun keyrslu krefst heimildarinnar migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Keyrsla er í gangi: hermdu þegar henni er lokið.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Uppsetning</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target er hvorki keyrsla, flutningur né skyndimynd þessarar uppsetningar.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Hakaðu fyrst við „Já, afturkalla“.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Endurheimt eldri skyndimyndar er fyrir sérfræðinga: hakaðu við „Ég veit hvað þetta endurheimtir“.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Sláðu auðkenni skyndimyndarinnar inn aftur: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Veldu að minnsta kosti einn hluta til að endurheimta.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Þessi keyrsla hefur enga skyndimynd tekna á undan: afturkallaðu flutninga hennar einn í einu, eða endurheimtu eldri skyndimynd.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Ekki er hægt að afturkalla þennan flutning einan: honum hefur ekki verið beitt, eða hann hefur ekki down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Ekki tókst að lesa eyðublaðið.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Veldu keyrsluna sem á að halda áfram með.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Hakaðu fyrst við „Já, keyra þessa flutninga núna“.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Veldu að minnsta kosti einn flutning.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Flutningi var breytt eftir að honum var beitt: samþykktu breytinguna með rökstuðningi, eða settu skrána aftur á sinn stað.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Tilgreindu ástæðuna fyrir því að breyttu flutningarnir eru samþykktir.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Ástæðan má vera í mesta lagi 500 stafir.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Keyrsla ræst hér er enn í gangi (%detail). Bíddu þar til henni lýkur.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Önnur keyrsla heldur læsingu uppsetningarinnar: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Keyrslan þarfnast innskráðs notanda sem er til.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ekkert php skipanalínuforrit fannst. Stilltu migration.ini [AdminSettings] PhpCliPath á fulla slóð þess.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>Slökkt er á proc_open, svo ekki er hægt að ræsa keyrslu hér. Keyrðu ./console exp:migration:migrate --apply á þjóninum.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Ekki er hægt að skrifa í möppu keyrslnanna: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Keyrslan var ræst en tilkynnti ekki ferlisauðkenni sitt. Athugaðu %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Tilgreindu hvað á að afturkalla.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Ekki tókst að ræsa keyrsluna.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Taka upp breytingar</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Á meðan upptaka er í gangi er það sem þú breytir í stjórnborðinu eða í hliðarstiku vefsins geymt sem skref í flutningi: efni, klasar, hlutverk og reglur, hlutar, notendur og hópar, vefslóðasamheiti, stillingar. Stöðvaðu hana þegar þú ert búin(n), skoðaðu hvað hún fangaði og búðu til flutning úr henni.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Ekki tókst að lesa upptökurnar: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Töflur upptakanna eru ekki til enn: keyrðu fyrst uppfærsluna (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Slökkt er á upptöku í migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Breytingarnar mínar</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Tekur aðeins upp það sem þú breytir, hvar sem þú breytir því, þar til þú stöðvar hana.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Upptaka</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>frá %time, %count breyting(ar) hingað til.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Merki (valfrjálst)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Sýna hvað hún fangaði</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stöðva upptöku</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Hefja upptöku á breytingunum mínum</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Gluggi fyrir allan vefinn</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Tekur upp hverja breytingu hvers notanda og skipanalínunnar þar til honum er lokað. Þegar hann er opnaður ertu beðin(n) að staðfesta að þetta sért þú.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Opinn</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Loka glugganum</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Opna glugga fyrir allan vefinn</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Upptökur</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Aðgangur notanda (notandanafn, netfang, lykilorð) og reitir notendaaðganga eru aldrei teknir upp.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Breytingar</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Allur vefurinn</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Breytingar %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Stöðvuð</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Engin upptaka enn.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Upptaka %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Allar upptökur</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Flutningurinn sem hún myndi búa til</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Breytingarnar dregnar saman í eitt skref fyrir hvern breyttan hlut: það sem flutningur gerður úr þessari upptöku myndi gera.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Hægt er að búa til flutning úr henni þegar þessi uppsetning hefur YAML-skrefagerðirnar %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Sleppt viljandi: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ekkert var tekið upp.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Hvað hún fangaði</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count breyting(ar), í þeirri röð sem þær voru gerðar.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Breyting</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Skref</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Varðar</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count í viðbót: ./console exp:migration:record:show sýnir allar.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Fleygja</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Fjarlægir upptökuna og það sem hún fangaði. Það sem var breytt helst breytt.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Já, fleygja þessari upptöku</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Tekur upp…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Breytingarnar þínar eru teknar upp fyrir flutning.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Hver breyting á þessum vef er tekin upp fyrir flutning (gluggi fyrir allan vefinn).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Upptaka fyrir allan vefinn er hafin: hver breyting hvers notanda er tekin upp þar til þú stöðvar hana.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Upptaka er hafin: breytingarnar þínar eru teknar upp þar til þú stöðvar hana.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Upptaka stöðvuð. Það sem hún fangaði helst þar til þú fleygir henni.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Upptakan og atburðir hennar hafa verið fjarlægð.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Engin upptaka %id er til.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Hakaðu fyrst við „Já, fleygja þessari upptöku“.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Aðeins notandinn sem tók upp má stöðva setuupptöku.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Veldu upptökuna sem á að stöðva.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Upptaka af þessari gerð er þegar í gangi.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Ekki tókst að breyta upptökunni: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Búa til flutning</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Heiti flutningsins (valfrjálst)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Flutningurinn %file var skrifaður. Breytingar sem ekkert skref getur gert eru nefndar efst í skránni, til að gera í höndunum.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Enginn flutningur var skrifaður: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Löng keyrsla í hlutum</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Tóma reiti halda stillingum migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Í mesta lagi svona margar tilfærslur</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Engin frekari tilfærsla eftir (sekúndur)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Hlé milli tilfærslna (sekúndur)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Lægri forgangur (1 til 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Reitur fyrir langa keyrslu er heiltala frá 1 (hléið: sekúndur frá 0 til 60, forgangurinn: 1 til 19) eða tómur.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Hún lokast sjálf kl. %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Loka sjálf eftir (mínútur, valfrjálst)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Mínúturnar eru heiltala frá 1 til 44640 (31 dagur) eða tómar.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Flutningur %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nýr flutningur</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML-flutningur: skrifaðu hann sem texta eða byggðu skref hans í eyðublaðinu, athugaðu hann og vistaðu hann síðan í flutningamöppu.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Þessi flutningur hefur þegar keyrt og er því ekki vistaður aftur: gátsummuvörnin myndi hafna breyttri skrá. Gerðu breytinguna í nýjum flutningi.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Vefþjónninn getur ekki skrifað skrána.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Athugasemdalínurnar efst eru hausinn (description, author, requires, environments, engines). Þegar skrefi er bætt við eða því breytt í eyðublaðinu er flutningurinn skrifaður upp á nýtt: athugasemdir milli skrefanna haldast ekki.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Heiti flutningsins</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Hvert hann fer</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Vefurinn</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-texti</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Athuga</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Vista</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Skref</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Lyklar</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Breyta</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Færa upp</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Færa niður</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Fjarlægja</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Engin skref enn: bættu einu við með eyðublaðinu eða skrifaðu þau í textann.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Breyta skrefi %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Bæta við skrefi</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Eyðublað skrefs er búið til úr gerð skrefsins: lyklum þess, hvað hver þeirra tekur og hömunum sem það tilheyrir.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Gerð skrefs</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Sýna eyðublað þess</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Skrefið hefur lykla sem gerð þess þekkir ekki; þeim er sleppt þegar skrefinu er breytt: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Hamur</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Í</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>aðeins í %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Sjálfgefið: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Skilyrði, tilvísanir og athugasemd</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Pör Heiti=gildi, aðskilin með kommum. Gildi þessa skrefs: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Dæmi</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Breyta skrefi</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Bæta skrefi við</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Það sem exp:migration:check segir: hausinn, skjalið og hvert skref athugað af gerð sinni.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Flutningurinn stenst athugunina.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Forskoðun</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML eins og það verður vistað.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Sýna YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-flutningar</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>hefur keyrt</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Engir YAML-flutningar enn.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Ritstjórn</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Enginn YAML-flutningur %id er í flutningamöppunum.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Veldu gerð skrefs.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Skrefinu hefur verið bætt við. Athugaðu flutninginn áður en þú vistar hann.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Skrefinu hefur verið breytt. Athugaðu flutninginn áður en þú vistar hann.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Veldu skref.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Þetta skref hefur ekkert eyðublað (lykkja, eða gerð skrefs sem þessi uppsetning hefur ekki): breyttu því í textanum.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Veldu hvert flutningurinn fer: vefurinn eða virk viðbót.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file vistað. Keyrðu prufukeyrslu áður en flutningurinn keyrir.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ekki vistað: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Fjarstöðvar</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Hinar uppsetningarnar sem þessi dreifir flutningum sínum til: dreifing sendir flutningana á valdar fjarstöðvar og keyrir þá þar, alla í einu og samstillt. Fjarstöð geymir aldrei leyndarmál: innskráningarupplýsingar hennar nefna eitt í Uppsetning &gt; Leyndarmál.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Ný fjarstöð</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hjálp</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Tengingarprófun fyrir %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Fjarstöðvarnar</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Allt að %parallel fjarstöðvar eru unnar samtímis; ein lota má taka %timeout sekúndur á hverri.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Fjarstöð</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Vistfang</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Innskráningarupplýsingar</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Hópar</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>stillingar þarf að laga</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>aðeins skrár (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-lykill</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Aðgangsorð</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ekkert (SSH-umboðsmaður og lyklar hýsilsins)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Prófa tengingu</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Dreifing til hóps fer á hverja fjarstöð hans.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Dreifa til fjarstöðva</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Engin fjarstöð hefur verið sett upp enn.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Fjarstöð %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Hér er ekkert sent eða keyrt: Vista skrifar stillingarnar í settings/override/migration.ini.append.php. Innskráningarupplýsingarnar eru heiti; gildi þeirra helst í Uppsetning &gt; Leyndarmál eða í umhverfinu.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Farðu yfir þessar stillingar</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Stillingarnar eins og þær voru slegnar inn, ekki vistaðar enn.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Yfirferð</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Stillingarnar eru gildar. Þessar línur verða skrifaðar:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Sendingarleið</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>aðeins heiti; gildið er áfram í Uppsetning &gt; Leyndarmál</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Línurnar sem verða skrifaðar</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Tenging</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Hýsillykill</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Fjarstöðin</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Hvað fjarstöðin heitir og hvaða umhverfi hún er.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Auðkenni</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Bókstafir, tölustafir, - og _, til dæmis production1. Það nefnir fjarstöðina í skýrslum og á skipanalínunni (--remotes=production1) og ekki er hægt að breyta því síðar.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Dreifing í áföngum fer í gegnum umhverfin í þessari röð.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Valfrjálst, aðskilið með kommum, til dæmis production. Dreifing til hóps fer á hverja fjarstöð hans.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Tengingin</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Hvernig skrárnar komast þangað og hvar uppsetningin er.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Yfir SSH, aðeins það sem breyttist, og rofin sending heldur áfram. Besti kosturinn þar sem rsync er uppsett.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH með scp fyrir skrárnar.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH með sftp fyrir skrárnar.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Aðeins skrár: flutningarnir eru sendir og lesnir til baka en ekki er hægt að keyra þá þar.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP yfir TLS; aðeins skrár.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Önnur uppsetning á þessum þjóni, í möppu.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hýsill</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Heiti eða vistfang hýsils, til dæmis node1.example.com. Ekki fyrir local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Gátt</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Autt: 22 fyrir SSH, 21 fyrir FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Notandi</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Slóð</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Rót uppsetningarinnar þar, til dæmis /var/www/site (fyrir FTP: slóðin sem FTP-aðgangurinn sér).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-skipanalína</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI þar: php eða full slóð eins og /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Skipanaskriftur keyra þar sem root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Aðeins þegar notandi fjarstöðvarinnar er root (þær eru þá keyrðar með --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Innskráningarupplýsingarnar</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Hvernig þessi uppsetning skráir sig inn þar. Aðeins heiti er vistað.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ekkert</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>SSH-umboðsmaður og lyklar notandans sem þessi uppsetning keyrir sem (og alltaf fyrir local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Einkalykill geymdur sem leyndarmál.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Aðgangsorð geymt sem leyndarmál (FTP skráir sig inn með því).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Heiti leyndarmáls</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Leyndarmál úr Uppsetning &gt; Leyndarmál, til dæmis deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Uppsetning &gt; Leyndarmál</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Eða umhverfisbreyta</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Breyta þjónsferlisins sem geymir það, til dæmis DEPLOY_KEY (vistað sem env:DEPLOY_KEY). Hún kemur í stað heitis leyndarmálsins.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Hýsillykillinn</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Valfrjálst, fyrir SSH, sftp og rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Fingrafar hýsillykils</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... eins og ssh-keygen -l prentar það. Með því verður hýsillinn að sýna þennan lykil; án þess er lykillinn lærður við fyrstu tengingu.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Yfirferð</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Prófaðu tenginguna með stillingunum hér að ofan og farðu síðan yfir línurnar sem verða skrifaðar.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Fjarlægja þessa fjarstöð</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Stillingar hennar eru fjarlægðar úr settings/override/migration.ini.append.php. Ekkert breytist á fjarstöðinni og dreifingar hennar haldast í sögunni.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Já, fjarlægja þessa fjarstöð</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Dreifingar</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Dreifing sendir flutninga þessarar uppsetningar á valdar fjarstöðvar og keyrir þá þar sem %user, alla í einu og samstillt: hver fjarstöð er fyrst athuguð, og ef ein mistekst er hver fjarstöð sem beitti þeim tekin til baka. Hún fer fram í bakgrunni og síða hennar sýnir hverja fjarstöð jafnóðum.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Fjarstöðvarnar</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Hakaðu við fjarstöðvar, hóp eða hvort tveggja.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Dreifa þangað</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Hvernig</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Dreifa</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Senda og keyra</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Flutningarnir eru sendir, staðfestir og keyrðir á hverri fjarstöð með einu sameiginlegu keyrsluauðkenni.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Aðeins senda</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Skrárnar eru sendar og staðfestar, ekkert er keyrt (eina leiðin fyrir FTP-fjarstöð).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Í áföngum</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Áfanga fyrir áfanga í röð umhverfanna (dev, stage, beta, production ...): fyrsta áfanganum er dreift, síðan bíður hlið þar til einhver samþykkir þann næsta. Allt eða ekkert innan hvers áfanga.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Aðeins þessir flutningar</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Valfrjálst: auðkenni flutninga, aðskilin með kommum. Autt: hver flutningur vefsins og viðbóta hans.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Aðeins forathugun</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Já, dreifa núna</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Dreifingarnar sem sendu eða keyrðu eitthvað, nýjasta fyrst (forathugun geymir enga skýrslu).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>aðeins senda</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>í áföngum, %stages áfangar</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ekki samstillt</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Engin dreifing enn.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Dreifing %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Hver fjarstöð dreifingarinnar með stöðu sinni. Dreifing sem er ræst hér heldur áfram í bakgrunni þegar þessari síðu er lokað; opnaðu síðuna aftur til að fylgjast með henni.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Allar dreifingar</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Forathugun</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Næsti áfangi</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Stillingarnar og innskráningarupplýsingarnar eru athugaðar</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Forathugun: staða hverrar fjarstöðvar er lesin</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Flutningsskrárnar eru sendar</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Það sem barst er staðfest</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Flutningarnir eru keyrðir á hverri fjarstöð</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Fjarstöðvarnar eru teknar til baka</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Dreifingunni er lokið. Skýrsla hennar er hlaðin.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Ekki tókst að fylgjast með framvindunni. Endurhladdu síðuna til að sjá hvernig dreifingunni miðar.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Lota</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Þessi síða fylgist með dreifingunni jafnóðum.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Samstillt</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Áfangar</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>áfangi %stage bíður við hlið sitt</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Hlið %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>samþykkt af %user kl. %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Áfangi</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Sendar skrár</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Útgáfa kjarna</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>beitt: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>á eftir að beita: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Lotur</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Hlið: áfangi %stage af %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Áföngunum á undan hefur verið dreift. Athugaðu þá og samþykktu síðan næsta áfanga: fjarstöðvar hans eru athugaðar aftur og þeim dreift, allt eða ekkert.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Áfram</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Já, dreifa næsta áfanga núna</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Samþykkja</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Afturkalla þessa dreifingu</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Hver fjarstöð sem beitti henni (%list) snýr aftur til skyndimyndarinnar sem var tekin fyrir keyrslu hennar, allar í einu.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Já, afturkalla þessa dreifingu núna</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>áætlað</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>sent yfir</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>dreift</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>bíður við hlið</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>valið</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>undirbúið</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>tilbúið</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>bíður eftir áfanga sínum</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>skrár sendar</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>staðfest</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>mistókst, endurheimti sig sjálf</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>óbreytt</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ekki dreift</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>næst ekki í</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Fjarstöðin svaraði.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Ekki er hægt að nota fjarstöðina núna.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done lokið, %pending í bið, %failed mistókust</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Lás</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>keyrsla heldur lásnum þar</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>laust</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage af %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Veldu fjarstöðina sem á að prófa.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Hakaðu fyrst við „Já, fjarlægja þessa fjarstöð“.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Ekki tókst að fjarlægja fjarstöðina: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Ekki tókst að vista fjarstöðina: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Ekki er hægt að lesa stillingaskrána: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Veldu að minnsta kosti eina fjarstöð eða hóp.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Valin fjarstöð er ekki lengur í stillingunum. Endurhladdu síðuna.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Hakaðu fyrst við „Já, dreifa núna“.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP-fjarstöð getur ekki keyrt flutninga: veldu „Aðeins senda“ eða slepptu henni.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Flutningarnir sem á að dreifa eru auðkenni flutninga, aðskilin með kommum.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Dreifingin er enn í gangi. Bíddu þar til henni lýkur.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Þessi dreifing bíður ekki við hlið.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Engin fjarstöð beitti þessari dreifingu: það er ekkert að afturkalla.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Hakaðu fyrst við „Já, dreifa næsta áfanga núna“.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Hakaðu fyrst við „Já, afturkalla þessa dreifingu núna“.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Fjarstöð með auðkennið %id er þegar til.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Gáttin er tala frá 1 til 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Umhverfið er orð úr bókstöfum, tölustöfum, - og _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Hópur er orð úr bókstöfum, tölustöfum, - og _ (ekki all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Ekki er hægt að lesa innskráningarupplýsingarnar núna: %problem. Vistaðu þær í Uppsetning &gt; Leyndarmál (eða stilltu breytuna) fyrir fyrstu dreifinguna.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP-fjarstöð tekur aðeins við skrám: dreifing til hennar er „Aðeins senda“ og flutningar hennar eru keyrðir þar handvirkt.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Fjarstöðin %id er ekki í settings/override/migration.ini.append.php; fjarlægðu hana þar sem hún er stillt.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Skráð inn yfir FTP og index.php lesin. Ekki er hægt að lesa flutningsstöðu FTP-fjarstöðvar.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Breytt</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Stofnað</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Heiti</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasi</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Hluti</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Höfundur</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nýlegt efni</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Nýjasta stofnaða og breytta efni alls vefsins, nýjast fyrst: það sem gestir sendu inn, það sem er haldið til yfirferðar og drög sem bíða birtingar. Veldu atriði til að losa, halda, fela, sýna, fjarlægja eða færa þau í annan hluta eða annað ástand.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Ekki tókst að lesa listann: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Hald til yfirferðar hefur ekki enn verið sett upp, svo ekkert er haldið og haldaðgerðir eru ekki í boði. Uppfærsluskrefið 6.0.15-review-hold setur það upp: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Sía listann</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Frá</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Til</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dagsetning</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Stofnað (fyrst birt)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Allt</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Staða</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Birt</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Drög, aldrei birt</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Í bið (eftir samþykki eða dagsetningu)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Í ruslafötunni</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Haldið til yfirferðar</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Haldið</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Ekki haldið</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Falið</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Sýnilegt</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Sent inn á vefaðgangi</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Hvaða vefaðgangur sem er</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Aðeins það sem úttektarskráin skráði.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Núna: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Notandanafn eða auðkenni notanda.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Sía</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Hreinsa síur</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Atriði</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from til %to af %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ekkert atriði</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(lesið á %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Aðgerðir á völdum atriðum</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Velja allt á þessari síðu</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count valin</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Aðgerð</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Veldu aðgerð</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Losa haldið</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Halda til yfirferðar</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Fela</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Sýna</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Færa í ruslafötu</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Eyða</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Úthluta hluta</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Úthluta ástandi</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Ástæða</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Nauðsynlegt til að halda; geymt með haldinu og í úttektarskránni.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Veldu hluta</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ástand</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Veldu ástand</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Beita á valin</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Hvert atriði er athugað út frá þínum eigin heimildum. Beðið er um staðfestingu áður en fært er í ruslafötu eða eytt. Fleiri en %count atriði eru unnin í bakgrunni.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Velja</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Birting</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Sent inn frá</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Velja %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ekki enn</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ekkert heiti)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Auðkenni %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Drög</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Í bið</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Falið vegna yfireiningar</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Haldið: ný innsending</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Útgáfa %version í bið</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Útgáfa %version í vinnslu</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Drög, útgáfa %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Útgáfa %version birt</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Áætlað: %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ekkert vistfang</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ekki skráð</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Ekkert passar við þessar síur.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Sýna allt</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Það er ekkert efni ennþá.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Á síðu</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Sýna %count atriði á síðu.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Vistfang og vafri innsendingar koma úr úttektarskránni, sem er ekki aðgengileg hér: í dálkinum stendur „ekki skráð“.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Vistfangið og vafrinn eru þau sem úttektarskráin skráði fyrir atriðið (sjálfvirka haldið skráir þau alltaf; birting og stofnun aðeins þar sem kveikt er á því), eins og persónuverndarstillingar hennar geyma þau.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count atriði</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Eyðing fjarlægir atriðin til frambúðar, með öllum útgáfum þeirra og þýðingum. Það er ekki hægt að afturkalla.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Atriðin fara í ruslafötuna, þaðan sem hægt er að endurheimta þau.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Hvert atriði er athugað út frá þínum eigin heimildum; atriði með undiratriðum er látið óbreytt (fjarlægðu það í efnisskipaninni). Þú verður beðin(n) að staðfesta að þetta sért þú.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Þetta keyrir í bakgrunni: framvindusíða þess opnast og niðurstaðan fyrir hvert atriði birtist þegar því er lokið.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Völdu atriðin</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>og %count í viðbót</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Hætta við</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ekkert var gert</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Ástæða: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Aðgerðin keyrir enn í bakgrunni.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Framvinda hennar</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Bakgrunnsaðgerðin mistókst: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Lokið</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hafnað</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mistókst</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Eftir atriðum</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Atriði</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Niðurstaða</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Hvers vegna</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Aftur í listann</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Uppsetning</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ekkert gert</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Staðfesta</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Veldu aðgerð.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Veldu að minnsta kosti eitt atriði.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Veldu í mesta lagi 1000 atriði í einu.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Segðu hvers vegna atriðunum er haldið.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Veldu hlutann.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Veldu ástandið.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Ekki tókst að lesa eyðublaðið.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Mælaborð</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Nýlegt efni</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Ekki tókst að lesa fjöldann: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Haldið til yfirferðar</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Nýtt í dag</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Hald til yfirferðar hefur ekki enn verið sett upp (uppfærsluskrefið 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Allt nýlegt efni</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Þú mátt ekki keyra stjórnunaraðgerðir (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Stjórnunaraðgerðinni er ekki lokið: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Efnisstjórnun: %action á %count hlutum</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done af %total hlutum: %ok lokið, %refused hafnað, %failed mistókst</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok lokið, %refused hafnað, %failed mistókst</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Það er ekki lengur til.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Það hefur enga staðsetningu (ekki birt).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Þú mátt ekki fela það (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Þú mátt ekki sýna það (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Það er þegar falið.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Það er ekki falið.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Falið.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Sýnt.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Það er í ruslafötunni: tæmdu hana eða endurheimtu það þar.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Drög sem hafa aldrei verið birt geta ekki farið í ruslafötuna: eyddu þeim.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Þú mátt ekki eyða því (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Eytt.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Þú mátt ekki fjarlægja það (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Það hefur undiratriði: fjarlægðu það í efnisskipaninni, þar sem þau eru skráð.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Það var ekki fjarlægt (verkflæði gæti haldið fjarlægingunni).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Fært í ruslafötuna.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Hlutinn er ekki til.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Það er þegar í þessum hluta.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Þú mátt ekki úthluta þessum hluta (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Hlutanum var ekki úthlutað.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Hluta úthlutað.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Ástandið er ekki til.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Það er þegar í þessu ástandi.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Þú mátt ekki úthluta þessu ástandi (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Ástandinu var ekki úthlutað (verkflæði gæti haldið breytingunni).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Ástandi úthlutað.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Engin slík aðgerð er til.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Hald til yfirferðar hefur ekki verið sett upp (uppfærsluskrefið 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Segðu hvers vegna því er haldið.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Því er þegar haldið.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Þú mátt ekki halda því (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Haldið var ekki sett á (verkflæði gæti haldið breytingunni).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Haldið.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Því er ekki haldið.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Þú mátt ekki losa það (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Haldið var ekki losað (verkflæði gæti haldið breytingunni).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Losað; enn falið: þú mátt ekki sýna það (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Losað.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Allir áfangastaðir</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Síðasta birting</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Birtu ókeypis kyrrstætt afrit af vefnum þínum á GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Úreltar síður</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Kyrrstæð birting</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Slökkt er á kyrrstæðri birtingu.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Áfangastaður</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ekki tókst að lesa áfangastaðina: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>verk er í gangi</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>smíð til yfirferðar</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>fela þetta</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>búa til áfangastað</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>aldrei</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>lesa leiðbeiningarnar</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added bætt við, %changed breytt, %removed fjarlægt</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes af %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count til viðbótar eru ekki skráð.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages síður skrifaðar</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path er %size, meira en hýsingin leyfir fyrir eina skrá.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % af hámarkinu</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds sek.</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag er birtingin sem vefurinn er með núna.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: verk %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/hugbúnaðarsafn/ fyrir GitHub-verkefnisvef; tómt fyrir eigið lén eða notandavef.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Vefurinn</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Hýsingin</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Innskráning í hugbúnaðarsafnið</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Hugbúnaðarsafnið</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Tenglar og grunnslóð</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Þitt eigið lén</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Hvað smíðin inniheldur</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Hvenær birt er</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Yfirfara og vista</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub-verkefnisvefur er undir /&lt;repository&gt;/; afstæðir tenglar virka þar og alls staðar annars staðar.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Smíð sækir hverja síðu %site eins og óinnskráður gestur sér hana, endurskrifar tenglana, afritar skrárnar og skrifar niðurstöðuna í möppu áfangastaðarins. Ekkert er birt fyrr en þú hefur farið yfir smíðina og ýtt á Birta.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron-segð, til dæmis 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Dreifingarlykill er geymdur sem leyndarmálið %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Dreifingarlykill leyfir þessari uppsetningu að ýta í eitt hugbúnaðarsafn yfir SSH og hvergi annað. Einkahluti hans er áfram í Uppsetning &gt; Leyndarmál; aðeins opinberi hlutinn er sýndur.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Dreifingarlykill búinn til fyrir þennan áfangastað</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Dreifingarlykill skráir sig inn yfir SSH: breyttu git-slóðinni í SSH-slóðina (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Verk er í gangi, ræst af %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Verk þessa áfangastaðar er enn í gangi (%detail). Bíddu þar til því lýkur.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Verk þessa áfangastaðar er enn í gangi. Bíddu þar til því lýkur.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Tengill frá síðunni /news/ á síðuna /about-us/team verður skrifaður sem</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Nýr dreifingarlykill var búinn til. Bættu opinbera hluta hans við hugbúnaðarsafnið núna.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Síða sem enn inniheldur villuleitarúttak, eyðublaðstóka eða setuauðkenni eftir hreinsun er aldrei birt.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Afturköllun er fyrir sérfræðinga: hakaðu við „Ég veit hverju þetta breytir“ og sláðu inn heiti merkisins aftur.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Vefur má vera allt að %site, ein skrá allt að %file, með um 100 GB af umferð á mánuði. Í ókeypis áskrift verður hugbúnaðarsafnið að vera opinbert. GitHub Pages er ekki ætlað fyrir verslanir eða önnur viðskipti.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Áfangastaður er einn vefur sem er birtur í eitt git-hugbúnaðarsafn. Ekkert er smíðað eða birt hér: Vista skrifar stillingarnar í settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Áfangastaður er einn vefur sem er birtur á einum stað, til dæmis opinberi vefurinn þinn á GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Tóki úr Uppsetning &gt; Leyndarmál</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Verkflæði hugbúnaðarsafnsins birtir hana.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Bættu þessum opinbera lykli við hugbúnaðarsafnið með skrifaðgangi. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, hakaðu við Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Bætt við</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Önnur git-hýsing</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Annað ferli vinnur að þessum áfangastað: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Til baka</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Grunnslóð</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Áður</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Undir grunnslóð</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Grein</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Brotnir tenglar</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Brotnir tenglar í smíðinni</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Smíð</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Smíð %id eftir %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Smíð fyrir %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Smíða núna</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Smíð til yfirferðar</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Af</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Handvirkt, hér</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Hætta við</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Breyta</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Breytt</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Breytingar</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Farðu fyrst yfir hana</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Farðu yfir þessar stillingar</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Skoðaðu hverju smíðin breytir, líttu á hana og birtu hana síðan eða hentu henni.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Veldu birtinguna sem á að fara aftur til.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Kemur í síðari útgáfu.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commit-færsla</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Commit-færslur</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Gerir commit-færslu úr smíðinni, merkir hana og ýtir henni í %remote. Ýting er aldrei þvinguð; þú getur farið aftur til hvaða birtingar sem er síðar.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Borið saman við möppuna áður: %added bætt við, %changed breytt, %removed fjarlægt, %unchanged óbreytt.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Borið saman við síðustu birtingu.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Innskráningarupplýsingar</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Eigið lén</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Villuleitarúttak, eyðublaðstókar, setuauðkenni og nonce-gildi eru alltaf fjarlægð.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Dreifingarlykill</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Dreifingarlykill fyrir %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Henda</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Henda smíðinni</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Lén</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Tómt: slóð vefsins. Annars innri slóð sama vefs.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Lauk</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Hver tengill byrjar á grunnslóðinni.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Hver birting er commit-færsla með merkinu static/%id/&lt;n&gt;. Að fara til baka býr til nýja commit-færslu með skrám fyrri birtingar: sagan helst, ekkert merki færist og ekkert er þvingað.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Aukaskrár</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Sækja síðurnar frá</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Skrá</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Skrár</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Skrár vantar</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Skrár á</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Skrár sem ekki tókst að safna</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Fingrafar</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Mappa</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Fyrir SSH-slóð. Lykillinn er búinn til eftir vistun; þú bætir opinbera hluta hans við hugbúnaðarsafnið.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Fyrir https://-slóð. GitHub: fínstilltur tóki með les- og skrifaðgangi að Contents í hugbúnaðarsafninu.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Fyrir sérfræðinga. Opinberi vefurinn breytist um leið og ýtingunni er lokið.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Eyðublöð</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Ókeypis hýsing úr GitHub-hugbúnaðarsafni.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Úr greininni</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-slóð</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages leyfir vef sem er %site og skrá sem er %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Takmörk GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages birtir skrárnar eins og þær eru (nauðsynlegt fyrir skrár sem byrja á _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub birtir greinina eins og henni er ýtt. Sjálfgefið.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, þinn eigin netþjónn: hvaða git-hugbúnaðarsafn sem er.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Fara aftur til fyrri birtingar</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hjálp</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Hjálp með leiðsagnarforritið</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Fela þá</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Saga</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Saga %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hýsing</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Hvernig GitHub Pages tekur við smíðinni</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Ég hef farið yfir breytingarnar</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ég veit hverju þetta breytir</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Auðkenni</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Slökkt er á henni: ekkert er hægt að smíða fyrr en kveikt er á henni.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Það keyrir í bakgrunni sem %user; þú getur lokað þessari síðu.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Verk %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Geymt sem leyndarmálið %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Tegund</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Síðasta birting</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Sleppa þessum síðum</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Sleppa þessum hlutum</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Tenglar</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Tenglar endurskrifaðir</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Lifandi vefur</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Skoða smíðina</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Lágstafir, tölustafir, _ og -, til dæmis github-public. Það nefnir möppuna og merkin (static/&lt;id&gt;/&lt;n&gt;) og er ekki hægt að breyta síðar.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Búa til nýjan lykil</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Búa til áfangastað</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Búa til lykilinn</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Búðu fyrst til hugbúnaðarsafnið á hýsingunni; tómt safn er í lagi.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Skráalisti</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Skilaboð</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Flestar síður</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Heiti</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Heiti tókans í Uppsetning &gt; Leyndarmál</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Nýr áfangastaður</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Áfram</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nei</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Engin commit-færsla enn.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Enginn lykill var búinn til: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Engin php-skipanalínuskrá fannst. Stilltu migration.ini [AdminSettings] PhpCliPath á fulla slóð hennar.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Ekkert merki enn.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Enginn áfangastaður enn.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ekkert</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ekki í smíðinni.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Ekkert hefur verið birt enn.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Ekkert hefur verið birt enn: allar skrár eru nýjar.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Tilkynna</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Samkvæmt tímaáætlun</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Á skipanalínunni</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Á netþjóninum: ./console exp:static:serve %id birtir hana á sama hátt.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Ein slóð í hverri línu, * passar við hvaða hluta sem er: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Aðeins heiti er geymt með áfangastaðnum; tókinn eða lykillinn sjálfur er áfram í Uppsetning &gt; Leyndarmál og birtist aldrei í annál.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Aðeins það sem síðurnar nefna</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Aðeins með tóka. env:NAME les í staðinn umhverfisbreytu netþjónsins.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Opna forskoðunina</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Opnar smíðina eins og hýsingin mun birta hana, úr möppu áfangastaðarins. Tengillinn virkar fyrir þig í klukkustund.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Valfrjálst. Tómt: það sem var birt.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Valfrjálst. Með léni er vefurinn birtur í rót sinni.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Úttak</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Síður</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Síður áfangastaðarins</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Síðum hafnað</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Eftirvinnsla</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Forskoðun</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Forskoða og birta</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Forskoða og birta %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Forskoða smíðina</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Framvinda</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Opinber slóð</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Opinber lykill</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Birta</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Birtu kyrrstætt afrit af vef á GitHub Pages eða hvaða git-hýsingu sem er: smíðaðu það, farðu yfir breytingarnar, birtu og farðu aftur til fyrri birtingar þegar þörf krefur.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Birting til að fara aftur til</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Birtingar</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ýting</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Lesa leiðbeiningarnar</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Færsla</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hafnað</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Afstæðir</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Endurhlaða</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Fjarlægt</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Skipta um lykil: sá gamli hættir að virka</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Skýrsla</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Skýrsla smíðarinnar</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Hugbúnaðarsafn</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Yfirferð</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Yfirferðin athugar hverja stillingu og sýnir línurnar sem verða skrifaðar. Ekkert er vistað enn.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Afturkalla</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Afturköllun</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Vista</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Tímaáætlun</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Leitarsíða</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Auðkenni hluta, aðskilin með kommum.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Senda þá á lifandi vefinn</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Stilling</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Stillingar</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Stillingar %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Uppsetning</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Uppsetning &gt; Leyndarmál</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Sýnt í listum, til dæmis „Opinber vefur á GitHub Pages“.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Innskráning með GitHub App kemur með GitHub-samþættingunni.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Vefur</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Vefur til að birta</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Stærð</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Stærð og takmörk</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Stærð smíðarinnar</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Úreltar síður</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Ræst</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Ræst af %user kl. %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ástand</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Kyrrstæð birting</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Slökkt er á kyrrstæðri birtingu</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Slökkt er á kyrrstæðri birtingu.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Slökkt er á kyrrstæðri birtingu. Kveiktu fyrst á henni í Uppsetning &gt; Kyrrstæð birting.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Kveikt er á kyrrstæðri birtingu.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Skref %step af %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Skref</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Hreinsun</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Slökkva</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Kveikja</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Kveikja á kyrrstæðri birtingu</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Merki</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Merki</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Áfangastaður</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Hægt er að búa til og breyta áfangastöðum, en ekkert er smíðað eða birt fyrr en kveikt er á henni.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Segir leitarvélum hvað þær eigi að lesa.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Ekki tókst að henda smíðinni: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Smíðin er eins og síðasta birting: það er ekkert að birta.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Smíðinni var hent: mappan geymir síðustu birtingu aftur.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Sjálfgefnu gildin henta flestum vefjum.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Mappan geymir smíð sem er ekki birt enn; ný smíð kemur í hennar stað.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Ekki er hægt að skrifa í möppu verkanna: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Ekki tókst að undirbúa verkið: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Ekki tókst að ræsa verkið.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Verkinu er lokið. Hleð skýrslu þess.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Verkið þarf innskráðan notanda.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Verkið var ræst en gaf ekki upp ferilauðkenni sitt. Athugaðu %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Lykillinn</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Stærsta skráin: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Línurnar sem verða skrifaðar</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Listi yfir síður fyrir leitarvélar; þarf opinberu slóðina.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Síðurnar eru sóttar eins og óinnskráður gestur sér þær. Siteaccess fyrir stjórnun og ritvinnslu eru aldrei í boði.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Ekki tókst að fylgjast með framvindunni. Endurhlaðið síðuna til að sjá hvernig verkinu gengur.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Opinberi hluti lykilsins:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Rót greinarinnar</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Leyndarmálageymslan er ekki uppsett enn (./console exp:upgrade --apply býr til töfluna hennar), svo ekki er hægt að geyma neinn lykil.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Netþjónninn skráir sig inn sjálfur (með eigin SSH-lykli eða credential helper), eða hugbúnaðarsafnið er á þessum netþjóni.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Ekki tókst að skrifa stillinguna: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Stillingarnar eru gildar. Þessar línur verða skrifaðar:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Ekki er hægt að lesa stillingaskrána: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Vefurinn fer aftur í skrár þeirrar birtingar; smíð sem er ekki birt enn verður fyrst að birta eða henda.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Eigin síða vefsins fyrir slóðir sem eru ekki til.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Ekki tókst að vista áfangastaðinn: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Áfangastaðurinn skráir sig ekki enn inn með þessum lykli: veldu „Dreifingarlykill búinn til fyrir þennan áfangastað“ í stillingum hans.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ekki tókst að lesa áfangastaðina: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Það er engin smíð til yfirferðar enn.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Þessi uppsetning hefur engan framenda-siteaccess. Siteaccess fyrir stjórnun og ritvinnslu eru aldrei birt.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Þessi síða fylgir verkinu á meðan það gengur; það heldur áfram í bakgrunni þegar síðunni er lokað.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Þessi áfangastaður hefur engan dreifingarlykil enn.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Þessi áfangastaður hefur ekki verið smíðaður hér enn.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Þessi áfangastaður hefur einn.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Hendir þessari smíð: mappan geymir síðustu birtingu aftur. Lifandi vefurinn breytist ekki.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Hakaðu fyrst við „Ég hef farið yfir breytingarnar“.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tími</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Kveikjur</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Sláðu inn heiti merkisins aftur</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Óbreytt</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Vefkrókur</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Hvað</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Hvað breytist</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Hvað hver skrá er; alltaf skrifað.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Hvað verkið gerði og færsla þess. Verk sem er ræst hér heldur áfram í bakgrunni þegar þessari síðu er lokað.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Það sem verkið prentaði sem villur</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Það sem síðurnar nefna, og hver mynd af birtu efni</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Hvenær</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Þegar birting mistekst</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Þegar birting tekst</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Þegar efni er birt</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Hvert tenglar á það sem afritið inniheldur ekki fara (leitin, innskráningin).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Hvaðan kyrrstæða afritið er birt.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Hvaða vefur er birtur og hvað áfangastaðurinn heitir.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Virkar undir hvaða slóð sem er. Sjálfgefið.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Skrifað hvenær sem eigið lén er stillt.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Já</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Þú getur alltaf smíðað og birt handvirkt hér og á skipanalínunni.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>aðeins heiti; gildið er áfram í Uppsetning &gt; Leyndarmál</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>undir %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>lauk án skýrslu</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>auka</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>mistókst</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>skrá</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, eða main með möppunni docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-hýsing</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (með tóka) eða git@github.com:owner/repo.git (með dreifingarlykli); aldrei lykilorð eða tóki í henni.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, fyrir veftréð og kanónísku tenglana.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>mynd</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>aldrei</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nei</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>engin fjartenging</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ekkert: commit-færslur verða áfram í möppunni</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ekkert: engu var breytt</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ekki ýtt</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>engu var breytt</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>síða</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>tókst</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open er óvirkt, svo ekki er hægt að ræsa verk hér. Notaðu ./console exp:static:build á netþjóninum.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>birting</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>birt</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ýting í bið</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>ýtt</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hafnað</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>afstæð</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>afturköllun</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>afturkallað</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>í gangi</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>aðeins mappan</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: skrifað í skrána CNAME. Beindu DNS lénsins á hýsinguna eins og hún útskýrir; HTTPS getur tekið smá tíma að fara í gang.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>já, ekki birt enn</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Verkflæði hugbúnaðarsafnsins birtir það. Smíðin skrifar verkflæðisskrána; hafðu möppuna tóma.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Eftir að áfangastaður hefur verið vistaður með GitHub-hugbúnaðarsafni og tóka eða GitHub App getur þetta skref búið til hugbúnaðarsafnið og kveikt á GitHub Pages. Annars skaltu fyrst búa til hugbúnaðarsafnið á GitHub; tómt safn dugar.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Grein eða GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Athuga DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Búa til hugbúnaðarsafnið ef það er ekki til</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Búðu til hugbúnaðarsafnið á GitHub og kveiktu á GitHub Pages í stillingum þess (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Býr til hugbúnaðarsafnið %repo þegar það vantar (ef beðið er um það), kveikir á GitHub Pages úr greininni eða úr GitHub Actions eins og vistað er og stillir eigið lén og HTTPS. Notar vistuðu stillingarnar: vistaðu breytingar fyrst.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Nánar á GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Sláðu fyrst inn eigið lén.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Hver ýting er fyrst borin saman við þessi takmörk.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Fyrir https://-vistfang á GitHub. Appið sem er sett upp fyrir þessa uppsetningu skráir sig inn; það þarf auðkenni uppsetningarinnar.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages birtir lokað hugbúnaðarsafn aðeins í greiddri áskrift.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: undirlén (www.example.com) þarf CNAME-færslu á &lt;owner&gt;.github.io; rótarlén (example.com) A-færslurnar %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Auðkenni uppsetningar GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Síðasta Pages-smíð</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Takmörk og skilmálar</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Nauðsynlegt fyrir GitHub Pages í ókeypis áskrift.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Á GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Aðeins með GitHub App: talan í lok vistfangs uppsetningar appsins á GitHub. Appið sjálft er stillt í staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Lokað</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Opið</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Vistaðu fyrst áfangastaðinn með GitHub-hugbúnaðarsafni og tóka eða GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Settu þessar færslur hjá þjónustuaðila lénsins:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Setja upp á GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS fyrir %domain vísar ekki enn á GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS fyrir %domain vísar á GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub-samþættingin er ekki í boði hér: %problem. Birting í greinina virkar samt; kveiktu á GitHub Pages í stillingum hugbúnaðarsafnsins.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub-skrefin eru ekki í boði fyrir þennan áfangastað: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Staða GitHub Pages er sýnd þegar tóki eða GitHub App er notað sem innskráningarupplýsingar.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Nota eigið lén</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Hvað á að velja: tóka, dreifingarlykil eða GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Með GitHub-hugbúnaðarsafni og tóka eða GitHub App getur leiðsagnarforritið búið til hugbúnaðarsafnið, kveikt á GitHub Pages og stillt lénið fyrir þig (skref 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>í smíðum</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>smíðað</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>úr GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>úr greininni %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ekkert enn</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>fannst ekki</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>slökkt</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>lokað</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>opið</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>í biðröð</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>óþekkt</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count á %pages síðu/síðum:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (og .br) við hlið hverrar textaskrár, fyrir vefþjóna sem bjóða þær.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Lítil síða fyrir hvert gamalt vistfang og samnefni síðu, svo gamlir tenglar haldi áfram að virka.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Skrifað alltaf þegar GitHub Actions afhendir vefinn.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX-auðkenni eins og CC-BY-4.0, eða textinn sjálfur.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Karfa</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Köll á netþjóninn</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Athugasemdir</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Eyðublöð sem safna upplýsingum</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Minna af auðu bili og engar athugasemdir í síðunum.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Leyfi efnisins</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Innskráning</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Smækka</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Önnur eyðublöð</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Forþjappa</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Tilvísunarsíður</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Tilvísunarsíður: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Leita</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Leitarskrá: %pages síður á %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Stílsnið og skriftur nefnd eftir hakkgildi efnis síns, svo vafrar megi geyma þau.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Breyttu síðurnar, nokkrum mínútum eftir síðustu breytingu (cronjob-hlutinn staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Leyfi efnisins, úr reitnum hér fyrir neðan.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Allur vefurinn, á tímum áætlunarinnar (cronjob-hlutinn staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Þessir hlutar síðnanna þurfa netþjón; hver fékk varaleið. Athugaðu þá áður en þú birtir.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Það sem virkar ekki kyrrstætt</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Hvað gagnageymslan er, fyrir þann sem opnar hana á vefþjóninum.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>sleppt</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>varatextinn</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>eyðublaðsendapunktur lifandi vefsins</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>lifandi vefurinn</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>leitarsíða afritsins</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Ekki tókst að senda eyðublaðið.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Takk: eyðublaðið var sent.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Eyðublaðið var ekki samþykkt: athugaðu það sem þú slóst inn og sendu aftur.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Fjarlægja tengla á síður sem afritið inniheldur ekki</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Fjarlægja tengla í stjórnborðið</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Texti þeirra stendur eftir. Myndir, eyðublöð og tenglar á aðra vefi eru aldrei fjarlægð.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Útgáfa</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Vefaðgangar til að birta</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Vefaðgangur</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Í rótinni</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Enginn vefaðgangur í rótinni: hver er í sinni möppu og rótin tengir í þá</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Vefaðgangar</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Hakaðu við einn vefaðgang, eða fleiri sem deila einum hýsli með URI-forskeyti sínu. Sá í rótinni er birtur þar, hinir í möppu forskeytis síns (/ger/); tenglar milli þeirra haldast í afritinu. Stjórnunarvefaðgangar eru aldrei í boði.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Kyrrstæð útgáfa %target mistókst á %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Kyrrstæð útgáfa %target tókst á %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site sendi þennan póst vegna þess að markmið kyrrstæðrar útgáfu %target biður um hann.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Dreifingin %deploy mistókst á %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Dreifingin %deploy bíður við hlið á %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Dreifingin %deploy tókst á %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Þessi póstur var sendur af %site vegna þess að migration.ini [RemoteSettings] Notify[] biður um hann.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Gagnagerðir (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Talið %time, aftur eftir %minutes mínútur</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Gagnagerð geymir og breytir einni tegund gilda í eigind klasa: textalínu, mynd, tengingu. Kerfiskjarninn leggur til flestar þeirra og viðbætur bæta fleiri við. Hér eru þær allar, hver leggur þær til og hversu mikið af efninu notar þær. Gagnagerð sem gagnagrunnurinn notar en ekkert skráir lengur brýtur efnið sem hefur hana.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Klasahópar</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Telja aftur núna í stað þess að nota talningu síðustu mínútna.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Telja aftur</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Yfirlit</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Skráð</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Í notkun</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ekki notað</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Viðbætur sem leggja til gagnagerðir</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Eigindir klasa</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Eigindir hlutar</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Ekki skráð</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Skráð, skrá vantar</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count gagnagerðir eru notaðar en ekki skráðar</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes eigindir klasa og %object_attributes eigindir hluta hafa gagnagerð sem engin viðbót eða stilling skráir. Ekki er hægt að sýna, breyta eða birta hluti þeirra. Virkjaðu viðbótina sem leggur til gagnagerðina, eða breyttu klasanum.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Sýna aðeins þessar</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Finna gagnagerð</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Auðkenni, heiti, PHP-klasi eða viðbót.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Sýna</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Allt</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Lagt til af</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Allir</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kerfiskjarni</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Engin gagnagerð passar við þessa síu.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Sýna allt</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Viðbót</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown af %count gagnagerðum, %used í notkun</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Gagnagrunnurinn hefur eigindir klasa eða hluta af þessum gagnagerðum, en content.ini telur enga þeirra upp, eða skrána vantar.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Gagnagerðir frá %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Gagnagerð</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-klasi og skrá</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klasar</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Hlutir</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Flögg</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ekkert</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Engin gagnagerð passar við leitina. Hreinsaðu leitina.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown af %count gagnagerðum sýndar</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Gagnagerðir sýndar: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Raða eftir %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Talið %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Allar gagnagerðir</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Hjálparsíða</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Þessi gagnagerð er notuð en ekki skráð</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Ekki er hægt að sýna, breyta eða birta hluti klasanna hér fyrir neðan meðan engin viðbót skráir gagnagerðina. Virkjaðu viðbótina sem leggur hana til og bættu henni við content.ini [DataTypeSettings] AvailableDataTypes[], eða breyttu klösunum.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini telur þessa gagnagerð upp, en engin gagnagerðamappa hefur skrána hennar. Ekkert notar hana; fjarlægðu hana úr AvailableDataTypes[] eða virkjaðu viðbót hennar.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Um þessa gagnagerð</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Auðkenni</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Heiti</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Viðbót: %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>enginn</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-klasi</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Skrá</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Í AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>já</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nei</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Dálkar gildis hennar</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Dálkar stillinga eigindar klasa</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Töflur</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Dálkarnir og töflurnar finnast með því að lesa kóða gagnagerðarinnar: til leiðbeiningar, ekki loforð.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Sniðmát</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Vefaðgangur</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Sniðmát</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Fannst í</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>þessi stjórnun</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>sjálfgefinn vefur</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Án yfirskrifta: yfirskriftarsniðmát sem passar við klasa eða eigind gengur framar þessum.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klasar sem nota hana (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Enginn klasi hefur eigind af þessari gagnagerð.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasi</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Eigindir</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Eigindir klasa (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Eigind</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Stillingar</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Kenni %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Áskilið</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Leitarhæft</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Þýðanlegt</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Safnar upplýsingum</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Nokkuð af efni sem notar hana</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Síðast breytt fyrst</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Breytt</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Hnútur %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Hver þýðing hefur sitt eigið gildi.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Leitin skráir gildi hennar í atriðaskrá.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Hún getur safnað upplýsingum frá gestum (eyðublöð).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Hægt er að raða listum eftir henni: röðunarlykill %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Raðanlegt</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Gildi hennar vísa á aðra hluti.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Tengsl</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Hægt er að fylla hana úr venjulegum texta (innflutningur, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Úr texta</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Hægt er að fylla hana úr skrá.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Úr skrá</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Stillingar eigindar klasa hennar fara í pakka.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pakkar</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Efni (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from til %to af %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Sía listann</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Allir klasar</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Hluti</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Tungumál</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eigandi</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Birt</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Snúa röðinni við</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ekkert atriði</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Á síðu</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Sýna %count atriði á síðu.</translation>
     </message>
 </context>
 </TS>

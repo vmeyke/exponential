@@ -7,6 +7,20 @@ check, the setup wizard, the kickstarter and the console install, pages at run t
 server, caches, and signing in. Every message quoted here is copied from the code that prints it, with the file named,
 so you can search for the exact text you see. Each row gives the cause and the fix.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../examples/web-servers/nginx.md), [LiteSpeed](../examples/web-servers/litespeed.md),
+> [Caddy](../examples/web-servers/caddy.md), [IIS](../examples/web-servers/iis.md), [Velocity](../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../help/hosting/panels/plesk.md), [cPanel](../help/hosting/panels/cpanel.md), [DirectAdmin](../help/hosting/panels/directadmin.md), [ISPConfig](../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../guides/litespeed-page-cache.md).
+
 [Contents](README.md) · Previous: [11. Upgrading](11-upgrading.md) · Next: [13. Security hardening for production](13-security-hardening.md)
 
 ## 12.1 Start here
@@ -133,7 +147,7 @@ machines, put the debug settings in the development machine's settings only; see
 | Symptom | Cause | Fix |
 |---|---|---|
 | Composer: PHP version does not satisfy `phpunit/phpunit` | The tags `v6.0.13` and `v6.0.14` pin PHPUnit `13.0.0` in `require-dev`, which needs PHP 8.4.1 or later. Without a lock file Composer resolves `require-dev` even with `--no-dev` | Current `composer.json` (6.0.15 line, `dev-main`) asks for `^9.6 \|\| ^10.5 \|\| ^11.5 \|\| ^12.0 \|\| ^13.4`, so Composer picks the PHPUnit that fits the PHP in use (9.6 on PHP 8.0, 13.4 on 8.4 and 8.5) and a plain `composer install --no-dev` works on PHP 8.0 to 8.5; nothing has to be removed. Only for `v6.0.13` or `v6.0.14` on PHP 8.1 to 8.3: `composer remove --dev --no-update --no-interaction phpunit/phpunit zetacomponents/php-generator` first. The test suite itself needs PHPUnit 10, so PHP 8.1. |
-| Composer: the root package requires PHP 8.1 on PHP 8.0 | Releases `v6.0.8` to `v6.0.14` require PHP 8.1 | Use PHP 8.1 or later, or the 6.0.15 line (`dev-main`), which accepts 8.0. |
+| Composer: the root package requires PHP 8.1 on PHP 8.0 | Releases `v6.0.8` to `v6.0.14` require PHP 8.1 | Use PHP 8.1 or later, or the 6.0.15 line (`~6.0.15`, or `dev-main`), which accepts 8.0. |
 | Composer: `se7enxweb/exponential-velocity` requires PHP 8.1 | A Velocity release older than 0.0.4.54 is asked for; those needed PHP 8.1 | Require `~0.0.4.54` or later (`composer require se7enxweb/exponential-velocity:~0.0.4.54`), which runs on PHP 8.0. |
 | Composer: `se7enxweb/exponential-velocity` requires `ext-sockets` | The PHP that Composer runs with has no `sockets` extension | Install it for that PHP (on Red Hat Enterprise Linux it comes with `php-common`); `php bin/php/console exp:velocity ext check` lists what is missing. Velocity is part of Exponential as of 6.0.15, so `composer install` needs it. |
 | Composer stops on a missing `ext-mongodb` | A package that needs the PHP `mongodb` extension was added, usually `mongodb/mongodb` for the MongoDB database handler (Exponential only suggests it; no required package needs the extension) | Install the extension for the PHP Composer runs with and for the web server's PHP. If you do not use MongoDB, remove that package again (`composer remove mongodb/mongodb`). |
@@ -201,13 +215,20 @@ All messages of this table are in `kernel/setup/steps/ezstep_installer.php`, `ez
 
 | Symptom or message | Cause | Fix |
 |---|---|---|
-| "The CreateSites step will modify the database and site settings." / "Re-run with --force to confirm you want to install the site package." | The kickstarter writes the database only with `--force` (`kernel/classes/expkickstarter.php`) | `php bin/php/console exp:kickstarter run --force`, after checking `DatabaseAction`. |
+| "The CreateSites step will modify the database and site settings." / "Re-run with --force to confirm you want to install the site package." | The kickstarter writes the database only with `--force` (`kernel/classes/expkickstarter.php`) | `php bin/php/console exp:kickstarter run --apply --force`, after checking `DatabaseAction`. |
 | "Unknown start step: ..." or "Unknown stop step: ..." | A step name that does not exist | `php bin/php/console exp:kickstarter run --list-steps` lists them. |
 | "This directory already holds an installation (settings/override/site.ini.append.php)." | `exp:install` found a configured database (`bin/php/install.php`) | Add `--force` only to replace that installation; `--dry-run` checks without changing anything. |
 | `kickstart.ini` values are ignored | Leading whitespace before a section or key (`kickstart.ini-dist`: "Remove all leading whitespaces"), a missing `Continue=true`, or stale cached values | Remove the whitespace; set `Continue=true`; delete `var/cache/ini/kickstart-*.php` (the `ini` and `run` subcommands do it themselves). |
 | The install went into the wrong database engine | A `DatabaseImplementation` left in `settings/override/site.ini.append.php` by an earlier install: the override directory wins over every siteaccess's settings | Set it to the new engine (or remove it) before installing again; check with `php bin/php/console exp:ini get site.ini/DatabaseSettings/DatabaseImplementation`. |
 | Everything in the database is gone after an install | `DatabaseAction=remove` (the default of `exp:install`, `--db-action=remove`) empties the named database first | Restore from backup. Point installs only at databases that hold nothing you need. |
 | The password you gave was replaced | Passwords shorter than `[UserSettings] MinPasswordLength` or well-known ones are replaced with a generated one | Read it from the summary or `var/log/initial-admin-password`. |
+| "FAIL: .htaccess exists and differs from .htaccess_root ...; nothing was changed." (or the same for `config.php`) | `exp:setup:htaccess` or `exp:setup:config` never replaces a file that has changes of its own | Read the diff it printed (`-v` shows all of it): rules or settings of yours are on the `-` lines. Keep the file, or run the command again with `--force --apply`; the old file is backed up to `var/backup/setup/<time>/` first. |
+| "Warning: config.php does not compile: syntax error, ... on line N." at the start of `./console`, or "FAIL: config.php does not compile (...); nothing was read or changed." | A syntax error in `config.php`. The site is down too: PHP stops on it in every request | The console still starts for `exp:setup:*` and `exp:config:*`. Fix the line it names, copy back the last backup from `var/backup/config/` or `var/backup/setup/`, or start again from the template with `./console exp:setup:config --force --apply` (the broken file is backed up first). |
+| "FAIL: cannot write a temporary file in /var/www/example: nothing was changed" | The user running the command cannot write to the installation directory | Run it as the owner of the installation (`sudo -u <owner> ./console ...`) or as root with `--allow-root-user`. |
+| "FAIL: --owner=www-data: only root can give a file to another user" | `--owner` was given to a command not run as root | Leave `--owner` off, or run as root with `--allow-root-user`. |
+| "FAIL: --apply and --dry-run exclude each other; without --apply nothing is written" (exit 2) | Both options were given | Leave `--dry-run` off to write, or `--apply` off to look. |
+
+The whole list, with the output of each case: [Setting up .htaccess and config.php from the console](../guides/setup-files-from-the-console.md#9-when-something-goes-wrong).
 
 ## 12.9 Pages and errors at run time
 
@@ -219,7 +240,8 @@ All messages of this table are in `kernel/setup/steps/ezstep_installer.php`, `ez
 | "Down for maintenance" (HTTP 503) | Maintenance mode is on | `php bin/php/maintenance.php status`; `php bin/php/maintenance.php off` when the work is done. |
 | "This form has expired" (HTTP 403) | The form's token was missing or wrong: the page was open a long time, the session ended, or the form came from another page | Reload the form and send it again. Nothing was saved. See [Form expired page](../features/6.0/form-expired-page.md). |
 | A blank page, or 500 with nothing in `error.log` | PHP failed before Exponential could log: a syntax error, a missing PHP extension, memory exhausted | Read the web server's or PHP-FPM's error log; run `php -l` on a changed file; check `php -v` and `vendor/`. |
-| 404 for every page under Apache | `.htaccess` is not read (`AllowOverride All` missing) or `mod_rewrite` is off | `cp .htaccess_root .htaccess`; allow overrides; enable `mod_rewrite`. |
+| 404 for every page under Apache | `.htaccess` is not read (`AllowOverride All` missing) or `mod_rewrite` is off | `./console exp:setup:htaccess --apply` (or `cp .htaccess_root .htaccess`); allow overrides; enable `mod_rewrite`. `./console exp:setup:status` says whether `.htaccess` is there and which template it is a copy of. |
+| HTTP 500 for every page right after a new `.htaccess` | The server lacks a module the rules use (`mod_rewrite`, or `mod_headers` for the SVG rules), or `AllowOverride` does not allow them | Put the backup back (`var/backup/setup/<time>/.htaccess`) and read the Apache error log. |
 | An old page appears every few reloads | The browser's service worker replays a page it cached (the site's worker is `/index.js`, loaded by `/sw.js`) | Keep `/sw.js` in place; a reload after the new worker activates (cache version `exp-nav-v5`) fixes it, or clear the site data in the browser. See [Behaviour changes of 16 to 30 September 2026](../bc/6.0/behaviour-changes-2026-09b.md). |
 | The command line prints "An unexpected error has occurred. Please contact the webmaster." | An uncaught error in a script | Run it again with `-d all`; read `var/log/error.log`. |
 
@@ -242,7 +264,7 @@ All messages of this table are in `kernel/setup/steps/ezstep_installer.php`, `ez
 
 | Symptom or message | Cause | Fix |
 |---|---|---|
-| `velocity: no server script at ...` | The `qbix` engine needs the Velocity package, which is not installed | `composer install` (it is required), or `composer require se7enxweb/exponential-velocity:~0.0.4.55` (PHP 8.0+); or use `--engine=php` for development. |
+| `velocity: no server script at ...` | The `qbix` engine needs the Velocity package, which is not installed | `composer install` (it is required), or `composer require se7enxweb/exponential-velocity:~0.0.4.57` (PHP 8.0+); or use `--engine=php` for development. |
 | `velocity: already running` | A server of that engine runs already | `php bin/php/console exp:velocity status`; `restart` to apply changes. |
 | `velocity: port ... is already in use by another process (another engine? exp:velocity stop --engine=qbix\|frankenphp)` | Another program or engine holds the port (php and frankenphp engines) | Stop the other engine, or change `Port`/`HTTPSPort` with `exp:velocity config set`. |
 | `velocity: did not start; see <log>` (the `php` and `frankenphp` engines) | The server failed at start-up | Read the named log. |
@@ -269,13 +291,14 @@ Clear the smallest cache that covers the change (`php bin/php/ezcache.php --list
 | a PHP class, under Velocity | `php bin/php/console exp:velocity deploy` (or `restart`) |
 | unsure | `php bin/php/ezcache.php --clear-all` |
 
-Under Velocity also clear its response cache, **after** the restart: `php bin/php/console exp:velocity cache clear`.
+Under Velocity also clear its response cache, **after** the restart: `php bin/php/console exp:velocity cache clear --apply`.
 A page rendered by the old code between a cache clear and the restart is cached again and served as if the change had
 not worked. More in [Cache console](../bc/6.0/cache-console.md) and [Operating a site](../guides/operating-a-site.md).
 
 | Symptom | Cause | Fix |
 |---|---|---|
 | A new template file renders an empty area (HTTP 200) | The template override cache predates the file | `--clear-id=template-override`. |
+| A change to `config.php` (`exp:config:set`, or by hand) has no effect | A persistent server reads `config.php` once per worker; PHP-FPM with `opcache.validate_timestamps=0` keeps the old compiled file | Restart Velocity (`./console exp:velocity restart`) or the FrankenPHP worker; reload PHP-FPM. Check the value with `./console exp:config:get <NAME>`. |
 | `Class ... not found` after adding or renaming a class | The class maps are stale | `php bin/php/ezpgenerateautoloads.php -e` (`-k` for the kernel), then clear the caches; under Velocity restart it. |
 | "The referenced parameter '...' is not registered." from `ezpgenerateautoloads.php`, exit status 1 | An option the generator does not know; nothing was generated | Correct the option (`--help` lists them). Older releases printed their usage and exited with 0 on an unknown option, `--allow-root-user` included, so a deployment script that ran them may never have regenerated anything. |
 | "The audit index classes are not in the autoload array: run bin/php/ezpgenerateautoloads.php -k first." | `createaudittables.php` ran before the kernel class map was regenerated | Run `php bin/php/ezpgenerateautoloads.php -k`, then the script again. |
@@ -318,7 +341,8 @@ In this repository:
 - [Maintenance mode](../features/6.0/maintenance-mode.md), [Form expired page](../features/6.0/form-expired-page.md),
   [Reset a user password](../features/6.0/reset-user-password.md).
 - [The Exp Debug bar](../features/6.0/exp-debug-bar.md), [debug bar reference](../bc/6.0/debug-bar.md),
-  [Settings per environment](../features/6.0/environment-settings.md), [exp:ini](../features/6.0/exp-ini-command.md).
+  [Settings per environment](../features/6.0/environment-settings.md), [exp:ini](../features/6.0/exp-ini-command.md),
+  [Setting up .htaccess and config.php from the console](../guides/setup-files-from-the-console.md).
 - [Cache console](../bc/6.0/cache-console.md), [Operating a site](../guides/operating-a-site.md),
   [Deploying](../guides/deploying.md).
 - [SQLite database support](../features/6.0/sqlite-database.md), [SQLite transactions](../bc/6.0/sqlite-transactions.md),

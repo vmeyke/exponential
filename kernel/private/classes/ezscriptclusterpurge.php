@@ -2,7 +2,7 @@
 /**
  * File containing the eZScriptClusterPurge class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -18,7 +18,7 @@
  * items, and ended up with an almost constant usage. No particular setting
  * should therefore be required to run it.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  *
@@ -91,7 +91,8 @@ class eZScriptClusterPurge
             self::monitor( "iteration start" );
             foreach( $filesList as $file )
             {
-                $cli->output( "- $file" );
+                $cli->output( ( $this->optDryRun ? "- would purge " : "- " ) . $file );
+                $this->listed++;
                 if ( $this->optDryRun == false )
                 {
                     self::monitor( "purge" );
@@ -203,6 +204,12 @@ class eZScriptClusterPurge
     }
 
     private $options = array();
+
+    /**
+     * The number of expired files run() listed (and, outside a dry run, purged).
+     * @var int
+     */
+    public $listed = 0;
 
     const LOG_FILE = 'clusterpurge.log';
 }

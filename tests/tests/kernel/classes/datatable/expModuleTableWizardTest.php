@@ -20,7 +20,7 @@
  *  MW-09 - the generated class on a SQLite connection: the table from the wizard's schema, fromInput() typing and its
  *          problems (required, unique, number, JSON, length), store, fetch, toArray(), the relation methods
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -73,6 +73,11 @@ class expModuleTableWizardTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 'shop_orders_row', $s['table'] );
         $this->assertSame( 'shopOrdersRow', $s['class'] );
         $this->assertSame( 'Shop orders row', $s['title'] );
+        $this->assertSame( 'The data table shop_orders_row, its administration and its JSON endpoint.', $s['summary'],
+                           'named after the table, never the title' );
+        $s2 = expModuleTableWizard::settings( array( 'name' => 'x', 'table' => 'books', 'title' => 'Data tables demo: books' ) );
+        $this->assertSame( 'The data table books, its administration and its JSON endpoint.', $s2['summary'] );
+        $this->assertSame( 'Own words.', expModuleTableWizard::settings( array( 'name' => 'x', 'summary' => 'Own words.' ) )['summary'] );
         $this->assertSame( '', $s['connection'], 'no connection is the site\'s database' );
         $this->assertSame( 'list', $s['source'] );
         $this->assertSame( 'none', $s['content'] );

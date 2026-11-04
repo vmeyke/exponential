@@ -10,13 +10,15 @@
  *
  * No installation database: an SQLite database in memory.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group lib
  * @group ezdb
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezdb')]
 class eZSQLite3DBQueryCountTest extends PHPUnit\Framework\TestCase
 {
     /** @var array the debug globals before the test */

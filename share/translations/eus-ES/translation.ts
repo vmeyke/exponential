@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Orri hau bakarrik bilatzen da: %from - %to, guztira %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Nukleoaren eta hedapenen datu-mota guztiak, eta klaseek eta edukiak nola erabiltzen dituzten.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datu-motak</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Sistema-orriak ere laster-marka daitezke: ireki orria (Konfigurazioa, ikuskaritza-erregistroa, erabiltzaileen zerrenda bat ...) eta aukeratu gainean "Egin laster-marka orri honetarako". Laster-marka horiek engranaje-ikono bat dute.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ezin duzu orri hau hemen ireki jada. Kendu laster-marka edo eskatu sarbidea administratzaile bati.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Joan lehenengo orrira</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Bestelakoak</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Azken 7 egunak</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Tarte pertsonalizatua</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Hitz guztiak</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Edozein hitz</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Esaldi zehatza</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Garrantzia</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Izena A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Izena Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Aldatua, berrienak lehenengo</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Aldatua, zaharrenak lehenengo</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Argitaratua, berrienak lehenengo</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Argitaratua, zaharrenak lehenengo</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Aldatua</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Iragazkiak</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Erakutsi iragazkiak</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Ezkutatu iragazkiak</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Berrezarri</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Aplikatu</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Hitzak</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Eduki mota</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Erakutsi gehiago (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Aukeratu eduki mota bat haren atributuetako batean bilatzeko.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Atala</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Nondik</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Arte</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Hasiera-data ez da baliozko data.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Amaiera-data ez da baliozko data.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Jabea</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Erabiltzaile IDa, saio-hasierako izena edo helbide elektronikoa.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Ez da erabiltzailerik aurkitu «%input» bilaketarako.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Hizkuntza</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Edozein hizkuntza</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Kokapena</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count kokapen</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Emaitzak orrialdeko</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>«%text» bilaketaren emaitzak (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Emaitzak (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Ordenatu honen arabera</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Ordenatu</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Iragazki aktiboak</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Kendu iragazki hau</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Edo aukeratu iragazkiak eta aplikatu, haiekin bat datorren edukia zerrendatzeko.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Iragazkiek bilaketa murrizten dute hitzak idatzi ondoren.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Ez da emaitzarik aurkitu «%text» bilaketarako.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Ez da emaitzarik aurkitu.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Kendu goiko iragazkietako bat.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Itzulpenak</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ekintzak</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Editatu %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editatu</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Konfigurazioa &gt; Cron lanak</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Cron lanen zatirik ez da oraindik exekutatu: lanen ilara, inportazioak, jakinarazpenak eta bilaketa-indizea zain daude. Exekutatu php bin/php/installcrontab.php --add --apply, edo gehitu --show aukerak erakusten dituen lerroak crontab fitxategira.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Exponential-ekin batera datozen jatorrizko egileen eta hirugarrenen softwarearen copyright oharrak iturburu-fitxategietan eta LICENSE fitxategian gordetzen dira, lizentziak eskatzen duen bezala.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Jarraian, 7x erakundeak erabil dezan eZ Systems Contributor Licensing Agreement-aren baldintzen arabera beren lana lizentziatu duten Exponential-en laguntzaileen zerrenda dago. Akordio honek onartzen duen bezala, 7x erakundeak ekarpen bakoitza ekarpena sartuta dagoen fitxategiaren lizentzia berberarekin birbanatzen du. Zerrendak laguntzaile bakoitza, aukerako harremanetarako datuak eta ekarpena egin duten fitxategiak edo lanean parte hartu duten fitxategiak adierazten ditu.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential-en eta hura sortu zen softwarean egindako lanagatik aitortutako laguntzaileak, lagundu zuten fitxategiekin. Hau aitorpena da, ez copyright oharra: Exponential-i egindako ekarpenak Exponential Foundation-i eta 7x-i lagatzen zaizkie Contributor Licensing Agreement-en arabera.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Oharra: paketeak ez dira desinstalatuko.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Probatu Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Egin zaitez Exponential Community-ko kide, partekatu eta lagundu&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; eta beste batzuk.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; bidez martxan. Informazio gehiagorako ikusi &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; eta beste batzuk.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Informazio gehiagorako ikusi &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; eta beste batzuk.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Probatu Exponential (7x-en eskutik)&lt;/a&gt; - &lt;a href="%share_link"&gt;Egin zaitez Exponential Community-ko kide, jaso laguntza eta lagundu&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; eta beste batzuk.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Oharra: paketeak ez dira desinstalatuko.</translation>
     <message>
         <source>Help center</source>
         <translation>Laguntza-zentroa</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Edukia</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Dokumentu-orriak</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Erabiltzaileak</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Eduki-klaseak</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administrazioa</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>%number. orria</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Ikusi emaitza guztiak</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count emaitza</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Emaitza bat</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count iradokizun</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Ez dago iradokizunik</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Ezin izan dira iradokizunak kargatu.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Iradokizunak</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Oharra: paketeak ez dira desinstalatuko.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Instalazio hau demo publikoa da: edonork jakin dezake bere administratzailearen pasahitza, eta administratzaileen pasahitzak ezin dira aldatu edo berrezarri. Ez sartu hemen ezer pribaturik.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Zure gailuak</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Segurtasun-jarduera</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Oharra: paketeak ez dira desinstalatuko.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Gidak, bilaketa eta errore bat nola jakinarazi.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Azken edukiak</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Eduki berrienak, berrikusteko atxikita dagoena eta hautapen baten gaineko ekintzak.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Oharra: paketeak ez dira desinstalatuko.</translation>
         <source>Synchronisations</source>
         <translation>Sinkronizazioak</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL APIa: bere amaiera-puntua, eskema eta kontsultak probatzeko proba-gunea.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrazioak</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Instalazioaren aldaketak fitxategi gisa gordeta: haien egoera, exekuzioak, exekutatu eta desegin.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Azken edukiak</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Eduki berrienak, berrikusteko atxikita dagoena eta hautapen baten gaineko ekintzak.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Argitaratu gune baten kopia estatiko bat GitHub Pages-en edo edozein git zerbitzaritan.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Argitalpen estatikoa</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datu-motak</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Nukleoaren eta hedapenen datu-mota guztiak, eta klaseek eta edukiak nola erabiltzen dituzten.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Oharra: paketeak ez dira desinstalatuko.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Inork erabiltzen ez dituen edo begirada bat behar duten kontuak; desgaitu, desblokeatu edo esportatu.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Erabiltzaileen auditoretza-erregistroa</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Nork aldatu duen, saioa hasi duen edo baztertua izan den, kontuka; iragazi eta esportatu.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Saio-hasieren txostena</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Nork duen saioa hasita, saio-hasierak eta hutsegiteak egunez egun; erabiltzaile baten saioa nonahi amaitzea.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Oharra: paketeak ez dira desinstalatuko.</translation>
         <source>%n hours ago</source>
         <translation>duela %n ordu</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL APIaren gordetako kontsulten erantzunak eta bere eskemaren eduki-klaseak.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Argitaratu kopia estatiko bat GitHub Pages-en edo edozein git zerbitzaritan</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Argitalpen estatikoa</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Cache estatikoak zerbitzari honetatik zerbitzatzen ditu orriak. Gune baten kopia estatiko bat beste nonbait argitaratzeko, GitHub Pages-en edo edozein git zerbitzaritan, erabili argitalpen estatikoa.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Oharra: paketeak ez dira desinstalatuko.</translation>
     <message>
         <source>last purge</source>
         <translation>azken garbiketa</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Idazketek ezin izan zuten egoeraren blokeoa hartu (azken aldiz %date): bakoitzak cachean gordetako emaitza guztiak zaharkitu zituen. %file idazgarria izan behar da gunea exekutatzen den erabiltzaile guztientzat; NFSn NFSv4 edo lockd behar du.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Oharra: paketeak ez dira desinstalatuko.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP kudeatzailearen iraungitako saioak PHPk berak kentzen ditu (session.gc_maxlifetime), ez orri honek ezta session_gc cron-lanaren zatiak ere.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Erabiltzaile guztien saio irekiak saio-hasieren txostenean zerrendatzen dira, eta bertan amai daitezke; txostenak edozein saio-kudeatzailerekin funtzionatzen du.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Ireki saio-hasieren txostena</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ aktibatzeko.</translation>
     <message>
         <source>None yet</source>
         <translation>Oraindik bat ere ez</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Segurtasun-jarduera</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Zure azken saio-hasierak, huts egindako saiakerak eta pasahitzean, helbide elektronikoan eta bi urratseko saio-hasieran egindako aldaketak.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Kontu honen azken saio-hasierak, huts egindako saiakerak eta segurtasun-aldaketak.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Berrikusi jarduera</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Huts egindako saio-hasierak: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Onartzaileari iruzkinak bidali nahi badizkiozu edo egoera ikusi nahi baduzu, era
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Saioa hasi ondoren, erabiltzaileak pasahitz berri bat aukeratu behar du beste ezer egin aurretik. Erabili norbaiti behin-behineko pasahitza ematen diozunean.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Aukeratu lehendik dagoen irudi bat</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Aukeratzen duzun objektuaren irudi-fitxategia eremu honetara kopiatzen da. Beste objektua ez da aldatzen.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>«%name» objektuaren irudia eremu honetara kopiatu da.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Arakatu irudi bat bilatzeko</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Bilatu irudiak izenaren arabera</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Bilatu</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Erabili «%name» objektuaren irudia</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Erabili irudi hau</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ez dago zure bilaketarekin bat datorren irudirik.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Xehetasun gehiagorako, ikusi eskakizunen orria.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab ez da idatzi (%reason). Gehitu lerro hauek gunea exekutatzen duen erabiltzailearen crontab-ean; bestela, ilara, inportazioak, jakinarazpenak eta bilaketa-indizea ez dira inoiz exekutatuko:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Berriro instalatzeko, erabili kickstarter-a (%file, gero php bin/php/kickstarter.php run --apply) edo egin instalazio berri bat.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ aktibatzeko.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore paketatzaile publikoaren cachea</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL cachea (erantzunak eta eskemaren klaseak)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ aktibatzeko.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name klasearen kopia</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datu-motak</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>%string datu-mota</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ aktibatzeko.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Ezin izan da SVG irudia irakurri, edo ez dago bertan modu seguruan erakus daitekeen ezer.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Ezin izan da irudia kopiatu. Saiatu berriro edo jarri harremanetan gunearen administratzailearekin.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Hautatutako objektua ez dago edo ez duzu irakurtzeko baimenik.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Hautatutako objektuak ez du irudirik.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Ezin izan da hautatutako objektuaren irudi-fitxategia irakurri.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Hautatutako objektuaren irudia eremu honek onartzen duena baino handiagoa da: %1 byte.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ aktibatzeko.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Laster-markaren izena "%name" izatera aldatu da.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Orri hau desgaituta dago gune-sarbide honetan (%siteaccess). Ireki laster-marka orri hau duen gune-sarbide batean.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Orri honen modulua ez dago instalatuta edo gaituta hemen.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Orri hau ez dago jada: bere moduluak ez du halako ikuspegirik.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Zure roletako batek ere ez dizu orri hau irekitzen uzten.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ezin duzu gune-sarbide hau erabili.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Ezin duzu irakurri orri honek erakusten duen edukia.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Mota honetako orriei ezin zaie laster-markarik egin: inprimaki baten gainean bakarrik jarduten dute, edo une bateko orriak dira.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Orri honen helbidea falta da.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Ezin da orri hau orain ireki.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Posta-garraioak %count mezu errefusatu ditu azken exekuzioan. Egiaztatu posta-zerbitzaria eta site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Zain dauden gertaerak: %count, eta ez dago jakinarazpenen cron lanaren exekuziorik erregistratuta. Gehitu &quot;frequent&quot; cron lan-zatia crontab fitxategira, edo exekutatu exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Hautatu beste gune edo atal bat nodo-hautatzailearekin</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Sistemaren administratzaileak soilik alda dezake jabea: exekutatu ./console exp:content-check --fix-permissions --apply root gisa.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
     <message>
         <source>empty</source>
         <translation>hutsik</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Sinadura-gakoak urte bat baino gehiago du: aldatu exp:audit key rotate --apply komandoarekin.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
         <source>Share of page time</source>
         <translation>Orriaren denboraren zatia</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>sortze oso bat eskatu da</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>orri-cacheak ez zuen orria (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>orri-cacheak ez du erantzun</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Sortua</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Nukleoak sortua: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Orri-cachetik zerbitzatua, %ms ms-tan. %render ms-ko sortze batek gorde zuen orria %stored orduan, duela %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Sortu orain</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Itzuli cacheko ikuspegira</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored orduko sortzetik (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Eskaera hau: orri-cachetik zerbitzatua, %ms ms-tan.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Erabiltzailea</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Erabiltzailearen IDa</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Cache profila</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Ikuspegi hau</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Ikuspegi-cachea</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>erabiltzaile bakoitzeko (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Erabiltzailearen cache profila: profil bera duten erabiltzaileek ikuspegi-cachearen fitxategiak partekatzen dituzte</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>bai</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ez</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Hasi saioa</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Saioa hasita</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Saioa</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Edukiaren ikuspegi-cachearen gakoaren zati erabiltzailearen araberakoak, gakoak hartzen dituen bezala, orri honen ViewCacheTweaks arabera. Profil bera duten erabiltzaileek ikuspegien cache-fitxategiak partekatzen dituzte, ikuspegiaren beraren zatiak desberdinak ez badira (hobespenak, entzuleen gakoak): horiek beren profila dute, orri honetarako soilik.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profila</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Ikuspegi hau (%node nodoa)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: saioa hasitako erabiltzaile bakoitzak bere cache-fitxategiak ditu.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Indarrean dauden ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Zatia</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Balioa</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ez dago erabiltzailearen menpeko zatirik (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ikuspegi hau</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopiatu testu gisa</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rolak</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Ezin izan da rol-esleipenik irakurri.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Rolaren IDa</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rola</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Muga</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Esleituta</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>erabiltzaileari</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>%name taldea (%id objektua)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kopiatuta</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Ezin izan da kopiatu.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>entzule batek kanpoan utzia</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Bisitari anonimoak</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>zurearen berdina</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>desberdina</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Bisitari anonimoek ViewCacheTweaks berberekin, hobespen lehenetsiekin, ikuspegiaren zatirik gabe jasotzen duten profila: saioa irakurtzen duen entzuleari ezin zaizkio eskatu.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Hobespenak</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ez dago erabiltzailearen hobespenen menpeko ikuspegi-modurik (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Ikuspegi-modu hauen ikuspegiak menpe dauden hobespenak (CachedViewPreferences), erabiltzailearen balioarekin edo lehenetsiarekin. Profilean userpreferences gisa daude, ikuspegi-modu guztienak batera.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Ikusteko modua</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Hobespena</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Lehenetsia</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Gidalerroak</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Erakutsi rolen politikak (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Politikak zerbitzaritik kargatzen dira atal hau irekitzean, orrialdez orrialde, eta moduluaren eta funtzioaren arabera iragazi daitezke.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funtzioa</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Modulu guztiak</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Funtzio guztiak</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Mugak</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Erakutsi gehiago</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Rol hauek ez dute politikarik.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ez dago iragazkiarekin bat datorren politikarik.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching politika (guztira %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Irekitzean kargatzen da.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rola, murriztapena</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Bilatu politikak</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Kargatu gehiago</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modulua/funtzioa</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Rol guztiak (%count politika)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ez dago bat datorren politikarik.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched politikatik %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Erantzunik ez</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>mozorrotua</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Erakutsi azalpenak</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Ezkutatu azalpenak</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ireki</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Ireki guztiak</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Itxi guztiak</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Gakoa edo balioa</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Bilatu saioan</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Mota</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count gehiago</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>erakusteko sakonegi habiaratua</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>moztua, guztira %count karaktere</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Hasita</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Cookiearen izena</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Saioaren IDa</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Kudeatzailea</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Gordetzeko bidea</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHPren balio lehenetsia</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Iraupena (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookiea</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>iraupena %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Zure PHP saioa, atala ireki zenean zegoen bezala, inoiz ez beste bat. Sekretuak diruditen gakoen balioak (tokenak, hashak, pasahitzak) mozorrotuta daude (debugbar.ini SessionMask[]); gainerako guztia gordeta dagoen bezala erakusten da, datu pertsonalak ere bai.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count gako, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>handia</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Saioa hutsik dago.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Ez da saiorik hasi eskaera honetarako.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>%name hedapena</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Nukleoa eta beste batzuk</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Ez dira sarrera guztiak erakusten: saioak hemen zerrenda daitezkeenak baino gehiago ditu.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count gako ez dira zerrendatzen.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Markoa</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Token baten itxura duten balioak (JSON Web Token bat, Authorization goiburu baten kredentzialak, gako pribatu bat, testu hamaseitar edo ausazko luze bat) ere mozorrotzen dira, haien gakoak edozein izen duela ere (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Gakoak sekretu baten itxura du (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Balioak token baten itxura du.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Mozorrotutako gako baten azpian.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Saioa testu gisa, taula bezala mozorrotuta.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Saioa %size baino handiagoa da (debugbar.ini SessionWarnBytes): erabiltzaile honen eskaera bakoitzak saio osoa irakurtzen du, eta aldatu denean idatzi egiten du.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHPk saio hau fitxategietan gordetzen du eta fitxategia blokeatzen du eskaera osoan zehar: erabiltzaile beraren eskaerek (hainbat fitxa, AJAX deiak) elkarri itxaroten diote.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Mantendu irekita</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size baino handiagoa (debugbar.ini SessionWarnBytes): erabiltzaile honen eskaera bakoitzak saio osoa irakurtzen du.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count blokeetatik %hits cachetik irakurriak</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ez da txantiloirik errendatu (ikuspegi-cachetik irakurritako ikuspegi batek ez du bat ere errendatzen).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Rol-esleipenak</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rolak eta gidalerroak</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>bisitari anonimoena ez bezalakoa</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>bisitari anonimoena bezalakoa</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
     <message>
         <source>not sent</source>
         <translation>bidali gabe</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Jakinarazpenen cron lanak hemen erregistratzen du bere exekuzio bakoitza. Gehitu frequent zatia crontab fitxategira, edo exekutatu exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Erabili kontsola: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Gai hau ez dago argitaratuta; irakurleek ez dute ikusten.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrazioak</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Instalazioaren aldaketak fitxategi gisa gordeta: haien egoera, exekuzioak, exekutatu eta desegin.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Argitaratu gune baten kopia estatiko bat GitHub Pages-en edo edozein git zerbitzaritan.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Argitalpen estatikoa</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Berrikuspenean</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Irakurleek orri hau ikusten dute.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Irakurleentzat ezkutatuta norbaitek argitaratu arte.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Orria berrikuspenean dago orain. Irakurleentzat ezkutatuta dago argitaratu arte.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Orria argitaratuta dago: irakurleek orain ikusten dute.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Orria berriro zirriborroa da. Irakurleentzat ezkutatuta dago berrikusi eta argitaratu arte.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Argitaratu orain</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>%role rola duen eta bertsio hau idatzi ez duen erabiltzaile batek bakarrik argitara dezake.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Argitaratzeko zain dauden laguntza-gaiak</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Irakurleei ezkutatzen die berriro argitaratu arte.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Ondoren berrikusle batek egiaztatuko du. Irakurleek oraindik ez dute ikusten.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Irakurleek berehala ikusten dute.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Berrikuspenetik ateratzen du lan gehiago egiteko. Irakurleek ez dute ikusten.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Orri hau irakurleei ezkutatu?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Orri hau zirriborrora itzuli?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Irakurleek ez dute gehiago %title ikusten norbaitek berriro argitaratu arte.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title zirriborrora itzultzen da lan gehiago egiteko. Irakurleek oraindik ez dute ikusten, eta berrikuspen berri bat behar du argitaratu aurretik.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Utzi</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Gai hauek berrikuspenean daude. Irakurleek ikusiko dituzte uneko bertsioa idatzi ez duen norbaitek argitaratzen dituenean.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
         <source>None.</source>
         <translation>Bat ere ez.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>autentifikazio-aplikazio batekin</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>posta elektronikoz bidalitako kode batekin</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>berreskuratze-kode batekin</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>sarbide-gako batekin</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>kanpoko kontu batekin</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Segurtasun-jarduera</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Bere sare gisa erakusten da; helbidea gunearen datuen babeserako ezarpenek diotenaren arabera gordetzen da.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Erregistratu gabe</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Kokapena</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>gutxi gorabehera</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
         <source>Manage devices</source>
         <translation>Kudeatu gailuak</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>autentifikazio-aplikazio batekin</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>posta elektronikoz bidalitako kode batekin</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>berreskuratze-kode batekin</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>sarbide-gako batekin</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>kanpoko kontu batekin</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Segurtasun-jarduera</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Erregistratu gabe</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Kokapena</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>gutxi gorabehera</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
         <source>View the sessions of this user</source>
         <translation>Ikusi erabiltzaile honen saioak</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Zure %login kontua, %site gunean, azkenaldian saioa hasi ez duen leku batetik saioa hasteko erabili berri da:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Gutxi gorabeherako kokapena</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser, %os sisteman</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Saio-hasieren txostena</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Sarbide-gakoa ezin izan da egiaztatu. Saiatu berriro.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Sarbide-gakoekin soilik saioa hasten duten kontuek ezin dute hemen pasahitzik erabili: aukeratu &quot;Hasi saioa sarbide-gako batekin&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login erabiltzailearen sarbide-gakoak</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Kontu honek saioa hasteko erabiltzen dituen sarbide-gakoak. Indargabetu galdutako edo lapurtutako gailu batean dagoena: ezin izango du gehiago saioa hasi. Jabeak berak gehitzen ditu berriak.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Zure kontuak sarbide-gako bat behar du</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Gehitu sarbide-gako bat zure kontuari</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Gehitu sarbide-gako bat jarraitzeko. Ondoren, harekin hasiko duzu saioa, pasahitzarekin soilik hasi beharrean.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Sarbide-gako batekin saioa hastea pasahitzarekin baino azkarragoa eta seguruagoa da. Gehitu bat orain, edo jarraitu hura gabe.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Orain ez</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>&quot;%name&quot; sarbide-gakoa indargabetu?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ezin izango du gehiago kontu honetan saioa hasi. Azkena bazen, jabeak pasahitzarekin hasiko du saioa, edo zuk berri bat ezarriko duzu.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Indargabetu sarbide-gakoa</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Indargabetu</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Kontu honek ez du sarbide-gakorik.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Autentifikatzailea</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Ezezaguna</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Zure azken sarbide-gakoa: gehitu beste bat kendu aurretik.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Kontu honek sarbide-gakoekin soilik hasten du saioa (sarbide-gakoen gidalerroa): bat ere geratzen ez bada, bere pasahitzarekin hasiko du saioa berriro.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Hau da zure azken sarbide-gakoa, eta zure kontuak ezin du saioa hasi hura gabe. Gehitu lehenik beste sarbide-gako bat.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>&quot;%name&quot; sarbide-gakoa indargabetu da. Ezin du gehiago kontu honetan saioa hasi.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
         <source>Code from your authenticator app</source>
         <translation>Zure autentifikazio-aplikazioaren kodea</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Datuak betiko ezabatzera edo erregistro bat hustera zoaz.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Zure pasahitza eta sarbide-gako bat</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Zure pasahitza eta zure autentifikazio-aplikazioko kode bat</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Edo:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Nabigatzaile honek ezin ditu sarbide-gakoak erabili. Erabili beste modu bat edo beste nabigatzaile bat.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Jarraitzen duzunean, nabigatzaileak zure sarbide-gakoetako bat eskatuko dizu.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Jarraitu sarbide-gako batekin</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
     <message>
         <source>Setup</source>
         <translation>Konfigurazioa</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Zure pasahitza, helbide elektronikoa, sarbide-gakoak, bi urratseko saio-hasiera, berreskuratze-kodeak edo API gakoak aldatzea, eta zure beste gailuetako saioak amaitzea.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Erabiltzaileak, haien pasahitzak eta gailuak sortzea eta editatzea, kontuaren ezarpenak, erabiltzaile-kontu berriak onartzea edo ukatzea, rolak esleitzea eta gidalerroak editatzea.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Datuak ezabatzea</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Zakarrontzia hustea, bertatik elementuak kentzea eta hainbat elementu batera kentzea.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Edukia kentzea, argitaratzea eta gordetzea</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Edukia kentzea (zakarrontzira ere bai), argitaratzea eta zirriborro bat gordetzea; inprimakia bidaltzean galdetzen da. Lehenespenez desgaituta.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Ekintza sentibera baten aurretik, saioa hasita duen erabiltzaileak berriro berresten du nor den: bere pasahitzarekin eta sarbide-gako batekin, edo sarbide-gakorik gabe, bere pasahitzarekin eta bere autentifikazio-aplikazioaren kodearekin. Web orriek bakarrik galdetzen dute: REST interfazeak, SOAP-ek, WebDAV-ek, expservices saio-hasierak eta komando-lerroak ez dute inoiz galdetzen.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Ezarpenak non aplikatzen diren</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Honetarako ezarpenak</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Gune-sarbide guztiak</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>%name gune-sarbidea</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ireki</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Nori galdetzen zaion: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Markatu erabiltzaile-taldeak haien kideei soilik galdetzeko (editoreei, adibidez). Bat ere markatu gabe: erabiltzaile guztiei.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php fitxategian gordetzen da, gune-sarbide guztietarako. Gordetzean, zu zarela berresteko eskatuko zaizu.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php fitxategian gordetzen da. settings/override-ko balio batek lehentasuna du. Gordetzean, zu zarela berresteko eskatuko zaizu.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Nodoaren klasea aldatu beharko duzu trukatze-funtzioa erabiliz.</translation>
     <message>
         <source>Open the page</source>
         <translation>Ireki orria</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, guztira %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Saio-izen bat edo erabiltzaile-ID bat: gertaerak zerikusia zuen kontua edo jardun zuen erabiltzailea.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kontua</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ekintza</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Ondoren</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Edozein emaitza</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Aurretik</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Nork</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Garbitu</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Eginda</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Gertaerak %days egunez gordetzen dira.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Gertaerak eskuz kendu arte gordetzen dira.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Gertaerak</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Ekintza guztiak</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Kontu honen gertaera guztiak</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Esportatu zerrenda CSV gisa (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Huts egin du</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Noiztik</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Murriztu zerrenda</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Ez dago bat datorren gertaerarik.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Orriko</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Erregistratzea desaktibatuta dago audit.ini fitxategian ([UserAuditSettings] UserAudit); zerrendak lehenago erregistratutakoa erakusten du.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Baztertua</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Emaitza</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Erakutsi</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Erabiltzaileen auditoretza-erregistroaren taula falta da. Sortu ezazu komando honekin: php update/common/scripts/6.0/createuseraudittable.php; ordura arte, auditoretza-fitxategiek gertaera guztiak gordetzen dituzte.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Orri honek SQL datu-base bat behar du; MongoDB erabiltzean ez dago erabilgarri. Auditoretza-fitxategiek gertaera guztiak gordetzen dituzte.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Noiz arte</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Erabiltzaileen auditoretza-erregistroa</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Erabiltzailea</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Noiz</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Non</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Nork aldatu, sortu, gaitu, desgaitu, lekuz aldatu edo kendu duen zein kontu, nork hasi duen saioa edo nor baztertu den eta zein rol esleitu diren: lerro bat gertaera bakoitzeko, aurreko eta ondorengo eremuekin. Pasahitzak eta sekretuak ez dira inoiz erregistratzen.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>taldea</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistema</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ezezaguna</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Babestu zure kontua</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Berreskuratze-kode bat erabili da zure %login kontuan saioa hasteko, %site gunean.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Berreskuratze-kode bat erabili da</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kontua</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Gutxi gorabeherako helbidea</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Eskatu pasahitz berri bat berriro saioa hasteko, edo jarri harremanetan gunearen administratzaileekin.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Eskatu pasahitz berria</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Berreskuratze-kode bakoitzak behin bakarrik balio du. Telefonoa galdu baduzu, konfiguratu berriro autentifikazio-aplikazioa eta gorde berreskuratze-kode berriak leku seguru batean.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Huts egindako saio-hasiera saiakerak zure kontuan</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Hemendik aurrera, saioa hasteko kode bat eskatuko da pasahitzaz gain. Zuk egin baduzu, ez duzu ezer egin beharrik.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Zu izan bazara eta pasahitza ahaztu baduzu, eskatu berri bat. Bestela, aukeratu pasahitz sendoagoa eta aktibatu bi urratseko saio-hasiera.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Zu izan ez bazara, baliteke norbaitek zure pasahitza jakitea: aldatu orain eta egiaztatu non dagoen zure kontuaren saioa hasita.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Geratzen diren berreskuratze-kodeak</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Berrikusi zure gailuak</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Segurtasun-alerta</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Norbait zure %login kontuan saioa hasten saiatu da %site gunean, pasahitz okerrarekin, jarraian hainbat aldiz (saiakera kopurua: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Segurtasun-gertaera bat izan da zure %login kontuan, %site gunean.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Zure kontuari buruzko segurtasun-alerta bat da hau. Horrelako aldaketa bakoitzean bidaltzen da, eta ezin da desaktibatu.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ordua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Bi urratseko saio-hasiera desaktibatu da zure %login kontuan, %site gunean.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Bi urratseko saio-hasiera desaktibatu da</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Bi urratseko saio-hasiera aktibatu da zure %login kontuan, %site gunean.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Bi urratseko saio-hasiera aktibatu da</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Zure %login kontua, %site gunean, blokeatu egin da huts egindako saio-hasiera gehiegiren ondoren.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Zure kontua pasahitzak bakarrik babesten du orain. Zuk egin ez baduzu, aktibatu berriro bi urratseko saio-hasiera pasahitza aldatu ondoren.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Zure kontua blokeatu da</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Sarbide-gako bat gehitu zaio zure %login kontuari, %site gunean.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Sarbide-gako hau duen edonork zure kontuan saioa has dezake zure pasahitzik gabe. Zuk gehitu ez baduzu, kendu Sarbide-gakoak atalean eta aldatu zure pasahitza.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Sarbide-gako bat kendu da zure %login kontutik, %site gunean.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ezin du gehiago zure kontuan saioa hasi. Zuk kendu ez baduzu, egiaztatu zure sarbide-gakoak eta gailuak.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Sarbide-gako bat gehitu zaio zure kontuari</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Sarbide-gako bat kendu da zure kontutik</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Segurtasun-jarduera</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Segurtasun-jarduera, erabiltzailea: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Saioa hasita</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Huts egindako saio-hasiera saiakera</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Saioa amaituta</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Saioak amaituta</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Saio-hasiera gailu berri batetik</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Saio-hasiera kokapen berri batetik</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitatea berretsita (&quot;Egiaztatu zu zarela&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identitate-egiaztapenak huts egin du</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Saioa sarbide-gako batekin hasita</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Sarbide-gakoarekin saioa hasteak huts egin du</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Saio-hasiera ukatuta: bi urratseko kodea falta da edo okerra da</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Bi urratseko kode okerra</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kontua blokeatuta huts egindako saio-hasieren ondoren</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kontua desblokeatuta</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Pasahitza aldatuta</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Pasahitza aldatzeak huts egin du</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Pasahitza berrezarrita</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Pasahitz berria eskatuta</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Helbide elektronikoa aldatuta</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Erabiltzaile-izena aldatuta</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Bi urratseko saio-hasiera aktibatuta</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Bi urratseko saio-hasiera desaktibatuta</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Berreskuratze-kodea erabilita</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Berreskuratze-kode berriak</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Aplikazio-pasahitza sortua</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Aplikazio-pasahitza baliogabetua</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Sarbide-gakoa gehituta</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Sarbide-gakoa kenduta</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kontua gaituta</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kontua desgaituta</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Guztiak</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Saio-hasierak eta saioak</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kontuaren aldaketak</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Arreta behar dute</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>zuk egina</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>erabiltzaileak egina</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>egilea: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metodoa</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Nabigatzailea</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistema eragilea</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Gailua</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Lekua</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Herrialdea</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Saioak</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Zeintzuk</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Bidea</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Huts egindako saiakerak</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Geratzen diren kodeak</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Saio-hasieraren kudeatzailea</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Segurtasun-jarduera</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Segurtasun-jarduera, erabiltzailea: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Saio-hasierak eta zure kontuaren segurtasunean egindako aldaketak. Zuk egin ez duzun zerbait ikusten baduzu, aldatu pasahitza eta amaitu ezagutzen ez dituzun gailuetako saioak.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Saio-hasierak eta kontu honen segurtasunean egindako aldaketak.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Zure gailuak</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Aldatu pasahitza</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Itzuli kontura</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Segurtasun-jarduera ez da erregistratzen</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Erabiltzaileen auditoretza-erregistrotik irakurtzen da, eta haren expuser_audit taula falta da edo datu-base honek ez du onartzen. Exekutatu php update/common/scripts/6.0/createuseraudittable.php, edo 6.0.15 bertsioaren datu-basearen eguneratzea.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Azken egunak: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Azken egunetako saio-hasierak (%days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Azken segurtasun-jarduera</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Erakutsi</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>huts egin du</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ukatuta</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Ez da segurtasun-jarduerarik erregistratu oraindik.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Segurtasun-gertaerak egun hauetan gordetzen dira: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Segurtasun-gertaerak administratzaile batek kendu arte gordetzen dira.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Deskargatu nire saio-hasieren datuak</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Zure saioak eta segurtasun-gertaerak JSON fitxategi gisa.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Gune honetan ez dira saioak erregistratzen, beraz ezin izan da beste gailurik saiotik atera. Aldatu pasahitza orain.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Beste %count saio amaitu dira. Orain aldatu pasahitza.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ez zegoen beste gailurik saioa hasita. Orain aldatu pasahitza.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Eskerrik asko. Gertaera zuretzat markatu da.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Gertaera horrek ez du erantzunik behar.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Orria iraungita zegoen. Ez da ezer aldatu; saiatu berriro.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Babestu zure kontua</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Hemengo zerbait zu izan ez bazara, amaitu beste gailu guztietako saioak eta aukeratu pasahitz berri bat. Gogoratu nazazu aukerarekin saioa irekita mantendutako gailuetako saioak ere amaitzen dira.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Gailu honetaz gain beste gailu guztien saioa amaitzen da hurrengo eskaeran. Ondoren pasahitz berri bat aukeratuko duzu.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Bai, amaitu beste gailuetako saioak</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Zu izan zinen?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Bai, ni izan nintzen</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ez, babestu nire kontua</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Saioa hasita</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Huts egindako saio-hasiera saiakera</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Saioa amaituta</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Saioak amaituta</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Saio-hasiera gailu berri batetik</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Saio-hasiera kokapen berri batetik</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitatea berretsita (&quot;Egiaztatu zu zarela&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identitate-egiaztapenak huts egin du</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Saioa sarbide-gako batekin hasita</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Sarbide-gakoarekin saioa hasteak huts egin du</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Saio-hasiera ukatuta: bi urratseko kodea falta da edo okerra da</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Bi urratseko kode okerra</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kontua blokeatuta huts egindako saio-hasieren ondoren</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kontua desblokeatuta</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Pasahitza aldatuta</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Pasahitza aldatzeak huts egin du</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Pasahitza berrezarrita</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Pasahitz berria eskatuta</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Helbide elektronikoa aldatuta</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Erabiltzaile-izena aldatuta</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Bi urratseko saio-hasiera aktibatuta</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Bi urratseko saio-hasiera desaktibatuta</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Berreskuratze-kodea erabilita</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Berreskuratze-kode berriak</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Aplikazio-pasahitza sortua</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Aplikazio-pasahitza baliogabetua</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Sarbide-gakoa gehituta</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Sarbide-gakoa kenduta</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kontua gaituta</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kontua desgaituta</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Guztiak</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Saio-hasierak eta saioak</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kontuaren aldaketak</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Arreta behar dute</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Segurtasun-jarduera</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Segurtasun-jarduera, erabiltzailea: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Saio-hasierak eta zure kontuaren segurtasunean egindako aldaketak. Zuk egin ez duzun zerbait ikusten baduzu, aldatu pasahitza eta amaitu ezagutzen ez dituzun gailuetako saioak.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Zure gailuak</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Aldatu pasahitza</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Gune honetan ez da segurtasun-jarduera erregistratzen oraindik.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Azken egunetako saio-hasierak (%days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Huts egindako saiakerak</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Ez da segurtasun-jarduerarik erregistratu oraindik.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Deskargatu nire saio-hasieren datuak</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Zure saioak eta segurtasun-gertaerak JSON fitxategi gisa.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Gune honetan ez dira saioak erregistratzen, beraz ezin izan da beste gailurik saiotik atera. Aldatu pasahitza orain.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Beste %count saio amaitu dira. Orain aldatu pasahitza.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ez zegoen beste gailurik saioa hasita. Orain aldatu pasahitza.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Eskerrik asko. Gertaera zuretzat markatu da.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Gertaera horrek ez du erantzunik behar.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Orria iraungita zegoen. Ez da ezer aldatu; saiatu berriro.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Babestu zure kontua</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Hemengo zerbait zu izan ez bazara, amaitu beste gailu guztietako saioak eta aukeratu pasahitz berri bat. Gogoratu nazazu aukerarekin saioa irekita mantendutako gailuetako saioak ere amaitzen dira.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Gailu honetaz gain beste gailu guztien saioa amaitzen da hurrengo eskaeran. Ondoren pasahitz berri bat aukeratuko duzu.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Bai, amaitu beste gailuetako saioak</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Zu izan zinen?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Bai, ni izan nintzen</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ez, babestu nire kontua</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Pasahitza</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Pasahitza eta bi urratseko kodea</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST interfazea</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP interfazea</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Saio-hasiera bakarra</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Saioak erregistratzen hasi aurretik hasitako saioa</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Saio-hasieren txostena</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Nork duen saioa hasita gunean, kontuek zenbatetan hasten duten saioa eta zenbatetan huts egiten duten, eta erabiltzaile baten saioa nonahi amaitzea. Edozein saio-kudeatzailerekin funtzionatzen du.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Saioa amaitu da. Gailuak berriro hasi behar du saioa.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login erabiltzailearen saioak amaitu dira (saio kopurua: %count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login erabiltzaileak ez zuen saio irekirik.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ez dago ID, erabiltzaile-izen edo helbide elektroniko hori duen konturik.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Hau erabiltzen ari zaren saioa da. Amaitzeko, amaitu saioa.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Saio hori amaituta zegoen jada.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Orria iraungita zegoen. Ez da ezer aldatu; saiatu berriro.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Gune honetan ez dira saioak erregistratzen (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session taula falta da</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Saioak erregistratuko dira taula sortu bezain laster: php update/common/scripts/6.0/createusersessiontable.php, edo 6.0.15 bertsioaren datu-basearen eguneratzea.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Orain eta gaur</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Saio irekiak</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Saioa hasita duten erabiltzaileak</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Gaurko saio-hasierak</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Gaur huts egindako saiakerak</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Amaitu erabiltzaile baten saioa nonahi</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Kontuaren saio bakoitza hurrengo eskaeran amaitzen da, &quot;Gogoratu nazazu&quot; aukerak mantendutakoak ere bai. Erabili kontu bat esku okerretan egon daitekeenean; ondoren, berrezarri haren pasahitza.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Erabiltzailearen IDa, erabiltzaile-izena edo helbide elektronikoa</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Amaitu saioa nonahi</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Saioa hasita orain</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Azken aldian erabilitakoak erakusten dira, gehienez %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Erabiltzailea</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Gailua</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Helbidea</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Saioa hasita</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Azken jarduera</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ekintzak</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Gailu hau</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Erregistratu gabe</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Amaitu saioa</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Ez dago saio irekirik.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Azken egunak: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Saio-hasierak eta huts egindako saiakerak erabiltzaileen auditoretza-erregistrotik zenbatzen dira, eta hori ez dago; saio berriak zenbatzen dira.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Eguna</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Saio-hasierak</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Huts egindako saiakerak</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Saio berriak</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Saio-kudeatzailea: %handler. Saioak expuser_session taulatik irakurtzen dira; beraz, txostenak edozein kudeatzailerekin funtzionatzen du.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Jarduera susmagarria azken %hours orduetan</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Sare batek huts egin du %accounts kontutan saioa hasten (%count saiakera)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kontua blokeatuta saio-hasiera hutsen ondoren</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count saio-hasiera huts kontu batean</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>%count herrialdetatik aldi berean saioa hasita</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Segurtasun-jarduera</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Saioak</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Huts egindako saio-hasierak erabiltzaileen auditoria-erregistrotik irakurtzen dira, eta hori ez dago erabilgarri hemen.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ez dago ezer susmagarririk: ez dago saio-hasiera huts errepikatuak dituen konturik, ez kontu batzuk probatzen dituen sarerik, ez herrialde batzuetatik saioa hasita duen konturik.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Zure kontuari buruzko segurtasun-alerta</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Segurtasun-gertaera bat izan da zure %login kontuan: %event. Zu izan ez bazara, babestu zure kontua helbide honetan: %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurazioa</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Eskatu gune honetako edukiari orri batek behar dituen eremuak zehazki, eskaera bakar batean. Eskemak eduki-klaseei jarraitzen die; kontsulta bakoitza bidaltzen duen erabiltzailearen eskubideekin exekutatzen da.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL APIa desaktibatuta dago gune-sarbide honetan. Aktibatu graphql.ini fitxategian: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL liburutegia (webonyx/graphql-php 15) ez dago instalatuta.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Amaiera-puntua</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Liburutegia</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Eskema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count eduki-klase, %hash eskema</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Kontsulta</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Aldagaiak (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Exekutatu</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Erantzuna</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Exekutatzen…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Ezin izan da erantzuna irakurri.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Kontsulta zure eskubideekin exekutatzen da, saio honekin hasita.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count %seconds s-tan</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>mugarik ez</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Sakonera</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Konplexutasuna</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elementuak zerrendako</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (lehenetsia %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Eskaerak erabiltzaile edo gako bakoitzeko</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Eskaerak helbide anonimo bakoitzeko</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspekzioa</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Gordetako kontsultak soilik</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Kontsultarik handiena</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes byte</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Igoerarik handiena</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Ez dago %siteaccess gune-sarbiderik.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutazioak aktibatuta daude %siteaccess gune-sarbidean.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutazioak desaktibatuta daude %siteaccess gune-sarbidean.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL APIa aktibatuta dago %siteaccess gune-sarbidean.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL APIa desaktibatuta dago %siteaccess gune-sarbidean.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Ezin izan dira ezarpenak idatzi: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Erantzunen cachea garbitu da: %count erantzun kendu dira.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Markatu kontsultaren ondoko laukia kentzeko.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Ezin izan da kontsulta kendu: PersistedQueryDirectoryList[] zerrendako direktorio batean datorren kontsulta bere fitxategiarekin batera kentzen da.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Gordetako kontsulta kendu da.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutazioak</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>aktibatuta</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>desaktibatuta</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Gune-sarbideak</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>APIak eta bere mutazioek non erantzuten duten. Botoiek graphql.ini idazten dute, ./console exp:graphql:enable eta exp:graphql:disable komandoek bezala.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Gune-sarbidea</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL APIa</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Aldatu</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Desaktibatu</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Desaktibatu mutazioak</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Aktibatu mutazioak</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Aktibatu</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Mugak</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Gune-sarbide honen graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Erantzunen cachea</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Gordetako kontsulten erantzunak, erabiltzaile-eskubideen arabera gordeak eta edukia argitaratzen den bakoitzean iraungiak.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Egoera</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Gordetako erantzunak</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count erantzun, %bytes byte</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Gehienez gordeta</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Azken iraungitzea</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Garbitu erantzunen cachea</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Gordetako kontsultak</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist bidez edo bezeroek gordeak (gordetako kontsulta automatikoak); izenez edo SHA-256 bidez deitzen dira.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Izenak</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Tamaina</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Non</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Kendu</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>banatua</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>gordea</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Bai, kendu kontsulta hau</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Oraindik ez dago gordetako kontsultarik.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API gakoak</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (kontsultak) edo graphql:write (mutazioak) esparrua duten API gako pertsonalak. Sortu eta baliogabetu itzazu API sarbidea orrian, edo ./console exp:graphql:keys bidez.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API sarbidea</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Gako guztiak</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Gakoa</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Izena</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Jabea</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Esparruak</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Azken erabilera</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktibo</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>iraungita</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>baliogabetuta</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>inoiz ez</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Oraindik ez dago GraphQL esparrua duen API gakorik.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL APIa desaktibatuta dago orri hau erakusten duen %siteaccess gune-sarbidean; beheko taulak non erantzuten duen erakusten du.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Orri hau erakusten duen %siteaccess gune-sarbiderako.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhookak</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Amaiera-puntu batek eskatzen duen gertaera oro (publish, update, trash, delete, move, hide, reveal, mutation) sinatuta bidaltzen zaio, graphqlwebhooks cronjob zatiaren bidez. ./console exp:graphql:webhooks komandoak atal honen gauza bera egiten du.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Gertaerak</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>guztiak</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Gune-sarbide guztiak</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>hautsita</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>sekreturik ez</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Zain</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count bertan behera utzita</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Azken bidalketa</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Bidali proba bat</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Bai, kendu webhook hau</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Oraindik ez dago webhookik.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Gehitu webhook bat</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Gehitu</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Azken bidalketak</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ordua</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Emaitza</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Harpidetzak</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Zuzeneko eguneratzeak bezeroentzat: gertaera-jario bat /api/graphql/subscribe helbidean, eta WebSocket bat (graphql-transport-ws) Velocity zerbitzarian. Gertaera bakoitza haren edukia irakur dezaketen harpidedunei soilik iristen zaie.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Orain irekita</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Gehienez irekita</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total guztira, %user erabiltzaileko, %address helbideko</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Harpidetza anonimoak</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Jarioaren iraupena</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Ezin izan da webhooka gehitu: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>%name webhooka aldatu da; bere sinadura-sekretua mantentzen da.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Ezin izan da sinadura-sekretua gorde (Konfigurazioa &gt; Sekretuak).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>%name webhooka gehitu da. Bere sinadura-sekretua, behin bakarrik erakutsita: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Ez dago %name webhookik.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>%name webhookak ez du erantzun: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>%name webhookak %status erantzun du %ms ms-tan.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Markatu webhookaren ondoko laukia kentzeko.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>%name webhooka kendu da.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL APIa desaktibatuta dago gune-sarbide honetan.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL liburutegia ez dago instalatuta.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Erabili GET edo POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Gorputza ez da JSON objektu bat.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ez da JSON objektu bat.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ez da JSON objektu bat.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Bidali kontsulta POST bidez.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Eskaerak ez du kontsultarik.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Kontsulta %max byte baino luzeagoa da.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Zerbitzariaren barne-errorea</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node-k zehazki hauetako bat behar du: id, remoteId, path eta urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content-ek zehazki hauetako bat behar du: id eta remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after-en kurtsorea ez da API honek emandakoa.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Ez dago %alias irudi-aliasik (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Hemen gordetako kontsultak soilik onartzen dira: bidali gordetako kontsulta baten id-a.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Gordetako kontsultaren hasha ez da SHA-256 bat.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Gordetako kontsultaren hasha ez dator bat kontsultarekin.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Eskaera gehiegi: gehienez %limit %window segundotan. Saiatu berriro %reset segundo barru.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Kontsultak %depth mailako sakonera du; gehienez %max onartzen dira.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Kontsultak %complexity-ko konplexutasuna du; gehienez %max onartzen da.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Eskaera honek ezin du eskema irakurri (introspekzioa).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search-ek testu bat edo iragazki bat behar du (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ez da data bat (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag-ek zehazki hauetako bat behar du: id, remoteId eta path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout-ek zehazki hauetako bat behar du: id, identifier eta urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Multipart eskaera baten operations eremua ez da JSON eskaera bakar bat.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Multipart eskaera baten map eremua ez da JSON objektu bat.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Multipart eskaerak ez du %field fitxategirik.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map eremuaren bide batek variables.-ekin hasi behar du: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name fitxategia ez da osorik iritsi (igoera-errorea %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name fitxategia %max byte baino handiagoa da.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Ezin izan da %name fitxategia egiaztatu.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutazioak desaktibatuta daude gune-sarbide honetan (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Bidali mutazioa POST bidez.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Hasi saioa edukia aldatzeko.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API gakoak ez du %scope esparrua.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Saioa duen mutazio batek saioaren inprimaki-tokena behar du (X-CSRF-Token goiburua).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl desaktibatuta dago: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ez du ostalaririk izendatzen.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Helbideak https helbide bat izan behar du.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host ostalaria ez dago graphql.ini [GraphQLSettings] UploadFromUrlHostList[] zerrendan.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Ezin izan da fitxategia eskuratu.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload sarrera-mota bat besterik ez da.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload motako aldagai batek multipart eskaera bateko fitxategi bat hartzen du.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>%remoteId urruneko id-a dagoeneko erabilita dago.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Edukiak badu dagoeneko %language itzulpena: erabili updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Eman gutxienez eremu bat.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Ezin izan da bertsio berririk sortu (edukiak zirriborro gehiegi ditu).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>%version bertsioa ez da zirriborro bat.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent-ek zehazki hauetako bat behar du: id eta nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Kokapen bat ezin da bere azpira mugitu.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Edukiak badu dagoeneko kokapen bat %parentId azpian.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Ezin izan da %field eremuaren balioa gorde.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Ez dago %language eduki-hizkuntzarik.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Eskeman ez dago %class eduki-klaserik.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Edukia ez dago, edo ezin duzu irakurri.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Ezin duzu hau egin eduki honekin.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class klaseak ez du idatz daitekeen %field eremurik.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field eremua bi aldiz eman da.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field eremuak fitxategi bat hartzen du: bidali igoera gisa (multipart eskaera bat).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field eremuak ez du fitxategirik hartzen.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field eremuak balio bat behar du.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format formatua testu aberastuko eremuetarako soilik da; %field eremuak bere balioa dagoen bezala hartzen du (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field eremua derrigorrezkoa da.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Ezin izan da HTMLa irakurri.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content-ek version id-arekin batera soilik onartzen du.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Aurrebista-tokena ez da baliozkoa edo iraungi egin da.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ez da jatorri bat (https://host edo https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ez da GraphQL APIaren esparru bat: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Bidali harpidetzak /api/graphql/subscribe helbidera (gertaera-jario bat edo WebSocket bat).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Eskaerak ez du dokumentuko eragiketarik izendatzen.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Harpidetza batek eremu bakar bat eskatzen du.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Harpidetza gehiegi daude irekita; saiatu berriro geroago.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>%max harpidetza dituzu irekita, onartutako gehienekoa.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Zure helbideak %max harpidetza ditu irekita, onartutako gehienekoa.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Harpidetzak desaktibatuta daude gune-sarbide honetan.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Hasi saioa harpidetzeko (token bat edo API gako pertsonal bat).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Bidali mutazioak /api/graphql helbidera.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrazioak</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Ezin izan da egoera irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migrazioen taulak ez daude oraindik: ./console exp:upgrade --apply komandoak sortzen ditu.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migraziok huts egin dute</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Exekuzio bat abian da, %user erabiltzaileak hasia</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Instalazioa blokeatuta dago: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Zain</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Huts egindakoak</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Umezurtzak</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Azken exekuzioa</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>bat ere ez oraindik</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Migrazio guztiak</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Exekuzio simulatua</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Proba-exekuzioa</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Zain zeuden migrazioak gero desegindako transakzio batean exekutatu ziren: ez da ezer gorde. Behean dago bakoitzak datu-basean zer aldatu zuen.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Exekuzio batek orain zer egingo lukeen. Ez da ezer aldatzen: zain dagoen migrazio bakoitzak egingo lituzkeen aldaketak zerrendatzen ditu, eta exekuzioak aurretik eta ondoren zer egingo lukeen.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simulatu</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Exekutatu</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Proba-exekuzioak huts egin du: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulazio batek PostgreSQL edo SQLite behar du, haien eskema-aldaketak desegin daitezkeelako; datu-base honetan, beheko planak erakusten du exekuzio batek zer egingo lukeen.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migrazioak</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrazioa</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Egoera</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Zer egingo lukeen</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulazioa: %result, %ms ms-tan</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Ez dago migraziorik oraindik.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Exekuzioaren aurretik eta ondoren</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Aurreko argazkia</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ateratzen da, eta leheneratu egiten da migrazio batek huts egiten badu</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>desaktibatuta</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Ondorengo argazkia</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>exekuzioa ondo atera bada ateratzen da</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migrazio: %pending zain, %done eginda, %failed huts eginda.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Migrazioen historia</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Exekuzio bakoitza bere erabiltzaile, ingurune eta argazkiekin, eta baieztatu, etiketatu eta bidali zena. Huts egindako edo etendako exekuzio bati berrekin dakioke; aurretik argazkia duen exekuzio bat desegin daiteke.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Ezin izan dira exekuzioak irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migrazioen taulak ez daude oraindik: ./console exp:upgrade --apply komandoak sortzen ditu.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Erakutsi</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Guztiak</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Exekuzioak</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Hasiera</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Nork</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Argazkiak</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Biltegia</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ekintzak</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>aurretik</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ondoren</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>bidalketa: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Berrekin</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Desegin</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Ez dago exekuziorik egoera honetan.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Hemen hasiak</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Orri hauetan hasitako exekuzioak, berrekiteak eta desegiteak, bakoitzaren txostenarekin.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Zer</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Emaitza</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Desegitea</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target desegitea</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>%run exekuzioa</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Exekuzioak zer egin zuen, bere erregistroa eta egunkaria. Hemen hasitako exekuzio batek atzeko planoan jarraitzen du orri hau ixten bada; ireki orria berriro hari jarraitzeko.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Berrekin exekuzio honi</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Desegin exekuzio hau</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Ezin izan da erregistroa irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Aurrerapena</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user erabiltzaileak hasia, %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kodea egiaztatzen eta argazkia ateratzen exekuzioaren aurretik</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id exekutatzen (%index / %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done / %total eginda</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migrazioak exekutatu dira; argazkia leheneratzen, batek huts egin badu</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Exekuzioaren ondorengo argazkia ateratzen, baieztatzen, etiketatzen eta bidaltzen</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Argazkia leheneratzen</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Exekuzioa amaitu da. Bere txostena kargatzen.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Ezin izan da aurrerapenari jarraitu. Birkargatu orria exekuzioa nola doan ikusteko.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Orri honek exekuzioari jarraitzen dio aurrera egin ahala.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Birkargatu</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Txostena</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Iraupena</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisegundo</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Exekuzioak errore gisa idatzi zuena</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Erregistroa</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Ingurunea</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>bat ere ez</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Amaiera</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Baieztapena</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Bidalketa</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mezua</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Exekuzio honen migrazioak</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Iturburua</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Exekuzioaren egunkaria</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Egunkariaren amaiera bakarrik erakusten da.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>abian</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>txostenik gabe amaitua</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ondo</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>huts egin du</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ukatua</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>datu-basea ez zegoen eskuragarri</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>barne-errorea</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Exekuzio bat abian da</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, %user erabiltzaileak hasia, %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Jarraitu</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Instalazioa blokeatuta dago</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Beste exekuzio batek dauka blokeoa (bertsio-berritze bat edo kontsolako exekuzio bat): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>eginda</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>zain</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ez da behar</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ezezaguna</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>desegina</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>aplikatua</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>aplikatuko litzateke</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>desegina</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>desegingo litzateke</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>exekutatu gabe</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>beste baten zain</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>aldaketa onartua</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>aldaketa onartuko litzateke</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulatua</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrazioak</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Egoera</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Desegin %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Exekuzio bat aurretik ateratako argazkira itzuliz desegiten da; migrazio bakarra, bere down() bidez. Aurreko argazki bat leheneratzea adituentzat da. Bakoitza atzeko planoan exekutatzen da zure izenean, uneko egoeraren argazki baten ondoren.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Ezin izan da irakurri zer desegin daitekeen: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Exekuzio bat</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Migrazio bat</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Aurreko argazki bat</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Deskribapena</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>bai</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ez</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Argazkia</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Noiz aterea</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Mota</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Leheneratu beharreko zatiak</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Datu-basea</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Gordetako fitxategiak (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Ezarpenak (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Datu-basea leheneratzeak argazkiaren unera itzultzen du, saioak barne: baliteke gero berriro saioa hasteko eskatzea. Ordutik aldatutako guztia galtzen da; lehenik uneko egoeraren argazki bat ateratzen da.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Badakit honek zer leheneratzen duen</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Idatzi berriro argazkiaren IDa</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Bai, desegin</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Utzi</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Aurretik argazkia duten exekuzioak.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Aukeratu</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Ez dago argazkidun exekuziorik oraindik.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Beren burua desegin dezaketen migrazio aplikatuak (down() bat dute).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Migrazio aplikatu batek ere ez du down() bat.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Aurreko argazkiak (adituak)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Ez dago argazkirik oraindik.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Exekutatu migrazioak</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Exekuzioak atzeko planoan jarraitzen du %user gisa, eta bere orriak aurrera egin ahala erakusten du. Lehen migrazioaren aurretik instalazioaren argazki bat ateratzen da; migrazio batek huts egiten badu, exekuzioa gelditu eta argazkia leheneratzen da.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Lehenik proba-exekuzioa</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Ezin izan da egoera irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Zain dauden migrazioak</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ordena honetan exekutatzen dira. Kendu marka bati, hura eta haren menpe daudenak geroko exekuzio baterako uzteko.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Exekutatu</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Mantentze-modua aktibatzen du exekutatzen den bitartean.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Aplikatu ondoren aldatuak</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Fitxategi hauek ez dira aplikatu zirenak. Exekuzio batek ukatu egiten ditu, aldaketa arrazoi batekin onartzen ez bada; ez dira berriro exekutatzen, kontrol-batura berria erregistratzen da eta arrazoia auditoria-erregistroan gordetzen da.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Onartu aldaketak</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Arrazoia</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Lehenetsitako balioak dira seguruak. Lauki bakoitzak urrats bat saltatzen du.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Argazkirik gabe</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Argazkirik ez exekuzioaren aurretik eta ondoren: huts egite bat ezin da automatikoki leheneratu.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Leheneratu gabe</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Huts egite baten ondoren, utzi instalazioa huts egiteak utzi zuen bezala.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Gorde baieztatu gabeko aldaketak</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Exekutatu ezarpenek, hedapenek edo diseinuek baieztatu gabeko aldaketak badituzte ere; argazkian sartzen dira.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Baieztatu gabe</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ez baieztatu egoera-fitxategia eta exekuzioaren egunkaria (ez etiketarik ez bidalketarik ere).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Bidali gabe</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Baieztatu eta etiketatu, baina ez bidali.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Etiketarik gabe</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Baieztatu eta bidali, baina ez etiketatu exekuzioa.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Bai, exekutatu migrazio hauek orain</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ez dago migraziorik zain.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Itzuli egoerara</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Instalazio honen aldaketak, behin fitxategi gisa idatziak (edukia, klaseak, rolak, ezarpenak, eskema) eta gunearen instalazio guztietan ordena berean aplikatuak. Exekuzio batek lehenik argazki bat ateratzen du, migrazio batek huts egiten badu leheneratu egiten du, eta egindakoa erregistratu, baieztatu eta bidaltzen du.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Exekutatu zain dauden %count</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ikuspegi orokorra</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Zain</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Eginda</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Huts egindakoak</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ez dira behar</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Datu-basea</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transakzioak: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Gunearen migrazioak migrations/ karpetan daude; hedapen batenak, extension/&lt;name&gt;/migrations/ karpetan. Beren izenen eta menpekotasunen ordenan exekutatzen dira.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Azken exekuzioa</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Fitxategia aplikatu ondoren aldatu da.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Ez dago migraziorik oraindik. ./console exp:migration:generate --skeleton &lt;name&gt; --apply komandoak idazten du lehena.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Azken exekuzioak</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Exekuzio guztiak</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Ez dago exekuziorik oraindik.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Exekuzio bat simulatzeko migration/run politika behar da.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Exekuzio bat abian da: simulatu amaitzen denean.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurazioa</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ez da instalazio honen exekuzio bat, ez migrazio bat, ez argazki bat.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Markatu lehenik «Bai, desegin».</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Aurreko argazki bat leheneratzea adituentzat da: markatu «Badakit honek zer leheneratzen duen».</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Idatzi berriro argazkiaren IDa: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Aukeratu leheneratu beharreko zati bat gutxienez.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Exekuzio honek ez du aurretik argazkirik: desegin bere migrazioak banan-banan, edo leheneratu aurreko argazki bat.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Migrazio hau ezin da bere kabuz desegin: ez dago aplikatuta, edo ez du down() bat.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Ezin izan da inprimakia irakurri.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Aukeratu berrekin beharreko exekuzioa.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Markatu lehenik «Bai, exekutatu migrazio hauek orain».</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Aukeratu migrazio bat gutxienez.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migrazio bat aplikatu ondoren aldatu da: onartu aldaketa arrazoi batekin, edo leheneratu fitxategia.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Eman aldatutako migrazioak zergatik onartzen diren.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Arrazoiak gehienez 500 karaktere ditu.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Hemen hasitako exekuzio bat abian da oraindik (%detail). Itxaron amaitu arte.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Beste exekuzio batek dauka instalazioaren blokeoa: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Exekuzioak saioa hasita duen eta existitzen den erabiltzaile bat behar du.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ez da php komando-lerroko exekutagarririk aurkitu. Ezarri haren bide osoa migration.ini [AdminSettings] PhpCliPath ezarpenean.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open desgaituta dago, beraz ezin da hemen exekuziorik hasi. Exekutatu ./console exp:migration:migrate --apply zerbitzarian.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Ezin da exekuzioen karpetan idatzi: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Exekuzioa hasi da, baina ez du bere prozesu-IDa jakinarazi. Egiaztatu %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Adierazi zer desegin behar den.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Ezin izan da exekuzioa hasi.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Aldaketak grabatu</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Grabazio bat martxan dagoen bitartean, administrazioan edo gunearen alboko barran aldatzen duzuna migrazio baten urrats gisa gordetzen da: edukia, klaseak, rolak eta politikak, sekzioak, erabiltzaileak eta taldeak, URL aliasak, ezarpenak. Gelditu ezazu amaitzen duzunean, begiratu zer harrapatu duen eta sortu migrazio bat bertatik.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Ezin izan dira grabazioak irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Grabazioen taulak ez daude oraindik: exekutatu lehenik eguneratzea (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Grabazioa desaktibatuta dago migration.ini fitxategian ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Nire aldaketak</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Zuk aldatzen duzuna bakarrik grabatzen du, edonon aldatzen duzula ere, gelditu arte.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Grabazioa</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time-(e)tik, orain arte %count aldaketa.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etiketa (aukerakoa)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Erakutsi zer harrapatu duen</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Gelditu grabazioa</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Hasi nire aldaketak grabatzen</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Gune osorako leihoa</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Erabiltzaile guztien eta kontsolaren aldaketa guztiak grabatzen ditu itxi arte. Irekitzean zu zarela egiaztatzeko eskatzen zaizu.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Irekita</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Itxi leihoa</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Ireki gune osorako leihoa</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Grabazioak</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Erabiltzaile baten kontua (saio-izena, posta elektronikoa, pasahitza) eta erabiltzaile-kontuen eremuak ez dira inoiz grabatzen.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Aldaketak</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Gune osoa</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name erabiltzailearen aldaketak</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Geldituta</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Oraindik ez dago grabaziorik.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>%id grabazioa</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Grabazio guztiak</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Sortuko lukeen migrazioa</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Aldaketak urrats bakarrean bilduta aldatutako gauza bakoitzeko: grabazio honetatik sortutako migrazio batek egingo lukeena.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Migrazio bat sortu ahal izango da bertatik instalazio honek %types YAML urrats motak dituenean.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Nahita kanpoan utzia: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ez da ezer grabatu.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Harrapatu duena</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count aldaketa, egin ziren ordenan.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Aldaketa</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Urratsa</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Honi buruz</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Beste %count: ./console exp:migration:record:show-k guztiak zerrendatzen ditu.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Baztertu</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Grabazioa eta harrapatu duena kentzen ditu. Aldatu dena aldatuta geratzen da.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Bai, baztertu grabazio hau</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Grabatzen…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Zure aldaketak migrazio baterako grabatzen ari dira.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Gune honetako aldaketa guztiak migrazio baterako grabatzen ari dira (gune osorako leihoa).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Gune osoaren grabazioa hasi da: erabiltzaile guztien aldaketa guztiak grabatzen dira gelditu arte.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Grabazioa hasi da: zure aldaketak grabatzen dira gelditu arte.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Grabazioa geldituta. Harrapatu duena geratzen da baztertu arte.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Grabazioa eta bere gertaerak kendu dira.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Ez dago %id grabaziorik.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Markatu lehenik "Bai, baztertu grabazio hau".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Grabatu duen erabiltzaileak bakarrik gelditu dezake saio-grabazio bat.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Aukeratu gelditu beharreko grabazioa.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Mota honetako grabazio bat martxan dago dagoeneko.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Ezin izan da grabazioa aldatu: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Sortu migrazioa</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Migrazioaren izena (aukerakoa)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>%file migrazioa idatzi da. Inongo urratsek egin ezin dituen aldaketak fitxategiaren goialdean aipatzen dira, eskuz egiteko.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ez da migraziorik idatzi: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Exekuzio luzea zatika</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Eremu hutsek migration.ini [RunSettings] fitxategiaren ezarpenak mantentzen dituzte.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Gehienez migrazio hauek</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Ez egin migrazio gehiago honen ondoren (segundo)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Etena migrazioen artean (segundo)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Lehentasun txikiagoa (1etik 19ra)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Exekuzio luzearen eremua 1etik hasi eta zenbaki osoa da (etena: 0tik 60ra segundo, lehentasuna: 1etik 19ra), edo hutsik.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Berez ixten da %time orduan.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Itxi berez honen ondoren (minutu, aukerakoa)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minutuak 1etik 44640ra (31 egun) arteko zenbaki osoa dira, edo hutsik.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>%id migrazioa</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Migrazio berria</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML migrazio bat: idatzi testu gisa edo eraiki bere urratsak inprimakian, egiaztatu eta gero gorde migrazio-karpeta batean.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Migrazio hau exekutatu da jada, beraz ez da berriro gordetzen: kontrol-baturaren babesak fitxategi aldatu bat ukatuko luke. Egin aldaketa migrazio berri batean.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Web zerbitzariak ezin du fitxategia idatzi.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Hasierako iruzkin-lerroak goiburua dira (description, author, requires, environments, engines). Inprimakian urrats bat gehitzen edo aldatzen denean, migrazioa berriro idazten da: urratsen arteko iruzkinak ez dira gordetzen.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Migrazioaren izena</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Nora doan</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Gunea</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML testua</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Egiaztatu</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Gorde</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Urratsak</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Gakoak</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editatu</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Eraman gora</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Eraman behera</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Kendu</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Oraindik ez dago urratsik: gehitu bat inprimakiarekin, edo idatzi testuan.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Aldatu %number. urratsa</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Gehitu urrats bat</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Urrats baten inprimakia bere urrats-motatik sortzen da: bere gakoak, bakoitzak zer onartzen duen eta zein modutakoa den.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Urrats-mota</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Erakutsi bere inprimakia</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Urratsak bere motak ezagutzen ez dituen gakoak ditu; urratsa aldatzean kanpoan geratzen dira: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modua</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Hemen:</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes moduetan soilik</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Lehenetsia: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Baldintzak, erreferentziak eta iruzkina</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Izena=balioa bikoteak, komaz bereizita. Urrats honen balioak: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Adibidea</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Aldatu urratsa</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Gehitu urratsa</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check-ek dioena: goiburua, dokumentua eta urrats bakoitza, bere urrats-motak egiaztatua.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migrazioak egiaztapena gainditzen du.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Aurrebista</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAMLa, gordeko den bezala.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Erakutsi YAMLa</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML migrazioak</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>exekutatua</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Oraindik ez dago YAML migraziorik.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Editorea</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Migrazio-karpetetan ez dago %id YAML migraziorik.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Aukeratu urrats-mota bat.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Urratsa gehitu da. Egiaztatu migrazioa gorde aurretik.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Urratsa aldatu da. Egiaztatu migrazioa gorde aurretik.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Aukeratu urrats bat.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Urrats honek ez du inprimakirik (begizta bat, edo instalazio honek ez duen urrats-mota bat): aldatu testuan.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Aukeratu nora doan migrazioa: gunera edo hedapen aktibo batera.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file gorde da. Egin proba-exekuzio bat migrazioa exekutatu aurretik.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ez da gorde: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Urruneko instalazioak</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Instalazio honek bere migrazioak hedatzen dizkien beste instalazioak: hedapen batek migrazioak aukeratutako urruneko instalazioetara bidaltzen ditu eta han exekutatzen ditu, denak batera eta sinkronoan. Urruneko instalazio batek ez du inoiz sekreturik gordetzen: bere kredentzialak Konfigurazioa &gt; Sekretuak ataleko bat izendatzen du.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Urruneko instalazio berria</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Laguntza</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id instalazioaren konexio-proba</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Urruneko instalazioak</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Gehienez %parallel urruneko instalazio lantzen dira aldi berean; fase batek %timeout segundo iraun ditzake bakoitzean.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Urruneko instalazioa</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Helbidea</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kredentziala</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Taldeak</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>zuzendu beharreko ezarpenak</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>fitxategiak soilik (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH gakoa</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Pasahitza</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>bat ere ez (ostalariaren SSH agentea eta gakoak)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Probatu konexioa</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Talde baterako hedapena taldeko urruneko instalazio guztietara doa.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Hedatu urruneko instalazioetara</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Ez dago urruneko instalaziorik konfiguratuta oraindik.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>%id urruneko instalazioa</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Hemen ez da ezer bidaltzen ez exekutatzen: Gorde botoiak ezarpenak settings/override/migration.ini.append.php fitxategian idazten ditu. Kredentziala izen bat da; bere balioa Konfigurazioa &gt; Sekretuak atalean edo ingurunean geratzen da.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Egiaztatu ezarpen hauek</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Ezarpenak sartu bezala, oraindik gorde gabe.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Berrikuspena</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ezarpenak baliozkoak dira. Lerro hauek idatziko dira:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Garraioa</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>izen bat bakarrik; balioa Konfigurazioa &gt; Sekretuak atalean geratzen da</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Idatziko diren lerroak</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Konexioa</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Ostalariaren gakoa</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Urruneko instalazioa</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Urruneko instalazioaren izena eta zein ingurune den.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>IDa</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Letrak, zenbakiak, - eta _, adibidez production1. Urruneko instalazioa izendatzen du txostenetan eta kontsolan (--remotes=production1), eta ezin da geroago aldatu.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Etapakako hedapen batek inguruneak ordena honetan igarotzen ditu.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Aukerakoa, komaz bereizita, adibidez production. Talde baterako hedapena taldeko urruneko instalazio guztietara doa.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Konexioa</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Fitxategiak nola iristen diren hara, eta non dagoen instalazioa.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH bidez, aldatu dena soilik, eten den transferentzia bat berrekiten da. Aukerarik onena rsync instalatuta dagoen tokian.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH, fitxategietarako scp-rekin.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH, fitxategietarako sftp-rekin.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Fitxategiak soilik: migrazioak bidali eta berriro irakurtzen dira, baina ezin dira han exekutatu.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP TLS bidez; fitxategiak soilik.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Zerbitzari honetako beste instalazio bat, karpeta batean.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Ostalaria</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Ostalari-izen bat edo helbide bat, adibidez node1.example.com. Ez local-erako.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Ataka</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Hutsik: 22 SSHrako, 21 FTPrako.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Erabiltzailea</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Bidea</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Instalazioaren erroa han, adibidez /var/www/site (FTPrako: FTP kontuak ikusten duen bidea).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP komando-lerroa</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Han dagoen PHP CLIa: php, edo bide oso bat, hala nola /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Kontsola-scriptak root gisa exekutatzen dira han</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Urruneko instalazioaren erabiltzailea root denean soilik (orduan --allow-root-user aukerarekin exekutatzen dira).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Kredentziala</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Instalazio hau han nola sartzen den. Izen bat soilik gordetzen da.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Bat ere ez</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Instalazio hau exekutatzen duen erabiltzailearen SSH agentea eta gakoak (eta beti local-erako).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Sekretu gisa gordetako gako pribatu bat.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Sekretu gisa gordetako pasahitz bat (FTP horrekin sartzen da).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Sekretuaren izena</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Konfigurazioa &gt; Sekretuak ataleko sekretu bat, adibidez deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Konfigurazioa &gt; Sekretuak</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Edo ingurune-aldagai bat</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Hori gordetzen duen zerbitzari-prozesuaren aldagaia, adibidez DEPLOY_KEY (env:DEPLOY_KEY gisa gordea). Sekretuaren izenaren ordez erabiltzen da.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Ostalariaren gakoa</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Aukerakoa, SSH, sftp eta rsync-erako.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Ostalariaren gakoaren hatz-marka</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l komandoak inprimatzen duen bezala. Horrekin, ostalariak gako hau erakutsi behar du; hori gabe, gakoa lehen kontaktuan ikasten da.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Berrikuspena</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Probatu konexioa goiko ezarpenekin, eta gero berrikusi idatziko diren lerroak.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Kendu urruneko instalazio hau</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Bere ezarpenak settings/override/migration.ini.append.php fitxategitik kentzen dira. Urruneko instalazioan ez da ezer aldatzen, eta bere hedapenak historian geratzen dira.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Bai, kendu urruneko instalazio hau</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Hedapenak</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Hedapen batek instalazio honen migrazioak aukeratutako urruneko instalazioetara bidaltzen ditu eta han exekutatzen ditu %user gisa, denak batera eta sinkronoan: urruneko instalazio bakoitza lehenik egiaztatzen da, eta batek huts egiten badu, aplikatu duen urruneko instalazio oro desegiten da. Atzeko planoan egiten da, eta bere orriak urruneko instalazio bakoitza erakusten du aurrera egin ahala.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Urruneko instalazioak</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Markatu urruneko instalazioak, talde bat, edo biak.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Hedatu hara</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Nola</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Hedatu</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Bidali eta exekutatu</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migrazioak urruneko instalazio bakoitzera bidali, egiaztatu eta exekutatzen dira exekuzio-ID partekatu bakarrarekin.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Transferitu soilik</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Fitxategiak bidali eta egiaztatzen dira, ez da ezer exekutatzen (FTP urruneko instalazio baterako bide bakarra).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Etapaka</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Etapaz etapa inguruneen ordenan (dev, stage, beta, production ...): lehen etapa hedatzen da, eta gero ate batek itxaroten du norbaitek hurrengoa onartu arte. Dena edo ezer ez etapa bakoitzaren barruan.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Migrazio hauek soilik</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Aukerakoa: migrazioen IDak, komaz bereizita. Hutsik: gunearen eta bere luzapenen migrazio guztiak.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Aurre-egiaztapena soilik</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Bai, hedatu orain</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Zerbait bidali edo exekutatu duten hedapenak, berriena lehenik (aurre-egiaztapen batek ez du txostenik gordetzen).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>transferitu soilik</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>etapaka, %stages etapa</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>sinkronizaziotik kanpo</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Ez dago hedapenik oraindik.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>%deploy hedapena</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Hedapeneko urruneko instalazio bakoitza bere egoerarekin. Hemen hasitako hedapen batek atzeko planoan jarraitzen du orri hau ixten denean; ireki orria berriro jarraitzeko.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Hedapen guztiak</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Aurre-egiaztapena</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Hurrengo etapa</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Ezarpenak eta kredentzialak egiaztatzen</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Aurre-egiaztapena: urruneko instalazio bakoitzaren egoera irakurtzen</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Migrazio-fitxategiak bidaltzen</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Iritsi dena egiaztatzen</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Migrazioak exekutatzen urruneko instalazio bakoitzean</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Urruneko instalazioak desegiten</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Hedapena amaitu da. Bere txostena kargatzen.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Ezin izan da aurrerapena jarraitu. Birkargatu orria hedapena nola doan ikusteko.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fasea</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Orri honek hedapena jarraitzen du aurrera egin ahala.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Sinkronoan</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Etapak</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>%stage. etapa bere atean zain</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>%stage. atea</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user erabiltzaileak onartua (%time)</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Etapa</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Bidalitako fitxategiak</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kernelaren bertsioa</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>aplikatuta: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>aplikatzeko: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Faseak</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Atea: %stage. etapa %stages etapatik</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Aurreko etapak hedatuta daude. Egiaztatu, eta gero onartu hurrengo etapa: bere urruneko instalazioak berriro egiaztatzen eta hedatzen dira, dena edo ezer ez.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Hurrengoa</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Bai, hedatu hurrengo etapa orain</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Onartu</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Desegin hedapen hau</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Aplikatu duen urruneko instalazio bakoitza (%list) bere exekuzioaren aurretik ateratako argazkira itzultzen da, denak batera.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Bai, desegin hedapen hau orain</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>planifikatuta</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>transferituta</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>hedatuta</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ate batean zain</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>hautatuta</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>prestatuta</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>prest</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>bere etaparen zain</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>fitxategiak bidalita</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>egiaztatuta</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>huts egin du, bere burua leheneratu du</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>aldatu gabe</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>hedatu gabe</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ezin da iritsi</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Urruneko instalazioak erantzun du.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Urruneko instalazioa ezin da orain erabili.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done eginda, %pending zain, %failed huts eginda</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Blokeoa</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>exekuzio batek blokeoa du han</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>librea</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage / %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Aukeratu probatu beharreko urruneko instalazioa.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Markatu lehenik «Bai, kendu urruneko instalazio hau».</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Ezin izan da urruneko instalazioa kendu: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Ezin izan da urruneko instalazioa gorde: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Ezin da ezarpen-fitxategia irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Aukeratu gutxienez urruneko instalazio bat edo talde bat.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Aukeratutako urruneko instalazio bat ez dago jada ezarpenetan. Birkargatu orria.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Markatu lehenik «Bai, hedatu orain».</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP urruneko instalazio batek ezin ditu migrazioak exekutatu: aukeratu «Transferitu soilik», edo utzi kanpoan.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Hedatu beharreko migrazioak migrazio-IDak dira, komaz bereizita.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Hedapena abian da oraindik. Itxaron amaitu arte.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Hedapen honek ez du ate batean itxaroten.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Urruneko instalazio batek ere ez du hedapen hau aplikatu: ez dago ezer desegiteko.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Markatu lehenik «Bai, hedatu hurrengo etapa orain».</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Markatu lehenik «Bai, desegin hedapen hau orain».</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Badago jada %id IDa duen urruneko instalazio bat.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Ataka 1 eta 65535 arteko zenbaki bat da.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Ingurunea letrez, zenbakiz, - eta _ ikurrez osatutako hitz bat da (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Talde bat letrez, zenbakiz, - eta _ ikurrez osatutako hitz bat da (ez all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Ezin da kredentziala orain irakurri: %problem. Gorde Konfigurazioa &gt; Sekretuak atalean (edo ezarri aldagaia) lehen hedapenaren aurretik.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP urruneko instalazio batek fitxategiak soilik jasotzen ditu: hara egindako hedapena «Transferitu soilik» da, eta bertako migrazioak eskuz exekutatzen dira.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>%id urruneko instalazioa ez dago settings/override/migration.ini.append.php fitxategian; kendu ezarrita dagoen tokian.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP bidez sartu eta index.php irakurri da. Ezin da FTP urruneko instalazio baten migrazio-egoera irakurri.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Aldatua</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Sortua</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Izena</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasea</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Atala</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Sortzailea</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Azken edukiak</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Gune osoko azken sortutako eta aldatutako edukiak, berrienak lehenik: bisitariek bidalitakoa, berrikusteko atxikita dagoena, argitaratzeko zain dauden zirriborroak. Hautatu elementuak askatzeko, atxikitzeko, ezkutatzeko, erakusteko, kentzeko edo beste atal edo egoera batera eramateko.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Ezin izan da zerrenda irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Berrikusteko atxikipena ez dago oraindik konfiguratuta; beraz, ez dago ezer atxikita eta ez dira atxikipen-ekintzak eskaintzen. 6.0.15-review-hold eguneratze-urratsak konfiguratzen du: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Iragazi zerrenda</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Noiztik</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Noiz arte</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Sortua (lehen argitalpena)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Denak</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Egoera</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Argitaratua</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Zirriborroa, inoiz argitaratu gabea</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Zain (onarpenaren edo data baten zain)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Zakarrontzian</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Berrikusteko atxikita</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Atxikita</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Atxiki gabe</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Ezkutatuta</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Ikusgai</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Bidaltze-data</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Edozein gune-sarbide</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Ikuskaritzak erregistratutakoa soilik.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Orain: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Saio-hasierako izen bat edo erabiltzaile-ID bat.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Iragazi</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Garbitu iragazkiak</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elementuak</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to / %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Elementurik ez</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms-tan irakurria)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Hautatutako elementuen gaineko ekintzak</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Hautatu orri honetako denak</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count hautatuta</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ekintza</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Aukeratu ekintza bat</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Askatu atxikipena</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Atxiki berrikusteko</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Ezkutatu</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Erakutsi</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Eraman zakarrontzira</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Ezabatu</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Esleitu atala</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Esleitu egoera</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Arrazoia</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Atxikitzeko beharrezkoa; atxikipenarekin eta ikuskaritzan gordetzen da.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Aukeratu atal bat</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Egoera</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Aukeratu egoera bat</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Aplikatu hautatutakoei</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Elementu bakoitza zure baimenen arabera egiaztatzen da. Zakarrontzira eramateak eta ezabatzeak berrespena eskatzen dute. %count elementu baino gehiago atzeko planoan exekutatzen dira.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Hautatu</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Argitalpena</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Nondik bidalia</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Hautatu %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>oraindik ez</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(izenik gabe)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Zirriborroa</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Zain</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Gurasoak ezkutatuta</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Atxikita: bidalketa berria</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>%version bertsioa zain</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>%version bertsioa abian</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Zirriborroa, %version bertsioa</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>%version bertsioa argitaratua</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date datarako programatua</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>helbiderik ez</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>erregistratu gabe</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Ezerk ez du bat egiten iragazki hauekin.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Erakutsi denak</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Oraindik ez dago edukirik.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Orriko</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Erakutsi %count elementu orriko.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Bidalketa baten helbidea eta nabigatzailea ikuskaritza-indizetik datoz, eta hori ez dago erabilgarri hemen: zutabeak "erregistratu gabe" dio.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Helbidea eta nabigatzailea ikuskaritzak elementuarentzat erregistratu zituenak dira (atxikipen automatikoak beti erregistratzen ditu; argitaratzeak eta sortzeak aktibatuta dagoen tokian soilik), bere pribatutasun-ezarpenek gordetzen dituzten moduan.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count elementu</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Ezabatzeak elementuak behin betiko kentzen ditu, bertsio eta itzulpen guztiekin. Ezin da desegin.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Elementuak zakarrontzira doaz, eta handik leheneratu daitezke.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Elementu bakoitza zure baimenen arabera egiaztatzen da; azpi-elementuak dituen elementua dagoen bezala uzten da (kendu eduki-egituran). Zu zarela egiaztatzeko eskatuko zaizu.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Hau atzeko planoan exekutatzen da: bere aurrerapen-orria irekitzen da, eta elementu bakoitzaren emaitza amaitzean erakusten da.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Hautatutako elementuak</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>eta beste %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Utzi</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ez da ezer egin</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Arrazoia: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Ekintza atzeko planoan exekutatzen ari da oraindik.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Bere aurrerapena</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Atzeko planoko ekintzak huts egin du: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Eginda</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Ukatua</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Huts egin du</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Elementuko</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Elementua</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Emaitza</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Zergatik</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Itzuli zerrendara</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurazioa</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ez da ezer egin</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Berretsi</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Aukeratu ekintza bat.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Hautatu gutxienez elementu bat.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Hautatu gehienez 1000 elementu aldi berean.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Esan zergatik atxikitzen diren elementuak.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Aukeratu atala.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Aukeratu egoera.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Ezin izan da formularioa irakurri.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Aginte-panela</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Azken edukiak</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Ezin izan dira zenbaketak irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Berrikusteko atxikita</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Berriak gaur</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Berrikusteko atxikipena ez dago oraindik konfiguratuta (6.0.15-review-hold eguneratze-urratsa).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Azken eduki guztiak</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Ezin duzu moderazio-ekintzarik exekutatu (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Moderazio-ekintza ez dago osatuta: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderazioa: %action %count objektutan</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done / %total objektu: %ok eginda, %refused ukatuta, %failed huts eginda</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok eginda, %refused ukatuta, %failed huts eginda</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Ez da existitzen jada.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Ez du kokapenik (argitaratu gabea).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Ezin duzu ezkutatu (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Ezin duzu erakutsi (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Ezkutatuta dago jada.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Ez dago ezkutatuta.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Ezkutatuta.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Erakutsita.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Zakarrontzian dago: hustu edo leheneratu han.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Inoiz argitaratu ez den zirriborro bat ezin da zakarrontzira joan: ezabatu.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Ezin duzu ezabatu (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Ezabatuta.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Ezin duzu kendu (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Azpi-elementuak ditu: kendu eduki-egituran, han zerrendatzen baitira.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Ez da kendu (lan-fluxu batek kentzea atxiki dezake).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Zakarrontzira eramana.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Atala ez da existitzen.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Atal honetan dago jada.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Ezin duzu atal hau esleitu (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Ez da atala esleitu.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Atala esleituta.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Egoera ez da existitzen.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Egoera honetan dago jada.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Ezin duzu egoera hau esleitu (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Ez da egoera esleitu (lan-fluxu batek aldaketa atxiki dezake).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Egoera esleituta.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Ez dago horrelako ekintzarik.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Berrikusteko atxikipena ez dago konfiguratuta (6.0.15-review-hold eguneratze-urratsa).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Esan zergatik dagoen atxikita.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Atxikita dago jada.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Ezin duzu atxiki (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Ez da atxikipena ezarri (lan-fluxu batek aldaketa atxiki dezake).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Atxikita.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Ez dago atxikita.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Ezin duzu askatu (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Ez da atxikipena askatu (lan-fluxu batek aldaketa atxiki dezake).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Askatuta; ezkutatuta jarraitzen du: ezin duzu erakutsi (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Askatuta.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Helburu guztiak</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Azken argitalpena</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Argitaratu zure gunearen kopia estatiko bat doan GitHub Pages-en:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Orri zaharkituak</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Argitalpen estatikoa</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Argitalpen estatikoa desaktibatuta dago.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Helburua</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ezin izan dira helburuak irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>zeregin bat abian dago</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>egiaztatzeko konpilazioa</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ezkutatu hau</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>sortu helburu bat</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>inoiz ez</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>irakurri tutoriala</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added gehituta, %changed aldatuta, %removed kenduta</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes / %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Beste %count ez dira zerrendatzen.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages orri idatzita</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path fitxategiak %size ditu, zerbitzariak fitxategi bakoitzeko onartzen duena baino gehiago.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>Mugaren %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag da guneak orain duen argitalpena.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: %id zeregina</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/biltegia/ GitHub proiektu-gune baterako; hutsik domeinu propio baterako edo erabiltzaile-gune baterako.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Gunea</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Zerbitzaria</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Biltegian saioa hastea</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Biltegia</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Estekak eta oinarrizko bidea</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Zure domeinu propioa</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Zer duen konpilazioak</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Noiz argitaratzen den</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Berrikusi eta gorde</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub proiektu-gune bat /&lt;repository&gt;/ azpian dago; esteka erlatiboek bertan eta beste edozein lekutan funtzionatzen dute.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Konpilazio batek %site guneko orri guztiak eskuratzen ditu saioa hasi gabeko bisitari batek ikusten dituen bezala, estekak berridazten ditu, fitxategiak kopiatzen ditu eta emaitza helburuaren karpetan idazten du. Ez da ezer argitaratzen konpilazioa egiaztatu eta Argitaratu sakatu arte.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron adierazpen bat, adibidez 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Hedapen-gakoa %secret sekretu gisa gordetzen da.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Hedapen-gako batek instalazio honi biltegi bakar batera SSH bidez bidaltzeko aukera ematen dio, eta ez beste inora. Haren erdi pribatua Konfigurazioa &gt; Sekretuak atalean geratzen da; erdi publikoa bakarrik erakusten da.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Helburu honetarako sortutako hedapen-gakoa</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Hedapen-gako batek SSH bidez hasten du saioa: aldatu git helbidea SSH helbidera (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Zeregin bat abian dago, %user erabiltzaileak hasia</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Helburu honen zeregin bat abian dago oraindik (%detail). Itxaron amaitu arte.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Helburu honen zeregin bat abian dago oraindik. Itxaron amaitu arte.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ orritik /about-us/team orrirako esteka honela idatziko da:</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Hedapen-gako berri bat sortu da. Gehitu orain haren erdi publikoa biltegira.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Garbiketaren ondoren arazketa-irteera, inprimaki-token bat edo saio-ID bat duen orria ez da inoiz argitaratzen.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Desegitea adituentzat da: markatu &quot;Badakit honek zer aldatzen duen&quot; eta idatzi berriro etiketaren izena.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Gune batek %site arte izan ditzake, fitxategi batek %file arte, eta hilean 100 GB inguruko trafikoa. Doako plan batean biltegiak publikoa izan behar du. GitHub Pages ez dago dendetarako edo bestelako transakzio komertzialetarako pentsatuta.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Helburu bat git biltegi batean argitaratutako gune bat da. Hemen ez da ezer konpilatzen edo argitaratzen: Gorde botoiak ezarpenak settings/override/staticcache.ini.append.php fitxategian idazten ditu.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Helburu bat leku batean argitaratutako gune bat da, adibidez zure gune publikoa GitHub Pages-en.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Konfigurazioa &gt; Sekretuak ataleko token bat</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Biltegiko lan-fluxu batek argitaratzen du.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Gehitu gako publiko hau biltegira idazteko baimenarekin. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, markatu Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Gehituak</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Beste git zerbitzari bat</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Beste prozesu bat ari da helburu honekin lanean: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Atzera</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Oinarrizko bidea</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Aurretik</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Oinarrizko bide baten azpian</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Adarra</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Esteka hautsiak</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Konpilazioko esteka hautsiak</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Konpilazioa</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>%id konpilazioa, %user erabiltzailearena</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Konpilatu %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Konpilatu orain</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Egiaztatzeko konpilazioa</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Nork</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Eskuz, hemen</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Utzi</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Aldatu</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Aldatuak</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Aldaketak</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Egiaztatu lehenik</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Egiaztatu ezarpen hauek</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Egiaztatu konpilazioak zer aldatzen duen, begiratu, eta gero argitaratu edo baztertu.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Aukeratu zein argitalpenera itzuli.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Geroagoko bertsio batean etorriko da.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Baieztapena</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Baieztapenak</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Konpilazioa baieztatzen du, etiketatzen du eta %remote helbidera bidaltzen du. Bidalketa ez da inoiz behartzen; geroago edozein argitalpenera itzul zaitezke.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Aurreko karpetarekin alderatuta: %added gehituta, %changed aldatuta, %removed kenduta, %unchanged aldatu gabe.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Azken argitalpenarekin alderatuta.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kredentziala</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domeinu propioa</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Arazketa-irteera, inprimaki-tokenak, saio-IDak eta nonce-ak beti kentzen dira.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Hedapen-gakoa</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name helburuaren hedapen-gakoa</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Baztertu</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Baztertu konpilazioa</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domeinua</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Hutsik: gunearen helbidea. Bestela, gune bereko barne-helbide bat.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Amaiera</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Esteka guztiak oinarrizko bidearekin hasten dira.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Argitalpen bakoitza static/%id/&lt;n&gt; etiketa duen baieztapen bat da. Atzera itzultzeak baieztapen berri bat sortzen du aurreko argitalpen baten fitxategiekin: historia geratzen da, ez da etiketarik mugitzen eta ez da ezer behartzen.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Gehigarriak</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Eskuratu orriak hemendik</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fitxategia</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fitxategiak</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Falta diren fitxategiak</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Honen fitxategiak:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Bildu ezin izan diren fitxategiak</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Hatz-marka</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Karpeta</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH helbide baterako. Gakoa gorde ondoren sortzen da; zuk gehitzen duzu haren erdi publikoa biltegira.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// helbide baterako. GitHub: biltegian Contents irakurtzeko eta idazteko baimena duen token xehatu bat.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Adituentzat. Gune publikoa bidalketa amaitu bezain laster aldatzen da.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Inprimakiak</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Doako ostatua GitHub biltegi batetik.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Adarretik</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git helbidea</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages-ek %site arteko gunea eta %file arteko fitxategia onartzen ditu.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages-en mugak</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages-ek fitxategiak dauden bezala argitaratzen ditu (_ karakterearekin hasten diren fitxategietarako beharrezkoa).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub-ek adarra bidali den bezala zerbitzatzen du. Lehenetsia.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, zure zerbitzari propioa: edozein git biltegi.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Itzuli aurreko argitalpen batera</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Laguntza</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Laguntza morroiarekin</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Ezkutatu</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name helburuaren historia</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Zerbitzaria</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Nola jasotzen duen GitHub Pages-ek konpilazioa</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Aldaketak egiaztatu ditut</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Badakit honek zer aldatzen duen</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>IDa</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Desaktibatuta dago: ezin da ezer konpilatu aktibatu arte.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Atzeko planoan exekutatzen da %user gisa; orri hau itxi dezakezu.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>%id zeregina</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>%secret sekretu gisa gordeta.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Mota</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Azken argitalpena</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Baztertu orri hauek</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Baztertu atal hauek</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Estekak</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Berridatzitako estekak</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Zuzeneko gunea</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Ikusi konpilazioa</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Letra xeheak, digituak, _ eta -, adibidez github-public. Karpetari eta etiketei (static/&lt;id&gt;/&lt;n&gt;) ematen die izena, eta ezin da geroago aldatu.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Sortu gako berri bat</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Sortu helburu bat</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Sortu gakoa</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Sortu lehenik biltegia zerbitzarian; hutsik egon daiteke.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifestua</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mezua</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Orri gehienak</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Izena</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Tokenaren izena Konfigurazioa &gt; Sekretuak atalean</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Helburu berria</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Hurrengoa</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ez</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Ez dago baieztapenik oraindik.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Ez da gakorik sortu: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ez da php komando-lerroko bitarrik aurkitu. Ezarri migration.ini [AdminSettings] PhpCliPath haren bide osora.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Ez dago etiketarik oraindik.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Ez dago helbururik oraindik.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Bat ere ez</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ez dago konpilazioan.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Ez da ezer argitaratu oraindik.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Ez da ezer argitaratu oraindik: fitxategi guztiak berriak dira.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Jakinarazi</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Programazio baten arabera</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Kontsolan</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Zerbitzarian: ./console exp:static:serve %id komandoak modu berean zerbitzatzen du.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Bide bat lerro bakoitzeko, * edozein zatirekin bat dator: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Helburuarekin izen bat bakarrik gordetzen da; tokena edo gakoa bera Konfigurazioa &gt; Sekretuak atalean geratzen da eta ez da inoiz egunkari batean agertzen.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Orriek aipatzen dutena bakarrik</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Token batekin bakarrik. env:NAME zerbitzariaren ingurune-aldagai bat irakurtzen du horren ordez.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Ireki aurrebista</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Konpilazioa zerbitzariak zerbitzatuko duen bezala irekitzen du, helburuaren karpetatik. Estekak ordubetez funtzionatzen du zuretzat.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Aukerakoa. Hutsik: argitaratu zena.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Aukerakoa. Domeinu batekin, gunea haren erroan zerbitzatzen da.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Irteera</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Orriak</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Helburuaren orriak</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Baztertutako orriak</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Ondorengo prozesamendua</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Aurrebista</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Aurrebista eta argitalpena</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name: aurrebista eta argitalpena</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Konpilazioaren aurrebista</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Aurrerapena</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Helbide publikoa</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Gako publikoa</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Argitaratu</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Argitaratu gune baten kopia estatiko bat GitHub Pages-en edo edozein git zerbitzaritan: konpilatu, egiaztatu aldaketak, argitaratu, eta itzuli aurreko argitalpen batera behar duzunean.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Itzultzeko argitalpena</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Argitalpenak</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Bidalketa</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Irakurri tutoriala</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Erregistroa</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Baztertuak</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Erlatiboa</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Birkargatu</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Kenduak</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Ordeztu gakoa: zaharrak funtzionatzeari uzten dio</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Txostena</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Konpilazioaren txostena</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Biltegia</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Berrikuspena</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Berrikuspenak ezarpen guztiak egiaztatzen ditu eta idatziko diren lerroak erakusten ditu. Oraindik ez da ezer gorde.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Desegin</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Desegitea</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Gorde</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Programazioa</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Bilaketa-orria</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Atalen IDak, komaz bereizita.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Bidali zuzeneko gunera</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Ezarpena</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ezarpenak</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name helburuaren ezarpenak</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurazioa</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Konfigurazioa &gt; Sekretuak</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Zerrendetan erakusten da, adibidez &quot;Gune publikoa GitHub Pages-en&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App batekin saioa hastea GitHub integrazioarekin etorriko da.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Gunea</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Argitaratzeko gunea</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Tamaina</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Tamaina eta mugak</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Konpilazioaren tamaina</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Orri zaharkituak</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Hasiera</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user erabiltzaileak hasia, %time-(e)an.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Egoera</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Argitalpen estatikoa</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Argitalpen estatikoa desaktibatuta dago</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Argitalpen estatikoa desaktibatuta dago.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Argitalpen estatikoa desaktibatuta dago. Aktibatu lehenik Konfigurazioa &gt; Argitalpen estatikoa atalean.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Argitalpen estatikoa aktibatuta dago.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%step. urratsa / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Urratsak</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Garbiketa</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Desaktibatu</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Aktibatu</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Aktibatu argitalpen estatikoa</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Etiketak</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Helburua</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Helburuak sortu eta alda daitezke, baina ez da ezer konpilatzen edo argitaratzen aktibatu arte.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Bilatzaileei zer irakurri behar duten esaten die.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Ezin izan da konpilazioa baztertu: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Konpilazioa azken argitalpenaren berdina da: ez dago argitaratzeko ezer.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Konpilazioa baztertu da: karpetak azken argitalpena du berriro.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Balio lehenetsiak gune gehienetarako egokiak dira.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Karpetak oraindik argitaratu gabeko konpilazio bat du; konpilazio berri batek ordezten du.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Ezin da zereginen karpetan idatzi: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Ezin izan da zeregina prestatu: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Ezin izan da zeregina abiarazi.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Zeregina amaitu da. Bere txostena kargatzen.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Zereginak saioa hasita duen erabiltzaile bat behar du.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Zeregina abiarazi da, baina ez du bere prozesu-IDa jakinarazi. Egiaztatu %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Gakoa</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Fitxategirik handiena: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Idatziko diren lerroak</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Bilatzaileentzako orrien zerrenda; helbide publikoa behar du.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Orriak saioa hasi gabeko bisitari batek ikusten dituen bezala eskuratzen dira. Administrazio- eta edizio-siteaccessak ez dira inoiz eskaintzen.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Ezin izan da aurrerapena jarraitu. Birkargatu orria zeregina nola doan ikusteko.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Gakoaren erdi publikoa:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Adarraren erroa</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Sekretuen biltegia ez dago konfiguratuta oraindik (./console exp:upgrade --apply komandoak sortzen du bere taula), beraz ezin da gakorik gorde.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Zerbitzariak berak hasten du saioa (bere SSH gakoarekin edo kredentzial-laguntzailearekin), edo biltegia zerbitzari honetan dago.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Ezin izan da ezarpena idatzi: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ezarpenak baliozkoak dira. Lerro hauek idatziko dira:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Ezin da ezarpen-fitxategia irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Gunea argitalpen horren fitxategietara itzultzen da; oraindik argitaratu gabeko konpilazio bat lehenik argitaratu edo baztertu behar da.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Gunearen beraren orria existitzen ez diren helbideetarako.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Ezin izan da helburua gorde: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Helburuak ez du oraindik gako honekin saioa hasten: aukeratu &quot;Helburu honetarako sortutako hedapen-gakoa&quot; haren ezarpenetan.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ezin izan dira helburuak irakurri: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Ez dago egiaztatzeko konpilaziorik oraindik.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Instalazio honek ez du siteaccess publikorik. Administrazio- eta edizio-siteaccessak ez dira inoiz argitaratzen.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Orri honek zeregina jarraitzen du aurrera doan bitartean; atzeko planoan jarraitzen du orria ixten denean.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Helburu honek ez du hedapen-gakorik oraindik.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Helburu hau ez da hemen konpilatu oraindik.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Helburu honek badu bat.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Konpilazio hau baztertzen du: karpetak azken argitalpena du berriro. Zuzeneko gunea ez da aldatzen.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Markatu lehenik &quot;Aldaketak egiaztatu ditut&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ordua</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Abiarazleak</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Idatzi berriro etiketaren izena</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Aldatu gabeak</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhooka</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Zer</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Zer aldatzen den</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Fitxategi bakoitza zer den; beti idazten da.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Zereginak zer egin zuen eta bere erregistroa. Hemen hasitako zeregin batek atzeko planoan jarraitzen du orri hau ixten denean.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Zereginak errore gisa inprimatu zuena</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Orriek aipatzen dutena, eta argitaratutako edukiaren irudi guztiak</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Noiz</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Argitalpen batek huts egiten duenean</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Argitalpen bat ondo ateratzen denean</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Edukia argitaratzen denean</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kopiak ez duenerako estekak nora doazen (bilaketa, saio-hasiera).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Kopia estatikoa nondik zerbitzatzen den.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Zein gune argitaratzen den, eta helburuak zer izen duen.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Edozein bideren azpian funtzionatzen du. Lehenetsia.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Domeinu propio bat ezarrita dagoen bakoitzean idazten da.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Bai</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Beti konpila eta argitara dezakezu eskuz hemen eta kontsolan.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>izen bat bakarrik; balioa Konfigurazioa &gt; Sekretuak atalean geratzen da</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path azpian</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>txostenik gabe amaitua</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>gehigarria</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>huts egin du</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fitxategia</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, edo main docs karpetarekin.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git zerbitzaria</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (token batekin) edo git@github.com:owner/repo.git (hedapen-gako batekin); inoiz ez pasahitzik edo tokenik barruan.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, gune-maparako eta esteka kanonikoetarako.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>irudia</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>inoiz ez</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ez</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>urruneko biltegirik ez</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>bat ere ez: baieztapenak karpetan geratzen dira</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>bat ere ez: ez da ezer aldatu</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>bidali gabea</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ez da ezer aldatu</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>orria</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>gainditua</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open desgaituta dago, beraz ezin da hemen zereginik abiarazi. Erabili ./console exp:static:build zerbitzarian.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>argitalpena</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>argitaratua</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>bidalketa zain</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>bidalia</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>baztertua</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>erlatiboa</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>desegitea</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>desegina</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>abian</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>karpeta bakarrik</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME fitxategian idazten da. Bideratu domeinuaren DNSa zerbitzarira hark azaltzen duen bezala; HTTPS aktibatzeko denbora pixka bat behar izan daiteke.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>bai, oraindik argitaratu gabea</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App bat</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Biltegiko lan-fluxu batek argitaratzen du. Konpilazioak lan-fluxuaren fitxategia idazten du; utzi karpeta hutsik.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Helburu bat GitHub biltegi batekin eta token edo GitHub App batekin gorde ondoren, urrats honek biltegia sor dezake eta GitHub Pages aktiba dezake. Bestela, sortu lehenik biltegia GitHub-en; hutsik egon daiteke.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Adarra ala GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Egiaztatu DNSa</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Sortu biltegia ez badago</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Sortu biltegia GitHub-en eta aktibatu GitHub Pages haren ezarpenetan (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>%repo biltegia sortzen du falta bada (eskatzen bada), GitHub Pages aktibatzen du adarretik edo GitHub Actions-etik gordetakoaren arabera, eta domeinu propioa eta HTTPS ezartzen ditu. Gordetako ezarpenak erabiltzen ditu: gorde lehenik aldaketak.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Xehetasunak GitHub-en</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Idatzi lehenik domeinu propioa.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Push bakoitza muga hauen aurka egiaztatzen da lehenik.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub-eko https:// helbide baterako. Instalazio honetarako konfiguratutako App-ak hasten du saioa; instalazioaren IDa behar du.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages-ek biltegi pribatua ordainpeko plan batean bakarrik zerbitzatzen du.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: azpidomeinu batek (www.example.com) &lt;owner&gt;.github.io-rako CNAME erregistro bat behar du; domeinu nagusi batek (example.com) A erregistro hauek: %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App-aren instalazio IDa</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Pages-en azken konpilazioa</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Mugak eta baldintzak</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Beharrezkoa GitHub Pages doako plan batean erabiltzeko.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub-en</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App batekin bakarrik: App-aren GitHub-eko instalazioaren helbidearen amaierako zenbakia. App bera staticcache.ini fitxategian ezartzen da (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Pribatua</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Publikoa</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Gorde lehenik helburua GitHub biltegi batekin eta token edo GitHub App batekin.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Ezarri erregistro hauek domeinuaren hornitzailean:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Konfiguratu GitHub-en</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain domeinuaren DNSak ez du oraindik GitHub Pages-era seinalatzen.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain domeinuaren DNSak GitHub Pages-era seinalatzen du.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub integrazioa ez dago erabilgarri hemen: %problem. Adarrean argitaratzeak berdin funtzionatzen du; aktibatu GitHub Pages biltegiaren ezarpenetan.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub urratsak ez daude erabilgarri helburu honetarako: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages-en egoera token edo GitHub App bat kredentzial gisa dagoenean erakusten da.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Erabili zure domeinu propioa</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Zein aukeratu: tokena, hedapen-gakoa ala GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub biltegi batekin eta token edo GitHub App batekin, morroiak biltegia sor dezake, GitHub Pages aktiba dezake eta domeinua ezar dezake zuretzat (4. urratsa).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>konpilatzen</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>konpilatuta</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions-etik</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>%branch adarretik</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>oraindik bat ere ez</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ez da aurkitu</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>desaktibatuta</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>pribatua</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>publikoa</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ilaran</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ezezaguna</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count %pages orritan:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (eta .br) fitxategi bakoitzaren ondoan, hauek zerbitzatzen dituzten ostalarientzat.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Orri bakoitzaren helbide eta alias zahar guztietarako orri txiki bat, esteka zaharrek funtzionatzen jarrai dezaten.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Beti idazten da GitHub Actions-ek gunea entregatzen duenean.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 bezalako SPDX id bat, edo testua bera.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Saskia</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Zerbitzarirako deiak</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Iruzkinak</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Informazioa biltzen duten inprimakiak</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow-a</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Zuriune gutxiago eta iruzkinik gabe orrietan.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Edukiaren lizentzia</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Saioa hasi</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Txikitu</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Beste inprimaki batzuk</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Aurrekonprimitu</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Birbideratze-orriak</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Birbideratze-orriak: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Bilatu</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Bilaketa-indizea: %pages orri %languages hizkuntzatan.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Edukiaren hasharen izena duten estilo-orriak eta scriptak, nabigatzaileek gorde ditzaten.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Aldatutako orriak, azken aldaketaren ondoren minutu batzuetara (staticpublish cronjob zatia).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Edukiaren lizentzia, beheko eremutik.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Gune osoa, egutegiaren orduetan (staticpublish cronjob zatia).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Orrien zati hauek zerbitzari bat behar dute; bakoitzak ordezko bat jaso du. Egiaztatu argitaratu aurretik.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Zer ez dabil estatikoki</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Zer den biltegia, ostalarian irekitzen duenarentzat.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>kanpoan utzita</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ordezko testua</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>zuzeneko gunearen inprimaki-amaiera</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>zuzeneko gunea</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>kopiaren bilaketa-orria</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Ezin izan da inprimakia bidali.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Eskerrik asko: inprimakia bidali da.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Inprimakia ez da onartu: egiaztatu sartutakoa eta bidali berriro.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Kendu kopiak ez dituen orrietarako estekak</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Kendu administraziorako estekak</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Haien testua geratzen da. Irudiak, inprimakiak eta beste guneetarako estekak ez dira inoiz kentzen.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Bertsioa</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Argitaratzeko gune-sarbideak</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Gune-sarbidea</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Erroan</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Ez dago gune-sarbiderik erroan: bakoitza bere karpetan dago, eta erroak haietara estekatzen du</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Gune-sarbideak</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Markatu gune-sarbide bat, edo URI aurrizkiaren bidez ostalari bera partekatzen duten batzuk. Erroan dagoena han zerbitzatzen da, besteak beren aurrizkiaren karpetan (/ger/); haien arteko estekak kopian geratzen dira. Administrazioko gune-sarbideak ez dira inoiz eskaintzen.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%target helburuaren argitalpen estatikoak huts egin du %site gunean</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%target helburuaren argitalpen estatikoa ondo atera da %site gunean</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site guneak bidali du mezu hau, %target argitalpen estatikoaren helburuak eskatzen duelako.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%deploy hedapenak huts egin du %site gunean</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%deploy hedapena ate batean zain dago %site gunean</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%deploy hedapenak arrakasta izan du %site gunean</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Mezu hau %site guneak bidali du, migration.ini [RemoteSettings] Notify[] ezarpenak eskatzen duelako.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Datu-motak (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time zenbatua, berriro %minutes minutu barru</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Datu-mota batek klase-atributu baten balio mota bat gordetzen eta editatzen du: testu-lerro bat, irudi bat, erlazio bat. Nukleoak gehienak ematen ditu, eta hedapenek gehiago gehitzen dituzte. Hemen daude guztiak, nork ematen dituen eta edukiaren zenbat zatik erabiltzen dituen. Datu-baseak erabiltzen duen baina jada ezerk erregistratzen ez duen datu-motak hura duen edukia hausten du.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Klase-taldeak</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Zenbatu berriro orain, azken minutuetako zenbaketak erabili beharrean.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Zenbatu berriro</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ikuspegi orokorra</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Erregistratua</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Erabiltzen ari da</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ez da erabili</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Datu-motak ematen dituzten hedapenak</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Klasearen atributuak</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objektuaren atributuak</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Erregistratu gabe</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Zerrendan, fitxategia falta da</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count datu-mota erabiltzen dira, baina ez daude erregistratuta</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes klase-atributuk eta %object_attributes objektu-atributuk inongo hedapenek edo ezarpenek erregistratzen ez duten datu-mota dute. Haien objektuak ezin dira erakutsi, editatu edo argitaratu. Aktibatu datu-mota ematen duen hedapena, edo aldatu klasea.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Erakutsi hauek bakarrik</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Bilatu datu-mota bat</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifikatzailea, izena, PHP klasea edo hedapena.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Erakutsi</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Guztiak</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Hornitzailea</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Guztiak</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Nukleoa</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ez dago iragazki honekin bat datorren datu-motarik.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Erakutsi guztiak</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Hedapena</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count datu-motatik %shown, %used erabiltzen</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Datu-baseak datu-mota hauetako klase- edo objektu-atributuak ditu, baina content.ini-k ez du horietako bat ere zerrendatzen, edo haren fitxategia falta da.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider hornitzailearen datu-motak</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Datu-mota</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP klasea eta fitxategia</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klaseak</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objektuak</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Bandera</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>bat ere ez</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ez dago bilaketarekin bat datorren datu-motarik. Garbitu bilaketa.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count datu-motatik %shown erakutsita</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Erakutsitako datu-motak: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Ordenatu %column arabera</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time zenbatua</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Datu-mota guztiak</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Laguntza-orria</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Datu-mota hau erabiltzen da, baina ez dago erregistratuta</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Beheko klaseetako objektuak ezin dira erakutsi, editatu edo argitaratu hedapenik datu-mota erregistratzen ez duen bitartean. Aktibatu hura ematen duen hedapena eta gehitu content.ini [DataTypeSettings] AvailableDataTypes[] ezarpenera, edo aldatu klaseak.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini-k datu-mota hau zerrendatzen du, baina datu-moten direktorio batek ere ez du haren fitxategia. Ezerk ez du erabiltzen; kendu AvailableDataTypes[] ezarpenetik edo aktibatu haren hedapena.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Datu-mota honi buruz</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifikatzailea</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Izena</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>%name hedapena</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>inor ez</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP klasea</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fitxategia</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] ezarpenean</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>bai</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ez</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Haren balioaren zutabeak</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Haren klase-atributuaren ezarpenen zutabeak</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Taulak</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Zutabeak eta taulak datu-motaren kodea irakurriz aurkitzen dira: gida bat, ez promesa bat.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Txantiloiak</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Gune-sarbidea</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Txantiloia</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Hemen aurkitua</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>administrazio hau</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>gune lehenetsia</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Gainidazketarik gabe: klasearen edo atributuaren arabera bat datorren gainidazketa-txantiloiak hauen gainetik du lehentasuna.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Erabiltzen duten klaseak (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ez dago datu-mota honetako atributua duen klaserik.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasea</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atributuak</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Klasearen atributuak (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atributua</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ezarpenak</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>IDa: %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Derrigorrezkoa</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Bilagarria</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Itzulgarria</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Informazioa biltzen du</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Erabiltzen duen eduki batzuk</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Azken aldatuak lehenik</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Aldatua</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>%id nodoa</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Itzulpen bakoitzak bere balioa du.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Bilaketak haren balioak indexatzen ditu.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Bisitarien informazioa bil dezake (inprimakiak).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Zerrendak haren arabera ordena daitezke: ordenatze-gakoa %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Ordenagarria</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Haren balioek beste objektu batzuetara seinalatzen dute.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Erlazioak</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Kate arrunt batetik bete daiteke (inportazioa, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Testutik</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Fitxategi batetik bete daiteke.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Fitxategitik</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Haren klase-atributuaren ezarpenak paketeetan sartzen dira.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paketeak</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Edukia (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, guztira %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Iragazi zerrenda</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Klase guztiak</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Atala</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Hizkuntzak</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Jabea</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Argitaratua</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Irauli ordena</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Elementurik ez</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Orriko</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Erakutsi %count elementu orriko.</translation>
     </message>
 </context>
 </TS>

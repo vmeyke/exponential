@@ -2,7 +2,7 @@
 /**
  * File containing the expUnactivatedUsers class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -444,9 +444,19 @@ class expUnactivatedUsers
         $hash = self::newHash();
         $db = eZDB::instance();
         $db->begin();
-        eZUserAccountKey::removeByUserID( $userID );
-        $key = eZUserAccountKey::createNew( $userID, $hash, time() );
-        $key->store();
+        try
+        {
+            eZUserAccountKey::removeByUserID( $userID );
+            $key = eZUserAccountKey::createNew( $userID, $hash, time() );
+            $key->store();
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
 
         if ( $base === null )

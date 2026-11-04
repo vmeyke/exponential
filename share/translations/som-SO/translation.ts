@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Bogan oo keliya ayaa la raadinayaa: %from ilaa %to ee %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Nooc kasta oo xog ah oo kernel-ka iyo kordhinnada, iyo sida fasallada iyo nuxurku u isticmaalaan.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Noocyada xogta</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Bogagga nidaamka sidoo kale waa la calaamadeyn karaa: fur bogga (Habeyn, raadraaca hubinta, liiska isticmaalayaasha ...) oo dooro “Calaamadee boggan” oo ka sarreeya. Calaamadahaas waxay leeyihiin astaanta giirka.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Mar dambe uma haysatid ogolaansho aad boggan halkan ku furto. Ka saar calaamadda, ama maamule ka codso gelitaan.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>U gudub bogga ugu horreeya</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Kale</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7-dii maalmood ee la soo dhaafay</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Muddo gaar ah</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Dhammaan erayada</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Eray kasta</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Weedh sax ah</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Khusayn</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Magaca A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Magaca Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>La beddelay, kuwa ugu cusub marka hore</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>La beddelay, kuwa ugu da'da weyn marka hore</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>La daabacay, kuwa ugu cusub marka hore</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>La daabacay, kuwa ugu da'da weyn marka hore</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>La beddelay</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Shaandhooyin</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Muuji shaandhooyinka</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Qari shaandhooyinka</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Dib u deji</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Dabaq</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Erayo</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Nooca nuxurka</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Muuji wax badan (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Dooro hal nooc oo nuxur ah si aad uga raadiso mid ka mid ah astaamihiisa.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Qaybta</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Laga bilaabo</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ku</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Taariikhda bilowgu ma aha taariikh sax ah.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Taariikhda dhammaadku ma aha taariikh sax ah.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Mulkiile</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Aqoonsiga isticmaalaha, magaca gelitaanka ama ciwaanka e-maylka.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Lama helin isticmaale “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Luqad</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Luqad kasta</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Goobta</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count goobood</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Natiijooyin boggiiba</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Natiijooyinka “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Natiijooyin (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Kala sooc sida</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Kala sooc</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Shaandhooyinka firfircoon</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Ka saar shaandhadan</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Ama dooro shaandhooyin oo dabaq si aad u liis gareyso nuxurka ay la jaanqaadaan.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Shaandhooyinku waxay yareeyaan raadinta marka aad qorto erayo.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Natiijo looma helin “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Natiijo lama helin.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Ka saar shaandho kor ku taal.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tarjumaado</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ficillo</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Tafatir %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Tafatir</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Habeyn &gt; Cronjobs</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Weli ma jiro qayb shaqada cron ah oo socotay: safka shaqooyinka, soo dejinta, ogeysiisyada iyo tusmada raadinta ayaa sugaya. Socodsii php bin/php/installcrontab.php --add --apply, ama ku dar xariiqyada --show crontab-ka.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>Ogeysiisyada xuquuqda daabacaadda ee qorayaasha asalka ah iyo software-ka dhinac saddexaad ee lagu daray Exponential waxaa lagu hayaa faylasha isha iyo faylka LICENSE, sida ruqsadda uu u baahan yahay.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Kuwa soo socda waa liis ka mid ah kuwa wax ku biiriyay Exponential oo shaqadooda ruqsad u siiyay 7x si ay u isticmaasho iyadoo la raacayo shuruudaha heshiiska ruqsadeynta ee eZ Systems Contributor Licensing Agreement. Sida heshiiskan u ogol yahay, 7x waxay mid kasta oo wax-ku-biirin ah dib u qaybisaa iyadoo isticmaalaysa ruqsadda faylka ay ku jirto. Liisku wuxuu magacaabayaa qof kasta oo wax ku biiriyay, macluumaadka xiriirka ee ikhtiyaarka ah iyo faylasha ay wax ku biiriyeen ama ay shaqo ku lahaayeen.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Ka-qaybgalayaasha lagu amaanay shaqadooda Exponential iyo software-ka uu ka soo farcamay, oo ay la socdaan faylasha ay ka qayb qaateen. Tani waa amaan, ma aha ogeysiis xuquuqda daabacaadda: ka-qaybgalka Exponential waxaa loo wareejiyaa Exponential Foundation iyo 7x iyadoo la raacayo Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Fiiro gaar ah: Xirmooyinka lama saari doono rakibaaddooda.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Tijaabi Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Ku biir bulshada Exponential, is-weydaarsiga oo wax ku darso&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Xuquuqda daabacaadda &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; iyo kuwo kale.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Waxaa shaqaysiiya &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Macluumaad dheeraad ah eeg &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Xuquuqda daabacaadda &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; iyo kuwo kale.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Macluumaad dheeraad ah eeg &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Xuquuqda daabacaadda &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; iyo kuwo kale.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Tijaabi Exponential (Ka timid 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Ku biir bulshada Exponential, hel taageero oo wax ku darso&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Xuquuqda daabacaadda &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; iyo kuwo kale.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Fiiro gaar ah: Xirmooyinka lama saari doono rakibaaddooda.</translation>
     <message>
         <source>Help center</source>
         <translation>Xarunta caawimaadda</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Nuxur</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Bogagga dukumentiyada</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Isticmaalayaasha</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Fasalada nuxurka</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Maamulka</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Bogga %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Eeg dhammaan natiijooyinka</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count natiijo</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Hal natiijo</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count soo jeedin</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Soo jeedin ma jirto</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Soo jeedimaha lama soo dejin karin.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Soo jeedimo</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Fiiro gaar ah: Xirmooyinka lama saari doono rakibaaddooda.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Rakibaaddan waa tijaabo dadweyne: qof kasta ayaa laga yaabaa inuu ogaado erayga sirta ah ee maamulaha, erayada sirta ah ee maamulayaashana lama beddeli karo lamana dib u dejin karo. Fadlan halkan ha gelin wax gaar ah.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Qalabkaaga</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dhaqdhaqaaqa amniga</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Fiiro gaar ah: Xirmooyinka lama saari doono rakibaaddooda.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Hagayaal, raadin iyo sida loo soo sheego khalad.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nuxurka cusub</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Nuxurka ugu cusub, waxa loo hayo dib-u-eegis, iyo ficillada xulashada.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Fiiro gaar ah: Xirmooyinka lama saari doono rakibaaddooda.</translation>
         <source>Synchronisations</source>
         <translation>Isku waafajinta</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: barta dhammaadkeeda, schema-da iyo goob lagu tijaabiyo weydiimaha.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Guuritaannada</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Isbeddellada rakibaadda oo loo hayo sida faylal: xaaladdooda, orodyada, orodsii oo dib u celi.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nuxurka cusub</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Nuxurka ugu cusub, waxa loo hayo dib-u-eegis, iyo ficillada xulashada.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Ku daabac nuqul taagan oo goob ah GitHub Pages ama martigeliye git kasta.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Daabacaadda taagan</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Noocyada xogta</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Nooc kasta oo xog ah oo kernel-ka iyo kordhinnada, iyo sida fasallada iyo nuxurku u isticmaalaan.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Fiiro gaar ah: Xirmooyinka lama saari doono rakibaaddooda.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Akoonno aan qofna isticmaalin ama u baahan eegis; Disable ka dhig, fur ama dhoofi.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Diiwaanka hubinta isticmaalayaasha</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Cidda wax beddeshay, gashay ama la diiday, akoon kasta; shaandheyn iyo dhoofin.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Warbixinta gelitaanka</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Cidda gashan, gelitaannada iyo fashilka maalin kasta; isticmaale meel kasta ka saar.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Fiiro gaar ah: Xirmooyinka lama saari doono rakibaaddooda.</translation>
         <source>%n hours ago</source>
         <translation>%n saacadood ka hor</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Jawaabaha weydiimaha kaydsan ee GraphQL API, iyo fasallada nuxurka ee schema-deeda.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Ku daabac nuqul taagan GitHub Pages ama martigeliye git kasta</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Daabacaadda taagan</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Cache-ka taagan wuxuu bogagga ka bixiyaa server-kan. Si aad nuqul taagan oo goob ah meel kale ugu daabacdo, GitHub Pages ama martigeliye git kasta, isticmaal daabacaadda taagan.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Fiiro gaar ah: Xirmooyinka lama saari doono rakibaaddooda.</translation>
     <message>
         <source>last purge</source>
         <translation>nadiifintii ugu dambeysay</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Qoraallada ma qaadan karin quful xaaladda (markii ugu dambeysay %date): mid kastaa wuxuu duugoobay dhammaan natiijooyinka la kaydiyay. %file waa inuu u qoran karaa isticmaale kasta oo goobta ay ku shaqeyso; NFS waxay u baahan tahay NFSv4 ama lockd.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Fiiro gaar ah: Xirmooyinka lama saari doono rakibaaddooda.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Fadhiyada PHP handler-ka ee waqtigoodu dhammaaday waxaa tirtira PHP laftiisu (session.gc_maxlifetime), ma aha bogga ama qaybta cronjob-ka session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Fadhiyada gashan ee isticmaale kasta waxaa lagu taxaa, laguna saaraa, warbixinta gelitaanka, taas oo la shaqaysa maamule kasta oo fadhi.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Fur warbixinta gelitaanka</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ hawlgeliso akoonkaaga.</translation>
     <message>
         <source>None yet</source>
         <translation>Weli midna</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dhaqdhaqaaqa amniga</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Gelitaannadaadii u dambeeyay, isku dayadii fashilmay iyo isbeddellada erayga sirta ah, cinwaanka iimaylka iyo gelitaanka laba-tallaabo ah.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Gelitaannadii u dambeeyay, isku dayadii fashilmay iyo isbeddellada amniga ee akoonkan.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Dib u eeg dhaqdhaqaaqa</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Gelitaanno fashilmay: %count</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ Haddii aad rabto inaad faallooyin u dirto ansaxiyaha ama aad aragto xaaladda, is
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Ka dib marka uu galo, isticmaaluhu waa inuu dooranayaa erayga sirta ah ee cusub kahor inta aanu wax kale samayn. Isticmaal marka aad qof siiso erayga sirta ah ee ku meel gaarka ah.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Dooro sawir jira</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Faylka sawirka shayga aad doorato waxaa lagu koobiyeynayaa goobtan. Shayga kale isma beddelo.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Sawirka “%name” waxaa lagu koobiyeeyay goobtan.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Baadh sawir</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Ku raadi sawirrada magac</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Raadi</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Isticmaal sawirka “%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Isticmaal sawirkan</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ma jiro sawir ku habboon raadintaada.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ Fadlan eeg bogga shuruudaha si aad macluumaad dheeraad ah u hesho.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab-ka lama qorin (%reason). Ku dar sadarradan crontab-ka isticmaalaha goobtu ku shaqeyso, haddii kale safka, soo dhoofsiyada, ogeysiisyada iyo tusmada raadinta weligood ma socon doonaan:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Dib u rakibidda waxaa lagu sameeyaa Kickstarter (%file, kadib php bin/php/kickstarter.php run --apply) ama rakibid cusub.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ hawlgeliso akoonkaaga.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Cache-ka eZJSCore Public Packer</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Kaydka GraphQL (jawaabaha iyo fasallada schema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ hawlgeliso akoonkaaga.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Koobi ka mid ah %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Noocyada xogta</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Nooca xogta %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ hawlgeliso akoonkaaga.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Sawirka SVG lama akhrin karo, ama wax ka mid ah lama tusi karo si ammaan ah.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Sawirka lama koobiyeyn karin. Fadlan isku day mar kale ama la xiriir maamulaha goobta.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Shayga la doortay ma jiro ama looma oggola inaad akhrido.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Shayga la doortay ma laha sawir.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Faylka sawirka shayga la doortay lama akhrin karin.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Sawirka shayga la doortay wuu ka weyn yahay inta goobtani oggolaato: %1 bayt.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ hawlgeliso akoonkaaga.</translation>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>Calaamadda waxaa loo beddelay “%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Boggan waa laga damiyay gelitaankan goobta (%siteaccess). Calaamadda ka fur gelitaan goob oo boggan leh.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Module-ka boggan halkan laguma rakibin ama lama awood gelin.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Boggan mar dambe ma jiro: module-kiisu ma laha muuqaal sidaas ah.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Doorarkaaga midkoodna kuuma oggola inaad furto boggan.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ogolaansho uma haysatid inaad isticmaasho gelitaankan goobta.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Ogolaansho uma haysatid inaad akhrido nuxurka boggani muujinayo.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Bog noocan ah lama calaamadayn karo: wuxuu kaliya ka shaqeeyaa foom, ama waa bog hal mar oo keliya ah.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Cinwaanka boggan ma jiro.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Boggan hadda lama furi karo.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Gaadiidka boostada ayaa diiday %count fariin socodkii ugu dambeeyay. Hubi server-ka boostada iyo site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count dhacdo ayaa sugaya mana jiro socod la diiwaangeliyay oo shaqada cron ee ogeysiisyada ah. Ku dar qaybta shaqada cron “frequent” crontab-ka, ama socodsii exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
         <source>Choose another site or section with the node picker</source>
         <translation>Dooro goob ama qayb kale adigoo isticmaalaya doorashada node-ka</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Maamulaha nidaamka oo keliya ayaa beddeli kara milkiilaha: socodsii ./console exp:content-check --fix-permissions --apply adigoo ah root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
     <message>
         <source>empty</source>
         <translation>madhan</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Furaha saxiixa wuxuu jiray in ka badan sannad: ku beddel exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
         <source>Share of page time</source>
         <translation>Saamiga waqtiga bogga</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>waxaa la codsaday soo bandhig buuxa</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>cache-ka bogga ma uusan haysan bogga (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>cache-ka bogga ma uusan jawaabin</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>La soo bandhigay</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Waxaa soo bandhigay kernel-ka: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Waxaa laga bixiyay cache-ka bogga %ms ms gudahood. Bogga waxaa la kaydiyay %stored, soo bandhig qaatay %render ms, %age s ka hor.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Hadda soo bandhig</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Ku noqo muuqaalka cache-ka</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Soo bandhigii %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Codsigan: waxaa laga bixiyay cache-ka bogga %ms ms gudahood.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Isticmaale</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID-ga isticmaalaha</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Astaanta kaydka</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Muuqaalkan</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Cache-ka aragga</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>isticmaale kasta (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Astaanta kaydka isticmaalaha: isticmaalayaasha astaanta isku mid ah leh waxay wadaagaan faylasha kaydka muuqaalka</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>haa</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>maya</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Gal</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Soo galay</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Fadhi</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Qaybaha furaha kaydka muuqaalka nuxurka ee ku xiran isticmaalaha, sida saxda ah ee furuhu u qaato, iyadoo la raacayo ViewCacheTweaks ee boggan. Isticmaalayaasha astaanta isku mid ah leh waxay wadaagaan faylasha kaydka muuqaallada, haddii aysan kala duwanayn qaybaha muuqaalka laftiisa (doorbidyada, furayaasha dhegaystayaasha): kuwaasi waxay leeyihiin astaan u gaar ah, boggan oo keliya.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Astaan</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Muuqaalkan (noodhka %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: isticmaale kasta oo soo galay wuxuu leeyahay faylal kayd oo u gaar ah.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks shaqeynaya: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Qayb</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Qiimo</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Qayb kuma xirna isticmaalaha (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>muuqaalkan</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>U koobiyee qoraal ahaan</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Doorar</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Lama akhrin karin wax magacaabis door ah.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Aqoonsiga doorka</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Doorka</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Xaddidaad</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Loo xilsaaray</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>isticmaalaha</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>kooxda %name (shayga %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Waa la koobiyeeyay</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Lama koobiyeyn karin.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>dhegayste ayaa ka saaray</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Booqdayaasha aan la aqoon</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>la mid ah kaaga</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ka duwan</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Astaanta ay booqdayaasha aan la aqoon helaan iyadoo la raacayo isla ViewCacheTweaks, doorbidyada caadiga ah, iyadoo aan qaybaha muuqaalka la raacin: dhegayste akhriya fadhiga laguma weydiin karo.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Doorbidyada</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Hab muuqaal kuma xirna doorbidyada isticmaalaha (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Doorbidyada ay ku xiran yihiin muuqaallada hababkan muuqaalka (CachedViewPreferences), qiimaha isticmaalaha ama kan caadiga ah. Waxay astaanta ugu jiraan sida userpreferences, kuwa dhammaan hababka muuqaalka oo wada jira.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Habka muuqaalka</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Doorbid</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Caadi</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Siyaasado</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Muuji siyaasadaha doorarka (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Siyaasadaha waxaa laga soo raraa server-ka marka qaybtan la furo, hal bog mar kasta, waxaana lagu shaandheyn karaa moodal iyo hawl.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Shaqo</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Dhammaan module-yada</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Dhammaan hawlaha</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Xadidaado</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Muuji wax badan</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Doorarkan ma laha siyaasado.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Siyaasad la jaanqaada shaandhada ma jirto.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown ka mid ah %matching siyaasadood (wadar ahaan %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>La soo rarayaa marka la furo.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>moodal/shaqo, door, xaddid</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Raadi siyaasadaha</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Soo rar dheeraad ah</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Moodal/shaqo</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Dhammaan doorarka (%count siyaasad)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ma jirto siyaasad is waafaqda.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown ka mid ah %matched siyaasad</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Jawaab ma jirto</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>la qariyay</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Muuji sharraxaadaha</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Qari sharraxaadaha</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Fur</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Fur dhammaan</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Xidh dhammaan</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Fure ama qiimo</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Ka raadi fadhiga</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Nooca</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count kale</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>si qoto dheer ayuu ugu dhex jiraa, lama muujin karo</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>la gooyay, wadarta %count xaraf</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Waa bilaabmay</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Magaca cookie-ga</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Aqoonsiga fadhiga</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Maareeye</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Waddada kaydinta</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Caadiga PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Muddada nolosha (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie-ga</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>muddada nolosha %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Fadhigaaga PHP ee adiga kuu gaarka ah, sidii uu ahaa markii qaybta la furay, weligiis mid kale maaha. Qiimaha furayaasha u eg sir (tokens, hashes, ereyada sirta ah) waa la qariyaa (debugbar.ini SessionMask[]); wax kasta oo kale waxaa loo muujiyaa sidii loo kaydiyay, xogta shakhsiga ah sidoo kale.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count fure, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>weyn</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Fadhigu waa madhan yahay.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Fadhi looma bilaabin codsigan.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Kordhin %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Xudunta iyo kuwo kale</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Dhammaan gelitaannada lama muujin: fadhigu wuxuu leeyahay wax ka badan inta halkan lagu taxi karo.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count fure lama taxin.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Qaabka</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Qiimayaasha u eg token (JSON Web Token, aqoonsiyada madaxa Authorization, fure gaar ah, qoraal dheer oo hex ah ama aan kala sooc lahayn) sidoo kale waa la qariyaa, wax kasta oo furahooda loogu yeero (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Furuhu wuxuu u eg yahay sir (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Qiimuhu wuxuu u eg yahay token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Ka hooseeya fure la qariyay.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Fadhiga oo qoraal ah, loo qariyay sida shaxda.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Fadhigu wuu ka weyn yahay %size (debugbar.ini SessionWarnBytes): codsi kasta oo isticmaalahan ah wuxuu akhriyaa fadhiga oo dhan, wuxuuna qoraa marka uu isbeddelo.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP wuxuu fadhigan ku hayaa faylal wuxuuna xiraa faylka inta codsiga oo dhan socdo: codsiyada isla isticmaalaha (dhowr tab, wicitaannada AJAX) way is sugaan.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Furan ku hay</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Ka weyn %size (debugbar.ini SessionWarnBytes): codsi kasta oo isticmaalahan ah wuxuu akhriyaa fadhiga oo dhan.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits ka mid ah %count waxaa laga akhriyay cache-ka</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Template lama soo bandhigin (muuqaal laga akhriyay cache-ka muuqaallada midna ma soo bandhigo).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Meel dhigista doorarka</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Doorarka iyo siyaasadaha</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>way ka duwan tahay booqdayaasha aan la aqoon</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>la mid ah booqdayaasha aan la aqoon</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
     <message>
         <source>not sent</source>
         <translation>lama dirin</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Shaqada cron ee ogeysiisyadu halkan ayay ku diiwaangelisaa socod kasta oo ay samayso. Ku dar qaybta frequent crontab-ka, ama socodsii exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Isticmaal console-ka: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Mawduucan lama sii dayn; akhristayaashu ma arkaan.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Guuritaannada</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Isbeddellada rakibaadda oo loo hayo sida faylal: xaaladdooda, orodyada, orodsii oo dib u celi.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Ku daabac nuqul taagan oo goob ah GitHub Pages ama martigeliye git kasta.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Daabacaadda taagan</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Dib-u-eegis ku jira</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Akhristayaashu way arkaan boggan.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Waa ka qarsoon yahay akhristayaasha ilaa qof sii daayo.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Boggu hadda wuxuu ku jiraa Dib-u-eegis. Waa ka qarsoon yahay akhristayaasha ilaa la sii daayo.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Boggii waa la sii daayay: akhristayaashu hadda way arkaan.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Boggu mar kale waa Qabyo. Waa ka qarsoon yahay akhristayaasha ilaa dib loo eego oo la sii daayo.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Hadda sii daa</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Kaliya isticmaale leh doorka %role oo aan qorin noocan ayaa sii dayn kara.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Mawduucyada caawimaadda ee sugaya sii deynta</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Waxay ka qarisaa akhristayaasha ilaa mar kale la sii daayo.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Dib-u-eege ayaa marka xigta hubiya. Akhristayaashu weli ma arkaan.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Akhristayaashu isla markiiba way arkaan.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Waxay ka saartaa dib-u-eegista si shaqo dheeraad ah loogu qabto. Akhristayaashu ma arkaan.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Ma ka qarinaysaa boggan akhristayaasha?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Ma dib ugu celinaysaa boggan Qabyo?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Akhristayaashu mar dambe ma arkaan %title ilaa qof mar kale sii daayo.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title wuxuu dib ugu noqonayaa Qabyo si shaqo dheeraad ah loogu qabto. Akhristayaashu weli ma arkaan, wuxuuna u baahan yahay dib-u-eegis cusub ka hor inta aan la sii dayn.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Jooji</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Mawduucyadani waxay ku jiraan Dib-u-eegis. Akhristayaashu way arkaan marka qof aan qorin nooca hadda jira uu sii daayo.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
         <source>None.</source>
         <translation>Midna.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>iyadoo la adeegsaday app xaqiijin</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>iyadoo la adeegsaday koodh iimayl lagu soo diray</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>iyadoo la adeegsaday koodh soo celin ah</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>iyadoo la adeegsaday furaha gelitaanka (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>iyadoo la adeegsaday akoon dibadeed</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dhaqdhaqaaqa amniga</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Waxaa loo muujiyaa sida shabakaddiisa; cinwaanka waxaa loo kaydiyaa sida ay dejimaha ilaalinta xogta ee goobtu sheegaan.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Lama diiwaangelin</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Goobta</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>qiyaas ahaan</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
         <source>Manage devices</source>
         <translation>Maamul qalabka</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>iyadoo la adeegsaday app xaqiijin</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>iyadoo la adeegsaday koodh iimayl lagu soo diray</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>iyadoo la adeegsaday koodh soo celin ah</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>iyadoo la adeegsaday furaha gelitaanka (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>iyadoo la adeegsaday akoon dibadeed</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dhaqdhaqaaqa amniga</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Lama diiwaangelin</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Goobta</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>qiyaas ahaan</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
         <source>View the sessions of this user</source>
         <translation>Eeg fadhiyada isticmaalahan</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Akoonkaaga %login ee %site hadda ayaa loo isticmaalay in lagu galo meel aanu dhawaanahan ka soo gelin:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Goobta qiyaasta ah</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ku shaqeeya %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Warbixinta gelitaanka</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Furaha gelitaanka lama hubin karin. Fadlan isku day mar kale.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Akoonnada ku gala furayaasha gelitaanka oo keliya halkan kuma isticmaali karaan erayga sirta ah: dooro “Ku gal fure gelitaan”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Furayaasha gelitaanka ee %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Furayaasha gelitaanka ee akoonkani ku galo. Baabi&apos;i kan ku jira qalab lumay ama la xaday: mar dambe laguma geli karo. Kuwa cusub milkiiluhu isagu ayaa ku dara.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Akoonkaagu wuxuu u baahan yahay fure gelitaan</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Ku dar fure gelitaan akoonkaaga</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Ku dar fure gelitaan si aad u sii wadato. Kadib waxaad ku galaysaa isaga halkii aad erayga sirta ah oo keliya ku geli lahayd.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Ku galidda fure gelitaan way ka dhakhso badan tahay kana ammaan badan tahay erayga sirta ah. Hadda mid ku dar, ama sii wad la&apos;aantiis.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Hadda maya</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Ma la baabi&apos;iyaa furaha gelitaanka “%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Mar dambe laguma geli karo akoonkan. Haddii uu ahaa kii ugu dambeeyay, milkiiluhu wuxuu ku galayaa erayga sirta ah, ama adiga ayaa dejinaya mid cusub.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Baabi&apos;i furaha gelitaanka</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Baabi&apos;i</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Akoonkani ma laha fure gelitaan.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Xaqiijiye</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Aan la aqoon</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Furahaaga gelitaanka ee ugu dambeeya: ku dar mid kale ka hor intaadan ka saarin.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Akoonkani wuxuu ku galaa furayaasha gelitaanka oo keliya (siyaasadda furayaasha gelitaanka): marka midna uusan hadhin, wuxuu mar kale ku galaa erayga sirta ah.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Kani waa furahaaga gelitaanka ee ugu dambeeya, akoonkaaguna ma geli karo la&apos;aantiis. Marka hore ku dar fure gelitaan oo kale.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Furaha gelitaanka “%name” waa la baabi&apos;iyay. Mar dambe laguma geli karo akoonkan.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
         <source>Code from your authenticator app</source>
         <translation>Koodhka app-kaaga xaqiijinta</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Waxaad ku dhowdahay inaad xog si joogto ah u tirtirto ama aad nadiifiso diiwaan.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Erayga sirta ah iyo fure gelitaan</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Erayga sirta ah iyo koodh ka yimid app-kaaga xaqiijinta</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Ama:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Biraawsarkan ma isticmaali karo furayaasha gelitaanka. Isticmaal hab kale, ama biraawsar kale.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Marka aad sii wadato, biraawsarkaagu wuxuu ku weydiinayaa mid ka mid ah furayaashaada gelitaanka.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Ku sii wad fure gelitaan</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
     <message>
         <source>Setup</source>
         <translation>Habeyn</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Beddelidda erayga sirta ah ee qofka, ciwaanka iimaylka, furayaasha gelitaanka, gelitaanka laba-tallaabo ah, koodhadhka soo celinta ama furayaasha API, iyo ka bixidda qalabkiisa kale.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Abuurista iyo tafatirka isticmaalayaasha, erayadooda sirta ah iyo qalabkooda, dejinta akoonnada, ansixinta ama diidmada akoonnada cusub, u qoondaynta doorar iyo tafatirka siyaasadaha.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Tirtiridda xogta</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Faaruqinta qashinka, ka saarista walxaha ku jira iyo ka saarista dhowr walxood hal mar.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Ka saarista, daabacaadda iyo kaydinta nuxurka</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Ka saarista nuxurka (sidoo kale qashinka), daabacaadda iyo kaydinta qabyo, waxaa la weydiiyaa marka foomka la diro. Waa dansan yahay si caadi ah.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Ka hor fal xasaasi ah, isticmaale soo galay ayaa mar kale xaqiijiya cidda uu yahay: erayga sirta ah iyo fure gelitaan, ama fure gelitaan la&apos;aan erayga sirta ah iyo koodhka app-ka xaqiijinta. Bogagga shabakadda oo keliya ayaa weydiiya: interface-ka REST, SOAP, WebDAV, gelitaanka expservices iyo khadka amarka marnaba.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Halka ay dejintu khuseyso</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Dejinta loogu talagalay</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Gelitaan kasta oo goobta</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Gelitaanka goobta %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Fur</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Cidda la weydiinayo: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Calaamadee kooxaha isticmaalayaasha si aad u weydiiso xubnahooda oo keliya (tusaale ahaan tifaftirayaasha). Midna lama calaamadin: isticmaale kasta.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Waxaa lagu kaydiyaa settings/override/site.ini.append.php, gelitaan kasta oo goobta. Kaydintu waxay ku weydiinaysaa inaad xaqiijiso inay adiga tahay.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Waxaa lagu kaydiyaa settings/siteaccess/%name/site.ini.append.php. Qiime ku jira settings/override ayaa ka mudnaan badan. Kaydintu waxay ku weydiinaysaa inaad xaqiijiso inay adiga tahay.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ Waxaad u baahan doontaa inaad beddesho fasalka Node-ka adigoo isticmaalaya shaqa
     <message>
         <source>Open the page</source>
         <translation>Fur bogga</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ilaa %to oo ka mid ah %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Magaca gelitaanka ama aqoonsiga isticmaalaha: akoonka dhacdadu ku saabsanayd ama isticmaalaha ficilka sameeyay.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akoon</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ficil</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Ka dib</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Natiijo kasta</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ka hor</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Sameeyaha</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Nadiifi</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Guulaystay</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Dhacdooyinka waxaa la hayaa muddo %days maalmood ah.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Dhacdooyinka waa la hayaa ilaa gacan lagu tirtiro.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Dhacdooyin</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Ficil kasta</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Dhammaan dhacdooyinka akoonkan</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>U dhoofi liiska sida CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Waa fashilantay</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Laga bilaabo</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Cidhiidhi liiska</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Ma jirto dhacdo ku habboon.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Bog kasta</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Diiwaangelinta waa laga damiyay audit.ini ([UserAuditSettings] UserAudit); liisku wuxuu muujinayaa wixii hore loo diiwaangeliyay.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Waa la diiday</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Natiijo</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Muuji</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Miiska diiwaanka hubinta isticmaalayaasha ma jiro. Ku samee php update/common/scripts/6.0/createuseraudittable.php; ilaa markaas faylasha hubintu waxay hayaan dhacdo kasta.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Boggani wuxuu u baahan yahay kaydka xogta SQL; laguma heli karo MongoDB. Faylasha hubintu waxay hayaan dhacdo kasta.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ilaa</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Diiwaanka hubinta isticmaalayaasha</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Isticmaale</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Goorma</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Halkee</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Cidda beddeshay, abuurtay, awood gelisay, damisay, guurisay ama ka saartay akoonkee, cidda gashay ama la diiday, iyo doorarka la qoondeeyay: hal saf dhacdo kasta, iyadoo ay la socdaan goobaha ka hor iyo ka dib. Erayada sirta ah iyo siraha weligood lama diiwaangeliyo.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>koox</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>nidaam</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>aan la aqoon</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sug akoonkaaga</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Koodh soo celin ah ayaa loo isticmaalay in lagu galo akoonkaaga %login ee %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Koodh soo celin ah ayaa la isticmaalay</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akoon</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Cinwaanka qiyaasta ah</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Codso eray sir ah oo cusub si aad mar kale u gasho, ama la xiriir maamulayaasha goobta.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Codso eray sir ah oo cusub</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Koodh kasta oo soo celin ah hal mar oo keliya ayuu shaqeeyaa. Haddii aad lumisay taleefankaaga, mar kale deji app-kaaga xaqiijinta oo koodhadhka cusub ee soo celinta meel ammaan ah ku kaydi.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Isku dayo gelitaan oo fashilmay oo akoonkaaga ah</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Hadda wixii ka dambeeya, gelitaanku wuxuu weydiinayaa koodh marka lagu daro erayga sirta ah. Haddii adigu tan samaysay, waxba uma baahnid inaad samayso.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Haddii ay adiga ahayd oo aad illowday erayga sirta ah, codso mid cusub. Haddii kale, dooro eray sir ah oo ka adag oo shid gelitaanka laba-tallaabo ah.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Haddii aysan adiga ahayn, qof ayaa laga yaabaa inuu yaqaan erayga sirta ah: hadda beddel oo hubi meelaha akoonkaagu ku gashan yahay.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Koodhadhka soo celinta ee haray</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Dib u eeg qalabkaaga</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Digniin amni</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Qof ayaa isku dayay inuu galo akoonkaaga %login ee %site isagoo isticmaalaya eray sir ah oo khaldan %count jeer oo isku xiga.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Dhacdo amni ayaa ka dhacday akoonkaaga %login ee %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Tani waa digniin amni oo ku saabsan akoonkaaga. Waxaa loo diraa isbeddel kasta oo noocan ah lamana demin karo.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waqti</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Gelitaanka laba-tallaabo ah waa laga demiyay akoonkaaga %login ee %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Gelitaanka laba-tallaabo ah waa la demiyay</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Gelitaanka laba-tallaabo ah waa laga shiday akoonkaaga %login ee %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Gelitaanka laba-tallaabo ah waa la shiday</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Akoonkaaga %login ee %site waa la xiray kadib gelitaanno badan oo fashilmay.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Akoonkaaga hadda waxaa ilaaliya erayga sirta ah oo keliya. Haddii aadan adigu tan samayn, mar kale shid gelitaanka laba-tallaabo ah kadib marka aad beddesho erayga sirta ah.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Akoonkaaga waa la xiray</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Fure gelitaan ayaa lagu daray akoonkaaga %login ee %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Qof kasta oo haysta furahan gelitaanka wuxuu geli karaa akoonkaaga isagoo aan isticmaalin erayga sirta ah. Haddii aadan adigu ku darin, ka saar qaybta Furayaasha gelitaanka oo beddel erayga sirta ah.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Fure gelitaan ayaa laga saaray akoonkaaga %login ee %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Mar dambe laguma geli karo akoonkaaga. Haddii aadan adigu ka saarin, hubi furayaashaada gelitaanka iyo qalabkaaga.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Fure gelitaan ayaa lagu daray akoonkaaga</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Fure gelitaan ayaa laga saaray akoonkaaga</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Dhaqdhaqaaqa amniga</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Dhaqdhaqaaqa amniga ee %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Galay</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Isku day gelitaan oo fashilmay</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ka baxay</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Fadhiyo waa laga saaray</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Gelitaan qalab cusub</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Gelitaan goob cusub</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Aqoonsiga waa la xaqiijiyay (“Xaqiiji inay adiga tahay”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Hubinta aqoonsiga way fashilantay</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Wuxuu ku galay furaha gelitaanka</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Gelitaanka furaha gelitaanka wuu fashilmay</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Gelitaanka waa la diiday: koodhka tallaabada labaad ma jiro ama waa khalad</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Koodhka tallaabada labaad waa khalad</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akoonka waa la xiray kadib gelitaanno fashilmay</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Akoonka waa la furay</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Erayga sirta ah waa la beddelay</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Beddelidda erayga sirta ah way fashilantay</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Erayga sirta ah dib ayaa loo dejiyay</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Eray sir ah oo cusub ayaa la codsaday</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Cinwaanka iimaylka waa la beddelay</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Magaca isticmaalaha waa la beddelay</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Gelitaanka laba-tallaabo ah waa la shiday</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Gelitaanka laba-tallaabo ah waa la demiyay</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Koodh soo celin ah ayaa la isticmaalay</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Koodhad cusub oo soo celin ah</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Erayga sirta ah ee app-ka waa la sameeyey</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Erayga sirta ah ee app-ka waa la buriyey</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Furaha gelitaanka waa lagu daray</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Furaha gelitaanka waa laga saaray</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Akoonka waa la hawlgeliyay</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Akoonka waa la joojiyay</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Dhammaan</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Gelitaannada iyo fadhiyada</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Isbeddellada akoonka</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Wuxuu u baahan yahay fiiro</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>adiga ayaa sameeyay</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>isticmaalaha ayaa sameeyay</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login ayaa sameeyay</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Habka</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Biraawsar</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Nidaamka hawlgelinta</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Qalab</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Goob</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Dal</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Fadhiyada</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Kuwee</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Habka loo diray</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Isku dayo fashilmay</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Koodhadhka haray</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Maamulaha gelitaanka</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dhaqdhaqaaqa amniga</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Dhaqdhaqaaqa amniga ee %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Gelitaannada iyo isbeddellada amniga akoonkaaga. Haddii aad aragto wax aadan samayn, beddel erayga sirta ah oo ka saar qalabka aadan aqoon.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Gelitaannada iyo isbeddellada amniga akoonkan.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Qalabkaaga</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Beddel erayga sirta ah</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Ku noqo akoonka</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Dhaqdhaqaaqa amniga lama diiwaangeliyo</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Waxaa laga akhriyaa log-ka hubinta isticmaalayaasha, kaas oo miiskiisa expuser_audit maqan yahay ama aan lagu taageerin kaydkan xogta. Socodsii php update/common/scripts/6.0/createuseraudittable.php, ama cusboonaysiinta kaydka xogta ee 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days maalmood ee la soo dhaafay</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Gelitaannada %days maalmood ee la soo dhaafay</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Dhaqdhaqaaqii amniga ee u dambeeyay</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Muuji</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>waa fashilantay</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>waa la diiday</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Weli dhaqdhaqaaq amni lama diiwaangelin.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Dhacdooyinka amniga waxaa la hayaa %days maalmood.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Dhacdooyinka amniga waxaa la hayaa ilaa maamule ka saaro.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Soo deji xogtayda gelitaanka</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Fadhiyadaada iyo dhacdooyinka amniga oo ah fayl JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Fadhiyada laguma diiwaangeliyo boggan, sidaas darteed qalab kale lagama saari karin. Hadda beddel erayga sirta ah.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count fadhi oo kale ayaa laga saaray. Hadda beddel erayga sirta ah.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Qalab kale lama gelin. Hadda beddel erayga sirta ah.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Mahadsanid. Dhacdada waxaa lagu calaamadeeyay inay adiga tahay.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Dhacdadaas uma baahna jawaab.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Bogga waqtigiisu wuu dhacay. Waxba lama beddelin; fadlan isku day mar kale.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sug akoonkaaga</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Haddii wax halkan ah aanay ahayn adiga, ka saar dhammaan qalabka kale, kadibna dooro eray sir ah oo cusub. Qalabka lagu hayo I xasuuso sidoo kale waa laga saarayaa.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Qalab kasta marka laga reebo kan waa laga saarayaa codsigiisa xiga. Kadib waxaad doorataa eray sir ah oo cusub.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Haa, ka saar qalabka kale</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ma adigii baa?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Haa, aniga ayaa ahaa</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Maya, sug akoonkayga</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Galay</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Isku day gelitaan oo fashilmay</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ka baxay</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Fadhiyo waa laga saaray</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Gelitaan qalab cusub</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Gelitaan goob cusub</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Aqoonsiga waa la xaqiijiyay (“Xaqiiji inay adiga tahay”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Hubinta aqoonsiga way fashilantay</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Wuxuu ku galay furaha gelitaanka</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Gelitaanka furaha gelitaanka wuu fashilmay</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Gelitaanka waa la diiday: koodhka tallaabada labaad ma jiro ama waa khalad</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Koodhka tallaabada labaad waa khalad</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akoonka waa la xiray kadib gelitaanno fashilmay</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Akoonka waa la furay</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Erayga sirta ah waa la beddelay</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Beddelidda erayga sirta ah way fashilantay</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Erayga sirta ah dib ayaa loo dejiyay</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Eray sir ah oo cusub ayaa la codsaday</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Cinwaanka iimaylka waa la beddelay</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Magaca isticmaalaha waa la beddelay</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Gelitaanka laba-tallaabo ah waa la shiday</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Gelitaanka laba-tallaabo ah waa la demiyay</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Koodh soo celin ah ayaa la isticmaalay</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Koodhad cusub oo soo celin ah</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Erayga sirta ah ee app-ka waa la sameeyey</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Erayga sirta ah ee app-ka waa la buriyey</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Furaha gelitaanka waa lagu daray</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Furaha gelitaanka waa laga saaray</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Akoonka waa la hawlgeliyay</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Akoonka waa la joojiyay</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Dhammaan</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Gelitaannada iyo fadhiyada</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Isbeddellada akoonka</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Wuxuu u baahan yahay fiiro</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dhaqdhaqaaqa amniga</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Dhaqdhaqaaqa amniga ee %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Gelitaannada iyo isbeddellada amniga akoonkaaga. Haddii aad aragto wax aadan samayn, beddel erayga sirta ah oo ka saar qalabka aadan aqoon.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Qalabkaaga</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Beddel erayga sirta ah</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Dhaqdhaqaaqa amniga weli laguma diiwaangeliyo goobtan.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Gelitaannada %days maalmood ee la soo dhaafay</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Isku dayo fashilmay</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Weli dhaqdhaqaaq amni lama diiwaangelin.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Soo deji xogtayda gelitaanka</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Fadhiyadaada iyo dhacdooyinka amniga oo ah fayl JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Fadhiyada laguma diiwaangeliyo boggan, sidaas darteed qalab kale lagama saari karin. Hadda beddel erayga sirta ah.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count fadhi oo kale ayaa laga saaray. Hadda beddel erayga sirta ah.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Qalab kale lama gelin. Hadda beddel erayga sirta ah.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Mahadsanid. Dhacdada waxaa lagu calaamadeeyay inay adiga tahay.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Dhacdadaas uma baahna jawaab.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Bogga waqtigiisu wuu dhacay. Waxba lama beddelin; fadlan isku day mar kale.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sug akoonkaaga</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Haddii wax halkan ah aanay ahayn adiga, ka saar dhammaan qalabka kale, kadibna dooro eray sir ah oo cusub. Qalabka lagu hayo I xasuuso sidoo kale waa laga saarayaa.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Qalab kasta marka laga reebo kan waa laga saarayaa codsigiisa xiga. Kadib waxaad doorataa eray sir ah oo cusub.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Haa, ka saar qalabka kale</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ma adigii baa?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Haa, aniga ayaa ahaa</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Maya, sug akoonkayga</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Erayga sirta ah</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Erayga sirta ah iyo koodhka tallaabada labaad</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Interface-ka REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Interface-ka SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Hal gelitaan (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Wuxuu galay ka hor intaan fadhiyada la diiwaangelin</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Warbixinta gelitaanka</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Cidda goobta gashan, inta jeer ee akoonnadu galaan iyo inta ay ku fashilmaan, iyo in isticmaale meel kasta laga saaro. Waxay la shaqaysaa maamule kasta oo fadhi.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Fadhiga waa laga saaray. Qalabku waa inuu mar kale galo.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login waxaa laga saaray %count fadhi.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login ma lahayn fadhi socda.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ma jiro akoon leh ID-gaas, magaca isticmaalahaas ama cinwaanka iimaylkaas.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Kani waa fadhiga aad isticmaalayso. Si aad u dhammayso, ka bax.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Fadhigaas horay ayuu u dhammaaday.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Bogga waqtigiisii wuu dhammaaday. Waxba lama beddelin; fadlan isku day mar kale.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Fadhiyada laguma diiwaangeliyo goobtan (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Miiska expuser_session ma jiro</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Fadhiyada waa la diiwaangeliyaa marka la abuuro: php update/common/scripts/6.0/createusersessiontable.php, ama cusboonaysiinta kaydka xogta ee 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Hadda iyo maanta</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Fadhiyada socda</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Isticmaalayaasha gashan</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Gelitaannada maanta</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Isku dayada fashilmay ee maanta</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Isticmaale meel kasta ka saar</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Fadhi kasta oo akoonka ah wuxuu ku dhammaadaa codsigiisa xiga, xitaa kuwa lagu hayo “I xasuuso”. Isticmaal marka akoon laga yaabo inuu gacan khaldan ku jiro; kadib dib u deji erayga sirta ah.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID-ga isticmaalaha, magaca isticmaalaha ama cinwaanka iimaylka</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Meel kasta ka saar</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Hadda gashan</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Waxaa la muujiyay %limit kuwa ugu dambeeyay ee la isticmaalay.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Isticmaale</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Qalab</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cinwaan</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Galay</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Ugu dambeyntii firfircoon</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ficillo</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Qalabkan</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Lama diiwaangelin</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Ka saar</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Fadhi gashan ma jiro.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days maalmood ee la soo dhaafay</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Gelitaannada iyo isku dayada fashilmay waxaa laga tiriyaa log-ka hubinta isticmaalayaasha, kaas oo aan jirin; fadhiyada cusub ayaa la tiriyaa.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Maalin</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Gelitaanno</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Isku dayo fashilmay</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Fadhiyo cusub</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Maamulaha fadhiga: %handler. Fadhiyada waxaa laga akhriyaa miiska expuser_session, sidaa darteed warbixintu waxay la shaqaysaa maamule kasta.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Dhaqdhaqaaq laga shakiyo %hours saacadood ee la soo dhaafay</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Hal shabakad ayaa ku guuldarreysatay inay gasho %accounts akoon (%count isku day)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akoonka waa la xiray kadib gelitaanno fashilmay</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count gelitaan oo fashilmay hal akoon</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Laga galay %count waddan hal mar</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dhaqdhaqaaqa amniga</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Fadhiyada</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Gelitaannada fashilmay waxaa laga akhriyaa diiwaanka hubinta isticmaalayaasha, kaas oo aan halkan laga heli karin.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Wax laga shakiyo ma jiraan: ma jiro akoon leh gelitaanno fashilmay oo soo noqnoqday, ma jirto shabakad isku dayaysa akoonno badan, ma jiro akoon laga galay waddamo badan.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Digniin amni oo ku saabsan akoonkaaga</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Dhacdo amni ayaa ka dhacday akoonkaaga %login: %event. Haddii aysan adiga ahayn, ku sug akoonkaaga %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Habeyn</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Ka weydii nuxurka goobtan oo keliya beeraha bog u baahan yahay, hal codsi. Schema-du waxay raacdaa fasallada nuxurka; weydiin kasta waxay ku shaqaysaa xuquuqda isticmaalaha soo diray.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API waa ka demsan yahay gelitaankan goobta. Ka shid graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Maktabadda GraphQL (webonyx/graphql-php 15) lama rakibin.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Barta dhammaadka</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Maktabad</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count fasal oo nuxur ah, schema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Weydiin</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Doorsoomayaal (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Maamul</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Jawaab</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Waa socdaa…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Jawaabta lama akhrin karin.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Weydiintu waxay ku shaqaysaa xuquuqdaada, adigoo ku soo galay fadhigan.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count gudaha %seconds il.</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>xad la'aan</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Qoto-dheer</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Adkaan</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Shay liiskiiba</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (caadi %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Codsiyo isticmaale ama fure kasta</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Codsiyo cinwaan qarsoodi kasta</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Isbaaritaan (introspection)</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Weydiimo kaydsan oo keliya</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Weydiinta ugu weyn</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes beyt</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Soo-gelinta ugu weyn</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Ma jiro gelitaan goob %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Isbeddellada waa la shiday gudaha %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Isbeddellada waa la demiyay gudaha %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API waa la shiday gudaha %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API waa la demiyay gudaha %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Dejimaha lama qori karin: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Kaydka jawaabaha waa la nadiifiyay: %count jawaabood ayaa la saaray.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Calaamadee sanduuqa ku xiga weydiinta si aad u saarto.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Weydiinta lama saari karin: weydiin lagu keenay galka PersistedQueryDirectoryList[] waxaa lala saaraa faylkeeda.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Weydiinta kaydsan waa la saaray.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Isbeddellada</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>shidan</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>demsan</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Gelitaannada goobta</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Halka API-ga iyo isbeddelladiisu ka jawaabaan. Badhamadu waxay qoraan graphql.ini, sida ./console exp:graphql:enable iyo exp:graphql:disable sameeyaan.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Gelitaanka goobta</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Beddel</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Dami</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Isbeddellada demsan</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Isbeddellada shidan</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Shid</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Xadadka</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ee gelitaankan goobta.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Kaydka jawaabaha</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Jawaabaha weydiimaha kaydsan, oo loo hayo sida xuquuqda isticmaalaha, oo dhaca mar kasta oo nuxur la daabaco.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Xaalad</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Jawaabaha la hayo</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count jawaabood, %bytes beyt</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Ugu badnaan la hayo</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds il.</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Dhicitaankii ugu dambeeyay</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Nadiifi kaydka jawaabaha</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Weydiimo kaydsan</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Lagu kaydiyay ./console exp:graphql:persist, ama macaamiisha (weydiimo si toos ah loo kaydiyay); lagu yeero magac ama SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Magacyada</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Cabbir</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Halka</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Saar</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>la keenay</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>la kaydiyay</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Haa, saar weydiintan</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Weli ma jirto weydiin kaydsan.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Furayaasha API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Furayaal API shakhsi ah oo leh baaxadda graphql:read (weydiimo) ama graphql:write (isbeddello). Ku samee oo ku buri bogga Gelitaanka API, ama ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Gelitaanka API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Dhammaan furayaasha</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Fure</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Magac</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Milkiile</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Baaxadaha</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Markii ugu dambeysay la isticmaalay</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>firfircoon</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>dhacay</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>la buriyay</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>weligii</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Weli ma jiro fure API oo leh baaxad GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API waa ka demsan yahay gelitaanka goobta %siteaccess, ee muujinaya boggan; shaxda hoose ayaa muujinaysa halka uu ka jawaabo.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Loogu talagalay gelitaanka goobta %siteaccess, ee muujinaya boggan.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook-yada</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Dhacdo kasta oo barta dhammaadka ay codsato (publish, update, trash, delete, move, hide, reveal, mutation) waxaa loogu diraa, iyadoo saxeexan, qaybta cronjob-ka graphqlwebhooks. ./console exp:graphql:webhooks wuxuu sameeyaa wax la mid ah qaybtan.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Dhacdooyinka</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>dhammaan</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Gelitaan kasta oo goob</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>jaban</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>sir ma leh</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Sugaya</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count laga quustay</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Gaarsiintii ugu dambeysay</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Dir tijaabo</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Haa, saar webhook-gan</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Weli ma jiro webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Ku dar webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Ku dar</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Gaarsiimihii dhowaa</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waqti</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Natiijo</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Is-diiwaangelinta</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Cusboonaysiin toos ah oo loogu talagalay macaamiisha: qulqul dhacdooyin ah oo ku yaal /api/graphql/subscribe, iyo WebSocket (graphql-transport-ws) oo ku yaal Velocity. Dhacdo kasta waxay gaartaa oo keliya kuwa is-diiwaangeliyay ee akhrin kara nuxurkeeda.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Hadda furan</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Ugu badnaan furan</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total wadar ahaan, %user isticmaale kasta, %address cinwaan kasta</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Is-diiwaangelinta aan magaca lahayn</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Dhererka qulqulka</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook-ga lama dari karin: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook-ga %name waa la beddelay; sirtiisa saxiixa way sii jirtaa.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Sirta saxiixa lama kaydin karin (Habeyn &gt; Siraha).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook-ga %name waa lagu daray. Sirtiisa saxiixa, oo la muujiyay hal mar oo keliya: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Ma jiro webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook-ga %name kama jawaabin: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook-ga %name wuxuu ku jawaabay %status muddo %ms ms ah.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Calaamadee sanduuqa ku xiga webhook-ga si aad u saarto.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook-ga %name waa la saaray.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API waa ka demsan yahay gelitaankan goobta.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Maktabadda GraphQL lama rakibin.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Isticmaal GET ama POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Jirka codsigu ma aha shay JSON ah.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ma aha shay JSON ah.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ma aha shay JSON ah.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Weydiinta ku dir POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Codsigu ma laha weydiin.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Weydiintu way ka dheer tahay %max beyt.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Khalad gudaha ah oo server-ka</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node waxay u baahan tahay mid keliya oo ka mid ah id, remoteId, path iyo urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content waxay u baahan tahay mid keliya oo ka mid ah id iyo remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Kursaha after ma aha mid uu bixiyay API-gan.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Ma jiro magac-beddel sawir oo ah %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Halkan waxaa kaliya lagu aqbalaa weydiimo kaydsan: dir id-ga weydiin kaydsan.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash-ka weydiinta kaydsan ma aha SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash-ka weydiinta kaydsan kuma habboona weydiinta.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Codsiyo aad u badan: ugu badnaan %limit gudaha %window ilbiriqsi. Isku day mar kale %reset ilbiriqsi kadib.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Weydiintu waa %depth heer oo qoto dheer; ugu badnaan %max ayaa la oggol yahay.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Weydiintu waxay leedahay adkaan %complexity; ugu badnaan %max ayaa la oggol yahay.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Codsigan looma oggola inuu akhriyo schema-da (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search waxay u baahan tahay qoraal ama shaandho (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ma aha taariikh (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag waxay u baahan tahay mid keliya oo ka mid ah id, remoteId iyo path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout waxay u baahan tahay mid keliya oo ka mid ah id, identifier iyo urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Goobta operations ee codsiga multipart ma aha hal codsi JSON ah.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Goobta map ee codsiga multipart ma aha shay JSON ah.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Codsiga multipart ma laha fayl %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Waddo ka mid ah goobta map waa inay ku bilaabataa variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Faylka %name si dhammaystiran uma iman (khalad soo-gelin %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Faylka %name wuu ka weyn yahay %max beyt.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Faylka %name lama hubin karin.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Isbeddellada (mutations) waa ka demsan yihiin gelitaankan goobta (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Isbeddelka ku dir POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Gal si aad u beddesho nuxurka.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Furaha API ma laha baaxadda %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Isbeddel leh fadhi wuxuu u baahan yahay calaamadda foomka ee fadhiga (madaxa X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl waa demsan yahay: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ma magacaabo wax martigeliye ah.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Cinwaanku waa inuu noqdaa cinwaan https ah.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Martigeliyaha %host kuma jiro graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Faylka lama soo qaadi karin.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload waa nooc gelin oo keliya.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Doorsoome nooca Upload ah wuxuu qaataa fayl ka mid ah codsi multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Aqoonsiga fog %remoteId waa la qaatay.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Nuxurku horey ayuu u leeyahay tarjumaad %language: isticmaal updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Bixi ugu yaraan hal goob.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Nooc cusub lama samayn karin (nuxurku wuxuu leeyahay qabyo aad u badan).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Nooca %version ma aha qabyo.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent wuxuu u baahan yahay mid keliya oo ka mid ah id iyo nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Goob lama dhigi karo hoosteeda.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Nuxurku horey ayuu u leeyahay goob ka hoosaysa %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Qiimaha goobta %field lama kaydin karin.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Ma jiro luqad nuxur %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Ma jiro fasal nuxur %class oo ku jira schema-da.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Nuxurku ma jiro, ama looma oggola inaad akhrido.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Looma oggola inaad tan ku samayso nuxurkan.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Fasalka %class ma laha goob %field oo la qori karo.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Goobta %field laba jeer ayaa la bixiyay.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Goobta %field waxay qaadataa fayl: u dir soo-gelin ahaan (codsi multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Goobta %field ma qaadato fayl.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Goobta %field waxay u baahan tahay qiime.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Qaabka %format waxaa loogu talagalay goobaha qoraalka hodanka ah oo keliya; %field wuxuu qaataa qiimihiisa sida uu yahay (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Goobta %field waa qasab.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML-ka lama akhrin karin.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content wuxuu qaataa version oo keliya marka la raaciyo id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Calaamadda horudhaca ma ansax aha ama way dhacday.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ma aha asal (https://host ama https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ma aha baaxad ka mid ah GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>U dir is-diiwaangelinta /api/graphql/subscribe (qulqul dhacdooyin ah ama WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Codsigu ma magacaabo hawlgal ka mid ah dukumeentiga.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Is-diiwaangelintu waxay codsataa hal goob oo keliya.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Is-diiwaangelinno aad u badan ayaa furan; isku day mar dambe.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Waxaad leedahay %max is-diiwaangelin oo furan, inta ugu badan ee la oggol yahay.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Cinwaankaagu wuxuu leeyahay %max is-diiwaangelin oo furan, inta ugu badan ee la oggol yahay.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Is-diiwaangelinta waa ka demsan yihiin gelitaankan goobta.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Gal si aad isu diiwaangeliso (calaamad token ah ama fure API shakhsi ah).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>U dir isbeddellada (mutations) /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Guuritaannada</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Xaaladda lama akhrin karin: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Shaxanka guuritaannada weli ma jiraan: ./console exp:upgrade --apply ayaa sameeya.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count guuritaan ayaa fashilmay</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Orod ayaa socota, waxaa bilaabay %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Rakibaadda waa la xiray: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Sugaya</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fashilmay</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Agoon</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ordii ugu dambeysay</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>weli midna</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Dhammaan guuritaannada</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Orod la jilay</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Tijaabo engegan</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Guuritaannada sugaya waxay ku orodeen macaamil dib loo celiyay kadib: waxba lama hayn. Hoos waxaa ah waxa mid kastaa ka beddelay xogta keydka.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Waxa orod uu hadda samayn lahaa. Waxba lama beddelo: guuritaan kasta oo sugaya wuxuu taxaa isbeddellada uu samayn lahaa, ordiduna waxa ay samayn lahayd ka hor iyo kadib.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Jil</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Orodsii</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Tijaabada engegan way fashilantay: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Jilitaanku wuxuu u baahan yahay PostgreSQL ama SQLite, kuwaas oo isbeddellada qaab-dhismeedkooda dib loo celin karo; xogtan keydka qorshaha hoose waa waxa orod samayn lahaa.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Guuritaannada liiska</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Guuritaan</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Xaalad</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Waxa uu samayn lahaa</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Jilitaan: %result gudaha %ms ilbiriqsi-milli</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Weli guuritaan ma jiro.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ka hor iyo kadib ordida</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Sawir-xaaladeed ka hor</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>waa la qaadaa, waana la soo celiyaa marka guuritaan fashilmo</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>dansan</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Sawir-xaaladeed kadib</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>waa la qaadaa marka ordidu guuleysato</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total guuritaan: %pending sugaya, %done dhammaaday, %failed fashilmay.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Taariikhda guuritaannada</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Orod kasta oo leh isticmaalihiisa, deegaankiisa, sawir-xaaladeedyadiisa iyo waxa la xareeyay, la calaamadeeyay oo la diray. Orod fashilmay ama go&apos;ay waa la sii wadi karaa; orod leh sawir-xaaladeed laga qaaday ka hor waa la noqon karaa.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Orodyada lama akhrin karin: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Shaxanka guuritaannada weli ma jiraan: ./console exp:upgrade --apply ayaa sameeya.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Muuji</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Dhammaan</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Orodyada</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Bilaabmay</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Waxaa sameeyay</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Sawir-xaaladeedyada</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Kaydka koodhka</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ficillo</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ka hor</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>kadib</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>dirid: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Sii wad</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Ka noqo</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Orod xaaladdan ku jira ma jiro.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Halkan laga bilaabay</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Orodyo, sii-wadid iyo dib-u-celin laga bilaabay boggaggan, iyo warbixinta mid kasta.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Maxay</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Natiijo</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Dib-u-celin</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Dib-u-celinta %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Orodka %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Waxa ordidu samaysay, diiwaankeeda iyo log-keeda. Orod halkan laga bilaabay wuu sii socdaa gadaal marka boggan la xiro; mar kale fur bogga si aad ula socoto.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Sii wad ordidan</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Ka noqo ordidan</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Diiwaanka lama akhrin karin: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Horumar</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Waxaa bilaabay %user %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Hubinta koodhka iyo qaadista sawir-xaaladeed ka hor ordida</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Orodsiinta %id (%index ka mid ah %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done ka mid ah %total waa dhammaaday</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Guuritaannadu way orodeen; soo celinta sawir-xaaladeedka haddii mid fashilmay</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Qaadista sawir-xaaladeed kadib ordida, xareynta, calaamadaynta iyo dirista</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Soo celinta sawir-xaaladeedka</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ordidu way dhammaatay. Waxaa la rarayaa warbixinteeda.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Horumarka lama raaci karin. Dib u rar bogga si aad u aragto sida ordidu u socoto.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Boggani wuxuu la socdaa ordida inta ay socoto.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Dib u rar</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Warbixin</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waqti</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ilbiriqsi-milli</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Waxa ordidu u daabacday khaladaad ahaan</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Diiwaan</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Deegaan</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>midna</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Dhammaaday</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Xareyn</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Calaamad</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Dirid</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Fariin</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Guuritaannada ordidan</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Isha</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Log-ga ordida</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Dhammaadka log-ga oo kaliya ayaa la muujiyay.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>socota</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ku dhammaatay warbixin la&apos;aan</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>guuleysatay</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>fashilantay</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>la diiday</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>xogta keydka lama gaari karin</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>khalad gudaha ah</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Orod ayaa socota</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind waxaa bilaabay %user %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>La soco</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Rakibaadda waa la xiray</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Orod kale ayaa haysa quful-ka (cusboonaysiin ama orod ka socota konsoolka): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>dhammaaday</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>sugaya</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>looma baahna</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>lama yaqaan</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>dib loo celiyay</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>la dabaqay</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>waa la dabaqi lahaa</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>laga noqday</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>waa laga noqon lahaa</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>lama orodsiin</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>wuxuu sugayaa mid kale</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>isbeddel la aqbalay</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>isbeddelka waa la aqbali lahaa</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>la jilay</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Guuritaannada</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Xaalad</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Taariikh</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Ka noqo %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Orod waxaa looga noqdaa sawir-xaaladeedka laga qaaday ka hor, guuritaan keli ah waxaa lagaga noqdaa down()-kiisa. Soo celinta sawir-xaaladeed hore waxaa loogu talagalay khubarada. Mid kasta wuxuu gadaal ugu socdaa adiga ahaan, kadib sawir-xaaladeed xaaladda hadda.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Waxa laga noqon karo lama akhrin karin: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Orod</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Hal guuritaan</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Sawir-xaaladeed hore</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Sharaxaad</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>haa</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>maya</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Sawir-xaaladeed</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Summad</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>La qaaday</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Nooc</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Qaybaha la soo celinayo</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Xogta keydka</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Faylasha kaydinta (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Dejimaha (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Soo celinta xogta keydka waxay ku celisaa waqtigii sawir-xaaladeedka, fadhiyada ay ku jiraan: waxaa laga yaabaa in lagaa codsado inaad mar kale gasho kadib. Wax kasta oo isbeddelay tan iyo markaas waa lumayaan; marka hore waxaa la qaadaa sawir-xaaladeed xaaladda hadda.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Waan ogahay waxa uu kani soo celinayo</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Mar kale qor aqoonsiga sawir-xaaladeedka</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Haa, ka noqo</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Jooji</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Orodyada leh sawir-xaaladeed laga qaaday ka hor.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Dooro</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Weli orod leh sawir-xaaladeed ma jiro.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Guuritaannada la dabaqay ee iskood uga noqon kara (waxay leeyihiin down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Guuritaan la dabaqay oo leh down() ma jiro.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Sawir-xaaladeedyo hore (khubaro)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Weli sawir-xaaladeed ma jiro.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Orodsii guuritaannada</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ordidu waxay gadaal ugu socotaa sida %user, boggeeduna wuxuu muujiyaa inta ay socoto. Ka hor guuritaanka ugu horreeya waxaa la qaadaa sawir-xaaladeed rakibaadda; marka guuritaan fashilmo ordidu way joogsataa, sawir-xaaladeedkana waa la soo celiyaa.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Marka hore tijaabo engegan</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Xaaladda lama akhrin karin: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Guuritaannada sugaya</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Waxay ku orodaan kala horreyntan. Ka saar calaamadda mid si aad uga tagto, iyo kuwa u baahan, orod dambe.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Orodsii</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Wuxuu shidaa habka dayactirka inta uu socdo.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>La beddelay kadib markii la dabaqay</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Faylashan ma aha kuwii la dabaqay. Orod wuu diidaa ilaa isbeddelka lagu aqbalo sabab; mar kale lama orodsiiyo, checksum-ka cusub waa la diiwaangeliyaa, sababtana waxaa lagu hayaa log-ga hubinta.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Aqbal isbeddellada</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Sabab</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Kuwa caadiga ah ayaa ah kuwa ammaan ah. Sanduuq kasta wuxuu ka tagaa hal tallaabo.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Sawir-xaaladeed la&apos;aan</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Sawir-xaaladeed ma jiro ka hor iyo kadib ordida: fashil si toos ah looma soo celin karo.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Soo celin la&apos;aan</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Fashil kadib, u daa rakibaadda sidii fashilku uga tagay.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Hay isbeddellada aan la xareyn</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Orodsii inkastoo dejimaha, kordhinta ama naqshadaha ay leeyihiin isbeddello aan la xareyn; waxay galaan sawir-xaaladeedka.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Xareyn la&apos;aan</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ha xareyn faylka xaaladda iyo log-ga ordida (calaamad iyo dirid midna).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Dirid la&apos;aan</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Xareey oo calaamadee, laakiin ha dirin.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Calaamad la&apos;aan</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Xareey oo dir, laakiin ha calaamadayn ordida.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Haa, orodsii guuritaannadan hadda</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Guuritaan sugaya ma jiro.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Ku noqo xaaladda</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Isbeddellada rakibaaddan oo hal mar loo qoray sida faylal (nuxur, fasallo, doorar, dejimo, qaab-dhismeed) oo lagu dabaqay rakibaad kasta oo bogga isla kala horreyn. Orod marka hore wuxuu qaadaa sawir-xaaladeed, wuu soo celiyaa marka guuritaan fashilmo, wuuna diiwaangeliyaa, xareeyaa oo diraa waxa uu sameeyay.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Orodsii %count sugaya</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Guudmar</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Sugaya</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Dhammaaday</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fashilmay</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Looma baahna</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Keydka xogta</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>macaamillada: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Guuritaannada bogga waxay ku jiraan migrations/, kuwa kordhinta waxay ku jiraan extension/&lt;name&gt;/migrations/. Waxay ku orodaan kala horreynta magacyadooda iyo waxa ay u baahan yihiin.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ordii ugu dambeysay</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Faylka waa la beddelay kadib markii la dabaqay.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Weli guuritaan ma jiro. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ayaa qora kan ugu horreeya.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Orodyadii ugu dambeeyay</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Orod kasta</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Weli orod ma jiro.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Jilitaanka orod wuxuu u baahan yahay siyaasadda migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Orod ayaa socota: jil marka ay dhammaato.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Habeyn</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ma aha orod, guuritaan ama sawir-xaaladeed rakibaaddan.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Marka hore calaamadee &quot;Haa, ka noqo&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Soo celinta sawir-xaaladeed hore waxaa loogu talagalay khubarada: calaamadee &quot;Waan ogahay waxa uu kani soo celinayo&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Mar kale qor aqoonsiga sawir-xaaladeedka: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Dooro ugu yaraan hal qayb oo la soo celinayo.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ordidan ma laha sawir-xaaladeed laga qaaday ka hor: ka noqo guuritaannadeeda mid-mid, ama soo celi sawir-xaaladeed hore.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Guuritaankan iskiis ugama noqon karo: lama dabaqin, ama ma laha down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Foomka lama akhrin karin.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Dooro ordida la sii wadayo.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Marka hore calaamadee &quot;Haa, orodsii guuritaannadan hadda&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Dooro ugu yaraan hal guuritaan.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Guuritaan ayaa la beddelay kadib markii la dabaqay: aqbal isbeddelka adoo sabab bixinaya, ama dib u celi faylka.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Sheeg sababta guuritaannada la beddelay loo aqbalayo.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Sababtu waa ugu badnaan 500 xaraf.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Orod halkan laga bilaabay weli way socotaa (%detail). Sug inta ay dhammaanayso.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Orod kale ayaa haysa quful-ka rakibaadda: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Ordidu waxay u baahan tahay isticmaale soo galay oo jira.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Lama helin barnaamij php oo khadka amarka ah. Ku dhig jidkiisa oo dhan migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open waa la damiyay, sidaa darteed orod halkan lagama bilaabi karo. Ku orodsii ./console exp:migration:migrate --apply server-ka.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Galka orodyada wax laguma qori karo: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Ordida waa la bilaabay laakiin ma sheegin aqoonsiga habsocodkeeda. Hubi %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Magacaw waxa laga noqonayo.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Ordida lama bilaabi karin.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Duubista isbeddellada</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Inta duubis socdo, waxaad ku beddesho maamulka ama barta dhinaca ee goobta waxaa loo kaydiyaa sidii tallaabooyin guuritaan: nuxurka, fasallada, doorarka iyo siyaasadaha, qaybaha, isticmaalayaasha iyo kooxaha, magacyada kale ee URL, dejimaha. Jooji marka aad dhammayso, eeg waxa uu qabtay, kadibna ka samee guuritaan.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Duubabka lama akhriyi karin: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Shaxaha duubabka weli ma jiraan: marka hore samee cusboonaysiinta (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Duubistu waa ka xiran tahay migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Isbeddelladayda</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Wuxuu duubaa oo keliya waxa aad beddesho, meel kasta oo aad ku beddesho, ilaa aad joojiso.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Duub</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>tan iyo %time, isbeddello %count ilaa hadda.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Calaamad (ikhtiyaari)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Muuji waxa uu qabtay</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Jooji duubista</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Bilow duubista isbeddelladayda</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Daaqadda goobta oo dhan</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Wuxuu duubaa isbeddel kasta oo isticmaale kasta iyo kan konsolka ilaa la xiro. Marka aad furto, waxaa lagaa codsanayaa inaad xaqiijiso inaad adigu tahay.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Furan</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Xir daaqadda</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Fur daaqadda goobta oo dhan</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Duubabka</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Akoonka isticmaalaha (magaca gelitaanka, iimaylka, furaha sirta) iyo goobaha akoonnada isticmaalayaasha weligood lama duubo.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Isbeddellada</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Goobta oo dhan</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Isbeddellada %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>La joojiyay</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Weli ma jiro duub.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Duub %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Dhammaan duubabka</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Guuritaanka uu samayn lahaa</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Isbeddellada la isugu geeyay hal tallaabo shay kasta oo la beddelay: waxa uu samayn lahaa guuritaan laga sameeyay duubkan.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Waxaa laga samayn karaa guuritaan marka rakibkan uu leeyahay noocyada tallaabooyinka YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Si ula kac ah looga tagay: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Waxba lama duubin.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Waxa uu qabtay</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Isbeddello %count, sida ay u kala horreeyeen.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Isbeddel</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Tallaabo</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Ku saabsan</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count kale: ./console exp:migration:record:show wuu liis gareeyaa dhammaan.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tuur</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Wuxuu tirtiraa duubka iyo waxa uu qabtay. Waxa la beddelay wuu ahaanayaa la beddelay.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Haa, tuur duubkan</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Waa la duubayaa…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Isbeddelladaada waa loo duubayaa guuritaan.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Isbeddel kasta oo goobtan ka dhaca waa loo duubayaa guuritaan (daaqadda goobta oo dhan).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Duubista goobta oo dhan way bilaabatay: isbeddel kasta oo isticmaale kasta waa la duubayaa ilaa aad joojiso.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Duubistu way bilaabatay: isbeddelladaada waa la duubayaa ilaa aad joojiso.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Duubista waa la joojiyay. Waxa uu qabtay wuu sii jirayaa ilaa aad tuurto.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Duubka iyo dhacdooyinkiisa waa la tirtiray.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Ma jiro duub %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Marka hore calaamadee "Haa, tuur duubkan".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Isticmaalaha duubay oo keliya ayaa joojin kara duubka fadhiga.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Dooro duubka la joojinayo.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Duub noocan ah ayaa horeba u socda.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Duubka lama beddeli karin: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Samee guuritaan</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Magaca guuritaanka (ikhtiyaari)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Guuritaanka %file waa la qoray. Isbeddellada aan tallaabo kasta samayn karin waxaa lagu magacaabay xagga sare ee faylka, si gacanta loogu sameeyo.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Wax guuritaan ah lama qorin: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Orod dheer oo qaybo ah</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Meelaha madhan waxay xajiyaan dejinta migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Ugu badnaan tiradan wareejin</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Wareejin dambe ma jirto ka dib (ilbiriqsi)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Nasasho u dhexeysa wareejinta (ilbiriqsi)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Mudnaan hoose (1 ilaa 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Meesha orodka dheer waa tiro dhan laga bilaabo 1 (nasashada: ilbiriqsi 0 ilaa 60, mudnaanta: 1 ilaa 19), ama madhan.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Waxay is xidhaa %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Is xidh ka dib (daqiiqo, ikhtiyaari)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Daqiiqaduhu waa tiro dhan 1 ilaa 44640 (31 maalmood), ama madhan.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Guuritaan %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Guuritaan cusub</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Guuritaan YAML ah: u qor qoraal ahaan ama ku dhis tallaabooyinkiisa foomka, hubi, kadibna ku kaydi faylal guuritaan.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Guuritaankan mar hore ayuu socday, sidaa darteed mar kale lama kaydinayo: fayl la beddelay waxaa diidi lahaa ilaalada checksum-ka. Isbeddelka ku samee guuritaan cusub.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Server-ka webka ma qori karo faylka.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Xariiqyada faallada ee sare waa madaxa (description, author, requires, environments, engines). Marka tallaabo lagu daro ama lagu beddelo foomka, guuritaanka mar kale ayaa la qoraa: faallooyinka u dhexeeya tallaabooyinka lama hayo.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Magaca guuritaanka</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Meesha uu aadayo</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Goobta</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Qoraal YAML ah</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Hubi</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Kaydi</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Tillaabooyin</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Furayaal</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Tafatir</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Kor u guuli</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Hoos u guuli</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ka saar</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Weli tallaabo ma jirto: mid ku dar foomka, ama ku qor qoraalka.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Beddel tallaabada %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Ku dar tallaabo</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Foomka tallaabo waxaa laga sameeyaa nooca tallaabadeeda: furayaasheeda, waxa mid kastaa qaato iyo hababka ay ka tirsan tahay.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Nooca tallaabada</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Muuji foomkiisa</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Tallaabadu waxay leedahay furayaal uusan nooceedu aqoon; waa laga saarayaa marka tallaabada la beddelo: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Hab</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Gudaha</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>kaliya %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Caadi ahaan: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Shuruudaha, tixraacyada iyo faallada</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Lammaanaha magac=qiime oo hakad lagu kala saaray. Qiimayaasha tallaabadan: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Tusaale</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Beddel tallaabada</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Tallaabo ku dar</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Waxa exp:migration:check sheegayo: madaxa, dukumentiga iyo tallaabo kasta oo uu hubiyay nooca tallaabadeedu.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Guuritaanku wuu ka gudbay hubinta.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Horu-eeg</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML-ka sida loo kaydin doono.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Muuji YAML-ka</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Guuritaannada YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>wuu socday</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Weli ma jiraan guuritaanno YAML ah.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Tafatiraha</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Ma jiro guuritaan YAML ah oo %id ah oo ku jira faylalka guuritaannada.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Dooro nooca tallaabada.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Tallaabada waa lagu daray. Hubi guuritaanka ka hor intaadan kaydin.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Tallaabada waa la beddelay. Hubi guuritaanka ka hor intaadan kaydin.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Dooro tallaabo.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Tallaabadan foom ma leh (wareeg, ama nooc tallaabo oo rakibiddan aysan lahayn): ku beddel qoraalka.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Dooro meesha guuritaanku aadayo: goobta ama kordhin firfircoon.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file waa la kaydiyay. Samee tijaabo engegan ka hor inta uusan guuritaanku socon.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Lama kaydin: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Rakibaadaha fog</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Rakibaadaha kale ee tani u gudbiso guuritaannadeeda: gudbin waxay guuritaannada u dirtaa rakibaadaha fog ee la doortay waxayna halkaas ku orodsiisaa, dhammaan isku mar oo is waafaqsan. Rakibaad fog marna ma hayso sir: aqoonsigeeda galitaanku wuxuu magacaabaa mid ku jira Habeyn &gt; Sirta.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Rakibaad fog oo cusub</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Caawimaad</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Tijaabada xiriirka %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Rakibaadaha fog</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Ilaa %parallel rakibaadood oo fog ayaa isku mar laga shaqeeyaa; hal weji wuxuu qaadan karaa %timeout ilbiriqsi mid kasta.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Rakibaad fog</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Ciwaan</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Aqoonsiga galitaanka</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Kooxo</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>dejimo u baahan sixid</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>faylal oo keliya (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Furaha SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Erayga sirta ah</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>midna (wakiilka SSH iyo furayaasha martigeliyaha)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Tijaabi xiriirka</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Gudbin koox loo sameeyo waxay gaartaa rakibaad fog kasta oo kooxdaas ka mid ah.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>U gudbi rakibaadaha fog</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Weli rakibaad fog lama dejin.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Rakibaad fog %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Halkan waxba lama diro lamana orodsiiyo: Kaydi wuxuu dejimaha ku qoraa settings/override/migration.ini.append.php. Aqoonsiga galitaanku waa magac; qiimihiisu wuxuu ku jiraa Habeyn &gt; Sirta ama deegaanka.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Hubi dejimahan</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Dejimaha sida loo geliyay, weli lama kaydin.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Dib u eegis</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Dejimuhu waa sax. Sadarradan ayaa la qori doonaa:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Gaadiidka</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>magac keliya; qiimuhu wuxuu ku hadhaa Habeyn &gt; Sirta</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Sadarrada la qori doono</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Isku xirka</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Furaha martigeliyaha</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Rakibaadda fog</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Waxa rakibaadda fog la yiraahdo iyo deegaanka ay tahay.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Aqoonsi</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Xarfo, tirooyin, - iyo _, tusaale ahaan production1. Waxay magacawdaa rakibaadda fog warbixinnada iyo konsoolka (--remotes=production1) mar dambena lama beddeli karo.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Gudbin heer-heer ah waxay deegaannada u martaa kala horreyntan.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Ikhtiyaari, lagu kala saaray hakad, tusaale ahaan production. Gudbin koox loo sameeyo waxay gaartaa rakibaad fog kasta oo kooxdaas ka mid ah.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Isku xirka</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Sida faylashu halkaas ku gaaraan, iyo meesha rakibaaddu ku taal.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Ku dul SSH, kaliya waxa isbeddelay, wareejin go'day waa la sii wadaa. Doorashada ugu fiican meesha rsync lagu rakibay.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH oo faylasha u isticmaala scp.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH oo faylasha u isticmaala sftp.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Faylal oo keliya: guuritaannada waa la diraa oo dib ayaa loo akhriyaa, laakiin halkaas lama orodsiin karo.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP ku dul socda TLS; faylal oo keliya.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Rakibaad kale oo server-kan ku jirta, gal gudihiis.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Martigeliye</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Magac martigeliye ama ciwaan, tusaale ahaan node1.example.com. Looma isticmaalo local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Marsada</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Madhan: 22 haddii SSH, 21 haddii FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Isticmaale</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Waddo</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Xididka rakibaadda ee halkaas, tusaale ahaan /var/www/site (FTP: waddada uu akoonka FTP arko).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Khadka amarrada PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI-ga halkaas: php, ama waddo buuxda sida /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Qoraallada konsoolka halkaas waxay ku socdaan root ahaan</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Kaliya marka isticmaalaha rakibaadda fog uu yahay root (markaas waxaa lagu orodsiiyaa --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Aqoonsiga galitaanka</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Sida rakibaaddani halkaas ugu gasho. Magac oo keliya ayaa la kaydiyaa.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Midna</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Wakiilka SSH iyo furayaasha isticmaalaha ay rakibaaddani ku socoto (iyo had iyo jeer local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Fure gaar ah oo loo hayo sir ahaan.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Erayga sirta ah oo loo hayo sir ahaan (FTP wuxuu ku galaa mid).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Magaca sirta</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Sir ka mid ah Habeyn &gt; Sirta, tusaale ahaan deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Habeyn &gt; Sirta</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Ama doorsoome deegaan</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Doorsoomaha habka server-ka ee haya, tusaale ahaan DEPLOY_KEY (loo kaydiyay env:DEPLOY_KEY). Wuxuu qaataa booska magaca sirta.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Furaha martigeliyaha</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Ikhtiyaari, loogu talagalay SSH, sftp iyo rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Faro-sawirka furaha martigeliyaha</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... sida ssh-keygen -l u daabaco. Haddii uu jiro, martigeliyuhu waa inuu muujiyaa furahan; haddii uusan jirin, furaha waa la bartaa xiriirka ugu horreeya.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Dib u eegis</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Tijaabi xiriirka adigoo isticmaalaya dejimaha kor ku xusan, kadib dib u eeg sadarrada la qori doono.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Ka saar rakibaaddan fog</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Dejimaheeda waxaa laga saaraa settings/override/migration.ini.append.php. Waxba iskama beddelaan rakibaadda fog, gudbinnadeeduna waxay ku hadhaan taariikhda.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Haa, ka saar rakibaaddan fog</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Gudbinnada</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Gudbin waxay u dirtaa guuritaannada rakibaaddan rakibaadaha fog ee la doortay, waxayna halkaas ku orodsiisaa iyagoo ah %user, dhammaan isku mar oo is waafaqsan: rakibaad fog kasta marka hore waa la hubiyaa, haddii mid fashilantana, rakibaad fog kasta oo dabaqday waa laga noqdaa. Waxay ku socotaa gadaasha, boggeeduna wuxuu muujiyaa rakibaad fog kasta inta ay socoto.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Rakibaadaha fog</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Calaamadee rakibaado fog, koox, ama labadaba.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>U gudbi</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Sida</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Gudbi</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Dir oo orodsii</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Guuritaannada waxaa loo diraa, la hubiyaa lagana orodsiiyaa rakibaad fog kasta iyadoo la isticmaalayo hal aqoonsi orod oo la wadaago.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Wareejin oo keliya</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Faylasha waa la diraa waana la hubiyaa, waxba lama orodsiiyo (habka keliya ee rakibaad fog oo FTP ah).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Heer-heer</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Heer heer, iyadoo la raacayo kala horreynta deegaannada (dev, stage, beta, production ...): heerka koowaad waa la gudbiyaa, kadib albaab ayaa sugaya ilaa qof ansixiyo kan xiga. Wax walba ama waxba heer kasta gudihiisa.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Guuritaannadan oo keliya</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Ikhtiyaari: aqoonsiyada guuritaannada, lagu kala saaray hakad. Madhan: guuritaan kasta oo goobta iyo kordhinteeda.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Hubin hore oo keliya</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Haa, hadda gudbi</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Gudbinnada wax diray ama wax orodsiiyay, kuwa ugu cusub marka hore (hubin hore warbixin ma hayso).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>wareejin oo keliya</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>heer-heer, %stages heer</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>is waafaqsanayn</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Weli gudbin ma jirto.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Gudbin %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Rakibaad fog kasta oo gudbinta ka mid ah iyo xaaladdeeda. Gudbin halkan laga bilaabay way sii socotaa gadaasha marka boggan la xiro; mar kale fur bogga si aad ula socoto.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Dhammaan gudbinnada</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Hubin hore</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Heerka xiga</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Hubinta dejimaha iyo aqoonsiyada galitaanka</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Hubin hore: akhrinta xaaladda rakibaad fog kasta</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Dirista faylasha guuritaannada</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Hubinta waxa yimid</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Orodsiinta guuritaannada rakibaad fog kasta</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Ka noqoshada rakibaadaha fog</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Gudbintu way dhammaatay. Warbixinteeda waa la rarayaa.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Horumarka lalama socon karin. Dib u rar bogga si aad u aragto sida gudbintu u socoto.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Weji</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Boggani wuxuu la socdaa gudbinta inta ay socoto.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Is waafaqsan</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Heerar</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>heerka %stage wuxuu sugayaa albaabkiisa</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Albaab %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>waxaa ansixiyay %user %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Heer</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Faylasha la diray</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Nuqulka kernel-ka</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>la dabaqay: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>in la dabaqo: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Wejiyo</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Albaab: heerka %stage ka mid ah %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Heerarka ka horreeya waa la gudbiyay. Hubi, kadib ansax heerka xiga: rakibaadahiisa fog mar kale ayaa la hubiyaa lana gudbiyaa, wax walba ama waxba.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Xiga</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Haa, hadda gudbi heerka xiga</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Ansax</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Ka noqo gudbintan</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Rakibaad fog kasta oo dabaqday (%list) waxay ku noqotaa sawir-xaaladeedkii la qaaday ka hor ordideeda, dhammaan isku mar.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Haa, hadda ka noqo gudbintan</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>la qorsheeyay</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>la wareejiyay</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>la gudbiyay</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>wuxuu sugayaa albaab</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>la doortay</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>la diyaariyay</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>diyaar</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>wuxuu sugayaa heerkiisa</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>faylal la diray</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>la hubiyay</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>fashilantay, iskeed ayay u soo noqotay</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>isma beddelin</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>lama gudbin</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>lama gaari karo</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Rakibaadda fog way jawaabtay.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Rakibaadda fog hadda lama isticmaali karo.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done dhammaaday, %pending sugaya, %failed fashilmay</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Quful</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>orod ayaa halkaas haysta qufulka</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>firaaqo</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage ka mid ah %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Dooro rakibaadda fog ee la tijaabinayo.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Marka hore calaamadee “Haa, ka saar rakibaaddan fog”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Rakibaadda fog lama saari karin: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Rakibaadda fog lama kaydin karin: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Faylka dejinta lama akhrin karo: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Dooro ugu yaraan hal rakibaad fog ama koox.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Rakibaad fog oo la doortay kuma jirto dejimaha mar dambe. Dib u rar bogga.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Marka hore calaamadee “Haa, hadda gudbi”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Rakibaad fog oo FTP ah ma orodsiin karto guuritaanno: dooro “Wareejin oo keliya”, ama ka reeb.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Guuritaannada la gudbinayo waa aqoonsiyada guuritaannada, lagu kala saaray hakad.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Gudbintu weli way socotaa. Sug ilaa ay dhammaato.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Gudbintani ma sugto albaab.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Rakibaad fog midna ma dabaqin gudbintan: wax laga noqdo ma jiraan.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Marka hore calaamadee “Haa, hadda gudbi heerka xiga”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Marka hore calaamadee “Haa, hadda ka noqo gudbintan”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Rakibaad fog oo leh aqoonsiga %id horey ayay u jirtaa.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Marsadu waa tiro u dhexeysa 1 ilaa 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Deegaanku waa eray ka kooban xarfo, tirooyin, - iyo _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Kooxdu waa eray ka kooban xarfo, tirooyin, - iyo _ (aan ahayn all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Aqoonsiga galitaanka hadda lama akhrin karo: %problem. Ku kaydi Habeyn &gt; Sirta (ama deji doorsoomaha) ka hor gudbinta ugu horreysa.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Rakibaad fog oo FTP ah waxay helaysaa faylal oo keliya: gudbin loo sameeyo waa “Wareejin oo keliya”, guuritaannadeedana halkaas gacan ayaa lagu orodsiiyaa.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Rakibaadda fog %id kuma jirto settings/override/migration.ini.append.php; ka saar meesha lagu dejiyay.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Waxaa lagu galay FTP waxaana la akhriyay index.php. Xaaladda guuritaannada rakibaad fog oo FTP ah lama akhrin karo.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>La beddelay</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>La abuuray</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Magac</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Fasal</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Qaybta</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Abuure</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nuxurka cusub</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Nuxurka ugu dambeeyay ee la abuuray iyo la beddelay ee goobta oo dhan, kan ugu cusub marka hore: waxa booqdayaashu soo gudbiyeen, waxa loo hayo dib-u-eegis, qabyooyinka sugaya daabacaaddooda. Dooro shayada si aad u sii daydo, u hayso, u qariso, u muujiso, u saarto ama ugu wareejiso qayb ama xaalad kale.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Liiska lama akhrin karin: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Haynta dib-u-eegista weli lama habeyn, sidaas darteed waxba lama hayo, ficillada haynta lama bixiyo. Tallaabada cusboonaysiinta 6.0.15-review-hold ayaa habeysa: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Shaandhee liiska</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Laga bilaabo</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ilaa</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Taariikh</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>La abuuray (markii ugu horreysay la daabacay)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Dhammaan</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Xaalad</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>La daabacay</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Qabyo, weligeed lama daabicin</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Sugaya (oggolaansho ama taariikh)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Qashinka ku jira</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Loo hayo dib-u-eegis</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>La hayo</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Aan la haynin</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Qarsoon</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Muuqda</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Lagu soo gudbiyay</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Gelitaan kasta oo goobta ah</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Kaliya waxa baaritaanku diiwaangeliyay.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Hadda: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Magac gelid ama aqoonsiga isticmaalaha.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Shaandhee</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Tirtir shaandhooyinka</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Alaabta</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ilaa %to ee %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Shay ma jiro</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(waxaa lagu akhriyay %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Ficillada shayada la doortay</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Dooro dhammaan boggan</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count la doortay</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ficil</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Dooro ficil</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Sii daa haynta</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>U hay dib-u-eegis</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Qari</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Muuji</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>U guuli Qashinka</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Tirtir</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Meel dhig qayb</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Meel dhig xaalad</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Sabab</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Waa loo baahan yahay si loo hayo; waxaa lala kaydiyaa haynta iyo baaritaanka.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Dooro qayb</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Xaalad</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Dooro xaalad</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Ku dabaq kuwa la doortay</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Shay kasta waxaa lagu hubiyaa ogolaanshahaaga. U guurinta Qashinka iyo tirtiridda waxay kaa codsadaan inaad xaqiijiso. In ka badan %count shay waxay ka socdaan gadaal.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Dooro</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Daabacaad</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Laga soo gudbiyay</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Dooro %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>weli maya</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(magac ma leh)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Aqoonsi %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Qabyo</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Sugaya</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Waxaa qariyay waalidkiis</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>La hayo: soo gudbin cusub</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Nooca %version ayaa sugaya</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Nooca %version waa la wadaa</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Qabyo, nooca %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Nooca %version waa la daabacay</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Loo qorsheeyay %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>cinwaan ma leh</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>lama diiwaangelin</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Waxba kuma habboona shaandhooyinkan.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Muuji dhammaan</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Weli nuxur ma jiro.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Boggiiba</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Muuji %count shay boggiiba.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Cinwaanka iyo daalacaha soo gudbinta waxay ka yimaadaan tusmada baaritaanka, oo aan halkan laga heli karin: tiirku wuxuu leeyahay &quot;lama diiwaangelin&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Cinwaanka iyo daalacuhu waa kuwa baaritaanku u diiwaangeliyay shayga (haynta tooska ahi had iyo jeer way diiwaangelisaa; daabacaadda iyo abuurista kaliya meesha la shiday), sida dejimaha asturnaantiisu u hayaan.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count shay</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Tirtiriddu waxay shayada ka saartaa si joogto ah, dhammaan noocyadooda iyo tarjumaadahooda. Dib looma celin karo.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Shayadu waxay aadaan Qashinka, halkaas oo laga soo celin karo.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Shay kasta waxaa lagu hubiyaa ogolaanshahaaga; shay leh shay-hoosaadyo sidiisa ayaa looga tagaa (ka saar qaab-dhismeedka nuxurka). Waxaa lagu weydiin doonaa inaad xaqiijiso inay adiga tahay.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Tani waxay ka socotaa gadaal: bogga horumarkeeda ayaa furmaya, natiijada shay kastana waa la muujinayaa marka ay dhammaato.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Shayada la doortay</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>iyo %count kale</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Jooji</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Waxba lama samayn</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sabab: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Ficilku weli wuxuu ka socdaa gadaal.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Horumarkiisa</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Ficilka gadaal ka socday waa fashilmay: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Waa dhammaaday</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Waa la diiday</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Waa fashilantay</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Shay kasta</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Shay</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Natiijo</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Sababta</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Ku noqo liiska</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Habeyn</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Waxba lama samayn</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Xaqiiji</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Dooro ficil.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Dooro ugu yaraan hal shay.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Dooro ugu badnaan 1000 shay hal mar.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Sheeg sababta shayada loo hayo.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Dooro qaybta.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Dooro xaaladda.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Foomka lama akhrin karin.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Dashboard</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Nuxurka cusub</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Tirooyinka lama akhrin karin: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Loo hayo dib-u-eegis</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Cusub maanta</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Haynta dib-u-eegista weli lama habeyn (tallaabada cusboonaysiinta 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Dhammaan nuxurka cusub</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Looma oggola inaad fuliso ficillada maamulidda (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Ficilka maamulidda ma dhammaystirna: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Maamulid: %action ee %count shay</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done ee %total shay: %ok waa dhammaaday, %refused waa la diiday, %failed waa fashilmay</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok waa dhammaaday, %refused waa la diiday, %failed waa fashilmay</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Mar dambe ma jiro.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Meel ma leh (lama daabicin).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Looma oggola inaad qariso (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Looma oggola inaad muujiso (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Horeba waa qarsoon yahay.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Ma qarsoona.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Waa la qariyay.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Waa la muujiyay.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Wuxuu ku jiraa Qashinka: halkaas ka faaruqi ama ka soo celi.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Qabyo aan weligeed la daabicin uma guuri karto Qashinka: tirtir.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Looma oggola inaad tirtirto (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Waa la tirtiray.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Looma oggola inaad ka saarto (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Wuxuu leeyahay shay-hoosaadyo: ka saar qaab-dhismeedka nuxurka, halkaas oo lagu taxay.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Lama saarin (socod shaqo ayaa laga yaabaa inuu hayo saarista).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Waxaa loo guuriyay Qashinka.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Qaybtu ma jirto.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Horeba wuxuu ku jiraa qaybtan.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Looma oggola inaad meel dhigto qaybtan (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Qaybta lama meel dhigin.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Qaybta waa la meel dhigay.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Xaaladdu ma jirto.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Horeba wuxuu ku jiraa xaaladdan.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Looma oggola inaad meel dhigto xaaladdan (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Xaaladda lama meel dhigin (socod shaqo ayaa laga yaabaa inuu hayo beddelka).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Xaaladda waa la meel dhigay.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Ficil noocaas ah ma jiro.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Haynta dib-u-eegista lama habeyn (tallaabada cusboonaysiinta 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Sheeg sababta loo hayo.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Horeba waa la hayaa.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Looma oggola inaad hayso (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Haynta lama dhigin (socod shaqo ayaa laga yaabaa inuu hayo beddelka).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Waa la hayaa.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Lama hayo.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Looma oggola inaad sii daydo (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Haynta lama sii dayn (socod shaqo ayaa laga yaabaa inuu hayo beddelka).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Waa la sii daayay; weli waa qarsoon yahay: looma oggola inaad muujiso (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Waa la sii daayay.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Dhammaan bartilmaameedyada</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Daabacaaddii ugu dambaysay</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Ku daabac nuqul taagan oo bilaash ah oo goobtaada ah GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Bogag duugoobay</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Daabacaadda taagan</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Daabacaadda taagan waa dansan tahay.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Bartilmaameed</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Bartilmaameedyada lama akhrin karin: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>shaqo ayaa socota</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>dhisme la hubinayo</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>qari tan</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>samee bartilmaameed</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>marna</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>akhri casharka</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added lagu daray, %changed la beddelay, %removed la saaray</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes ee %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count kale lama taxin.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages bog ayaa la qoray</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path waa %size, ka badan inta martigeliyuhu u oggol yahay hal fayl.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % xadka</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ilbiriqsi</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag waa daabacaadda goobtu hadda leedahay.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: shaqada %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/kayd/ goob mashruuc GitHub ah; madhan haddii ay tahay domain gaar ah ama goob isticmaale.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Goobta</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Martigeliyaha</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Soo galidda kaydka koodhka</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Kaydka koodhka</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Xiriirinnada iyo jidka saldhigga</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Domain-kaaga gaarka ah</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Waxa dhismuhu xambaarsan yahay</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Marka la daabacayo</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Dib-u-eegis iyo kaydin</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Goob mashruuc GitHub ah waxay ku taal /&lt;repository&gt;/ hoostiisa; xiriirinnada qaraabada ah way ka shaqeeyaan halkaas iyo meel kasta oo kale.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Dhismuhu wuxuu soo qaadaa bog kasta oo %site ah sida uu u arko booqde aan soo gelin, wuxuu dib u qoraa xiriirinnada, wuxuu nuqulaa faylasha wuxuuna natiijada ku qoraa galka bartilmaameedka. Waxba lama daabaco ilaa aad hubiso dhismaha oo aad riixdo Daabac.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Tibaax cron ah, tusaale ahaan 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Furaha dejinta waxaa loo hayaa sida sirta %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Furaha dejintu wuxuu rakibaaddan u oggolaadaa inay u dirto hal kayd koodh oo keliya iyada oo loo marayo SSH, meel kalena maya. Qaybtiisa gaarka ahi waxay ku hadhaysaa Habeyn &gt; Sirta; qaybta guud oo keliya ayaa la muujiyaa.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Furaha dejinta ee loo sameeyay bartilmaameedkan</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Furaha dejintu wuxuu ku soo galaa SSH: u beddel cinwaanka git kan SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Shaqo ayaa socota, waxaa bilaabay %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Shaqo bartilmaameedkan ah weli way socotaa (%detail). Sug ilaa ay dhammaato.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Shaqo bartilmaameedkan ah weli way socotaa. Sug ilaa ay dhammaato.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Xiriirinta bogga /news/ ee u socota bogga /about-us/team waxaa loo qori doonaa sidan</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Fure dejin cusub ayaa la sameeyay. Hadda ku dar qaybtiisa guud kaydka koodhka.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Bog weli xambaarsan wax-soo-saarka cilad-baarista, token foom ama aqoonsiga fadhiga kadib nadiifinta weligii lama daabaco.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Dib-u-celintu waxay u tahay khubarada: calaamadee &quot;Waan ogahay waxa tani beddesho&quot; oo mar kale qor magaca calaamadda.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Goobtu waxay noqon kartaa ilaa %site, hal fayl ilaa %file, iyada oo taraafiggu yahay qiyaastii 100 GB bishii. Qorshe bilaash ah kaydka koodhku waa inuu dadweyne yahay. GitHub Pages looma talagalin dukaamo ama macaamillo ganacsi oo kale.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Bartilmaameed waa hal goob oo lagu daabacay hal kayd koodh git ah. Halkan waxba lama dhiso lamana daabaco: Kaydi wuxuu dejimaha ku qoraa settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Bartilmaameed waa hal goob oo lagu daabacay hal meel, tusaale ahaan goobtaada dadweynaha ee GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token laga keenay Habeyn &gt; Sirta</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Hab-shaqo (workflow) kaydka koodhka ayaa daabaca.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Ku dar furahan guud kaydka koodhka adoo siinaya oggolaanshaha qorista. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, calaamadee Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Lagu daray</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Martigeliye git kale</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Hawlgal kale ayaa ka shaqeynaya bartilmaameedkan: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Dib</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Jidka saldhigga</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ka hor</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Jid saldhig hoostiisa</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Laan</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Xiriirinno jaban</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Xiriirinno jaban oo dhismaha ku jira</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Dhisme</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Dhismaha %id ee %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Dhisme %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Hadda dhis</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Dhisme la hubinayo</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Waxaa sameeyay</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Gacanta, halkan</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Jooji</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Beddel</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>La beddelay</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Isbeddellada</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Marka hore hubi</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Hubi dejimahan</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Hubi waxa dhismuhu beddelo, eeg, kadibna daabac ama tuur.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Dooro daabacaadda loo noqonayo.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Waxay la imaan doontaa sii-dayn dambe.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Xareyn</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Xareynno</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Wuxuu xareeyaa dhismaha, wuu calaamadeeyaa wuxuuna u diraa %remote. Dirid weligeed lama khasbo; goor dambe waxaad dib ugu noqon kartaa daabacaad kasta.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Marka la barbardhigo galkii hore: %added lagu daray, %changed la beddelay, %removed la saaray, %unchanged aan isbeddelin.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Marka la barbardhigo daabacaaddii ugu dambaysay.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Aqoonsiga galitaanka</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domain gaar ah</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Wax-soo-saarka cilad-baarista, tokenada foomamka, aqoonsiyada fadhiga iyo nonce-yada had iyo jeer waa la saaraa.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Furaha dejinta</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Furaha dejinta ee %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tuur</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Tuur dhismaha</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Magaca domain-ka</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Madhan: cinwaanka goobta. Haddii kale, cinwaan gudaha ah oo isla goobtaas ah.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Dhammaaday</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Xiriirin kastaa wuxuu ku bilaabmaa jidka saldhigga.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Daabacaad kastaa waa xareyn leh calaamadda static/%id/&lt;n&gt;. Dib u noqoshadu waxay samaysaa xareyn cusub oo leh faylasha daabacaad hore: taariikhdu way hadhaysaa, calaamadna ma dhaqaaqdo, waxna lama khasbo.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Dheeraad</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Bogagga ka soo qaad</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fayl</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Faylal</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Faylal maqan</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Faylasha</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Faylal aan la soo ururin karin</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Faraha-calaamad</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Gal</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Cinwaan SSH ah. Furaha waxaa la sameeyaa kadib kaydinta; adiga ayaa qaybtiisa guud ku daraya kaydka koodhka.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Cinwaan https:// ah. GitHub: token si faahfaahsan loo xadeeyay (fine-grained) oo leh akhrinta iyo qorista Contents ee kaydka koodhka.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Khubarada. Goobta dadweynuhu way isbeddeshaa isla marka diridu dhammaato.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Foomamka</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Martigelin bilaash ah oo ka timaada kayd koodh GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Laanta laga keenayo</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Cinwaanka git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages wuxuu oggol yahay goob %site ah iyo fayl %file ah.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Xadadka GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages wuxuu u daabacaa faylasha sidooda (waxaa loo baahan yahay faylasha ku bilaabma _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub wuxuu u bixiyaa laanta sida loo diray. Caadiga.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, server-kaaga: kayd koodh git kasta.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Dib ugu noqo daabacaad hore</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Caawimaad</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Caawimaad ku saabsan saaxirka</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Qari</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Taariikh</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Taariikhda %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Martigeliye</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Sida GitHub Pages u helo dhismaha</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Waan hubiyay isbeddellada</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Waan ogahay waxa tani beddesho</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Aqoonsi</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Waa dansan yahay: waxba lama dhisi karo ilaa la shido.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Wuxuu ku socdaa gadaal isagoo ah %user; waad xiri kartaa boggan.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Shaqada %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Waxaa loo hayaa sida sirta %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Nooc</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Daabacaaddii ugu dambaysay</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Ka reeb bogaggan</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Ka reeb qaybahan</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Xiriirinno</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Xiriirinno dib loo qoray</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Goobta tooska ah</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Eeg dhismaha</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Xarfo yaryar, tirooyin, _ iyo -, tusaale ahaan github-public. Wuxuu magacaabaa galka iyo calaamadaha (static/&lt;id&gt;/&lt;n&gt;) mana la beddeli karo goor dambe.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Samee fure cusub</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Samee bartilmaameed</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Samee furaha</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Marka hore kaydka koodhka ka samee martigeliyaha; mid madhan waa caadi.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Liiska faylasha</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Fariin</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Inta badan bogagga</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Magac</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Magaca token-ka ee Habeyn &gt; Sirta</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Bartilmaameed cusub</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Xiga</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Maya</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Weli xareyn ma jirto.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Fure lama samayn: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Lama helin barnaamij php oo khadka amarka ah. Deji migration.ini [AdminSettings] PhpCliPath oo u dhig jidkiisa buuxa.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Weli calaamad ma jirto.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Weli bartilmaameed ma jiro.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Midna</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Kuma jiro dhismaha.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Weli waxba lama daabicin.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Weli waxba lama daabicin: fayl kastaa waa cusub yahay.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Ogeysii</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Jadwal ahaan</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Konsoolka</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Server-ka: ./console exp:static:serve %id isla sidaas ayuu u bixiyaa.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Hal jid sadarkiiba, * wuxuu u dhigmaa qayb kasta: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Bartilmaameedka magac keliya ayaa lagu kaydiyaa; token-ka ama furaha laftiisu wuxuu ku hadhaa Habeyn &gt; Sirta weligiina kama muuqdo log.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Kaliya waxa bogaggu magacaabaan</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Kaliya token. env:NAME beddelkeeda wuxuu akhriyaa doorsoome deegaan oo server-ka ah.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Fur horu-eegga</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Wuxuu u furaa dhismaha sida martigeliyuhu u bixin doono, galka bartilmaameedka. Xiriirintu adiga ayay kuu shaqaynaysaa hal saac.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Ikhtiyaari. Madhan: waxa la daabacay.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Ikhtiyaari. Domain leh, goobta waxaa laga bixiyaa xididkeeda.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Wax-soo-saar</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Bogag</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Bogagga bartilmaameedka</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Bogag la diiday</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Habaynta kadib</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Horu-eeg</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Horu-eeg iyo daabac</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Horu-eeg iyo daabac %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Horu-eeg dhismaha</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Horumar</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Cinwaanka dadweynaha</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Furaha guud</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Daabac</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Ku daabac nuqul taagan oo goob ah GitHub Pages ama martigeliye git kasta: dhis, hubi isbeddellada, daabac, oo dib ugu noqo daabacaad hore markaad u baahato.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Daabacaadda loo noqonayo</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Daabacaadyo</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Dirid</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Akhri casharka</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Diiwaan</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>La diiday</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Qaraabo</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Dib u soo rar</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>La saaray</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Beddel furaha: kii hore wuu joojinayaa shaqada</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Warbixin</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Warbixinta dhismaha</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Kaydka koodhka</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Dib-u-eegis</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Dib-u-eegistu waxay hubisaa dejin kasta waxayna muujisaa sadarrada la qori doono. Weli waxba lama kaydin.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Ka noqo</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Dib-u-celin</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Kaydi</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Jadwal</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Bogga raadinta</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Aqoonsiyada qaybaha, oo hakad lagu kala saaray.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>U dir goobta tooska ah</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Dejin</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Dejinta</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Dejinta %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Habeyn</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Habeyn &gt; Sirta</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Waxaa lagu muujiyaa liisaska, tusaale ahaan &quot;Goobta dadweynaha ee GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Ku soo galidda GitHub App waxay la imaan doontaa isku-xidhka GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Goob</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Goobta la daabacayo</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Cabbir</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Cabbirka iyo xadadka</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Cabbirka dhismaha</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Bogag duugoobay</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Bilaabmay</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Waxaa bilaabay %user waqtiga %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Xaalad</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Daabacaadda taagan</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Daabacaadda taagan waa dansan tahay</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Daabacaadda taagan waa dansan tahay.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Daabacaadda taagan waa dansan tahay. Marka hore ka shid Habeyn &gt; Daabacaadda taagan.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Daabacaadda taagan waa shidan tahay.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Tallaabada %step ee %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Tallaabooyin</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Nadiifin</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Dami</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Shid</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Shid daabacaadda taagan</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Calaamad</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Calaamado</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Bartilmaameed</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Bartilmaameedyo waa la samayn karaa waana la beddeli karaa, laakiin waxba lama dhiso lamana daabaco ilaa la shido.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Wuxuu u sheegaa matoorada raadinta waxa ay akhriyaan.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Dhismaha lama tuuri karin: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Dhismuhu waa la mid daabacaaddii ugu dambaysay: wax la daabaco ma jiro.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Dhismaha waa la tuuray: galku mar kale wuxuu hayaa daabacaaddii ugu dambaysay.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Qiimayaasha caadiga ahi waxay ku habboon yihiin goobaha badankood.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Galku wuxuu hayaa dhisme aan weli la daabicin; dhisme cusub ayaa beddelaya.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Galka shaqooyinka laguma qori karo: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Shaqada lama diyaarin karin: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Shaqada lama bilaabi karin.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Shaqadu way dhammaatay. Warbixinteeda ayaa la soo rarayaa.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Shaqadu waxay u baahan tahay isticmaale soo galay.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Shaqada waa la bilaabay laakiin ma sheegin aqoonsiga hawlgalkeeda. Hubi %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Furaha</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Faylka ugu weyn: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Sadarrada la qori doono</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Liiska bogagga ee matoorada raadinta; wuxuu u baahan yahay cinwaanka dadweynaha.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Bogagga waxaa loo soo qaadaa sida uu u arko booqde aan soo gelin. Gelitaannada maamulka iyo tafatirka weligood lama bixiyo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Horumarka lama raaci karin. Dib u soo rar bogga si aad u aragto sida shaqadu u socoto.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Qaybta guud ee furaha:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Xididka laanta</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Kaydka sirta weli lama dejin (./console exp:upgrade --apply ayaa sameeya miiskiisa), sidaas darteed fure lama hayn karo.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Server-ku keligiis ayuu soo galaa (furihiisa SSH ama caawiyaha aqoonsiga), ama kaydka koodhku wuxuu ku yaal server-kan.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Dejinta lama qori karin: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Dejimuhu waa sax. Sadarradan ayaa la qori doonaa:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Faylka dejinta lama akhrin karo: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Goobtu waxay ku noqonaysaa faylasha daabacaaddaas; dhisme aan weli la daabicin waa in marka hore la daabacaa ama la tuuraa.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Bogga goobta ee cinwaannada aan jirin.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Bartilmaameedka lama kaydin karin: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Bartilmaameedku weli kuma soo galo furahan: dejintiisa ka dooro &quot;Furaha dejinta ee loo sameeyay bartilmaameedkan&quot;.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Bartilmaameedyada lama akhrin karin: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Weli ma jiro dhisme la hubiyo.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Rakibaaddan ma laha gelitaan goob dadweyne. Gelitaannada maamulka iyo tafatirka weligood lama daabaco.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Boggani wuxuu la socdaa shaqada inta ay socoto; way sii socotaa gadaal marka bogga la xiro.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Bartilmaameedkani weli ma laha fure dejin.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Bartilmaameedkan weli halkan laguma dhisin.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Bartilmaameedkani mid buu leeyahay.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Wuxuu tuuraa dhismahan: galku mar kale wuxuu hayaa daabacaaddii ugu dambaysay. Goobta tooska ahi isma beddesho.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Marka hore calaamadee &quot;Waan hubiyay isbeddellada&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waqti</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Kiciyeyaal</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Mar kale qor magaca calaamadda</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Aan isbeddelin</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Maxay</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Waxa isbeddela</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Waxa fayl kastaa yahay; had iyo jeer waa la qoraa.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Waxa shaqadu samaysay iyo diiwaankeeda. Shaqo halkan laga bilaabay way sii socotaa gadaal marka boggan la xiro.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Waxa shaqadu u soo saartay khaladaad ahaan</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Waxa bogaggu magacaabaan, iyo sawir kasta oo nuxur la daabacay ah</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Goorma</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Marka daabacaad fashilanto</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Marka daabacaad guulaysato</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Marka nuxur la daabaco</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Halka ay u socdaan xiriirinnada waxa nuqulku aanu haysan (raadinta, soo galidda).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Halka nuqulka taagan laga bixiyo.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Goobta la daabacayo, iyo waxa bartilmaameedka loo yaqaan.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Ka shaqee jid kasta hoostiisa. Caadiga.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Waxaa la qoraa mar kasta oo domain gaar ah la dejiyo.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Haa</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Had iyo jeer waad dhisi kartaa oo gacanta ku daabici kartaa halkan iyo konsoolka.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>magac keliya; qiimuhu wuxuu ku hadhaa Habeyn &gt; Sirta</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>hoostiisa %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>wuu dhammaaday warbixin la&apos;aan</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>dheeraad</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>fashilmay</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fayl</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, ama main oo leh galka docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>martigeliye git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (token leh) ama git@github.com:owner/repo.git (fure dejin leh); weligii erey-sir ama token kuma jiraan.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, khariidadda goobta iyo xiriirinnada rasmiga ah.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>sawir</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>marna</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>maya</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>kayd fog ma jiro</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>midna: xareynnadu waxay ku hadhaan galka</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>midna: waxba isma beddelin</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>lama dirin</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>waxba isma beddelin</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>bog</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>wuu gudbay</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open waa la damiyay, sidaas darteed shaqo halkan lagama bilaabi karo. Server-ka ku isticmaal ./console exp:static:build.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>daabacaad</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>la daabacay</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>dirid sugaysa</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>la diray</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>la diiday</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>qaraabo</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>dib-u-celin</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>dib loo celiyay</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>socda</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>galka oo keliya</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: waxaa lagu qoraa faylka CNAME. DNS-ka domain-ka u jihee martigeliyaha sida uu sharxo; HTTPS wuxuu qaadan karaa waqti inta uu bilaabmayo.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>haa, weli lama daabicin</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Barnaamij GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Hab-shaqo (workflow) kaydka koodhka ayaa daabaca. Dhismuhu wuxuu qoraa faylka hab-shaqada; gal-ka madhan u daa.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Kadib markaad keydiso bartilmaameed leh kayd koodh GitHub iyo token ama GitHub App, tallaabadani waxay samayn kartaa kaydka koodhka oo shidi kartaa GitHub Pages. Haddii kale marka hore kaydka koodhka ka samee GitHub; mid madhan waa caadi.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Laan mise GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Hubi DNS-ka</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Samee kaydka koodhka haddii uusan jirin</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Ka samee kaydka koodhka GitHub oo ka shid GitHub Pages dejimahiisa (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Wuxuu sameeyaa kaydka koodhka %repo marka uu maqan yahay (haddii la codsado), wuxuu shidaa GitHub Pages laanta ama GitHub Actions sida loo keydiyay, wuxuuna dejiyaa domain-ka gaarka ah iyo HTTPS. Wuxuu adeegsadaa dejimaha la keydiyay: marka hore keydi isbeddellada.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Faahfaahin ku taal GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Marka hore geli domain-ka gaarka ah.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Push kasta marka hore waxaa lagu hubiyaa xadadkan.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Cinwaan https:// ah oo GitHub ku yaal. App-ka loo dejiyay rakibaaddan ayaa soo gala; wuxuu u baahan yahay id-ga rakibaadda.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages wuxuu adeegsiiyaa kayd koodh gaar ah oo keliya qorshe lacag leh.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdomain (www.example.com) wuxuu u baahan yahay diiwaan CNAME oo loo jiheeyo &lt;owner&gt;.github.io; apex domain (example.com) diiwaannada A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id-ga rakibaadda GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Dhismihii Pages ee ugu dambeeyay</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Xadadka iyo shuruudaha</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Waxaa loo baahan yahay GitHub Pages ee qorshe bilaash ah.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub dushiisa</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Kaliya GitHub App: lambarka dhammaadka cinwaanka rakibaadda App-ka ee GitHub. App-ka laftiisa waxaa lagu dejiyaa staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Gaar ah</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Dadweyne</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Marka hore keydi bartilmaameedka adoo leh kayd koodh GitHub iyo token ama GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Dhig diiwaannadan bixiyaha domain-ka:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Ku dejin GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS-ka %domain weli uma jiheysna GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS-ka %domain wuxuu u jiheysan yahay GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Isku-xidhka GitHub halkan lagama heli karo: %problem. Ku daabacidda laanta si caadi ah ayay u shaqeysaa; ka shid GitHub Pages dejimaha kaydka koodhka.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Tallaabooyinka GitHub looma heli karo bartilmaameedkan: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Xaaladda GitHub Pages waxaa la muujiyaa marka aqoonsiga galitaanku yahay token ama GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Isticmaal domain-kaaga</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Midkee la doortaa: token, furaha dejinta ama GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Kayd koodh GitHub iyo token ama GitHub App, saaxirku wuxuu kuu samayn karaa kaydka koodhka, shidi karaa GitHub Pages oo dejin karaa domain-ka (tallaabada 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>la dhisayaa</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>la dhisay</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions laga keenay</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>laanta %branch laga keenay</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>weli midna</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>lama helin</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>dansan</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>gaar ah</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>dadweyne</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>safka ku jira</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>aan la aqoon</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count bogagga %pages ah:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Fayl .gz (iyo .br) oo ku xiga fayl kasta oo qoraal ah, martigeliyayaasha bixiya.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Bog yar oo cinwaan kasta oo hore iyo naanaysta bog, si isku-xirayaasha hore ay u shaqeeyaan.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Had iyo jeer waa la qoraa marka GitHub Actions uu bixiyo goobta.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id sida CC-BY-4.0, ama qoraalka laftiisa.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Dambiil</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Wicitaannada server-ka</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Faallooyin</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Foomamka ururiya macluumaadka</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Meel bannaan yar iyo faallo la'aan bogagga.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Shatiga nuxurka</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Gal</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Foomamka kale</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Bogagga u jeedinta</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Bogagga u jeedinta: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Raadi</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Tusmada raadinta: %pages bog oo ku jira %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Xaashiyaha qaabka iyo scripts-ka loo magacaabay hash-ka nuxurkooda, si baraawsarradu u hayaan.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Bogagga isbeddelay, dhawr daqiiqo ka dib isbeddelkii ugu dambeeyay (qaybta cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Shatiga nuxurka, ee goobta hoose.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Goobta oo dhan, waqtiyada jadwalka (qaybta cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Qaybahan bogagga waxay u baahan yihiin server; mid kastaa wuxuu helay beddel. Hubi ka hor intaadan daabicin.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Waxa aan statically u shaqayn</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Waxa kaydku yahay, qofka ku furaya martigeliyaha.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>laga tagay</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>qoraalka beddelka</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>meesha foomamka laga helo ee goobta tooska ah</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>goobta tooska ah</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>bogga raadinta ee nuqulka</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Foomka lama dirin karin.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Mahadsanid: foomka waa la diray.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Foomka lama aqbalin: hubi wixii aad gelisay oo mar kale dir.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Ka saar xiriirada bogagga aan nuqulku haysan</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Ka saar xiriirada maamulka</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Qoraalkoodu wuu harayaa. Sawirada, foomamka iyo xiriirada goobaha kale weligood lama saaro.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Nooc</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Gelitaannada goobta ee la daabacayo</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Gelitaanka goobta</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Xididka</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Xididka ma jiro gelitaan goob: mid kastaa wuxuu ku jiraa galkiisa, xididkuna wuu ku xidhaa</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Gelitaannada goobta</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Calaamadee hal gelitaan goob, ama dhowr wadaaga hal martigeliye iyagoo adeegsanaya horgalaha URI. Ka xididka ku jira halkaas ayaa laga bixiyaa, kuwa kale galka horgalahooda (/ger/); xiriirrada u dhexeeya waxay ku hadhaan nuqulka. Gelitaannada maamulka weligood lama soo bandhigo.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Daabacaadda joogtada ah ee %target way ku guuldareysatay %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Daabacaadda joogtada ah ee %target way ku guuleysatay %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Farriintan waxaa soo diray %site sababtoo ah bartilmaameedka daabacaadda joogtada ah %target ayaa codsanaya.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Gudbinta %deploy way ku fashilantay %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Gudbinta %deploy waxay ku sugaysaa irid %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Gudbinta %deploy way ku guulaysatay %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Fariintan waxaa soo diray %site maxaa yeelay migration.ini [RemoteSettings] Notify[] ayaa codsada.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Noocyada xogta (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>La tiriyey %time, mar kale %minutes daqiiqo kadib</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Nooca xogtu wuxuu kaydiyaa oo wax ka beddelaa hal nooc oo qiimo ah oo sifo fasal leedahay: sadar qoraal ah, sawir, xiriir. Kernel-ka ayaa keena intooda badan, kordhinnaduna waxay ku daraan kuwo kale. Halkan waa dhammaan, cidda bixisa iyo inta nuxur ah ee isticmaasha. Nooc xog ah oo kaydka xogtu isticmaalo laakiin aan waxba diiwaangelin mar dambe wuxuu jebiyaa nuxurka leh.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Kooxaha fasalka</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Hadda mar kale tiri halkii aad isticmaali lahayd tirooyinka daqiiqadihii u dambeeyey.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Mar kale tiri</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Guudmar</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>La diiwaangeliyay</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>La isticmaalayo</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Lama isticmaalin</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Kordhinnada bixiya noocyada xogta</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Sifooyinka fasalka</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Sifooyinka shayga</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Lama diiwaangelin</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Liiska ku jira, faylku waa maqan yahay</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count nooc oo xog ah ayaa la isticmaalaa laakiin lama diiwaangelin</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes sifo fasal iyo %object_attributes sifo shay ayaa leh nooc xog ah oo aan kordhin ama dejin midna diiwaangelin. Walxahooda lama tusi karo, wax lagama beddeli karo, lamana daabici karo. Daar kordhinta bixisa nooca xogta, ama beddel fasalka.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Kaliya tus kuwan</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Raadi nooc xog ah</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Aqoonsi, magac, fasal PHP ama kordhin.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Muuji</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Dhammaan</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Waxaa bixiya</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Qof kasta</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ma jiro nooc xog ah oo ku habboon shaandhadan.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Muuji dhammaan</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Kordhin</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown ka mid ah %count nooc oo xog ah, %used la isticmaalo</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Kaydka xogtu wuxuu leeyahay sifooyin fasal ama shay oo noocyadan xogta ah, laakiin midkoodna kuma qorna content.ini, ama faylkiisu waa maqan yahay.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Noocyada xogta ee %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Nooca xogta</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Fasalka PHP iyo faylka</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Fasallada</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Walxaha</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Calamado</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>midna</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ma jiro nooc xog ah oo ku habboon raadinta. Nadiifi raadinta.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown ka mid ah %count nooc oo xog ah ayaa la muujiyey</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Noocyada xogta la muujiyey: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Kala sooc iyadoo loo eegayo %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>La tiriyey %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Dhammaan noocyada xogta</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Bogga caawimaadda</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Nooca xogtan waa la isticmaalaa laakiin lama diiwaangelin</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Walxaha fasallada hoose lama tusi karo, wax lagama beddeli karo, lamana daabici karo inta aan kordhin diiwaangelin nooca xogta. Daar kordhinta bixisa oo ku dar content.ini [DataTypeSettings] AvailableDataTypes[], ama beddel fasallada.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini wuxuu ku qoran yahay nooca xogtan, laakiin ma jiro gal noocyada xogta oo haya faylkiisa. Waxba ma isticmaalaan; ka saar AvailableDataTypes[] ama daar kordhintiisa.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Ku saabsan nooca xogtan</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Aqoonsi</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Magac</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Kordhin %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>cidna</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Fasalka PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fayl</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Ku jira AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>haa</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>maya</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Tiirarka qiimihiisa</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Tiirarka dejinta sifada fasalkiisa</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Shaxanno</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Tiirarka iyo jadwallada waxaa laga helaa akhrinta koodka nooca xogta: hage, ma aha ballan.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Qaabab</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Gelitaanka goobta</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Template</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Waxaa laga helay</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>maamulkan</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>goobta caadiga ah</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Override la'aan: template override ah oo ku habboon fasal ama sifo ayaa ka mudnaan badan kuwan.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Fasallada isticmaala (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ma jiro fasal leh sifo nooca xogtan ah.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Fasal</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Sifooyin</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Sifooyinka fasalka (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Sifo</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Dejinta</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Waa loo baahan yahay</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>La raadin karo</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>La tarjumi karo</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Waxay ururisaa macluumaad</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Nuxur isticmaala qaarkood</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Kuwa ugu dambeeyay ee la beddelay marka hore</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>La beddelay</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Node %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Tarjumaad kastaa waxay leedahay qiimo u gaar ah.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Raadintu waxay tusmaysaa qiimayaashiisa.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Wuxuu ka ururin karaa macluumaad booqdayaasha (foomam).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Liisaska waa lagu kala sooci karaa: furaha kala soocidda %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>La kala saari karo</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Qiimayaashiisu waxay tilmaamaan walxo kale.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Xiriirro</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Waxaa laga buuxin karaa qoraal fudud (soo dejin, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Ka qoraal</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Waxaa laga buuxin karaa fayl.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Ka fayl</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Dejinta sifada fasalkiisa waxay gashaa xirmooyinka.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Xirmooyin</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Nuxur (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ilaa %to ee %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Shaandhee liiska</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Dhammaan fasallada</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Qaybta</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Luqadaha</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Mulkiile</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>La daabacay</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Rog habka</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Shay ma jiro</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Bog kasta</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Muuji %count shay bog kasta.</translation>
     </message>
 </context>
 </TS>

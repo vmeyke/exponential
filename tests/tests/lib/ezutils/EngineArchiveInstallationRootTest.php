@@ -13,12 +13,13 @@
  * The classes are loaded from a small archive built for the test, in a separate PHP process.
  * No database.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group lib
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
 class EngineArchiveInstallationRootTest extends PHPUnit\Framework\TestCase
 {
     const FILES = array(

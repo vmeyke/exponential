@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Mung kaca iki sing digoleki: %from nganti %to saka %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kabèh jinis data saka inti lan ekstensi, lan kepriyé kelas lan isi nggunakaké.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Jinis data</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Kaca sistem uga bisa ditetengeri: bukak kacane (Panyiapan, jejak audit, dhaptar panganggo ...) banjur pilih Tetengeri kaca iki ing ndhuwure. Tetenger kaya mengkono duwe ikon roda gigi.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Panjenengan ora oleh maneh mbukak kaca iki ing kene. Copot tetenger, utawa nyuwuna akses marang pangurus.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Menyang kaca kapisan</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Liyane</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 dina pungkasan</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Rentang dhewe</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Kabeh tembung</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Tembung apa wae</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Frasa persis</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevansi</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Jeneng A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Jeneng Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Diowahi, paling anyar dhisik</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Diowahi, paling lawas dhisik</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Diterbitake, paling anyar dhisik</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Diterbitake, paling lawas dhisik</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Diowahi</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Saringan</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Tampilake saringan</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Delikake saringan</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Setel maneh</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Trapake</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Tembung</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Jinis isi</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Tampilake luwih akeh (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Pilih siji jinis isi kanggo nggoleki ing salah sijine atribute.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksi</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Saka</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Nganti</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Tanggal wiwitan dudu tanggal sing sah.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Tanggal pungkasan dudu tanggal sing sah.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Sing nduwe</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID panganggo, jeneng mlebu utawa alamat e-mail.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Ora ana panganggo sing ketemu kanggo “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Basa</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Basa apa wae</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lokasi</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count lokasi</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Asil saben kaca</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Asil kanggo “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Asil (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Urutake miturut</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Urutake</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Saringan aktif</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Copot saringan iki</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Utawa pilih saringan lan trapake kanggo nampilake isi sing cocog.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Saringan mbatesi panggolekan sawise sampeyan ngetik tembung.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Ora ana asil sing ketemu kanggo “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Ora ana asil sing ketemu.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Busak salah siji saringan ing ndhuwur.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Terjemahan</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Tindakan</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Sunting %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Sunting</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Panyiapan &gt; Tugas cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Durung ana bagean tugas cron sing wis mlaku: antrian tugas, impor, kabar lan indeks panggolekan isih ngenteni. Lakokake php bin/php/installcrontab.php --add --apply, utawa tambahake baris saka --show menyang crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Pangumuman hak cipta saka panulis asli lan saka piranti lunak pihak katelu sing kalebu ing Exponential tetep dijaga ing berkas sumber lan ing berkas LICENSE, kaya sing dibutuhake dening lisensi.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Ing ngisor iki dhaptar kontributor Exponential sing wis menehi lisensi karyane kanggo digunakake dening 7x miturut syarat lan katentuan eZ Systems Contributor Licensing Agreement. Kaya sing diidinake dening perjanjian iki, 7x nyebarake maneh saben kontribusi miturut lisensi sing padha karo berkas panggonane kontribusi kuwi. Dhaptar iki nyebutake saben kontributor, katrangan kontak opsional, lan berkas sing disumbangake utawa melu digarap.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Kontributor sing diakoni amarga karyane ing Exponential lan ing piranti lunak asal-usule, bebarengan karo berkas sing dikontribusekake. Iki pangakuan, dudu kabar hak cipta: kontribusi marang Exponential dialihake marang Exponential Foundation lan 7x miturut Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Cathetan: Paket ora bakal dicopot pasangane.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Evaluasi Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Dadia anggota Exponential Community, tukar pikiran lan nyumbang&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Hak Cipta &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; lan liya-liyane.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Didhukung dening &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Kanggo katrangan luwih lengkap deleng &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Hak Cipta &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; lan liya-liyane.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Kanggo katrangan luwih lengkap deleng &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Hak Cipta &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; lan liya-liyane.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Evaluasi Exponential (saka 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Dadia anggota Exponential Community, entuk dhukungan lan nyumbang&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Hak Cipta &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; lan liya-liyane.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Cathetan: Paket ora bakal dicopot pasangane.</translation>
     <message>
         <source>Help center</source>
         <translation>Pusat pitulung</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Isi</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Kaca dokumen</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Panganggo</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Kelas isi</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administrasi</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Kaca %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Deleng kabeh asil</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count asil</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Siji asil</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count saran</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Ora ana saran</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Saran ora bisa dimuat.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Saran</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Cathetan: Paket ora bakal dicopot pasangane.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Instalasi iki demo umum: sapa wae bisa ngerti tembung sandhi pangurus, lan tembung sandhi pangurus ora bisa diganti utawa disetel ulang. Aja nglebokake apa wae sing pribadi ing kene.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Piranti panjenengan</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivitas keamanan</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Cathetan: Paket ora bakal dicopot pasangane.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Pandhuan, panggolekan, lan carane nglaporake kasalahan.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Konten anyar</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Konten paling anyar, sing ditahan kanggo dipriksa, lan tumindak ing pilihan.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Cathetan: Paket ora bakal dicopot pasangane.</translation>
         <source>Synchronisations</source>
         <translation>Sinkronisasi</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>API GraphQL: titik pungkasane, skema lan papan kanggo nyoba kueri.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasi</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Owah-owahan instalasi sing disimpen dadi berkas: kahanane, eksekusine, nglakokake lan mbatalake.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Konten anyar</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Konten paling anyar, sing ditahan kanggo dipriksa, lan tumindak ing pilihan.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Terbitake salinan statis sawijining situs menyang GitHub Pages utawa host git apa wae.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Panerbitan statis</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Jinis data</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kabèh jinis data saka inti lan ekstensi, lan kepriyé kelas lan isi nggunakaké.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Cathetan: Paket ora bakal dicopot pasangane.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Akun sing ora digunakake sapa wae utawa sing perlu dideleng; pateni, buka kunci, utawa ekspor.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Log audit panganggo</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Sapa sing ngowahi, mlebu utawa ditolak, saben akun; saring lan ekspor.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Laporan mlebu</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Sapa sing lagi mlebu, proses mlebu lan sing gagal saben dina; metokake panganggo ing ngendi-endi.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Cathetan: Paket ora bakal dicopot pasangane.</translation>
         <source>%n hours ago</source>
         <translation>%n jam kapungkur</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Wangsulan kueri sing disimpen saka API GraphQL, lan kelas isi saka skemane.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Terbitake salinan statis menyang GitHub Pages utawa host git apa wae</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Panerbitan statis</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Cache statis nyajekake kaca saka server iki. Kanggo nerbitake salinan statis sawijining situs ing panggonan liya, ing GitHub Pages utawa host git apa wae, gunakake panerbitan statis.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Cathetan: Paket ora bakal dicopot pasangane.</translation>
     <message>
         <source>last purge</source>
         <translation>pangresik pungkasan</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Panulisan ora bisa njupuk kunci status (pungkasan %date): saben panulisan nggawe kabeh asil sing di-cache dadi lawas. %file kudu bisa ditulis dening saben pangguna sing nglakokake situs; ing NFS butuh NFSv4 utawa lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Cathetan: Paket ora bakal dicopot pasangane.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Sesi panangan PHP sing kadaluwarsa dibusak dening PHP dhewe (session.gc_maxlifetime), dudu dening kaca iki utawa bagean tugas cron session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Sesi sing lagi mlebu saka saben panganggo kadhaftar, lan bisa dimetokake, ing laporan mlebu, sing bisa mlaku karo saben penangan sesi.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Bukak laporan mlebu</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ akun panjenengan.</translation>
     <message>
         <source>None yet</source>
         <translation>Durung ana</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivitas keamanan</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Proses mlebu panjenengan sing anyar, upaya sing gagal lan owahan tembung sandhi, alamat email lan mlebu rong langkah panjenengan.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Proses mlebu sing anyar, upaya sing gagal lan owahan keamanan akun iki.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Priksa aktivitas</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count proses mlebu gagal</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Yen panjenengan arep ngirim komentar marang panyetuju utawa ndeleng statuse, gun
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Sawise mlebu, panganggo kudu milih tembung sandhi anyar sadurunge nindakake apa wae liyane. Gunakake iki yen panjenengan menehi tembung sandhi sauntara marang wong.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Pilih gambar sing wis ana</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Berkas gambar saka objek sing kokpilih disalin menyang kolom iki. Objek liyane ora owah.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Gambar saka "%name" wis disalin menyang kolom iki.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Jlajah kanggo golek gambar</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Golek gambar miturut jeneng</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Golek</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Gunakake gambar saka "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Gunakake gambar iki</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ora ana gambar sing cocog karo panelusuranmu.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Deleng kaca syarat kanggo katrangan luwih lengkap.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab ora katulis (%reason). Tambahake baris iki menyang crontab panganggo sing njalanake situs, yen ora antrian, impor, kabar lan indeks panggolekan ora bakal mlaku:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Pamasangan maneh ditindakake nganggo kickstarter (%file, banjur php bin/php/kickstarter.php run --apply) utawa nganggo pamasangan anyar.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ akun panjenengan.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Cache Public Packer eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Cache GraphQL (wangsulan lan kelas skema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ akun panjenengan.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Salinan %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Jinis data</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Jinis data %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ akun panjenengan.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Gambar SVG ora bisa diwaca, utawa ora ana isine sing bisa ditampilake kanthi aman.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Gambar ora bisa disalin. Mangga jajal maneh utawa hubungi administrator situs.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Objek sing dipilih ora ana utawa kowe ora diidini maca.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Objek sing dipilih ora duwe gambar.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Berkas gambar saka objek sing dipilih ora bisa diwaca.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Gambar saka objek sing dipilih luwih gedhe tinimbang sing diidini kolom iki: %1 bita.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ akun panjenengan.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Tetenger diganti jenenge dadi "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Kaca iki dipateni ing akses situs iki (%siteaccess). Bukak tetenger ing akses situs sing nduweni kaca iki.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Modul kaca iki durung dipasang utawa durung diaktifake ing kene.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Kaca iki wis ora ana: modulé ora duwe tampilan kaya ngono.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ora ana peran Panjenengan sing ngidini Panjenengan mbukak kaca iki.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Panjenengan ora oleh nggunakake akses situs iki.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Panjenengan ora oleh maca isi sing dituduhake kaca iki.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Jinis kaca iki ora bisa ditetengeri: kaca iki mung tumindak marang formulir, utawa kaca sing mung ana sedhela.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Alamat kaca iki ora ana.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Kaca iki ora bisa dibukak saiki.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Transport email nolak %count pesen ing proses pungkasan. Priksa server email lan site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count kedadeyan ngenteni lan ora ana lakon tugas cron kabar sing kacathet. Tambahake bagean tugas cron &quot;frequent&quot; menyang crontab, utawa lakokake exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63069,6 +63564,10 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
         <source>Choose another site or section with the node picker</source>
         <translation>Pilih situs utawa seksi liya nganggo pamilih simpul</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Mung pangurus sistem sing bisa ngganti pamilik: lakokake ./console exp:content-check --fix-permissions --apply minangka root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64602,6 +65101,10 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
     <message>
         <source>empty</source>
         <translation>kosong</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Kunci tandha tangan wis luwih saka setaun: ganti nganggo exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68432,6 +68935,486 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
         <source>Share of page time</source>
         <translation>Bagean saka wektu kaca</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>render jangkep dijaluk</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>cache kaca ora duwe kaca iki (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>cache kaca ora mangsuli</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Dirender</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Dirender dening inti: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Disuguhake saka cache kaca sajrone %ms ms. Kaca iki disimpen ing %stored dening render suwene %render ms, %age dtk kepungkur.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Render saiki</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Bali menyang tampilan saka cache</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Saka render ing %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Panjaluk iki: disuguhake saka cache kaca sajrone %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Panganggo</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID panganggo</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profil cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Tampilan iki</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Cache tampilan</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>saben pangguna (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profil cache pangguna: pangguna kanthi profil sing padha nganggo bebarengan berkas cache tampilan</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ya</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ora</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Jeneng login</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Mlebu</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sesi</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Perangan kunci cache tampilan konten sing gumantung marang pangguna, persis kaya sing dijupuk kunci, miturut ViewCacheTweaks kaca iki. Pangguna kanthi profil sing padha nganggo bebarengan berkas cache tampilan, kajaba perangan tampilan dhewe beda (preferensi, kunci listener): iku duwe profil dhewe, mung kanggo kaca iki.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Tampilan iki (node %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: saben pangguna sing mlebu duwe berkas cache dhewe.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks sing aktif: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Bagean</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Nilai</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ora ana perangan sing gumantung marang pangguna (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>tampilan iki</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Salin minangka teks</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Peran</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Ora ana penugasan peran sing bisa diwaca.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID peran</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Peran</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Watesan</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Ditugasake marang</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>pangguna</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grup %name (obyek %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Wis disalin</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Ora bisa nyalin.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ditinggalake dening listener</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Pengunjung anonim</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>padha karo duweke sampeyan</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>beda</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profil sing ditampa pengunjung anonim miturut ViewCacheTweaks sing padha, kanthi preferensi gawan, tanpa perangan tampilan: listener sing maca sesi ora bisa ditakoni babagan iku.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Preferensi</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ora ana mode tampilan sing gumantung marang preferensi pangguna (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Preferensi sing dadi gumantungan tampilan saka mode tampilan iki (CachedViewPreferences), kanthi nilai pangguna utawa gawan. Kabeh ana ing profil minangka userpreferences, saka kabeh mode tampilan bebarengan.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Mode tampilan</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Pilihan</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Gawan</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Kawicaksanan</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Tampilake kawicaksanan peran (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Kawicaksanan dimuat saka server nalika bagean iki dibukak, sakaca-sakaca, lan bisa disaring miturut modul lan fungsi.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Fungsi</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Kabeh modul</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Kabeh fungsi</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Watesan</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Tampilake luwih akeh</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Peran iki ora duwe kawicaksanan.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ora ana kawicaksanan sing cocog karo saringan.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown saka %matching kawicaksanan (%total sakabehe)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Dimuat nalika dibukak.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, peran, watesan</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Golek kabijakan</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Muat luwih akeh</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/fungsi</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Kabeh peran (%count kabijakan)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ora ana kabijakan sing cocog.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown saka %matched kabijakan</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Ora ana wangsulan</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>disamarake</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Tampilake katrangan</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Delikake katrangan</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Bukak</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Bukak kabeh</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Tutup kabeh</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kunci utawa nilai</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Golek ing sesi</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Jinis</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count liyane</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>susunane kajeron kanggo ditampilake</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>dipotong, gunggunge %count karakter</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Diwiwiti</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Jeneng kuki</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID sesi</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Pangolah</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Dalan panyimpenan</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Gawan PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Umur (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuki</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>umur %s detik</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Sesi PHP panjenengan piyambak, kaya nalika bagean iki dibukak, ora tau sesi liyane. Nilai saka kunci sing katon kaya rahasia (token, hash, tembung sandi) disamarake (debugbar.ini SessionMask[]); kabeh liyane ditampilake kaya sing disimpen, kalebu data pribadi.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count kunci, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>gedhe</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Sesine kosong.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Ora ana sesi sing diwiwiti kanggo panjalukan iki.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Ekstensi %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel lan liyane</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Ora kabeh entri ditampilake: sesi iki isine luwih akeh tinimbang sing bisa didhaptar ing kene.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count kunci ora didhaptar.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Bingkai</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Nilai sing katon kaya token (JSON Web Token, kredensial header Authorization, kunci pribadi, teks hex utawa acak sing dawa) uga disamarake, apa wae jeneng kuncine (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Kuncine katon kaya rahasia (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Nilaine katon kaya token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Ing sangisore kunci sing disamarake.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Sesi minangka teks, disamarake kaya tabel.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Sesine luwih gedhe tinimbang %size (debugbar.ini SessionWarnBytes): saben panjalukan saka pangguna iki maca kabeh sesi, lan nulis sesi kasebut yen ana owah-owahan.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP nyimpen sesi iki ing berkas lan ngunci berkase sajrone kabeh panjalukan: panjalukan saka pangguna sing padha (pirang-pirang tab, panggilan AJAX) padha ngenteni siji lan sijine.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Tetep mbukak</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Luwih gedhe tinimbang %size (debugbar.ini SessionWarnBytes): saben panjalukan saka pangguna iki maca kabeh sesi.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits saka %count diwaca saka cache</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ora ana cithakan sing dirender (tampilan sing diwaca saka cache tampilan ora ngrender cithakan apa wae).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Panetepan peran</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Peran lan kawicaksanan</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>béda karo pengunjung anonim</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>padha karo pengunjung anonim</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70312,6 +71295,14 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
     <message>
         <source>not sent</source>
         <translation>ora kakirim</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Tugas cron kabar nyathet saben lakone ing kene. Tambahake bagean frequent menyang crontab, utawa lakokake exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Gunakake konsol: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76030,6 +77021,98 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Topik iki durung Dirilis; pamaca ora bisa ndeleng.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasi</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Owah-owahan instalasi sing disimpen dadi berkas: kahanane, eksekusine, nglakokake lan mbatalake.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Terbitake salinan statis sawijining situs menyang GitHub Pages utawa host git apa wae.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Panerbitan statis</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Ing Pamriksan</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Pamaca bisa ndeleng kaca iki.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Didhelikake saka pamaca nganti ana sing ngrilis.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Kaca saiki ana ing Pamriksan. Kaca didhelikake saka pamaca nganti dirilis.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Kaca wis Dirilis: pamaca saiki bisa ndeleng.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Kaca bali dadi Draf. Kaca didhelikake saka pamaca nganti dipriksa lan dirilis.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Rilis saiki</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Mung pangguna kanthi peran %role sing ora nulis versi iki sing bisa ngrilis.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Topik pitulung sing ngenteni rilis</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Ndhelikake saka pamaca nganti dirilis maneh.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Banjur ana pamriksa sing mriksa. Pamaca durung bisa ndeleng.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Pamaca langsung bisa ndeleng.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Ngetokake saka pamriksan kanggo digarap maneh. Pamaca ora bisa ndeleng.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Dhelikake kaca iki saka pamaca?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Balekake kaca iki menyang Draf?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Pamaca ora bisa ndeleng %title maneh nganti ana sing ngrilis maneh.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title bali menyang Draf kanggo digarap maneh. Pamaca isih durung bisa ndeleng, lan butuh pamriksan anyar sadurunge dirilis.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Batal</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Topik-topik iki ana ing Pamriksan. Pamaca bisa ndeleng sawise ana wong sing ora nulis versi saiki ngrilis.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76485,6 +77568,46 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
         <source>None.</source>
         <translation>Ora ana.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>nganggo aplikasi autentikator</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>nganggo kode liwat email</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>nganggo kode pemulihan</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>nganggo kunci sandhi</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>nganggo akun njaba</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivitas keamanan</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Ditampilake minangka jaringane; alamat disimpen miturut setelan pangreksan data situs.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ora kacathet</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lokasi</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>kira-kira</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76728,6 +77851,42 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
         <source>Manage devices</source>
         <translation>Urus piranti</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>nganggo aplikasi autentikator</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>nganggo kode liwat email</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>nganggo kode pemulihan</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>nganggo kunci sandhi</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>nganggo akun njaba</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivitas keamanan</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ora kacathet</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lokasi</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>kira-kira</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76807,6 +77966,14 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
         <source>View the sessions of this user</source>
         <translation>Deleng sesi pangguna iki</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Akun panjenengan %login ing %site lagi wae dienggo mlebu saka papan sing akhir-akhir iki ora tau dienggo mlebu:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Kira-kira lokasi</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76845,6 +78012,10 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ing %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Laporan mlebu</translation>
     </message>
 </context>
 <context>
@@ -77053,6 +78224,82 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Passkey ora bisa dipriksa. Mangga coba maneh.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Akun sing mung mlebu nganggo passkey ora bisa nggunakake tembung sandhi ing kene: pilih &quot;Mlebu nganggo passkey&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Passkey duweke %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Passkey sing digunakake akun iki kanggo mlebu. Cabut passkey sing ana ing piranti sing ilang utawa dicolong: passkey kuwi ora bisa mlebu maneh. Sing duwe akun nambahake sing anyar dhewe.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Akun panjenengan butuh passkey</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Tambahake passkey menyang akun panjenengan</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Tambahake passkey kanggo nerusake. Sabanjure panjenengan mlebu nganggo passkey kuwi, ora mung nganggo tembung sandhi.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Mlebu nganggo passkey luwih cepet lan luwih aman tinimbang tembung sandhi. Tambahake siji saiki, utawa terusake tanpa passkey.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ora saiki</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Cabut passkey &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Passkey iki ora bisa mlebu menyang akun iki maneh. Yen iki sing pungkasan, sing duwe akun mlebu nganggo tembung sandhi, utawa panjenengan nyetel sing anyar.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Cabut passkey</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Cabut</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Akun iki ora duwe passkey.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Autentikator</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Ora dingerteni</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Passkey pungkasan panjenengan: tambahake liyane sadurunge panjenengan nyopot.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Akun iki mung mlebu nganggo passkey (kawicaksanan passkey): yen ora ana sing kari, akun iki mlebu maneh nganggo tembung sandhine.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Iki passkey pungkasan panjenengan lan akun panjenengan ora bisa mlebu tanpa passkey. Tambahake passkey liyane dhisik.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Passkey &quot;%name&quot; wis dicabut. Passkey iki ora bisa mlebu menyang akun iki maneh.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77152,6 +78399,34 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
         <source>Code from your authenticator app</source>
         <translation>Kode saka aplikasi autentikator panjenengan</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Panjenengan arep mbusak data selawase utawa ngosongake log.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Tembung sandhi panjenengan lan passkey</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Tembung sandhi panjenengan lan kode saka aplikasi autentikator panjenengan</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Utawa:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Browser iki ora bisa nggunakake passkey. Gunakake cara liya, utawa browser liya.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Yen panjenengan nerusake, browser panjenengan bakal njaluk salah siji passkey panjenengan.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Terusake nganggo passkey</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77242,6 +78517,70 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
     <message>
         <source>Setup</source>
         <translation>Panyiapan</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Ngganti tembung sandhi, alamat email, passkey, mlebu rong langkah, kode pemulihan utawa kunci API dhewe, lan metu saka piranti liya duweke dhewe.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Nggawe lan nyunting panganggo, tembung sandhi lan pirantine, setelan akun, nyetujoni utawa nolak akun panganggo anyar, menehi peran lan nyunting kawicaksanan.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Mbusak data</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Ngosongake tong sampah, nyopot item saka kono lan nyopot sawetara item bebarengan.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Nyopot, nerbitake lan nyimpen isi</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Nyopot isi (uga menyang tong sampah), nerbitake lan nyimpen draf; ditakonake nalika formulir dikirim. Mati minangka gawan.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Sadurunge tumindak sing sensitif, panganggo sing wis mlebu ngonfirmasi maneh sapa dheweke: nganggo tembung sandhine lan passkey, utawa tanpa passkey nganggo tembung sandhine lan kode saka aplikasi autentikatore. Mung kaca web sing takon: antarmuka REST, SOAP, WebDAV, login expservices lan baris prentah ora tau takon.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Panggonan setelan ditrapake</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Setelan kanggo</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Saben akses situs</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Mung akses situs %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Bukak</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Sing ditakoni: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Centhang klompok panganggo supaya mung anggotane sing ditakoni (contone panyunting). Ora ana sing dicenthang: saben panganggo.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Disimpen menyang settings/override/site.ini.append.php, kanggo saben akses situs. Nalika nyimpen, panjenengan dijaluk ngonfirmasi yen iki panjenengan.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Disimpen menyang settings/siteaccess/%name/site.ini.append.php. Nilai ing settings/override luwih diutamakake. Nalika nyimpen, panjenengan dijaluk ngonfirmasi yen iki panjenengan.</translation>
     </message>
 </context>
 <context>
@@ -77344,6 +78683,6822 @@ Panjenengan kudu ngowahi kelas simpul kasebut nganggo fungsi tukar.</translation
     <message>
         <source>Open the page</source>
         <translation>Bukak kaca</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to saka %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Jeneng login utawa ID panganggo: akun sing dadi bab kedadeyan utawa panganggo sing tumindak.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akun</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Tumindak</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Sawise</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Kabeh asil</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Sadurunge</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Dening</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Resiki</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Rampung</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Kedadeyan disimpen suwene %days dina.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Kedadeyan disimpen nganti dibusak kanthi manual.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Kedadeyan</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Kabeh tumindak</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Kabeh kedadeyan akun iki</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Ekspor dhaptar minangka CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Gagal</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Saka</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Ciutake dhaptar</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Ora ana kedadeyan sing cocog.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Saben kaca</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Pencathetan dipateni ing audit.ini ([UserAuditSettings] UserAudit); dhaptar nampilake apa sing wis kacathet sadurunge.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Ditolak</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Asil</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Tampilake</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tabel log audit panganggo ora ana. Gawe nganggo php update/common/scripts/6.0/createuseraudittable.php; nganti iku, berkas audit nyimpen saben kedadeyan.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Kaca iki mbutuhake basis data SQL; ora kasedhiya ing MongoDB. Berkas audit nyimpen saben kedadeyan.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Nganti</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Log audit panganggo</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Panganggo</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Wektu</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Panggonan</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Sapa sing ngowahi, nggawe, ngaktifake, mateni, mindhah utawa mbusak akun endi, sapa sing mlebu utawa ditolak, lan peran apa sing diwenehake: siji baris saben kedadeyan, karo kolom sadurunge lan sawise. Tembung sandhi lan rahasia ora tau dicathet.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>klompok</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistem</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ora dingerteni</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Amanake akun panjenengan</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Kode pemulihan dienggo mlebu menyang akun panjenengan %login ing %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Kode pemulihan wis dienggo</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akun</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Kira-kira alamat</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Njaluk tembung sandhi anyar supaya bisa mlebu maneh, utawa hubungi pangurus situs.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Njaluk tembung sandhi anyar</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Saben kode pemulihan mung bisa dienggo sepisan. Yen telpon panjenengan ilang, setel maneh aplikasi autentikator panjenengan lan simpen kode pemulihan sing anyar ing papan sing aman.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Upaya mlebu sing gagal ing akun panjenengan</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Wiwit saiki, proses mlebu njaluk kode saliyane tembung sandhi panjenengan. Yen panjenengan sing nindakake, panjenengan ora perlu nindakake apa-apa.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Yen kuwi panjenengan lan panjenengan lali tembung sandhi, njaluka sing anyar. Yen dudu, pilih tembung sandhi sing luwih kuwat lan aktifake mlebu rong langkah.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Yen iki dudu panjenengan, bisa uga ana wong sing ngerti tembung sandhi panjenengan: ganti saiki lan priksa ing ngendi akun panjenengan lagi mlebu.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Kode pemulihan sing isih ana</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Priksa piranti panjenengan</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Pengetan keamanan</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Ana wong sing nyoba mlebu menyang akun panjenengan %login ing %site nganggo tembung sandhi sing salah kaping %count berturut-turut.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Ana kedadeyan keamanan ing akun panjenengan %login ing %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Iki pengetan keamanan babagan akun panjenengan. Pengetan iki dikirim kanggo saben owahan kaya ngene lan ora bisa dipateni.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Wektu</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Mlebu rong langkah wis dipateni kanggo akun panjenengan %login ing %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Mlebu rong langkah wis dipateni</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Mlebu rong langkah wis diaktifake kanggo akun panjenengan %login ing %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Mlebu rong langkah wis diaktifake</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Akun panjenengan %login ing %site dikunci sawise kakehan proses mlebu sing gagal.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Akun panjenengan saiki mung direksa dening tembung sandhi. Yen dudu panjenengan sing nindakake, aktifake maneh mlebu rong langkah sawise panjenengan ngganti tembung sandhi.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Akun panjenengan wis dikunci</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Ana passkey sing ditambahake menyang akun panjenengan %login ing %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Sapa wae sing nyekel passkey iki bisa mlebu menyang akun panjenengan tanpa tembung sandhi panjenengan. Yen dudu panjenengan sing nambahake, copot ing Kunci sandhi lan ganti tembung sandhi panjenengan.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Ana passkey sing dicopot saka akun panjenengan %login ing %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Passkey iki ora bisa mlebu menyang akun panjenengan maneh. Yen dudu panjenengan sing nyopot, priksa passkey lan piranti panjenengan.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Ana passkey sing ditambahake menyang akun panjenengan</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Ana passkey sing dicopot saka akun panjenengan</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivitas keamanan</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktivitas keamanan %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Mlebu</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Upaya mlebu gagal</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Metu</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesi dimetokake</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Mlebu saka piranti anyar</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Mlebu saka lokasi anyar</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitas dikonfirmasi (&quot;Verifikasi yen iki panjenengan&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Pamriksan identitas gagal</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Mlebu nganggo kunci sandhi</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Mlebu nganggo kunci sandhi gagal</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Proses mlebu ditolak: kode rong langkah ora ana utawa salah</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kode rong langkah salah</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akun dikunci sawise proses mlebu gagal</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kunci akun dibukak</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Tembung sandhi diganti</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Ngganti tembung sandhi gagal</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Tembung sandhi disetel ulang</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Tembung sandhi anyar dijaluk</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Alamat email diganti</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Jeneng panganggo diganti</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Mlebu rong langkah diaktifake</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Mlebu rong langkah dipateni</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kode pemulihan dienggo</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kode pemulihan anyar</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Tembung sandhi aplikasi digawe</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Tembung sandhi aplikasi dicabut</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Kunci sandhi ditambahake</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Kunci sandhi dibusak</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Akun diaktifake</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Akun dipateni</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kabeh</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Proses mlebu lan sesi</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Owahan akun</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Perlu digatekake</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>dening panjenengan</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>dening panganggo</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>dening %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Cara</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Panjlajah</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistem operasi</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Piranti</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Papan</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Negara</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesi</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Sing endi</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Saluran</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Upaya gagal</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kode sing isih ana</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Penangan mlebu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivitas keamanan</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktivitas keamanan %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Proses mlebu lan owahan keamanan akun panjenengan. Yen panjenengan weruh bab sing ora panjenengan tindakake, ganti tembung sandhi panjenengan lan metokake piranti sing ora panjenengan kenal.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Proses mlebu lan owahan keamanan akun iki.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Piranti panjenengan</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Ganti tembung sandhi</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Bali menyang akun</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Aktivitas keamanan ora dicathet</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Aktivitas iki diwaca saka log audit panganggo, sing tabele, expuser_audit, ora ana utawa ora didhukung ing basis data iki. Lakokake php update/common/scripts/6.0/createuseraudittable.php, utawa pembaruan basis data 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days dina pungkasan</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Proses mlebu ing %days dina pungkasan</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Aktivitas keamanan anyar</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Tampilake</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>gagal</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ditolak</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Durung ana aktivitas keamanan sing kacathet.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Kedadeyan keamanan disimpen suwene %days dina.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Kedadeyan keamanan disimpen nganti pangurus mbusak.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Undhuh data mlebuku</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Sesi lan kedadeyan keamanan panjenengan minangka berkas JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesi ora dicathet ing situs iki, mula ora ana piranti liya sing bisa dimetokake. Ganti tembung sandhi panjenengan saiki.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count sesi liyane wis dimetokake. Saiki ganti tembung sandhi panjenengan.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ora ana piranti liya sing mlebu. Saiki ganti tembung sandhi panjenengan.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Matur nuwun. Kedadeyan iki ditandhani minangka duweke panjenengan.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Kedadeyan kuwi ora mbutuhake wangsulan.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Kaca wis kadaluwarsa. Ora ana sing diganti; mangga jajal maneh.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Amanake akun panjenengan</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Yen ana sing ing kene dudu panjenengan, metokake kabeh piranti liyane, banjur pilih tembung sandhi anyar. Piranti sing tetep mlebu nganggo Elinga aku uga dimetokake.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Saben piranti kajaba iki dimetokake ing panjalukan sabanjure. Banjur panjenengan milih tembung sandhi anyar.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Inggih, metokake piranti liyane</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Apa iki panjenengan?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Inggih, kuwi aku</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ora, amanake akunku</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Mlebu</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Upaya mlebu gagal</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Metu</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesi dimetokake</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Mlebu saka piranti anyar</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Mlebu saka lokasi anyar</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitas dikonfirmasi (&quot;Verifikasi yen iki panjenengan&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Pamriksan identitas gagal</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Mlebu nganggo kunci sandhi</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Mlebu nganggo kunci sandhi gagal</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Proses mlebu ditolak: kode rong langkah ora ana utawa salah</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kode rong langkah salah</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akun dikunci sawise proses mlebu gagal</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kunci akun dibukak</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Tembung sandhi diganti</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Ngganti tembung sandhi gagal</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Tembung sandhi disetel ulang</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Tembung sandhi anyar dijaluk</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Alamat email diganti</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Jeneng panganggo diganti</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Mlebu rong langkah diaktifake</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Mlebu rong langkah dipateni</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kode pemulihan dienggo</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kode pemulihan anyar</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Tembung sandhi aplikasi digawe</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Tembung sandhi aplikasi dicabut</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Kunci sandhi ditambahake</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Kunci sandhi dibusak</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Akun diaktifake</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Akun dipateni</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kabeh</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Proses mlebu lan sesi</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Owahan akun</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Perlu digatekake</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivitas keamanan</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktivitas keamanan %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Proses mlebu lan owahan keamanan akun panjenengan. Yen panjenengan weruh bab sing ora panjenengan tindakake, ganti tembung sandhi panjenengan lan metokake piranti sing ora panjenengan kenal.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Piranti panjenengan</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Ganti tembung sandhi</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Aktivitas keamanan durung dicathet ing situs iki.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Proses mlebu ing %days dina pungkasan</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Upaya gagal</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Durung ana aktivitas keamanan sing kacathet.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Undhuh data mlebuku</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Sesi lan kedadeyan keamanan panjenengan minangka berkas JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesi ora dicathet ing situs iki, mula ora ana piranti liya sing bisa dimetokake. Ganti tembung sandhi panjenengan saiki.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count sesi liyane wis dimetokake. Saiki ganti tembung sandhi panjenengan.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ora ana piranti liya sing mlebu. Saiki ganti tembung sandhi panjenengan.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Matur nuwun. Kedadeyan iki ditandhani minangka duweke panjenengan.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Kedadeyan kuwi ora mbutuhake wangsulan.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Kaca wis kadaluwarsa. Ora ana sing diganti; mangga jajal maneh.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Amanake akun panjenengan</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Yen ana sing ing kene dudu panjenengan, metokake kabeh piranti liyane, banjur pilih tembung sandhi anyar. Piranti sing tetep mlebu nganggo Elinga aku uga dimetokake.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Saben piranti kajaba iki dimetokake ing panjalukan sabanjure. Banjur panjenengan milih tembung sandhi anyar.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Inggih, metokake piranti liyane</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Apa iki panjenengan?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Inggih, kuwi aku</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ora, amanake akunku</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Tembung sandhi</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Tembung sandhi lan kode rong langkah</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Antarmuka REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Antarmuka SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Mlebu tunggal (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Mlebu sadurunge sesi dicathet</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Laporan mlebu</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Sapa sing lagi mlebu ing situs, sepira kerepe akun mlebu lan gagal mlebu, lan metokake panganggo ing ngendi-endi. Laporan iki bisa mlaku karo saben penangan sesi.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Sesi wis dimetokake. Piranti kuwi kudu mlebu maneh.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login wis dimetokake saka %count sesi.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login ora duwe sesi sing lagi mlaku.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ora ana akun sing duwe ID, jeneng panganggo utawa alamat email kuwi.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Iki sesi sing lagi panjenengan gunakake. Kanggo mungkasi, metua.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Sesi kuwi wis rampung.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Kaca wis kadaluwarsa. Ora ana sing diganti; mangga jajal maneh.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sesi ora dicathet ing situs iki (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabel expuser_session ora ana</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sesi dicathet sawise tabel kuwi digawe: php update/common/scripts/6.0/createusersessiontable.php, utawa pembaruan basis data 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Saiki lan dina iki</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sesi sing mlaku</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Panganggo sing mlebu</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Proses mlebu dina iki</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Upaya gagal dina iki</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Metokake panganggo ing ngendi-endi</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Saben sesi akun rampung ing panjalukan sabanjure, uga sesi sing dijaga dening Elinga aku. Gunakake iki yen akun bisa uga ana ing tangan sing salah; banjur setel ulang tembung sandhine.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID panganggo, jeneng panganggo utawa alamat email</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Metu ing ngendi-endi</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Lagi mlebu</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>%limit sing pungkasan dienggo ditampilake.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Panganggo</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Piranti</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Mlebu</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Pungkasan aktif</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Tindakan</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Piranti iki</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ora kacathet</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Metu</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Ora ana sesi sing mlebu.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days dina pungkasan</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Proses mlebu lan upaya gagal diitung saka log audit panganggo, sing ora ana; sesi anyar tetep diitung.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dina</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Proses mlebu</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Upaya gagal</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Sesi anyar</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Penangan sesi: %handler. Sesi diwaca saka tabel expuser_session, mula laporan iki bisa mlaku karo saben penangan.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Aktivitas curiga ing %hours jam pungkasan</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Siji jaringan gagal mlebu menyang %accounts akun (%count upaya)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akun dikunci sawise gagal mlebu</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count gagal mlebu ing siji akun</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Mlebu saka %count negara bebarengan</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivitas keamanan</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesi</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Gagal mlebu diwaca saka log audit pangguna, sing ora kasedhiya ing kene.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ora ana sing curiga: ora ana akun kanthi gagal mlebu bola-bali, ora ana jaringan sing nyoba sawetara akun, ora ana akun sing mlebu saka sawetara negara.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Pengetan keamanan kanggo akun panjenengan</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Ana kedadeyan keamanan ing akun panjenengan %login: %event. Yen dudu panjenengan, amanake akun panjenengan ing %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Panyiapan</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Jaluk saka isi situs iki persis kolom sing dibutuhake kaca, ing siji panjaluk. Skema ngetutake kelas isi; saben kueri dilakokake nganggo hak panganggo sing ngirim.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>API GraphQL dipateni ing akses situs iki. Uripna ing graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Pustaka GraphQL (webonyx/graphql-php 15) durung dipasang.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Titik pungkasan</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Pustaka</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count kelas isi, skema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Kueri</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variabel (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Lakokake</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Wangsulan</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Lagi dilakokake…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Wangsulan ora bisa diwaca.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Kueri dilakokake nganggo hak sampeyan, mlebu nganggo sesi iki.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count ing %seconds dt</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>tanpa wates</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Kedalaman</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Kompleksitas</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Item saben dhaptar</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (gawan %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Panjaluk saben pangguna utawa kunci</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Panjaluk saben alamat anonim</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspeksi</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Mung kueri sing disimpen</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Kueri paling gedhe</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bita</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Unggahan paling gedhe</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Ora ana akses situs %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutasi diuripake ing %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutasi dipateni ing %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>API GraphQL diuripake ing %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>API GraphQL dipateni ing %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Setelan ora bisa ditulis: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Cache wangsulan wis diresiki: %count wangsulan dibusak.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Centhang kothak ing sandhinge kueri kanggo mbusak.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Kueri ora bisa dibusak: kueri sing digawa ing direktori PersistedQueryDirectoryList[] dibusak bebarengan karo berkase.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Kueri sing disimpen wis dibusak.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutasi</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>urip</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>mati</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Akses situs</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Panggonan API lan mutasine mangsuli. Tombol-tombol iki nulis graphql.ini, kaya sing ditindakake ./console exp:graphql:enable lan exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Akses situs</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Owahi</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Pateni</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutasi mati</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutasi urip</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Uripake</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Wates</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] saka akses situs iki.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Cache wangsulan</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Wangsulan saka kueri sing disimpen, disimpen miturut hak pangguna lan kedaluwarsa saben konten diterbitake.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kahanan</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Wangsulan sing disimpen</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count wangsulan, %bytes bita</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Disimpen paling suwe</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds dt</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Pungkasan kedaluwarsa</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Resiki cache wangsulan</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Kueri sing disimpen</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Disimpen nganggo ./console exp:graphql:persist, utawa dening klien (automatic persisted queries); diundang miturut jeneng utawa SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Jeneng</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ukuran</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Panggonan</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Busak</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>gawan</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>disimpen</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ya, busak kueri iki</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Durung ana kueri sing disimpen.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Kunci API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Kunci API pribadi kanthi cakupan graphql:read (kueri) utawa graphql:write (mutasi). Gawe lan cabut ing kaca Akses API, utawa nganggo ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Akses API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Kabeh kunci</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Kunci</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jeneng</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Pamilik</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Cakupan</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Pungkasan dienggo</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktif</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>kedaluwarsa</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>dicabut</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ora tau</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Durung ana kunci API kanthi cakupan GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>API GraphQL dipateni ing akses situs %siteaccess, sing nampilake kaca iki; tabel ing ngisor nuduhake panggonan API iki mangsuli.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Kanggo akses situs %siteaccess, sing nampilake kaca iki.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Saben prastawa sing dijaluk dening titik pungkasan (publish, update, trash, delete, move, hide, reveal, mutation) dikirim menyang kono, ditandatangani, dening bagean cronjob graphqlwebhooks. ./console exp:graphql:webhooks nindakake padha karo bagean iki.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Prastawa</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>kabeh</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Saben akses situs</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>rusak</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>tanpa rahasia</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Ngenteni</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count dibatalake</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Pangiriman pungkasan</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Kirim tes</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ya, busak webhook iki</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Durung ana webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Tambah webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Tambah</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Pangiriman anyar</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Wektu</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Asil</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Langganan</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Nganyari langsung kanggo klien: aliran prastawa ing /api/graphql/subscribe, lan WebSocket (graphql-transport-ws) ing Velocity. Saben prastawa mung dikirim menyang pelanggan sing oleh maca isine.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Kabukak saiki</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Paling akeh kabukak</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total kabeh, %user saben pangguna, %address saben alamat</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Langganan anonim</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Dawane aliran</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook ora bisa ditambahake: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name wis diowahi; rahasia tandha tangane tetep.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Rahasia tandha tangan ora bisa disimpen (Panyiapan &gt; Rahasia).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name wis ditambahake. Rahasia tandha tangane, ditampilake mung sapisan iki: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Ora ana webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name ora mangsuli: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name mangsuli %status sajrone %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Centhang kothak ing sandhinge webhook kanggo mbusak.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name wis dibusak.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>API GraphQL dipateni ing akses situs iki.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Pustaka GraphQL durung dipasang.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Gunakna GET utawa POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Badan panjaluk dudu obyek JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables dudu obyek JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions dudu obyek JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Kirim kueri nganggo POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Panjaluk iki ora ana kuerine.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Kueri luwih dawa tinimbang %max bita.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Kasalahan internal server</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node butuh persis siji saka id, remoteId, path lan urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content butuh persis siji saka id lan remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Kursor saka after dudu sing diwenehake API iki.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Ora ana alias gambar %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Ing kene mung kueri sing disimpen sing ditampa: kirim id kueri sing disimpen.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash kueri sing disimpen dudu SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash kueri sing disimpen ora cocog karo kuerine.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Kakehan panjaluk: paling akeh %limit ing %window detik. Jajal maneh sawise %reset detik.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Kueri iki jerone %depth tingkat; paling akeh %max sing diidini.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Kueri iki kompleksitase %complexity; paling akeh %max sing diidini.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Panjaluk iki ora kena maca skema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search butuh teks utawa saringan (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument dudu tanggal (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag butuh persis siji saka id, remoteId lan path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout butuh persis siji saka id, identifier lan urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Kolom operations ing panjaluk multipart dudu siji panjaluk JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Kolom map ing panjaluk multipart dudu obyek JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Panjaluk multipart ora duwe berkas %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Path ing peta kolom kudu diwiwiti karo variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Berkas %name ora tekan kanthi wutuh (kasalahan unggah %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Berkas %name luwih gedhe tinimbang %max bita.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Berkas %name ora bisa dipriksa.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutasi dipateni ing akses situs iki (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Kirim mutasi nganggo POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Mlebu dhisik kanggo ngowahi konten.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Kunci API ora duwe cakupan %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutasi nganggo sesi butuh token formulir saka sesi kasebut (header X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl dipateni: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ora nyebut host apa wae.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Alamat kudu alamat https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Host %host ora ana ing graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Berkas ora bisa dijupuk.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload mung jinis input.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Variabel jinis Upload nampa berkas saka panjaluk multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Remote id %remoteId wis dienggo.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Konten wis duwe terjemahan ing %language: gunakake updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Wenehana paling ora siji kolom.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Versi anyar ora bisa digawe (konten duwe kakehan draf).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Versi %version dudu draf.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent butuh persis siji saka id lan nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Lokasi ora bisa dipindhah ing ngisore awake dhewe.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Konten wis duwe lokasi ing ngisore %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Nilai kolom %field ora bisa disimpen.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Ora ana basa konten %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Ora ana kelas konten %class ing skema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Kontene ora ana, utawa sampeyan ora kena maca.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Sampeyan ora kena nindakake iki marang konten iki.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Kelas %class ora duwe kolom %field sing kena ditulis.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Kolom %field diwenehake kaping pindho.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Kolom %field nampa berkas: kirim minangka unggahan (panjaluk multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Kolom %field ora nampa berkas.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Kolom %field butuh nilai.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Format %format mung kanggo kolom teks sugih; %field nampa nilaine apa anane (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Kolom %field wajib diisi.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ora bisa diwaca.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content mung nampa version bebarengan karo id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Token pratinjau ora sah utawa wis kedaluwarsa.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Dudu origin (https://host utawa https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Dudu cakupan API GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Kirim langganan menyang /api/graphql/subscribe (aliran prastawa utawa WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Panjaluk ora nyebutake operasi saka dokumen.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Langganan njaluk persis siji kolom.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Kakehan langganan sing kabukak; coba maneh mengko.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Sampeyan duwe %max langganan kabukak, paling akeh sing diidinake.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Alamat sampeyan duwe %max langganan kabukak, paling akeh sing diidinake.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Langganan dipateni ing akses situs iki.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Mlebu kanggo langganan (token utawa kunci API pribadi).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Kirim mutasi menyang /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasi</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Kahanan ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabel migrasi durung ana: ./console exp:upgrade --apply sing nggawe.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migrasi gagal</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ana eksekusi sing lagi mlaku, diwiwiti dening %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Instalasi dikunci: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Isih ngenteni</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Gagal</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Yatim</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Eksekusi pungkasan</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>durung ana</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Kabeh migrasi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Eksekusi simulasi</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Uji coba</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Migrasi sing isih ngenteni dilakokake ing transaksi sing banjur dibatalake: ora ana sing disimpen. Ing ngisor iki apa sing diowahi saben migrasi ing basis data.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Apa sing bakal ditindakake eksekusi saiki. Ora ana sing diowahi: saben migrasi sing isih ngenteni nampilake owah-owahan sing bakal digawe, lan eksekusi nampilake apa sing bakal ditindakake sadurunge lan sawise.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simulasekake</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Lakokake</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Uji coba gagal: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulasi mbutuhake PostgreSQL utawa SQLite, sing owah-owahan skemane bisa dibatalake; ing basis data iki rencana ing ngisor iku apa sing bakal ditindakake eksekusi.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migrasi-migrasi</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrasi</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kahanan</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Apa sing bakal ditindakake</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulasi: %result sajrone %ms md</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Durung ana migrasi.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Sadurunge lan sawise eksekusi</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Cuplikan sadurunge</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>dijupuk, lan dibalekake yen ana migrasi sing gagal</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>mati</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Cuplikan sawise</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>dijupuk yen eksekusi kasil</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migrasi: %pending isih ngenteni, %done rampung, %failed gagal.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Riwayat migrasi</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Saben eksekusi karo panganggo, lingkungan, cuplikan, lan apa sing di-commit, diwenehi tag, lan di-push. Eksekusi sing gagal utawa kepedhot bisa diterusake; eksekusi sing nduweni cuplikan sadurunge bisa dibatalake.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Eksekusi ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabel migrasi durung ana: ./console exp:upgrade --apply sing nggawe.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Tampilake</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kabeh</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Eksekusi</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Diwiwiti</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Dening</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Cuplikan</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repositori</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Tumindak</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>sadurunge</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>sawise</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>dorong: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Terusake</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Batalake</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Ora ana eksekusi ing kahanan iki.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Diwiwiti ing kene</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Eksekusi, terusan, lan pambatalan sing diwiwiti ing kaca-kaca iki, karo laporan saben-saben.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Apa</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Asil</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Pambatalan</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Pambatalan %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Eksekusi %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Apa sing ditindakake eksekusi, cathetane lan log-e. Eksekusi sing diwiwiti ing kene tetep mlaku ing latar mburi yen kaca iki ditutup; bukak kaca iki maneh kanggo ngetutake.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Terusake eksekusi iki</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Batalake eksekusi iki</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Cathetan ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Kemajuan</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Diwiwiti dening %user jam %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Mriksa kode lan njupuk cuplikan sadurunge eksekusi</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Nglakokake %id (%index saka %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done saka %total rampung</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migrasi wis dilakokake; mbalekake cuplikan yen ana sing gagal</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Njupuk cuplikan sawise eksekusi, commit, tag lan push</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Mbalekake cuplikan</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Eksekusi wis rampung. Lagi ngemot laporane.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Kemajuan ora bisa dietutake. Emot maneh kacane kanggo ndeleng kepiye eksekusine.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Kaca iki ngetutake eksekusi sajrone mlaku.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Emot maneh</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Laporan</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Suwene</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms md</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Apa sing dicithak eksekusi minangka kasalahan</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Cathetan</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Lingkungan</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ora ana</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Rampung</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Komit</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Label tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Dorong</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Pesen</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migrasi ing eksekusi iki</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Sumber</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Log eksekusi</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Mung pungkasane log sing ditampilake.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>lagi mlaku</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>rampung tanpa laporan</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>kasil</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>gagal</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ditolak</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>basis data ora bisa digayuh</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>kasalahan internal</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ana eksekusi sing lagi mlaku</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind diwiwiti dening %user jam %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Tutake</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Instalasi dikunci</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Eksekusi liyane nyekel kunci (pemutakhiran utawa eksekusi ing konsol): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>rampung</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>isih ngenteni</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ora perlu</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ora dingerteni</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>dibatalake</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>ditrapake</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>bakal ditrapake</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>dijupuk bali</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>bakal dijupuk bali</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ora dilakokake</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ngenteni liyane</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>owah-owahan ditampa</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>owah-owahan bakal ditampa</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>disimulasekake</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasi</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Kahanan</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Riwayat</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Batalake %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Eksekusi dibatalake menyang cuplikan sing dijupuk sadurunge, siji migrasi nganggo down()-e. Mbalekake cuplikan sing luwih lawas mung kanggo ahli. Saben-saben mlaku ing latar mburi minangka panjenengan, sawise cuplikan kahanan saiki dijupuk.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Apa sing bisa dibatalake ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Siji eksekusi</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Siji migrasi</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Cuplikan sing luwih lawas</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Katrangan</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>iya</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ora</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Cuplikan</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label jeneng</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Dijupuk</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Jinis</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Perangan sing dibalekake</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Basis data</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Berkas panyimpenan (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Setelan (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Mbalekake basis data nggawa bali menyang wektu cuplikan, kalebu sesi: sabanjure panjenengan bisa uga dijaluk mlebu maneh. Kabeh sing owah wiwit wektu iku bakal ilang; cuplikan kahanan saiki dijupuk luwih dhisik.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Aku ngerti apa sing dibalekake</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Ketik ID cuplikan sepisan maneh</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Iya, batalake</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Batal</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Eksekusi sing nduweni cuplikan sadurunge.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Pilih</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Durung ana eksekusi sing nduweni cuplikan.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Migrasi sing wis ditrapake lan bisa mbatalake dhewe (nduweni down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ora ana migrasi sing wis ditrapake sing nduweni down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Cuplikan sing luwih lawas (ahli)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Durung ana cuplikan.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Lakokake migrasi</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Eksekusi mlaku ing latar mburi minangka %user, lan kacane nampilake sajrone mlaku. Sadurunge migrasi kapisan, cuplikan instalasi dijupuk; yen ana migrasi sing gagal, eksekusi mandheg lan cuplikan dibalekake.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Uji coba dhisik</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Kahanan ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Migrasi sing isih ngenteni</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Migrasi mlaku miturut urutan iki. Busak centhang salah siji kanggo ninggalake, bebarengan karo sing gumantung marang, kanggo eksekusi sabanjure.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Lakokake</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Nguripake mode pangopènan sajrone mlaku.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Diowahi sawise ditrapake</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Berkas-berkas iki dudu sing wis ditrapake. Eksekusi nolak kajaba owah-owahane ditampa karo alesan; berkas ora dilakokake maneh, checksum anyar dicathet lan alesane disimpen ing log audit.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Tampa owah-owahan</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Alesan</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Setelan gawan iku sing aman. Saben kothak nglewati siji langkah.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Tanpa cuplikan</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Tanpa cuplikan sadurunge lan sawise eksekusi: kagagalan ora bisa dibalekake kanthi otomatis.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Tanpa mbalekake</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Sawise kagagalan, tinggalake instalasi kaya sing ditinggalake kagagalan iku.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Simpen owah-owahan sing durung di-commit</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Lakokake senajan setelan, ekstensi utawa desain nduweni owah-owahan sing durung di-commit; owah-owahan iku mlebu ing cuplikan.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Tanpa commit</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Aja commit berkas kahanan lan log eksekusi (uga tanpa tag lan tanpa push).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Tanpa push</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Commit lan wenehi tag, nanging aja push.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Tanpa tag</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Commit lan push, nanging aja wenehi tag marang eksekusi.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Iya, lakokake migrasi iki saiki</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ora ana migrasi sing isih ngenteni.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Bali menyang kahanan</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Owah-owahan instalasi iki sing ditulis sepisan dadi berkas (konten, kelas, peran, setelan, skema) lan ditrapake marang saben instalasi situs kanthi urutan sing padha. Eksekusi njupuk cuplikan dhisik, mbalekake yen ana migrasi sing gagal, lan nyathet, nge-commit lan nge-push apa sing ditindakake.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Lakokake %count sing isih ngenteni</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ringkesan</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Isih ngenteni</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Rampung</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Gagal</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ora perlu</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Basis data</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transaksi: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Migrasi situs ana ing migrations/, migrasi ekstensi ana ing extension/&lt;name&gt;/migrations/. Migrasi mlaku miturut urutan jeneng lan katergantungane.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Eksekusi pungkasan</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Berkas owah sawise ditrapake.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Durung ana migrasi. ./console exp:migration:generate --skeleton &lt;name&gt; --apply nulis sing kapisan.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Eksekusi paling anyar</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Kabeh eksekusi</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Durung ana eksekusi.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Nyimulasekake eksekusi mbutuhake kabijakan migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ana eksekusi sing lagi mlaku: simulasekake yen wis rampung.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Panyiapan</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target dudu eksekusi, dudu migrasi lan dudu cuplikan saka instalasi iki.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Centhang &quot;Iya, batalake&quot; dhisik.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Mbalekake cuplikan sing luwih lawas mung kanggo ahli: centhang &quot;Aku ngerti apa sing dibalekake&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Ketik ID cuplikan sepisan maneh: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Pilih paling ora siji perangan sing arep dibalekake.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Eksekusi iki ora nduweni cuplikan sadurunge: batalake migrasine siji-siji, utawa balekake cuplikan sing luwih lawas.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Migrasi iki ora bisa mbatalake dhewe: durung ditrapake, utawa ora nduweni down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formulir ora bisa diwaca.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Pilih eksekusi sing arep diterusake.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Centhang &quot;Iya, lakokake migrasi iki saiki&quot; dhisik.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Pilih paling ora siji migrasi.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Ana migrasi sing owah sawise ditrapake: tampa owah-owahane karo alesan, utawa balekake berkase.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Wenehana alesan kenapa migrasi sing owah ditampa.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Alesan paling akeh 500 karakter.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Eksekusi sing diwiwiti ing kene isih mlaku (%detail). Enteni nganti rampung.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Eksekusi liyane nyekel kunci instalasi: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Eksekusi mbutuhake panganggo sing ana lan wis mlebu.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ora ditemokake program baris prentah php. Setel migration.ini [AdminSettings] PhpCliPath menyang dalan lengkape.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open dipateni, mula eksekusi ora bisa diwiwiti ing kene. Lakokake ./console exp:migration:migrate --apply ing server.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Folder eksekusi ora bisa ditulisi: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Eksekusi wis diwiwiti nanging ora nglaporake ID prosese. Priksa %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Sebutna apa sing arep dibatalake.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Eksekusi ora bisa diwiwiti.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Ngrekam owah-owahan</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Salawasé rekaman mlaku, apa sing panjenengan owahi ing administrasi utawa ing bilah pinggir situs disimpen minangka langkah-langkah migrasi: isi, kelas, peran lan kabijakan, seksi, panganggo lan grup, alias URL, setelan. Mandhegaké yèn wis rampung, delengen apa sing dicekel, banjur gawé migrasi saka iku.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Rekaman ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tabel rekaman durung ana: lakokna nganyari dhisik (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Ngrekam dipatèni ing migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Owah-owahanku</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Mung ngrekam apa sing panjenengan owahi, ing ngendi waé, nganti panjenengan mandhegaké.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Rekaman</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>wiwit %time, nganti saiki %count owah-owahan.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Label (opsional)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Tuduhna apa sing dicekel</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Mandhegaké rekaman</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Wiwiti ngrekam owah-owahanku</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Jendhéla kanggo kabèh situs</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Ngrekam saben owah-owahan saka saben panganggo lan konsol nganti ditutup. Nalika mbukak, panjenengan dijaluk konfirmasi yèn iku panjenengan.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Kabukak</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Tutup jendhéla</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Bukak jendhéla kanggo kabèh situs</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Dhaptar rekaman</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Akun panganggo (jeneng mlebu, email, tembung sandhi) lan kolom akun panganggo ora tau direkam.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Owah-owahan</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Kabèh situs</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Owah-owahan saka %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Mandheg</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Durung ana rekaman.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Rekaman %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Kabèh rekaman</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migrasi sing bakal diasilaké</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Owah-owahan sing digabung dadi siji langkah kanggo saben barang sing diowahi: apa sing bakal ditindakaké migrasi sing digawé saka rekaman iki.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Migrasi bisa digawé saka iku yèn instalasi iki wis nduwèni jinis langkah YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Sengaja ditinggal: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ora ana sing direkam.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Apa sing dicekel</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count owah-owahan, miturut urutan digawé.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Owah-owahan (siji)</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Langkah</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Prakara</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count manèh: ./console exp:migration:record:show nampilaké kabèh.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Buang</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Mbusak rekaman lan apa sing dicekel. Sing wis diowahi tetep owah.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Iya, buang rekaman iki</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Lagi ngrekam…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Owah-owahan panjenengan lagi direkam kanggo migrasi.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Saben owah-owahan ing situs iki lagi direkam kanggo migrasi (jendhéla kanggo kabèh situs).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Rekaman kabèh situs wis diwiwiti: saben owah-owahan saka saben panganggo direkam nganti panjenengan mandhegaké.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Rekaman wis diwiwiti: owah-owahan panjenengan direkam nganti panjenengan mandhegaké.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Rekaman mandheg. Apa sing dicekel tetep ana nganti panjenengan buang.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Rekaman lan prastawané wis dibusak.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Ora ana rekaman %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Centhang dhisik "Iya, buang rekaman iki".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Mung panganggo sing ngrekam sing olèh mandhegaké rekaman sesi.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Pilih rekaman sing arep dimandhegaké.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Rekaman jinis iki wis mlaku.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Rekaman ora bisa diowahi: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Gawe migrasi</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Jeneng migrasi (pilihan)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migrasi %file wis ditulis. Owah-owahan sing ora bisa ditindakake langkah apa wae disebutake ing ndhuwur berkas, kanggo ditindakake kanthi tangan.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ora ana migrasi sing ditulis: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Eksekusi dawa kanthi bertahap</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Kolom kosong njaga setelan migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Paling akeh migrasi semene</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Ora ana migrasi maneh sawise (detik)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Jeda antarane migrasi (detik)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Prioritas luwih endhek (1 nganti 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Kolom eksekusi dawa yaiku angka bulat wiwit 1 (jeda: detik saka 0 nganti 60, prioritas: 1 nganti 19), utawa kosong.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Nutup dhewe ing %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Nutup dhewe sawise (menit, opsional)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Menit yaiku angka bulat saka 1 nganti 44640 (31 dina), utawa kosong.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrasi %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Migrasi anyar</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Migrasi YAML: tulisen minangka teks utawa susunen langkah-langkahe ing formulir, priksa, banjur simpen ing folder migrasi.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Migrasi iki wis tau dilakokake, mula ora disimpen maneh: berkas sing diowahi bakal ditolak dening penjaga checksum. Gawe owah-owahan ing migrasi anyar.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Server web ora bisa nulis berkas iki.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Larik komentar ing ndhuwur yaiku sirah (description, author, requires, environments, engines). Yen langkah ditambahake utawa diowahi ing formulir, migrasi ditulis maneh: komentar ing antarane langkah ora dijaga.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Jeneng migrasi</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Menyang ngendi</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Situs</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Teks YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Priksa</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Simpen</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Langkah</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Kunci</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Sunting</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Pindhahake munggah</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Pindhahake mudhun</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Copot</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Durung ana langkah: tambahake siji nganggo formulir, utawa tulisen ing teks.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Owahi langkah %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Nambah langkah</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Formulir langkah digawe saka jinis langkahe: kuncine, apa sing ditampa saben kunci lan modus sing dadi panggonane.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Jinis langkah</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Tampilake formulire</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Langkah iki duwe kunci sing ora dingerteni jinise; kunci kasebut ditinggal nalika langkah diowahi: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Ing</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>mung ing %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Gawan: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Syarat, referensi lan komentar</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Pasangan Jeneng=nilai dipisahake nganggo koma. Nilai-nilai langkah iki: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Conto</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Owahi langkah</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Tambahake langkah</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Apa sing dikandhakake exp:migration:check: sirah, dokumen lan saben langkah sing dipriksa dening jinis langkahe.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migrasi lulus pamriksan.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Pratinjau</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML kaya sing bakal disimpen.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Tampilake YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Migrasi YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>wis dilakokake</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Durung ana migrasi YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Panyunting</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Ora ana migrasi YAML %id ing folder migrasi.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Pilih jinis langkah.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Langkah wis ditambahake. Priksa migrasi sadurunge disimpen.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Langkah wis diowahi. Priksa migrasi sadurunge disimpen.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Pilih langkah.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Langkah iki ora duwe formulir (puteran, utawa jinis langkah sing ora ana ing instalasi iki): owahi ing teks.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Pilih menyang ngendi migrasi iki: situs utawa ekstensi sing aktif.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file wis disimpen. Lakokake uji coba sadurunge migrasi dilakokake.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ora disimpen: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Dhaptar instalasi adoh</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Instalasi liyane sing dadi tujuan panyebaran migrasi saka instalasi iki: panyebaran ngirim migrasi menyang instalasi adoh sing dipilih lan nglakokake ing kana, kabeh bebarengan lan sinkron. Instalasi adoh ora tau nyimpen rahasia: kredensiale mung nyebut jeneng siji rahasia ing Panyiapan &gt; Rahasia.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Instalasi adoh anyar</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Pitulung</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Uji sambungan %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Dhaptar instalasi adoh</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Nganti %parallel instalasi adoh digarap bebarengan; siji fase oleh nganti %timeout detik ing saben instalasi.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Instalasi adoh</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kredensial</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Klompok</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>setelan sing kudu dibenakake</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>mung berkas (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Kunci SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Tembung sandhi</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ora ana (agen SSH lan kunci host)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Uji sambungan</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Panyebaran menyang klompok tumuju saben instalasi adoh ing klompok kasebut.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Sebarake menyang instalasi adoh</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Durung ana instalasi adoh sing disiapake.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Instalasi adoh %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Ora ana sing dikirim utawa dilakokake ing kene: Simpen nulis setelan menyang settings/override/migration.ini.append.php. Kredensial iku jeneng; regane tetep ana ing Panyiapan &gt; Rahasia utawa ing lingkungan.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Priksa setelan iki</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Setelan kaya sing dilebokake, durung disimpen.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Tinjauan</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Setelan valid. Baris iki bakal ditulis:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>mung jeneng; regane tetep ana ing Panyiapan &gt; Rahasia</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Baris sing bakal ditulis</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Sambungan</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Kunci host</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Instalasi adoh</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Jeneng instalasi adoh lan lingkungan apa iku.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Aksara, angka, - lan _, contone production1. Iki dadi jeneng instalasi adoh ing laporan lan ing konsol (--remotes=production1) lan ora bisa diowahi mengko.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Panyebaran bertahap ngliwati lingkungan miturut urutan iki.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Opsional, dipisah nganggo koma, contone production. Panyebaran menyang klompok tumuju saben instalasi adoh ing klompok kasebut.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Sambungan</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Carane berkas tekan kana, lan ing ngendi instalasine.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Liwat SSH, mung sing owah, transfer sing pedhot diterusake. Pilihan paling apik ing panggonan sing wis ana rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH nganggo scp kanggo berkas.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH nganggo sftp kanggo berkas.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Mung berkas: migrasi dikirim lan diwaca maneh, nanging ora bisa dilakokake ing kana.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP liwat TLS; mung berkas.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Instalasi liyane ing server iki, ing sawijining folder.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Jeneng host utawa alamat, contone node1.example.com. Ora kanggo local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Kosong: 22 kanggo SSH, 21 kanggo FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Panganggo</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Path</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Root instalasi ing kana, contone /var/www/site (kanggo FTP: path sing katon dening akun FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Baris printah PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI ing kana: php, utawa path lengkap kayata /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Skrip konsol mlaku minangka root ing kana</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Mung yen panganggo instalasi adoh iku root (banjur dilakokake nganggo --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Kredensial</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Carane instalasi iki mlebu ing kana. Mung jenenge sing disimpen.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ora ana</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Agen SSH lan kunci panganggo sing nglakokake instalasi iki (lan tansah kanggo local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Kunci pribadi sing disimpen minangka rahasia.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Tembung sandhi sing disimpen minangka rahasia (FTP mlebu nganggo iku).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Jeneng rahasia</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Rahasia saka Panyiapan &gt; Rahasia, contone deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Panyiapan &gt; Rahasia</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Utawa variabel lingkungan</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Variabel proses server sing nyimpen, contone DEPLOY_KEY (disimpen minangka env:DEPLOY_KEY). Iki nggantekake jeneng rahasia.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Kunci host</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Opsional, kanggo SSH, sftp lan rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Sidik jari kunci host</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... kaya sing dicithak ssh-keygen -l. Yen diisi, host kudu nuduhake kunci iki; yen ora, kuncine disinaoni nalika kontak kapisan.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Tinjauan</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Uji sambungan nganggo setelan ing ndhuwur, banjur tinjau baris sing bakal ditulis.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Copot instalasi adoh iki</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Setelane dibusak saka settings/override/migration.ini.append.php. Ora ana sing owah ing instalasi adoh, lan panyebarane tetep ana ing riwayat.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Iya, copot instalasi adoh iki</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Panyebaran</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Panyebaran ngirim migrasi instalasi iki menyang instalasi adoh sing dipilih lan nglakokake ing kana minangka %user, kabeh bebarengan lan sinkron: saben instalasi adoh dipriksa dhisik, lan yen ana siji sing gagal, saben instalasi adoh sing wis ngetrapake dibatalake. Panyebaran mlaku ing latar mburi, lan kacane nuduhake saben instalasi adoh sajrone mlaku.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Dhaptar instalasi adoh</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Centhang instalasi adoh, klompok, utawa loro-lorone.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Sebarake menyang kono</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Carane</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Sebarake</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Kirim lan lakokake</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migrasi dikirim, diverifikasi lan dilakokake ing saben instalasi adoh nganggo siji ID eksekusi bebarengan.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Mung transfer</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Berkas dikirim lan diverifikasi, ora ana sing dilakokake (siji-sijine cara kanggo instalasi adoh FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Bertahap</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Tahap demi tahap miturut urutan lingkungan (dev, stage, beta, production ...): tahap kapisan disebarake, banjur gerbang ngenteni nganti ana sing nyetujoni tahap sabanjure. Kabeh utawa ora babar pisan ing saben tahap.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Mung migrasi iki</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Opsional: ID migrasi, dipisah nganggo koma. Kosong: saben migrasi situs lan ekstensine.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Mung pamriksan awal</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Iya, sebarake saiki</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Panyebaran sing ngirim utawa nglakokake samubarang, sing paling anyar dhisik (pamriksan awal ora nyimpen laporan).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>mung transfer</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>bertahap, %stages tahap</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ora sinkron</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Durung ana panyebaran.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Panyebaran %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Saben instalasi adoh saka panyebaran iki karo kahanane. Panyebaran sing diwiwiti ing kene terus mlaku ing latar mburi nalika kaca iki ditutup; bukak maneh kaca iki kanggo ngetutake.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Kabeh panyebaran</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Pamriksan awal</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Tahap sabanjure</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Mriksa setelan lan kredensial</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Pamriksan awal: maca kahanan saben instalasi adoh</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Ngirim berkas migrasi</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Verifikasi apa sing wis tekan</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Nglakokake migrasi ing saben instalasi adoh</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Mbatalake instalasi adoh</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Panyebaran wis rampung. Lagi ngemot laporane.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Kemajuane ora bisa dietutake. Emot maneh kaca iki kanggo ndeleng kepiye kahanan panyebaran.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fase</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Kaca iki ngetutake panyebaran sajrone mlaku.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Sinkron</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Tahapan</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>tahap %stage ngenteni ing gerbange</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Gerbang %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>disetujoni dening %user jam %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Tahap</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Berkas sing dikirim</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Versi kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>wis diterapake: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>arep diterapake: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Dhaptar fase</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Gerbang: tahap %stage saka %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Tahap sadurunge wis disebarake. Priksa, banjur setujoni tahap sabanjure: instalasi adohe dipriksa maneh lan disebarake, kabeh utawa ora babar pisan.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Sabanjure</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Iya, sebarake tahap sabanjure saiki</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Setujoni</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Batalake panyebaran iki</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Saben instalasi adoh sing wis ngetrapake (%list) bali menyang cuplikan sing dijupuk sadurunge eksekusine, kabeh bebarengan.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Iya, batalake panyebaran iki saiki</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>direncanakake</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>wis ditransfer</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>wis disebarake</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ngenteni ing gerbang</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>dipilih</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>wis disiapake</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>siyap</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ngenteni tahape</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>berkas wis dikirim</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>wis diverifikasi</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>gagal, mbalekake dhewe</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ora owah</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>durung disebarake</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ora bisa digayuh</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Instalasi adoh wis mangsuli.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Instalasi adoh ora bisa digunakake saiki.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done rampung, %pending ngenteni, %failed gagal</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Gembok</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ana eksekusi sing nyekel gembok ing kana</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>bebas</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage saka %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Pilih instalasi adoh sing arep diuji.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Centhang “Iya, copot instalasi adoh iki” dhisik.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Instalasi adoh ora bisa dicopot: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Instalasi adoh ora bisa disimpen: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Berkas setelan ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Pilih paling ora siji instalasi adoh utawa klompok.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Instalasi adoh sing dipilih wis ora ana ing setelan. Emot maneh kaca iki.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Centhang “Iya, sebarake saiki” dhisik.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Instalasi adoh FTP ora bisa nglakokake migrasi: pilih “Mung transfer”, utawa aja dilebokake.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Migrasi sing arep disebarake yaiku ID migrasi, dipisah nganggo koma.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Panyebaran isih mlaku. Enteni nganti rampung.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Panyebaran iki ora ngenteni ing gerbang.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ora ana instalasi adoh sing ngetrapake panyebaran iki: ora ana sing kudu dibatalake.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Centhang “Iya, sebarake tahap sabanjure saiki” dhisik.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Centhang “Iya, batalake panyebaran iki saiki” dhisik.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Instalasi adoh kanthi ID %id wis ana.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Port yaiku angka saka 1 nganti 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Lingkungan yaiku tembung saka aksara, angka, - lan _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Klompok yaiku tembung saka aksara, angka, - lan _ (dudu all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Kredensial ora bisa diwaca saiki: %problem. Simpen ing Panyiapan &gt; Rahasia (utawa setel variabele) sadurunge panyebaran kapisan.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Instalasi adoh FTP mung nampa berkas: panyebaran menyang kono yaiku “Mung transfer”, lan migrasine dilakokake ing kana kanthi tangan.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Instalasi adoh %id ora ana ing settings/override/migration.ini.append.php; copot ing panggonan sing nyetel.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Wis mlebu liwat FTP lan maca index.php. Kahanan migrasi instalasi adoh FTP ora bisa diwaca.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Diowahi</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Digawe</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jeneng</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Kelas</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksi</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Sing nggawe</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Konten anyar</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Konten sing paling anyar digawe lan diowahi ing kabeh situs, sing paling anyar dhisik: kiriman pengunjung, konten sing ditahan kanggo dipriksa, draf sing ngenteni diterbitake. Pilih item kanggo ngeculake tahanan, nahan, ndhelikake, nampilake, nyopot utawa mindhah menyang seksi utawa kahanan liyane.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Dhaptar ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Tahanan kanggo dipriksa durung disiapake, mula ora ana sing ditahan lan tumindak tahanan ora ditawakake. Langkah pembaruan 6.0.15-review-hold nyiapake: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Saring dhaptar</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Saka</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Nganti</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Tanggal</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Digawe (pisanan diterbitake)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kabeh</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Diterbitake</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Draf, durung tau diterbitake</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Isih ngenteni (ngenteni persetujuan utawa tanggal)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Ing tong sampah</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ditahan kanggo dipriksa</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Ditahan</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Ora ditahan</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Didhelikake</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Katon</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Dikirim tanggal</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Akses situs apa wae</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Mung sing dicathet audit.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Saiki: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Jeneng login utawa ID pangguna.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Saring</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Busak saringan</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Item</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from nganti %to saka %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ora ana item</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(diwaca sajrone %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Tumindak ing item sing dipilih</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Pilih kabeh ing kaca iki</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count dipilih</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Tumindak</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Pilih tumindak</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Uculake tahanan</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Tahan kanggo dipriksa</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Dhelikake</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Tampilake</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Pindhah menyang tong sampah</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Busak</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Tetepake seksi</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Tetepake kahanan</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Sebab</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Dibutuhake kanggo nahan; disimpen bebarengan karo tahanan lan ing audit.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Pilih seksi</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kahanan</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Pilih kahanan</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Trapake ing sing dipilih</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Saben item dipriksa miturut idin panjenengan dhewe. Mindhah menyang tong sampah lan mbusak njaluk konfirmasi panjenengan. Luwih saka %count item mlaku ing latar mburi.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Pilih</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Penerbitan</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Dikirim saka</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Pilih %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>durung</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(tanpa jeneng)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Draf</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Isih ngenteni</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Didhelikake dening induke</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Ditahan: kiriman anyar</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versi %version isih ngenteni</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versi %version lagi digarap</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Draf, versi %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versi %version diterbitake</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Dijadwalake kanggo %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ora ana alamat</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ora dicathet</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Ora ana sing cocog karo saringan iki.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tampilake kabeh</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Durung ana konten.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Saben kaca</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Tampilake %count item saben kaca.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Alamat lan browser saka kiriman asale saka indeks audit, sing ora kasedhiya ing kene: kolom kasebut nulis "ora dicathet".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Alamat lan browser yaiku sing dicathet audit kanggo item kasebut (tahanan otomatis tansah nyathet; nerbitake lan nggawe mung yen diuripake), kaya sing disimpen dening setelan privasine.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count item</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Mbusak ngilangake item kanggo selawase, karo kabeh versi lan terjemahane. Iki ora bisa dibatalake.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Item dipindhah menyang tong sampah, saka ing kono bisa dibalekake.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Saben item dipriksa miturut idin panjenengan dhewe; item sing duwe subitem ditinggal kaya saiki (copot ing struktur konten). Panjenengan bakal dijaluk mbuktekake yen iki pancen panjenengan.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Iki mlaku ing latar mburi: kaca kemajuane dibukak, lan asil saben item ditampilake yen wis rampung.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Item sing dipilih</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>lan %count liyane</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Batal</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ora ana sing ditindakake</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sebab: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Tumindak isih mlaku ing latar mburi.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Kemajuane</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Tumindak latar mburi gagal: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Rampung</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Ditolak</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Gagal</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Saben item</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Item</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Asil</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Kenapa</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Bali menyang dhaptar</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Panyiapan</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ora ana sing digarap</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Konfirmasi</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Pilih tumindak.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Pilih paling ora siji item.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Pilih paling akeh 1000 item sapisan.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Sebutake sebabe item ditahan.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Pilih seksine.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Pilih kahanane.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formulir ora bisa diwaca.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Dasbor</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Konten anyar</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Cacahe ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ditahan kanggo dipriksa</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Anyar dina iki</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Tahanan kanggo dipriksa durung disiapake (langkah pembaruan 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Kabeh konten anyar</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Panjenengan ora kena nglakokake tumindak moderasi (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Tumindak moderasi durung jangkep: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderasi: %action ing %count objek</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done saka %total objek: %ok rampung, %refused ditolak, %failed gagal</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok rampung, %refused ditolak, %failed gagal</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Iki wis ora ana maneh.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Iki ora duwe lokasi (durung diterbitake).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Panjenengan ora kena ndhelikake (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Panjenengan ora kena nampilake (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Iki wis didhelikake.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Iki ora didhelikake.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Didhelikake.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Ditampilake.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Iki ana ing tong sampah: kosongake utawa balekake ing kana.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Draf sing durung tau diterbitake ora bisa mlebu tong sampah: busaken.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Panjenengan ora kena mbusak (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Dibusak.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Panjenengan ora kena nyopot (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Iki duwe subitem: copot ing struktur konten, panggonan subitem kasebut kadhaptar.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Iki ora dicopot (alur kerja bisa uga nahan pencopotan).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Dipindhah menyang tong sampah.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Seksi ora ana.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Iki wis ana ing seksi iki.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Panjenengan ora kena netepake seksi iki (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Seksi ora ditetepake.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Seksi ditetepake.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Kahanan ora ana.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Iki wis ana ing kahanan iki.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Panjenengan ora kena netepake kahanan iki (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Kahanan ora ditetepake (alur kerja bisa uga nahan owah-owahan).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Kahanan ditetepake.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Ora ana tumindak kaya ngono.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Tahanan kanggo dipriksa durung disiapake (langkah pembaruan 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Sebutake sebabe iki ditahan.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Iki wis ditahan.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Panjenengan ora kena nahan (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Tahanan ora dipasang (alur kerja bisa uga nahan owah-owahan).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Ditahan.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Iki ora ditahan.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Panjenengan ora kena ngeculake (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Tahanan ora dicuculake (alur kerja bisa uga nahan owah-owahan).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Dicuculake; isih didhelikake: panjenengan ora kena nampilake (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Dicuculake.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Kabeh tujuan</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Terbitan pungkasan</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Terbitake salinan statis situs panjenengan kanthi gratis ing GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Kaca sing wis lawas</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Panerbitan statis</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Panerbitan statis dipateni.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Tujuan</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Tujuan ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ana tugas sing lagi mlaku</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>build kanggo dipriksa</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>dhelikake iki</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>gawe tujuan</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ora tau</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>waca tutorial</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ditambahake, %changed diowahi, %removed dibusak</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes saka %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count liyane ora dicathet.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages kaca ditulis</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ukurane %size, luwih gedhe tinimbang sing diidini host kanggo siji berkas.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % saka watesan</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds dtk</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag yaiku terbitan sing ana ing situs saiki.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: tugas %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repositori/ kanggo situs proyek GitHub; kosong kanggo domain khusus utawa situs panganggo.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Situs</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Panyedhiya hosting</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Mlebu menyang repositori</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Repositori</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Pranala lan dalan dhasar</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Domain panjenengan dhewe</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Isi build</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Kapan diterbitake</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Tinjau lan simpen</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Situs proyek GitHub ana ing sangisore /&lt;repository&gt;/; pranala relatif bisa mlaku ing kana lan ing ngendi wae.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Sawijining build njupuk saben kaca %site kaya sing dideleng dening pengunjung sing durung mlebu, nulis ulang pranala, nyalin berkas lan nulis asile menyang folder tujuan. Ora ana sing diterbitake nganti panjenengan mriksa build lan mencet Terbitake.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Ekspresi cron, contone 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Kunci deploy disimpen minangka rahasia %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Kunci deploy ngidini instalasi iki nindakake push menyang siji repositori liwat SSH lan ora menyang panggonan liya. Separo private tetep ana ing Panyiapan &gt; Rahasia; mung separo publike sing ditampilake.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Kunci deploy sing digawe kanggo tujuan iki</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Kunci deploy mlebu liwat SSH: ganti alamat git dadi alamat SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Ana tugas sing lagi mlaku, diwiwiti dening %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Tugas kanggo tujuan iki isih mlaku (%detail). Enteni nganti rampung.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Tugas kanggo tujuan iki isih mlaku. Enteni nganti rampung.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Pranala saka kaca /news/ menyang kaca /about-us/team bakal ditulis dadi</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Kunci deploy anyar wis digawe. Tambahake separo publike menyang repositori saiki.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Kaca sing isih ngemot output debug, token formulir utawa id sesi sawise diresiki ora bakal diterbitake.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Pambalekan iku kanggo ahli: centhang &quot;Aku ngerti apa sing diowahi&quot; lan ketik jeneng tag maneh.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Sawijining situs oleh nganti %site, siji berkas nganti %file, kanthi lalu lintas watara 100 GB saben sasi. Ing paket gratis, repositori kudu publik. GitHub Pages ora ditujokake kanggo toko utawa transaksi komersial liyane.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Tujuan yaiku siji situs sing diterbitake menyang siji repositori git. Ora ana sing di-build utawa diterbitake ing kene: Simpen nulis setelan menyang settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Tujuan yaiku siji situs sing diterbitake menyang siji panggonan, contone situs publik panjenengan ing GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token saka Panyiapan &gt; Rahasia</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Alur kerja repositori sing nerbitake.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Tambahake kunci publik iki menyang repositori kanthi akses nulis. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, centhang Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Ditambahake</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Host git liyane</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Proses liya lagi nggarap tujuan iki: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Bali</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Dalan dhasar</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Sadurunge</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Ing sangisore dalan dhasar</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Cabang</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Pranala rusak</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Pranala rusak ing build</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Build</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Build %id dening %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Build kanggo %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Build saiki</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Build kanggo dipriksa</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Dening</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Kanthi manual, ing kene</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Batal</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Owahi</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Diowahi</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Owah-owahan</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Priksa dhisik</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Priksa setelan iki</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Priksa apa sing diowahi build, deleng asile, banjur terbitake utawa buang.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Pilih terbitan sing arep dibalekake.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Bakal teka ing rilis sabanjure.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Komit</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Komit</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Nindakake komit build, menehi tag lan nindakake push menyang %remote. Push ora tau dipeksa; panjenengan bisa bali menyang terbitan apa wae mengko.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Dibandhingake karo folder sadurunge: %added ditambahake, %changed diowahi, %removed dibusak, %unchanged ora owah.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Dibandhingake karo terbitan pungkasan.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kredensial</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domain khusus</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Output debug, token formulir, id sesi lan nonce tansah dibusak.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Kunci deploy</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Kunci deploy %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Buang</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Buang build</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domain</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Kosong: alamat situs. Yen ora, alamat internal saka situs sing padha.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Rampung</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Saben pranala diwiwiti nganggo dalan dhasar.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Saben terbitan yaiku komit kanthi tag static/%id/&lt;n&gt;. Bali menyang terbitan sadurunge nggawe komit anyar kanthi berkas saka terbitan kasebut: riwayat tetep ana, ora ana tag sing pindhah lan ora ana sing dipeksa.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Tambahan</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Jupuk kaca saka</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Berkas</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Berkas-berkas</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Berkas ilang</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Berkas saka</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Berkas sing ora bisa diklumpukake</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Sidik driji</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Folder</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Kanggo alamat SSH. Kunci digawe sawise disimpen; panjenengan nambahake separo publike menyang repositori.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Kanggo alamat https://. GitHub: token fine-grained kanthi ijin Contents maca lan nulis ing repositori.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Kanggo ahli. Situs publik owah sanalika push rampung.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulir</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Hosting gratis saka repositori GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Saka cabang</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Alamat git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages ngidini situs nganti %site lan berkas nganti %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Watesan GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages nerbitake berkas apa anane (dibutuhake kanggo berkas sing diwiwiti _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub nyajekake cabang kaya nalika di-push. Gawan.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, server panjenengan dhewe: repositori git apa wae.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Bali menyang terbitan sadurunge</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Pitulung</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Pitulung kanggo panuntun</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Dhelikake</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Riwayat</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Riwayat %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Panyedhiya hosting</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Carane GitHub Pages nampa build</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Aku wis mriksa owah-owahane</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Aku ngerti apa sing diowahi</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Fitur iki dipateni: ora ana sing bisa di-build nganti diuripake.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Mlaku ing latar mburi minangka %user; panjenengan bisa nutup kaca iki.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Tugas %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Disimpen minangka rahasia %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Jinis</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Terbitan pungkasan</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Aja lebokake kaca iki</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Aja lebokake bagean iki</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Pranala</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Pranala ditulis ulang</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Situs langsung</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Deleng build</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Aksara cilik, angka, _ lan -, contone github-public. Iki dadi jeneng folder lan tag (static/&lt;id&gt;/&lt;n&gt;) lan ora bisa diowahi mengko.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Gawe kunci anyar</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Gawe tujuan</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Gawe kunci</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Gawe repositori ing host dhisik; repositori kosong ora apa-apa.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifes</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Pesen</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Umume kaca</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jeneng</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Jeneng token ing Panyiapan &gt; Rahasia</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Tujuan anyar</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Sabanjure</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ora</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Durung ana komit.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Ora ana kunci sing digawe: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ora ditemokake biner baris prentah php. Setel migration.ini [AdminSettings] PhpCliPath menyang dalan lengkape.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Durung ana tag.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Durung ana tujuan.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ora ana</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ora ana ing build.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Durung ana sing diterbitake.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Durung ana sing diterbitake: saben berkas anyar.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Kabari</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Miturut jadwal</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Ing konsol</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Ing server: ./console exp:static:serve %id nyajekake kanthi cara sing padha.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Siji dalan saben baris, * cocog karo bagean apa wae: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Mung jeneng sing disimpen bebarengan karo tujuan; token utawa kunci dhewe tetep ana ing Panyiapan &gt; Rahasia lan ora tau katon ing log.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Mung sing disebut dening kaca</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Mung nganggo token. Minangka gantine, env:NAME maca variabel lingkungan server.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Bukak pratinjau</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Mbukak build kaya sing bakal disajekake host, saka folder tujuan. Pranala iki mlaku kanggo panjenengan sajrone sejam.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Opsional. Kosong: apa sing wis diterbitake.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Opsional. Nganggo domain, situs disajekake ing oyode.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Asil output</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Kaca</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Kaca saka tujuan</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Kaca sing ditolak</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Pasca-pangolahan</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Pratinjau</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Pratinjau lan terbitake</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Pratinjau lan terbitake %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Pratinjau build</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Kemajuan</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Alamat publik</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Kunci publik</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Terbitake</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Terbitake salinan statis sawijining situs menyang GitHub Pages utawa host git apa wae: build, priksa owah-owahane, terbitake, lan bali menyang terbitan sadurunge yen perlu.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Terbitan sing dibalekake</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Terbitan</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Dorong</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Waca tutorial</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Cathetan</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Ditolak</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relatif</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Emot maneh</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Dibusak</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Ganti kunci: kunci lawas mandheg mlaku</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Laporan</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Laporan build</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repositori</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Tinjau</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Tinjauan mriksa saben setelan lan nampilake baris sing bakal ditulis. Durung ana sing disimpen.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Balekake</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Pambalekan</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Simpen</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Jadwal</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Kaca panelusuran</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Id bagean, dipisah nganggo koma.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Kirim menyang situs langsung</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Setelan</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Setelan</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Setelan %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Panyiapan</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Panyiapan &gt; Rahasia</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Ditampilake ing dhaptar, contone &quot;Situs publik ing GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Mlebu nganggo GitHub App bakal teka bebarengan karo integrasi GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Situs</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Situs sing arep diterbitake</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ukuran</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Ukuran lan watesan</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Ukuran build</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Kaca sing wis lawas</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Diwiwiti</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Diwiwiti dening %user jam %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kahanan</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Panerbitan statis</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Panerbitan statis dipateni</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Panerbitan statis dipateni.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Panerbitan statis dipateni. Uripake dhisik ing Panyiapan &gt; Panerbitan statis.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Panerbitan statis diuripake.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Langkah %step saka %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Langkah-langkah</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Pangresikan</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Pateni</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Uripake</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Uripake panerbitan statis</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Label tag</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Label tag</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Tujuan</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Tujuan bisa digawe lan diowahi, nanging ora ana sing di-build utawa diterbitake nganti fitur iki diuripake.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Ngandhani mesin telusur apa sing kudu diwaca.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Build ora bisa dibuang: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Build padha karo terbitan pungkasan: ora ana sing kudu diterbitake.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Build wis dibuang: folder isine terbitan pungkasan maneh.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Setelan gawan cocog kanggo umume situs.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Folder isine build sing durung diterbitake; build anyar bakal ngganti.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Folder tugas ora bisa ditulisi: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Tugas ora bisa disiapake: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Tugas ora bisa diwiwiti.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Tugas wis rampung. Ngemot laporane.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Tugas mbutuhake panganggo sing wis mlebu.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Tugas wis diwiwiti nanging ora nglaporake id prosese. Priksa %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Kunci</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Berkas paling gedhe: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Baris sing bakal ditulis</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Dhaptar kaca kanggo mesin telusur; mbutuhake alamat publik.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Kaca dijupuk kaya sing dideleng pengunjung sing durung mlebu. Siteaccess administrasi lan panyuntingan ora tau ditawakake.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Kemajuan ora bisa dietutake. Emot maneh kacane kanggo ndeleng kepiye tugase.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Separo publik saka kunci:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Oyod cabang</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Panyimpenan rahasia durung disiapake (./console exp:upgrade --apply nggawe tabele), dadi ora ana kunci sing bisa disimpen.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Server mlebu dhewe (nganggo kunci SSH utawa credential helper dhewe), utawa repositori ana ing server iki.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Setelan ora bisa ditulis: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Setelan valid. Baris iki bakal ditulis:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Berkas setelan ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Situs bali menyang berkas saka terbitan kasebut; build sing durung diterbitake kudu diterbitake utawa dibuang dhisik.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Kaca situs dhewe kanggo alamat sing ora ana.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Tujuan ora bisa disimpen: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Tujuan durung mlebu nganggo kunci iki: pilih &quot;Kunci deploy sing digawe kanggo tujuan iki&quot; ing setelane.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Tujuan ora bisa diwaca: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Durung ana build kanggo dipriksa.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Instalasi iki ora nduweni siteaccess ngarep. Siteaccess administrasi lan panyuntingan ora tau diterbitake.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Kaca iki ngetutake tugas sajrone mlaku; tugas tetep mlaku ing latar mburi yen kaca ditutup.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Tujuan iki durung nduweni kunci deploy.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Tujuan iki durung tau di-build ing kene.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Tujuan iki wis nduweni.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Mbuang build iki: folder isine terbitan pungkasan maneh. Situs langsung ora owah.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Centhang &quot;Aku wis mriksa owah-owahane&quot; dhisik.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Wektu</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Pemicu</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Ketik jeneng tag maneh</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Ora owah</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Apa</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Apa sing owah</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Jinis saben berkas; tansah ditulis.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Apa sing ditindakake tugas lan cathetane. Tugas sing diwiwiti ing kene tetep mlaku ing latar mburi yen kaca iki ditutup.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Apa sing dicithak tugas minangka kesalahan</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Sing disebut dening kaca, lan saben gambar saka konten sing wis diterbitake</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kapan</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Yen panerbitan gagal</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Yen panerbitan kasil</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Yen konten diterbitake</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Menyang ngendi pranala tumuju kanggo bab sing ora ana ing salinan (panelusuran, login).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Panggonan salinan statis disajekake.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Situs endi sing diterbitake, lan apa jeneng tujuane.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Mlaku ing sangisore dalan apa wae. Gawan.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Ditulis saben domain khusus disetel.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ya</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Panjenengan tansah bisa nindakake build lan nerbitake kanthi manual ing kene lan ing konsol.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>mung jeneng; regane tetep ana ing Panyiapan &gt; Rahasia</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ing sangisore %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>rampung tanpa laporan</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>tambahan</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>gagal</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>berkas</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, utawa main nganggo folder docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>host git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (nganggo token) utawa git@github.com:owner/repo.git (nganggo kunci deploy); aja nganti ana sandhi utawa token ing kono.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, kanggo sitemap lan pranala kanonis.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>gambar</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ora tau</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ora</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ora ana remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ora ana: komit tetep ing folder</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ora ana: ora ana sing owah</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>durung di-push</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ora ana sing owah</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>kaca</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>kasil</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open dipateni, dadi tugas ora bisa diwiwiti ing kene. Gunakake ./console exp:static:build ing server.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>terbitan</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>diterbitake</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>push ditundha</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>wis di-push</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ditolak</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relatif</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>pambalekan</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>dibalekake</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>lagi mlaku</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>mung folder</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: ditulis menyang berkas CNAME. Arahake DNS domain menyang host miturut pituduhe; HTTPS bisa mbutuhake wektu kanggo urip.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ya, durung diterbitake</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Sawijining GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Alur kerja repositori sing nerbitake. Build nulis berkas alur kerja; folder ditinggal kosong.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Sawise target disimpen kanthi repositori GitHub lan token utawa GitHub App, langkah iki bisa nggawe repositori lan nguripake GitHub Pages. Yen ora, gawe repositori ing GitHub dhisik; repositori kosong ya ora apa-apa.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Cabang utawa GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Priksa DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Gawe repositori yen durung ana</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Gawe repositori ing GitHub lan uripake GitHub Pages ing setelane (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Nggawe repositori %repo yen durung ana (yen dijaluk), nguripake GitHub Pages saka cabang utawa saka GitHub Actions kaya sing disimpen, lan nyetel domain khusus lan HTTPS. Nganggo setelan sing wis disimpen: simpen owah-owahan dhisik.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Rincian ing GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Lebokake domain khusus dhisik.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Saben push dipriksa dhisik miturut watesan iki.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Kanggo alamat https:// ing GitHub. App sing disetel kanggo instalasi iki sing mlebu; butuh id instalasi.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages mung nyedhiyakake repositori pribadi ing paket mbayar.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdomain (www.example.com) butuh rekaman CNAME menyang &lt;owner&gt;.github.io; domain apex (example.com) rekaman A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id instalasi GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Build Pages pungkasan</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Watesan lan katemtuan</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Dibutuhake kanggo GitHub Pages ing paket gratis.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Ing GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Mung nganggo GitHub App: nomer ing pungkasan alamat instalasi App ing GitHub. App dhewe disetel ing staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Pribadi</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Umum</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Simpen target kanthi repositori GitHub lan token utawa GitHub App dhisik.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Setel rekaman iki ing panyedhiya domain:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Setel ing GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS %domain durung ngarah menyang GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS %domain wis ngarah menyang GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Integrasi GitHub ora kasedhiya ing kene: %problem. Nerbitake menyang cabang tetep bisa; uripake GitHub Pages ing setelan repositori.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Langkah GitHub ora kasedhiya kanggo target iki: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Kahanan GitHub Pages ditampilake yen kredensiale token utawa GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Nganggo domain panjenengan dhewe</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Sing endi dipilih: token, kunci deploy utawa GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Kanthi repositori GitHub lan token utawa GitHub App, panuntun bisa nggawe repositori, nguripake GitHub Pages lan nyetel domain kanggo panjenengan (langkah 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>lagi di-build</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>wis di-build</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>saka GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>saka cabang %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>durung ana</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ora ditemokake</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>mati</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>pribadi</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>umum</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ngantri</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ora dingerteni</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count saka %pages kaca:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Berkas .gz (lan .br) ing jejere saben berkas teks, kanggo host sing nyuguhake.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Kaca cilik kanggo saben alamat lawas lan alias kaca, supaya pranala lawas tetep mlaku.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Mesthi ditulis nalika GitHub Actions ngirim situs.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>ID SPDX kayata CC-BY-4.0, utawa teks kuwi dhewe.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Kranjang</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Panyuwunan menyang server</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentar</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formulir sing nglumpukake informasi</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Workflow GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Spasi kosong luwih sithik lan tanpa komentar ing kaca.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Lisensi isi</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Mlebu</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Cilikake</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Formulir liyane</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Prakompresi</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Kaca pangalihan</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Kaca pangalihan: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Golek</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Indeks panelusuran: %pages kaca ing %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Lembar gaya lan skrip sing dijenengi miturut hash isine, supaya panjelajah bisa nyimpen.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Kaca sing owah, sawetara menit sawise owah-owahan pungkasan (bagean cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Lisensi isi, saka kolom ing ngisor.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Kabeh situs, ing wektu jadwal (bagean cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Bagean kaca iki mbutuhake server; saben-saben entuk cadhangan. Priksa sadurunge nerbitake.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Sing ora bisa mlaku kanthi statis</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Apa repositori kuwi, kanggo sing mbukak ing host.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>dilewati</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>teks cadhangan</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>titik pungkasan formulir situs langsung</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>situs langsung</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>kaca panelusuran salinan</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formulir ora bisa dikirim.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Matur nuwun: formulir wis dikirim.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Formulir ora ditampa: priksa isiane lan kirimen manèh.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Busak pranala menyang kaca sing ora ana ing salinan</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Busak pranala menyang administrasi</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Teksé tetep ana. Gambar, formulir lan pranala menyang situs liya ora tau dibusak.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versi</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Akses situs sing arep diterbitake</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Akses situs</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Ing oyod</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Ora ana akses situs ing oyod: saben siji ana ing foldere, lan oyod nyambung menyang kabeh</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Akses situs</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Centhang siji akses situs, utawa sawetara sing nuduhake siji host liwat prefiks URI-ne. Sing ing oyod disajekake ing kana, liyane ing folder prefikse (/ger/); pranala ing antarane tetep ana ing salinan. Akses situs administrasi ora tau ditawakake.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Publikasi statis %target gagal ing %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Publikasi statis %target kasil ing %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Email iki dikirim dening %site amarga target publikasi statis %target njaluk.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Panyebaran %deploy gagal ing %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Panyebaran %deploy ngenteni ing gerbang ing %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Panyebaran %deploy kasil ing %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Layang iki dikirim dening %site amarga migration.ini [RemoteSettings] Notify[] njaluk mangkono.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Jinis data (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Diétung %time, maneh sawisé %minutes menit</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Jinis data nyimpen lan nyunting siji jinis nilai saka atribut kelas: larik teks, gambar, relasi. Inti nggawa akèh-akèhé, ekstensi nambahi liyané. Ing kéné kabèh ana, sapa sing nyedhiyakaké lan sepira akèhé isi sing nggunakaké. Jinis data sing dienggo basis data nanging wis ora didaftar apa-apa ngrusak isi sing nduwèni.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Klompok kelas</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Étung maneh saiki tinimbang nggunakaké étungan menit-menit pungkasan.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Étung maneh</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ringkesan</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Kadhaptar</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Lagi digunakake</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ora dienggo</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Ekstensi sing nyedhiyakaké jinis data</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Atribut kelas</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Atribut objek</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Ora kadaftar</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Kadaftar, berkas ilang</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count jinis data dienggo nanging ora kadaftar</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes atribut kelas lan %object_attributes atribut objek nduwèni jinis data sing ora didaftar déning ekstensi utawa setelan apa wae. Objeké ora bisa ditampilaké, disunting utawa diterbitaké. Aktifaké ekstensi sing nyedhiyakaké jinis data kasebut, utawa owahi kelasé.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Tampilaké mung iki</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Golèk jinis data</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Pengenal, jeneng, kelas PHP utawa ekstensi.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Tampilake</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kabeh</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Disedhiyakaké déning</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Kabeh wong</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Inti</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ora ana jinis data sing cocog karo saringan iki.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tampilake kabeh</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Ekstensi</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown saka %count jinis data, %used dienggo</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Basis data nduwèni atribut kelas utawa objek saka jinis data iki, nanging content.ini ora nyathet siji wae, utawa berkasé ilang.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Jinis data saka %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Jinis data</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Kelas PHP lan berkas</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Kelas</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objek</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Tandha sipat</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ora ana</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ora ana jinis data sing cocog karo panggolèkan. Busak panggolèkan.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown saka %count jinis data ditampilaké</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Jinis data sing ditampilaké: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Urutake miturut %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Diétung %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Kabèh jinis data</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Kaca pitulung</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Jinis data iki dienggo nanging ora kadaftar</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Objek saka kelas ing ngisor iki ora bisa ditampilaké, disunting utawa diterbitaké salawasé ora ana ekstensi sing ndaftar jinis data kasebut. Aktifaké ekstensi sing nyedhiyakaké lan tambahaké menyang content.ini [DataTypeSettings] AvailableDataTypes[], utawa owahi kelasé.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini nyathet jinis data iki, nanging ora ana direktori jinis data sing nduwèni berkasé. Ora ana sing nggunakaké; busak saka AvailableDataTypes[] utawa aktifaké ekstensiné.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Babagan jinis data iki</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Pengenal</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Jeneng</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Ekstensi %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ora ana</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Kelas PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Berkas</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Ing AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ya</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ora</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Kolom nilainé</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Kolom setelan atribut kelasé</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabel</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Kolom lan tabel ditemokaké kanthi maca kode jinis data: pandhuan, dudu janji.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Cithakan</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Akses situs</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Cithakan</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Ditemokake ing</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>administrasi iki</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>situs gawan</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Tanpa override: cithakan override sing cocog miturut kelas utawa atribut luwih diutamakaké tinimbang iki.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Kelas sing nggunakaké (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ora ana kelas sing nduwèni atribut jinis data iki.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Kelas</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Atribut kelas (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Setelan</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Wajib</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Bisa digoleki</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Bisa diterjemahake</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Ngempalake informasi</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Sawetara isi sing nggunakaké</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Sing pungkasan diowahi dhisik</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Diowahi</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Simpul %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Saben terjemahan nduwèni nilai dhéwé.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Panggolèkan ngindeks nilai-nilainé.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Bisa nglumpukaké informasi saka pengunjung (formulir).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Dhaptar bisa diurutaké miturut iki: kunci urutan %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Bisa diurutake</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Nilai-nilainé nuduhaké objek liya.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Sesambungan</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Bisa diisi saka teks biasa (impor, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Saka teks</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Bisa diisi saka berkas.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Saka berkas</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Setelan atribut kelasé mlebu ing paket.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paket</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Isi (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from nganti %to saka %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Saring dhaptar</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Kabeh kelas</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksi</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Basa</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Sing nduwe</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Diterbitake</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Walikake urutan</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ora ana item</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Saben kaca</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Tampilake %count item saben kaca.</translation>
     </message>
 </context>
 </TS>

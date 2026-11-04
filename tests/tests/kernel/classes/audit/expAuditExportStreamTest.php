@@ -19,7 +19,7 @@
  *
  * Run: sudo -u alpha php vendor/bin/phpunit tests/tests/kernel/classes/audit/expAuditExportStreamTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group audit
@@ -27,6 +27,7 @@
 
 require_once __DIR__ . '/fixtures/expaudittestfixtures.php';
 
+#[\PHPUnit\Framework\Attributes\Group('audit')]
 class expAuditExportStreamTest extends PHPUnit\Framework\TestCase
 {
     const CHANNELS = array( 't393content', 't393access', 't393system' );
@@ -61,8 +62,7 @@ class expAuditExportStreamTest extends PHPUnit\Framework\TestCase
                 $script->initialize();
             }
             eZExecution::setCleanExit();
-            if ( !eZDB::instance()->isConnected() )
-                throw new RuntimeException( 'no database connection' );
+            ezpLiveInstallation::installedSiteDatabase();
             if ( !class_exists( 'expAuditExportStream' ) )
                 throw new RuntimeException( 'expAuditExportStream is not in the autoload array (php bin/php/ezpgenerateautoloads.php -k)' );
             if ( !expAuditIndexSchema::isInstalled() )

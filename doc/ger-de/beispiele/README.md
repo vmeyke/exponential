@@ -12,6 +12,21 @@ type: example
 
 Dieser Bereich enthält Beispiele, die Sie in eine echte Installation übernehmen können. Es gibt drei Arten:
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](webserver/nginx.md), [LiteSpeed](webserver/litespeed.md), [Caddy](webserver/caddy.md), [IIS](webserver/iis.md),
+> [Velocity](webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hilfe/hosting/control-panels/plesk.md), [cPanel](../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../anleitungen/seiten-cache-mit-litespeed.md).
+
 - **[Webserver-Beispiele](webserver/README.md)**: vollständige Konfigurationen für Exponential Velocity, Apache
   (`.htaccess` und virtueller Host), nginx, Caddy, FrankenPHP, LiteSpeed, IIS und PHP-FPM. Jede leitet Anfragen
   genauso weiter wie die ausgelieferte `.htaccess_root`. Die Syntax jeder Konfiguration wurde geprüft, die meisten
@@ -46,6 +61,12 @@ und wiederholt sie nicht.
 `staticcache_offload.conf` ergänzt Regeln, die Seiten direkt aus dem statischen Cache ausliefern. Siehe
 [Apache .htaccess](webserver/apache-htaccess.md).
 
+Die mitgelieferten Vorlagen `.htaccess_root` (oder `.htaccess_root_static`) und `config.php-RECOMMENDED` bringen
+`./console exp:setup:htaccess --apply` und `./console exp:setup:config --apply` an ihren Platz, und `config.php` wird
+mit `./console exp:config:set` bearbeitet: siehe
+[.htaccess und config.php von der Konsole einrichten](../anleitungen/setup-dateien-von-der-konsole.md) und die
+erzeugten Seiten [exp:setupfiles](befehle/setupfiles.md) und [exp:configphp](befehle/configphp.md).
+
 ## Aus dem Code erzeugte Referenzbeispiele
 
 | Bereich | Was jede Seite enthält |
@@ -61,6 +82,7 @@ und wiederholt sie nicht.
 | [Cronjob-Skripte und -Teile](cronjobs/README.md) | Was jedes Skript tut, seine Teile und wie man es ausführt und zeitlich plant |
 | [Konsolenbefehle](befehle/README.md) | Jeder Befehl `./console exp:*` mit Hilfetext, Optionen und Aliasen |
 | [Erweiterungspunkte](erweiterungspunkte/README.md) | INI-Listen von Handlern, Klassen und Verzeichnissen, die eine Erweiterung ergänzen kann |
+| [Schritttypen von Migrationen](migrationsschritte/README.md) | Jeder Schritttyp von YAML-Migrationen mit Modi, Schlüsseln, Referenzwerten und einem Beispiel |
 
 Die Hilfe listet diese Seiten in Ordnern. Ein Ordner klappt in der Navigation auf, sobald Sie auf einer seiner Seiten
 sind; seine Übersichtsseite verlinkt jede Seite darin. In der Suche stehen sie unter den geschriebenen Anleitungen,

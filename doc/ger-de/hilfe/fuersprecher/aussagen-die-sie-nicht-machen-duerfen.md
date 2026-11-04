@@ -39,7 +39,7 @@ gibt es in der Dokumentation keine Quelle; die rechte Spalte sagt, was Sie statt
 | „Marktanteil“, „am beliebtesten“, „Nummer eins“ | Keine Quelle | Lassen Sie es weg |
 | Jede Zahl, die Sie im Kopf haben, aber nicht finden | Zahlen ändern sich mit Releases | Schlagen Sie sie unter [Wo die Fakten stehen](wo-die-fakten-stehen.md) nach |
 
-Die Zahlen, die **dokumentiert** sind (etwa 268 Locale-Dateien, 15 Releases 6.0.x, 66 benötigte Pakete), haben ein
+Die Zahlen, die **dokumentiert** sind (etwa 368 Locale-Dateien, 15 Releases 6.0.x, 66 benötigte Pakete), haben ein
 Datum; Zahlen ändern sich, also zitieren Sie die Seite, nicht Ihr Gedächtnis ([Wer ist 7x?, 7x in Zahlen](../wer-ist-7x.md#7x-in-zahlen)).
 
 ## Sicherheit und Compliance
@@ -58,7 +58,7 @@ Datum; Zahlen ändern sich, also zitieren Sie die Seite, nicht Ihr Gedächtnis (
 |---|---|
 | „Das große Unternehmen X nutzt es.“ | Nur mit schriftlicher Zustimmung dieser Organisation ([Eine Community-Fallstudie schreiben](eine-community-fallstudie-schreiben.md)) |
 | „Von eZ Systems oder Ibexa empfohlen“, „offizieller Nachfolger“ | „Steht in keiner Verbindung zu eZ Systems oder Ibexa“ ([Wer ist 7x?, Kurz gesagt](../wer-ist-7x.md#kurz-gesagt)) |
-| „7x gehört Exponential.“ | „7x leitet es; 7x und die Exponential Foundation halten das Copyright; die Lizenz ist die GPL.“ |
+| „7x gehört Exponential.“ | „7x leitet es; die Exponential Foundation und 7x halten das Copyright; die Lizenz ist die GPL.“ |
 | „Der Vorstand der Foundation ist ...“ | „Die Governance der Foundation ist in den Quellen nicht dokumentiert.“ |
 | „Wir“ (als wären Sie 7x oder die Foundation) | „Ich“, es sei denn, diese haben Sie gebeten, für sie zu sprechen ([Offenlegung](offenlegung-und-interessenkonflikte.md)) |
 
@@ -66,7 +66,7 @@ Datum; Zahlen ändern sich, also zitieren Sie die Seite, nicht Ihr Gedächtnis (
 
 | Sagen Sie nicht | Sagen Sie stattdessen |
 |---|---|
-| „6.0.15 erscheint am Datum X.“ | „6.0.15 ist in Entwicklung; Releases werden angekündigt, wenn sie getaggt sind.“ |
+| „6.0.15 erscheint am Datum X.“ | „6.0.15 ist die aktuelle Linie von Exponential 6.0; Releases werden angekündigt, wenn sie getaggt sind.“ |
 | „Funktion Y kommt.“ | „Ich habe sie nicht dokumentiert gesehen. Prüfen Sie das Änderungsprotokoll und den Issue-Tracker.“ |
 | „Es wird N Jahre unterstützt.“ | „Hier ist die Support-Zusage, wie sie dokumentiert ist“ ([Die Support-Zusage](../wer-ist-die-exponential-foundation.md#die-zusage-zur-unterstützung)) |
 | „Es wird nie verschwinden.“ | „Die Lizenz erlaubt jedem, den Code zu behalten und zu pflegen.“ |

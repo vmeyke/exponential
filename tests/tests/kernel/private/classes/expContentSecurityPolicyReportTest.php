@@ -17,12 +17,13 @@
  *  CSPR-07  the form token check leaves a report to csp/report alone, and nothing else
  *  CSPR-08  the view answers a status without a body and never prints the report
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group kernel
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class expContentSecurityPolicyReportTest extends PHPUnit\Framework\TestCase
 {
     /** @var string */

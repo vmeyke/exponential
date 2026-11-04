@@ -10,11 +10,11 @@ generated: exp:help:examples
 ---
 # velocity.ini
 
-The shipped settings of `settings/velocity.ini`: 13 blocks, 128 settings.
+The shipped settings of `settings/velocity.ini`: 13 blocks, 134 settings.
 
 | Block | Settings |
 |---|---|
-| [ServerSettings](ServerSettings.md) | 43 |
+| [ServerSettings](ServerSettings.md) | 48 |
 | [LogSettings](LogSettings.md) | 7 |
 | [CacheSettings](CacheSettings.md) | 15 |
 | [LayoutSettings](LayoutSettings.md) | 3 |
@@ -23,7 +23,7 @@ The shipped settings of `settings/velocity.ini`: 13 blocks, 128 settings.
 | [PHPSettings](PHPSettings.md) | 1 |
 | [ApplicationSettings](ApplicationSettings.md) | 2 |
 | [ControlSettings](ControlSettings.md) | 4 |
-| [DeploySettings](DeploySettings.md) | 3 |
+| [DeploySettings](DeploySettings.md) | 4 |
 | [WatchdogSettings](WatchdogSettings.md) | 6 |
 | [FrankenPHPSettings](FrankenPHPSettings.md) | 28 |
 | [PHPServerSettings](PHPServerSettings.md) | 8 |

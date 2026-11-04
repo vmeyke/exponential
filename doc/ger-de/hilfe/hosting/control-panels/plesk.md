@@ -15,6 +15,21 @@ ist das Panel, das das Projekt selbst nutzt: Sein Entwicklungsserver ist AlmaLin
 von Plesk aufgebaut sind, wie Sie eine Domain für Exponential einrichten, was Sie nach einer Änderung neu laden, wie Zertifikate, Logs
 und Cron dort funktionieren und wie Velocity neben Plesk läuft.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../../beispiele/webserver/nginx.md), [LiteSpeed](../../../beispiele/webserver/litespeed.md), [Caddy](../../../beispiele/webserver/caddy.md), [IIS](../../../beispiele/webserver/iis.md),
+> [Velocity](../../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](plesk.md), [cPanel](cpanel.md), [DirectAdmin](directadmin.md), [ISPConfig](ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../../anleitungen/seiten-cache-mit-litespeed.md).
+
 Jedes Detail zu Plesk auf dieser Seite stammt aus den im Text zitierten Quellen von Exponential. Für alles andere in Plesk lesen Sie
 in der Dokumentation von Plesk nach.
 
@@ -76,6 +91,24 @@ Dateien nicht. In Plesk:
 cd /var/www/vhosts/<domain>/<docroot>
 cp .htaccess_root .htaccess
 ```
+
+Oder lassen Sie die Konsole kopieren und bringen Sie `config.php` auf dieselbe Weise an ihren Platz. Im **SSH-Terminal**
+von Plesk (oder per SSH-Anmeldung) als Systembenutzer des Abonnements, mit dem PHP der Domain:
+
+```bash
+cd /var/www/vhosts/<domain>/<docroot>
+/opt/plesk/php/<version>/bin/php bin/php/console exp:setup:status
+/opt/plesk/php/<version>/bin/php bin/php/console exp:setup:htaccess --apply    # .htaccess_root -> .htaccess
+/opt/plesk/php/<version>/bin/php bin/php/console exp:setup:config --apply      # config.php-RECOMMENDED -> config.php
+```
+
+Die Dateien gehören dann dem Benutzer des Abonnements, wie alles andere im Docroot. Als root braucht jeder Befehl
+`--allow-root-user`; eine neue Datei erhält den Eigentümer der Vorlage (niemals root), und
+`--owner=<abonnement-benutzer>:psacln` setzt ihn ausdrücklich. Ohne `--apply` wird nichts geschrieben, und eine
+vorhandene, abweichende Datei wird als Diff gezeigt und behalten, solange Sie nicht `--force` angeben (die alte kommt
+vorher nach `var/backup/setup/<zeit>/`). Der **Dateimanager** von Plesk kann die einfache Kopie ebenfalls anlegen,
+übernimmt aber den Modus nicht und zeigt keinen Diff. Alles dazu:
+[.htaccess und config.php von der Konsole einrichten](../../../anleitungen/setup-dateien-von-der-konsole.md).
 
 Die PHP-Werte, die der Setup-Assistent prüft (`memory_limit` 64M oder mehr, `max_execution_time` 30 oder mehr, `date.timezone`,
 `file_uploads`, `allow_url_fopen`), werden in den PHP-Einstellungen der Domain gesetzt
@@ -191,7 +224,15 @@ Der Entwicklungsserver betreibt Velocity neben dem Apache von Plesk auf derselbe
 ## Checkliste
 
 - [ ] PHP-Version der Domain 8.0 oder später (auch für Velocity); „FPM application served by Apache“.
-- [ ] Document Root = Wurzelverzeichnis der Installation; `.htaccess` aus `.htaccess_root` kopiert.
+- [ ] Document Root = Wurzelverzeichnis der Installation; `.htaccess` aus `.htaccess_root` kopiert (`exp:setup:status` bestätigt es).
+- [ ] Mit SOAP an: `index_soap.php` in **Zusätzliche Direktiven für HTTPS** (oder `.htaccess`) durchgelassen, nicht nur
+      das alte `soap.php` ([Das SOAP-Einstiegsskript heißt jetzt index_soap.php](../../../bc/6.0/soap-einstiegsskript-index-soap.md#plesk)).
+- [ ] Mit WebDAV an: `index_webdav.php` in **Zusätzliche Direktiven für HTTPS** und **für HTTP** (oder `.htaccess`)
+      durchgelassen, nicht nur das alte `webdav.php`
+      ([Das WebDAV-Einstiegsskript heißt jetzt index_webdav.php](../../../bc/6.0/webdav-einstiegsskript-index-webdav.md#plesk-zusätzliche-apache-anweisungen)).
+- [ ] Nach dem Ändern der Direktiven über HTTPS mit `curl` getestet (SOAP: ein GET von `/index_soap.php?wsdl` antwortet
+      mit `200`; WebDAV: ein `PROPFIND` von `/index_webdav.php/` antwortet mit `207`), nicht mit `404` oder einer Seite
+      der Website.
 - [ ] Composer, Konsole und Cron nutzen `/opt/plesk/php/<version>/bin/php`.
 - [ ] `PhpCliPath` gesetzt; Cron-Zeilen in der Crontab des Benutzers der Domain.
 - [ ] `plesk-php<XY>-fpm` nach Änderungen an PHP neu laden; `PhpFpmService` in `exp:velocity deploy --dry-run` richtig.
@@ -200,11 +241,14 @@ Der Entwicklungsserver betreibt Velocity neben dem Apache von Plesk auf derselbe
 
 **Eine öffentliche Demo auf Plesk.** Setzen Sie `EXP_DEMO_MODE=1` nur für das Abonnement der Demo: `SetEnv EXP_DEMO_MODE 1` in seiner `.htaccess` (Apache oder LiteSpeed) oder in seinen **Additional Apache directives**, oder `env[EXP_DEMO_MODE] = 1` über die PHP-FPM-Einstellungen der Domain, und eine Zeile `EXP_DEMO_MODE=1` in seinen **Scheduled Tasks**. Plesk betreibt jede PHP-Version mit ihrem eigenen FPM-Master: Laden Sie den der Version der Domain neu. Schritt für Schritt: [Rezept: eine öffentliche Demo auf LiteSpeed und Plesk betreiben](../server/rezept-eine-oeffentliche-demo-auf-litespeed-und-plesk-betreiben.md).
 
+**Der Seiten-Cache von LiteSpeed unter Plesk.** Mit LiteSpeed als Webserver beantwortet sein Seiten-Cache anonyme Besucher und Crawler ohne PHP. Schalten Sie ihn je Website mit dem auskommentierten Block aus `.htaccess_root` ein, oder fügen Sie [`litespeed-page-cache.conf`](../../../../eng-us/examples/web-servers/litespeed-page-cache.conf) in **Additional directives for HTTPS** ein. Bearbeiten Sie `/var/www/vhosts/system/<domain>/conf/vhost_ssl.conf` nie von Hand: Plesk schreibt die Datei aus dem Feld des Panels neu, wann immer es die Konfiguration der Domain neu erzeugt. Schritt für Schritt: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../../anleitungen/seiten-cache-mit-litespeed.md#plesk).
+
 ## Verwandte Seiten
 
 - [Control Panels: Überblick](README.md)
 - [Apache mit PHP-FPM](../server/apache-mit-php-fpm.md), [Velocity neben Apache oder nginx](../server/velocity-neben-apache-oder-nginx.md)
 - [Kapitel 8: Die Website ausliefern](../../../installation/08-die-website-ausliefern.md)
+- [.htaccess und config.php von der Konsole einrichten](../../../anleitungen/setup-dateien-von-der-konsole.md)
 - [Freie Dokumentation](../../freie-dokumentation.md): Diese Seite darf unter der GNU FDL 1.3 frei kopiert, übersetzt und verbessert werden.
 
 <!-- exp-partner-block:start -->

@@ -2,7 +2,7 @@
 /**
  * File containing the expNotificationJob class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -61,8 +61,8 @@ class expNotificationJob
         touch( $dir . '/' . $id . '.jsonl' );
 
         $args = array( $php, 'bin/php/notificationrun.php', '--job=' . $id, '--source=web', '--no-colors' );
-        if ( $dry )
-            $args[] = '--dry-run';
+        // the command is a dry run unless --apply: "Run now" sends, "Dry run" lists
+        $args[] = $dry ? '--dry-run' : '--apply';
         if ( $siteaccess !== '' )
             $args[] = '--siteaccess=' . $siteaccess;
         if ( function_exists( 'posix_geteuid' ) && posix_geteuid() === 0 )

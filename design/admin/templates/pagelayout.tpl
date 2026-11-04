@@ -12,7 +12,7 @@
      $collapse_left_menu   = eq( ezpreference( 'admin_left_menu_collapsed' ), '1' )
      $admin_theme          = ezpreference( 'admin_theme' )
      $left_size_hash       = 0
-     $search_hash          = array( cond( ezhttp_hasvariable( 'SectionID', 'get' ), ezhttp( 'SectionID', 'get' )|int ) )
+     $search_hash          = array( first_set( $search_section_id, -1 )|int )
      $user_hash = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ), ',', $current_user.is_logged_in|choose( 'anonymous', 'user' ) )
      $uri_cache_key        = $module_result.uri
 }
@@ -194,6 +194,9 @@ document.getElementById('header-usermenu-logout').innerHTML += '<span class="hea
 {* Main area START *}
 {if $hide_left_menu}
     <div id="mainarea" role="main" tabindex="-1">
+    {* A recording of changes for a migration that records this user (Setup > Migrations > Recording); in the main
+       column, outside the cache-blocks *}
+    {include uri='design:parts/exp_migration_recording_bar.tpl'}
     {include uri='design:page_mainarea.tpl'}
     </div>
 {else}
@@ -209,6 +212,7 @@ document.getElementById('header-usermenu-logout').innerHTML += '<span class="hea
     </div>
 
     <!-- Maincontent START -->
+    {include uri='design:parts/exp_migration_recording_bar.tpl'}
     {include uri='design:page_mainarea.tpl'}
     <!-- Maincontent END -->
     </div>
@@ -279,5 +283,6 @@ document.getElementById('right-panels-separator').style.insetInlineEnd = (parseI
 <img src={'2/loader.gif'|ezimage()} id="ajaxuploader-loader" alt="{'Loading...'|i18n( 'design/admin/pagelayout' )}" />
 
 
+{include uri='design:pagelayout/hooks/body_end.tpl'}
 </body>
 </html>

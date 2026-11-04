@@ -2,7 +2,7 @@
 /**
  * File containing the eZTemplateCacheBlock class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -17,6 +17,48 @@
 
 class eZTemplateCacheBlock
 {
+    /**
+     * What a cache-block key adds to the siteaccess name for the request being answered: '@' and the access path
+     * when the siteaccess was reached through one (/site under URI matching: '@/site'), then '-' and the UI switch
+     * variant when a switch is applied. Empty for everybody else, so their keys stay as they were.
+     *
+     * One siteaccess can answer at the root of its host (host matching) and below /site (URI matching) at the same
+     * time. Its links differ ('/about' against '/site/about', ezurl adds the access path), so the two must never
+     * share a cache-block: the one rendered first would give its links to the other, and a page at the root would
+     * link below /site until the block expires (a static build of the root then found no page of the site behind
+     * those links). The content view cache already keys on the access path (eZSys::indexFile()).
+     *
+     * @return string
+     */
+    public static function accessSuffix()
+    {
+        $suffix = '';
+        if ( class_exists( 'eZSys' ) )
+        {
+            $withPath = (string)eZSys::indexFile( true );
+            $withoutPath = (string)eZSys::indexFile( false );
+            $path = strpos( $withPath, $withoutPath ) === 0 ? substr( $withPath, strlen( $withoutPath ) ) : $withPath;
+            if ( $path !== '' && $path !== '/' )
+                $suffix .= '@' . $path;
+        }
+        if ( !empty( $GLOBALS['expUISwitchVariantKey'] ) )
+            $suffix .= '-' . $GLOBALS['expUISwitchVariantKey'];
+        return $suffix;
+    }
+
+    /**
+     * The siteaccess part of a cache-block key: the name of the current siteaccess (false without one) with
+     * accessSuffix(), which is only added when it is not empty.
+     *
+     * @return string|false
+     */
+    public static function accessKey()
+    {
+        $accessName = isset( $GLOBALS['eZCurrentAccess']['name'] ) ? $GLOBALS['eZCurrentAccess']['name'] : false;
+        $suffix = self::accessSuffix();
+        return $suffix === '' ? $accessName : $accessName . $suffix;
+    }
+
     /*!
      Helper function for retrieving a cache-block entry which can be used by any custom code.
 
@@ -55,11 +97,37 @@ class eZTemplateCacheBlock
         $nodeID = $subtreeExpiry ? eZTemplateCacheBlock::decodeNodeID( $subtreeExpiry ) : false;
         $cachePath = eZTemplateCacheBlock::cachePath( eZTemplateCacheBlock::keyString( $keys ), $nodeID );
         // A compiled {cache-block keys=...} passes array( keys, placement, siteaccess ): the debug bar names the
-        // template and shows the keys. Custom code (content/treemenu) passes keys of its own.
-        $placement = !empty( $GLOBALS['eZDebugEnabled'] ) && count( $keys ) === 3 && isset( $keys[1] ) && is_string( $keys[1] )
-                     && preg_match( '/^\d+_\d+_\d+_\d+_./', $keys[1] ) ? $keys[1] : false;
-        return eZTemplateCacheBlock::handle( $cachePath, $nodeID, $ttl, $useGlobalExpiry, $placement,
-                                             $placement !== false ? $keys[0] : $keys );
+        // template and shows the keys. A Smarty or Twig {expcacheblock} passes the same, or array( placement,
+        // siteaccess ) without keys, with the placement stpl:<file>:<id> or twig:<file>:<id>. Custom code (content/treemenu) passes keys of its own.
+        $placement = false;
+        $blockKeys = $keys;
+        if ( !empty( $GLOBALS['eZDebugEnabled'] ) || !empty( $GLOBALS['eZDebugCollect'] ) )
+        {
+            if ( count( $keys ) === 3 && isset( $keys[1] ) && is_string( $keys[1] ) &&
+                 ( preg_match( '/^\d+_\d+_\d+_\d+_./', $keys[1] ) || self::isSmartyPlacement( $keys[1] ) ) )
+            {
+                $placement = $keys[1];
+                $blockKeys = $keys[0];
+            }
+            else if ( count( $keys ) === 2 && isset( $keys[0] ) && is_string( $keys[0] ) && self::isSmartyPlacement( $keys[0] ) )
+            {
+                $placement = $keys[0];
+                $blockKeys = null;
+            }
+        }
+        return eZTemplateCacheBlock::handle( $cachePath, $nodeID, $ttl, $useGlobalExpiry, $placement, $blockKeys );
+    }
+
+    /**
+     * Whether $placement is the placement of an {expcacheblock} of another engine: stpl:<template file>:<block id>
+     * (expSmartyCacheBlock) or twig:<template file>:<block id> (expTwigRenderer::cacheBlockStart()).
+     *
+     * @param string $placement
+     * @return bool
+     */
+    static function isSmartyPlacement( $placement )
+    {
+        return ( strncmp( $placement, 'stpl:', 5 ) === 0 || strncmp( $placement, 'twig:', 5 ) === 0 ) && strrpos( $placement, ':' ) > 5;
     }
 
     /**
@@ -94,7 +162,7 @@ class eZTemplateCacheBlock
      */
     static function handle( $cachePath, $nodeID, $ttl, $useGlobalExpiry = true, $placement = false, $keys = null )
     {
-        $noted = !empty( $GLOBALS['eZDebugEnabled'] ) && class_exists( 'expRenderStats' );
+        $noted = ( !empty( $GLOBALS['eZDebugEnabled'] ) || !empty( $GLOBALS['eZDebugCollect'] ) ) && class_exists( 'expRenderStats' );
         if ( $noted )
             $start = microtime( true );
 
@@ -140,7 +208,7 @@ class eZTemplateCacheBlock
     {
         $cacheHandler->storeCache( array( 'scope' => 'template-block', 'binarydata' => $cachedText ) );
         // by the handler handle() returned: a nested block has its own, while the compiled code's $cachePath is shared
-        if ( !empty( $GLOBALS['eZDebugEnabled'] ) && class_exists( 'expRenderStats' ) )
+        if ( ( !empty( $GLOBALS['eZDebugEnabled'] ) || !empty( $GLOBALS['eZDebugCollect'] ) ) && class_exists( 'expRenderStats' ) )
             expRenderStats::noteCacheBlockStored( spl_object_id( $cacheHandler ), strlen( (string)$cachedText ) );
     }
 

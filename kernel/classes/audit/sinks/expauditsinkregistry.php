@@ -15,7 +15,7 @@
  * and system.audit.sink.failed is recorded, at most once per sink per hour. Records of critical severity or above
  * are also tried right after the response on PHP-FPM (fastcgi_finish_request()) and at the end of a command.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -40,12 +40,13 @@ class expAuditSinkRegistry
     /** @var int|null Fixed clock (tests) */
     public static $now = null;
 
-    /** @return array name => class: the configured sinks (the shipped three when nothing is configured) */
+    /** @return array name => class: the configured sinks (the shipped four when nothing is configured) */
     public static function classes()
     {
         $classes = expAuditConfig::hash( 'AuditSinkSettings', 'SinkClasses' );
         if ( !$classes )
-            $classes = array( 'syslog' => 'expAuditSyslogSink', 'webhook' => 'expAuditWebhookSink', 'mail' => 'expAuditMailSink' );
+            $classes = array( 'syslog' => 'expAuditSyslogSink', 'webhook' => 'expAuditWebhookSink', 'mail' => 'expAuditMailSink',
+                              'useraudit' => 'expAuditUserAuditSink' );
         return $classes;
     }
 

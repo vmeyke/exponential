@@ -29,7 +29,7 @@ aliases.
 - **Search** narrows the list by name, id, tag or directory; the **Groups** buttons show one group.
 - The cache files are in `var/`, which Apache with PHP-FPM and Velocity share: clearing a cache here reaches both.
   Two things do not: Velocity keeps settings in memory (restart it after clearing the INI caches) and answers pages
-  from its own response cache for a few seconds (clear it in the last group or with `./console exp:velocity cache clear`).
+  from its own response cache for a few seconds (clear it in the last group or with `./console exp:velocity cache clear --apply`).
 
 ## 1. The overview
 
@@ -83,7 +83,7 @@ The column says when each cache was last cleared and, from the audit trail, by w
 - **INI and settings** (`global_ini`, `ini`, `active_extensions`, `sslzones`): a running Velocity has read the
   settings into memory. After clearing them, run `./console exp:velocity restart --allow-root-user`.
 - **Content, templates and the HTTP cache**: Velocity's response cache can still answer a page made before the
-  clear, for its lifetime (a few seconds on the demonstration server). Clear it with the button or `./console exp:velocity cache clear`.
+  clear, for its lifetime (a few seconds on the demonstration server). Clear it with the button or `./console exp:velocity cache clear --apply`.
 - **OPcache and APCu** belong to the server process that answered; the other server keeps its own.
 
 ## 5. From a shell
@@ -93,7 +93,7 @@ php bin/php/ezcache.php --clear-id=template-block,content --allow-root-user   on
 php bin/php/ezcache.php --clear-tag=template --allow-root-user                 by tag
 php bin/php/ezcache.php --clear-all --allow-root-user                          everything
 ./console exp:cache clear --id=content --dry-run --allow-root-user             what would be cleared, with sizes
-./console exp:velocity cache clear                                            Velocity's response cache
+./console exp:velocity cache clear --apply                                            Velocity's response cache
 ./console exp:velocity restart --allow-root-user                               Velocity, after settings changed
 ```
 
@@ -103,6 +103,12 @@ Each group and each result notice shows the command for exactly the caches it cl
 
 **A page still shows the old version after clearing.** Clear Velocity's response cache, or wait a few seconds. If
 it is a settings change, restart Velocity.
+
+**The site runs on LiteSpeed or OpenLiteSpeed and anonymous visitors still see the old page.** The server's own page
+cache (switched on with the block of `.htaccess_root`) is not cleared from this page: it keeps a page for its
+`max-age` (120 seconds as shipped). Wait, or purge it as
+[Page caching with LiteSpeed and OpenLiteSpeed](litespeed-page-cache.md#purging) describes. A response header
+`X-LiteSpeed-Cache: hit` says the page came from there.
 
 **The log says "Expiring all view cache".** A change touched so many pages that clearing each one would take
 longer than clearing them all: when the view caches of `site.ini [ContentSettings] CacheThreshold` nodes or more
@@ -123,6 +129,22 @@ a debug message); thanks to Mugo Web for LoveStack commit f9691221a3, which made
 clear.
 
 **Measure sizes says "≥".** The three-second budget ran out before every file was counted.
+
+## Smarty templates
+
+Pages made of Smarty templates (`.stpl`) use the same caches, plus Smarty's compiled templates in
+`<cache directory>/smarty/` (cleared with `--clear-id=smarty` and with the template caches). How the caches work for
+them, the whole page kept in one cache block with the visitor's own parts fresh, and what was measured:
+[Smarty templates: caching and performance](smarty-templates-caching.md) and
+[Smarty templates: performance (Speed)](smarty-templates-performance.md).
+
+## Twig templates
+
+Pages made of Twig templates (`.twig`) use the same caches, plus Twig's compiled templates in
+`<cache directory>/twig/` (cleared with `--clear-id=twig` and with the template caches). A cached page never reaches
+the template engine. The cache layers for `.twig`, `{% expcacheblock %}` and the whole page in one block with a fresh
+user menu: [Twig templates: caching](twig-templates-caching.md); the measurements:
+[Twig templates: performance (Speed)](twig-templates-performance.md).
 
 <!-- exp-partner-block:start -->
 **Become an Exponential Partner.** Partners share their information, provide funding, contribute back and

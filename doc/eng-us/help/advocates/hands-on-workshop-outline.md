@@ -23,7 +23,7 @@ check. Every exercise links the documentation page it follows, so participants c
 
 ## Before the workshop
 
-**Participants bring** a laptop with PHP 8.1 or later, Composer and Git, and a GitHub account for the last exercise.
+**Participants bring** a laptop with PHP 8.0 or later (PHP 7.4 usable without support), Composer and Git, and a GitHub account for the last exercise.
 Check the PHP requirement on [Operating system support](../os-support.md#what-the-operating-system-has-to-provide).
 
 **You prepare**:
@@ -82,7 +82,7 @@ sentence) is a better first contribution.
 ```text
 EXPONENTIAL WORKSHOP                                               <date>, <place>
 
-Install            ./console exp:install --dry-run   then   ./console exp:install
+Install            ./console exp:install             then   ./console exp:install --apply
 First sign-in      change the generated password; delete var/log/initial-admin-password
 Help               the "?" in the header of every page; Help center: /exphelp/dashboard
 Exercises          (list with the help page of each)
